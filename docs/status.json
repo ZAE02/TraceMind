@@ -1,12 +1,12 @@
 {
-  "reported_at": "2026-10-29T18:27:06.956886+00:00",
+  "reported_at": "2026-10-29T18:28:53.318435+00:00",
   "version": "0.2.0",
   "dataset": {
     "plans": 20,
     "approved_plans": 20,
     "trajectories": 2,
     "complete_trajectories": 1,
-    "complete_sessions": 7,
+    "complete_sessions": 8,
     "checkpoints": 4,
     "issues": [],
     "complete": false
