@@ -64,7 +64,7 @@ uv run tracemind review init .local/reviews.sqlite3 .local/packets.json reviewer
 uv run tracemind review serve .local/reviews.sqlite3
 ```
 
-[架构与任务恢复](docs/architecture.md) · [数据卡](docs/data_card.md)
+[架构与任务恢复](docs/architecture.md) · [数据卡](docs/data_card.md) · [评测与统计协议](docs/evaluation.md)
 
 新测试组设定、匿名映射和人工表位于忽略提交的 `.local/`。模型合成和评分存在共同偏好，不能称作人工或临床认可。
 

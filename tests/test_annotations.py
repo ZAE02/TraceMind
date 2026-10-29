@@ -1,0 +1,60 @@
+import copy
+
+import pytest
+
+from tracemind.experiments.annotations import FIELDS, advance_annotation
+from tracemind.jobs import digest
+
+
+class Queue:
+    def __init__(self):
+        self.jobs = {}
+
+    def enqueue(self, purpose, role, allowed_context, output_schema):
+        key = digest([purpose, allowed_context])
+        self.jobs.setdefault(key, {"status": "pending", "context": allowed_context})
+        return key
+
+    def get(self, key):
+        return self.jobs[key]
+
+    def complete(self, key, result):
+        self.jobs[key].update(
+            status="completed",
+            result=result,
+            result_sha256=digest(result),
+            provenance={"agent_task": key},
+        )
+
+
+def test_rejected_annotation_repairs_with_new_independent_jobs(tmp_path):
+    cp = {
+        "id": "cp",
+        "previous_sessions": [{"utterances": [{"id": "old", "text": "past"}]}],
+        "current_dialogue": [],
+        "latest_client": {"id": "now", "text": "current"},
+    }
+    queue = Queue()
+    assert advance_annotation(tmp_path, queue, cp) is None
+    draft = {field: [] for field in FIELDS}
+    draft["oracle_evidence_ids"] = ["old"]
+    first = next(iter(queue.jobs))
+    queue.complete(first, draft)
+    assert advance_annotation(tmp_path, queue, cp) is None
+    review = next(key for key, value in queue.jobs.items() if value["status"] == "pending")
+    queue.complete(review, {"approved": False, "issues": ["clarify uncertainty"]})
+    assert advance_annotation(tmp_path, queue, cp) is None
+    repaired = next(key for key, value in queue.jobs.items() if value["status"] == "pending")
+    assert repaired != first
+    assert queue.jobs[repaired]["context"]["previous_issues"] == ["clarify uncertainty"]
+    assert not (tmp_path / "annotations/cp.json").exists()
+    queue.complete(repaired, copy.deepcopy(draft))
+    assert advance_annotation(tmp_path, queue, cp) is None
+    reviewer = next(key for key, value in queue.jobs.items() if value["status"] == "pending")
+    queue.complete(reviewer, {"approved": True, "issues": []})
+    saved = advance_annotation(tmp_path, queue, cp)
+    assert saved["attempt"] == 1 and saved["oracle_approved"]
+    assert advance_annotation(tmp_path, queue, cp) == saved
+    queue.jobs[repaired]["result"]["oracle_evidence_ids"] = []
+    with pytest.raises(ValueError, match="differs from source"):
+        advance_annotation(tmp_path, queue, cp)

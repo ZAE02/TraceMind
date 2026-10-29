@@ -393,3 +393,30 @@ def benchmark_freeze(root: Path, refs: Path):
             "examples": len(manifest["examples"]),
         }
     )
+
+
+@benchmark_app.command("report")
+def benchmark_report(root: Path, split: str = "test"):
+    from .evaluation.metrics import collect_metric_rows
+    from .evaluation.paired import paired_report
+
+    rows = collect_metric_rows(root, split, JobQueue(config.dsn()))
+    if not rows:
+        _print(
+            {
+                "split": split,
+                "status": "pending",
+                "completed_quality_and_access_rows": 0,
+                "outcomes": None,
+            }
+        )
+    else:
+        _print(
+            {
+                "split": split,
+                "review_kind": "model_not_human",
+                "completed_quality_and_access_rows": len(rows),
+                "outcomes": paired_report(rows),
+                "caveat": "Conditional paired judgments; small base-scene samples and same-family model bias.",
+            }
+        )

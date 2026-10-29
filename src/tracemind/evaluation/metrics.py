@@ -21,6 +21,9 @@ def _limited(row, field=None):
 
 
 def summarize(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    comparisons = {r.get("comparison_id") for r in rows if r.get("comparison_id")}
+    if len(comparisons) > 1:
+        raise ValueError("paired judgments must be summarized separately for each comparison")
     eligible = [r for r in rows if not _limited(r)]
     counts = {
         key: sum(bool(r.get(key)) for r in rows if not _limited(r, key)) for key in ERROR_TYPES
@@ -102,7 +105,9 @@ def review_rows(
                 "group_id": group_id,
                 "checkpoint_id": checkpoint_id,
                 "comparison": quality["mapping"],
+                "comparison_id": "|".join(sorted(quality["mapping"].values())),
                 "method": quality["mapping"][side],
+                **{"score_" + key: value for key, value in result["scores"].items()},
                 **{key: result["errors"][key]["occurred"] for key in ERROR_TYPES},
                 "access_limited": dict(access),
                 "tentative_exploration": result["tentative_exploration"],
@@ -111,19 +116,34 @@ def review_rows(
     return rows
 
 
-def collect_metric_rows(root) -> list[dict[str, Any]]:
+def collect_metric_rows(root, split="test", queue=None) -> list[dict[str, Any]]:
     """Only include pairs with a quality review and both access reviews."""
     import json
     from pathlib import Path
 
     root = Path(root)
+    if split not in {"development", "calibration", "test"}:
+        raise ValueError("unknown evaluation split")
     rows = []
     for path in sorted((root / "experiments" / "quality").glob("*/*.json")):
         cp_id, comparison = path.parent.name, path.stem
         cp_path = root / "checkpoints" / (cp_id + ".json")
         if not cp_path.exists():
             raise ValueError(f"missing checkpoint: {cp_id}")
+        cp = json.loads(cp_path.read_text(encoding="utf-8"))
+        if cp.get("split") != split:
+            continue
         quality = json.loads(path.read_text(encoding="utf-8"))
+        if queue is not None:
+            from tracemind.jobs import digest
+
+            source = queue.get(quality["job_id"])
+            if (
+                source["status"] != "completed"
+                or source["result_sha256"] != quality["result_sha256"]
+                or digest(quality["result"]) != source["result_sha256"]
+            ):
+                raise ValueError("quality assessment provenance mismatch")
         accesses = {}
         for side in ("a", "b"):
             method = quality["mapping"][side]
@@ -131,6 +151,14 @@ def collect_metric_rows(root) -> list[dict[str, Any]]:
             if not access_path.exists():
                 break
             access = json.loads(access_path.read_text(encoding="utf-8"))
+            if queue is not None:
+                source = queue.get(access["job_id"])
+                if (
+                    source["status"] != "completed"
+                    or source["result_sha256"] != access["result_sha256"]
+                    or digest(access["result"]) != source["result_sha256"]
+                ):
+                    raise ValueError("access assessment provenance mismatch")
             if access["quality_job_id"] != quality["job_id"] or access["side"] != side:
                 raise ValueError("access review does not match its quality finding")
             accesses[side] = access

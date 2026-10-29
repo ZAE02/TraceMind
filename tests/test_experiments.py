@@ -72,7 +72,7 @@ def test_runner_enqueues_real_jobs_without_materializing_pending(tmp_path):
         "session": 2,
         "previous_sessions": [],
         "current_dialogue": [],
-        "latest_client": {"text": "hello"},
+        "latest_client": {"id": "case-S2-U1", "text": "hello"},
     }
     (directory / "cp.json").write_text(json.dumps(cp), encoding="utf-8")
     queue = Queue()
@@ -231,7 +231,14 @@ def test_metric_rows_use_both_access_reviews_per_error():
     }
     quality = {
         "mapping": {"a": "evolution", "b": "summary"},
-        "result": {side: {"errors": errors, "tentative_exploration": False} for side in ("a", "b")},
+        "result": {
+            side: {
+                "errors": errors,
+                "tentative_exploration": False,
+                "scores": {"response_decision": 2},
+            }
+            for side in ("a", "b")
+        },
     }
     flags = {"unsupported_assertion": True, "leading_question": False, "missed_progress": False}
     accessible = {k: False for k in flags}

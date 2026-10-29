@@ -211,60 +211,9 @@ class ExperimentRunner:
         return project_memory(history[-1] if history else None, self.tokenizer)
 
     def _annotation(self, checkpoint):
-        path = self.root / "annotations" / (checkpoint["id"] + ".json")
-        public = {
-            "previous_sessions": checkpoint["previous_sessions"],
-            "current_dialogue": checkpoint["current_dialogue"],
-            "latest_client": checkpoint["latest_client"],
-        }
-        fields = (
-            "oracle_evidence_ids",
-            "established",
-            "revisions",
-            "unresolved",
-            "acceptable_exploration",
-            "avoid_presuppositions",
-        )
-        schema = {
-            "type": "object",
-            "required": list(fields),
-            "properties": {name: {"type": "array"} for name in fields},
-        }
-        job_id = self.queue.enqueue(
-            f"annotation:{checkpoint['id']}", "public evidence annotator", public, schema
-        )
-        annotation_job = self._resolved(job_id)
-        if annotation_job is None:
-            return None
-        annotation = annotation_job["result"]
-        review_schema = {
-            "type": "object",
-            "required": ["approved"],
-            "properties": {"approved": {"type": "boolean"}},
-        }
-        review_id = self.queue.enqueue(
-            f"annotation-review:{checkpoint['id']}",
-            "independent evidence reviewer",
-            {"public": public, "annotation": annotation},
-            review_schema,
-        )
-        review = self._resolved(review_id)
-        if review is None:
-            return None
-        record = {
-            **annotation,
-            "status": "model_reviewed_not_human_gold",
-            "oracle_approved": review["result"]["approved"],
-            "annotation_job_id": job_id,
-            "annotation_result_sha256": annotation_job["result_sha256"],
-            "review_job_id": review_id,
-            "review_result_sha256": review["result_sha256"],
-        }
-        if path.exists() and read(path) != record:
-            raise ValueError(f"annotation changed: {path}")
-        if not path.exists():
-            write(path, record)
-        return record
+        from .annotations import advance_annotation
+
+        return advance_annotation(self.root, self.queue, checkpoint)
 
     def _evidence(self, checkpoint, method):
         if method not in ("temporalrag", "oracle"):
