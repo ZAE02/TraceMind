@@ -1,0 +1,74 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "75da00712f5a234f7958d1a327709ad00b5e3382426c66e355240c2151077a81",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "506b7b9bfbacad611ef62b3bf025815411fab2954aa45a935b5e3c8c05f234b6",
+  "candidate_answer_sha256": "7d72a2e30bee141aac5c156f40df885ef27c48ea919505bdb4394971cd042a62",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'摸手腕'和'怕散掉'的当前表述，并与前文咨询师提出的'确认自己还在'形成呼应，但未触及历史中更深层的模式（如长期独自扛压、解离体验等）。\",\"exploration_value\":\"将躯体行为与'对失控的恐惧'联系起来，并试探性地提出'休息变成警惕任务'的视角，为来访者打开了表达空间，但未能进一步探索'像被人从头顶撕开了'这一关键且未明的感受。\",\"response_appropriateness\":\"语言温和、尊重，使用试探性语气（'是不是'），没有武断下结论，情绪回应贴合来访者的脆弱状态，但对来访者刚描述的强烈躯体画面（出汗、衣服贴背、被撕开）缺少直接的情绪反映。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应忽略了来访者在P06-S03-U09中描述的'像被人从头顶撕开了'这一可能涉及解离的重要体验，该体验尚未被充分探索。\",\"虽然候选输入中包含Session 1关于'看着女儿觉得陌生、冷汗下来'的历史片段（P06-S01-U05），与当前的躯体警觉和解离感高度相关，但回应未加以联系。\",\"对来访者丰富的躯体感受（药瓶凉、出汗、衣服贴背）缺乏直接的情绪映照，略显概念化。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者'摸手腕'和'怕散掉'的当前表述，并与前文咨询师提出的'确认自己还在'形成呼应，但未触及历史中更深层的模式（如长期独自扛压、解离体验等）。",
+      "exploration_value": "将躯体行为与'对失控的恐惧'联系起来，并试探性地提出'休息变成警惕任务'的视角，为来访者打开了表达空间，但未能进一步探索'像被人从头顶撕开了'这一关键且未明的感受。",
+      "response_appropriateness": "语言温和、尊重，使用试探性语气（'是不是'），没有武断下结论，情绪回应贴合来访者的脆弱状态，但对来访者刚描述的强烈躯体画面（出汗、衣服贴背、被撕开）缺少直接的情绪反映。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "回应忽略了来访者在P06-S03-U09中描述的'像被人从头顶撕开了'这一可能涉及解离的重要体验，该体验尚未被充分探索。",
+      "虽然候选输入中包含Session 1关于'看着女儿觉得陌生、冷汗下来'的历史片段（P06-S01-U05），与当前的躯体警觉和解离感高度相关，但回应未加以联系。",
+      "对来访者丰富的躯体感受（药瓶凉、出汗、衣服贴背）缺乏直接的情绪映照，略显概念化。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 7903,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 400,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8303,
+    "x_details": [
+      {
+        "input_tokens": 7903,
+        "output_tokens": 400,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8303,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.125
+}

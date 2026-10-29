@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "cad20c7606ac8cd48ff806a30c7abafc21eef9ed4b27a36013813d5f45b9294a",
+  "public_sha256": "d6bd7f5a2d2dd5946d5f9251ae6d33ec0b42c449de978649ab16f32a98bd9557",
+  "candidate_input_sha256": "e4b4781f2ec6ec0173023201937133d852384a39b27534008efe1cd3d47008a6",
+  "candidate_answer_sha256": "dedb18320caa2eec566ae3a4fffcdf756f2ef80c8ab0f67a8479cc1d0dad21ed",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有'established'条目均可回溯到S05原文，引用准确；但将方宁称为'同事'属轻微推断（历史未明确关系），且遗漏了来访者自我反思'又把简单事搞成需要别人确认'这一关键表述。\",\"progress_understanding\":\"因无历史输入，仅提取了当前会话的事实片段，未能识别跨会话反复出现的核心模式（如过度准备、难以相信肯定、压抑自身需要等），也未体现任何咨询进展或深层理解。\",\"uncertainty_awareness\":\"在仅有当前会话的条件下，较准确地列出了群反馈内容、方宁真实态度、头晕成因、陈姐语境等关键未知点，未将推测当事实。\"},\"confidence\":\"high\",\"issues\":[\"access_limited=true：候选可见输入中previous_sessions为空，无法获取历史，故Progress Understanding低分反映信息限制而非不当行为。\",\"将方宁标注为'同事'缺乏当前文本直接支持，属轻微无据推断。\",\"遗漏来访者在U09中的自我觉察（'又把一件很简单的事搞成了需要别人来替我确认才行'），这是当前节点的重要认识进展。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有'established'条目均可回溯到S05原文，引用准确；但将方宁称为'同事'属轻微推断（历史未明确关系），且遗漏了来访者自我反思'又把简单事搞成需要别人确认'这一关键表述。",
+      "progress_understanding": "因无历史输入，仅提取了当前会话的事实片段，未能识别跨会话反复出现的核心模式（如过度准备、难以相信肯定、压抑自身需要等），也未体现任何咨询进展或深层理解。",
+      "uncertainty_awareness": "在仅有当前会话的条件下，较准确地列出了群反馈内容、方宁真实态度、头晕成因、陈姐语境等关键未知点，未将推测当事实。"
+    },
+    "confidence": "high",
+    "issues": [
+      "access_limited=true：候选可见输入中previous_sessions为空，无法获取历史，故Progress Understanding低分反映信息限制而非不当行为。",
+      "将方宁标注为'同事'缺乏当前文本直接支持，属轻微无据推断。",
+      "遗漏来访者在U09中的自我觉察（'又把一件很简单的事搞成了需要别人来替我确认才行'），这是当前节点的重要认识进展。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 10171,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 272,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10443,
+    "x_details": [
+      {
+        "input_tokens": 10171,
+        "output_tokens": 272,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 10443,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.265
+}

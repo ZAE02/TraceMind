@@ -1,0 +1,64 @@
+{
+  "checkpoint": "P04_CP3",
+  "candidate_id": "M",
+  "task": "B",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接了来访者关于'旧外壳泡软'的隐喻（P04-S07-U07/U08），并准确连接了本次发言中'承认极限'与'早上恶心'的矛盾，未机械复述历史。",
+      "exploration_value": "用提问为来访者从'承认累'到'嫌弃自己'的反转留出表达空间，但探索方向略偏向咨询师预设的'外壳还没脱下'框架，开放性稍受限。",
+      "response_appropriateness": "语言贴合来访者的感官隐喻风格（味道、捂臭），情绪反映准确且尊重，没有武断下结论。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":3,\"response_appropriateness\":4},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者关于'旧外壳泡软'的隐喻（P04-S07-U07/U08），并准确连接了本次发言中'承认极限'与'早上恶心'的矛盾，未机械复述历史。\",\"exploration_value\":\"用提问为来访者从'承认累'到'嫌弃自己'的反转留出表达空间，但探索方向略偏向咨询师预设的'外壳还没脱下'框架，开放性稍受限。\",\"response_appropriateness\":\"语言贴合来访者的感官隐喻风格（味道、捂臭），情绪反映准确且尊重，没有武断下结论。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[]}",
+  "request_sha256": "4b7a435fa1abc63136f31d64581163133ab4cb8ba7f50a8b82de0c9273457c4f",
+  "usage": {
+    "input_tokens": 21927,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 252,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 22179,
+    "x_details": [
+      {
+        "input_tokens": 21927,
+        "output_tokens": 252,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 22179,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.078
+}

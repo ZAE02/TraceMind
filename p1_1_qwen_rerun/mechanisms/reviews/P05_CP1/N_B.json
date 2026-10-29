@@ -1,0 +1,74 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "N",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者当前关于'稳'与'晃'的核心矛盾，以及教小赵时的例外体验，但未显式连接前两次会谈中已识别的'先怪自己''盔甲'等长期模式。",
+      "exploration_value": "提出了有价值的视角转换（表演vs做事），但后半段以封闭式反问收尾，且'承认踏实只是暂时休息'可能削弱来访者刚发现的资源感，未充分为来访者留出展开空间。",
+      "response_appropriateness": "语言整体温和，但将'稳'直接定义为'必须时刻维持的表演'带有一定解释性预设；结尾的反问句略显指导性，不够开放。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "你把“稳”当成了一种必须时刻维持的表演",
+        "evidence_ids": [
+          "P05-S03-U07",
+          "P05-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'稳'定性为'表演'是咨询师的推断而非来访者的表述，存在轻度预设风险",
+      "'承认那一刻的踏实只是暂时的休息'可能无意中贬低了来访者在教小赵时获得的珍贵确定感",
+      "封闭式反问句限制了来访者自主探索的空间",
+      "未与前两节建立的'盔甲''先怪自己'等核心模式形成呼应"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前关于'稳'与'晃'的核心矛盾，以及教小赵时的例外体验，但未显式连接前两次会谈中已识别的'先怪自己''盔甲'等长期模式。\",\"exploration_value\":\"提出了有价值的视角转换（表演vs做事），但后半段以封闭式反问收尾，且'承认踏实只是暂时休息'可能削弱来访者刚发现的资源感，未充分为来访者留出展开空间。\",\"response_appropriateness\":\"语言整体温和，但将'稳'直接定义为'必须时刻维持的表演'带有一定解释性预设；结尾的反问句略显指导性，不够开放。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你把\"稳\"当成了一种必须时刻维持的表演\",\"evidence_ids\":[\"P05-S03-U07\",\"P05-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'稳'定性为'表演'是咨询师的推断而非来访者的表述，存在轻度预设风险\",\"'承认那一刻的踏实只是暂时的休息'可能无意中贬低了来访者在教小赵时获得的珍贵确定感\",\"封闭式反问句限制了来访者自主探索的空间\",\"未与前两节建立的'盔甲''先怪自己'等核心模式形成呼应\"]}",
+  "request_sha256": "c781f98faef55ff25783af1583fc63a6e45961e46f3a7bebad6045d6f91d47e8",
+  "usage": {
+    "input_tokens": 7980,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 359,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8339,
+    "x_details": [
+      {
+        "input_tokens": 7980,
+        "output_tokens": 359,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8339,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.734,
+  "model": "qwen3.8-max"
+}

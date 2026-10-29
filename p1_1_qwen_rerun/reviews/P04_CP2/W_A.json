@@ -1,0 +1,55 @@
+{
+  "checkpoint": "P04_CP2",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "3d28c9104688445a657c0b80ba281e06f4195194145651005591af9bbbac894f",
+  "public_sha256": "5df93771426cd0915c1246b134bb7d21bc8e6e4eaa2122d9efdb5a1cd5bf59f2",
+  "candidate_input_sha256": "214aaaa9b4aa7a0e485b1d96dcd639c3462765efd12e5bd5c6997b7bcf3325d8",
+  "candidate_answer_sha256": "090037cee0ac191815cf7d241f7a3790d500ac8b144d7a2a69235b8bd2bf34f0",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"主要事实点有当前会话支持，但将母亲的话概括为'评价高于来访者'带有推断色彩，且完全遗漏了前四次会话中建立的核心认识（如'还能顶'的招牌、'来了啊'的身份意义等）。\",\"progress_understanding\":\"输出仅为当前会话的事实罗列，未识别任何咨询进展、形成或修正的认识，也未连接历史会话中反复出现的主题。\",\"uncertainty_awareness\":\"列出了若干不确定点，但部分偏向临床病理化推测（如'强迫性倾向'），未精准区分已知与假设，也未触及核心未决议题（如身份动摇、如何面对被替代感）。\"},\"confidence\":\"high\",\"issues\":[\"缺少对前四次会话已建立认识的引用和整合\",\"将母亲原话过度解读为'评价高于来访者'\",\"uncertain项中出现'强迫性倾向'等不当临床化推测\",\"未体现Task A要求的进展理解维度\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要事实点有当前会话支持，但将母亲的话概括为'评价高于来访者'带有推断色彩，且完全遗漏了前四次会话中建立的核心认识（如'还能顶'的招牌、'来了啊'的身份意义等）。",
+      "progress_understanding": "输出仅为当前会话的事实罗列，未识别任何咨询进展、形成或修正的认识，也未连接历史会话中反复出现的主题。",
+      "uncertainty_awareness": "列出了若干不确定点，但部分偏向临床病理化推测（如'强迫性倾向'），未精准区分已知与假设，也未触及核心未决议题（如身份动摇、如何面对被替代感）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "缺少对前四次会话已建立认识的引用和整合",
+      "将母亲原话过度解读为'评价高于来访者'",
+      "uncertain项中出现'强迫性倾向'等不当临床化推测",
+      "未体现Task A要求的进展理解维度"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9362,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 226,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9588,
+    "x_details": [
+      {
+        "input_tokens": 9362,
+        "output_tokens": 226,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9588,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.422
+}

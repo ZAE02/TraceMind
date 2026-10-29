@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应承接了来访者'镜子'的比喻，但未连接历史中已确认的核心体验（如'待修的故障'、既需要反馈又恐惧反馈的矛盾），仅泛泛联系。\",\"exploration_value\":\"'不去擦镜子'的意象有一定探索空间，但'看看此刻坐在这里的、真实的你是什么样'过于抽象且带有指导性，未具体推进对当前模糊感的理解。\",\"response_appropriateness\":\"语言基本温和，但'却忘了那个原本的样子其实一直在那里'暗含来访者遗忘/疏忽的预设，有轻微说教感；直接建议'我们能不能先试着'略显武断。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"却忘了那个\"原本的样子\"其实一直在那里\",\"evidence_ids\":[\"P03-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那面镜子照出的模糊感，或许正是因为你一直在用别人的评价来定义自己\",\"evidence_ids\":[\"P03-S02-U11\",\"P03-S02-U12\",\"P03-S03-U09\",\"P03-S03-U10\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'用别人评价定义自己'作为原因直接告知来访者，忽略了S02中已确认的'既需要反馈安心又恐惧反馈证明不够好'的深层矛盾，把复杂动力简化为单向归因。\",\"'忘了'一词隐含来访者有过失的预设，与来访者表达的无力感和困惑不完全贴合。\",\"未利用检索到的历史中'待修的故障'等已被来访者深刻认同的隐喻来承接当前的自我迷失感。\",\"结尾的建议式提问'我们能不能先试着'在来访者刚表达被看穿的脆弱时刻显得略快，缺少对当下情绪的停留。\"]}",
+  "request_sha256": "7b14e53ed00ca6a2ddce8ab414373f695069d01b265432320faea5b30e74d790",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 11454,
+    "input_tokens_details": {
+      "cached_tokens": 11264
+    },
+    "output_tokens": 458,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11912,
+    "x_details": [
+      {
+        "input_tokens": 11454,
+        "output_tokens": 458,
+        "prompt_tokens_details": {
+          "cached_tokens": 11264
+        },
+        "total_tokens": 11912,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

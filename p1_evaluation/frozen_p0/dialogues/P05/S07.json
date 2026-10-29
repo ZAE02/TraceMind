@@ -1,0 +1,504 @@
+{
+  "case_id": "P05",
+  "session": 7,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P05-S07-U01",
+      "role": "client",
+      "text": "这周我试着准点下班了一次，去公园跑了2公里。跑的时候胸口发紧，但居然有点活过来的感觉，可能我想多了。后来和李繁吃饭，我跟她说最近很差，话到嘴边差点又咽回去。还有那双旧跑鞋，我昨晚扔了，又捡回来，自己也觉得挺矛盾的。",
+      "request_sha256": "17b0770fd2b0f080253c25cced10628eb605c31d0f79390bf27b173bb07621fe",
+      "usage": {
+        "input_tokens": 8773,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 1021,
+        "output_tokens_details": {
+          "reasoning_tokens": 950
+        },
+        "total_tokens": 9794,
+        "x_details": [
+          {
+            "input_tokens": 8773,
+            "output_tokens": 1021,
+            "output_tokens_details": {
+              "reasoning_tokens": 950
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 9794,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U02",
+      "role": "counselor",
+      "text": "你刚才提到跑步时那种“活过来”的感觉，好像身体先替你确认了某种你自己还不敢完全相信的东西。后来能对李繁说出“最近很差”，虽然差点又咽回去，但毕竟说出了一半；旧跑鞋扔了又捡回来，也许正说明你要丢掉的并不是那双鞋，而是某种还不知该怎么放下的部分。",
+      "request_sha256": "b4d2abd43fb5d61baec1a97ba5e47ce74d7e07c93712c88eeaabd5a6804077f2",
+      "usage": {
+        "input_tokens": 8000,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 242,
+        "output_tokens_details": {
+          "reasoning_tokens": 166
+        },
+        "total_tokens": 8242,
+        "x_details": [
+          {
+            "input_tokens": 8000,
+            "output_tokens": 242,
+            "output_tokens_details": {
+              "reasoning_tokens": 166
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 8242,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U03",
+      "role": "client",
+      "text": "我也说不好那算不算活过来，可能只是太久没动了，身体先比我诚实。跟李繁说“最近很差”的时候，我手一直在桌子底下捏着外套拉链，生怕自己反悔。跑鞋捡回来以后，我其实又把它放在门边了，没塞回最里面——可能我还想再跑一次。",
+      "request_sha256": "a1bbceb86876352416defede6962d231f6eb9d92ffe04606acbf46ac0c870fca",
+      "usage": {
+        "input_tokens": 8966,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 497,
+        "output_tokens_details": {
+          "reasoning_tokens": 422
+        },
+        "total_tokens": 9463,
+        "x_details": [
+          {
+            "input_tokens": 8966,
+            "output_tokens": 497,
+            "output_tokens_details": {
+              "reasoning_tokens": 422
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9463,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U04",
+      "role": "counselor",
+      "text": "“身体先比我诚实”这句话，也许说明有些变化正在你还不完全相信的时候，就已经发生了。你对李繁说出“最近很差”时，手在下面捏着拉链，那种“生怕自己反悔”的紧张，其实也证明了你多想把这句话留下来。旧跑鞋被放在门边，而不是塞回最里面，好像你也在给“再跑一次”留一点可能。",
+      "request_sha256": "29af4f04a73385c8b31d0573df83bfc3da4b180bff1bfda8154933b45764686e",
+      "usage": {
+        "input_tokens": 8196,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 374,
+        "output_tokens_details": {
+          "reasoning_tokens": 287
+        },
+        "total_tokens": 8570,
+        "x_details": [
+          {
+            "input_tokens": 8196,
+            "output_tokens": 374,
+            "output_tokens_details": {
+              "reasoning_tokens": 287
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8570,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U05",
+      "role": "client",
+      "text": "跑步那会儿胸口紧得难受，但脑子确实比加班到半夜还清楚一点。李繁走之后，我一个人在厨房站了很久，忽然又觉得说出去的那些话很轻，像站不住。",
+      "request_sha256": "13f36c26d05e39b3b3f1ebbd2fa6cc9eade2557ac2d21f28ac88d6a22783dfb1",
+      "usage": {
+        "input_tokens": 9173,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 199,
+        "output_tokens_details": {
+          "reasoning_tokens": 154
+        },
+        "total_tokens": 9372,
+        "x_details": [
+          {
+            "input_tokens": 9173,
+            "output_tokens": 199,
+            "output_tokens_details": {
+              "reasoning_tokens": 154
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9372,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U06",
+      "role": "counselor",
+      "text": "“胸口发紧但脑子清楚”那种状态，好像让你短暂地离开了惯常的混沌；可李繁走后，说出口的话却突然显得很轻、站不住。也许不是那些话本身轻，而是你还没等到一个足以让它落下来的回应，就又开始独自检查它的分量。",
+      "request_sha256": "6d37f0cf96071213b361f6ea4626186d12363e1247e92f79d82453a7ebc4378a",
+      "usage": {
+        "input_tokens": 8373,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 246,
+        "output_tokens_details": {
+          "reasoning_tokens": 182
+        },
+        "total_tokens": 8619,
+        "x_details": [
+          {
+            "input_tokens": 8373,
+            "output_tokens": 246,
+            "output_tokens_details": {
+              "reasoning_tokens": 182
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8619,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U07",
+      "role": "client",
+      "text": "说出来之后，那种轻飘飘的感觉我一直抓不住，像话刚出口就被空气吃掉了。也许不是话太轻，是我太习惯一个人确认每句话该不该说。跑步那会儿至少身体是真的在疼，不用我替它找理由。",
+      "request_sha256": "a94bf999977e883605cfe5f3958cb2fa0217ce051e7582ca05870b2d9202bc51",
+      "usage": {
+        "input_tokens": 9327,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 270,
+        "output_tokens_details": {
+          "reasoning_tokens": 216
+        },
+        "total_tokens": 9597,
+        "x_details": [
+          {
+            "input_tokens": 9327,
+            "output_tokens": 270,
+            "output_tokens_details": {
+              "reasoning_tokens": 216
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9597,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U08",
+      "role": "counselor",
+      "text": "那种话刚出口就被空气吃掉的感觉，好像你马上又回到一个人确认每句话该不该说的状态里，所以它们才显得更轻。而跑步时身体的疼不用你替它找理由，那种真实感让你短暂地不用审查自己。或许现在不用急着让说出去的话变重，先感受一下那个“抓不住”里，你最想要被接住的是什么。",
+      "request_sha256": "63f3ff4aa0437624bfc36b834542a5e4553c37e22488036d2a94cc2f8523308c",
+      "usage": {
+        "input_tokens": 8536,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 475,
+        "output_tokens_details": {
+          "reasoning_tokens": 393
+        },
+        "total_tokens": 9011,
+        "x_details": [
+          {
+            "input_tokens": 8536,
+            "output_tokens": 475,
+            "output_tokens_details": {
+              "reasoning_tokens": 393
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9011,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U09",
+      "role": "client",
+      "text": "我也说不好想要被接住的是什么，可能只是希望她当时能多问一句，而不是像听了一件很普通的事那样点头。我一边觉得她能听完就不错了，一边又嫌自己太贪心。",
+      "request_sha256": "8f9a3aa9cab055fd8201e182c6f786ac151ed63a20578ad3ef6200280335aa3d",
+      "usage": {
+        "input_tokens": 9508,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 480,
+        "output_tokens_details": {
+          "reasoning_tokens": 434
+        },
+        "total_tokens": 9988,
+        "x_details": [
+          {
+            "input_tokens": 9508,
+            "output_tokens": 480,
+            "output_tokens_details": {
+              "reasoning_tokens": 434
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9988,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U10",
+      "role": "counselor",
+      "text": "那个“希望她当时多问一句”的念头一出来，你很快又把它判成“太贪心”，好像连对关系多要一点回应，都会让你觉得自己越界了。可那不是一个过分的要求，它更像你刚把话递出去，就希望有人能轻轻接住、而不是点头让它滑下去。如果先不急着怪自己贪心，那个希望被多问一句的部分，它最想对李繁说的是什么？",
+      "request_sha256": "12c5c55a6973bad68dd55807f7ac6f4ca36b62406de831598b3012613b7f19cc",
+      "usage": {
+        "input_tokens": 8709,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 353,
+        "output_tokens_details": {
+          "reasoning_tokens": 256
+        },
+        "total_tokens": 9062,
+        "x_details": [
+          {
+            "input_tokens": 8709,
+            "output_tokens": 353,
+            "output_tokens_details": {
+              "reasoning_tokens": 256
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9062,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U11",
+      "role": "client",
+      "text": "\"可能我会跟她说，我真的很怕你只是随便听听，怕你好不容易问一句我又只会说没事。其实我挺想让你知道，这周我查过夜跑的路线，但还没想好要不要去。\"",
+      "request_sha256": "5e13a2c0a52b5d05d0ad176034c7d6c6bab16ad7851dd7aa0ffc3febd7dead4b",
+      "usage": {
+        "input_tokens": 9703,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 205,
+        "output_tokens_details": {
+          "reasoning_tokens": 157
+        },
+        "total_tokens": 9908,
+        "x_details": [
+          {
+            "input_tokens": 9703,
+            "output_tokens": 205,
+            "output_tokens_details": {
+              "reasoning_tokens": 157
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9908,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U12",
+      "role": "counselor",
+      "text": "你刚刚把这些说出来，其实已经不只是“没事”了。你一边怕李繁只是随便听听，一边又已经查过夜跑的路线——那个想继续往前走的自己，和那个还在担心被轻放的自己，此刻都还在。今晚可以不急着决定去不去跑，先让“我查过路线”这句话在这里待一会儿。",
+      "request_sha256": "1bc839118f79256314d55240c5e868a3590da907c82d8ef9425e528fc6a5e990",
+      "usage": {
+        "input_tokens": 8908,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 252,
+        "output_tokens_details": {
+          "reasoning_tokens": 179
+        },
+        "total_tokens": 9160,
+        "x_details": [
+          {
+            "input_tokens": 8908,
+            "output_tokens": 252,
+            "output_tokens_details": {
+              "reasoning_tokens": 179
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9160,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U13",
+      "role": "client",
+      "text": "我其实已经把路线截图存在相册里了，但每次打开看几秒就退出去，好像多看一会儿就真的要去了。可能我是在等自己不注意的时候，一不小心就站在那条路线上。李繁后来发消息说“以后想跑可以喊她”，我到现在还没回。",
+      "request_sha256": "c9dfc4e5858edfe0a1a0e3ea030ef6d3730fb9852d522a09cad2ebeadfc0a8a5",
+      "usage": {
+        "input_tokens": 9871,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 231,
+        "output_tokens_details": {
+          "reasoning_tokens": 168
+        },
+        "total_tokens": 10102,
+        "x_details": [
+          {
+            "input_tokens": 9871,
+            "output_tokens": 231,
+            "output_tokens_details": {
+              "reasoning_tokens": 168
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10102,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U14",
+      "role": "counselor",
+      "text": "你存下路线、看几秒就退出来，好像是在等那个不用先说服自己“该不该”的自己，能不小心就走到那里。李繁说“以后想跑可以喊她”，你还没回，也许那不只是个邀请，也碰到了你既想靠近、又怕一回应就要立刻决定什么的犹豫。今天可以先停在这里，不用急着回她，也不用急着去跑。",
+      "request_sha256": "0fbc781881a0f52cb6889e17ba38d6cb27ceb20362c97bdbfc448896b14d1959",
+      "usage": {
+        "input_tokens": 9089,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 392,
+        "output_tokens_details": {
+          "reasoning_tokens": 306
+        },
+        "total_tokens": 9481,
+        "x_details": [
+          {
+            "input_tokens": 9089,
+            "output_tokens": 392,
+            "output_tokens_details": {
+              "reasoning_tokens": 306
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9481,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U15",
+      "role": "client",
+      "text": "可能我今天把这些说出来，又觉得有点太满了。跑步也好，跟李繁说那些也好，都像在我身上开了个小口子，现在有点不知道该怎么收。我也没回她那条消息，可能还是想先自己跑一次再说。今天先这样吧，我回去路上再缓缓。",
+      "request_sha256": "ed80bf25db3c6f55f476c482f9946c6a21d27a1f5f9f1a8d5eda13021763490f",
+      "usage": {
+        "input_tokens": 10065,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 368,
+        "output_tokens_details": {
+          "reasoning_tokens": 304
+        },
+        "total_tokens": 10433,
+        "x_details": [
+          {
+            "input_tokens": 10065,
+            "output_tokens": 368,
+            "output_tokens_details": {
+              "reasoning_tokens": 304
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10433,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S07-U16",
+      "role": "counselor",
+      "text": "好像你身上那个小口子，不只在跑步和向李繁开口时被打开，也被你带到了这里。你不需要现在就把它收好，可以让它先这样敞着一点。你想先自己跑一次再回她，听起来不只是拖延，也许是想先确认那个“自己一个人也能迈出去”的感觉，再决定要不要让她参与进来。今天先到这里，回去慢慢缓，不用急着把口子封上。",
+      "request_sha256": "34ffa367d5c01b77ee175bb27c69d81260c4f7ec723e179e41c7714fa2c3f68b",
+      "usage": {
+        "input_tokens": 9284,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 266,
+        "output_tokens_details": {
+          "reasoning_tokens": 174
+        },
+        "total_tokens": 9550,
+        "x_details": [
+          {
+            "input_tokens": 9284,
+            "output_tokens": 266,
+            "output_tokens_details": {
+              "reasoning_tokens": 174
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9550,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

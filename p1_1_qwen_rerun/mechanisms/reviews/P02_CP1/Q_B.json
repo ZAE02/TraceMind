@@ -1,0 +1,72 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "Q",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者夜间警觉、站在门口不出声的照顾模式，以及值班室与家中睡眠差异的历史脉络，但未显式连接前两次会谈中反复出现的'折中/站着不动'等核心主题。",
+      "exploration_value": "对反胃与疲劳的反差做了情绪反映和初步命名，但将反胃直接解释为'身体替你承受白天没法说出口的疲惫'略显武断，未给来访者留出空间去探索这个新身体感受的具体含义或与其他压力源（如连补排班、母亲摔倒惊吓）的可能联系。",
+      "response_appropriateness": "语言温和、共情到位，'诚实得让人心疼'表达了关怀。但'白天没法说出口的疲惫'带有一定预设性，来访者并未明确表达过白天有无法说出的疲惫，这一推断虽合理但稍超前。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "你的身体在替你承受那些白天没法说出口的疲惫",
+        "evidence_ids": [
+          "P02-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将最新出现的反胃症状直接归因为'白天没法说出口的疲惫'的身体代偿，属于未被来访者确认的解释性跳跃，参考标注也提示该解读为推测性情绪解释",
+      "未充分探索反胃与近期多重压力事件（连补排班、母亲摔倒惊吓、夜间持续警觉）之间可能存在的多元联系",
+      "回应以单一反射为主，缺少为来访者进一步展开体验留出的开放性邀请"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者夜间警觉、站在门口不出声的照顾模式，以及值班室与家中睡眠差异的历史脉络，但未显式连接前两次会谈中反复出现的'折中/站着不动'等核心主题。\",\"exploration_value\":\"对反胃与疲劳的反差做了情绪反映和初步命名，但将反胃直接解释为'身体替你承受白天没法说出口的疲惫'略显武断，未给来访者留出空间去探索这个新身体感受的具体含义或与其他压力源（如连补排班、母亲摔倒惊吓）的可能联系。\",\"response_appropriateness\":\"语言温和、共情到位，'诚实得让人心疼'表达了关怀。但'白天没法说出口的疲惫'带有一定预设性，来访者并未明确表达过白天有无法说出的疲惫，这一推断虽合理但稍超前。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你的身体在替你承受那些白天没法说出口的疲惫\",\"evidence_ids\":[\"P02-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将最新出现的反胃症状直接归因为'白天没法说出口的疲惫'的身体代偿，属于未被来访者确认的解释性跳跃，参考标注也提示该解读为推测性情绪解释\",\"未充分探索反胃与近期多重压力事件（连补排班、母亲摔倒惊吓、夜间持续警觉）之间可能存在的多元联系\",\"回应以单一反射为主，缺少为来访者进一步展开体验留出的开放性邀请\"]}",
+  "request_sha256": "9ee9b69093e4287d7d8df03f6945a7ffe9f635fd1b143227527e920b002ac394",
+  "usage": {
+    "input_tokens": 9480,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 406,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9886,
+    "x_details": [
+      {
+        "input_tokens": 9480,
+        "output_tokens": 406,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9886,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.156,
+  "model": "qwen3.8-max"
+}

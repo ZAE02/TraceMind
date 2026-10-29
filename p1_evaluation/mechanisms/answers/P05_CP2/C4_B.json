@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P05_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "3f8e39fba20e2bb9859b9efff50b4e9c33071f6f5e90a568d5ea028b8f08c80f",
+  "request_sha256": "8c08e290359f75f364f43b2d9a555903279159e3faec402e014176b2ae36233a",
+  "memory_sha256": "4f866ad240e0a362d4f55cd5a71dbb7b6300e080aa79f72c7f690d5261a04d3f",
+  "memory_source": "d74f725e37da3202fc52f4cee9f568aa5de4f556c303be5b9409977b9583577d",
+  "raw_text": "你希望她别管“加班”这个理由，直接来问，可又预感到自己会用“没事”把她挡回去。好像你既想被靠近，又已经替自己准备好了推开她的那句话。",
+  "usage": {
+    "input_tokens": 6562,
+    "input_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "output_tokens": 44,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6606,
+    "x_details": [
+      {
+        "input_tokens": 6562,
+        "output_tokens": 44,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "total_tokens": 6606,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.704,
+  "model": "deepseek-v4-pro-0813"
+}

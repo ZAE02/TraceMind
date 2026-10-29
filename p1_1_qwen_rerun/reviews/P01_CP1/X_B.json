@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "f6b667e80a5628ccc240aad9960c2d202a7a10781fc4e752e99e1b85721ac18f",
+  "public_sha256": "4cff561a4c5fb4dadbecb4fe78ec21e83eac56f2bd764214788a384c3497a2d3",
+  "candidate_input_sha256": "a01718148816ca7c630239b3d9774dc26a1eae4b20e5beeecde76b4a92b37e99",
+  "candidate_answer_sha256": "5c1ac35d29c8321122185d8c1747d95f76897ec1418236ffff542d266de79ac8",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前关于'不敢生气'和怕成为'难搞的人'的自我觉察，但未显式连接S01/S02中类似模式（如怕显得计较、需要不正当）的跨情境脉络。\",\"exploration_value\":\"将具体觉察扩展为对自我形象管控模式的探索，方向有价值，但提问方式偏封闭且带有较强解释性预设，留给来访者自主表达的空间略受限。\",\"response_appropriateness\":\"语言基本自然，但'对自我形象的严格管控''只有完全顺从才是安全的'等表述带有咨询师的分析框架和未证实假设，可能让来访者感到被定义而非被陪伴。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种对自我形象的严格管控，是不是让你觉得，只有完全顺从、不给人添麻烦，才是安全的？\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应中'对自我形象的严格管控'属于咨询师的理论化标签，来访者并未使用或确认此类概念，存在将分析框架强加于来访者体验的风险。\",\"'只有完全顺从……才是安全的'这一归纳虽有一定历史依据（如S02中需要不正当感），但在当前节点以封闭式问句呈现，压缩了来访者对自身复杂感受的进一步展开空间。\",\"未能将来访者此刻'不敢生气'的觉察与S01中'怕显得计较'、S02中'气自己做不到理直气壮'等已形成的认识做更自然的串联，错失了深化跨情境模式理解的机会。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者当前关于'不敢生气'和怕成为'难搞的人'的自我觉察，但未显式连接S01/S02中类似模式（如怕显得计较、需要不正当）的跨情境脉络。",
+      "exploration_value": "将具体觉察扩展为对自我形象管控模式的探索，方向有价值，但提问方式偏封闭且带有较强解释性预设，留给来访者自主表达的空间略受限。",
+      "response_appropriateness": "语言基本自然，但'对自我形象的严格管控''只有完全顺从才是安全的'等表述带有咨询师的分析框架和未证实假设，可能让来访者感到被定义而非被陪伴。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种对自我形象的严格管控，是不是让你觉得，只有完全顺从、不给人添麻烦，才是安全的？",
+        "evidence_ids": [
+          "P01-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "回应中'对自我形象的严格管控'属于咨询师的理论化标签，来访者并未使用或确认此类概念，存在将分析框架强加于来访者体验的风险。",
+      "'只有完全顺从……才是安全的'这一归纳虽有一定历史依据（如S02中需要不正当感），但在当前节点以封闭式问句呈现，压缩了来访者对自身复杂感受的进一步展开空间。",
+      "未能将来访者此刻'不敢生气'的觉察与S01中'怕显得计较'、S02中'气自己做不到理直气壮'等已形成的认识做更自然的串联，错失了深化跨情境模式理解的机会。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9103,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 430,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9533,
+    "x_details": [
+      {
+        "input_tokens": 9103,
+        "output_tokens": 430,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9533,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 11.39
+}

@@ -1,0 +1,53 @@
+{
+  "synthetic": true,
+  "case_id": "C01",
+  "checkpoint_id": "CP1",
+  "current_session": 3,
+  "client_profile": {
+    "name": "林岚",
+    "age": 28,
+    "gender": "女",
+    "occupation": "品牌设计师",
+    "living_context": "在杭州一家中型设计公司工作三年，独自租房，母亲住在同城。",
+    "relationships": "项目负责人周姐比自己年长；同组小许是合作一年多的同事；母亲与自己联系较多。",
+    "speech_style": "谨慎细致，会描述具体改动和时间；拿不准时会说‘可能吧’或自我修正，较少主动谈大道理。"
+  },
+  "private_life_history": [
+    "工作交付通常按时，但自己常在正式交付前多次检查。",
+    "半年前一次客户提案中，负责人当众指出一个尺寸错误；当时脸很热，后来几天反复想起。",
+    "母亲关心自己，但有时会把亲戚孩子的工作成绩拿来聊天。",
+    "开始这段咨询前没有接受过心理治疗；希望谈工作结束后仍放不下方案的困扰。"
+  ],
+  "occurred_life_events": [
+    {
+      "session_number": 1,
+      "life_events": [
+        "周二内部提案会上，小许说首页‘有点挤’，没说方案不能用。",
+        "林岚当天回去修改到晚上十一点半，改了六版；第二天又把其中两处改回原样。",
+        "没有收到客户正式否定，原定交付仍是周五。"
+      ]
+    },
+    {
+      "session_number": 2,
+      "life_events": [
+        "另一张活动海报准备交付前，先后找小许和周姐检查，又把图片发给一位设计朋友。",
+        "三个人都没有发现明显错误，林岚仍在发送前检查了四遍。"
+      ]
+    }
+  ],
+  "current_session_card": {
+    "life_events": [
+      "母亲预约体检，需要林岚帮忙安排交通；结果是常规复查，没有急病。",
+      "同周赶两个项目，晚上陪母亲后又打开电脑检查设计文件。"
+    ],
+    "private_experiences": [
+      "想把母亲和工作都照顾好，觉得自己没有做好哪一边。",
+      "听到亲戚升职的消息有点烦，又不想显得自己计较。"
+    ],
+    "still_unspoken_details": [
+      "母亲并没要求她当晚赶工作。",
+      "打开文件后主要检查已经确认过的对齐细节，未发生实际交付事故。"
+    ]
+  },
+  "notice": "Synthetic private simulator settings; not objective clinical truth; no future events."
+}

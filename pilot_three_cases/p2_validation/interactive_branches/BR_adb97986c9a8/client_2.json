@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_adb97986c9a8",
+  "round": 2,
+  "node": "N04",
+  "method": "B2_temporal_RAG",
+  "replicate": 1,
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "request_sha256": "387a21e7512d4abd3e82394a3bde9cc1f3fc450e2f48ffa16dbc86ea39507792",
+  "call_id": "a404901ec0324903b6acbb1cd5a6ccc2",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "嗯……我想了想，好像不是一个很明确的点。就是……周三周四如果加班比较晚的话，周五早上到公司的时候，好像就已经有一点了。但也不是说周五一进门就想，就是……写着写着东西，突然意识到哦这周六又约了悦悦，然后那个\"不知道这周五会不会又加到很晚\"的念头就来了。\n\n好像不是某一个时刻开始的，就是……这一周如果加班多的话，那个担心就会慢慢渗进来。",
+  "usage": {
+    "input_tokens": 14376,
+    "input_tokens_details": {
+      "cached_tokens": 7424
+    },
+    "output_tokens": 456,
+    "output_tokens_details": {
+      "reasoning_tokens": 355
+    },
+    "total_tokens": 14832,
+    "x_details": [
+      {
+        "input_tokens": 14376,
+        "input_tokens_details": {
+          "text_tokens": 14376
+        },
+        "output_tokens": 456,
+        "output_tokens_details": {
+          "reasoning_tokens": 355
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 7424
+        },
+        "total_tokens": 14832,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T11:19:25.197416+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

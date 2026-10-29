@@ -1,0 +1,115 @@
+{
+  "status": "completed",
+  "purpose": "method_comparison",
+  "node": "N01",
+  "method": "B4_psych_rollup",
+  "sample": 1,
+  "public_input_sha256": "8a3293f599e1b9e2e9033635346f3489d597041bc38dbb5bf24c050572bd2509",
+  "memory_info": {
+    "history_tokens": 2875,
+    "budget": 3000,
+    "memory_sha256": "71b2dcac6c72b61599e9ce77612fae8739a4193592d47f1d01bd620e23c71295"
+  },
+  "request_sha256": "4d1a7775a75cb322c1a9fe875465b0ee687c6e2a33c08ee19bbf8670a81902ce",
+  "context_sha256": "c2e6c7be85824948afbd4f9d77f60ef3ff8d2e8d72ce949e049236e2a8aaa3fc",
+  "call_id": "cfde19925ec443b7a748345cf560aa70",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T10:43:20.977447+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者本周同时应对母亲体检安排和两个项目，晚间陪完母亲回家后再次打开电脑过了一遍文件，用'又过了'来描述这件事，语气中有省略和未展开的部分。\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者用'又'字标记这次经历，暗示与之前描述过的反复过稿体验有某种关联，但来访者未明确说明是相同还是不同。\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"tentative\"\n    },\n    {\n      \"claim\": \"来访者将母亲体检事件与工作压力放在同一段叙述中，但未明确表达两者之间的关系或情绪影响。\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"tentative\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'又过了'具体指什么——哪个文件、什么触发、持续多久、当时的内在体验是什么\",\n    \"这次'又过了'与S1的'停不下来'或S2的'走不开'是否相同、相似还是不同\",\n    \"母亲体检事件在来访者情绪中的实际权重——是背景噪音还是与'又过了'有功能性关联\",\n    \"'这周有点乱'具体指什么——是事件叠加、情绪质地、还是某种失控感\",\n    \"两个项目同时赶的压力程度，以及是否出现了S1类似的'还在动=还没好'标准\"\n  ],\n  \"next_focus\": \"探索'又过了'的具体体验：是什么触发了这次再过一遍，当时是什么感觉，与之前描述的两种模式相比有何异同。\",\n  \"next_counselor_utterance\": \"听起来这周几件事是叠着来的。你最后说'又过了'——能多说一点那个'又'是什么感觉吗？是跟之前那种类似的，还是不太一样？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者本周同时应对母亲体检安排和两个项目，晚间陪完母亲回家后再次打开电脑过了一遍文件，用'又过了'来描述这件事，语气中有省略和未展开的部分。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者用'又'字标记这次经历，暗示与之前描述过的反复过稿体验有某种关联，但来访者未明确说明是相同还是不同。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "tentative"
+      },
+      {
+        "claim": "来访者将母亲体检事件与工作压力放在同一段叙述中，但未明确表达两者之间的关系或情绪影响。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "tentative"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'又过了'具体指什么——哪个文件、什么触发、持续多久、当时的内在体验是什么",
+      "这次'又过了'与S1的'停不下来'或S2的'走不开'是否相同、相似还是不同",
+      "母亲体检事件在来访者情绪中的实际权重——是背景噪音还是与'又过了'有功能性关联",
+      "'这周有点乱'具体指什么——是事件叠加、情绪质地、还是某种失控感",
+      "两个项目同时赶的压力程度，以及是否出现了S1类似的'还在动=还没好'标准"
+    ],
+    "next_focus": "探索'又过了'的具体体验：是什么触发了这次再过一遍，当时是什么感觉，与之前描述的两种模式相比有何异同。",
+    "next_counselor_utterance": "听起来这周几件事是叠着来的。你最后说'又过了'——能多说一点那个'又'是什么感觉吗？是跟之前那种类似的，还是不太一样？"
+  },
+  "usage": {
+    "input_tokens": 3233,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1470,
+    "output_tokens_details": {
+      "reasoning_tokens": 994
+    },
+    "total_tokens": 4703,
+    "x_details": [
+      {
+        "input_tokens": 3233,
+        "input_tokens_details": {
+          "text_tokens": 3233
+        },
+        "output_tokens": 1470,
+        "output_tokens_details": {
+          "reasoning_tokens": 994
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4703,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_method_comparison_calls.jsonl",
+  "visible_evidence_ids": [
+    "C01-S01-U01",
+    "C01-S01-U03",
+    "C01-S01-U04",
+    "C01-S01-U05",
+    "C01-S01-U07",
+    "C01-S01-U09",
+    "C01-S01-U11",
+    "C01-S01-U13",
+    "C01-S01-U15",
+    "C01-S01-U17",
+    "C01-S01-U19",
+    "C01-S01-U21",
+    "C01-S02-U01",
+    "C01-S02-U03",
+    "C01-S02-U05",
+    "C01-S02-U06",
+    "C01-S02-U07",
+    "C01-S02-U09",
+    "C01-S02-U11",
+    "C01-S02-U13",
+    "C01-S02-U15",
+    "C01-S02-U16",
+    "C01-S02-U17",
+    "C01-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

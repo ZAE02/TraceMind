@@ -1,0 +1,90 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R2",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C03_CP1",
+  "public_input_sha256": "5369129f841aaf7087ff88712a679bd625578f05539fa51e6a3f33307ea9fc4f",
+  "items": [
+    {
+      "anonymous_id": "Aa4953a6b3abc",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "变化与愣住均有据，最小化模式和能力预期只是解释；实际以询问探索没想到，保留不一样的可能。",
+      "evidence_ids": [
+        "C03-S03-U05",
+        "C03-S03-U07",
+        "C03-S03-U09"
+      ]
+    },
+    {
+      "anonymous_id": "A35c80fdb842d",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "具体历史参照作为假设保留；实际开放问愣住时内容，既针对当轮又不强定能力层级。",
+      "evidence_ids": [
+        "C03-S02-U03",
+        "C03-S03-U09"
+      ]
+    },
+    {
+      "anonymous_id": "A16bb0ea838d5",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单轮意外有据，淡化和分量略作解释；实际谨慎询问承认或表达方式，但选项较窄。",
+      "evidence_ids": [
+        "C03-S03-U09"
+      ]
+    },
+    {
+      "anonymous_id": "Abec47174f3d8",
+      "U": 2,
+      "R": 2,
+      "P": 1,
+      "E": 1,
+      "S": false,
+      "reason": "将自己耗时的标准扩大为他人不该记不清，历史无足够依据；实际短语“这种程度的东西，本来就不该有人记不清？”把未知的普遍严苛标准放进限定二选一提问。",
+      "evidence_ids": [
+        "C03-S01-U17",
+        "C03-S02-U11",
+        "C03-S03-U09"
+      ]
+    },
+    {
+      "anonymous_id": "A2318ad8a3d7c",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "对注意力转移和预期偏离有据；实际直接开放问原预期，简洁且针对未解决线索。",
+      "evidence_ids": [
+        "C03-S03-U05",
+        "C03-S03-U07",
+        "C03-S03-U09"
+      ]
+    },
+    {
+      "anonymous_id": "Af7ffd8ebe3ae",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单轮理解基本准确，触动分量稍推断；实际试探个人与场景的意外，未固定心理机制，但两选项重叠。",
+      "evidence_ids": [
+        "C03-S03-U09"
+      ]
+    }
+  ]
+}

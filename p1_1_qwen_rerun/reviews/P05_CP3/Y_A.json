@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P05_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "c76deb9d31bc35d56971de54557f14432c300a4b8db0da767fcfe9ddb12a223e",
+  "public_sha256": "c710ad42ce3634a7b40d5dae4094de85641e93bda2f12140bddaa14a9ffec20d",
+  "candidate_input_sha256": "ddaa6ecd37a6c3eb50cdeec27a4aa2df47d640d11c61aa502a1315078238f86f",
+  "candidate_answer_sha256": "ce1dcd91de6b301d7fcfe0e9a68c89789844453db6ce766794905a0ed30cb175",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所有已建立要点均直接引用当前会话原文，并附有准确的发言ID，无凭空断言。\",\"progress_understanding\":\"候选输入中previous_sessions为空（access_limited），但候选仅提取了本次会话的表面事实，未识别出任何跨回合形成的模式或咨询进展（如自我审查、靠近与推开的矛盾等），对来访者深层变化的理解几乎缺失。\",\"uncertainty_awareness\":\"列出了若干不确定点，但多为表层疑问（如是否再跑步、李繁后续反应），未能触及核心待澄清议题（如表达后对被接住的恐惧、对自身需求的负面评价循环等），且受限于无历史输入，无法评估更深层的不确定性。\"},\"confidence\":\"high\",\"issues\":[\"access_limited：候选可见输入中previous_sessions为空，无法利用前6次会话的历史信息。\",\"候选的established列表仅为当前会话的事实摘录，缺乏对来访者内在模式、防御机制及咨询进展的任何概念化理解。\",\"uncertain部分提出的问题较为表面，未反映出来访者在'渴望被看见'与'害怕暴露/嫌自己贪心'之间的核心张力。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有已建立要点均直接引用当前会话原文，并附有准确的发言ID，无凭空断言。",
+      "progress_understanding": "候选输入中previous_sessions为空（access_limited），但候选仅提取了本次会话的表面事实，未识别出任何跨回合形成的模式或咨询进展（如自我审查、靠近与推开的矛盾等），对来访者深层变化的理解几乎缺失。",
+      "uncertainty_awareness": "列出了若干不确定点，但多为表层疑问（如是否再跑步、李繁后续反应），未能触及核心待澄清议题（如表达后对被接住的恐惧、对自身需求的负面评价循环等），且受限于无历史输入，无法评估更深层的不确定性。"
+    },
+    "confidence": "high",
+    "issues": [
+      "access_limited：候选可见输入中previous_sessions为空，无法利用前6次会话的历史信息。",
+      "候选的established列表仅为当前会话的事实摘录，缺乏对来访者内在模式、防御机制及咨询进展的任何概念化理解。",
+      "uncertain部分提出的问题较为表面，未反映出来访者在'渴望被看见'与'害怕暴露/嫌自己贪心'之间的核心张力。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 11909,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 267,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12176,
+    "x_details": [
+      {
+        "input_tokens": 11909,
+        "output_tokens": 267,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 12176,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.687
+}

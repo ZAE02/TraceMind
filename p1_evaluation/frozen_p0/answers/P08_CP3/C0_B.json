@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "8e0a2444ceae5eae418ee90521c0432a125f80532ed3003f02ecdb5f1b487ef7",
+  "request_sha256": "2b483ce9ab33f76ee20915e381fa8152c68a3b8d830a96732a9b80bc4d8ff60c",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来，赵岩的话让你一下子回到了前两年一个人对着材料发懵的时候——不是不想问，是不知道该问谁，也怕问出口显得自己不行。现在知道了有别的办法，却还是觉得“晚了点”，好像那个独自硬扛的自己已经被留在过去了。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 904,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 961,
+    "x_details": [
+      {
+        "input_tokens": 904,
+        "output_tokens": 57,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 961,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

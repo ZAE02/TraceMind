@@ -1,0 +1,44 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "J",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答中的每一项关键理解（如过度准备、难以表达需要、对模糊反馈的反刍等）均能准确回溯到公开历史对话的具体发言，且未将咨询师的猜测误作事实。",
+      "progress_understanding": "准确识别了从S1到S4的主要咨询进展，包括模式的重现与深化（如从单一工作场景扩展到人际关系），并指出了微小的变化（如开始尝试允许不确定）。但在连接不同会话中“形成-验证-修正”的动态过程上略显静态，主要呈现为模式的罗列而非动态演进的深度整合。",
+      "uncertainty_awareness": "明确列出了大量未决问题，体现了对未知的意识。但部分条目（如“是否会在后续真正追问”）属于对未来行为的预测而非当前临床状态下的核心不确定性；同时遗漏了当前会话（S5）中新出现的头晕症状这一重要的生理/心理交叉未知点，导致对当前节点的不确定性把握不够精确。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 2\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答中的每一项关键理解（如过度准备、难以表达需要、对模糊反馈的反刍等）均能准确回溯到公开历史对话的具体发言，且未将咨询师的猜测误作事实。\",\n    \"progress_understanding\": \"准确识别了从S1到S4的主要咨询进展，包括模式的重现与深化（如从单一工作场景扩展到人际关系），并指出了微小的变化（如开始尝试允许不确定）。但在连接不同会话中“形成-验证-修正”的动态过程上略显静态，主要呈现为模式的罗列而非动态演进的深度整合。\",\n    \"uncertainty_awareness\": \"明确列出了大量未决问题，体现了对未知的意识。但部分条目（如“是否会在后续真正追问”）属于对未来行为的预测而非当前临床状态下的核心不确定性；同时遗漏了当前会话（S5）中新出现的头晕症状这一重要的生理/心理交叉未知点，导致对当前节点的不确定性把握不够精确。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "b4e1900e4dc0f57a8351ce19cd1a8730fa1c8274eed242b3edd953432b864971",
+  "usage": {
+    "input_tokens": 15957,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 282,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16239,
+    "x_details": [
+      {
+        "input_tokens": 15957,
+        "output_tokens": 282,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 16239,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.219
+}

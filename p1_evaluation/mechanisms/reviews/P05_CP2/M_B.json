@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "M",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "精准承接了S05-U09中来访者关于“希望被追问”与“预设自己会否认”的矛盾，并自然关联到S01-S03中反复出现的“用忙碌/借口掩饰真实需求”及“表达无力感”的历史模式。",
+      "exploration_value": "没有停留在表面行为（躲李繁），而是深入到了来访者的核心信念——对自我表达效力的根本性怀疑（“改变不了什么”）。这为探索其深层的习得性无助或早期经验提供了极佳的切入点。",
+      "response_appropriateness": "语言克制、共情且无评判。准确捕捉了来访者言语背后的绝望感和防御机制，回应既贴合当前情绪边界，又保持了咨询关系的开放性。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 4\n  },\n  \"brief_reasons\": {\n    \"history_utilization\": \"精准承接了S05-U09中来访者关于“希望被追问”与“预设自己会否认”的矛盾，并自然关联到S01-S03中反复出现的“用忙碌/借口掩饰真实需求”及“表达无力感”的历史模式。\",\n    \"exploration_value\": \"没有停留在表面行为（躲李繁），而是深入到了来访者的核心信念——对自我表达效力的根本性怀疑（“改变不了什么”）。这为探索其深层的习得性无助或早期经验提供了极佳的切入点。\",\n    \"response_appropriateness\": \"语言克制、共情且无评判。准确捕捉了来访者言语背后的绝望感和防御机制，回应既贴合当前情绪边界，又保持了咨询关系的开放性。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "ff8b676bf760e0295e8e1307d1b9d8c65f8b4d95e66e2bbd4956ad20ab3c25cb",
+  "usage": {
+    "input_tokens": 15619,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 382,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16001,
+    "x_details": [
+      {
+        "input_tokens": 15619,
+        "output_tokens": 382,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 16001,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.765,
+  "model": "qwen3.7-flash-2026-07-15"
+}

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应了来访者提到的头晕，但未承接历史中已建立的'反复琢磨简短词语''难以允许自己停下'等核心模式，仅泛泛建议休息。\",\"exploration_value\":\"直接给出行动建议（先放一放、好好睡一觉），未对来访者自我觉察（'又把简单事搞成需要别人确认'）或身体感受的不确定性留出探索空间，属于封闭式回应。\",\"response_appropriateness\":\"语气温和、关心身体，但'可以先放一放'的建议与来访者在S04-U15明确表达的'怕停下来就漏掉什么'的困难相冲突，显得预设来访者能做到其一直做不到的事。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那个\"好\"字和没开的群消息可以先放一放，今晚试着把注意力从别人的反应上收回来，哪怕只是好好睡一觉\",\"evidence_ids\":[\"P01-S04-U15\",\"P01-S03-U13\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那个\"好\"字和没开的群消息可以先放一放\",\"evidence_ids\":[\"P01-S04-U15\",\"P01-S04-U16\",\"P01-S03-U13\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"回应完全忽略了来访者在本轮末尾的重要自我觉察（'我总觉得自己是不是又把一件很简单的事，搞成了需要别人来替我确认才行'），错失了深化理解的时机。\",\"建议'先放一放''好好睡一觉'与历史中多次探索到的来访者'停下来就像偷懒/会漏掉什么'的核心困难直接冲突（P01-S04-U15, P01-S03-U13），构成unsupported_presupposition和missed_progress。\",\"未利用检索到的丰富历史信息（如S01主管反馈、S04前同事事件中的共同模式），仅停留在表面安抚。\"]}",
+  "request_sha256": "9ca5e0aaa3dfde52ff711b966f1a8b59e13bdab98dbcff4afab59e823b69dd89",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 12505,
+    "input_tokens_details": {
+      "cached_tokens": 12288
+    },
+    "output_tokens": 488,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12993,
+    "x_details": [
+      {
+        "input_tokens": 12505,
+        "output_tokens": 488,
+        "prompt_tokens_details": {
+          "cached_tokens": 12288
+        },
+        "total_tokens": 12993,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

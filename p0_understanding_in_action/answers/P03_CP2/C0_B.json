@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "90538ee3f0097308641257c863ddc9b19e4fff23ad27b215f3b95f2064dbf735",
+  "request_sha256": "ab3a3bc360e315551631db69f1e8b5bf2c736e43bdc2b0586b5c251b2dcde33c",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来，那些来自别人的反应像一面面镜子，照出来的却总是“紧张”“不擅长”，让你越来越看不清自己原本的样子。也许我们可以慢一点，先不急着从那些镜子里找答案，而是看看你自己心里那个还没被照清楚的部分是什么。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 922,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 55,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 977,
+    "x_details": [
+      {
+        "input_tokens": 922,
+        "output_tokens": 55,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 977,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,69 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "19e5ff062acc2cc9ac5d48e1dda6f97db914f1f31552dca001d8cba024476f10",
+  "public_sha256": "d6bd7f5a2d2dd5946d5f9251ae6d33ec0b42c449de978649ab16f32a98bd9557",
+  "candidate_input_sha256": "ad0155e61ef06f521e475c15641e449b0c7c91ee43c2e9b1aae3e61c411dd089",
+  "candidate_answer_sha256": "42360de9dbd5bbdbbd3885050dfe1eb661024dd32004cfbca4363725e8920e4a",
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 3,\n    \"response_appropriateness\": 4\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": true,\n      \"trigger_quote\": \"头晕可能不只是熬夜，也像你一直把自己绷在“必须猜对”的状态里，身体先替你发出了信号。\",\n      \"evidence_ids\": [\n        \"P01-S05-U09\"\n      ],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"将未确诊的生理症状（头晕）直接归因为心理状态（‘身体先替你发出了信号’），属于无依据的因果推断，违反了Task B中关于不强行定论和区分已知/假设的要求。虽然隐喻生动，但在缺乏医学证据的情况下，这种断言式解释构成了Unsupported Presupposition。\"\n  ]\n}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 4
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "头晕可能不只是熬夜，也像你一直把自己绷在“必须猜对”的状态里，身体先替你发出了信号。",
+        "evidence_ids": [
+          "P01-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "将未确诊的生理症状（头晕）直接归因为心理状态（‘身体先替你发出了信号’），属于无依据的因果推断，违反了Task B中关于不强行定论和区分已知/假设的要求。虽然隐喻生动，但在缺乏医学证据的情况下，这种断言式解释构成了Unsupported Presupposition。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 15487,
+    "input_tokens_details": {
+      "cached_tokens": 15360
+    },
+    "output_tokens": 314,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15801,
+    "x_details": [
+      {
+        "input_tokens": 15487,
+        "output_tokens": 314,
+        "prompt_tokens_details": {
+          "cached_tokens": 15360
+        },
+        "total_tokens": 15801,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.187
+}

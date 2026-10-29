@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP2",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "8aec832d6b7571163a0ff10660c0e6276e4dbab26d9c69a3b03a636d09fcf6fc",
+  "request_sha256": "52e29bbb14f77c35d77059b31fe7bb9f8d980906c8f6865ce7238ac667d5a4b9",
+  "memory_sha256": "efd2a234ca8914a097b1c5da8f89b5966c8bc45a69886b4cddadc1283926850e",
+  "memory_source": "b588d0e712372a79fb92daa6ce1dc1e0fd2b035864f3cab43cad172c326bc846",
+  "raw_text": "那根“小刺”让你既被推出了那个位置，又不知道该用哪个动作把自己放回去。洗第三遍碗时，你是在试图把那份“多余感”也洗干净吗？",
+  "usage": {
+    "input_tokens": 7395,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 41,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7436,
+    "x_details": [
+      {
+        "input_tokens": 7395,
+        "output_tokens": 41,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7436,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.812,
+  "model": "qwen3.7-flash-2026-07-15"
+}

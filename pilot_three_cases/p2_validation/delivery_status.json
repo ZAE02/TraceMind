@@ -1,0 +1,29 @@
+{
+  "phase": "P2",
+  "status": "completed",
+  "human_review_performed": false,
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "counts": {
+    "main": 24,
+    "probe": 12,
+    "branch": 12
+  },
+  "history_ablation_original": 54,
+  "history_ablation_reselected": 18,
+  "main_presupposition_count": 0,
+  "deliverables": [
+    "pilot_validation_report.md",
+    "results_by_checkpoint.csv",
+    "results_main.csv",
+    "results_probe.csv",
+    "results_branch.csv",
+    "failure_examples.md",
+    "next_iteration_decision.md",
+    "final_integrity_audit.json",
+    "resource_usage.json",
+    "阶段简报_P2.md",
+    "planner_examples.md"
+  ],
+  "checked_at": "2026-10-13T11:26:30.947711+00:00"
+}

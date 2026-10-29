@@ -1,0 +1,504 @@
+{
+  "case_id": "P02",
+  "session": 4,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P02-S04-U01",
+      "role": "client",
+      "text": "其实我昨天好不容易排到一天休，上午一个电话又把我叫回中心培训了。下午回家想补个觉，结果每回刚迷糊就醒，手机一响我整个人就坐起来。晚上照常给我妈热敷，我嘴上说习惯就好，心里其实堵得慌。",
+      "request_sha256": "3c982a817245057919c9d87c095716214821d299ae361e7a5fe2be66c1919dfd",
+      "usage": {
+        "input_tokens": 4465,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 674,
+        "output_tokens_details": {
+          "reasoning_tokens": 609
+        },
+        "total_tokens": 5139,
+        "x_details": [
+          {
+            "input_tokens": 4465,
+            "output_tokens": 674,
+            "output_tokens_details": {
+              "reasoning_tokens": 609
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 5139,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U02",
+      "role": "counselor",
+      "text": "听起来，那个“习惯就好”像是替你压住了心里很多说不清的堵，可身体却还是没法真正放松下来——手机一响就坐起来，好像一直在等下一个电话来打断你。这一天里，休息和时间都不像是自己的，连补觉都只能“刚迷糊就醒”。",
+      "request_sha256": "77f2e926d663bd92ae6b95a86e2227c246240b821a11d0b827943b1802c0c6f8",
+      "usage": {
+        "input_tokens": 3988,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 181,
+        "output_tokens_details": {
+          "reasoning_tokens": 118
+        },
+        "total_tokens": 4169,
+        "x_details": [
+          {
+            "input_tokens": 3988,
+            "output_tokens": 181,
+            "output_tokens_details": {
+              "reasoning_tokens": 118
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 4169,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U03",
+      "role": "client",
+      "text": "其实培训的时候我差点睡着，被旁边同事拍了一下，挺丢人的。下午回家想补觉，又一直竖着耳朵听手机，越躺越清醒，干脆起来把菜切了。我妈问怎么不睡，我说不困，其实太阳穴一直跳。",
+      "request_sha256": "ac733242509b65ce124ea7e4a52510c63a1fbadb382c1de34443fcc2d3d60d41",
+      "usage": {
+        "input_tokens": 4639,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 743,
+        "output_tokens_details": {
+          "reasoning_tokens": 683
+        },
+        "total_tokens": 5382,
+        "x_details": [
+          {
+            "input_tokens": 4639,
+            "output_tokens": 743,
+            "output_tokens_details": {
+              "reasoning_tokens": 683
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5382,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U04",
+      "role": "counselor",
+      "text": "你嘴上说“不困”，可太阳穴一直在跳，像是身体在替你说那个还没被承认的累。补觉时竖着耳朵听手机，人躺着，警觉却没躺下；起来切菜，好像反而成了不用解释、又能让你暂时不面对“睡不着”的办法。",
+      "request_sha256": "37fd16b69c0681ce1bf048d5abda98499464fc47d457bfee04d855b0729b2727",
+      "usage": {
+        "input_tokens": 4156,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 288,
+        "output_tokens_details": {
+          "reasoning_tokens": 225
+        },
+        "total_tokens": 4444,
+        "x_details": [
+          {
+            "input_tokens": 4156,
+            "output_tokens": 288,
+            "output_tokens_details": {
+              "reasoning_tokens": 225
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4444,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U05",
+      "role": "client",
+      "text": "其实切菜的时候手也有点抖，有一下差点切到指甲，我就停下来扶着台面站了一会儿。我妈在客厅喊我别太累，我回了句“知道”，声音轻得自己都听不清。",
+      "request_sha256": "aa2db9a966580b03dfd5c194ddb03bc4d91934b2f8d22f01d67af1032570faba",
+      "usage": {
+        "input_tokens": 4807,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 321,
+        "output_tokens_details": {
+          "reasoning_tokens": 273
+        },
+        "total_tokens": 5128,
+        "x_details": [
+          {
+            "input_tokens": 4807,
+            "output_tokens": 321,
+            "output_tokens_details": {
+              "reasoning_tokens": 273
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5128,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U06",
+      "role": "counselor",
+      "text": "你停下来扶着台面站一会儿，像是身体先于你承认了那个“累”；可回到妈妈那句“别太累”时，你的“知道”轻得连自己都听不清，好像连回应都需要省着力气。这个反差里，似乎还是那个不肯让自己多停一下的部分在撑着。",
+      "request_sha256": "afd62465c328938e01d0af936f6847530c65830445bf6d579937c52841fcdfb2",
+      "usage": {
+        "input_tokens": 4312,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 292,
+        "output_tokens_details": {
+          "reasoning_tokens": 225
+        },
+        "total_tokens": 4604,
+        "x_details": [
+          {
+            "input_tokens": 4312,
+            "output_tokens": 292,
+            "output_tokens_details": {
+              "reasoning_tokens": 225
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 4604,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U07",
+      "role": "client",
+      "text": "其实晚上热敷的时候，我手一直按着我妈后腰，眼睛盯着墙上的钟，就盼着那二十分钟快点到。后来她突然说“你手怎么这么凉”，我才发现自己不知道什么时候开始走神了。",
+      "request_sha256": "46385effa5fcfabad79e140c83673767899ffdace7884607e27450daf7931090",
+      "usage": {
+        "input_tokens": 4967,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 284,
+        "output_tokens_details": {
+          "reasoning_tokens": 233
+        },
+        "total_tokens": 5251,
+        "x_details": [
+          {
+            "input_tokens": 4967,
+            "output_tokens": 284,
+            "output_tokens_details": {
+              "reasoning_tokens": 233
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5251,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U08",
+      "role": "counselor",
+      "text": "听起来，那二十分钟你像是在熬时间，手凉了也没察觉，直到妈妈问起才发现自己已经走了神。也许这双手不只是温度凉，也像是那个一直撑着照顾的你，在某个瞬间悄悄松了劲。",
+      "request_sha256": "b2db6f7433e0427c38fc8b9dd991f2de79ad7e9f251b166f9db90cde38cf92f7",
+      "usage": {
+        "input_tokens": 4475,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 222,
+        "output_tokens_details": {
+          "reasoning_tokens": 172
+        },
+        "total_tokens": 4697,
+        "x_details": [
+          {
+            "input_tokens": 4475,
+            "output_tokens": 222,
+            "output_tokens_details": {
+              "reasoning_tokens": 172
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 4697,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U09",
+      "role": "client",
+      "text": "其实你那么说，我一下子有点想哭，但也只是一下。我好像已经不知道“松了劲”是什么感觉了，只知道自己不能停，一停就可能起不来。",
+      "request_sha256": "a796965e654832e028d682c81b370a1ceebec6c3d245d69ba9d871531eb81840",
+      "usage": {
+        "input_tokens": 5113,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 524,
+        "output_tokens_details": {
+          "reasoning_tokens": 484
+        },
+        "total_tokens": 5637,
+        "x_details": [
+          {
+            "input_tokens": 5113,
+            "output_tokens": 524,
+            "output_tokens_details": {
+              "reasoning_tokens": 484
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5637,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U10",
+      "role": "counselor",
+      "text": "刚才那一瞬间的想哭，好像很快就被“不能停”给收回去了。你怕的似乎不只是一次松手，而是怕一旦松开，那个还能撑着的自己就再也起不来。也许“不能停”一直在保护你，但也让这口气始终没有机会真正落下来过。",
+      "request_sha256": "0494cc1b1d8c1842fd7d4b5f62805de963e363e0c704f3b2c3ba6e14e1ae4c2a",
+      "usage": {
+        "input_tokens": 4610,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 221,
+        "output_tokens_details": {
+          "reasoning_tokens": 156
+        },
+        "total_tokens": 4831,
+        "x_details": [
+          {
+            "input_tokens": 4610,
+            "output_tokens": 221,
+            "output_tokens_details": {
+              "reasoning_tokens": 156
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 4831,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U11",
+      "role": "client",
+      "text": "其实你这么说，我好像更不敢想“松了劲”会怎样。今晚热敷完，我妈睡下之后，我在厨房坐了一会儿，也没开灯，就一直听冰箱嗡嗡响，后来还是自己起来把碗洗了。",
+      "request_sha256": "8d27d4f2a233ddd2f9e89b1218c877b4011a660b3217d4f5b42e570b47c2d00c",
+      "usage": {
+        "input_tokens": 5270,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 249,
+        "output_tokens_details": {
+          "reasoning_tokens": 197
+        },
+        "total_tokens": 5519,
+        "x_details": [
+          {
+            "input_tokens": 5270,
+            "output_tokens": 249,
+            "output_tokens_details": {
+              "reasoning_tokens": 197
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5519,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U12",
+      "role": "counselor",
+      "text": "你一个人坐在没开灯的厨房里，听冰箱嗡嗡响的那一会儿，像是给自己留了一个不被打扰的角落；可最后你还是自己站起来把碗洗了，好像连那个短暂的停顿，也需要赶紧用“做点什么”来收尾。今晚也许不必把那种黑暗里的安静当成奢侈或浪费，它只是你暂时没让自己立刻动起来的一小段。",
+      "request_sha256": "205952d08ae0f13ecc3fd8a73d4ecea8d4e0dc21a7446bbfc25c6def30d5b72a",
+      "usage": {
+        "input_tokens": 4779,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 283,
+        "output_tokens_details": {
+          "reasoning_tokens": 203
+        },
+        "total_tokens": 5062,
+        "x_details": [
+          {
+            "input_tokens": 4779,
+            "output_tokens": 283,
+            "output_tokens_details": {
+              "reasoning_tokens": 203
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5062,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U13",
+      "role": "client",
+      "text": "其实昨晚在厨房坐着那会儿，我脑子里什么也没想，就是觉得冰箱声特别大，大得有点烦。后来起来洗碗，手泡在热水里才觉得人又回来了点。",
+      "request_sha256": "674258f335282cf80e4be05968dcd2319034c54336f890dc16cba2c6f5b17eca",
+      "usage": {
+        "input_tokens": 5447,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 250,
+        "output_tokens_details": {
+          "reasoning_tokens": 207
+        },
+        "total_tokens": 5697,
+        "x_details": [
+          {
+            "input_tokens": 5447,
+            "output_tokens": 250,
+            "output_tokens_details": {
+              "reasoning_tokens": 207
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5697,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U14",
+      "role": "counselor",
+      "text": "听起来，冰箱声在那个安静里像被放大了，烦得让你没法真正留在空白中；直到热水泡到手，你才重新碰到自己，有了“人回来了点”的感觉。也许那一点温度，是昨晚终于把你从飘着的地方拉回身体里的一小会儿。",
+      "request_sha256": "4d340d725c9d2bcac0cfb089da4993c2c46dd07799e5ba08c9d92fb1491da7cc",
+      "usage": {
+        "input_tokens": 4947,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 410,
+        "output_tokens_details": {
+          "reasoning_tokens": 348
+        },
+        "total_tokens": 5357,
+        "x_details": [
+          {
+            "input_tokens": 4947,
+            "output_tokens": 410,
+            "output_tokens_details": {
+              "reasoning_tokens": 348
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5357,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U15",
+      "role": "client",
+      "text": "其实昨晚洗完碗，我就站在水池边把那一池热水放掉，看着水慢慢流下去，突然觉得人也跟着空了。今天早上闹钟响之前就醒了，躺着没动，等手机响第二遍才起。",
+      "request_sha256": "16a74edc39441a5012d46faa288f57ce15028bc071e1cdd73d7f1f9b9bc1d1d5",
+      "usage": {
+        "input_tokens": 5597,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 292,
+        "output_tokens_details": {
+          "reasoning_tokens": 242
+        },
+        "total_tokens": 5889,
+        "x_details": [
+          {
+            "input_tokens": 5597,
+            "output_tokens": 292,
+            "output_tokens_details": {
+              "reasoning_tokens": 242
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5889,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S04-U16",
+      "role": "counselor",
+      "text": "你看着热水一点点流掉，人也跟着空了，那一刻好像有什么被一起带走了，不只是一个碗池的水。今早醒着等闹钟响第二遍才起，也许身体也在迟疑，是不是可以不用那么快回到那个要撑起来的自己里。",
+      "request_sha256": "8feaa57ce0c681251c9e76767c59b2b3ae39f49e8245a5890f726bdf6767da21",
+      "usage": {
+        "input_tokens": 5104,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 249,
+        "output_tokens_details": {
+          "reasoning_tokens": 192
+        },
+        "total_tokens": 5353,
+        "x_details": [
+          {
+            "input_tokens": 5104,
+            "output_tokens": 249,
+            "output_tokens_details": {
+              "reasoning_tokens": 192
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5353,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

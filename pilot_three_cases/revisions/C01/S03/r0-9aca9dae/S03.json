@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 3,
+  "relative_week": 3,
+  "status": "interrupted",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T11:51:41.456059+00:00",
+  "config_hash": "67c32a44c265d2b53aa04e3241b3e6efcc4d614e2cd2b28623954f8021f37037",
+  "prompt_version": "pilot-v5-unsent-candidate-expression-gate",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v5-unsent-candidate-expression-gate",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement"
+  },
+  "utterances": [
+    {
+      "id": "C01-S03-U01",
+      "role": "client",
+      "text": "这周有点赶，两个项目差不多同时交。然后我妈预约了个体检，让我帮忙安排一下交通，我就请了半天假陪她去。\n\n晚上回来之后……本来想早点睡的，但不知道怎么回事，又打开电脑把那个项目文件过了一遍。其实那天下午已经确认过了，就是……又过了一遍。",
+      "call_id": "a658cbd3aae241d08dc5cbf741ecf4c9",
+      "response_id": "resp_cbe22de9-280c-9d6d-8bfc-5aa974cbd90e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:51:58.196353+00:00"
+    },
+    {
+      "id": "C01-S03-U02",
+      "role": "counselor",
+      "text": "那天下午已经确认过了，晚上又打开——那个打开的瞬间，是跟上次一样被拽了一下，还是更像手自己就伸过去了？",
+      "call_id": "b335a4def626404284e49b38d73badb9",
+      "response_id": "resp_d20cde0b-86b3-95ef-9053-bf0fcf9ab2a3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:52:38.074706+00:00"
+    },
+    {
+      "id": "C01-S03-U03",
+      "role": "client",
+      "text": "不太一样吧……不是被拽那种。就是回来之后坐在电脑前，本来想关掉的，但手就……点开了。也不是说哪个地方让我停住，就是……觉得应该再看一眼，然后真的就过了一遍。\n\n过完之后也没发现什么，就是……又过了一遍而已。",
+      "call_id": "26d39ae41cca46ad8c66e0b9987bdba7",
+      "response_id": "resp_9c7c9d2e-0461-99c8-bd7a-ad524aef6af9",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:52:47.290068+00:00"
+    },
+    {
+      "id": "C01-S03-U04",
+      "role": "counselor",
+      "text": "这次跟前面两次确实不一样，没有那个拽，也没有走不开，就是手点开了，觉得应该再看一眼。那天本来就赶，又请了半天假陪阿姨体检，回来坐在电脑前的时候，那个应该再看一眼，是跟累不累有关系，还是只要坐在电脑前就会这样？",
+      "call_id": "b085ec2b518d4f599fd940e239d901b9",
+      "response_id": "resp_4fed2e3f-91eb-9c07-802b-6c1312532a34",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:53:31.945753+00:00"
+    },
+    {
+      "id": "C01-S03-U05",
+      "role": "client",
+      "text": "让我想想……可能跟累有关系吧，那天确实坐了一下午。但也不全是，因为以前不累的时候也会这样，就是……坐在电脑前，文件就在那儿，总觉得\"应该\"看一眼。\n\n就是那个\"应该\"，说不上来是谁的应该。",
+      "call_id": "19679af582e14edf9453e49ce35d7532",
+      "response_id": "resp_ebdfe5d0-5263-9b8b-8a83-449e8a977cd6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:53:40.511887+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T11:54:09.688658+00:00",
+  "last_error": "Counselor expression gate still failed after two candidate revisions"
+}

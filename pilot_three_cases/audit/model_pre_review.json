@@ -1,0 +1,369 @@
+{
+  "kind": "model_review_summary",
+  "human_review_performed": false,
+  "sessions": [
+    {
+      "case_id": "C01",
+      "session_number": 1,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "cfe8be65adb4a329efbd30b723942379c61e1cb508a08f37c15ba040f8663105"
+    },
+    {
+      "case_id": "C01",
+      "session_number": 2,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "aa58d1e2f890cb75202e3025493180079feddd73d57a3e0b78917d3fef3b1cb2"
+    },
+    {
+      "case_id": "C01",
+      "session_number": 3,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "c662d7cbe6ea0be730c9479916ac9ca397c30224c63a953f5b09ee6112594947"
+    },
+    {
+      "case_id": "C01",
+      "session_number": 4,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "7d54d984923b78c9d844412d401986215ce9ee18695151f6f5b5a1c8268b0327"
+    },
+    {
+      "case_id": "C01",
+      "session_number": 5,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "63c71089ca51639a73fef8fc95174331b09c758844bc9a6fa52f060035e256db"
+    },
+    {
+      "case_id": "C01",
+      "session_number": 6,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "d9487a31df68f52a9f4d047982625e122dfb2ac3d7cbfef9d184509fde0d79ba"
+    },
+    {
+      "case_id": "C01",
+      "session_number": 7,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "c07ba476648edb3a469216e99a6c11922cacb7841bdcd31eaec21c045adff62d"
+    },
+    {
+      "case_id": "C01",
+      "session_number": 8,
+      "reviewer_model": "gpt-6-luna",
+      "reasoning_effort": "low",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 3,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 3.6666666666666665,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "de1cb60a65d1c00860776032a8fd184d519f6493069fac0198209e1accaf67e3"
+    },
+    {
+      "case_id": "C02",
+      "session_number": 1,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "9b1ef6436e8addd90e25e2c27d0a2752862c3ae1914a3979baa2e49fef1431d9"
+    },
+    {
+      "case_id": "C02",
+      "session_number": 2,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "19205d220f2318e978b5570c40fb1ee9d1ff15cdaa3e53eb456465ad40b668f5"
+    },
+    {
+      "case_id": "C02",
+      "session_number": 3,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "2e76c440357a0fdade6e96763c256d800c2c4ce305e8903eea4f34b44e9d3c60"
+    },
+    {
+      "case_id": "C02",
+      "session_number": 4,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "1cee35b79bcfb89bfcc99824090d456f0b56788dc2e2f59facee0e0865b855f1"
+    },
+    {
+      "case_id": "C02",
+      "session_number": 5,
+      "reviewer_model": "gpt-6-luna",
+      "reasoning_effort": "low",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 3,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 3.6666666666666665,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "be12968aea15593560cc2ecafef80292af913bec325000f2917521003ad32301"
+    },
+    {
+      "case_id": "C02",
+      "session_number": 6,
+      "reviewer_model": "gpt-6-luna",
+      "reasoning_effort": "low",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 3,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 3.6666666666666665,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "e23dd343829a64b665e95120becce93c4c1158228ea731ec93320800fda04378"
+    },
+    {
+      "case_id": "C02",
+      "session_number": 7,
+      "reviewer_model": "gpt-6-luna",
+      "reasoning_effort": "low",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 3,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 3.6666666666666665,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "8cf3166da3e7b7413673ec3068d861794432d18ab58b37f0052ef828fb95620b"
+    },
+    {
+      "case_id": "C02",
+      "session_number": 8,
+      "reviewer_model": "gpt-6-luna",
+      "reasoning_effort": "low",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 3,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 3.6666666666666665,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "1bd04373d03ba22e65c982e5c08a5492eecea4a0dabaecb66cc5c3a6810816c8"
+    },
+    {
+      "case_id": "C03",
+      "session_number": 1,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "ecbc1e403b1d94944cc8c089592ef9da055fdfef7f215a16f8b536f6c8d8d454"
+    },
+    {
+      "case_id": "C03",
+      "session_number": 2,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "247ae54e237e4e1b27e461e1cebc5a6b16bf4e8f861f14bab33a7d0e78f3cebf"
+    },
+    {
+      "case_id": "C03",
+      "session_number": 3,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "0c176d071e3cbfa9cd09b0727591fac975720a9829ad3e1ad5e929176213b11a"
+    },
+    {
+      "case_id": "C03",
+      "session_number": 4,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "50b8a5648765c2fb0a8d3eda0b465cecad8f833b8e184f1c008ff1c7e56c7fa2"
+    },
+    {
+      "case_id": "C03",
+      "session_number": 5,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "c5335aca1163a63ed506ce1f8129dc3fcf11826fc9e4a524eebc1a346ba7a827"
+    },
+    {
+      "case_id": "C03",
+      "session_number": 6,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "0a1104c5fafa2c0cf516ba2f583ac0f4669ffebdf948b1c186c4862fd5c801ae"
+    },
+    {
+      "case_id": "C03",
+      "session_number": 7,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "082e23cf573ad0d196180a3310c1c61bf5d1023846fdee870bc4ca8b3fc7ae64"
+    },
+    {
+      "case_id": "C03",
+      "session_number": 8,
+      "reviewer_model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "scores": {
+        "naturalness": 4,
+        "counseling_quality": 4,
+        "longitudinal_plausibility": 4
+      },
+      "mean_score": 4.0,
+      "kind": "model_review",
+      "decision": "approve",
+      "transcript_sha256": "fd1c300a4e04a35de3d7395e7742f0082516d9bcf980f7933197d1da9329f591"
+    }
+  ],
+  "detailed_reviews": "audit/agent_reviews/",
+  "independent_second_reviews": "cancelled_by_user_time_token_saving_request",
+  "initial_S1_pre_review": "audit/initial_S1_delivery_snapshot/model_pre_review.json"
+}

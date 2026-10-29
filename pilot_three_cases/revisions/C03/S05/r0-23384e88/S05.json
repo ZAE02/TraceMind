@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 5,
+  "relative_week": 5,
+  "status": "awaiting_model_review",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T11:51:41.574480+00:00",
+  "config_hash": "076f0ed53b43323a6ce3f5828129ebe97e4c5af25c11df280efa3db6c98fdde3",
+  "prompt_version": "pilot-v5-unsent-candidate-expression-gate",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v5-unsent-candidate-expression-gate",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement"
+  },
+  "utterances": [
+    {
+      "id": "C03-S05-U01",
+      "role": "client",
+      "text": "这周有个跨服务的问题，排查了大概半天，方向差不多有了，但有一种实现方式不太确定，就去找陆工确认了一下。\n\n……跟老韩不太一样吧，陆工平时话比较少，回复也短，所以去之前还是……斟酌了一下怎么说。",
+      "call_id": "1b1ee5d232ef4f518490850b8fdce997",
+      "response_id": "resp_b64f420d-ff3a-901a-b8b8-7063306bb9e7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:51:55.865330+00:00"
+    },
+    {
+      "id": "C03-S05-U02",
+      "role": "counselor",
+      "text": "陆工话少回复短，这个确实跟老韩不一样，开口前多转一下也正常。那个斟酌，具体是在想什么？",
+      "call_id": "89afff5672ba495a98b94177c2dd7295",
+      "response_id": "resp_2ca37376-e182-967b-83c7-9b4806d382a5",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:52:28.423207+00:00"
+    },
+    {
+      "id": "C03-S05-U03",
+      "role": "client",
+      "text": "就是……想了一下怎么把问题说清楚，因为陆工回复短，我怕自己绕来绕去说半天，他看着也费劲。\n\n就是先把背景压缩一下，再说我不确定的是哪个点。没像上次那样纠结很久，就是……组织了一下语言。",
+      "call_id": "366ae7b73ba04395acb7087a0ad48039",
+      "response_id": "resp_27e62001-7394-9032-9833-52ad6768b17c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:52:35.570304+00:00"
+    },
+    {
+      "id": "C03-S05-U04",
+      "role": "counselor",
+      "text": "这次斟酌的是怎么把话说清楚，不是该不该开口——这个区别你自己已经分出来了。去之后陆工怎么回的，顺利吗？",
+      "call_id": "21cac26d3a3e4e37beca295a8f1256cd",
+      "response_id": "resp_8e95ba2c-df39-9813-a82b-91ca007b4964",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:52:41.251366+00:00"
+    },
+    {
+      "id": "C03-S05-U05",
+      "role": "client",
+      "text": "挺顺利的。陆工就回了两句，把那个实现方式的风险点说了，然后给了个建议的改法。我没多问，回去改了一下，跑通了。\n\n……就是回复确实短，但够用了。",
+      "call_id": "d1e39d49c7234e3ab3ae84ae30a1e644",
+      "response_id": "resp_c0a46f3c-94b0-9623-b18b-03d2963a6f2d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:52:47.648932+00:00"
+    },
+    {
+      "id": "C03-S05-U06",
+      "role": "counselor",
+      "text": "陆工两句就够用了，你也没多问就回去改了，这个节奏挺顺的。这周还有别的吗？",
+      "call_id": "e4896a10044c49c2940ab0b751230f43",
+      "response_id": "resp_1b68c32f-e553-9807-a10a-bea49dbf752e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:53:12.998027+00:00"
+    },
+    {
+      "id": "C03-S05-U07",
+      "role": "client",
+      "text": "还问过另一位同事一个问题，就是……也不是什么大事，就是有个地方不确定，问了就清楚了。\n\n……行，就这些。",
+      "call_id": "c0b35f39694244a897b47f86e65779b8",
+      "response_id": "resp_cf089917-7dc7-9321-9bac-22c3462874cf",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:53:19.387734+00:00"
+    },
+    {
+      "id": "C03-S05-U08",
+      "role": "counselor",
+      "text": "这次是陆工，风格跟老韩也不一样，你斟酌的是怎么把话说清楚，不是该不该开口——能换个人、换个风格，节奏还是顺的。行，下次见。",
+      "call_id": "9a2a194954cb49828835871d5b05eec5",
+      "response_id": "resp_eaa4f4a2-bfda-9c5b-bfe1-067459eabedf",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:53:30.221412+00:00"
+    },
+    {
+      "id": "C03-S05-U09",
+      "role": "client",
+      "text": "嗯……好像是吧。就是陆工那种风格，你反而不用想太多，把问题说清楚就行。\n\n行，下次再聊。",
+      "call_id": "e2b25bdaa7e241bd8a537e6b6d3dae8b",
+      "response_id": "resp_d9e7f670-a749-96b1-b0c5-ef0f1e19cbb6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:53:40.010064+00:00"
+    },
+    {
+      "id": "C03-S05-U10",
+      "role": "counselor",
+      "text": "嗯，下次见。",
+      "call_id": "fbe13a6e9d51459ab854b03231dbb3bf",
+      "response_id": "resp_eb7e9c1a-0b8c-96d7-ae65-575f0dc0a1c7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:53:45.462255+00:00"
+    },
+    {
+      "id": "C03-S05-U11",
+      "role": "client",
+      "text": "好，下次见。",
+      "call_id": "e7035e10f212494eb728bbab664ac2aa",
+      "response_id": "resp_a1950398-1f84-91b9-bc6d-1ce2bc7c5385",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:53:55.991717+00:00"
+    },
+    {
+      "id": "C03-S05-U12",
+      "role": "counselor",
+      "text": "（本次会话已结束）",
+      "call_id": "c9cc45f2dbc34f7f94bd621fbff048e5",
+      "response_id": "resp_8c4c895e-9283-95e5-9e0c-c6eb9b9ecdba",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:54:13.005776+00:00"
+    },
+    {
+      "id": "C03-S05-U13",
+      "role": "client",
+      "text": "好，那下次见。",
+      "call_id": "06c1615073824a2280a9fe3e64181b3a",
+      "response_id": "resp_df84e7d5-79ed-97b7-8838-277411d936ff",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:54:16.560854+00:00"
+    },
+    {
+      "id": "C03-S05-U14",
+      "role": "counselor",
+      "text": "嗯，好。",
+      "call_id": "f97134026c94408a80590bf734f21ef9",
+      "response_id": "resp_6da61818-0e61-995a-828f-e3bfac8d5313",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:54:25.632108+00:00"
+    },
+    {
+      "id": "C03-S05-U15",
+      "role": "client",
+      "text": "嗯，好。",
+      "call_id": "a0d37a5bdf734661afadaffe3788a8d5",
+      "response_id": "resp_6e48f38a-6c1d-9443-a052-d0a14936f847",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:54:36.623662+00:00"
+    },
+    {
+      "id": "C03-S05-U16",
+      "role": "counselor",
+      "text": "嗯。",
+      "call_id": "702e4375adb34260bcced33a2a741dae",
+      "response_id": "resp_6924b5b5-ff97-9c65-a015-418c9e85847f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:54:47.153797+00:00"
+    },
+    {
+      "id": "C03-S05-U17",
+      "role": "client",
+      "text": "嗯，好。",
+      "call_id": "7d0a96a94f0f4b428aaa2833572104ab",
+      "response_id": "resp_d84c921f-bbe3-9545-845a-0d7dfdb7c3b0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:54:50.754008+00:00"
+    },
+    {
+      "id": "C03-S05-U18",
+      "role": "counselor",
+      "text": "嗯，下次见。",
+      "call_id": "45712a99b911442f862796d09bb2aa43",
+      "response_id": "resp_07412bce-8feb-993d-b7ac-8f44a9c59aae",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:54:59.607959+00:00"
+    },
+    {
+      "id": "C03-S05-U19",
+      "role": "client",
+      "text": "嗯，好，下次见。",
+      "call_id": "82eb19b8ff564c6ea0d6759a71ce5648",
+      "response_id": "resp_05a107e0-da00-9ed1-b386-4bbb5c88ceba",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:55:04.395713+00:00"
+    },
+    {
+      "id": "C03-S05-U20",
+      "role": "counselor",
+      "text": "嗯，好。",
+      "call_id": "11f3aa1a484942cdad517b9de1d6b99a",
+      "response_id": "resp_bdc2b096-6b95-9768-ac25-1114dd51548f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:55:13.318383+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T11:55:13.318383+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T11:55:13.320383+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  }
+}

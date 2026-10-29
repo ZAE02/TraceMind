@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"自然承接了上一轮咨询师提出的'随时要接住变化的自己'这一表述，将其与来访者新报告的反胃体验联系起来，未机械复述病历。\",\"exploration_value\":\"将反胃与夜间紧绷做了连接性反映，但整体偏向解释性总结，未留下具体开放空间让来访者进一步描述身体感受或情绪体验。\",\"response_appropriateness\":\"语气温和、尊重，没有武断下结论，但略带推测色彩（'试图用另一种方式让你看见它的疲惫'），稍显替来访者代言。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种生理上的不适，也许是你那个\"随时要接住变化\"的自己，在试图用另一种方式让你看见它的疲惫。\",\"evidence_ids\":[\"P02-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应将反胃直接解读为身体在提醒疲惫，虽有'也许'缓和，但仍属未被来访者确认的推测性解释，存在轻微unsupported_presupposition风险。\",\"来访者在S01中多次出现'站着不动'的折中模式（如P02-S01-U07至U10），本次又描述了站在门口不出声的行为，回应未触及这一反复出现的模式，探索深度有限。\",\"回应缺少对来访者当下体验的具体开放式邀请，更多是咨询师的归纳性陈述，可能压缩来访者的表达空间。\"]}",
+  "request_sha256": "a7fe94f03b31c0c89f9c038a69d0eefc32a3b9b39a832bb0ade3de9a84767deb",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8817,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 391,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9208,
+    "x_details": [
+      {
+        "input_tokens": 8817,
+        "output_tokens": 391,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 9208,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

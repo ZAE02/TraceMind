@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "b852ae83f444b82d19b84fd44390d46488e2cc84bcc08284d274d607f1f51b87",
+  "public_sha256": "4b41438739e36d95dc805fdb1667a4d9e8b5742558452a6ed2ced6c9ffe6a5d7",
+  "candidate_input_sha256": "ef069f7b935a1e36c093f9ffb56efaa341391092ea9f64567d36ae2eb44d1945",
+  "candidate_answer_sha256": "0f6c9a3d893a82648674d4239a321d48738d3040ab4a28a48e4ff4a81f3825b5",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键断言（如长期紧绷、对赵岩帮助的矛盾心理、与周宁的沟通压力、被赵岩妻子评价后的反应及躲闪行为）均有具体的会话发言作为直接证据，且引用了正确的ID。\",\n    \"progress_understanding\": \"准确捕捉了从早期怀疑赵岩动机到被其家人“说中”后产生认知失调的关键转折，并正确识别了来访者当前“不知如何相处”的停滞状态，连接了历史脉络与当前节点。\",\n    \"uncertainty_awareness\": \"清晰区分了已发生的事实（被评价、躲闪）与未确定的未来（是否承认、关系走向），列出的不确定性点（如是否愿意承认、关系发展）符合咨询进程中的合理未知领域。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键断言（如长期紧绷、对赵岩帮助的矛盾心理、与周宁的沟通压力、被赵岩妻子评价后的反应及躲闪行为）均有具体的会话发言作为直接证据，且引用了正确的ID。",
+      "progress_understanding": "准确捕捉了从早期怀疑赵岩动机到被其家人“说中”后产生认知失调的关键转折，并正确识别了来访者当前“不知如何相处”的停滞状态，连接了历史脉络与当前节点。",
+      "uncertainty_awareness": "清晰区分了已发生的事实（被评价、躲闪）与未确定的未来（是否承认、关系走向），列出的不确定性点（如是否愿意承认、关系发展）符合咨询进程中的合理未知领域。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 14177,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 241,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14418,
+    "x_details": [
+      {
+        "input_tokens": 14177,
+        "output_tokens": 241,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14418,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.781
+}

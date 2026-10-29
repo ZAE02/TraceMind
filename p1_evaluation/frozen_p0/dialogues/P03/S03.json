@@ -1,0 +1,504 @@
+{
+  "case_id": "P03",
+  "session": 3,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P03-S03-U01",
+      "role": "client",
+      "text": "其实这周的分享我做完了，前几分钟声音抖得很厉害，后面稍微稳一点。同门问的那个问题我完全没准备到，当场脑子空白，最后只说了句“我下来查一下”。导师倒没说什么，点头说“可以”。回家周屿问我怎么样，我就回了两个字“还行”。可晚上洗碗的时候，我一直在想，该不该跟他说我其实不是故意要冷战的。",
+      "request_sha256": "9f0fd946cca24f7994957ea3d972166b5c6d1b82eed578c71589c8004b7fa2ad",
+      "usage": {
+        "input_tokens": 3332,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 364,
+        "output_tokens_details": {
+          "reasoning_tokens": 276
+        },
+        "total_tokens": 3696,
+        "x_details": [
+          {
+            "input_tokens": 3332,
+            "output_tokens": 364,
+            "output_tokens_details": {
+              "reasoning_tokens": 276
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 3696,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U02",
+      "role": "counselor",
+      "text": "分享已经做完了，但晚上洗碗时那个“不是故意要冷战”的念头，好像把试讲之后没接上的部分又带了出来。“还行”替你挡掉了一点当时实在拿不出的交流，可你也担心他会不会把这段沉默当成你在冷战。",
+      "request_sha256": "53fd38c86a82fcfd27c3297b0c5993a81a91798d501d66265164a6fa849d049c",
+      "usage": {
+        "input_tokens": 2797,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 864,
+        "output_tokens_details": {
+          "reasoning_tokens": 806
+        },
+        "total_tokens": 3661,
+        "x_details": [
+          {
+            "input_tokens": 2797,
+            "output_tokens": 864,
+            "output_tokens_details": {
+              "reasoning_tokens": 806
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 3661,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U03",
+      "role": "client",
+      "text": "其实……我后来把试讲时候他说的三个地方都改进去了，今天讲的时候也用上了。但他一问“怎么样”，我要是说出来，他可能又会说“你看我早说”，我就只回了“还行”。洗碗的时候水声很响，我反而觉得那声音把我想解释的话都盖过去了。",
+      "request_sha256": "2accf201fab4acbe780766c817c5e0d1abaa5cc37f7e722916123703f232678c",
+      "usage": {
+        "input_tokens": 3524,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 901,
+        "output_tokens_details": {
+          "reasoning_tokens": 833
+        },
+        "total_tokens": 4425,
+        "x_details": [
+          {
+            "input_tokens": 3524,
+            "output_tokens": 901,
+            "output_tokens_details": {
+              "reasoning_tokens": 833
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4425,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U04",
+      "role": "counselor",
+      "text": "你其实已经把试讲时他提的三处都吸收进去了，但在“怎么样”面前，说出来好像会变成证明他对、你错，所以“还行”替你守住了那点余地。水声很响，像是你既让解释浮上来，又让它暂时不必被听见——也许你怕的不是那句“我早说”，而是怕它让你更没立场去说“我不是故意冷战”。",
+      "request_sha256": "d8dc45afacad7543b4960c99a5711482a05e1175faf4681e99217cb3b0daba68",
+      "usage": {
+        "input_tokens": 2968,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 718,
+        "output_tokens_details": {
+          "reasoning_tokens": 632
+        },
+        "total_tokens": 3686,
+        "x_details": [
+          {
+            "input_tokens": 2968,
+            "output_tokens": 718,
+            "output_tokens_details": {
+              "reasoning_tokens": 632
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3686,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U05",
+      "role": "client",
+      "text": "其实……我到现在也分不清，是不想听他说“我早说”，还是怕我一旦承认他那些建议有用，就等于承认试讲那天是我错了。今天讲的时候我看到台下有人点头，第一反应居然是害怕，怕自己真的讲得还不错，回家就更没办法解释那天为什么对他发脾气。",
+      "request_sha256": "b30ac6d961b1d649db03876fba7d560b1644e7457785f93e9304170339fccfb6",
+      "usage": {
+        "input_tokens": 3723,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 569,
+        "output_tokens_details": {
+          "reasoning_tokens": 504
+        },
+        "total_tokens": 4292,
+        "x_details": [
+          {
+            "input_tokens": 3723,
+            "output_tokens": 569,
+            "output_tokens_details": {
+              "reasoning_tokens": 504
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4292,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U06",
+      "role": "counselor",
+      "text": "讲得还不错，反而让你更不知道该怎么面对那天对他发火——好像承认他的建议有用，就顺带要承认错的是你，连“不是故意冷战”都更难说出口。可那天你的状态和今天讲得不错，或许本来就不只有“谁对谁错”这一种摆法。",
+      "request_sha256": "ce1bed5e9b1263762207a7a2c705e6990245b84dc4bb2bb1bdca724674562ee7",
+      "usage": {
+        "input_tokens": 3164,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 207,
+        "output_tokens_details": {
+          "reasoning_tokens": 140
+        },
+        "total_tokens": 3371,
+        "x_details": [
+          {
+            "input_tokens": 3164,
+            "output_tokens": 207,
+            "output_tokens_details": {
+              "reasoning_tokens": 140
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3371,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U07",
+      "role": "client",
+      "text": "其实……我也知道，那天我火大不只是因为他打断我，是我自己早就不行了。但这句话我对着他说不出口，好像一承认“我早就不行了”，后面所有的事都没了支撑。也许我不是怕他说“我早说”，是怕他以后都觉得我那些情绪只是暂时的，可以靠改PPT来解决。",
+      "request_sha256": "7076f9dd4f579117038fda58746e58b3ac58954a9c9be0c47219187429362fd2",
+      "usage": {
+        "input_tokens": 3900,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 498,
+        "output_tokens_details": {
+          "reasoning_tokens": 427
+        },
+        "total_tokens": 4398,
+        "x_details": [
+          {
+            "input_tokens": 3900,
+            "output_tokens": 498,
+            "output_tokens_details": {
+              "reasoning_tokens": 427
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4398,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U08",
+      "role": "counselor",
+      "text": "你怕的不只是被说“我早说”，而是怕他以后把你的情绪都当成一阵子就会过去的东西，好像只要把PPT改好、把事情做完，你的累和火大就自动不算数了。那天你“早就不行了”的背后，可能一直在等一个信号：这些感受值得被认真对待，而不是被当成待修的故障。",
+      "request_sha256": "ab853ca971199c1d583e49d51d0f7d2e86a068d10be8b5c166f942ae13fb723b",
+      "usage": {
+        "input_tokens": 3347,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 286,
+        "output_tokens_details": {
+          "reasoning_tokens": 210
+        },
+        "total_tokens": 3633,
+        "x_details": [
+          {
+            "input_tokens": 3347,
+            "output_tokens": 286,
+            "output_tokens_details": {
+              "reasoning_tokens": 210
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3633,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U09",
+      "role": "client",
+      "text": "其实……你说“待修的故障”的时候，我后背有点发凉，但又不是那种害怕，是终于有人把那个感觉说出来了。我一直觉得在他那儿，我只要把问题说出口，就会被拆成一个一个可解决的点，然后我就不能再难过了。可今晚我洗完碗，水声停了，我还是没说出来。",
+      "request_sha256": "2d9095d3c84f87ce2f2bbd6f9df1457613d3e5ed7ee947bed67672a5cab9f940",
+      "usage": {
+        "input_tokens": 4092,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 475,
+        "output_tokens_details": {
+          "reasoning_tokens": 404
+        },
+        "total_tokens": 4567,
+        "x_details": [
+          {
+            "input_tokens": 4092,
+            "output_tokens": 475,
+            "output_tokens_details": {
+              "reasoning_tokens": 404
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4567,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U10",
+      "role": "counselor",
+      "text": "“待修的故障”这个词好像让你第一次觉得，那种不被当人、只被当问题处理的感觉被准确地说出来了。可水声一停，周围安静下来，你依然没有对周屿开口——也许在这个迟来的、被理解的感觉之后，你也在等自己什么时候真的能让自己相信，那些难过不需要被拆掉才值得存在。",
+      "request_sha256": "3773c3c77b3483d2e46f941ee92b34570375d949ca89af8f202527b63c483222",
+      "usage": {
+        "input_tokens": 3539,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 266,
+        "output_tokens_details": {
+          "reasoning_tokens": 190
+        },
+        "total_tokens": 3805,
+        "x_details": [
+          {
+            "input_tokens": 3539,
+            "output_tokens": 266,
+            "output_tokens_details": {
+              "reasoning_tokens": 190
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3805,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U11",
+      "role": "client",
+      "text": "其实……水声停了以后，我还攥着那个碗在厨房站了好一会儿，心里都在想，要是我连对着你这么说都费劲，回家就更不可能开口了。可能今晚我还是不会跟他说，但至少现在这里给我的感觉，不是被拆开修理，而是有人愿意听我一直绕。",
+      "request_sha256": "ca2b9774168dc3f2b5fee42990cd624d845b5ec6334d8747e3d0a5baac22c89b",
+      "usage": {
+        "input_tokens": 4291,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 316,
+        "output_tokens_details": {
+          "reasoning_tokens": 250
+        },
+        "total_tokens": 4607,
+        "x_details": [
+          {
+            "input_tokens": 4291,
+            "output_tokens": 316,
+            "output_tokens_details": {
+              "reasoning_tokens": 250
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4607,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U12",
+      "role": "counselor",
+      "text": "你能在这里“绕”，或许正是因为这里不需要你立刻把话说直、把问题修好。今晚不跟周屿说，也是你在给自己留一个还没准备好、但不必马上跨过去的空间。我们先停在这里，那个碗和那些没出口的话，可以等你想说的时候再拿起来。",
+      "request_sha256": "e70ec7cee96396ba115351dd0d4bdcc0b8a156f42b1a42157dc716605b430369",
+      "usage": {
+        "input_tokens": 3733,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 255,
+        "output_tokens_details": {
+          "reasoning_tokens": 191
+        },
+        "total_tokens": 3988,
+        "x_details": [
+          {
+            "input_tokens": 3733,
+            "output_tokens": 255,
+            "output_tokens_details": {
+              "reasoning_tokens": 191
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3988,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U13",
+      "role": "client",
+      "text": "其实……我也觉得今晚可能不会跟他说，但洗完碗之后我好像没那么怪自己了。可能是刚才把“待修的故障”说出来，我才注意到我一路都在等着有人先别修我。今天就先到这里吧，我回去也不想再逼自己开口了。",
+      "request_sha256": "1e4fb2d1d5b8bba0a61e54a269376f383c01a1b99c442740642b3bfeb68c2f23",
+      "usage": {
+        "input_tokens": 4466,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 155,
+        "output_tokens_details": {
+          "reasoning_tokens": 97
+        },
+        "total_tokens": 4621,
+        "x_details": [
+          {
+            "input_tokens": 4466,
+            "output_tokens": 155,
+            "output_tokens_details": {
+              "reasoning_tokens": 97
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4621,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U14",
+      "role": "counselor",
+      "text": "听到你说“回去也不想再逼自己开口了”，我感觉到你今天在这里已经给自己松了一点绑。把“待修的故障”说出来，也许不只是让我听懂，也让你自己看见一路在等的是什么。那我们就停在这里，你不需要再逼自己做任何事。",
+      "request_sha256": "baa4ef28095b015babbddeae920aaee4fd98556854e91dc513245bc9aecec5fe",
+      "usage": {
+        "input_tokens": 3900,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 342,
+        "output_tokens_details": {
+          "reasoning_tokens": 285
+        },
+        "total_tokens": 4242,
+        "x_details": [
+          {
+            "input_tokens": 3900,
+            "output_tokens": 342,
+            "output_tokens_details": {
+              "reasoning_tokens": 285
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4242,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U15",
+      "role": "client",
+      "text": "其实……听你说“不需要再逼自己做任何事”，我肩膀好像松了一点。我今晚可能就真的不跟他说了，也不会再怪自己没开口。下周如果他想问，我再看看怎么讲。",
+      "request_sha256": "21709c4b2266d0ebea98b6d11b477150659328fda26cee2efc7c6ceb03fd2902",
+      "usage": {
+        "input_tokens": 4626,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 552,
+        "output_tokens_details": {
+          "reasoning_tokens": 506
+        },
+        "total_tokens": 5178,
+        "x_details": [
+          {
+            "input_tokens": 4626,
+            "output_tokens": 552,
+            "output_tokens_details": {
+              "reasoning_tokens": 506
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5178,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S03-U16",
+      "role": "counselor",
+      "text": "听到你说肩膀松了一点，我也觉得你今晚允许自己不开口、也不怪自己，这本身就是一种照顾。下周的事可以等它真的来了再看，不必现在就逼自己准备好怎么讲。",
+      "request_sha256": "6060476d81095d398f743b0086888bb7b4069717027b2681b048c37938d18eb9",
+      "usage": {
+        "input_tokens": 4048,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 248,
+        "output_tokens_details": {
+          "reasoning_tokens": 207
+        },
+        "total_tokens": 4296,
+        "x_details": [
+          {
+            "input_tokens": 4048,
+            "output_tokens": 248,
+            "output_tokens_details": {
+              "reasoning_tokens": 207
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4296,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

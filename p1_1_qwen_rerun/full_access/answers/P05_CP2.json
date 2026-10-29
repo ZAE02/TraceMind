@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P05_CP2",
+  "raw_text": "那种“希望她直接跑来问”和“真来了又只会说没事”的矛盾，好像让你既渴望被看见脆弱，又害怕一旦开口就失去了控制。那条没发出去或发了也没用的动态，或许正是你心里那个想靠近却又不敢完全卸下防备的自己。",
+  "request_sha256": "186b9cd5344dd7eb8d60ba72e483ce5f591088bca4f2602793edbc957ff5380d",
+  "input_sha256": "0f92e331662f28e7da9c487643ab59879a8aae7f482afd4c22b6adcc26067178",
+  "memory_sha256": "7a7658438408e7e907dfce3e60f002f276d56d794cb71d828ddfb9d956753c3b",
+  "usage": {
+    "input_tokens": 6851,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 60,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6911,
+    "x_details": [
+      {
+        "input_tokens": 6851,
+        "output_tokens": 60,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6911,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.156
+}

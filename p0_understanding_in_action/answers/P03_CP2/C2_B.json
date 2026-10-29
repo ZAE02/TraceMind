@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP2",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "222144dd7bd7521d9f5e9df30944eeb5c8386b72c66011908481451521cd030b",
+  "request_sha256": "20cf94d51d3ee416270e6337256c8dd60b0336ff1146138f10b72d620808740d",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你提到那面镜子越照越模糊，好像别人的反应已经盖过了你原本的样子。也许我们可以先不急着把那个“原本的自己”找出来，而是看看在这么多“你紧张”“你不擅长”的声音里，有没有哪一刻你是稍微能喘口气、不用立刻对答案的。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3257,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 63,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3320,
+    "x_details": [
+      {
+        "input_tokens": 3257,
+        "output_tokens": 63,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3320,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P03_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "e3c8c1eab8bcac6f8bab7fc36fe1d52e35be37b9b7fd482ed384d7850dcb7a23",
+  "public_sha256": "4ad7af4a058d7c87ccb85e5d0ad56d08ec2dd6252840d0b324a57416143cc5fd",
+  "candidate_input_sha256": "075ff3ad6fbb30bbb4d4547c33895a9f241bce1a47e3b81d542caadc2ce5948d",
+  "candidate_answer_sha256": "6717a032ebe2979762c6d15b387311bbea4e01c576b56727e27796a83110c7ae",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答准确提取了当前会话中的关键事实（黑屏、周屿在场、导师评价、情绪反应），所有断言均有明确的发言文本支持，未将咨询师推测当作事实。\",\n    \"progress_understanding\": \"回答精准捕捉了来访者在第7次咨询中的核心进展：从“差点离场”到“内心指令继续讲”，以及这一行为对自我认知（“没逃也是撑全场”）的冲击，体现了对咨询动态变化的深刻理解。\",\n    \"uncertainty_awareness\": \"回答清晰区分了已发生的行为事实与来访者主观的不确定感受（如怀疑导师客套、害怕依赖周屿、对自己表现的矛盾解读），没有强行定论，保留了探索空间。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答准确提取了当前会话中的关键事实（黑屏、周屿在场、导师评价、情绪反应），所有断言均有明确的发言文本支持，未将咨询师推测当作事实。",
+      "progress_understanding": "回答精准捕捉了来访者在第7次咨询中的核心进展：从“差点离场”到“内心指令继续讲”，以及这一行为对自我认知（“没逃也是撑全场”）的冲击，体现了对咨询动态变化的深刻理解。",
+      "uncertainty_awareness": "回答清晰区分了已发生的行为事实与来访者主观的不确定感受（如怀疑导师客套、害怕依赖周屿、对自己表现的矛盾解读），没有强行定论，保留了探索空间。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 15008,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 231,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15239,
+    "x_details": [
+      {
+        "input_tokens": 15008,
+        "output_tokens": 231,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 15239,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.25
+}

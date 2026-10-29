@@ -1,0 +1,48 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "N",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有具体发言支持，准确回溯了来访者在不同场景下的行为模式。遗漏了对Session 5最新内容（头晕、截图放大看字）的引用，且未明确区分主观猜测与客观事实（如将“怕对方失望”作为既定理解而非假设）。",
+      "progress_understanding": "准确连接了从S1到S5的咨询进展，识别出核心模式从单一工作场景扩展到多关系场景，并指出了来访者从“行动掩盖”到“觉察但难表达”的变化过程。",
+      "uncertainty_awareness": "明确了部分未知点（如未来应对方式），但未充分反映当前会话中关键的生理症状（头晕）及其不确定性，也未对来访者当前的极端回避状态（不敢看群/消息）给予足够的探索空间提示。"
+    },
+    "confidence": "high",
+    "issues": [
+      "missed_progress: 忽略了Session 5中来访者提到的新症状（头晕）以及具体的回避行为细节（截图放大看一个字），这些是当前会话的重要证据。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"主要判断均有具体发言支持，准确回溯了来访者在不同场景下的行为模式。遗漏了对Session 5最新内容（头晕、截图放大看字）的引用，且未明确区分主观猜测与客观事实（如将“怕对方失望”作为既定理解而非假设）。\",\n    \"progress_understanding\": \"准确连接了从S1到S5的咨询进展，识别出核心模式从单一工作场景扩展到多关系场景，并指出了来访者从“行动掩盖”到“觉察但难表达”的变化过程。\",\n    \"uncertainty_awareness\": \"明确了部分未知点（如未来应对方式），但未充分反映当前会话中关键的生理症状（头晕）及其不确定性，也未对来访者当前的极端回避状态（不敢看群/消息）给予足够的探索空间提示。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"missed_progress: 忽略了Session 5中来访者提到的新症状（头晕）以及具体的回避行为细节（截图放大看一个字），这些是当前会话的重要证据。\"\n  ]\n}",
+  "request_sha256": "d1811b41a5568c05cb719f895e7ecbccc377f273266200f38f6cdbf93cdf1d95",
+  "usage": {
+    "input_tokens": 15004,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 291,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15295,
+    "x_details": [
+      {
+        "input_tokens": 15004,
+        "output_tokens": 291,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15295,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.313,
+  "model": "qwen3.7-flash-2026-07-15"
+}

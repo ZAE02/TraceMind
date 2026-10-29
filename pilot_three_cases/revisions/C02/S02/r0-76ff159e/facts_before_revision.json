@@ -1,0 +1,59 @@
+{
+  "case_id": "C02",
+  "stable_profile": {
+    "name": "陈宁",
+    "age": 25,
+    "gender": "女",
+    "occupation": "电商运营专员",
+    "living_context": "在南京一家电商公司工作两年，与大学朋友合租，工作日通勤约四十分钟。",
+    "relationships": "同组同事阿敏常临时请她帮忙；资深同事赵哥入职时带过她；室友悦悦知道她常加班。",
+    "speech_style": "会先替别人解释，有时把不满说成‘也不是多大的事’；描述事情时会提到具体时间和个人安排，口语自然。"
+  },
+  "confirmed_additions": [
+    {
+      "fact": "来访者上班两年，常先答应别人再挤时间。",
+      "category": "work_history",
+      "first_session": 1,
+      "evidence": [
+        "C02-S01-U07"
+      ],
+      "id": "C02-F001",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.518086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "上周六与悦悦约一起做饭，周五加班到八点、周六上午补数据后，当晚取消；悦悦说饭放冰箱了。",
+      "category": "supplemental_life_event",
+      "first_session": 1,
+      "evidence": [
+        "C02-S01-U09"
+      ],
+      "id": "C02-F002",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.518086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "陈宁感觉阿敏反复用顺手提出请求；没有说阿敏是故意使唤。",
+      "category": "relationship_perception",
+      "first_session": 1,
+      "evidence": [
+        "C02-S01-U17"
+      ],
+      "id": "C02-F003",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.518086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    }
+  ],
+  "pending_dialogue_reviews": [
+    2
+  ],
+  "rejected_candidates": [],
+  "note": "事实确认须附对话证据并检查与人物档案和已知事实的一致性；私人体验不等同Gold。",
+  "pending_new_fact_candidates": [],
+  "reviewed_candidates": [],
+  "date_resolution": "GPT independent reviewer: the previous Saturday episode is an additional event, not the undisclosed Thursday episode. Preserve both dates.",
+  "reported_intentions": []
+}

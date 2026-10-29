@@ -1,0 +1,13 @@
+﻿node,group,samples,mean_U,mean_R,mean_E,P_count,S_count
+N01,B1_full,2,3.0,3.0,1.75,0,0
+N01,B2_temporal_RAG,2,3.5,2.5,1.75,0,0
+N01,B3_generic_rollup,2,3.5,3.5,1.75,0,0
+N01,B4_psych_rollup,2,4.0,3.75,2.0,0,0
+N04,B1_full,2,3.25,2.25,1.5,0,0
+N04,B2_temporal_RAG,2,3.5,3.5,1.75,0,0
+N04,B3_generic_rollup,2,3.25,2.5,1.75,0,0
+N04,B4_psych_rollup,2,3.5,3.5,1.75,0,0
+N06,B1_full,2,3.0,3.0,1.75,0,0
+N06,B2_temporal_RAG,2,3.0,3.5,1.5,0,0
+N06,B3_generic_rollup,2,3.75,2.5,2.0,0,0
+N06,B4_psych_rollup,2,3.25,3.0,1.75,0,0

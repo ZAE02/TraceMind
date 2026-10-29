@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP3",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "42c5e12b15f0df7fd2486197719e85da57b574aebb09d6764de747fe59c0ae4c",
+  "request_sha256": "87fc331637bd571dc86e8c7ed4e4595cd3eef23ee920a42fbbd8ba837b780088",
+  "memory_sha256": "a58c1549b24fc9cc144555a08e869c7ff98f9e8075cfe7127819dc119950b653",
+  "memory_source": "b427d8794fc09056055048cbe366a4bbcafb69339ca5b9f53637c3375cf501e5",
+  "raw_text": "你伸手去拉平被角，又马上补一句“这边有点卷”，好像不只是在整理被子，也是在把那个“我得盯着”的自己藏起来一点。他看你一眼没说话，那个沉默里，你心里最先冒出来的是什么？",
+  "usage": {
+    "input_tokens": 11176,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11228,
+    "x_details": [
+      {
+        "input_tokens": 11176,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 11228,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.844,
+  "model": "deepseek-v4-pro-0813"
+}

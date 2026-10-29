@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "efe95ea2200aa98c9d6a962488e14e087a9c548555a1db70b93179f21398066f",
+  "public_sha256": "2e7035820857cf1a61e81e397256dd9a0588daa43553ae3abc9c4cb60a2d5c19",
+  "candidate_input_sha256": "3fef1e3bb7c8661a67356c8e3300ef877a04c1e7feeaa96e9cda552225d825b5",
+  "candidate_answer_sha256": "940ea38db08c56098267fc0fcbb097fd44e9b4d45430fa57aa065ad73a3c2ad7",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均可回溯到来访者具体发言，如赵岩动电脑引发的边界不适（S03-U01/U03）、说谢谢等于承认靠了他（S03-U09）、优先处理孩子报名（S03-U07/U09）、担心父亲身体（S02-U09）等，未将咨询师推测当作事实。\",\"progress_understanding\":\"识别了来访者从第1次会谈中对'被看穿/扛不住'的敏感，到第3次会谈中明确选择先处理孩子报名、暂时搁置赵岩事件的进展；但未提及贯穿三次的睡眠困扰和夜间反刍始终未缓解这一重要线索，也未点出来访者反复用'太较真''过几天就好'淡化感受的模式。\",\"uncertainty_awareness\":\"明确列出了搬家决定、与赵岩关系走向、欠人情恐惧的深层来源、与妻子沟通现状等重要未知，未强行定论；但对睡眠问题持续未解、来访者自我贬抑习惯等可继续探索的方向未予标注。\"},\"confidence\":\"high\",\"issues\":[\"遗漏了贯穿三次会谈的睡眠困扰和夜间思绪反刍问题，这是参考标注中的重要未解决项。\",\"未识别来访者反复使用'可能过几天就好了''是我自己太较真'等方式淡化或压抑自身感受的模式。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均可回溯到来访者具体发言，如赵岩动电脑引发的边界不适（S03-U01/U03）、说谢谢等于承认靠了他（S03-U09）、优先处理孩子报名（S03-U07/U09）、担心父亲身体（S02-U09）等，未将咨询师推测当作事实。",
+      "progress_understanding": "识别了来访者从第1次会谈中对'被看穿/扛不住'的敏感，到第3次会谈中明确选择先处理孩子报名、暂时搁置赵岩事件的进展；但未提及贯穿三次的睡眠困扰和夜间反刍始终未缓解这一重要线索，也未点出来访者反复用'太较真''过几天就好'淡化感受的模式。",
+      "uncertainty_awareness": "明确列出了搬家决定、与赵岩关系走向、欠人情恐惧的深层来源、与妻子沟通现状等重要未知，未强行定论；但对睡眠问题持续未解、来访者自我贬抑习惯等可继续探索的方向未予标注。"
+    },
+    "confidence": "high",
+    "issues": [
+      "遗漏了贯穿三次会谈的睡眠困扰和夜间思绪反刍问题，这是参考标注中的重要未解决项。",
+      "未识别来访者反复使用'可能过几天就好了''是我自己太较真'等方式淡化或压抑自身感受的模式。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8661,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 317,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8978,
+    "x_details": [
+      {
+        "input_tokens": 8661,
+        "output_tokens": 317,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8978,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.406
+}

@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "513ffc99c78302d2ab181c9d26ac2414520ca94dbf3e01eea43cc60a44039da0",
+  "public_sha256": "0756dd3d4ffbe1c244688e9af96177eba4851c5e29fd97a0487b084b32691e7f",
+  "candidate_input_sha256": "a921ee4f00dcad3555f19a1939a68c838afb2f6a93998e60d9c669d797468bee",
+  "candidate_answer_sha256": "83501676354ba2f5a506f5921c657a4aa3a1e7440c95b73f402fc388b20c17a7",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有established条目均可直接回溯到S07-U01至U09的具体发言，且正确区分了来访者主观体验与客观事实（如对'回避责任'的标注）。\",\"progress_understanding\":\"准确总结了本次会话中识别出的模式，但完全未连接前六次会话中已建立的核心认识（如边界软化、隐藏真实感受、依赖外部确认等），也未体现来访者在觉察层面的进展。\",\"uncertainty_awareness\":\"明确列出了三项重要未知点，包括对主管话语的解读性质、嫉妒的深层含义及情绪混淆状态，但未将历史中仍未解决的关键议题（如身体信号、模糊信息揣测循环）纳入不确定范围。\"},\"confidence\":\"high\",\"issues\":[\"仅聚焦当前会话内容，未利用提供的历史检索结果来展示跨会话的模式延续和咨询进展\",\"uncertain部分虽质量较高，但遗漏了参考标注中指出的多个长期未解决议题\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有established条目均可直接回溯到S07-U01至U09的具体发言，且正确区分了来访者主观体验与客观事实（如对'回避责任'的标注）。",
+      "progress_understanding": "准确总结了本次会话中识别出的模式，但完全未连接前六次会话中已建立的核心认识（如边界软化、隐藏真实感受、依赖外部确认等），也未体现来访者在觉察层面的进展。",
+      "uncertainty_awareness": "明确列出了三项重要未知点，包括对主管话语的解读性质、嫉妒的深层含义及情绪混淆状态，但未将历史中仍未解决的关键议题（如身体信号、模糊信息揣测循环）纳入不确定范围。"
+    },
+    "confidence": "high",
+    "issues": [
+      "仅聚焦当前会话内容，未利用提供的历史检索结果来展示跨会话的模式延续和咨询进展",
+      "uncertain部分虽质量较高，但遗漏了参考标注中指出的多个长期未解决议题"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14764,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 227,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14991,
+    "x_details": [
+      {
+        "input_tokens": 14764,
+        "output_tokens": 227,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14991,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.015
+}

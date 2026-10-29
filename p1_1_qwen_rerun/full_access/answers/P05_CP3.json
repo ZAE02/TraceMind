@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P05_CP3",
+  "raw_text": "你一边觉得自己“贪心”，一边又觉得能听完就不错了，这种拉扯里好像藏着一种很深的担心：怕一旦承认自己需要更多，就会显得不配。也许我们可以先看看，那个“多问一句”的期待背后，你最希望被接住的是什么。",
+  "request_sha256": "264faa54e0150f1fc24fc4e9a1c8ba1de034a05d40b589bc030f5fae456139ea",
+  "input_sha256": "4d05f2a5c113d5d68721d600de546c27da1e449ae7b0112d969ddfd31d953748",
+  "memory_sha256": "2ed5b2ed02f96bb2a006d835a3c3cc82b45dccb18c38a5507e21b394beb045d1",
+  "usage": {
+    "input_tokens": 9471,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9530,
+    "x_details": [
+      {
+        "input_tokens": 9471,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9530,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.094
+}

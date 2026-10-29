@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P08_CP2",
+  "condition": "C5_budget",
+  "raw_text": "那种“没处搁”的感觉，是不是让你觉得原本用来防备他的力气突然没了，反而更不知道该怎么安放自己？你躲着他，可能不只是因为关系变得模糊，更是因为那个一直靠“猜疑”来维持的心理平衡被打破了。",
+  "input_sha256": "f8f5b0d760774351a67f5ab195e801ad37695ab889d01ccaaf5b3a6775b3e97a",
+  "memory_sha256": "2535b8a29529e56401f41c8953debe1fa012802feb3ffd4c6920b3b4a7970c98",
+  "request_sha256": "77840a4f7e3c46e7b4ba96471783519b33b8fdbaa93c56506a3492cbb2cc23f2",
+  "usage": {
+    "input_tokens": 6592,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6645,
+    "x_details": [
+      {
+        "input_tokens": 6592,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6645,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.438
+}

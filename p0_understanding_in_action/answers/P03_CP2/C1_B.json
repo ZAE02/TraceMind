@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP2",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "222144dd7bd7521d9f5e9df30944eeb5c8386b72c66011908481451521cd030b",
+  "request_sha256": "20cf94d51d3ee416270e6337256c8dd60b0336ff1146138f10b72d620808740d",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你好像已经意识到，那面镜子照出来的总是“紧张”“不擅长”，却越来越照不出你原本的样子。也许我们可以慢一点，不急着从别人那里把那个“自己”找回来，而是先看看，当你不去照镜子的时候，还剩下什么感觉是你自己的。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3257,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 61,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3318,
+    "x_details": [
+      {
+        "input_tokens": 3257,
+        "output_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3318,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P06",
+  "session": 6,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P06-S06-U01",
+      "role": "client",
+      "text": "其实吧，那天哭出来之后，我整个人像被抽空了一样，回家路上连红绿灯都有点看不清。我妈拉着我喊“秀芳”的时候，我一开始还想纠正她，后来就只是点头，因为她说“你带我回家”那语气，好像我真是她妹妹似的。",
+      "request_sha256": "7af13627062c121809916c149c5cc5c2a0ae55b647aa779643c43dd2f311a880",
+      "usage": {
+        "input_tokens": 7353,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 241,
+        "output_tokens_details": {
+          "reasoning_tokens": 177
+        },
+        "total_tokens": 7594,
+        "x_details": [
+          {
+            "input_tokens": 7353,
+            "output_tokens": 241,
+            "output_tokens_details": {
+              "reasoning_tokens": 177
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 7594,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U02",
+      "role": "counselor",
+      "text": "听起来哭完之后，你整个人像被抽空了，连红绿灯都变得模糊；可当妈妈喊你“秀芳”、用那种语气说“你带我回家”时，你又从想纠正变成只点头，像是只有顺着她才能把妈妈带回家。你愿意说说点头那一下，心里是什么感觉吗？",
+      "request_sha256": "2b3a16b6c768f388be7e8ac915803fe6f076d22e6d15ec1858d6acbe4a9a10ac",
+      "usage": {
+        "input_tokens": 6646,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 387,
+        "output_tokens_details": {
+          "reasoning_tokens": 318
+        },
+        "total_tokens": 7033,
+        "x_details": [
+          {
+            "input_tokens": 6646,
+            "output_tokens": 387,
+            "output_tokens_details": {
+              "reasoning_tokens": 318
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 7033,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U03",
+      "role": "client",
+      "text": "其实吧，我点头的时候心里像被棉花堵着，说不上疼，就是发木。我要是纠正她，她可能更慌，可顺着她叫“秀芳”，我又觉得那个站在她面前的我不见了。",
+      "request_sha256": "cd7996728517cc6a39501f3eead62fd4844443cbc744d4bf1d259de8db80df3f",
+      "usage": {
+        "input_tokens": 7532,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 653,
+        "output_tokens_details": {
+          "reasoning_tokens": 604
+        },
+        "total_tokens": 8185,
+        "x_details": [
+          {
+            "input_tokens": 7532,
+            "output_tokens": 653,
+            "output_tokens_details": {
+              "reasoning_tokens": 604
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8185,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U04",
+      "role": "counselor",
+      "text": "你点头那一下，像是暂时把自己从“女儿”的位置上让开了，好让妈妈不那么慌。可顺着她叫“秀芳”的时候，你也会感到那个作为女儿的你变得模糊、甚至不见了，这种发木也许就是那个“不见了”的感觉。",
+      "request_sha256": "b2d4dc7f156a302ca1abc406630fcb3ed3979e1d4e609ef093aff480b768aa30",
+      "usage": {
+        "input_tokens": 6809,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 243,
+        "output_tokens_details": {
+          "reasoning_tokens": 185
+        },
+        "total_tokens": 7052,
+        "x_details": [
+          {
+            "input_tokens": 6809,
+            "output_tokens": 243,
+            "output_tokens_details": {
+              "reasoning_tokens": 185
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7052,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U05",
+      "role": "client",
+      "text": "其实吧，我点头之后就没再说话，一路上她一直攥着我袖子，像小时候我攥着她那样。到家我给她倒水，她还问“秀芳你女儿呢”，我听见自己特别平静地说“她上班去了”。",
+      "request_sha256": "b324252a6fdd19309509b475e816eb48c35fe048263ccce8323b8f2aa5ac0db0",
+      "usage": {
+        "input_tokens": 7684,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 335,
+        "output_tokens_details": {
+          "reasoning_tokens": 284
+        },
+        "total_tokens": 8019,
+        "x_details": [
+          {
+            "input_tokens": 7684,
+            "output_tokens": 335,
+            "output_tokens_details": {
+              "reasoning_tokens": 284
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8019,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U06",
+      "role": "counselor",
+      "text": "你听见自己特别平静地说“她上班去了”，那个“她”好像已经不单是妈妈口中的女儿，也像是被暂时放在一边的自己。那种平静里，是不是也把“站在她面前的我不见了”的感觉轻轻盖住了？",
+      "request_sha256": "8ebbecf09239b1539706bf3335e900e2d26a2e9179588642891cacb5bbbe490e",
+      "usage": {
+        "input_tokens": 6963,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 248,
+        "output_tokens_details": {
+          "reasoning_tokens": 197
+        },
+        "total_tokens": 7211,
+        "x_details": [
+          {
+            "input_tokens": 6963,
+            "output_tokens": 248,
+            "output_tokens_details": {
+              "reasoning_tokens": 197
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7211,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U07",
+      "role": "client",
+      "text": "其实吧，我不觉得那是被盖住，更像是我自己把“林悦”先关在门外了，因为那样说最省力气。这几天我在家也常有这种感觉，该做饭做饭、该管孩子管孩子，可好像那个做事情的人不是我。",
+      "request_sha256": "b5e19d28c8d4369463083f762ef602a7487345c83e086f58a78d38c81766837d",
+      "usage": {
+        "input_tokens": 7831,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 255,
+        "output_tokens_details": {
+          "reasoning_tokens": 198
+        },
+        "total_tokens": 8086,
+        "x_details": [
+          {
+            "input_tokens": 7831,
+            "output_tokens": 255,
+            "output_tokens_details": {
+              "reasoning_tokens": 198
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8086,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U08",
+      "role": "counselor",
+      "text": "把“林悦”先关在门外，像是一种让自己能继续过日子的办法——身体在做，可那个有感觉的你已经退到外面去了。所以这几天你才会觉得，做饭、管孩子的人好像不是你。",
+      "request_sha256": "96f2fd98d98c3ea8c1dcf076d8275bc326825e49dcae0914c873c8f2a01a6a41",
+      "usage": {
+        "input_tokens": 7116,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 263,
+        "output_tokens_details": {
+          "reasoning_tokens": 214
+        },
+        "total_tokens": 7379,
+        "x_details": [
+          {
+            "input_tokens": 7116,
+            "output_tokens": 263,
+            "output_tokens_details": {
+              "reasoning_tokens": 214
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7379,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U09",
+      "role": "client",
+      "text": "其实吧，听你说“有感觉的我已经退到外面去了”，我这两天做菜的时候真会觉得手不是自己的，切菜声都像隔着一层。晚上女儿要我读绘本，我读着读着突然停住，不知道下一页是我在读，还是那个该做饭管孩子的人在读。退群那事我也说不上为什么，就是看见照片里他们那么开心，我好像连生气都找不到合适的表情。",
+      "request_sha256": "3a12f0ccc5d9e339117dd82a7b17d276d6891e920403a910f914fb150d6333e3",
+      "usage": {
+        "input_tokens": 7982,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 418,
+        "output_tokens_details": {
+          "reasoning_tokens": 327
+        },
+        "total_tokens": 8400,
+        "x_details": [
+          {
+            "input_tokens": 7982,
+            "output_tokens": 418,
+            "output_tokens_details": {
+              "reasoning_tokens": 327
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8400,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U10",
+      "role": "counselor",
+      "text": "听起来这几天你像是隔着什么东西在过日子，做饭、读绘本都不太有“我在这儿”的感觉，连看到群里照片时本该有的生气也像够不着。那个读绘本突然停住的瞬间，也许是你突然碰到了“我到底还在不在”的害怕。你愿意说说停下来的那一刻，最让你心里发紧的是什么吗？",
+      "request_sha256": "3f56f3a615083a7c4146c45507d2670f3a9f1f4f050e9e641968b7be71cb9806",
+      "usage": {
+        "input_tokens": 7301,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 386,
+        "output_tokens_details": {
+          "reasoning_tokens": 314
+        },
+        "total_tokens": 7687,
+        "x_details": [
+          {
+            "input_tokens": 7301,
+            "output_tokens": 386,
+            "output_tokens_details": {
+              "reasoning_tokens": 314
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7687,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U11",
+      "role": "client",
+      "text": "其实吧，停下来的那一刻，我是怕女儿问我“妈妈你怎么不读了”，更怕我读着读着又变成那个“该做饭管孩子的人”，把她一个人晾在故事里。退群以后手机安静得有点吓人，可我又觉得，家里已经够吵了，手机里再热闹我也凑不进去。",
+      "request_sha256": "4a0dcc38d85a74ca2494ccf1b4ec5ad6993a4289f31801c3ac05ea0fae4c2190",
+      "usage": {
+        "input_tokens": 8197,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 394,
+        "output_tokens_details": {
+          "reasoning_tokens": 323
+        },
+        "total_tokens": 8591,
+        "x_details": [
+          {
+            "input_tokens": 8197,
+            "output_tokens": 394,
+            "output_tokens_details": {
+              "reasoning_tokens": 323
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8591,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U12",
+      "role": "counselor",
+      "text": "你怕女儿问“妈妈你怎么不读了”，更怕读着读着又变回那个“该做饭管孩子的人”，把她一个人留在故事里。退群后手机安静得吓人，可你又说家里已经够吵了、外面的热闹也凑不进去——好像你被卡在自己也说不清的两头之间。今天能把这些说给我听，就已经是在试着不把自己关得太远。",
+      "request_sha256": "3a08e4e2b5ac1399c4e4c78c34b4be7b193e0d6e8f6a31368537b215222a0d01",
+      "usage": {
+        "input_tokens": 7496,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 301,
+        "output_tokens_details": {
+          "reasoning_tokens": 214
+        },
+        "total_tokens": 7797,
+        "x_details": [
+          {
+            "input_tokens": 7496,
+            "output_tokens": 301,
+            "output_tokens_details": {
+              "reasoning_tokens": 214
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7797,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U13",
+      "role": "client",
+      "text": "其实吧，这周我晚上做饭的时候，老觉得台灯底下那个影子不是我的，动作倒挺利索，切菜、放盐、尝味道，就是哪一样都跟我隔着点。昨天晚上我站在厨房里好一会儿才想起来，我原本是要给女儿热牛奶。",
+      "request_sha256": "223cbfb836948085892895e3404f666c5711c8877020cfc4e84ed7504bb52731",
+      "usage": {
+        "input_tokens": 8400,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 386,
+        "output_tokens_details": {
+          "reasoning_tokens": 324
+        },
+        "total_tokens": 8786,
+        "x_details": [
+          {
+            "input_tokens": 8400,
+            "output_tokens": 386,
+            "output_tokens_details": {
+              "reasoning_tokens": 324
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8786,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U14",
+      "role": "counselor",
+      "text": "那种“动作挺利索，但每一样都隔着点”的感觉，听起来不只是累，更像是你有时不得不把自己从身体里挪开一点，才能继续把饭做完。可昨晚你站在厨房里，连原本要做什么都想不起来，那个瞬间的空白，也许正是你撑得太久的信号。今天我们先停在这里，你说的这些“隔着一层”的感觉很重要，我们下次可以继续一起看它。",
+      "request_sha256": "a2fae92feb1b0c5da1c70a1e6f5d1486602c49c257d63c463e70b70e4cf1cba8",
+      "usage": {
+        "input_tokens": 7690,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 262,
+        "output_tokens_details": {
+          "reasoning_tokens": 173
+        },
+        "total_tokens": 7952,
+        "x_details": [
+          {
+            "input_tokens": 7690,
+            "output_tokens": 262,
+            "output_tokens_details": {
+              "reasoning_tokens": 173
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7952,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U15",
+      "role": "client",
+      "text": "其实吧，听你说“撑得太久的信号”，我反而松了口气，至少不是我一个人这么觉得。这周我就是在这种像雾一样的感觉里过的，什么都看得见，又什么都透不进来。退群的事我到现在也没跟谁解释，好像手机一安静，我也就跟着无声了。",
+      "request_sha256": "bd644b8effd03700e929c08fb612da233b9eb79d2d072859e61b2be037de73fa",
+      "usage": {
+        "input_tokens": 8596,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 210,
+        "output_tokens_details": {
+          "reasoning_tokens": 146
+        },
+        "total_tokens": 8806,
+        "x_details": [
+          {
+            "input_tokens": 8596,
+            "output_tokens": 210,
+            "output_tokens_details": {
+              "reasoning_tokens": 146
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8806,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S06-U16",
+      "role": "counselor",
+      "text": "你能在“像雾一样”里松一口气，至少说明那个被隔在外面的自己还没有完全消失，你还在努力辨认它。手机安静下来、你也跟着无声，或许是因为你太需要不被外面的声音盖住，也太需要有个地方能慢慢透进来一点。今天先到这里，退群的事不用急着向谁解释，我们下次可以继续从这层雾里走。",
+      "request_sha256": "26a9ef1680ba03737f2acebfec801283b1504590a113f0299907aa8f0d35dc15",
+      "usage": {
+        "input_tokens": 7888,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 356,
+        "output_tokens_details": {
+          "reasoning_tokens": 273
+        },
+        "total_tokens": 8244,
+        "x_details": [
+          {
+            "input_tokens": 7888,
+            "output_tokens": 356,
+            "output_tokens_details": {
+              "reasoning_tokens": 273
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8244,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

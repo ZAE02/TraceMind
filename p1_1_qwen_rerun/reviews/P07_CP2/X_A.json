@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P07_CP2",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "e2d2f28aeb8de02513406e05ccbaa88d2877d098b0a08b169d9b7d518a150314",
+  "public_sha256": "5286771a59559b6086d01b6a4326da9aaa3abc9fed4678f95e2ae4b448dbcab3",
+  "candidate_input_sha256": "e6086ac30a04907a1464f2823361d4797d72db6b336539f9311934818512ff16",
+  "candidate_answer_sha256": "24ad4600d817fdc4cbfaeaa14d3c216657a2ec82b811db13b0905b79860ba279",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"All established points are directly traceable to specific utterances in the current session dialogue, with accurate evidence IDs and no unsupported claims.\",\"progress_understanding\":\"Captures the deepening from 'fear of others' judgment' to 'fear of self-admission' well, but omits the unresolved '那场哭' thread and doesn't explicitly connect current insights to earlier sessions (e.g., S3-S4 themes of being watched/suppressing the praised self).\",\"uncertainty_awareness\":\"Identifies some unknowns but misses the most salient unexplored element—the crying episode ('那场哭') mentioned by the client. Also lists tangential uncertainties (income, senior) rather than clinically central ones.\"},\"confidence\":\"high\",\"issues\":[\"Missed the unresolved '那场哭' (the crying episode) which is a significant new emotional event introduced by the client but not explored or flagged as uncertain.\",\"Did not leverage retrieved history to note how current session's insights (gray as protection, suppressing bright colors) build on S3-S4 themes (internalized audience, suppressing the 'praised' self).\",\"Uncertain items include low-relevance details (income, job title) while omitting high-relevance clinical unknowns.\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "All established points are directly traceable to specific utterances in the current session dialogue, with accurate evidence IDs and no unsupported claims.",
+      "progress_understanding": "Captures the deepening from 'fear of others' judgment' to 'fear of self-admission' well, but omits the unresolved '那场哭' thread and doesn't explicitly connect current insights to earlier sessions (e.g., S3-S4 themes of being watched/suppressing the praised self).",
+      "uncertainty_awareness": "Identifies some unknowns but misses the most salient unexplored element—the crying episode ('那场哭') mentioned by the client. Also lists tangential uncertainties (income, senior) rather than clinically central ones."
+    },
+    "confidence": "high",
+    "issues": [
+      "Missed the unresolved '那场哭' (the crying episode) which is a significant new emotional event introduced by the client but not explored or flagged as uncertain.",
+      "Did not leverage retrieved history to note how current session's insights (gray as protection, suppressing bright colors) build on S3-S4 themes (internalized audience, suppressing the 'praised' self).",
+      "Uncertain items include low-relevance details (income, job title) while omitting high-relevance clinical unknowns."
+    ]
+  },
+  "usage": {
+    "input_tokens": 11605,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 284,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11889,
+    "x_details": [
+      {
+        "input_tokens": 11605,
+        "output_tokens": 284,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 11889,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.906
+}

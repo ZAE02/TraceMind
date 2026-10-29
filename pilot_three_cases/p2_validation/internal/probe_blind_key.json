@@ -1,0 +1,74 @@
+{
+  "Zea507af8e7f1": {
+    "node": "N04",
+    "condition": "M0",
+    "sample": 1,
+    "source": "probe_answers\\N04_M0_1.json"
+  },
+  "Zdf64ba41e8c5": {
+    "node": "N04",
+    "condition": "M0",
+    "sample": 2,
+    "source": "probe_answers\\N04_M0_2.json"
+  },
+  "Zb70a8813b4f3": {
+    "node": "N04",
+    "condition": "M_old",
+    "sample": 1,
+    "source": "probe_answers\\N04_M_old_1.json"
+  },
+  "Zefec58d9736d": {
+    "node": "N04",
+    "condition": "M_old",
+    "sample": 2,
+    "source": "probe_answers\\N04_M_old_2.json"
+  },
+  "Z86532f7f4b89": {
+    "node": "N04",
+    "condition": "M_updated",
+    "sample": 1,
+    "source": "probe_answers\\N04_M_updated_1.json"
+  },
+  "Z84fd32bb9139": {
+    "node": "N04",
+    "condition": "M_updated",
+    "sample": 2,
+    "source": "probe_answers\\N04_M_updated_2.json"
+  },
+  "Z52490d052ab7": {
+    "node": "N06",
+    "condition": "M0",
+    "sample": 1,
+    "source": "probe_answers\\N06_M0_1.json"
+  },
+  "Zb554590f9858": {
+    "node": "N06",
+    "condition": "M0",
+    "sample": 2,
+    "source": "probe_answers\\N06_M0_2.json"
+  },
+  "Z78dc5b5c6881": {
+    "node": "N06",
+    "condition": "M_old",
+    "sample": 1,
+    "source": "probe_answers\\N06_M_old_1.json"
+  },
+  "Z48bd4cc90266": {
+    "node": "N06",
+    "condition": "M_old",
+    "sample": 2,
+    "source": "probe_answers\\N06_M_old_2.json"
+  },
+  "Za9438a2cdacc": {
+    "node": "N06",
+    "condition": "M_updated",
+    "sample": 1,
+    "source": "probe_answers\\N06_M_updated_1.json"
+  },
+  "Z01468c233882": {
+    "node": "N06",
+    "condition": "M_updated",
+    "sample": 2,
+    "source": "probe_answers\\N06_M_updated_2.json"
+  }
+}

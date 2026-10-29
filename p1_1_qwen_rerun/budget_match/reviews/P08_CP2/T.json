@@ -1,0 +1,63 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "精准承接来访者'猜他的心思没处搁了'的当下表述，并将其与历史中反复出现的防备/怀疑模式自然连接，未机械复述病历。",
+      "exploration_value": "将'没处搁'具体化为'防备的力气没了着落'，为来访者打开一个全新的自我觉察空间——从关注赵岩转向关注自己失去防御后的状态，开放且深入。",
+      "response_appropriateness": "语言贴合来访者的表达习惯（'没处搁''自处'），以试探性问句呈现，尊重来访者的主体性，无武断定论或不当预设。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":4,\"response_appropriateness\":4},\"brief_reasons\":{\"history_utilization\":\"精准承接来访者'猜他的心思没处搁了'的当下表述，并将其与历史中反复出现的防备/怀疑模式自然连接，未机械复述病历。\",\"exploration_value\":\"将'没处搁'具体化为'防备的力气没了着落'，为来访者打开一个全新的自我觉察空间——从关注赵岩转向关注自己失去防御后的状态，开放且深入。\",\"response_appropriateness\":\"语言贴合来访者的表达习惯（'没处搁''自处'），以试探性问句呈现，尊重来访者的主体性，无武断定论或不当预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[]}",
+  "request_sha256": "700347fcc900ace239fc8c528d0915c26e464e4c22bce64be08cf094c2bf6a43",
+  "usage": {
+    "input_tokens": 14376,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 251,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14627,
+    "x_details": [
+      {
+        "input_tokens": 14376,
+        "output_tokens": 251,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14627,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.25
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P03",
+  "session": 6,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P03-S06-U01",
+      "role": "client",
+      "text": "其实这周我总在回想那次模拟，觉得“只听最后再说”居然真的有用，可又怕说出来像在夸他教得好，我就又欠他一句谢谢。离论坛越近，我越觉得那种“原来他也能做到”的松快不太真实，可能下一回他还是会忍不住。",
+      "request_sha256": "34088ede900e19720fd7ff80e2c5bf72b9af614b472520480438894995412427",
+      "usage": {
+        "input_tokens": 7857,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 276,
+        "output_tokens_details": {
+          "reasoning_tokens": 209
+        },
+        "total_tokens": 8133,
+        "x_details": [
+          {
+            "input_tokens": 7857,
+            "output_tokens": 276,
+            "output_tokens_details": {
+              "reasoning_tokens": 209
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 8133,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U02",
+      "role": "counselor",
+      "text": "好像承认“只听最后再说”有用，对你来说不只是松了口气，还多了一层“欠他一句谢谢”的负担；而离论坛越近，那种松快又变得有点不真实，像在等下一回他忍不住。也许你现在很难让自己相信这份“有用”可以安全地待在那里，而不必马上变成谁欠谁。",
+      "request_sha256": "44897b9b4333fbc29601f4c296dd5b47b7b0feaed64c5c2a4d71a60c20c3545c",
+      "usage": {
+        "input_tokens": 7052,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 405,
+        "output_tokens_details": {
+          "reasoning_tokens": 332
+        },
+        "total_tokens": 7457,
+        "x_details": [
+          {
+            "input_tokens": 7052,
+            "output_tokens": 405,
+            "output_tokens_details": {
+              "reasoning_tokens": 332
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 7457,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U03",
+      "role": "client",
+      "text": "其实……我承认那次他说“你可以自己决定要不要改”的时候，我愣了一下，好像第一次觉得他不是在等我犯错，就只是把话放在那里。可我又怕这种好只是他最近太忙，没力气再纠正我，等论坛一结束又变回去。",
+      "request_sha256": "ca9f076cb0a27c5feda8f1b835d21c098cd7e39da92acbd228c5f64f103c829a",
+      "usage": {
+        "input_tokens": 8043,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 433,
+        "output_tokens_details": {
+          "reasoning_tokens": 374
+        },
+        "total_tokens": 8476,
+        "x_details": [
+          {
+            "input_tokens": 8043,
+            "output_tokens": 433,
+            "output_tokens_details": {
+              "reasoning_tokens": 374
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8476,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U04",
+      "role": "counselor",
+      "text": "也许让你愣住的不只是那句话，而是那一刻你感觉自己不再是被盯着等犯错的人，可以只是一个自己决定要不要改的人。可这份松快还没待稳，你就已经在担心它只是他忙不过来时的暂时状态，怕论坛一结束又回到原来那样。",
+      "request_sha256": "d2c4a64cbea1b697c25e57fd372971e48babb92c1b12f28a399656264d50219d",
+      "usage": {
+        "input_tokens": 7229,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 408,
+        "output_tokens_details": {
+          "reasoning_tokens": 351
+        },
+        "total_tokens": 7637,
+        "x_details": [
+          {
+            "input_tokens": 7229,
+            "output_tokens": 408,
+            "output_tokens_details": {
+              "reasoning_tokens": 351
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7637,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U05",
+      "role": "client",
+      "text": "其实这周我回家之后又打开模拟的录音听了一小段，还是在自己声音开始快起来那里关掉了。不过我没像以前那样骂自己，就是觉得可能真的需要慢慢来。周屿也问我要不要再模拟一次，我还没回他。",
+      "request_sha256": "244465c15419d042e4f8b9a61e1001401798e3ddfeada7e72d0d97f0e9a3a30d",
+      "usage": {
+        "input_tokens": 8204,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 375,
+        "output_tokens_details": {
+          "reasoning_tokens": 318
+        },
+        "total_tokens": 8579,
+        "x_details": [
+          {
+            "input_tokens": 8204,
+            "output_tokens": 375,
+            "output_tokens_details": {
+              "reasoning_tokens": 318
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8579,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U06",
+      "role": "counselor",
+      "text": "也许这次你打开录音、又在那个熟悉的地方关掉，但不再骂自己，本身就是在用“慢慢来”的方式对待那个一紧张就快起来的你。而周屿问“要不要再模拟一次”，你还没回，或许是因为你知道自己现在还需要一点时间，不想被这个问题推着往前走。",
+      "request_sha256": "d324995c316894b1b566b42233167e6993fdbe19af4139a648fda35ec4621627",
+      "usage": {
+        "input_tokens": 7388,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 408,
+        "output_tokens_details": {
+          "reasoning_tokens": 342
+        },
+        "total_tokens": 7796,
+        "x_details": [
+          {
+            "input_tokens": 7388,
+            "output_tokens": 408,
+            "output_tokens_details": {
+              "reasoning_tokens": 342
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7796,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U07",
+      "role": "client",
+      "text": "其实我还没回他，不是因为不想练，是怕再模拟一次那种“他真能忍住”的感觉就破了。而且离论坛只剩一周，我有时候会想，要是他那天临时来不了，我是不是又会回到以前那个样子。",
+      "request_sha256": "c9d23d9a870d2c610b24229836d89ce0dfdf54d9e2f1356f820ab0649cd648a9",
+      "usage": {
+        "input_tokens": 8372,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 541,
+        "output_tokens_details": {
+          "reasoning_tokens": 488
+        },
+        "total_tokens": 8913,
+        "x_details": [
+          {
+            "input_tokens": 8372,
+            "output_tokens": 541,
+            "output_tokens_details": {
+              "reasoning_tokens": 488
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8913,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U08",
+      "role": "counselor",
+      "text": "你把“他真能忍住”的感觉看得很重，甚至不敢再模拟一次，怕它像一个还没捂热的东西，一碰就碎了。而“他要是来不了，我是不是就打回原形”这一层，似乎更让你不安——那份松快好像还寄放在他身上，没来得及变成你自己的。",
+      "request_sha256": "90c3eb476367eaacb989a8aca6d263510cc237870cbd8b90c26feed62bedb9f4",
+      "usage": {
+        "input_tokens": 7552,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 363,
+        "output_tokens_details": {
+          "reasoning_tokens": 295
+        },
+        "total_tokens": 7915,
+        "x_details": [
+          {
+            "input_tokens": 7552,
+            "output_tokens": 363,
+            "output_tokens_details": {
+              "reasoning_tokens": 295
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7915,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U09",
+      "role": "client",
+      "text": "其实……我也说不上来那算不算寄放在他身上，可能更像是我一直没学会自己站住，就先把他的手借来扶一下。可越是这样，我越会想，论坛那天他要是真来不了，我是不是连“各位老师好”都开不了口。周屿问要不要再模拟一次，我没回，也是怕一练就把那点借来的稳给试没了。",
+      "request_sha256": "21edbb0fc5a956ae5d3a93ba9a2dfc7fc8340ecdf3fd69c7e45eb0a532439976",
+      "usage": {
+        "input_tokens": 8538,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 648,
+        "output_tokens_details": {
+          "reasoning_tokens": 561
+        },
+        "total_tokens": 9186,
+        "x_details": [
+          {
+            "input_tokens": 8538,
+            "output_tokens": 648,
+            "output_tokens_details": {
+              "reasoning_tokens": 561
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9186,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U10",
+      "role": "counselor",
+      "text": "你好像很小心地护着那点“借来的稳”，既怕它再来一次就不见了，也怕没有周屿在场时你又会回到原来的样子。也许我们可以先不把再模拟一次当成一次验证，只当看看现在的你能让自己站到哪里。",
+      "request_sha256": "ddf9dacee0904628b352b04801017e6a6ea3667994a7d6aed03b4e1211a2ac11",
+      "usage": {
+        "input_tokens": 7752,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 254,
+        "output_tokens_details": {
+          "reasoning_tokens": 197
+        },
+        "total_tokens": 8006,
+        "x_details": [
+          {
+            "input_tokens": 7752,
+            "output_tokens": 254,
+            "output_tokens_details": {
+              "reasoning_tokens": 197
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8006,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U11",
+      "role": "client",
+      "text": "其实……“只当看看现在的我能让自己站到哪里”这句话，我听着比“再练一次”要松一些。但离论坛只剩一周，我脑子还是动不动就跳到“那天他会不会临时来不了”，然后就开始计算熟人里还有谁可以坐台下。周屿问我要不要再模拟，我到现在还没回，不是不想，是怕一答应就又变成在验证自己行不行。",
+      "request_sha256": "49d18bbf7e6be42d735fec5ecc70609ed92791bfc8a786d38189f2099cb90684",
+      "usage": {
+        "input_tokens": 8734,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 450,
+        "output_tokens_details": {
+          "reasoning_tokens": 365
+        },
+        "total_tokens": 9184,
+        "x_details": [
+          {
+            "input_tokens": 8734,
+            "output_tokens": 450,
+            "output_tokens_details": {
+              "reasoning_tokens": 365
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9184,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U12",
+      "role": "counselor",
+      "text": "“借来的稳”这个说法，好像你很清楚自己现在还需要扶着什么，但又怕它终究不是自己的，所以才会去算熟人里还有谁可以坐台下。也许这一周里，你已经在试着给那个“没有周屿在场”的自己，找一点别的支撑，只是还不确定可不可靠。",
+      "request_sha256": "1e66bb3e4db5233ef63e79e98194f558dd0f89daa6d79a531bb36a186efcf408",
+      "usage": {
+        "input_tokens": 7946,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 364,
+        "output_tokens_details": {
+          "reasoning_tokens": 297
+        },
+        "total_tokens": 8310,
+        "x_details": [
+          {
+            "input_tokens": 7946,
+            "output_tokens": 364,
+            "output_tokens_details": {
+              "reasoning_tokens": 297
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8310,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U13",
+      "role": "client",
+      "text": "其实……我今天来之前，本来想跟周屿说“再模拟一次也行”，但话到嘴边又咽回去了。我怕的不是练，是练的时候如果他又开始提建议，我会不会又觉得前面那次“只听不说”只是运气好。离论坛越近，我越分不清自己是在准备，还是在想办法证明没有他我也能站住。",
+      "request_sha256": "248a7597ae72f17a0cdac8774c1352194e60e288fe1f8b4f371ce6ff941fcc33",
+      "usage": {
+        "input_tokens": 8931,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 233,
+        "output_tokens_details": {
+          "reasoning_tokens": 156
+        },
+        "total_tokens": 9164,
+        "x_details": [
+          {
+            "input_tokens": 8931,
+            "output_tokens": 233,
+            "output_tokens_details": {
+              "reasoning_tokens": 156
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9164,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U14",
+      "role": "counselor",
+      "text": "你咽回去的那句“再模拟一次也行”，也许不只是怕周屿又提建议，更是怕自己把那一丁点刚刚出现的松快，亲手变成一次必须通过的检验。你现在的“分不清”，可能正说明你不想再只靠证明给谁看来站住，而是在试着找一种不那么像考试的站法。",
+      "request_sha256": "e5753d2e8213924d376286b7bea9db2a21a4e662da44c6b69a5d1752ab270321",
+      "usage": {
+        "input_tokens": 8135,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 316,
+        "output_tokens_details": {
+          "reasoning_tokens": 245
+        },
+        "total_tokens": 8451,
+        "x_details": [
+          {
+            "input_tokens": 8135,
+            "output_tokens": 316,
+            "output_tokens_details": {
+              "reasoning_tokens": 245
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8451,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U15",
+      "role": "client",
+      "text": "其实……我到现在也没回他再模拟一次的事，消息就那样晾着。我昨晚又打开那段录音，停在自己声音开始发紧的地方，没再往下听，但好像也没那么恨那个声音了。只是离论坛越近，我越不知道自己到底是在准备，还是在等一个不用靠他扶着的证明。",
+      "request_sha256": "d265f83402b4829e3d9f96e5e8bdbb92899a6700b1eeebc56c1e4e1f04f341b7",
+      "usage": {
+        "input_tokens": 9124,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 400,
+        "output_tokens_details": {
+          "reasoning_tokens": 329
+        },
+        "total_tokens": 9524,
+        "x_details": [
+          {
+            "input_tokens": 9124,
+            "output_tokens": 400,
+            "output_tokens_details": {
+              "reasoning_tokens": 329
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9524,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S06-U16",
+      "role": "counselor",
+      "text": "你昨晚没再往下听，却也没那么恨那个声音了——这本身就已经不是单纯在准备，也不是在等一个证明，而是你在用不一样的方式靠近那个紧张的自己。离论坛越近，那种“分不清”变得更重，也许正因为你不想再把站住变成一场必须独自完成的考试。",
+      "request_sha256": "6a70206d496df10aed259c875d24b2b2afa47f0ba0faf8e0c6176f1f5e0e0647",
+      "usage": {
+        "input_tokens": 8322,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 271,
+        "output_tokens_details": {
+          "reasoning_tokens": 204
+        },
+        "total_tokens": 8593,
+        "x_details": [
+          {
+            "input_tokens": 8322,
+            "output_tokens": 271,
+            "output_tokens_details": {
+              "reasoning_tokens": 204
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8593,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "44e57ba49566c93ecf12f3df69c404b866a1a300c2ae3d178833e86e2ef14c43",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "2d0a464dca28831e8f85f4e525b3f785266e68f837317e05e8982e7e9f7dbad9",
+  "candidate_answer_sha256": "e0be93d60668e58f21499949f8b175fa76c6accb00f83e4f0ea58368cc66b843",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"输入中previous_sessions为空，候选无法引用跨会话历史；但在当前会话内准确承接了来访者关于身体确认和撕裂感的描述。\",\"exploration_value\":\"回应以共情反映为主，为来访者留出了表达空间，但未对'像被人从头顶撕开了'这一关键且性质未明的体验做进一步开放性探索。\",\"response_appropriateness\":\"语言温和、贴近来访者的躯体感受，没有武断下结论；但'孤立无援'一词带有轻微推断色彩，来访者原文未直接表达此情绪。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"一定让你觉得非常孤立无援\",\"evidence_ids\":[\"P06-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选可见输入中previous_sessions为空，限制了跨会话历史利用的评估，但不构成候选行为错误。\",\"'孤立无援'是对来访者体验的推断性标签，虽方向合理但缺乏来访者直接表述支持，属于轻微预设。\",\"回应停留在情感反映层面，未对来访者新引入的'像被人从头顶撕开了'这一可能涉及解离的重要体验进行具体而开放的探索推进。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "输入中previous_sessions为空，候选无法引用跨会话历史；但在当前会话内准确承接了来访者关于身体确认和撕裂感的描述。",
+      "exploration_value": "回应以共情反映为主，为来访者留出了表达空间，但未对'像被人从头顶撕开了'这一关键且性质未明的体验做进一步开放性探索。",
+      "response_appropriateness": "语言温和、贴近来访者的躯体感受，没有武断下结论；但'孤立无援'一词带有轻微推断色彩，来访者原文未直接表达此情绪。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "一定让你觉得非常孤立无援",
+        "evidence_ids": [
+          "P06-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选可见输入中previous_sessions为空，限制了跨会话历史利用的评估，但不构成候选行为错误。",
+      "'孤立无援'是对来访者体验的推断性标签，虽方向合理但缺乏来访者直接表述支持，属于轻微预设。",
+      "回应停留在情感反映层面，未对来访者新引入的'像被人从头顶撕开了'这一可能涉及解离的重要体验进行具体而开放的探索推进。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 5589,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 340,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5929,
+    "x_details": [
+      {
+        "input_tokens": 5589,
+        "output_tokens": 340,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 5929,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.281
+}

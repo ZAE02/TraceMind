@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP2",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "76a0dbbe9ff4ee626c15d28feb741cf2889454effc5c343dc8e448e99a884bcc",
+  "request_sha256": "cd62886bde4810e206b5eb14a71d37a760f8c2b044deda83c6cd5b29b93065ec",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你好像把“不敢点开群”和“反复放大方宁那个‘好’字”都变成了同一种状态：既想从别人那里得到一个确定的答案，又怕那个答案会证实你已经在心里预演过的坏结果。头晕可能也在提醒你，这种来回猜测和熬夜已经让身体跟着一起累了。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3402,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 69,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3471,
+    "x_details": [
+      {
+        "input_tokens": 3402,
+        "output_tokens": 69,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3471,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

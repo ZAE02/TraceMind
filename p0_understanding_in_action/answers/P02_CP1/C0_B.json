@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "be5250043cba8ae98d4724704d5c018d0e0992298f93d9a5f0d274c0fa2016b6",
+  "request_sha256": "d7165858b68b74c48709b44885d85950b4286bfd6e2e4dea3e6e38c38fd34ddc",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你夜里那样守着，身体和注意力一直没真正松下来，中午的反胃也许不只是累，更像是那阵紧绷在找个出口。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 855,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 29,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 884,
+    "x_details": [
+      {
+        "input_tokens": 855,
+        "output_tokens": 29,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 884,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

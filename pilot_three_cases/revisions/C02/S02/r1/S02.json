@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C02",
+  "session_number": 2,
+  "relative_week": 2,
+  "status": "awaiting_model_review",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T10:19:28.431148+00:00",
+  "config_hash": "f18a85235c91dffcacc44c7c7436606e4046884e70199c6d26da816fe8c4416b",
+  "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "generation_revision": "C02-S02-r1"
+  },
+  "utterances": [
+    {
+      "id": "C02-S02-U01",
+      "role": "client",
+      "text": "这周……又是类似的事。周二还是周三，具体哪天我记不太清了，反正就是工作日，有个同事发消息让我周末帮忙看一份推广排期，说\"如果你方便的话\"。我当时就……答应了。也不是多大的事，就看了两个小时吧，但我本来周六下午是打算去趟菜场，回来做那个……之前一直没做成的一锅汤，结果就没了。",
+      "call_id": "f4dd36d642784421a30e08bb0b8ed945",
+      "response_id": "resp_188282d0-de9f-9446-9dcb-04b65d9aa0b6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:19:38.323714+00:00"
+    },
+    {
+      "id": "C02-S02-U02",
+      "role": "counselor",
+      "text": "那锅汤你说\"之前一直没做成\"——它在你那儿是攒了挺久的一件事吧？这次本来好像终于要轮到它了。",
+      "call_id": "3254a32cd6824afebe5c1968d75903e1",
+      "response_id": "resp_7992292a-470a-93fe-a23f-71b894b4dfd7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:19:46.167368+00:00"
+    },
+    {
+      "id": "C02-S02-U03",
+      "role": "client",
+      "text": "嗯……对，那锅汤我想了有快两个月了。之前悦悦说让我试试那个砂锅炖排骨，我买了食材，但每次周末不是加班就是补数据，买了两次都放坏了。这次本来周六下午去菜场，回来炖上，晚上就能喝了。结果就……没了。\n\n也不是说多心疼那锅汤，就是那种，明明已经排好了，最后还是没轮到自己。",
+      "call_id": "9f114ce21f9f49af8f2ece0f36c1d1c8",
+      "response_id": "resp_6f1a4851-73e9-96e1-bb1f-b98eec6598bf",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:19:54.350873+00:00"
+    },
+    {
+      "id": "C02-S02-U04",
+      "role": "counselor",
+      "text": "\"终于要轮到它了\"，然后\"就没了\"——这个落差好像比汤本身大。两次食材放坏，这次连去菜场都没去成，它好像一直在等你，但每次都是别的事先到了。",
+      "call_id": "e37ee4a1254f45eba41ba8cc0c31c534",
+      "response_id": "resp_48a8053f-1422-9bde-a584-7c8c6eb6bdc1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:20:02.810800+00:00"
+    },
+    {
+      "id": "C02-S02-U05",
+      "role": "client",
+      "text": "\"先到了\"……嗯，好像也不是\"到了\"，是我自己让的。这次我其实中间还打了一行字，又删了。",
+      "call_id": "f12cb3831f0347fa94cc3154de9cba12",
+      "response_id": "resp_58896883-8899-9fb7-a9e6-ec57a906a042",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:20:23.548851+00:00"
+    },
+    {
+      "id": "C02-S02-U06",
+      "role": "counselor",
+      "text": "上次是嘴先说了，这次是字打出来了又删了——好像那个\"不行\"这次多出来了一小段，但最后是你自己把它收回去的。那行字你记得大概是什么吗？",
+      "call_id": "c7aa7f351ba6487e9aa67f83846f1b4f",
+      "response_id": "resp_2b183a61-381e-98a1-8043-be07fbe6b369",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:20:30.880242+00:00"
+    },
+    {
+      "id": "C02-S02-U07",
+      "role": "client",
+      "text": "大概是\"这周末可能不太方便\"，就这几个字。打完之后我盯着看了几秒，就觉得……她是不是会不高兴。虽然她说了\"如果你方便的话\"，但我就是觉得，我说不方便，她会不会觉得我……算了，然后就删了，回了一个\"好的，我看一下\"。",
+      "call_id": "8f70d094b38a4675a11f796d41791f73",
+      "response_id": "resp_40230b29-ffdc-9394-8ab8-9098353c9e78",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:20:35.921394+00:00"
+    },
+    {
+      "id": "C02-S02-U08",
+      "role": "counselor",
+      "text": "她那句\"如果你方便的话\"，好像已经把不方便这条路给你铺好了。但你还是觉得走那条路她会觉得你……你说到这儿就停了——那个\"觉得我\"后面，本来想接的是什么？",
+      "call_id": "69a04ff0acbc4fc0b7e719eba615e17a",
+      "response_id": "resp_ff081b64-0974-954d-b897-2c3f27512137",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:20:56.698960+00:00"
+    },
+    {
+      "id": "C02-S02-U09",
+      "role": "client",
+      "text": "\"觉得我……不好？\"我也不知道，当时就是觉得我拒绝了，她会不会觉得我这个人不太好相处。但我也没想过她真的会怎样，可能就是……就是那个念头一出来，我就觉得我说不出口。",
+      "call_id": "b76d45e6a06b4e3f87540782e57a4a7d",
+      "response_id": "resp_4b626500-54eb-9518-9701-8e3b51d6c15e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:04.223392+00:00"
+    },
+    {
+      "id": "C02-S02-U10",
+      "role": "counselor",
+      "text": "你说了\"没想过她真的会怎样\"——那个\"不好\"好像不用她真的做什么，你自己一接住就够用了。它出来的时候，是像一种……直觉，还是更像一种很熟的反应，熟到不用过脑子就接住了？",
+      "call_id": "4ea12e6d3fca4b5db66bd98d9e59dcea",
+      "response_id": "resp_82ad4873-dce5-9871-a4cf-3370864d4619",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:13.534194+00:00"
+    },
+    {
+      "id": "C02-S02-U11",
+      "role": "client",
+      "text": "\"熟\"……嗯，好像是吧。就是那种，你还没真的想，那个\"她会不会不高兴\"就自己跳出来了，跳出来之后你甚至来不及判断它对不对，就已经在替她想了。但你说\"直觉\"又不太像，直觉好歹还带着点\"我感觉到什么\"，我这个更像是……自动的，像条件反射。",
+      "call_id": "4e836ac8c7b04d2cbf66041d4e95c042",
+      "response_id": "resp_ee7cd0ab-33e1-99f4-bcdd-0e1fde6b011d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:20.316172+00:00"
+    },
+    {
+      "id": "C02-S02-U12",
+      "role": "counselor",
+      "text": "\"条件反射\"……那个念头跳出来的时候，你甚至没给它一个\"对还是不对\"的审判机会，就直接按它说的做了。字删了，\"好的\"发出去了——好像那个条件反射比你的判断快了一步，而你这次只是第一次看见了它。",
+      "call_id": "28d82dbd92d54bb49b5770b9d665fbff",
+      "response_id": "resp_3e58f5c2-4b61-9ba8-b729-547ac38d94a4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:29.421967+00:00"
+    },
+    {
+      "id": "C02-S02-U13",
+      "role": "client",
+      "text": "\"第一次看见了\"……也不是第一次吧，上次聊的时候也说到过那个\"来不及\"。但这次确实不一样，因为我真的看见自己打了那行字，又自己删了。上次好像只是事后回想，这次是……我盯着屏幕，看着自己把字一个一个删掉，然后打了\"好的\"。\n\n答应完之后其实松了一下，就那种\"还好没说\"的感觉。但周六真坐下去看那份排期的时候，又有点烦，就是那种……我已经把周六下午让出去了，但也没人跟我说一声谢谢的那种烦。",
+      "call_id": "c74ef2e391b14210bb13c20bd42ac0dd",
+      "response_id": "resp_9ca41350-3bca-922d-810f-bb168b5f6044",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:40.448485+00:00"
+    },
+    {
+      "id": "C02-S02-U14",
+      "role": "counselor",
+      "text": "答应完那一下松，好像是真的松了——那个条件反射确实替你挡了一下。但周六坐下去看排期的时候，那个烦又上来了，好像是在说：我让了，但你连个谢谢都没有。这个\"没人说谢谢\"的烦，跟上次悦悦那件事的\"闷\"，感觉不太一样吧？",
+      "call_id": "2423bf6901f340a4aea0c9ad4aab07dd",
+      "response_id": "resp_c424657b-bb73-92d2-8ef8-d9943b4813b1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:53.297957+00:00"
+    },
+    {
+      "id": "C02-S02-U15",
+      "role": "client",
+      "text": "确实不太一样吧。上次那个\"闷\"是……说不上来为什么委屈，连自己损失了什么都不知道。这次这个烦就……更具体一点，就是我觉得我花了两个小时，就一个\"好的我看一下\"，连个\"谢了\"都没有。好像我让出去的那个周六下午，在她那儿根本不算什么。",
+      "call_id": "c7847dc85270477990e85cbc8f234fd1",
+      "response_id": "resp_47938806-11aa-990e-a2b5-b08c4c098520",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:59.284016+00:00"
+    },
+    {
+      "id": "C02-S02-U16",
+      "role": "counselor",
+      "text": "那个\"不算什么\"听起来挺具体的——你那边是打了字又删了、松了一下又烦了、汤没炖成、食材可能又要放坏，她那边可能就是一个\"好的我看一下\"的事。你让出去的那一整个过程，在她那儿好像确实没有重量。",
+      "call_id": "454c153748564cf3a8bea42b22ecd34f",
+      "response_id": "resp_bed7221f-f98f-9443-80bd-dd76f1aac35d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:13.795025+00:00"
+    },
+    {
+      "id": "C02-S02-U17",
+      "role": "client",
+      "text": "嗯……也可能是人家觉得两个小时本来就不算多吧，毕竟就是看看排期。但我就是……那锅汤的食材又得放坏了，第三次了。行，今天大概也差不多了，我回去把冰箱里那两袋排骨扔了。",
+      "call_id": "17d9b6640e764f7cb2bd89c6d3d7a5a1",
+      "response_id": "resp_04200a46-828e-957d-adab-b1efb3f98354",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:26.554764+00:00"
+    },
+    {
+      "id": "C02-S02-U18",
+      "role": "counselor",
+      "text": "第三次了——你回去扔的时候，可能又会停一下。今天你看见自己删字的那个过程，那个东西比上次清楚了一点，带着走就行。下次见。",
+      "call_id": "30ff57f1a8af41e4a1cebacafa943b88",
+      "response_id": "resp_291e9624-efec-9bb4-8d81-b66e934bc2de",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:33.373135+00:00"
+    },
+    {
+      "id": "C02-S02-U19",
+      "role": "client",
+      "text": "嗯……扔的时候可能会停一下，也可能不会，就看我那天累不累了。行，那下次见吧。",
+      "call_id": "06a27ee4a0a54acca4f4c7288ebe40cd",
+      "response_id": "resp_6922cdfb-2d9e-9d1c-adaf-ec7b8377896f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:39.026999+00:00"
+    },
+    {
+      "id": "C02-S02-U20",
+      "role": "counselor",
+      "text": "嗯，看那天累不累，这个说法挺好的。不给自己加任务。",
+      "call_id": "0456111e5fec4079a79ded299fd5accc",
+      "response_id": "resp_e696d2ab-9386-95c0-809f-b702740bbf61",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:44.150607+00:00"
+    },
+    {
+      "id": "C02-S02-U21",
+      "role": "client",
+      "text": "嗯……行，那我先走了。",
+      "call_id": "49b26a0ecb054464a29dd3157536041f",
+      "response_id": "resp_d7556d2f-5aaf-9d20-904c-bad0be19b3e3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:47.477629+00:00"
+    },
+    {
+      "id": "C02-S02-U22",
+      "role": "counselor",
+      "text": "嗯，好，下次见。",
+      "call_id": "4d6f567ef6fc48eb8ce93d4c1e09d4ab",
+      "response_id": "resp_78105e0b-e44b-9b45-b058-dbd6151d2c71",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:51.168916+00:00"
+    },
+    {
+      "id": "C02-S02-U23",
+      "role": "client",
+      "text": "嗯……行，那下次见吧。",
+      "call_id": "d1ddfac1c1af46cc86cb1e91ac90377b",
+      "response_id": "resp_5605b13f-0468-9776-891d-d4cff1a1d460",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:55.640782+00:00"
+    },
+    {
+      "id": "C02-S02-U24",
+      "role": "counselor",
+      "text": "嗯，好。",
+      "call_id": "b85b5c25f74b47d18fe256975c187c9e",
+      "response_id": "resp_dbe3461e-bc02-9847-a889-df6820eb2bfd",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:23:07.212262+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T10:23:07.212262+00:00",
+  "ending_reason": "budget_limit",
+  "completed_at": "2026-10-12T10:23:07.216258+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 12
+  }
+}

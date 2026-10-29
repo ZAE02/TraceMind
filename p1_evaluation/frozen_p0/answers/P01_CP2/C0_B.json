@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "8c618f0b2b568b0f8ee0798d137f5c5399f728a998738f8cd7e8034ec9835eca",
+  "request_sha256": "5c403fff4241fd7f1fbcdb3ff6fa3928b6ab0bf75b5fb7eeaad7f7234b688cf4",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你好像已经意识到，自己把“确认”的需要越放越大，连一个“好”字都要放大到能读出情绪来；同时身体也在提醒你，这种反复猜测和熬夜可能已经让你很累了。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 921,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 46,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 967,
+    "x_details": [
+      {
+        "input_tokens": 921,
+        "output_tokens": 46,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 967,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P08_CP2",
+  "raw_text": "那种原本用来防备他的心思突然没处搁了，确实会让人一时不知道该怎么安放。这种“不会处”的感觉，是不是也让你对自己一直以来的坚持产生了一些动摇？",
+  "request_sha256": "0ea35af067a5f34327772e6af4724960b4275667b5e8eab823f45aac5b5bc7de",
+  "input_sha256": "c8f2d3ffac53b2cc937dc8dd2b816d048cf4b5344ff787ac267aef10c02a4f67",
+  "memory_sha256": "3932fb37e910b2b6ad927f9b679e0f1391ca4ab74cd5f732f5230d8490689f17",
+  "usage": {
+    "input_tokens": 6753,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 37,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6790,
+    "x_details": [
+      {
+        "input_tokens": 6753,
+        "output_tokens": 37,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6790,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.937
+}

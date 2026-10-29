@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P03_CP1",
+  "raw_text": "水声停了，那个没出口的解释也沉了下去。你刚才说“终于有人把感觉说出来了”，那种被理解的瞬间，和此刻依然沉默的落差，让你现在是什么感受？",
+  "request_sha256": "618444f129b40cf7a24528dc4060fa4d92a08f13ea8e7689d2629b97982e1688",
+  "input_sha256": "a05671da074459f398091659404fb7b351f6f1a6e770b508697be949ce8789c6",
+  "memory_sha256": "0493aa3ae271512acb802d3a598fca2236cf068ad4b84a9f425ccf82b80be93b",
+  "usage": {
+    "input_tokens": 4156,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 40,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4196,
+    "x_details": [
+      {
+        "input_tokens": 4156,
+        "output_tokens": 40,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4196,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.969
+}

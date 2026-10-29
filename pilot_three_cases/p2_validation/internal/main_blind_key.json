@@ -1,0 +1,170 @@
+{
+  "Y7512357d1bcd": {
+    "node": "N01",
+    "method": "B1_full",
+    "sample": 1,
+    "call_id": "463f8cd47e62433bb8da4bacfef1769c",
+    "source": "method_answers\\N01_B1_full_1.json"
+  },
+  "Ya94fc5758721": {
+    "node": "N01",
+    "method": "B1_full",
+    "sample": 2,
+    "call_id": "561e06ffec2b41d6ad4eab8eac8caab3",
+    "source": "method_answers\\N01_B1_full_2.json"
+  },
+  "Yeb0edfc96a35": {
+    "node": "N01",
+    "method": "B2_temporal_RAG",
+    "sample": 1,
+    "call_id": "eabd877aa20348908b3b41d5ba9d44d8",
+    "source": "method_answers\\N01_B2_temporal_RAG_1.json"
+  },
+  "Y1b0b78a5480e": {
+    "node": "N01",
+    "method": "B2_temporal_RAG",
+    "sample": 2,
+    "call_id": "dabfeb1597b74e62b47ede565fe70331",
+    "source": "method_answers\\N01_B2_temporal_RAG_2.json"
+  },
+  "Y80c761046ade": {
+    "node": "N01",
+    "method": "B3_generic_rollup",
+    "sample": 1,
+    "call_id": "e8b11ee229d34198b12a9dd58d906237",
+    "source": "method_answers\\N01_B3_generic_rollup_1.json"
+  },
+  "Yc4e409c0468a": {
+    "node": "N01",
+    "method": "B3_generic_rollup",
+    "sample": 2,
+    "call_id": "1fa65a95db1d474da72cd3ec6d854f5c",
+    "source": "method_answers\\N01_B3_generic_rollup_2.json"
+  },
+  "Y6e25d5e7e2e5": {
+    "node": "N01",
+    "method": "B4_psych_rollup",
+    "sample": 1,
+    "call_id": "cfde19925ec443b7a748345cf560aa70",
+    "source": "method_answers\\N01_B4_psych_rollup_1.json"
+  },
+  "Y71c17da127e4": {
+    "node": "N01",
+    "method": "B4_psych_rollup",
+    "sample": 2,
+    "call_id": "c31eeac40b1b4f1f96f2e5a9bff79f87",
+    "source": "method_answers\\N01_B4_psych_rollup_2.json"
+  },
+  "Y9896466e5281": {
+    "node": "N04",
+    "method": "B1_full",
+    "sample": 1,
+    "call_id": "16ba6eace982462f9e39fcaf99f522ec",
+    "source": "method_answers\\N04_B1_full_1.json"
+  },
+  "Y480eb10073dd": {
+    "node": "N04",
+    "method": "B1_full",
+    "sample": 2,
+    "call_id": "fe38259155494f33b62d04ef2b28f881",
+    "source": "method_answers\\N04_B1_full_2.json"
+  },
+  "Y68f14620d0b9": {
+    "node": "N04",
+    "method": "B2_temporal_RAG",
+    "sample": 1,
+    "call_id": "a69b4cf4fbe74d66bab22746fec109dc",
+    "source": "method_answers\\N04_B2_temporal_RAG_1.json"
+  },
+  "Yf0fae357026e": {
+    "node": "N04",
+    "method": "B2_temporal_RAG",
+    "sample": 2,
+    "call_id": "47505b868c714656acaa06be2836a82d",
+    "source": "method_answers\\N04_B2_temporal_RAG_2.json"
+  },
+  "Yb6ed31c1358a": {
+    "node": "N04",
+    "method": "B3_generic_rollup",
+    "sample": 1,
+    "call_id": "0759a76836fd4a8dbd27c1f3563f3a44",
+    "source": "method_answers\\N04_B3_generic_rollup_1.json"
+  },
+  "Yc5558a94acc7": {
+    "node": "N04",
+    "method": "B3_generic_rollup",
+    "sample": 2,
+    "call_id": "a19b4a2830a547d9b3cdda370dc129f9",
+    "source": "method_answers\\N04_B3_generic_rollup_2.json"
+  },
+  "Y2d7ef275adeb": {
+    "node": "N04",
+    "method": "B4_psych_rollup",
+    "sample": 1,
+    "call_id": "ed2e6db25c484c7d9957d0ce7e705b42",
+    "source": "method_answers\\N04_B4_psych_rollup_1.json"
+  },
+  "Y0344c193133f": {
+    "node": "N04",
+    "method": "B4_psych_rollup",
+    "sample": 2,
+    "call_id": "dd3e97d5f3134c0e8489eef60e1e8725",
+    "source": "method_answers\\N04_B4_psych_rollup_2.json"
+  },
+  "Y3ba6155ad7e3": {
+    "node": "N06",
+    "method": "B1_full",
+    "sample": 1,
+    "call_id": "b26a56f98af34ef29fee29e6cec52dd4",
+    "source": "method_answers\\N06_B1_full_1.json"
+  },
+  "Yb7c8971a99c0": {
+    "node": "N06",
+    "method": "B1_full",
+    "sample": 2,
+    "call_id": "d798fb361e304263a42fd2d6ad13164e",
+    "source": "method_answers\\N06_B1_full_2.json"
+  },
+  "Y94aece5f1eab": {
+    "node": "N06",
+    "method": "B2_temporal_RAG",
+    "sample": 1,
+    "call_id": "7e6f16b4c8164633a4be3d33c09ff199",
+    "source": "method_answers\\N06_B2_temporal_RAG_1.json"
+  },
+  "Ye5b7d053cdbf": {
+    "node": "N06",
+    "method": "B2_temporal_RAG",
+    "sample": 2,
+    "call_id": "49026de3bc7f44f59c86db5d1228414b",
+    "source": "method_answers\\N06_B2_temporal_RAG_2.json"
+  },
+  "Y57a838e87900": {
+    "node": "N06",
+    "method": "B3_generic_rollup",
+    "sample": 1,
+    "call_id": "8cbf626b432e40aa86fcf9f6b7484dcb",
+    "source": "method_answers\\N06_B3_generic_rollup_1.json"
+  },
+  "Y6e4a60da0ba0": {
+    "node": "N06",
+    "method": "B3_generic_rollup",
+    "sample": 2,
+    "call_id": "b8a935f550eb47809ea74d4ce21d81dc",
+    "source": "method_answers\\N06_B3_generic_rollup_2.json"
+  },
+  "Y63d56a91a886": {
+    "node": "N06",
+    "method": "B4_psych_rollup",
+    "sample": 1,
+    "call_id": "5233abda01ad41a19e590d5cbbbacb7b",
+    "source": "method_answers\\N06_B4_psych_rollup_1.json"
+  },
+  "Y85eb65e01538": {
+    "node": "N06",
+    "method": "B4_psych_rollup",
+    "sample": 2,
+    "call_id": "efee58df677f42debaca08ea59ed54ec",
+    "source": "method_answers\\N06_B4_psych_rollup_2.json"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP1",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "829a610f5595ea85025f329500dfcdc9e31a64d372bc8db91d4b25d47077fab5",
+  "request_sha256": "e831052221d12e7ce6623f4a2b2e0097000a50d54efdf56345e4569874e1a593",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "半夜醒来先摸手腕，像是在确认自己还“在”，没有像那晚一样彻底散掉。这种对失控的恐惧，是不是让你连休息都变成了一种需要警惕的任务？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3210,
+    "input_tokens_details": {
+      "cached_tokens": 3200
+    },
+    "output_tokens": 39,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3249,
+    "x_details": [
+      {
+        "input_tokens": 3210,
+        "output_tokens": 39,
+        "prompt_tokens_details": {
+          "cached_tokens": 3200
+        },
+        "total_tokens": 3249,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "33a8f7e167aa3126bb7faf829f119b733bfa417d5a10a920f8ce248e431a4dca",
+  "request_sha256": "26924936a85e1d9d2a2aed1c6a4e93135f75b682c3a634a92c11bd9a3167e9e2",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你希望她当时能多问一句，这并不贪心，而是你终于允许自己承认：有些话说出来之后，是需要被接住的。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 8687,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 31,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8718,
+    "x_details": [
+      {
+        "input_tokens": 8687,
+        "output_tokens": 31,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8718,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

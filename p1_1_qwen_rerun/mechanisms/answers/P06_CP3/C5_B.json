@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP3",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "e04aa4b40aafb3b867b45fbc3bf5b372abab193e91a6bdb96c7216254d88aaff",
+  "request_sha256": "6585315258fb2092d4bd1f0a50628021b6401bf9ff833c0d60a2eed934f987a5",
+  "memory_sha256": "b0da82585ca0af213b0c43bc0ce4e948debde31decad6cdcfd839f10e5a23dfc",
+  "memory_source": "0e67f63813369fdb404a4ec88a98b5fa10a7fc6d7cc99991f7a576e70086b377",
+  "raw_text": "你下意识伸手去拉平被角，又立刻补了一句解释，那个瞬间的紧张和“监工”般的自我审视，听起来像是你还没完全相信别人能接住这个家。也许我们可以先看看，在那一刻，除了怕出错，你心里是否也有一丝对这种“终于有人搭把手”的不习惯？",
+  "usage": {
+    "input_tokens": 10313,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 69,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10382,
+    "x_details": [
+      {
+        "input_tokens": 10313,
+        "output_tokens": 69,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10382,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.813,
+  "model": "qwen3.7-flash-2026-07-15"
+}

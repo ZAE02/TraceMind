@@ -1,0 +1,10 @@
+{
+  "mode": "user_authorized_model_review",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "human_review_claim": false,
+  "minimum_mean_score": 4,
+  "authorization": "User explicitly requested GPT-6.1 Sol high subagent review and completing all remaining work.",
+  "effective_at": "2026-10-12T09:37:28.383730+00:00",
+  "final_independent_second_review": true
+}

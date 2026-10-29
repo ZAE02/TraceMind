@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "3eccaa57d145740399f328a1d29feaa911cbdfbf2bb45322046a6e12c54fd902",
+  "request_sha256": "23d7f46a125099e2f40d8b5d8a0caff707d2aff44227449cf72c453211458fa9",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你让那件工服替你说了“到极限了”，这本身已经是一种不再硬撑的尝试；而早上看见它觉得恶心，也许不是嫌它脏，是那半口没出完的气还堵在胸口，连带着把那个敢承认累的自己一起嫌弃了。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 1032,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 61,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1093,
+    "x_details": [
+      {
+        "input_tokens": 1032,
+        "output_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1093,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

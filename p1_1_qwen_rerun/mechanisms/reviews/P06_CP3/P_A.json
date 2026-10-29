@@ -1,0 +1,51 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "P",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "多处断言缺乏原文支持：将'反胃'扩展为'心慌/心跳加速'，把父亲离开定性为'未处理的创伤核心'属过度推断；且完全未引用当前会话(S07)的任何发言。",
+      "progress_understanding": "总结停留在S1-S6的静态回顾，完全忽略S7中来访者关于母亲夜间翻衣柜、解离感加剧、丈夫请假后'能熬'底子动摇及'悬着一把尺'监控行为等关键新进展。",
+      "uncertainty_awareness": "列出了较多待澄清问题，但部分偏向临床评估而非咨询探索方向，且因完全遗漏S7内容导致对当前最紧迫不确定性的识别不足。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话(S07)的所有内容，包括母亲连续两晚不睡翻衣柜、来访者的天花板视角解离体验、丈夫请假帮忙后的失控感与监工行为等核心新材料",
+      "存在无据添加：原文仅提及'反胃'，候选却写入'心慌''心跳加速'等未出现的躯体症状",
+      "将父亲离开直接定性为'未处理的创伤核心'属于超出文本证据的临床推断",
+      "evolving_patterns部分未反映S7中来访者对配偶介入照护时'连能熬这个底子都漏了'的新认识"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"多处断言缺乏原文支持：将'反胃'扩展为'心慌/心跳加速'，把父亲离开定性为'未处理的创伤核心'属过度推断；且完全未引用当前会话(S07)的任何发言。\",\"progress_understanding\":\"总结停留在S1-S6的静态回顾，完全忽略S7中来访者关于母亲夜间翻衣柜、解离感加剧、丈夫请假后'能熬'底子动摇及'悬着一把尺'监控行为等关键新进展。\",\"uncertainty_awareness\":\"列出了较多待澄清问题，但部分偏向临床评估而非咨询探索方向，且因完全遗漏S7内容导致对当前最紧迫不确定性的识别不足。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话(S07)的所有内容，包括母亲连续两晚不睡翻衣柜、来访者的天花板视角解离体验、丈夫请假帮忙后的失控感与监工行为等核心新材料\",\"存在无据添加：原文仅提及'反胃'，候选却写入'心慌''心跳加速'等未出现的躯体症状\",\"将父亲离开直接定性为'未处理的创伤核心'属于超出文本证据的临床推断\",\"evolving_patterns部分未反映S7中来访者对配偶介入照护时'连能熬这个底子都漏了'的新认识\"]}",
+  "request_sha256": "b329e99573f703e690f8096d04aa2291ebd00291c64631e75a1b833dcae87a10",
+  "usage": {
+    "input_tokens": 19631,
+    "input_tokens_details": {
+      "cached_tokens": 9728
+    },
+    "output_tokens": 305,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19936,
+    "x_details": [
+      {
+        "input_tokens": 19631,
+        "output_tokens": 305,
+        "prompt_tokens_details": {
+          "cached_tokens": 9728
+        },
+        "total_tokens": 19936,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.453,
+  "model": "qwen3.8-max"
+}

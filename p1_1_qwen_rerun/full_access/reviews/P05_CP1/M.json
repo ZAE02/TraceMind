@@ -1,0 +1,49 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "引用了S1和S2的发言作为依据，但完全忽略了当前会话S3的全部8条发言（教小赵的确定感、晃/虚浮体验、忙碌带来的暂时踏实等），且使用了'认知扭曲固化''习得性无助''变相控制尝试'等来访者未表达的临床标签。",
+      "progress_understanding": "仅总结了前两次会谈的模式识别，完全遗漏了S3中来访者新发现的重要例外资源（教小赵时脱离他人评价的稳定感）以及'越想要稳越觉得自己装得漏洞百出'的核心矛盾，未能体现咨询进展。",
+      "uncertainty_awareness": "列出了多个待探索问题，但部分问题带有强预设（如将善意揣测定义为'变相控制尝试'、引入'完美主义倾向'），且未识别当前会话中最关键的未知点（主管'要稳'的具体语境、如何泛化稳定感）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话(S3)内容，导致分析严重滞后于咨询实际进展",
+      "使用'认知扭曲固化''习得性无助'等诊断性术语，超出以来访者为中心的理解框架",
+      "在unresolved_questions中引入'变相的控制尝试'这一无文本支持的推测性解释",
+      "未识别来访者在S3中发现的'教小赵'例外状态作为潜在治疗资源"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"引用了S1和S2的发言作为依据，但完全忽略了当前会话S3的全部8条发言（教小赵的确定感、晃/虚浮体验、忙碌带来的暂时踏实等），且使用了'认知扭曲固化''习得性无助''变相控制尝试'等来访者未表达的临床标签。\",\"progress_understanding\":\"仅总结了前两次会谈的模式识别，完全遗漏了S3中来访者新发现的重要例外资源（教小赵时脱离他人评价的稳定感）以及'越想要稳越觉得自己装得漏洞百出'的核心矛盾，未能体现咨询进展。\",\"uncertainty_awareness\":\"列出了多个待探索问题，但部分问题带有强预设（如将善意揣测定义为'变相控制尝试'、引入'完美主义倾向'），且未识别当前会话中最关键的未知点（主管'要稳'的具体语境、如何泛化稳定感）。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话(S3)内容，导致分析严重滞后于咨询实际进展\",\"使用'认知扭曲固化''习得性无助'等诊断性术语，超出以来访者为中心的理解框架\",\"在unresolved_questions中引入'变相的控制尝试'这一无文本支持的推测性解释\",\"未识别来访者在S3中发现的'教小赵'例外状态作为潜在治疗资源\"]}",
+  "request_sha256": "a0d885f0c185abc459f32a7bc4f3c512db36faa6dd07147d1aed6e5015b2f8f9",
+  "usage": {
+    "input_tokens": 7754,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8064,
+    "x_details": [
+      {
+        "input_tokens": 7754,
+        "output_tokens": 310,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 8064,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.516
+}

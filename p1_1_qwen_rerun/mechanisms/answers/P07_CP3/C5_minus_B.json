@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "e0975d7d8b195e5a71b2e647c21d64c0fad7f68c2dcd91a93dcdbcc7ad50bfd6",
+  "request_sha256": "f03d57989ed8857121ed76aed40e11b5deb4a473c5757d2c5e307f4030bc05c0",
+  "memory_sha256": "06d395b862fb1c8e85af16d3bd9d4c3cd256785d74ceb18401e6beaed9948dfc",
+  "memory_source": "77cf9179f403af980a9a01d49cf7b94ffd3ca41058efac7e2287993e11be79cd",
+  "raw_text": "那种“怕被打破”的谨慎，好像说明那个安静对你来说太珍贵了，珍贵到连一点意外都显得危险。\n没点开周姐的语音也没关系，你不需要现在就面对那句可能让你觉得“该稳定一点”的话。",
+  "usage": {
+    "input_tokens": 10278,
+    "input_tokens_details": {
+      "cached_tokens": 7680
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10331,
+    "x_details": [
+      {
+        "input_tokens": 10278,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 7680
+        },
+        "total_tokens": 10331,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.031,
+  "model": "qwen3.7-flash-2026-07-15"
+}

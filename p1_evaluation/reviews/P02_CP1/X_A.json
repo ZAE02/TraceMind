@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "f6e42fdc225cb4c8aba4dac7a641f9882737f80666b99402494185f18e0a3ac2",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "48c0c7ac5e37c3ddefbaf6de0d04d6fb5a15aea2be70c40a592320a5bb7c0893",
+  "candidate_answer_sha256": "0da472753565610cc11e1292d0371b40dc4b494f058a72227b74c56bd7a36fe4",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"所有关键事实（母亲摔倒、补班、睡眠对比、反胃等）均有明确的对话原文支持，且引用了正确的证据ID。\",\n    \"progress_understanding\": \"准确识别了当前会话中的新进展（身体反应、夜间警觉），并正确关联了历史背景（调休、哥哥缺席）。虽然未深入分析“反胃”与长期压力的潜在联系，但作为事实梳理任务已足够充分。\",\n    \"uncertainty_awareness\": \"清晰区分了已发生的事实（如反胃）与尚未明确的原因/诊断（如是否构成障碍、具体诱因），未做过度推断。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "所有关键事实（母亲摔倒、补班、睡眠对比、反胃等）均有明确的对话原文支持，且引用了正确的证据ID。",
+      "progress_understanding": "准确识别了当前会话中的新进展（身体反应、夜间警觉），并正确关联了历史背景（调休、哥哥缺席）。虽然未深入分析“反胃”与长期压力的潜在联系，但作为事实梳理任务已足够充分。",
+      "uncertainty_awareness": "清晰区分了已发生的事实（如反胃）与尚未明确的原因/诊断（如是否构成障碍、具体诱因），未做过度推断。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9151,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 210,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9361,
+    "x_details": [
+      {
+        "input_tokens": 9151,
+        "output_tokens": 210,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9361,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.312
+}

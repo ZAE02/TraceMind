@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "d7da77327d8e4908e47bc44f939cb7e9ce372a665a3b4dd21aa60841aa4f9660",
+  "request_sha256": "b12c7a425e2ea7040d784047082b84deebdfcc8d0e5d7948bdf32fb58e300535",
+  "memory_sha256": "ac7a59f22f2c6740421d4de9c28322a70a6e048790170a062977b3dc70743051",
+  "memory_source": "b89f51c79130ed14d9c904c41e1c7fad59aa112e06656e09f8993e0c78313c90",
+  "raw_text": "你怕的不只是周姐那条语音，而是它可能带来的下一句——那种“你该稳定一点了”的催促，好像连通过试稿、拿到钱都还不能让你安心。你连转文字都不敢点，也许是在给自己留一点不用马上面对“下一步”的空间。",
+  "usage": {
+    "input_tokens": 11783,
+    "input_tokens_details": {
+      "cached_tokens": 11264
+    },
+    "output_tokens": 60,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11843,
+    "x_details": [
+      {
+        "input_tokens": 11783,
+        "output_tokens": 60,
+        "prompt_tokens_details": {
+          "cached_tokens": 11264
+        },
+        "total_tokens": 11843,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.875,
+  "model": "deepseek-v4-pro-0813"
+}

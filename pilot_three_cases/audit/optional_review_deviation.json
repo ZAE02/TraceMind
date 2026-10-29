@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-13T06:10:19.353680+00:00",
+  "mandatory_second_review": false,
+  "duplicate_gpt_trials_cancelled": true,
+  "reason": "User requested fewer review restrictions and lower subagent intelligence.",
+  "excluded_trial_files": [
+    "audit/smoke_answers/gpt-6.1-sol/C03_CP1.json",
+    "audit/smoke_answers/gpt-6.1-sol/C03_CP2.json"
+  ],
+  "notice": "Earlier optional GPT trial drafts retained, excluded from complete canonical feasibility run. CP1 records persistence after CP2 exposure; no strict blind-order claim."
+}

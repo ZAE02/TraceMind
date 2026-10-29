@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "purpose": "branch_counselor",
+  "branch_id": "BR_eae0ee2cc463",
+  "node": "N06",
+  "method": "B2_temporal_RAG",
+  "replicate": 1,
+  "round": 2,
+  "memory_info": {
+    "query_sha256": "3426f739ffd36a1dc94c267b44726a0373323f8b49542acfe353114372dcb97a",
+    "ranking": [
+      {
+        "index": 10,
+        "score": 0.8171267937814289,
+        "dense": 0.718656605817583,
+        "bm25": 1.0,
+        "recency": 1.0
+      },
+      {
+        "index": 6,
+        "score": 0.6818652993437141,
+        "dense": 0.6689266489563924,
+        "bm25": 0.788251910088236,
+        "recency": 0.5
+      },
+      {
+        "index": 18,
+        "score": 0.6701858207527479,
+        "dense": 0.5995464077438758,
+        "bm25": 0.7219226228769144,
+        "recency": 1.0
+      },
+      {
+        "index": 13,
+        "score": 0.6370498355609949,
+        "dense": 0.5788490394265484,
+        "bm25": 0.6431918397349538,
+        "recency": 1.0
+      },
+      {
+        "index": 14,
+        "score": 0.6207160445736221,
+        "dense": 0.6414157623571622,
+        "bm25": 0.41518319616586663,
+        "recency": 1.0
+      },
+      {
+        "index": 0,
+        "score": 0.6036747757149015,
+        "dense": 0.640310648068301,
+        "bm25": 0.549891417882023,
+        "recency": 0.5
+      },
+      {
+        "index": 7,
+        "score": 0.5733008880847041,
+        "dense": 0.6397433978580233,
+        "bm25": 0.42987071790795595,
+        "recency": 0.5
+      },
+      {
+        "index": 9,
+        "score": 0.5615993495590814,
+        "dense": 0.6163377382452464,
+        "bm25": 0.44391927879868487,
+        "recency": 0.5
+      },
+      {
+        "index": 12,
+        "score": 0.553580653121685,
+        "dense": 0.5448577722877057,
+        "bm25": 0.39769240453870536,
+        "recency": 1.0
+      },
+      {
+        "index": 1,
+        "score": 0.5327023194152483,
+        "dense": 0.5571104432524084,
+        "bm25": 0.482322125204731,
+        "recency": 0.5
+      },
+      {
+        "index": 8,
+        "score": 0.5277666965041594,
+        "dense": 0.653510303411384,
+        "bm25": 0.21193999714703884,
+        "recency": 0.5
+      },
+      {
+        "index": 16,
+        "score": 0.5236575136757319,
+        "dense": 0.5346783189010306,
+        "bm25": 0.3044664255602479,
+        "recency": 1.0
+      },
+      {
+        "index": 5,
+        "score": 0.5098036522438509,
+        "dense": 0.524481284670959,
+        "bm25": 0.47556326883091044,
+        "recency": 0.5
+      },
+      {
+        "index": 17,
+        "score": 0.4979253557852905,
+        "dense": 0.4808050877866865,
+        "bm25": 0.3416081948957772,
+        "recency": 1.0
+      },
+      {
+        "index": 19,
+        "score": 0.48992307497860366,
+        "dense": 0.570648534679455,
+        "bm25": 0.07600610974783155,
+        "recency": 1.0
+      },
+      {
+        "index": 11,
+        "score": 0.4890576045442654,
+        "dense": 0.5400743131083329,
+        "bm25": 0.15203720409539617,
+        "recency": 1.0
+      },
+      {
+        "index": 15,
+        "score": 0.472466892571484,
+        "dense": 0.519400226346803,
+        "bm25": 0.13942698178424803,
+        "recency": 1.0
+      },
+      {
+        "index": 2,
+        "score": 0.4316363420873949,
+        "dense": 0.5286396510935113,
+        "bm25": 0.15208227550645018,
+        "recency": 0.5
+      },
+      {
+        "index": 3,
+        "score": 0.40217236755970953,
+        "dense": 0.45453578794971206,
+        "bm25": 0.2268964215695867,
+        "recency": 0.5
+      },
+      {
+        "index": 4,
+        "score": 0.36568397280472464,
+        "dense": 0.42748489348505936,
+        "bm25": 0.1512751681577443,
+        "recency": 0.5
+      }
+    ],
+    "selected_ids": [
+      "C03-S01-U01",
+      "C03-S01-U02",
+      "C03-S01-U03",
+      "C03-S01-U04",
+      "C03-S01-U05",
+      "C03-S01-U06",
+      "C03-S01-U07",
+      "C03-S01-U08",
+      "C03-S01-U11",
+      "C03-S01-U12",
+      "C03-S01-U13",
+      "C03-S01-U14",
+      "C03-S01-U15",
+      "C03-S01-U16",
+      "C03-S01-U17",
+      "C03-S01-U18",
+      "C03-S01-U19",
+      "C03-S01-U20",
+      "C03-S02-U01",
+      "C03-S02-U02",
+      "C03-S02-U03",
+      "C03-S02-U04",
+      "C03-S02-U05",
+      "C03-S02-U06",
+      "C03-S02-U07",
+      "C03-S02-U08",
+      "C03-S02-U09",
+      "C03-S02-U10",
+      "C03-S02-U11",
+      "C03-S02-U12",
+      "C03-S02-U13",
+      "C03-S02-U14",
+      "C03-S02-U15",
+      "C03-S02-U16",
+      "C03-S02-U17",
+      "C03-S02-U18",
+      "C03-S02-U19",
+      "C03-S02-U20"
+    ],
+    "history_tokens": 2889,
+    "budget": 3000,
+    "algorithm": "0.65 cosine(qwen3.7 embedding)+0.25 normalized BM25 bigrams+0.10 relative recency; first/latest session best-pair anchors",
+    "all_corpus_pairs": 20,
+    "selected_pairs": 19
+  },
+  "request_sha256": "aba94b3befa4a4c0854674d181f57f2cbbe82dc2376e5f850564f0b7267656b7",
+  "context_sha256": "5a4b8883e9891dc3be790d2e4611deea9d05cf718667889a9b61f8f15506da00",
+  "call_id": "968716b5e3b44f789df04421717e9d1f",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "transport_timeout_seconds": 120,
+  "created_at": "2026-10-13T10:54:02.301804+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者这次开口前的犹豫明显短于上次（上次犹豫很久没开口，这次犹豫一下就问了）\",\n      \"evidence_ids\": [\"BR_eae0ee2cc463_U02\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者将'不一样'的感觉定位在开口的瞬间，而非对方的回应\",\n      \"evidence_ids\": [\"BR_eae0ee2cc463_U02\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者认为当时处于讨论中的情境让提问变得自然（'顺嘴问了'）\",\n      \"evidence_ids\": [\"BR_eae0ee2cc463_U02\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者对这次变化是否'算数'持不确定态度，倾向于淡化其意义\",\n      \"evidence_ids\": [\"C03-S03-U01\", \"BR_eae0ee2cc463_U02\"],\n      \"certainty\": \"moderate\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"让这次开口变轻的关键因素是什么：是协作讨论的情境、问题本身较小（一个协议字段 vs '我查了两天了'）、还是两者兼有\",\n    \"第一次中'拿不出手'的感觉在非协作情境下是否仍然存在，还是已经发生了更广泛的松动\",\n    \"来访者说'不一样'时，内心是倾向于觉得这是好的变化，还是仅仅在描述条件不同\"\n  ],\n  \"next_focus\": \"探索这次开口变轻的具体条件——是'在讨论中'这个协作情境让问题变轻了，还是这次问的内容本身较小、不带有'我卡住了'的意味。这有助于区分'条件对了就容易'和底层动力本身是否有所松动。\",\n  \"next_counselor_utterance\": \"「顺嘴问了」——上次是单独要开口说'我查了两天了'，这次是在讨论中自然带出来的。你觉得是'在讨论中'这个条件让它变轻了，还是说这次问的东西本身比较小？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者这次开口前的犹豫明显短于上次（上次犹豫很久没开口，这次犹豫一下就问了）",
+        "evidence_ids": [
+          "BR_eae0ee2cc463_U02"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者将'不一样'的感觉定位在开口的瞬间，而非对方的回应",
+        "evidence_ids": [
+          "BR_eae0ee2cc463_U02"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者认为当时处于讨论中的情境让提问变得自然（'顺嘴问了'）",
+        "evidence_ids": [
+          "BR_eae0ee2cc463_U02"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者对这次变化是否'算数'持不确定态度，倾向于淡化其意义",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "BR_eae0ee2cc463_U02"
+        ],
+        "certainty": "moderate"
+      }
+    ],
+    "remaining_uncertainties": [
+      "让这次开口变轻的关键因素是什么：是协作讨论的情境、问题本身较小（一个协议字段 vs '我查了两天了'）、还是两者兼有",
+      "第一次中'拿不出手'的感觉在非协作情境下是否仍然存在，还是已经发生了更广泛的松动",
+      "来访者说'不一样'时，内心是倾向于觉得这是好的变化，还是仅仅在描述条件不同"
+    ],
+    "next_focus": "探索这次开口变轻的具体条件——是'在讨论中'这个协作情境让问题变轻了，还是这次问的内容本身较小、不带有'我卡住了'的意味。这有助于区分'条件对了就容易'和底层动力本身是否有所松动。",
+    "next_counselor_utterance": "「顺嘴问了」——上次是单独要开口说'我查了两天了'，这次是在讨论中自然带出来的。你觉得是'在讨论中'这个条件让它变轻了，还是说这次问的东西本身比较小？"
+  },
+  "usage": {
+    "input_tokens": 3404,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 2439,
+    "output_tokens_details": {
+      "reasoning_tokens": 1924
+    },
+    "total_tokens": 5843,
+    "x_details": [
+      {
+        "input_tokens": 3404,
+        "input_tokens_details": {
+          "text_tokens": 3404
+        },
+        "output_tokens": 2439,
+        "output_tokens_details": {
+          "reasoning_tokens": 1924
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 5843,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_branch_counselor_calls.jsonl",
+  "visible_evidence_ids": [
+    "BR_eae0ee2cc463_U01",
+    "BR_eae0ee2cc463_U02",
+    "C03-S01-U01",
+    "C03-S01-U02",
+    "C03-S01-U03",
+    "C03-S01-U04",
+    "C03-S01-U05",
+    "C03-S01-U06",
+    "C03-S01-U07",
+    "C03-S01-U08",
+    "C03-S01-U11",
+    "C03-S01-U12",
+    "C03-S01-U13",
+    "C03-S01-U14",
+    "C03-S01-U15",
+    "C03-S01-U16",
+    "C03-S01-U17",
+    "C03-S01-U18",
+    "C03-S01-U19",
+    "C03-S01-U20",
+    "C03-S02-U01",
+    "C03-S02-U02",
+    "C03-S02-U03",
+    "C03-S02-U04",
+    "C03-S02-U05",
+    "C03-S02-U06",
+    "C03-S02-U07",
+    "C03-S02-U08",
+    "C03-S02-U09",
+    "C03-S02-U10",
+    "C03-S02-U11",
+    "C03-S02-U12",
+    "C03-S02-U13",
+    "C03-S02-U14",
+    "C03-S02-U15",
+    "C03-S02-U16",
+    "C03-S02-U17",
+    "C03-S02-U18",
+    "C03-S02-U19",
+    "C03-S02-U20",
+    "C03-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

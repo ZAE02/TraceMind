@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P04_CP3",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "9b5d3b497b021b48b7c340184ee2d61938e7f78dba5cbb539da196dc140c4761",
+  "public_sha256": "0a8cbbe21f8006771960dfe408cbae2e03909fbc26417753a1538504759cef0b",
+  "candidate_input_sha256": "164884398877b7c1847437700831996b071dd74ebe0f3744d20f8ebbd4bd03c5",
+  "candidate_answer_sha256": "51428b76c71bb2b798e7fd18a720d3ca254219386d6377c48f8fe83c87fe8208",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":3,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均可回溯到具体发言，但将'恶心'直接等同于'羞耻感或担心软弱/失败'属于推断，原文仅说像半口气捂臭了。\",\"progress_understanding\":\"准确识别了从压抑身体信号到允许工服脏着承认极限的进展，也注意到随即出现的矛盾反应，但对第7次会话中'自己吓自己''数烟是数外壳'等新觉察整合不够精细。\",\"uncertainty_awareness\":\"列出了多项待澄清点，但多为泛化的治疗方向性问题（如能否接纳不完美的自己），未精准锚定当前最核心的未解张力——承认极限与早上恶心之间的具体矛盾、以及岗位调整的悬而未决。\"},\"confidence\":\"high\",\"issues\":[\"将'恶心'解读为'羞耻感或担心软弱/失败的表现'缺乏直接文本支持，原文比喻是'半口没出完的气捂臭了'\",\"evidence_ids列出全部历史话语ID过于机械，未体现针对性引用\",\"uncertain部分偏向一般性预后问题，缺少对当前会话核心未解矛盾的具体标注\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均可回溯到具体发言，但将'恶心'直接等同于'羞耻感或担心软弱/失败'属于推断，原文仅说像半口气捂臭了。",
+      "progress_understanding": "准确识别了从压抑身体信号到允许工服脏着承认极限的进展，也注意到随即出现的矛盾反应，但对第7次会话中'自己吓自己''数烟是数外壳'等新觉察整合不够精细。",
+      "uncertainty_awareness": "列出了多项待澄清点，但多为泛化的治疗方向性问题（如能否接纳不完美的自己），未精准锚定当前最核心的未解张力——承认极限与早上恶心之间的具体矛盾、以及岗位调整的悬而未决。"
+    },
+    "confidence": "high",
+    "issues": [
+      "将'恶心'解读为'羞耻感或担心软弱/失败的表现'缺乏直接文本支持，原文比喻是'半口没出完的气捂臭了'",
+      "evidence_ids列出全部历史话语ID过于机械，未体现针对性引用",
+      "uncertain部分偏向一般性预后问题，缺少对当前会话核心未解矛盾的具体标注"
+    ]
+  },
+  "usage": {
+    "input_tokens": 22143,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 261,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 22404,
+    "x_details": [
+      {
+        "input_tokens": 22143,
+        "output_tokens": 261,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 22404,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.844
+}

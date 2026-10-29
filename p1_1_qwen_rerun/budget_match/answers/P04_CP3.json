@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P04_CP3",
+  "condition": "C5_budget",
+  "raw_text": "那团没洗的工服让你感到恶心，是因为它像一面镜子，照出了你昨晚那个“到极限”的自己——那个你平时拼命想洗掉、现在却不得不面对的真实。这种厌恶感，也许正是身体在提醒你：那个靠“立刻冲掉痕迹”来维持的旧外壳，已经撑不住了。",
+  "input_sha256": "e16a6366de8d48346396da9b1242dc50e924a99fec54bebb524214af7b7c3f3b",
+  "memory_sha256": "f50b14d9169fc6daeb1f46abcc5c847a3719b7e1e8d3ee42030ebcb9807d53f2",
+  "request_sha256": "ae2aa08b7192ce4401c7419b48484be968dd6a2cedfacf1cf00c932ffbfefddc",
+  "usage": {
+    "input_tokens": 10295,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 70,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10365,
+    "x_details": [
+      {
+        "input_tokens": 10295,
+        "output_tokens": 70,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10365,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.594
+}

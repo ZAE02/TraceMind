@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP3",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "c9a40d9c7a1f0e906bbcf574e3d1de9f1c84e6094347045a2bf27d0994d1f1ed",
+  "request_sha256": "a01bcf60ae8f53e1312716421695b71012a53595acedda118ba2dd8b4694bcd8",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来，赵岩那些经验让你看见了过去自己一个人硬扛的样子，也勾出了“当时不知道该问谁、又怕问出口显得自己不行”的委屈。现在虽然知道了有别的办法，可眼前这关还是卡着，那种“晚了点”的感觉就更重了。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3357,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 60,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3417,
+    "x_details": [
+      {
+        "input_tokens": 3357,
+        "output_tokens": 60,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3417,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

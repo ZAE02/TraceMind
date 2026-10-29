@@ -1,0 +1,143 @@
+{
+  "established": [
+    {
+      "text": "来访者会反复回想他人对其表现的评价，尤其是“紧张”“不擅长”一类词语。",
+      "evidence_ids": [
+        "P03-S05-U01",
+        "P03-S05-U03",
+        "P03-S05-U05"
+      ]
+    },
+    {
+      "text": "来访者对自己的紧张并非毫无觉察，但不愿从别人口中听到。",
+      "evidence_ids": [
+        "P03-S05-U01"
+      ]
+    },
+    {
+      "text": "来访者不敢点开自己发言的录音，害怕听到后会坐实“自己就是不行”的判断。",
+      "evidence_ids": [
+        "P03-S05-U03",
+        "P03-S05-U07"
+      ]
+    },
+    {
+      "text": "来访者承认自己一直在拿别人的反应当镜子，并感到越照越模糊，快不知道自己原本是什么样。",
+      "evidence_ids": [
+        "P03-S05-U09"
+      ]
+    },
+    {
+      "text": "周屿“不擅长也可以做”这句话让来访者感到被堵住、不舒服，且不容易反驳。",
+      "evidence_ids": [
+        "P03-S05-U01",
+        "P03-S05-U05"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "text": "周屿说“不擅长也可以做”的真实意图尚未澄清，来访者仍在“这事不难”和“你别再较劲了”之间摇摆。",
+      "evidence_ids": [
+        "P03-S05-U01",
+        "P03-S05-U03",
+        "P03-S05-U05"
+      ]
+    },
+    {
+      "text": "来访者尚未能打开录音，因此还不确定自己发言时的实际状态。",
+      "evidence_ids": [
+        "P03-S05-U03",
+        "P03-S05-U07"
+      ]
+    },
+    {
+      "text": "如何不再依赖他人反应来确认自己，仍未有具体办法。",
+      "evidence_ids": [
+        "P03-S05-U07",
+        "P03-S05-U09"
+      ]
+    },
+    {
+      "text": "同门“你好像紧张”的评价仍在来访者脑中循环，尚未被处理或安放。",
+      "evidence_ids": [
+        "P03-S05-U01"
+      ]
+    }
+  ],
+  "useful_exploration": [
+    {
+      "text": "咨询师将“从别人那里对答案”与“越对越晃”的体验连接起来，来访者感到被看穿，促成了自我觉察。",
+      "evidence_ids": [
+        "P03-S05-U08",
+        "P03-S05-U09"
+      ]
+    },
+    {
+      "text": "探索了周屿的话为何像“一拳打在棉花上”：未被直接否定反而让人找不到落脚点。",
+      "evidence_ids": [
+        "P03-S05-U05",
+        "P03-S05-U06"
+      ]
+    },
+    {
+      "text": "用“手指停在播放键上”的意象探索来访者既想确认又害怕确认的矛盾。",
+      "evidence_ids": [
+        "P03-S05-U07",
+        "P03-S05-U08"
+      ]
+    }
+  ],
+  "unsupported_assumptions": [
+    {
+      "text": "来访者笑得太快是因为心虚、想掩饰露馅，这一解释尚未被来访者确认。",
+      "evidence_ids": [
+        "P03-S05-U05",
+        "P03-S05-U06"
+      ]
+    },
+    {
+      "text": "录音一旦播放就会坐实“自己不行”，目前只是来访者的担心，尚未被实际验证。",
+      "evidence_ids": [
+        "P03-S05-U03"
+      ]
+    },
+    {
+      "text": "周屿承诺“尽量”后是在压抑自己、可能随时反弹，这仍是推测而非来访者确认的事实。",
+      "evidence_ids": [
+        "P03-S04-U01",
+        "P03-S04-U02"
+      ]
+    }
+  ],
+  "case_id": "P03",
+  "checkpoint": "CP2",
+  "review_status": "unreviewed_model_draft",
+  "request_sha256": "d6de59f584959b966ec17e2e1aeaa64addd794cd4606f41922f33f8766683fe0",
+  "public_sha256": "33df89d62fe92a4fe144dacc4dc4c87955de18e9fffd8bfbcf805657a4072289",
+  "usage": {
+    "input_tokens": 6398,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 3151,
+    "output_tokens_details": {
+      "reasoning_tokens": 2332
+    },
+    "total_tokens": 9549,
+    "x_details": [
+      {
+        "input_tokens": 6398,
+        "output_tokens": 3151,
+        "output_tokens_details": {
+          "reasoning_tokens": 2332
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 9549,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

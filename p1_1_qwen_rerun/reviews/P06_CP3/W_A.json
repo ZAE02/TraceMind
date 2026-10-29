@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "b8bcbdb8776607ed8abd4dd46593a17d84ac66188b7e854712b855c1ffdcbac2",
+  "public_sha256": "0b95f5abce3e3c2a4a3c9e72c5cab075c81ae671aad5b2a211906eaf1ed0f9b7",
+  "candidate_input_sha256": "d9fff1ddc52787bab5305ec226824f15446f67d52889916626d3331eb95251e1",
+  "candidate_answer_sha256": "5cd076ea42e65f5eca360796d54898e729fff1a8f1f5f1ca6f0fb532c3e5bd47",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"主要判断均可回溯到当前会话发言，引用准确，但将'被拎到天花板上往下看'概括为'灵魂出窍'略有过度诠释。\",\"progress_understanding\":\"输入中previous_sessions为空，候选仅总结了当前会话内容，完全未涉及跨会话的咨询进展（如S5'有人搭把手不是罪过'的认识、S6解离体验的深化等），无法体现对整体进程的理解。\",\"uncertainty_awareness\":\"列出了若干待探索的不确定点，但部分推测（如'完美主义、控制欲或创伤触发点'）引入了来访者未提及的诊断性框架，且因缺少历史视角，遗漏了更核心的未解决议题。\"},\"confidence\":\"medium\",\"issues\":[\"access_limited：候选可见输入中previous_sessions为空数组，导致无法评估跨会话进展，progress_understanding得分受限。\",\"将'被拎到天花板上往下看'描述为'灵魂出窍'属于轻微的过度诠释，原文更偏向解离/自我疏离感。\",\"uncertain部分引入'完美主义、控制欲'等标签化假设，超出了来访者自身表述的范围。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均可回溯到当前会话发言，引用准确，但将'被拎到天花板上往下看'概括为'灵魂出窍'略有过度诠释。",
+      "progress_understanding": "输入中previous_sessions为空，候选仅总结了当前会话内容，完全未涉及跨会话的咨询进展（如S5'有人搭把手不是罪过'的认识、S6解离体验的深化等），无法体现对整体进程的理解。",
+      "uncertainty_awareness": "列出了若干待探索的不确定点，但部分推测（如'完美主义、控制欲或创伤触发点'）引入了来访者未提及的诊断性框架，且因缺少历史视角，遗漏了更核心的未解决议题。"
+    },
+    "confidence": "medium",
+    "issues": [
+      "access_limited：候选可见输入中previous_sessions为空数组，导致无法评估跨会话进展，progress_understanding得分受限。",
+      "将'被拎到天花板上往下看'描述为'灵魂出窍'属于轻微的过度诠释，原文更偏向解离/自我疏离感。",
+      "uncertain部分引入'完美主义、控制欲'等标签化假设，超出了来访者自身表述的范围。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 11476,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 269,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11745,
+    "x_details": [
+      {
+        "input_tokens": 11476,
+        "output_tokens": 269,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11745,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.359
+}

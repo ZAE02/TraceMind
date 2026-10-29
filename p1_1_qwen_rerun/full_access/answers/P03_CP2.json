@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P03_CP2",
+  "raw_text": "那面镜子照出的模糊感，也许正是因为你一直在用别人的反应来定义自己，却忘了那个在播放键前犹豫、在深夜里硬撑的你本身是什么样。我们不需要立刻看清原本的模样，可以先试着把目光从镜子里收回来，看看此刻在这里的你。",
+  "request_sha256": "ce6c3173b6dd83cbda909926c09dc0fba07fa153e10f5d8a463d818682381a2d",
+  "input_sha256": "cf9353137e5c0ad16b761da56ad5a4bc5f198662584b492911f0fddb6b16f38a",
+  "memory_sha256": "f64a0c972068318879f0b21de43835b10de7a0279e5e0a5ef7feeb7dc85d854d",
+  "usage": {
+    "input_tokens": 7280,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7339,
+    "x_details": [
+      {
+        "input_tokens": 7280,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7339,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.297
+}

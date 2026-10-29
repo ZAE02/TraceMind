@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P06_CP2",
+  "raw_text": "你在那半小时里看到的，不只是养老机构的样子，更是那个“承认自己照顾不好”的自己。那种想让人搭把手、哪怕只是睡个整觉的渴望，和你怕被贴上不负责任标签的羞耻感，正把你撕扯得很疼。",
+  "request_sha256": "76c92268f508cf52b5c63c59d422230dc84bcf8fc228464829e367c0604612a1",
+  "input_sha256": "d683a639bd3fba5b971f086b2431c19013938121a24c08e3bc5c3e6e9debd2d6",
+  "memory_sha256": "238ff9b58cee3950523f4dac2b606114d1a5150b3ec7c17f711886e3cb439d93",
+  "usage": {
+    "input_tokens": 7000,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7054,
+    "x_details": [
+      {
+        "input_tokens": 7000,
+        "output_tokens": 54,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7054,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.125
+}

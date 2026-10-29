@@ -1,0 +1,7 @@
+{
+  "node_order": [
+    "C02_CP2",
+    "C03_CP1"
+  ],
+  "reason": "Earlier reviewer read a later node from same case before this node; fresh-reviewer correction required."
+}

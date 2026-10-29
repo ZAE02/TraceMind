@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P01_CP2",
+  "raw_text": "你好像把“点开群”和“看懂方宁那个‘好’字”都变成了需要别人替你确认才能落定的事；而身体上的头晕，也许也在提醒你，这种反复猜测和熬夜已经让你很累了。",
+  "request_sha256": "6b2f91332d19b4195558ef14b780e7582f4ba6124ad0a89ef97b80294ab4fa4f",
+  "input_sha256": "e7f94723744c075f54be61fe71578c875fec6c7397a508fe70064692a49165df",
+  "memory_sha256": "49d10c43539b96d03542985bc542c8a1b3d2c41771d3b25a9a12f69cecb3c065",
+  "usage": {
+    "input_tokens": 7307,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 50,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7357,
+    "x_details": [
+      {
+        "input_tokens": 7307,
+        "output_tokens": 50,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 7357,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.0
+}

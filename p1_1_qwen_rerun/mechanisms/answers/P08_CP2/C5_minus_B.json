@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP2",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "b45524b92cbf50472f2228fc5c0b339154ef3e2f3735d57d225ee97e1c023e75",
+  "request_sha256": "4b73b9bfa913c21629932f252df73e559209a7058999202133d1969c3f914988",
+  "memory_sha256": "d61fb3483e84bd21131e236fef5cc71d57a4d5ffb4726d172ff20c0a626a6d3c",
+  "memory_source": "140381f8a02d49ef8f6eba21ca01c7333e7f1bb7d135a9912b84c6383a8ead67",
+  "raw_text": "那种“没处搁”的感觉，是不是让你突然失去了那个用来防御和猜疑的支点，反而更直接地面对自己一直硬扛着的真相？当不再需要去揣测他是否别有用心时，你发现自己其实更害怕的是承认自己确实需要帮助。",
+  "usage": {
+    "input_tokens": 6780,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6837,
+    "x_details": [
+      {
+        "input_tokens": 6780,
+        "output_tokens": 57,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6837,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.375,
+  "model": "qwen3.7-flash-2026-07-15"
+}

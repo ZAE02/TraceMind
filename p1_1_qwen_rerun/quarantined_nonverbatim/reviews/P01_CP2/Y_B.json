@@ -1,0 +1,78 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "122e5ed2f78ad22269d5c8471c338660e7fc54a9e2c7fe02eb755cb9a70e8b62",
+  "public_sha256": "d6bd7f5a2d2dd5946d5f9251ae6d33ec0b42c449de978649ab16f32a98bd9557",
+  "candidate_input_sha256": "ad0155e61ef06f521e475c15641e449b0c7c91ee43c2e9b1aae3e61c411dd089",
+  "candidate_answer_sha256": "09dbba0b58b0e520d797122a55445c770321cf42e97357fcc43655278741ad68",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'不敢看'的回避模式，但未显式连接历史中已识别的'从模糊信息中猜测负面态度'这一核心主题。\",\"exploration_value\":\"对回避机制有一定命名，但语气偏解释性，未给来访者新提到的头晕、自我怀疑或截图放大等细节留出表达空间。\",\"response_appropriateness\":\"语言基本尊重，但将头晕直接归因于躲藏行为带有未经证实的因果推断，且完全忽略了来访者末尾提出的身体不适和自我反思。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种躲藏虽然让你暂时不用承受失望，但也让你一直被困在猜测和头晕里\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"我总觉得自己是不是又把一件很简单的事，搞成了需要别人来替我确认才行。这两天我头也很晕\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"将头晕与回避行为建立因果联系缺乏依据，来访者本人也表达了不确定\",\"完全忽略来访者新提出的身体症状（头晕）及自我觉察（把简单事搞复杂），回应显得封闭\",\"未承接历史中反复出现的'从简短/模糊词语中读出负面含义'这一已被多次确认的模式\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者'不敢看'的回避模式，但未显式连接历史中已识别的'从模糊信息中猜测负面态度'这一核心主题。",
+      "exploration_value": "对回避机制有一定命名，但语气偏解释性，未给来访者新提到的头晕、自我怀疑或截图放大等细节留出表达空间。",
+      "response_appropriateness": "语言基本尊重，但将头晕直接归因于躲藏行为带有未经证实的因果推断，且完全忽略了来访者末尾提出的身体不适和自我反思。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种躲藏虽然让你暂时不用承受失望，但也让你一直被困在猜测和头晕里",
+        "evidence_ids": [
+          "P01-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "我总觉得自己是不是又把一件很简单的事，搞成了需要别人来替我确认才行。这两天我头也很晕",
+        "evidence_ids": [
+          "P01-S05-U09"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "将头晕与回避行为建立因果联系缺乏依据，来访者本人也表达了不确定",
+      "完全忽略来访者新提出的身体症状（头晕）及自我觉察（把简单事搞复杂），回应显得封闭",
+      "未承接历史中反复出现的'从简短/模糊词语中读出负面含义'这一已被多次确认的模式"
+    ]
+  },
+  "usage": {
+    "input_tokens": 15630,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 356,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15986,
+    "x_details": [
+      {
+        "input_tokens": 15630,
+        "output_tokens": 356,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 15986,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.719
+}

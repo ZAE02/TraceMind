@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "7c8053c4c8007f959ff15cab7d7680ad3a70f8e65a91486e18bab388d5fe193e",
+  "request_sha256": "1623901d8455e7beb3cdcf56c50aef984032c485d98a3e8e06ea97ae3529adbd",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你既希望她能多问一句，又觉得自己太贪心，这种矛盾让你很难安心地等待回应。也许我们可以一起看看，那个“多问一句”背后，具体是你渴望被怎样理解？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 955,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 43,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 998,
+    "x_details": [
+      {
+        "input_tokens": 955,
+        "output_tokens": 43,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 998,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

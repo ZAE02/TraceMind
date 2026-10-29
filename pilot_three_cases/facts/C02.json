@@ -1,0 +1,354 @@
+{
+  "case_id": "C02",
+  "stable_profile": {
+    "name": "陈宁",
+    "age": 25,
+    "gender": "女",
+    "occupation": "电商运营专员",
+    "living_context": "在南京一家电商公司工作两年，与大学朋友合租，工作日通勤约四十分钟。",
+    "relationships": "同组同事阿敏常临时请她帮忙；资深同事赵哥入职时带过她；室友悦悦知道她常加班。",
+    "speech_style": "会先替别人解释，有时把不满说成‘也不是多大的事’；描述事情时会提到具体时间和个人安排，口语自然。"
+  },
+  "confirmed_additions": [
+    {
+      "fact": "来访者上班两年，常先答应别人再挤时间。",
+      "category": "work_history",
+      "first_session": 1,
+      "evidence": [
+        "C02-S01-U07"
+      ],
+      "id": "C02-F001",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.518086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "上周六与悦悦约一起做饭，周五加班到八点、周六上午补数据后，当晚取消；悦悦说饭放冰箱了。",
+      "category": "supplemental_life_event",
+      "first_session": 1,
+      "evidence": [
+        "C02-S01-U09"
+      ],
+      "id": "C02-F002",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.518086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "陈宁感觉阿敏反复用顺手提出请求；没有说阿敏是故意使唤。",
+      "category": "relationship_perception",
+      "first_session": 1,
+      "evidence": [
+        "C02-S01-U17"
+      ],
+      "id": "C02-F003",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.518086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "本周三赵哥请周末看推广排期，陈宁删去拒绝后答应，周六下午投入两小时至四点，未赴原买菜约。",
+      "category": "life_event",
+      "first_session": 2,
+      "evidence": [
+        "C02-S02-U01",
+        "C02-S02-U03"
+      ],
+      "id": "C02-F004",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:06:57.423680+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "赵哥曾在陈宁刚入职时耐心带教，陈宁觉得应接住他的请求，未找到他要求回报的证据。",
+      "category": "relationship_history_and_expectation",
+      "first_session": 2,
+      "evidence": [
+        "C02-S02-U05",
+        "C02-S02-U07"
+      ],
+      "id": "C02-F005",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:06:57.423680+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "来访者回想工作两年很少明确说不能做，尚无拒绝后确认对方无事的明确经历。",
+      "category": "work_response_history",
+      "first_session": 2,
+      "evidence": [
+        "C02-S02-U11"
+      ],
+      "id": "C02-F006",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:06:57.423680+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "阿敏也触发猜测评价，悦悦较少施加同样压力，但取消后仍猜她可能失望。",
+      "category": "relationship_comparison",
+      "first_session": 2,
+      "evidence": [
+        "C02-S02-U15",
+        "C02-S02-U17"
+      ],
+      "id": "C02-F007",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:06:57.423680+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "周五加班至十一点、周六再补数据，下午取消电影，悦悦回那下次吧。",
+      "category": "life_event",
+      "first_session": 3,
+      "evidence": [
+        "C02-S03-U01"
+      ],
+      "id": "C02-F008",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:31:28.695650+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "睡前及看到悦悦外出朋友圈时，会反复想承诺未实现和欠账，最近更频繁但非每次。",
+      "category": "continued_emotional_experience",
+      "first_session": 3,
+      "evidence": [
+        "C02-S03-U13"
+      ],
+      "id": "C02-F009",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:31:28.695650+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "本周对悦悦答应了两次，另一件具体事件尚未说。",
+      "category": "supplemental_fact_with_unknown_detail",
+      "first_session": 3,
+      "evidence": [
+        "C02-S03-U15"
+      ],
+      "id": "C02-F010",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:31:28.695650+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "除了事情增加，未做到的感受更重，担忧下回安排仍可能不属于自己。",
+      "category": "self_reported_change",
+      "first_session": 3,
+      "evidence": [
+        "C02-S03-U15",
+        "C02-S03-U17"
+      ],
+      "id": "C02-F011",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:31:28.695650+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "周二向阿敏说明周三交周报并提出周四下午给复盘数据，阿敏接受。",
+      "category": "boundary_behavior",
+      "first_session": 4,
+      "evidence": [
+        "C02-S04-U01",
+        "C02-S04-U03"
+      ],
+      "id": "C02-F012",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:56:49.414231+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "明确接受后仍看四五次手机，猜对方心情好；过个把小时不安再现。",
+      "category": "continued_anxiety",
+      "first_session": 4,
+      "evidence": [
+        "C02-S04-U05",
+        "C02-S04-U07"
+      ],
+      "id": "C02-F013",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:56:49.414231+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "原预期阿敏催提前，实际未催，引出紧张是否白费/没有理由的自我评价。",
+      "category": "expectation_and_self_evaluation",
+      "first_session": 4,
+      "evidence": [
+        "C02-S04-U11",
+        "C02-S04-U15",
+        "C02-S04-U17"
+      ],
+      "id": "C02-F014",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:56:49.414231+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "周三对赵哥提出周五才能看数据；赵哥说去问小周，陈宁之后未收到进一步请求。",
+      "category": "boundary_behavior",
+      "first_session": 5,
+      "evidence": [
+        "C02-S05-U01"
+      ],
+      "id": "C02-F015",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:43:31.596616+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "担心赵哥因曾带教而觉得她不愿帮忙，也猜小周会认为她把工作推给别人；她承认小周平日相处正常且这些是自己脑补。",
+      "category": "relationship_anxiety",
+      "first_session": 5,
+      "evidence": [
+        "C02-S05-U03",
+        "C02-S05-U05",
+        "C02-S05-U07"
+      ],
+      "id": "C02-F016",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:43:31.596616+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "想补发今晚先看的消息但打字后删除，未发送；这两天赵哥照常聊天，她仍在等待其反应。",
+      "category": "continued_guilt_and_uncertainty",
+      "first_session": 5,
+      "evidence": [
+        "C02-S05-U15",
+        "C02-S05-U17",
+        "C02-S05-U19"
+      ],
+      "id": "C02-F017",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:43:31.596616+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "周一上午答应看赵哥的渠道汇总；当日下午两场会照开，工作做到近九点，未赴与悦悦的晚餐并发消息说明。",
+      "category": "life_event",
+      "first_session": 6,
+      "evidence": [
+        "C02-S06-U01",
+        "C02-S06-U13"
+      ],
+      "id": "C02-F018",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:51:29.716446+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "答应赵哥时具体想起他曾耐心教自己后台入口；她觉得拒绝就像忘了他的帮助，且更难受的是自己先判自己忘了。",
+      "category": "relationship_expectation_and_self_judgment",
+      "first_session": 6,
+      "evidence": [
+        "C02-S06-U05",
+        "C02-S06-U07",
+        "C02-S06-U09"
+      ],
+      "id": "C02-F019",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:51:29.716446+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "次日想起未赴约时，这次没有先前常有的闷，只觉得少了点什么，具体意义未说清。",
+      "category": "self_reported_emotional_variation",
+      "first_session": 6,
+      "evidence": [
+        "C02-S06-U15",
+        "C02-S06-U17"
+      ],
+      "id": "C02-F020",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:51:29.716446+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "周四对阿敏询问数据任务截止和工作量后，提出周五下午交付。",
+      "category": "boundary_behavior",
+      "first_session": 7,
+      "evidence": [
+        "C02-S07-U01"
+      ],
+      "id": "C02-F021",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:59:38.611624+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "消息发送后回看两遍，担心加入手头安排的说明使语气太硬；她不确定较少慌张的原因。",
+      "category": "continued_anxiety_and_self_monitoring",
+      "first_session": 7,
+      "evidence": [
+        "C02-S07-U01",
+        "C02-S07-U05",
+        "C02-S07-U09"
+      ],
+      "id": "C02-F022",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:59:38.611624+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "发送安排后短暂有一点松，随后开始担心语气问题，并表示打算回去观察松感。",
+      "category": "self_reported_mixed_experience",
+      "first_session": 7,
+      "evidence": [
+        "C02-S07-U17"
+      ],
+      "id": "C02-F023",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:59:38.611624+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "周五对阿敏只答应查看一个关键数字，其余部分让阿敏次日自己处理；当晚陈宁有未完成报表。",
+      "category": "boundary_behavior",
+      "first_session": 8,
+      "evidence": [
+        "C02-S08-U01",
+        "C02-S08-U03"
+      ],
+      "id": "C02-F024",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T06:04:30.115563+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "本场报告内疚较轻、不那么堵，但仍偶有小气念头；她说搁着的感觉变轻，出现计较念头时不再像以前继续推想。",
+      "category": "self_reported_change",
+      "first_session": 8,
+      "evidence": [
+        "C02-S08-U05",
+        "C02-S08-U15"
+      ],
+      "id": "C02-F025",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T06:04:30.115563+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "周六与悦悦正常做饭；“我的越来越薄”仍会在躺下时出现，但没有感觉更薄，不专门想时不太占地方。",
+      "category": "life_event_and_continued_concern",
+      "first_session": 8,
+      "evidence": [
+        "C02-S08-U11",
+        "C02-S08-U13"
+      ],
+      "id": "C02-F026",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T06:04:30.115563+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    }
+  ],
+  "pending_dialogue_reviews": [],
+  "rejected_candidates": [],
+  "note": "事实确认须附对话证据并检查与人物档案和已知事实的一致性；私人体验不等同Gold。",
+  "pending_new_fact_candidates": [],
+  "reviewed_candidates": [],
+  "date_resolution": "GPT independent reviewer: the previous Saturday episode is an additional event, not the undisclosed Thursday episode. Preserve both dates.",
+  "reported_intentions": []
+}

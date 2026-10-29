@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P02_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "34601f6decac1d85aca7c5741386bd06401fbd2deee374fec4fd2d976a5055fe",
+  "public_sha256": "86955743b655af599f11a1d106a06b0964344b7fe886b9ffe92dec16238b1750",
+  "candidate_input_sha256": "5941f7b994f28e9cc67bb5b86c1bc211ed705db32af01e75d2880b7f048b3d4a",
+  "candidate_answer_sha256": "e21352bf24b7cb00f7fa0f1cf631aba60f8c2858d78cacde5e6d7b6ec86e2679",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有提取内容均可回溯到当前会话原文，引用准确，但将咨询师推测（如'习惯性认知模式'）部分混入待确认项而非明确区分来访者自述与咨询师解读。\",\"progress_understanding\":\"候选输入中previous_sessions为空，导致完全无法识别跨会话进展（如调休单、公园一小时、身体信号等历史主题），仅停留在当前会话表层复述。\",\"uncertainty_awareness\":\"正确指出门的象征意义未被来访者确认、胃疼生理原因未明等不确定性，区分较清晰。\"},\"confidence\":\"high\",\"issues\":[\"access_limited：候选可见输入中previous_sessions为空数组，无法获取前6次会话历史，导致progress_understanding评分受限，不视为候选自身失误。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有提取内容均可回溯到当前会话原文，引用准确，但将咨询师推测（如'习惯性认知模式'）部分混入待确认项而非明确区分来访者自述与咨询师解读。",
+      "progress_understanding": "候选输入中previous_sessions为空，导致完全无法识别跨会话进展（如调休单、公园一小时、身体信号等历史主题），仅停留在当前会话表层复述。",
+      "uncertainty_awareness": "正确指出门的象征意义未被来访者确认、胃疼生理原因未明等不确定性，区分较清晰。"
+    },
+    "confidence": "high",
+    "issues": [
+      "access_limited：候选可见输入中previous_sessions为空数组，无法获取前6次会话历史，导致progress_understanding评分受限，不视为候选自身失误。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 12192,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 189,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12381,
+    "x_details": [
+      {
+        "input_tokens": 12192,
+        "output_tokens": 189,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 12381,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.078
+}

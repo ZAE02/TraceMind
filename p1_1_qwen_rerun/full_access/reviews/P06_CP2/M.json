@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "M",
+  "task": "B",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接了来访者对养老机构的矛盾心理及长期'撑不住'的主题，但未显式连接第3次会谈中父亲离开的创伤记忆这一深层线索。",
+      "exploration_value": "准确反映了两份渴望的冲突并命名了'喊累'，为来访者继续展开留下了空间，但探索方向略偏总结性，未进一步打开具体情绪或身体感受。",
+      "response_appropriateness": "语言温和、尊重，无武断预设，贴合来访者当前的情感强度与表达节奏。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "回应虽准确反映了当前矛盾，但未触及来访者担忧母亲反复问'你爸去哪了'所连接的早期创伤主题（S03-U05/U07），错失了将当前焦虑与历史核心恐惧相连的机会。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":4},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者对养老机构的矛盾心理及长期'撑不住'的主题，但未显式连接第3次会谈中父亲离开的创伤记忆这一深层线索。\",\"exploration_value\":\"准确反映了两份渴望的冲突并命名了'喊累'，为来访者继续展开留下了空间，但探索方向略偏总结性，未进一步打开具体情绪或身体感受。\",\"response_appropriateness\":\"语言温和、尊重，无武断预设，贴合来访者当前的情感强度与表达节奏。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"回应虽准确反映了当前矛盾，但未触及来访者担忧母亲反复问'你爸去哪了'所连接的早期创伤主题（S03-U05/U07），错失了将当前焦虑与历史核心恐惧相连的机会。\"]}",
+  "request_sha256": "9b87969eae86d00eabdaf58e69842ca9429bfdc5444c682a1b0336e3c8ae3d35",
+  "usage": {
+    "input_tokens": 14723,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 279,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15002,
+    "x_details": [
+      {
+        "input_tokens": 14723,
+        "output_tokens": 279,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 15002,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.375
+}

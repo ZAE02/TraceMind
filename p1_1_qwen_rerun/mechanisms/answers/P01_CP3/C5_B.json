@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP3",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "ab362d98c87123b183cbab3617549db3638e564839c652f13e8e9c208c1da4b4",
+  "request_sha256": "33366918a406d44c629875bb8e1657ee2d46c4b79240dcf341e104123aa9180f",
+  "memory_sha256": "c0c3c3a722a88d05ef414228d855b561a6af94abc7d8307d32926232d55b8048",
+  "memory_source": "635159a597cfd98dee3c86378c2caf5a3d727d662a6bdf78148fb11e736532b0",
+  "raw_text": "你把手指停在点赞那里又收回，好像连表达一点点的在意或嫉妒，都让你觉得需要先经过“该不该有”的审判。这种把情绪和具体事件混在一起的做法，可能正是为了不让那个“空落落”的感觉显得太突兀、太难以承受。",
+  "usage": {
+    "input_tokens": 10844,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 60,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10904,
+    "x_details": [
+      {
+        "input_tokens": 10844,
+        "output_tokens": 60,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 10904,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.406,
+  "model": "qwen3.7-flash-2026-07-15"
+}

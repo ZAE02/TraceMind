@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P07_CP1",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "0502e9c4bf5f1590c7c584481d220c138e99cf315ea545ca2bbf38d9c5c6fb05",
+  "public_sha256": "5919ea9ca2c9debba1196f5216203c6afad16a33d5eb8ebbe29775f7157c0a24",
+  "candidate_input_sha256": "0cd509c96ff01e74da2791979d2ac8ef8e5c3cb778401d3323ae2a3d58ca5654",
+  "candidate_answer_sha256": "5c9ba035a1a16786a1aa0b51d305be993d93a3b870e0a8b0cee3ec10c9664565",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"回应紧扣来访者刚提出的'开关/灯泡'隐喻，并自然承接了上一轮咨询师关于'判决'与无力感的框架，但未显式连接历史中反复出现的'悬置/不点开'行为模式（如餐具、请柬）。\",\"exploration_value\":\"通过两个问句为来访者留下了表达空间，第一个问题邀请其展开对'不敢试开关'的体验，第二个问题引导比较两种无力感，方向恰当但略显引导性。\",\"response_appropriateness\":\"语言贴合来访者的比喻系统，情绪反映基本到位；但'像不像你手里攥着的那颗灯泡'这一意象是咨询师的延伸而非来访者原话，存在轻微预设风险。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"像不像你手里攥着的那颗灯泡——既怕它彻底灭了，又不敢去试一下开关还在不在？\",\"evidence_ids\":[\"P07-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"'手里攥着灯泡'的意象并非来访者原话，属于咨询师的创造性延伸，有轻微将未证实画面当作前提的风险。\",\"第二个问题'是不是比画不出来更让你觉得无力'带有引导性，可能窄化来访者的回答空间。\",\"未将来访者此次'不点开邮件'与此前多次'悬置决定'（餐具收进柜子、请柬缩回手）的行为模式做连接，错失了深化理解的机会。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "回应紧扣来访者刚提出的'开关/灯泡'隐喻，并自然承接了上一轮咨询师关于'判决'与无力感的框架，但未显式连接历史中反复出现的'悬置/不点开'行为模式（如餐具、请柬）。",
+      "exploration_value": "通过两个问句为来访者留下了表达空间，第一个问题邀请其展开对'不敢试开关'的体验，第二个问题引导比较两种无力感，方向恰当但略显引导性。",
+      "response_appropriateness": "语言贴合来访者的比喻系统，情绪反映基本到位；但'像不像你手里攥着的那颗灯泡'这一意象是咨询师的延伸而非来访者原话，存在轻微预设风险。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "像不像你手里攥着的那颗灯泡——既怕它彻底灭了，又不敢去试一下开关还在不在？",
+        "evidence_ids": [
+          "P07-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "'手里攥着灯泡'的意象并非来访者原话，属于咨询师的创造性延伸，有轻微将未证实画面当作前提的风险。",
+      "第二个问题'是不是比画不出来更让你觉得无力'带有引导性，可能窄化来访者的回答空间。",
+      "未将来访者此次'不点开邮件'与此前多次'悬置决定'（餐具收进柜子、请柬缩回手）的行为模式做连接，错失了深化理解的机会。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8571,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 400,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8971,
+    "x_details": [
+      {
+        "input_tokens": 8571,
+        "output_tokens": 400,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8971,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.843
+}

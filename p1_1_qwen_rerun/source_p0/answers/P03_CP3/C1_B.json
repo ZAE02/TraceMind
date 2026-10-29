@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP3",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "b7947f7381c32b1170c1354d61e1e57fe2f466b0e3f6505eec2354f4051c9482",
+  "request_sha256": "4672cc8b7c5ef0051594f8df490192df8ef3a17de65ab352fcc2afcd9777491f",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你怕那只是硬撑，是因为你觉得“没逃”还不够好，好像必须觉得自己稳了才算真正过去。但那个在发抖时对自己说“别跑”的声音，也许比任何完美的节奏都更真实地接住了你。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3445,
+    "input_tokens_details": {
+      "cached_tokens": 896
+    },
+    "output_tokens": 51,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3496,
+    "x_details": [
+      {
+        "input_tokens": 3445,
+        "output_tokens": 51,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "total_tokens": 3496,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

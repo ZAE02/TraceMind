@@ -1,0 +1,142 @@
+{
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "N06",
+  "public_input_sha256": "8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+  "items": [
+    {
+      "anonymous_id": "Taf7c58866777",
+      "clarification_quality": 4,
+      "history_use": 4,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "client_compliance_risk": "medium",
+      "S": false,
+      "reason": "先定位开口时差别，再以待检验选项区分场景触发与总体减轻。来访者的‘可能还在’部分沿用选项，不能据此证实机制；随后主动给出不像承认及换人可能不问的限制，新增区分充分。单独开口是新补充，无明确事实冲突或未来完成事项。",
+      "new_evidence": [
+        {
+          "utterance_id": "BR_2deb06de67c8_U02",
+          "information": "不同主要发生在开口时，联调顺嘴问让提问没那么郑重。",
+          "why_unknown_before": "原历史仅说犹豫后当场问及不一样，未定位体验环节或郑重程度。"
+        },
+        {
+          "utterance_id": "BR_2deb06de67c8_U04",
+          "information": "当前场景使询问没那么像承认；若换个人仍可能不问。",
+          "why_unknown_before": "先前未说明场景主观意义及提问对象的限制；这是设想，不是已完成的行动。"
+        }
+      ]
+    },
+    {
+      "anonymous_id": "T0a663627bc61",
+      "clarification_quality": 3,
+      "history_use": 3,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "client_compliance_risk": "medium",
+      "S": false,
+      "reason": "先定位差别后探索问后的感受，均未把原因当事实。第二问空或有东西较抽象，新增主要是问后不回想与轻微意外；开口瞬间的回答随即谈问后，定位仍不完整。过去担心老韩觉得笨为新增细节，与先前偏重自评有张力，但不构成同一时点的明确否定。",
+      "new_evidence": [
+        {
+          "utterance_id": "BR_ffb1498fc28b_U02",
+          "information": "此次问完继续联调，少了‘完了’感；回忆上次说后担忧老韩觉得笨。",
+          "why_unknown_before": "冻结历史未报告本次问后内部反应，也未报告上次开口之后对老韩评价的想法。"
+        },
+        {
+          "utterance_id": "BR_ffb1498fc28b_U04",
+          "information": "本次没有回头想，只有一点‘哦，就这样的’意外。",
+          "why_unknown_before": "平常回应不自动说明没有事后反刍或具体感受。"
+        }
+      ]
+    },
+    {
+      "anonymous_id": "T682161482639",
+      "clarification_quality": 4,
+      "history_use": 4,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "client_compliance_risk": "low",
+      "S": false,
+      "reason": "两问围绕时间位置及愣住体验，允许空白而未指定心理原因。来访者自行说明预期的内部反应未出现，并用过去‘还好没说啥’作比较，新增超过顺从肯定。引用历史交代困难适切，没有跨到未来事实。",
+      "new_evidence": [
+        {
+          "utterance_id": "BR_dbace289e8a4_U02",
+          "information": "不同主要在解释之后；问时仅不确定便提出，未像上次组织措辞。",
+          "why_unknown_before": "原话未定位差别何时发生，也未描述本次措辞准备。"
+        },
+        {
+          "utterance_id": "BR_dbace289e8a4_U04",
+          "information": "预期问后会有内部反应却未出现，过去会想还好对方没说什么，这次直接继续听。",
+          "why_unknown_before": "历史未呈现过去问后这种自我监控，也未说明本次缺失哪种预期反应。"
+        }
+      ]
+    },
+    {
+      "anonymous_id": "T5914189a7518",
+      "clarification_quality": 4,
+      "history_use": 4,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "client_compliance_risk": "medium",
+      "S": false,
+      "reason": "第一问区分开口与回应，第二问据顺嘴提问比较讨论情境和问题大小，属于有依据的假设探索。来访者先选讨论条件，后补充问前查文档，提供独立限制信息，不能把选择直接视作因果验证；事实时间均合理。",
+      "new_evidence": [
+        {
+          "utterance_id": "BR_eae0ee2cc463_U02",
+          "information": "差别主要在讨论中犹豫一下即顺嘴问，回应本身没有特别之处。",
+          "why_unknown_before": "原话未指出不同的主要环节或排除回应的突出意义。"
+        },
+        {
+          "utterance_id": "BR_eae0ee2cc463_U04",
+          "information": "提问被体验为共同看协议流程的一步；先查文档确认未写清才开口。",
+          "why_unknown_before": "冻结历史未述流程感及问前核查，原有犹豫不能说明是否先为问题寻找依据。"
+        }
+      ]
+    },
+    {
+      "anonymous_id": "T8498f8a50548",
+      "clarification_quality": 4,
+      "history_use": 4,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "client_compliance_risk": "low",
+      "S": false,
+      "reason": "先开放具体化不同，再追问原话中的犹豫片刻，未替来访者定机制。新增交代感缺失、未完成的显得如何念头及停顿时长对比，有保留而非简单迎合。上次最终开口过程属合理补充，无明确冲突或未来事项。",
+      "new_evidence": [
+        {
+          "utterance_id": "BR_325911c2f113_U02",
+          "information": "上次需先交代查了两天再问，这次直接问字段，缺少交代感。",
+          "why_unknown_before": "历史报告上次开口前觉得要解释，但未说明本次交代感或实际问法。"
+        },
+        {
+          "utterance_id": "BR_325911c2f113_U04",
+          "information": "短暂闪过问出来会不会显得如何，借讨论顺势问；本次停顿较上次几秒更短。",
+          "why_unknown_before": "原话只有犹豫一下，未提供念头内容、顺势开口方式及相对时长。"
+        }
+      ]
+    },
+    {
+      "anonymous_id": "T04ab0f6962e4",
+      "clarification_quality": 4,
+      "history_use": 4,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "client_compliance_risk": "low",
+      "S": false,
+      "reason": "第一问开放邀请差异，第二问沿来访者自行提出的单独求助设想具体化画面。新增场景条件与交代时先矮一截的体验，非咨询师预植解释；未犹豫的难堪感不等于完全没有犹豫，与原话相容。假想单独去问明确为可能，未写成未来已完成事实。",
+      "new_evidence": [
+        {
+          "utterance_id": "BR_aa0f765f150b_U02",
+          "information": "这次没有之前措辞和难堪感，来访者自行怀疑顺带提问情境有关，单独求助仍可能犹豫。",
+          "why_unknown_before": "原话未说明本次难堪感及对单独提问的条件性预测。"
+        },
+        {
+          "utterance_id": "BR_aa0f765f150b_U04",
+          "information": "设想独立求助需先说明卡住及已查已试内容，交代过程会体验为先矮一截。",
+          "why_unknown_before": "历史只有先解释和难堪，未具体描述想象流程及相对地位体验。"
+        }
+      ]
+    }
+  ]
+}

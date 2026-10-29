@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP3",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "c9a40d9c7a1f0e906bbcf574e3d1de9f1c84e6094347045a2bf27d0994d1f1ed",
+  "request_sha256": "8f20f8c3044318a6653e2ce061fcbdf99e364ec8dd66fce9e1689320a3c5f5d7",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“晚了点”的遗憾里，是不是也藏着对自己过去几年独自硬扛、却不敢求助的委屈？既然现在知道了有别的办法，也许我们可以试着从允许自己“稍微松一点”开始，看看能不能把这份迟到的认知变成当下的行动。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3416,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 56,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3472,
+    "x_details": [
+      {
+        "input_tokens": 3416,
+        "output_tokens": 56,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3472,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

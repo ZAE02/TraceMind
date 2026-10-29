@@ -1,0 +1,317 @@
+{
+  "status": "completed",
+  "purpose": "method_comparison",
+  "node": "N06",
+  "method": "B2_temporal_RAG",
+  "sample": 2,
+  "public_input_sha256": "8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+  "memory_info": {
+    "query_sha256": "f8d9d9a7497dcae77b07fc8a21e273b01df1a53a3bb608435194921fe9fefc2d",
+    "ranking": [
+      {
+        "index": 10,
+        "score": 0.8040629720483288,
+        "dense": 0.6985584185358904,
+        "bm25": 1.0,
+        "recency": 1.0
+      },
+      {
+        "index": 13,
+        "score": 0.6804343541009509,
+        "dense": 0.5111254519628268,
+        "bm25": 0.992811241300454,
+        "recency": 1.0
+      },
+      {
+        "index": 0,
+        "score": 0.63292335736661,
+        "dense": 0.6123837974397114,
+        "bm25": 0.7394955561231902,
+        "recency": 0.5
+      },
+      {
+        "index": 9,
+        "score": 0.6008414111544796,
+        "dense": 0.576155554731603,
+        "bm25": 0.7053612023157508,
+        "recency": 0.5
+      },
+      {
+        "index": 18,
+        "score": 0.5862643497158626,
+        "dense": 0.5587005153128022,
+        "bm25": 0.4924360590501647,
+        "recency": 1.0
+      },
+      {
+        "index": 7,
+        "score": 0.5638816595955168,
+        "dense": 0.6032875205466705,
+        "bm25": 0.48697908496072395,
+        "recency": 0.5
+      },
+      {
+        "index": 14,
+        "score": 0.5516546289971487,
+        "dense": 0.5828129232354661,
+        "bm25": 0.29130491557638266,
+        "recency": 1.0
+      },
+      {
+        "index": 6,
+        "score": 0.5210735376281347,
+        "dense": 0.610998645835,
+        "bm25": 0.29569767134153896,
+        "recency": 0.5
+      },
+      {
+        "index": 12,
+        "score": 0.5091754228537007,
+        "dense": 0.5132318471486608,
+        "bm25": 0.30229888882828443,
+        "recency": 1.0
+      },
+      {
+        "index": 1,
+        "score": 0.5055546947466212,
+        "dense": 0.5431650996517791,
+        "bm25": 0.409989519891859,
+        "recency": 0.5
+      },
+      {
+        "index": 8,
+        "score": 0.5037741759792957,
+        "dense": 0.6184450246726357,
+        "bm25": 0.20713963976833,
+        "recency": 0.5
+      },
+      {
+        "index": 16,
+        "score": 0.47691536123833045,
+        "dense": 0.488858957521766,
+        "bm25": 0.23662815539673004,
+        "recency": 1.0
+      },
+      {
+        "index": 19,
+        "score": 0.4748701642898755,
+        "dense": 0.5315896070805305,
+        "bm25": 0.11734767875012254,
+        "recency": 1.0
+      },
+      {
+        "index": 17,
+        "score": 0.4695337576093379,
+        "dense": 0.44724009370003953,
+        "bm25": 0.31531078681724894,
+        "recency": 1.0
+      },
+      {
+        "index": 5,
+        "score": 0.4689385536686058,
+        "dense": 0.4703527766435109,
+        "bm25": 0.452836995401295,
+        "recency": 0.5
+      },
+      {
+        "index": 11,
+        "score": 0.4440876873715558,
+        "dense": 0.5163537341891994,
+        "bm25": 0.03383104059430444,
+        "recency": 1.0
+      },
+      {
+        "index": 15,
+        "score": 0.4409163041736661,
+        "dense": 0.49234261203357066,
+        "bm25": 0.08357442540738072,
+        "recency": 1.0
+      },
+      {
+        "index": 3,
+        "score": 0.4298603238780046,
+        "dense": 0.4353856107483295,
+        "bm25": 0.38743870756636156,
+        "recency": 0.5
+      },
+      {
+        "index": 2,
+        "score": 0.4288238485252077,
+        "dense": 0.508861394195748,
+        "bm25": 0.19225576919188603,
+        "recency": 0.5
+      },
+      {
+        "index": 4,
+        "score": 0.37359162644060034,
+        "dense": 0.4082910504415303,
+        "bm25": 0.23280977461442262,
+        "recency": 0.5
+      }
+    ],
+    "selected_ids": [
+      "C03-S01-U01",
+      "C03-S01-U02",
+      "C03-S01-U03",
+      "C03-S01-U04",
+      "C03-S01-U05",
+      "C03-S01-U06",
+      "C03-S01-U07",
+      "C03-S01-U08",
+      "C03-S01-U11",
+      "C03-S01-U12",
+      "C03-S01-U13",
+      "C03-S01-U14",
+      "C03-S01-U15",
+      "C03-S01-U16",
+      "C03-S01-U17",
+      "C03-S01-U18",
+      "C03-S01-U19",
+      "C03-S01-U20",
+      "C03-S02-U01",
+      "C03-S02-U02",
+      "C03-S02-U03",
+      "C03-S02-U04",
+      "C03-S02-U05",
+      "C03-S02-U06",
+      "C03-S02-U07",
+      "C03-S02-U08",
+      "C03-S02-U09",
+      "C03-S02-U10",
+      "C03-S02-U11",
+      "C03-S02-U12",
+      "C03-S02-U13",
+      "C03-S02-U14",
+      "C03-S02-U15",
+      "C03-S02-U16",
+      "C03-S02-U17",
+      "C03-S02-U18",
+      "C03-S02-U19",
+      "C03-S02-U20"
+    ],
+    "history_tokens": 2889,
+    "budget": 3000,
+    "algorithm": "0.65 cosine(qwen3.7 embedding)+0.25 normalized BM25 bigrams+0.10 relative recency; first/latest session best-pair anchors",
+    "all_corpus_pairs": 20,
+    "selected_pairs": 19
+  },
+  "request_sha256": "c0b0e776b8eb5291d782419acc6895003476486a7746e8c2746a2226f4a313d7",
+  "context_sha256": "2b2c87ae00198c44c2dfb394b3c1a8a88a9cc2c80e1e395e19f2eda6e534a196",
+  "call_id": "49026de3bc7f44f59c86db5d1228414b",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T10:45:35.455903+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者这次主动当场向老韩提问，且描述过程为'挺正常的'，与第1次会话中'想问但没开口'、觉得'拿不出手'的状态有可见差异。\",\n      \"evidence_ids\": [\"C03-S03-U01\", \"C03-S01-U13\", \"C03-S01-U15\", \"C03-S01-U17\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者感知到这次体验'跟上次不太一样'，但尚未能具体说出差异在哪里，处于模糊觉察阶段。\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"提问前仍有犹豫（'犹豫了一下'），说明旧的收住机制并未完全消失，但这次被覆盖了。\",\n      \"evidence_ids\": [\"C03-S03-U01\", \"C03-S01-U14\"],\n      \"certainty\": \"tentative\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'跟上次不太一样'具体指什么——是过程中没感到'拿不出手'，还是事后没有'贴上去'的自我评价，还是别的什么\",\n    \"这次'犹豫了一下'的体验与第1次'到了又没开口'的犹豫在性质上是否相同\",\n    \"来访者说'我也不知道这算不算什么'背后是在不确定这件事是否值得注意，还是在不确定自己是否'有资格'觉得它不同\"\n  ],\n  \"next_focus\": \"探索'跟上次不太一样'的具体指向，区分是过程中的体验不同还是事后回看的感受不同\",\n  \"next_counselor_utterance\": \"犹豫了一下，还是问了，然后感觉跟上次不太一样——这个'不一样'，是问的时候就不太一样了，还是问完之后回看才觉得的？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者这次主动当场向老韩提问，且描述过程为'挺正常的'，与第1次会话中'想问但没开口'、觉得'拿不出手'的状态有可见差异。",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "C03-S01-U13",
+          "C03-S01-U15",
+          "C03-S01-U17"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者感知到这次体验'跟上次不太一样'，但尚未能具体说出差异在哪里，处于模糊觉察阶段。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "提问前仍有犹豫（'犹豫了一下'），说明旧的收住机制并未完全消失，但这次被覆盖了。",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "C03-S01-U14"
+        ],
+        "certainty": "tentative"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'跟上次不太一样'具体指什么——是过程中没感到'拿不出手'，还是事后没有'贴上去'的自我评价，还是别的什么",
+      "这次'犹豫了一下'的体验与第1次'到了又没开口'的犹豫在性质上是否相同",
+      "来访者说'我也不知道这算不算什么'背后是在不确定这件事是否值得注意，还是在不确定自己是否'有资格'觉得它不同"
+    ],
+    "next_focus": "探索'跟上次不太一样'的具体指向，区分是过程中的体验不同还是事后回看的感受不同",
+    "next_counselor_utterance": "犹豫了一下，还是问了，然后感觉跟上次不太一样——这个'不一样'，是问的时候就不太一样了，还是问完之后回看才觉得的？"
+  },
+  "usage": {
+    "input_tokens": 3260,
+    "input_tokens_details": {
+      "cached_tokens": 1664
+    },
+    "output_tokens": 1397,
+    "output_tokens_details": {
+      "reasoning_tokens": 930
+    },
+    "total_tokens": 4657,
+    "x_details": [
+      {
+        "input_tokens": 3260,
+        "input_tokens_details": {
+          "text_tokens": 3260
+        },
+        "output_tokens": 1397,
+        "output_tokens_details": {
+          "reasoning_tokens": 930
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "total_tokens": 4657,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_method_comparison_calls.jsonl",
+  "visible_evidence_ids": [
+    "C03-S01-U01",
+    "C03-S01-U02",
+    "C03-S01-U03",
+    "C03-S01-U04",
+    "C03-S01-U05",
+    "C03-S01-U06",
+    "C03-S01-U07",
+    "C03-S01-U08",
+    "C03-S01-U11",
+    "C03-S01-U12",
+    "C03-S01-U13",
+    "C03-S01-U14",
+    "C03-S01-U15",
+    "C03-S01-U16",
+    "C03-S01-U17",
+    "C03-S01-U18",
+    "C03-S01-U19",
+    "C03-S01-U20",
+    "C03-S02-U01",
+    "C03-S02-U02",
+    "C03-S02-U03",
+    "C03-S02-U04",
+    "C03-S02-U05",
+    "C03-S02-U06",
+    "C03-S02-U07",
+    "C03-S02-U08",
+    "C03-S02-U09",
+    "C03-S02-U10",
+    "C03-S02-U11",
+    "C03-S02-U12",
+    "C03-S02-U13",
+    "C03-S02-U14",
+    "C03-S02-U15",
+    "C03-S02-U16",
+    "C03-S02-U17",
+    "C03-S02-U18",
+    "C03-S02-U19",
+    "C03-S02-U20",
+    "C03-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

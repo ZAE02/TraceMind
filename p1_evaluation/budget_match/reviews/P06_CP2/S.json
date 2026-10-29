@@ -1,0 +1,58 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 4\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "4bb7896f1805c407520369f65b6b1d6fe1e9f57df30f8b32d0cfc254c334633f",
+  "usage": {
+    "input_tokens": 14121,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14321,
+    "x_details": [
+      {
+        "input_tokens": 14121,
+        "output_tokens": 200,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14321,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.625
+}

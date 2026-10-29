@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2,\"brief_reason\":\"回应抓住了来访者'漏洞百出'的表述并尝试共情，但将'装得漏洞百出'重新框架为'为了维持表面稳定而付出的代价'带有咨询师自身解读色彩；探索方向偏向建议性（允许不完美），未充分承接前两次会谈中已识别的'先怪自己/盔甲'保护模式或教小赵时的例外资源。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那种\"漏洞百出\"的感觉，似乎是你为了维持表面稳定而付出的代价\",\"evidence_ids\":[\"P05-S03-U09\",\"P05-S01-U11\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"或许我们可以一起看看，如果允许自己不那么完美，会发生什么？\",\"evidence_ids\":[\"P05-S01-U11\",\"P05-S01-U12\",\"P05-S03-U07\",\"P05-S03-U09\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'漏洞百出'解释为'维持表面稳定的代价'是咨询师的推断，来访者原文表达的是越想稳越觉得自己装不好，并非主动选择付出代价来维持稳定\",\"提出'允许自己不那么完美'的建议性探索跳过了对来访者长期自我保护模式（盔甲）的理解，也未利用当前会话中教小赵时自然脱离评价的例外体验作为资源\",\"未连接第1次会谈中已建立的'先怪自己以避免羞辱感'的核心认识，历史利用停留在表层\"]}",
+  "request_sha256": "a0763efd983d70aca138cef432ce39019dda64165334177e7671b481c02003d1",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8026,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 389,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8415,
+    "x_details": [
+      {
+        "input_tokens": 8026,
+        "output_tokens": 389,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 8415,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

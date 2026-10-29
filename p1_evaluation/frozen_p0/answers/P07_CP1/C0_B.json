@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "f1bce3e6173d26e14dabe4330be3e9aa2e04a4f5e6e4f251d08848160bc462de",
+  "request_sha256": "654e115403afe6c58d3999d2d5f09330d84d004b91b9fb441e72c423bc7027c7",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你好像把“灵气”当成一个非亮即灭的开关，而那份没点开的试稿，就成了可能证明它已经烧坏的最后一颗灯泡——所以不是不想接，是怕一打开就亲手确认那个判决。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 918,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 967,
+    "x_details": [
+      {
+        "input_tokens": 918,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 967,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

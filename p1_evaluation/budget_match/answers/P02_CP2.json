@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P02_CP2",
+  "condition": "C5_budget",
+  "raw_text": "听起来，那一小时里你一直在“数时间”和“怕被叫走”之间绷着，连靠一下都像会打破某种界限。也许真正让你不敢承认去公园的，不只是怕妈妈问，而是你自己也还没办法把那一个小时看作理所当然属于自己的时间。",
+  "input_sha256": "188508cb9748a58e6172891d0f7f4044e97c8e9aaf5d586b6bf38ba70d0ef6a7",
+  "memory_sha256": "a6c6e9e7598837ba5d9829010171a206ef7fb0181a0d91a66eb078137c48d4d6",
+  "request_sha256": "8b62bb9012fe7a81c36432ebea9c0120fded3c87c16ea65201df8fdc822721bb",
+  "usage": {
+    "input_tokens": 6658,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 58,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6716,
+    "x_details": [
+      {
+        "input_tokens": 6658,
+        "output_tokens": 58,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 6716,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.266
+}

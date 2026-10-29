@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "b8be3455d137c3c2239ea6fbafcf282360a213b1eb16472cf3ddb77bcac161b8",
+  "public_sha256": "0756dd3d4ffbe1c244688e9af96177eba4851c5e29fd97a0487b084b32691e7f",
+  "candidate_input_sha256": "338b7f9b8d49f6d52c38a632473559f4b6a3a4e63d7bc4ab29d7952bab1aa30a",
+  "candidate_answer_sha256": "1ac79931ed74f0bba243934cf233071f6f97b6c1c2e868e6dfd6cdbd8850b5a6",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所有已建立要点均直接引用第7会话原文，有据可查；但将咨询师U02的推测性解读（'回避责任'）直接列为来访者确立认知，未区分来源。\",\"progress_understanding\":\"因无历史输入，仅提取了当前会话内的信息点，完全缺失跨会话的模式识别（如边界软化、隐藏真实感受、依赖外部确认等），也未体现来访者在觉察上的推进。\",\"uncertainty_awareness\":\"列出了三个待澄清的不确定点，方向合理，但较为笼统，且未意识到自身缺少历史视角这一根本局限。\"},\"confidence\":\"high\",\"issues\":[\"access_limited=true：候选可见输入中previous_sessions为空，无法获取S1-S6历史，导致跨会话进展和模式识别必然缺失。\",\"将咨询师在P01-S07-U02中的推测性表述（'像对方在回避责任'）直接归入来访者已确立的认知，未区分发言者角色。\",\"established列表仅为当前会话事件罗列，缺乏对核心主题（如难以接纳负面情绪、需要外部确认）的抽象整合。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有已建立要点均直接引用第7会话原文，有据可查；但将咨询师U02的推测性解读（'回避责任'）直接列为来访者确立认知，未区分来源。",
+      "progress_understanding": "因无历史输入，仅提取了当前会话内的信息点，完全缺失跨会话的模式识别（如边界软化、隐藏真实感受、依赖外部确认等），也未体现来访者在觉察上的推进。",
+      "uncertainty_awareness": "列出了三个待澄清的不确定点，方向合理，但较为笼统，且未意识到自身缺少历史视角这一根本局限。"
+    },
+    "confidence": "high",
+    "issues": [
+      "access_limited=true：候选可见输入中previous_sessions为空，无法获取S1-S6历史，导致跨会话进展和模式识别必然缺失。",
+      "将咨询师在P01-S07-U02中的推测性表述（'像对方在回避责任'）直接归入来访者已确立的认知，未区分发言者角色。",
+      "established列表仅为当前会话事件罗列，缺乏对核心主题（如难以接纳负面情绪、需要外部确认）的抽象整合。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 12357,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 266,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12623,
+    "x_details": [
+      {
+        "input_tokens": 12357,
+        "output_tokens": 266,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 12623,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.234
+}

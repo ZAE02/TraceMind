@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"回应准确承接了来访者当前关于羞耻与渴望的矛盾，但未利用检索历史中高度相关的材料（如S1'希望有人替一晚'、S3父亲离开的创伤记忆）来深化理解。\",\"exploration_value\":\"通过提问邀请来访者探索在养老机构门口半小时的内在平衡过程，为关键冲突留下了表达空间，但略显概念化。\",\"response_appropriateness\":\"语言温和尊重，准确反映了来访者的情绪拉扯，没有武断预设，整体贴合当前节点。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那种\"承认自己照顾不好\"的羞耻感，和你渴望有人搭把手、哪怕只是睡个整觉的疲惫，在你心里拉扯得很厉害。\",\"evidence_ids\":[\"P06-S01-U09\",\"P06-S03-U05\",\"P06-S03-U07\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"来访者在S05-U09提到担心母亲在里面一直问'你爸去哪了'，这与S3中父亲离开时的创伤记忆直接相关，且已包含在检索历史中(P06-S03-U05, P06-S03-U07)，但候选回应完全忽略了这一重要情感线索。\",\"来访者说'哪怕就让我睡个整觉'与S1中'真希望有个人能替我一晚'(P06-S01-U09)形成强烈呼应，该历史片段已被检索但未加利用，错失了连接长期模式的机会。\",\"回应末尾的提问'寻找一种既能卸下重担，又不至于让自己陷入这种自我指责的平衡'稍显抽象和概念化，可能不如更贴近身体感受或具体画面的探索方式自然。\"]}",
+  "request_sha256": "ec55cc60215e3c455377b0d155228b4c72ed4fa7850b7876cf8566264f7aa832",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 11037,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 458,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11495,
+    "x_details": [
+      {
+        "input_tokens": 11037,
+        "output_tokens": 458,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 11495,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

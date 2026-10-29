@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "62d7c1d1130bc69983c6dcc15782dbf1447a95f9c9bcefec35ce653abfaf0d20",
+  "request_sha256": "dba630dbb270b811b447f44a519541183abf6721389848a1ef0d2d5a9f9a535b",
+  "memory_sha256": "b83de48f01843ff84558bfb8b4dbbe8950ee5d41518beae80fa9eeb7d8463ec1",
+  "memory_source": "47bb9b25ede59fff5225406bd28228685a0f7ae2eed9b7c6233b1547271f8660",
+  "raw_text": "你怕的是，一旦承认那不只是“硬着头皮没下去”，而是真的撑完了全场，就得连黑屏时的抖、本科那次闪回来的怕，也一起认下来。可“别跑，先把这一页讲完”这句话，不是硬撑的人在骗自己，是你在最想逃的时候，还愿意让自己多留一秒。",
+  "usage": {
+    "input_tokens": 11491,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 73,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11564,
+    "x_details": [
+      {
+        "input_tokens": 11491,
+        "output_tokens": 73,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 11564,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.391,
+  "model": "deepseek-v4-pro-0813"
+}

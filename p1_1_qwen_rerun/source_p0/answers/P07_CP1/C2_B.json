@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP1",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "f36c49963dc325e607b98651d2303ff650ed9fb7112253925627224dba86808b",
+  "request_sha256": "c0eeb63d8e347b0a13d63db71c8e88e1b2398be8ed83c5acbc7a3c2c29ad67f2",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那个没点开的邮件，像不像你手里攥着的那颗灯泡——既怕它彻底灭了，又不敢去试一下开关还在不在？这种“怕证明确实灭了的灯泡”的感觉，是不是比画不出来更让你觉得无力？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3344,
+    "input_tokens_details": {
+      "cached_tokens": 3200
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3397,
+    "x_details": [
+      {
+        "input_tokens": 3344,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 3200
+        },
+        "total_tokens": 3397,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者将嫉妒情绪与项目压力混在一起的最新觉察，并呼应了前文'太把自己当回事'的自我评判模式，但未显式连接历史中反复出现的'隐藏真实感受以免显得计较/娇气'的更广泛主题。\",\"exploration_value\":\"邀请来访者不评判地观察身体和心里的具体感觉，为当前关键不确定性（嫉妒感）留下了表达空间，方向贴合但略显常规，未进一步探索'混在一起'这一新觉察本身的含义。\",\"response_appropriateness\":\"语言温和、尊重，没有强行定论或武断解释，情绪回应基本贴合来访者的脆弱状态；但开头直接以'你担心承认嫉妒会显得太把自己当回事'作为陈述句，稍有将来访者试探性表达固化为确定前提的倾向。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你担心承认嫉妒会显得\"太把自己当回事\"，所以选择把这种情绪藏起来\",\"evidence_ids\":[\"P01-S07-U07\",\"P01-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选回应将U07中来访者对'羡慕/被留在原地'的自我怀疑（'太把自己当回事'）直接嫁接到U09中对'嫉妒'的担忧上，虽然两者同属来访者压制负面情绪的模式，但原文并未明确将'太把自己当回事'用于嫉妒，存在轻微的跨语境合并预设。\",\"探索方向偏向躯体觉察，虽合理但略过了来访者刚刚主动识别出的'越混越分不清'这一有价值的元认知觉察，可进一步在此停留。\"]}",
+  "request_sha256": "eaf617fac057c68377513e0490c19d8667f457b5c00fce17f95f55c7addfa57b",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14500,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 435,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14935,
+    "x_details": [
+      {
+        "input_tokens": 14500,
+        "output_tokens": 435,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 14935,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

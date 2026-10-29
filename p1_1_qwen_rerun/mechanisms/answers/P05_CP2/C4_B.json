@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P05_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "f74778e2110d3a1d5b381800555c42ba71afe81667cd536491ddde51951dc049",
+  "request_sha256": "32b3d9de0323aab6199207d37d4c857b53e2673d5787bade6e0dc794dc3b1004",
+  "memory_sha256": "422c440a8e4f5723cbe867b2906c1e8448fbdd12525fa546e0dd59f18c7e3328",
+  "memory_source": "53d60f17357cb3387efe900f96fd048f2a38925beed842e51037ea864f5bd25b",
+  "raw_text": "你希望她直接跑来问，却又预设自己会退缩说“没事”，这种期待与防御的拉扯，似乎让你更确信那个“矫情”的自己不值得被看见。那条没发出的动态，也许正是你心里那句想被接住、却不敢说出口的“我其实很难过”。",
+  "usage": {
+    "input_tokens": 6758,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 62,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6820,
+    "x_details": [
+      {
+        "input_tokens": 6758,
+        "output_tokens": 62,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6820,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.641,
+  "model": "qwen3.7-flash-2026-07-15"
+}

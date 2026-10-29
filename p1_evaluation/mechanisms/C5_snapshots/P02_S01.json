@@ -1,0 +1,61 @@
+{
+  "memory": {
+    "established_understanding": [
+      "来访者承担着照顾母亲的主要责任，包括陪同复诊和分药等日常事务。",
+      "来访者在照顾母亲时常感到疲惫，并渴望有个人喘息空间。",
+      "来访者对自己因照顾压力产生的回避或松口气等反应，容易产生内疚和自我责备。"
+    ],
+    "evolving_patterns": [
+      "在照顾关系中，来访者倾向于用回避或折中的方式应对，如站着看手机、谎称回消息，以避免直接表达疲惫或拒绝。",
+      "来访者内心存在拉扯：既想照顾母亲，又需要自己的空间；既想休息，又担心被看作不孝或找借口。",
+      "来访者习惯先考虑责任和他人需要，对自己的需求表达较为困难。"
+    ],
+    "unresolved_questions": [
+      "来访者与母亲之间是否存在长期未表达的照顾压力或情感负担？",
+      "来访者是否在家庭之外有足够的支持系统或休息资源？",
+      "来访者是否希望探索如何在不伤害母亲感受的前提下，表达自己的疲惫和需要？"
+    ],
+    "supporting_evidence_ids": [
+      "P02-S01-U01",
+      "P02-S01-U03",
+      "P02-S01-U05",
+      "P02-S01-U07",
+      "P02-S01-U09",
+      "P02-S01-U11",
+      "P02-S01-U13",
+      "P02-S01-U15"
+    ]
+  },
+  "raw_text": "{\n  \"established_understanding\": [\n    \"来访者承担着照顾母亲的主要责任，包括陪同复诊和分药等日常事务。\",\n    \"来访者在照顾母亲时常感到疲惫，并渴望有个人喘息空间。\",\n    \"来访者对自己因照顾压力产生的回避或松口气等反应，容易产生内疚和自我责备。\"\n  ],\n  \"evolving_patterns\": [\n    \"在照顾关系中，来访者倾向于用回避或折中的方式应对，如站着看手机、谎称回消息，以避免直接表达疲惫或拒绝。\",\n    \"来访者内心存在拉扯：既想照顾母亲，又需要自己的空间；既想休息，又担心被看作不孝或找借口。\",\n    \"来访者习惯先考虑责任和他人需要，对自己的需求表达较为困难。\"\n  ],\n  \"unresolved_questions\": [\n    \"来访者与母亲之间是否存在长期未表达的照顾压力或情感负担？\",\n    \"来访者是否在家庭之外有足够的支持系统或休息资源？\",\n    \"来访者是否希望探索如何在不伤害母亲感受的前提下，表达自己的疲惫和需要？\"\n  ],\n  \"supporting_evidence_ids\": [\n    \"P02-S01-U01\",\n    \"P02-S01-U03\",\n    \"P02-S01-U05\",\n    \"P02-S01-U07\",\n    \"P02-S01-U09\",\n    \"P02-S01-U11\",\n    \"P02-S01-U13\",\n    \"P02-S01-U15\"\n  ]\n}",
+  "request_sha256": "616e27bd4aa30d3501de9d903d791ef799e831749c0dab513149e324d4e46087",
+  "usage": {
+    "input_tokens": 1407,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 323,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1730,
+    "x_details": [
+      {
+        "input_tokens": 1407,
+        "output_tokens": 323,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1730,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.203,
+  "mode": "rolling",
+  "memory_characters": 569,
+  "case_id": "P02",
+  "session": 1,
+  "input_sha256": "3c21404d840a67e8043042e19ed4bc9a988280682b2e73f7f2a7f52d74f54b67",
+  "previous_memory_sha256": "98d395d5bd2a20792663da819bd14ec14e487880c6303f7cb598c59c3f88583d",
+  "public_session_sha256": "2074ded05e413b8223c29bd2ce9650a65c3a04269e4328701723bd660226f201"
+}

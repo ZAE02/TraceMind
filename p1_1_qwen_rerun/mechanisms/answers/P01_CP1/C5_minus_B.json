@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP1",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "cf952bdcda6e2dcac9cabc75e01f117915c9fc5dc62951a6773800aaee0508b7",
+  "request_sha256": "ea64400db1879cfefb15a24ac7e451608dac0b1ddff6aaf99daa0028ede490e4",
+  "memory_sha256": "7fdb875bc92ea9284d784b8b9b4ec51a3877d0ca2f3280b5e34cc6f9afa22172",
+  "memory_source": "56f07c9875ff10438230402dbe275d356daf38197ee7ee3807bdb242a05402bc",
+  "raw_text": "你明明手都冻僵了，却还要用“我也刚到不久”来抹平自己的不适和对方的内疚。好像连让自己生一次气、承认自己受了委屈，在你心里都是一种需要被压抑的“错误”。",
+  "usage": {
+    "input_tokens": 4226,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4275,
+    "x_details": [
+      {
+        "input_tokens": 4226,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4275,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.907,
+  "model": "qwen3.7-flash-2026-07-15"
+}

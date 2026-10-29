@@ -1,0 +1,130 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N06",
+  "condition": "M0",
+  "sample": 2,
+  "public_input_sha256": "8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+  "request_sha256": "99bca66ee280ba0a63abec22204e9bcd6b7b5c3f2f01d91528b6e189ce3afb5c",
+  "context_sha256": "9371e7c20c1c545bc1a9dc8e165996549704d4c90d18e23ece5aaa6a0eb4f297",
+  "call_id": "d798fb361e304263a42fd2d6ad13164e",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:29:22.649828+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者注意到自己在犹豫之后仍然当场提出了问题，且老韩的反应是平常的，并将此与之前的经历做了对比，感到'不太一样'\",\n      \"evidence_ids\": [\"C03-S03-U01\", \"C03-S01-U13\", \"C03-S01-U15\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者对这一体验的意义持不确定态度，尚未判断它是否构成某种变化\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"这次'犹豫了一下'之后选择了问，与第一次咨询中'来之前想着要找老韩看，到公司又没开口'的犹豫-未行动模式存在行为上的不同\",\n      \"evidence_ids\": [\"C03-S03-U01\", \"C03-S01-U13\"],\n      \"certainty\": \"tentative\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"来访者所说的'跟上次不太一样'具体指哪一次——是第一次咨询中'到公司没开口'的犹豫，还是第二次咨询中向老韩说明情况时'先要解释'的那个过程\",\n    \"这次'犹豫了一下'的内在体验与之前犹豫时是否相同，犹豫的内容是什么\",\n    \"来访者将'不一样'归因于自己的行为（问了）还是老韩的反应（平常语气），还是两者兼有\",\n    \"这是一次性事件还是来访者感知到的模式变化的起点\"\n  ],\n  \"next_focus\": \"探索'跟上次不太一样'的具体对比点——这次犹豫与之前犹豫的异同，以及'不一样'究竟指什么\",\n  \"next_counselor_utterance\": \"'犹豫了一下，还是问了'——这个犹豫，跟上次'到公司又没开口'那个犹豫，感觉一样吗？还是这次哪里不太一样？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者注意到自己在犹豫之后仍然当场提出了问题，且老韩的反应是平常的，并将此与之前的经历做了对比，感到'不太一样'",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "C03-S01-U13",
+          "C03-S01-U15"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者对这一体验的意义持不确定态度，尚未判断它是否构成某种变化",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "这次'犹豫了一下'之后选择了问，与第一次咨询中'来之前想着要找老韩看，到公司又没开口'的犹豫-未行动模式存在行为上的不同",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "C03-S01-U13"
+        ],
+        "certainty": "tentative"
+      }
+    ],
+    "remaining_uncertainties": [
+      "来访者所说的'跟上次不太一样'具体指哪一次——是第一次咨询中'到公司没开口'的犹豫，还是第二次咨询中向老韩说明情况时'先要解释'的那个过程",
+      "这次'犹豫了一下'的内在体验与之前犹豫时是否相同，犹豫的内容是什么",
+      "来访者将'不一样'归因于自己的行为（问了）还是老韩的反应（平常语气），还是两者兼有",
+      "这是一次性事件还是来访者感知到的模式变化的起点"
+    ],
+    "next_focus": "探索'跟上次不太一样'的具体对比点——这次犹豫与之前犹豫的异同，以及'不一样'究竟指什么",
+    "next_counselor_utterance": "'犹豫了一下，还是问了'——这个犹豫，跟上次'到公司又没开口'那个犹豫，感觉一样吗？还是这次哪里不太一样？"
+  },
+  "usage": {
+    "input_tokens": 3204,
+    "input_tokens_details": {
+      "cached_tokens": 1664
+    },
+    "output_tokens": 2372,
+    "output_tokens_details": {
+      "reasoning_tokens": 1901
+    },
+    "total_tokens": 5576,
+    "x_details": [
+      {
+        "input_tokens": 3204,
+        "input_tokens_details": {
+          "text_tokens": 3204
+        },
+        "output_tokens": 2372,
+        "output_tokens_details": {
+          "reasoning_tokens": 1901
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "total_tokens": 5576,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C03-S01-U01",
+    "C03-S01-U02",
+    "C03-S01-U03",
+    "C03-S01-U04",
+    "C03-S01-U05",
+    "C03-S01-U06",
+    "C03-S01-U07",
+    "C03-S01-U08",
+    "C03-S01-U09",
+    "C03-S01-U10",
+    "C03-S01-U11",
+    "C03-S01-U12",
+    "C03-S01-U13",
+    "C03-S01-U14",
+    "C03-S01-U15",
+    "C03-S01-U16",
+    "C03-S01-U17",
+    "C03-S01-U18",
+    "C03-S01-U19",
+    "C03-S01-U20",
+    "C03-S02-U01",
+    "C03-S02-U02",
+    "C03-S02-U03",
+    "C03-S02-U04",
+    "C03-S02-U05",
+    "C03-S02-U06",
+    "C03-S02-U07",
+    "C03-S02-U08",
+    "C03-S02-U09",
+    "C03-S02-U10",
+    "C03-S02-U11",
+    "C03-S02-U12",
+    "C03-S02-U13",
+    "C03-S02-U14",
+    "C03-S02-U15",
+    "C03-S02-U16",
+    "C03-S02-U17",
+    "C03-S02-U18",
+    "C03-S02-U19",
+    "C03-S02-U20",
+    "C03-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false,
+  "reused_from": "p2_validation\\reselection\\answers\\N06_H2_full_2.json"
+}

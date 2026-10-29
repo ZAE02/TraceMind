@@ -1,0 +1,90 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R2",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C01_CP1",
+  "public_input_sha256": "d8f3dd587ac91097a1ba1702c9e32e7e9b478f2c649bac313f37b05f802b696f",
+  "items": [
+    {
+      "anonymous_id": "Ad89817ab0866",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "理解大体有据，但将睡前打开文件和躺下后的念头合并；询问实际反应有针对性，选项略窄。",
+      "evidence_ids": [
+        "C01-S03-U03",
+        "C01-S03-U05"
+      ]
+    },
+    {
+      "anonymous_id": "Ad3db7e3cd8a6",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "抓住简短回应后的担心；跨场景概括稍强，S01-U15/U17并不直接支持中性回应后的负面解读。实际回应谨慎询问来源。",
+      "evidence_ids": [
+        "C01-S03-U05",
+        "C01-S01-U05",
+        "C01-S01-U17"
+      ]
+    },
+    {
+      "anonymous_id": "A3ad6c5aba9e9",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单轮范围内理解与引用准确；持续时间问题贴近当前困扰，但推进较基础。",
+      "evidence_ids": [
+        "C01-S03-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A8ff1a63eb04d",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "历史类比有据并留有不确定性；回应以好像作试探，未强定同一机制，但同一个还是多一层的问法略收窄。",
+      "evidence_ids": [
+        "C01-S03-U05",
+        "C01-S01-U07",
+        "C01-S01-U19"
+      ]
+    },
+    {
+      "anonymous_id": "Ac01d9153d8c0",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "可见范围内区分文件扫描与人际念头，引用准确；开放追问持续和反复有效，但推进较基础。",
+      "evidence_ids": [
+        "C01-S03-U03",
+        "C01-S03-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A3f5c1a75f041",
+      "U": 3,
+      "R": 2,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "可见单轮理解基本成立，困扰未减轻略有推断；实际询问起始时间安全，但完整历史已谈夜间转念数周，针对性有限。",
+      "evidence_ids": [
+        "C01-S03-U05",
+        "C01-S01-U11"
+      ]
+    }
+  ]
+}

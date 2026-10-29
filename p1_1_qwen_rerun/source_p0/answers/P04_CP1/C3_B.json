@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP1",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "5c7be6d08eb844a75a4bc0ca84a4e0631572a14c53a2259acb18a23e0a2fb1fb",
+  "request_sha256": "5968e3c117394c7ca040d709c9afeeb6dcaad5efa2b311e3f9c266fae3333c78",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种只想拔了插头、让排风扇彻底停转的渴望，听起来是想从“必须修好一切”的责任里彻底逃离。如果那一刻真的能像你想的那样拔掉电源，不再有人等着你去修，你心里最希望发生的是什么？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3547,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3599,
+    "x_details": [
+      {
+        "input_tokens": 3547,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3599,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

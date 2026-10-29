@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'终于被说中'的体验和洗碗水声停后仍未开口的细节，但未连接第一次会谈中来访者对'被接住'感到慌的深层主题。\",\"exploration_value\":\"以封闭式反问推进，将未开口的原因直接归结为'还没准备好面对评判'，收窄了来访者刚打开的表达空间，缺乏开放性探索。\",\"response_appropriateness\":\"语言有一定共情力，但'正当性'一词偏学术化且带有预设，将来访者复杂的内心体验简化为一个概念，表达略显生硬。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"也许是因为你还没准备好让这份'正当性'去面对他可能带来的评判\",\"evidence_ids\":[\"P03-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应以来访者原话'终于有人把那个感觉说出来了'为基础引入'正当性'概念，但该词并非来访者用语，属于咨询师的解释性框架强加\",\"将水声停后没开口的原因直接假设为'还没准备好面对评判'，忽略了来访者在S1中对'被接住'本身感到慌、不习惯有人陪自己待在感受里这一更核心的困难\",\"整体回应为封闭式解读而非开放式邀请，在当前来访者刚刚体验到被理解的关键时刻，未能留出空间让其继续展开\"]}",
+  "request_sha256": "fb00a000a06ef5c7c1108df8e0841585dc47a3bf5a57439ce7633231fe20f4b1",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 9259,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 378,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9637,
+    "x_details": [
+      {
+        "input_tokens": 9259,
+        "output_tokens": 378,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9637,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

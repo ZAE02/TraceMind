@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P05_CP1",
+  "condition": "direct",
+  "task": "B",
+  "input_sha256": "88e09054e1736c356f1b01157e386aa5660cff9daaacddaf7f797ab8b480b9dd",
+  "request_sha256": "d1941c091ca67b7e3b19681c924cdf7d95d3ebbd603c5900e6f7bf8dce8974f7",
+  "memory_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "memory_source": null,
+  "raw_text": "你刚刚说“越想要稳，越觉得自己装得漏洞百出”，这句话里好像藏着一种很累的循环：你越努力维持那个稳，就越能看见自己哪里不够稳。也许那个“漏洞百出”的感觉，不是你真的装得不好，而是你一直站在一个很苛刻的位置上盯着自己。",
+  "usage": {
+    "input_tokens": 3156,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 68,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3224,
+    "x_details": [
+      {
+        "input_tokens": 3156,
+        "output_tokens": 68,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3224,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.875,
+  "model": "deepseek-v4-pro-0813"
+}

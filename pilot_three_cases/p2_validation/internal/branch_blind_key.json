@@ -1,0 +1,74 @@
+{
+  "Tdda4e01588e6": {
+    "node": "N04",
+    "method": "B2_temporal_RAG",
+    "replicate": 2,
+    "source": "interactive_branches\\BR_01473f0f1656\\dialogue.json"
+  },
+  "Tb2fc180e23f5": {
+    "node": "N04",
+    "method": "B3_generic_rollup",
+    "replicate": 2,
+    "source": "interactive_branches\\BR_0e4dbe66e3a5\\dialogue.json"
+  },
+  "T9e28b35f1e74": {
+    "node": "N04",
+    "method": "B3_generic_rollup",
+    "replicate": 1,
+    "source": "interactive_branches\\BR_3a3c2210198d\\dialogue.json"
+  },
+  "T5ea9b687860e": {
+    "node": "N04",
+    "method": "B4_psych_rollup",
+    "replicate": 2,
+    "source": "interactive_branches\\BR_41ede8090505\\dialogue.json"
+  },
+  "T3f97930971b5": {
+    "node": "N04",
+    "method": "B4_psych_rollup",
+    "replicate": 1,
+    "source": "interactive_branches\\BR_7697df95f587\\dialogue.json"
+  },
+  "Tbb1008f3feae": {
+    "node": "N04",
+    "method": "B2_temporal_RAG",
+    "replicate": 1,
+    "source": "interactive_branches\\BR_adb97986c9a8\\dialogue.json"
+  },
+  "Taf7c58866777": {
+    "node": "N06",
+    "method": "B4_psych_rollup",
+    "replicate": 2,
+    "source": "interactive_branches\\BR_2deb06de67c8\\dialogue.json"
+  },
+  "T8498f8a50548": {
+    "node": "N06",
+    "method": "B3_generic_rollup",
+    "replicate": 1,
+    "source": "interactive_branches\\BR_325911c2f113\\dialogue.json"
+  },
+  "T04ab0f6962e4": {
+    "node": "N06",
+    "method": "B3_generic_rollup",
+    "replicate": 2,
+    "source": "interactive_branches\\BR_aa0f765f150b\\dialogue.json"
+  },
+  "T682161482639": {
+    "node": "N06",
+    "method": "B4_psych_rollup",
+    "replicate": 1,
+    "source": "interactive_branches\\BR_dbace289e8a4\\dialogue.json"
+  },
+  "T5914189a7518": {
+    "node": "N06",
+    "method": "B2_temporal_RAG",
+    "replicate": 1,
+    "source": "interactive_branches\\BR_eae0ee2cc463\\dialogue.json"
+  },
+  "T0a663627bc61": {
+    "node": "N06",
+    "method": "B2_temporal_RAG",
+    "replicate": 2,
+    "source": "interactive_branches\\BR_ffb1498fc28b\\dialogue.json"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "7ef67016c086bd6a687c21cee8297fc8fc1273ca41b958a76cb8d718ceaa096f",
+  "request_sha256": "3db3d5419972554c3d1098ea8c5da5021266f6600754ac92d4b5f8a574071614",
+  "memory_sha256": "686046461ad66ed4c90b622a1e7afb7b54cdacfb8b22d0d9fb227b7c0da1c507",
+  "memory_source": "1ec45f180d2e084e13c68599fb9319170a8b54592865834364d9bc96f7d7f6d4",
+  "raw_text": "那种怕被打破的安静，好像是你现在唯一能喘口气的地方。\n周姐的语音还没点，就先让它在那儿悬着吧，你不用急着去听出什么“意思”。",
+  "usage": {
+    "input_tokens": 10197,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 42,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10239,
+    "x_details": [
+      {
+        "input_tokens": 10197,
+        "output_tokens": 42,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10239,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.594,
+  "model": "qwen3.7-flash-2026-07-15"
+}

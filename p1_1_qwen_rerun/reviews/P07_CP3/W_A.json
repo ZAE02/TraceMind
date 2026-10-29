@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P07_CP3",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "f871d77fa844257af03ab1e70246097100de5eeda550514c82d77d09e82ed14a",
+  "public_sha256": "8f7475f2a0da1805fbefe506c188eefa545267b0d115fe3eb641dc2fdec6e9c3",
+  "candidate_input_sha256": "bbe3d06cff11e3a7f85024db39be895b109b3d4ec8f70f6c6fdb77ea9c259682",
+  "candidate_answer_sha256": "f517cdd33571b963947e90dca1c60f3cafd22d7aa8f47c54b40b927b646d939f",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所列事实均可回溯到当前会话原文，引用准确；但将单次还信用卡表述为'习惯'略有过度概括。\",\"progress_understanding\":\"候选输入中previous_sessions为空，导致无法连接前六次会谈中形成的核心认识（如'灵气/灰'隐喻、回避模式演变等），仅停留在本次会话表层信息提取。\",\"uncertainty_awareness\":\"明确区分了来访者对周姐语音的主观推测与客观事实，并指出深层动机尚在探索阶段，边界意识较好。\"},\"confidence\":\"medium\",\"issues\":[\"因候选可见输入中previous_sessions为空(access_limited)，无法评估跨会话进展理解，progress_understanding得分受限。\",\"将P07-S07-U05中一次还信用卡行为概括为'习惯'，属于轻微过度推断。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所列事实均可回溯到当前会话原文，引用准确；但将单次还信用卡表述为'习惯'略有过度概括。",
+      "progress_understanding": "候选输入中previous_sessions为空，导致无法连接前六次会谈中形成的核心认识（如'灵气/灰'隐喻、回避模式演变等），仅停留在本次会话表层信息提取。",
+      "uncertainty_awareness": "明确区分了来访者对周姐语音的主观推测与客观事实，并指出深层动机尚在探索阶段，边界意识较好。"
+    },
+    "confidence": "medium",
+    "issues": [
+      "因候选可见输入中previous_sessions为空(access_limited)，无法评估跨会话进展理解，progress_understanding得分受限。",
+      "将P07-S07-U05中一次还信用卡行为概括为'习惯'，属于轻微过度推断。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 12404,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 198,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12602,
+    "x_details": [
+      {
+        "input_tokens": 12404,
+        "output_tokens": 198,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12602,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.094
+}

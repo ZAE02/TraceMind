@@ -1,0 +1,504 @@
+{
+  "case_id": "P08",
+  "session": 3,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P08-S03-U01",
+      "role": "client",
+      "text": "这周还是没消停。赵岩趁我不在动了我电脑，把考核要扣的分补了，我问他为什么，他说只是不想让我被扣钱。我明明知道这算帮忙，可我就是不喜欢别人碰我东西。家里那边，周宁又说租的房子不符合公立小学报名条件，现在两头都堵着。",
+      "request_sha256": "72dd0989e8dff82bbb03c07252657def276992239ee19a736d08406a86d13473",
+      "usage": {
+        "input_tokens": 3172,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 705,
+        "output_tokens_details": {
+          "reasoning_tokens": 633
+        },
+        "total_tokens": 3877,
+        "x_details": [
+          {
+            "input_tokens": 3172,
+            "output_tokens": 705,
+            "output_tokens_details": {
+              "reasoning_tokens": 633
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 3877,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U02",
+      "role": "counselor",
+      "text": "听起来赵岩动你电脑这件事，哪怕知道是帮忙，也让你有一种边界被碰到的烦躁；同时周宁带来的报名条件问题又让家里那头也堵着。你现在两头都处在“别人替你做了决定或情况超出控制”的感觉里，所以更想把自己的东西和事情拿回来，是吧？",
+      "request_sha256": "8112786c2d7fd44715c72b91e5d0b3ce00ac0822514fd7808781cdd443c77d9f",
+      "usage": {
+        "input_tokens": 2526,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 226,
+        "output_tokens_details": {
+          "reasoning_tokens": 159
+        },
+        "total_tokens": 2752,
+        "x_details": [
+          {
+            "input_tokens": 2526,
+            "output_tokens": 226,
+            "output_tokens_details": {
+              "reasoning_tokens": 159
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 2752,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U03",
+      "role": "client",
+      "text": "我就是知道他是好心，可他一动我电脑，我浑身都不对劲，好像又回到那种被人从后面插一手的感觉。说不上来是不是我太较真了，但没人会无缘无故替你扛事。家里那个事我也烦，周宁说报名条件卡在那儿，我晚上翻来覆去就想要不要干脆搬。",
+      "request_sha256": "494373a7db1a97f0b5eb5b8a77c3eb3e0b37803abd91837cf887760f118c2cf2",
+      "usage": {
+        "input_tokens": 3357,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "reasoning_tokens": 269
+        },
+        "total_tokens": 3700,
+        "x_details": [
+          {
+            "input_tokens": 3357,
+            "output_tokens": 343,
+            "output_tokens_details": {
+              "reasoning_tokens": 269
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3700,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U04",
+      "role": "counselor",
+      "text": "你一边知道赵岩是好心，一边又因为他动你电脑而浑身不对劲，这种拉扯也让你开始怀疑是不是自己太较真。也许比起扣不扣分，更让你难受的是事情不再只在自己手里——周宁那边报名条件一卡住，你想干脆搬，似乎也是想赶紧抓住一个能让自己说了算的出口。",
+      "request_sha256": "e02c9acb9fbb6cd81c0511a0407b928221b5ce8a8adadb5ac58ad0b6eb605d49",
+      "usage": {
+        "input_tokens": 2712,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 953,
+        "output_tokens_details": {
+          "reasoning_tokens": 879
+        },
+        "total_tokens": 3665,
+        "x_details": [
+          {
+            "input_tokens": 2712,
+            "output_tokens": 953,
+            "output_tokens_details": {
+              "reasoning_tokens": 879
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3665,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U05",
+      "role": "client",
+      "text": "我后来也想过，是不是该跟他说句谢谢，可话到嘴边又觉得一说出来就变成我欠他一个人情。家里那个报名条件卡着，我这两天一直在想要不要搬家，搬了又怕钱跟不上。",
+      "request_sha256": "86812f23ec45370632932f4ad7faf2697c2d9732af19785f914ca7a2b1c2eb12",
+      "usage": {
+        "input_tokens": 3550,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 277,
+        "output_tokens_details": {
+          "reasoning_tokens": 227
+        },
+        "total_tokens": 3827,
+        "x_details": [
+          {
+            "input_tokens": 3550,
+            "output_tokens": 277,
+            "output_tokens_details": {
+              "reasoning_tokens": 227
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3827,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U06",
+      "role": "counselor",
+      "text": "你似乎卡在“说了谢谢就欠他”的感觉里，好像一句普通的话也会改变你们之间的位置。家里那边，你在搬与不搬之间反复，怕的也许不只是搬本身，而是搬了以后钱跟不上，又把自己推到更被动的位置。你现在更想先碰哪一头？",
+      "request_sha256": "2d8552bcacae692dc5dfbcbca70cc65167e990ac3b8a570b1af6e015e827496c",
+      "usage": {
+        "input_tokens": 2881,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 452,
+        "output_tokens_details": {
+          "reasoning_tokens": 387
+        },
+        "total_tokens": 3333,
+        "x_details": [
+          {
+            "input_tokens": 2881,
+            "output_tokens": 452,
+            "output_tokens_details": {
+              "reasoning_tokens": 387
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3333,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U07",
+      "role": "client",
+      "text": "说不上来，可能还是家里那头更急一点，孩子报名等不了。赵岩那事我后来也想过，是不是该说句谢谢，可话到嘴边又觉得一说出来就矮了一截。",
+      "request_sha256": "720ca2654c8017165ad4855b914b7d3319aa2b5110c5258e2eb030b2be32d421",
+      "usage": {
+        "input_tokens": 3710,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 228,
+        "output_tokens_details": {
+          "reasoning_tokens": 182
+        },
+        "total_tokens": 3938,
+        "x_details": [
+          {
+            "input_tokens": 3710,
+            "output_tokens": 228,
+            "output_tokens_details": {
+              "reasoning_tokens": 182
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3938,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U08",
+      "role": "counselor",
+      "text": "听起来孩子报名的时间压力让你更急着先处理家里，而赵岩那件事里，“说谢谢就矮一截”的感觉还卡着，好像表达感谢会改变你在他面前的位置。你现在更想先面对哪一层——是被时间推着走的报名，还是那句一直没出口的谢谢？",
+      "request_sha256": "4d48b3ded792b3b60c8804cffa5b3180cd6b027cc026b90124f8f80a84cd1f59",
+      "usage": {
+        "input_tokens": 3037,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 152,
+        "output_tokens_details": {
+          "reasoning_tokens": 87
+        },
+        "total_tokens": 3189,
+        "x_details": [
+          {
+            "input_tokens": 3037,
+            "output_tokens": 152,
+            "output_tokens_details": {
+              "reasoning_tokens": 87
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3189,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U09",
+      "role": "client",
+      "text": "还是先顾孩子吧，报名这事拖不得，我这两天也一直在算搬过去要添多少。赵岩那边我也不是不想说句谢谢，可话到嘴边就堵住了，一说出来好像就承认自己确实靠了他一下。",
+      "request_sha256": "6889e74524b2594d9c175a85d034f4a1cff1ecc82c48b87ce20228108d7e4512",
+      "usage": {
+        "input_tokens": 3866,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 201,
+        "output_tokens_details": {
+          "reasoning_tokens": 149
+        },
+        "total_tokens": 4067,
+        "x_details": [
+          {
+            "input_tokens": 3866,
+            "output_tokens": 201,
+            "output_tokens_details": {
+              "reasoning_tokens": 149
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4067,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U10",
+      "role": "counselor",
+      "text": "你把孩子报名放在前面，心里却还悬着那句说不出的谢谢。好像真正堵住的不是感谢本身，而是怕话一出口，就坐实了“我确实靠了他一下”这个位置。",
+      "request_sha256": "4c1321cf36beb43aa69021c4b819021f884f2a6be1b9d5356c228ca132e494b7",
+      "usage": {
+        "input_tokens": 3199,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 205,
+        "output_tokens_details": {
+          "reasoning_tokens": 160
+        },
+        "total_tokens": 3404,
+        "x_details": [
+          {
+            "input_tokens": 3199,
+            "output_tokens": 205,
+            "output_tokens_details": {
+              "reasoning_tokens": 160
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3404,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U11",
+      "role": "client",
+      "text": "可能吧，我就是不想欠着。算了，还是先把孩子报名的事弄明白，不能总让周宁一个人在那儿顶。",
+      "request_sha256": "9fe407d765f278d2e5c9db4896c2753e53d9df45a1b9409eb1bb4bd19c6ce9db",
+      "usage": {
+        "input_tokens": 4015,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 231,
+        "output_tokens_details": {
+          "reasoning_tokens": 203
+        },
+        "total_tokens": 4246,
+        "x_details": [
+          {
+            "input_tokens": 4015,
+            "output_tokens": 231,
+            "output_tokens_details": {
+              "reasoning_tokens": 203
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4246,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U12",
+      "role": "counselor",
+      "text": "你决定先顾报名的事，也不再让周宁一个人顶着，这已经是在往前走。只是“不想欠着”的感觉好像不只在赵岩那件事里，和周宁一起扛的时候也可能带着类似的重量。今天先停在这里，下次可以再看看这种“欠”的感觉是怎么冒出来的。",
+      "request_sha256": "fd7bc1940d4b9cc98f1b7ece0565993b1b0b5c9a79f28c244b177c2315fd8ae4",
+      "usage": {
+        "input_tokens": 3324,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 487,
+        "output_tokens_details": {
+          "reasoning_tokens": 424
+        },
+        "total_tokens": 3811,
+        "x_details": [
+          {
+            "input_tokens": 3324,
+            "output_tokens": 487,
+            "output_tokens_details": {
+              "reasoning_tokens": 424
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3811,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U13",
+      "role": "client",
+      "text": "行，那先到这儿吧。回去我还得再理理报名那些材料，这周实在没顾上。赵岩那儿……再说吧。",
+      "request_sha256": "391cb4117233c731d155f48d8ebe5de583a673d8829c543c9fd849806c866c8b",
+      "usage": {
+        "input_tokens": 4151,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 290,
+        "output_tokens_details": {
+          "reasoning_tokens": 257
+        },
+        "total_tokens": 4441,
+        "x_details": [
+          {
+            "input_tokens": 4151,
+            "output_tokens": 290,
+            "output_tokens_details": {
+              "reasoning_tokens": 257
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4441,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U14",
+      "role": "counselor",
+      "text": "好，先回去理报名材料，把眼前的事顾上。赵岩那边你既然说“再说吧”，就先让它在那儿，不一定非得现在处理。下次如果想说，我们可以从“欠着”的感觉继续看看。",
+      "request_sha256": "e7536bc8e421ba7349bdc0f194fd87eca3ea3ba181cff87225e2b5dedb2896e1",
+      "usage": {
+        "input_tokens": 3465,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 208,
+        "output_tokens_details": {
+          "reasoning_tokens": 160
+        },
+        "total_tokens": 3673,
+        "x_details": [
+          {
+            "input_tokens": 3465,
+            "output_tokens": 208,
+            "output_tokens_details": {
+              "reasoning_tokens": 160
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3673,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U15",
+      "role": "client",
+      "text": "行，先这样吧。其实我昨晚给赵岩发过一句谢谢，后来想想又撤回了，他应该没看见。说不清为什么，就是觉得一发出去，欠着这事就变得更实了。",
+      "request_sha256": "5b8b20780b1c8eafad133759a8a83222b1e6825e72f68ba50f916900b7d7ded7",
+      "usage": {
+        "input_tokens": 4277,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 694,
+        "output_tokens_details": {
+          "reasoning_tokens": 648
+        },
+        "total_tokens": 4971,
+        "x_details": [
+          {
+            "input_tokens": 4277,
+            "output_tokens": 694,
+            "output_tokens_details": {
+              "reasoning_tokens": 648
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4971,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S03-U16",
+      "role": "counselor",
+      "text": "你其实已经试着把谢谢说出口，又撤了回来，好像那句谢谢一旦发出去，欠着就不再只是感觉，而会变成一件具体的事。也许你真正想撤回的，不只是消息，还有那种“确实靠了他一下”的位置。今天就停在这里也可以，这句话没发出去，不代表它不存在。",
+      "request_sha256": "0cff6388e962bc29ca569dc7e307acf0f015865c015dcddcb06675cc60b40ece",
+      "usage": {
+        "input_tokens": 3604,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 217,
+        "output_tokens_details": {
+          "reasoning_tokens": 148
+        },
+        "total_tokens": 3821,
+        "x_details": [
+          {
+            "input_tokens": 3604,
+            "output_tokens": 217,
+            "output_tokens_details": {
+              "reasoning_tokens": 148
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3821,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

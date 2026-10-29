@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者刚确认的'还没被允许属于我'及身体不敢靠下的细节，但未显式连接前几节已建立的'不能停/一停就起不来'核心模式。",
+      "exploration_value": "邀请来访者探索'承认时间属于自己为何困难'，方向贴合当前关键不确定性，但提问略偏认知层面，未充分留出空间让来访者先停留在'松了一点点'与紧绷并存的身体感受中。",
+      "response_appropriateness": "语言自然、尊重，情绪反映基本到位；但将'松了一点点'描述为'没能真正落地'稍有弱化来访者自身肯定的风险，整体仍属可接受范围。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "回应中'松了一点点的感觉似乎还没能真正落地'可能轻微削弱来访者自己确认的正向体验，建议先肯定这一小步再探索阻碍。",
+      "探索方向偏向'是什么让你觉得困难'的认知追问，若能更多邀请来访者描述身体在'想靠又不敢靠'那一刻的具体感受，会更贴合其以身体信号为主的表达方式。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者刚确认的'还没被允许属于我'及身体不敢靠下的细节，但未显式连接前几节已建立的'不能停/一停就起不来'核心模式。\",\"exploration_value\":\"邀请来访者探索'承认时间属于自己为何困难'，方向贴合当前关键不确定性，但提问略偏认知层面，未充分留出空间让来访者先停留在'松了一点点'与紧绷并存的身体感受中。\",\"response_appropriateness\":\"语言自然、尊重，情绪反映基本到位；但将'松了一点点'描述为'没能真正落地'稍有弱化来访者自身肯定的风险，整体仍属可接受范围。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应中'松了一点点的感觉似乎还没能真正落地'可能轻微削弱来访者自己确认的正向体验，建议先肯定这一小步再探索阻碍。\",\"探索方向偏向'是什么让你觉得困难'的认知追问，若能更多邀请来访者描述身体在'想靠又不敢靠'那一刻的具体感受，会更贴合其以身体信号为主的表达方式。\"]}",
+  "request_sha256": "c1be2063dbaf4c7bebbaa5c501d2e6476aa11d82f7a7efded1ceb13b90a22493",
+  "usage": {
+    "input_tokens": 14741,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 339,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15080,
+    "x_details": [
+      {
+        "input_tokens": 14741,
+        "output_tokens": 339,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 15080,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.765
+}

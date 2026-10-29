@@ -1,0 +1,504 @@
+{
+  "case_id": "P01",
+  "session": 2,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P01-S02-U01",
+      "role": "client",
+      "text": "可能……还是得从那个图层的事情说起。我周日重新导出发给陈姐之后，她只回了“收到，我看看”，到现在还没再反馈，我反而更不踏实了。其实还有一件事，方宁周一晚上临时约我，我本来有份私活要交，但没跟她说，最后熬夜到三点才弄完。",
+      "request_sha256": "9a54d9fbfd1eaaf7870c2d264dc6f646561a7b1a07b35caeab063bbdd25e46e7",
+      "usage": {
+        "input_tokens": 2051,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 458,
+        "output_tokens_details": {
+          "reasoning_tokens": 382
+        },
+        "total_tokens": 2509,
+        "x_details": [
+          {
+            "input_tokens": 2051,
+            "output_tokens": 458,
+            "output_tokens_details": {
+              "reasoning_tokens": 382
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 2509,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U02",
+      "role": "counselor",
+      "text": "陈姐那句“收到，我看看”好像也悬在那里，没有下文反而让你更不踏实，像主管那次一样，你在等一个更明确的评价来让自己安心。 而方宁临时约你的时候，你把自己的私活藏了起来，最后用熬夜到三点来同时应付两边，好像很难开口让她知道“我现在其实有自己的事”。",
+      "request_sha256": "0e2506ee311dfd9cdd4545a5fa63a97151bba505634e20c42bbdccdc52ee9b19",
+      "usage": {
+        "input_tokens": 1458,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 380,
+        "output_tokens_details": {
+          "reasoning_tokens": 305
+        },
+        "total_tokens": 1838,
+        "x_details": [
+          {
+            "input_tokens": 1458,
+            "output_tokens": 380,
+            "output_tokens_details": {
+              "reasoning_tokens": 305
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1838,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U03",
+      "role": "client",
+      "text": "其实我也不是完全不想让方宁知道我有私活，就是她问得那么临时，我要是说手上有东西要交，怕她觉得我拿工作当借口。可那天见面聊得也还行，回来以后又觉得自己之前那么烦有点小题大做。陈姐那边我到现在还在反复刷邮箱，但又不敢再发消息问。",
+      "request_sha256": "041b2d406cd525576daa53ca51f4cd7aa40bfa0e823577fd72b916888dcf7f1d",
+      "usage": {
+        "input_tokens": 2248,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 912,
+        "output_tokens_details": {
+          "reasoning_tokens": 837
+        },
+        "total_tokens": 3160,
+        "x_details": [
+          {
+            "input_tokens": 2248,
+            "output_tokens": 912,
+            "output_tokens_details": {
+              "reasoning_tokens": 837
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 3160,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U04",
+      "role": "counselor",
+      "text": "你好像既怕方宁觉得“拿工作当借口”，又很难直接说自己手上有要交的东西，于是先应下来、事后再用“聊得还行”来消解之前的不安。陈姐那边你反复刷邮箱却不敢再问，似乎也卡在“想问又怕显得太急”的位置，只能让自己继续悬着等那个没有下文的回复。",
+      "request_sha256": "6cd506b4b542ebd0f579ea7b199387026b809782e885ebcd7144353236e9c833",
+      "usage": {
+        "input_tokens": 1653,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 305,
+        "output_tokens_details": {
+          "reasoning_tokens": 223
+        },
+        "total_tokens": 1958,
+        "x_details": [
+          {
+            "input_tokens": 1653,
+            "output_tokens": 305,
+            "output_tokens_details": {
+              "reasoning_tokens": 223
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1958,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U05",
+      "role": "client",
+      "text": "其实陈姐那边，我总有一种……她是不是已经看到了问题，但不知道该怎么跟我开口，所以才只回那么短。我刷邮箱也不是真的期待她马上说“可以了”，更像是在等她给我一个“到底行不行”的信号。方宁约我那晚也是，出门前我一直在想“如果我说今天不行，她会不会觉得我变了”，后来就还是出去了。",
+      "request_sha256": "15351d327c745d8236a24f6de0068b8f15a6f768c57159598c92a5c946668dfc",
+      "usage": {
+        "input_tokens": 2450,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 292,
+        "output_tokens_details": {
+          "reasoning_tokens": 210
+        },
+        "total_tokens": 2742,
+        "x_details": [
+          {
+            "input_tokens": 2450,
+            "output_tokens": 292,
+            "output_tokens_details": {
+              "reasoning_tokens": 210
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2742,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U06",
+      "role": "counselor",
+      "text": "你似乎很难直接向对方要一个明确的信号，于是只能在心里替对方想“她是不是不好开口”“她会不会觉得我变了”。这些猜测让你更不踏实，也让你更难说出自己真实的需要。",
+      "request_sha256": "89c39e02b35d039b8507c7387d0a19e70f57f14db95f8b27ec3b766e03ac721b",
+      "usage": {
+        "input_tokens": 1862,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 253,
+        "output_tokens_details": {
+          "reasoning_tokens": 208
+        },
+        "total_tokens": 2115,
+        "x_details": [
+          {
+            "input_tokens": 1862,
+            "output_tokens": 253,
+            "output_tokens_details": {
+              "reasoning_tokens": 208
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2115,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U07",
+      "role": "client",
+      "text": "方宁那次我后来也没再提，好像事情过去了就过去了，可那种“又被临时拽出去”的感觉其实还卡着。今晚她发消息问我周末要不要一起吃饭，我到现在还没回，怕回了就得去，又怕一直不回会让她多想。",
+      "request_sha256": "f803a907fdef7a570606e6755a0e080bb5060975da474514b8bb49ac43662324",
+      "usage": {
+        "input_tokens": 2622,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 374,
+        "output_tokens_details": {
+          "reasoning_tokens": 316
+        },
+        "total_tokens": 2996,
+        "x_details": [
+          {
+            "input_tokens": 2622,
+            "output_tokens": 374,
+            "output_tokens_details": {
+              "reasoning_tokens": 316
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2996,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U08",
+      "role": "counselor",
+      "text": "你好像被困在“回了就得去”和“不回又怕她多想”之间，两个选项都像在照顾方宁的反应，唯独没有一条路是让你先问问自己周末到底想不想去、累不累。于是连回消息这件小事，也变得像要替她提前承担某种失望。",
+      "request_sha256": "2585f82bb71ee17bfa1a80aa8ee018b013df1ff0045a14a79d8650e13f5415ca",
+      "usage": {
+        "input_tokens": 2010,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 166,
+        "output_tokens_details": {
+          "reasoning_tokens": 100
+        },
+        "total_tokens": 2176,
+        "x_details": [
+          {
+            "input_tokens": 2010,
+            "output_tokens": 166,
+            "output_tokens_details": {
+              "reasoning_tokens": 100
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2176,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U09",
+      "role": "client",
+      "text": "其实我到现在也还没回方宁那条消息，每次点开对话框，打了几个字又删掉。我脑子里一直在想，她是不是已经觉得我在故意躲她，可我又真的很需要这个周末自己待着。",
+      "request_sha256": "c6287d97445e31712941b0c79c6b698dbb0eafab185559c56bbc13cebc0bdf32",
+      "usage": {
+        "input_tokens": 2791,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 375,
+        "output_tokens_details": {
+          "reasoning_tokens": 327
+        },
+        "total_tokens": 3166,
+        "x_details": [
+          {
+            "input_tokens": 2791,
+            "output_tokens": 375,
+            "output_tokens_details": {
+              "reasoning_tokens": 327
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 3166,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U10",
+      "role": "counselor",
+      "text": "好像每次点开对话框，你都要在“她的想法”和“自己的需要”之间做一个选择，而且总觉得只能选一边。现在你其实已经知道自己很需要这个周末，但那个需要一旦变成要发出去的话，就显得很难开口。 你担心的不只是她会不会多想，好像还有：如果你真的说“我想自己待着”，会不会像在拒绝她、或者承认自己变了。",
+      "request_sha256": "9c5a4ece9b8142831e72899bfb6865807f520ad7d017598004dc353da029f283",
+      "usage": {
+        "input_tokens": 2169,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 178,
+        "output_tokens_details": {
+          "reasoning_tokens": 93
+        },
+        "total_tokens": 2347,
+        "x_details": [
+          {
+            "input_tokens": 2169,
+            "output_tokens": 178,
+            "output_tokens_details": {
+              "reasoning_tokens": 93
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2347,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U11",
+      "role": "client",
+      "text": "其实我知道自己周末想做什么，就是在家把私活收尾，然后睡一觉。可这句话在对话框里一打出来，就觉得特别像在推掉她，后面还得跟一堆解释。我也有点气自己，怎么连回个消息都这么难。",
+      "request_sha256": "4783d1b3f9147e4b1a7318b0f58dbfaae1192dc53f123a0954de8a11edb34173",
+      "usage": {
+        "input_tokens": 2975,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 462,
+        "output_tokens_details": {
+          "reasoning_tokens": 403
+        },
+        "total_tokens": 3437,
+        "x_details": [
+          {
+            "input_tokens": 2975,
+            "output_tokens": 462,
+            "output_tokens_details": {
+              "reasoning_tokens": 403
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3437,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U12",
+      "role": "counselor",
+      "text": "你很清楚自己周末想要什么，但把它说出口时，那个需要好像就立刻变成了一件需要向对方交代、解释甚至道歉的事。 你气的可能不只是“回个消息都这么难”，更像是在气自己为什么不能理直气壮地保留自己的时间。",
+      "request_sha256": "020dda0e6d59f10e726c5ed29b48a3fd1a179cde811eb07764ef71edcbe79563",
+      "usage": {
+        "input_tokens": 2364,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 201,
+        "output_tokens_details": {
+          "reasoning_tokens": 142
+        },
+        "total_tokens": 2565,
+        "x_details": [
+          {
+            "input_tokens": 2364,
+            "output_tokens": 201,
+            "output_tokens_details": {
+              "reasoning_tokens": 142
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2565,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U13",
+      "role": "client",
+      "text": "可能……我气的就是自己做不到理直气壮。好像我的时间、我想休息，这些事一放到别人面前，就没那么正当了。周末的事我还没跟她说，其实也不只是怕她多想，还有一点是，我要是真说“我想自己待着”，她可能回一个“好吧”，那两个字我光想都觉得有点沉。",
+      "request_sha256": "8df5a22ae0c4f01d91400e307f401abf4bfe2dd7bf89a663ee538a8936fd46fd",
+      "usage": {
+        "input_tokens": 3138,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 403,
+        "output_tokens_details": {
+          "reasoning_tokens": 327
+        },
+        "total_tokens": 3541,
+        "x_details": [
+          {
+            "input_tokens": 3138,
+            "output_tokens": 403,
+            "output_tokens_details": {
+              "reasoning_tokens": 327
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3541,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U14",
+      "role": "counselor",
+      "text": "好像你自己的需要一旦要放到别人面前，就先在你心里变成了“不太正当”的事；而那句想象中的“好吧”，更像是一种没说破的失望，让你还没发出消息就已经沉下去了。\n\n今天也许不需要急着决定怎么回她，你已经更清楚地看见自己卡在“想休息”和“怕那两个字”之间了。",
+      "request_sha256": "1601f9109e05aa8efc8ec2d9de69e22c281a226cfd4102674588b565c80f9c7d",
+      "usage": {
+        "input_tokens": 2544,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 485,
+        "output_tokens_details": {
+          "reasoning_tokens": 415
+        },
+        "total_tokens": 3029,
+        "x_details": [
+          {
+            "input_tokens": 2544,
+            "output_tokens": 485,
+            "output_tokens_details": {
+              "reasoning_tokens": 415
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3029,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U15",
+      "role": "client",
+      "text": "其实我到现在也还没回方宁那条消息，每次点开对话框，打了几个字又删掉。我脑子里一直在想，她是不是已经觉得我在故意躲她，可我又真的很需要这个周末自己待着。",
+      "request_sha256": "c2c6a9180ecd29d1a9947fae5d4c1784c9b57e3b3b8a0acfa6c18f7cbf66ef2b",
+      "usage": {
+        "input_tokens": 3332,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 481,
+        "output_tokens_details": {
+          "reasoning_tokens": 433
+        },
+        "total_tokens": 3813,
+        "x_details": [
+          {
+            "input_tokens": 3332,
+            "output_tokens": 481,
+            "output_tokens_details": {
+              "reasoning_tokens": 433
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3813,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S02-U16",
+      "role": "counselor",
+      "text": "你心里其实已经有一个很清楚的答案：这个周末你想自己待着。但每次要把这个需要发出去时，它就好像变成了会被对方误读成“故意躲她”的信号，所以你打了字又删掉。现在也许不用勉强自己马上回，先看见“想自己待着”和“怕她多想”这两件事同时卡在那里，就已经是这一周里很真实的一部分了。",
+      "request_sha256": "44e6c8d13f2c8ce9adfaf7789b47d6d95da5cee7b46ec85c662af8000f7bddc2",
+      "usage": {
+        "input_tokens": 2710,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 318,
+        "output_tokens_details": {
+          "reasoning_tokens": 232
+        },
+        "total_tokens": 3028,
+        "x_details": [
+          {
+            "input_tokens": 2710,
+            "output_tokens": 318,
+            "output_tokens_details": {
+              "reasoning_tokens": 232
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3028,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

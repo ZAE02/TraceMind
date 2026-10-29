@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP3",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "99f6acdb7e61cad598942d5d7ebc8ca91feb525c2432538a43db75b00f417a05",
+  "request_sha256": "bc7ed369b4ebcc08f91cb36d011bb4faec8563ce8cb075631d0a2b3a0bc5be91",
+  "memory_sha256": "f49c97a72b65b376bede21a4a4a6c9edc2aa98743b4031cfbde69be4c89867d5",
+  "memory_source": "1b8837ff0e43dcb777655a5be0272147139ebf5504955832e3cf44b992f826f7",
+  "raw_text": "你昨晚没洗那件工服，像第一次允许“到极限了”这件事留在身上过夜；可早上看见它又觉得恶心，好像那半口没出完的气，过了一晚就变成了需要被处理掉的脏东西。也许那件衣服现在不只是在替你说累，也在让你看见：有些东西一旦不被立刻冲掉，就会开始让你不舒服，可这不舒服本身，也是你还没被允许好好吐出来的那部分。",
+  "usage": {
+    "input_tokens": 11993,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12089,
+    "x_details": [
+      {
+        "input_tokens": 11993,
+        "output_tokens": 96,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 12089,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.671,
+  "model": "deepseek-v4-pro-0813"
+}

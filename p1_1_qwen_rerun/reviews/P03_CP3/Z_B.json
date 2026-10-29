@@ -1,0 +1,75 @@
+{
+  "checkpoint": "P03_CP3",
+  "candidate_id": "Z",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "cd303cd17568c92e5c7bf0b9928dfcbb34b5ad5df9cbf2bb5a7b2c502255e8af",
+  "public_sha256": "4ad7af4a058d7c87ccb85e5d0ad56d08ec2dd6252840d0b324a57416143cc5fd",
+  "candidate_input_sha256": "075ff3ad6fbb30bbb4d4547c33895a9f241bce1a47e3b81d542caadc2ce5948d",
+  "candidate_answer_sha256": "0f3f136b7f9df73acc219f210586318af5cdb649d427cedc48c3e29751e03ecf",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前对'硬撑'与'撑全场'的区分焦虑，并呼应了长期'必须稳/好才算数'的模式，但未显式连接历史中形成的具体认识（如'借来的稳''待修的故障'等）。\",\"exploration_value\":\"对来访者的恐惧做了精准命名和重新框架，为情绪留出了空间，但整体偏向咨询师给出新视角而非开放式邀请来访者进一步探索那个'别跑'的声音意味着什么。\",\"response_appropriateness\":\"语言温柔、尊重来访者节奏，没有强行推动或否定其感受；但'比任何完美的节奏都更真实地接住了你'略带咨询师主观价值判断，有轻微预设成分。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"好像必须觉得自己稳了才算真正过去\",\"evidence_ids\":[\"P03-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应较短，虽贴合当下情绪节点，但缺少对来访者刚浮现的内在声音（'别跑，先把这一页讲完'）的进一步好奇或邀请\",\"将'没逃还不够好'作为前提直接陈述，虽有来访者话语支撑，但语气偏确定，可稍加试探性\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者当前对'硬撑'与'撑全场'的区分焦虑，并呼应了长期'必须稳/好才算数'的模式，但未显式连接历史中形成的具体认识（如'借来的稳''待修的故障'等）。",
+      "exploration_value": "对来访者的恐惧做了精准命名和重新框架，为情绪留出了空间，但整体偏向咨询师给出新视角而非开放式邀请来访者进一步探索那个'别跑'的声音意味着什么。",
+      "response_appropriateness": "语言温柔、尊重来访者节奏，没有强行推动或否定其感受；但'比任何完美的节奏都更真实地接住了你'略带咨询师主观价值判断，有轻微预设成分。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "好像必须觉得自己稳了才算真正过去",
+        "evidence_ids": [
+          "P03-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "回应较短，虽贴合当下情绪节点，但缺少对来访者刚浮现的内在声音（'别跑，先把这一页讲完'）的进一步好奇或邀请",
+      "将'没逃还不够好'作为前提直接陈述，虽有来访者话语支撑，但语气偏确定，可稍加试探性"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14547,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 352,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14899,
+    "x_details": [
+      {
+        "input_tokens": 14547,
+        "output_tokens": 352,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 14899,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.078
+}

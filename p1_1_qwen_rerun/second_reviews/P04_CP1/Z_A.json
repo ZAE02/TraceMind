@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P04_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "8810c0386c1bb44112526c463543e022160cc783ae1b67212983ebf6110868f4",
+  "public_sha256": "6b76a404b1cf70303da5e3b2159ec4463a9a6ab7bed33d34b3f1f6410fa5d392",
+  "candidate_input_sha256": "2167c6609b9ae430c652798d73d1dd750d02d254e48dc0ff2ee6a0bd02855894",
+  "candidate_answer_sha256": "fbe50256dffafe4b38c1b5e216457a83841cf54a63c780c3d450ccb6741e41f1",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":4},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均可回溯到具体发言，且正确采纳了来访者对搓手指原因的澄清（怕被看见手抖而非怕扛不住），未将咨询师猜测当事实。\",\"progress_understanding\":\"识别了从S1的'喘不过气'、S2的'我也很累啊'到S3砸杯与巷口停留的情绪升级脉络，但未明确点出S1中'放下来喘一口气，锅不会立刻翻'这一已确认的小进展在S3情境中的张力或延续。\",\"uncertainty_awareness\":\"清晰区分了旁人议论与确诊事实，列出了弟弟互动背景、母亲健康程度及未来行动等多项合理未知，未强行定论。\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均可回溯到具体发言，且正确采纳了来访者对搓手指原因的澄清（怕被看见手抖而非怕扛不住），未将咨询师猜测当事实。",
+      "progress_understanding": "识别了从S1的'喘不过气'、S2的'我也很累啊'到S3砸杯与巷口停留的情绪升级脉络，但未明确点出S1中'放下来喘一口气，锅不会立刻翻'这一已确认的小进展在S3情境中的张力或延续。",
+      "uncertainty_awareness": "清晰区分了旁人议论与确诊事实，列出了弟弟互动背景、母亲健康程度及未来行动等多项合理未知，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 8962,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9148,
+    "x_details": [
+      {
+        "input_tokens": 8962,
+        "output_tokens": 186,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 9148,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.109
+}

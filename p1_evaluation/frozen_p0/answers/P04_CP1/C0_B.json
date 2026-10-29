@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "1ca601551fe314e9270067eb38c6a88ecfb393bd87cc256b3ef9008536394de3",
+  "request_sha256": "29831b79fab3289dedff5fa81e481a2c604779b20589844f322ee4eaecb55e49",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你怕的是那个“不想拐进去”不是风大，而是你心里真的有一截已经不想再转了。好像所有人都等着你继续修、继续转，可你只想在巷口坐一会儿，听它停下来的声音。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 835,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 884,
+    "x_details": [
+      {
+        "input_tokens": 835,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 884,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

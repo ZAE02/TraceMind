@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "M",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "精准承接来访者'猜他的心思没处搁了'这一当前表述，并将其与历史中反复出现的防备模式自然连接，未机械复述病历。",
+      "exploration_value": "将'没处搁'具体化为'防备的力气没了着落'，为来访者打开了探索失去防御后如何自处的空间，既贴合当下困惑又推进理解。",
+      "response_appropriateness": "语言温和、尊重，用问句形式呈现假设而非定论，情绪反映准确，无武断或生硬表达。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":4,\"response_appropriateness\":4},\"brief_reasons\":{\"history_utilization\":\"精准承接来访者'猜他的心思没处搁了'这一当前表述，并将其与历史中反复出现的防备模式自然连接，未机械复述病历。\",\"exploration_value\":\"将'没处搁'具体化为'防备的力气没了着落'，为来访者打开了探索失去防御后如何自处的空间，既贴合当下困惑又推进理解。\",\"response_appropriateness\":\"语言温和、尊重，用问句形式呈现假设而非定论，情绪反映准确，无武断或生硬表达。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[]}",
+  "request_sha256": "75bbae8e84bde99b61e975b2080412b573851e42a2155ec69e24a80d4eb8493a",
+  "usage": {
+    "input_tokens": 14376,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 233,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14609,
+    "x_details": [
+      {
+        "input_tokens": 14376,
+        "output_tokens": 233,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 14609,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.985,
+  "model": "qwen3.8-max"
+}

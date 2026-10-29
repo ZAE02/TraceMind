@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "30f114293202103fe45f7f2b86022aecd752712053c425ce13ee2c4c91ed7d74",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "2d0a464dca28831e8f85f4e525b3f785266e68f837317e05e8982e7e9f7dbad9",
+  "candidate_answer_sha256": "16ec1b4b7aa86682d9da5e3428c4eda09c15aa25f063c9fb8ec47c03676a03c4",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"候选回答中的每一项关键事实（如女儿发烧、母亲误服药物、咬自己、父亲离开那晚的闪回等）均能直接回溯到当前会话的具体发言中，且未将咨询师的推测当作事实陈述，依据充分。\",\n    \"progress_understanding\": \"准确识别了当前会话的核心进展：从多任务压力导致的警觉状态，深入到躯体化症状（咬自己、出汗）与过去创伤事件（父亲离开那晚）的连接。虽然未显式引用前两次会话的历史细节（因输入限制），但对当前节点的心理动态理解准确。\",\n    \"uncertainty_awareness\": \"清晰区分了已知事实（当下的身体感受和行为）与未知/假设领域（父亲离开那晚的具体情境、解离体验的性质、支持系统等）。提出的不确定项具体且具有临床探索价值，未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "候选回答中的每一项关键事实（如女儿发烧、母亲误服药物、咬自己、父亲离开那晚的闪回等）均能直接回溯到当前会话的具体发言中，且未将咨询师的推测当作事实陈述，依据充分。",
+      "progress_understanding": "准确识别了当前会话的核心进展：从多任务压力导致的警觉状态，深入到躯体化症状（咬自己、出汗）与过去创伤事件（父亲离开那晚）的连接。虽然未显式引用前两次会话的历史细节（因输入限制），但对当前节点的心理动态理解准确。",
+      "uncertainty_awareness": "清晰区分了已知事实（当下的身体感受和行为）与未知/假设领域（父亲离开那晚的具体情境、解离体验的性质、支持系统等）。提出的不确定项具体且具有临床探索价值，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 5925,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 257,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6182,
+    "x_details": [
+      {
+        "input_tokens": 5925,
+        "output_tokens": 257,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6182,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.5
+}

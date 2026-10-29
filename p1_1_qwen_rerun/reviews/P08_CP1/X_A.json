@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "6daac9738f42d4d76ad0b402b26c847c486a13beb305172bbbe8feaf5776860f",
+  "public_sha256": "2e7035820857cf1a61e81e397256dd9a0588daa43553ae3abc9c4cb60a2d5c19",
+  "candidate_input_sha256": "3febf27e2af766c00e4a93b2e719ef928dbfe571604cfd8462d2e70e8d7ec931",
+  "candidate_answer_sha256": "1258eaab666e8a4727fb95ddf2ae09efdeb52bc63eaffa64a5a63ff23a59bc3c",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"多数判断有具体发言支持，但将睡眠障碍'主要源于'工作自责、人际敏感等归因带有推断色彩，来访者原文更多描述现象而非明确因果；对周宁沟通隔阂的描述混合了S2与S3信息，基本有据。\",\"progress_understanding\":\"识别了来访者在边界感、感谢困难、优先处理孩子报名等方面的当前状态，也提及跨会次的睡眠和独自承担模式，但未清晰呈现咨询师在历次会话中如何帮助来访者形成、验证或修正认识的过程，更像主题汇总而非进展梳理。\",\"uncertainty_awareness\":\"列出了多项合理未知点（独立解决能力、赵岩不适的深层来源、搬家经济可行性等），区分了已知与待澄清内容，但对来访者反复使用的自我淡化模式（如'过几天就好了''太较真'）这一重要未探索维度未纳入不确定项。\"},\"confidence\":\"medium\",\"issues\":[\"将睡眠困扰的原因归结为'主要源于工作自责、人际敏感和家庭责任担忧'属于推断性归因，来访者原文仅描述反刍现象而未明确建立此因果链。\",\"输出格式为结构化JSON而非叙事性评估，虽内容覆盖参考要点，但与Task A通常期望的分析形式略有偏差。\",\"未识别来访者跨三次会话反复出现的自我淡化/压抑感受模式作为已确立认识或未解决议题。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "多数判断有具体发言支持，但将睡眠障碍'主要源于'工作自责、人际敏感等归因带有推断色彩，来访者原文更多描述现象而非明确因果；对周宁沟通隔阂的描述混合了S2与S3信息，基本有据。",
+      "progress_understanding": "识别了来访者在边界感、感谢困难、优先处理孩子报名等方面的当前状态，也提及跨会次的睡眠和独自承担模式，但未清晰呈现咨询师在历次会话中如何帮助来访者形成、验证或修正认识的过程，更像主题汇总而非进展梳理。",
+      "uncertainty_awareness": "列出了多项合理未知点（独立解决能力、赵岩不适的深层来源、搬家经济可行性等），区分了已知与待澄清内容，但对来访者反复使用的自我淡化模式（如'过几天就好了''太较真'）这一重要未探索维度未纳入不确定项。"
+    },
+    "confidence": "medium",
+    "issues": [
+      "将睡眠困扰的原因归结为'主要源于工作自责、人际敏感和家庭责任担忧'属于推断性归因，来访者原文仅描述反刍现象而未明确建立此因果链。",
+      "输出格式为结构化JSON而非叙事性评估，虽内容覆盖参考要点，但与Task A通常期望的分析形式略有偏差。",
+      "未识别来访者跨三次会话反复出现的自我淡化/压抑感受模式作为已确立认识或未解决议题。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8586,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 319,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8905,
+    "x_details": [
+      {
+        "input_tokens": 8586,
+        "output_tokens": 319,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 8905,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.204
+}

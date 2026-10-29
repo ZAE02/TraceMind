@@ -1,0 +1,69 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接了来访者反复'悬着'不敢面对确定结果的核心模式，并联系到当前不敢点开群和回复方宁的情境，但未明确呼应前几节已探索到的'需要别人确认'或'怕显得计较'等更具体的历史认识。",
+      "exploration_value": "提出了关于自我批评是否加剧回避的探索方向，有一定价值，但将头晕、熬夜与心理回避直接类比为'都在试图通过悬着来避免面对'略显牵强，且未对来访者新提到的身体症状给予足够的情绪回应或空间。",
+      "response_appropriateness": "语言基本尊重，但对来访者刚提到的头晕仅用一句话带过便转向心理分析，情绪回应不足；将生理不适直接等同于心理防御机制的表达稍显生硬和武断。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "头晕和熬夜可能是身体在提醒你已经超负荷了，这和你反复纠结那些没回的消息、不敢点开群的心态很像——都在试图通过“悬着”来避免面对某种确定的结果。",
+        "evidence_ids": [
+          "P01-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将头晕和熬夜等生理体验直接与'悬着避免面对确定结果'的心理模式类比，缺乏来访者自身表述的支持，存在过度诠释风险。",
+      "来访者在U09中首次提到身体症状（头晕），候选回应仅在开头一句带过即转入认知分析，缺少对身体不适本身的关切和停留。",
+      "提问聚焦于'自我批评是否让你更不敢点开'，虽合理但略窄，未能充分承接来访者'搞成了需要别人来替我确认才行'这一重要的自我觉察。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者反复'悬着'不敢面对确定结果的核心模式，并联系到当前不敢点开群和回复方宁的情境，但未明确呼应前几节已探索到的'需要别人确认'或'怕显得计较'等更具体的历史认识。\",\"exploration_value\":\"提出了关于自我批评是否加剧回避的探索方向，有一定价值，但将头晕、熬夜与心理回避直接类比为'都在试图通过悬着来避免面对'略显牵强，且未对来访者新提到的身体症状给予足够的情绪回应或空间。\",\"response_appropriateness\":\"语言基本尊重，但对来访者刚提到的头晕仅用一句话带过便转向心理分析，情绪回应不足；将生理不适直接等同于心理防御机制的表达稍显生硬和武断。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"头晕和熬夜可能是身体在提醒你已经超负荷了，这和你反复纠结那些没回的消息、不敢点开群的心态很像——都在试图通过\"悬着\"来避免面对某种确定的结果。\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将头晕和熬夜等生理体验直接与'悬着避免面对确定结果'的心理模式类比，缺乏来访者自身表述的支持，存在过度诠释风险。\",\"来访者在U09中首次提到身体症状（头晕），候选回应仅在开头一句带过即转入认知分析，缺少对身体不适本身的关切和停留。\",\"提问聚焦于'自我批评是否让你更不敢点开'，虽合理但略窄，未能充分承接来访者'搞成了需要别人来替我确认才行'这一重要的自我觉察。\"]}",
+  "request_sha256": "447e083c405d69eb24bd6ffbcdf3ae877cf57a6785e9df1bca08c39fdc41668e",
+  "usage": {
+    "input_tokens": 16317,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 443,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16760,
+    "x_details": [
+      {
+        "input_tokens": 16317,
+        "output_tokens": 443,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 16760,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.344
+}

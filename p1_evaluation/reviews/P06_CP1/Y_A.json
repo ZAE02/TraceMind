@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "3ad3dd46f4064a62fe26dfc42b5ff936154de756d7436aa72a39189127740185",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "506b7b9bfbacad611ef62b3bf025815411fab2954aa45a935b5e3c8c05f234b6",
+  "candidate_answer_sha256": "bf56186e76991b3aea5e95e52a0944d651d1c60e183efff35fd2589e9b3d90de",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有列出的事实（包括历史事件如撕纸飞机、弟弟转账，以及当前会话中的咬自己、父亲离世联想）均有明确的对话原文支持，引用准确，无虚构或推测性断言。\",\n    \"progress_understanding\": \"候选正确识别了来访者从Session 1的“失控/自责”到Session 2的“压抑/责任重担”，再到Session 3的“躯体化/创伤闪回”的演变过程。虽然未深入分析Session 2中“没有退路”这一核心认知在Session 3的具体体现（仅作为背景罗列），但整体脉络清晰，涵盖了关键进展。\",\n    \"uncertainty_awareness\": \"候选精准区分了已知事实与未知领域。特别是在“uncertain”列表中，明确指出了父亲离世具体情境、解离症状性质、自伤风险等关键未澄清点，且未将假设当作既定事实，符合高标准的不确定性意识。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有列出的事实（包括历史事件如撕纸飞机、弟弟转账，以及当前会话中的咬自己、父亲离世联想）均有明确的对话原文支持，引用准确，无虚构或推测性断言。",
+      "progress_understanding": "候选正确识别了来访者从Session 1的“失控/自责”到Session 2的“压抑/责任重担”，再到Session 3的“躯体化/创伤闪回”的演变过程。虽然未深入分析Session 2中“没有退路”这一核心认知在Session 3的具体体现（仅作为背景罗列），但整体脉络清晰，涵盖了关键进展。",
+      "uncertainty_awareness": "候选精准区分了已知事实与未知领域。特别是在“uncertain”列表中，明确指出了父亲离世具体情境、解离症状性质、自伤风险等关键未澄清点，且未将假设当作既定事实，符合高标准的不确定性意识。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 8349,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 276,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8625,
+    "x_details": [
+      {
+        "input_tokens": 8349,
+        "output_tokens": 276,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8625,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.891
+}

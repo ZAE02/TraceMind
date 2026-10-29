@@ -1,0 +1,71 @@
+{
+  "checkpoint": "P02_CP3",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "731a077ef17a8cceb62f0f265e8fba58f4d53e5753d80e1eaa54e716b5573ef0",
+  "public_sha256": "86955743b655af599f11a1d106a06b0964344b7fe886b9ffe92dec16238b1750",
+  "candidate_input_sha256": "ff16b1a3f2dcad8b634303de8068ef48e2de75ebed9f786ccd8cf38f77ec6e20",
+  "candidate_answer_sha256": "a88e388665b928ae15603e2183e453c2dd09260cc5aacfe78c73c45e60a7d68c",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3,\"brief_reason\":\"回应准确承接了来访者反复审视自己措辞的模式，并联系到此前'为自己开口'的困难。探索方向有价值但结尾问句略带引导性预设。整体语言自然、尊重，贴合当前节点。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种对'说错话'的恐惧，是不是让你觉得，连争取自己的需求都变成了一件需要小心翼翼、随时准备道歉的事？\",\"evidence_ids\":[\"P02-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"结尾问句将'随时准备道歉'作为预设框架提出，来访者原文仅表达担心语气太冲和被惦记，尚未提及道歉，存在轻微的过度诠释风险。\",\"未直接回应来访者开头说的'连让它多待一会儿都做不到'这一对上一轮咨询师建议的反馈，可进一步承认其尝试后的挫败感。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3,
+      "brief_reason": "回应准确承接了来访者反复审视自己措辞的模式，并联系到此前'为自己开口'的困难。探索方向有价值但结尾问句略带引导性预设。整体语言自然、尊重，贴合当前节点。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种对'说错话'的恐惧，是不是让你觉得，连争取自己的需求都变成了一件需要小心翼翼、随时准备道歉的事？",
+        "evidence_ids": [
+          "P02-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "结尾问句将'随时准备道歉'作为预设框架提出，来访者原文仅表达担心语气太冲和被惦记，尚未提及道歉，存在轻微的过度诠释风险。",
+      "未直接回应来访者开头说的'连让它多待一会儿都做不到'这一对上一轮咨询师建议的反馈，可进一步承认其尝试后的挫败感。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14349,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 272,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14621,
+    "x_details": [
+      {
+        "input_tokens": 14349,
+        "output_tokens": 272,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14621,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.422
+}

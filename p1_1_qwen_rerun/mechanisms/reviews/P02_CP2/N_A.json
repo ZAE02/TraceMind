@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "N",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "前四会次内容引用准确，但完全遗漏了当前第五次会话（S05）中公园长椅、'偷来的时间'、不敢靠下等关键新素材，且将咨询师推测性诠释（如'存在性焦虑''解离状态'）当作已确立事实呈现。",
+      "progress_understanding": "详尽罗列了S01–S04的演变模式，但对当前节点S05的核心进展——来访者首次主动为自己争取一小时并认同'未被允许属于自己'这一关键转折——完全未涉及，严重偏离当前咨询阶段。",
+      "uncertainty_awareness": "提出了多项有价值的待探索问题，但未识别当前会话中最紧迫的未解决议题（如何允许这一小时真正属于自己、与母亲隐瞒的张力），且部分问题带有较强理论预设（如情感操控、童年忽视）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话（Session 5）的全部来访者发言，导致分析停滞在上一检查点",
+      "将咨询师的假设性诠释（如'存在性焦虑''解离或麻木状态'）直接归入'evolving_patterns'作为既定事实",
+      "unresolved_questions未包含当前最核心的待澄清议题（公园时间的自我许可、对母亲的隐瞒）"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"前四会次内容引用准确，但完全遗漏了当前第五次会话（S05）中公园长椅、'偷来的时间'、不敢靠下等关键新素材，且将咨询师推测性诠释（如'存在性焦虑''解离状态'）当作已确立事实呈现。\",\"progress_understanding\":\"详尽罗列了S01–S04的演变模式，但对当前节点S05的核心进展——来访者首次主动为自己争取一小时并认同'未被允许属于自己'这一关键转折——完全未涉及，严重偏离当前咨询阶段。\",\"uncertainty_awareness\":\"提出了多项有价值的待探索问题，但未识别当前会话中最紧迫的未解决议题（如何允许这一小时真正属于自己、与母亲隐瞒的张力），且部分问题带有较强理论预设（如情感操控、童年忽视）。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话（Session 5）的全部来访者发言，导致分析停滞在上一检查点\",\"将咨询师的假设性诠释（如'存在性焦虑''解离或麻木状态'）直接归入'evolving_patterns'作为既定事实\",\"unresolved_questions未包含当前最核心的待澄清议题（公园时间的自我许可、对母亲的隐瞒）\"]}",
+  "request_sha256": "f1dffe991347fa29e15d0628ea05260136f18c292fd15e83dbaf61356fb4bff6",
+  "usage": {
+    "input_tokens": 14575,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 290,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14865,
+    "x_details": [
+      {
+        "input_tokens": 14575,
+        "output_tokens": 290,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 14865,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.985,
+  "model": "qwen3.8-max"
+}

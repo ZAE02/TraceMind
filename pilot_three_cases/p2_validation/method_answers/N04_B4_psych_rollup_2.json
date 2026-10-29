@@ -1,0 +1,149 @@
+{
+  "status": "completed",
+  "purpose": "method_comparison",
+  "node": "N04",
+  "method": "B4_psych_rollup",
+  "sample": 2,
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "memory_info": {
+    "history_tokens": 2665,
+    "budget": 3000,
+    "memory_sha256": "c5f159401fbe139668ba64faaed916201a19613d5aaaf4192169798ff920ef81"
+  },
+  "request_sha256": "1817e597e758348bb1e69b4c7c65ab3e6dc5f45d06222e1b5c7625c81891e2dc",
+  "context_sha256": "3dd14b1212cf396751245115e4d219699a2d1ad147afe0bf32ffcc845f2b58b0",
+  "call_id": "dd3e97d5f3134c0e8489eef60e1e8725",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "transport_timeout_seconds": 120,
+  "created_at": "2026-10-13T11:16:42.639764+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者正在接受'松'无法被确认的状态，不再强求给它一个标准答案\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"周一回查'松'时体验到极短的'发完了'感觉，但无法区分是真实体验还是自己在找它\",\n      \"evidence_ids\": [\"C02-S08-U07\", \"C02-S08-U09\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"'我的越来越薄'作为背景性自我感知持续存在，躺下时会想到，但未加剧也未消退\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"对阿敏未完全帮忙的内疚仍在但明显减轻，'小气'的念头会自动弹出但来访者能接住\",\n      \"evidence_ids\": [\"C02-S08-U03\", \"C02-S08-U05\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"悦悦周六互动平稳，无显著情绪波动\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"strong\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'薄'具体指什么在薄——是否与S7的'空'（'我'不在场）是同一体验的更新表述，还是不同层面的感受，来访者未做联结\",\n    \"'还是那个感觉'中的稳定是中性事实还是带有某种意味（如'没变'本身是否让来访者有感觉）\",\n    \"躺下时想到'薄'这个监控行为本身的功能——是觉察、是担忧、还是只是惯性\",\n    \"'松'是否真的在发展，还是停留在'分不清'的模糊地带\",\n    \"'小气'念头自动弹出的触发条件和它保护的是什么\"\n  ],\n  \"next_focus\": \"探索'薄'的具体内容——是什么在薄，以及那个'还是那个感觉'是什么样的体验\",\n  \"next_counselor_utterance\": \"悦悦那边平稳的，好。那个'薄'——你说'还是那个感觉'，那个感觉你愿意说说它是什么样的吗？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者正在接受'松'无法被确认的状态，不再强求给它一个标准答案",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "周一回查'松'时体验到极短的'发完了'感觉，但无法区分是真实体验还是自己在找它",
+        "evidence_ids": [
+          "C02-S08-U07",
+          "C02-S08-U09"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "'我的越来越薄'作为背景性自我感知持续存在，躺下时会想到，但未加剧也未消退",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "对阿敏未完全帮忙的内疚仍在但明显减轻，'小气'的念头会自动弹出但来访者能接住",
+        "evidence_ids": [
+          "C02-S08-U03",
+          "C02-S08-U05"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "悦悦周六互动平稳，无显著情绪波动",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "strong"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'薄'具体指什么在薄——是否与S7的'空'（'我'不在场）是同一体验的更新表述，还是不同层面的感受，来访者未做联结",
+      "'还是那个感觉'中的稳定是中性事实还是带有某种意味（如'没变'本身是否让来访者有感觉）",
+      "躺下时想到'薄'这个监控行为本身的功能——是觉察、是担忧、还是只是惯性",
+      "'松'是否真的在发展，还是停留在'分不清'的模糊地带",
+      "'小气'念头自动弹出的触发条件和它保护的是什么"
+    ],
+    "next_focus": "探索'薄'的具体内容——是什么在薄，以及那个'还是那个感觉'是什么样的体验",
+    "next_counselor_utterance": "悦悦那边平稳的，好。那个'薄'——你说'还是那个感觉'，那个感觉你愿意说说它是什么样的吗？"
+  },
+  "usage": {
+    "input_tokens": 3806,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 2667,
+    "output_tokens_details": {
+      "reasoning_tokens": 2105
+    },
+    "total_tokens": 6473,
+    "x_details": [
+      {
+        "input_tokens": 3806,
+        "input_tokens_details": {
+          "text_tokens": 3806
+        },
+        "output_tokens": 2667,
+        "output_tokens_details": {
+          "reasoning_tokens": 2105
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6473,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_method_comparison_calls.jsonl",
+  "visible_evidence_ids": [
+    "C02-S01-U05",
+    "C02-S02-U03",
+    "C02-S03-U01",
+    "C02-S03-U09",
+    "C02-S04-U01",
+    "C02-S04-U05",
+    "C02-S05-U01",
+    "C02-S05-U11",
+    "C02-S05-U13",
+    "C02-S05-U15",
+    "C02-S05-U17",
+    "C02-S05-U19",
+    "C02-S06-U01",
+    "C02-S06-U03",
+    "C02-S06-U05",
+    "C02-S06-U07",
+    "C02-S06-U09",
+    "C02-S06-U11",
+    "C02-S06-U13",
+    "C02-S06-U15",
+    "C02-S06-U17",
+    "C02-S07-U01",
+    "C02-S07-U03",
+    "C02-S07-U09",
+    "C02-S07-U11",
+    "C02-S07-U13",
+    "C02-S07-U15",
+    "C02-S07-U17",
+    "C02-S07-U19",
+    "C02-S07-U20",
+    "C02-S08-U01",
+    "C02-S08-U02",
+    "C02-S08-U03",
+    "C02-S08-U04",
+    "C02-S08-U05",
+    "C02-S08-U06",
+    "C02-S08-U07",
+    "C02-S08-U08",
+    "C02-S08-U09",
+    "C02-S08-U10",
+    "C02-S08-U11"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

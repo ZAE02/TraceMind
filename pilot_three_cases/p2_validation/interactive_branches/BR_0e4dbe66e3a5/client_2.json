@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_0e4dbe66e3a5",
+  "round": 2,
+  "node": "N04",
+  "method": "B3_generic_rollup",
+  "replicate": 2,
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "request_sha256": "e536edc915631537e5094d3fe510003e0cd85861408cae1d871a1ffd8af4f4ff",
+  "call_id": "ca7feadca03c415b9c59f346287ffb61",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "嗯……\"差\"这个说法，我听着觉得有点接近，但又不太确定。就是……我不是不知道它还在，就是那个\"在\"好像以前是自动的，不用想就知道是\"我的\"，现在得……确认一下？就是那个确认的过程本身，好像就让它变得没那么确定了。",
+  "usage": {
+    "input_tokens": 14325,
+    "input_tokens_details": {
+      "cached_tokens": 7424
+    },
+    "output_tokens": 363,
+    "output_tokens_details": {
+      "reasoning_tokens": 297
+    },
+    "total_tokens": 14688,
+    "x_details": [
+      {
+        "input_tokens": 14325,
+        "input_tokens_details": {
+          "text_tokens": 14325
+        },
+        "output_tokens": 363,
+        "output_tokens_details": {
+          "reasoning_tokens": 297
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 7424
+        },
+        "total_tokens": 14688,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T11:20:18.484982+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

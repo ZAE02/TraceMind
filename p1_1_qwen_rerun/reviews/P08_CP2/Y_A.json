@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "b7c655d05e667c9c226e6ceb63b20939bd8b49ce8d181e489aa06a0a2ba7a49f",
+  "public_sha256": "4b41438739e36d95dc805fdb1667a4d9e8b5742558452a6ed2ced6c9ffe6a5d7",
+  "candidate_input_sha256": "6beb1c3c3ea6744c6d3ffecc28c215ae854394f9beffc73bc4a4190012eac9b6",
+  "candidate_answer_sha256": "504f125a437bb547d29a3046c9e58561ee27af9e8530fd57bcdea50cce08820b",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"大部分关键理解均可回溯到具体发言，证据ID引用准确且覆盖多轮会话。但将赵岩妻子的转述直接归为来访者'意识到'的判断动摇，略有把咨询师推测当事实的倾向；'图谋不轨'措辞较原文'有别的意思'偏重。\",\"progress_understanding\":\"准确识别了来访者从怀疑赵岩动机到被说中后躲闪的转变，也涵盖了入学压力、欠人情恐惧等历史主题。但对第1-2次会话中形成的核心模式（如'过几天就好了'的自我压制）未明确标注为已确认的认识，对进展的连接稍显罗列化。\",\"uncertainty_awareness\":\"列出了多项重要未知点，包括与赵岩关系走向、与周宁沟通进展及对脆弱的接纳程度，未强行定论。但对'欠人情'感如何跨关系运作这一深层不确定性着墨不足，部分不确定项表述偏笼统。\"},\"confidence\":\"high\",\"issues\":[\"将咨询师的诠释性推断（判断被打破）直接写入来访者'意识到'的内容，边界略模糊\",\"'图谋不轨'用词较来访者原话'有别的意思'更强烈，存在轻微过度解读\",\"established条目偏重事实罗列，对跨会话认识的形成-验证-修正脉络呈现不够清晰\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "大部分关键理解均可回溯到具体发言，证据ID引用准确且覆盖多轮会话。但将赵岩妻子的转述直接归为来访者'意识到'的判断动摇，略有把咨询师推测当事实的倾向；'图谋不轨'措辞较原文'有别的意思'偏重。",
+      "progress_understanding": "准确识别了来访者从怀疑赵岩动机到被说中后躲闪的转变，也涵盖了入学压力、欠人情恐惧等历史主题。但对第1-2次会话中形成的核心模式（如'过几天就好了'的自我压制）未明确标注为已确认的认识，对进展的连接稍显罗列化。",
+      "uncertainty_awareness": "列出了多项重要未知点，包括与赵岩关系走向、与周宁沟通进展及对脆弱的接纳程度，未强行定论。但对'欠人情'感如何跨关系运作这一深层不确定性着墨不足，部分不确定项表述偏笼统。"
+    },
+    "confidence": "high",
+    "issues": [
+      "将咨询师的诠释性推断（判断被打破）直接写入来访者'意识到'的内容，边界略模糊",
+      "'图谋不轨'用词较来访者原话'有别的意思'更强烈，存在轻微过度解读",
+      "established条目偏重事实罗列，对跨会话认识的形成-验证-修正脉络呈现不够清晰"
+    ]
+  },
+  "usage": {
+    "input_tokens": 11547,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 308,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11855,
+    "x_details": [
+      {
+        "input_tokens": 11547,
+        "output_tokens": 308,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 11855,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.625
+}

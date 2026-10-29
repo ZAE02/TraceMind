@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'拔插头、听排风扇不转'的隐喻，并联系到其长期'必须修好一切'的责任模式，但未明确呼应前两次会谈中已形成的具体认识（如'锅不会立刻翻'或'被看见裂缝'的恐惧）。\",\"exploration_value\":\"通过假设性提问为来访者探索'停下来之后真正渴望什么'留出空间，方向有价值，但'彻底逃离'一词略带预设色彩，可能收窄来访者只是想'暂停'而非'逃离'的表达。\",\"response_appropriateness\":\"语言自然、情绪回应贴合来访者的隐喻系统，整体尊重且开放；但'彻底逃离'的措辞比来访者原话更强烈，存在轻微过度诠释的风险。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"想从'必须修好一切'的责任里彻底逃离\",\"evidence_ids\":[\"P04-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"'彻底逃离'的表述将来访者'只想拔了插头坐在巷口听它不转'的暂停愿望升级为逃离，存在轻微的过度诠释和预设风险。\",\"未连接前两次会谈中来访者已获得的重要发现（如'放下来喘一口气，锅不会立刻翻'），错失了将当前探索与已有进展整合的机会。\"]}",
+  "request_sha256": "abcbd848b331855d12543ba6b64d9df2c36816b6d47a537cc81053c1e7eee94e",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8373,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 370,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8743,
+    "x_details": [
+      {
+        "input_tokens": 8373,
+        "output_tokens": 370,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8743,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

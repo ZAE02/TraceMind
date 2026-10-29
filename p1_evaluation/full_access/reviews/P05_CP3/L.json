@@ -1,0 +1,64 @@
+{
+  "checkpoint": "P05_CP3",
+  "candidate_id": "L",
+  "task": "B",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "精准承接了S07中来访者关于“向李繁表达脆弱”及“旧跑鞋/身体感受”的新进展，同时自然关联了S05-S06中反复出现的“靠近-推开”及“自我否定”模式。",
+      "exploration_value": "针对来访者当下的核心冲突（渴望被接住 vs 觉得自己贪心），提供了一个具有高度共情且去病理化的重构（将“贪心”转化为对“被认真接住”的确认需求），为探索其依恋期待留下了空间。",
+      "response_appropriateness": "语言温和、尊重，没有预设或说教，准确捕捉了来访者言语中的矛盾张力，回应贴合当前咨询节点。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 4\n  },\n  \"brief_reasons\": {\n    \"history_utilization\": \"精准承接了S07中来访者关于“向李繁表达脆弱”及“旧跑鞋/身体感受”的新进展，同时自然关联了S05-S06中反复出现的“靠近-推开”及“自我否定”模式。\",\n    \"exploration_value\": \"针对来访者当下的核心冲突（渴望被接住 vs 觉得自己贪心），提供了一个具有高度共情且去病理化的重构（将“贪心”转化为对“被认真接住”的确认需求），为探索其依恋期待留下了空间。\",\n    \"response_appropriateness\": \"语言温和、尊重，没有预设或说教，准确捕捉了来访者言语中的矛盾张力，回应贴合当前咨询节点。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "300960c613dc502859abaea65304c50f6f21ad51581d225722f4f22def538eb2",
+  "usage": {
+    "input_tokens": 20176,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 374,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20550,
+    "x_details": [
+      {
+        "input_tokens": 20176,
+        "output_tokens": 374,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 20550,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.297
+}

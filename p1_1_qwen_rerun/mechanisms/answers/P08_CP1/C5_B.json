@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP1",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "7f79b238501074e0aa9fc604d27e2620c1b55d75133da27aee77f8ec3373391f",
+  "request_sha256": "b926280964adf4a903790d780087a291a282885af87d1446ffaf7b737f5df64a",
+  "memory_sha256": "824686daaa0e38dc1754a2a47584bda8c8bf3539d5dfca2241079d499161a806",
+  "memory_source": "e355929dbf0bb60aa3fc9298c65008b8cc0efa02393ed7c63979fd99f57ee137",
+  "raw_text": "听到你决定先顾孩子，能感觉到你在多重压力中依然努力抓住最紧迫的责任。那句堵在嘴边的“谢谢”背后，似乎藏着比欠人情更深的顾虑——承认需要帮助，对你来说是否意味着某种自我价值的崩塌？",
+  "usage": {
+    "input_tokens": 3887,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3939,
+    "x_details": [
+      {
+        "input_tokens": 3887,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3939,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.797,
+  "model": "qwen3.7-flash-2026-07-15"
+}

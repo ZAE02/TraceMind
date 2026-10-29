@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP2",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "35f9e5a74e7a31d9cc258e288684f91300ec98afc01d9aa209dff19814ce8d18",
+  "request_sha256": "47c4d73d258bf04c8b1b2a9f3b79348efc6a320d3b282910dd6bcd89a2d8ca0a",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你站在那门口，脑子里已经在替妈妈想象护工会不会不耐烦、她会不会一直问“你爸去哪了”——好像连“想有人搭把手”这个念头，都要先经过一轮对自己的审判。可你最后说“哪怕就让我睡个整觉”，那个累已经不只是身体上的，而是你很久没允许自己承认：你也需要被接住一下。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3355,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 78,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3433,
+    "x_details": [
+      {
+        "input_tokens": 3355,
+        "output_tokens": 78,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3433,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

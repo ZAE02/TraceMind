@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P05_CP3",
+  "raw_text": "你一边觉得她能听完就不错了，一边又嫌自己太贪心——好像“希望被多问一句”这个需要一出现，就立刻被你自己判成了过分。也许那个“贪心”里，藏着的并不是要求太多，而只是你很想确认，自己说出来的“很差”在她那里有没有被认真接住。",
+  "request_sha256": "a0d156e083d81f27c4bf79599fe983929235d0c23f7b395cca2bc3c509888804",
+  "input_sha256": "68f03b2823cd7d151e1a607a878c2142254f116113fe4f93c418855cf3086427",
+  "memory_sha256": "3a3bcc8d05649c05167e272142f3d0799b9cb9d8a1695dc63bbd10b500ea93d6",
+  "usage": {
+    "input_tokens": 9203,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 71,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9274,
+    "x_details": [
+      {
+        "input_tokens": 9203,
+        "output_tokens": 71,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 9274,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.453
+}

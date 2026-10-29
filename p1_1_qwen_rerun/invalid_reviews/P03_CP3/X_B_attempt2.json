@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"承接了来访者刚说出的内心声音'别跑，先把这一页讲完'以及长期对自我力量的不确定感，但未联系前几节关于'借来的稳'或'不急着弄明白'等更丰富的历史脉络。\",\"exploration_value\":\"回应以确认和重新框架为主，未为来访者表达的'怕'留出进一步展开的空间，探索性偏弱。\",\"response_appropriateness\":\"语气温和、尊重来访者的情绪体验，没有武断下结论，但第二句略带推动接受的意味。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那个\"别跑\"的声音太微弱，让你不敢确信那是你自己的力量\",\"evidence_ids\":[\"P03-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选人将'别跑'的声音定性为'太微弱'属于未被来访者证实的推测，来访者仅表示怕那不算撑全场，并未描述声音微弱（P03-S07-U09）。\",\"回应偏重肯定与重新框架，缺少对来访者当前恐惧感的开放性探索邀请。\"]}",
+  "request_sha256": "8bc0c4c49905b6f775010531ecb9f806a766b15c015032bb4b3fddc9788b39e4",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 20644,
+    "input_tokens_details": {
+      "cached_tokens": 20480
+    },
+    "output_tokens": 323,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20967,
+    "x_details": [
+      {
+        "input_tokens": 20644,
+        "output_tokens": 323,
+        "prompt_tokens_details": {
+          "cached_tokens": 20480
+        },
+        "total_tokens": 20967,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "c263003b07d4a0211cdeb24b6fa552f71bc8110321b88c17d4c8f580a5561015",
+  "request_sha256": "94dc84d19d9caf28bbe2fc5b60f44802ebc1e846b94724b929cf32199c7554be",
+  "memory_sha256": "f97403444b7b7ea4a3f42a699ba1ac34856273410fe8b1819750a628013f3631",
+  "memory_source": "cf4ac6d5d3610dd3816398f73a805ef2abd2073831b3ed3ec36d58dd974e6a28",
+  "raw_text": "你在那半小时里，既看到了“有人搭把手”的渴望，又预演了母亲被送走后可能面临的孤独与你的羞耻。这种想睡个整觉却不敢迈出那一步的拉扯，听起来真的让人精疲力竭。",
+  "usage": {
+    "input_tokens": 6775,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6827,
+    "x_details": [
+      {
+        "input_tokens": 6775,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6827,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.438,
+  "model": "qwen3.7-flash-2026-07-15"
+}

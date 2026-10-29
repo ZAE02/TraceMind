@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'悬着一把尺'的当下描述及前文'只有我盯着才不会出错'的核心信念，但未触及第5次会谈中已松动的重要认识（'有人搭把手不是罪过'），历史利用有缺口。\",\"exploration_value\":\"将监督行为与深层恐惧（放手=没用）连接起来，为来访者打开了新的自我觉察空间；但以封闭式反问句呈现解释性假设，限制了来访者自主表达的可能性。\",\"response_appropriateness\":\"语言简洁、意象贴合来访者原话，但直接将来访者的行为解读为'怕自己没用了'带有较强预设性，且缺少对来访者刚描述的疲惫感及丈夫沉默注视这一关系张力的情绪回应。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你其实很怕一旦放手，那个\"只有我盯着才不会出错\"的自己就彻底没用了\",\"evidence_ids\":[\"P06-S07-U09\",\"P06-S07-U07\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那个\"只有我盯着才不会出错\"的自己就彻底没用了\",\"evidence_ids\":[\"P06-S05-U11\",\"P06-S05-U12\",\"P06-S07-U05\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"以封闭式反问句提出解释性假设，可能让来访者感到被定义而非被邀请探索\",\"未回应来访者最新发言中的身体疲惫感（'反而更累'）和关系张力（丈夫看了一眼没说话后的即时掩饰）\",\"忽略了第5次会谈中来访者已开始松动'承认需要帮助=没用'这一核心信念的进展\"]}",
+  "request_sha256": "3061e4d834e37455afe55cc207f4222a6697ddb73a0e5ab75d4caa5b5fe8c1b9",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 19216,
+    "input_tokens_details": {
+      "cached_tokens": 18432
+    },
+    "output_tokens": 427,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19643,
+    "x_details": [
+      {
+        "input_tokens": 19216,
+        "output_tokens": 427,
+        "prompt_tokens_details": {
+          "cached_tokens": 18432
+        },
+        "total_tokens": 19643,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

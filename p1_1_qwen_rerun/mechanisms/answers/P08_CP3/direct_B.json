@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP3",
+  "condition": "direct",
+  "task": "B",
+  "input_sha256": "9807d82cbca11aefa97f06c46945797cb4cf0ef58f86b063aaf1d523d2859ba4",
+  "request_sha256": "e6c2b6d0a987ebc8312ace2fa9180e0b45e3db07bfaed37cb916d7e001e9fe49",
+  "memory_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "memory_source": null,
+  "raw_text": "那种“知道晚了”的遗憾，是不是也让你觉得，如果早点有人指点，现在的处境或许就不会这么被动？这种对过去独自硬扛的懊恼，现在正压在你面对眼前这个紧急审核难题的压力之上。",
+  "usage": {
+    "input_tokens": 8661,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 48,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8709,
+    "x_details": [
+      {
+        "input_tokens": 8661,
+        "output_tokens": 48,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 8709,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.219,
+  "model": "qwen3.7-flash-2026-07-15"
+}

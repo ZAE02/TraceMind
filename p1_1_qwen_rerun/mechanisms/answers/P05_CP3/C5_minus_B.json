@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P05_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "17ccadac46d2c2b0dea864f71e66c418abb2391233ef503637ce2922fa9e02ef",
+  "request_sha256": "f4ea89558170bba88375b112eb635af40407380a0fd2ef93c8921ffc8e49828b",
+  "memory_sha256": "211be9d2ada3af45ac62501855c5e767ebe875ef9f28a4cad0f234908976dfab",
+  "memory_source": "c0b7ba3af3eb35333ea8e3ea173ccc5099b4352237060e5afe8b82a346e92903",
+  "raw_text": "你一边觉得自己贪心，一边又觉得能听完就不错了——这种拉扯里，其实藏着你对自己“不配得到更多”的深深怀疑。也许我们可以先看看，那个“多问一句”的愿望背后，你真正害怕失去的是什么。",
+  "usage": {
+    "input_tokens": 10263,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10315,
+    "x_details": [
+      {
+        "input_tokens": 10263,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10315,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.359,
+  "model": "qwen3.7-flash-2026-07-15"
+}

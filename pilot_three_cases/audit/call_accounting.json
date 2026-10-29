@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-13T06:10:17.430395+00:00",
+  "logged_attempts": 999,
+  "counts": {
+    "full_agent_calls.jsonl:http_error": 4,
+    "full_agent_calls.jsonl:success": 984,
+    "full_agent_calls.jsonl:network_error": 2,
+    "smoke_calls.jsonl:success": 9
+  },
+  "reported_usage_sums": {
+    "input_tokens": 6317840,
+    "output_tokens": 523645,
+    "total_tokens": 6841485
+  },
+  "notice": "Includes archived/rejected drafts, unsent editing candidates, retries and probes. API usage only; Codex subagent usage is unavailable. Not a billed-cost estimate."
+}

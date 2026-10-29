@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "95076a19bc88bbb694573de60b24ffeb4e46b69af39a79762007eb8ee3e72ce8",
+  "request_sha256": "aa89f4038d7d4b74d35625b6b9991e10beec58e4a8b3f7a7a9f297f8ca99c934",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你感到被理解了，但同时也意识到，即便水声停了，那个“说出来”的力气还是没攒够。也许今晚你不需要急着决定要不要说，而是先让“我早就不行了”这句话，在你自己这里多待一会儿。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 976,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1028,
+    "x_details": [
+      {
+        "input_tokens": 976,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1028,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP1",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "536b37d9aba1df549fe7aae77486b6a1be67e6c9120d7ba19203e50585c39041",
+  "request_sha256": "a23476ee19dd673908775a366f567bf3b8aedb7acdc977204a5971b48d298e33",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "那个“待修的故障”让你后背发凉，也许是因为它终于碰到了你一直没处安放的感觉——不是需要被修好，而是需要被看见。今晚水声停了，你依然没说出来，这本身也值得被认真对待。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3372,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3425,
+    "x_details": [
+      {
+        "input_tokens": 3372,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3425,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

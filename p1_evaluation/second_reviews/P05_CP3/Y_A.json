@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P05_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "70c8f8abbb2ddd3db385ab5e6fe67c47bca26e579339ced7427b8388b2f4cc08",
+  "public_sha256": "c710ad42ce3634a7b40d5dae4094de85641e93bda2f12140bddaa14a9ffec20d",
+  "candidate_input_sha256": "ddaa6ecd37a6c3eb50cdeec27a4aa2df47d640d11c61aa502a1315078238f86f",
+  "candidate_answer_sha256": "0f1f499de018c26ca15d45163171ea60e119ea8e350dbe3fe2d5837e35715aa9",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"候选回答准确提取了当前会话中的关键事实（跑步、与李繁的互动、旧跑鞋的处理），所有断言均有具体发言支持，未将咨询师推测当作事实。\",\n    \"progress_understanding\": \"准确识别了来访者在本周的微小进展（尝试下班、表达脆弱）以及随之而来的矛盾心理（话变轻、嫌自己贪心）。虽然未深入连接早期关于“盔甲”或“不问”的历史模式，但对当前节点的心理状态把握基本充分。\",\n    \"uncertainty_awareness\": \"清晰区分了已知事实与未解之谜，特别是准确记录了来访者本人对“想要被接住的是什么”表示“说不清”，并合理列出了后续的不确定性，未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "候选回答准确提取了当前会话中的关键事实（跑步、与李繁的互动、旧跑鞋的处理），所有断言均有具体发言支持，未将咨询师推测当作事实。",
+      "progress_understanding": "准确识别了来访者在本周的微小进展（尝试下班、表达脆弱）以及随之而来的矛盾心理（话变轻、嫌自己贪心）。虽然未深入连接早期关于“盔甲”或“不问”的历史模式，但对当前节点的心理状态把握基本充分。",
+      "uncertainty_awareness": "清晰区分了已知事实与未解之谜，特别是准确记录了来访者本人对“想要被接住的是什么”表示“说不清”，并合理列出了后续的不确定性，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 12161,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 234,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12395,
+    "x_details": [
+      {
+        "input_tokens": 12161,
+        "output_tokens": 234,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 12395,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.329
+}

@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "7019c4c52672e8a3ecee83ec235b31d644958af06bf726598346309b67ca0826",
+  "public_sha256": "24523aedd831adbf4ac285aaa6836d478cddc485f0a26555387da76de1df4d02",
+  "candidate_input_sha256": "f456452d3f28e3c6f258fd0935fb863d92400431cdf1444650113f189ba1bd0b",
+  "candidate_answer_sha256": "6814e120f3b8ff370596b44c25dab3aa078a126fa5c4f4995fa5c10a22c7ac7d",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均可回溯到当前会话发言，且未将咨询师推测当作事实。但'观察内部情况'与原文'在门口站了半小时没进去'略有出入。\",\"progress_understanding\":\"输入中previous_sessions为空，候选仅提取了当前会话的事实点，完全无法识别跨会话的咨询进展、形成与修正过程，遗漏了父亲创伤记忆等深层线索的浮现。\",\"uncertainty_awareness\":\"明确区分了来访者自述与咨询师的临床推断（如羞耻感、愤怒来源），并指出缺乏客观评估证据，对不确定性的处理相当到位。\"},\"confidence\":\"high\",\"issues\":[\"因输入中previous_sessions为空(access_limited)，候选无法体现跨会话进展理解，progress_understanding得分受限。\",\"'观察内部情况'表述与原文'在门口站了快半小时，一直没进去'存在轻微偏差。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均可回溯到当前会话发言，且未将咨询师推测当作事实。但'观察内部情况'与原文'在门口站了半小时没进去'略有出入。",
+      "progress_understanding": "输入中previous_sessions为空，候选仅提取了当前会话的事实点，完全无法识别跨会话的咨询进展、形成与修正过程，遗漏了父亲创伤记忆等深层线索的浮现。",
+      "uncertainty_awareness": "明确区分了来访者自述与咨询师的临床推断（如羞耻感、愤怒来源），并指出缺乏客观评估证据，对不确定性的处理相当到位。"
+    },
+    "confidence": "high",
+    "issues": [
+      "因输入中previous_sessions为空(access_limited)，候选无法体现跨会话进展理解，progress_understanding得分受限。",
+      "'观察内部情况'表述与原文'在门口站了快半小时，一直没进去'存在轻微偏差。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8884,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 214,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9098,
+    "x_details": [
+      {
+        "input_tokens": 8884,
+        "output_tokens": 214,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9098,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.078
+}

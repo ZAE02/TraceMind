@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-13T08:30:21.500661+00:00",
+  "affected_nodes": {
+    "R1": [
+      "C02_CP2",
+      "C03_CP1"
+    ],
+    "R2": [
+      "C01_CP2",
+      "C02_CP1",
+      "C03_CP1",
+      "C03_CP2"
+    ]
+  },
+  "scope": "Possible reviewer context contamination only. Answer model requests were stateless and strictly frozen.",
+  "correction": "Fresh model reviewers, within-case chronological order; original grades retained separately."
+}

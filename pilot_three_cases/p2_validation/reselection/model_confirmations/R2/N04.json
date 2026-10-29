@@ -1,0 +1,7 @@
+{
+  "node":"N04", "public_input_sha256":"78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20", "needs_history":true,
+  "reason":"当前Session已显示界限后轻内疚与确认松的困难，但没有解释我的越来越薄的原始含义。历史可区分一次正常赴约和自己未来时间仍不可靠的感受，实质改变合理理解与下一步探索。",
+  "historical_difference":"历史中薄不是简单没赴约或欠朋友时间，而是下回也可能不是自己的时间的感觉；可核对此次正常做饭对这种感觉的影响，不应由一次赴约直接判定修复。",
+  "evidence_ids":["C02-S03-U15","C02-S03-U17","C02-S06-U17","C02-S07-U17","C02-S08-U11"],
+  "reviewer_model":"gpt-6.1-sol", "reasoning_effort":"medium", "human_review_performed":false
+}

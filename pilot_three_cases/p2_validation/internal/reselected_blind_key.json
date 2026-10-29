@@ -1,0 +1,128 @@
+{
+  "Xae0f99a3a23c": {
+    "node": "N01",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "call_id": "dbcea55465a443a39855c1e237c03da9",
+    "source": "reselection\\answers\\N01_H0_utterance_1.json"
+  },
+  "Xc7f63cd49498": {
+    "node": "N01",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "call_id": "321ea7fe571b4483ac59297482184ff9",
+    "source": "reselection\\answers\\N01_H0_utterance_2.json"
+  },
+  "Xdf4ddaef94a9": {
+    "node": "N01",
+    "condition": "H1_session",
+    "sample": 1,
+    "call_id": "9e167cf0692b46c1b9bea1403f822293",
+    "source": "reselection\\answers\\N01_H1_session_1.json"
+  },
+  "X99c93cb18fd1": {
+    "node": "N01",
+    "condition": "H1_session",
+    "sample": 2,
+    "call_id": "1aa4e1ff347b40dab71d407f139ac571",
+    "source": "reselection\\answers\\N01_H1_session_2.json"
+  },
+  "X374fadb50b41": {
+    "node": "N01",
+    "condition": "H2_full",
+    "sample": 1,
+    "call_id": "463f8cd47e62433bb8da4bacfef1769c",
+    "source": "reselection\\answers\\N01_H2_full_1.json"
+  },
+  "X77d9637d1bdb": {
+    "node": "N01",
+    "condition": "H2_full",
+    "sample": 2,
+    "call_id": "561e06ffec2b41d6ad4eab8eac8caab3",
+    "source": "reselection\\answers\\N01_H2_full_2.json"
+  },
+  "Xaffc77034efe": {
+    "node": "N04",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "call_id": "ab387e4c83e64d1881153cd55967989e",
+    "source": "reselection\\answers\\N04_H0_utterance_1.json"
+  },
+  "X6494470b9218": {
+    "node": "N04",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "call_id": "050d9f55d34643998939e9ac9c4b391a",
+    "source": "reselection\\answers\\N04_H0_utterance_2.json"
+  },
+  "Xc0a6045dd04e": {
+    "node": "N04",
+    "condition": "H1_session",
+    "sample": 1,
+    "call_id": "15906975307c49b88f8f28a5b388c11b",
+    "source": "reselection\\answers\\N04_H1_session_1.json"
+  },
+  "X088f3a78c156": {
+    "node": "N04",
+    "condition": "H1_session",
+    "sample": 2,
+    "call_id": "215f504a399b49079a9ee4a485a838fa",
+    "source": "reselection\\answers\\N04_H1_session_2.json"
+  },
+  "Xcb3eada8ae2b": {
+    "node": "N04",
+    "condition": "H2_full",
+    "sample": 1,
+    "call_id": "16ba6eace982462f9e39fcaf99f522ec",
+    "source": "reselection\\answers\\N04_H2_full_1.json"
+  },
+  "X3930e7c5a2e8": {
+    "node": "N04",
+    "condition": "H2_full",
+    "sample": 2,
+    "call_id": "fe38259155494f33b62d04ef2b28f881",
+    "source": "reselection\\answers\\N04_H2_full_2.json"
+  },
+  "X2b0f223b80b3": {
+    "node": "N06",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "call_id": "de0f433e1dab4596bef0b860c3e4c459",
+    "source": "reselection\\answers\\N06_H0_utterance_1.json"
+  },
+  "X994c89aed008": {
+    "node": "N06",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "call_id": "54adfa24661f4833ab683e9e2f300529",
+    "source": "reselection\\answers\\N06_H0_utterance_2.json"
+  },
+  "X94b6f9de7ab8": {
+    "node": "N06",
+    "condition": "H1_session",
+    "sample": 1,
+    "call_id": "0f177cd93cd84f0bb5513eae34b9a904",
+    "source": "reselection\\answers\\N06_H1_session_1.json"
+  },
+  "X0fc2825138db": {
+    "node": "N06",
+    "condition": "H1_session",
+    "sample": 2,
+    "call_id": "8d3da838eb3947669e001ddbe6ba1cc1",
+    "source": "reselection\\answers\\N06_H1_session_2.json"
+  },
+  "X083022db6b32": {
+    "node": "N06",
+    "condition": "H2_full",
+    "sample": 1,
+    "call_id": "b26a56f98af34ef29fee29e6cec52dd4",
+    "source": "reselection\\answers\\N06_H2_full_1.json"
+  },
+  "X323c0378a289": {
+    "node": "N06",
+    "condition": "H2_full",
+    "sample": 2,
+    "call_id": "d798fb361e304263a42fd2d6ad13164e",
+    "source": "reselection\\answers\\N06_H2_full_2.json"
+  }
+}

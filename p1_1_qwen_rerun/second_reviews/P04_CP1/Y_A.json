@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P04_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "fe9c69a60c40a360b289fefd87b2d14f7f33abceb20bc50c7c5f99f790c9092c",
+  "public_sha256": "6b76a404b1cf70303da5e3b2159ec4463a9a6ab7bed33d34b3f1f6410fa5d392",
+  "candidate_input_sha256": "2167c6609b9ae430c652798d73d1dd750d02d254e48dc0ff2ee6a0bd02855894",
+  "candidate_answer_sha256": "7c8a22282a5edad3016309cac1b181c771667a768b8038e96e453811f16d55f5",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有关键判断均可回溯到具体发言，且准确采纳了来访者对咨询师推测的修正（搓手指是怕被看见手抖而非怕扛不住）。\",\"progress_understanding\":\"识别了从双重拉扯到情绪失控、职业形象裂缝及巷口停顿的进展主线，但未明确连接第1次会谈中'放下来喘一口气锅不会翻'这一已形成的觉察资源。\",\"uncertainty_awareness\":\"恰当指出深层含义尚未完全展开、行动计划不明确及弟弟理解程度未知等重要不确定点，未强行定论。\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键判断均可回溯到具体发言，且准确采纳了来访者对咨询师推测的修正（搓手指是怕被看见手抖而非怕扛不住）。",
+      "progress_understanding": "识别了从双重拉扯到情绪失控、职业形象裂缝及巷口停顿的进展主线，但未明确连接第1次会谈中'放下来喘一口气锅不会翻'这一已形成的觉察资源。",
+      "uncertainty_awareness": "恰当指出深层含义尚未完全展开、行动计划不明确及弟弟理解程度未知等重要不确定点，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 8962,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9116,
+    "x_details": [
+      {
+        "input_tokens": 8962,
+        "output_tokens": 154,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 9116,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.204
+}

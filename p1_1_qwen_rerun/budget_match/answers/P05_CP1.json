@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P05_CP1",
+  "condition": "C5_budget",
+  "raw_text": "那种“不用管自己看起来稳不稳”的状态，对你来说一定很珍贵。可一旦停下来，那个“装得漏洞百出”的担心又回来了，这种落差是不是让你觉得，只有忙碌或教人时，你才是被允许的？",
+  "input_sha256": "1c06e38bd6e9521f137137c492e0061818c03515df14950cde11b4400bd3098d",
+  "memory_sha256": "f0b0c2cb9d907ed8b1fa3d094fd3552765f7d95631f5a190838a99957a75c6e0",
+  "request_sha256": "639a77f3aac89263245976862b529beb4f3f291fcff5ab2f0bf86bae7fa67d91",
+  "usage": {
+    "input_tokens": 3857,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3909,
+    "x_details": [
+      {
+        "input_tokens": 3857,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3909,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.781
+}

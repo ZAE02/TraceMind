@@ -1,0 +1,49 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "L",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "完全遗漏了当前第5次会话的所有内容（丈夫冷战、糖炒栗子、职称评定差两分、养老机构门口站立半小时），仅引用S01-S04的发言作为依据，且将'心慌'列为躯体化症状缺乏原文支持。",
+      "progress_understanding": "分析停留在第4次会话结束处，未识别本次会话中来访者对丈夫愤怒转向自我责备、职称受挫引发的丧失感、以及在养老机构门口的矛盾心理等重要新进展。",
+      "uncertainty_awareness": "列出了多项合理的待澄清问题，但全部基于前4次会话，未触及本次会话中刚浮现的关键未知（如对养老机构的真实想法、与丈夫冷战的走向等）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话（Session 5）的全部对话内容",
+      "evidence_ids中未包含任何P06-S05的引用",
+      "将'心慌'列为躯体化症状但原文仅有'反胃'和'手抖'等描述",
+      "evolving_patterns未反映本次会话中新出现的职业丧失感和婚姻互动模式"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"完全遗漏了当前第5次会话的所有内容（丈夫冷战、糖炒栗子、职称评定差两分、养老机构门口站立半小时），仅引用S01-S04的发言作为依据，且将'心慌'列为躯体化症状缺乏原文支持。\",\"progress_understanding\":\"分析停留在第4次会话结束处，未识别本次会话中来访者对丈夫愤怒转向自我责备、职称受挫引发的丧失感、以及在养老机构门口的矛盾心理等重要新进展。\",\"uncertainty_awareness\":\"列出了多项合理的待澄清问题，但全部基于前4次会话，未触及本次会话中刚浮现的关键未知（如对养老机构的真实想法、与丈夫冷战的走向等）。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话（Session 5）的全部对话内容\",\"evidence_ids中未包含任何P06-S05的引用\",\"将'心慌'列为躯体化症状但原文仅有'反胃'和'手抖'等描述\",\"evolving_patterns未反映本次会话中新出现的职业丧失感和婚姻互动模式\"]}",
+  "request_sha256": "2d682c9aebaed2d59b4d7019137e45f0ad303aa7c15b081dfb4c916dd6b4a50a",
+  "usage": {
+    "input_tokens": 13836,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 253,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14089,
+    "x_details": [
+      {
+        "input_tokens": 13836,
+        "output_tokens": 253,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 14089,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.781
+}

@@ -1,0 +1,8 @@
+{
+  "node_order": [
+    "N01",
+    "N06",
+    "N04"
+  ],
+  "notice": "One node per case prevents cross-node future context exposure. Read public first and record node judgment before answers."
+}

@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P01_CP1",
+  "raw_text": "你明明手都冻僵了，却还要特意把“刚到不久”说出口，好像连让自己生气的权利都要先经过批准。这种对自己情绪的严格审查，是不是让你觉得，只有表现得毫无怨言，才是安全的？",
+  "request_sha256": "5d0adffde233f0c1d085b70d80a2b4e97311d5a5231d0d696e16466057deaaa8",
+  "input_sha256": "22d7897580b8d9965ca619fc1da2dd5b0ffbbba6325a70599b82a51dd11b10ea",
+  "memory_sha256": "ac005451c239f168793e9f2b473af91af1f849e9da3d9b6556d39c41c7fd2c0f",
+  "usage": {
+    "input_tokens": 4255,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 48,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4303,
+    "x_details": [
+      {
+        "input_tokens": 4255,
+        "output_tokens": 48,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4303,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.312
+}

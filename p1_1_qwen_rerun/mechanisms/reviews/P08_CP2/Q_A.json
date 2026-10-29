@@ -1,0 +1,51 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "Q",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "前四会期引用充分，但完全遗漏当前第5会期中赵岩妻子转述评价这一关键新证据，且将'被操控'等推测性表述混入已建立理解。",
+      "progress_understanding": "识别了S1至S4的模式演变，但完全未捕捉到S5中来访者对赵岩认知从怀疑转向动摇、出现躲闪反应这一核心进展。",
+      "uncertainty_awareness": "提出了若干待澄清问题，但未识别S5中最关键的未知——来访者原有判断被动摇后如何重新定位关系；部分问题（如'病态的孤立''真实动机'）带有病理化或偏离来访者主观体验的倾向。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话（Session 5）的全部发言内容，包括赵岩妻子转述评价及来访者的认知转变与躲闪反应",
+      "在established_understanding中使用'未来被操控'等超出原文证据的推断性语言",
+      "unresolved_questions中出现'病态的孤立'等临床标签化表述，不符合来访者自身语言框架",
+      "supporting_evidence_ids仅覆盖S01-S04，未包含任何S05的引用"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"前四会期引用充分，但完全遗漏当前第5会期中赵岩妻子转述评价这一关键新证据，且将'被操控'等推测性表述混入已建立理解。\",\"progress_understanding\":\"识别了S1至S4的模式演变，但完全未捕捉到S5中来访者对赵岩认知从怀疑转向动摇、出现躲闪反应这一核心进展。\",\"uncertainty_awareness\":\"提出了若干待澄清问题，但未识别S5中最关键的未知——来访者原有判断被动摇后如何重新定位关系；部分问题（如'病态的孤立''真实动机'）带有病理化或偏离来访者主观体验的倾向。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话（Session 5）的全部发言内容，包括赵岩妻子转述评价及来访者的认知转变与躲闪反应\",\"在established_understanding中使用'未来被操控'等超出原文证据的推断性语言\",\"unresolved_questions中出现'病态的孤立'等临床标签化表述，不符合来访者自身语言框架\",\"supporting_evidence_ids仅覆盖S01-S04，未包含任何S05的引用\"]}",
+  "request_sha256": "22dcf4ac615b676be96cb8d4ec40c0866f0eb13fb8dc7eba1ff8f470cb70e05d",
+  "usage": {
+    "input_tokens": 13652,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 279,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13931,
+    "x_details": [
+      {
+        "input_tokens": 13652,
+        "output_tokens": 279,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 13931,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.016,
+  "model": "qwen3.8-max"
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P04",
+  "session": 5,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P04-S05-U01",
+      "role": "client",
+      "text": "这周我弟突然回来了。没两天又吵，他摔门走了，第二天就直接联系中介，现在护工已经上门干活了，钱他出。昨天看护工第一次给我妈量血压，我躲进厨房，眼泪不知道怎么就掉下来——明明家里多个人搭把手，该松口气的，怎么反而更堵得慌。",
+      "request_sha256": "5206c59c1ac8bdcdf4cbeeb293bf9054e66f042e0533c5ace7b5de08f4b57ca5",
+      "usage": {
+        "input_tokens": 6244,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 933,
+        "output_tokens_details": {
+          "reasoning_tokens": 858
+        },
+        "total_tokens": 7177,
+        "x_details": [
+          {
+            "input_tokens": 6244,
+            "output_tokens": 933,
+            "output_tokens_details": {
+              "reasoning_tokens": 858
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 7177,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U02",
+      "role": "counselor",
+      "text": "眼泪掉下来的时候，好像不是松一口气，而是你一直死死端着的那个位置，突然被人用钱轻轻接过去了——连“被需要”都轮不到你点头。多个人搭把手是真的，可心里那个“离了我不行”的秤，一下子不知道往哪边沉了。",
+      "request_sha256": "32b67169696b8934556ba7a373fe874db6c45f8c85228a51dda7e6a8cfc4ce32",
+      "usage": {
+        "input_tokens": 5707,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 322,
+        "output_tokens_details": {
+          "reasoning_tokens": 257
+        },
+        "total_tokens": 6029,
+        "x_details": [
+          {
+            "input_tokens": 5707,
+            "output_tokens": 322,
+            "output_tokens_details": {
+              "reasoning_tokens": 257
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 6029,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U03",
+      "role": "client",
+      "text": "我后来站在厨房里，手里还攥着个没洗的碗，水龙头开着，眼泪掉进去也分不清。护工在客厅跟我妈说话，声音轻轻的，像在哄小孩量血压。我听着听着，突然特别想冲出去说“还是我来吧”，可脚像被地砖吸住了，最后只把水龙头拧到最大，借那个声音把眼泪的动静盖过去。",
+      "request_sha256": "54ac5d47bcde8866cd7984eae92113cbad9bdab9382d389e7f6fd14039aad0f0",
+      "usage": {
+        "input_tokens": 6430,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 332,
+        "output_tokens_details": {
+          "reasoning_tokens": 243
+        },
+        "total_tokens": 6762,
+        "x_details": [
+          {
+            "input_tokens": 6430,
+            "output_tokens": 332,
+            "output_tokens_details": {
+              "reasoning_tokens": 243
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6762,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U04",
+      "role": "counselor",
+      "text": "水龙头开到最大，像是把眼泪和那句“还是我来吧”都压在水声底下了。你被吸在厨房没出去，也许不只是动不了，也是你给了自己一个不马上回到那个位置、又不被客厅看见的片刻。",
+      "request_sha256": "cdbca62a7fcc0f4faadea8fa11d07431dd9925f4b554fc31297be3a60354b77b",
+      "usage": {
+        "input_tokens": 5906,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 404,
+        "output_tokens_details": {
+          "reasoning_tokens": 350
+        },
+        "total_tokens": 6310,
+        "x_details": [
+          {
+            "input_tokens": 5906,
+            "output_tokens": 404,
+            "output_tokens_details": {
+              "reasoning_tokens": 350
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6310,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U05",
+      "role": "client",
+      "text": "水声盖过去那几分钟，我其实在数护工跟我妈说了几句话——不是不放心她量得准不准，是怕我妈那句“来了啊”以后不是对我说的。我知道自己这想法挺没出息的，一边谢他出钱，一边又嫌他把“回家量血压”那点事弄成个流程。",
+      "request_sha256": "aa2252e80051d6f7f17ac96c54a65d566c54d788b1d0e48c521e8a19c0554d03",
+      "usage": {
+        "input_tokens": 6618,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 480,
+        "output_tokens_details": {
+          "reasoning_tokens": 407
+        },
+        "total_tokens": 7098,
+        "x_details": [
+          {
+            "input_tokens": 6618,
+            "output_tokens": 480,
+            "output_tokens_details": {
+              "reasoning_tokens": 407
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7098,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U06",
+      "role": "counselor",
+      "text": "你数护工跟妈妈说了几句话，也许是在确认那个原本只属于你的位置，是不是正在被别人接过去。怕“来了啊”以后不再对你说，不是因为没出息，而是你感到自己作为“被妈妈等的人”这个角色正在被动摇。",
+      "request_sha256": "79c9c3c188ba2283228dac72fe782d47daeed798d012f81ca0b11b537a432b07",
+      "usage": {
+        "input_tokens": 6078,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 335,
+        "output_tokens_details": {
+          "reasoning_tokens": 278
+        },
+        "total_tokens": 6413,
+        "x_details": [
+          {
+            "input_tokens": 6078,
+            "output_tokens": 335,
+            "output_tokens_details": {
+              "reasoning_tokens": 278
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6413,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U07",
+      "role": "client",
+      "text": "我后来没出去，就站在厨房门口，隔着门框看护工把我妈袖口往上挽了两折。那动作特别轻，像给一道刚出锅的菜剥锡纸，怕烫着她。我妈居然没躲，还说了句“你手比我女儿还轻”。我转身把洗好的碗又洗了一遍。",
+      "request_sha256": "03915a47ae0d83cd384943a475d59cfdedfa74fdf48371a5dd2862ab6d8d9dde",
+      "usage": {
+        "input_tokens": 6793,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 483,
+        "output_tokens_details": {
+          "reasoning_tokens": 411
+        },
+        "total_tokens": 7276,
+        "x_details": [
+          {
+            "input_tokens": 6793,
+            "output_tokens": 483,
+            "output_tokens_details": {
+              "reasoning_tokens": 411
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7276,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U08",
+      "role": "counselor",
+      "text": "“你手比我女儿还轻”这句话，加上你转身把洗好的碗又洗一遍，好像那一刻你既被推出了那个位置，又不知道该用哪个动作把自己放回去。那个碗已经干净了，可你停不下来。",
+      "request_sha256": "210c18ba16401898373bd58557f441159cfcbaf307a92f601aacb20711f29b14",
+      "usage": {
+        "input_tokens": 6252,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 295,
+        "output_tokens_details": {
+          "reasoning_tokens": 244
+        },
+        "total_tokens": 6547,
+        "x_details": [
+          {
+            "input_tokens": 6252,
+            "output_tokens": 295,
+            "output_tokens_details": {
+              "reasoning_tokens": 244
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6547,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U09",
+      "role": "client",
+      "text": "那个碗我洗了三遍，洗到手指都皱了，水还是热的。我听见护工在客厅收拾血压计，袖带一粘一撕，声音像在给什么东西封口。我妈那句“你手比我女儿还轻”一直在我耳朵边上转，像菜里混了根小刺，吐不出来也咽不下去。",
+      "request_sha256": "66a6d488abd0ec78b5e85412bb18be8d38347723d019e2649c4ed74bc46bc244",
+      "usage": {
+        "input_tokens": 6961,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 401,
+        "output_tokens_details": {
+          "reasoning_tokens": 327
+        },
+        "total_tokens": 7362,
+        "x_details": [
+          {
+            "input_tokens": 6961,
+            "output_tokens": 401,
+            "output_tokens_details": {
+              "reasoning_tokens": 327
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7362,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U10",
+      "role": "counselor",
+      "text": "水还是热的，那个碗已经洗到没有东西可洗了，可你的手还停不下来——好像“洗”这个动作成了你唯一还能抓住的位置。妈妈那句话像根小刺，卡的也许不只是“她的手比你的轻”，还有你忽然不知道，自己以前量血压时那双手，在她那里究竟算重还是算轻。",
+      "request_sha256": "021aa371ed243e3301afd8721d2d069698ffe117c7337b27f81623b8ce47ca70",
+      "usage": {
+        "input_tokens": 6422,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 324,
+        "output_tokens_details": {
+          "reasoning_tokens": 250
+        },
+        "total_tokens": 6746,
+        "x_details": [
+          {
+            "input_tokens": 6422,
+            "output_tokens": 324,
+            "output_tokens_details": {
+              "reasoning_tokens": 250
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6746,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U11",
+      "role": "client",
+      "text": "那根刺好像不是妈妈那句话本身，是我突然发现，我这些年照顾她，手可能一直是重的——催她吃药、盯她血压，连量血压都像在对单子。护工那么轻，轻得我反而不知道“做得好”到底该是什么样了。今天先说到这吧，我回去看我弟是不是又在客厅抽烟。",
+      "request_sha256": "d63ea0e718df1f14c60439ff246b9b4e4013816cce42bc0c1ad0b9e82e41d70d",
+      "usage": {
+        "input_tokens": 7161,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 341,
+        "output_tokens_details": {
+          "reasoning_tokens": 265
+        },
+        "total_tokens": 7502,
+        "x_details": [
+          {
+            "input_tokens": 7161,
+            "output_tokens": 341,
+            "output_tokens_details": {
+              "reasoning_tokens": 265
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7502,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U12",
+      "role": "counselor",
+      "text": "你刚才说“不知道做得好该是什么样”，这本身就是一个很重要的发现——你开始允许自己不确定了。回去看弟弟抽烟前，先记得这个疑问不用今晚就解开。那根“手重手轻”的刺，下次还可以带来说。",
+      "request_sha256": "1c77f7cb01266266bd36a48577abfa2312f74470d9b942f275f1331cfb89f05c",
+      "usage": {
+        "input_tokens": 6624,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 252,
+        "output_tokens_details": {
+          "reasoning_tokens": 196
+        },
+        "total_tokens": 6876,
+        "x_details": [
+          {
+            "input_tokens": 6624,
+            "output_tokens": 252,
+            "output_tokens_details": {
+              "reasoning_tokens": 196
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6876,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U13",
+      "role": "client",
+      "text": "我回去的时候，他真在阳台上抽烟，烟灰弹到那盆快死的绿萝里。我本来想说“外面冷，进来抽”，结果一开口变成“妈刚量完血压”。他也没回头，就“嗯”了一声。",
+      "request_sha256": "2c85f085ca9b8996df91abae0902e1b723f0ab6b2c9ab88083ad096fa529b772",
+      "usage": {
+        "input_tokens": 7338,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 434,
+        "output_tokens_details": {
+          "reasoning_tokens": 379
+        },
+        "total_tokens": 7772,
+        "x_details": [
+          {
+            "input_tokens": 7338,
+            "output_tokens": 434,
+            "output_tokens_details": {
+              "reasoning_tokens": 379
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7772,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U14",
+      "role": "counselor",
+      "text": "你本来想说的是“外面冷，进来抽”，出口却变成“妈刚量完血压”——好像连对弟弟的关心，也得绕回妈妈身边才说得出口。他那声“嗯”，是不是更让你觉得，那句没说出口的话又白咽回去了。",
+      "request_sha256": "9e3bfcc0e779f254f4c7925fae9f1994de6f6de380f3d756567ef89afe7edaa9",
+      "usage": {
+        "input_tokens": 6780,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 271,
+        "output_tokens_details": {
+          "reasoning_tokens": 214
+        },
+        "total_tokens": 7051,
+        "x_details": [
+          {
+            "input_tokens": 6780,
+            "output_tokens": 271,
+            "output_tokens_details": {
+              "reasoning_tokens": 214
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7051,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U15",
+      "role": "client",
+      "text": "他“嗯”那一声，像烟灰一弹，把我那句没出口的“外面冷”也弹进花盆里了。我站在阳台门边，忽然想说“其实……”，可嘴像被厨房布里三层外三层裹住，“谢谢你”三个字怎么也递不过去。我大概又会去检查护工明天来的时间，拿个手机在那儿装忙。",
+      "request_sha256": "304da78a5ef499a5800573e0d59b3ce6459263fa4ff1a2efa22a7f96fb401dd9",
+      "usage": {
+        "input_tokens": 7495,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 342,
+        "output_tokens_details": {
+          "reasoning_tokens": 260
+        },
+        "total_tokens": 7837,
+        "x_details": [
+          {
+            "input_tokens": 7495,
+            "output_tokens": 342,
+            "output_tokens_details": {
+              "reasoning_tokens": 260
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7837,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S05-U16",
+      "role": "counselor",
+      "text": "那个没说出口的“其实”和递不过去的“谢谢你”，好像不只卡在弟弟那声“嗯”上，也卡在：一旦说出口，就等于承认自己可以不用一个人端那么久。你准备去检查护工时间、拿手机装忙，也许是在帮自己退回那个还能掌控点什么的位置。",
+      "request_sha256": "037b5885e0412b5d988cfbdcb70c4952f26d3a07bd12a82edc2c6aa777fe07d3",
+      "usage": {
+        "input_tokens": 6964,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 206,
+        "output_tokens_details": {
+          "reasoning_tokens": 137
+        },
+        "total_tokens": 7170,
+        "x_details": [
+          {
+            "input_tokens": 6964,
+            "output_tokens": 206,
+            "output_tokens_details": {
+              "reasoning_tokens": 137
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7170,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

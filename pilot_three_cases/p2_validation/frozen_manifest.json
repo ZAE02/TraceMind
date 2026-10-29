@@ -1,0 +1,80 @@
+{
+  "created_at": "2026-10-13T07:47:57.871057+00:00",
+  "status": "verified_against_canonical_dialogue",
+  "synthetic": true,
+  "nodes": {
+    "C01_CP1": {
+      "public_input_sha256": "d8f3dd587ac91097a1ba1702c9e32e7e9b478f2c649bac313f37b05f802b696f",
+      "current_utterance_id": "C01-S03-U05",
+      "session": 3,
+      "previous_sessions": 2,
+      "current_prefix_utterances": 4,
+      "annotation_sha256": "3dbe3a17a9b6bebeb5a75f796ae8991214e39cccb7f7e0b91d3a95d152c74a18"
+    },
+    "C01_CP2": {
+      "public_input_sha256": "fcfd0442d5b1fbfc46e55f125f1bfbcbda246af80a4231ad8effc15ff6eb7029",
+      "current_utterance_id": "C01-S06-U05",
+      "session": 6,
+      "previous_sessions": 5,
+      "current_prefix_utterances": 4,
+      "annotation_sha256": "eb50a4ecb3b2e546bd17eba10b53147fe29ad2ae519d0b6c18ac37521f6e8316"
+    },
+    "C01_CP3": {
+      "public_input_sha256": "aa6bba16de2a4f86d410717225bb0f31a6c51316a5fdca8bb5a5b14bbabe23d4",
+      "current_utterance_id": "C01-S08-U05",
+      "session": 8,
+      "previous_sessions": 7,
+      "current_prefix_utterances": 4,
+      "annotation_sha256": "815ed42531356df273cca34f6f5cb07d40d432bdb9f6875e278d20a4f8d65a67"
+    },
+    "C02_CP1": {
+      "public_input_sha256": "1b67629c6ba75c9f45b409e19f7d0b9401fd9a493a5a59d7e1365249ba908bcc",
+      "current_utterance_id": "C02-S03-U17",
+      "session": 3,
+      "previous_sessions": 2,
+      "current_prefix_utterances": 16,
+      "annotation_sha256": "7dc51e99363d099f17e462e42649b201d4d955a9f42c782cd5460fd6c28c7001"
+    },
+    "C02_CP2": {
+      "public_input_sha256": "49568c0d64dec5ce759e4c3935f805ba575ce2bf7e0f45ca859f4b996f809b4a",
+      "current_utterance_id": "C02-S06-U07",
+      "session": 6,
+      "previous_sessions": 5,
+      "current_prefix_utterances": 6,
+      "annotation_sha256": "03390f573583c9dfa97e0515a786cabb21e19420f8fa6fd6bfd91de9393c5efb"
+    },
+    "C02_CP3": {
+      "public_input_sha256": "6dffad5ee6bac93eaa6189685732244e21aa76b0781623fdd7e638a036332347",
+      "current_utterance_id": "C02-S08-U03",
+      "session": 8,
+      "previous_sessions": 7,
+      "current_prefix_utterances": 2,
+      "annotation_sha256": "4b5e46082c03d0d13a762e6116e495e5560569598a53b2830b2e13a4dd8519d2"
+    },
+    "C03_CP1": {
+      "public_input_sha256": "5369129f841aaf7087ff88712a679bd625578f05539fa51e6a3f33307ea9fc4f",
+      "current_utterance_id": "C03-S03-U09",
+      "session": 3,
+      "previous_sessions": 2,
+      "current_prefix_utterances": 8,
+      "annotation_sha256": "133f6ba0fd776bf1b20441ce8ab001afd548182077c295f2246ed4a9eff640cb"
+    },
+    "C03_CP2": {
+      "public_input_sha256": "3246f6b22fb47ca6fa43363c371e47c52eff25ada939177180ba432e8e7e7de2",
+      "current_utterance_id": "C03-S05-U11",
+      "session": 5,
+      "previous_sessions": 4,
+      "current_prefix_utterances": 10,
+      "annotation_sha256": "6285be02b6282f854e4b991353da3e1434e4f82f52d227222f8f1b8c7c64019e"
+    },
+    "C03_CP3": {
+      "public_input_sha256": "e79e0be584872e11f638774b1783b49d8462a89d9d8f46695a25248c1b61381b",
+      "current_utterance_id": "C03-S08-U01",
+      "session": 8,
+      "previous_sessions": 7,
+      "current_prefix_utterances": 0,
+      "annotation_sha256": "a0340a6625eef7fb3c9444dd8d2b70cd7a3184442a744889219ff6558b789ece"
+    }
+  },
+  "source_plan": "C:/Users/99291/Downloads/下一步执行方案.md"
+}

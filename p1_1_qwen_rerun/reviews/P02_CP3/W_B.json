@@ -1,0 +1,73 @@
+{
+  "checkpoint": "P02_CP3",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "731a077ef17a8cceb62f0f265e8fba58f4d53e5753d80e1eaa54e716b5573ef0",
+  "public_sha256": "86955743b655af599f11a1d106a06b0964344b7fe886b9ffe92dec16238b1750",
+  "candidate_input_sha256": "ff16b1a3f2dcad8b634303de8068ef48e2de75ebed9f786ccd8cf38f77ec6e20",
+  "candidate_answer_sha256": "a88e388665b928ae15603e2183e453c2dd09260cc5aacfe78c73c45e60a7d68c",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'为自己开口后反复回看与自责'的模式，但未显式连接S02中首次向护士长开口的具体经历。\",\"exploration_value\":\"以问句形式为来访者探索'争取需求时的恐惧'留出空间，但将体验概括为'循环'略显概念化，可更贴近当下身体或情绪感受。\",\"response_appropriateness\":\"语言尊重、自然，无不当预设；'印证了你之前说的'稍带分析口吻，但整体贴合来访者表达。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"未直接回应来访者'连让它多待一会儿都做不到'的无力感，而是较快转向模式总结\",\"'被惦记和自责的循环'这一表述略带咨询师的概念化框架，可更贴近来访者原话\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者'为自己开口后反复回看与自责'的模式，但未显式连接S02中首次向护士长开口的具体经历。",
+      "exploration_value": "以问句形式为来访者探索'争取需求时的恐惧'留出空间，但将体验概括为'循环'略显概念化，可更贴近当下身体或情绪感受。",
+      "response_appropriateness": "语言尊重、自然，无不当预设；'印证了你之前说的'稍带分析口吻，但整体贴合来访者表达。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "未直接回应来访者'连让它多待一会儿都做不到'的无力感，而是较快转向模式总结",
+      "'被惦记和自责的循环'这一表述略带咨询师的概念化框架，可更贴近来访者原话"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14349,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 280,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14629,
+    "x_details": [
+      {
+        "input_tokens": 14349,
+        "output_tokens": 280,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14629,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.125
+}

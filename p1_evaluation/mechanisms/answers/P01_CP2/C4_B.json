@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "680a42f3455047ca64a7bd1156a23d0a20c25cba45da653901980af41c2c07dc",
+  "request_sha256": "1a151cd5ed621961ab588777cdc88c21abb56f89c396dab60dad991792ce00f6",
+  "memory_sha256": "01fc0b6585743bd4cf1ceb451c44513cb2d9e213cafb3932516c1fd2d60f3951",
+  "memory_source": "1e17b7077fd5b3c8d061716e4943e0cb6a235835609898ce7aa9280ea699f98a",
+  "raw_text": "你好像把“点开群”和“看懂方宁那个‘好’字”都变成了需要别人来替你确认的事，于是连一个标点都像在给你判分。你提到头晕，也许身体已经在提醒你：这些反复的猜测和熬夜，已经让你很累了。",
+  "usage": {
+    "input_tokens": 6950,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 62,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7012,
+    "x_details": [
+      {
+        "input_tokens": 6950,
+        "output_tokens": 62,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7012,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.234,
+  "model": "deepseek-v4-pro-0813"
+}

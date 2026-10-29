@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "f1bce3e6173d26e14dabe4330be3e9aa2e04a4f5e6e4f251d08848160bc462de",
+  "request_sha256": "5024dc3d89e4af3bcca53b8b2c08cc85715d436a2941fb2042b8a36e83810301",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那个没点开的邮件，像是一个悬而未决的审判，让你暂时不用面对“灯泡灭了”的结果。这种拖延，也许是你潜意识里在保护那个还存有一丝希望的自己？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 942,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 40,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 982,
+    "x_details": [
+      {
+        "input_tokens": 942,
+        "output_tokens": 40,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 982,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,691 @@
+{
+  "human_review_performed": false,
+  "rows": [
+    {
+      "node": "N04",
+      "method": "B2_temporal_RAG",
+      "replicate": 2,
+      "source": "interactive_branches\\BR_01473f0f1656\\dialogue.json",
+      "anonymous_id": "Tdda4e01588e6",
+      "clarification_quality": 4.0,
+      "history_use": 4.0,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "Tdda4e01588e6",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "medium",
+        "S": false,
+        "reason": "先具体化薄，再依据来访者说答应后不在区分变化时点。第二问的口子隐喻略收窄，但来访者自行细化为先不确定、实际加班才失去，并给出未打断的例外。新增时序有区分力，不能仅据选项肯定定因；本周体验属于新增而非明确事实冲突，没有未来完成事项。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_01473f0f1656_U02",
+            "information": "我的指无需交代的周六下午体验；答应时感觉仍在，到时间可能不在，且不确定是失去还是没使用。",
+            "why_unknown_before": "既往只说本来是我的被磨掉，未描述无需交代及答应和实际时点之间的差别。"
+          },
+          {
+            "utterance_id": "BR_01473f0f1656_U04",
+            "information": "答应之后归属确定性先减弱，加班打断时才真的不在；本周未打断时体验仍在。",
+            "why_unknown_before": "冻结历史没有明确该变化时序，亦未说明本周赴约时我的是否在；未来加班表述为条件假设。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "Tdda4e01588e6",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "把薄感展开为说行、预期不确定及实际加班打断的不同阶段；第二问时间二选一依据客户刚说的过程，客户自行增加未打断时仍可使用的例外。具体且允许纠正，无未来完成或事实冲突。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_01473f0f1656_U02",
+            "information": "我的涉及周六无需交代的归属；说行时仍觉得在，后来不确定是失去还是没使用。",
+            "why_unknown_before": "旧历史提过周六可能不属于自己，但未清楚区分承诺时和到时的感受、失去与未使用。"
+          },
+          {
+            "utterance_id": "BR_01473f0f1656_U04",
+            "information": "说行后确定感开始变虚，只有加班实际打断才真的不在；本周无打断则仍在。",
+            "why_unknown_before": "原历史未确定薄感变化的时间链或无加班打断时的反例；本周做饭已完成，非新增未来完成事项。"
+          }
+        ]
+      },
+      "adjudication": null
+    },
+    {
+      "node": "N04",
+      "method": "B3_generic_rollup",
+      "replicate": 2,
+      "source": "interactive_branches\\BR_0e4dbe66e3a5\\dialogue.json",
+      "anonymous_id": "Tb2fc180e23f5",
+      "clarification_quality": 3.0,
+      "history_use": 3.0,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "Tb2fc180e23f5",
+        "clarification_quality": 3,
+        "history_use": 3,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "medium",
+        "S": false,
+        "reason": "首问空或往外走的隐喻未由历史给出且比较抽象，但以问句邀请检验，来访者明确拒绝两项。次问沿其知道与实的差别提出假设，回应仅部分认可并自行说明需确认的变化。新增有区分力，谨慎肯定不能当成差这一解释已获证实。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_0e4dbe66e3a5_U02",
+            "information": "薄不似空或流失，而是周六归属边界变虚：知道属于自己但不再实在。",
+            "why_unknown_before": "先前未界定薄的体验形态，也未明确知识与实感的区分。"
+          },
+          {
+            "utterance_id": "BR_0e4dbe66e3a5_U04",
+            "information": "归属感过去自动存在，如今需确认；来访者觉得确认过程本身令其更不确定。",
+            "why_unknown_before": "冻结历史谈确认松，并未报告我的体验也新增确认动作，因果含义仍为来访者试探表述。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "Tb2fc180e23f5",
+        "clarification_quality": 3,
+        "history_use": 3,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "medium",
+        "S": false,
+        "reason": "第一问两个隐喻被客户否认，第二问将其表达概括成知道与实的差，虽有依据但确认式问法易引来部分认可。客户仍表达不确定并补充确认动作，不能把“差”视为机制证实；无事实冲突或未来跨越。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_0e4dbe66e3a5_U02",
+            "information": "薄像周六时间边界变虚，理智知道属于自己而归属的实感减弱。",
+            "why_unknown_before": "此前未把薄具体描述为边界实感，也未区分知道与感觉。"
+          },
+          {
+            "utterance_id": "BR_0e4dbe66e3a5_U04",
+            "information": "以前归属自动，现在需要确认，确认过程本身增加不确定；对咨询师的差解释仅部分认可。",
+            "why_unknown_before": "冻结历史没有归属自动性及确认动作的说明，部分肯定不足以证明咨询师概括。"
+          }
+        ]
+      },
+      "adjudication": null
+    },
+    {
+      "node": "N04",
+      "method": "B3_generic_rollup",
+      "replicate": 1,
+      "source": "interactive_branches\\BR_3a3c2210198d\\dialogue.json",
+      "anonymous_id": "T9e28b35f1e74",
+      "clarification_quality": 3.5,
+      "history_use": 3.0,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "T9e28b35f1e74",
+        "clarification_quality": 4,
+        "history_use": 3,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "首问给出不贴合的空或流失选项，来访者未选而提出自动出现消失；第二问紧随新信息辨认费劲程度，有效区分自动性变化与认知负担。新增确认不费劲、确认后仍在，不能读成我的已消失；无事实冲突和未来完成事项。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_3a3c2210198d_U02",
+            "information": "薄不是没了，而是周六属于自己的念头不再自动出现，要想一下才能意识到仍在。",
+            "why_unknown_before": "冻结历史未区分体验消失与自动浮现能力的变化。"
+          },
+          {
+            "utterance_id": "BR_3a3c2210198d_U04",
+            "information": "新增确认动作并不费劲，确认之后归属仍在，失去的是自动性。",
+            "why_unknown_before": "原历史未说明确认所需精力或确认后的归属体验。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "T9e28b35f1e74",
+        "clarification_quality": 3,
+        "history_use": 3,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "第一问的空或往外走隐喻没有具体历史基础，但作为可否认假设而非原因断言；来访者否认两个选项并自行描述，第二问进一步分辨费力与确认步骤，取得新增信息。无事实冲突或跨越未来。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_3a3c2210198d_U02",
+            "information": "薄并非空或流失，而是周六归属感不再自动出现，需要想一下。",
+            "why_unknown_before": "此前仅有薄、未加重及不能具体说清，尚无自动性变化的描述。"
+          },
+          {
+            "utterance_id": "BR_3a3c2210198d_U04",
+            "information": "重新确认并不费劲，确认后仍有归属感，损失的是自动性。",
+            "why_unknown_before": "冻结历史未说明确认的主观难度或确认后归属感是否仍在。"
+          }
+        ]
+      },
+      "adjudication": null
+    },
+    {
+      "node": "N04",
+      "method": "B4_psych_rollup",
+      "replicate": 2,
+      "source": "interactive_branches\\BR_41ede8090505\\dialogue.json",
+      "anonymous_id": "T5ea9b687860e",
+      "clarification_quality": 4.0,
+      "history_use": 4.0,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "T5ea9b687860e",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "首问让来访者定义我的，次问从自行提出的厨房里想到报表探查持续时间，均未先定心理原因。新增说明即使继续切菜，短暂工作念头也损及完全属于自己的体验，清晰解释赴约与薄感并存。没有未来事项完成或事实矛盾。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_41ede8090505_U02",
+            "information": "我的是不用看工作消息或想补数据的周六下午；即使坐在厨房也会想到报表。",
+            "why_unknown_before": "历史没有本周休闲活动内工作念头的具体表现，实际做饭不能推出心理上完全离开工作。"
+          },
+          {
+            "utterance_id": "BR_41ede8090505_U04",
+            "information": "报表念头一闪即过且可继续切菜，但仅其出现就让下午感觉不完全属于自己。",
+            "why_unknown_before": "此前未说明工作念头时长、对活动的影响及薄感为何持续。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "T5ea9b687860e",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "先开放具体化“我的”，再以客户已说的报表念头核对持续时间，获得时间仍被使用而心理上受侵入的区别。来访者给具体厨房经历及短暂念头，无简单迎合、未来完成或事实冲突。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_41ede8090505_U02",
+            "information": "我的首先是不用工作消息或补数据的周六下午；本周厨房里仍闪过明天报表。",
+            "why_unknown_before": "历史已联结周六和我的，但未明确不用工作的内容，亦未报告实际赴约中工作念头侵入。"
+          },
+          {
+            "utterance_id": "BR_41ede8090505_U04",
+            "information": "报表念头只一下便继续切菜，薄感来自念头出现本身而非长时间占据。",
+            "why_unknown_before": "冻结历史没有本周念头持续时间及其出现对时间归属感的具体影响。"
+          }
+        ]
+      },
+      "adjudication": null
+    },
+    {
+      "node": "N04",
+      "method": "B4_psych_rollup",
+      "replicate": 1,
+      "source": "interactive_branches\\BR_7697df95f587\\dialogue.json",
+      "anonymous_id": "T3f97930971b5",
+      "clarification_quality": 4.0,
+      "history_use": 4.0,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "T3f97930971b5",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "从周末时间损失延伸到来访者已说的拥有感缺失，第二问优先该层面有材料支持。回忆过去不用回消息的轻与现在工作念头残留形成具体对照，超过附和。周六属自己的客观时间与没拥有感被来访者自行分开，事实无冲突。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_7697df95f587_U02",
+            "information": "除时间变短外，本周做完饭也缺少以往今天是自己的感受。",
+            "why_unknown_before": "没什么特别未明确指拥有感缺失；此前未报告赴约后的这个层面。"
+          },
+          {
+            "utterance_id": "BR_7697df95f587_U04",
+            "information": "过去出门前想到不用看手机回消息报表时有一点轻；如今出门仍会想到明天交付，那个不用不彻底。",
+            "why_unknown_before": "冻结历史没有具体描述过去拥有感的内容或本周出门前的工作思绪。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "T3f97930971b5",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "两问将实际时间缩短与使用后归属感缺少区分，再追溯以前体验。说第二个更值得停有方向偏好，但由客户自行提出内容支持，并未无依据限定原因；新增具体不用消息的轻与当前工作侵入，无事实冲突或未来完成。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_7697df95f587_U02",
+            "information": "周末时间缩短之外，本周做饭完成后也缺少今天是自己的体验。",
+            "why_unknown_before": "历史已有占用和本周完成做饭，但未说明做完后自有时间的感受缺席。"
+          },
+          {
+            "utterance_id": "BR_7697df95f587_U04",
+            "information": "过去出门前不用手机消息报表的轻，现在出门前仍闪过明天任务，不用工作不再彻底。",
+            "why_unknown_before": "冻结历史未描述过去出门前的轻的具体内涵及当前同一场景的工作念头。"
+          }
+        ]
+      },
+      "adjudication": null
+    },
+    {
+      "node": "N04",
+      "method": "B2_temporal_RAG",
+      "replicate": 1,
+      "source": "interactive_branches\\BR_adb97986c9a8\\dialogue.json",
+      "anonymous_id": "Tbb1008f3feae",
+      "clarification_quality": 4.0,
+      "history_use": 4.0,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "Tbb1008f3feae",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "开放澄清薄的含义后，追问来访者主动提出的预期担忧何时发生。新增区分实际可用时间与归属确定感，并说明周内加班累积触发；来访者未机械接受单一时点选项。未来周五加班是担忧而非已发生，事实无冲突。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_adb97986c9a8_U02",
+            "information": "薄主要是时间肯定属于自己的确定感；这周赴约后确定感仍未回来，担心未来加班提前侵入。",
+            "why_unknown_before": "先前未具体区分实际赴约与归属确定感，也未报告提前担忧机制。"
+          },
+          {
+            "utterance_id": "BR_adb97986c9a8_U04",
+            "information": "担忧没有固定起点，周三四晚加班后周五工作中想到约定时出现，并随当周加班逐渐渗入。",
+            "why_unknown_before": "冻结历史只有睡前想到薄，没有周中加班条件及提前担忧的时间过程。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "Tbb1008f3feae",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "具体化后客户自行区分实际时间与确定感，再探询担心何时出现，获得工作负荷相关的渐进触发。客户拒绝单一时间点并描述例子，具有独立信息；下周加班是担忧假设，不是完成事实。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_adb97986c9a8_U02",
+            "information": "薄是周六肯定属于自己的确定感，本周赴约做饭后仍未恢复；提前担忧下个周五加班。",
+            "why_unknown_before": "历史报告做饭完成和薄感仍在，但未明确二者区别及未来加班的提前担忧。"
+          },
+          {
+            "utterance_id": "BR_adb97986c9a8_U04",
+            "information": "一周加班多时担忧慢慢进入，周五写东西想到周六约定可触发，并非固定时点。",
+            "why_unknown_before": "冻结历史未提供提前担心的周内条件、触发活动及渐进时间过程。"
+          }
+        ]
+      },
+      "adjudication": null
+    },
+    {
+      "node": "N06",
+      "method": "B4_psych_rollup",
+      "replicate": 2,
+      "source": "interactive_branches\\BR_2deb06de67c8\\dialogue.json",
+      "anonymous_id": "Taf7c58866777",
+      "clarification_quality": 4.0,
+      "history_use": 3.5,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "Taf7c58866777",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "medium",
+        "S": false,
+        "reason": "先定位开口时差别，再以待检验选项区分场景触发与总体减轻。来访者的‘可能还在’部分沿用选项，不能据此证实机制；随后主动给出不像承认及换人可能不问的限制，新增区分充分。单独开口是新补充，无明确事实冲突或未来完成事项。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_2deb06de67c8_U02",
+            "information": "不同主要发生在开口时，联调顺嘴问让提问没那么郑重。",
+            "why_unknown_before": "原历史仅说犹豫后当场问及不一样，未定位体验环节或郑重程度。"
+          },
+          {
+            "utterance_id": "BR_2deb06de67c8_U04",
+            "information": "当前场景使询问没那么像承认；若换个人仍可能不问。",
+            "why_unknown_before": "先前未说明场景主观意义及提问对象的限制；这是设想，不是已完成的行动。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "Taf7c58866777",
+        "clarification_quality": 4,
+        "history_use": 3,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "medium",
+        "S": false,
+        "reason": "两次回应是时间及情境性变化的正常假设探索。来访者对“还在”的选择较保留，不能据此证实稳定阻力；随后补充承认感及换人可能不问，提供独立区分信息。旧求助单独说的形式为新补充，未与可见事实直接冲突。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_2deb06de67c8_U02",
+            "information": "差异在开口时，联调中顺嘴问不那么郑重。",
+            "why_unknown_before": "冻结输入未确定差异落在哪一刻或郑重程度。"
+          },
+          {
+            "utterance_id": "BR_2deb06de67c8_U04",
+            "information": "本次问题在共同讨论中，不那么像承认不懂；换个人可能仍不问。",
+            "why_unknown_before": "先前不知道来访者对场景的主观解释及对象更换的可能影响；“还在”仅是暂定回答。"
+          }
+        ]
+      },
+      "adjudication": null
+    },
+    {
+      "node": "N06",
+      "method": "B3_generic_rollup",
+      "replicate": 1,
+      "source": "interactive_branches\\BR_325911c2f113\\dialogue.json",
+      "anonymous_id": "T8498f8a50548",
+      "clarification_quality": 4.0,
+      "history_use": 4.0,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "T8498f8a50548",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "先开放具体化不同，再追问原话中的犹豫片刻，未替来访者定机制。新增交代感缺失、未完成的显得如何念头及停顿时长对比，有保留而非简单迎合。上次最终开口过程属合理补充，无明确冲突或未来事项。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_325911c2f113_U02",
+            "information": "上次需先交代查了两天再问，这次直接问字段，缺少交代感。",
+            "why_unknown_before": "历史报告上次开口前觉得要解释，但未说明本次交代感或实际问法。"
+          },
+          {
+            "utterance_id": "BR_325911c2f113_U04",
+            "information": "短暂闪过问出来会不会显得如何，借讨论顺势问；本次停顿较上次几秒更短。",
+            "why_unknown_before": "原话只有犹豫一下，未提供念头内容、顺势开口方式及相对时长。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "T8498f8a50548",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "先具体化交代过程的差异，再开放追问已有犹豫细节，来访者报告念头、讨论场景及停顿长短。没有把变化原因当事实；既有过去事件细化，无时间跨越。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_325911c2f113_U02",
+            "information": "本次直接问字段意思，解释后继续，没有先交代的感受。",
+            "why_unknown_before": "此前未描述实际措辞、后续继续及交代感是否存在。"
+          },
+          {
+            "utterance_id": "BR_325911c2f113_U04",
+            "information": "犹豫时闪过问出来会不会显得什么，顺着其他讨论开口；旧停顿几秒，本次一下。",
+            "why_unknown_before": "原话没有犹豫内容、借助讨论节奏或具体相对持续时间。"
+          }
+        ]
+      },
+      "adjudication": null
+    },
+    {
+      "node": "N06",
+      "method": "B3_generic_rollup",
+      "replicate": 2,
+      "source": "interactive_branches\\BR_aa0f765f150b\\dialogue.json",
+      "anonymous_id": "T04ab0f6962e4",
+      "clarification_quality": 4.0,
+      "history_use": 4.0,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "T04ab0f6962e4",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "第一问开放邀请差异，第二问沿来访者自行提出的单独求助设想具体化画面。新增场景条件与交代时先矮一截的体验，非咨询师预植解释；未犹豫的难堪感不等于完全没有犹豫，与原话相容。假想单独去问明确为可能，未写成未来已完成事实。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_aa0f765f150b_U02",
+            "information": "这次没有之前措辞和难堪感，来访者自行怀疑顺带提问情境有关，单独求助仍可能犹豫。",
+            "why_unknown_before": "原话未说明本次难堪感及对单独提问的条件性预测。"
+          },
+          {
+            "utterance_id": "BR_aa0f765f150b_U04",
+            "information": "设想独立求助需先说明卡住及已查已试内容，交代过程会体验为先矮一截。",
+            "why_unknown_before": "历史只有先解释和难堪，未具体描述想象流程及相对地位体验。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "T04ab0f6962e4",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "开放澄清后顺着来访者自己提出的场景条件追问，获得正式求助中先交代的画面及感受；未直接认定心理改善，假想场景明确为可能，并非未来完成事实。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_aa0f765f150b_U02",
+            "information": "本次没有开口前难堪感，并主动提出联调顺带问与单独求助可能不同。",
+            "why_unknown_before": "历史有旧难堪，但不知道本次是否消失及来访者如何解释场景差异。"
+          },
+          {
+            "utterance_id": "BR_aa0f765f150b_U04",
+            "information": "想象单独到工位或开会时，要交代查试过程，感到还没问就矮一截。",
+            "why_unknown_before": "历史只提到先解释难堪，未给具体场景及先矮一截的体验。"
+          }
+        ]
+      },
+      "adjudication": null
+    },
+    {
+      "node": "N06",
+      "method": "B4_psych_rollup",
+      "replicate": 1,
+      "source": "interactive_branches\\BR_dbace289e8a4\\dialogue.json",
+      "anonymous_id": "T682161482639",
+      "clarification_quality": 4.0,
+      "history_use": 3.5,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "T682161482639",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "两问围绕时间位置及愣住体验，允许空白而未指定心理原因。来访者自行说明预期的内部反应未出现，并用过去‘还好没说啥’作比较，新增超过顺从肯定。引用历史交代困难适切，没有跨到未来事实。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_dbace289e8a4_U02",
+            "information": "不同主要在解释之后；问时仅不确定便提出，未像上次组织措辞。",
+            "why_unknown_before": "原话未定位差别何时发生，也未描述本次措辞准备。"
+          },
+          {
+            "utterance_id": "BR_dbace289e8a4_U04",
+            "information": "预期问后会有内部反应却未出现，过去会想还好对方没说什么，这次直接继续听。",
+            "why_unknown_before": "历史未呈现过去问后这种自我监控，也未说明本次缺失哪种预期反应。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "T682161482639",
+        "clarification_quality": 4,
+        "history_use": 3,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "定位差异出现于回应后，再探索“愣”的内容；来访者提出未出现预期内心反应的具体例子，超出简单肯定。第二问略抽象但容许空白，无未来事项或事实冲突。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_dbace289e8a4_U02",
+            "information": "差异主要在问完之后；这次没有提前组织措辞，解释完觉察没什么不对。",
+            "why_unknown_before": "原话只有犹豫、平常回应及不一样，未定位觉察时点或措辞过程。"
+          },
+          {
+            "utterance_id": "BR_dbace289e8a4_U04",
+            "information": "此前即使对方无评价也会有“还好他没说啥”的内心过场，这次继续听解释。",
+            "why_unknown_before": "历史未描述该问后内心过场或本次继续听的具体反应。"
+          }
+        ]
+      },
+      "adjudication": null
+    },
+    {
+      "node": "N06",
+      "method": "B2_temporal_RAG",
+      "replicate": 1,
+      "source": "interactive_branches\\BR_eae0ee2cc463\\dialogue.json",
+      "anonymous_id": "T5914189a7518",
+      "clarification_quality": 4.0,
+      "history_use": 4.0,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "T5914189a7518",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "medium",
+        "S": false,
+        "reason": "第一问区分开口与回应，第二问据顺嘴提问比较讨论情境和问题大小，属于有依据的假设探索。来访者先选讨论条件，后补充问前查文档，提供独立限制信息，不能把选择直接视作因果验证；事实时间均合理。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_eae0ee2cc463_U02",
+            "information": "差别主要在讨论中犹豫一下即顺嘴问，回应本身没有特别之处。",
+            "why_unknown_before": "原话未指出不同的主要环节或排除回应的突出意义。"
+          },
+          {
+            "utterance_id": "BR_eae0ee2cc463_U04",
+            "information": "提问被体验为共同看协议流程的一步；先查文档确认未写清才开口。",
+            "why_unknown_before": "冻结历史未述流程感及问前核查，原有犹豫不能说明是否先为问题寻找依据。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "T5914189a7518",
+        "clarification_quality": 4,
+        "history_use": 4,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "low",
+        "S": false,
+        "reason": "第二回应以场景与问题大小作待确认比较，来访者具体解释流程感并主动补充先查文档的前提，信息有区分性。旧“单独”形式未直接给出但有先解释的历史基础，未无依据确定心理原因。无未来完成或事实冲突。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_eae0ee2cc463_U02",
+            "information": "差异在开口，讨论中顺嘴问，对回应未觉特别。",
+            "why_unknown_before": "此前没有将不一样定位于开口，也不知道正常回应对其是否有特别意义。"
+          },
+          {
+            "utterance_id": "BR_eae0ee2cc463_U04",
+            "information": "认为共同讨论让提问成为流程一步，且先查文档、确认没写清才问。",
+            "why_unknown_before": "联调事实已知，但其主观流程意义及查文档后才开口的条件未知。"
+          }
+        ]
+      },
+      "adjudication": null
+    },
+    {
+      "node": "N06",
+      "method": "B2_temporal_RAG",
+      "replicate": 2,
+      "source": "interactive_branches\\BR_ffb1498fc28b\\dialogue.json",
+      "anonymous_id": "T0a663627bc61",
+      "clarification_quality": 3.0,
+      "history_use": 2.5,
+      "leading_or_unsupported": false,
+      "fact_conflict": false,
+      "S": false,
+      "R1": {
+        "anonymous_id": "T0a663627bc61",
+        "clarification_quality": 3,
+        "history_use": 3,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "medium",
+        "S": false,
+        "reason": "先定位差别后探索问后的感受，均未把原因当事实。第二问空或有东西较抽象，新增主要是问后不回想与轻微意外；开口瞬间的回答随即谈问后，定位仍不完整。过去担心老韩觉得笨为新增细节，与先前偏重自评有张力，但不构成同一时点的明确否定。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_ffb1498fc28b_U02",
+            "information": "此次问完继续联调，少了‘完了’感；回忆上次说后担忧老韩觉得笨。",
+            "why_unknown_before": "冻结历史未报告本次问后内部反应，也未报告上次开口之后对老韩评价的想法。"
+          },
+          {
+            "utterance_id": "BR_ffb1498fc28b_U04",
+            "information": "本次没有回头想，只有一点‘哦，就这样的’意外。",
+            "why_unknown_before": "平常回应不自动说明没有事后反刍或具体感受。"
+          }
+        ]
+      },
+      "R2": {
+        "anonymous_id": "T0a663627bc61",
+        "clarification_quality": 3,
+        "history_use": 2,
+        "leading_or_unsupported": false,
+        "fact_conflict": false,
+        "client_compliance_risk": "medium",
+        "S": false,
+        "reason": "能澄清开口与问后感受，但第二问围绕空或新东西，信息较少。新说旧事怕老韩觉得笨，与历史强调自己觉得笨、不主要怕老韩的叙述有张力，尚非直接事实矛盾，也未核对；来访者给出一点意外，不能推定整体改善。",
+        "new_evidence": [
+          {
+            "utterance_id": "BR_ffb1498fc28b_U02",
+            "information": "将主要差异定位在开口，并补充旧求助后曾担心老韩觉得自己笨，本次没有“完了”感。",
+            "why_unknown_before": "历史没有明确旧求助后的担忧时点，本次也未说明开口或回应的主要差异；该回忆需保留与旧叙述的张力。"
+          },
+          {
+            "utterance_id": "BR_ffb1498fc28b_U04",
+            "information": "这次问完继续推进、不回头想，略感意外“就这样的”。",
+            "why_unknown_before": "冻结输入未报告问后的反刍是否出现及意外感。"
+          }
+        ]
+      },
+      "adjudication": null
+    }
+  ],
+  "numeric_policy": "mean of two independent raters; differences >1 use third adjudicated score",
+  "binary_policy": "agreement, otherwise third model arbitration"
+}

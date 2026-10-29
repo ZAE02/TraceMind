@@ -1,0 +1,48 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "P",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有具体发言支持。但存在一处轻微过度推断：将S03中发三个方案的动机概括为“提前多做、多准备来避免被指出问题”，虽然符合整体模式，但来访者当时更多表达的是寻求认可（“想先听别人夸两句”）和对自己行为的不确定，而非单纯的防御性避免指责。",
+      "progress_understanding": "准确连接了不同会话中的形成与验证过程。识别出从工作场景到人际场景的模式扩展，并正确指出了来访者在S2中已取得的进展（意识到需要、尝试暂停），同时保留了S3中新出现的关于愤怒压抑的探索空间。",
+      "uncertainty_awareness": "明确区分了已知（模式识别）和未知（未解决的等待、未回复的消息、深层来源）。对于S3中新的冲突回避现象，将其作为未深入探索的部分列出，没有强行定论。"
+    },
+    "confidence": "high",
+    "issues": [
+      "unsupported_presupposition: 在established_understanding中将S03-U01/U03的行为动机解释为“避免被指出问题”，而来访者原文更侧重于“寻求外部确认/夸奖”以及对自己行为专业性的焦虑，参考标注也指出这是咨询师对动机的推断而非来访者确认的事实。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"主要判断均有具体发言支持。但存在一处轻微过度推断：将S03中发三个方案的动机概括为“提前多做、多准备来避免被指出问题”，虽然符合整体模式，但来访者当时更多表达的是寻求认可（“想先听别人夸两句”）和对自己行为的不确定，而非单纯的防御性避免指责。\",\n    \"progress_understanding\": \"准确连接了不同会话中的形成与验证过程。识别出从工作场景到人际场景的模式扩展，并正确指出了来访者在S2中已取得的进展（意识到需要、尝试暂停），同时保留了S3中新出现的关于愤怒压抑的探索空间。\",\n    \"uncertainty_awareness\": \"明确区分了已知（模式识别）和未知（未解决的等待、未回复的消息、深层来源）。对于S3中新的冲突回避现象，将其作为未深入探索的部分列出，没有强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"unsupported_presupposition: 在established_understanding中将S03-U01/U03的行为动机解释为“避免被指出问题”，而来访者原文更侧重于“寻求外部确认/夸奖”以及对自己行为专业性的焦虑，参考标注也指出这是咨询师对动机的推断而非来访者确认的事实。\"\n  ]\n}",
+  "request_sha256": "e548e3cbb25fafa943c20ce001340bba15dd33ef77c3e856886c062968044511",
+  "usage": {
+    "input_tokens": 8611,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 344,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8955,
+    "x_details": [
+      {
+        "input_tokens": 8611,
+        "output_tokens": 344,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8955,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.0,
+  "model": "qwen3.7-flash-2026-07-15"
+}

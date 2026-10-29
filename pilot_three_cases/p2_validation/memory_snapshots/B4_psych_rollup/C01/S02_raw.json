@@ -1,0 +1,384 @@
+{
+  "status": "completed",
+  "purpose": "incremental_memory_update",
+  "case_id": "C01",
+  "session_number": 2,
+  "method": "B4_psych_rollup",
+  "request_sha256": "58c56af4b57d75081511458fd680c850c7e701a7c439f56e650767f89d56f2e0",
+  "context_sha256": "95c93d8c249072ddb98a15bc8617016e54cd800ac7a94d5f6910bad99115314b",
+  "call_id": "87aa499d35274961bcb46d3a81cee5d4",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 8192
+  },
+  "created_at": "2026-10-13T10:41:37.083542+00:00",
+  "raw_text": "```json\n{\n  \"entries\": [\n    {\n      \"text\": \"核心模式（更新）：来访者区分出两种相关但不同的体验。S1「停不下来」：整件事在转，反馈本身没给落点，没有出口。S2「走不开」：注意力被钉在一个具体位置上，即使三个人都说没问题，松了一下又起来。来访者明确说「可能不太一样」（U03）。共同底层：都需要自己再给一遍确认，别人的确认不够。\",\n      \"type\": \"pattern\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U09\", \"C01-S01-U11\", \"C01-S01-U19\", \"C01-S02-U03\", \"C01-S02-U07\", \"C01-S02-U16\"],\n      \"session\": 2,\n      \"interpretation\": \"来访者本人确认了两种体验的区别（U03），并自行概括了共同点（U07：'他们给的是我觉得没问题，但我需要的是我确认没问题'）。咨询师在U16中对比了「停不下来」vs「走不开」，来访者未否认。\",\n      \"status\": \"confirmed_by_client (distinction between two sub-patterns); common underlying need confirmed by client\",\n      \"scope\": \"cross-context, cross-session\",\n      \"supporting_evidence\": [\"C01-S01-U09\", \"C01-S01-U19\", \"C01-S02-U03\", \"C01-S02-U07\", \"C01-S02-U16\"],\n      \"conflicting_evidence\": [],\n      \"unknowns\": [\"两种体验是否有共同维持机制\", \"「走不开」是否也出现在非工作情境\"]\n    },\n    {\n      \"text\": \"关键区分（S2新增，来访者自述）：「他们给的是'我觉得没问题'，但我需要的是'我确认没问题'，这两个好像不太一样。」——确认的主体必须是自己，他人的判断不构成终点。\",\n      \"type\": \"insight\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S02-U07\"],\n      \"session\": 2,\n      \"interpretation\": \"来访者自己的表述，咨询师在U08中复述并追问。这是对S1「没法确认它到底对不对」的进一步精确化：不是反馈模糊的问题，而是确认权必须在自己手里。\",\n      \"status\": \"confirmed_by_client\",\n      \"scope\": \"cognitive pattern, generalizable beyond ambiguous feedback\",\n      \"supporting_evidence\": [\"C01-S02-U07\", \"C01-S02-U05\"],\n      \"conflicting_evidence\": [],\n      \"unknowns\": [\"这个标准是否有发展起源\", \"是否在所有领域都如此还是限于设计工作\"]\n    },\n    {\n      \"text\": \"「被拽一下」→「走不开」的具体机制（S2新增）：眼睛扫到某处时突然紧一下（非恐惧，无心跳加速），注意力被吸过去，手自动拉开图层（不是先决定再看一遍）。锁定持续十几秒到一两分钟，有时两三秒就走开，取决于「那个地方是什么」。\",\n      \"type\": \"pattern\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S02-U11\", \"C01-S02-U13\", \"C01-S02-U15\", \"C01-S02-U17\"],\n      \"session\": 2,\n      \"interpretation\": \"来访者自述的躯体-注意体验。咨询师将其与S1「停不下来」对比（U16），来访者未否认区别。比S1描述更具体、更自动。\",\n      \"status\": \"confirmed_by_client (subjective experience); counselor comparison (U16) not explicitly confirmed or denied by client\",\n      \"scope\": \"design work, specific attentional mechanism\",\n      \"supporting_evidence\": [\"C01-S02-U11\", \"C01-S02-U13\", \"C01-S02-U15\", \"C01-S02-U17\"],\n      \"conflicting_evidence\": [],\n      \"unknowns\": [\"哪些「地方」更容易触发（来访者猜测颜色区域，未确认）\", \"是否在其他情境（如阅读、社交）也出现类似的「被拽一下」\"]\n    },\n    {\n      \"text\": \"「松了又起来」（S2新增）：三个人都说没问题时，来访者确实松了一下，但松完没多久又起来，第一个念头是「他们是不是只扫了一眼大概」。标准是：真的看到了=花了跟自己一样的时间，这个标准别人没法满足。\",\n      \"type\": \"pattern\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S02-U03\", \"C01-S02-U05\", \"C01-S02-U06\"],\n      \"session\": 2,\n      \"interpretation\": \"来访者自述。咨询师在U06中指出这个标准的不可满足性，来访者确认（U07）。说明问题不仅是「反馈模糊」，即使反馈明确为正面，确认需求仍然存在。\",\n      \"status\": \"confirmed_by_client\",\n      \"scope\": \"response to positive confirmation in design work\",\n      \"supporting_evidence\": [\"C01-S02-U03\", \"C01-S02-U05\", \"C01-S02-U06\", \"C01-S02-U07\"],\n      \"conflicting_evidence\": [],\n      \"unknowns\": [\"这个「松了又起来」的节奏是否有变化趋势\"]\n    },\n    {\n      \"text\": \"S2事件：活动海报交付。来访者先后找小许、周姐、一个做设计的朋友各看了一遍，三人均说没问题。但发出去前自己又过了四遍。每遍的「可以了」只维持到下一遍开始之前。\",\n      \"type\": \"event\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S02-U01\", \"C01-S02-U09\"],\n      \"session\": 2,\n      \"interpretation\": \"来访者自述的事实。\",\n      \"status\": \"confirmed_by_client\",\n      \"scope\": \"specific incident, work\",\n      \"supporting_evidence\": [\"C01-S02-U01\", \"C01-S02-U09\"],\n      \"conflicting_evidence\": [],\n      \"unknowns\": [\"海报是否已交付\", \"交付后状态\"]\n    },\n    {\n      \"text\": \"触发事件（S1）：周二内部提案，小许说「有点挤」（仅三字）。来访者当晚改到23:30，前后六版，次日早上改回两处。来访者判断方案本身应该没问题，但停不下来。\",\n      \"type\": \"event\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U01\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者自述的事实，已确认。\",\n      \"status\": \"confirmed_by_client\",\n      \"scope\": \"specific incident\",\n      \"supporting_evidence\": [\"C01-S01-U01\"],\n      \"conflicting_evidence\": [],\n      \"unknowns\": [\"小许「有点挤」具体指哪里\"]\n    },\n    {\n      \"text\": \"S1关键区分（来访者自述）：「有点挤」给的不是一项可打勾的项，而是一整块模糊区域。核心困难是「没法确认它到底对不对」，本身没有出口。\",\n      \"type\": \"insight\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U07\", \"C01-S01-U09\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者自己的觉察。S2中来访者将此与「走不开」区分开（U03），说明这个区分仍然有效但适用范围更窄——它描述的是反馈本身无落点的情况，而非所有确认困难。\",\n      \"status\": \"confirmed_by_client; scope_narrowed_by_S2\",\n      \"scope\": \"response to ambiguous feedback specifically\",\n      \"supporting_evidence\": [\"C01-S01-U07\", \"C01-S01-U09\"],\n      \"conflicting_evidence\": [\"C01-S02-U03 (S2案例中反馈不模糊但问题仍存在，说明此区分不足以覆盖全部情况)\"],\n      \"unknowns\": []\n    },\n    {\n      \"text\": \"睡眠问题：约两三周前开始，隔两三天有一晚。躺下后脑子还在过东西，内容杂。起因可能与前两周项目赶得紧有关，但项目结束后没有跟着结束。\",\n      \"type\": \"symptom\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U11\", \"C01-S01-U13\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者自述。S2未提及睡眠变化，状态未知。\",\n      \"status\": \"confirmed_by_client (S1); S2 status unknown\",\n      \"scope\": \"sleep, ongoing ~2-3 weeks as of S1\",\n      \"supporting_evidence\": [\"C01-S01-U11\", \"C01-S01-U13\"],\n      \"conflicting_evidence\": [],\n      \"unknowns\": [\"S2时睡眠是否改善或持续\", \"具体哪天开始\", \"维持因素\"]\n    },\n    {\n      \"text\": \"母亲电话（S1）：项目紧张期间母亲打过两次电话，来访者接时有烦躁，事后觉得没理由。核心是「又多了一件事要回应」的来回消耗。\",\n      \"type\": \"event\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U15\", \"C01-S01-U17\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者自述。S1中咨询师推测与核心模式相关，来访者未确认。S2未提及。\",\n      \"status\": \"event_confirmed; connection_to_core_pattern_unconfirmed\",\n      \"scope\": \"family interaction\",\n      \"supporting_evidence\": [\"C01-S01-U15\", \"C01-S01-U17\"],\n      \"conflicting_evidence\": [],\n      \"unknowns\": [\"来访者是否会在后续确认连接\", \"母亲那边的实际状态\"]\n    },\n    {\n      \"text\": \"「只要还在动=还没好」标准（S1）：调间距和字号时，标准变成了「还在动=还没好」，导致永远存在还能再调一点的空间，没有终点。\",\n      \"type\": \"pattern\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U03\", \"C01-S01-U04\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者自述。S2中「每一遍的'可以了'只维持到下一遍开始之前」（U09）可视为同一标准的变体——确认永远不落地。\",\n      \"status\": \"confirmed_by_client; reinforced_in_S2\",\n      \"scope\": \"response to design work, generalizable\",\n      \"supporting_evidence\": [\"C01-S01-U03\", \"C01-S01-U04\", \"C01-S02-U09\"],\n      \"conflicting_evidence\": [],\n      \"unknowns\": []\n    },\n    {\n      \"text\": \"S1即时效果与计划：来访者表示「比我自己想的时候清楚一点了」，计划周五交付前「就一遍了，不再六版了」，会留意「停不下来」的感觉。\",\n      \"type\": \"outcome\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U19\", \"C01-S01-U21\"],\n      \"session\": 1,\n      \"interpretation\": \"S1计划。S2中来访者对新海报过了四遍（U01），与「就一遍」的计划形成对比，但对象不同（新任务），且来访者未提及S1任务的执行情况。\",\n      \"status\": \"plan_from_S1; S2_shows_similar_pattern_on_new_task\",\n      \"scope\": \"immediate next steps\",\n      \"supporting_evidence\": [\"C01-S01-U19\", \"C01-S01-U21\"],\n      \"conflicting_evidence\": [\"C01-S02-U01 (S2中四遍，与S1'一遍'计划方向不一致，但任务不同)\"],\n      \"unknowns\": [\"S1周五交付实际执行情况\"]\n    },\n    {\n      \"text\": \"工作背景（更新）：做设计方案/页面/活动海报，有内部提案和交付节点流程。同事小许参与评审，周姐似乎是上级或项目负责人。另有做设计的朋友可帮忙看稿。\",\n      \"type\": \"context\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U01\", \"C01-S01-U05\", \"C01-S02-U01\"],\n      \"session\": 2,\n      \"interpretation\": \"从来访者叙述中推断。S2新增：也会找外部朋友确认，说明有主动寻求确认的行为。\",\n      \"status\": \"inferred_from_narrative\",\n      \"scope\": \"work context\",\n      \"supporting_evidence\": [\"C01-S01-U01\", \"C01-S01-U05\", \"C01-S02-U01\"],\n      \"conflicting_evidence\": [],\n      \"unknowns\": [\"具体职位\", \"与周姐的确切关系\", \"设计朋友的身份\"]\n    },\n    {\n      \"text\": \"来访者初步观察（S2）：「被拽一下」可能跟颜色那块有关，但不确定算不算咨询师说的「那种地方」，下次再想。\",\n      \"type\": \"observation\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S02-U19\"],\n      \"session\": 2,\n      \"interpretation\": \"来访者自己的初步猜测，未确认。咨询师建议下次带过来，不急于现在定性（U20）。\",\n      \"status\": \"client_tentative_hypothesis; not_confirmed\",\n      \"scope\": \"specific trigger identification, pending\",\n      \"supporting_evidence\": [\"C01-S02-U19\"],\n      \"conflicting_evidence\": [],\n      \"unknowns\": [\"颜色是否确实是触发点\", \"还有其他哪些「地方」会触发\"]\n    }\n  ]\n}\n```",
+  "parsed_answer": {
+    "entries": [
+      {
+        "text": "核心模式（更新）：来访者区分出两种相关但不同的体验。S1「停不下来」：整件事在转，反馈本身没给落点，没有出口。S2「走不开」：注意力被钉在一个具体位置上，即使三个人都说没问题，松了一下又起来。来访者明确说「可能不太一样」（U03）。共同底层：都需要自己再给一遍确认，别人的确认不够。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U09",
+          "C01-S01-U11",
+          "C01-S01-U19",
+          "C01-S02-U03",
+          "C01-S02-U07",
+          "C01-S02-U16"
+        ],
+        "session": 2,
+        "interpretation": "来访者本人确认了两种体验的区别（U03），并自行概括了共同点（U07：'他们给的是我觉得没问题，但我需要的是我确认没问题'）。咨询师在U16中对比了「停不下来」vs「走不开」，来访者未否认。",
+        "status": "confirmed_by_client (distinction between two sub-patterns); common underlying need confirmed by client",
+        "scope": "cross-context, cross-session",
+        "supporting_evidence": [
+          "C01-S01-U09",
+          "C01-S01-U19",
+          "C01-S02-U03",
+          "C01-S02-U07",
+          "C01-S02-U16"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "两种体验是否有共同维持机制",
+          "「走不开」是否也出现在非工作情境"
+        ]
+      },
+      {
+        "text": "关键区分（S2新增，来访者自述）：「他们给的是'我觉得没问题'，但我需要的是'我确认没问题'，这两个好像不太一样。」——确认的主体必须是自己，他人的判断不构成终点。",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S02-U07"
+        ],
+        "session": 2,
+        "interpretation": "来访者自己的表述，咨询师在U08中复述并追问。这是对S1「没法确认它到底对不对」的进一步精确化：不是反馈模糊的问题，而是确认权必须在自己手里。",
+        "status": "confirmed_by_client",
+        "scope": "cognitive pattern, generalizable beyond ambiguous feedback",
+        "supporting_evidence": [
+          "C01-S02-U07",
+          "C01-S02-U05"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "这个标准是否有发展起源",
+          "是否在所有领域都如此还是限于设计工作"
+        ]
+      },
+      {
+        "text": "「被拽一下」→「走不开」的具体机制（S2新增）：眼睛扫到某处时突然紧一下（非恐惧，无心跳加速），注意力被吸过去，手自动拉开图层（不是先决定再看一遍）。锁定持续十几秒到一两分钟，有时两三秒就走开，取决于「那个地方是什么」。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S02-U11",
+          "C01-S02-U13",
+          "C01-S02-U15",
+          "C01-S02-U17"
+        ],
+        "session": 2,
+        "interpretation": "来访者自述的躯体-注意体验。咨询师将其与S1「停不下来」对比（U16），来访者未否认区别。比S1描述更具体、更自动。",
+        "status": "confirmed_by_client (subjective experience); counselor comparison (U16) not explicitly confirmed or denied by client",
+        "scope": "design work, specific attentional mechanism",
+        "supporting_evidence": [
+          "C01-S02-U11",
+          "C01-S02-U13",
+          "C01-S02-U15",
+          "C01-S02-U17"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "哪些「地方」更容易触发（来访者猜测颜色区域，未确认）",
+          "是否在其他情境（如阅读、社交）也出现类似的「被拽一下」"
+        ]
+      },
+      {
+        "text": "「松了又起来」（S2新增）：三个人都说没问题时，来访者确实松了一下，但松完没多久又起来，第一个念头是「他们是不是只扫了一眼大概」。标准是：真的看到了=花了跟自己一样的时间，这个标准别人没法满足。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S02-U03",
+          "C01-S02-U05",
+          "C01-S02-U06"
+        ],
+        "session": 2,
+        "interpretation": "来访者自述。咨询师在U06中指出这个标准的不可满足性，来访者确认（U07）。说明问题不仅是「反馈模糊」，即使反馈明确为正面，确认需求仍然存在。",
+        "status": "confirmed_by_client",
+        "scope": "response to positive confirmation in design work",
+        "supporting_evidence": [
+          "C01-S02-U03",
+          "C01-S02-U05",
+          "C01-S02-U06",
+          "C01-S02-U07"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "这个「松了又起来」的节奏是否有变化趋势"
+        ]
+      },
+      {
+        "text": "S2事件：活动海报交付。来访者先后找小许、周姐、一个做设计的朋友各看了一遍，三人均说没问题。但发出去前自己又过了四遍。每遍的「可以了」只维持到下一遍开始之前。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S02-U01",
+          "C01-S02-U09"
+        ],
+        "session": 2,
+        "interpretation": "来访者自述的事实。",
+        "status": "confirmed_by_client",
+        "scope": "specific incident, work",
+        "supporting_evidence": [
+          "C01-S02-U01",
+          "C01-S02-U09"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "海报是否已交付",
+          "交付后状态"
+        ]
+      },
+      {
+        "text": "触发事件（S1）：周二内部提案，小许说「有点挤」（仅三字）。来访者当晚改到23:30，前后六版，次日早上改回两处。来访者判断方案本身应该没问题，但停不下来。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U01"
+        ],
+        "session": 1,
+        "interpretation": "来访者自述的事实，已确认。",
+        "status": "confirmed_by_client",
+        "scope": "specific incident",
+        "supporting_evidence": [
+          "C01-S01-U01"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "小许「有点挤」具体指哪里"
+        ]
+      },
+      {
+        "text": "S1关键区分（来访者自述）：「有点挤」给的不是一项可打勾的项，而是一整块模糊区域。核心困难是「没法确认它到底对不对」，本身没有出口。",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U07",
+          "C01-S01-U09"
+        ],
+        "session": 1,
+        "interpretation": "来访者自己的觉察。S2中来访者将此与「走不开」区分开（U03），说明这个区分仍然有效但适用范围更窄——它描述的是反馈本身无落点的情况，而非所有确认困难。",
+        "status": "confirmed_by_client; scope_narrowed_by_S2",
+        "scope": "response to ambiguous feedback specifically",
+        "supporting_evidence": [
+          "C01-S01-U07",
+          "C01-S01-U09"
+        ],
+        "conflicting_evidence": [
+          "C01-S02-U03 (S2案例中反馈不模糊但问题仍存在，说明此区分不足以覆盖全部情况)"
+        ],
+        "unknowns": []
+      },
+      {
+        "text": "睡眠问题：约两三周前开始，隔两三天有一晚。躺下后脑子还在过东西，内容杂。起因可能与前两周项目赶得紧有关，但项目结束后没有跟着结束。",
+        "type": "symptom",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U11",
+          "C01-S01-U13"
+        ],
+        "session": 1,
+        "interpretation": "来访者自述。S2未提及睡眠变化，状态未知。",
+        "status": "confirmed_by_client (S1); S2 status unknown",
+        "scope": "sleep, ongoing ~2-3 weeks as of S1",
+        "supporting_evidence": [
+          "C01-S01-U11",
+          "C01-S01-U13"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "S2时睡眠是否改善或持续",
+          "具体哪天开始",
+          "维持因素"
+        ]
+      },
+      {
+        "text": "母亲电话（S1）：项目紧张期间母亲打过两次电话，来访者接时有烦躁，事后觉得没理由。核心是「又多了一件事要回应」的来回消耗。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U15",
+          "C01-S01-U17"
+        ],
+        "session": 1,
+        "interpretation": "来访者自述。S1中咨询师推测与核心模式相关，来访者未确认。S2未提及。",
+        "status": "event_confirmed; connection_to_core_pattern_unconfirmed",
+        "scope": "family interaction",
+        "supporting_evidence": [
+          "C01-S01-U15",
+          "C01-S01-U17"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "来访者是否会在后续确认连接",
+          "母亲那边的实际状态"
+        ]
+      },
+      {
+        "text": "「只要还在动=还没好」标准（S1）：调间距和字号时，标准变成了「还在动=还没好」，导致永远存在还能再调一点的空间，没有终点。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U03",
+          "C01-S01-U04"
+        ],
+        "session": 1,
+        "interpretation": "来访者自述。S2中「每一遍的'可以了'只维持到下一遍开始之前」（U09）可视为同一标准的变体——确认永远不落地。",
+        "status": "confirmed_by_client; reinforced_in_S2",
+        "scope": "response to design work, generalizable",
+        "supporting_evidence": [
+          "C01-S01-U03",
+          "C01-S01-U04",
+          "C01-S02-U09"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": []
+      },
+      {
+        "text": "S1即时效果与计划：来访者表示「比我自己想的时候清楚一点了」，计划周五交付前「就一遍了，不再六版了」，会留意「停不下来」的感觉。",
+        "type": "outcome",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U19",
+          "C01-S01-U21"
+        ],
+        "session": 1,
+        "interpretation": "S1计划。S2中来访者对新海报过了四遍（U01），与「就一遍」的计划形成对比，但对象不同（新任务），且来访者未提及S1任务的执行情况。",
+        "status": "plan_from_S1; S2_shows_similar_pattern_on_new_task",
+        "scope": "immediate next steps",
+        "supporting_evidence": [
+          "C01-S01-U19",
+          "C01-S01-U21"
+        ],
+        "conflicting_evidence": [
+          "C01-S02-U01 (S2中四遍，与S1'一遍'计划方向不一致，但任务不同)"
+        ],
+        "unknowns": [
+          "S1周五交付实际执行情况"
+        ]
+      },
+      {
+        "text": "工作背景（更新）：做设计方案/页面/活动海报，有内部提案和交付节点流程。同事小许参与评审，周姐似乎是上级或项目负责人。另有做设计的朋友可帮忙看稿。",
+        "type": "context",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U01",
+          "C01-S01-U05",
+          "C01-S02-U01"
+        ],
+        "session": 2,
+        "interpretation": "从来访者叙述中推断。S2新增：也会找外部朋友确认，说明有主动寻求确认的行为。",
+        "status": "inferred_from_narrative",
+        "scope": "work context",
+        "supporting_evidence": [
+          "C01-S01-U01",
+          "C01-S01-U05",
+          "C01-S02-U01"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "具体职位",
+          "与周姐的确切关系",
+          "设计朋友的身份"
+        ]
+      },
+      {
+        "text": "来访者初步观察（S2）：「被拽一下」可能跟颜色那块有关，但不确定算不算咨询师说的「那种地方」，下次再想。",
+        "type": "observation",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S02-U19"
+        ],
+        "session": 2,
+        "interpretation": "来访者自己的初步猜测，未确认。咨询师建议下次带过来，不急于现在定性（U20）。",
+        "status": "client_tentative_hypothesis; not_confirmed",
+        "scope": "specific trigger identification, pending",
+        "supporting_evidence": [
+          "C01-S02-U19"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "颜色是否确实是触发点",
+          "还有其他哪些「地方」会触发"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 4114,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 4856,
+    "output_tokens_details": {
+      "reasoning_tokens": 1438
+    },
+    "total_tokens": 8970,
+    "x_details": [
+      {
+        "input_tokens": 4114,
+        "input_tokens_details": {
+          "text_tokens": 4114
+        },
+        "output_tokens": 4856,
+        "output_tokens_details": {
+          "reasoning_tokens": 1438
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8970,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_incremental_memory_update_calls.jsonl",
+  "visible_evidence_ids": [
+    "C01-S01-U01",
+    "C01-S01-U03",
+    "C01-S01-U04",
+    "C01-S01-U05",
+    "C01-S01-U07",
+    "C01-S01-U09",
+    "C01-S01-U10",
+    "C01-S01-U11",
+    "C01-S01-U13",
+    "C01-S01-U15",
+    "C01-S01-U17",
+    "C01-S01-U19",
+    "C01-S01-U21",
+    "C01-S01-U22",
+    "C01-S02-U01",
+    "C01-S02-U02",
+    "C01-S02-U03",
+    "C01-S02-U04",
+    "C01-S02-U05",
+    "C01-S02-U06",
+    "C01-S02-U07",
+    "C01-S02-U08",
+    "C01-S02-U09",
+    "C01-S02-U10",
+    "C01-S02-U11",
+    "C01-S02-U12",
+    "C01-S02-U13",
+    "C01-S02-U14",
+    "C01-S02-U15",
+    "C01-S02-U16",
+    "C01-S02-U17",
+    "C01-S02-U18",
+    "C01-S02-U19",
+    "C01-S02-U20"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

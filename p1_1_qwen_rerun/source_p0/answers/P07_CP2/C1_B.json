@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP2",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "9a7806a7ed9281a2361454b1d19116dbb6763d297fd3051f2a9f9597e128fa76",
+  "request_sha256": "c88bdfce49bd2ffe4797b86d220f1d2b14eecb2c8f665ecd1058a6b9f93f06d7",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "承认“想画得再野一点”确实需要很大的勇气，这比单纯害怕别人的评价更触及核心。既然连猫都能那样自由地表达需求，或许我们可以一起看看，在你的画面里，那块被按回去的亮色是否真的只能以“做贼”的方式存在？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3421,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 61,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3482,
+    "x_details": [
+      {
+        "input_tokens": 3421,
+        "output_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3482,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

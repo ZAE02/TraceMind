@@ -1,0 +1,236 @@
+{
+  "method": "B4_psych_rollup",
+  "case_id": "C01",
+  "last_completed_session": 1,
+  "state": {
+    "entries": [
+      {
+        "text": "核心模式：「停不下来」的确认需求。来访者描述了一种跨情境的底层体验——不管内容是方案页面、白天说过的一句话、还是没回的消息，底下都是同一个「停不下来」。白天表现为「没法确认它到底对不对」（区别于「觉得哪里不对」），晚上表现为脑子里自己转、跟具体事项关系不大。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U09",
+          "C01-S01-U11",
+          "C01-S01-U19"
+        ],
+        "session": 1,
+        "interpretation": "当前有支持的描述性总结，来访者本人确认了跨情境相似性（U19：'那个停不下来的感觉确实像'），但未确认它们是否为同一机制。",
+        "status": "confirmed_by_client_descriptively; mechanism_unconfirmed",
+        "scope": "cross-context (work feedback, sleep, social response)",
+        "supporting_evidence": [
+          "C01-S01-U09",
+          "C01-S01-U11",
+          "C01-S01-U19"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "是否为同一心理机制还是仅表面相似",
+          "具体维持机制是什么"
+        ]
+      },
+      {
+        "text": "触发事件：周二内部提案，小许看了一眼首页说「有点挤」（仅三字，未指明具体位置，未说方案不能用）。来访者当晚改到23:30，前后六版，次日早上改回两处。来访者判断方案本身应该没问题，但停不下来在想那个页面。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U01"
+        ],
+        "session": 1,
+        "interpretation": "来访者自述的事实，已确认。",
+        "status": "confirmed_by_client",
+        "scope": "specific incident",
+        "supporting_evidence": [
+          "C01-S01-U01"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "小许「有点挤」具体指哪里（来访者也不知道）"
+        ]
+      },
+      {
+        "text": "关键区分（来访者自述）：「有点挤」给的不是一个可以打勾的项，而是一整块模糊区域，所以只能「全部再过一遍」。核心困难不是「觉得哪里不对」（那还有地方可以动手），而是「没法确认它到底对不对」——这个本身没有出口。",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U07",
+          "C01-S01-U09"
+        ],
+        "session": 1,
+        "interpretation": "来访者自己的觉察和表述，咨询师在U10中复述并确认了这个区分的意义。",
+        "status": "confirmed_by_client",
+        "scope": "cognitive pattern related to ambiguous feedback",
+        "supporting_evidence": [
+          "C01-S01-U07",
+          "C01-S01-U09",
+          "C01-S01-U10"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": []
+      },
+      {
+        "text": "睡眠问题：最近约两三周，不是每天都有，隔两三天有一晚。躺下后脑子里还在过东西，内容杂（方案、白天说过的话、没回的消息），跟有没有关系好像不太大。起因大概与前两周项目赶得紧有关（连着好几天过九点才走），但项目结束后没有跟着结束，慢慢变成了持续状态。",
+        "type": "symptom",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U11",
+          "C01-S01-U13"
+        ],
+        "session": 1,
+        "interpretation": "来访者自述。咨询师推测项目压力可能不是唯一维持因素（U14：'没跟着结束'说明现在靠的不只是那阵子的压力），来访者未对此做进一步回应。",
+        "status": "confirmed_by_client (symptom); counselor_hypothesis (persistence mechanism) unconfirmed",
+        "scope": "sleep, ongoing ~2-3 weeks",
+        "supporting_evidence": [
+          "C01-S01-U11",
+          "C01-S01-U13"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "具体哪天开始",
+          "项目结束后维持的确切因素",
+          "是否伴随其他躯体症状"
+        ]
+      },
+      {
+        "text": "母亲电话：项目紧张期间母亲打过两次电话，问忙不忙、吃没吃好，没什么大事。来访者接电话时有烦躁，事后觉得没理由。当时更接近「又多了一件事要回应」——想怎么答，答「挺好的」觉得不真实，答「确实挺累」又担心母亲那边开始担心。那个来回挺耗人的，当时只想「能不能别问了，让我安静待会儿就行」。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U15",
+          "C01-S01-U17"
+        ],
+        "session": 1,
+        "interpretation": "来访者自述。咨询师推测这个「来回」可能与白天「反复过一遍」底下是同一件事（U18），来访者回应「回头留意看看」，未确认。",
+        "status": "event_confirmed; connection_to_core_pattern_unconfirmed",
+        "scope": "family interaction, ~2-3 weeks ago",
+        "supporting_evidence": [
+          "C01-S01-U15",
+          "C01-S01-U17"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "来访者是否会在后续确认这个连接",
+          "母亲那边的实际状态和意图"
+        ]
+      },
+      {
+        "text": "周姐的反馈：周姐原话大概是「先这样往下推，周五前定稿就行」，整体方向可以继续，不用推翻。但来访者当时的第一反应不是松下来，而是「小许说的那个挤的问题，她是不是觉得我没处理到」——她没提，但来访者觉得她心里可能还留着那个点。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U05"
+        ],
+        "session": 1,
+        "interpretation": "来访者自述。咨询师将其概括为「没被点名比被点名更让人不踏实，因为问题还悬着」（U06）。来访者部分认同「悬着」这个描述，但重新定位为：核心不是「没被点名」，而是小许那三个字本身没给确认终点（U07）。",
+        "status": "event_confirmed; counselor_framing_partially_revised_by_client",
+        "scope": "work relationship, specific feedback interpretation",
+        "supporting_evidence": [
+          "C01-S01-U05",
+          "C01-S01-U07"
+        ],
+        "conflicting_evidence": [
+          "C01-S01-U07 (来访者将归因从「周姐没提」转向「小许反馈本身模糊」)"
+        ],
+        "unknowns": [
+          "周姐实际态度（仅来访者单方解读）"
+        ]
+      },
+      {
+        "text": "来访者对「有点挤」反馈的处理方式：「只要还在动，就说明它还没好」——调间距和字号时，标准变成了「还在动=还没好」，导致永远存在一个还能再调一点的空间，没有终点。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U03"
+        ],
+        "session": 1,
+        "interpretation": "来访者自己的表述，咨询师在U04中确认了这个标准的不可满足性。",
+        "status": "confirmed_by_client",
+        "scope": "response to ambiguous feedback in design work",
+        "supporting_evidence": [
+          "C01-S01-U03",
+          "C01-S01-U04"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": []
+      },
+      {
+        "text": "来访者对模糊反馈的一般反应：平时收到模糊反馈也会多过一两遍，心里有点不踏实，但一般能放下。这次特别卡住，多过一遍后「不确定」反而更清楚了。来访者提到可能跟最近状态（睡眠不好）有关。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U09"
+        ],
+        "session": 1,
+        "interpretation": "来访者自述的对比，说明这次不是全新的反应模式，而是在已有模式上加重。",
+        "status": "confirmed_by_client",
+        "scope": "general response to ambiguous feedback",
+        "supporting_evidence": [
+          "C01-S01-U09"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "加重是否与睡眠问题互为因果"
+        ]
+      },
+      {
+        "text": "本次咨询的即时效果：来访者表示「比我自己想的时候清楚一点了，至少知道不是方案真的有什么问题」。计划周五交付前再过一遍，但「就一遍了，不再六版了」。会留意「停不下来」的感觉。",
+        "type": "outcome",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U19",
+          "C01-S01-U21"
+        ],
+        "session": 1,
+        "interpretation": "来访者自述的计划，尚未执行。咨询师在U22中确认「一遍」是来访者自己定的标准。",
+        "status": "plan_not_yet_completed",
+        "scope": "immediate next steps",
+        "supporting_evidence": [
+          "C01-S01-U19",
+          "C01-S01-U21",
+          "C01-S01-U22"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "周五交付后实际执行情况",
+          "「留意」是否会产生新的觉察"
+        ]
+      },
+      {
+        "text": "来访者工作背景：做设计方案/页面（涉及间距、字号调整），有内部提案流程，周五交付节点。同事小许参与评审，周姐似乎是上级或项目负责人。",
+        "type": "context",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U01",
+          "C01-S01-U05"
+        ],
+        "session": 1,
+        "interpretation": "从来访者叙述中推断的工作角色和关系，未明确确认职位。",
+        "status": "inferred_from_narrative",
+        "scope": "work context",
+        "supporting_evidence": [
+          "C01-S01-U01",
+          "C01-S01-U05"
+        ],
+        "conflicting_evidence": [],
+        "unknowns": [
+          "具体职位",
+          "与周姐的确切关系（上级？项目负责人？）",
+          "团队规模"
+        ]
+      }
+    ]
+  },
+  "state_sha256": "66f4f3e2e2799c2c02d450d790de1ae40385f7dff929da6e2c4cb3f722422450",
+  "tokenizer_tokens": 2274,
+  "budget": 3000,
+  "tokenizer_reference": "Qwen/Qwen3.8-27B public tokenizer; hosted tokenizer identity unverified",
+  "input_previous_memory_sha256": "e3eb12da99e044ecc7d50cea407bf17f33c546e5309aa7ee661234baed2b7750",
+  "new_session_sha256": "372605b9f622edb41c2161439359014df78495d249bfc4643c493397c7e96554",
+  "source_call_id": "189581b7fe9c4ab681ed9e217430d983",
+  "dropped_entries": [],
+  "raw_state_tokens": 2274,
+  "structural_repair": null,
+  "incomplete_recovery_from": null,
+  "update_scope": "previous bounded memory + new session only; no complete-history backfill",
+  "annotation_visible": false,
+  "private_state_visible": false
+}

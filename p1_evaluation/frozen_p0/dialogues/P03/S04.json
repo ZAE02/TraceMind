@@ -1,0 +1,504 @@
+{
+  "case_id": "P03",
+  "session": 4,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P03-S04-U01",
+      "role": "client",
+      "text": "其实这周我导师让我三周后在学院博士生论坛做20分钟报告，我当天晚上就失眠了，脑子里全是台下的人交头接耳。第二天我跟周屿说“我可能要搞砸”，他问我要什么帮助，我说“我希望你别老纠正我”。他停了几秒说“好，我尽量”，我反而心跳得更快，怕他是在忍着不说我。",
+      "request_sha256": "e01d06fe0083308df2b54ad6a01c1d2842d560ce55881196a804532095b06f5d",
+      "usage": {
+        "input_tokens": 4845,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 849,
+        "output_tokens_details": {
+          "reasoning_tokens": 766
+        },
+        "total_tokens": 5694,
+        "x_details": [
+          {
+            "input_tokens": 4845,
+            "output_tokens": 849,
+            "output_tokens_details": {
+              "reasoning_tokens": 766
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 5694,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U02",
+      "role": "counselor",
+      "text": "你这次对周屿说的话，其实是一个变化——你第一次清楚地说出了“你别老纠正我”，而不是像以前那样合上电脑或说“不用你管”。可他的“好，我尽量”没有让你放松下来，反而让你怀疑他是不是在隐忍，好像那个被你自己要求的安静，也变成了一种让人不安的、可能随时会反弹的东西。",
+      "request_sha256": "fefef3948dc0cdafa2ca716852bbebcce1b7701eaf421e3eab47260b54585bdf",
+      "usage": {
+        "input_tokens": 4222,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 590,
+        "output_tokens_details": {
+          "reasoning_tokens": 511
+        },
+        "total_tokens": 4812,
+        "x_details": [
+          {
+            "input_tokens": 4222,
+            "output_tokens": 590,
+            "output_tokens_details": {
+              "reasoning_tokens": 511
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 4812,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U03",
+      "role": "client",
+      "text": "其实你说得对，我是第一次那么直接跟他说“别老纠正我”，但说完我反而更慌了。他沉默那几秒，我脑子里已经把他以后每次想开口都硬憋着的画面演了好几遍，然后就觉得他早晚要爆。我现在写讲稿也是，写一段就删，总觉得不管怎么写，上台都会被人在底下笑话。",
+      "request_sha256": "b4a8eaa9da55c5377ec9df37cee78197a52b81d801fecbcdbe953f66d80d5b99",
+      "usage": {
+        "input_tokens": 5053,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 684,
+        "output_tokens_details": {
+          "reasoning_tokens": 608
+        },
+        "total_tokens": 5737,
+        "x_details": [
+          {
+            "input_tokens": 5053,
+            "output_tokens": 684,
+            "output_tokens_details": {
+              "reasoning_tokens": 608
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5737,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U04",
+      "role": "counselor",
+      "text": "你争取到“别老纠正我”之后，那份安静反而更让你悬着，好像它不是安全，而是他随时会反弹的忍耐。写讲稿时的删了又写，也像在替台下的人先否定自己一遍，免得真的站上去再被笑话。也许现在最难的，不是讲稿写不好，而是你很难允许自己写出一段暂时不删掉、也没被纠正的东西。",
+      "request_sha256": "c93da081508027498bbfa6566e52276b4f5f61776979ca901da77293dc8a99e5",
+      "usage": {
+        "input_tokens": 4422,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 310,
+        "output_tokens_details": {
+          "reasoning_tokens": 221
+        },
+        "total_tokens": 4732,
+        "x_details": [
+          {
+            "input_tokens": 4422,
+            "output_tokens": 310,
+            "output_tokens_details": {
+              "reasoning_tokens": 221
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 4732,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U05",
+      "role": "client",
+      "text": "其实……我写讲稿的时候，最怕的是开头那两三句，总觉得一开口就先把人劝退了。昨晚我改到快一点，后来干脆把第一页全删了，重写的时候又觉得每一句都像在求别人耐心听完。",
+      "request_sha256": "ae11566e4bfa269a0ec1288fbde1a0cce216aa8c4bf4f56158c3f5702fff4ab6",
+      "usage": {
+        "input_tokens": 5263,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 639,
+        "output_tokens_details": {
+          "reasoning_tokens": 582
+        },
+        "total_tokens": 5902,
+        "x_details": [
+          {
+            "input_tokens": 5263,
+            "output_tokens": 639,
+            "output_tokens_details": {
+              "reasoning_tokens": 582
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5902,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U06",
+      "role": "counselor",
+      "text": "听你这样说，开头那几句好像被你当成了第一道关卡，还没开口就认定自己会把人劝退；删掉重写的过程，也不像在整理内容，更像在反复祈求听众“请你再忍一忍我”。也许你更怕的不是讲得不好，而是一开口就觉得自己在讨好别人、低人一等。",
+      "request_sha256": "09262ca716d762c48f946887548b87449d8516ccdcd5d97e135a429a1cadbd83",
+      "usage": {
+        "input_tokens": 4613,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 224,
+        "output_tokens_details": {
+          "reasoning_tokens": 151
+        },
+        "total_tokens": 4837,
+        "x_details": [
+          {
+            "input_tokens": 4613,
+            "output_tokens": 224,
+            "output_tokens_details": {
+              "reasoning_tokens": 151
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 4837,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U07",
+      "role": "client",
+      "text": "其实我前天联系论坛秘书的时候，差点就问能不能把报告时间缩短到十分钟，后来还是没发出去。我怕导师知道了会觉得我连试都不敢试，但20分钟对我来说真的太长了。",
+      "request_sha256": "358404320e65a29d51e3276ed4d7994bb9799ddb9fd6b143660b89d2f18a9cab",
+      "usage": {
+        "input_tokens": 5438,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 143,
+        "output_tokens_details": {
+          "reasoning_tokens": 101
+        },
+        "total_tokens": 5581,
+        "x_details": [
+          {
+            "input_tokens": 5438,
+            "output_tokens": 143,
+            "output_tokens_details": {
+              "reasoning_tokens": 101
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5581,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U08",
+      "role": "counselor",
+      "text": "那个没有发出去的缩短请求，好像卡在“怕被当成不敢试”和“20分钟真的让你喘不过气”之间。你想缩短，也许不只是逃避，而是这个长度现在让你还没开始，就已经觉得自己要熬过一场很长的审判。我们先不急着决定要不要发，先让“20分钟对你来说到底有多重”这个感觉再清楚一点。",
+      "request_sha256": "01377db8cfd22af63bc067260bd580404dd4455d898394bad23c5fc4dbe499cf",
+      "usage": {
+        "input_tokens": 4773,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 296,
+        "output_tokens_details": {
+          "reasoning_tokens": 217
+        },
+        "total_tokens": 5069,
+        "x_details": [
+          {
+            "input_tokens": 4773,
+            "output_tokens": 296,
+            "output_tokens_details": {
+              "reasoning_tokens": 217
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5069,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U09",
+      "role": "client",
+      "text": "其实昨晚我把第一页全删了之后，就盯着空白文档发了好久的呆，脑子里全是本科时候那种被笑的感觉，好像连“各位老师好”这几个字打出来都怕被人听出口音。后来我干脆把电脑合上，也没跟周屿说我又熬夜了，怕他明天看出来我眼睛肿。",
+      "request_sha256": "bdd00ec54084b7a991681c58a22093a9830634aaffb23fe1fcba319ec6cc6d6e",
+      "usage": {
+        "input_tokens": 5604,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 621,
+        "output_tokens_details": {
+          "reasoning_tokens": 549
+        },
+        "total_tokens": 6225,
+        "x_details": [
+          {
+            "input_tokens": 5604,
+            "output_tokens": 621,
+            "output_tokens_details": {
+              "reasoning_tokens": 549
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6225,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U10",
+      "role": "counselor",
+      "text": "你盯着空白文档，其实不只是没写出开头，而是“各位老师好”这几个字一出来，就带着旧日被笑的感觉，好像还没开口就已经在被人听口音、看穿你的紧张。你连熬夜熬到眼睛肿都不敢让周屿看见，似乎不只是不好意思道歉，更像怕自己的累和怕被当作又一个需要纠正的地方。",
+      "request_sha256": "047cbcd65168e4006a1fcb1653e74bc7df4faab1421af9c558f6da0be4c65b26",
+      "usage": {
+        "input_tokens": 4969,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 298,
+        "output_tokens_details": {
+          "reasoning_tokens": 221
+        },
+        "total_tokens": 5267,
+        "x_details": [
+          {
+            "input_tokens": 4969,
+            "output_tokens": 298,
+            "output_tokens_details": {
+              "reasoning_tokens": 221
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5267,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U11",
+      "role": "client",
+      "text": "其实……他答应“尽量”之后，我原本以为我会松一点，结果那天晚上更睡不好，总是半睡半醒地听他在旁边翻身的动静。我也不敢再跟他说什么，怕显得他好不容易让步了，我还不知好歹。",
+      "request_sha256": "85f5526307005f90d3d448df56c26d0072556f94f9d973b031fea73fbed02a4d",
+      "usage": {
+        "input_tokens": 5805,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 244,
+        "output_tokens_details": {
+          "reasoning_tokens": 189
+        },
+        "total_tokens": 6049,
+        "x_details": [
+          {
+            "input_tokens": 5805,
+            "output_tokens": 244,
+            "output_tokens_details": {
+              "reasoning_tokens": 189
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6049,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U12",
+      "role": "counselor",
+      "text": "他答应“尽量”之后，你好像反而被放进一个更不敢提要求的位置——怕他是在委屈自己，也怕自己再说不舒服就成了不知好歹。你们都没睡，可那些担心还是只在你一个人心里醒着。",
+      "request_sha256": "c782b8885f1ac6fc8047e00102b3f258caacf14160434b716d6ae93f0d8f2bc0",
+      "usage": {
+        "input_tokens": 5153,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 574,
+        "output_tokens_details": {
+          "reasoning_tokens": 523
+        },
+        "total_tokens": 5727,
+        "x_details": [
+          {
+            "input_tokens": 5153,
+            "output_tokens": 574,
+            "output_tokens_details": {
+              "reasoning_tokens": 523
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5727,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U13",
+      "role": "client",
+      "text": "其实……我昨晚听他一直翻身，就猜到他也睡不好，可我就是不敢碰他，怕一开口就变成我逼他。今天来之前我还专门照了两次镜子，怕眼睛肿得让你看出来我哭过。",
+      "request_sha256": "4b89241badb8150444a402a919d719fed4d555d1a0374da4bd04f9a62179e8cc",
+      "usage": {
+        "input_tokens": 5956,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 147,
+        "output_tokens_details": {
+          "reasoning_tokens": 97
+        },
+        "total_tokens": 6103,
+        "x_details": [
+          {
+            "input_tokens": 5956,
+            "output_tokens": 147,
+            "output_tokens_details": {
+              "reasoning_tokens": 97
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6103,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U14",
+      "role": "counselor",
+      "text": "你照了两次镜子，好像不只是想遮住眼睛的肿，而是在遮一个“我其实哭过、我也没睡好”的自己。家里和周屿那边你不敢碰，这里你也先让我别看出来——可你今天还是来了。也许我们可以先不急着让那个快撑不住的你露出来，但你已经带着它走到这里了。",
+      "request_sha256": "adba79344f3768aecda27e664c567a318fbf5cf5c5368c28e46da49e7dc36679",
+      "usage": {
+        "input_tokens": 5299,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 344,
+        "output_tokens_details": {
+          "reasoning_tokens": 270
+        },
+        "total_tokens": 5643,
+        "x_details": [
+          {
+            "input_tokens": 5299,
+            "output_tokens": 344,
+            "output_tokens_details": {
+              "reasoning_tokens": 270
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5643,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U15",
+      "role": "client",
+      "text": "其实……听你这么说，我也觉得今天来之前照那两次镜子，就是不想被人看见我哭过。好像哭这件事一旦被看见，我就连最后一点“我还能撑住”的样子也保不住了。不过现在被你说出来，我反而没那么想逃了。就到这里吧，我想先回去。",
+      "request_sha256": "07381b5b89728ad374458731ea8f47edacd1b84d718a467b3badad5ab7d9a157",
+      "usage": {
+        "input_tokens": 6125,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 585,
+        "output_tokens_details": {
+          "reasoning_tokens": 517
+        },
+        "total_tokens": 6710,
+        "x_details": [
+          {
+            "input_tokens": 6125,
+            "output_tokens": 585,
+            "output_tokens_details": {
+              "reasoning_tokens": 517
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6710,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S04-U16",
+      "role": "counselor",
+      "text": "你能把“哭过”和“没睡好”带着走到这里，已经比上次更明显地在让自己被看见一些了。今天就先停在这里，不用再逼自己多说什么。回去的路上，允许自己不必马上恢复“还能撑住”的样子。",
+      "request_sha256": "80596d2327f5eab803041c94429576eb82cd8adb8f60dc6185b12d029a06af7d",
+      "usage": {
+        "input_tokens": 5486,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 179,
+        "output_tokens_details": {
+          "reasoning_tokens": 123
+        },
+        "total_tokens": 5665,
+        "x_details": [
+          {
+            "input_tokens": 5486,
+            "output_tokens": 179,
+            "output_tokens_details": {
+              "reasoning_tokens": 123
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5665,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

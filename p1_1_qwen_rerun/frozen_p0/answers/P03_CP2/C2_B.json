@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP2",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "222144dd7bd7521d9f5e9df30944eeb5c8386b72c66011908481451521cd030b",
+  "request_sha256": "aa757a62b2244e31bf82d45fb3db6473d21cde276c68bcddd5675eccb855664e",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那面镜子照出的模糊感，或许正是因为你一直在用别人的反馈来定义自己，却忘了你自己原本的样子。既然这面镜子让你看不清自己，我们能不能试着先不看它，看看此刻坐在这里的你，除了“紧张”和“不擅长”，还有哪些真实的感受？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3314,
+    "input_tokens_details": {
+      "cached_tokens": 3200
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3373,
+    "x_details": [
+      {
+        "input_tokens": 3314,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 3200
+        },
+        "total_tokens": 3373,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

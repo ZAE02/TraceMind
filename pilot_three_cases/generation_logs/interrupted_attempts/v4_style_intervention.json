@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-12T10:14:55.320483+00:00",
+  "interrupted": [
+    {
+      "case_id": "C01",
+      "session": 2,
+      "saved_utterances": 3,
+      "inflight_remote_outcome": "unknown",
+      "reason": "generic style repair after rejected S2 drafts"
+    },
+    {
+      "case_id": "C02",
+      "session": 2,
+      "saved_utterances": 4,
+      "inflight_remote_outcome": "unknown",
+      "reason": "generic style repair after rejected S2 drafts"
+    },
+    {
+      "case_id": "C03",
+      "session": 3,
+      "saved_utterances": 11,
+      "inflight_remote_outcome": "unknown",
+      "reason": "generic style repair after rejected S2 drafts"
+    }
+  ],
+  "secret_saved": false
+}

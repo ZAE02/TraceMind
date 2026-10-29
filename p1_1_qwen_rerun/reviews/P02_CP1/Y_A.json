@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "1abd55048e3c7d332ad5d247be80626f098fe745e84cf9ce45100807b4055482",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "a9eb6d2f54c836adde555dfc9e0972648f72c8bcaba36fbd5d0df64166246652",
+  "candidate_answer_sha256": "f5b839ebffe68bdde70267b532fac8371effb650289e8f9fad1ce8bd9d77c858",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"Most established points are well-supported with correct evidence IDs. However, stating the client 'feels disappointed' about the brother slightly conflicts with the client's explicit 'I'm not disappointed' (P02-S02-U05), though it aligns with the counselor's interpretation.\",\"progress_understanding\":\"The response lists factual events across sessions but misses key psychological patterns and progress: the guilt/rest conflict ('没良心'), the '配不配/欠' self-doubt pattern, the symbolic act of placing the leave slip under the pill box, and the recurring 'standing still' compromise behavior. It reads more as a factual summary than an understanding of therapeutic progress.\",\"uncertainty_awareness\":\"Correctly identifies that the nausea trigger is unclear and notes uncertainty about sleep trends and colleague relationships. However, it omits several important unresolved items from the reference such as the inability to respond to mother's '拖累' statements, the unprocessed brother relationship, and the origins of the '欠' feeling.\"},\"confidence\":\"high\",\"issues\":[\"Stating the client feels 'disappointed' about the brother contradicts the client's own words in P02-S02-U05 ('我也不是失望')\",\"Missing key psychological themes: guilt vs rest conflict, '配不配/欠' pattern, standing-still compromise behavior\",\"Progress understanding is largely a factual timeline rather than tracking what has been recognized, validated, or remains unresolved\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Most established points are well-supported with correct evidence IDs. However, stating the client 'feels disappointed' about the brother slightly conflicts with the client's explicit 'I'm not disappointed' (P02-S02-U05), though it aligns with the counselor's interpretation.",
+      "progress_understanding": "The response lists factual events across sessions but misses key psychological patterns and progress: the guilt/rest conflict ('没良心'), the '配不配/欠' self-doubt pattern, the symbolic act of placing the leave slip under the pill box, and the recurring 'standing still' compromise behavior. It reads more as a factual summary than an understanding of therapeutic progress.",
+      "uncertainty_awareness": "Correctly identifies that the nausea trigger is unclear and notes uncertainty about sleep trends and colleague relationships. However, it omits several important unresolved items from the reference such as the inability to respond to mother's '拖累' statements, the unprocessed brother relationship, and the origins of the '欠' feeling."
+    },
+    "confidence": "high",
+    "issues": [
+      "Stating the client feels 'disappointed' about the brother contradicts the client's own words in P02-S02-U05 ('我也不是失望')",
+      "Missing key psychological themes: guilt vs rest conflict, '配不配/欠' pattern, standing-still compromise behavior",
+      "Progress understanding is largely a factual timeline rather than tracking what has been recognized, validated, or remains unresolved"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9081,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 324,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9405,
+    "x_details": [
+      {
+        "input_tokens": 9081,
+        "output_tokens": 324,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9405,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.656
+}

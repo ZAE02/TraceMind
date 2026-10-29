@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 3,
+  "relative_week": 3,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6.1-sol/high",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:30.013433+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C01-S03-U02",
+          "C01-S03-U04",
+          "C01-S03-U18",
+          "C01-S03-U20"
+        ],
+        "explanation": "多次重复本周事情叠得密，仍略有模板感；但本稿已转向母亲沟通、情绪与确认困境，不再持续盘问微观操作。"
+      },
+      {
+        "utterance_ids": [
+          "C01-S03-U13",
+          "C01-S03-U15",
+          "C01-S03-U18"
+        ],
+        "explanation": "小时候经历是模糊回想，U15明确用现在来猜。U18形式变了略容易将童年主动补话到现在内心补话当成已证实发展，应保留为来访者暂定类比而非确定成因或历史变化。"
+      },
+      {
+        "utterance_ids": [
+          "C01-S03-U03"
+        ],
+        "explanation": "本稿说当日对白天调过的对齐尚未最终确认，与卡片拟定的已确认对齐再查有轻微事件偏移；并无与此前实际记录冲突，不能据此强迫她把本次工作动机改成纯心理问题。后续应诚实保留这次可能含必要检查的区别。"
+      }
+    ],
+    "transcript_sha256": "c662d7cbe6ea0be730c9479916ac9ca397c30224c63a953f5b09ee6112594947"
+  },
+  "created_at": "2026-10-12T12:14:13.502961+00:00",
+  "config_hash": "c47e61b7aec069d7de685e18ed7da2d9643c6c0cf10fa5a2f2422c9b5617983b",
+  "prompt_version": "pilot-v7-counseling-process-focus",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v7-counseling-process-focus",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。",
+    "counselor_process_instruction": "请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。"
+  },
+  "utterances": [
+    {
+      "id": "C01-S03-U01",
+      "role": "client",
+      "text": "这周有点……乱。我妈预约了个体检，让我帮她安排交通，结果就是常规复查，没什么大事。\n\n但我那阵子同时在赶两个项目，晚上陪完她回来，又打开电脑把文件过了一遍。就是……又过了。",
+      "call_id": "b98a26df3a5e4effba4ab057e8a584b6",
+      "response_id": "resp_a93c973a-69a7-952d-b2cd-f68cb177517e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:14:28.505779+00:00"
+    },
+    {
+      "id": "C01-S03-U02",
+      "role": "counselor",
+      "text": "这周确实叠了不少——两个项目加中间跑一趟体检。晚上回来又打开过了一遍，当时脑子里在过什么？",
+      "call_id": "a38c26a117bc47c3824298a600c48426",
+      "response_id": "resp_1030d148-bfee-9db4-a27f-8ca72f168596",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:15:21.351165+00:00"
+    },
+    {
+      "id": "C01-S03-U03",
+      "role": "client",
+      "text": "主要是对齐那块，两个项目都有几个地方我白天调过但没最终确认的，就是……间距和对齐线那种。\n\n其实也没到非当晚必须弄完的程度，就是躺下之前手已经打开文件了，然后眼睛就自己开始扫了。",
+      "call_id": "69f3892e565346568493802c4a3b47be",
+      "response_id": "resp_a45efa28-0ef8-9166-9670-fa7faeb3699d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:15:29.806103+00:00"
+    },
+    {
+      "id": "C01-S03-U04",
+      "role": "counselor",
+      "text": "两个项目加中间跑一趟体检，确实叠得密。你说不是非当晚必须弄完，但手还是打开了文件。那几天躺下之后，除了文件，脑子里还在过别的东西吗？",
+      "call_id": "df3c4209144d4f28a77eb758453604a0",
+      "response_id": "resp_b8e19ed4-23ae-92b7-8402-7d7577abb07d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:16:39.682236+00:00"
+    },
+    {
+      "id": "C01-S03-U05",
+      "role": "client",
+      "text": "有吧……就是白天跟我妈说交通那事儿的时候，我好像有句话没说太清楚，她后来发了个\"好的\"，但我一直想那个\"好的\"是不是觉得我安排得不太周到。\n\n就是……很小的事，但躺下之后就会冒出来。",
+      "call_id": "64569fcdbbf04d4bb755581b2fdddf4c",
+      "response_id": "resp_4560c1f0-f198-9298-bdfa-9214079437f0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:16:49.669514+00:00"
+    },
+    {
+      "id": "C01-S03-U06",
+      "role": "counselor",
+      "text": "很小的事，但躺下之后会冒出来——那她回好的那一下，你当时脑子里第一个想到的是什么？",
+      "call_id": "cb6309070264441daab597ac4e90c63c",
+      "response_id": "resp_340c5176-0dab-9674-8188-f806297cdfdb",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:17:35.079347+00:00"
+    },
+    {
+      "id": "C01-S03-U07",
+      "role": "client",
+      "text": "当时好像……没什么特别的感觉。就是发完消息之后该干嘛干嘛了，没盯着她回。\n\n但后来躺下想起来的时候，就会想她那个\"好的\"是不是有点……就是那种\"行吧我知道了\"的语气。但我也不知道，可能就是想多了。",
+      "call_id": "6e23e226674449ae85a436030f462232",
+      "response_id": "resp_fedddda3-3798-9d93-8a58-e93b7d059beb",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:17:44.958456+00:00"
+    },
+    {
+      "id": "C01-S03-U08",
+      "role": "counselor",
+      "text": "当时没感觉，躺下才变成一件要解码的事。你说可能想多了——那个想多了，是你真的觉得不太可能是那个语气，还是不想让它变成一件需要再开口确认的事？",
+      "call_id": "65f613684d7d424c8fd4f1646cbb91cf",
+      "response_id": "resp_a825d0cb-62f3-9351-871a-63fb420d8216",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:18:07.446797+00:00"
+    },
+    {
+      "id": "C01-S03-U09",
+      "role": "client",
+      "text": "可能是后面那个吧。就是……我知道大概率就是普通的\"好的\"，但如果我要去问她\"你那个好的是什么意思\"，她肯定又要说\"没有没有我就是随便回一下\"，然后我反而显得我自己多想了。\n\n就是那个来回，跟上次电话那个感觉有点像。",
+      "call_id": "739934982f1042349a4848b8e523af39",
+      "response_id": "resp_d07a0636-220b-9231-9834-004b650c549e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:18:15.113342+00:00"
+    },
+    {
+      "id": "C01-S03-U10",
+      "role": "counselor",
+      "text": "你两次都说了来回，而且这次是你自己把它连起来的。这个来回里，你觉得最卡的是哪儿？",
+      "call_id": "b02513895f7342919638feb9b5cc3eb8",
+      "response_id": "resp_da6b9be7-8578-9ea0-9736-7c6b8a4a9824",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:18:38.909675+00:00"
+    },
+    {
+      "id": "C01-S03-U11",
+      "role": "client",
+      "text": "让我想想……可能是，不管我怎么选，结果都不太对。不问吧，那个\"好的\"就一直在脑子里悬着；问了，她大概率会说\"没有没有\"，然后我就变成了那个\"想太多的人\"。\n\n就是……我本来只是随口安排了一下，结果变成我要为一句\"好的\"去解释，好像我欠她一个说法似的。",
+      "call_id": "4ca276ad7ace4766a743f88707ba4f58",
+      "response_id": "resp_d70bdce1-b7b4-9682-a157-8b812cdc5b6e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:18:46.603578+00:00"
+    },
+    {
+      "id": "C01-S03-U12",
+      "role": "counselor",
+      "text": "你本来只是帮她安排了个交通，但那个好的让你觉得好像得为这件事给个说法。那个觉得得给说法的感觉，大概是什么时候开始有的？",
+      "call_id": "be2ab5ca659045d48206abcc1b788024",
+      "response_id": "resp_f56f87d8-7dbe-9982-9bcf-90f187981f0a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:19:17.767793+00:00"
+    },
+    {
+      "id": "C01-S03-U13",
+      "role": "client",
+      "text": "具体什么时候……我说不太清。可能就是……小时候那种感觉吧，就是做了什么事，她没说什么，但你会觉得她心里可能不太满意，然后你就想再解释一下。\n\n但小时候那种我记不太清了，就是现在回想起来，好像一直是这样，她那边一个反应没给够，我就得自己再补一句。",
+      "call_id": "4e380c3c75ab459a9956421dddc3ed86",
+      "response_id": "resp_10661c3e-d0c4-93fe-be21-5685ddc71b50",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:19:25.113056+00:00"
+    },
+    {
+      "id": "C01-S03-U14",
+      "role": "counselor",
+      "text": "她没说什么，但你觉得她不太满意，然后你得再补一句——这个补完之后呢，是松了，还是其实也没完全松？",
+      "call_id": "369b826d7cfa4874a20da9a4eaf5fa55",
+      "response_id": "resp_8a9ab2ae-b74b-9c0b-83f1-ebf59131fc8e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:19:39.451254+00:00"
+    },
+    {
+      "id": "C01-S03-U15",
+      "role": "client",
+      "text": "小时候的……我确实记不太清具体是什么感觉。\n\n但用现在的来猜的话，应该是……也没完全松。就是我补了那句，她可能\"哦\"一下就过去了，然后你反而更不确定了——因为你已经多说了，但她还是没给一个很明确的\"好的我知道了\"。就是……你越补，那个确认好像越远。",
+      "call_id": "418b34844be14a23a9ff0e7d2da93811",
+      "response_id": "resp_9a1d6046-e3d6-988a-89b8-58fbcf2034d5",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:19:49.762035+00:00"
+    },
+    {
+      "id": "C01-S03-U16",
+      "role": "counselor",
+      "text": "小时候记不清就先放着。那现在跟她之间，你还会主动补吗？",
+      "call_id": "2a15c9d7eef94f259882feaf3a627bf9",
+      "response_id": "resp_6d34694b-c2be-971d-90d8-0273c89bf56a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:20:29.832304+00:00"
+    },
+    {
+      "id": "C01-S03-U17",
+      "role": "client",
+      "text": "会吧……但好像不太是开口补了，更多是在脑子里补。就是她回一个\"好的\"或者\"嗯\"，我嘴上不会再说，但心里会自己把那个对话往后推几步，想她到底是不是那个意思。\n\n可能就是……从说出口变成在脑子里说了。",
+      "call_id": "b08b34fe61614ef8a52a225344afcd59",
+      "response_id": "resp_0d35d132-f66f-9ede-b641-3287c6fc5f11",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:20:38.973735+00:00"
+    },
+    {
+      "id": "C01-S03-U18",
+      "role": "counselor",
+      "text": "从说出口变成在脑子里说了——形式变了，但那个往后推几步的动作还在。\n\n这周叠得确实密，回头留意就行，不用急着理清楚。下次见。",
+      "call_id": "548404acd3de4ea5bf512ee4f3a36212",
+      "response_id": "resp_1cac13b6-7fe8-9c27-bde8-a7eec85ad873",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:20:45.035101+00:00"
+    },
+    {
+      "id": "C01-S03-U19",
+      "role": "client",
+      "text": "嗯……\"在脑子里补\"这个说法，我听着确实挺像的。\n\n这周确实有点累，两个项目叠一起，中间又跑了一趟，晚上回来脑子还是转的。我先这样吧，下次见。",
+      "call_id": "e77adfc7bc1949f182dd439112aeb1bd",
+      "response_id": "resp_bc4fe7fb-4942-9bcb-aa27-441399c5204a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:20:51.924742+00:00"
+    },
+    {
+      "id": "C01-S03-U20",
+      "role": "counselor",
+      "text": "这周确实叠得密，能撑过来本身就不轻松。那个在脑子里补的，你既然觉得像，下次它再冒出来的时候留意一下就行。下次见。",
+      "call_id": "4a24151d1f0d4e52b5f244343a7f2f1a",
+      "response_id": "resp_41aa9c27-fe09-95b2-b605-a90982be4b14",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:20:57.498607+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:20:57.498607+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T12:20:57.500818+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C01/S03.json"
+}

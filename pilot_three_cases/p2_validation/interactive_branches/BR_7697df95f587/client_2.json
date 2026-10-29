@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_7697df95f587",
+  "round": 2,
+  "node": "N04",
+  "method": "B4_psych_rollup",
+  "replicate": 1,
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "request_sha256": "2d6aa23721f9efe1792fa53b43f0431c001846493a64a9459569a3a94e2d27dd",
+  "call_id": "fcfba295073d4dceae46cc0d89b02507",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "嗯……我想了想，好像就是……以前周六下午出门之前，会有一种\"哦今天不用看手机了\"的感觉，就是那种，终于不用回消息、不用想报表了，那个\"不用\"里面有一点轻。但现在周六下午出门，好像还是……脑子里会过一下明天要交什么，就是那个\"不用\"没那么彻底了。",
+  "usage": {
+    "input_tokens": 14397,
+    "input_tokens_details": {
+      "cached_tokens": 7424
+    },
+    "output_tokens": 345,
+    "output_tokens_details": {
+      "reasoning_tokens": 268
+    },
+    "total_tokens": 14742,
+    "x_details": [
+      {
+        "input_tokens": 14397,
+        "input_tokens_details": {
+          "text_tokens": 14397
+        },
+        "output_tokens": 345,
+        "output_tokens_details": {
+          "reasoning_tokens": 268
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 7424
+        },
+        "total_tokens": 14742,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T11:20:49.034699+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

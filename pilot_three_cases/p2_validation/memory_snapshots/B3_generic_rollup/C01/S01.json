@@ -1,0 +1,222 @@
+{
+  "method": "B3_generic_rollup",
+  "case_id": "C01",
+  "last_completed_session": 1,
+  "state": {
+    "entries": [
+      {
+        "text": "核心模式：来访者将模糊反馈（如\"有点挤\"）体验为\"找不到确认终点\"，不是觉得哪里不对，而是\"没法确认它到底对不对\"，因此只能反复过一遍来试图确认，但过完仍无法确认。来访者自己总结：\"只要还在动，就说明它还没好。\"（U03, U07, U09）",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U03",
+          "C01-S01-U07",
+          "C01-S01-U09"
+        ]
+      },
+      {
+        "text": "触发事件：周二内部提案，小许看了一眼首页说\"有点挤\"，仅三字，未指出具体位置或方案不可用。来访者当晚改到23:30，前后六版；次日早上将其中两处改回原版。周五交付前方案本身应无问题，但来访者停不下来在想那个页面。（U01）",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U01"
+        ]
+      },
+      {
+        "text": "睡眠与反刍：最近约两三周，隔两三天有一晚躺下后脑子停不下来，内容杂（白天一句话、没回的消息等），\"跟有没有关系好像不太大\"。起于前两周一个赶得紧的项目（连好几天过九点才走），项目结束后未随之消退。（U09, U11, U13）",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U09",
+          "C01-S01-U11",
+          "C01-S01-U13"
+        ]
+      },
+      {
+        "text": "周姐反馈与来访者的解读：周姐原话\"先这样往下推，周五前定稿就行\"，方向可以继续不用推翻。但来访者当时第一反应不是松下来，而是\"她是不是觉得我没处理到小许说的那个挤的问题\"——她没提，来访者觉得她心里还留着那个点。来访者自己判断这更多是自己替周姐预判。（U05）",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U05"
+        ]
+      },
+      {
+        "text": "母亲电话：赶项目那阵子母亲打两次电话问忙不忙、吃没吃好，无大事。来访者接时烦躁，核心是\"又多了一件事要回应\"——答\"挺好的\"觉得不真实，答\"确实累\"又担心母亲那边开始担心，来回耗人。来访者当时真正想要的是\"能不能别问了，让我安静待会儿就行\"。（U15, U17）",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U15",
+          "C01-S01-U17"
+        ]
+      },
+      {
+        "text": "咨询师假设（来访者未确认）：白天的\"没法确认对不对\"、晚上\"脑子里自己转\"、接电话时\"想怎么回\"，底下可能是同一个\"停不下来\"的东西。来访者回应\"说'是同一件事'我还有点不确定，但那个'停不下来'的感觉确实像\"。（U10, U12, U18, U19）",
+        "type": "hypothesis",
+        "speaker": "counselor",
+        "evidence_ids": [
+          "C01-S01-U10",
+          "C01-S01-U12",
+          "C01-S01-U18",
+          "C01-S01-U19"
+        ]
+      },
+      {
+        "text": "来访者来访初衷：本来只想聊\"怎么少加班\"，后觉得还是得把整件事讲一下。（U01）",
+        "type": "goal",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U01"
+        ]
+      },
+      {
+        "text": "来访者自评收获：今天聊下来比自己想的时候清楚一点，\"至少知道不是方案真的有什么问题\"。计划周五交付前再过一遍（不再六版），如果过完还想再过，留意那个\"想再过\"本身。（U19, U21）",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U19",
+          "C01-S01-U21"
+        ]
+      },
+      {
+        "text": "人物关系：小许——同事，给出\"有点挤\"的模糊反馈；周姐——上级或资深同事，给出\"先这样往下推\"的明确推进信号；母亲——赶项目期间两次来电，来访者当时烦躁但事后觉得没理由。（U01, U05, U15）",
+        "type": "relationship",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U01",
+          "C01-S01-U05",
+          "C01-S01-U15"
+        ]
+      },
+      {
+        "text": "尚未确认：①\"停不下来\"在不同情境下是否为同一底层机制（来访者表示不确定）；②睡眠/反刍模式的确切起始日期（来访者说不太清）；③周五交付后该模式是否持续。",
+        "type": "unresolved",
+        "speaker": "client",
+        "evidence_ids": [
+          "C01-S01-U19",
+          "C01-S01-U13",
+          "C01-S01-U22"
+        ]
+      }
+    ]
+  },
+  "state_sha256": "7af79fe0eb8d0ed0195a1d8f20f25af523e4c312e36f80184db8cbda344596fa",
+  "tokenizer_tokens": 1192,
+  "budget": 3000,
+  "tokenizer_reference": "Qwen/Qwen3.8-27B public tokenizer; hosted tokenizer identity unverified",
+  "input_previous_memory_sha256": "e3eb12da99e044ecc7d50cea407bf17f33c546e5309aa7ee661234baed2b7750",
+  "new_session_sha256": "372605b9f622edb41c2161439359014df78495d249bfc4643c493397c7e96554",
+  "source_call_id": "46ea84eefe7a497097e9e43b50fabf4d",
+  "dropped_entries": [],
+  "raw_state_tokens": 1192,
+  "structural_repair": {
+    "method": "json-repair 0.44.1, syntax only; raw API output retained",
+    "raw_text_sha256": "dd4cd7ccbfb70ffef7506e4a7c51f4a1dc18677ab5e301de8a920d991cc3a73e",
+    "parsed_sha256": "7af79fe0eb8d0ed0195a1d8f20f25af523e4c312e36f80184db8cbda344596fa",
+    "actions": [
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "来访者将模糊反馈（如\"有点挤\"）体验为\""
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "如\"有点挤\"）体验为\"找不到确认终点\"，"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "是觉得哪里不对，而是\"没法确认它到底对不"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "认。来访者自己总结：\"只要还在动，就说明"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "，小许看了一眼首页说\"有点挤\"，仅三字，"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "话、没回的消息等），\"跟有没有关系好像不"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "访者的解读：周姐原话\"先这样往下推，周五"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "反应不是松下来，而是\"她是不是觉得我没处"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "访者接时烦躁，核心是\"又多了一件事要回应"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "一件事要回应\"——答\"挺好的\"觉得不真实"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "好的\"觉得不真实，答\"确实累\"又担心母亲"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "访者当时真正想要的是\"能不能别问了，让我"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "访者未确认）：白天的\"没法确认对不对\"、"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "法确认对不对\"、晚上\"脑子里自己转\"、接"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "里自己转\"、接电话时\"想怎么回\"，底下可"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "\"，底下可能是同一个\"停不下来\"的东西。"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "\"的东西。来访者回应\"说'是同一件事'我"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "来访初衷：本来只想聊\"怎么少加班\"，后觉"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "己想的时候清楚一点，\"至少知道不是方案真"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "完还想再过，留意那个\"想再过\"本身。（U"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "：小许——同事，给出\"有点挤\"的模糊反馈"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "上级或资深同事，给出\"先这样往下推\"的明"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "\": \"尚未确认：①\"停不下来\"在不同情"
+      },
+      {
+        "text": "The parser returned early, checking if there's more json elements",
+        "context": "   }\n  ]\n}\n"
+      },
+      {
+        "text": "There were no more elements, returning the element without the array",
+        "context": "  }\n  ]\n}\n"
+      }
+    ]
+  },
+  "incomplete_recovery_from": null,
+  "update_scope": "previous bounded memory + new session only; no complete-history backfill",
+  "annotation_visible": false,
+  "private_state_visible": false
+}

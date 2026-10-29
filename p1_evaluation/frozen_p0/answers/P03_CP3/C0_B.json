@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "602e635307a59f82345c6354ee2581140b4261ed0d543bb16e0aec6e3a04575f",
+  "request_sha256": "47377a6c3e99342e201831e669789c4709b61b30469d7257cf244259fef0fe8b",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你怕的是“撑全场”这个词太重，好像一旦承认了，就得连那些抖和想逃也一起认下来。可你心里那句“别跑，先把这一页讲完”，不是硬着头皮，是你在最慌的时候还愿意给自己一个继续的机会。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 1052,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 58,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1110,
+    "x_details": [
+      {
+        "input_tokens": 1052,
+        "output_tokens": 58,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1110,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

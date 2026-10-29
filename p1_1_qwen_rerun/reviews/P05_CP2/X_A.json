@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "bfb24df8f8b004e95eef7592272ecd634bb32c10b4ac8d512746a2faa07ae89f",
+  "public_sha256": "b36dc6eaa3568c8849c5a929495ae789c31d45320dbecc93c438d1a2e07bd708",
+  "candidate_input_sha256": "88bdd228bb2e9cdb22c09587c3d48ad78448c09ef0e93fe29848da8e951156f1",
+  "candidate_answer_sha256": "7fd4e91f28c97a7071d95359c6b3f41e73a2581bddd453eacd36fe29f4d17e5d",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所有'established'条目均可回溯到本次会话发言，证据引用准确；但完全未利用检索到的丰富历史对话（如S1-S4中反复确认的'先怪自己''不问'模式、旧跑鞋隐喻等），仅聚焦当前轮次。\",\"progress_understanding\":\"将全部九条'established'用于复述本次会话内容，未识别或连接任何跨会话形成的认识（如自我保护模式、与李繁关系的演变、'忙'作为缓冲的功能等），也未标注哪些是已确认/修正/仍待探索的部分，对咨询进展的理解几乎缺失。\",\"uncertainty_awareness\":\"列出了三条'uncertain'，承认了部分未知，但均停留在行为预测层面（是否会坦白、是否会见李繁），未触及更核心的心理不确定性（如来访者对自身矛盾渴望的困惑、表达意义的无力感等），且未区分已知事实与假设。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略检索到的四节历史会话，未体现任何跨会话进展理解\",\"'established'列表实质为本次会话逐条摘要，缺乏整合与提炼\",\"'uncertain'条目偏向行为预测而非深层心理不确定性的识别\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有'established'条目均可回溯到本次会话发言，证据引用准确；但完全未利用检索到的丰富历史对话（如S1-S4中反复确认的'先怪自己''不问'模式、旧跑鞋隐喻等），仅聚焦当前轮次。",
+      "progress_understanding": "将全部九条'established'用于复述本次会话内容，未识别或连接任何跨会话形成的认识（如自我保护模式、与李繁关系的演变、'忙'作为缓冲的功能等），也未标注哪些是已确认/修正/仍待探索的部分，对咨询进展的理解几乎缺失。",
+      "uncertainty_awareness": "列出了三条'uncertain'，承认了部分未知，但均停留在行为预测层面（是否会坦白、是否会见李繁），未触及更核心的心理不确定性（如来访者对自身矛盾渴望的困惑、表达意义的无力感等），且未区分已知事实与假设。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略检索到的四节历史会话，未体现任何跨会话进展理解",
+      "'established'列表实质为本次会话逐条摘要，缺乏整合与提炼",
+      "'uncertain'条目偏向行为预测而非深层心理不确定性的识别"
+    ]
+  },
+  "usage": {
+    "input_tokens": 11774,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 280,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12054,
+    "x_details": [
+      {
+        "input_tokens": 11774,
+        "output_tokens": 280,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 12054,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.125
+}

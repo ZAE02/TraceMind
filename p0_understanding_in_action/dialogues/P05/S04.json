@@ -1,0 +1,504 @@
+{
+  "case_id": "P05",
+  "session": 4,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P05-S04-U01",
+      "role": "client",
+      "text": "见李繁那天，我难得有半小时觉得自己挺正常的，说话也没那么累。可回到家翻出那双旧跑鞋，鞋底都开胶了，我坐在床边发呆，突然又觉得那种正常是借来的。她跟我说她也有过很乱的一年，我其实很想知道她当时发生了什么，但到最后也没敢问。",
+      "request_sha256": "845d60cee1976a7fa50662ca79b7cfe56c7e338ee26d075bec6e4afee0a25327",
+      "usage": {
+        "input_tokens": 4443,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 572,
+        "output_tokens_details": {
+          "reasoning_tokens": 500
+        },
+        "total_tokens": 5015,
+        "x_details": [
+          {
+            "input_tokens": 4443,
+            "output_tokens": 572,
+            "output_tokens_details": {
+              "reasoning_tokens": 500
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 5015,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U02",
+      "role": "counselor",
+      "text": "“借来的正常”这句话里，好像藏着一种很准确的感觉：那半小时的真实轻松，很快就被你归到了“不属于自己”的那一边。旧跑鞋开胶了，但你把它翻出来，也许不只是偶然——它和你那个“很想知道却没敢问”的犹豫，好像都停在某个你还没有走进去的地方。",
+      "request_sha256": "45c89f03827f0a9ade4e66bbbd8a0815f8ddafac9a85cb4392e76f9f98d57de9",
+      "usage": {
+        "input_tokens": 3895,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 341,
+        "output_tokens_details": {
+          "reasoning_tokens": 269
+        },
+        "total_tokens": 4236,
+        "x_details": [
+          {
+            "input_tokens": 3895,
+            "output_tokens": 341,
+            "output_tokens_details": {
+              "reasoning_tokens": 269
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 4236,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U03",
+      "role": "client",
+      "text": "她说完那句话，我其实有点想接着问，但又怕像在挖她的旧伤。回家之后我一直在想，如果当时问了，可能她反而会觉得被信任。可我当时就只是点了点头，好像什么都没发生一样。后来刷工作邮件刷到睡着，手机砸在枕头边上。",
+      "request_sha256": "cc3252287e0431d4ce762279d4e99bcc879f5eb55abdd12223a113adabd1acb3",
+      "usage": {
+        "input_tokens": 4633,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 433,
+        "output_tokens_details": {
+          "reasoning_tokens": 370
+        },
+        "total_tokens": 5066,
+        "x_details": [
+          {
+            "input_tokens": 4633,
+            "output_tokens": 433,
+            "output_tokens_details": {
+              "reasoning_tokens": 370
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5066,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U04",
+      "role": "counselor",
+      "text": "那个“点了点头，装作什么都没发生一样”的瞬间，好像你又替自己做了一次“不问”的选择，只是这一次，那份遗憾更清楚了一些——你甚至能想象出，问了可能反而会让对方感到被信任。而刷邮件刷到睡着、手机砸在枕边，好像也是在把那个想继续靠近一点点的自己，交给忙碌来暂时盖过去。",
+      "request_sha256": "610b6530a3913e9933aaaa021c7a9e946d8d09b3475b2139894924e66d48c4b2",
+      "usage": {
+        "input_tokens": 4075,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 355,
+        "output_tokens_details": {
+          "reasoning_tokens": 277
+        },
+        "total_tokens": 4430,
+        "x_details": [
+          {
+            "input_tokens": 4075,
+            "output_tokens": 355,
+            "output_tokens_details": {
+              "reasoning_tokens": 277
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4430,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U05",
+      "role": "client",
+      "text": "可能我还是做不到真的停下来。那半小时像从别人那里借来的，回家一摸到开胶的鞋底，就又被拽回原样了。我挺想问问李繁那年怎么过来的，但又怕她也要我回答一样的问题。",
+      "request_sha256": "c6bc8603c76bf56fabc57ba9e415a1dcb0459fd80463878382e5331aabd706ac",
+      "usage": {
+        "input_tokens": 4819,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 391,
+        "output_tokens_details": {
+          "reasoning_tokens": 338
+        },
+        "total_tokens": 5210,
+        "x_details": [
+          {
+            "input_tokens": 4819,
+            "output_tokens": 391,
+            "output_tokens_details": {
+              "reasoning_tokens": 338
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5210,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U06",
+      "role": "counselor",
+      "text": "你怕的不只是挖到她的旧伤，好像还怕那个问题一旦问出去，自己也会被拉进同一种暴露里——“那你呢，你那一年又是怎么过来的”。这种怕被反问的感觉，是不是和你之前很多次把话咽回去时，背后站着的其实是同一种担心？",
+      "request_sha256": "c66ec7bba75bd47164a8e8aa25b9920ee99b24b74ff326043288008fe6a028a3",
+      "usage": {
+        "input_tokens": 4251,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 371,
+        "output_tokens_details": {
+          "reasoning_tokens": 307
+        },
+        "total_tokens": 4622,
+        "x_details": [
+          {
+            "input_tokens": 4251,
+            "output_tokens": 371,
+            "output_tokens_details": {
+              "reasoning_tokens": 307
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4622,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U07",
+      "role": "client",
+      "text": "可能确实是同一种。她一问我，我就得承认自己这一年也过得不怎么样，而我还没准备好跟她说这些。我也怕万一她问完，我答得不好，那半小时的轻松就真的没了。",
+      "request_sha256": "d577ee4213d5c74d357fef6b4e38b297ac94feb65a65f2ccdb4c3b50fe0b7a02",
+      "usage": {
+        "input_tokens": 4981,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 190,
+        "output_tokens_details": {
+          "reasoning_tokens": 144
+        },
+        "total_tokens": 5171,
+        "x_details": [
+          {
+            "input_tokens": 4981,
+            "output_tokens": 190,
+            "output_tokens_details": {
+              "reasoning_tokens": 144
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5171,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U08",
+      "role": "counselor",
+      "text": "那半小时的轻松，像是一个你很想护住、又不敢碰的东西——怕一问出口，它就从“借来的”变成“要还回去的”。而你设想中的被反问，好像默认了自己一旦开口，就一定要交出“过得不好”的证明，而且还会答得不够好。也许现在不用先去想“如果她问回来我该怎么办”，可以先看看：是什么让那半小时的好，在你心里显得那么需要被保护、又那么容易碎。",
+      "request_sha256": "8c0c52676fbf99f83d9b1229188a92828e60bc6ef930faaaa9f6b44348f80a16",
+      "usage": {
+        "input_tokens": 4406,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 671,
+        "output_tokens_details": {
+          "reasoning_tokens": 573
+        },
+        "total_tokens": 5077,
+        "x_details": [
+          {
+            "input_tokens": 4406,
+            "output_tokens": 671,
+            "output_tokens_details": {
+              "reasoning_tokens": 573
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5077,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U09",
+      "role": "client",
+      "text": "可能那半小时让我觉得，原来我还可以是那样的人，但一回家看到自己过的日子，又觉得那是我装的。我很怕那种轻松是李繁带来的，等她一走，我就又变回那个连问一句都不敢的人。旧跑鞋以前陪我最久，现在连鞋底都撑不住了，我翻出来反而不知道该拿它怎么办。",
+      "request_sha256": "abe1484fa0f1ae26a2b8f15fd1ddf90364d247e2341f8f41a90324fb8ba18d76",
+      "usage": {
+        "input_tokens": 5170,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 416,
+        "output_tokens_details": {
+          "reasoning_tokens": 340
+        },
+        "total_tokens": 5586,
+        "x_details": [
+          {
+            "input_tokens": 5170,
+            "output_tokens": 416,
+            "output_tokens_details": {
+              "reasoning_tokens": 340
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5586,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U10",
+      "role": "counselor",
+      "text": "你刚才把两件看起来不相干的事放在了一起：半小时的轻松像是由李繁带来的，而那双陪了你很久的旧跑鞋，现在已经撑不住了。好像你心里也有一双“旧跑鞋”——某种撑着你走了很久的东西，最近越来越不知道该拿它怎么办，也不确定自己一个人还能不能继续走。",
+      "request_sha256": "8efb1b929adecac64641504462b805f164a8b0db415de93f1dd76c4a43340448",
+      "usage": {
+        "input_tokens": 4625,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 451,
+        "output_tokens_details": {
+          "reasoning_tokens": 381
+        },
+        "total_tokens": 5076,
+        "x_details": [
+          {
+            "input_tokens": 4625,
+            "output_tokens": 451,
+            "output_tokens_details": {
+              "reasoning_tokens": 381
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5076,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U11",
+      "role": "client",
+      "text": "那双鞋我以前每周都刷，鞋带都换过好几次。现在开胶了，我其实有点不想看它，也不舍得扔。就像她说过得乱，我听了反而松了口气，但又马上觉得自己不该这样。",
+      "request_sha256": "685215808f92055469d7070251fc40c278ca2122aef99c6fca546a2733e5c6f4",
+      "usage": {
+        "input_tokens": 5368,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 248,
+        "output_tokens_details": {
+          "reasoning_tokens": 200
+        },
+        "total_tokens": 5616,
+        "x_details": [
+          {
+            "input_tokens": 5368,
+            "output_tokens": 248,
+            "output_tokens_details": {
+              "reasoning_tokens": 200
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5616,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U12",
+      "role": "counselor",
+      "text": "那双旧跑鞋被你反复照料过很多年，现在“不想看也不舍得扔”，好像也成了你对自己某一个部分的态度——知道它还在，却不知该怎么处理它。而听到李繁说“过得乱”时你松了口气，那种松口气不是幸灾乐祸，可能是终于有人让你觉得自己不是唯一一个走得磕磕绊绊的人，可你又立刻把这一点松口气判成了“不该这样”。也许我们可以先停在这里，不急着决定该怎么看那双鞋、或者该不该允许自己松那口气。",
+      "request_sha256": "d636302e864d4de740aebb92209ee7285f9a6a18a7fbbda48eadbd2045350ab0",
+      "usage": {
+        "input_tokens": 4795,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 232,
+        "output_tokens_details": {
+          "reasoning_tokens": 120
+        },
+        "total_tokens": 5027,
+        "x_details": [
+          {
+            "input_tokens": 4795,
+            "output_tokens": 232,
+            "output_tokens_details": {
+              "reasoning_tokens": 120
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5027,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U13",
+      "role": "client",
+      "text": "其实那双鞋我最后也没扔，又把它放回鞋柜最里面了，好像看不见就能当没事。李繁说她也乱过，我确实松了口气，但那个松气里又觉得自己挺差劲的，好像巴不得别人也不好一样。可能也不是巴不得，就是终于不用一个人显得那么怪。",
+      "request_sha256": "8ace0582a3d4f6ae2918d6189558bb8ed8d46fcd2f42c04a2fbdf836dbbbceea",
+      "usage": {
+        "input_tokens": 5573,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 356,
+        "output_tokens_details": {
+          "reasoning_tokens": 288
+        },
+        "total_tokens": 5929,
+        "x_details": [
+          {
+            "input_tokens": 5573,
+            "output_tokens": 356,
+            "output_tokens_details": {
+              "reasoning_tokens": 288
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5929,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U14",
+      "role": "counselor",
+      "text": "你把鞋放回最里面、看不见就当没事，这个动作好像也暂时把那种松口气带来的不安一并收起来了。可你刚刚自己修正的那句很重要：不是巴不得别人不好，而是终于不用一个人显得那么怪。今天可以先停在这里，带着这个“不用一个人那么怪”的感觉回去，不用急着判定它该不该有。",
+      "request_sha256": "74b974c9d54f3240578a07abe70f98cd6f9b104f1f5431563dc7bbd36bd4ca37",
+      "usage": {
+        "input_tokens": 5020,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 593,
+        "output_tokens_details": {
+          "reasoning_tokens": 519
+        },
+        "total_tokens": 5613,
+        "x_details": [
+          {
+            "input_tokens": 5020,
+            "output_tokens": 593,
+            "output_tokens_details": {
+              "reasoning_tokens": 519
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5613,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U15",
+      "role": "client",
+      "text": "我老想起她说的那句“乱过”，好像从她那儿听到这三个字，我才没觉得自己那么糟。可回家一安静下来，又觉得自己在拿她的难处当借口，心里还是过不去。今天说这些，我也不知道算不算有用。",
+      "request_sha256": "ba56056099ccdf3ccdb9b1e76de0bd1894ad2dfef9e381fb51e53ca139293b7a",
+      "usage": {
+        "input_tokens": 5760,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 329,
+        "output_tokens_details": {
+          "reasoning_tokens": 274
+        },
+        "total_tokens": 6089,
+        "x_details": [
+          {
+            "input_tokens": 5760,
+            "output_tokens": 329,
+            "output_tokens_details": {
+              "reasoning_tokens": 274
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6089,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S04-U16",
+      "role": "counselor",
+      "text": "你刚才说“好像从她那儿听到这三个字，才没觉得自己那么糟”，可紧接着又把它打成“拿她的难处当借口”——那个刚松一点的位置，很快又被你收回去了。也许今天不用急着判断说这些有没有用，先把“我确实松过一口气，也为此感到过不去”这两样都放在这里，就已经够了。",
+      "request_sha256": "820cc372e1bf43ee2145f0606e63012780d754bda4169193a7f2ad04ecb25dff",
+      "usage": {
+        "input_tokens": 5194,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 276,
+        "output_tokens_details": {
+          "reasoning_tokens": 199
+        },
+        "total_tokens": 5470,
+        "x_details": [
+          {
+            "input_tokens": 5194,
+            "output_tokens": 276,
+            "output_tokens_details": {
+              "reasoning_tokens": 199
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5470,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

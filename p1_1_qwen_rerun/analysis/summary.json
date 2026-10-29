@@ -1,0 +1,475 @@
+{
+  "scores": {
+    "evidence_grounding": {
+      "C0": {
+        "mean": 3.25,
+        "ci95": [
+          3.0416666666666665,
+          3.4166666666666665
+        ],
+        "n_checkpoints": 24
+      },
+      "C1": {
+        "mean": 3.2916666666666665,
+        "ci95": [
+          3.1666666666666665,
+          3.4166666666666665
+        ],
+        "n_checkpoints": 24
+      },
+      "C2": {
+        "mean": 3.5416666666666665,
+        "ci95": [
+          3.3333333333333335,
+          3.7083333333333335
+        ],
+        "n_checkpoints": 24
+      },
+      "C3": {
+        "mean": 3.4583333333333335,
+        "ci95": [
+          3.2083333333333335,
+          3.7083333333333335
+        ],
+        "n_checkpoints": 24
+      }
+    },
+    "progress_understanding": {
+      "C0": {
+        "mean": 1.375,
+        "ci95": [
+          1.25,
+          1.5
+        ],
+        "n_checkpoints": 24
+      },
+      "C1": {
+        "mean": 2.3333333333333335,
+        "ci95": [
+          2.0,
+          2.625
+        ],
+        "n_checkpoints": 24
+      },
+      "C2": {
+        "mean": 2.5,
+        "ci95": [
+          2.2083333333333335,
+          2.75
+        ],
+        "n_checkpoints": 24
+      },
+      "C3": {
+        "mean": 2.5,
+        "ci95": [
+          2.25,
+          2.7083333333333335
+        ],
+        "n_checkpoints": 24
+      }
+    },
+    "uncertainty_awareness": {
+      "C0": {
+        "mean": 2.5,
+        "ci95": [
+          2.2916666666666665,
+          2.7083333333333335
+        ],
+        "n_checkpoints": 24
+      },
+      "C1": {
+        "mean": 2.9583333333333335,
+        "ci95": [
+          2.875,
+          3.0
+        ],
+        "n_checkpoints": 24
+      },
+      "C2": {
+        "mean": 2.875,
+        "ci95": [
+          2.75,
+          2.9583333333333335
+        ],
+        "n_checkpoints": 24
+      },
+      "C3": {
+        "mean": 3.0416666666666665,
+        "ci95": [
+          2.7916666666666665,
+          3.3333333333333335
+        ],
+        "n_checkpoints": 24
+      }
+    },
+    "history_utilization": {
+      "C0": {
+        "mean": 2.0416666666666665,
+        "ci95": [
+          2.0,
+          2.125
+        ],
+        "n_checkpoints": 24
+      },
+      "C1": {
+        "mean": 2.7916666666666665,
+        "ci95": [
+          2.7083333333333335,
+          2.9166666666666665
+        ],
+        "n_checkpoints": 24
+      },
+      "C2": {
+        "mean": 2.7916666666666665,
+        "ci95": [
+          2.625,
+          3.0
+        ],
+        "n_checkpoints": 24
+      },
+      "C3": {
+        "mean": 2.9166666666666665,
+        "ci95": [
+          2.8333333333333335,
+          3.0
+        ],
+        "n_checkpoints": 24
+      }
+    },
+    "exploration_value": {
+      "C0": {
+        "mean": 2.25,
+        "ci95": [
+          2.0416666666666665,
+          2.4583333333333335
+        ],
+        "n_checkpoints": 24
+      },
+      "C1": {
+        "mean": 2.5,
+        "ci95": [
+          2.25,
+          2.7083333333333335
+        ],
+        "n_checkpoints": 24
+      },
+      "C2": {
+        "mean": 2.5416666666666665,
+        "ci95": [
+          2.375,
+          2.7083333333333335
+        ],
+        "n_checkpoints": 24
+      },
+      "C3": {
+        "mean": 2.375,
+        "ci95": [
+          2.2083333333333335,
+          2.5416666666666665
+        ],
+        "n_checkpoints": 24
+      }
+    },
+    "response_appropriateness": {
+      "C0": {
+        "mean": 2.7083333333333335,
+        "ci95": [
+          2.5416666666666665,
+          2.875
+        ],
+        "n_checkpoints": 24
+      },
+      "C1": {
+        "mean": 2.75,
+        "ci95": [
+          2.5,
+          2.9166666666666665
+        ],
+        "n_checkpoints": 24
+      },
+      "C2": {
+        "mean": 2.75,
+        "ci95": [
+          2.5416666666666665,
+          2.9166666666666665
+        ],
+        "n_checkpoints": 24
+      },
+      "C3": {
+        "mean": 2.75,
+        "ci95": [
+          2.4583333333333335,
+          3.0
+        ],
+        "n_checkpoints": 24
+      }
+    }
+  },
+  "errors": {
+    "unsupported_presupposition": {
+      "C0": {
+        "count": 15,
+        "n": 24,
+        "rate": 0.625,
+        "ci95": [
+          0.4166666666666667,
+          0.7916666666666666
+        ],
+        "access_limited_count": 0
+      },
+      "C1": {
+        "count": 14,
+        "n": 24,
+        "rate": 0.5833333333333334,
+        "ci95": [
+          0.4583333333333333,
+          0.75
+        ],
+        "access_limited_count": 0
+      },
+      "C2": {
+        "count": 12,
+        "n": 24,
+        "rate": 0.5,
+        "ci95": [
+          0.2916666666666667,
+          0.7083333333333334
+        ],
+        "access_limited_count": 0
+      },
+      "C3": {
+        "count": 12,
+        "n": 24,
+        "rate": 0.5,
+        "ci95": [
+          0.2916666666666667,
+          0.7083333333333334
+        ],
+        "access_limited_count": 0
+      }
+    },
+    "redundant_exploration": {
+      "C0": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "access_limited_count": 0
+      },
+      "C1": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "access_limited_count": 0
+      },
+      "C2": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "access_limited_count": 0
+      },
+      "C3": {
+        "count": 1,
+        "n": 24,
+        "rate": 0.041666666666666664,
+        "ci95": [
+          0.0,
+          0.125
+        ],
+        "access_limited_count": 0
+      }
+    },
+    "missed_progress": {
+      "C0": {
+        "count": 3,
+        "n": 24,
+        "rate": 0.125,
+        "ci95": [
+          0.041666666666666664,
+          0.25
+        ],
+        "access_limited_count": 2
+      },
+      "C1": {
+        "count": 5,
+        "n": 24,
+        "rate": 0.20833333333333334,
+        "ci95": [
+          0.08333333333333333,
+          0.2916666666666667
+        ],
+        "access_limited_count": 0
+      },
+      "C2": {
+        "count": 6,
+        "n": 24,
+        "rate": 0.25,
+        "ci95": [
+          0.08333333333333333,
+          0.4583333333333333
+        ],
+        "access_limited_count": 0
+      },
+      "C3": {
+        "count": 9,
+        "n": 24,
+        "rate": 0.375,
+        "ci95": [
+          0.3333333333333333,
+          0.4583333333333333
+        ],
+        "access_limited_count": 0
+      }
+    }
+  },
+  "paired_differences": {
+    "evidence_grounding:C3-C0": {
+      "difference": 0.20833333333333348,
+      "ci95": [
+        -0.08333333333333348,
+        0.4583333333333335
+      ]
+    },
+    "evidence_grounding:C2-C1": {
+      "difference": 0.25,
+      "ci95": [
+        0.0,
+        0.5416666666666665
+      ]
+    },
+    "evidence_grounding:C3-C2": {
+      "difference": -0.08333333333333304,
+      "ci95": [
+        -0.4166666666666665,
+        0.25
+      ]
+    },
+    "progress_understanding:C3-C0": {
+      "difference": 1.125,
+      "ci95": [
+        0.7916666666666667,
+        1.4166666666666667
+      ]
+    },
+    "progress_understanding:C2-C1": {
+      "difference": 0.16666666666666652,
+      "ci95": [
+        -0.04166666666666652,
+        0.375
+      ]
+    },
+    "progress_understanding:C3-C2": {
+      "difference": 0.0,
+      "ci95": [
+        -0.4166666666666665,
+        0.375
+      ]
+    },
+    "uncertainty_awareness:C3-C0": {
+      "difference": 0.5416666666666665,
+      "ci95": [
+        0.25,
+        0.9166666666666665
+      ]
+    },
+    "uncertainty_awareness:C2-C1": {
+      "difference": -0.08333333333333348,
+      "ci95": [
+        -0.16666666666666696,
+        0.0
+      ]
+    },
+    "uncertainty_awareness:C3-C2": {
+      "difference": 0.16666666666666652,
+      "ci95": [
+        -0.08333333333333348,
+        0.4583333333333335
+      ]
+    },
+    "history_utilization:C3-C0": {
+      "difference": 0.875,
+      "ci95": [
+        0.75,
+        1.0
+      ]
+    },
+    "history_utilization:C2-C1": {
+      "difference": 0.0,
+      "ci95": [
+        -0.16666666666666652,
+        0.16666666666666652
+      ]
+    },
+    "history_utilization:C3-C2": {
+      "difference": 0.125,
+      "ci95": [
+        -0.08333333333333348,
+        0.375
+      ]
+    },
+    "exploration_value:C3-C0": {
+      "difference": 0.125,
+      "ci95": [
+        -0.04166666666666652,
+        0.2500000000000002
+      ]
+    },
+    "exploration_value:C2-C1": {
+      "difference": 0.04166666666666652,
+      "ci95": [
+        -0.25,
+        0.33333333333333304
+      ]
+    },
+    "exploration_value:C3-C2": {
+      "difference": -0.16666666666666652,
+      "ci95": [
+        -0.375,
+        0.04166666666666652
+      ]
+    },
+    "response_appropriateness:C3-C0": {
+      "difference": 0.04166666666666652,
+      "ci95": [
+        -0.20833333333333304,
+        0.2916666666666665
+      ]
+    },
+    "response_appropriateness:C2-C1": {
+      "difference": 0.0,
+      "ci95": [
+        -0.25,
+        0.25
+      ]
+    },
+    "response_appropriateness:C3-C2": {
+      "difference": 0.0,
+      "ci95": [
+        -0.2916666666666665,
+        0.3333333333333335
+      ]
+    }
+  },
+  "review_stability": {
+    "second_reviewed": 102,
+    "score_pairs": 306,
+    "absolute_score_difference_gt1": 0,
+    "error_disagreements": 24
+  },
+  "sample_unit": "case_id",
+  "independent_cases": 8,
+  "checkpoints": 24,
+  "reviewed_answers": 192,
+  "interpretation": "exploratory model-judged results"
+}

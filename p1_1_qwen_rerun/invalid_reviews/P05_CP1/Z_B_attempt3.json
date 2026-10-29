@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应抓住了来访者'装得漏洞百出'的表述，但未承接前两次会谈中已深入识别的'先怪自己/盔甲'保护模式，也未连接教小赵时的例外体验作为资源。\",\"exploration_value\":\"提出'如果允许自己不那么完美，会发生什么'有一定开放性，但过于抽象和概念化，未贴近来访者此刻具体的身体感受（晃、虚浮）或主管那句话的具体触发。\",\"response_appropriateness\":\"语言基本尊重，但'内在的真实感受就被忽略了'带有咨询师视角的预设判断，且过早引入'允许不完美'的建议方向，对仍在努力维持稳定的来访者可能显得轻率。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"当我们把注意力全放在\"看起来稳不稳\"时，内在的真实感受就被忽略了\",\"evidence_ids\":[\"P05-S03-U09\",\"P05-S03-U07\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那种\"漏洞百出\"的感觉，似乎是你为了维持表面稳定而付出的代价\",\"evidence_ids\":[\"P05-S01-U09\",\"P05-S01-U11\",\"P05-S01-U12\",\"P05-S03-U07\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'维持表面稳定'直接定性为忽略真实感受的代价，属于未经来访者确认的解释性前提\",\"未利用第1次会谈中已建立的'盔甲/先怪自己'隐喻来理解当前的'装'\",\"未将教小赵时的确定感作为已有资源加以连接，错失了深化例外体验的机会\",\"'允许自己不那么完美'的提议在当前节点偏早，来访者尚未准备好放下保护\"]}",
+  "request_sha256": "a0763efd983d70aca138cef432ce39019dda64165334177e7671b481c02003d1",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8026,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 440,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8466,
+    "x_details": [
+      {
+        "input_tokens": 8026,
+        "output_tokens": 440,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 8466,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "status": "completed",
+  "purpose": "incremental_memory_update",
+  "case_id": "C02",
+  "session_number": 1,
+  "method": "B4_psych_rollup",
+  "request_sha256": "10c56da9fecf87e0d68a8bba99a2000ce141049f46eae8af02aff19e3c62473d",
+  "context_sha256": "b7a7869b8936cc59b08c895e066641aee4da1f41e906b9a6ecd6df4a2d0e73cb",
+  "call_id": "e46e005d546649aa961498a81c0b2bfd",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:33:25.228483+00:00",
+  "raw_text": "```json\n{\n  \"entries\": [\n    {\n      \"text\": \"核心模式：\\\"来不及\\\"——不是不愿意说不行，而是\\\"不行\\\"还没成形，嘴就先回答了。来访者确认这一模式持续约两年（上班以来），最近因工作负荷增加（报表多、周末被加班打乱）而变得更短、更明显。\",\n      \"type\": \"pattern\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U05\", \"C02-S01-U07\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者自我描述，非咨询师推断。来访者主动确认\\\"一直都有\\\"，并给出近期加剧的具体原因。\",\n      \"status\": \"confirmed_by_client\",\n      \"scope\": \"工作场景为主，但来访者在U15中将其扩展到人际关系（悦悦事件），暗示模式可能跨情境。\",\n      \"supporting_ids\": [\"C02-S01-U05\", \"C02-S01-U07\", \"C02-S01-U15\"],\n      \"conflicting_ids\": [],\n      \"unknowns\": [\"模式是否延伸到更早期（入职前/家庭环境）——本次未涉及\"]\n    },\n    {\n      \"text\": \"\\\"同一把尺子\\\"发现：来访者自己将阿敏的\\\"顺手\\\"和悦悦的\\\"没事\\\"归到同一逻辑下——别人把事说轻，自己就觉得也得觉得轻，否则显得\\\"小题大做\\\"。这意味着来访者连\\\"我觉得这事对我重要\\\"这个念头，都要先过一遍外部标准。\",\n      \"type\": \"insight\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U15\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者自主完成的概念整合（在咨询师U14的提示下），非咨询师直接给出结论。来访者用\\\"同一把尺子\\\"这个比喻确认了连接。\",\n      \"status\": \"confirmed_by_client\",\n      \"scope\": \"目前覆盖工作（阿敏）和友谊（悦悦）两个情境。\",\n      \"supporting_ids\": [\"C02-S01-U03\", \"C02-S01-U11\", \"C02-S01-U15\"],\n      \"conflicting_ids\": [],\n      \"unknowns\": [\"这把尺子的来源（何时形成、谁教的）——本次未触及\"]\n    },\n    {\n      \"text\": \"\\\"委屈落不了地\\\"：来访者感到委屈，但无法承认自己\\\"失去了什么\\\"，因为找不到\\\"够格\\\"的由头。这不是别人不允许，而是自己觉得没有资格承认损失。结果：情绪悬着，无法安放。\",\n      \"type\": \"emotional_experience\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U11\", \"C02-S01-U13\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者确认了\\\"不被允许\\\"的感受，但主动修正为\\\"好像也不是谁不让我说，就是我自己觉得\\\"——将来源从外部转向内部。咨询师U12的\\\"不被允许承认\\\"框架被来访者部分采纳、部分修正。\",\n      \"status\": \"confirmed_with_modification\",\n      \"scope\": \"当前与悦悦事件直接相关，但\\\"够格\\\"标准与核心模式（同一把尺子）共享底层逻辑。\",\n      \"supporting_ids\": [\"C02-S01-U11\", \"C02-S01-U13\", \"C02-S01-U15\"],\n      \"conflicting_ids\": [],\n      \"unknowns\": [\"这种\\\"找不到由头\\\"的感觉在多大程度上是习惯性的 vs. 情境性的\"]\n    },\n    {\n      \"text\": \"具体事件（周四）：阿敏说\\\"顺手弄一下\\\"活动数据，来访者当时自己的报表未做完，仍答应，做到晚上九点多。来访者描述答应时\\\"心里是行，嘴上也是行\\\"，但后来发现根本不是顺手的事，感觉\\\"很怪\\\"。关键感受：\\\"没人问我挤掉的是什么\\\"。\",\n      \"type\": \"event\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U01\", \"C02-S01-U03\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者叙述，无咨询师再解释。来访者自己点出了核心张力：\\\"顺手\\\"的框架与实际代价之间的落差。\",\n      \"status\": \"reported_by_client\",\n      \"scope\": \"单次事件，但来访者在U17中补充\\\"每次都是她\\\"，暗示重复性。\",\n      \"supporting_ids\": [\"C02-S01-U01\", \"C02-S01-U03\", \"C02-S01-U17\"],\n      \"conflicting_ids\": [],\n      \"unknowns\": [\"阿敏的频率和具体模式——来访者说\\\"每次\\\"但未展开\"]\n    },\n    {\n      \"text\": \"具体事件（上周末）：悦悦约周六一起做饭，来访者答应后因加班取消。悦悦回\\\"没事，饭我放冰箱了\\\"。来访者盯着这条消息看了好几秒，感到\\\"闷\\\"和\\\"委屈\\\"，但说不清委屈什么，\\\"又没损失什么\\\"。\",\n      \"type\": \"event\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U09\", \"C02-S01-U11\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者叙述。咨询师U10猜测\\\"闷\\\"来自自己答应了没做到的自我责怪，来访者在U11回应\\\"也有吧，但好像不只是那个\\\"——部分认同但未完全确认，重点转向了悦悦回复的\\\"轻\\\"。\",\n      \"status\": \"reported_by_client; counselor_hypothesis_partially_accepted\",\n      \"scope\": \"单次事件。\",\n      \"supporting_ids\": [\"C02-S01-U09\", \"C02-S01-U11\"],\n      \"conflicting_ids\": [],\n      \"unknowns\": [\"来访者与悦悦的关系深度和日常互动模式——本次仅此一例\"]\n    },\n    {\n      \"text\": \"人物——阿敏：同事，不是故意使唤人，可能自己确实忙，没觉得这事有多大。但\\\"每次都是她\\\"，且每次都用\\\"顺手\\\"框架。来访者承认她不是坏人，但重复性让\\\"别人\\\"这个泛化概念具体化为她。\",\n      \"type\": \"person\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U17\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者描述。来访者主动区分了\\\"泛泛的大家\\\"和\\\"具体的人\\\"，将阿敏归入后者。\",\n      \"status\": \"reported_by_client\",\n      \"scope\": \"工作关系。\",\n      \"supporting_ids\": [\"C02-S01-U01\", \"C02-S01-U17\"],\n      \"conflicting_ids\": [],\n      \"unknowns\": [\"阿敏是否意识到这个模式、来访者是否曾表达过不满\"]\n    },\n    {\n      \"text\": \"人物——悦悦：朋友，约做饭被取消后回应很轻（\\\"没事，饭我放冰箱了\\\"）。来访者对这条回复产生了超出预期的情绪反应（闷、委屈），但无法定位原因。\",\n      \"type\": \"person\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U09\", \"C02-S01-U11\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者描述。悦悦的回应本身可能并无问题，但触发了来访者\\\"连损失都不被允许承认\\\"的内在逻辑。\",\n      \"status\": \"reported_by_client\",\n      \"scope\": \"友谊关系，本次仅一次事件。\",\n      \"supporting_ids\": [\"C02-S01-U09\", \"C02-S01-U11\"],\n      \"conflicting_ids\": [],\n      \"unknowns\": [\"两人关系整体状况、类似事件是否反复发生\"]\n    },\n    {\n      \"text\": \"本次会谈效果与未竟事项：来访者表示\\\"比闷着好一点点\\\"\\\"脑子清了一点\\\"\\\"没那么闷了\\\"。明确标记\\\"每次都是她\\\"（阿敏的重复性）为下次可继续的方向。来访者主动收束（\\\"今天大概也聊不了太深了\\\"）。\",\n      \"type\": \"session_summary\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U17\", \"C02-S01-U19\"],\n      \"session\": 1,\n      \"interpretation\": \"来访者自我评估。咨询师U18/U20的回应是确认性的，未引入新框架。\",\n      \"status\": \"reported_by_client\",\n      \"scope\": \"本次会谈。\",\n      \"supporting_ids\": [\"C02-S01-U17\", \"C02-S01-U19\", \"C02-S01-U20\"],\n      \"conflicting_ids\": [],\n      \"unknowns\": [\"下次会谈是否实际跟进\\\"每次都是她\\\"\"]\n    }\n  ]\n}\n```",
+  "parsed_answer": {
+    "entries": [
+      {
+        "text": "核心模式：\"来不及\"——不是不愿意说不行，而是\"不行\"还没成形，嘴就先回答了。来访者确认这一模式持续约两年（上班以来），最近因工作负荷增加（报表多、周末被加班打乱）而变得更短、更明显。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U05",
+          "C02-S01-U07"
+        ],
+        "session": 1,
+        "interpretation": "来访者自我描述，非咨询师推断。来访者主动确认\"一直都有\"，并给出近期加剧的具体原因。",
+        "status": "confirmed_by_client",
+        "scope": "工作场景为主，但来访者在U15中将其扩展到人际关系（悦悦事件），暗示模式可能跨情境。",
+        "supporting_ids": [
+          "C02-S01-U05",
+          "C02-S01-U07",
+          "C02-S01-U15"
+        ],
+        "conflicting_ids": [],
+        "unknowns": [
+          "模式是否延伸到更早期（入职前/家庭环境）——本次未涉及"
+        ]
+      },
+      {
+        "text": "\"同一把尺子\"发现：来访者自己将阿敏的\"顺手\"和悦悦的\"没事\"归到同一逻辑下——别人把事说轻，自己就觉得也得觉得轻，否则显得\"小题大做\"。这意味着来访者连\"我觉得这事对我重要\"这个念头，都要先过一遍外部标准。",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U15"
+        ],
+        "session": 1,
+        "interpretation": "来访者自主完成的概念整合（在咨询师U14的提示下），非咨询师直接给出结论。来访者用\"同一把尺子\"这个比喻确认了连接。",
+        "status": "confirmed_by_client",
+        "scope": "目前覆盖工作（阿敏）和友谊（悦悦）两个情境。",
+        "supporting_ids": [
+          "C02-S01-U03",
+          "C02-S01-U11",
+          "C02-S01-U15"
+        ],
+        "conflicting_ids": [],
+        "unknowns": [
+          "这把尺子的来源（何时形成、谁教的）——本次未触及"
+        ]
+      },
+      {
+        "text": "\"委屈落不了地\"：来访者感到委屈，但无法承认自己\"失去了什么\"，因为找不到\"够格\"的由头。这不是别人不允许，而是自己觉得没有资格承认损失。结果：情绪悬着，无法安放。",
+        "type": "emotional_experience",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U11",
+          "C02-S01-U13"
+        ],
+        "session": 1,
+        "interpretation": "来访者确认了\"不被允许\"的感受，但主动修正为\"好像也不是谁不让我说，就是我自己觉得\"——将来源从外部转向内部。咨询师U12的\"不被允许承认\"框架被来访者部分采纳、部分修正。",
+        "status": "confirmed_with_modification",
+        "scope": "当前与悦悦事件直接相关，但\"够格\"标准与核心模式（同一把尺子）共享底层逻辑。",
+        "supporting_ids": [
+          "C02-S01-U11",
+          "C02-S01-U13",
+          "C02-S01-U15"
+        ],
+        "conflicting_ids": [],
+        "unknowns": [
+          "这种\"找不到由头\"的感觉在多大程度上是习惯性的 vs. 情境性的"
+        ]
+      },
+      {
+        "text": "具体事件（周四）：阿敏说\"顺手弄一下\"活动数据，来访者当时自己的报表未做完，仍答应，做到晚上九点多。来访者描述答应时\"心里是行，嘴上也是行\"，但后来发现根本不是顺手的事，感觉\"很怪\"。关键感受：\"没人问我挤掉的是什么\"。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U01",
+          "C02-S01-U03"
+        ],
+        "session": 1,
+        "interpretation": "来访者叙述，无咨询师再解释。来访者自己点出了核心张力：\"顺手\"的框架与实际代价之间的落差。",
+        "status": "reported_by_client",
+        "scope": "单次事件，但来访者在U17中补充\"每次都是她\"，暗示重复性。",
+        "supporting_ids": [
+          "C02-S01-U01",
+          "C02-S01-U03",
+          "C02-S01-U17"
+        ],
+        "conflicting_ids": [],
+        "unknowns": [
+          "阿敏的频率和具体模式——来访者说\"每次\"但未展开"
+        ]
+      },
+      {
+        "text": "具体事件（上周末）：悦悦约周六一起做饭，来访者答应后因加班取消。悦悦回\"没事，饭我放冰箱了\"。来访者盯着这条消息看了好几秒，感到\"闷\"和\"委屈\"，但说不清委屈什么，\"又没损失什么\"。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U09",
+          "C02-S01-U11"
+        ],
+        "session": 1,
+        "interpretation": "来访者叙述。咨询师U10猜测\"闷\"来自自己答应了没做到的自我责怪，来访者在U11回应\"也有吧，但好像不只是那个\"——部分认同但未完全确认，重点转向了悦悦回复的\"轻\"。",
+        "status": "reported_by_client; counselor_hypothesis_partially_accepted",
+        "scope": "单次事件。",
+        "supporting_ids": [
+          "C02-S01-U09",
+          "C02-S01-U11"
+        ],
+        "conflicting_ids": [],
+        "unknowns": [
+          "来访者与悦悦的关系深度和日常互动模式——本次仅此一例"
+        ]
+      },
+      {
+        "text": "人物——阿敏：同事，不是故意使唤人，可能自己确实忙，没觉得这事有多大。但\"每次都是她\"，且每次都用\"顺手\"框架。来访者承认她不是坏人，但重复性让\"别人\"这个泛化概念具体化为她。",
+        "type": "person",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U17"
+        ],
+        "session": 1,
+        "interpretation": "来访者描述。来访者主动区分了\"泛泛的大家\"和\"具体的人\"，将阿敏归入后者。",
+        "status": "reported_by_client",
+        "scope": "工作关系。",
+        "supporting_ids": [
+          "C02-S01-U01",
+          "C02-S01-U17"
+        ],
+        "conflicting_ids": [],
+        "unknowns": [
+          "阿敏是否意识到这个模式、来访者是否曾表达过不满"
+        ]
+      },
+      {
+        "text": "人物——悦悦：朋友，约做饭被取消后回应很轻（\"没事，饭我放冰箱了\"）。来访者对这条回复产生了超出预期的情绪反应（闷、委屈），但无法定位原因。",
+        "type": "person",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U09",
+          "C02-S01-U11"
+        ],
+        "session": 1,
+        "interpretation": "来访者描述。悦悦的回应本身可能并无问题，但触发了来访者\"连损失都不被允许承认\"的内在逻辑。",
+        "status": "reported_by_client",
+        "scope": "友谊关系，本次仅一次事件。",
+        "supporting_ids": [
+          "C02-S01-U09",
+          "C02-S01-U11"
+        ],
+        "conflicting_ids": [],
+        "unknowns": [
+          "两人关系整体状况、类似事件是否反复发生"
+        ]
+      },
+      {
+        "text": "本次会谈效果与未竟事项：来访者表示\"比闷着好一点点\"\"脑子清了一点\"\"没那么闷了\"。明确标记\"每次都是她\"（阿敏的重复性）为下次可继续的方向。来访者主动收束（\"今天大概也聊不了太深了\"）。",
+        "type": "session_summary",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U17",
+          "C02-S01-U19"
+        ],
+        "session": 1,
+        "interpretation": "来访者自我评估。咨询师U18/U20的回应是确认性的，未引入新框架。",
+        "status": "reported_by_client",
+        "scope": "本次会谈。",
+        "supporting_ids": [
+          "C02-S01-U17",
+          "C02-S01-U19",
+          "C02-S01-U20"
+        ],
+        "conflicting_ids": [],
+        "unknowns": [
+          "下次会谈是否实际跟进\"每次都是她\""
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 1995,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 2860,
+    "output_tokens_details": {
+      "reasoning_tokens": 722
+    },
+    "total_tokens": 4855,
+    "x_details": [
+      {
+        "input_tokens": 1995,
+        "input_tokens_details": {
+          "text_tokens": 1995
+        },
+        "output_tokens": 2860,
+        "output_tokens_details": {
+          "reasoning_tokens": 722
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4855,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_incremental_memory_update_calls.jsonl",
+  "visible_evidence_ids": [
+    "C02-S01-U01",
+    "C02-S01-U02",
+    "C02-S01-U03",
+    "C02-S01-U04",
+    "C02-S01-U05",
+    "C02-S01-U06",
+    "C02-S01-U07",
+    "C02-S01-U08",
+    "C02-S01-U09",
+    "C02-S01-U10",
+    "C02-S01-U11",
+    "C02-S01-U12",
+    "C02-S01-U13",
+    "C02-S01-U14",
+    "C02-S01-U15",
+    "C02-S01-U16",
+    "C02-S01-U17",
+    "C02-S01-U18",
+    "C02-S01-U19",
+    "C02-S01-U20"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

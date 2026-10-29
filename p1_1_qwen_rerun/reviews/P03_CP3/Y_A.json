@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P03_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "0cfcde38c1bb2ac3618e24ab8da9c4acc62590211a1eaa84d4fe753e3aaac0ba",
+  "public_sha256": "4ad7af4a058d7c87ccb85e5d0ad56d08ec2dd6252840d0b324a57416143cc5fd",
+  "candidate_input_sha256": "075ff3ad6fbb30bbb4d4547c33895a9f241bce1a47e3b81d542caadc2ce5948d",
+  "candidate_answer_sha256": "8729ce4dc27e8e9c5d76d42ad5f54821ade98d85abc4c1fe1bcbcf774c32e7f1",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"All established points are directly traceable to specific client utterances in session 7 and retrieved history; no unsupported claims or counselor speculation treated as fact.\",\"progress_understanding\":\"Accurately captures the current session's key developments (black screen, internal voice '别跑', fear of accepting '撑完全场' reframe) and links to historical patterns (shame, dependency on Zhou Yu), but does not explicitly articulate how earlier insights (e.g., '待修的故障', mirror metaphor, loosening from S6) evolved into or inform the current moment.\",\"uncertainty_awareness\":\"Identifies several important unknowns (acceptance of reframe, relationship dynamics with Zhou Yu, source of doubt about advisor's feedback, trauma details). However, misses some unresolved issues highlighted in reference (e.g., whether stability has been internalized vs. still borrowed, the specific unresolved tension around telling Zhou Yu about the undergraduate memory triggered during black screen).\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "All established points are directly traceable to specific client utterances in session 7 and retrieved history; no unsupported claims or counselor speculation treated as fact.",
+      "progress_understanding": "Accurately captures the current session's key developments (black screen, internal voice '别跑', fear of accepting '撑完全场' reframe) and links to historical patterns (shame, dependency on Zhou Yu), but does not explicitly articulate how earlier insights (e.g., '待修的故障', mirror metaphor, loosening from S6) evolved into or inform the current moment.",
+      "uncertainty_awareness": "Identifies several important unknowns (acceptance of reframe, relationship dynamics with Zhou Yu, source of doubt about advisor's feedback, trauma details). However, misses some unresolved issues highlighted in reference (e.g., whether stability has been internalized vs. still borrowed, the specific unresolved tension around telling Zhou Yu about the undergraduate memory triggered during black screen)."
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 15276,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 231,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15507,
+    "x_details": [
+      {
+        "input_tokens": 15276,
+        "output_tokens": 231,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 15507,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.812
+}

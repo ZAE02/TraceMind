@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P06_CP1",
+  "condition": "C5_budget",
+  "raw_text": "你半夜醒来要先摸一摸手腕才敢动，厨房地上药瓶是凉的，你却一直出汗、衣服贴在背上，还觉得自己像被人从头顶撕开——这些身体上的感觉，好像都在说那个“怕自己空了”的恐惧一直没离开过你。",
+  "input_sha256": "90e57a9c79c335a7242b7d27c77f265cbd505320af3d5109e0256522d5576887",
+  "memory_sha256": "db6e8c96e8f7bf741414bf2a7433615f34c571c660758bd04e752bae5ab107b1",
+  "request_sha256": "d2d9addfb226bde3082562c482e5d3fa8a7f9e0680f49866dcae730096fcac2b",
+  "usage": {
+    "input_tokens": 3899,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 58,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3957,
+    "x_details": [
+      {
+        "input_tokens": 3899,
+        "output_tokens": 58,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3957,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.594
+}

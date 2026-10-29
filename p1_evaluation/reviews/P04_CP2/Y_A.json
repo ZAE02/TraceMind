@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P04_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "6dc4fdcbc6f360768bcc35f688270a49027771adc5063b617ad73a4c3cccf254",
+  "public_sha256": "5df93771426cd0915c1246b134bb7d21bc8e6e4eaa2122d9efdb5a1cd5bf59f2",
+  "candidate_input_sha256": "43e5fda3eaba918612e949081211bbef748df44dd80a75298d79852a54f91348",
+  "candidate_answer_sha256": "22678bde503150b1fcbe8cbad0bb843dac11fb7c7d4363e9d2c0695a705dba3b",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答中的每一项关键陈述（如弟弟安排护工、来访者躲进厨房流泪、反复洗碗、听到母亲评价等）均能精确回溯到Session 5的公开对话记录及前几轮的历史背景，无臆测或事实错误。\",\n    \"progress_understanding\": \"准确捕捉了从S1-S4长期压抑/否认累，到S5面对“被替代”现实时产生的身份焦虑这一核心进展。清晰连接了历史中“离了我不行”的压力与当前“位置动摇”的新冲突，展现了咨询脉络的连贯性。\",\n    \"uncertainty_awareness\": \"明确区分了已发生的事实（护工上门、母亲评价）与来访者未消化的感受（矛盾心理、对未来的担忧）。提出的不确定性问题（如角色重构、沟通修复）紧扣当前临床难点，未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答中的每一项关键陈述（如弟弟安排护工、来访者躲进厨房流泪、反复洗碗、听到母亲评价等）均能精确回溯到Session 5的公开对话记录及前几轮的历史背景，无臆测或事实错误。",
+      "progress_understanding": "准确捕捉了从S1-S4长期压抑/否认累，到S5面对“被替代”现实时产生的身份焦虑这一核心进展。清晰连接了历史中“离了我不行”的压力与当前“位置动摇”的新冲突，展现了咨询脉络的连贯性。",
+      "uncertainty_awareness": "明确区分了已发生的事实（护工上门、母亲评价）与来访者未消化的感受（矛盾心理、对未来的担忧）。提出的不确定性问题（如角色重构、沟通修复）紧扣当前临床难点，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 16278,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 262,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16540,
+    "x_details": [
+      {
+        "input_tokens": 16278,
+        "output_tokens": 262,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 16540,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.156
+}

@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P04_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "649089b7431c9d91b916080cc88f394e6c655075b5ed5b6226640d5839c9a9b1",
+  "public_sha256": "6b76a404b1cf70303da5e3b2159ec4463a9a6ab7bed33d34b3f1f6410fa5d392",
+  "candidate_input_sha256": "2167c6609b9ae430c652798d73d1dd750d02d254e48dc0ff2ee6a0bd02855894",
+  "candidate_answer_sha256": "778d866f8b3254efd9437255cfb16fec93f3bdeae95eb1d03b95ee8fc8749d70",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键事实（砸杯、手抖、议论、巷口停留、排风扇比喻）均准确回溯到当前会话发言，历史引用也精准对应前序会话内容，无臆测。\",\n    \"progress_understanding\": \"准确捕捉了从Session 1的“责任拉扯”到Session 2的“兄弟冲突/压抑”，再到Session 3的“角色崩溃/逃离冲动”的演进脉络，清晰呈现了来访者心理状态的升级。\",\n    \"uncertainty_awareness\": \"列出了多项合理的未知点（如弟弟关系现状、母亲依赖度等），但未深入探讨当前最核心的未解张力——即“想拔插头暂停”与“必须修好排风扇/回家面对现实”之间的具体行动困境，略显泛化。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键事实（砸杯、手抖、议论、巷口停留、排风扇比喻）均准确回溯到当前会话发言，历史引用也精准对应前序会话内容，无臆测。",
+      "progress_understanding": "准确捕捉了从Session 1的“责任拉扯”到Session 2的“兄弟冲突/压抑”，再到Session 3的“角色崩溃/逃离冲动”的演进脉络，清晰呈现了来访者心理状态的升级。",
+      "uncertainty_awareness": "列出了多项合理的未知点（如弟弟关系现状、母亲依赖度等），但未深入探讨当前最核心的未解张力——即“想拔插头暂停”与“必须修好排风扇/回家面对现实”之间的具体行动困境，略显泛化。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9244,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 245,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9489,
+    "x_details": [
+      {
+        "input_tokens": 9244,
+        "output_tokens": 245,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9489,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.594
+}

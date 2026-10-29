@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P08_CP1",
+  "raw_text": "听起来你现在把力气先放在孩子报名上，这很真实，也像是一种在混乱里先抓住最急的那头。赵岩那边，你并不是没有谢意，而是“说谢谢”对你来说好像不只是礼貌，更像承认自己确实靠了他一下，这个位置让你不舒服。",
+  "request_sha256": "b21a1da65a9c3af5eed737c826a879d579348165a9dacd4b39da87e222ba02ec",
+  "input_sha256": "6df4dd5d0e1d0716519d82c1cc5531161b24d2bd8accf58bdc4319433d98037c",
+  "memory_sha256": "7c474e24418e1bf1aec277ea1f97bddbc212025bf039c30e3bab1d2487f9dbf3",
+  "usage": {
+    "input_tokens": 3731,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 61,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3792,
+    "x_details": [
+      {
+        "input_tokens": 3731,
+        "output_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3792,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.984
+}

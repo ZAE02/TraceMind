@@ -1,0 +1,7 @@
+{
+  "node":"N06", "public_input_sha256":"8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be", "needs_history":true,
+  "reason":"当前当场提问与上次不一样，需要历史区分求助前的拿不出手与求助后事后贴笨标签两个阶段；这会改变具体核对的对象。",
+  "historical_difference":"可询问这次犹豫与此前开口前先解释的差别，以及问完后是否仍出现早该懂的自评，而不能仅由同事平常语气判定进步。",
+  "evidence_ids":["C03-S01-U15","C03-S01-U17","C03-S02-U09","C03-S02-U13","C03-S02-U15","C03-S03-U01"],
+  "reviewer_model":"gpt-6.1-sol", "reasoning_effort":"medium", "human_review_performed":false
+}

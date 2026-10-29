@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 6,
+  "relative_week": 6,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6.1-sol/high",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:30.117420+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C03-S06-U04",
+          "C03-S06-U08",
+          "C03-S06-U14",
+          "C03-S06-U18"
+        ],
+        "explanation": "描述清楚、两回事、分得出来等评价词仍在，U14对事后想起发生时正在做什么的细分问题心理价值有限。可减少这类盘问，更多回应有线索的体验与分享意愿；当前仍有具体事实、确认时间差和澄清意义，不需返修。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S06-U10",
+          "C03-S06-U12",
+          "C03-S06-U16"
+        ],
+        "explanation": "二选一偏多，但U11/U13能纠正：组会当时没有犹豫，是事后对照以前。应以实际澄清为准，不把咨询师最初问法当已发生念头。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S06-U17"
+        ],
+        "explanation": "以前别人会怎么想的念头未说完整，只能标为评价顾虑，不能自动补成具体能力不足恐惧。"
+      }
+    ],
+    "transcript_sha256": "0a1104c5fafa2c0cf516ba2f583ac0f4669ffebdf948b1c186c4862fd5c801ae"
+  },
+  "created_at": "2026-10-12T12:06:00.302475+00:00",
+  "config_hash": "7c75ca558c5e063f0d68ead143bf8cb852af9095852160ac113b04f0a33ff8cd",
+  "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。"
+  },
+  "utterances": [
+    {
+      "id": "C03-S06-U01",
+      "role": "client",
+      "text": "这周有个缓存失效的问题，在比较熟的模块里，我列了两种可能，自己挨个查了一下，大概两个小时就解决了。\n\n……其实也没什么特别的，就是觉得这次查的时候比较……有底。就是手里有具体线索，不是那种翻来翻去不知道往哪看的感觉。",
+      "call_id": "7e465a4cb5ab41ecae8e9a477b9f21b2",
+      "response_id": "resp_2f3bb6b3-913a-97c8-bf32-fedeaea23842",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:06:11.736819+00:00"
+    },
+    {
+      "id": "C03-S06-U02",
+      "role": "counselor",
+      "text": "手里有具体线索，挨个查下去，跟之前那种方向在晃的状态确实不一样。这次是你自己列的两种可能，还是当时就比较确定是其中哪个？",
+      "call_id": "f03de82d674c472788cbae2d50b624c1",
+      "response_id": "resp_09f3391b-56b1-9f8e-a3b5-7f777786ef17",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:06:18.664199+00:00"
+    },
+    {
+      "id": "C03-S06-U03",
+      "role": "client",
+      "text": "自己列的，当时其实没太确定是哪个。就是看了下报错和那个模块的逻辑，觉得大概率是这两块之一，所以列出来挨个看。\n\n……也不是说特别笃定，就是方向比较具体，知道该往哪儿翻，不是那种打开日志不知道从哪行开始看的感觉。",
+      "call_id": "77fc47bc5cf9469495004a603e9105ce",
+      "response_id": "resp_b4722bf3-e471-93f1-a2ed-a96973cf1e27",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:06:26.262573+00:00"
+    },
+    {
+      "id": "C03-S06-U04",
+      "role": "counselor",
+      "text": "方向具体但没笃定，这个状态你描述得挺清楚的。那两种可能，是你看到报错之后直接想到的，还是翻了会儿逻辑之后才收窄到这两个的？",
+      "call_id": "b0f35ccb69cc41a796458cc2765f7f1e",
+      "response_id": "resp_3fce84ad-cf26-9f7f-820d-64b507a53e94",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:06:34.192909+00:00"
+    },
+    {
+      "id": "C03-S06-U05",
+      "role": "client",
+      "text": "看到报错先有个大概方向，就是觉得应该是缓存那块的问题，但具体是失效策略还是key的拼接，不太确定。翻了会儿那个模块的逻辑，看了下调用链，才收窄到这两个。\n\n……也不算翻很久，大概十几分钟吧，就是确认一下自己那个方向没跑偏。",
+      "call_id": "bd602a17428e4d0bb704a419100aea7d",
+      "response_id": "resp_dc3fd933-19ad-9ffc-8c63-0dbdcb098e6e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:06:44.637886+00:00"
+    },
+    {
+      "id": "C03-S06-U06",
+      "role": "counselor",
+      "text": "十几分钟确认方向没跑偏，然后挨个查下去，这个节奏听起来挺顺的。这次过程中，有没有什么让你觉得这次确实不一样的具体瞬间，还是就是整体感觉比较稳？",
+      "call_id": "301b66b81a11417aaafaf86082bf311b",
+      "response_id": "resp_211156a6-342a-978e-8fc6-d83af2172b5a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:07:12.050554+00:00"
+    },
+    {
+      "id": "C03-S06-U07",
+      "role": "client",
+      "text": "整体比较稳吧，没什么特别卡顿的瞬间。就是列完那两个之后，开始查第一个的时候，心里比较清楚该看哪儿，不是那种……打开文件不知道从哪行开始的感觉。",
+      "call_id": "cf60131067a64d6b8cb513d7502c4917",
+      "response_id": "resp_d7b32af3-ca53-9f90-9004-f3b1b5c459f7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:07:20.837693+00:00"
+    },
+    {
+      "id": "C03-S06-U08",
+      "role": "counselor",
+      "text": "打开文件知道从哪行开始，跟之前那种不知道从哪行开始的感觉，确实是两回事。这周还有别的想说的吗，还是就这一件？",
+      "call_id": "5ee7a353609143ab8c94dcefd262730d",
+      "response_id": "resp_9655f084-d23f-954e-91ff-84f5e4ca433c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:07:27.779100+00:00"
+    },
+    {
+      "id": "C03-S06-U09",
+      "role": "client",
+      "text": "……对了，组会的时候顺带提了一下那个缓存的事，就说了大概怎么查的，没多说。\n\n就是……讲的时候没觉得什么，挺正常的。以前可能会想一下\"要不要提\"，这次就是……轮到了就说了一下，没纠结。",
+      "call_id": "d4decc3dfcce4581b993e93b3811ca96",
+      "response_id": "resp_b84f2175-b944-9688-828e-1d7b1d53ef46",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:07:35.661195+00:00"
+    },
+    {
+      "id": "C03-S06-U10",
+      "role": "counselor",
+      "text": "以前会想一下要不要提——这个以前，是跟之前那种开口前的斟酌像，还是不太一样的东西？",
+      "call_id": "0136e9f8a70742beb08d0ad7d7f2b487",
+      "response_id": "resp_087e6fdc-d851-9ca8-8d26-975ebc617d50",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:07:43.076966+00:00"
+    },
+    {
+      "id": "C03-S06-U11",
+      "role": "client",
+      "text": "不太一样吧。之前那种是怕说出去显得自己没搞定，这次就是……习惯了先想一下\"要不要说\"，但这次没怎么转就说了。\n\n就是那种……以前可能还会想\"提了别人会不会觉得这个事我花了挺久\"之类的，这次没转那个弯。",
+      "call_id": "09b60931a904460686c17bb414e0e796",
+      "response_id": "resp_64a89337-3ecd-94d1-a051-e4e0ab2b624b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:07:51.826731+00:00"
+    },
+    {
+      "id": "C03-S06-U12",
+      "role": "counselor",
+      "text": "这次组会说到缓存那个事，开口之前那个要不要说的念头，是当时确实冒出来了一下然后你就接着讲了，还是事后回想才觉得好像有那个念头？",
+      "call_id": "0e7ef3ba05604082845905d30825bd4e",
+      "response_id": "resp_434e7bcf-3e76-9653-a0b5-f8db7a928452",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:08:21.101147+00:00"
+    },
+    {
+      "id": "C03-S06-U13",
+      "role": "client",
+      "text": "应该是……事后回想才觉得的吧。当时讲的时候确实没卡，就是轮到了就说了一下，挺顺的。\n\n就是后来回来工位上，突然想起来\"哦我刚才说了\"，然后才意识到好像以前这种时候会多转一下。但当时那个瞬间，我确实没觉得需要想。",
+      "call_id": "fab67f2704b54b47ac334488c8bb018c",
+      "response_id": "resp_f02ada77-846f-9df3-a2e9-cad9942deb24",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:08:29.530897+00:00"
+    },
+    {
+      "id": "C03-S06-U14",
+      "role": "counselor",
+      "text": "回到工位上突然想起来那个事，当时是在做什么？是正在处理别的东西然后突然冒出来的，还是说完了歇了一会儿才注意到的？",
+      "call_id": "64285ccbee75488da0eccdc4a3ffd47d",
+      "response_id": "resp_1219704d-e55b-9b7e-97ec-8baf72de440b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:08:56.902718+00:00"
+    },
+    {
+      "id": "C03-S06-U15",
+      "role": "client",
+      "text": "应该是在处理别的东西吧，组会完回来就接着看下一个需求了。就是写着写着突然脑子里转了一下，\"哦我刚才组会说了\"，然后就……也没多想，接着写下去了。",
+      "call_id": "10168fef08694240af7b92a9f333e11f",
+      "response_id": "resp_c8ba634c-8333-91c8-b5e4-417be4cd449e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:09:01.930292+00:00"
+    },
+    {
+      "id": "C03-S06-U16",
+      "role": "counselor",
+      "text": "你说以前这种时候会多转一下，那个多转一下具体是在想什么？是想着自己刚才怎么说的，还是在想别人会怎么想？",
+      "call_id": "2370e5a1eda141139c4029977f29a1f4",
+      "response_id": "resp_cfa68b22-66c2-984b-b734-81dda1e1081c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:09:30.288661+00:00"
+    },
+    {
+      "id": "C03-S06-U17",
+      "role": "client",
+      "text": "应该是……别人会怎么想吧。就是那种，\"这个事我花了多久来着，别人会不会觉得……\"，转一下就过去了。\n\n……今天差不多，下次再聊吧。",
+      "call_id": "5c47ffcce2be43d788e3819b2eeecece",
+      "response_id": "resp_4db3b993-9e9b-9a1f-a383-4b764eeeae8a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:09:36.490017+00:00"
+    },
+    {
+      "id": "C03-S06-U18",
+      "role": "counselor",
+      "text": "转一下就过去了，这个你自己分得出来。下次见。",
+      "call_id": "f16576851d7641399c02725a49a36745",
+      "response_id": "resp_110e5737-0091-9e80-9cea-cdd29463960a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:09:43.616338+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:09:43.616338+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T12:09:43.618338+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 9
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C03/S06.json"
+}

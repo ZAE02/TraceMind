@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-10-14T09:03:37.353677+00:00",
+  "case_plans": 8,
+  "completed_sessions": 64,
+  "checkpoints_with_annotations": 24,
+  "answer_files": 192,
+  "expected": {
+    "case_plans": 8,
+    "sessions": 64,
+    "checkpoints": 24,
+    "answers": 192
+  },
+  "usage_observed": {
+    "input_tokens": 7368098,
+    "output_tokens": 776835
+  },
+  "human_review_performed": false,
+  "model_blind_review_performed": false,
+  "issues": [],
+  "complete": true
+}

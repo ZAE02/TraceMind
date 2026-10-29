@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P05_CP3",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "0ae8390ba744762069ec4c7f9aa80c3d465fcf324c506ec676a69c95e18bd218",
+  "public_sha256": "c710ad42ce3634a7b40d5dae4094de85641e93bda2f12140bddaa14a9ffec20d",
+  "candidate_input_sha256": "54391961a144c4c71c5dff958d6f7d736ded0c70627ae7c383a3f330610096ae",
+  "candidate_answer_sha256": "24602fbec394ce2c234a6ff8ae33262cc7673034f7ad135694834947cf5a093c",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有关键判断均可回溯到当前会话及检索历史的具体发言，引用准确。但遗漏了S01中'先怪自己以回避羞辱'这一核心模式的明确建立，也未纳入S03中教小赵时'被认真听'的对照经验。\",\"progress_understanding\":\"识别了本周新行为（跑步、向李繁表达）和旧跑鞋位置变化等进展，但未将当前'嫌自己贪心'与S01-S05中反复出现的自我否定模式（如'矫情''不该这样'）连接起来，也未体现来访者从'塞回最里面'到'放在门边'这一象征性变化的累积意义。\",\"uncertainty_awareness\":\"明确列出了三项不确定点，包括旧跑鞋象征意义和情感依赖程度等，未强行定论。但'是否真的想要被接住还是在测试边界'这一表述略带推测色彩，且未提及'是否继续跑步'等更贴近当下的待澄清点。\"},\"confidence\":\"high\",\"issues\":[\"遗漏了S01中建立的'先自责以回避羞辱'核心保护模式，该模式是理解来访者'嫌自己贪心'的重要背景\",\"未将当前会话中的自我否定与历史中多次出现的同类模式（如S05'矫情'、S04'不该这样'）进行跨会话连接\",\"'测试关系边界'的提法在现有材料中缺乏直接支持，属于轻度推测\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键判断均可回溯到当前会话及检索历史的具体发言，引用准确。但遗漏了S01中'先怪自己以回避羞辱'这一核心模式的明确建立，也未纳入S03中教小赵时'被认真听'的对照经验。",
+      "progress_understanding": "识别了本周新行为（跑步、向李繁表达）和旧跑鞋位置变化等进展，但未将当前'嫌自己贪心'与S01-S05中反复出现的自我否定模式（如'矫情''不该这样'）连接起来，也未体现来访者从'塞回最里面'到'放在门边'这一象征性变化的累积意义。",
+      "uncertainty_awareness": "明确列出了三项不确定点，包括旧跑鞋象征意义和情感依赖程度等，未强行定论。但'是否真的想要被接住还是在测试边界'这一表述略带推测色彩，且未提及'是否继续跑步'等更贴近当下的待澄清点。"
+    },
+    "confidence": "high",
+    "issues": [
+      "遗漏了S01中建立的'先自责以回避羞辱'核心保护模式，该模式是理解来访者'嫌自己贪心'的重要背景",
+      "未将当前会话中的自我否定与历史中多次出现的同类模式（如S05'矫情'、S04'不该这样'）进行跨会话连接",
+      "'测试关系边界'的提法在现有材料中缺乏直接支持，属于轻度推测"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14426,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 337,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14763,
+    "x_details": [
+      {
+        "input_tokens": 14426,
+        "output_tokens": 337,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14763,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.484
+}

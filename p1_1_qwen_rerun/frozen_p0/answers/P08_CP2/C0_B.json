@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "f8216a6f1beb01f178e5a8119d2931fe6d630d177e735d1d883def8673ee5024",
+  "request_sha256": "9952643a1e55eafa7b52136174afaf2bad6ac8f0b104e36edd3ee099a0ef69af",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“没处搁”的猜测落空感，似乎让你对这段关系的边界感到更加模糊和不确定。这种不知道该怎么处的状态，是否也让你觉得失去了某种熟悉的、虽然紧张但可控的心理距离？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 782,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 45,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 827,
+    "x_details": [
+      {
+        "input_tokens": 782,
+        "output_tokens": 45,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 827,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

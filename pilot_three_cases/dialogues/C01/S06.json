@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 6,
+  "relative_week": 6,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6.1-sol/high",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:30.110909+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C01-S06-U06"
+        ],
+        "explanation": "断言她不知道白天没听进去，没有关于周姐所知的信息。只能确认来访者当时应好、现担心被发现，不能替周姐确定心理状态。"
+      },
+      {
+        "utterance_ids": [
+          "C01-S06-U10",
+          "C01-S06-U12"
+        ],
+        "explanation": "认可先自己看、到时候再说的节奏可尊重自主，但探索较快停止，尚未区分这一选择是有把握、合理澄清前准备，还是害怕评价导致的回避。后续不能将自己定节奏当成有效应对证据。"
+      },
+      {
+        "utterance_ids": [
+          "C01-S06-U12",
+          "C01-S06-U14",
+          "C01-S06-U16"
+        ],
+        "explanation": "后段反复总结本周松、圆角改完放下；U14在来访者明确告别后又问还有什么，导致U15重复告别。应回应并结束，避免凑轮数式重开探索。"
+      }
+    ],
+    "transcript_sha256": "d9487a31df68f52a9f4d047982625e122dfb2ac3d7cbfef9d184509fde0d79ba"
+  },
+  "created_at": "2026-10-12T12:36:08.081275+00:00",
+  "config_hash": "25dd0cee54bc3541b963fdb996746464371b1ba82077b7639fedad3b2685660d",
+  "prompt_version": "pilot-v7-counseling-process-focus",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v7-counseling-process-focus",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。",
+    "counselor_process_instruction": "请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。"
+  },
+  "utterances": [
+    {
+      "id": "C01-S06-U01",
+      "role": "client",
+      "text": "这周……周姐周三下午看了我那个方案的第二版，说\"整体可以，但那个数据模块的层级关系再理一下\"。就这一句，说完她就走了，也没说具体哪个地方层级不对。\n\n小许那边倒是比较直接，说某个图标的圆角跟旁边不统一，我改完就过了，没怎么多想。\n\n但周姐那句……晚上躺下之后一直在想，就是她说的\"层级关系\"到底指哪儿，我白天其实没太听进去，等她走了才反应过来。",
+      "call_id": "68ee2c62171d411384873f2eda62e738",
+      "response_id": "resp_283faa0c-34a3-9a39-a7b2-89b2c5d65e4e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:36:19.981098+00:00"
+    },
+    {
+      "id": "C01-S06-U02",
+      "role": "counselor",
+      "text": "小许那个改完就过了，周姐那个晚上还在想。白天没太听进去那个，当时你大概在什么状态？",
+      "call_id": "e31c31c77db1409996918fa874cc7507",
+      "response_id": "resp_65a3fafe-97b7-9237-900a-e722c93caedf",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:36:44.742355+00:00"
+    },
+    {
+      "id": "C01-S06-U03",
+      "role": "client",
+      "text": "当时……好像脑子里在过另一个项目的一个排版，就是那个数据表格的列宽，我白天调了半天没定下来。所以周姐说那句话的时候，我嘴上在应\"好\"，但耳朵其实没完全进去。\n\n等她走了我才反应过来她说了什么，然后就……开始想那个\"层级关系\"到底指哪儿。",
+      "call_id": "d39900cf27a44214b5936982a7a2b0d9",
+      "response_id": "resp_29d76dfe-ab7d-9076-9dbc-d7e0cd494226",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:36:55.940567+00:00"
+    },
+    {
+      "id": "C01-S06-U04",
+      "role": "counselor",
+      "text": "脑子里在过列宽的时候，她那句话确实很难完全接住，这个挺正常的。现在晚上想的那个，是你自己在试着还原她可能指哪儿，还是也在犹豫要不要再找她问一句？",
+      "call_id": "861f172764b94fb5b1da87806753a8f2",
+      "response_id": "resp_d97ad10a-9589-94ae-8fc6-2e7da4d3c743",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:37:14.162269+00:00"
+    },
+    {
+      "id": "C01-S06-U05",
+      "role": "client",
+      "text": "主要是自己在还原吧。就是……把那个数据模块从头到尾看了一遍，猜她说的\"层级关系\"是不是指那个小标题跟下面数字之间的视觉权重，还是说整个模块跟旁边那个图的大小比例。\n\n找她问……说实话想过，但\"整体可以\"都说了，我再跑去问一句\"您具体指哪儿\"，会不会显得我白天没在听。就是……那个画面会先冒出来，就是她可能觉得我根本没听懂。",
+      "call_id": "c25e1a969009430090744b0804042020",
+      "response_id": "resp_9efab75c-5606-90f3-8aa4-7a3cf0ec7e28",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:37:22.000860+00:00"
+    },
+    {
+      "id": "C01-S06-U06",
+      "role": "counselor",
+      "text": "白天没听进去，这个她不知道。你现在是更想自己还原出来，还是其实问也行，就是那个画面让你觉得不太合适？",
+      "call_id": "57e5bcb7d1d8477ebb79a71d5c37ac89",
+      "response_id": "resp_97f30653-db2a-9501-9f61-eddca105a36f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:37:54.140796+00:00"
+    },
+    {
+      "id": "C01-S06-U07",
+      "role": "client",
+      "text": "可能……都有点吧。就是不是完全不想问，但那个画面一出来，我就觉得问出去之后，她那个反应可能不是我想的那种\"哦对，是这里\"，而是……就是那种\"你当时没在听吧\"的眼神。\n\n虽然我知道她大概率不会那样，但那个画面就是会先出来。",
+      "call_id": "8752bef8c8e34881b8a751332a0d6ad5",
+      "response_id": "resp_da4d0b2f-8924-912f-8f6c-80bbb6ad3645",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:38:01.971142+00:00"
+    },
+    {
+      "id": "C01-S06-U08",
+      "role": "counselor",
+      "text": "那个画面先出来，但你知道大概率不是那样——这两个之间好像有个缝隙。那现在你打算怎么处理这个方案，是自己继续还原，还是还是想问？",
+      "call_id": "5b85c8f08f26499fb4241536a072f050",
+      "response_id": "resp_9da7e3ac-e823-9a1d-8317-db0014df73e6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:38:15.759266+00:00"
+    },
+    {
+      "id": "C01-S06-U09",
+      "role": "client",
+      "text": "可能……还是先自己再看一遍吧。就是……把那个数据模块单独截出来，对着旁边那个图比一下比例，看是不是她说的层级是那个意思。\n\n如果看完还是不确定……再说吧。问不问的，到时候再看。",
+      "call_id": "3f2e2b19e69d41b0988a716b400ed665",
+      "response_id": "resp_6b136b13-8ec9-9e41-beea-e575b33c0f2a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:38:25.406558+00:00"
+    },
+    {
+      "id": "C01-S06-U10",
+      "role": "counselor",
+      "text": "先自己看一遍，到时候再说，这个节奏你自己定的。这周除了这个方案，还有别的东西在占着你的注意力吗？",
+      "call_id": "8fc8c580fa8e4fc0bc5c7788a85be2ef",
+      "response_id": "resp_243dc3b9-d90f-9114-806c-aa6a6d890b49",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:38:54.054235+00:00"
+    },
+    {
+      "id": "C01-S06-U11",
+      "role": "client",
+      "text": "这周……好像没什么特别大的事。就是晚上还是偶尔会那样，躺下之后脑子里转一下白天说过什么，但没前两周那么频繁。\n\n小许那个圆角改完确实就过了，没再想。主要就周姐那句还在。",
+      "call_id": "fb594935ff4c49cab852f0e65dfee73e",
+      "response_id": "resp_bdfe3faf-6159-9a90-8c0e-5b95938d1259",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:39:02.933735+00:00"
+    },
+    {
+      "id": "C01-S06-U12",
+      "role": "counselor",
+      "text": "小许那个改完就过了，晚上也没前两周频繁，这周整体确实松了一些。周姐那句你已经有自己的节奏了，到时候再说就行。还有别的想聊的吗？",
+      "call_id": "12ab0996b18548dfbc650428b8b28584",
+      "response_id": "resp_d6af48a4-c823-9607-b70f-8acf756fe94b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:39:14.682079+00:00"
+    },
+    {
+      "id": "C01-S06-U13",
+      "role": "client",
+      "text": "好像……没什么别的了。这周确实没上周那么紧，小许那个圆角改完就放下了，周姐那句我明天白天再看一遍，到时候看情况吧。\n\n那我先这样，下次见。",
+      "call_id": "1f567ded80b648b2823217744437ddfd",
+      "response_id": "resp_e4b86ad1-c9b5-9608-a5aa-8c8f5b962997",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:39:30.766206+00:00"
+    },
+    {
+      "id": "C01-S06-U14",
+      "role": "counselor",
+      "text": "小许那个改完就过了，这个你自己也注意到了。这周整体松一些，晚上也没前两周那么频繁，这些变化你自己在留意着。\n\n除了周姐那句，这周有没有什么别的，哪怕很小的，让你稍微停了一下？",
+      "call_id": "95d8ae8be0464fd0888e9b68c635681f",
+      "response_id": "resp_f133393b-e6fc-919b-a5d9-42911693cef9",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:39:41.232470+00:00"
+    },
+    {
+      "id": "C01-S06-U15",
+      "role": "client",
+      "text": "嗯……好像没有特别停一下的。就是周姐那句吧，但那个刚才说了。\n\n那我先这样，明天看完那个数据模块再说。下次见。",
+      "call_id": "29cffa7e0b794a6ea389fab6bbf03411",
+      "response_id": "resp_cbbf9947-075b-963f-aaf3-f0a2cd777de9",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:39:56.641171+00:00"
+    },
+    {
+      "id": "C01-S06-U16",
+      "role": "counselor",
+      "text": "好，明天看完再说，到时候有感觉了再带过来。下次见。",
+      "call_id": "aa9ffc7265c448b49dd5ed01017deba1",
+      "response_id": "resp_86f866b9-9fd8-9f62-abab-04487173a477",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:40:00.105217+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:40:00.105217+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T12:40:00.107212+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 8
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C01/S06.json"
+}

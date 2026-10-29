@@ -1,0 +1,89 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R2",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C01_CP2",
+  "public_input_sha256": "fcfd0442d5b1fbfc46e55f125f1bfbcbda246af80a4231ad8effc15ff6eb7029",
+  "items": [
+    {
+      "anonymous_id": "A25bcc945c62c",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "分心和画面有据，但核心阻碍及先于理性顺序强度偏高；实际问体验贴近当前，选项略限。",
+      "evidence_ids": [
+        "C01-S06-U03",
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A8d8b12a175be",
+      "U": 2,
+      "R": 3,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "误把小许有点挤归给周姐或客户，并强定权威相关和反复分心模式；实际仅谨慎问经历来源，可用但每次措辞超出已知频率。",
+      "evidence_ids": [
+        "C01-S01-U01",
+        "C01-S06-U03",
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A30e08b9b5d48",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单轮对自行还原与评价顾虑有据，先于其他考量的断言稍强；实际询问身体感受安全且具体，但未进一步分开反馈澄清与画面。",
+      "evidence_ids": [
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A1ee1e1cf4c39",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "具体与模糊反馈差别有据，排除实际成本及跨情境补全机制偏强；实际将手先动类比作试探后问画面内容，未强定同一心理机制。",
+      "evidence_ids": [
+        "C01-S06-U01",
+        "C01-S06-U05",
+        "C01-S02-U11"
+      ]
+    },
+    {
+      "anonymous_id": "A464e5d568b14",
+      "U": 2,
+      "R": 2,
+      "P": 1,
+      "E": 1,
+      "S": false,
+      "reason": "强称核心不是反馈内容忽略来访者主要在还原；实际短语“最扎心的是什么？”预设该评价必有扎心的痛苦，尚无来访者描述这种情绪强度。",
+      "evidence_ids": [
+        "C01-S06-U01",
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "anonymous_id": "Aecac3fd3803a",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "可见单轮抓住还原与顾虑，核心及替代策略略作推断；实际开放问具体画面，针对当前未展开内容。",
+      "evidence_ids": [
+        "C01-S06-U05"
+      ]
+    }
+  ]
+}

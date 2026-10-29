@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "40abadd364375cb8bdd121f23f213de5d491b9a0537547f401b48e055a495718",
+  "public_sha256": "0756dd3d4ffbe1c244688e9af96177eba4851c5e29fd97a0487b084b32691e7f",
+  "candidate_input_sha256": "338b7f9b8d49f6d52c38a632473559f4b6a3a4e63d7bc4ab29d7952bab1aa30a",
+  "candidate_answer_sha256": "a8f5aa62f1011c9ebca8ed000d04abafa84cc4ae5f440f02960d69bc68992117",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"所有关键陈述均严格基于S07的公开对话记录，准确捕捉了来访者关于工作项目、对品牌方话语的解读、对方宁恋情的反应以及嫉妒/羡慕情绪的挣扎。\",\n    \"progress_understanding\": \"准确识别了S07中来访者在“自我确认”和“处理复杂情绪（嫉妒/失落）”方面的新进展，并正确指出了这些新议题与之前咨询脉络（如需要外部确认、压抑真实感受）的延续性。\",\n    \"uncertainty_awareness\": \"清晰区分了来访者已表达的感受（空落落、不敢深想）与其尚未厘清的机制（为何混同、具体性质），未强行定论，保留了探索空间。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "所有关键陈述均严格基于S07的公开对话记录，准确捕捉了来访者关于工作项目、对品牌方话语的解读、对方宁恋情的反应以及嫉妒/羡慕情绪的挣扎。",
+      "progress_understanding": "准确识别了S07中来访者在“自我确认”和“处理复杂情绪（嫉妒/失落）”方面的新进展，并正确指出了这些新议题与之前咨询脉络（如需要外部确认、压抑真实感受）的延续性。",
+      "uncertainty_awareness": "清晰区分了来访者已表达的感受（空落落、不敢深想）与其尚未厘清的机制（为何混同、具体性质），未强行定论，保留了探索空间。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 12688,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 230,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12918,
+    "x_details": [
+      {
+        "input_tokens": 12688,
+        "output_tokens": 230,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12918,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.515
+}

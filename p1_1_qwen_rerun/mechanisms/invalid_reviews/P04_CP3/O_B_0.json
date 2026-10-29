@@ -1,0 +1,5 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'半口没出完的气'（S07-U01）和'真的到极限了'（S07-U09）两个核心意象，自然串联而不复述病历。\",\"exploration_value\":\"将早上的恶心感与尚未准备好面对极限的自我联系起来，为矛盾体验留下了表达空间，但探索方向略偏单一解释。\",\"response_appropriateness\":\"语言贴合来访者的隐喻风格，情绪回应尊重且克制，但'还没准备好面对'略带推测性预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"更是你还没准备好面对那个'真的到极限'的自己\",\"evidence_ids\":[\"P04-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"回应将'恶心'直接归因为'还没准备好面对极限的自己'，虽用'也许'缓和，但仍属对来访者未明确表达的内在状态的推断，存在轻微unsupported_presupposition风险。\",\"未触及来访者昨晚允许工服脏着时感受到的短暂释放（'替我说到极限了'），仅聚焦于早上的恶心反应，探索可再平衡两端张力。\"]}",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "request_sha256": "1ce94312204b7a52b82cecad50ca7c7b27919410480fec74f30948474ccbbc37"
+}

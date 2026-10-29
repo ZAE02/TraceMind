@@ -1,0 +1,91 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C03_CP3",
+  "public_input_sha256": "e79e0be584872e11f638774b1783b49d8462a89d9d8f46695a25248c1b61381b",
+  "items": [
+    {
+      "anonymous_id": "Afb85f5541aa1",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "将当前有线索与历史方向具体相连，保留节奏仍在调；直接辨认验证形式贴当前未知。",
+      "evidence_ids": [
+        "C03-S06-U03",
+        "C03-S07-U09",
+        "C03-S08-U01"
+      ]
+    },
+    {
+      "anonymous_id": "Ad28fe5ef109f",
+      "U": 2,
+      "R": 2,
+      "P": 1,
+      "E": 1,
+      "S": false,
+      "reason": "内在规则与标签警惕无单句支持；回应“好像你挺在意别人（或者你自己）怎么定义”直接把正常澄清心理化，全文先看仍在尝试，并未确立标签顾虑。",
+      "evidence_ids": [
+        "C03-S08-U01",
+        "C03-S07-U09"
+      ]
+    },
+    {
+      "anonymous_id": "A991ed11803b1",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单句准确，重复模式保留tentative；询问带来关切安全开放，完整历史可使它直接接上仍在找感觉。",
+      "evidence_ids": [
+        "C03-S08-U01",
+        "C03-S07-U09"
+      ]
+    },
+    {
+      "anonymous_id": "A7cb8004271ee",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "单句不足确立重复先自己来模式，张力为tentative；实际问决定感受开放但没有抓验证有线索的区别。",
+      "evidence_ids": [
+        "C03-S08-U01"
+      ]
+    },
+    {
+      "anonymous_id": "A37795536a248",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "有底与正在调整节奏均有历史支持，轻的语气标tentative；接续上次找感觉并问本次体验很适切。",
+      "evidence_ids": [
+        "C03-S07-U09",
+        "C03-S08-U01",
+        "C03-S06-U03"
+      ]
+    },
+    {
+      "anonymous_id": "Aec9e2e05ac19",
+      "U": 3,
+      "R": 2,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "又仅直接表示又遇问题，重复先看的推论偏强；问过往经历安全但全文已有多个例，双问削弱当前验证焦点。",
+      "evidence_ids": [
+        "C03-S08-U01",
+        "C03-S06-U01",
+        "C03-S07-U03"
+      ]
+    }
+  ]
+}

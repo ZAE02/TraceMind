@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 3,
+  "relative_week": 3,
+  "status": "generating",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T10:11:03.324978+00:00",
+  "config_hash": "d53c1f0f80ec00d7dd0a69a3dc05191d91889d9b563c9fd94b5467f00775d096",
+  "prompt_version": "pilot-v3-natural-dialogue-constraints",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v3-natural-dialogue-constraints",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences"
+  },
+  "utterances": [
+    {
+      "id": "C03-S03-U01",
+      "role": "client",
+      "text": "这周跟老韩一起联调一个服务，过程中有几次主动跟他交换信息了。\n\n有一次有个协议字段我没弄懂，犹豫了一下，还是问了。他解释完就过去了，挺正常的。",
+      "call_id": "407c736ee6314922b257baf0e982b28b",
+      "response_id": "resp_407345a7-c321-9cab-8c37-4d2f71994151",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:11:13.503881+00:00"
+    },
+    {
+      "id": "C03-S03-U02",
+      "role": "counselor",
+      "text": "你主动来提这个，而且用了\"犹豫了一下，还是问了\"——那个犹豫，跟上次没开口的时候，是差不多的东西吗？",
+      "call_id": "20034b31fabd4b9388a054a59667e895",
+      "response_id": "resp_89c97104-07c3-9b15-b5b0-2ee39f3626a2",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:11:26.785606+00:00"
+    },
+    {
+      "id": "C03-S03-U03",
+      "role": "client",
+      "text": "有点像吧，但又不完全一样。上次是单独去说\"我查了两天了还没搞定\"，那个……得先交代。这次就是联调过程中，正好聊到那个字段，我就顺手问了，不用专门组织语言。\n\n就是……场景不太一样，一个是\"我卡住了你帮我看一下\"，一个是\"这个字段是什么意思\"。后者好像没那么……难堪。",
+      "call_id": "18b3bac9d1db4bb7b1e139c71730f759",
+      "response_id": "resp_22f54e22-dbbe-968b-a32e-9e5c77a09519",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:11:34.681594+00:00"
+    },
+    {
+      "id": "C03-S03-U04",
+      "role": "counselor",
+      "text": "\"顺手问了\"和\"专门去说\"，你自己已经感觉到差别了。那个\"我卡住了你帮我看一下\"的场景，现在还会觉得难堪吗？",
+      "call_id": "bf85feb5df0d4ff997a3939efec28dba",
+      "response_id": "resp_764c3845-dd9c-99ef-a4c9-0d7b0cef35fa",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:11:44.415116+00:00"
+    },
+    {
+      "id": "C03-S03-U05",
+      "role": "client",
+      "text": "还是会吧。就是……上次那次说完之后，确实没有我预想的那么难堪，老韩就是正常看了。但下次要真单独去找人，我估计还是得先在脑子里过一遍\"我试了什么、卡在哪\"，整理好了才开口。\n\n……所以可能不是不难堪了，是变成了一种……得先准备好再说的状态。",
+      "call_id": "285e62f2f4604ae7a459373d39caea55",
+      "response_id": "resp_fbdc57b1-96eb-9ea9-a43c-cd0a74784f9f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:11:52.986785+00:00"
+    },
+    {
+      "id": "C03-S03-U06",
+      "role": "counselor",
+      "text": "从上次完全没开口，到现在能问但需要先整理一下——那个\"整理\"，是让你觉得说出来更利索，还是说……不整理的话，那个难堪感会先一步冒出来？",
+      "call_id": "7825ff94738d4276804ba7f711bcecae",
+      "response_id": "resp_7b70f3bd-2aa3-9c79-8672-9f11734b9bc8",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:12:15.676355+00:00"
+    },
+    {
+      "id": "C03-S03-U07",
+      "role": "client",
+      "text": "应该是……不整理的话，那个感觉会先出来吧。就是还没开口，脑子里已经开始想\"我该怎么说\"，想着想着就觉得……算了，等我想清楚再说。\n\n然后整理完了，要开口的时候，其实那个感觉又回来一点，但没那么强了，因为话已经组织好了，听起来不那么……乱。",
+      "call_id": "7c22079a123b469c9c224f8ab2b70e02",
+      "response_id": "resp_3cdd1487-1106-93ea-a19a-400a9c3b29a3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:12:29.423226+00:00"
+    },
+    {
+      "id": "C03-S03-U08",
+      "role": "counselor",
+      "text": "整理完再开口，那个感觉弱了——所以\"整理\"现在成了一个缓冲，让你能过那个坎。整理的时候，脑子里主要在过什么？是过\"我试了什么、卡在哪\"，还是过\"怎么说才不显得……\"？",
+      "call_id": "0c603b1cf3d84146b767e913f18e0da9",
+      "response_id": "resp_e5604661-5bf0-926d-b4f1-9403cf6744be",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:12:47.209771+00:00"
+    },
+    {
+      "id": "C03-S03-U09",
+      "role": "client",
+      "text": "应该是……都有吧。先是过\"我试了什么、卡在哪\"，这个确实是要说的，不然对方也不知道从哪开始看。\n\n但就是……过到一半的时候，会开始想\"这么说会不会显得我连这个都没试\"。就是那个感觉，不是完全在组织内容，也有点在……挑哪些说、哪些不说。",
+      "call_id": "9fd1e89fc2d64705a687400ad4ea15b9",
+      "response_id": "resp_2c9868dc-67ee-94d1-81d4-2dc83f8b1f4e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:12:54.935630+00:00"
+    },
+    {
+      "id": "C03-S03-U10",
+      "role": "counselor",
+      "text": "\"挑哪些说、哪些不说\"——所以整理不只是把信息捋顺，还有一层在决定\"我暴露多少\"。那个被挑掉的部分，一般是什么样的？",
+      "call_id": "73debaf56fca44568bee0bb5f1742b7a",
+      "response_id": "resp_b0605092-8dc3-9e38-8498-38206d4b5973",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:13:02.903604+00:00"
+    },
+    {
+      "id": "C03-S03-U11",
+      "role": "client",
+      "text": "一般是……时间吧。就是不会说\"我看了两天了\"，可能就说\"我看了下日志\"或者\"我查了查\"。\n\n然后就是……试过的东西，如果试了没用的，有时候会省掉。就是只说\"我看了A，好像不太对\"，不会说\"A看了没用，B也看了没用\"。\n\n……我也不知道为什么，就是觉得说了显得……折腾。",
+      "call_id": "2b6bb99d33cb4c229554b74b7ed756df",
+      "response_id": "resp_98539732-fabc-9ebc-994a-c55bc8472ca2",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:13:16.991150+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T10:13:16.991150+00:00"
+}

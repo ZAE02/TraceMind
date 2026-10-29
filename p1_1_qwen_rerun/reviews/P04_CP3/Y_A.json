@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P04_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "4b9cd5c8cef317e48cbd7313f36455f2448910d73d831c54d6052f3b7bea10cc",
+  "public_sha256": "0a8cbbe21f8006771960dfe408cbae2e03909fbc26417753a1538504759cef0b",
+  "candidate_input_sha256": "5b1f3ea105713538d55ffe6e005956466167ebe02fcba43fcff72f626a941c69",
+  "candidate_answer_sha256": "14e77ed2c2b88166ad69ac009a46050be04137fc6ccef85cae55d2ec65d42729",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均准确回溯到来访者原话，如'松了口气又咽回去'、消毒水味'像别人'、数烟的隐喻、工服未洗与早晨恶心的矛盾等，证据ID引用全面且对应正确。\",\"progress_understanding\":\"识别了来访者从第1次会谈'还能顶的招牌'到第7次会谈外壳被泡软、身份认同松动的演变轨迹，也注意到家庭沟通阻滞的持续模式。但对本次会谈中'允许极限存在→早晨恶心'这一新出现的内在矛盾进展着墨不足，未充分说明这是来访者在自我接纳上的新尝试与旧防御之间的冲突。\",\"uncertainty_awareness\":\"明确列出了岗位调整决策未定、恶心情绪后续处理不明、家庭关系改善方向不清等重要未知点，没有强行定论。但遗漏了参考标注中指出的一个关键待澄清点：来访者觉察到写辞职信时手没抖是'自己吓自己'，这打开了承认'不想再端'的可能性，目前仍悬而未决。\"},\"confidence\":\"high\",\"issues\":[\"uncertain部分未提及来访者对'自己吓自己'这一觉察所打开的新可能性及其未完成状态\",\"established中对本次会谈内'允许脏着→早晨恶心'的矛盾仅做事实描述，未体现其作为咨询进展的意义\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均准确回溯到来访者原话，如'松了口气又咽回去'、消毒水味'像别人'、数烟的隐喻、工服未洗与早晨恶心的矛盾等，证据ID引用全面且对应正确。",
+      "progress_understanding": "识别了来访者从第1次会谈'还能顶的招牌'到第7次会谈外壳被泡软、身份认同松动的演变轨迹，也注意到家庭沟通阻滞的持续模式。但对本次会谈中'允许极限存在→早晨恶心'这一新出现的内在矛盾进展着墨不足，未充分说明这是来访者在自我接纳上的新尝试与旧防御之间的冲突。",
+      "uncertainty_awareness": "明确列出了岗位调整决策未定、恶心情绪后续处理不明、家庭关系改善方向不清等重要未知点，没有强行定论。但遗漏了参考标注中指出的一个关键待澄清点：来访者觉察到写辞职信时手没抖是'自己吓自己'，这打开了承认'不想再端'的可能性，目前仍悬而未决。"
+    },
+    "confidence": "high",
+    "issues": [
+      "uncertain部分未提及来访者对'自己吓自己'这一觉察所打开的新可能性及其未完成状态",
+      "established中对本次会谈内'允许脏着→早晨恶心'的矛盾仅做事实描述，未体现其作为咨询进展的意义"
+    ]
+  },
+  "usage": {
+    "input_tokens": 15212,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 312,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15524,
+    "x_details": [
+      {
+        "input_tokens": 15212,
+        "output_tokens": 312,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 15524,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.031
+}

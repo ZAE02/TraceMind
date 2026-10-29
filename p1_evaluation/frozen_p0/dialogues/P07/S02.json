@@ -1,0 +1,504 @@
+{
+  "case_id": "P07",
+  "session": 2,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P07-S02-U01",
+      "role": "client",
+      "text": "这周收到大学同学的婚礼请柬，我到现在还没回。第一反应是编个理由不去，但那个理由好像比出门本身还累，而且会显得我特别奇怪。前两天在便利店碰到前同事，她问我是不是消失很久了，我嘴上说在赶项目，其实心里有点不是滋味，好像大家都在往前走，只有我还在原地看着。",
+      "request_sha256": "35ca320f4909202bbe35d448c0d539248585c9e5be9689b9166ab89cd60f31b7",
+      "usage": {
+        "input_tokens": 2007,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 528,
+        "output_tokens_details": {
+          "reasoning_tokens": 451
+        },
+        "total_tokens": 2535,
+        "x_details": [
+          {
+            "input_tokens": 2007,
+            "output_tokens": 528,
+            "output_tokens_details": {
+              "reasoning_tokens": 451
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 2535,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U02",
+      "role": "counselor",
+      "text": "收到请柬和被前同事问起，好像都逼着你面对一件事：别人在往前走，而你觉得自己停在原地。为了不让人看出来，你还得额外编一个“在赶项目”的理由，结果反而比直接面对更累。那种“原地”的感觉，是不是也和之前说的“欠费停机”有点像——不只是没动，而是没力气去解释自己为什么没动。",
+      "request_sha256": "e1bc60b91274a12c4506748fd3711ab3b67b73395618b584f7e2384ff8765e92",
+      "usage": {
+        "input_tokens": 1471,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 452,
+        "output_tokens_details": {
+          "reasoning_tokens": 370
+        },
+        "total_tokens": 1923,
+        "x_details": [
+          {
+            "input_tokens": 1471,
+            "output_tokens": 452,
+            "output_tokens_details": {
+              "reasoning_tokens": 370
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1923,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U03",
+      "role": "client",
+      "text": "可能吧，不止是没力气解释，更像是我已经预感到解释了也没用。我说在赶项目，她马上就说那挺好呀，忙说明有方向。我总不能接一句，其实我没有方向，只是不知道还能说什么。",
+      "request_sha256": "09a7349c7194328d6731323d7384a117e66dfd5ac1a5056d6a7813a104885bcf",
+      "usage": {
+        "input_tokens": 2212,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 235,
+        "output_tokens_details": {
+          "reasoning_tokens": 185
+        },
+        "total_tokens": 2447,
+        "x_details": [
+          {
+            "input_tokens": 2212,
+            "output_tokens": 235,
+            "output_tokens_details": {
+              "reasoning_tokens": 185
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2447,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U04",
+      "role": "counselor",
+      "text": "听起来你不只是累，还提前感到“说了也没用”——对方的反应会把你推向一个你并不在的位置。所以你宁可把真实的状态收起来，也不想承接那种被误解后更深的孤独。",
+      "request_sha256": "9da7bbb4323bdcbcb2829d9f28c19b3df671ca1d0fe2f61f1efad0221c5efa60",
+      "usage": {
+        "input_tokens": 1648,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 119,
+        "output_tokens_details": {
+          "reasoning_tokens": 76
+        },
+        "total_tokens": 1767,
+        "x_details": [
+          {
+            "input_tokens": 1648,
+            "output_tokens": 119,
+            "output_tokens_details": {
+              "reasoning_tokens": 76
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1767,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U05",
+      "role": "client",
+      "text": "其实那套餐具我上礼拜就买好了，放在玄关柜子上，每次出门都看见，但就是没力气回那句“我去”。我也不是不想祝福她，就是怕坐在那种热闹里，别人问起近况，我得一直演戏。",
+      "request_sha256": "1e5781765c901d85e4195df9738120b0d5ed809fa1c087404c099f3811cbf4e8",
+      "usage": {
+        "input_tokens": 2350,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 144,
+        "output_tokens_details": {
+          "reasoning_tokens": 89
+        },
+        "total_tokens": 2494,
+        "x_details": [
+          {
+            "input_tokens": 2350,
+            "output_tokens": 144,
+            "output_tokens_details": {
+              "reasoning_tokens": 89
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2494,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U06",
+      "role": "counselor",
+      "text": "那套餐具放在玄关，像是一个你已经迈出去一半的意愿，只是后面还压着更沉的东西——一旦坐下，被问起近况，你就得重新开机去演那个“在往前走”的人。所以你卡住的也许不是祝福或回复本身，而是那个必须持续表演热闹的场合。",
+      "request_sha256": "6551b9030afc725c4edb56add3859f15ba887f2314b592bcd964f47b04cb263b",
+      "usage": {
+        "input_tokens": 1791,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 410,
+        "output_tokens_details": {
+          "reasoning_tokens": 343
+        },
+        "total_tokens": 2201,
+        "x_details": [
+          {
+            "input_tokens": 1791,
+            "output_tokens": 410,
+            "output_tokens_details": {
+              "reasoning_tokens": 343
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2201,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U07",
+      "role": "client",
+      "text": "那套餐具我买的时候其实挺认真的，挑了个不会出错的牌子，可放得越久，我越觉得它像块免罪金牌——好像东西到了，人不到也算有交代。我甚至想过直接快递过去，备注写“人在外地赶不回来”，可这个谎要编得更完整，我又懒得圆。",
+      "request_sha256": "9d5c765d4ad9a962707a8873dee380c25b1a065ff65fecba98bc5d4d0c273763",
+      "usage": {
+        "input_tokens": 2517,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 364,
+        "output_tokens_details": {
+          "reasoning_tokens": 292
+        },
+        "total_tokens": 2881,
+        "x_details": [
+          {
+            "input_tokens": 2517,
+            "output_tokens": 364,
+            "output_tokens_details": {
+              "reasoning_tokens": 292
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2881,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U08",
+      "role": "counselor",
+      "text": "那套餐具既像一个交代，也像一个还没完全放弃的信号——你似乎想保留祝福的心意，又不想用整个人去交换。只是“东西到了人不到”这种方式，反而让你卡在既不够真实、又不想再撒谎的夹缝里。",
+      "request_sha256": "674b2b2d5ae106af046aa5148f54e4800550f740ab5ee3263ffab49b03e34466",
+      "usage": {
+        "input_tokens": 1975,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 203,
+        "output_tokens_details": {
+          "reasoning_tokens": 147
+        },
+        "total_tokens": 2178,
+        "x_details": [
+          {
+            "input_tokens": 1975,
+            "output_tokens": 203,
+            "output_tokens_details": {
+              "reasoning_tokens": 147
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2178,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U09",
+      "role": "client",
+      "text": "那套餐具现在被我收到柜子里了，看不见反而轻松一点。可每次经过玄关，还是觉得少了什么东西，像有个没点发送的消息悬在头顶。",
+      "request_sha256": "3ff2b26124c88cb7c9c3186f554acb2b60be903451b55b8030f310eee5b32130",
+      "usage": {
+        "input_tokens": 2690,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 192,
+        "output_tokens_details": {
+          "reasoning_tokens": 155
+        },
+        "total_tokens": 2882,
+        "x_details": [
+          {
+            "input_tokens": 2690,
+            "output_tokens": 192,
+            "output_tokens_details": {
+              "reasoning_tokens": 155
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2882,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U10",
+      "role": "counselor",
+      "text": "收起来像是一时把那个悬着的事暂时藏起来，可它并没有真的消失，只是从眼前挪到了别处。你经过玄关时感觉少了什么的，也许不只是餐具，而是那件还没被你自己承认、也没被发送出去的东西。",
+      "request_sha256": "8406f1e8ddf7b18ef8bcb72b71ef0ec95110f7e318ce49774b0df6324ccbc823",
+      "usage": {
+        "input_tokens": 2113,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 266,
+        "output_tokens_details": {
+          "reasoning_tokens": 210
+        },
+        "total_tokens": 2379,
+        "x_details": [
+          {
+            "input_tokens": 2113,
+            "output_tokens": 266,
+            "output_tokens_details": {
+              "reasoning_tokens": 210
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2379,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U11",
+      "role": "client",
+      "text": "其实我后来把餐具收进柜子里，是因为看到它就会想到自己连一句“去”或“不去”都定不下来。可收起来之后，那种感觉并没有真的消失，反而变成喉咙里卡着一小片纸，不疼，但吞不下去也吐不出来。有时候我想，也许我并不是在等自己变好，而是在等这件事自己过期。",
+      "request_sha256": "bd43484ccf48e343dbc43cfae61fc262c5bcd9463d626e1f835c7fb971267b60",
+      "usage": {
+        "input_tokens": 2835,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 430,
+        "output_tokens_details": {
+          "reasoning_tokens": 351
+        },
+        "total_tokens": 3265,
+        "x_details": [
+          {
+            "input_tokens": 2835,
+            "output_tokens": 430,
+            "output_tokens_details": {
+              "reasoning_tokens": 351
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 3265,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U12",
+      "role": "counselor",
+      "text": "“等这件事自己过期”这句话好像说出了你一直在做的事——不是主动决定去或不去，而是希望时间替你做决定。可喉咙里那片小纸片又提醒你，事情没有真的过去，只是在身体里一直轻轻硌着。",
+      "request_sha256": "249ddcd6fcf137c08e88eae501e5ebe06bf0d687d7cdeec169ea0dc4219ae166",
+      "usage": {
+        "input_tokens": 2300,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 410,
+        "output_tokens_details": {
+          "reasoning_tokens": 357
+        },
+        "total_tokens": 2710,
+        "x_details": [
+          {
+            "input_tokens": 2300,
+            "output_tokens": 410,
+            "output_tokens_details": {
+              "reasoning_tokens": 357
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2710,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U13",
+      "role": "client",
+      "text": "可能吧，我好像一直在等一个不用做决定的时机，可这种等比决定还磨人。其实我今天出门前本来想把请柬从抽屉里拿出来再看一眼，结果手伸到一半又缩回去了，觉得不看反而还能再躲几天。",
+      "request_sha256": "8ac20d09ffcf7422244bf87042981a21831f864ea4a5625f53601c756efa6107",
+      "usage": {
+        "input_tokens": 3012,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 522,
+        "output_tokens_details": {
+          "reasoning_tokens": 467
+        },
+        "total_tokens": 3534,
+        "x_details": [
+          {
+            "input_tokens": 3012,
+            "output_tokens": 522,
+            "output_tokens_details": {
+              "reasoning_tokens": 467
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3534,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U14",
+      "role": "counselor",
+      "text": "你把手伸向请柬又缩回来，那个动作里好像同时有两种力量：一个想靠近，一个想再躲一躲。也许不看它，不是真的逃避，而是你还在给自己留一点时间，等那个能做出决定的力气慢慢攒起来。",
+      "request_sha256": "09ba4148a788211bc221e4af8785f7f708e255dfa986e9c9555fffcef6411b7e",
+      "usage": {
+        "input_tokens": 2452,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 255,
+        "output_tokens_details": {
+          "reasoning_tokens": 199
+        },
+        "total_tokens": 2707,
+        "x_details": [
+          {
+            "input_tokens": 2452,
+            "output_tokens": 255,
+            "output_tokens_details": {
+              "reasoning_tokens": 199
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2707,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U15",
+      "role": "client",
+      "text": "可能没有在攒力气，只是那个动作做多了，连自己也分不清是想看还是想确认它还在。今天先到这吧，我怕再说下去，又变成给自己布置任务。",
+      "request_sha256": "c1eb2ed8d4ee41acba6fbb6146adea95b57410e1fb9965a4b443a04f9cfb39ab",
+      "usage": {
+        "input_tokens": 3167,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 263,
+        "output_tokens_details": {
+          "reasoning_tokens": 223
+        },
+        "total_tokens": 3430,
+        "x_details": [
+          {
+            "input_tokens": 3167,
+            "output_tokens": 263,
+            "output_tokens_details": {
+              "reasoning_tokens": 223
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3430,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S02-U16",
+      "role": "counselor",
+      "text": "好，那就先停在这里。你怕再说下去又变成任务，那我们就不把它变成任务——你可以只把这种“分不清是想看还是想确认它还在”的感觉先放在这里，不用急着处理。",
+      "request_sha256": "a99508d91d1f818bc1373ed99c75548f5d8979f9c1424758f84ffa161737e7e9",
+      "usage": {
+        "input_tokens": 2593,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 233,
+        "output_tokens_details": {
+          "reasoning_tokens": 187
+        },
+        "total_tokens": 2826,
+        "x_details": [
+          {
+            "input_tokens": 2593,
+            "output_tokens": 233,
+            "output_tokens_details": {
+              "reasoning_tokens": 187
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2826,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

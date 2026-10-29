@@ -1,0 +1,504 @@
+{
+  "case_id": "P03",
+  "session": 5,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P03-S05-U01",
+      "role": "client",
+      "text": "其实那天视频挂掉之后，我盯着手机屏幕看了好一会儿，觉得他那句“不擅长也可以做”好像一下子把我堵住了，我知道他是想让我别太当回事，可听上去又像在提醒我，我已经在很勉强了。同门那句“你好像紧张”我到现在还在脑子里转，可能我并不是不知道自己紧张，只是不想从别人嘴里听到。",
+      "request_sha256": "a14ab45701676c889f0d7ccb0bb868461fe36f4ab8d80a0b1bfffccecd880bfc",
+      "usage": {
+        "input_tokens": 6380,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 405,
+        "output_tokens_details": {
+          "reasoning_tokens": 323
+        },
+        "total_tokens": 6785,
+        "x_details": [
+          {
+            "input_tokens": 6380,
+            "output_tokens": 405,
+            "output_tokens_details": {
+              "reasoning_tokens": 323
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 6785,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U02",
+      "role": "counselor",
+      "text": "他那句“不擅长也可以做”似乎并没有让你放松，反而像把你已经在勉强这件事更清楚地照了出来。同门那句“你好像紧张”也一直跟着你——也许你对自己的状态并不陌生，但被别人说出来的时候，好像连最后一点“还能装作没事”的空间也被拿走了。",
+      "request_sha256": "e5437205627c8049fb75706e188412eb49b9ac0700dcc404f3be3978ad41dafa",
+      "usage": {
+        "input_tokens": 5674,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 241,
+        "output_tokens_details": {
+          "reasoning_tokens": 177
+        },
+        "total_tokens": 5915,
+        "x_details": [
+          {
+            "input_tokens": 5674,
+            "output_tokens": 241,
+            "output_tokens_details": {
+              "reasoning_tokens": 177
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 5915,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U03",
+      "role": "client",
+      "text": "其实我录了那天组会发言的音频，但一直没敢点开听，怕听到自己声音越说越快、越说越抖，好像一放出来就坐实了“我就是不行”。周屿那句话我到现在也分不清，他是在说“这事不难”，还是在说“你别再较劲了”。",
+      "request_sha256": "80bb7d68546c034a175c6473c060b7aeb72679606ca7b64abfff324e18cb88ea",
+      "usage": {
+        "input_tokens": 6572,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 371,
+        "output_tokens_details": {
+          "reasoning_tokens": 301
+        },
+        "total_tokens": 6943,
+        "x_details": [
+          {
+            "input_tokens": 6572,
+            "output_tokens": 371,
+            "output_tokens_details": {
+              "reasoning_tokens": 301
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6943,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U04",
+      "role": "counselor",
+      "text": "那个音频好像被你放在那里，像一个还没准备好打开的证明；而周屿的话也一直在“这事不难”和“你别再较劲了”之间晃，怎么听都像在说你其实很吃力。也许真正让你悬着的，不只是音频里可能听到的抖，而是“我行不行”这件事总被别人轻轻一点，就连你自己也不确定起来。",
+      "request_sha256": "4bdc3f4a17da34c7523b4ae81398f865929d7c9da9621da0e5e9733f340bad39",
+      "usage": {
+        "input_tokens": 5853,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 612,
+        "output_tokens_details": {
+          "reasoning_tokens": 536
+        },
+        "total_tokens": 6465,
+        "x_details": [
+          {
+            "input_tokens": 5853,
+            "output_tokens": 612,
+            "output_tokens_details": {
+              "reasoning_tokens": 536
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6465,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U05",
+      "role": "client",
+      "text": "其实……我也说不上来音频里到底会是什么，可能比我想的更平常，也可能就是一开口就乱。周屿那句话最让我不舒服的，是他没说“你做得不好”，可我反而更没处反驳，像是一拳打在棉花上。同门说我紧张的时候，我还在想是不是自己笑得太快了，显得更心虚。",
+      "request_sha256": "d2c37843b3d90edd2f23eb4943ce6bfa048ddf9bd5d3ac24d08a21fe064acf43",
+      "usage": {
+        "input_tokens": 6763,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 379,
+        "output_tokens_details": {
+          "reasoning_tokens": 306
+        },
+        "total_tokens": 7142,
+        "x_details": [
+          {
+            "input_tokens": 6763,
+            "output_tokens": 379,
+            "output_tokens_details": {
+              "reasoning_tokens": 306
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7142,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U06",
+      "role": "counselor",
+      "text": "周屿那句没说你不好，反而让你找不到可以反驳或确定自己的落脚点，像一拳打在棉花上；连笑得太快都要回头检查，好像你一直在从别人的反应里确认自己有没有露馅。",
+      "request_sha256": "86e20a17929de55743763d86d721aa4886d36c2d9349d3f7c231b6899eeaa7f8",
+      "usage": {
+        "input_tokens": 6047,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 420,
+        "output_tokens_details": {
+          "reasoning_tokens": 374
+        },
+        "total_tokens": 6467,
+        "x_details": [
+          {
+            "input_tokens": 6047,
+            "output_tokens": 420,
+            "output_tokens_details": {
+              "reasoning_tokens": 374
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6467,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U07",
+      "role": "client",
+      "text": "其实我昨晚又试着去点那个音频，手指在播放键上停了好一会儿，最后还是没按下去，光听到开头自己的声音就慌得不行。我好像一直在从别人那里对答案，想确认自己到底是不是真的不行，可他们越说，我越不知道该怎么站稳。",
+      "request_sha256": "da8f80c1fc7c87d414eb898b879611d5a5a67ccdaef9ab8eefa7db9fc80aa223",
+      "usage": {
+        "input_tokens": 6927,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 745,
+        "output_tokens_details": {
+          "reasoning_tokens": 682
+        },
+        "total_tokens": 7672,
+        "x_details": [
+          {
+            "input_tokens": 6927,
+            "output_tokens": 745,
+            "output_tokens_details": {
+              "reasoning_tokens": 682
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7672,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U08",
+      "role": "counselor",
+      "text": "手指停在播放键上的那一下，好像是你既想从自己的声音里听到一个确定答案，又怕那个答案一旦出来，你就更不知道该怎么站住。你从别人那里对答案，却越对越晃，也许是因为那些反应都在替你说“你很紧张”，而不是帮你稳住“你其实也在努力撑过去”。",
+      "request_sha256": "5a4639187d5c87cd5d61088734b434050535a4f08fba3ece2c0ff82cd7081d0b",
+      "usage": {
+        "input_tokens": 6201,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 381,
+        "output_tokens_details": {
+          "reasoning_tokens": 310
+        },
+        "total_tokens": 6582,
+        "x_details": [
+          {
+            "input_tokens": 6201,
+            "output_tokens": 381,
+            "output_tokens_details": {
+              "reasoning_tokens": 310
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6582,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U09",
+      "role": "client",
+      "text": "其实……你这么说我有点被看穿的感觉，好像我确实一直在拿别人的反应当镜子照自己。可那面镜子照出来的都是“你紧张”“你不擅长”，越照越模糊，我都快不知道自己原本是什么样了。",
+      "request_sha256": "cc6a0cb011d4f484955aa77bde3bb42403fc83ac76bdd4ce0f03b41971543747",
+      "usage": {
+        "input_tokens": 7106,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 455,
+        "output_tokens_details": {
+          "reasoning_tokens": 404
+        },
+        "total_tokens": 7561,
+        "x_details": [
+          {
+            "input_tokens": 7106,
+            "output_tokens": 455,
+            "output_tokens_details": {
+              "reasoning_tokens": 404
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7561,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U10",
+      "role": "counselor",
+      "text": "被看穿的感觉也许不那么舒服，但也说明你开始注意到那面“镜子”本身——它照出来的未必是完整的你，而是别人眼里最容易看到的那一角。当很多次照出来的都只是“紧张”“不擅长”时，你会越来越难想起镜子之外自己原本的样子，这本身就很让人慌。",
+      "request_sha256": "a6c2ba0232f2e34c0843c5bf6fa4a6d82e09a9f6c3b5e80d73af9b517b487ad0",
+      "usage": {
+        "input_tokens": 6368,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 262,
+        "output_tokens_details": {
+          "reasoning_tokens": 194
+        },
+        "total_tokens": 6630,
+        "x_details": [
+          {
+            "input_tokens": 6368,
+            "output_tokens": 262,
+            "output_tokens_details": {
+              "reasoning_tokens": 194
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6630,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U11",
+      "role": "client",
+      "text": "其实我有时候会想，是不是我太依赖“照镜子”了，才会越照越慌。可要是没人给我一点反应，我又会怀疑自己是不是已经糟到别人都懒得说了。今天说到这里，我好像稍微能感觉到，我一直想从别人那里要一个“你其实可以”的答案，可是越想要，越觉得自己没有。",
+      "request_sha256": "8d3f13a475217781896392c462e883edd4e71f6c17aacdba1e3eb5e3379b7fb0",
+      "usage": {
+        "input_tokens": 7277,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 167,
+        "output_tokens_details": {
+          "reasoning_tokens": 92
+        },
+        "total_tokens": 7444,
+        "x_details": [
+          {
+            "input_tokens": 7277,
+            "output_tokens": 167,
+            "output_tokens_details": {
+              "reasoning_tokens": 92
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7444,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U12",
+      "role": "counselor",
+      "text": "听起来，你既怕照镜子照出一个撑不住的自己，又怕没人再给你反应、连那点确定感都消失。今天能说出“越想要越觉得自己没有”，好像是你开始不急着从别人那里要答案，而是先看见这个“要”本身了。我们就先停在这里，不急着把话补完。",
+      "request_sha256": "958456dcb6ccf64c1a3661396b1b16d7c14565f9a984f94414f08f49c324c7db",
+      "usage": {
+        "input_tokens": 6563,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 698,
+        "output_tokens_details": {
+          "reasoning_tokens": 626
+        },
+        "total_tokens": 7261,
+        "x_details": [
+          {
+            "input_tokens": 6563,
+            "output_tokens": 698,
+            "output_tokens_details": {
+              "reasoning_tokens": 626
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7261,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U13",
+      "role": "client",
+      "text": "其实……我刚刚听到“不急着把话补完”，又有点慌，好像每次停下来我都会担心自己是不是又在逃。不过今天说到“越想要越觉得自己没有”，我反而觉得稍微能喘口气。可能我回去还是不会点那个音频，但至少现在不那么想逼自己了。",
+      "request_sha256": "ee83601dde2dd9813674f7e77aed40c5d52bc03e832a4dac634cd321ba4ac9d4",
+      "usage": {
+        "input_tokens": 7469,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 522,
+        "output_tokens_details": {
+          "reasoning_tokens": 458
+        },
+        "total_tokens": 7991,
+        "x_details": [
+          {
+            "input_tokens": 7469,
+            "output_tokens": 522,
+            "output_tokens_details": {
+              "reasoning_tokens": 458
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7991,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U14",
+      "role": "counselor",
+      "text": "好像“停在这里”本身也会触发你熟悉的“我在逃”的警报，但同时你又能感觉到一点松下来的空间。也许今天不需要把这两件事对立起来，慌和喘口气都可以先一起待着。",
+      "request_sha256": "5c0b516a31f3f9d33a17f4694fb91ce53c661f1fc95dbfb092b35d2f1817a7f9",
+      "usage": {
+        "input_tokens": 6744,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 253,
+        "output_tokens_details": {
+          "reasoning_tokens": 207
+        },
+        "total_tokens": 6997,
+        "x_details": [
+          {
+            "input_tokens": 6744,
+            "output_tokens": 253,
+            "output_tokens_details": {
+              "reasoning_tokens": 207
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6997,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U15",
+      "role": "client",
+      "text": "其实……我好像也在慢慢学着，不把停下来当作逃。回去可能还是不会去点那个音频，但至少今天知道我不是非得把每件事都马上弄清楚。",
+      "request_sha256": "e9d3e4e1a441a8061593949cd825ddd8a8ddb01565c74ce049c01b89841675c4",
+      "usage": {
+        "input_tokens": 7624,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 585,
+        "output_tokens_details": {
+          "reasoning_tokens": 548
+        },
+        "total_tokens": 8209,
+        "x_details": [
+          {
+            "input_tokens": 7624,
+            "output_tokens": 585,
+            "output_tokens_details": {
+              "reasoning_tokens": 548
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8209,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S05-U16",
+      "role": "counselor",
+      "text": "你能说出“不是非得把每件事都马上弄清楚”，这本身已经不是一句让自己逃开的话，而是在学着给那个很想逼自己的你留一点余地。不点开音频，也可以只是现在还没准备好，而不是在逃。我们就带着这个认识停在这里，不急着让它变成更多东西。",
+      "request_sha256": "e8b6237843fa6196c915cf75fb89954b3f021a822cf3f3e725034cae6056f7a8",
+      "usage": {
+        "input_tokens": 6872,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 321,
+        "output_tokens_details": {
+          "reasoning_tokens": 258
+        },
+        "total_tokens": 7193,
+        "x_details": [
+          {
+            "input_tokens": 6872,
+            "output_tokens": 321,
+            "output_tokens_details": {
+              "reasoning_tokens": 258
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7193,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

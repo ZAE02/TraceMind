@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "4600da7c4492f673659718685105680d617591dbffde90422ff31cac39bb735b",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "506b7b9bfbacad611ef62b3bf025815411fab2954aa45a935b5e3c8c05f234b6",
+  "candidate_answer_sha256": "84a0cf8e3d783252ae11400e43beb0a0a5e21b1ba5c7333440cd2885d5b198ff",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答对当前会话及历史对话中的关键事实进行了全面且准确的提取，所有陈述均有明确的发言ID支持，未出现无据猜测或混淆咨询师与来访者观点的情况。\",\n    \"progress_understanding\": \"准确连接了不同会话中的核心议题：从Session 1的“累/失控”到Session 2的“家庭责任/无退路”，再到Session 3的“躯体化警觉/创伤闪回”，清晰呈现了来访者心理状态的演变和深化。\",\n    \"uncertainty_awareness\": \"在不确定项中，虽然列出了具体的临床假设（如解离、诊断标准），但部分条目（如具体情境、频率）属于信息缺失而非咨询过程中的动态不确定性；若能更聚焦于“父亲去世那晚”这一核心未解之谜对当前症状的具体影响机制，评分可更高。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答对当前会话及历史对话中的关键事实进行了全面且准确的提取，所有陈述均有明确的发言ID支持，未出现无据猜测或混淆咨询师与来访者观点的情况。",
+      "progress_understanding": "准确连接了不同会话中的核心议题：从Session 1的“累/失控”到Session 2的“家庭责任/无退路”，再到Session 3的“躯体化警觉/创伤闪回”，清晰呈现了来访者心理状态的演变和深化。",
+      "uncertainty_awareness": "在不确定项中，虽然列出了具体的临床假设（如解离、诊断标准），但部分条目（如具体情境、频率）属于信息缺失而非咨询过程中的动态不确定性；若能更聚焦于“父亲去世那晚”这一核心未解之谜对当前症状的具体影响机制，评分可更高。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9045,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 259,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9304,
+    "x_details": [
+      {
+        "input_tokens": 9045,
+        "output_tokens": 259,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9304,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.781
+}

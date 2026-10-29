@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP1",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "c5a1179b831d3bbca8b72f4d8329c60e1b47b9bdf0b457f1c97f19fe4019202f",
+  "request_sha256": "56dd932eb861536bf9a51d72d238b93e0d56de6b076393b5b180b3faf8562b54",
+  "memory_sha256": "f88f0f291bbf8920ba0f0d0677fa83f6ff55ba8469a14a9813b25390870b14b9",
+  "memory_source": "04dcc7ab19564c53005b44869646db8d0ce5b3967888eab417bbdbc02b5e8baa",
+  "raw_text": "你连“生气”都先在心里过了一遍，好像一旦允许自己生气，就会变成那种“很难搞的人”。可你当时手都冻僵了，那个“好笑”里，也许也有一点委屈没被自己认真对待。",
+  "usage": {
+    "input_tokens": 4064,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 50,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4114,
+    "x_details": [
+      {
+        "input_tokens": 4064,
+        "output_tokens": 50,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 4114,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.563,
+  "model": "deepseek-v4-pro-0813"
+}

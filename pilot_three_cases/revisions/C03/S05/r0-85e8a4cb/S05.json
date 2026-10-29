@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 5,
+  "relative_week": 5,
+  "status": "generating",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T11:56:53.546436+00:00",
+  "config_hash": "f1117de6ab43a77f4af4da67031ebb39c324b3697f907a3317ac3ef16b01ebd3",
+  "prompt_version": "pilot-v5-unsent-candidate-expression-gate",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v5-unsent-candidate-expression-gate",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "generation_revision": "C03-S05-r1"
+  },
+  "utterances": [
+    {
+      "id": "C03-S05-U01",
+      "role": "client",
+      "text": "这周有个跨服务的问题，自己排查了大概半天，然后直接去找陆工确认了一种实现方式。他回得挺短的，就几句，但说得挺具体，我照着改了一下就通了。\n\n……就是找陆工那次，跟找老韩不太一样，但具体哪里不一样我还没太想清楚。",
+      "call_id": "7aa01965648946cebb543933353b3598",
+      "response_id": "resp_b46a4eb8-46ad-9a3a-bf3b-1d61d079d0fc",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:57:05.115756+00:00"
+    },
+    {
+      "id": "C03-S05-U02",
+      "role": "counselor",
+      "text": "回得短但具体，照着就通了——那个不一样，是去找他的时候就感觉到了，还是他回完之后你才意识到的？",
+      "call_id": "0ff3a6f1c6ba40309fb0418e777d9280",
+      "response_id": "resp_d2750bbc-8cad-9c7f-90c3-f598ac5fbf35",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:57:34.267269+00:00"
+    },
+    {
+      "id": "C03-S05-U03",
+      "role": "client",
+      "text": "应该是回完之后才意识到的吧。去的时候其实还是……斟酌了一下怎么问，就是先说了我查了大概什么情况，然后问那种方式是不是对的。\n\n他回得短，也没多解释，就几句，我照着改了就通了。当时没觉得什么，就是……后来想起来，好像也没那么……紧张。跟找老韩的时候不太一样，但具体哪里不一样，我还没太想清楚。",
+      "call_id": "0121446080e94e39a99e61e307eb74fd",
+      "response_id": "resp_91969a74-d0bd-9de9-81ae-ccf9b07bef95",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:57:43.368416+00:00"
+    },
+    {
+      "id": "C03-S05-U04",
+      "role": "counselor",
+      "text": "去的时候还是斟酌了一下，但回来之后没那么紧。你觉得这个松，更多是他回得短、没多解释，还是你问的那个东西本身就比较确定，就是去确认一下就行？",
+      "call_id": "94e2f5f445064b9288a1fd84f40cbbfc",
+      "response_id": "resp_7efdb5ed-fe0d-9fd3-b560-29a9bbd3d00a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:58:06.261855+00:00"
+    },
+    {
+      "id": "C03-S05-U05",
+      "role": "client",
+      "text": "应该是问题本身比较确定吧。去之前其实心里大概有数了，就是不确定那种写法是不是对的，所以去确认一下，不是去\"帮我看看\"。\n\n……不过陆工回得短这个，好像也有点关系。就是没多解释，也没多问，就几句，改完就完了，没什么……额外的东西。",
+      "call_id": "940e58f3b903415296f139ca182f5aee",
+      "response_id": "resp_a3ef26c5-c5da-90fa-aa7d-325ecddda1ce",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:58:15.131520+00:00"
+    },
+    {
+      "id": "C03-S05-U06",
+      "role": "counselor",
+      "text": "回得短，改完就完了，那个事就在那儿结束了，没有多出来的东西要接着处理。你找老韩的时候，会不会有时候他多聊两句，那个事就没那么干脆地收掉？",
+      "call_id": "9af3910aba044abbb62fa2171c8e916b",
+      "response_id": "resp_eaf34a8c-8bbd-92ac-96fd-e7f971446532",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:58:34.741579+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T11:58:34.741579+00:00"
+}

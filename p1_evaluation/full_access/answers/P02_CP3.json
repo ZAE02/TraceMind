@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P02_CP3",
+  "raw_text": "你反复点开那句“想少一点晚班”，越看越觉得语气太冲，好像连已经发出去的话，都还在心里被自己重新审一遍。也许真正让你睡不着的，不只是排班，而是那个“为自己开口”的自己，事后总被你看得太紧、太苛刻。",
+  "request_sha256": "fd8658b79042ce39f83ff8f0718b697897cfa86ef4281595b165a71b5887a041",
+  "input_sha256": "9f245fdb17f16c72aea917f71621c47da3e67cb93a6615c27c6f17a806be2e67",
+  "memory_sha256": "b25a74132d2549e8bbb5a94f10c0ffdb81871e4a9bd329b48ee81923447b61f9",
+  "usage": {
+    "input_tokens": 9365,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 65,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9430,
+    "x_details": [
+      {
+        "input_tokens": 9365,
+        "output_tokens": 65,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 9430,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.594
+}

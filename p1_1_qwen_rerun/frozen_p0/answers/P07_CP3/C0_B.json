@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "dcc8b1044055d0ecf2d0082684b3383c930f4013e5f7ce4ea973ea1a9cc3b0a7",
+  "request_sha256": "00daa1262592a6950592c00c24f676edbb551aed2405a31971d706a95121f9a2",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“连走开的力气都得提前攒”的预支感，听起来像是你一直在为可能到来的社交消耗做防御。既然周姐的语音还没点开，也许我们可以先停在这里，看看此刻不回应、不去想下一关，对你来说意味着什么。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 966,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 56,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1022,
+    "x_details": [
+      {
+        "input_tokens": 966,
+        "output_tokens": 56,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1022,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

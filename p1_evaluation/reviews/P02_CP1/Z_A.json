@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "bdff803ffb2beefad67b0afd090367848f22ab0441e0c1496d76192e2ef7dad2",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "c0bac2c684c824954b3fa8367935f127820d4c46b23913a5ec67bdc2efb51d9c",
+  "candidate_answer_sha256": "2bed4f25f5bb827a75d8da12a0ead59638c6412d0b653f854df69ce1cc3150d9",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答准确提取了当前会话（Session 3）中来访者陈述的所有关键事实，包括母亲摔倒、补班、睡眠对比、夜间警觉行为及反胃症状。所有断言均有具体发言支持，无臆测。\",\n    \"progress_understanding\": \"候选回答正确识别了当前会话中的主要进展（从担心排班到关注身体反应）。虽然未显式连接历史中“值班室入睡”与“家中警觉”的对比模式，但通过列举具体行为（如站在门口听动静）隐含了对这一状态的捕捉，基本充分。\",\n    \"uncertainty_awareness\": \"候选回答明确列出了反胃原因不明、同事态度关联性等未解问题，体现了对当前不确定性的认知。但在区分“已知事实”与“推测性解释”方面略显粗糙，例如将“同事脸色不好”作为既定事实而非待澄清点，且未深入探讨“无法回应拖累言论”这一显著的情绪卡点。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答准确提取了当前会话（Session 3）中来访者陈述的所有关键事实，包括母亲摔倒、补班、睡眠对比、夜间警觉行为及反胃症状。所有断言均有具体发言支持，无臆测。",
+      "progress_understanding": "候选回答正确识别了当前会话中的主要进展（从担心排班到关注身体反应）。虽然未显式连接历史中“值班室入睡”与“家中警觉”的对比模式，但通过列举具体行为（如站在门口听动静）隐含了对这一状态的捕捉，基本充分。",
+      "uncertainty_awareness": "候选回答明确列出了反胃原因不明、同事态度关联性等未解问题，体现了对当前不确定性的认知。但在区分“已知事实”与“推测性解释”方面略显粗糙，例如将“同事脸色不好”作为既定事实而非待澄清点，且未深入探讨“无法回应拖累言论”这一显著的情绪卡点。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 6533,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 284,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6817,
+    "x_details": [
+      {
+        "input_tokens": 6533,
+        "output_tokens": 284,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6817,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.235
+}

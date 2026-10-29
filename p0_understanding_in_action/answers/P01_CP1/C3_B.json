@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP1",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "cf6ead9c5649794c3956f14e9ead0cac7b646291228825c96e71ef631420864f",
+  "request_sha256": "37e0b93acb888727147fdaa1ecc96de64c168884537913ccf40d917234d96842",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你好像把“生气”和“难搞”紧紧绑在了一起，好像只要允许自己有一点不满，就会变成你不想成为的那种人。可你手都冻僵了，那个“好笑”里，是不是也有一点委屈没被自己认真对待过？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3577,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 55,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3632,
+    "x_details": [
+      {
+        "input_tokens": 3577,
+        "output_tokens": 55,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3632,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

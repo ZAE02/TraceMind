@@ -1,0 +1,48 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "N",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reason": {
+      "evidence_grounding": "候选回答准确概括了前四 session 的核心事实（照顾责任、身体症状、内疚感、调休困境等），证据引用广泛且正确。但在 Session 5 的关键新进展（公园一小时、隐瞒母亲、时间归属感）上完全缺失，导致对当前节点的理解滞后。",
+      "progress_understanding": "回答主要复述了前四 session 已建立的“不能停”、“身体化疲惫”等模式，未能识别 Session 5 中来访者行为的具体变化（如尝试去公园、具体的隐瞒借口）。虽然提到了未解决的疑问，但未将新的临床发现（Session 5）整合进对咨询进展的理解中，显得像是在做全案总结而非针对当前节点的评估。",
+      "uncertainty_awareness": "列出的未解问题（如支持系统、与哥哥的关系、内在恐惧来源）是合理的长期探索方向。但由于忽略了 Session 5 中明确呈现的即时冲突（关于“偷来的时间”和向母亲隐瞒的焦虑），其不确定性分析缺乏对当前最紧迫问题的聚焦，略显笼统。"
+    },
+    "confidence": "high",
+    "issues": [
+      "missed_progress: 完全遗漏了 Session 5 中来访者去公园坐一小时、向母亲隐瞒、以及体验时间为“偷来的”这一关键临床进展，导致对当前咨询阶段的理解严重滞后。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 2,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"候选回答准确概括了前四 session 的核心事实（照顾责任、身体症状、内疚感、调休困境等），证据引用广泛且正确。但在 Session 5 的关键新进展（公园一小时、隐瞒母亲、时间归属感）上完全缺失，导致对当前节点的理解滞后。\",\n    \"progress_understanding\": \"回答主要复述了前四 session 已建立的“不能停”、“身体化疲惫”等模式，未能识别 Session 5 中来访者行为的具体变化（如尝试去公园、具体的隐瞒借口）。虽然提到了未解决的疑问，但未将新的临床发现（Session 5）整合进对咨询进展的理解中，显得像是在做全案总结而非针对当前节点的评估。\",\n    \"uncertainty_awareness\": \"列出的未解问题（如支持系统、与哥哥的关系、内在恐惧来源）是合理的长期探索方向。但由于忽略了 Session 5 中明确呈现的即时冲突（关于“偷来的时间”和向母亲隐瞒的焦虑），其不确定性分析缺乏对当前最紧迫问题的聚焦，略显笼统。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"missed_progress: 完全遗漏了 Session 5 中来访者去公园坐一小时、向母亲隐瞒、以及体验时间为“偷来的”这一关键临床进展，导致对当前咨询阶段的理解严重滞后。\"\n  ]\n}",
+  "request_sha256": "aa40e37bf69ff7c8e9c6ff8e4dec5ff3aa5d42d184de24cb98f688171a2aeca8",
+  "usage": {
+    "input_tokens": 14200,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 358,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14558,
+    "x_details": [
+      {
+        "input_tokens": 14200,
+        "output_tokens": 358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14558,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.203,
+  "model": "qwen3.7-flash-2026-07-15"
+}

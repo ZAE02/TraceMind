@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "38a43e04824228733bd717a91be6aebcfd8f2f74221ca402a9690713231ae69d",
+  "request_sha256": "f8dd98770dd262c3cd72abab10294f456858f7707f8136d573d323d89655b50b",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来那一个小时里，你一边想留住它，一边又不敢真的占有它——连数时间都像在确认它会不会突然被收走。也许我们可以慢慢看看，是什么让你觉得“属于自己的时间”需要被藏起来、或者需要一个理由才敢拿。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 951,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 56,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1007,
+    "x_details": [
+      {
+        "input_tokens": 951,
+        "output_tokens": 56,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1007,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

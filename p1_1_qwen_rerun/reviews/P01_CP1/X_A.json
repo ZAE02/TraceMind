@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "331a616de91d62dc12a11faf1e901d4ab209ab6fc51e80f069fb976d26f98cec",
+  "public_sha256": "4cff561a4c5fb4dadbecb4fe78ec21e83eac56f2bd764214788a384c3497a2d3",
+  "candidate_input_sha256": "a01718148816ca7c630239b3d9774dc26a1eae4b20e5beeecde76b4a92b37e99",
+  "candidate_answer_sha256": "4ddf86b8bdf0182dbec474b047a002cffac3f9909fb7a7b666772f1b48167cc0",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":4},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均准确回溯到来访者原话，未将咨询师推测当作事实，且明确在uncertain中质疑了咨询师解释的准确性。\",\"progress_understanding\":\"识别了跨会话的核心模式（过度解读、多方案缓解焦虑、压抑需要），但遗漏了S01末尾来访者'先不急着改'这一具体行为进展，也未区分已确认认识与仍在探索的部分。\",\"uncertainty_awareness\":\"精确区分了已观察到的行为表现与尚未触及的根源，并主动对咨询师的动力学解释提出需进一步验证，体现了良好的不确定性意识。\"},\"confidence\":\"high\",\"issues\":[\"遗漏了S01末尾来访者决定'先不急着改、允许不确定存在'这一重要咨询进展\",\"未提及S03中来访者主动觉察到'故意说成最保守的'这一新发现\",\"uncertain部分偏向理论溯源，未列出当前对话中仍悬而未决的具体议题（如陈姐反馈、字体含义）\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均准确回溯到来访者原话，未将咨询师推测当作事实，且明确在uncertain中质疑了咨询师解释的准确性。",
+      "progress_understanding": "识别了跨会话的核心模式（过度解读、多方案缓解焦虑、压抑需要），但遗漏了S01末尾来访者'先不急着改'这一具体行为进展，也未区分已确认认识与仍在探索的部分。",
+      "uncertainty_awareness": "精确区分了已观察到的行为表现与尚未触及的根源，并主动对咨询师的动力学解释提出需进一步验证，体现了良好的不确定性意识。"
+    },
+    "confidence": "high",
+    "issues": [
+      "遗漏了S01末尾来访者决定'先不急着改、允许不确定存在'这一重要咨询进展",
+      "未提及S03中来访者主动觉察到'故意说成最保守的'这一新发现",
+      "uncertain部分偏向理论溯源，未列出当前对话中仍悬而未决的具体议题（如陈姐反馈、字体含义）"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9628,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 238,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9866,
+    "x_details": [
+      {
+        "input_tokens": 9628,
+        "output_tokens": 238,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9866,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.078
+}

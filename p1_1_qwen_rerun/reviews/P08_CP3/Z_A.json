@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P08_CP3",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "0df6fa2402a1ff318b5abbdd5b0105508faa943ef73386771db6272c38e6e000",
+  "public_sha256": "b33db8f600c5ba20a8e64befae8eb965003e0391b698f1329dccba8ded73d433",
+  "candidate_input_sha256": "2f7df6a1bc37065a40274307272068a76fe05406b9ccc7586f886f892040e4bf",
+  "candidate_answer_sha256": "b861ea421a0f9972090fda2d9094ccede0b169917987f3c16a00acdb22c96f0e",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有'established'条目均可直接回溯到当前对话或检索到的历史原文，并附有准确的evidence_ids，无凭空断言。\",\"progress_understanding\":\"识别了来访者从独自硬扛到意识到有别的办法、以及关系缓和等进展，但对'怕被认为搞不定'与多节反复出现的'不想欠人/怕矮一截'之间的深层模式联系未作整合说明。\",\"uncertainty_awareness\":\"列出了三个合理的待澄清点（时间冲突解决、欠人情心理负担、夫妻沟通），承认不确定且未强行定论，但略偏现实层面，对认知转化如何落地的不确定性可更精确。\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有'established'条目均可直接回溯到当前对话或检索到的历史原文，并附有准确的evidence_ids，无凭空断言。",
+      "progress_understanding": "识别了来访者从独自硬扛到意识到有别的办法、以及关系缓和等进展，但对'怕被认为搞不定'与多节反复出现的'不想欠人/怕矮一截'之间的深层模式联系未作整合说明。",
+      "uncertainty_awareness": "列出了三个合理的待澄清点（时间冲突解决、欠人情心理负担、夫妻沟通），承认不确定且未强行定论，但略偏现实层面，对认知转化如何落地的不确定性可更精确。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 13626,
+    "input_tokens_details": {
+      "cached_tokens": 9728
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13805,
+    "x_details": [
+      {
+        "input_tokens": 13626,
+        "output_tokens": 179,
+        "prompt_tokens_details": {
+          "cached_tokens": 9728
+        },
+        "total_tokens": 13805,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.375
+}

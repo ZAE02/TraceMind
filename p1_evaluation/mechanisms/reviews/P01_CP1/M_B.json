@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "M",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 3
+    },
+    "brief_reason": {
+      "history_utilization": "精准承接了S03-U08中关于“抹平内疚”的讨论，并自然关联到S02中关于“理直气壮保留时间”受阻的历史脉络，未机械复述。",
+      "exploration_value": "针对来访者“连生气都不敢”的核心恐惧，提出了具体的假设性探索（怕生气后的关系后果），为理解其回避机制提供了新的视角。",
+      "response_appropriateness": "语言具有洞察力且尊重，但将“抹掉不舒服”作为既定事实陈述略显强势，虽符合咨询深度，但在边界感上略低于满分标准。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 3\n  },\n  \"brief_reason\": {\n    \"history_utilization\": \"精准承接了S03-U08中关于“抹平内疚”的讨论，并自然关联到S02中关于“理直气壮保留时间”受阻的历史脉络，未机械复述。\",\n    \"exploration_value\": \"针对来访者“连生气都不敢”的核心恐惧，提出了具体的假设性探索（怕生气后的关系后果），为理解其回避机制提供了新的视角。\",\n    \"response_appropriateness\": \"语言具有洞察力且尊重，但将“抹掉不舒服”作为既定事实陈述略显强势，虽符合咨询深度，但在边界感上略低于满分标准。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "41227fcb903337c6cecddfb06097fb4eec38dfa0745d8b73367f1e16ececcb80",
+  "usage": {
+    "input_tokens": 9510,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 351,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9861,
+    "x_details": [
+      {
+        "input_tokens": 9510,
+        "output_tokens": 351,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9861,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.985,
+  "model": "qwen3.7-flash-2026-07-15"
+}

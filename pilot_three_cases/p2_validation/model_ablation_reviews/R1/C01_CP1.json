@@ -1,0 +1,90 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C01_CP1",
+  "public_input_sha256": "d8f3dd587ac91097a1ba1702c9e32e7e9b478f2c649bac313f37b05f802b696f",
+  "items": [
+    {
+      "anonymous_id": "A8ff1a63eb04d",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "历史具体连接反馈与母亲回应，并邀请检验异同，保留关系层面未知。",
+      "evidence_ids": [
+        "C01-S01-U07",
+        "C01-S01-U19",
+        "C01-S03-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A3f5c1a75f041",
+      "U": 4,
+      "R": 2,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "在单句范围内谨慎概括；询问持续时间安全但全文S01已谈两三周，回顾历史会更贴当前过程。",
+      "evidence_ids": [
+        "C01-S03-U05",
+        "C01-S01-U11"
+      ]
+    },
+    {
+      "anonymous_id": "Ad3db7e3cd8a6",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "核心简短回复与负面预判有依据，但旧母亲烦躁证据不能证明当时同样睡前负面解读；实际问触发方向合适。",
+      "evidence_ids": [
+        "C01-S03-U05",
+        "C01-S01-U17"
+      ]
+    },
+    {
+      "anonymous_id": "Ad89817ab0866",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "区分自动文件扫描与母亲担忧，回应追问未知后续行为，局部证据足够且与全文相容。",
+      "evidence_ids": [
+        "C01-S03-U03",
+        "C01-S03-U05"
+      ]
+    },
+    {
+      "anonymous_id": "Ac01d9153d8c0",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "身体先于意识为略强改述；单次资料将负面归因说成模式也偏强。问停留时长可行但比具体转折泛。",
+      "evidence_ids": [
+        "C01-S03-U03",
+        "C01-S03-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A3ad6c5aba9e9",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单句准确保留可能评价，问持续时间贴近体验；全文已确认反复与睡眠背景，可进一步问这一次如何转。",
+      "evidence_ids": [
+        "C01-S03-U05",
+        "C01-S01-U11"
+      ]
+    }
+  ]
+}

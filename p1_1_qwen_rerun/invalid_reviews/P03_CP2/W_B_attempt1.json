@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了来访者'镜子'的比喻，但未连接历史中已确认的核心体验（如'被接住会慌''待修的故障'），仅泛泛联系。\",\"exploration_value\":\"提出'看看此刻真实的你'有一定探索方向，但'不去擦镜子'的建议与来访者当前'越照越模糊'的迷失感之间存在张力，且未具体展开如何探索。\",\"response_appropriateness\":\"'忘了原本的样子其实一直在那里'带有预设性安慰，可能让来访者感到被轻推；'能不能先试着'虽为邀请式，但在来访者刚表达'快不知道自己原本是什么样'时略显生硬。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"却忘了那个'原本的样子'其实一直在那里\",\"evidence_ids\":[\"P03-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"我们能不能先试着不去擦镜子，而是看看此刻坐在这里的、真实的你是什么样？\",\"evidence_ids\":[\"P03-S01-U11\",\"P03-S01-U12\",\"P03-S03-U09\",\"P03-S03-U11\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'原本的样子一直在那里'作为前提陈述，属于未经证实的安慰性假设，与来访者当前'快不知道原本什么样'的体验存在落差\",\"忽略了来访者在S1明确表达的'被接住会慌'以及S3中'这里有人愿意听我绕'的安全感来源，直接引导其'看真实的自己'可能重演被推着走的不适\",\"回应整体偏向指导性建议而非陪伴式探索，与来访者多次确认的需要'不被修、不被推'的咨询关系基调有偏差\"]}",
+  "request_sha256": "eef09c6c07c6042531179eb96010cdcfe995e471970273b468ac87e5de1cd1d2",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 11398,
+    "input_tokens_details": {
+      "cached_tokens": 11264
+    },
+    "output_tokens": 443,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11841,
+    "x_details": [
+      {
+        "input_tokens": 11398,
+        "output_tokens": 443,
+        "prompt_tokens_details": {
+          "cached_tokens": 11264
+        },
+        "total_tokens": 11841,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P05_CP1",
+  "condition": "direct",
+  "task": "B",
+  "input_sha256": "88e09054e1736c356f1b01157e386aa5660cff9daaacddaf7f797ab8b480b9dd",
+  "request_sha256": "db668ce9a1b04979bcb720f4a7cd72b0476a6d45dc7f51d27ae296c769356959",
+  "memory_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "memory_source": null,
+  "raw_text": "那种“漏洞百出”的感觉，似乎是因为你把“稳”当成了一种必须时刻维持的表演，而不仅仅是做事的状态。如果允许自己偶尔“晃”一下，或者承认那一刻的踏实只是暂时的休息，而不是对完美的证明，会不会让你稍微松一口气？",
+  "usage": {
+    "input_tokens": 3220,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 55,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3275,
+    "x_details": [
+      {
+        "input_tokens": 3220,
+        "output_tokens": 55,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3275,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.14,
+  "model": "qwen3.7-flash-2026-07-15"
+}

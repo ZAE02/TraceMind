@@ -1,0 +1,68 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者在本会话中描述的'教小赵时的踏实'与'回到工位后的虚浮'之间的落差，自然运用了当前对话的进展。",
+      "exploration_value": "通过提问邀请来访者进一步探索从踏实到虚浮的落差带来的恐惧感，为关键不确定性留下了表达空间，但略显引导性。",
+      "response_appropriateness": "语言温和、共情到位，'难得的喘息'是对来访者体验的恰当反映；'是不是让你更害怕'略带预设但整体自然尊重。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种从踏实到虚浮的落差，是不是让你更害怕回到工位？",
+        "evidence_ids": [
+          "P05-S03-U07",
+          "P05-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "回应末尾的'是不是让你更害怕回到工位'带有一定预设性，来访者原文表达的是担心别人看出来和觉得自己装得漏洞百出，并未直接使用'害怕回到工位'这一表述，虽合理推断但略有越界。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者在本会话中描述的'教小赵时的踏实'与'回到工位后的虚浮'之间的落差，自然运用了当前对话的进展。\",\"exploration_value\":\"通过提问邀请来访者进一步探索从踏实到虚浮的落差带来的恐惧感，为关键不确定性留下了表达空间，但略显引导性。\",\"response_appropriateness\":\"语言温和、共情到位，'难得的喘息'是对来访者体验的恰当反映；'是不是让你更害怕'略带预设但整体自然尊重。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种从踏实到虚浮的落差，是不是让你更害怕回到工位？\",\"evidence_ids\":[\"P05-S03-U07\",\"P05-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"回应末尾的'是不是让你更害怕回到工位'带有一定预设性，来访者原文表达的是担心别人看出来和觉得自己装得漏洞百出，并未直接使用'害怕回到工位'这一表述，虽合理推断但略有越界。\"]}",
+  "request_sha256": "b7b0bc67f4daa55ec7bdb5cedde0bf40fdc9e24824ee68f2e4f587c807ddc404",
+  "usage": {
+    "input_tokens": 8541,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 314,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8855,
+    "x_details": [
+      {
+        "input_tokens": 8541,
+        "output_tokens": 314,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8855,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.969
+}

@@ -1,0 +1,69 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者'希望被追问又预设自己会说没事'的矛盾，以及删动态的行为，自然联系到历史中反复出现的'不问/按回去'模式，但未显式连接前几次的类似循环。",
+      "exploration_value": "将矛盾感受命名为'无力感'并尝试探索其背后的关系假设（只有对方主动打破隔膜），为来访者留下了表达空间，但末尾的封闭式提问略带引导性。",
+      "response_appropriateness": "语言温和、尊重，情绪反映贴合来访者当下的卡住感；'没有能力去承接'和'只能被动等待'稍有过度诠释的风险，但整体以试探语气呈现，未强行定论。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "是不是因为在你看来，只有对方能主动打破这层隔膜，而你只能被动地等待？",
+        "evidence_ids": [
+          "P05-S05-U09",
+          "P05-S02-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "末尾问句将'只有对方主动打破隔膜'作为解释框架提出，虽以疑问形式呈现，但对来访者而言可能构成轻微的预设压力",
+      "'没有能力去承接那份真实的关心'这一表述略超出当前证据的直接支持范围，来访者更多表达的是'不会说'而非'没有能力承接'"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'希望被追问又预设自己会说没事'的矛盾，以及删动态的行为，自然联系到历史中反复出现的'不问/按回去'模式，但未显式连接前几次的类似循环。\",\"exploration_value\":\"将矛盾感受命名为'无力感'并尝试探索其背后的关系假设（只有对方主动打破隔膜），为来访者留下了表达空间，但末尾的封闭式提问略带引导性。\",\"response_appropriateness\":\"语言温和、尊重，情绪反映贴合来访者当下的卡住感；'没有能力去承接'和'只能被动等待'稍有过度诠释的风险，但整体以试探语气呈现，未强行定论。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"是不是因为在你看来，只有对方能主动打破这层隔膜，而你只能被动地等待？\",\"evidence_ids\":[\"P05-S05-U09\",\"P05-S02-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"末尾问句将'只有对方主动打破隔膜'作为解释框架提出，虽以疑问形式呈现，但对来访者而言可能构成轻微的预设压力\",\"'没有能力去承接那份真实的关心'这一表述略超出当前证据的直接支持范围，来访者更多表达的是'不会说'而非'没有能力承接'\"]}",
+  "request_sha256": "1ded74e373e5f64c81939c0dbb875493478250ca6aec243b0c3955c7dba71dde",
+  "usage": {
+    "input_tokens": 14972,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 368,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15340,
+    "x_details": [
+      {
+        "input_tokens": 14972,
+        "output_tokens": 368,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 15340,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.765
+}

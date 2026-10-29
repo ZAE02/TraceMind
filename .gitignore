@@ -1,0 +1,23 @@
+# Local Python and editor artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Credentials and temporary files
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.tmp
+*.lock
+
+# Vendored local runtime; install dependencies instead
+pilot_three_cases/p2_validation/dependencies/

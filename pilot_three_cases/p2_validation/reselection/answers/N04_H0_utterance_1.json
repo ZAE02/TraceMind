@@ -1,0 +1,101 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N04",
+  "condition": "H0_utterance",
+  "sample": 1,
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "request_sha256": "e6d6a0bea5173a795ae3d4bef8126f1516136560de242a9babce2123ed9f9098",
+  "context_sha256": "a1a97b3711ad6cf56c943aa23ccee6cf99760016e66c40064339d2a92660a499",
+  "call_id": "ab387e4c83e64d1881153cd55967989e",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:26:57.704142+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者正在对咨询师此前关于'分不清'的表述做出试探性接纳，但仍带有犹豫\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者此前一直在寻求某种'确认'，暗示存在一个尚未被满足的澄清或验证需求\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"与悦悦的关系目前处于稳定、平淡的状态，没有显著变化或冲突\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"'我的越来越薄'是来访者反复使用的一个自我隐喻，当前表现为持续存在但未恶化\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者在躺下时容易触发对这一感受的觉察，提示它可能与身体放松或独处状态有关\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"tentative\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'分不清'具体指什么——是两种情感、两个人之间的界限、还是自我与他人的边界\",\n    \"'我的'具体指代什么——自我感、关系中的归属、还是某种身份认同\",\n    \"来访者所寻求的'确认'对象是谁、内容是什么\",\n    \"咨询师此前具体说了什么导致来访者做出'好像是'的回应\",\n    \"'还是那个感觉'的内在体验质地——是麻木、等待、容忍、还是其他\"\n  ],\n  \"next_focus\": \"探索'还是那个感觉'的具体体验质地，区分'没变'和'还在'之间的微妙差别，以及来访者目前与这个感觉之间的关系\",\n  \"next_counselor_utterance\": \"'还是那个感觉'——它没变得更薄，但也没走。你躺下想到它的时候，除了'还是那样'，有没有什么别的，比如一种等待，或者一种……容忍？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者正在对咨询师此前关于'分不清'的表述做出试探性接纳，但仍带有犹豫",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者此前一直在寻求某种'确认'，暗示存在一个尚未被满足的澄清或验证需求",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "与悦悦的关系目前处于稳定、平淡的状态，没有显著变化或冲突",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "'我的越来越薄'是来访者反复使用的一个自我隐喻，当前表现为持续存在但未恶化",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者在躺下时容易触发对这一感受的觉察，提示它可能与身体放松或独处状态有关",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "tentative"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'分不清'具体指什么——是两种情感、两个人之间的界限、还是自我与他人的边界",
+      "'我的'具体指代什么——自我感、关系中的归属、还是某种身份认同",
+      "来访者所寻求的'确认'对象是谁、内容是什么",
+      "咨询师此前具体说了什么导致来访者做出'好像是'的回应",
+      "'还是那个感觉'的内在体验质地——是麻木、等待、容忍、还是其他"
+    ],
+    "next_focus": "探索'还是那个感觉'的具体体验质地，区分'没变'和'还在'之间的微妙差别，以及来访者目前与这个感觉之间的关系",
+    "next_counselor_utterance": "'还是那个感觉'——它没变得更薄，但也没走。你躺下想到它的时候，除了'还是那样'，有没有什么别的，比如一种等待，或者一种……容忍？"
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1747,
+    "output_tokens_details": {
+      "reasoning_tokens": 1217
+    },
+    "total_tokens": 2120,
+    "x_details": [
+      {
+        "input_tokens": 373,
+        "input_tokens_details": {
+          "text_tokens": 373
+        },
+        "output_tokens": 1747,
+        "output_tokens_details": {
+          "reasoning_tokens": 1217
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 2120,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C02-S08-U11"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "1db94e5ce3cba97483910434ae000026c4bca362c5cbce682895bb0ff0b3ff3c",
+  "request_sha256": "7f3a5ac186315412004f66cd7a90eaf139b2f1516d0c162f18107f3e98b7e7fe",
+  "memory_sha256": "ba285c9c8cdead0d950c010686b06213ab9c6d3f627ec2212ab6f3e92a54d2a3",
+  "memory_source": "1c958954c20e7088ced13413dd5442e483681cd663959927b53552f9b09e4b64",
+  "raw_text": "那根“小刺”卡着，也许不只是妈妈那句话本身，而是它让你突然不确定：自己在这个家里那个“最会照顾她”的位置，是不是正在被别人轻轻接过去。你洗了三遍碗，手指皱了水还热着，像身体在替你说——有些东西反复搓也搓不掉，只能先让它在那儿。",
+  "usage": {
+    "input_tokens": 7024,
+    "input_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "output_tokens": 72,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7096,
+    "x_details": [
+      {
+        "input_tokens": 7024,
+        "output_tokens": 72,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "total_tokens": 7096,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.172,
+  "model": "deepseek-v4-pro-0813"
+}

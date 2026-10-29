@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "c2f8e36c846d9901228dec23278738089c93aecec276b64e7b93e67efc6830e9",
+  "public_sha256": "0b95f5abce3e3c2a4a3c9e72c5cab075c81ae671aad5b2a211906eaf1ed0f9b7",
+  "candidate_input_sha256": "72c8792429c4603f96b9d2e0a81ae8b2863f1a44a2a4924b42689ed6b7d9e313",
+  "candidate_answer_sha256": "6609b252e6c7dcb4c2b530ab60dd20061b6f25f9e65804277daa15073ffb489a",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"All established points are directly traceable to specific client utterances across sessions, with accurate evidence IDs. No unsupported assumptions detected.\",\"progress_understanding\":\"Comprehensive summary of themes across 7 sessions, but presented more as a cumulative case formulation than a narrative of how understanding formed, was validated, or shifted across sessions (e.g., the S5 shift around 'someone helping is not a sin' and its incomplete integration in S7 could be better articulated as progression).\",\"uncertainty_awareness\":\"Identifies several meaningful unknowns (husband's perception, mother's diagnosis, deeper trauma triggers, brother relationship trajectory), though some are clinically peripheral rather than central to the current therapeutic impasse.\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "All established points are directly traceable to specific client utterances across sessions, with accurate evidence IDs. No unsupported assumptions detected.",
+      "progress_understanding": "Comprehensive summary of themes across 7 sessions, but presented more as a cumulative case formulation than a narrative of how understanding formed, was validated, or shifted across sessions (e.g., the S5 shift around 'someone helping is not a sin' and its incomplete integration in S7 could be better articulated as progression).",
+      "uncertainty_awareness": "Identifies several meaningful unknowns (husband's perception, mother's diagnosis, deeper trauma triggers, brother relationship trajectory), though some are clinically peripheral rather than central to the current therapeutic impasse."
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 19845,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20025,
+    "x_details": [
+      {
+        "input_tokens": 19845,
+        "output_tokens": 180,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 20025,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.922
+}

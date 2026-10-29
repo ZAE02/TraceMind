@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP1",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "4b96b8d7e84902857fefc1683c804da5663486925836a0d371d9c9db4a8114da",
+  "request_sha256": "f2508cb515e924846afc41b5b5f41811ef9fd7ce9b8100ac639d78cb14d7228a",
+  "memory_sha256": "c5a2b967641a9ec212b56b79300e9fb5792c460fb0bff90949d445026c7a69cc",
+  "memory_source": "e355929dbf0bb60aa3fc9298c65008b8cc0efa02393ed7c63979fd99f57ee137",
+  "raw_text": "听到你决定先顾孩子，这种“堵”的感觉似乎又回到了那句没说出口的谢谢上。承认靠了别人一下，对你来说是不是意味着某种底气的丧失？",
+  "usage": {
+    "input_tokens": 3768,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 36,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3804,
+    "x_details": [
+      {
+        "input_tokens": 3768,
+        "output_tokens": 36,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3804,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.547,
+  "model": "qwen3.7-flash-2026-07-15"
+}

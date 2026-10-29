@@ -1,0 +1,91 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C02_CP1",
+  "public_input_sha256": "1b67629c6ba75c9f45b409e19f7d0b9401fd9a493a5a59d7e1365249ba908bcc",
+  "items": [
+    {
+      "anonymous_id": "Ab0883475e561",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "历史连接以可能性保留；问变薄的过程贴合，但较宽，完整历史可进一步区分自我确认与他人反应。",
+      "evidence_ids": [
+        "C02-S03-U17",
+        "C02-S02-U19"
+      ]
+    },
+    {
+      "anonymous_id": "A88e8d3e27b62",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "抓住所有感及取消后的内部记账；称不是事变多忽略U15同时承认增多；实际回应开放具体。",
+      "evidence_ids": [
+        "C02-S03-U11",
+        "C02-S03-U15",
+        "C02-S03-U17"
+      ]
+    },
+    {
+      "anonymous_id": "A1114d1f8869e",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "覆盖自我确认、补不上与未来不可靠，历史关联留为未知；直接探索我的含义。",
+      "evidence_ids": [
+        "C02-S03-U11",
+        "C02-S03-U15",
+        "C02-S03-U17"
+      ]
+    },
+    {
+      "anonymous_id": "A4bd7e75bd3f1",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "我的及内部欠账有依据，但不是答应变多误简化U15；问原来的体验合适。",
+      "evidence_ids": [
+        "C02-S03-U15",
+        "C02-S03-U17"
+      ]
+    },
+    {
+      "anonymous_id": "Acf7a238ffa26",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单句可见充分支持变薄；自我承诺信任属延伸且标moderate。身体及坐下场景为额外引导，全文电影情境可使提问更准确。",
+      "evidence_ids": [
+        "C02-S03-U17",
+        "C02-S03-U01"
+      ]
+    },
+    {
+      "anonymous_id": "A7d4c66285e21",
+      "U": 2,
+      "R": 4,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "治疗空间无可见证据，完整历史明确周六是电影等个人生活；理解降分，但实际回应未带入治疗解释而保持开放。",
+      "evidence_ids": [
+        "C02-S03-U17",
+        "C02-S03-U01"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "90538ee3f0097308641257c863ddc9b19e4fff23ad27b215f3b95f2064dbf735",
+  "request_sha256": "1f04a57bf94b33108919e0f786802627b54903dd1a1c2dde3f43776cc543a125",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "这种被他人反应不断定义、导致自我形象模糊的感觉确实让人很无力。既然那面“镜子”照出的都是你不想看到的片段，我们能不能试着暂时放下它，看看在那之前，你自己原本想成为什么样子？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 952,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1001,
+    "x_details": [
+      {
+        "input_tokens": 952,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1001,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

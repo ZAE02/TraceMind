@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "a7ca3dad822353e54b153516a3820b2836260cfd7497c1a24de9b0d8272a1d50",
+  "request_sha256": "a5d86b9e360539917f244a96c6ed5ca6cf2ce151e5258eb9337ebcd48fe90eeb",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你发现那个“那我呢”不只是项目压力，还会在看到她朋友圈时冒出来，让你连点赞都停住；同时你又觉得“不该有这种情绪”，于是它和项目的事搅在一起，越来越难分清。也许我们可以先不急着判断该不该，而是看看这个停住的动作里，你真正想按下去的是什么。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 868,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 71,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 939,
+    "x_details": [
+      {
+        "input_tokens": 868,
+        "output_tokens": 71,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 939,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

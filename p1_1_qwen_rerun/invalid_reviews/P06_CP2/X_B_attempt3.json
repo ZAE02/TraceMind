@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"回应准确承接了当前会话中来访者关于羞耻感与渴望搭把手的矛盾，但未利用检索历史中高度相关的材料（如S01-U09'希望有人替一晚'、S03-U05/U07父亲离开时的创伤记忆），仅停留在当前对话层面。\",\"exploration_value\":\"将来访者在门口站半小时的行为重新框架为寻找平衡的尝试，提出了一个开放且具反思性的问题，为来访者进一步表达留下了空间，但探索方向略显抽象。\",\"response_appropriateness\":\"语言温和、尊重，准确反映了来访者的情绪拉扯，没有武断预设或不当建议，整体贴合来访者当前的情感状态。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那种\"承认自己照顾不好\"的羞耻感，和你渴望有人搭把手、哪怕只是睡个整觉的疲惫，在你心里拉扯得很厉害。\",\"evidence_ids\":[\"P06-S01-U09\",\"P06-S03-U05\",\"P06-S03-U07\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选回应未能连接检索历史中S01-U09来访者曾表达的'希望有人替我一晚'这一高度相关的早期认识，错失了深化'渴望被分担'主题的机会。\",\"来访者提到母亲会问'你爸去哪了'（P06-S05-U09），这与S03-U05和S03-U07中揭示的父亲离开时的创伤记忆直接相关，候选回应完全未触及这一重要线索。\",\"探索性问题'试图寻找一种既能卸下重担，又不至于让自己陷入这种自我指责的平衡'虽然开放，但对来访者而言可能过于概念化，不够贴近其具体的身体和情感体验。\"]}",
+  "request_sha256": "ec55cc60215e3c455377b0d155228b4c72ed4fa7850b7876cf8566264f7aa832",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 11037,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 464,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11501,
+    "x_details": [
+      {
+        "input_tokens": 11037,
+        "output_tokens": 464,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 11501,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P04",
+  "session": 2,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P04-S02-U01",
+      "role": "client",
+      "text": "昨天我跟我弟通电话了。他一句“请个护工不就好了”，我直接把电话挂了。我是不是很过分？可他说得那么轻松，像在菜单上划掉一道菜。",
+      "request_sha256": "70d77d72b3ced9f6922d39c6473c6bf12c23801fb3efb262c6f6e8a652afd66f",
+      "usage": {
+        "input_tokens": 2026,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 376,
+        "output_tokens_details": {
+          "reasoning_tokens": 332
+        },
+        "total_tokens": 2402,
+        "x_details": [
+          {
+            "input_tokens": 2026,
+            "output_tokens": 376,
+            "output_tokens_details": {
+              "reasoning_tokens": 332
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 2402,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U02",
+      "role": "counselor",
+      "text": "你挂电话不是过分，更像是他那句“请个护工不就好了”一下戳中了你说不出口的累——护工能顶班，可“被需要”的位置没人能替你划掉。你提到他说得像划掉一道菜，是不是也让你觉得，你死死端着的这口锅，在他眼里轻得像一笔就能抹掉的成本？",
+      "request_sha256": "c3ff3c23af6f6466b2ec306ee6e34c0f8c856169d05784ad8a470ee3aa73fddc",
+      "usage": {
+        "input_tokens": 1610,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 229,
+        "output_tokens_details": {
+          "reasoning_tokens": 152
+        },
+        "total_tokens": 1839,
+        "x_details": [
+          {
+            "input_tokens": 1610,
+            "output_tokens": 229,
+            "output_tokens_details": {
+              "reasoning_tokens": 152
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1839,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U03",
+      "role": "client",
+      "text": "他越说“请个护工”，我越觉得自己像个站在后厨门口被劝“别干了”的人。我知道他是为我好，可那句话像把我妈这半年等我的样子全抹掉了。我后来一直盯着手机，想发一句“你能不能回来一个月试试”，打到一半又删了。",
+      "request_sha256": "374892fb27dbce37ef6ecb0c8de169a3e79fab8b3e95ede0d3e5741265698786",
+      "usage": {
+        "input_tokens": 2193,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 187,
+        "output_tokens_details": {
+          "reasoning_tokens": 121
+        },
+        "total_tokens": 2380,
+        "x_details": [
+          {
+            "input_tokens": 2193,
+            "output_tokens": 187,
+            "output_tokens_details": {
+              "reasoning_tokens": 121
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2380,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U04",
+      "role": "counselor",
+      "text": "你删掉的那半句“你能不能回来一个月试试”，也许比挂电话更让你难受——它更像你想让弟弟亲眼看看，护工替不了的是妈妈等你的样子，也是你连“让自己歇一下”都开不了口的处境。如果这句话现在没被删掉，你想让它替你说出什么？",
+      "request_sha256": "1f539a0c6c4333db6a9f4998863747d0e00ab13a20c947830081b75be7044586",
+      "usage": {
+        "input_tokens": 1798,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 323,
+        "output_tokens_details": {
+          "reasoning_tokens": 255
+        },
+        "total_tokens": 2121,
+        "x_details": [
+          {
+            "input_tokens": 1798,
+            "output_tokens": 323,
+            "output_tokens_details": {
+              "reasoning_tokens": 255
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2121,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U05",
+      "role": "client",
+      "text": "它想替我说，不是叫你回来端锅，是回来看看这锅到底有多烫。我一个人站灶前，锅气扑在脸上，你们都觉得我练出来了，不觉得这是在烫。",
+      "request_sha256": "d1662ac51819a08cf4191f8284793556dfcea4fe1064cbc975369f2c16a84cd7",
+      "usage": {
+        "input_tokens": 2372,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 271,
+        "output_tokens_details": {
+          "reasoning_tokens": 228
+        },
+        "total_tokens": 2643,
+        "x_details": [
+          {
+            "input_tokens": 2372,
+            "output_tokens": 271,
+            "output_tokens_details": {
+              "reasoning_tokens": 228
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2643,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U06",
+      "role": "counselor",
+      "text": "听起来，你真正想让他“回来看看”的，不是要他分担活，而是想让他知道——你站在那个灶前的能力，是用一次次被烫换来的，而这份烫只有你自己在受。当所有人都说“你练出来了”时，你的痛反而更没地方被承认了。",
+      "request_sha256": "f34a038c78a567612f6d3f0f20f267bc905efa79eba0ad4cba2ab876939175c7",
+      "usage": {
+        "input_tokens": 1954,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 235,
+        "output_tokens_details": {
+          "reasoning_tokens": 170
+        },
+        "total_tokens": 2189,
+        "x_details": [
+          {
+            "input_tokens": 1954,
+            "output_tokens": 235,
+            "output_tokens_details": {
+              "reasoning_tokens": 170
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2189,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U07",
+      "role": "client",
+      "text": "他要是回来，不用一个月，就站我们后厨门口闻一晚上那油烟混着洗洁精的味儿，他就知道为什么我听到“护工”那两个字会挂电话了。可我后来删掉那条消息，也是怕他真说“姐，我回不来”。那我还不如自己继续站着。",
+      "request_sha256": "295e451cb96fcec725bd3c1f77a6375800c6f3e5ee0d0ba7748ae76802b08759",
+      "usage": {
+        "input_tokens": 2525,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 407,
+        "output_tokens_details": {
+          "reasoning_tokens": 338
+        },
+        "total_tokens": 2932,
+        "x_details": [
+          {
+            "input_tokens": 2525,
+            "output_tokens": 407,
+            "output_tokens_details": {
+              "reasoning_tokens": 338
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2932,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U08",
+      "role": "counselor",
+      "text": "你删消息，可能不只是怕他说“回不来”，更怕这句话一落地，连“让他回来看看”这个念头都保不住了。与其被拒绝，你选择自己继续站着，至少这样还能留住一点他也许会懂的希望。",
+      "request_sha256": "288ef8f3b1f4a5763ecf1c24058d7e72ff323d245fd1fc726513ea5c43f48dc9",
+      "usage": {
+        "input_tokens": 2133,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 194,
+        "output_tokens_details": {
+          "reasoning_tokens": 143
+        },
+        "total_tokens": 2327,
+        "x_details": [
+          {
+            "input_tokens": 2133,
+            "output_tokens": 194,
+            "output_tokens_details": {
+              "reasoning_tokens": 143
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2327,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U09",
+      "role": "client",
+      "text": "我后来蹲在阳台把那条删掉的消息又打了一遍，但没发。烟抽完才想起我妈今天还没量血压。她那句“来了啊”又在耳朵边响起来，像后厨点单铃，按掉一回又响。",
+      "request_sha256": "5651db9bbeee617e8efef4ce64478064c56c4c38244508483ded2e7ec1ac444f",
+      "usage": {
+        "input_tokens": 2690,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 162,
+        "output_tokens_details": {
+          "reasoning_tokens": 107
+        },
+        "total_tokens": 2852,
+        "x_details": [
+          {
+            "input_tokens": 2690,
+            "output_tokens": 162,
+            "output_tokens_details": {
+              "reasoning_tokens": 107
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2852,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U10",
+      "role": "counselor",
+      "text": "你把那条消息又打了一遍却没发，然后才想起妈妈还没量血压——这个顺序里，弟弟和妈妈好像在你心里也在抢着同一口锅。删掉的消息带走了你一部分注意力，而“来了啊”响起来时，你又得把自己从阳台拉回她那一边。",
+      "request_sha256": "e85c2273ba667596a3d9be926d063cacf95ee2486dbfbd7cb5076ec77144d478",
+      "usage": {
+        "input_tokens": 2284,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 415,
+        "output_tokens_details": {
+          "reasoning_tokens": 352
+        },
+        "total_tokens": 2699,
+        "x_details": [
+          {
+            "input_tokens": 2284,
+            "output_tokens": 415,
+            "output_tokens_details": {
+              "reasoning_tokens": 352
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2699,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U11",
+      "role": "client",
+      "text": "今晚这口锅我还是得先端回去，我妈的血压计还摆在鞋柜上没收。不过至少这会儿，那个“我也很累啊”不用再蹲在阳台对着烟灰缸说。",
+      "request_sha256": "6c47beb23ded47e73e453376d9c8bbfc9c4550e49c8d5ea3d81f44ccc5b427ac",
+      "usage": {
+        "input_tokens": 2860,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 496,
+        "output_tokens_details": {
+          "reasoning_tokens": 452
+        },
+        "total_tokens": 3356,
+        "x_details": [
+          {
+            "input_tokens": 2860,
+            "output_tokens": 496,
+            "output_tokens_details": {
+              "reasoning_tokens": 452
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3356,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U12",
+      "role": "counselor",
+      "text": "能在这里把“我也很累啊”说出声来，哪怕锅还得端回去，也已经和蹲在阳台对着烟灰缸说不太一样了。下次再觉得那口气没处吐的时候，可以再把它带到这里来。",
+      "request_sha256": "333b1208c871f4a4a88782214bb35cb57093cc4e5d64e0b14dfafd7bb7febe06",
+      "usage": {
+        "input_tokens": 2443,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 305,
+        "output_tokens_details": {
+          "reasoning_tokens": 254
+        },
+        "total_tokens": 2748,
+        "x_details": [
+          {
+            "input_tokens": 2443,
+            "output_tokens": 305,
+            "output_tokens_details": {
+              "reasoning_tokens": 254
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2748,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U13",
+      "role": "client",
+      "text": "今晚能说到这儿，已经像把蒸箱压力阀打开一点了。我妈的血压计还摆在鞋柜上，回去晚了那串数字又该跳了，我走之前想再坐一分钟，这口气好像真能落下一些。",
+      "request_sha256": "ee123251ccc92ebf384cd233c6c30673e3b35a21047b50e2c849df77a08eb14a",
+      "usage": {
+        "input_tokens": 3000,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 230,
+        "output_tokens_details": {
+          "reasoning_tokens": 177
+        },
+        "total_tokens": 3230,
+        "x_details": [
+          {
+            "input_tokens": 3000,
+            "output_tokens": 230,
+            "output_tokens_details": {
+              "reasoning_tokens": 177
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3230,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U14",
+      "role": "counselor",
+      "text": "那就把这一分钟留给自己，让这口气再落一会儿。回去后如果又紧起来，也记得这里能帮你把压力阀再松一点。",
+      "request_sha256": "4a1f51a59a401a44e4248a266c49e7ae82a9ccb3b51089f7c47154d49f368378",
+      "usage": {
+        "input_tokens": 2592,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 180,
+        "output_tokens_details": {
+          "reasoning_tokens": 146
+        },
+        "total_tokens": 2772,
+        "x_details": [
+          {
+            "input_tokens": 2592,
+            "output_tokens": 180,
+            "output_tokens_details": {
+              "reasoning_tokens": 146
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2772,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U15",
+      "role": "client",
+      "text": "坐了一分钟，那口气是落下去一点了，可一站起来就又想——待会儿进家门，我妈要是又没量血压，我是不是又得把“怎么又没量”三个字咽回去。算了，先把鞋换了再说。",
+      "request_sha256": "46610ba9126cd3d98348ad55857d0f2b63a13d387ef4f5de56f3b5154db36eb1",
+      "usage": {
+        "input_tokens": 3132,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 413,
+        "output_tokens_details": {
+          "reasoning_tokens": 359
+        },
+        "total_tokens": 3545,
+        "x_details": [
+          {
+            "input_tokens": 3132,
+            "output_tokens": 413,
+            "output_tokens_details": {
+              "reasoning_tokens": 359
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3545,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S02-U16",
+      "role": "counselor",
+      "text": "坐过那一分钟，能感觉落下一点，这本身就有分量。进门前先把鞋换了，是你给自己留的一个小停顿，不必一次把所有话都咽回去。",
+      "request_sha256": "fcc356697e5a4bfd9ba1d69cfd7ceccf2e893b204618bee8b3f3abf7c7d3cd38",
+      "usage": {
+        "input_tokens": 2725,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 219,
+        "output_tokens_details": {
+          "reasoning_tokens": 182
+        },
+        "total_tokens": 2944,
+        "x_details": [
+          {
+            "input_tokens": 2725,
+            "output_tokens": 219,
+            "output_tokens_details": {
+              "reasoning_tokens": 182
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2944,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,123 @@
+{
+  "established": [
+    {
+      "text": "来访者因赵岩未经允许动其电脑而感到边界被侵犯，即使知道对方是帮忙，仍感到不适。",
+      "evidence_ids": [
+        "P08-S03-U01",
+        "P08-S03-U03"
+      ]
+    },
+    {
+      "text": "来访者家庭面临孩子公立小学报名条件不符合的问题，正在考虑搬家。",
+      "evidence_ids": [
+        "P08-S03-U01",
+        "P08-S03-U03",
+        "P08-S03-U05"
+      ]
+    },
+    {
+      "text": "来访者难以向赵岩表达感谢，认为说谢谢会让自己欠人情或显得低人一等。",
+      "evidence_ids": [
+        "P08-S03-U05",
+        "P08-S03-U07",
+        "P08-S03-U09"
+      ]
+    },
+    {
+      "text": "来访者当前优先处理孩子报名问题，并已在计算搬家所需费用。",
+      "evidence_ids": [
+        "P08-S03-U07",
+        "P08-S03-U09"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "text": "来访者尚未决定是否搬家，担心搬家后经济压力增大。",
+      "evidence_ids": [
+        "P08-S03-U05",
+        "P08-S03-U09"
+      ]
+    },
+    {
+      "text": "来访者仍未向赵岩表达感谢，内心对是否该说谢谢存在冲突。",
+      "evidence_ids": [
+        "P08-S03-U05",
+        "P08-S03-U07",
+        "P08-S03-U09"
+      ]
+    },
+    {
+      "text": "来访者尚未明确如何处理赵岩动电脑带来的边界不适感。",
+      "evidence_ids": [
+        "P08-S03-U03",
+        "P08-S03-U05"
+      ]
+    }
+  ],
+  "useful_exploration": [
+    {
+      "text": "来访者识别出自己对赵岩动电脑的反应可能与“被人从后面插一手”的既往感受有关。",
+      "evidence_ids": [
+        "P08-S03-U03"
+      ]
+    },
+    {
+      "text": "来访者开始区分家庭事务的紧迫性和对赵岩事件的未消化情绪，并选择先处理孩子报名。",
+      "evidence_ids": [
+        "P08-S03-U07",
+        "P08-S03-U09"
+      ]
+    }
+  ],
+  "unsupported_assumptions": [
+    {
+      "text": "赵岩动电脑的行为带有控制或越界的意图。",
+      "evidence_ids": [
+        "P08-S03-U01",
+        "P08-S03-U03"
+      ]
+    },
+    {
+      "text": "周宁对报名条件问题负有责任或未提前告知。",
+      "evidence_ids": [
+        "P08-S03-U01"
+      ]
+    },
+    {
+      "text": "来访者认为说谢谢必然会导致关系不平等或欠人情。",
+      "evidence_ids": [
+        "P08-S03-U05",
+        "P08-S03-U07",
+        "P08-S03-U09"
+      ]
+    }
+  ],
+  "case_id": "P08",
+  "checkpoint": "CP1",
+  "review_status": "unreviewed_model_draft",
+  "request_sha256": "46449e835b95899d74830566b449954b96e0e0d7e1f7f309c8b0c38811d7e9e7",
+  "public_sha256": "2e7035820857cf1a61e81e397256dd9a0588daa43553ae3abc9c4cb60a2d5c19",
+  "usage": {
+    "input_tokens": 3229,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 637,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3866,
+    "x_details": [
+      {
+        "input_tokens": 3229,
+        "output_tokens": 637,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3866,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P02",
+  "session": 1,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P02-S01-U01",
+      "role": "client",
+      "text": "其实这周排班一出来，我就有点头疼，晚班和周末班刚好卡在我妈复诊那几天。我也不是不能调，就是觉得跟护士长开口很麻烦，怕她觉得我事多。后来还是请了半天假，带我妈去看了，路上她一直说膝盖疼，我就……只能听着。",
+      "request_sha256": "9680812fab877c138cc7d7b4a3e158cd190e98abd7997073196a937e086b4648",
+      "usage": {
+        "input_tokens": 553,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 230,
+        "output_tokens_details": {
+          "reasoning_tokens": 160
+        },
+        "total_tokens": 783,
+        "x_details": [
+          {
+            "input_tokens": 553,
+            "output_tokens": 230,
+            "output_tokens_details": {
+              "reasoning_tokens": 160
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 783,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U02",
+      "role": "counselor",
+      "text": "听起来那几天你被排班和妈妈的复诊夹在中间，开口调班让你担心被当成“事多”，路上妈妈一直说疼，你也只能先接着。这种“只能听着”的感觉，好像并不轻松。",
+      "request_sha256": "f56bbac55c8a02166ac280fa90cc40f2499b12a79d7aea38d61db2e9ec871565",
+      "usage": {
+        "input_tokens": 237,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 441,
+        "output_tokens_details": {
+          "reasoning_tokens": 392
+        },
+        "total_tokens": 678,
+        "x_details": [
+          {
+            "input_tokens": 237,
+            "output_tokens": 441,
+            "output_tokens_details": {
+              "reasoning_tokens": 392
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 678,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U03",
+      "role": "client",
+      "text": "其实不光是路上，我后来想想，看到晚班那一下我还松了口气，想着能晚点回家。但马上又觉得自己很没良心，她又不是故意要疼的。",
+      "request_sha256": "8058e39d7a4f1e82d02c49e4c01f5a57cbf2d316e0c221a250f31035c0e1a94f",
+      "usage": {
+        "input_tokens": 718,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 395,
+        "output_tokens_details": {
+          "reasoning_tokens": 356
+        },
+        "total_tokens": 1113,
+        "x_details": [
+          {
+            "input_tokens": 718,
+            "output_tokens": 395,
+            "output_tokens_details": {
+              "reasoning_tokens": 356
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1113,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U04",
+      "role": "counselor",
+      "text": "你注意到自己那一瞬间松了口气，又很快用“没良心”来责备自己，好像心里同时有两种声音在拉扯。那个松口气，也许不一定是你不关心她，而是你也很需要一点能喘息的空隙。",
+      "request_sha256": "115d0f0a418ee51125b910f439e5fdfdf7032d1a708a8ebb03b28822f457f530",
+      "usage": {
+        "input_tokens": 370,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 174,
+        "output_tokens_details": {
+          "reasoning_tokens": 126
+        },
+        "total_tokens": 544,
+        "x_details": [
+          {
+            "input_tokens": 370,
+            "output_tokens": 174,
+            "output_tokens_details": {
+              "reasoning_tokens": 126
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 544,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U05",
+      "role": "client",
+      "text": "其实那天在候诊区，我一直低头看手机，我妈问了一句“你是不是单位有事”，我马上说“嗯，可能得回个消息”。其实根本没有，就是我不想一直听她讲哪里又不舒服。后来回家路上她没再说话，我又觉得是不是我太明显了。",
+      "request_sha256": "89ebb601dcaa9783536c63d837557fbe1f215ff2e388b1afd78712308d3d70c6",
+      "usage": {
+        "input_tokens": 850,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 330,
+        "output_tokens_details": {
+          "reasoning_tokens": 268
+        },
+        "total_tokens": 1180,
+        "x_details": [
+          {
+            "input_tokens": 850,
+            "output_tokens": 330,
+            "output_tokens_details": {
+              "reasoning_tokens": 268
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1180,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U06",
+      "role": "counselor",
+      "text": "你在候诊区用“回消息”给自己拉开了一点距离，可妈妈安静下来后，你反而开始担心是不是被她察觉了。那种既想躲开一点、又怕伤到她的感觉，好像从调班到候诊一直跟着你。",
+      "request_sha256": "372ffe90e450e0aaf8a1ec538b2a9a0a2d61b96793a8a02598e4b46d7d1fe6f0",
+      "usage": {
+        "input_tokens": 525,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 345,
+        "output_tokens_details": {
+          "reasoning_tokens": 290
+        },
+        "total_tokens": 870,
+        "x_details": [
+          {
+            "input_tokens": 525,
+            "output_tokens": 345,
+            "output_tokens_details": {
+              "reasoning_tokens": 290
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 870,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U07",
+      "role": "client",
+      "text": "后来到家我妈也没提，我把菜热了端过去，她吃得很慢，我就在旁边站着看手机。其实我挺想回房间躺一会儿，又觉得她一个人坐在那儿太冷清，结果就站了快半个小时。",
+      "request_sha256": "35c36218085dc705e6dee39953af3cd88026846a0672b862ced21c2b329e9a3b",
+      "usage": {
+        "input_tokens": 1012,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 202,
+        "output_tokens_details": {
+          "reasoning_tokens": 150
+        },
+        "total_tokens": 1214,
+        "x_details": [
+          {
+            "input_tokens": 1012,
+            "output_tokens": 202,
+            "output_tokens_details": {
+              "reasoning_tokens": 150
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1214,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U08",
+      "role": "counselor",
+      "text": "你很想回房间躺一会儿，又觉得她一个人坐着太冷清，结果把自己“定”在餐桌旁快半个小时。那种站着看手机的状态，好像既没能真正陪到她，也没能让你自己喘口气。",
+      "request_sha256": "1049632e87e14a496606080460673e6044ee216149ea067aefe57ff5ef7794f6",
+      "usage": {
+        "input_tokens": 677,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 267,
+        "output_tokens_details": {
+          "reasoning_tokens": 219
+        },
+        "total_tokens": 944,
+        "x_details": [
+          {
+            "input_tokens": 677,
+            "output_tokens": 267,
+            "output_tokens_details": {
+              "reasoning_tokens": 219
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 944,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U09",
+      "role": "client",
+      "text": "其实我也知道，我站在那儿她也未必觉得有人在陪，可我真要坐下来，又怕她问我是不是累了。到那时候，我可能连句“没事”都懒得说。",
+      "request_sha256": "fa0c07323df16af70faf35e6e9d603bb3f071146a159bc34556bc056b0b8ed7a",
+      "usage": {
+        "input_tokens": 1157,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 772,
+        "output_tokens_details": {
+          "reasoning_tokens": 732
+        },
+        "total_tokens": 1929,
+        "x_details": [
+          {
+            "input_tokens": 1157,
+            "output_tokens": 772,
+            "output_tokens_details": {
+              "reasoning_tokens": 732
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1929,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U10",
+      "role": "counselor",
+      "text": "你好像已经累到，连最省力的“没事”都不太想挤出来了。所以站着不动成了一种折中——既不用真的坐下来面对她的问，也不用让自己再为回应费力气。",
+      "request_sha256": "04328337b82f5a7b203107c49ea5ba213b5f875e132ce96480708021b60ec200",
+      "usage": {
+        "input_tokens": 810,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 436,
+        "output_tokens_details": {
+          "reasoning_tokens": 392
+        },
+        "total_tokens": 1246,
+        "x_details": [
+          {
+            "input_tokens": 810,
+            "output_tokens": 436,
+            "output_tokens_details": {
+              "reasoning_tokens": 392
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1246,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U11",
+      "role": "client",
+      "text": "其实我也知道，今天能坐在这儿说这些，已经算是一种休息了。但有时候越说，越觉得自己是不是在给自己找借口。算了，晚上回去还得帮我妈把药盒分好，不然她自己也记不住。",
+      "request_sha256": "5fab1f30c2b32ccdf9f6c48c9b3792724628df69c7d2b7e8c5537beccf3e3c61",
+      "usage": {
+        "input_tokens": 1293,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 290,
+        "output_tokens_details": {
+          "reasoning_tokens": 240
+        },
+        "total_tokens": 1583,
+        "x_details": [
+          {
+            "input_tokens": 1293,
+            "output_tokens": 290,
+            "output_tokens_details": {
+              "reasoning_tokens": 240
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1583,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U12",
+      "role": "counselor",
+      "text": "说这些像在休息，但又冒出一个“找借口”的声音，好像连休息都得先说服自己。待会儿回去分药盒前，也许可以先让这口气停一停。",
+      "request_sha256": "b13611225e12fc733912de7823f3951513c53dae07d93673630017f7d6336e20",
+      "usage": {
+        "input_tokens": 956,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 220,
+        "output_tokens_details": {
+          "reasoning_tokens": 179
+        },
+        "total_tokens": 1176,
+        "x_details": [
+          {
+            "input_tokens": 956,
+            "output_tokens": 220,
+            "output_tokens_details": {
+              "reasoning_tokens": 179
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1176,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U13",
+      "role": "client",
+      "text": "其实分药盒那点事，倒也不用费什么脑子，手上有事做反而不用一直找话说。就是有时候分着分着会想，哪天这些药能少一半就好了。",
+      "request_sha256": "00b27997aaa1f614899f3b99883b10bb74d1cbf2b98e21e32627ff45f20338ba",
+      "usage": {
+        "input_tokens": 1429,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 309,
+        "output_tokens_details": {
+          "reasoning_tokens": 267
+        },
+        "total_tokens": 1738,
+        "x_details": [
+          {
+            "input_tokens": 1429,
+            "output_tokens": 309,
+            "output_tokens_details": {
+              "reasoning_tokens": 267
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1738,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U14",
+      "role": "counselor",
+      "text": "分药盒的时候，手上有事做，心里却忍不住冒出“药能少一半就好了”的念头，这背后好像不只是在想药，也是在想你们俩什么时候能轻省一点。今天能把这些感觉说出来，已经很不容易。回去的路上，也许可以给自己一点不急着做完、也不急着解释的空间。",
+      "request_sha256": "32e55e7743a03af27ea5f9c8f0ac079a18cb7b84686bbcb4cddc423b17cdc330",
+      "usage": {
+        "input_tokens": 1084,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 175,
+        "output_tokens_details": {
+          "reasoning_tokens": 107
+        },
+        "total_tokens": 1259,
+        "x_details": [
+          {
+            "input_tokens": 1084,
+            "output_tokens": 175,
+            "output_tokens_details": {
+              "reasoning_tokens": 107
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1259,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U15",
+      "role": "client",
+      "text": "其实我刚刚听你说“不急着做完”，我第一反应是那药盒怎么办，我妈睡前肯定要问。不过可能也就今天，我可以慢慢分。",
+      "request_sha256": "e81bfa51acf7368f7a67d6626aa30e38a19319bdbe7fb8f871f066ffbe710abc",
+      "usage": {
+        "input_tokens": 1584,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 149,
+        "output_tokens_details": {
+          "reasoning_tokens": 114
+        },
+        "total_tokens": 1733,
+        "x_details": [
+          {
+            "input_tokens": 1584,
+            "output_tokens": 149,
+            "output_tokens_details": {
+              "reasoning_tokens": 114
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1733,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S01-U16",
+      "role": "counselor",
+      "text": "能听到自己第一反应是“药盒怎么办”，也愿意说“可能也就今天，我可以慢慢分”，这本身就像给那个总先想到责任的部分让出了一点位置。今晚不用急着变得轻松，分药的时候，也许可以只是慢慢做，不催自己。",
+      "request_sha256": "a5f0df1f66b5bf9f91798130991a08c0a50a074684babd08e1bb80b701f6045c",
+      "usage": {
+        "input_tokens": 1232,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 218,
+        "output_tokens_details": {
+          "reasoning_tokens": 159
+        },
+        "total_tokens": 1450,
+        "x_details": [
+          {
+            "input_tokens": 1232,
+            "output_tokens": 218,
+            "output_tokens_details": {
+              "reasoning_tokens": 159
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1450,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

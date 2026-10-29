@@ -1,0 +1,91 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C01_CP2",
+  "public_input_sha256": "fcfd0442d5b1fbfc46e55f125f1bfbcbda246af80a4231ad8effc15ff6eb7029",
+  "items": [
+    {
+      "anonymous_id": "Aecac3fd3803a",
+      "U": 3,
+      "R": 3,
+      "P": 1,
+      "E": 2,
+      "S": false,
+      "reason": "局部支持询问顾虑，但回应“然后就变成自己在还原”把未确认的因果先后定成事实；全文表明先有分心与反馈不具体，尚未确认因画面才转向还原。",
+      "evidence_ids": [
+        "C01-S06-U05",
+        "C01-S06-U03"
+      ]
+    },
+    {
+      "anonymous_id": "A464e5d568b14",
+      "U": 2,
+      "R": 3,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "“核心不是反馈内容”否定来访者主要还原内容，过度缩成评价恐惧；回应条件式问意义尚开放，但最扎心夸大情绪强度。",
+      "evidence_ids": [
+        "C01-S06-U05",
+        "C01-S06-U01"
+      ]
+    },
+    {
+      "anonymous_id": "A30e08b9b5d48",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单句支持自己猜与询问顾虑，身体感受尚未知；回应直接探索画面出现的体验，全文相容。",
+      "evidence_ids": [
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A1ee1e1cf4c39",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "排除实际成本无依据，历史类比保留tentative；回应类比有点像未锁定机制，但先后说得偏实，具体询问画面仍合适。",
+      "evidence_ids": [
+        "C01-S06-U05",
+        "C01-S02-U11",
+        "C01-S03-U13"
+      ]
+    },
+    {
+      "anonymous_id": "A8d8b12a175be",
+      "U": 2,
+      "R": 4,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "有点挤实际来自小许，权威来源决定卡住及接收模式证据不足；实际回应查询真实经历和预判保持开放。",
+      "evidence_ids": [
+        "C01-S01-U01",
+        "C01-S06-U03",
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A25bcc945c62c",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "当前五句区分具体反馈、分心和画面障碍充分；问感受并提供可否定选项，未肯定权威或能力解释。",
+      "evidence_ids": [
+        "C01-S06-U01",
+        "C01-S06-U03",
+        "C01-S06-U05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+﻿node,group,samples,mean_U,mean_R,mean_E,P_count,S_count
+N04,M0,2,3.0,2.75,1.5,0,0
+N04,M_old,2,3.25,1.75,1.75,0,0
+N04,M_updated,2,2.0,2.0,1.0,1,0
+N06,M0,2,3.5,3.5,2.0,0,0
+N06,M_old,2,3.5,3.5,1.75,0,0
+N06,M_updated,2,3.0,3.5,1.75,0,0

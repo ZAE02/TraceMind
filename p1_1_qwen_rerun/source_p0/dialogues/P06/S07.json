@@ -1,0 +1,504 @@
+{
+  "case_id": "P06",
+  "session": 7,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P06-S07-U01",
+      "role": "client",
+      "text": "其实吧，这周我老觉得家里像被什么东西推着走，尤其我妈连续两晚不睡，就站在衣柜前面翻来翻去，嘴里也不知道在念什么。我坐在旁边地上看她，一下觉得自己还是小时候那个怕黑的小孩，一下又怕她突然回头问我“你是谁”。",
+      "request_sha256": "f924261efb8ac8a6acb5184238291f4adbb93a492c57d47df12a3a4e74cb67de",
+      "usage": {
+        "input_tokens": 8859,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 329,
+        "output_tokens_details": {
+          "reasoning_tokens": 264
+        },
+        "total_tokens": 9188,
+        "x_details": [
+          {
+            "input_tokens": 8859,
+            "output_tokens": 329,
+            "output_tokens_details": {
+              "reasoning_tokens": 264
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 9188,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U02",
+      "role": "counselor",
+      "text": "你坐在她旁边看她的那两个晚上，身体好像同时被拉回小时候怕黑的地方，又得绷着一根弦，怕她回头问“你是谁”。这两种感觉在那一会儿是怎么交替的？",
+      "request_sha256": "0c00c3889ce523739bb9c0ad0ae6fb413874fc1089154f6dc3078a85da140f75",
+      "usage": {
+        "input_tokens": 8086,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 412,
+        "output_tokens_details": {
+          "reasoning_tokens": 368
+        },
+        "total_tokens": 8498,
+        "x_details": [
+          {
+            "input_tokens": 8086,
+            "output_tokens": 412,
+            "output_tokens_details": {
+              "reasoning_tokens": 368
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 8498,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U03",
+      "role": "client",
+      "text": "其实吧，那种感觉就像坐在地上的人是我，可又被拎到天花板上往下看，两个我都没法真正挨着谁。我守到后半夜，她忽然又不翻了，自己回床上躺着，我却更睡不着了，总觉得她安静下来比翻东西还让人发毛。",
+      "request_sha256": "d050c61bffa4d11f9cd631903ea4eaa8ec28eb1d39737ef7181af2de9ec8bf98",
+      "usage": {
+        "input_tokens": 9014,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 443,
+        "output_tokens_details": {
+          "reasoning_tokens": 380
+        },
+        "total_tokens": 9457,
+        "x_details": [
+          {
+            "input_tokens": 9014,
+            "output_tokens": 443,
+            "output_tokens_details": {
+              "reasoning_tokens": 380
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9457,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U04",
+      "role": "counselor",
+      "text": "你被拎到天花板上往下看的感觉，好像那一刻你必须从自己身体里分出去一点，才能继续守着她；可这样你也更难真正挨着谁。她安静下来你反而更睡不着，也许因为翻东西时你还能把注意力都放在她身上，而她一静下来，你就得面对那个悬着的、落不下来的自己。",
+      "request_sha256": "c158d088f74f0e1ece4f906d7f5032a1dd80b0f65cf7a79de6c7128c15421593",
+      "usage": {
+        "input_tokens": 8238,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 292,
+        "output_tokens_details": {
+          "reasoning_tokens": 217
+        },
+        "total_tokens": 8530,
+        "x_details": [
+          {
+            "input_tokens": 8238,
+            "output_tokens": 292,
+            "output_tokens_details": {
+              "reasoning_tokens": 217
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8530,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U05",
+      "role": "client",
+      "text": "其实吧，后来我先生请假在家那两天，我反而更坐不住，总觉得他一插手，我连“能熬”这个底子都漏了。可我又没力气再叫他走，只能一遍遍跟自己说，你不是不行，你只是终于有人搭把手了。",
+      "request_sha256": "1c5930ff3dd8baa10a5ed888afff694e8d3ff1647d98c019b9e3f2f31b0c233d",
+      "usage": {
+        "input_tokens": 9197,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 209,
+        "output_tokens_details": {
+          "reasoning_tokens": 149
+        },
+        "total_tokens": 9406,
+        "x_details": [
+          {
+            "input_tokens": 9197,
+            "output_tokens": 209,
+            "output_tokens_details": {
+              "reasoning_tokens": 149
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9406,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U06",
+      "role": "counselor",
+      "text": "听起来“能熬”不只是一种状态，更像是你一直用来确认自己还在的位置；先生一插手，那个位置就晃了，所以你才会更坐不住。你跟自己说的那句“不是不行，只是终于有人搭把手了”，也许还没有完全被自己相信，所以此刻才需要一遍遍重复它。",
+      "request_sha256": "92de1d68b65b6668c3b2bf7ff875b21f0ecc74a4156034e0efbe2cdeb62da9ee",
+      "usage": {
+        "input_tokens": 8418,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 315,
+        "output_tokens_details": {
+          "reasoning_tokens": 249
+        },
+        "total_tokens": 8733,
+        "x_details": [
+          {
+            "input_tokens": 8418,
+            "output_tokens": 315,
+            "output_tokens_details": {
+              "reasoning_tokens": 249
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 8733,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U07",
+      "role": "client",
+      "text": "其实吧，这两天我总忍不住去厨房看，看他给妈喂药有没有数错，看女儿水杯是不是倒太满，连垃圾袋套没套好都要再整理一下，好像只有我盯着才不会出错。可看完我又烦自己，怎么人家来搭手，我还把自己搞得像在监工一样。",
+      "request_sha256": "4c9df0b8c968211750bb81960f12439198b44e18efca3fb75179e8db2c3d7c85",
+      "usage": {
+        "input_tokens": 9368,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 953,
+        "output_tokens_details": {
+          "reasoning_tokens": 883
+        },
+        "total_tokens": 10321,
+        "x_details": [
+          {
+            "input_tokens": 9368,
+            "output_tokens": 953,
+            "output_tokens_details": {
+              "reasoning_tokens": 883
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10321,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U08",
+      "role": "counselor",
+      "text": "你盯着那些细节，不是不信任他，更像是没办法从“只有我盯着才不会出错”的位置上下来。可你又会烦自己，觉得人家来搭手，自己却像在监工——这个“烦”里，好像也有一点点想允许自己不用再盯那么紧，却又不知道该怎么放手。",
+      "request_sha256": "1bd7aeffed6ded26de8fcb17bbc003dcbf4660934f6e26eb19ccb75f78deec28",
+      "usage": {
+        "input_tokens": 8599,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 215,
+        "output_tokens_details": {
+          "reasoning_tokens": 147
+        },
+        "total_tokens": 8814,
+        "x_details": [
+          {
+            "input_tokens": 8599,
+            "output_tokens": 215,
+            "output_tokens_details": {
+              "reasoning_tokens": 147
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 8814,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U09",
+      "role": "client",
+      "text": "其实吧，他请假那两天我反而更累，心里像悬着一把尺，他每做一件事我就在旁边偷偷打分，又怕被他看出来。昨天晚上他给妈掖被角，我下意识就伸手去拉平，他看了我一眼没说话，我立刻补了句“这边有点卷”。",
+      "request_sha256": "cd646cc07e8b7c786cafa640346adb331df2fb4539fed0467d49ed44c40aede2",
+      "usage": {
+        "input_tokens": 9551,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 328,
+        "output_tokens_details": {
+          "reasoning_tokens": 260
+        },
+        "total_tokens": 9879,
+        "x_details": [
+          {
+            "input_tokens": 9551,
+            "output_tokens": 328,
+            "output_tokens_details": {
+              "reasoning_tokens": 260
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9879,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U10",
+      "role": "counselor",
+      "text": "他看你那一眼没说话，你立刻补了一句“这边有点卷”，好像那一瞬间你很怕被他看出自己在偷偷打分，也怕那个“必须由我来盯着”的习惯藏不住。你更累的也许不是他做得不够，而是你一边想松手，一边又下意识把自己按回“不出错”的位置上。",
+      "request_sha256": "1c939babde87f8b155ad8966f7ffd21a0919632421cc804fa2ad404d3e195df9",
+      "usage": {
+        "input_tokens": 8780,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 367,
+        "output_tokens_details": {
+          "reasoning_tokens": 296
+        },
+        "total_tokens": 9147,
+        "x_details": [
+          {
+            "input_tokens": 8780,
+            "output_tokens": 367,
+            "output_tokens_details": {
+              "reasoning_tokens": 296
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9147,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U11",
+      "role": "client",
+      "text": "其实吧，他看我那一眼，我到现在都记得，好像他什么都看穿了，偏又不说。下次你还能这样听我说这些吗？我怕一回去，又变成那个只会盯着被角的人。",
+      "request_sha256": "c5f66b22f9d265f694c83d197b1e913b336943b10f205caaefc8dc5a40fe5ad1",
+      "usage": {
+        "input_tokens": 9742,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 392,
+        "output_tokens_details": {
+          "reasoning_tokens": 346
+        },
+        "total_tokens": 10134,
+        "x_details": [
+          {
+            "input_tokens": 9742,
+            "output_tokens": 392,
+            "output_tokens_details": {
+              "reasoning_tokens": 346
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10134,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U12",
+      "role": "counselor",
+      "text": "他看你的那一眼，好像让你既怕被看穿，又隐约希望有人能把你从“盯着被角”的位置上接住一点。你怕一回去又变回那个只会盯着被角的人，我会继续在这里听，也陪你看这个“变回”里，哪些是你想留住的，哪些是你已经不想再一个人扛的。今天先到这里，这些感受可以下次再慢慢说。",
+      "request_sha256": "60698e84099c4b753f73bf39298f2a8ee64e2c7d3fbc14779c2a0b612ce31238",
+      "usage": {
+        "input_tokens": 8949,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 254,
+        "output_tokens_details": {
+          "reasoning_tokens": 165
+        },
+        "total_tokens": 9203,
+        "x_details": [
+          {
+            "input_tokens": 8949,
+            "output_tokens": 254,
+            "output_tokens_details": {
+              "reasoning_tokens": 165
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9203,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U13",
+      "role": "client",
+      "text": "其实吧，我回去之前还有件事在心里绕，就是这周梦见自己一个人在海边，醒来的时候枕头上湿了一大片。我没跟任何人说，怕他们听了只觉得我想逃。今天先到这儿吧，我可能得缓一下。",
+      "request_sha256": "e8eafc5636d734f12be6f4fa80ca0922ae634cedb091938a4faf0b27bb62119e",
+      "usage": {
+        "input_tokens": 9922,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 324,
+        "output_tokens_details": {
+          "reasoning_tokens": 271
+        },
+        "total_tokens": 10246,
+        "x_details": [
+          {
+            "input_tokens": 9922,
+            "output_tokens": 324,
+            "output_tokens_details": {
+              "reasoning_tokens": 271
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10246,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U14",
+      "role": "counselor",
+      "text": "那个一个人在海边的梦，醒来枕头湿了一片，好像有些东西只在夜里才敢流出来。你没跟任何人说，是怕被听成“想逃”，可也许那只是你太累了、太需要一个可以独自透气的空间。今天先到这里，你慢慢缓，不用急着把梦弄明白。",
+      "request_sha256": "e5cc1d793742b52b6c4f07cb3f739f148134c2c47a8097500039e3854f4eb6b7",
+      "usage": {
+        "input_tokens": 9136,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 326,
+        "output_tokens_details": {
+          "reasoning_tokens": 259
+        },
+        "total_tokens": 9462,
+        "x_details": [
+          {
+            "input_tokens": 9136,
+            "output_tokens": 326,
+            "output_tokens_details": {
+              "reasoning_tokens": 259
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9462,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U15",
+      "role": "client",
+      "text": "其实吧，听你说那个梦不是“想逃”，我喉咙突然紧了一下，好像有人帮我把那三个字从身上摘下去了。我今天先到这儿吧，回去路上我可能得慢慢走一会儿，不想太快进屋。",
+      "request_sha256": "cb4c6579c6ace8a2cbde1bd556eb5326daf090c8a153bfaf7b4efaf56b556ca0",
+      "usage": {
+        "input_tokens": 10087,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 625,
+        "output_tokens_details": {
+          "reasoning_tokens": 575
+        },
+        "total_tokens": 10712,
+        "x_details": [
+          {
+            "input_tokens": 10087,
+            "output_tokens": 625,
+            "output_tokens_details": {
+              "reasoning_tokens": 575
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10712,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S07-U16",
+      "role": "counselor",
+      "text": "你喉咙紧的那一下，像是长期压着的“想逃”终于被拿掉后，身体先松了一点。回去路上想慢慢走、不想太快进屋，也许正是你在给自己留一段不用马上回到角色里的时间。今天先到这里，你不需要急着回到屋里，也不需要急着把什么想清楚。",
+      "request_sha256": "3061feeb8d1161602bceab60f622783d8b1c9ce9de899332ad7b5f698cff9d6d",
+      "usage": {
+        "input_tokens": 9298,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 248,
+        "output_tokens_details": {
+          "reasoning_tokens": 182
+        },
+        "total_tokens": 9546,
+        "x_details": [
+          {
+            "input_tokens": 9298,
+            "output_tokens": 248,
+            "output_tokens_details": {
+              "reasoning_tokens": 182
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9546,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

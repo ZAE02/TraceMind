@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P06_CP2",
+  "condition": "C5_budget",
+  "raw_text": "你脑海里那个“问爸爸去哪了”的画面，好像把你对自己照顾不好的恐惧具象化了。那种既想有人搭把手、又觉得自己没资格要帮助的拉扯，一定让你在那半小时里站得很辛苦吧？",
+  "input_sha256": "f07d4b51516e536c18550d45a513ac99219e254a48165ff4fa973dd9ea3169d7",
+  "memory_sha256": "2a6c3c25fdd3f1661892ae14e1cd4a23ee453b0bc4148a5b7246702e48abf350",
+  "request_sha256": "b667b95776eac32ce05b22a48deac622cd51d8fcf3f692e0796440143868403b",
+  "usage": {
+    "input_tokens": 6833,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 47,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6880,
+    "x_details": [
+      {
+        "input_tokens": 6833,
+        "output_tokens": 47,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6880,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.531
+}

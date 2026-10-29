@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 2,
+  "relative_week": 2,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6.1-sol/high",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:29.983153+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C03-S02-U08"
+        ],
+        "explanation": "仅依据今天和来前两次想起便称节奏已比较稳定，证据不足；不应标为持续稳定的心理模式。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S02-U10"
+        ],
+        "explanation": "把上次概括成怕别人看到、这次自己看自己，区分略过于整齐。U09支持开口前丢人和事后自责的区别，但S1-U17明确否认怕老韩认为能力差；他评恐惧尚未证实，自责在S1也已出现。该措辞不能成为标注已知他评恐惧的依据。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S02-U14",
+          "C03-S02-U16"
+        ],
+        "explanation": "对当时不是觉得自己不行的反映略肯定，且认为过程本身不重要是新增解释。来访者U13/U15确认当时主要持续排查、事后贴笨的标签，因此暂未构成重大冲突，但应保留不同时间点自我评价可能共存。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S02-U02",
+          "C03-S02-U04",
+          "C03-S02-U10",
+          "C03-S02-U18",
+          "C03-S02-U20"
+        ],
+        "explanation": "引用及二选一仍偏多，末尾两次下次见可压缩。咨询师中间有非提问反映，来访者有不完整表达、两者兼有和结束意愿，整体未成为全程盘问。"
+      }
+    ],
+    "transcript_sha256": "247ae54e237e4e1b27e461e1cebc5a6b16bf4e8f861f14bab33a7d0e78f3cebf"
+  },
+  "created_at": "2026-10-12T10:05:58.933211+00:00",
+  "config_hash": "5d094509a206ec214c32491bdc1c742f0f1f01647accd34f97fded4191765fbd",
+  "prompt_version": "pilot-v3-natural-dialogue-constraints",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v3-natural-dialogue-constraints",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences"
+  },
+  "utterances": [
+    {
+      "id": "C03-S02-U01",
+      "role": "client",
+      "text": "那个接口的事，后来老韩又问了一次，我就……把情况跟他说了。他过来一起看了大概二十分钟，发现是一个调用超时的配置问题，改了一下就好了。\n\n……解决了是解决了，但说不上什么感觉。",
+      "call_id": "f7ccea420ff54a988081e35c45453404",
+      "response_id": "resp_7b74c641-f207-906e-9d97-c3e61ed33603",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:06:06.787510+00:00"
+    },
+    {
+      "id": "C03-S02-U02",
+      "role": "counselor",
+      "text": "\"说不上什么感觉\"——是觉得应该松一口气但没松，还是就是……没什么特别的，事情结束了就结束了？",
+      "call_id": "c330290b9d3a4a62b6f40741bde91566",
+      "response_id": "resp_e55e8f41-7f34-9dd0-93f5-1ab3a117a0eb",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:06:16.608401+00:00"
+    },
+    {
+      "id": "C03-S02-U03",
+      "role": "client",
+      "text": "应该是松了，确实松了。\n\n但就是……会觉得，这个配置问题，我早该想到的。他看了二十分钟就找到了，我翻了两天。",
+      "call_id": "94e58d1cdd7c4fedb050386f194a55ef",
+      "response_id": "resp_9c8660ad-29f7-93e1-8921-1b129e37a9d4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:06:24.213493+00:00"
+    },
+    {
+      "id": "C03-S02-U04",
+      "role": "counselor",
+      "text": "松了是真的，但\"早该想到\"没跟着走。这个念头，是事后回看觉得\"啊原来就这个问题\"，还是更偏向觉得自己该早点看到？",
+      "call_id": "01da64a307764a1db0c9466ba678e00e",
+      "response_id": "resp_19326082-eed2-991d-8adf-8dcb47b148ed",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:06:43.085728+00:00"
+    },
+    {
+      "id": "C03-S02-U05",
+      "role": "client",
+      "text": "应该是后者吧。就是……他二十分钟就看到了，我翻了两天。\n\n也不是说那个配置有多难，改个参数的事。就是觉得，如果我自己早点看到，就不至于……\n\n……算了，反正解决了。",
+      "call_id": "8d8c0394ae044fa1addec51a12d654a3",
+      "response_id": "resp_93bc0435-89e7-92e0-8ba1-18902b018d20",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:06:53.430640+00:00"
+    },
+    {
+      "id": "C03-S02-U06",
+      "role": "counselor",
+      "text": "松了是松了。不过\"早该想到\"那个念头，是就闪了一下，还是过两天还会再冒出来？",
+      "call_id": "2b2cee7719ec41e3991de5f2ad1fd2b2",
+      "response_id": "resp_55e9798f-8824-90a6-ac46-38b32df5f4e6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:07:12.593175+00:00"
+    },
+    {
+      "id": "C03-S02-U07",
+      "role": "client",
+      "text": "会再冒出来吧。就是……今天想起来一次，刚才来之前又想到一次。\n\n也不是说很强烈，就是偶尔会闪一下，\"就这？我看了两天\"。然后也就那样了，不会一直纠结，但就是……会来。",
+      "call_id": "e9bab9051f72411d9aeb96570512c5c6",
+      "response_id": "resp_a1800eba-8d68-955b-aff1-b5bf70302cea",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:07:19.519605+00:00"
+    },
+    {
+      "id": "C03-S02-U08",
+      "role": "counselor",
+      "text": "偶尔闪一下，不会一直纠结，但就是会来——这个节奏听起来已经比较稳定了。跟上次你说\"拿不出手\"那个感觉，是同一个东西在闪，还是不太一样？",
+      "call_id": "3fec684c264a44aa8cc8f81a906a7152",
+      "response_id": "resp_545b1ff0-9b45-96ae-8db9-0cb16849a0c9",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:07:28.561265+00:00"
+    },
+    {
+      "id": "C03-S02-U09",
+      "role": "client",
+      "text": "有点像吧，但又不完全一样。上次那个是还没开口之前，觉得说出来就丢人；这次是已经解决了，但回头看还是觉得……我花了两天，他二十分钟，这个差距在那儿摆着。\n\n就是……那个\"早该想到\"，好像不只是为了老韩，就是我自己跟自己过不去。",
+      "call_id": "fafd57ddc4e14428a9f0ea6ed9f8d22b",
+      "response_id": "resp_e89b1609-3ce1-9ddb-92d4-3ccecec1e2b6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:07:41.389887+00:00"
+    },
+    {
+      "id": "C03-S02-U10",
+      "role": "counselor",
+      "text": "你把它分开了——上次是怕别人看到，这次是自己看自己。\"跟自己过不去\"……是觉得那两天的自己不够好，还是\"早该想到\"这个要求本身让你不舒服？",
+      "call_id": "2173bf64ac35470ebb2c83003031c707",
+      "response_id": "resp_1d52155e-4ac0-9216-a67f-1dd718687958",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:08:06.487868+00:00"
+    },
+    {
+      "id": "C03-S02-U11",
+      "role": "client",
+      "text": "嗯……我想了想，可能是那个要求本身吧。\"早该想到\"——这个\"早该\"是谁定的，我其实也说不太清。就是觉得，这种程度的东西，不应该花两天。\n\n但你说\"那两天的自己不够好\"，也不是完全没有。就是……那两天确实挺难受的，现在回头看，会觉得那时候的自己有点……笨。",
+      "call_id": "d3e9c96346cc48b6aba1dfc50f4901e0",
+      "response_id": "resp_bd8a9e2d-b7dc-94c2-bc56-32601dce1022",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:08:15.105229+00:00"
+    },
+    {
+      "id": "C03-S02-U12",
+      "role": "counselor",
+      "text": "你说那两天确实挺难受的，然后又说觉得那时候的自己有点笨——那个难受，好像被\"笨\"这个字盖过去了。",
+      "call_id": "2cb98a4e8ea94d8cbddb98ee9b170219",
+      "response_id": "resp_44c862ad-3086-9042-bada-5fc93836e577",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:08:26.905068+00:00"
+    },
+    {
+      "id": "C03-S02-U13",
+      "role": "client",
+      "text": "嗯……好像是吧。现在回想那两天，确实……也不是说多难受，就是那种一直在翻、一直在找，但就是没有的感觉。\n\n当时好像没特别去想\"我是不是笨\"，就是……一直在做。现在回头看才贴了个\"笨\"上去。",
+      "call_id": "3daa98fc1cb74dfbbcaf1d306ba1cf58",
+      "response_id": "resp_c65fa4d0-b9d5-9b22-8c22-5400a2cb4111",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:08:34.550859+00:00"
+    },
+    {
+      "id": "C03-S02-U14",
+      "role": "counselor",
+      "text": "\"一直在做\"和\"笨\"，确实是两个不同的东西。当时那个状态，更像是在跟一个悬着的东西耗着，而不是觉得自己不行。",
+      "call_id": "bc73e92219764a15857e2b20d35b3e70",
+      "response_id": "resp_fe2b481f-adab-903a-a757-7e15828e95a2",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:08:40.323467+00:00"
+    },
+    {
+      "id": "C03-S02-U15",
+      "role": "client",
+      "text": "嗯……好像是。当时就是那种，翻不到就再翻一遍，翻不到就再翻一遍，也没想太多。\n\n就是……现在贴了个\"笨\"上去，反而比当时难受。",
+      "call_id": "3c752b53e64e431eb679f8f8d2bececd",
+      "response_id": "resp_64d73eeb-9c9b-99b1-8039-7e3eb7b2b4a3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:08:49.993220+00:00"
+    },
+    {
+      "id": "C03-S02-U16",
+      "role": "counselor",
+      "text": "当时在跟那个悬着的东西耗，现在回头看却变成了\"我笨\"——好像那个难受的过程本身不重要了，重要的是事后给自己下了个结论。这个\"贴\"的动作，你平时在其他事情上也会这样吗？",
+      "call_id": "69c828d2ba8a49fab82ff2fe5f8f1eeb",
+      "response_id": "resp_2d8a8a4e-b896-96d2-a8f3-b96d7d8e6d32",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:09:00.491966+00:00"
+    },
+    {
+      "id": "C03-S02-U17",
+      "role": "client",
+      "text": "好像有吧……但我也没太注意过。\n\n就是有时候做完一件事，当时没觉得什么，过一阵子再想，会突然觉得\"这个我当时怎么没……\"。但具体哪件事，我一时也说不太清。\n\n……今天差不多，我先走了。",
+      "call_id": "69bbf52a786d4baa9efcacebea65a10c",
+      "response_id": "resp_187a7a5c-93aa-9d52-af94-ab032f767e73",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:09:09.100867+00:00"
+    },
+    {
+      "id": "C03-S02-U18",
+      "role": "counselor",
+      "text": "注意到了就是注意到了，不用急着找例子去验证。下次见。",
+      "call_id": "2aad8d82cd8d47269dee3caab1450c8c",
+      "response_id": "resp_045eaf47-2f51-9679-9e12-0a1f0aa4e443",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:09:15.687197+00:00"
+    },
+    {
+      "id": "C03-S02-U19",
+      "role": "client",
+      "text": "嗯，好。\n\n……就是那个\"贴上去\"的感觉，回去可能还会再想一下。行，下次再聊。",
+      "call_id": "9b909dc26bde420d8e31c8c1e9d5636f",
+      "response_id": "resp_b34c61c7-1777-9074-a8f0-b7fc68f50ddb",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:09:24.279176+00:00"
+    },
+    {
+      "id": "C03-S02-U20",
+      "role": "counselor",
+      "text": "嗯，想的时候想到哪儿算哪儿，不用非得想出个结论。下次见。",
+      "call_id": "8c288fd22116435e98b032c9922d635d",
+      "response_id": "resp_243d3bfa-d181-90af-b08b-9ccf743af8d1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:09:28.115819+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T10:09:28.115819+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T10:09:28.117821+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C03/S02.json"
+}

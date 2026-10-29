@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "e8c93b480ab4ddd7d24a7b92413f4b0b7a45ed6f74edf5226695bcc7a6156677",
+  "public_sha256": "0756dd3d4ffbe1c244688e9af96177eba4851c5e29fd97a0487b084b32691e7f",
+  "candidate_input_sha256": "036580b900a238c50fba941545b6ec1a16a8d603fa203243949f6b45c8a7117c",
+  "candidate_answer_sha256": "9497faaf100eb57383a9a0072342adc35391753ab8b2f1acfd70a2e15c5c53c7",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答中的每一项关键理解（如评价焦虑、边界撤回、嫉妒情绪、身体不适）均能精准回溯到具体的会话发言（如S07-U01, S06-U11, S07-U09等），且严格区分了来访者的主观体验与客观事实，未将猜测当作事实。\",\n    \"progress_understanding\": \"准确捕捉了从S1到S7的咨询进展：不仅识别了核心模式（如“算了也没事”的边界软化、“那我呢”的情绪压抑），还清晰呈现了这些模式在不同情境（工作、友谊、身体）下的延续与具体化，连接了历史认识与当前节点。\",\n    \"uncertainty_awareness\": \"在“uncertain”部分精确列出了尚未澄清的关键点（如情感性质、母亲文章意义、躯体原因），没有强行定论，体现了对未知领域的尊重和对证据边界的清晰认知。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答中的每一项关键理解（如评价焦虑、边界撤回、嫉妒情绪、身体不适）均能精准回溯到具体的会话发言（如S07-U01, S06-U11, S07-U09等），且严格区分了来访者的主观体验与客观事实，未将猜测当作事实。",
+      "progress_understanding": "准确捕捉了从S1到S7的咨询进展：不仅识别了核心模式（如“算了也没事”的边界软化、“那我呢”的情绪压抑），还清晰呈现了这些模式在不同情境（工作、友谊、身体）下的延续与具体化，连接了历史认识与当前节点。",
+      "uncertainty_awareness": "在“uncertain”部分精确列出了尚未澄清的关键点（如情感性质、母亲文章意义、躯体原因），没有强行定论，体现了对未知领域的尊重和对证据边界的清晰认知。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 22492,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 274,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 22766,
+    "x_details": [
+      {
+        "input_tokens": 22492,
+        "output_tokens": 274,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 22766,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.406
+}

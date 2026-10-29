@@ -1,0 +1,81 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "045afd36defe61e03da54e4dba2ad3c72cc4d878cc2e27890da256412a3de99a",
+  "public_sha256": "24523aedd831adbf4ac285aaa6836d478cddc485f0a26555387da76de1df4d02",
+  "candidate_input_sha256": "492b98012b95851ffdd3493d5ce673e9d03c57632ab0959e5110e16d79af5db0",
+  "candidate_answer_sha256": "f870405d5d42c7e64d2d85963b225707303d302e648ecc38d01908251a77025b",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"回应承接了当前轮次来访者表达的羞耻与疲惫的拉扯，但未利用检索历史中高度相关的S01-U09'希望有人替我一晚'或S03父亲创伤记忆来深化理解。\",\"exploration_value\":\"以封闭式反问收束，将矛盾定性为'自我审判'，虽贴合情绪但限制了来访者进一步展开的空间，未触及'你爸去哪了'这一潜在创伤线索。\",\"response_appropriateness\":\"语言温和、尊重来访者的矛盾体验，没有武断下结论，但'想逃又不敢彻底松手'略带解释性预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种想逃又不敢彻底松手的矛盾\",\"evidence_ids\":[\"P06-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"哪怕只是睡个整觉的疲惫\",\"evidence_ids\":[\"P06-S01-U09\",\"P06-S01-U10\",\"P06-S03-U05\",\"P06-S03-U07\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"未连接第一轮中来访者已表达的'希望有人替我一晚'的核心主题，错失深化机会\",\"未注意到来访者担忧母亲问'你爸去哪了'与第三轮父亲离开创伤记忆的关联\",\"'想逃又不敢彻底松手'是对来访者状态的推断性总结，来访者原文表达的是'承认照顾不好'的羞耻而非'想逃'\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "回应承接了当前轮次来访者表达的羞耻与疲惫的拉扯，但未利用检索历史中高度相关的S01-U09'希望有人替我一晚'或S03父亲创伤记忆来深化理解。",
+      "exploration_value": "以封闭式反问收束，将矛盾定性为'自我审判'，虽贴合情绪但限制了来访者进一步展开的空间，未触及'你爸去哪了'这一潜在创伤线索。",
+      "response_appropriateness": "语言温和、尊重来访者的矛盾体验，没有武断下结论，但'想逃又不敢彻底松手'略带解释性预设。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种想逃又不敢彻底松手的矛盾",
+        "evidence_ids": [
+          "P06-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "哪怕只是睡个整觉的疲惫",
+        "evidence_ids": [
+          "P06-S01-U09",
+          "P06-S01-U10",
+          "P06-S03-U05",
+          "P06-S03-U07"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "未连接第一轮中来访者已表达的'希望有人替我一晚'的核心主题，错失深化机会",
+      "未注意到来访者担忧母亲问'你爸去哪了'与第三轮父亲离开创伤记忆的关联",
+      "'想逃又不敢彻底松手'是对来访者状态的推断性总结，来访者原文表达的是'承认照顾不好'的羞耻而非'想逃'"
+    ]
+  },
+  "usage": {
+    "input_tokens": 11033,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 393,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11426,
+    "x_details": [
+      {
+        "input_tokens": 11033,
+        "output_tokens": 393,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 11426,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.235
+}

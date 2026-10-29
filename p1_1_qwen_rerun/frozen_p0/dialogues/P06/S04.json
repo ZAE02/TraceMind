@@ -1,0 +1,504 @@
+{
+  "case_id": "P06",
+  "session": 4,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P06-S04-U01",
+      "role": "client",
+      "text": "其实吧，这周公开课上完，同事都在夸我，说“你天生适合当老师”，我笑了一下，心里却虚得厉害，因为刚下课就接到物业电话，说我妈在小区门口找不到家了。我赶回去的时候她站在门卫那儿，手里还攥着一把不知道谁给的糖。",
+      "request_sha256": "9b8127f0cbf070723799991a03ca4c5ab3a1c7c9a077b07d2def68d019246c13",
+      "usage": {
+        "input_tokens": 4506,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 323,
+        "output_tokens_details": {
+          "reasoning_tokens": 254
+        },
+        "total_tokens": 4829,
+        "x_details": [
+          {
+            "input_tokens": 4506,
+            "output_tokens": 323,
+            "output_tokens_details": {
+              "reasoning_tokens": 254
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 4829,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U02",
+      "role": "counselor",
+      "text": "公开课上的夸奖和你心里那股虚，中间好像突然被扯开了一个口子——刚下台就被物业电话拽回家，看到妈妈一个人站在门卫那儿，手里还攥着糖。那一刻你的心疼和慌张，是不是也没来得及被你自己好好接住？",
+      "request_sha256": "75fb4cdbcd33a031b439c1d835632d2eda4b8832991b3d68667a6dc30d844f82",
+      "usage": {
+        "input_tokens": 3942,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 314,
+        "output_tokens_details": {
+          "reasoning_tokens": 256
+        },
+        "total_tokens": 4256,
+        "x_details": [
+          {
+            "input_tokens": 3942,
+            "output_tokens": 314,
+            "output_tokens_details": {
+              "reasoning_tokens": 256
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 4256,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U03",
+      "role": "client",
+      "text": "其实吧，我那天看到我妈攥着糖，第一反应居然是松了口气，至少她没走太远。可等我把她领回家，给她换鞋的时候，手一直在抖，也不知道是跑急了还是怎么的。",
+      "request_sha256": "9ff2453e99dd301fe7fd8a6cabecf6cfab9d783b6f399aac2db927c7eb44eaa0",
+      "usage": {
+        "input_tokens": 4679,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 198,
+        "output_tokens_details": {
+          "reasoning_tokens": 150
+        },
+        "total_tokens": 4877,
+        "x_details": [
+          {
+            "input_tokens": 4679,
+            "output_tokens": 198,
+            "output_tokens_details": {
+              "reasoning_tokens": 150
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4877,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U04",
+      "role": "counselor",
+      "text": "你当时第一反应是松了口气，可换鞋时手却一直抖，好像身体比你的判断更早知道这件事有多重。那种抖也许不只是跑急，还带着后怕——怕她没走远，也怕下一次未必能这么“幸运”。你愿意多说说换鞋时脑子里闪过什么吗？",
+      "request_sha256": "997492a49ab6af4d90ddcf34fbdf0a8ff8d35c1fc8ae8648cc958a546100d6d8",
+      "usage": {
+        "input_tokens": 4093,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 319,
+        "output_tokens_details": {
+          "reasoning_tokens": 252
+        },
+        "total_tokens": 4412,
+        "x_details": [
+          {
+            "input_tokens": 4093,
+            "output_tokens": 319,
+            "output_tokens_details": {
+              "reasoning_tokens": 252
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4412,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U05",
+      "role": "client",
+      "text": "其实吧，换鞋的时候我脑子里全是她站在门卫那儿的样子，手里那几颗糖都捏出汗来了。我一边给她脱鞋一边想，要是哪天真走远了，我是不是还来得及从讲台上跑回来。",
+      "request_sha256": "05709858ea7f60a08ccd4a9dec053fc0c752be86d26dd7f2226fea0408823616",
+      "usage": {
+        "input_tokens": 4839,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 287,
+        "output_tokens_details": {
+          "reasoning_tokens": 236
+        },
+        "total_tokens": 5126,
+        "x_details": [
+          {
+            "input_tokens": 4839,
+            "output_tokens": 287,
+            "output_tokens_details": {
+              "reasoning_tokens": 236
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5126,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U06",
+      "role": "counselor",
+      "text": "你好像被夹在讲台和家门之间，一边是别人眼里的“天生适合当老师”，一边是随时可能冲回来的慌乱。那个“还来得及吗”的念头里，是不是也藏着对自己分身乏术的害怕？",
+      "request_sha256": "47f974af15898bb5bb695a0f8f91b74a3a8943a6fb17af24b67927186937901b",
+      "usage": {
+        "input_tokens": 4256,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 165,
+        "output_tokens_details": {
+          "reasoning_tokens": 114
+        },
+        "total_tokens": 4421,
+        "x_details": [
+          {
+            "input_tokens": 4256,
+            "output_tokens": 165,
+            "output_tokens_details": {
+              "reasoning_tokens": 114
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4421,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U07",
+      "role": "client",
+      "text": "其实吧，我是怕，怕哪天真出了事，我可能要怪自己一辈子。这周我弟本来说周末回来，结果周五晚上又发消息说临时有事不来了，我连生气都没力气，就觉得心里空了一块，夜里还反胃。",
+      "request_sha256": "73ce07dce5d0dc86aa6787b6a791082709e0d461d0d3bcb5c04245e7655db203",
+      "usage": {
+        "input_tokens": 4986,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 271,
+        "output_tokens_details": {
+          "reasoning_tokens": 215
+        },
+        "total_tokens": 5257,
+        "x_details": [
+          {
+            "input_tokens": 4986,
+            "output_tokens": 271,
+            "output_tokens_details": {
+              "reasoning_tokens": 215
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5257,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U08",
+      "role": "counselor",
+      "text": "弟弟又一次说来又不来，你连生气的力气都没有了，只剩心里空掉一块，夜里还反胃——听起来这种失望和无力已经不再只是情绪，而是落在身体上了。你不需要急着解释反胃，我们可以先停在你“连生气都没力气”这个位置，看看那空掉的地方还连着些什么。",
+      "request_sha256": "84f0ebfed2f86817622653cf597e25903dce1a4465428f7c17966204f14f2e8c",
+      "usage": {
+        "input_tokens": 4408,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 270,
+        "output_tokens_details": {
+          "reasoning_tokens": 200
+        },
+        "total_tokens": 4678,
+        "x_details": [
+          {
+            "input_tokens": 4408,
+            "output_tokens": 270,
+            "output_tokens_details": {
+              "reasoning_tokens": 200
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 4678,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U09",
+      "role": "client",
+      "text": "其实吧，我也说不清空了的那块连着啥，就是这周夜里醒过来，胃里翻得难受，脑子里一遍遍过的是他上个月说“这次肯定回”的那条语音。我现在听见手机响都条件反射地怕，怕又是谁临时变了卦。",
+      "request_sha256": "b04a1d41d00a2d2de014a542915ed86ef6c8017c1aa876efa9b93cae4afa9ae0",
+      "usage": {
+        "input_tokens": 5157,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 568,
+        "output_tokens_details": {
+          "reasoning_tokens": 507
+        },
+        "total_tokens": 5725,
+        "x_details": [
+          {
+            "input_tokens": 5157,
+            "output_tokens": 568,
+            "output_tokens_details": {
+              "reasoning_tokens": 507
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5725,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U10",
+      "role": "counselor",
+      "text": "那条“这次肯定回”的语音，现在好像和夜里翻胃的感觉黏在一起，反复在你身体里转。手机一响就条件反射地怕，或许是因为你已经被“临时变卦”晃过太多次，连安心等一个消息都觉得危险。",
+      "request_sha256": "5cb215b269f6502cdc15f30b452489e2827e893e37146d9ac1f9d0d5cf098524",
+      "usage": {
+        "input_tokens": 4584,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 353,
+        "output_tokens_details": {
+          "reasoning_tokens": 296
+        },
+        "total_tokens": 4937,
+        "x_details": [
+          {
+            "input_tokens": 4584,
+            "output_tokens": 353,
+            "output_tokens_details": {
+              "reasoning_tokens": 296
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 4937,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U11",
+      "role": "client",
+      "text": "其实吧，我现在最怕的就是手机响，尤其是半夜。昨天我点开过一个照顾记性变差老人的家属群，看了半天又退出来了，觉得自己还没到要找人搭话的地步，也不想让别人知道我家这样。",
+      "request_sha256": "bac0446ccb6d427924485b3c3f749ebf34e60af60a7627c5a2fc4dd15af7ade4",
+      "usage": {
+        "input_tokens": 5327,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 621,
+        "output_tokens_details": {
+          "reasoning_tokens": 572
+        },
+        "total_tokens": 5948,
+        "x_details": [
+          {
+            "input_tokens": 5327,
+            "output_tokens": 621,
+            "output_tokens_details": {
+              "reasoning_tokens": 572
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5948,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U12",
+      "role": "counselor",
+      "text": "你点开那个家属群又退出来，好像不只是怕别人知道家里这样，也是怕自己一旦走进去，就等于承认这件事真的重到需要别人接一接了。可你半夜还点开它，说明那个“想找人搭话”的念头并没有被你真的关掉，只是还不确定要怎么面对它。今天不用急着决定该不该说、该对谁说，能让我听见你这些犹豫，就已经很重要。",
+      "request_sha256": "8052bf0840e6bd4a31134286d6fc5f650bc5d8c23dd3b00a47b336ab6d3dd78c",
+      "usage": {
+        "input_tokens": 4742,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 378,
+        "output_tokens_details": {
+          "reasoning_tokens": 287
+        },
+        "total_tokens": 5120,
+        "x_details": [
+          {
+            "input_tokens": 4742,
+            "output_tokens": 378,
+            "output_tokens_details": {
+              "reasoning_tokens": 287
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5120,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U13",
+      "role": "client",
+      "text": "其实吧，我看到那个家属群里有人发“今天又差点把妈锁在门外”，心里咯噔一下，又马上退出来，说不上是害怕还是羞愧。我现在手机都是常年静音，可还是觉得哪个角落会突然响起来。",
+      "request_sha256": "40947b8fac457a1acf79e17e055386e097eec379f7789b0254c61b18fd3790fd",
+      "usage": {
+        "input_tokens": 5512,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 336,
+        "output_tokens_details": {
+          "reasoning_tokens": 282
+        },
+        "total_tokens": 5848,
+        "x_details": [
+          {
+            "input_tokens": 5512,
+            "output_tokens": 336,
+            "output_tokens_details": {
+              "reasoning_tokens": 282
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5848,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U14",
+      "role": "counselor",
+      "text": "看到那个帖子时心里“咯噔一下”，又马上退出来，那里面好像同时有被触动和想逃开的东西，你说不上是害怕还是羞愧，但身体先替你做了决定。手机常年静音，却还是觉得哪个角落会突然响——也许你防备的不只是来电，而是那种随时可能被打破的、勉强维持住的平静。今天先在这里停一下，这些感受我们下次可以继续看。",
+      "request_sha256": "56b5b20d14a5bcd7907a4b4fa97685bbc385a466fa823f551f5dfc5e7dc0f37a",
+      "usage": {
+        "input_tokens": 4932,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 305,
+        "output_tokens_details": {
+          "reasoning_tokens": 214
+        },
+        "total_tokens": 5237,
+        "x_details": [
+          {
+            "input_tokens": 4932,
+            "output_tokens": 305,
+            "output_tokens_details": {
+              "reasoning_tokens": 214
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5237,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U15",
+      "role": "client",
+      "text": "其实吧，我听见你说今天先停在这里，心里反而有点慌，好像一停下来那些事又会涨上来。我刚刚还想着要不要跟你说那个家属群的事，可又觉得说出来就像在承认自己已经撑到要找人分担了。",
+      "request_sha256": "5a0ee04aac78dbe2e2227cb39cebe822b1708b6b300348729c9d566447e5d415",
+      "usage": {
+        "input_tokens": 5702,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 167,
+        "output_tokens_details": {
+          "reasoning_tokens": 114
+        },
+        "total_tokens": 5869,
+        "x_details": [
+          {
+            "input_tokens": 5702,
+            "output_tokens": 167,
+            "output_tokens_details": {
+              "reasoning_tokens": 114
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5869,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S04-U16",
+      "role": "counselor",
+      "text": "你怕一停下来，那些事又会涨上来；也怕一说那个群的事，就好像承认自己真的撑到需要找人分担了。可你能把这两层怕都说出来，已经是在很小心地给自己留一条可以喘气的缝。今天先停在这里，那个群的事不用现在决定说还是不说，我们下次从你觉得可以的地方继续。",
+      "request_sha256": "c275728131249d7fcffb19f1983de404d995ff305ef4bbd52014090852d93df5",
+      "usage": {
+        "input_tokens": 5121,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 383,
+        "output_tokens_details": {
+          "reasoning_tokens": 308
+        },
+        "total_tokens": 5504,
+        "x_details": [
+          {
+            "input_tokens": 5121,
+            "output_tokens": 383,
+            "output_tokens_details": {
+              "reasoning_tokens": 308
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5504,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

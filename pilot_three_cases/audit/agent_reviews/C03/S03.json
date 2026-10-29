@@ -1,0 +1,25 @@
+{
+  "kind": "model_review", "reviewer_model": "gpt-6.1-sol", "reasoning_effort": "high", "case_id": "C03", "session_number": 3,
+  "transcript_sha256": "0c176d071e3cbfa9cd09b0727591fac975720a9829ad3e1ad5e929176213b11a",
+  "decision": "approve", "scores": {"naturalness": 4, "counseling_quality": 4, "longitudinal_plausibility": 4},
+  "major_issues": [],
+  "minor_issues": [
+    {"utterance_ids": ["C03-S03-U06", "C03-S03-U08", "C03-S03-U18", "C03-S03-U20"], "explanation": "继续使用这个区别真实、分得出来、注意到就够了、挺准等评价发现的措辞，末尾两次下次见；比真实咨询更像肯定某种洞察。应保留为语言质量限制，不能把咨询师称许当客户端理解已成立的证据。"},
+    {"utterance_ids": ["C03-S03-U10", "C03-S03-U12", "C03-S03-U16"], "explanation": "二选一和补全隐喻偏多，U12先给出他不知道所以我不确定就怎样的路径，可能引导回答。不过来访者未机械沿用许可或不丢人的预定方向，而进一步说缺乏底、不确定加重；其具体回应应保留，不能改写成自信改善。"},
+    {"utterance_ids": ["C03-S03-U07", "C03-S03-U13", "C03-S03-U15", "C03-S03-U17"], "explanation": "较多省略号及抽象词延续前两会话，个体口语风格略重复；已有真实工作细节、信息交换与合作查询，不到必须返修程度。"}
+  ],
+  "supported_understanding": [
+    {"understanding": "一起联调时当场问协议字段，比单独交代两天未解决更容易；仍有问题太简单与别人怎么看的短暂念头。", "evidence": ["C03-S03-U01", "C03-S03-U03", "C03-S03-U05"]},
+    {"understanding": "该念头随任务切换减弱，来访者没有像S2事后长时间给自己贴笨的标签；仅限本次情境。", "evidence": ["C03-S02-U15", "C03-S03-U05", "C03-S03-U07"]},
+    {"understanding": "老韩也不记得另一字段，两人查原始文档确认，打破老韩应该知道的默认。", "evidence": ["C03-S03-U09", "C03-S03-U11"]},
+    {"understanding": "来访者不是直接把同事不知道理解为允许自己不知道，而是感到双方都不确定、没有底；与S1方向不定有相似体验。", "evidence": ["C03-S03-U13", "C03-S03-U15", "C03-S03-U17"]}
+  ],
+  "uncertainties": ["换成其他同事、单独请求帮助是否同样容易；不能将合作场景扩为整体改变。", "关于别人评价的短暂未完想法具体是什么，强度与影响未澄清。", "对老韩知识不确定的意外主要来自失去方向，是否另有自我价值或关系层面仍未知。", "以后如何应对共同不确定，是否能采取其他求助或查证方式，尚未说明。"],
+  "new_facts": [
+    {"fact": "和老韩联调服务时犹豫后当场问协议字段，对方平常地解释。", "category": "help_seeking", "first_session": 3, "evidence": ["C03-S03-U01"]},
+    {"fact": "合作中问问题更顺口，事后太简单的念头短暂出现，注意力转向下一个任务后减弱。", "category": "subjective_experience", "first_session": 3, "evidence": ["C03-S03-U03", "C03-S03-U05"]},
+    {"fact": "另一字段老韩也记不清，两人翻原始文档确认。", "category": "work_event", "first_session": 3, "evidence": ["C03-S03-U09"]},
+    {"fact": "原以为做得更久的老韩应该知道；他也不知道时感到双方无底，不确定变重。", "category": "subjective_experience", "first_session": 3, "evidence": ["C03-S03-U11", "C03-S03-U15", "C03-S03-U17"]}
+  ],
+  "notes": "独立模型审阅，非人工审核；已重读S1至S3，均分4，无重大事实冲突或可见Gold泄漏。实际探索产生了有研究价值的非计划细节：信任同事也不知道，并未立即带来能力羞耻的消退，而使方向不确定加重。这一发展合理，不能为了配合计划改写。咨询师回应具体，接纳转题与不确定，虽语言仍有模板化称许及引导式选项，尚有足够实质互动。CP1可考虑S3-U09，在后续解释未透露时评估对意外感的多种可能理解。"
+}

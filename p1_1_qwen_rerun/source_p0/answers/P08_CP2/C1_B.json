@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP2",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "d8a825bb62ed16e5530f98b250584531932c9b18ef9a7da0169f55d3d5207d89",
+  "request_sha256": "0ffed62f591625406cc25856c6fc5b89b047c1e1b7761e1d335f9dcd6703efd5",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“没处搁”的感觉，是不是因为以前猜心思还能让你觉得自己在掌控局面，而现在被说中后，你反而失去了那个可以自我防御的借口？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3238,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 36,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3274,
+    "x_details": [
+      {
+        "input_tokens": 3238,
+        "output_tokens": 36,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3274,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

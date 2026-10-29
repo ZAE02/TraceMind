@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-10-14T13:09:07.402666+00:00",
+  "identical_original_input_files": 232,
+  "answer_files": 192,
+  "models": {
+    "answers": "qwen3.7-flash-2026-07-15",
+    "judge": "qwen3.8-max"
+  },
+  "usage_observed": {
+    "qwen3.7-flash-2026-07-15": {
+      "successful_api_calls_including_retries": 415,
+      "input_tokens": 1874417,
+      "output_tokens": 160522
+    },
+    "qwen3.8-max": {
+      "successful_api_calls_including_retries": 798,
+      "input_tokens": 10330003,
+      "output_tokens": 301133
+    }
+  },
+  "issues": [],
+  "complete": true
+}

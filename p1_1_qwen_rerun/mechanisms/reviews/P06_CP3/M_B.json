@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "M",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接了来访者'终于有人搭把手'的自我说服（S07-U05）以及前次会谈中关于承认需要帮助不是罪过的松动（S05），将历史认识与当下行为精准连接。",
+      "exploration_value": "邀请来访者探索拉平被角那一刻的内在体验，提出'不习惯'作为可能的感受方向，为关键不确定性留出空间，但略带引导性。",
+      "response_appropriateness": "语言温和、贴近来访者的身体动作细节，情绪反映恰当；'还没完全相信别人能接住这个家'稍有解释性推断，但整体尊重且不武断。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者'终于有人搭把手'的自我说服（S07-U05）以及前次会谈中关于承认需要帮助不是罪过的松动（S05），将历史认识与当下行为精准连接。\",\"exploration_value\":\"邀请来访者探索拉平被角那一刻的内在体验，提出'不习惯'作为可能的感受方向，为关键不确定性留出空间，但略带引导性。\",\"response_appropriateness\":\"语言温和、贴近来访者的身体动作细节，情绪反映恰当；'还没完全相信别人能接住这个家'稍有解释性推断，但整体尊重且不武断。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[]}",
+  "request_sha256": "49dfe0432d325c19df394959a80d73ffeac8e59188bf7136fcd0a88890233314",
+  "usage": {
+    "input_tokens": 20543,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 253,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20796,
+    "x_details": [
+      {
+        "input_tokens": 20543,
+        "output_tokens": 253,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 20796,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.344,
+  "model": "qwen3.8-max"
+}

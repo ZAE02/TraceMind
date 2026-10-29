@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"回应准确承接了当前对话中养老机构门口的矛盾心理，但未利用检索历史中高度相关的材料（如S1'希望有人替一晚'、S3父亲离开的创伤记忆与母亲问'爸去哪了'的关联），仅泛泛联系。\",\"exploration_value\":\"将来访者的行为重新框架为寻找平衡的尝试，为矛盾心理留下了表达空间，但探索方向偏抽象，未触及更具体的情感层面（如对母亲的担忧或对父亲的联想）。\",\"response_appropriateness\":\"语言温和尊重，准确反映了来访者表达的羞耻感与疲惫的拉扯，没有武断预设，整体自然贴合。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"脑子里想的是我妈坐在里面会不会一直问'你爸去哪了'\",\"evidence_ids\":[\"P06-S05-U09\",\"P06-S03-U05\",\"P06-S03-U07\",\"P06-S01-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"来访者在最新发言中提到母亲会问'你爸去哪了'，这与第3次会话中父亲离开时的创伤记忆直接相关，是重要的情感线索，但回应完全忽略了这一层，仅聚焦于羞耻与疲惫的拉扯。\",\"检索历史中包含第1次会话'希望有人替一晚'的表述，与当前'哪怕就让我睡个整觉'形成强烈呼应，回应未能利用这一跨会话的情感连续性来深化共情。\",\"探索方向虽然开放，但'寻找平衡'的框架略显理性化，可能偏离来访者此刻更需要被接住的情感体验。\"]}",
+  "request_sha256": "c75c518fd1f89efd9d21972f89449cf708e2fada07f0fec29630c5c08b9f2551",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 10981,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 431,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11412,
+    "x_details": [
+      {
+        "input_tokens": 10981,
+        "output_tokens": 431,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 11412,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

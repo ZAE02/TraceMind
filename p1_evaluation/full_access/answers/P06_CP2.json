@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P06_CP2",
+  "raw_text": "你站在门口那半小时，脑子里已经在替妈妈想象进去之后的样子，也在替护工担心耐不耐烦——好像连“想有人搭把手”这个念头，都要先经过一轮对别人的体谅和对自己的责备。你说“就等于承认自己照顾不好她”，可那个“太想睡个整觉”的愿望，听起来不是不负责任，而是你已经累到连基本休息都成了奢望。",
+  "request_sha256": "3624a5bfc36788439c244335cb7a8e0bcad38d4322996b69931fcbeb7459546a",
+  "input_sha256": "f9ad844308a7d8398bc5b0225a4d7b963c16c36bfa77dd97ee6b7501b32583e5",
+  "memory_sha256": "68130dbccbd4e7ea339bb83ed1e5b54aa6b558cb69653694ca7cc591616b61ec",
+  "usage": {
+    "input_tokens": 6723,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 85,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6808,
+    "x_details": [
+      {
+        "input_tokens": 6723,
+        "output_tokens": 85,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 6808,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.11
+}

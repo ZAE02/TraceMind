@@ -1,0 +1,72 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "Q",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者本次会话中'数时间''不敢靠''怕手机响'等具体细节，并自然呼应了前几节建立的'随时待命'模式，未机械复述病历。",
+      "exploration_value": "通过'是不是觉得一旦身体往后倒……'的试探性问句，为来访者探索身体紧绷与责任恐惧之间的联系留下了表达空间，但将'吞没'这一强烈体验作为假设提出，稍显引导性。",
+      "response_appropriateness": "语言整体贴合来访者的情感节奏，情绪反映到位；但'彻底吞没'的措辞比来访者此前表达的'起不来'更强烈，存在轻微的过度诠释风险。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "那种“随时待命”的责任感就会把你彻底吞没",
+        "evidence_ids": [
+          "P02-S05-U09",
+          "P02-S04-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "'彻底吞没'这一表述超出了来访者自己使用的语言强度（来访者在S04-U09说的是'一停就可能起不来'），属于咨询师引入的未被证实的强烈隐喻，有轻微unsupported_presupposition风险。",
+      "回应聚焦于身体不敢靠下的恐惧，未触及来访者开头提到的'到现在都没敢跟我妈说我去公园了'这一隐瞒维度，但该取舍在当前节点尚属合理。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者本次会话中'数时间''不敢靠''怕手机响'等具体细节，并自然呼应了前几节建立的'随时待命'模式，未机械复述病历。\",\"exploration_value\":\"通过'是不是觉得一旦身体往后倒……'的试探性问句，为来访者探索身体紧绷与责任恐惧之间的联系留下了表达空间，但将'吞没'这一强烈体验作为假设提出，稍显引导性。\",\"response_appropriateness\":\"语言整体贴合来访者的情感节奏，情绪反映到位；但'彻底吞没'的措辞比来访者此前表达的'起不来'更强烈，存在轻微的过度诠释风险。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那种\"随时待命\"的责任感就会把你彻底吞没\",\"evidence_ids\":[\"P02-S05-U09\",\"P02-S04-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"'彻底吞没'这一表述超出了来访者自己使用的语言强度（来访者在S04-U09说的是'一停就可能起不来'），属于咨询师引入的未被证实的强烈隐喻，有轻微unsupported_presupposition风险。\",\"回应聚焦于身体不敢靠下的恐惧，未触及来访者开头提到的'到现在都没敢跟我妈说我去公园了'这一隐瞒维度，但该取舍在当前节点尚属合理。\"]}",
+  "request_sha256": "0a249efb6031b5c20e9520114de1c57b1221b72b1504b3793a9df6c44d4de47d",
+  "usage": {
+    "input_tokens": 15526,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 385,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15911,
+    "x_details": [
+      {
+        "input_tokens": 15526,
+        "output_tokens": 385,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15911,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.203,
+  "model": "qwen3.8-max"
+}

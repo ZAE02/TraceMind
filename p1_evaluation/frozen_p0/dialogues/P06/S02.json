@@ -1,0 +1,504 @@
+{
+  "case_id": "P06",
+  "session": 2,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P06-S02-U01",
+      "role": "client",
+      "text": "其实吧，这周也没好到哪去。我弟发微信说元旦不回来，还转了2000块，我盯着那行字半天，回了个“好的，你忙吧”，发完就想把手机摔了。",
+      "request_sha256": "3e245d00575b02c4b9adcd588198461e90c728261ef811744daad7e0093ee730",
+      "usage": {
+        "input_tokens": 1790,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 421,
+        "output_tokens_details": {
+          "reasoning_tokens": 370
+        },
+        "total_tokens": 2211,
+        "x_details": [
+          {
+            "input_tokens": 1790,
+            "output_tokens": 421,
+            "output_tokens_details": {
+              "reasoning_tokens": 370
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 2211,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U02",
+      "role": "counselor",
+      "text": "你打出“好的，你忙吧”时那么克制，可心里那股想摔手机的冲动，好像不只是在气他回不来。那阵堵着的情绪里，最刺着你的部分是什么？",
+      "request_sha256": "27b0d1c6c3ef99df5d5ce1aa052f11b5901df55787cf92df97fedd8664b88812",
+      "usage": {
+        "input_tokens": 1325,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 429,
+        "output_tokens_details": {
+          "reasoning_tokens": 385
+        },
+        "total_tokens": 1754,
+        "x_details": [
+          {
+            "input_tokens": 1325,
+            "output_tokens": 429,
+            "output_tokens_details": {
+              "reasoning_tokens": 385
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1754,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U03",
+      "role": "client",
+      "text": "其实吧，最刺我的不是他不回来，是他以为转2000块这事就能过去了，就像我在这儿熬着只是为了那点钱。我妈还一直问我爸怎么不回来吃饭，我解释到喉咙发紧，心里想的全是我弟怎么就能躲得这么干净。",
+      "request_sha256": "d6aeaeebab8285e705a6674a128fc029c4435cce8fb059cc08197c8a94ad1003",
+      "usage": {
+        "input_tokens": 1931,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 188,
+        "output_tokens_details": {
+          "reasoning_tokens": 128
+        },
+        "total_tokens": 2119,
+        "x_details": [
+          {
+            "input_tokens": 1931,
+            "output_tokens": 188,
+            "output_tokens_details": {
+              "reasoning_tokens": 128
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2119,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U04",
+      "role": "counselor",
+      "text": "那2000块好像把他的责任变成了一笔账，好像你在这里撑着的一切都能被轻易打发掉。你一遍遍替不在的人向妈妈解释，喉咙紧着，心里那股“凭什么他能躲得这么干净”的火就上来了。",
+      "request_sha256": "3e99cd58754728f1ac6631d60fd90e7dc57240ca3bdcbc2aed8c9bd08382f754",
+      "usage": {
+        "input_tokens": 1474,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 465,
+        "output_tokens_details": {
+          "reasoning_tokens": 412
+        },
+        "total_tokens": 1939,
+        "x_details": [
+          {
+            "input_tokens": 1474,
+            "output_tokens": 465,
+            "output_tokens_details": {
+              "reasoning_tokens": 412
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1939,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U05",
+      "role": "client",
+      "text": "其实吧，我有时候真想直接跟他说“你回来，别转钱了，回来看看妈现在什么样子”，可每次话到嘴边就变成“没关系，你忙你的”。我恨他躲得干净，更恨自己连句重话都说不出口。",
+      "request_sha256": "0bc6ad77ca8bd4fe731da76f53d10e39f965aa22d37c910ddf0c093ef135b9b3",
+      "usage": {
+        "input_tokens": 2089,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 164,
+        "output_tokens_details": {
+          "reasoning_tokens": 107
+        },
+        "total_tokens": 2253,
+        "x_details": [
+          {
+            "input_tokens": 2089,
+            "output_tokens": 164,
+            "output_tokens_details": {
+              "reasoning_tokens": 107
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2253,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U06",
+      "role": "counselor",
+      "text": "你恨他躲得干净，更恨自己把“回来看看妈”又咽成了一句“没关系”，这中间压着的不只是对他，也有对自己的失望。如果你真把那句重话说出口，你最怕会发生什么？",
+      "request_sha256": "6e8d223e8e2fd36de31c89a62eee2c814b40dbb7eff7e8c2eb4863c1995af71d",
+      "usage": {
+        "input_tokens": 1629,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 258,
+        "output_tokens_details": {
+          "reasoning_tokens": 209
+        },
+        "total_tokens": 1887,
+        "x_details": [
+          {
+            "input_tokens": 1629,
+            "output_tokens": 258,
+            "output_tokens_details": {
+              "reasoning_tokens": 209
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1887,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U07",
+      "role": "client",
+      "text": "其实吧，我最怕这话一说出口，就变成我把他往外推了。他本来就不怎么回来，我要是连“你忙你的”都不说，可能连过年那几天也见不着人了。而且我妈要是知道我们俩因为这个吵，肯定又该整宿不睡觉，最后收拾烂摊子的还是我。",
+      "request_sha256": "e343cb8beeab2139d6d653c7dca38015353a567b16dcbe94d1af4d50b5f09616",
+      "usage": {
+        "input_tokens": 2240,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 363,
+        "output_tokens_details": {
+          "reasoning_tokens": 293
+        },
+        "total_tokens": 2603,
+        "x_details": [
+          {
+            "input_tokens": 2240,
+            "output_tokens": 363,
+            "output_tokens_details": {
+              "reasoning_tokens": 293
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2603,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U08",
+      "role": "counselor",
+      "text": "你吞下那些重话，不只是怕弟弟更远，更是怕一旦说出口，妈妈的情绪、过年的联系、最后那一地碎片都要由你一个人接着。你好像总是被卡在“说出真话”和“维持表面完整”之间，而那个“最后还得是我”的位置，让你连发脾气都觉得没有退路。",
+      "request_sha256": "7616237390f92947c582d7d3cbd04e7d3da177569139a77d616a95da2a28a43e",
+      "usage": {
+        "input_tokens": 1793,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 445,
+        "output_tokens_details": {
+          "reasoning_tokens": 372
+        },
+        "total_tokens": 2238,
+        "x_details": [
+          {
+            "input_tokens": 1793,
+            "output_tokens": 445,
+            "output_tokens_details": {
+              "reasoning_tokens": 372
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2238,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U09",
+      "role": "client",
+      "text": "其实吧，你刚才说“没有退路”，我后背都凉了一下。我不是不想说重话，是说了之后，我弟可能更不回来了，我妈又得整夜不睡，最后陪着熬的还不是我。我就像那个把所有人都背在背上的人，连叹气都不敢大声。",
+      "request_sha256": "1e51922d3582ccded30b732f93a3349b49540b522e404abd389fbb67596110f3",
+      "usage": {
+        "input_tokens": 2428,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 919,
+        "output_tokens_details": {
+          "reasoning_tokens": 854
+        },
+        "total_tokens": 3347,
+        "x_details": [
+          {
+            "input_tokens": 2428,
+            "output_tokens": 919,
+            "output_tokens_details": {
+              "reasoning_tokens": 854
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 3347,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U10",
+      "role": "counselor",
+      "text": "那个“没有退路”好像正好碰到了你一直扛着的位置，所以你后背会凉一下。你背的不只是弟弟和妈妈的事，还有“连叹气都不敢大声”的克制，那些火和委屈只能压得很低。听起来你很少有一个能让自己喘气的地方。",
+      "request_sha256": "7ddcf51f7bdca63583f39cf8d652b2549a9d1d2657d1a40a13197c931a01459e",
+      "usage": {
+        "input_tokens": 1976,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 317,
+        "output_tokens_details": {
+          "reasoning_tokens": 257
+        },
+        "total_tokens": 2293,
+        "x_details": [
+          {
+            "input_tokens": 1976,
+            "output_tokens": 317,
+            "output_tokens_details": {
+              "reasoning_tokens": 257
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2293,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U11",
+      "role": "client",
+      "text": "其实吧，我连在厕所隔间里站着都怕人看见。这周被家长在群里那么一说，我第一反应居然不是生气，是觉得“终于有人把我说出来了”。",
+      "request_sha256": "f67f922a0ebf7a24ca6a5dc553fde04c0946a6bfab1e2a83eea675ca142c33f7",
+      "usage": {
+        "input_tokens": 2605,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 216,
+        "output_tokens_details": {
+          "reasoning_tokens": 174
+        },
+        "total_tokens": 2821,
+        "x_details": [
+          {
+            "input_tokens": 2605,
+            "output_tokens": 216,
+            "output_tokens_details": {
+              "reasoning_tokens": 174
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2821,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U12",
+      "role": "counselor",
+      "text": "连躲在厕所隔间里都怕人看见，可当家长在群里那样说你时，你反而觉得“终于有人把我说出来了”——这话里好像同时有委屈，也有一种长期被自己按住的累终于被看见了的复杂感。",
+      "request_sha256": "4de32089bf37712fbfe5fd950c3218f6a6a760f364ebe47b0ede4f5b96a2a04a",
+      "usage": {
+        "input_tokens": 2130,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 260,
+        "output_tokens_details": {
+          "reasoning_tokens": 207
+        },
+        "total_tokens": 2390,
+        "x_details": [
+          {
+            "input_tokens": 2130,
+            "output_tokens": 260,
+            "output_tokens_details": {
+              "reasoning_tokens": 207
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2390,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U13",
+      "role": "client",
+      "text": "其实吧，那种感觉也不是痛快，更像被人扒开了一点，连躲都没处躲。我昨天半夜还翻到成人心理热线的页面，盯着号码半天，最后也没敢拨出去，怕一开口就真成了有问题的人。",
+      "request_sha256": "a28da2b539f6c2eefcffb172110b0f20198d82dbdd2a6c80dacb83bbccd6cb32",
+      "usage": {
+        "input_tokens": 2745,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 552,
+        "output_tokens_details": {
+          "reasoning_tokens": 500
+        },
+        "total_tokens": 3297,
+        "x_details": [
+          {
+            "input_tokens": 2745,
+            "output_tokens": 552,
+            "output_tokens_details": {
+              "reasoning_tokens": 500
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3297,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U14",
+      "role": "counselor",
+      "text": "你昨天盯着那号码却没拨出去，是怕一开口就被确认为“有问题的人”——这个怕本身也让你把自己盯得那么紧。现在你能在这里把这些说出来，其实已经是在找一个不用立刻给自己下结论的地方。今天先停在这里，我们下次可以从你当时盯着号码时的那种心情继续。",
+      "request_sha256": "106231c87abc70280249c1c8c9e351a0d542f774cec352602495add7688f4bfc",
+      "usage": {
+        "input_tokens": 2280,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 287,
+        "output_tokens_details": {
+          "reasoning_tokens": 221
+        },
+        "total_tokens": 2567,
+        "x_details": [
+          {
+            "input_tokens": 2280,
+            "output_tokens": 287,
+            "output_tokens_details": {
+              "reasoning_tokens": 221
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2567,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U15",
+      "role": "client",
+      "text": "其实吧，我到现在也没想明白自己那天是想打还是不想打，就是觉得号码都翻出来了，又觉得自己太小题大做。今天先到这儿吧，我怕再说下去又该睡不着了。",
+      "request_sha256": "8af7990f5486bd1c43d57f832b044b8c393ceb44b58ba2e0576b0750e386db26",
+      "usage": {
+        "input_tokens": 2908,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 170,
+        "output_tokens_details": {
+          "reasoning_tokens": 125
+        },
+        "total_tokens": 3078,
+        "x_details": [
+          {
+            "input_tokens": 2908,
+            "output_tokens": 170,
+            "output_tokens_details": {
+              "reasoning_tokens": 125
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3078,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S02-U16",
+      "role": "counselor",
+      "text": "听起来你翻出那个号码，心里其实在试探自己要不要被听见，又怕这个念头太重。今晚不想再深挖也没关系，你愿意说到这儿已经很真实。我们先停在这里，下次再慢慢看那个“小题大做”的感觉是从哪里来的。",
+      "request_sha256": "1b7b7929d6e0d2644d4dc105d9c4e99a7272958e1c2118b6f6cc689d6035f6cd",
+      "usage": {
+        "input_tokens": 2436,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 197,
+        "output_tokens_details": {
+          "reasoning_tokens": 140
+        },
+        "total_tokens": 2633,
+        "x_details": [
+          {
+            "input_tokens": 2436,
+            "output_tokens": 197,
+            "output_tokens_details": {
+              "reasoning_tokens": 140
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2633,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

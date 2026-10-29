@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "ebae331b3f860c9e1702851db8507f5bd5d483510490d642b4f1d50f6cba4fbe",
+  "public_sha256": "4cff561a4c5fb4dadbecb4fe78ec21e83eac56f2bd764214788a384c3497a2d3",
+  "candidate_input_sha256": "9589df36358bb478859a9422e898061b1f3b33e091f3aea026b230393cce30ae",
+  "candidate_answer_sha256": "47e5cfa66576426896b842e65ec45a0e957d42d9576de56d4a7c2d938a3500e9",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"所有陈述均严格基于当前会话（Session 3）的公开对话内容，准确提取了来访者的行为、感受和认知，无推测性事实混入。\",\n    \"progress_understanding\": \"准确识别了当前会话中的核心进展（对压抑愤怒和照顾他人情绪的觉察），但未能像最高分那样明确连接此前会话中已建立的“讨好/过度负责”模式与本次新发现的“不敢生气”之间的深层联系，略显孤立。\",\n    \"uncertainty_awareness\": \"清晰区分了已知事实（如手冻僵但未离开）与未知情境（如主管意图、同事评价），列出的不确定点均为合理且必要的探索方向，未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "所有陈述均严格基于当前会话（Session 3）的公开对话内容，准确提取了来访者的行为、感受和认知，无推测性事实混入。",
+      "progress_understanding": "准确识别了当前会话中的核心进展（对压抑愤怒和照顾他人情绪的觉察），但未能像最高分那样明确连接此前会话中已建立的“讨好/过度负责”模式与本次新发现的“不敢生气”之间的深层联系，略显孤立。",
+      "uncertainty_awareness": "清晰区分了已知事实（如手冻僵但未离开）与未知情境（如主管意图、同事评价），列出的不确定点均为合理且必要的探索方向，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 6728,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 226,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6954,
+    "x_details": [
+      {
+        "input_tokens": 6728,
+        "output_tokens": 226,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6954,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.812
+}

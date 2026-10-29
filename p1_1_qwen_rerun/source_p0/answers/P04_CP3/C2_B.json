@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP3",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "a28408bb7fdc1655df4f1b0e6d773d16932cac919daf06a2eb497e12144fe6f7",
+  "request_sha256": "0ba048821335af4b7d2e1f4d35971b5e467c002123ce3d241377dbec9a00e637",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那团没洗的工服让你既感到“到极限了”的释放，又因看见那个狼狈的自己而恶心，这种矛盾是不是让你觉得，连“承认累”都变成了一种需要被审视的负担？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3502,
+    "input_tokens_details": {
+      "cached_tokens": 3200
+    },
+    "output_tokens": 47,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3549,
+    "x_details": [
+      {
+        "input_tokens": 3502,
+        "output_tokens": 47,
+        "prompt_tokens_details": {
+          "cached_tokens": 3200
+        },
+        "total_tokens": 3549,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

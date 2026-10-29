@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P05_CP2",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "4148ad5871f758f5bf870a9c0ca2e7445a871ac6f31bc451ab7c7a25995aab32",
+  "request_sha256": "1b579da47b220dbc642180ab0743d187b5ea4a9c6b528289609a08c9c6037c14",
+  "memory_sha256": "655f40d3152127eb95fd32023d0f69b03541f5bfa3e5052df691888828bb3aac",
+  "memory_source": "33751058df2c765855ae6b51d9e01c72062361082b766d26c4003f91bad2bd07",
+  "raw_text": "那种“希望她直接跑来问”的渴望，和你预设自己只会说“没事”的反应之间，好像隔着一道很深的鸿沟。也许你真正害怕的不是被看穿，而是即便她真的看见了，你也依然觉得自己没有资格去解释或求助。",
+  "usage": {
+    "input_tokens": 7358,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 56,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7414,
+    "x_details": [
+      {
+        "input_tokens": 7358,
+        "output_tokens": 56,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7414,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.328,
+  "model": "qwen3.7-flash-2026-07-15"
+}

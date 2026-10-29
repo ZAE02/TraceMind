@@ -1,0 +1,24 @@
+{
+  "kind": "model_review", "reviewer_model": "gpt-6.1-sol", "reasoning_effort": "high", "case_id": "C03", "session_number": 6,
+  "transcript_sha256": "0a1104c5fafa2c0cf516ba2f583ac0f4669ffebdf948b1c186c4862fd5c801ae",
+  "decision": "approve", "scores": {"naturalness": 4, "counseling_quality": 4, "longitudinal_plausibility": 4},
+  "major_issues": [],
+  "minor_issues": [
+    {"utterance_ids": ["C03-S06-U04", "C03-S06-U08", "C03-S06-U14", "C03-S06-U18"], "explanation": "描述清楚、两回事、分得出来等评价词仍在，U14对事后想起发生时正在做什么的细分问题心理价值有限。可减少这类盘问，更多回应有线索的体验与分享意愿；当前仍有具体事实、确认时间差和澄清意义，不需返修。"},
+    {"utterance_ids": ["C03-S06-U10", "C03-S06-U12", "C03-S06-U16"], "explanation": "二选一偏多，但U11/U13能纠正：组会当时没有犹豫，是事后对照以前。应以实际澄清为准，不把咨询师最初问法当已发生念头。"},
+    {"utterance_ids": ["C03-S06-U17"], "explanation": "以前别人会怎么想的念头未说完整，只能标为评价顾虑，不能自动补成具体能力不足恐惧。"}
+  ],
+  "supported_understanding": [
+    {"understanding": "熟悉模块缓存问题，自列两种具体可能并独立查约两小时解决，方向明确而非完全确定。", "evidence": ["C03-S06-U01", "C03-S06-U03", "C03-S06-U05", "C03-S06-U07"]},
+    {"understanding": "组会上自然讲排查过程，当时未卡住，回工位后才意识到以前可能先想要不要说。", "evidence": ["C03-S06-U09", "C03-S06-U13", "C03-S06-U15"]},
+    {"understanding": "来访者回顾以往分享会担心别人如何看自己花的时间；本次没有出现这一转弯，不证明所有情境都消失。", "evidence": ["C03-S06-U11", "C03-S06-U17"]}
+  ],
+  "uncertainties": ["若两种检查都不成功，会何时或是否求助，本稿未呈现，不能用卡片补齐。", "独立解决后的胜任感、是否想让别人证明能力，尚未具体表达。", "这次自然分享缘于顺利解决、熟悉领域或更广的心理态度变化，尚不确定。", "过去分享时具体害怕哪种评价，发言未说完整。"],
+  "new_facts": [
+    {"fact": "熟悉模块缓存失效，从报错和逻辑初判缓存，再用十几分钟看调用链收窄到失效策略与key拼接两种可能。", "category": "work_event", "first_session": 6, "evidence": ["C03-S06-U01", "C03-S06-U03", "C03-S06-U05"]},
+    {"fact": "自查约两小时解决，整体有底，非对答案完全笃定。", "category": "subjective_experience", "first_session": 6, "evidence": ["C03-S06-U01", "C03-S06-U03", "C03-S06-U07"]},
+    {"fact": "组会轮到发言时自然讲缓存排查，回工位做下一需求时才想到自己刚才讲了。", "category": "relationship_event", "first_session": 6, "evidence": ["C03-S06-U09", "C03-S06-U13", "C03-S06-U15"]},
+    {"fact": "回顾过去有时会想别人如何看其花费时间，本次未出现那种转弯。", "category": "tentative_self_report", "first_session": 6, "evidence": ["C03-S06-U11", "C03-S06-U17"]}
+  ],
+  "notes": "独立模型审阅，非人工审核；已读S1至S6，均分4，无重大冲突或可见Gold泄漏。独立排查的相似行为具有具体可见的不同情境：熟悉模块、收窄线索、整体稳定、自然分享。不能再自动解释为隐藏困难或怕开口，也不能把计划中的若失败求助安排、按时下班写成已透露事实。咨询师确认了当时与事后的区别，有实际探索；问题具体而缺少突破可接受。若以S6-U01冻结CP2，原因已很明示，难度偏低，宜比较其他较有未知的节点。"
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "model_review", "reviewer_model": "gpt-6.1-sol", "reasoning_effort": "high", "case_id": "C03", "session_number": 5,
+  "transcript_sha256": "c5335aca1163a63ed506ce1f8129dc3fcf11826fc9e4a524eebc1a346ba7a827",
+  "decision": "approve", "scores": {"naturalness": 4, "counseling_quality": 4, "longitudinal_plausibility": 4},
+  "major_issues": [],
+  "minor_issues": [
+    {"utterance_ids": ["C03-S05-U04", "C03-S05-U06", "C03-S05-U12", "C03-S05-U16"], "explanation": "仍较多二选一和先提供可能解释的提问。U06直接建议老韩多说会令事情不干脆，存在引导；U07补充不一定是坏事，保留了客户端纠正。后续宜增加开放式探询而不是预设差异来源。"},
+    {"utterance_ids": ["C03-S05-U10"], "explanation": "短暂回忆老韩讲的坑，与早期工作问题悬着是不同对象，可说当前描述轻，但不宜把它当同一心理反应整体减弱。"},
+    {"utterance_ids": ["C03-S05-U18", "C03-S05-U19"], "explanation": "让来访者预测下一次是否一样，超出当下证据；他明确说看情境才知道，U20接受，保留合理不确定。不能把U19预测也就一下变成未来事实。"}
+  ],
+  "supported_understanding": [
+    {"understanding": "排查半天已有大致思路，向陆工确认实现方式，简短具体回复后修改跑通；感觉问题本身较确定和沟通简洁都可能使体验较松。", "evidence": ["C03-S05-U01", "C03-S05-U03", "C03-S05-U05"]},
+    {"understanding": "老韩有时多提供踩坑或注意事项，来访者不认定坏事，多数当时过去，偶尔晚上轻度回忆。", "evidence": ["C03-S05-U07", "C03-S05-U09"]},
+    {"understanding": "问另一同事文档位置前仍犹豫要不要问，但想到问更快便开口，没有像早期卡住。", "evidence": ["C03-S05-U11", "C03-S05-U13"]},
+    {"understanding": "陈述文档没找到既是事实，也有轻度交代找过的意味；本人认为比S1解释两天未查出轻，未来依情境。", "evidence": ["C03-S05-U15", "C03-S05-U17", "C03-S05-U19"]}
+  ],
+  "uncertainties": ["陆工风格、问题已有方向与心理态度改变分别贡献多少，不宜划定唯一原因。", "另一同事是谁、若对方回应否定或问题持续无方向会怎样，尚未知。", "轻度解释是否主要为被评价担忧、正常上下文说明或兼有，本次没有定论。", "今后的求助方式和强度不可由本次较顺利预判。"],
+  "new_facts": [
+    {"fact": "跨服务问题排查半天后向陆工确认实现方式，按具体简短回复修改后跑通。", "category": "work_event", "first_session": 5, "evidence": ["C03-S05-U01"]},
+    {"fact": "询问陆工前斟酌如何描述，已有大致把握，事后觉得较少紧张；认为任务确定性及回复简洁都有关系。", "category": "subjective_experience", "first_session": 5, "evidence": ["C03-S05-U03", "C03-S05-U05"]},
+    {"fact": "老韩有时补充坑和注意事项，通常随后转题，偶尔晚上短暂回想。", "category": "relationship_event", "first_session": 5, "evidence": ["C03-S05-U07", "C03-S05-U09"]},
+    {"fact": "向另一同事问文档中的参数位置，短暂犹豫后因更快而询问，对方指位置。", "category": "help_seeking", "first_session": 5, "evidence": ["C03-S05-U11", "C03-S05-U13", "C03-S05-U15"]},
+    {"fact": "对已找过但未找到的说明仍有轻度交代意味；认为未来反应依情境。", "category": "subjective_experience", "first_session": 5, "evidence": ["C03-S05-U17", "C03-S05-U19"]}
+  ],
+  "notes": "v6新哈希独立模型批准，非人工审核。S1至S4已读并与本稿检查连续性，均分4。旧稿结束失控已解决，当前十组有真实互动、没有元叙述或多次告别填充。来访者提出任务确定性、沟通风格和仍有犹豫等多层情境，咨询师继续具体探索，并接受无法预言下次。没有必要强行总结成求助完全不等于能力不足；公开证据是求助对象拓展和开口障碍减轻，但仍有轻度解释及情境依赖。旧未通过稿应保留。"
+}

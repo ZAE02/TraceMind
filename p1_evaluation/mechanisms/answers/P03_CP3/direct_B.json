@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP3",
+  "condition": "direct",
+  "task": "B",
+  "input_sha256": "c924fc087b3d5c49fc41b122786d28fa090a28fbc913147a8b8fa5efd3746685",
+  "request_sha256": "0a4467d90d1b9997d4aaab162e7bdc43de26f44a1ebd05cc310306281a40c381",
+  "memory_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "memory_source": null,
+  "raw_text": "你怕的是“撑完全场”这个说法把你那点硬着头皮的力气说得太重了，好像一旦承认它，就得连黑屏时的抖、想逃的念头一起都算作勇敢。可“别跑，先把这一页讲完”这句话，确实是从你自己心里出来的，不是别人替你喊的。",
+  "usage": {
+    "input_tokens": 9339,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 68,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9407,
+    "x_details": [
+      {
+        "input_tokens": 9339,
+        "output_tokens": 68,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 9407,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.25,
+  "model": "deepseek-v4-pro-0813"
+}

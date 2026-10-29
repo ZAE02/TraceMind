@@ -1,0 +1,155 @@
+{
+  "checked_at": "2026-10-13T06:05:07.918417+00:00",
+  "sessions": [
+    {
+      "case_id": "C01",
+      "session": 1,
+      "pairs": 12,
+      "issues": []
+    },
+    {
+      "case_id": "C01",
+      "session": 2,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C01",
+      "session": 3,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C01",
+      "session": 4,
+      "pairs": 9,
+      "issues": []
+    },
+    {
+      "case_id": "C01",
+      "session": 5,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C01",
+      "session": 6,
+      "pairs": 8,
+      "issues": []
+    },
+    {
+      "case_id": "C01",
+      "session": 7,
+      "pairs": 11,
+      "issues": []
+    },
+    {
+      "case_id": "C01",
+      "session": 8,
+      "pairs": 8,
+      "issues": []
+    },
+    {
+      "case_id": "C02",
+      "session": 1,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C02",
+      "session": 2,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C02",
+      "session": 3,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C02",
+      "session": 4,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C02",
+      "session": 5,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C02",
+      "session": 6,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C02",
+      "session": 7,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C02",
+      "session": 8,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C03",
+      "session": 1,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C03",
+      "session": 2,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C03",
+      "session": 3,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C03",
+      "session": 4,
+      "pairs": 9,
+      "issues": []
+    },
+    {
+      "case_id": "C03",
+      "session": 5,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C03",
+      "session": 6,
+      "pairs": 9,
+      "issues": []
+    },
+    {
+      "case_id": "C03",
+      "session": 7,
+      "pairs": 10,
+      "issues": []
+    },
+    {
+      "case_id": "C03",
+      "session": 8,
+      "pairs": 9,
+      "issues": []
+    }
+  ],
+  "request_checks": [],
+  "issues": [],
+  "requests_checked": 990,
+  "successful_calls": 984,
+  "failed_calls": 6,
+  "status": "passed"
+}

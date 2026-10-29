@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "267534c8cb58ed38a8bafc863fd70100da9a99cc54296591e60f613605174110",
+  "request_sha256": "5293e6614a78af1110ad8ae553da29c0b07cafd2616d3c1c49e20830b22a4d5b",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你希望她别信那个“加班”的借口、直接来找你，可又觉得自己到时候只会用“没事”把她挡回去——好像你既盼着被靠近，又已经准备好把那个靠近推开。那条动态发不发都“改变不了什么”的感觉，也许不只是对李繁，也是你对自己能不能被真正接住的一种疲惫。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 857,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 74,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 931,
+    "x_details": [
+      {
+        "input_tokens": 857,
+        "output_tokens": 74,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 931,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

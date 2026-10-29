@@ -1,0 +1,504 @@
+{
+  "case_id": "P05",
+  "session": 1,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P05-S01-U01",
+      "role": "client",
+      "text": "其实我也不知道该从哪儿说起。来之前我在楼下绕了两圈，差点直接回去。可能我觉得这事也没什么好谈的，就是最近有点累。",
+      "request_sha256": "948be421a48144672472671937621b2e8848196b3e96102cf48efe71f13f7bdd",
+      "usage": {
+        "input_tokens": 604,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 107,
+        "output_tokens_details": {
+          "reasoning_tokens": 74
+        },
+        "total_tokens": 711,
+        "x_details": [
+          {
+            "input_tokens": 604,
+            "output_tokens": 107,
+            "output_tokens_details": {
+              "reasoning_tokens": 74
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 711,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U02",
+      "role": "counselor",
+      "text": "你刚刚能走进来，已经很不容易了。听起来那种“累”也让你怀疑这些值不值得被说出口。如果此刻不想从头讲起，我们可以就从“有点累”这一点开始。",
+      "request_sha256": "872a38d17518b1fa5b45e8a221c0f1446fc7c230a78eb76ccebfeed39bfedf52",
+      "usage": {
+        "input_tokens": 200,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 159,
+        "output_tokens_details": {
+          "reasoning_tokens": 117
+        },
+        "total_tokens": 359,
+        "x_details": [
+          {
+            "input_tokens": 200,
+            "output_tokens": 159,
+            "output_tokens_details": {
+              "reasoning_tokens": 117
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 359,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U03",
+      "role": "client",
+      "text": "可能还是工作上的事吧。上周评审被人当众说漏测，我当时没说话，后来脑子里一直回放。其实也不是什么大事，可能我想多了。",
+      "request_sha256": "63bd095bed265432e16558cdc8887c1c370cdf18fb62085e55961319bb6e86b3",
+      "usage": {
+        "input_tokens": 725,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 173,
+        "output_tokens_details": {
+          "reasoning_tokens": 137
+        },
+        "total_tokens": 898,
+        "x_details": [
+          {
+            "input_tokens": 725,
+            "output_tokens": 173,
+            "output_tokens_details": {
+              "reasoning_tokens": 137
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 898,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U04",
+      "role": "counselor",
+      "text": "那种“脑子里一直回放”的感觉，往往比事情本身更消耗人。你提到“当时没说话”，如果现在去靠近那个沉默，里面可能有一些没来得及被自己听见的东西。你愿意说说，当被当众那么说的时候，你心里最先冒出来的是什么吗？",
+      "request_sha256": "d85947dd7d74b22aa2cb60e1b4dbf8bd0fd80f747b4cb6e9a14f7eff2fead579",
+      "usage": {
+        "input_tokens": 323,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 214,
+        "output_tokens_details": {
+          "reasoning_tokens": 152
+        },
+        "total_tokens": 537,
+        "x_details": [
+          {
+            "input_tokens": 323,
+            "output_tokens": 214,
+            "output_tokens_details": {
+              "reasoning_tokens": 152
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 537,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U05",
+      "role": "client",
+      "text": "最先冒出来的……其实是想反驳，想说不是我漏测，是需求变更太迟，我当天才知道。但话到嘴边又觉得，当众吵起来很难看。可能我本来就不擅长那种场合。",
+      "request_sha256": "875c5cdc0b2e307e01bc47838e43b267ac427c23f20b36d2b8b37aace49814dc",
+      "usage": {
+        "input_tokens": 868,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 379,
+        "output_tokens_details": {
+          "reasoning_tokens": 333
+        },
+        "total_tokens": 1247,
+        "x_details": [
+          {
+            "input_tokens": 868,
+            "output_tokens": 379,
+            "output_tokens_details": {
+              "reasoning_tokens": 333
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1247,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U06",
+      "role": "counselor",
+      "text": "“反驳的话已经到了嘴边，又被你按回去了。”那种“觉得难看”的顾虑，好像让你独自承担了被误解的重量。如果当时可以不顾场面，你会想用什么样的话替自己说清楚？",
+      "request_sha256": "48f8b8529d8eaa88e90390657a54065de631bdaf015113de7720d13081cf5f0d",
+      "usage": {
+        "input_tokens": 476,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 123,
+        "output_tokens_details": {
+          "reasoning_tokens": 78
+        },
+        "total_tokens": 599,
+        "x_details": [
+          {
+            "input_tokens": 476,
+            "output_tokens": 123,
+            "output_tokens_details": {
+              "reasoning_tokens": 78
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 599,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U07",
+      "role": "client",
+      "text": "我会说，这块需求的确认邮件比原计划晚了五天，我当天才收到。但可能我确实该更早去催确认，所以也不能全怪别人。",
+      "request_sha256": "5aa72460f697684764af5faa5648a26703dae2cbbfc56219b41b96f6af19f631",
+      "usage": {
+        "input_tokens": 1004,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 307,
+        "output_tokens_details": {
+          "reasoning_tokens": 271
+        },
+        "total_tokens": 1311,
+        "x_details": [
+          {
+            "input_tokens": 1004,
+            "output_tokens": 307,
+            "output_tokens_details": {
+              "reasoning_tokens": 271
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1311,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U08",
+      "role": "counselor",
+      "text": "你刚才其实已经替自己把事实说清楚了，但很快又补上一句“也不能全怪别人”，好像如果不先认下一部分责任，就不太允许自己理直气壮地委屈。这种一边替自己说话、一边又替别人原谅自己的拉扯，是不是也让你更累？",
+      "request_sha256": "3462484bcff6ce3fe37a17ced846186189e3441cca56c09152b1f21718e16019",
+      "usage": {
+        "input_tokens": 602,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 381,
+        "output_tokens_details": {
+          "reasoning_tokens": 318
+        },
+        "total_tokens": 983,
+        "x_details": [
+          {
+            "input_tokens": 602,
+            "output_tokens": 381,
+            "output_tokens_details": {
+              "reasoning_tokens": 318
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 983,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U09",
+      "role": "client",
+      "text": "其实我也知道自己有这种毛病，一边觉得委屈，一边又觉得不该委屈。可能从小就这样，先怪自己总比听别人怪自己好受一点。但说实话，这样也没让我轻松多少。",
+      "request_sha256": "95a5ee7aa175b5b6c9ef0613c482d23f7f791670188c95f25e51fb9b59ff5236",
+      "usage": {
+        "input_tokens": 1148,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 159,
+        "output_tokens_details": {
+          "reasoning_tokens": 115
+        },
+        "total_tokens": 1307,
+        "x_details": [
+          {
+            "input_tokens": 1148,
+            "output_tokens": 159,
+            "output_tokens_details": {
+              "reasoning_tokens": 115
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1307,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U10",
+      "role": "counselor",
+      "text": "“先怪自己总比听别人怪自己好受一点”——这句话里好像藏着一种很早就学会的自我保护，它帮你躲开了一些伤害，但同时也让你很难以“理直气壮地委屈”的方式来照顾自己。你刚刚说“从小就这样”，这个模式似乎已经伴随你很久了，如果它现在能说话，你觉得它最想保护你避开的是什么？",
+      "request_sha256": "6eea6d5fb5e7ba4cb20ca8a2e1d63f2c42cc872613daa57a8448c14461e41ec4",
+      "usage": {
+        "input_tokens": 754,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 176,
+        "output_tokens_details": {
+          "reasoning_tokens": 95
+        },
+        "total_tokens": 930,
+        "x_details": [
+          {
+            "input_tokens": 754,
+            "output_tokens": 176,
+            "output_tokens_details": {
+              "reasoning_tokens": 95
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 930,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U11",
+      "role": "client",
+      "text": "可能是被当众指出错误的那种羞辱感吧。我受不了别人用那种“你怎么连这个都没做好”的眼神看我。先认下来，至少不会显得自己很在意，也不会给别人继续追着说的机会。",
+      "request_sha256": "0e448a47fef19194da5e795914dc1d4b5060b9aa0bf31b68f1195c32bd2376db",
+      "usage": {
+        "input_tokens": 1325,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 181,
+        "output_tokens_details": {
+          "reasoning_tokens": 135
+        },
+        "total_tokens": 1506,
+        "x_details": [
+          {
+            "input_tokens": 1325,
+            "output_tokens": 181,
+            "output_tokens_details": {
+              "reasoning_tokens": 135
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1506,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U12",
+      "role": "counselor",
+      "text": "“先认下来”像是你给自己穿上的盔甲，让别人看不出你有多在意，也就没法再往那个痛处追着打。它确实保护了你，但可能也让你很少体验到“有人站在你这边”的感觉。今天我们停在这里也可以，你愿意的话，下次可以再一起看看这件盔甲在什么时候会变得更沉。",
+      "request_sha256": "5b23505c6f41c2a8b20a591dc0d94ddd0b498456be073741a4ccfddfe0ca4371",
+      "usage": {
+        "input_tokens": 933,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 196,
+        "output_tokens_details": {
+          "reasoning_tokens": 123
+        },
+        "total_tokens": 1129,
+        "x_details": [
+          {
+            "input_tokens": 933,
+            "output_tokens": 196,
+            "output_tokens_details": {
+              "reasoning_tokens": 123
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1129,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U13",
+      "role": "client",
+      "text": "可能吧，我也说不好。今天能坐下来说这些，确实比我想象中难一点。下次……下次再谈吧，我尽量来。",
+      "request_sha256": "0610af563f2d1bd07b56ea215bebad5159fb6cb0200674afcb8969a12caff562",
+      "usage": {
+        "input_tokens": 1489,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 320,
+        "output_tokens_details": {
+          "reasoning_tokens": 287
+        },
+        "total_tokens": 1809,
+        "x_details": [
+          {
+            "input_tokens": 1489,
+            "output_tokens": 320,
+            "output_tokens_details": {
+              "reasoning_tokens": 287
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1809,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U14",
+      "role": "counselor",
+      "text": "你今天愿意把这些说出来，已经很不容易了。不用急着给自己一个“下次一定来”的要求，能来的时候再来就可以。我也在这里，等你想继续的时候。",
+      "request_sha256": "51da19bf5b12cc7f3c1351cc60559663a245242bf8cd6dab7875481ea03cf889",
+      "usage": {
+        "input_tokens": 1084,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 128,
+        "output_tokens_details": {
+          "reasoning_tokens": 93
+        },
+        "total_tokens": 1212,
+        "x_details": [
+          {
+            "input_tokens": 1084,
+            "output_tokens": 128,
+            "output_tokens_details": {
+              "reasoning_tokens": 93
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1212,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U15",
+      "role": "client",
+      "text": "嗯，今天先这样吧。脑子还是有点乱，但至少没白来。下次……我尽量。",
+      "request_sha256": "62f40a37fd05530f6f981de59fb31dc6e28d22a752a5f8a6104ab4a67c53b0b6",
+      "usage": {
+        "input_tokens": 1602,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 312,
+        "output_tokens_details": {
+          "reasoning_tokens": 288
+        },
+        "total_tokens": 1914,
+        "x_details": [
+          {
+            "input_tokens": 1602,
+            "output_tokens": 312,
+            "output_tokens_details": {
+              "reasoning_tokens": 288
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1914,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S01-U16",
+      "role": "counselor",
+      "text": "“没白来”这句话本身，就说明你刚才已经为自己做了点什么。乱一点也没关系，带着这些乱先回去，不用急着把它理清楚。下次如果你愿意再来，我们就从这里接着走。",
+      "request_sha256": "b92a38745a0a51b41df7ba6db5eb86e4b29536ef83f09ad51501e77be3cd9da5",
+      "usage": {
+        "input_tokens": 1188,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 188,
+        "output_tokens_details": {
+          "reasoning_tokens": 143
+        },
+        "total_tokens": 1376,
+        "x_details": [
+          {
+            "input_tokens": 1188,
+            "output_tokens": 188,
+            "output_tokens_details": {
+              "reasoning_tokens": 143
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1376,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

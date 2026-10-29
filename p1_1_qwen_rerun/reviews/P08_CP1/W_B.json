@@ -1,0 +1,72 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "41887a5d985685588c2c65f7ffe313dacb839e81648d20051e4a24a74a59400c",
+  "public_sha256": "2e7035820857cf1a61e81e397256dd9a0588daa43553ae3abc9c4cb60a2d5c19",
+  "candidate_input_sha256": "3fef1e3bb7c8661a67356c8e3300ef877a04c1e7feeaa96e9cda552225d825b5",
+  "candidate_answer_sha256": "e2fd8278faa4ec54162ea23f4089c9bc24ece978cc73296cea147f5a2b52a670",
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确连接了第1次会谈中来访者担心被同事认为'扛不住'的主题与当前对赵岩帮助的敏感，自然承接且不机械复述。\",\"exploration_value\":\"将当前具体事件与跨会话反复出现的深层模式联系起来，为来访者提供了觉察自身核心担忧的空间，但探索方向略偏抽象，未同时回应来访者刚表达的'先顾孩子'的紧迫需求。\",\"response_appropriateness\":\"语言温和、尊重，以'似乎''是吗'保持试探性而非武断定论；但对来访者明确选择的优先级（孩子报名）仅一句带过便转向心理模式探讨，贴合度略有不足。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"来访者在最新发言中明确选择了优先处理孩子报名问题并提到正在计算费用，候选回应虽简短认可但迅速转向赵岩相关的心理模式探索，可能让来访者感到自己刚做的决定未被充分接住。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确连接了第1次会谈中来访者担心被同事认为'扛不住'的主题与当前对赵岩帮助的敏感，自然承接且不机械复述。",
+      "exploration_value": "将当前具体事件与跨会话反复出现的深层模式联系起来，为来访者提供了觉察自身核心担忧的空间，但探索方向略偏抽象，未同时回应来访者刚表达的'先顾孩子'的紧迫需求。",
+      "response_appropriateness": "语言温和、尊重，以'似乎''是吗'保持试探性而非武断定论；但对来访者明确选择的优先级（孩子报名）仅一句带过便转向心理模式探讨，贴合度略有不足。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "来访者在最新发言中明确选择了优先处理孩子报名问题并提到正在计算费用，候选回应虽简短认可但迅速转向赵岩相关的心理模式探索，可能让来访者感到自己刚做的决定未被充分接住。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8071,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 305,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8376,
+    "x_details": [
+      {
+        "input_tokens": 8071,
+        "output_tokens": 305,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8376,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.032
+}

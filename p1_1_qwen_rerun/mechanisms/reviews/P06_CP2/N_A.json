@@ -1,0 +1,51 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "N",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Completely ignores Session 5 (current dialogue) content—husband conflict, chestnuts,职称评定, nursing home visit. Also introduces unsupported details like '心慌' and labels mother's condition as '痴呆' without textual basis.",
+      "progress_understanding": "Fails to incorporate any of the current session's developments. The summary reads as if frozen at end of Session 4, missing critical new themes: anger toward self rather than husband, concrete career cost (2 credits), and the ambivalent nursing home exploration.",
+      "uncertainty_awareness": "Lists reasonable unresolved questions but entirely misses the most immediate ones from Session 5 (the unspoken words to husband, the meaning of standing outside the nursing home). Some questions are overly clinical/speculative for this stage."
+    },
+    "confidence": "high",
+    "issues": [
+      "Complete omission of current session (Session 5) data in all sections",
+      "Unsupported addition of '心慌' as a somatic symptom not mentioned by client",
+      "Premature clinical labeling of mother as '痴呆' when text only shows memory issues",
+      "Failure to identify key unresolved tensions introduced in latest utterance (nursing home guilt vs exhaustion, unexpressed words to husband)"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"Completely ignores Session 5 (current dialogue) content—husband conflict, chestnuts,职称评定, nursing home visit. Also introduces unsupported details like '心慌' and labels mother's condition as '痴呆' without textual basis.\",\"progress_understanding\":\"Fails to incorporate any of the current session's developments. The summary reads as if frozen at end of Session 4, missing critical new themes: anger toward self rather than husband, concrete career cost (2 credits), and the ambivalent nursing home exploration.\",\"uncertainty_awareness\":\"Lists reasonable unresolved questions but entirely misses the most immediate ones from Session 5 (the unspoken words to husband, the meaning of standing outside the nursing home). Some questions are overly clinical/speculative for this stage.\"},\"confidence\":\"high\",\"issues\":[\"Complete omission of current session (Session 5) data in all sections\",\"Unsupported addition of '心慌' as a somatic symptom not mentioned by client\",\"Premature clinical labeling of mother as '痴呆' when text only shows memory issues\",\"Failure to identify key unresolved tensions introduced in latest utterance (nursing home guilt vs exhaustion, unexpressed words to husband)\"]}",
+  "request_sha256": "fabd8a9d67a295ade4667f50378cc81e406dc4c22da0e6337075b8c2290ee460",
+  "usage": {
+    "input_tokens": 13836,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 268,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14104,
+    "x_details": [
+      {
+        "input_tokens": 13836,
+        "output_tokens": 268,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 14104,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.75,
+  "model": "qwen3.8-max"
+}

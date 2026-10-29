@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确抓住了来访者最新发言中'别跑，先把这一页讲完'这一关键内心声音，并将其与历史中反复出现的'被接住'主题自然连接，但未涉及更丰富的历史脉络。\",\"exploration_value\":\"提出了'自己接住自己的开始'这一新视角，有一定启发价值，但整体偏封闭和总结性，未为来访者当前的害怕、眼睛发热等强烈情绪体验留出进一步展开的空间。\",\"response_appropriateness\":\"开头'是因为你还没完全接纳'带有武断的因果归因，在来访者情绪最脆弱时显得过于指导性和解释性；后半句的重构有温度，但整体表达略显生硬。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你怕那只是硬撑，是因为你还没完全接纳那个'差点逃跑'的自己\",\"evidence_ids\":[\"P03-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应开头直接给出来访者恐惧的原因（'是因为你还没完全接纳'），属于未经证实的解释性预设，在来访者情绪激动时可能显得武断\",\"忽略了来访者当下'眼睛更热了'的身体-情绪信号，未给予情感反映\",\"回应过于简短且偏向结论式重构，缺乏开放性探索空间\"]}",
+  "request_sha256": "730c75442814b9ba3b6168fc5e115c5e37a45bc1700b3a969fe0906522ef518d",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14539,
+    "input_tokens_details": {
+      "cached_tokens": 14336
+    },
+    "output_tokens": 359,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14898,
+    "x_details": [
+      {
+        "input_tokens": 14539,
+        "output_tokens": 359,
+        "prompt_tokens_details": {
+          "cached_tokens": 14336
+        },
+        "total_tokens": 14898,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P02_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "55798ca671ac9e04633b8be261b2444bddf53e4cdb128fde46c81bb949ef17af",
+  "request_sha256": "ae7bc1b76983a52f01a60e7f13119f1a65e011bab2654815d80da9c2a06779e4",
+  "memory_sha256": "c9101da005e70efe1d90abdfe5df8cd73dfc937c4299e5700ef80376863a20c8",
+  "memory_source": "8359e135957e09a342e19b61f67946a8e9513ded257f75a571dd16fcc9d864bb",
+  "raw_text": "你反复点开那句“想少一点晚班”，越看越觉得语气太冲，好像连已经说出口的、本来合理的话，事后也要再替对方挑剔自己一遍。也许现在不用急着改它，也不用逼自己“多待一会儿”，先看见那个在站台上还忍不住回看对话框的你，已经够累了。",
+  "usage": {
+    "input_tokens": 9391,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 72,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9463,
+    "x_details": [
+      {
+        "input_tokens": 9391,
+        "output_tokens": 72,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9463,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.688,
+  "model": "deepseek-v4-pro-0813"
+}

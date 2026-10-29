@@ -1,0 +1,16 @@
+{
+  "kind": "two_independent_model_gate",
+  "human_review_performed": false,
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "accepted_nodes": [],
+  "accepted_cases": [],
+  "disagreements": [
+    "C01_CP1",
+    "C01_CP3",
+    "C03_CP3"
+  ],
+  "passed": false,
+  "checked_at": "2026-10-13T08:06:05.605480+00:00",
+  "interpretation": "Provisional model-assisted gate. Not human or clinical validation."
+}

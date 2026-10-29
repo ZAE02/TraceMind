@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "38cee2cad1bb00197da4f578a0ba7a3cee32a37b3b5b17266fd9f74a59eace4d",
+  "request_sha256": "32a75ca740448acdbd50db6f76e85a26dbadebc5c4aed951adb41facd6eddda0",
+  "memory_sha256": "68f26bf92b7584e95e8ab100e4009575e6625661a6d0b9e2c9c9227ad4e2b7c1",
+  "memory_source": "7829ec94ea05b991ea6a2342dc98c97a92cf35888e635dd46fa6137acb71722d",
+  "raw_text": "听起来你从赵岩的经验里看到的，不只是“有别的办法”，还有过去那个独自发懵、连问都不知道该问谁的自己。那种“现在知道了，还是晚了点”的感觉，可能不只是在说报名这件事，也像在替前两年的自己感到一点遗憾。",
+  "usage": {
+    "input_tokens": 8894,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8953,
+    "x_details": [
+      {
+        "input_tokens": 8894,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 8953,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.734,
+  "model": "deepseek-v4-pro-0813"
+}

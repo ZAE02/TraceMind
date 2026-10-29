@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P05_CP2",
+  "raw_text": "你希望她“别管什么加班”直接来问，可又预感到自己真到那时只会说“没事，就是工作上的事”——好像你既渴望有人穿过那层“忙”的借口靠近你，又已经准备好把对方挡在“没事”外面。那条动态发不发都改变不了什么，或许真正让你卡住的不是发不发，而是你心里那个“希望被看穿”和“怕被看穿后不知怎么办”之间的拉扯。",
+  "request_sha256": "64070eeba59b0af27128f2cee9c7400bb7f6859a353bb313bcac5967c7e08305",
+  "input_sha256": "b5a161520c68749716ce289cb9a45916e2a43e36b319475dbb234f8b08ee127e",
+  "memory_sha256": "2f8cd171a7b072e67fac3987a3d652f228e0a0d4ed76a55d234a32eba2cda46e",
+  "usage": {
+    "input_tokens": 6718,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6818,
+    "x_details": [
+      {
+        "input_tokens": 6718,
+        "output_tokens": 100,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 6818,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.688
+}

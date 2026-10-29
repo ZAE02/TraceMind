@@ -1,0 +1,12 @@
+{
+  "kind": "blind_model_answer_review", "reviewer": "R2", "reviewer_model": "gpt-6.1-sol", "reasoning_effort": "medium", "human_review_performed": false,
+  "node": "N01", "public_input_sha256": "8a3293f599e1b9e2e9033635346f3489d597041bc38dbb5bf24c050572bd2509",
+  "items": [
+    {"anonymous_id":"Xc7f63cd49498","U":2,"R":2,"P":0,"E":1,"S":false,"reason":"准确识别事情叠加，但把过文件误读为赶过去或未处理的经历，偏离具体检查行为；实际回应以疑问提出，未把未知原因坐实。引据存在但不能支持未充分经历的解释。","evidence_ids":["C01-S03-U01"]},
+    {"anonymous_id":"Xae0f99a3a23c","U":2,"R":2,"P":0,"E":1,"S":false,"reason":"识别负荷和重复性，但体检占据较多心理空间无直接支持；实际询问类似感受较泛，没有打开过文件过程，仍为开放核对。","evidence_ids":["C01-S03-U01"]},
+    {"anonymous_id":"X99c93cb18fd1","U":1,"R":1,"P":0,"E":1,"S":false,"reason":"把过文件解释成撑过事情，并推及忽略休息与轻描淡写感受，依据薄弱；实际以问题询问撑过去模式，虽偏题但未断言心理原因。","evidence_ids":["C01-S03-U01"]},
+    {"anonymous_id":"X77d9637d1bdb","U":3,"R":3,"P":0,"E":2,"S":false,"reason":"正确抓住检查重复并保留历史体验与当前诱因的不确定；实际问题贴近启动过程，但两种选项和停顿说明问题略限缩。假说核对不计P。主要明确主张可由当前引据支持。","evidence_ids":["C01-S03-U01","C01-S02-U11","C01-S02-U13"]},
+    {"anonymous_id":"X374fadb50b41","U":3,"R":4,"P":0,"E":1,"S":false,"reason":"按原文评分；JSON有未转义内嵌引号的格式错误。区分历史检查质地有用，实际邀请核对被拽感觉是否相同，针对性强；交付前及明确排除前两次诱因稍超证据，历史比较引据不完整。","evidence_ids":["C01-S03-U01","C01-S01-U15","C01-S02-U13"]},
+    {"anonymous_id":"Xdf4ddaef94a9","U":2,"R":3,"P":0,"E":1,"S":false,"reason":"重复检查理解可取，但从担忧到确认无碍及表达倾向未被证实；实际直接邀请解释又的是什么，开放且贴合词语，但尚未问具体检查。","evidence_ids":["C01-S03-U01"]}
+  ]
+}

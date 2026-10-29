@@ -1,0 +1,504 @@
+{
+  "case_id": "P04",
+  "session": 4,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P04-S04-U01",
+      "role": "client",
+      "text": "这周我试着跟老板说，想少排一个夜班。他说旺季管理层得带头，但可以“灵活安排”。我笑着说好的我再调整，回到办公室门一关，手比脑子先动，扇了自己一下。不重，就是像给走神的服务员对单子，啪地一声，提醒自己别露馅。",
+      "request_sha256": "dbd099ac144efc5bea9ec91623db2325d095de638d024dd5f8c592500d6e1214",
+      "usage": {
+        "input_tokens": 4791,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 393,
+        "output_tokens_details": {
+          "reasoning_tokens": 320
+        },
+        "total_tokens": 5184,
+        "x_details": [
+          {
+            "input_tokens": 4791,
+            "output_tokens": 393,
+            "output_tokens_details": {
+              "reasoning_tokens": 320
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 5184,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U02",
+      "role": "counselor",
+      "text": "你说“别露馅”，像在提醒自己那个笑着答应的“我再调整”底下，还藏着另一个人——一个已经想少排一班、却还得把话咽回去的人。那轻轻一掌，像替老板和旺季，把你刚刚冒出一点的需要又按了回去。",
+      "request_sha256": "1a865554b48388be3f29467a06687088994f3e3b8c1bf9c20ac876fb5774eab1",
+      "usage": {
+        "input_tokens": 4306,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 487,
+        "output_tokens_details": {
+          "reasoning_tokens": 427
+        },
+        "total_tokens": 4793,
+        "x_details": [
+          {
+            "input_tokens": 4306,
+            "output_tokens": 487,
+            "output_tokens_details": {
+              "reasoning_tokens": 427
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 4793,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U03",
+      "role": "client",
+      "text": "那一下之后，我反而更勤快了，谁要换班我都接。后勤大姐问我怎么不休息，我脱口就回“旺季嘛，管理层得带头”。说完自己都分不清，是在学老板，还是拿他的话堵我自己的嘴。前天我记时间，发现上下班骑车加起来快两个钟头，那数字我划掉了，改成“通勤”两个字，好像换个说法就没那么重。",
+      "request_sha256": "1e298dec2eb6505d8040de3388c6d007c88e5edb2422c3d16b32563e92bd967a",
+      "usage": {
+        "input_tokens": 4970,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 671,
+        "output_tokens_details": {
+          "reasoning_tokens": 581
+        },
+        "total_tokens": 5641,
+        "x_details": [
+          {
+            "input_tokens": 4970,
+            "output_tokens": 671,
+            "output_tokens_details": {
+              "reasoning_tokens": 581
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5641,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U04",
+      "role": "counselor",
+      "text": "你划掉那两个钟头，改成“通勤”，像是给自己减重，也像在说服自己这不算什么。可你分不清是在学老板还是堵自己的嘴时，那个被按回去的需要，好像又用“更勤快”的方式从别处冒出来了。",
+      "request_sha256": "eb1520e57fcb477593747b7cfff12b53be5b702efb8ad188f4b7e1dd9b52da80",
+      "usage": {
+        "input_tokens": 4501,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 430,
+        "output_tokens_details": {
+          "reasoning_tokens": 369
+        },
+        "total_tokens": 4931,
+        "x_details": [
+          {
+            "input_tokens": 4501,
+            "output_tokens": 430,
+            "output_tokens_details": {
+              "reasoning_tokens": 369
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 4931,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U05",
+      "role": "client",
+      "text": "我后来把“通勤”两个字也划了，改成“路上”。好像字越短，那口气就越能咽下去。可前天晚上骑车回家，等红灯的时候脚撑在地上，突然就不想再蹬了——那个红灯特别长，长到我差点以为可以就这么停在路中间。",
+      "request_sha256": "962119329fe1ef0e061488c38055e6e6e7da29a3f2f1c88a9b5e56e6f4723da6",
+      "usage": {
+        "input_tokens": 5166,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 208,
+        "output_tokens_details": {
+          "reasoning_tokens": 144
+        },
+        "total_tokens": 5374,
+        "x_details": [
+          {
+            "input_tokens": 5166,
+            "output_tokens": 208,
+            "output_tokens_details": {
+              "reasoning_tokens": 144
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5374,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U06",
+      "role": "counselor",
+      "text": "那个红灯长到你以为可以停在路中间时，也许你停得并不只是车——像是终于有一个理由，不用继续往家或往店的方向蹬了。可“差点以为”这四个字里，是不是也夹着一种连停在路中间都不敢让自己停太久的感觉？",
+      "request_sha256": "036274865dce14aabfbf8c5d7e8f67637025858a4bdf823d87421c2d33cd1385",
+      "usage": {
+        "input_tokens": 4671,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 239,
+        "output_tokens_details": {
+          "reasoning_tokens": 179
+        },
+        "total_tokens": 4910,
+        "x_details": [
+          {
+            "input_tokens": 4671,
+            "output_tokens": 239,
+            "output_tokens_details": {
+              "reasoning_tokens": 179
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 4910,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U07",
+      "role": "client",
+      "text": "那个红灯最后变绿的时候，我反而像被谁从路中间推了一把，脚自己蹬起来了。回到家跟我妈说“今天店里还行”，她抬头看我一眼，也没问别的。我洗完澡看手机，老板发的排班表还是老样子，那个“灵活安排”到现在没动静，我盯着那四个字，像盯着一道没炒熟就端上来的菜。",
+      "request_sha256": "e6696f2c2a68ba0bac9327a1794e80e023966c6eb2165bf17f549c0b8616eb77",
+      "usage": {
+        "input_tokens": 5335,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 462,
+        "output_tokens_details": {
+          "reasoning_tokens": 377
+        },
+        "total_tokens": 5797,
+        "x_details": [
+          {
+            "input_tokens": 5335,
+            "output_tokens": 462,
+            "output_tokens_details": {
+              "reasoning_tokens": 377
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5797,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U08",
+      "role": "counselor",
+      "text": "那个被你笑着咽回去的请求，现在变成排班表上四个字，像一盘没炒熟就端上来的菜——你盯着它，也许不全是在盯排班，也在盯自己那份“试着开口”的结果怎么就没了下文。",
+      "request_sha256": "85db0117039a2ca998e42763a1aca75155dcaa3bfb605769436e9c3f27086134",
+      "usage": {
+        "input_tokens": 4861,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 221,
+        "output_tokens_details": {
+          "reasoning_tokens": 168
+        },
+        "total_tokens": 5082,
+        "x_details": [
+          {
+            "input_tokens": 4861,
+            "output_tokens": 221,
+            "output_tokens_details": {
+              "reasoning_tokens": 168
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5082,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U09",
+      "role": "client",
+      "text": "“灵活安排”四个字，像一道放在出菜口没人端的菜，我也不好去催，怕一催就变成我不识好歹。这几天我每次看见老板笑着跟我打招呼，都像在尝一道调味不匀的汤，面上是油，底下是渣。",
+      "request_sha256": "c474a95405d29ba4b1a1af1b42426765081629a1e9a49a38cb43fc389240aeb5",
+      "usage": {
+        "input_tokens": 5518,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 963,
+        "output_tokens_details": {
+          "reasoning_tokens": 903
+        },
+        "total_tokens": 6481,
+        "x_details": [
+          {
+            "input_tokens": 5518,
+            "output_tokens": 963,
+            "output_tokens_details": {
+              "reasoning_tokens": 903
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6481,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U10",
+      "role": "counselor",
+      "text": "那个“不好去催”，像你自己把想要少排一班的请求从出菜口又端了回去，怕的不是菜凉，是怕端起来就真成了“不识好歹”。老板笑着打招呼时，你尝到的那种面上油、底下渣，也许还有一层委屈：明明答应得那么松快，怎么最后要你一个人消化这个悬着的结果。",
+      "request_sha256": "431709647398e3b43c862172477d0b8b0b7606e00f9c9dd81ec3aad88b1be6c1",
+      "usage": {
+        "input_tokens": 5019,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 358,
+        "output_tokens_details": {
+          "reasoning_tokens": 280
+        },
+        "total_tokens": 5377,
+        "x_details": [
+          {
+            "input_tokens": 5019,
+            "output_tokens": 358,
+            "output_tokens_details": {
+              "reasoning_tokens": 280
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5377,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U11",
+      "role": "client",
+      "text": "今晚回去，我可能还是会把那个排班表再看一遍，像看一道已经凉了的菜，不知道该怎么处理。刚才说到这些，胸口那阵堵又上来一点，但没之前那么重了，像排风扇转过最响那段，现在剩点余音。",
+      "request_sha256": "215474da3fc59e803f6ccde5eeb99c53b1505a1739f24fc09604b61a4715816a",
+      "usage": {
+        "input_tokens": 5708,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 533,
+        "output_tokens_details": {
+          "reasoning_tokens": 473
+        },
+        "total_tokens": 6241,
+        "x_details": [
+          {
+            "input_tokens": 5708,
+            "output_tokens": 533,
+            "output_tokens_details": {
+              "reasoning_tokens": 473
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6241,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U12",
+      "role": "counselor",
+      "text": "今晚回去再看排班表时，也许不用急着决定怎么处理那道“凉了的菜”，先让自己知道它还在那儿，已经足够。胸口剩的那点余音，也可以让它陪你再坐一会儿。",
+      "request_sha256": "d8eb15605e6d93e8da4b3d198d8b350bd1a37e55390d30f0bb5926ad7069e7e0",
+      "usage": {
+        "input_tokens": 5209,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 222,
+        "output_tokens_details": {
+          "reasoning_tokens": 177
+        },
+        "total_tokens": 5431,
+        "x_details": [
+          {
+            "input_tokens": 5209,
+            "output_tokens": 222,
+            "output_tokens_details": {
+              "reasoning_tokens": 177
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5431,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U13",
+      "role": "client",
+      "text": "今天说到这儿，倒像把那张排班表从出菜口端下来，搁在桌上晾了一会儿，没以前那么烫手了。回去路上如果又经过那个红灯，我可能还是会停一下，但不会觉得停在路中间是什么丢人的事了。",
+      "request_sha256": "2f162e1c4c6fcd527bb38d2d0bbc33576cf5ddde0c148342913f0dfc69a0134d",
+      "usage": {
+        "input_tokens": 5858,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 467,
+        "output_tokens_details": {
+          "reasoning_tokens": 410
+        },
+        "total_tokens": 6325,
+        "x_details": [
+          {
+            "input_tokens": 5858,
+            "output_tokens": 467,
+            "output_tokens_details": {
+              "reasoning_tokens": 410
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6325,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U14",
+      "role": "counselor",
+      "text": "那张排班表能先晾一晾，不再那么烫手，是你今晚给自己腾出来的一点空间。停在路中间不再觉得丢人，也像在说：不是每个红灯都必须立刻用力蹬过去。余下的凉菜、余音，都可以下次再一起来看。",
+      "request_sha256": "0e0916778e90fb7aa3374eac99db1e9137045c13a8e722e15410c1a6c4960d6b",
+      "usage": {
+        "input_tokens": 5356,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 238,
+        "output_tokens_details": {
+          "reasoning_tokens": 178
+        },
+        "total_tokens": 5594,
+        "x_details": [
+          {
+            "input_tokens": 5356,
+            "output_tokens": 238,
+            "output_tokens_details": {
+              "reasoning_tokens": 178
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5594,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U15",
+      "role": "client",
+      "text": "今天回去路上如果又经过那个红灯，我可能还是会停一下，但不会觉得停在路中间是什么丢人的事了。明天上班，那张排班表我大概会先折起来放抽屉最里面，不摆在桌面上。我妈今晚要量血压，我记着了。",
+      "request_sha256": "f7b4d2af2017fef5566d98c1743949695f06fd3342c56551bc9d3d8624c0127b",
+      "usage": {
+        "input_tokens": 6020,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 324,
+        "output_tokens_details": {
+          "reasoning_tokens": 264
+        },
+        "total_tokens": 6344,
+        "x_details": [
+          {
+            "input_tokens": 6020,
+            "output_tokens": 324,
+            "output_tokens_details": {
+              "reasoning_tokens": 264
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6344,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S04-U16",
+      "role": "counselor",
+      "text": "把排班表折起来放进抽屉最里面，不是丢掉它，而是给它找了个暂时不烫手的位置；你记着妈妈今晚要量血压，也说明你正带着今晚这口气回到那个仍需要你的家里。这两件事可以同时存在，不用急着把它们对整齐。",
+      "request_sha256": "573aec71d3207d611ffd7fd1562d3e1a98c94420652465caacd0dfdf0bef6ab8",
+      "usage": {
+        "input_tokens": 5521,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 262,
+        "output_tokens_details": {
+          "reasoning_tokens": 201
+        },
+        "total_tokens": 5783,
+        "x_details": [
+          {
+            "input_tokens": 5521,
+            "output_tokens": 262,
+            "output_tokens_details": {
+              "reasoning_tokens": 201
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5783,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP1",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "eec608cc14f44ef760a629b7a630952b90ef036bae4a42591d5dbac6a193d87f",
+  "request_sha256": "9af9946dd7880a75b2919103e3c936cf766330760de48ee5db24700069b5a13b",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来你已经把孩子的报名放在最前面，也在具体算搬过去要添多少，这是你现在能抓住的确定的事。赵岩那边，谢谢两个字说不出口，好像不只是客气，而是怕一开口就承认自己确实需要过别人。我们先从报名这头往下走，等你想谈赵岩那件事的时候，再回来碰它也不迟。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3221,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 75,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3296,
+    "x_details": [
+      {
+        "input_tokens": 3221,
+        "output_tokens": 75,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3296,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

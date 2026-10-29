@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "7a4528e67fedb040de62c19108b60af601c02bb0c37883e4082a077b1dfbcd57",
+  "request_sha256": "2c8a3d7f08b2389b4763cf55d4ff8b91fa97f4c8df211a0394ac9d9e2830992a",
+  "memory_sha256": "8340d357fc4bdde327ec3cba2aa1dc8b947192339b1c321883392a752ca546de",
+  "memory_source": "5d1c619481cfc8662db0f204a963dc8b542ac67f54a96937f89ec3c4c50e61c8",
+  "raw_text": "你终于把“想画得再野一点”说出来了，而且是在看着糯糯的时候——它那种想叫就叫、想蹭就蹭的样子，好像让你碰到了一个被自己藏了很久的愿望。你怕的不只是别人说，更是怕自己承认这个愿望之后，就再也找不到理由把它按回去了。",
+  "usage": {
+    "input_tokens": 7076,
+    "input_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "output_tokens": 67,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7143,
+    "x_details": [
+      {
+        "input_tokens": 7076,
+        "output_tokens": 67,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "total_tokens": 7143,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.031,
+  "model": "deepseek-v4-pro-0813"
+}

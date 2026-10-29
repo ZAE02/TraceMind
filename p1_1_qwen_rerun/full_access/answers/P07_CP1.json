@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P07_CP1",
+  "raw_text": "把“灵气”当成一个非黑即白的开关，好像一旦承认它灭了，就等于彻底否定了过去的自己。那封没点开的邮件，或许不只是怕面对失败，更是怕亲手按下那个“关机”的确认键。",
+  "request_sha256": "5688dbb9ee0cddc792d5e73707969a6db1eaf335f69de3bd110801faabaee94c",
+  "input_sha256": "65e49cf4d39d90f3b2b6deb44cac8bb468f2ce2a8b07232931e963af0ecb6450",
+  "memory_sha256": "8fa1f1e2121cb8338ba173f37c404abc0fe3c270a2583d84174f141e797e03a7",
+  "usage": {
+    "input_tokens": 4102,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 50,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4152,
+    "x_details": [
+      {
+        "input_tokens": 4102,
+        "output_tokens": 50,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4152,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.235
+}

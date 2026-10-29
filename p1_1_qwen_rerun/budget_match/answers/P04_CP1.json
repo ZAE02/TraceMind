@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P04_CP1",
+  "condition": "C5_budget",
+  "raw_text": "“拔了插头，坐在巷口听它不转”——这个画面里，你其实是在渴望一段完全不用负责、不用修任何东西的空白。在那一刻，如果真能坐在那里，你觉得最让你感到安全的，是那种彻底的静止，还是终于不用被任何人等待的感觉？",
+  "input_sha256": "b254e8883e036e9fd5b921c24809e79ab10eb9fa861c83763faafc808f2fbcac",
+  "memory_sha256": "f6a5f1c70dd54a5915a42edda5bc1d7cfeebe1e843b7e7324838b2351b88b76b",
+  "request_sha256": "64845be0d0b6613a14274318f9fe3d7e3f71142f1e7a7ce469536df7bc557dc5",
+  "usage": {
+    "input_tokens": 4248,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 61,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4309,
+    "x_details": [
+      {
+        "input_tokens": 4248,
+        "output_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4309,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.203
+}

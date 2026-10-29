@@ -1,0 +1,15 @@
+{
+  "node_order": [
+    "C01_CP1",
+    "C01_CP3",
+    "C03_CP3",
+    "C03_CP1",
+    "C03_CP2",
+    "C01_CP2",
+    "C02_CP2",
+    "C02_CP3",
+    "C02_CP1"
+  ],
+  "anonymous_groups": true,
+  "human_review_performed": false
+}

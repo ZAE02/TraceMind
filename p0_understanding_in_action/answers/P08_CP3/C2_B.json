@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP3",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "0448a1588ccc0ca71425f963f6df2d9c21eafea28efdcb0cef6fae5321374180",
+  "request_sha256": "47c615cf51dbc1b6ec4a066a767138659f06e7e3677a8611ff4dc1ace5983ea5",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来，赵岩的经验让你看到的不只是“有别的办法”，更是过去那个独自发懵、想问又不敢问的自己。现在你一边觉得“晚了点”，一边又还卡在眼前这关，好像那个刚被看见的自己，还没来得及喘口气。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3277,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 55,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3332,
+    "x_details": [
+      {
+        "input_tokens": 3277,
+        "output_tokens": 55,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3332,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

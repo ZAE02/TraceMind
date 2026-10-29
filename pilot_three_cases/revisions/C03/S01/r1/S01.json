@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 1,
+  "relative_week": 1,
+  "status": "awaiting_model_review",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T09:38:03.141390+00:00",
+  "config_hash": "4bd3d5ba139412fa60386b9f05ca9c63827bb745aae8d1e0f8f9e3d6ef98adb9",
+  "prompt_version": "pilot-v2-natural-language-after-independent-review",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v2-natural-language-after-independent-review",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "generation_revision": "C03-S01-r1"
+  },
+  "revision": 1,
+  "preserved_prefix_length": 8,
+  "utterances": [
+    {
+      "id": "C03-S01-U01",
+      "role": "client",
+      "text": "最近有个接口老出问题，间歇性报错，我查了两天了，日志也看了，配置也重新对了一遍，还是没定位到原因。\n\n有点烦。主要是它不是那种一上来就炸的，隔一阵才报一次，复现都不稳定。",
+      "call_id": "cff5888303c04e848840b52bc39a42f6",
+      "response_id": "resp_f2191f97-8306-915e-b8cd-a5d960b5a4a3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:04.050710+00:00"
+    },
+    {
+      "id": "C03-S01-U02",
+      "role": "counselor",
+      "text": "查了两天没定位到，确实挺磨人的。你刚才说\"复现都不稳定\"——是这种感觉最让你烦的部分吗？",
+      "call_id": "5000fd8bf2c34cdca2c4c247712fc76a",
+      "response_id": "resp_afb05c7d-4f29-9aab-83f1-f0485d6fac27",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:11.803847+00:00"
+    },
+    {
+      "id": "C03-S01-U03",
+      "role": "client",
+      "text": "嗯，复现不稳定确实烦，因为你没法确定到底是哪个环节的问题，每次报错的条件还不太一样。但也不完全是这个……就是卡在那里，感觉自己在原地转，越转越没方向。",
+      "call_id": "70ef06be4ffb42b8b25b103784f3d2b6",
+      "response_id": "resp_94ad669a-9aa4-9c58-887a-a6d7f6597cd3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:21.222404+00:00"
+    },
+    {
+      "id": "C03-S01-U04",
+      "role": "counselor",
+      "text": "\"越转越没方向\"——这个感觉是查着查着慢慢出现的，还是从一开始就有的？",
+      "call_id": "60d6df2bf2c34129854c331b68595373",
+      "response_id": "resp_ccabc713-a6c3-9d77-b0b9-86becff32df1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:28.489466+00:00"
+    },
+    {
+      "id": "C03-S01-U05",
+      "role": "client",
+      "text": "应该是慢慢出来的。第一天就是烦，觉得这个bug挺烦人的，但还知道下一步该看哪里。到第二天……就有点，怎么说呢，盯着屏幕也不知道自己到底在干嘛了。",
+      "call_id": "69a06028549a470eafca51835dea27f2",
+      "response_id": "resp_aad54be6-26f9-96fd-8ae5-94d922060770",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:36.326451+00:00"
+    },
+    {
+      "id": "C03-S01-U06",
+      "role": "counselor",
+      "text": "从\"知道下一步该看哪里\"到\"不知道自己到底在干嘛\"——这个转变是什么时候意识到的？是某个瞬间突然感觉到的，还是回看的时候才发现已经这样了？",
+      "call_id": "5ee9ec09d7344118a4f4206f504dc99d",
+      "response_id": "resp_8d24b345-edb5-9829-80ce-b9a87873e661",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:42.382924+00:00"
+    },
+    {
+      "id": "C03-S01-U07",
+      "role": "client",
+      "text": "应该是回看的时候才发现的。第二天下午吧，我重新打开日志想接着看，结果发现自己又在看跟上午差不多的地方，才意识到……哦，我好像没往前走。",
+      "call_id": "0014b943681740da9803a6c046213707",
+      "response_id": "resp_b58d8d43-9a6a-9e59-bcab-bcc08e456f41",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:48.368828+00:00"
+    },
+    {
+      "id": "C03-S01-U08",
+      "role": "counselor",
+      "text": "\"重新打开想接着看，结果发现又在看差不多的地方\"——那个瞬间，除了\"哦，没往前走\"，还有什么感受吗？",
+      "call_id": "54e94c4c13f64930b5c6c945a4eff71d",
+      "response_id": "resp_61509c6b-875b-9c92-8005-3d9fbf336062",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:32:02.005861+00:00"
+    },
+    {
+      "id": "C03-S01-U09",
+      "role": "client",
+      "text": "嗯……有点泄气吧。就是那种，明明花了时间但好像什么都没推进的感觉。当时也没想太多，就把日志关了，去倒了杯水。",
+      "call_id": "4709338c47934c83ac500058efad2938",
+      "response_id": "resp_2653ef38-19ec-90a9-8aef-a432ce8d52e7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:38:19.210789+00:00"
+    },
+    {
+      "id": "C03-S01-U10",
+      "role": "counselor",
+      "text": "\"泄气\"——然后没想太多，关了日志去倒了杯水。那个杯子倒完水之后呢，是接着回去了，还是就那样待了一会儿？",
+      "call_id": "8b8554a818f34387867c31859aca804b",
+      "response_id": "resp_ba1b6b18-cb4f-973c-a5f1-3d6c2735eb72",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:38:26.845182+00:00"
+    },
+    {
+      "id": "C03-S01-U11",
+      "role": "client",
+      "text": "倒完水回去坐了一会儿，没马上接着看。就……对着屏幕发了会儿呆，也不知道在想什么。过了一阵子才又打开日志，但没看进去，就切去刷了会儿手机。",
+      "call_id": "1d5bc73e60ed4287a5aa371e43a59d08",
+      "response_id": "resp_dc58aac5-0c53-96df-8721-98938d709112",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:38:32.842637+00:00"
+    },
+    {
+      "id": "C03-S01-U12",
+      "role": "counselor",
+      "text": "\"对着屏幕发呆，也不知道在想什么\"——那个状态里，是觉得累了，还是更像一种……不太想再碰它的感觉？",
+      "call_id": "6ea027f357b14eed8b1f8f84dc165331",
+      "response_id": "resp_189a288e-2e76-995a-9c4e-e457418f994e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:38:41.148137+00:00"
+    },
+    {
+      "id": "C03-S01-U13",
+      "role": "client",
+      "text": "两个都有点吧。累了肯定是累的，查了一天多确实……但也不完全是累，就是……不太想再打开那个窗口了。有点像，你知道问题就在那，但你就是不想再碰它。",
+      "call_id": "5842a79f9291428896823f10865a33bc",
+      "response_id": "resp_9be60043-a868-93ce-a90b-bf12d6accaa4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:38:49.673929+00:00"
+    },
+    {
+      "id": "C03-S01-U14",
+      "role": "counselor",
+      "text": "\"知道问题就在那，但就是不想再碰\"——这个状态听起来挺真实的。后来呢，是第二天又硬着头皮接着查了，还是先放了一段时间？",
+      "call_id": "b628163493b9417e8388cf886e924239",
+      "response_id": "resp_c80062cf-442b-9fd4-8958-ec3ab30e238a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:38:57.787696+00:00"
+    },
+    {
+      "id": "C03-S01-U15",
+      "role": "client",
+      "text": "回去接着看了，但说实话后面那几个小时也没看出什么来。就……翻来覆去还是那些地方，到下班也没定位到。",
+      "call_id": "9fd74d3af20f46c2813a545944ef0d48",
+      "response_id": "resp_bbf138dc-d46c-974a-bae0-dff51760ce10",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:39:15.497246+00:00"
+    },
+    {
+      "id": "C03-S01-U16",
+      "role": "counselor",
+      "text": "你之前说\"不太想再碰它\"，但还是回去接着看了。回去坐下的那一刻，是什么让你又打开了那个窗口？",
+      "call_id": "becece3ccf8a44238100f6af7cf84f5e",
+      "response_id": "resp_83f73bde-bfc4-9486-929b-66a00bb93428",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:39:37.909650+00:00"
+    },
+    {
+      "id": "C03-S01-U17",
+      "role": "client",
+      "text": "……也没什么特别的理由吧。反正问题就在那，不查完也走不了。当时就想，再看一下，说不定这次就能看出点什么。",
+      "call_id": "65515898a53f4b0fb20a23127af7b5de",
+      "response_id": "resp_f0804f68-22e0-9f59-a5e7-40f52c760ead",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:39:45.356296+00:00"
+    },
+    {
+      "id": "C03-S01-U18",
+      "role": "counselor",
+      "text": "\"不查完也走不了\"——听起来更像是被那个问题困住了，而不是你主动选择留下来。今天聊的这些，你回去之后如果又碰到类似\"卡住\"的感觉，随时可以再来聊聊。",
+      "call_id": "636f91fca70a48d0b82bc72e98dfecfa",
+      "response_id": "resp_6c74dde1-dbc2-99c6-8c53-a534e88e581f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:39:52.930691+00:00"
+    },
+    {
+      "id": "C03-S01-U19",
+      "role": "client",
+      "text": "嗯……差不多吧。就是觉得不解决就不算完，但也没想好到底怎么才算完。行，那今天先这样吧。",
+      "call_id": "15779f271c2c426bad5f88ec27d71f8c",
+      "response_id": "resp_34aa36d3-7152-9b11-8628-d38dbd7a4ba7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:40:00.083774+00:00"
+    },
+    {
+      "id": "C03-S01-U20",
+      "role": "counselor",
+      "text": "\"不解决就不算完，但也没想好怎么才算完\"——这句话本身好像就挺说明问题的。今天先这样，下次聊的时候如果愿意，可以再说说这个\"完\"。",
+      "call_id": "5112a14f5fd34542a7dcd91fd9ec1021",
+      "response_id": "resp_495a010a-5f77-958f-9572-63b327055e6d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:40:10.256597+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T09:40:10.256597+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T09:40:10.258596+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  }
+}

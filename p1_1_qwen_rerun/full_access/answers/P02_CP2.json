@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P02_CP2",
+  "raw_text": "你数着时间，既怕它过得太快，又怕手机突然响起，这种紧绷感似乎让你很难真正相信那一个小时是属于自己的。当你连“靠一下”都觉得像是一种需要被解释的奢侈时，那个还没被允许属于你的部分，也许正等着你去认领。",
+  "request_sha256": "a360895037d830296bb3cadff35587ec5ecc8fe3abb31a5ce46dd8d950d7b210",
+  "input_sha256": "8126eec09e906c2ac8e9f6caf54c424da1a4a3059b66cf1d47e065f8216674ce",
+  "memory_sha256": "39c211daaa7a1d8e64b5e61a96423060c8fb28fef6465deeacf99368c29a868d",
+  "usage": {
+    "input_tokens": 6836,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6895,
+    "x_details": [
+      {
+        "input_tokens": 6836,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6895,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.359
+}

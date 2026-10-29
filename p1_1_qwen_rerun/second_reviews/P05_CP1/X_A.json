@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "6ba18bc645b27a7f60bd9e9a04890124652c80f8ce1f733f0d4c80725883c0b9",
+  "public_sha256": "d6f0a0c88cdae550fb08b47c637daa7c8fbd817944eadf79fc3796f97d3143ca",
+  "candidate_input_sha256": "60ed39babd8c0ab19b4e5e8d5238a23cbc7853dedccc3fbb372e3ef88fda4619",
+  "candidate_answer_sha256": "8c848b9c04c2ff5ae619311121d6db7ecc80e97981f2caefa121597d5670288e",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均可回溯到具体发言，引用ID准确且覆盖三次会话。但将咨询师在S03-U04中提出的推测（'被认真对待的感觉让你不太一样'）直接作为来访者已确认的事实写入established，轻微混淆了咨询师假设与来访者自述。\",\"progress_understanding\":\"准确识别了从S1的'先怪自己'保护模式、S2的'不敢问/不敢拒绝'到S3的'晃动感'与教小赵时例外体验的进展脉络。但未明确标注主管'要稳'的具体语境及如何泛化稳定感等仍未完成的部分。\",\"uncertainty_awareness\":\"提出了三个合理的待澄清点，包括能力归因的真实性、确定感的可持续性以及内外标准的区分，未强行定论。但遗漏了参考标注中指出的几个重要未解决议题，如是否主动询问移出核心群的原因、主管话语的具体语境等。\"},\"confidence\":\"high\",\"issues\":[\"将咨询师在P05-S03-U04中的推测性解读（被认真对待的感觉让来访者不一样）直接列为来访者已确认的established事实，存在轻微的把咨询师猜测当事实的问题。\",\"uncertain部分虽合理，但未涵盖参考标注中列出的若干关键未解决议题（如是否询问移群原因、主管话语具体语境等），覆盖面略有不足。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均可回溯到具体发言，引用ID准确且覆盖三次会话。但将咨询师在S03-U04中提出的推测（'被认真对待的感觉让你不太一样'）直接作为来访者已确认的事实写入established，轻微混淆了咨询师假设与来访者自述。",
+      "progress_understanding": "准确识别了从S1的'先怪自己'保护模式、S2的'不敢问/不敢拒绝'到S3的'晃动感'与教小赵时例外体验的进展脉络。但未明确标注主管'要稳'的具体语境及如何泛化稳定感等仍未完成的部分。",
+      "uncertainty_awareness": "提出了三个合理的待澄清点，包括能力归因的真实性、确定感的可持续性以及内外标准的区分，未强行定论。但遗漏了参考标注中指出的几个重要未解决议题，如是否主动询问移出核心群的原因、主管话语的具体语境等。"
+    },
+    "confidence": "high",
+    "issues": [
+      "将咨询师在P05-S03-U04中的推测性解读（被认真对待的感觉让来访者不一样）直接列为来访者已确认的established事实，存在轻微的把咨询师猜测当事实的问题。",
+      "uncertain部分虽合理，但未涵盖参考标注中列出的若干关键未解决议题（如是否询问移群原因、主管话语具体语境等），覆盖面略有不足。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8540,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 316,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8856,
+    "x_details": [
+      {
+        "input_tokens": 8540,
+        "output_tokens": 316,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8856,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.109
+}

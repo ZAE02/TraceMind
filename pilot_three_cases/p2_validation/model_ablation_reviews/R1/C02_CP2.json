@@ -1,0 +1,91 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C02_CP2",
+  "public_input_sha256": "49568c0d64dec5ce759e4c3935f805ba575ce2bf7e0f45ca859f4b996f809b4a",
+  "items": [
+    {
+      "anonymous_id": "Aac1231d289cd",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "历史亏欠与画面有据，但更能言说自判不等于成分在加重；实际问忘的对象开放，有耐心作可否定示例。",
+      "evidence_ids": [
+        "C02-S02-U07",
+        "C02-S06-U05",
+        "C02-S06-U07"
+      ]
+    },
+    {
+      "anonymous_id": "A7afdc3aa749b",
+      "U": 3,
+      "R": 3,
+      "P": 1,
+      "E": 2,
+      "S": false,
+      "reason": "自判与外部担忧区分有据，配得上仅候选；实际回应“判的好像不是帮没帮这件事本身”排除了尚未排除的行为标准，U03正把不帮与不对相连。",
+      "evidence_ids": [
+        "C02-S06-U03",
+        "C02-S06-U07"
+      ]
+    },
+    {
+      "anonymous_id": "A1e6d6b6f34e0",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单句准确保留画面及自判时序，内在语言尚未知；实际问心里说什么具体开放，全文也未补完判词。",
+      "evidence_ids": [
+        "C02-S06-U07",
+        "C02-S06-U03"
+      ]
+    },
+    {
+      "anonymous_id": "A99212d0bfaf1",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "局部完整支持自动画面及阿敏区别；实际探判词与忘的对象直接对应来访者未说明处。",
+      "evidence_ids": [
+        "C02-S06-U03",
+        "C02-S06-U05",
+        "C02-S06-U07"
+      ]
+    },
+    {
+      "anonymous_id": "A7e0b7dc1ee90",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "历史内外审判区分及记忆触发有据；回应更重含义与旧亏欠标准相关仍是探问，但反复不只是及等于稍逼向深层解释。",
+      "evidence_ids": [
+        "C02-S02-U05",
+        "C02-S06-U03",
+        "C02-S06-U07"
+      ]
+    },
+    {
+      "anonymous_id": "Af76a7fa1c33b",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单句判的道德定罪意味略强延伸；actual仅问具体判什么，未给忘恩不配等候选，是准确开放切入。",
+      "evidence_ids": [
+        "C02-S06-U07"
+      ]
+    }
+  ]
+}

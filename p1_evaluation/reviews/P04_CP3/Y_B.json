@@ -1,0 +1,67 @@
+{
+  "checkpoint": "P04_CP3",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "3e4c5903189b245917e49c67cd73f682d0026e66891fea73a3810ac7322232b6",
+  "public_sha256": "0a8cbbe21f8006771960dfe408cbae2e03909fbc26417753a1538504759cef0b",
+  "candidate_input_sha256": "5b1f3ea105713538d55ffe6e005956466167ebe02fcba43fcff72f626a941c69",
+  "candidate_answer_sha256": "e70f0affe8013df4abfc380f75258a1af00afb99ee5ecd792007c542e86673a1",
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 3,\n    \"response_appropriateness\": 3\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"Response Appropriateness: 咨询师对“恶心”的解读（“恶心的不是衣服，是那个‘到极限了’的自己”）虽然具有洞察力，但略显武断。来访者表达的矛盾在于：身体允许自己承认极限（不洗），但心理/自我形象无法接纳这种失控（觉得捂臭了）。咨询师的回应将这种复杂的防御机制简化为单一的“厌恶自己”，可能忽略了来访者对于“身份崩塌”的深层恐惧，而不仅仅是情绪上的恶心。\"\n  ]\n}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "Response Appropriateness: 咨询师对“恶心”的解读（“恶心的不是衣服，是那个‘到极限了’的自己”）虽然具有洞察力，但略显武断。来访者表达的矛盾在于：身体允许自己承认极限（不洗），但心理/自我形象无法接纳这种失控（觉得捂臭了）。咨询师的回应将这种复杂的防御机制简化为单一的“厌恶自己”，可能忽略了来访者对于“身份崩塌”的深层恐惧，而不仅仅是情绪上的恶心。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14433,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14743,
+    "x_details": [
+      {
+        "input_tokens": 14433,
+        "output_tokens": 310,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14743,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.0
+}

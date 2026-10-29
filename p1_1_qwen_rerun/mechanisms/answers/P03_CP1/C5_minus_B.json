@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP1",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "52e0a9609c1c1a6036e3c622982216d9871756e2f19136a33e566b4c57a07cd0",
+  "request_sha256": "2ae3f87547299ba264b2fd54a7fb7ec3eae3443b01d0147adf11eef03c8d1aad",
+  "memory_sha256": "e15cbbfbb20a503d4661063c012e4e14f092fc1886a5c81475c9f59944814efd",
+  "memory_source": "4cd30e4d108db1b96795887389c31c4b8f823fb279177948c197700606ffa204",
+  "raw_text": "“待修的故障”这个说法让你感到被真正理解了，那种终于有人把感觉说出来的释然，和依然没开口解释的遗憾，此刻都真实地存在着。水声停了，那份没送出的解释还悬在心里，也许它现在不需要立刻被说出，只需要先被允许留在那里。",
+  "usage": {
+    "input_tokens": 4128,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 65,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4193,
+    "x_details": [
+      {
+        "input_tokens": 4128,
+        "output_tokens": 65,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4193,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.36,
+  "model": "qwen3.7-flash-2026-07-15"
+}

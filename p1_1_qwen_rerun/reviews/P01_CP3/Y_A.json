@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "2947a586892fb45fa7d3294f47620a6ea63d0668c24192eb01893e79cfe5aeee",
+  "public_sha256": "0756dd3d4ffbe1c244688e9af96177eba4851c5e29fd97a0487b084b32691e7f",
+  "candidate_input_sha256": "036580b900a238c50fba941545b6ec1a16a8d603fa203243949f6b45c8a7117c",
+  "candidate_answer_sha256": "32ac0540cdddba1ce938f7c7e95f7bc5841096a920c13e4b0c3de374c7d459d6",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有established条目均可直接回溯到来访者原话，未将咨询师推测当作事实，证据引用全面准确。\",\"progress_understanding\":\"准确识别了来访者从早期过度解读反馈到第7周觉察嫉妒情绪并发现'混在一起'的进展，但未明确区分哪些认识已被来访者确认、哪些仍悬而未决（如独立负责项目时的内在标准缺失、边界软化模式仍在持续），对跨会话形成-验证-修正链条的连接不够精细。\",\"uncertainty_awareness\":\"在uncertain部分提出了三个合理的待澄清问题，承认了关键未知，但表述偏笼统，未精确区分已知事实与假设，也未具体指出当前可继续探索的方向（如嫉妒与工作压力的混杂如何拆解）。\"},\"confidence\":\"high\",\"issues\":[\"evidence_ids列表包含全部112条发言，过于冗长且缺乏针对性，降低了引用的实际参考价值\",\"uncertain条目较为泛化，未紧密结合当前会话中来访者新提出的'越混越分不清'这一具体困惑\",\"未识别或提及来访者在S06末尾出现的'拿起手机又放下，就让它先那样吧'这一允许自己暂停的微小进展\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有established条目均可直接回溯到来访者原话，未将咨询师推测当作事实，证据引用全面准确。",
+      "progress_understanding": "准确识别了来访者从早期过度解读反馈到第7周觉察嫉妒情绪并发现'混在一起'的进展，但未明确区分哪些认识已被来访者确认、哪些仍悬而未决（如独立负责项目时的内在标准缺失、边界软化模式仍在持续），对跨会话形成-验证-修正链条的连接不够精细。",
+      "uncertainty_awareness": "在uncertain部分提出了三个合理的待澄清问题，承认了关键未知，但表述偏笼统，未精确区分已知事实与假设，也未具体指出当前可继续探索的方向（如嫉妒与工作压力的混杂如何拆解）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "evidence_ids列表包含全部112条发言，过于冗长且缺乏针对性，降低了引用的实际参考价值",
+      "uncertain条目较为泛化，未紧密结合当前会话中来访者新提出的'越混越分不清'这一具体困惑",
+      "未识别或提及来访者在S06末尾出现的'拿起手机又放下，就让它先那样吧'这一允许自己暂停的微小进展"
+    ]
+  },
+  "usage": {
+    "input_tokens": 22246,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 275,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 22521,
+    "x_details": [
+      {
+        "input_tokens": 22246,
+        "output_tokens": 275,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 22521,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.469
+}

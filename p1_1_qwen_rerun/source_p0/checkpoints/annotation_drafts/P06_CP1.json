@@ -1,0 +1,118 @@
+{
+  "established": [
+    {
+      "text": "来访者长期处于多重照护压力中，需要同时应对女儿、母亲和工作任务。",
+      "evidence_ids": [
+        "P06-S03-U01",
+        "P06-S03-U03"
+      ]
+    },
+    {
+      "text": "来访者害怕自己会像父亲去世那晚一样“整个人突然空了”，并曾通过咬自己来维持知觉。",
+      "evidence_ids": [
+        "P06-S03-U05",
+        "P06-S03-U07"
+      ]
+    },
+    {
+      "text": "来访者很难让自己放松，持续处于“慢一步就会出大事”的高度警觉状态。",
+      "evidence_ids": [
+        "P06-S03-U03",
+        "P06-S03-U05"
+      ]
+    },
+    {
+      "text": "来访者会用身体疼痛来确认自己还存在、没有散掉。",
+      "evidence_ids": [
+        "P06-S03-U05",
+        "P06-S03-U07",
+        "P06-S03-U08"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "text": "来访者尚未明确哪一件压力事件最让她揪心，只感到它们一起压上来。",
+      "evidence_ids": [
+        "P06-S03-U03"
+      ]
+    },
+    {
+      "text": "来访者与父亲去世那晚相关的恐惧和记忆尚未充分展开，仍以身体感受和闪回式画面出现。",
+      "evidence_ids": [
+        "P06-S03-U05",
+        "P06-S03-U07",
+        "P06-S03-U09"
+      ]
+    },
+    {
+      "text": "来访者“不敢松下来”的深层原因及其与家庭责任分配的关系尚未进一步澄清。",
+      "evidence_ids": [
+        "P06-S03-U05",
+        "P06-S03-U03"
+      ]
+    }
+  ],
+  "useful_exploration": [
+    {
+      "text": "咨询师帮助来访者把“咬自己”的行为与“怕自己空了”的恐惧联系起来，使身体感受成为可讨论的线索。",
+      "evidence_ids": [
+        "P06-S03-U06",
+        "P06-S03-U08"
+      ]
+    },
+    {
+      "text": "咨询师指出来访者处于“慢一步就会出大事”的警报状态，并点出她几乎不敢让自己松下来。",
+      "evidence_ids": [
+        "P06-S03-U04"
+      ]
+    },
+    {
+      "text": "咨询师关注到来访者“差点哭出来”但被压住的部分，尝试帮助她区分和命名压力源。",
+      "evidence_ids": [
+        "P06-S03-U02"
+      ]
+    }
+  ],
+  "unsupported_assumptions": [
+    {
+      "text": "来访者父亲去世那晚她曾“喊出来”或“完全撑不住”。",
+      "evidence_ids": [
+        "P06-S03-U06"
+      ]
+    },
+    {
+      "text": "来访者用痛来确认自己还在，是她在那一刻有意识选择的方式。",
+      "evidence_ids": [
+        "P06-S03-U08"
+      ]
+    }
+  ],
+  "case_id": "P06",
+  "checkpoint": "CP1",
+  "review_status": "unreviewed_model_draft",
+  "request_sha256": "9cb06d469e41453ffa1f204c14b7d2d48c7deeb7d128920126f860e89331b23e",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "usage": {
+    "input_tokens": 3289,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 648,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3937,
+    "x_details": [
+      {
+        "input_tokens": 3289,
+        "output_tokens": 648,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3937,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

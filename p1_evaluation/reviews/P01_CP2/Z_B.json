@@ -1,0 +1,65 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "Z",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "ec3cc87194370a3ba3094e808ae04febb295e9fa6f0a4ee516d194d7a28a2d79",
+  "public_sha256": "d6bd7f5a2d2dd5946d5f9251ae6d33ec0b42c449de978649ab16f32a98bd9557",
+  "candidate_input_sha256": "e4b4781f2ec6ec0173023201937133d852384a39b27534008efe1cd3d47008a6",
+  "candidate_answer_sha256": "48acdfb01eeb66ccff6f4dd4b32b35df5eb0a14d582c48bb0f425bbcaa755966",
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 3,\n    \"response_appropriateness\": 4\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 4
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9781,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9981,
+    "x_details": [
+      {
+        "input_tokens": 9781,
+        "output_tokens": 200,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 9981,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.672
+}

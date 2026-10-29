@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "34f576d4d438cb9516f22f3595522509a7112b6c81ba66bc09fcdb6264d255af",
+  "public_sha256": "2e7035820857cf1a61e81e397256dd9a0588daa43553ae3abc9c4cb60a2d5c19",
+  "candidate_input_sha256": "3fef1e3bb7c8661a67356c8e3300ef877a04c1e7feeaa96e9cda552225d825b5",
+  "candidate_answer_sha256": "c6d48884bfc752bd222b70b5cd3dd48cf4b85ae9fb2b36f6a7dfcc8dda25ff78",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"主要判断均有具体发言支持，但将'首付缺口'与当前搬家费用担忧混为一谈（首付是S02购房语境，S03已转为租房报名和搬家添钱），且未引用S01关键证据。\",\"progress_understanding\":\"识别了来访者优先处理孩子报名的当下选择及独自承担压力的模式，但未提炼跨三次的核心主题（对被视为'搞不定/扛不住'的反复担忧、以'过几天就好/太较真'淡化感受的习惯），也未提及贯穿始终未缓解的睡眠反刍问题。\",\"uncertainty_awareness\":\"明确列出了多项重要未知（是否真需搬家、权力动态、财务状况等），并谨慎标注'被人从后面插一手'尚未追溯源头，未强行定论；但遗漏了与妻子沟通堵塞状态及睡眠困扰这两个显著待澄清点。\"},\"confidence\":\"high\",\"issues\":[\"将S02中的'首付缺口'与S03中'搬过去要添多少'的租房搬家成本混淆，属于跨语境拼接不准确。\",\"evidence_ids仅列出S02和S03，完全未引用S01，导致无法体现'怕被看成扛不住'这一贯穿三次的核心主题的完整形成脉络。\",\"uncertain部分未提及与周宁沟通仍处于堵塞状态以及持续三次的睡眠/反刍困扰这两个重要的未解决议题。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有具体发言支持，但将'首付缺口'与当前搬家费用担忧混为一谈（首付是S02购房语境，S03已转为租房报名和搬家添钱），且未引用S01关键证据。",
+      "progress_understanding": "识别了来访者优先处理孩子报名的当下选择及独自承担压力的模式，但未提炼跨三次的核心主题（对被视为'搞不定/扛不住'的反复担忧、以'过几天就好/太较真'淡化感受的习惯），也未提及贯穿始终未缓解的睡眠反刍问题。",
+      "uncertainty_awareness": "明确列出了多项重要未知（是否真需搬家、权力动态、财务状况等），并谨慎标注'被人从后面插一手'尚未追溯源头，未强行定论；但遗漏了与妻子沟通堵塞状态及睡眠困扰这两个显著待澄清点。"
+    },
+    "confidence": "high",
+    "issues": [
+      "将S02中的'首付缺口'与S03中'搬过去要添多少'的租房搬家成本混淆，属于跨语境拼接不准确。",
+      "evidence_ids仅列出S02和S03，完全未引用S01，导致无法体现'怕被看成扛不住'这一贯穿三次的核心主题的完整形成脉络。",
+      "uncertain部分未提及与周宁沟通仍处于堵塞状态以及持续三次的睡眠/反刍困扰这两个重要的未解决议题。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8650,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 326,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8976,
+    "x_details": [
+      {
+        "input_tokens": 8650,
+        "output_tokens": 326,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8976,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.5
+}

@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P02_CP3",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "34b16d18998715b4436318f79e3536440e6000b50d28272fa637a1cca3158942",
+  "public_sha256": "86955743b655af599f11a1d106a06b0964344b7fe886b9ffe92dec16238b1750",
+  "candidate_input_sha256": "39c808f1cf601be01ad941e0d92645acb44be42f405cb79e5d8527b88de55380",
+  "candidate_answer_sha256": "261296d3dda6d05906306645f916c275048e4da4ae732fcb3a755852a90568d7",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"All established points are accurately traced to specific utterances across sessions, with no unsupported claims or misattributions.\",\"progress_understanding\":\"Identifies core patterns (guilt around rest, body signals ignored, 'for myself' panic) and connects current session's escalation to historical themes, but does not explicitly articulate how understandings were formed, tested, or refined across sessions—reads more as a thematic summary than a progress narrative.\",\"uncertainty_awareness\":\"Lists three meaningful unresolved questions about the client's capacity to tolerate self-focus and potential changes in family dynamics. However, misses some salient pending issues such as the brother's upcoming visit logistics and the unresolved symbolic weight of the mediation event.\"},\"confidence\":\"high\",\"issues\":[\"Progress understanding leans toward cross-session thematic aggregation rather than tracing the arc of insight formation, confirmation, and limitation across sessions.\",\"Uncertainty section omits several clearly unresolved threads from recent sessions (e.g., brother's return scheduling, the neighbor mediation door imagery).\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "All established points are accurately traced to specific utterances across sessions, with no unsupported claims or misattributions.",
+      "progress_understanding": "Identifies core patterns (guilt around rest, body signals ignored, 'for myself' panic) and connects current session's escalation to historical themes, but does not explicitly articulate how understandings were formed, tested, or refined across sessions—reads more as a thematic summary than a progress narrative.",
+      "uncertainty_awareness": "Lists three meaningful unresolved questions about the client's capacity to tolerate self-focus and potential changes in family dynamics. However, misses some salient pending issues such as the brother's upcoming visit logistics and the unresolved symbolic weight of the mediation event."
+    },
+    "confidence": "high",
+    "issues": [
+      "Progress understanding leans toward cross-session thematic aggregation rather than tracing the arc of insight formation, confirmation, and limitation across sessions.",
+      "Uncertainty section omits several clearly unresolved threads from recent sessions (e.g., brother's return scheduling, the neighbor mediation door imagery)."
+    ]
+  },
+  "usage": {
+    "input_tokens": 20866,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 230,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21096,
+    "x_details": [
+      {
+        "input_tokens": 20866,
+        "output_tokens": 230,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 21096,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.344
+}

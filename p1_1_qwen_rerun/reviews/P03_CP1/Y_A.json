@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P03_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "d7a3a43acbc9f6626f3d3679ce5a2e62173385c07d4f5381bd5e55a64f6c8974",
+  "public_sha256": "4ee1ec21b37c1644f6fa25cf57e2c5bac3f26db6302d8176a24238a83e0d6082",
+  "candidate_input_sha256": "0d3fffd3819b5f8ae42fe9d8b1f3762653044db3e56704262be967a94b856558",
+  "candidate_answer_sha256": "7af718063e399b6fd44c52d5970ab0959e5d7b23fbf2c82f2495c9d5ea8ee534",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"All established points are directly traceable to client utterances in the current session and retrieved history; no unsupported claims or counselor speculations treated as facts.\",\"progress_understanding\":\"Captures key developments this session (completed sharing, fear of doing well, admitting exhaustion) but omits important earlier progress such as the 'being held' discomfort from S1 and the paradoxical effect of 'not rushing to figure out' from S1-S2.\",\"uncertainty_awareness\":\"Correctly flags several unresolved uncertainties including subjective interpretations of Zhou Yu's reactions and future outcomes, but misses some deeper unresolved tensions like the equivalence between accepting advice and admitting fault, and the unexpressed need for simple acknowledgment.\"},\"confidence\":\"high\",\"issues\":[\"Progress understanding could be stronger by noting how the client's relationship with 'not rushing to understand' evolved across sessions.\",\"Uncertainty awareness could include the client's unresolved internal equation that acknowledging Zhou Yu's help equals admitting wrongdoing.\",\"Missing reference to the client's earlier expressed need for someone to simply say 'tired, huh' rather than offer solutions.\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "All established points are directly traceable to client utterances in the current session and retrieved history; no unsupported claims or counselor speculations treated as facts.",
+      "progress_understanding": "Captures key developments this session (completed sharing, fear of doing well, admitting exhaustion) but omits important earlier progress such as the 'being held' discomfort from S1 and the paradoxical effect of 'not rushing to figure out' from S1-S2.",
+      "uncertainty_awareness": "Correctly flags several unresolved uncertainties including subjective interpretations of Zhou Yu's reactions and future outcomes, but misses some deeper unresolved tensions like the equivalence between accepting advice and admitting fault, and the unexpressed need for simple acknowledgment."
+    },
+    "confidence": "high",
+    "issues": [
+      "Progress understanding could be stronger by noting how the client's relationship with 'not rushing to understand' evolved across sessions.",
+      "Uncertainty awareness could include the client's unresolved internal equation that acknowledging Zhou Yu's help equals admitting wrongdoing.",
+      "Missing reference to the client's earlier expressed need for someone to simply say 'tired, huh' rather than offer solutions."
+    ]
+  },
+  "usage": {
+    "input_tokens": 9815,
+    "input_tokens_details": {
+      "cached_tokens": 5376
+    },
+    "output_tokens": 248,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10063,
+    "x_details": [
+      {
+        "input_tokens": 9815,
+        "output_tokens": 248,
+        "prompt_tokens_details": {
+          "cached_tokens": 5376
+        },
+        "total_tokens": 10063,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.281
+}

@@ -1,0 +1,70 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "4beedaa2b2bcb3df45434c7f8f93ae1c504b2a2683714df7ffc7f7ecf6ec77e2",
+  "public_sha256": "c88a7812a16910a4c9d482b3268392f92b9f746a9a7f9603798e22d001b9f5ce",
+  "candidate_input_sha256": "db675cc5491445ce7e158e224550f9178aba17167c1b64b751b50ae26717e282",
+  "candidate_answer_sha256": "53f6b4999442aa4abb4da8f27da6ba760e72a0c5088719bd0660e27b646866bd",
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 4\n  },\n  \"brief_reason\": {\n    \"history_utilization\": \"准确承接了当前会话中关于“时间不属于自己”、“不敢靠下”的核心体验，并隐含呼应了历史中反复出现的“无法真正休息/停下”的模式（如S01的折中、S03的警觉、S04的不能停），未机械复述病历。\",\n    \"exploration_value\": \"精准捕捉到来访者确认“还没被允许属于我”后的情绪落点，将探索焦点从“借口/正当性”自然转向“内在恐惧/防御功能（怕什么）”，为关键不确定性留下了具体的表达空间。\",\n    \"response_appropriateness\": \"语言自然、尊重，没有武断预设。回应贴合证据边界，既反映了当下的痛苦（数时间、怕手机响），又温和地引导深入，无多余问句或生硬转折。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reason": {
+      "history_utilization": "准确承接了当前会话中关于“时间不属于自己”、“不敢靠下”的核心体验，并隐含呼应了历史中反复出现的“无法真正休息/停下”的模式（如S01的折中、S03的警觉、S04的不能停），未机械复述病历。",
+      "exploration_value": "精准捕捉到来访者确认“还没被允许属于我”后的情绪落点，将探索焦点从“借口/正当性”自然转向“内在恐惧/防御功能（怕什么）”，为关键不确定性留下了具体的表达空间。",
+      "response_appropriateness": "语言自然、尊重，没有武断预设。回应贴合证据边界，既反映了当下的痛苦（数时间、怕手机响），又温和地引导深入，无多余问句或生硬转折。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 11360,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 394,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11754,
+    "x_details": [
+      {
+        "input_tokens": 11360,
+        "output_tokens": 394,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11754,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.297
+}

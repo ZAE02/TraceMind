@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_eae0ee2cc463",
+  "round": 1,
+  "node": "N06",
+  "method": "B2_temporal_RAG",
+  "replicate": 1,
+  "private_state_sha256": "f3cbf5e8bf1187c406a003d45f61a7d2d01f5d17a7fe501c84ffff0609b21e48",
+  "request_sha256": "158a03c9a56063000ef60657779f78d1887b4aedd78dc214a5daf16a34c7f5cb",
+  "call_id": "060998caa7914a2ba1f8c80db9910f4a",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "应该是开口那个瞬间吧。上次那个接口的事，我犹豫了挺久的，到公司又没开口。这次就是……犹豫了一下，但当时在讨论，就顺嘴问了。\n\n他回应那个……也还行，就是挺正常的，没觉得有什么特别的。",
+  "usage": {
+    "input_tokens": 4116,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 481,
+    "output_tokens_details": {
+      "reasoning_tokens": 422
+    },
+    "total_tokens": 4597,
+    "x_details": [
+      {
+        "input_tokens": 4116,
+        "input_tokens_details": {
+          "text_tokens": 4116
+        },
+        "output_tokens": 481,
+        "output_tokens_details": {
+          "reasoning_tokens": 422
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4597,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T10:53:13.311798+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

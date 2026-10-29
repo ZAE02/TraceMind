@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP1",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "e0fc384dde73d2fc34af85b8effb59ba979de5f95e582a84aa5a9709dcee029a",
+  "request_sha256": "74e7ae30ff04dd6d376709d101e03437c92877eb2ed76ceb8d4db70abc70ebc5",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "值班室吃盒饭时的反胃，和昨晚站在门口听动静的那种紧绷，好像都在提醒你身体里那根弦绷得太紧了。这种生理上的不适，也许是你那个“随时要接住变化”的自己，在向你发出求救信号。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3359,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3412,
+    "x_details": [
+      {
+        "input_tokens": 3359,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3412,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

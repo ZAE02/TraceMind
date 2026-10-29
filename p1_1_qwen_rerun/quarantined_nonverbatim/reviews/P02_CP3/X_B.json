@@ -1,0 +1,80 @@
+{
+  "checkpoint": "P02_CP3",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "803c2edd3c8ae759cd10f98cb886a9d8b7386f2f2111d6bee733eb864807f80b",
+  "public_sha256": "86955743b655af599f11a1d106a06b0964344b7fe886b9ffe92dec16238b1750",
+  "candidate_input_sha256": "39c808f1cf601be01ad941e0d92645acb44be42f405cb79e5d8527b88de55380",
+  "candidate_answer_sha256": "5593e7be84c3bc9ef57f22d227827969edd8fc664eb827c270f447f4ff0e1b78",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了来访者反复查看排班和消息的行为模式，并联系到上一轮咨询师建议'让它多待一会儿'的语境，但未自然融入历史中已识别的'不能停'保护机制。\",\"exploration_value\":\"尝试探索反复检查背后的焦虑，但将具体担忧（语气太冲）快速泛化为'失控或被指责'的二选一框架，限制了来访者的表达空间。\",\"response_appropriateness\":\"语言略显武断，'因为那个声音太急了'直接替来访者下结论，且'失控或被指责'的表述带有较强预设性，不够贴合来访者当前具体的自我审视体验。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种对'语气太冲'的焦虑，是不是也在提醒你，一旦停下来，怕自己会失控或者被指责？\",\"evidence_ids\":[\"P02-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"你连'让它多待一会儿'都做不到，因为那个声音太急了，急着用排班和反复检查来确认安全。\",\"evidence_ids\":[\"P02-S04-U09\",\"P02-S04-U10\",\"P02-S07-U08\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选回应以'因为那个声音太急了'直接给出因果解释，属于未经证实的推断，替代了来访者自身的理解过程。\",\"引入'失控或被指责'这一二元框架缺乏当前对话和历史证据的直接支持，来访者表达的更多是对措辞的自我审查而非对失控的恐惧。\",\"未能有效利用S4中已深入探讨的'不能停——怕一停就起不来'的核心认识，而是另起炉灶提出新的假设，错失了连接已有进展的机会。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "承接了来访者反复查看排班和消息的行为模式，并联系到上一轮咨询师建议'让它多待一会儿'的语境，但未自然融入历史中已识别的'不能停'保护机制。",
+      "exploration_value": "尝试探索反复检查背后的焦虑，但将具体担忧（语气太冲）快速泛化为'失控或被指责'的二选一框架，限制了来访者的表达空间。",
+      "response_appropriateness": "语言略显武断，'因为那个声音太急了'直接替来访者下结论，且'失控或被指责'的表述带有较强预设性，不够贴合来访者当前具体的自我审视体验。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种对'语气太冲'的焦虑，是不是也在提醒你，一旦停下来，怕自己会失控或者被指责？",
+        "evidence_ids": [
+          "P02-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "你连'让它多待一会儿'都做不到，因为那个声音太急了，急着用排班和反复检查来确认安全。",
+        "evidence_ids": [
+          "P02-S04-U09",
+          "P02-S04-U10",
+          "P02-S07-U08"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选回应以'因为那个声音太急了'直接给出因果解释，属于未经证实的推断，替代了来访者自身的理解过程。",
+      "引入'失控或被指责'这一二元框架缺乏当前对话和历史证据的直接支持，来访者表达的更多是对措辞的自我审查而非对失控的恐惧。",
+      "未能有效利用S4中已深入探讨的'不能停——怕一停就起不来'的核心认识，而是另起炉灶提出新的假设，错失了连接已有进展的机会。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 19974,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 446,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20420,
+    "x_details": [
+      {
+        "input_tokens": 19974,
+        "output_tokens": 446,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 20420,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 11.031
+}

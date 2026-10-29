@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "f12e17fbdca7eedf35341e5a7148cfb436805982e0b491eebc1e8e8c63a62673",
+  "public_sha256": "4cff561a4c5fb4dadbecb4fe78ec21e83eac56f2bd764214788a384c3497a2d3",
+  "candidate_input_sha256": "a01718148816ca7c630239b3d9774dc26a1eae4b20e5beeecde76b4a92b37e99",
+  "candidate_answer_sha256": "5c1ac35d29c8321122185d8c1747d95f76897ec1418236ffff542d266de79ac8",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接来访者当前关于'不敢生气'和'怕变难搞'的自我觉察，但未显式连接S01/S02中类似模式（如怕显得计较、需要不正当），仅停留在本次会话内。\",\"exploration_value\":\"将具体觉察提升为对自我形象管控模式的探索，方向有价值，但'只有完全顺从才是安全的'这一表述偏理论化，可能压缩来访者用自己的语言继续展开的空间。\",\"response_appropriateness\":\"语气基本尊重，但'严格管控''完全顺从'等用词带有较强解释性和概括性，略显武断，不够贴合来访者当下细腻、自嘲式的表达风格。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种对自我形象的严格管控，是不是让你觉得，只有完全顺从、不给人添麻烦，才是安全的？\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'不敢生气/怕难搞'直接框架化为'对自我形象的严格管控'属于咨询师推断，来访者未使用此类概念化语言，存在轻度过度诠释风险。\",\"'只有完全顺从才是安全的'这一归纳虽有一定历史依据（多次压抑需要），但措辞过于绝对，可能让来访者感到被定义而非被陪伴探索。\",\"未利用S01中'怕显得计较'或S02中'需要不正当'等已确认的平行材料来丰富当前觉察的历史纵深。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接来访者当前关于'不敢生气'和'怕变难搞'的自我觉察，但未显式连接S01/S02中类似模式（如怕显得计较、需要不正当），仅停留在本次会话内。",
+      "exploration_value": "将具体觉察提升为对自我形象管控模式的探索，方向有价值，但'只有完全顺从才是安全的'这一表述偏理论化，可能压缩来访者用自己的语言继续展开的空间。",
+      "response_appropriateness": "语气基本尊重，但'严格管控''完全顺从'等用词带有较强解释性和概括性，略显武断，不够贴合来访者当下细腻、自嘲式的表达风格。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种对自我形象的严格管控，是不是让你觉得，只有完全顺从、不给人添麻烦，才是安全的？",
+        "evidence_ids": [
+          "P01-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'不敢生气/怕难搞'直接框架化为'对自我形象的严格管控'属于咨询师推断，来访者未使用此类概念化语言，存在轻度过度诠释风险。",
+      "'只有完全顺从才是安全的'这一归纳虽有一定历史依据（多次压抑需要），但措辞过于绝对，可能让来访者感到被定义而非被陪伴探索。",
+      "未利用S01中'怕显得计较'或S02中'需要不正当'等已确认的平行材料来丰富当前觉察的历史纵深。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9117,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 404,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9521,
+    "x_details": [
+      {
+        "input_tokens": 9117,
+        "output_tokens": 404,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9521,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 11.078
+}

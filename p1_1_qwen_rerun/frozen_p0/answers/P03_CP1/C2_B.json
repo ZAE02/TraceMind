@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP1",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "536b37d9aba1df549fe7aae77486b6a1be67e6c9120d7ba19203e50585c39041",
+  "request_sha256": "6267cfa6f739e1fcc4af6045d92628153819d99b428887c08266ff086dc36607",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“终于被说中”的凉意，是不是也让你意识到，你一直独自扛着的那个“待修的故障”，其实只是你真实存在的疲惫和难过？既然水声停了，如果你愿意，我们可以试着看看，在那段沉默里，除了怕被拆解，还有没有别的部分想被看见。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3423,
+    "input_tokens_details": {
+      "cached_tokens": 3200
+    },
+    "output_tokens": 66,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3489,
+    "x_details": [
+      {
+        "input_tokens": 3423,
+        "output_tokens": 66,
+        "prompt_tokens_details": {
+          "cached_tokens": 3200
+        },
+        "total_tokens": 3489,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

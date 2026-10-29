@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P01_CP2",
+  "raw_text": "你把方宁那个“好”字放大、甚至觉得标点都带着情绪，好像是在替自己确认“我又搞砸了”或“她果然不高兴”，以此来验证你心里的那个预设。这种把简单的事变成需要别人来确认的循环，确实让人很耗神，也难怪你会觉得头晕。",
+  "request_sha256": "ea76513b80a4a02ab437f68d3f3f412dae059b4409b62eaec3d936372b0e8bf1",
+  "input_sha256": "4d90316edac29829f4163e11128d1ecbfdaed246b2efffc208e3733df10841e9",
+  "memory_sha256": "08b0465818fa68107b2e52dae83fbae08b14442487e0101aa5e2acd48201a0bf",
+  "usage": {
+    "input_tokens": 7523,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 65,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7588,
+    "x_details": [
+      {
+        "input_tokens": 7523,
+        "output_tokens": 65,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7588,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.031
+}

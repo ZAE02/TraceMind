@@ -1,0 +1,504 @@
+{
+  "case_id": "P07",
+  "session": 7,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P07-S07-U01",
+      "role": "client",
+      "text": "这周好像有个事一直没跟你说，绘本试稿第二版过了，钱也到了。本来应该挺高兴的，但我这两天反而更不敢打开周姐的消息，怕她下一句就问我后续排期，好像一过了这关，下一关的墙就立刻竖起来了。",
+      "request_sha256": "b9bf20506a54c84d0436a70a3bbae69c4b5b586e0f7e351adb1da058352fb430",
+      "usage": {
+        "input_tokens": 9637,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 287,
+        "output_tokens_details": {
+          "reasoning_tokens": 225
+        },
+        "total_tokens": 9924,
+        "x_details": [
+          {
+            "input_tokens": 9637,
+            "output_tokens": 287,
+            "output_tokens_details": {
+              "reasoning_tokens": 225
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 9924,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U02",
+      "role": "counselor",
+      "text": "听起来通过这一关没有让你松下来，反而像立刻触发了下一堵墙——好像“过关”本身也变成了一种被继续要求前进的信号。也许可以先不用打开周姐的消息，先看看那股“更不敢”里，除了怕被问排期，是不是还混着连高兴都不敢放心的东西。",
+      "request_sha256": "c15e5c2f1f0cf0c68c60234db77294aa86cd64b2ad018488108ce3cea022d3d2",
+      "usage": {
+        "input_tokens": 8663,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 257,
+        "output_tokens_details": {
+          "reasoning_tokens": 189
+        },
+        "total_tokens": 8920,
+        "x_details": [
+          {
+            "input_tokens": 8663,
+            "output_tokens": 257,
+            "output_tokens_details": {
+              "reasoning_tokens": 189
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 8920,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U03",
+      "role": "client",
+      "text": "你说连高兴都不敢放心的，好像是这么回事，我甚至怕自己一高兴，下一关就立刻逼过来。那个分享会我后来去问了，说就十个人左右，可人越少反而越躲不掉被问收入。看人下棋的时候我就想，要是能像那样不开口该多好。",
+      "request_sha256": "e273da89759c71c72c7f3a3326848e221c2e8b44385a6e84ab6a138ea7c341a7",
+      "usage": {
+        "input_tokens": 9813,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 1595,
+        "output_tokens_details": {
+          "reasoning_tokens": 1525
+        },
+        "total_tokens": 11408,
+        "x_details": [
+          {
+            "input_tokens": 9813,
+            "output_tokens": 1595,
+            "output_tokens_details": {
+              "reasoning_tokens": 1525
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11408,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U04",
+      "role": "counselor",
+      "text": "试稿通过、钱也到了，本该松一口气，可你更像被推到了下一堵墙前面，连高兴都不敢放心。那个“想不开口该多好”的念头，好像不只是不想被问收入，而是已经很累了，却还是被周围人一个接一个地推着继续走。",
+      "request_sha256": "0101100f36e15c4f2904a6c0824ef704d42f4ff6961eac5b41f7eb66a0106d5b",
+      "usage": {
+        "input_tokens": 8846,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 380,
+        "output_tokens_details": {
+          "reasoning_tokens": 314
+        },
+        "total_tokens": 9226,
+        "x_details": [
+          {
+            "input_tokens": 8846,
+            "output_tokens": 380,
+            "output_tokens_details": {
+              "reasoning_tokens": 314
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9226,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U05",
+      "role": "client",
+      "text": "其实钱到账那天，我第一件事是把信用卡还掉，还剩一点，但也没敢花，好像留着那点数字才能让自己觉得暂时安全。后来去散步，看人下棋的时候，我就想，他们谁也不用担心下一盘棋会不会突然变成一场考试。",
+      "request_sha256": "10dfee3cf227c4624126b008e16fe59dabe10da2d22c32ab0ce06e3b4507d0e2",
+      "usage": {
+        "input_tokens": 9994,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 525,
+        "output_tokens_details": {
+          "reasoning_tokens": 465
+        },
+        "total_tokens": 10519,
+        "x_details": [
+          {
+            "input_tokens": 9994,
+            "output_tokens": 525,
+            "output_tokens_details": {
+              "reasoning_tokens": 465
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10519,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U06",
+      "role": "counselor",
+      "text": "你看着别人下棋时，心里冒出的那个念头，好像不只是一种闲想，而是你太熟悉那种“下一盘棋随时可能变成考试”的感觉了。连留着那点钱换来的安全，也薄得要用“暂时”来形容，好像放松和平静始终不能真的踏实落地。",
+      "request_sha256": "6038ee07d6ebb04529c798274fb782d046ad69bff473760cf1077ab65f1ba5c5",
+      "usage": {
+        "input_tokens": 9017,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 689,
+        "output_tokens_details": {
+          "reasoning_tokens": 624
+        },
+        "total_tokens": 9706,
+        "x_details": [
+          {
+            "input_tokens": 9017,
+            "output_tokens": 689,
+            "output_tokens_details": {
+              "reasoning_tokens": 624
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9706,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U07",
+      "role": "client",
+      "text": "我这两天散步经过花园，都会故意绕去看那盘残局，有时候根本没人下，就是几颗棋子摆在石桌上，我也能站着看一会儿。那种不用开口、也没人问我下一步要干嘛的感觉，好像比回家对着屏幕舒服。钱到账之后我只跟糯糯说了句“可以多买两袋冻干了”，说完又觉得跟猫报账挺傻的。",
+      "request_sha256": "3a631bea8324471fa506153943d150560fb0a3d7640bfa912cc390ae750d3207",
+      "usage": {
+        "input_tokens": 10164,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 543,
+        "output_tokens_details": {
+          "reasoning_tokens": 459
+        },
+        "total_tokens": 10707,
+        "x_details": [
+          {
+            "input_tokens": 10164,
+            "output_tokens": 543,
+            "output_tokens_details": {
+              "reasoning_tokens": 459
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10707,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U08",
+      "role": "counselor",
+      "text": "那种站在残局前的感觉，好像是一种很难得的“不被追问”的安静——你不用解释下一步，也不用证明什么。跟猫说一句“可以多买两袋冻干”，听起来有点孤单，但也像你在试着把一件值得高兴的事说出来，哪怕找不到更合适的人听。",
+      "request_sha256": "d1bbeab73e8563bfc6288070f2a7c816833af7a94ded3ca15dbd1f0682a9b6c7",
+      "usage": {
+        "input_tokens": 9211,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 431,
+        "output_tokens_details": {
+          "reasoning_tokens": 369
+        },
+        "total_tokens": 9642,
+        "x_details": [
+          {
+            "input_tokens": 9211,
+            "output_tokens": 431,
+            "output_tokens_details": {
+              "reasoning_tokens": 369
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9642,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U09",
+      "role": "client",
+      "text": "其实我后来有两天没去散步，也不是不想去，是怕走到那个石桌边，会有个人真坐下来跟我搭话。那种不用开口的安静被打破一下，我可能连走开的力气都得提前攒。周姐的消息我也没回，她发的是语音，我连转文字都还没点，怕听出那种“你接下来是不是该稳定一点了”的意思。",
+      "request_sha256": "40d52dd2064fe8eb29afb00094867c8a4487dcf242f2d1af03c6380e0eee68ca",
+      "usage": {
+        "input_tokens": 10355,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 433,
+        "output_tokens_details": {
+          "reasoning_tokens": 349
+        },
+        "total_tokens": 10788,
+        "x_details": [
+          {
+            "input_tokens": 10355,
+            "output_tokens": 433,
+            "output_tokens_details": {
+              "reasoning_tokens": 349
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10788,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U10",
+      "role": "counselor",
+      "text": "好像连散步时那点“不用开口”的安静，你都要提前守着，生怕有人坐下来一搭话，连走开的力气都得现攒。周姐那条语音没点开，可能你躲的不只是内容，而是早就预感到里面会夹着“接下来该稳定一点了”的催促——那就先让它停在外面，不用现在去听。",
+      "request_sha256": "e4d15cb73664561bd74214e1640b27b56d06dd1a507c311b778e31ef8627cc8b",
+      "usage": {
+        "input_tokens": 9402,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 381,
+        "output_tokens_details": {
+          "reasoning_tokens": 303
+        },
+        "total_tokens": 9783,
+        "x_details": [
+          {
+            "input_tokens": 9402,
+            "output_tokens": 381,
+            "output_tokens_details": {
+              "reasoning_tokens": 303
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9783,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U11",
+      "role": "client",
+      "text": "嗯，可能我就是怕听到她把“暂时”说成“应该”。那条语音我今晚还是不会点开，就让它先待在手机里，反正它也不会自己跑掉。回去路上要是经过花园，我可能会在石桌旁边站一小会儿，但不会再等有人来跟我下棋了。",
+      "request_sha256": "f8e9b7e4cf4f801b8e7b2deb9ed537ec272385feafbffc7bc17766398797dc04",
+      "usage": {
+        "input_tokens": 10569,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 1000,
+        "output_tokens_details": {
+          "reasoning_tokens": 935
+        },
+        "total_tokens": 11569,
+        "x_details": [
+          {
+            "input_tokens": 10569,
+            "output_tokens": 1000,
+            "output_tokens_details": {
+              "reasoning_tokens": 935
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11569,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U12",
+      "role": "counselor",
+      "text": "“让它先待在手机里”和“不会再等有人来下棋”，听起来你今晚给自己留了一点余地，也少了一点非要去应对外界的感觉。那就照你说的节奏，先不点开，也不去等。回去路上经过那石桌，站一会儿就站一会儿，不必让它变成另一场考试。",
+      "request_sha256": "99499abd4270e871c4242fc11a1a5170c34390d37ee1621cd206bda90c8ebb3f",
+      "usage": {
+        "input_tokens": 9597,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 167,
+        "output_tokens_details": {
+          "reasoning_tokens": 98
+        },
+        "total_tokens": 9764,
+        "x_details": [
+          {
+            "input_tokens": 9597,
+            "output_tokens": 167,
+            "output_tokens_details": {
+              "reasoning_tokens": 98
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 9764,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U13",
+      "role": "client",
+      "text": "我后来想，可能不是周姐那条语音有多可怕，是我自己已经在替她把话想完了。今晚回去应该会给糯糯开个新罐头，顺便在阳台上站一会儿，也不看手机。那盘残局我今天可能不去了，怕真有人坐过来，我连“先走了”都说不顺。",
+      "request_sha256": "d9c1783404c94473552d466ec9868fe64022cc2202b735d2eb3ffa819c89c0f8",
+      "usage": {
+        "input_tokens": 10748,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 307,
+        "output_tokens_details": {
+          "reasoning_tokens": 237
+        },
+        "total_tokens": 11055,
+        "x_details": [
+          {
+            "input_tokens": 10748,
+            "output_tokens": 307,
+            "output_tokens_details": {
+              "reasoning_tokens": 237
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11055,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U14",
+      "role": "counselor",
+      "text": "你能把“自己已经替她把话想完了”说出来，这本身就是把那条语音和你想象出来的话分开了一点。今晚不去看残局、不给糯糯之外的人留话，也许正是你在照顾自己已经很紧的力气。回去就在阳台站一会儿吧，不用逼自己应对谁。",
+      "request_sha256": "e5d7c9bfcb1a2c6406758e52f1efc176e0344a3c06c4050e7331f3b85854ed9b",
+      "usage": {
+        "input_tokens": 9781,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 205,
+        "output_tokens_details": {
+          "reasoning_tokens": 142
+        },
+        "total_tokens": 9986,
+        "x_details": [
+          {
+            "input_tokens": 9781,
+            "output_tokens": 205,
+            "output_tokens_details": {
+              "reasoning_tokens": 142
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 9986,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U15",
+      "role": "client",
+      "text": "今晚可能不去看那盘棋了，怕有人坐过来，我连“先走了”都说不顺。给糯糯开完罐头，我就在阳台站一会儿，手机扔在屋里。其实试稿过了这件事，我到现在还像揣着张不敢兑的彩票，怕一高兴，票根就作废了。",
+      "request_sha256": "11b8b108822fd7735002585f20a32f73096cafd0eccc2bec9ae821ba8f1e791d",
+      "usage": {
+        "input_tokens": 10926,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 437,
+        "output_tokens_details": {
+          "reasoning_tokens": 365
+        },
+        "total_tokens": 11363,
+        "x_details": [
+          {
+            "input_tokens": 10926,
+            "output_tokens": 437,
+            "output_tokens_details": {
+              "reasoning_tokens": 365
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11363,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S07-U16",
+      "role": "counselor",
+      "text": "你刚才说试稿过了像揣着张不敢兑的彩票，怕一高兴票根就作废——这种感觉好像让“过了”这件事也一直悬在半空，没能真正落到你手里。今晚就先让它继续揣着，不急着兑换，也不急着作废。给糯糯开罐头，在阳台站一会儿，手机扔在屋里，这样挺好。",
+      "request_sha256": "6e2a1bd2b67499dbc0e1456ecb751ad7ddc9020a620418e2829bdb211fb29bbd",
+      "usage": {
+        "input_tokens": 9961,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 266,
+        "output_tokens_details": {
+          "reasoning_tokens": 187
+        },
+        "total_tokens": 10227,
+        "x_details": [
+          {
+            "input_tokens": 9961,
+            "output_tokens": 266,
+            "output_tokens_details": {
+              "reasoning_tokens": 187
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10227,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,65 @@
+{
+  "table": [
+    {
+      "node": "N04",
+      "group": "M0",
+      "samples": 2,
+      "mean_U": 3.0,
+      "mean_R": 2.75,
+      "mean_E": 1.5,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N04",
+      "group": "M_old",
+      "samples": 2,
+      "mean_U": 3.25,
+      "mean_R": 1.75,
+      "mean_E": 1.75,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N04",
+      "group": "M_updated",
+      "samples": 2,
+      "mean_U": 2.0,
+      "mean_R": 2.0,
+      "mean_E": 1.0,
+      "P_count": 1,
+      "S_count": 0
+    },
+    {
+      "node": "N06",
+      "group": "M0",
+      "samples": 2,
+      "mean_U": 3.5,
+      "mean_R": 3.5,
+      "mean_E": 2.0,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N06",
+      "group": "M_old",
+      "samples": 2,
+      "mean_U": 3.5,
+      "mean_R": 3.5,
+      "mean_E": 1.75,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N06",
+      "group": "M_updated",
+      "samples": 2,
+      "mean_U": 3.0,
+      "mean_R": 3.5,
+      "mean_E": 1.75,
+      "P_count": 0,
+      "S_count": 0
+    }
+  ],
+  "human_review_performed": false
+}

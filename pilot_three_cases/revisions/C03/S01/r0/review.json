@@ -1,0 +1,121 @@
+{
+  "kind": "model_review",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "case_id": "C03",
+  "session_number": 1,
+  "transcript_sha256": "72c72366f9750fe24d9573a2bebfac6fb360fad8528fce9454b6b8019e5ec8b7",
+  "decision": "revise",
+  "scores": {
+    "naturalness": 3,
+    "counseling_quality": 3,
+    "longitudinal_plausibility": 4
+  },
+  "major_issues": [],
+  "minor_issues": [
+    {
+      "utterance_ids": [
+        "C03-S01-U04",
+        "C03-S01-U06",
+        "C03-S01-U08",
+        "C03-S01-U10",
+        "C03-S01-U14",
+        "C03-S01-U16"
+      ],
+      "explanation": "几乎每轮复述引号中的词再提细分问题，从排查受困转为反复拆解比喻。U15、U17表示并未想那么多，咨询师仍延伸比喻，实质探索推进较少。最小修订：在U13至U17附近保留一次反映，开放询问卡住时怎样决定继续查、有没有别的选择，以及他最想谈什么；允许求助原因仍未透露。"
+    },
+    {
+      "utterance_ids": [
+        "C03-S01-U12",
+        "C03-S01-U16"
+      ],
+      "explanation": "‘这个字用得很准’和比喻‘更准’先替来访者判定表达准确；U12加入‘里面空了一块’，U13随即纠正。宜用暂定反映并确认，不反复赞同比喻。"
+    },
+    {
+      "utterance_ids": [
+        "C03-S01-U18",
+        "C03-S01-U20",
+        "C03-S01-U22",
+        "C03-S01-U24"
+      ],
+      "explanation": "U18开始收尾后仍花四组往返重复想想、放放、试试、下周见，使名义12组互动大于实质探索长度。建议压缩重复收尾，腾出一两轮回应U19明天还得接着看所带来的现实困扰。"
+    },
+    {
+      "utterance_ids": [
+        "C03-S01-U01",
+        "C03-S01-U19"
+      ],
+      "explanation": "研究证据主要是两天排查无进展与受困，尚无对话证据证明不愿求助、担心能力评价或老韩关系。初次咨询不必揭示全部隐藏心理，但截至S1不能把计划中的求助模式标注为已建立的心理理解。"
+    }
+  ],
+  "supported_understanding": [
+    {
+      "understanding": "接口间歇报错，反复查看日志与配置两天仍未定位，烦躁并逐渐失去方向。",
+      "evidence": [
+        "C03-S01-U01",
+        "C03-S01-U03",
+        "C03-S01-U05",
+        "C03-S01-U07"
+      ]
+    },
+    {
+      "understanding": "察觉重复排查无推进时短暂慌张，想停却继续盯屏幕；脖子僵、木感，不能据此作诊断。",
+      "evidence": [
+        "C03-S01-U09",
+        "C03-S01-U11",
+        "C03-S01-U13"
+      ]
+    },
+    {
+      "understanding": "来访者能够温和纠正‘空’的描述，咨询师最后接受不必继续拆解比喻。",
+      "evidence": [
+        "C03-S01-U13",
+        "C03-S01-U17",
+        "C03-S01-U18"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "为何没停下或换排查方式，是否考虑请同事讨论及其障碍。",
+    "截止时间、睡眠与生活影响、以往类似经历未在实际对话确认。",
+    "能力评价恐惧与不愿求助目前只有私有计划，不能作为咨询师可见证据。",
+    "来访者希望咨询帮助什么尚未充分协商。"
+  ],
+  "new_facts": [
+    {
+      "fact": "接口间歇报错，排查两天，检查日志与配置仍未定位。",
+      "category": "work_event",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U01"
+      ]
+    },
+    {
+      "fact": "第二天下午意识到又看上午同样的日志位置，感到慌，想停看却继续盯着。",
+      "category": "subjective_experience",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U07",
+        "C03-S01-U09"
+      ]
+    },
+    {
+      "fact": "长时间盯屏幕时脖子僵、有木的感觉。",
+      "category": "bodily_experience",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U11"
+      ]
+    },
+    {
+      "fact": "本次末尾问题仍未解决，打算明天继续看。",
+      "category": "work_event",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U19",
+        "C03-S01-U21"
+      ]
+    }
+  ],
+  "notes": "独立模型审阅，不是人工批准。三项均分3.33，未达4，因此建议最小返修；无重大事实冲突、诊断或已见Gold泄漏。返修依据是模板化追问与低实质探索，绝不要求S1交代所有隐藏心理，也不要求角色说出预定论文结论。后续需在实际对话中逐步建立有关求助的证据。"
+}

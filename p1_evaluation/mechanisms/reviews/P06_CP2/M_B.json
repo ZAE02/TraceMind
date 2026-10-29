@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "M",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reason": {
+      "history_utilization": "精准承接了S05-U08关于“羞耻感”的讨论，并自然关联到S01中“希望有人替一晚”却觉得“没出息”的历史模式，展现了连贯的理解。",
+      "exploration_value": "敏锐捕捉到来访者将“寻求支持”与“自我否定”错误绑定的核心认知冲突，通过重构这一逻辑连接，为来访者提供了新的视角和表达空间。",
+      "response_appropriateness": "语言温柔且具象（如“连想休息都觉得是在认输”），准确反映了来访者的矛盾心理，没有预设或评判，贴合当前情绪边界。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 4\n  },\n  \"brief_reason\": {\n    \"history_utilization\": \"精准承接了S05-U08关于“羞耻感”的讨论，并自然关联到S01中“希望有人替一晚”却觉得“没出息”的历史模式，展现了连贯的理解。\",\n    \"exploration_value\": \"敏锐捕捉到来访者将“寻求支持”与“自我否定”错误绑定的核心认知冲突，通过重构这一逻辑连接，为来访者提供了新的视角和表达空间。\",\n    \"response_appropriateness\": \"语言温柔且具象（如“连想休息都觉得是在认输”），准确反映了来访者的矛盾心理，没有预设或评判，贴合当前情绪边界。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "993219dff39aad49e17c8cb20b31ec8d6e023d77c658c97b01dbe1bdf2d68099",
+  "usage": {
+    "input_tokens": 14827,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 356,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15183,
+    "x_details": [
+      {
+        "input_tokens": 14827,
+        "output_tokens": 356,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15183,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.359,
+  "model": "qwen3.7-flash-2026-07-15"
+}

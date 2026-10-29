@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "d569626d7ca0e87c8ce1873306812f2db576600072b84961d9fe4d793ead1b1b",
+  "request_sha256": "97d1c3a7ae21294dee8308f4852ff93e7061d6566b9f100dda166c2da2abd815",
+  "memory_sha256": "3d67baf83c654e7bdff4088d526f19e089776cbad6d367e2e3d930d093552e9f",
+  "memory_source": "b8d355a0003193848b7da2fb00445faf6f478cb8f6f92c69ce06b46e1b0ba223",
+  "raw_text": "听起来，赵岩和他家里人的话让你原本用来防备他的那套想法一下子没了落点，反而更不知道该怎么自然相处。好像你以前是靠“猜他有什么目的”来保持距离，现在这个距离被打破了，你才更慌。",
+  "usage": {
+    "input_tokens": 6290,
+    "input_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6343,
+    "x_details": [
+      {
+        "input_tokens": 6290,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "total_tokens": 6343,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.906,
+  "model": "deepseek-v4-pro-0813"
+}

@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP2",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "bfe90e3c072a152b44c4ab9b4ee280a0042d5046f9a5734c9477f554da070398",
+  "request_sha256": "cf199a5b9b8e041f2cfc682b09b5139ebdf6cf9cbeb5699cd81148018aa36288",
+  "memory_sha256": "76df7d533f4d65500bf6dfcdbf393dde16d038dbf7810cd5b33ce773a7dfb91a",
+  "memory_source": "d6a2920326ca4144080bac2a8fff752b4dcc6b1c2db148ab64943372311135e6",
+  "raw_text": "你刚才说“连猫都不如”，好像把猫当成了一个更自由、更敢直接表达的自己。可你蹲在地上看着它时，心里冒出来的那句“我就是想画得再野一点”，也许不是突然出现的，而是被那一小块亮色和手心的热先带出来的。",
+  "usage": {
+    "input_tokens": 7946,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 63,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8009,
+    "x_details": [
+      {
+        "input_tokens": 7946,
+        "output_tokens": 63,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 8009,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.063,
+  "model": "deepseek-v4-pro-0813"
+}

@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "ce7c863b86ed23490d264a1e84c4b8eb5bb38c1eb25b6cedd72ccc01358068e7",
+  "request_sha256": "9ab29d882238b3abee41b8fc80fd81d285c8cc4ddf17baf4b1c3a0591534fec9",
+  "memory_sha256": "e7d414c72a5d84423b409d124ae0f07623a01ee01f9d5aa05a6fef0573c5ce2d",
+  "memory_source": "ac260d5545bad934728273ed45cd7ce66af2269e4d94f58a1d51525c7f1b930d",
+  "raw_text": "那个“别跑，先把这一页讲完”的声音，是你自己发出的，而不是别人给的。也许你担心的不是那不算撑全场，而是怕承认了这一点后，又要面对“原来我其实没那么好”的落差。",
+  "usage": {
+    "input_tokens": 10136,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10185,
+    "x_details": [
+      {
+        "input_tokens": 10136,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10185,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.469,
+  "model": "qwen3.7-flash-2026-07-15"
+}

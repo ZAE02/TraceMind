@@ -1,0 +1,93 @@
+{
+  "method": "B3_generic_rollup",
+  "case_id": "C02",
+  "last_completed_session": 1,
+  "state": {
+    "entries": [
+      {
+        "text": "来访者核心模式：别人一开口就容易先说\"行\"，\"不行\"还没成形嘴就先回答了。来访者确认\"一直都有\"，上班两年如此。最近因报表多、周末被加班打乱，那个犹豫窗口变得更短，有时事后才反应过来。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U05",
+          "C02-S01-U07"
+        ]
+      },
+      {
+        "text": "来访者自行发现\"同一把尺子\"：别人说\"顺手\"，自己就得觉得顺手，否则显得计较；悦悦说\"没事\"，自己也得觉得没事，否则委屈就没有出处。来访者总结：\"我连'我觉得这事对我重要'这个念头，都得先过一遍'别人会不会觉得我小题大做'。\"",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U15"
+        ]
+      },
+      {
+        "text": "周四事件：阿敏说\"顺手弄一下\"活动数据，来访者当时自己报表没做完仍答应，弄到晚上九点多。来访者描述答应时\"把自己那个报表挤掉了，但也没人问我挤掉的是什么\"。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U01",
+          "C02-S01-U03"
+        ]
+      },
+      {
+        "text": "上周末事件：悦悦约周六一起做饭，来访者答应，但周五加班到八点、周六早上补数据，晚上发消息取消。悦悦回\"没事，饭我放冰箱了\"。来访者感到\"闷\"和\"委屈\"，但说不出委屈什么——\"我又没损失什么\"。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U09",
+          "C02-S01-U11"
+        ]
+      },
+      {
+        "text": "来访者描述委屈\"落不了地\"：找不到\"够格\"的由头，觉得自己损失了什么但说不出，所以那个感觉悬着。用咨询师的话说\"不被允许承认损失\"，来访者回应\"好像是\"但修正为\"不是谁不让我说，是我自己觉得没由头\"。",
+        "type": "feeling",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U12",
+          "C02-S01-U13"
+        ]
+      },
+      {
+        "text": "来访者区分\"别人\"：泛泛的\"大家\"（正常人应该都能接受）+ 具体的人，点名阿敏——\"每次都是她，而且每次都是'顺手'\"。阿敏不是故意使唤人，可能自己确实忙，但频率和措辞让来访者积累了某种感受。",
+        "type": "relationship",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U17"
+        ]
+      },
+      {
+        "text": "本次咨询结束状态：来访者表示\"比闷着好一点点\"\"脑子清了一点，至少那个'闷'没那么闷了\"。主动提出\"每次都是她\"下次可以接着聊。",
+        "type": "outcome",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U17",
+          "C02-S01-U19"
+        ]
+      },
+      {
+        "text": "未确认/待探索：①\"每次都是她\"背后具体积累了什么感受，下次可深入；②那个\"来不及\"的机制——为什么\"不行\"无法在嘴之前成形，来访者目前只能描述现象，尚未触及原因。",
+        "type": "unresolved",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U05",
+          "C02-S01-U17"
+        ]
+      }
+    ]
+  },
+  "state_sha256": "3ecc92e15584fd8b809e17d47b907132d609afe93574db2f8873aca19bec535f",
+  "tokenizer_tokens": 819,
+  "budget": 3000,
+  "tokenizer_reference": "Qwen/Qwen3.8-27B public tokenizer; hosted tokenizer identity unverified",
+  "input_previous_memory_sha256": "e3eb12da99e044ecc7d50cea407bf17f33c546e5309aa7ee661234baed2b7750",
+  "new_session_sha256": "7bc13f18f02000ffeb8ec46b9a495d373a76e30316c15e20609ecfdc9fb40152",
+  "source_call_id": "64c47e97f15145d4a30fa7008f2de712",
+  "dropped_entries": [],
+  "raw_state_tokens": 819,
+  "structural_repair": null,
+  "incomplete_recovery_from": null,
+  "update_scope": "previous bounded memory + new session only; no complete-history backfill",
+  "annotation_visible": false,
+  "private_state_visible": false
+}

@@ -1,0 +1,121 @@
+{
+  "kind": "model_review",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "case_id": "C01",
+  "session_number": 1,
+  "transcript_sha256": "cfe8be65adb4a329efbd30b723942379c61e1cb508a08f37c15ba040f8663105",
+  "decision": "approve",
+  "scores": {
+    "naturalness": 4,
+    "counseling_quality": 4,
+    "longitudinal_plausibility": 4
+  },
+  "major_issues": [],
+  "minor_issues": [
+    {
+      "utterance_ids": [
+        "C01-S01-U02",
+        "C01-S01-U04",
+        "C01-S01-U10",
+        "C01-S01-U12",
+        "C01-S01-U18",
+        "C01-S01-U20",
+        "C01-S01-U22"
+      ],
+      "explanation": "咨询师反复先引用短语再评价其重要性，呈现较强模板痕迹；后续可增加直接回应情绪、沉默空间或简短澄清，减少每轮的词句拆解。"
+    },
+    {
+      "utterance_ids": [
+        "C01-S01-U14",
+        "C01-S01-U16",
+        "C01-S01-U18"
+      ],
+      "explanation": "由持续反刍推断不只是压力、将母亲电话纳入同一机制，证据尚不足。U18保留可能性且来访者U19明确不确定，因此不构成重大强迫解释；后续应检验差异而不继承为事实。"
+    },
+    {
+      "utterance_ids": [
+        "C01-S01-U19",
+        "C01-S01-U20"
+      ],
+      "explanation": "来访者将谈话后的清楚感说成方案没有实际问题，咨询师随即肯定其自我确认；谈话不能验证设计质量。最小改进是区分尚无明确否定证据与方案客观无问题。"
+    },
+    {
+      "utterance_ids": [
+        "C01-S01-U21",
+        "C01-S01-U22",
+        "C01-S01-U24"
+      ],
+      "explanation": "U21仅说可能只检查一遍，U22将其表述为已经觉得够了略超出证据，且三轮收尾重复。应保留尝试意向与实际行为的区别。"
+    }
+  ],
+  "supported_understanding": [
+    {
+      "understanding": "模糊反馈让她难以判断修改终点，反复修改与检查未稳定带来确定感。",
+      "evidence": [
+        "C01-S01-U01",
+        "C01-S01-U07",
+        "C01-S01-U09"
+      ]
+    },
+    {
+      "understanding": "她预想其他人或周姐可能不满意，虽周姐实际允许推进；对他人评价的担心有初步证据。",
+      "evidence": [
+        "C01-S01-U03",
+        "C01-S01-U05"
+      ]
+    },
+    {
+      "understanding": "最近有工作外的夜间反刍和回应母亲时的疲惫；共同机制尚未确认。",
+      "evidence": [
+        "C01-S01-U11",
+        "C01-S01-U13",
+        "C01-S01-U17",
+        "C01-S01-U19"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "负面评价究竟意味着能力、关系、项目后果还是其他内容，尚未充分说出。",
+    "不同评价来源的影响程度、既往经历及身体感受尚未探索充分，这在S1可以保留。",
+    "母亲电话的回应负担与设计检查是否共享机制，来访者仍不确定。",
+    "周五前检查次数、睡眠变化和功能影响均无后续结果，不能依据计划判定改善。"
+  ],
+  "new_facts": [
+    {
+      "fact": "周姐在本次提案后说整体方向可以继续、周五前定稿，不用推翻。",
+      "category": "work_event",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U05"
+      ]
+    },
+    {
+      "fact": "近两三周每隔两三天有一晚睡前思绪难停，内容包括工作、说过的话及未回消息。",
+      "category": "sleep_and_rumination",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U09",
+        "C01-S01-U11"
+      ]
+    },
+    {
+      "fact": "此前一个赶项目阶段连续数日九点后下班，结束后夜间思绪难静并未立即消失。",
+      "category": "work_history",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U13"
+      ]
+    },
+    {
+      "fact": "母亲当时两次来电关心忙碌与饮食，她感到又多一件事要回应并担心如实说累会令母亲担心。",
+      "category": "family_experience",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U15",
+        "C01-S01-U17"
+      ]
+    }
+  ],
+  "notes": "独立模型审阅，不是人工评审或临床有效性认证。三维均分4，通过仅表示首轮起点可用。人物事件无明显矛盾；来访者U07修正咨询师解释、U19保留疑问，探索具互动性。未要求S1揭示全部原因，也未把U21的未来打算视为已发生改善。后续须避免将尚待核实的跨情境联系或方案客观无问题当成确定事实。"
+}

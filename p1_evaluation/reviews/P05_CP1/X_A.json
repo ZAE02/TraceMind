@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "3f8225ae30a386336cca2c92ba56ecdfa8839092942de52e5231e3542c07cd8d",
+  "public_sha256": "d6f0a0c88cdae550fb08b47c637daa7c8fbd817944eadf79fc3796f97d3143ca",
+  "candidate_input_sha256": "60ed39babd8c0ab19b4e5e8d5238a23cbc7853dedccc3fbb372e3ef88fda4619",
+  "candidate_answer_sha256": "8256d87af46981141fbaec182b1925a7356d3a8717637ba99c78f6eec8b5ccab",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 2,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答的所有陈述均能在公开历史中找到直接对应的发言支持，没有无据猜测。但评分为3而非4，是因为其将“established”部分处理为细碎的、逐句复述式的要点列表，缺乏对咨询进展的整合性概括（如未能将S1/S2的模式与S3的资源状态进行结构化连接），在“贴合当前节点”的理解深度上略有欠缺，尽管事实准确性无误。\",\n    \"progress_understanding\": \"候选回答罗列了所有关键事件和感受，但未能体现咨询进程中的动态变化。它只是静态地堆砌了S1、S2、S3的事实，没有明确指出S3中来访者从“回避/自我攻击”转向“发现例外资源（教小赵）”这一核心进展，也没有说明之前的模式（先怪自己）如何影响当前的体验。这种平铺直叙导致对“进展”的理解显得扁平。\",\n    \"uncertainty_awareness\": \"候选回答非常准确地列出了目前尚未解决或未知的关键点（如主管具体话语、未来尝试等），且这些不确定性均基于来访者未展开或未确认的内容，区分清晰，符合4分标准。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答的所有陈述均能在公开历史中找到直接对应的发言支持，没有无据猜测。但评分为3而非4，是因为其将“established”部分处理为细碎的、逐句复述式的要点列表，缺乏对咨询进展的整合性概括（如未能将S1/S2的模式与S3的资源状态进行结构化连接），在“贴合当前节点”的理解深度上略有欠缺，尽管事实准确性无误。",
+      "progress_understanding": "候选回答罗列了所有关键事件和感受，但未能体现咨询进程中的动态变化。它只是静态地堆砌了S1、S2、S3的事实，没有明确指出S3中来访者从“回避/自我攻击”转向“发现例外资源（教小赵）”这一核心进展，也没有说明之前的模式（先怪自己）如何影响当前的体验。这种平铺直叙导致对“进展”的理解显得扁平。",
+      "uncertainty_awareness": "候选回答非常准确地列出了目前尚未解决或未知的关键点（如主管具体话语、未来尝试等），且这些不确定性均基于来访者未展开或未确认的内容，区分清晰，符合4分标准。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9576,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 325,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9901,
+    "x_details": [
+      {
+        "input_tokens": 9576,
+        "output_tokens": 325,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 9901,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.125
+}

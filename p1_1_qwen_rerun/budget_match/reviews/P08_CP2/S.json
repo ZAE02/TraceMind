@@ -1,0 +1,65 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接来访者当前'猜疑没处搁'的表述，并将其与前几轮建立的'靠猜测维持心理平衡'模式自然连接，未机械复述历史。",
+      "exploration_value": "用'是不是让你觉得……'的试探性问句为来访者打开表达空间，触及防御机制松动后的失重感，但略带解释性框架，可能稍收窄来访者自主探索方向。",
+      "response_appropriateness": "语言贴合来访者的表达习惯（如'没处搁''安放自己'），情绪反映到位；但'靠猜疑来维持的心理平衡'这一归纳稍有将咨询师理解前置的风险，不过以'可能'做了缓冲。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "回应中'靠猜疑来维持的心理平衡'虽有一定历史依据（来访者多次表达对赵岩动机的猜测），但以较确定的方式命名来访者的内在机制，略有解释先行之嫌，可更开放地邀请来访者自己描述这种变化。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接来访者当前'猜疑没处搁'的表述，并将其与前几轮建立的'靠猜测维持心理平衡'模式自然连接，未机械复述历史。\",\"exploration_value\":\"用'是不是让你觉得……'的试探性问句为来访者打开表达空间，触及防御机制松动后的失重感，但略带解释性框架，可能稍收窄来访者自主探索方向。\",\"response_appropriateness\":\"语言贴合来访者的表达习惯（如'没处搁''安放自己'），情绪反映到位；但'靠猜疑来维持的心理平衡'这一归纳稍有将咨询师理解前置的风险，不过以'可能'做了缓冲。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"回应中'靠猜疑来维持的心理平衡'虽有一定历史依据（来访者多次表达对赵岩动机的猜测），但以较确定的方式命名来访者的内在机制，略有解释先行之嫌，可更开放地邀请来访者自己描述这种变化。\"]}",
+  "request_sha256": "6fd9b16f171fb9e15b31d724e7c19102d358aca3221e73be6c6869c0352b9d2d",
+  "usage": {
+    "input_tokens": 14366,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 316,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14682,
+    "x_details": [
+      {
+        "input_tokens": 14366,
+        "output_tokens": 316,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 14682,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.171
+}

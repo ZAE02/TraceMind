@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP1",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "63ff91b1d97209378d59a8e7e0ff14b3caa1ffbd3cb49fe638053c5513912bc6",
+  "request_sha256": "909c79229113663b2c5638bdd55ce5f21b4666430fe5935e9ca5b6042b7c5189",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你怕被听出的，不只是“不想回家”这个念头，更是它背后那个“我也有想拔掉插头、什么都不修的时候”的自己。好像一旦被人听出来，你就再也不是那个随时能上去修排风扇的人了。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3329,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 51,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3380,
+    "x_details": [
+      {
+        "input_tokens": 3329,
+        "output_tokens": 51,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3380,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

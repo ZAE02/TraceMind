@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "5b5e49fad89d89a4b69a93fdc545bf390b7f039b3a34ce274a0f34ccf3c5eaa4",
+  "request_sha256": "0ff15ae315956be12e9dad6fa00dc2e3c992e498f6a984e5d60d26a5171abeae",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你在那一刻看清了，那层灰不仅仅是怕别人说，更是你在压抑自己“想画得再野一点”的真实渴望。这种想要冲破束缚的冲动，其实一直就在那里，只是被“做贼”般的羞耻感给盖住了。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 995,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 55,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1050,
+    "x_details": [
+      {
+        "input_tokens": 995,
+        "output_tokens": 55,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1050,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,5 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者S03-U09中关于冻僵的手和'我也刚到不久'的自我觉察，以及不敢生气的主题，但未进一步连接前两次会谈中已建立的'需要不正当'模式。\",\"exploration_value\":\"回应主要是对来访者刚表达内容的总结和重述，缺乏开放性的探索空间或邀请来访者继续深入的方向。\",\"response_appropriateness\":\"语言自然、有共情，但将'生气'直接定性为来访者心中的'错误'略带推断色彩，虽与整体模式一致但非来访者原话。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"在你心里都是一种需要被压抑的\"错误\"\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应基本停留在复述来访者刚刚说的话（手冻僵、说'我也刚到不久'、不敢生气），未提供新的探索方向或开放式提问，推进性不足。\",\"将'一生气就变成很难搞的人'概括为'一种需要被压抑的错误'，虽然符合来访者的行为模式，但措辞上带有一定解释性推断，来访者并未使用'错误'一词来描述自己的感受。\"]}",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "request_sha256": "eba900552cdb70d9089c4c27d47359f5c8844c46a65a8c18cd0b98324a19ea46"
+}

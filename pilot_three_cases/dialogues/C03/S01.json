@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 1,
+  "relative_week": 1,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6.1-sol/high",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:29.935566+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C03-S01-U04",
+          "C03-S01-U10",
+          "C03-S01-U12",
+          "C03-S01-U16",
+          "C03-S01-U20"
+        ],
+        "explanation": "逐词引用仍偏多，U04‘这个动作挺真实’像评价表演，U12‘与其说……不如说’略强。相较旧稿，引用现在用于不同的实质探索、U06为反映而非盘问、U14回应新求助线索，故作为语言质量的保留意见，不单独退回。后续应减少此节奏。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S01-U02",
+          "C03-S01-U04",
+          "C03-S01-U10",
+          "C03-S01-U16"
+        ],
+        "explanation": "多次提供二选一心理选项，可能缩窄回答；来访者仍有两者都有、自我修正和否认，未完全机械顺从。后续宜增加开放探索，不把未选项解释自动排除。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S01-U17"
+        ],
+        "explanation": "来访者明确说不是怕老韩认为水平不行，同时觉得说出两天未解决显得自己笨。应保留自我评价羞耻与预期他人评价之间的区别；不能把私有卡片的能力恐惧直接当作S1已证实事实。"
+      }
+    ],
+    "transcript_sha256": "ecbc1e403b1d94944cc8c089592ef9da055fdfef7f215a16f8b536f6c8d8d454"
+  },
+  "created_at": "2026-10-12T10:01:38.748397+00:00",
+  "config_hash": "cd8c7f5e40af75cdc2478b09ecf111e0ddad6aba330d1823b00bde8b2c6fb242",
+  "prompt_version": "pilot-v3-natural-dialogue-constraints",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v3-natural-dialogue-constraints",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "generation_revision": "C03-S01-r3"
+  },
+  "utterances": [
+    {
+      "id": "C03-S01-U01",
+      "role": "client",
+      "text": "这周有个接口间歇性报错，我查了两天了，日志翻了好几遍，没定位到原因。老韩在群里问了下进展，我就说还在看。\n\n有点烦，主要是不知道该怎么说，就是……怎么说呢，卡住了。",
+      "call_id": "f3d9959519174882ad8d9a00e2281288",
+      "response_id": "resp_8d6ed25e-b0de-9343-8a73-a69a94348046",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:01:46.276301+00:00"
+    },
+    {
+      "id": "C03-S01-U02",
+      "role": "counselor",
+      "text": "查了两天没定位到，老韩又问了，说\"还在看\"——这个\"卡住\"的感觉，是更多来自事情本身没进展，还是说\"还在看\"这个回答让你觉得不太够？",
+      "call_id": "d5bf8cc8d97e4a698f2be0a740a349b8",
+      "response_id": "resp_eea71de5-ba4c-92cc-bb81-ec22ed5c0c84",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:01:57.631232+00:00"
+    },
+    {
+      "id": "C03-S01-U03",
+      "role": "client",
+      "text": "两者都有吧。主要是两天了，日志翻来翻去，确实没进展，这个最烦。\n\n\"还在看\"那个……也不是觉得不够，就是发出去之后又看了一眼，觉得好像有点太短了，但又不知道还能补什么。",
+      "call_id": "a7a22d03f7f34d6b8a261d0ea2cd6165",
+      "response_id": "resp_bf47d779-c419-9203-8fb0-352b54f83a08",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:02:14.597083+00:00"
+    },
+    {
+      "id": "C03-S01-U04",
+      "role": "counselor",
+      "text": "发出去又看了一眼——这个动作挺真实的。不过你说了最烦的是事情本身，那两天翻日志没翻出结果，那个过程里是什么感觉？是越查越不确定，还是越查越觉得\"应该已经能定位了但就是没有\"？",
+      "call_id": "14baf448a108488caf2d485a78276f77",
+      "response_id": "resp_a3200c09-c9df-96bb-a49d-5aefa3c8e718",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:02:23.481346+00:00"
+    },
+    {
+      "id": "C03-S01-U05",
+      "role": "client",
+      "text": "嗯，两种都有点。第一天还觉得再翻翻应该能看出来，到第二天就变成……应该差不多能定位了，但就是没有。\n\n而且间歇性的，你有时候还不确定它到底是不是真有问题，还是就偶发了一次。这个更烦。",
+      "call_id": "3c82bf74ecf34e1f9891c169c5fc61de",
+      "response_id": "resp_13dee524-4479-988c-9c8f-0c49f8a5ce8f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:02:33.788625+00:00"
+    },
+    {
+      "id": "C03-S01-U06",
+      "role": "counselor",
+      "text": "连\"到底是不是真有问题\"这个前提都悬着，这确实比\"有问题但找不到原因\"更让人没着落——至少后者你知道方向，前者连该不该继续查都不确定。",
+      "call_id": "3d36716408e54a209cdf0d94d1807163",
+      "response_id": "resp_75d9b0ad-9f41-9803-b7b3-c19485fe8187",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:02:41.546397+00:00"
+    },
+    {
+      "id": "C03-S01-U07",
+      "role": "client",
+      "text": "对，就是这个。有时候看着那个报错，会想\"是不是就这一次，不用管了\"，但又不敢就这么放着。\n\n所以其实也不是完全不知道方向，就是……方向本身在晃。",
+      "call_id": "3cfbe1c1ad374b34b289328e6584e4e0",
+      "response_id": "resp_62874a8b-1051-9b5f-8e9c-28b9ce9ae60d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:02:50.076136+00:00"
+    },
+    {
+      "id": "C03-S01-U08",
+      "role": "counselor",
+      "text": "方向在晃的时候，你一般是怎么撑过去的？是硬着头皮继续翻，还是会有点想先放一放？",
+      "call_id": "710158f11cbd4ad9be811bd4e34e81d7",
+      "response_id": "resp_4f913781-76bf-91a8-b909-611f8ee999af",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:02:58.088440+00:00"
+    },
+    {
+      "id": "C03-S01-U09",
+      "role": "client",
+      "text": "一般就是继续翻吧，不太会真的停下来。有时候晚上回去躺床上还会想着那个日志，翻手机看之前查过的资料。\n\n放下来……也不是不想，就是觉得放下了万一明天又冒出来，更麻烦。",
+      "call_id": "098a50f9c18c4d62959b9140dcb23786",
+      "response_id": "resp_5fd6349b-3d85-9184-9d37-faf14ec89ce5",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:03:04.745070+00:00"
+    },
+    {
+      "id": "C03-S01-U10",
+      "role": "counselor",
+      "text": "晚上躺床上还在翻手机看资料，听起来确实没真正切换过来。你说\"放下了万一明天又冒出来更麻烦\"——这个\"更麻烦\"，是比现在这样更难受，还是说停下来的时候会有一种……不太对的感觉？",
+      "call_id": "40dbe58e33d34a0ebfec6c0608927176",
+      "response_id": "resp_3ea8dca1-4516-9aef-9c6b-b3721889eaf8",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:03:12.812909+00:00"
+    },
+    {
+      "id": "C03-S01-U11",
+      "role": "client",
+      "text": "嗯……应该是都有点。停下来那个瞬间，确实会有一种\"没做完\"的感觉，不太对。\n\n但说\"更麻烦\"可能也不完全是那个意思，就是……你放着它，它就一直在那儿。你也不知道它什么时候会再冒出来，所以干脆别让它冒出来，对吧。",
+      "call_id": "fce273eaff54436e9aee8e0b0789de5e",
+      "response_id": "resp_f84af7e5-a58b-9eea-b218-39e1f2dc8e25",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:03:21.580875+00:00"
+    },
+    {
+      "id": "C03-S01-U12",
+      "role": "counselor",
+      "text": "\"它就一直在那儿\"——所以与其说你在查，不如说你在跟一个悬着的东西较劲，只要它没消失，你就没法真正切走。那现在呢，今天它还在\"那儿\"吗，还是今天有什么变化？",
+      "call_id": "e1ae23a5db1641a8b10c983a823478ad",
+      "response_id": "resp_2389e0a1-13ad-9e36-9531-a1ea80e360d2",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:03:32.836829+00:00"
+    },
+    {
+      "id": "C03-S01-U13",
+      "role": "client",
+      "text": "还在。今天也没查到什么新东西，就……又翻了一遍调用链，还是那样。\n\n来之前其实还在想，要不要今天直接找老韩看一下，但到公司又没开口。",
+      "call_id": "56fb2ee9b22c49309e496f4446819e46",
+      "response_id": "resp_37d92141-60b6-9ed7-b7c0-a8271cda4f92",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:03:38.073170+00:00"
+    },
+    {
+      "id": "C03-S01-U14",
+      "role": "counselor",
+      "text": "来之前想着要找老韩看，到了又没开口——这个从\"想\"到\"没开口\"中间，是什么让你收住了？",
+      "call_id": "2e050afeadee4ebe83ff97f082f3997f",
+      "response_id": "resp_1cf32608-d04f-903f-8660-2dba076869ab",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:03:44.275235+00:00"
+    },
+    {
+      "id": "C03-S01-U15",
+      "role": "client",
+      "text": "就是……要开口的时候，突然觉得得先解释一下为什么还没查出来。\n\n\"我查了两天了\"这句话，说出来有点……怎么说，难堪。明明也没多复杂的事，但就是觉得说出来不太好听。",
+      "call_id": "45a22ca1bd3f4bde82c54cdba8a23659",
+      "response_id": "resp_847aa274-1fcb-9f95-b146-ca742921fb99",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:03:53.411736+00:00"
+    },
+    {
+      "id": "C03-S01-U16",
+      "role": "counselor",
+      "text": "\"我查了两天了\"——开口之前先要解释，好像还没求助就先要交代。这个\"难堪\"，是觉得老韩会觉得你该早查出来，还是说\"还没查出来\"这件事本身让你觉得不太能拿出手？",
+      "call_id": "c90804c0dab24ca99dcc341f551a8d69",
+      "response_id": "resp_8a4ec4ca-2ab1-9fe0-9856-50b78db2fc53",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:04:00.344801+00:00"
+    },
+    {
+      "id": "C03-S01-U17",
+      "role": "client",
+      "text": "嗯……可能更偏后面那个。就是\"还没查出来\"这件事本身，说出来好像有点……拿不出手。\n\n也不是怕老韩觉得我水平不行，就是……怎么说，\"我查了两天了还没搞定\"这句话，放在那儿就显得我有点笨。明明事情本身也没多难。\n\n……今天应该也聊得差不多了，我回去再试试换个思路看看。",
+      "call_id": "fd5ff100a62a4ed896e8031ab009adcb",
+      "response_id": "resp_15d5662d-30c2-91cb-ba84-8ecedaa5de6a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:04:09.504526+00:00"
+    },
+    {
+      "id": "C03-S01-U18",
+      "role": "counselor",
+      "text": "嗯，那个\"拿不出手\"的感觉先带着就好，不用今天非得说透。回去看看，下次聊。",
+      "call_id": "5f30a9f34b734f8eae1e8da1cbb87bf8",
+      "response_id": "resp_13928681-0e87-9a45-85ed-dbece65954f7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:04:23.872203+00:00"
+    },
+    {
+      "id": "C03-S01-U19",
+      "role": "client",
+      "text": "嗯，好。\n\n……就是，今天说出来感觉轻了一点，但也不知道是不是真的轻了。行，下次再聊吧。",
+      "call_id": "94e0c9096f614ab4bbf042b64f09cda5",
+      "response_id": "resp_8bbf0876-8073-984e-a1cb-e07363049e7b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:04:30.235252+00:00"
+    },
+    {
+      "id": "C03-S01-U20",
+      "role": "counselor",
+      "text": "\"轻了一点但不确定是不是真的轻了\"——这个不确定本身也挺正常的，不用非得确认。下次见。",
+      "call_id": "cf9f8e8dbb2147bdae0bd180e2bad20a",
+      "response_id": "resp_629b144e-74eb-97a6-8101-b80f73bf07dc",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:04:33.702995+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T10:04:33.702995+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T10:04:33.704995+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C03/S01.json"
+}

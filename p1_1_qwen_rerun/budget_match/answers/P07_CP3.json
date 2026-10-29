@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P07_CP3",
+  "condition": "C5_budget",
+  "raw_text": "怕被打破的安静，其实也是怕那种“不用开口”的状态里，连一点喘息的空间都被收回。\n周姐的语音还没转文字，也许我们可以先不急着去听那个声音，看看你此刻更想守住的是什么。",
+  "input_sha256": "8be60940e2517513e42c48371ed7b46975e24c4c5542c4e4f52f44754163958c",
+  "memory_sha256": "5aeb60ccd81f6fc6abc572f1c300382bff740e273490d93ac6584380f2ec4261",
+  "request_sha256": "fb4eb7b8e4d33f0961e7c91423b31966b2ab0dc7b30e8e2dc330be14f7bf6721",
+  "usage": {
+    "input_tokens": 10250,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 51,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10301,
+    "x_details": [
+      {
+        "input_tokens": 10250,
+        "output_tokens": 51,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10301,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.156
+}

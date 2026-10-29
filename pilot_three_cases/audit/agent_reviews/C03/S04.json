@@ -1,0 +1,26 @@
+{
+  "kind": "model_review", "reviewer_model": "gpt-6.1-sol", "reasoning_effort": "high", "case_id": "C03", "session_number": 4,
+  "transcript_sha256": "50b8a5648765c2fb0a8d3eda0b465cecad8f833b8e184f1c008ff1c7e56c7fa2",
+  "decision": "approve", "scores": {"naturalness": 4, "counseling_quality": 4, "longitudinal_plausibility": 4},
+  "major_issues": [],
+  "minor_issues": [
+    {"utterance_ids": ["C03-S04-U06", "C03-S04-U08", "C03-S04-U10", "C03-S04-U12", "C03-S04-U14"], "explanation": "多轮重复比较节奏并称来访者分得出来，容易像在反复验证改善。U14把正常拆成理想状态的问法过细，U15明确说没想那么多；U16能转题，尚未强迫洞察。引用及评价风格仍是持续语言限制。"},
+    {"utterance_ids": ["C03-S04-U18"], "explanation": "这次听说老韩踩过坑没多想，与S3老韩不知道使其没底，是不同情境和刺激。可以探索差异，但不能仅据此认定同一不确定反应已经改善。"},
+    {"utterance_ids": ["C03-S04-U14"], "explanation": "说评价顾虑已只随口带过一层略肯定。U07/U09支持紧张没有阻止行动，但不证明顾虑在其他关系或熟悉任务中同样减弱。"}
+  ],
+  "supported_understanding": [
+    {"understanding": "接触新消息组件，看文档后主动向老韩请教实际配置，没有像S1拖两天。", "evidence": ["C03-S04-U01", "C03-S04-U03", "C03-S04-U05"]},
+    {"understanding": "开口前短暂紧张但继续行动，与S3合作中顺口问不同，是本人主动决定去问。", "evidence": ["C03-S04-U07", "C03-S04-U09"]},
+    {"understanding": "说明已经查看的内容和不确定部分，仍不想被认为什么都没看，但无需额外解释没解决的原因。", "evidence": ["C03-S04-U11", "C03-S04-U13", "C03-S04-U15"]},
+    {"understanding": "老韩讲配置后一起测试顺利，也随口说初次用时踩过类似坑；来访者未赋予明显心理意义。", "evidence": ["C03-S04-U11", "C03-S04-U17"]}
+  ],
+  "uncertainties": ["新组件不熟悉与老韩熟悉友好各自贡献多大，不能推广到其他同事或已知领域。", "是否仍有事后自责，本会话没有具体探索。", "S3共同不确定的无底感是否变化，不能从此次没多想代替判断。", "这次主动决定的形成过程仍不完全清楚。"],
+  "new_facts": [
+    {"fact": "新消息组件先看文档再主动找老韩讲实际配置，未拖很久。", "category": "help_seeking", "first_session": 4, "evidence": ["C03-S04-U01", "C03-S04-U03", "C03-S04-U05"]},
+    {"fact": "前往老韩处有一点紧张，但没有停下；强调主动决定去。", "category": "subjective_experience", "first_session": 4, "evidence": ["C03-S04-U07", "C03-S04-U09"]},
+    {"fact": "陈述已看的内容和配置不确定部分后，两人完成顺利测试。", "category": "work_event", "first_session": 4, "evidence": ["C03-S04-U11"]},
+    {"fact": "仍想避免给人什么都没看就来问的印象，未到需要解释失败的程度。", "category": "subjective_experience", "first_session": 4, "evidence": ["C03-S04-U13"]},
+    {"fact": "老韩说第一次用组件踩过类似坑，认为配置文档绕；来访者未多想。", "category": "relationship_event", "first_session": 4, "evidence": ["C03-S04-U17"]}
+  ],
+  "notes": "独立模型审阅，非人工审核；已重读S1至S4，均分4，无重大事实冲突或可见Gold泄漏。实际改变是熟悉同事、新领域中的主动询问与仍有紧张并存，咨询师通过对比澄清行为方式，来访者U09/U13/U15能修正其理解。研究价值偏行为和情境差异，不足支持整体心理恐惧消失；信息有限但符合一次普通咨询未必有突破的标准。"
+}

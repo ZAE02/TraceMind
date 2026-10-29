@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P08_CP3",
+  "condition": "C5_budget",
+  "raw_text": "听赵岩讲那些经验时，你走神想到的是自己前两年一个人对着材料发懵，那种“不知道该问谁、问出口又怕被看低”的感觉，好像到现在还压着你。你说“现在知道了，还是晚了点”，听起来不只是说报名这件事，更像在说过去那个只能硬扛的自己。",
+  "input_sha256": "a3f3051e0a93cc1fa58d95a6668abc33baf518e6505d4abb47fe03015c2ece6c",
+  "memory_sha256": "03ddb8b9b08b33815c6b6d3ade84224d1ecddb95ba5d54477efe969dfeb0a36d",
+  "request_sha256": "d99c071a7068d82bb93f0364ba0b3af93a54e577362c7210af3ad084df32eb3e",
+  "usage": {
+    "input_tokens": 9150,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 69,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9219,
+    "x_details": [
+      {
+        "input_tokens": 9150,
+        "output_tokens": 69,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 9219,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.046
+}

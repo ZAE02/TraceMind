@@ -1,0 +1,504 @@
+{
+  "case_id": "P06",
+  "session": 3,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P06-S03-U01",
+      "role": "client",
+      "text": "其实吧，这周我差点在办公室哭出来。女儿发烧被幼儿园电话叫回去，我请了半天假，公开课教案还压着没写完；我妈又把孩子的退烧药当成自己的营养品，还好我发现得早。我现在一闭眼就是这些事在转，觉得自己哪头都顾不好。",
+      "request_sha256": "40b4bb18ab123e158b63b26a4187fc94f18b9dfad2ef1f85a9a8139e5f89ef3c",
+      "usage": {
+        "input_tokens": 3116,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 464,
+        "output_tokens_details": {
+          "reasoning_tokens": 396
+        },
+        "total_tokens": 3580,
+        "x_details": [
+          {
+            "input_tokens": 3116,
+            "output_tokens": 464,
+            "output_tokens_details": {
+              "reasoning_tokens": 396
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 3580,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U02",
+      "role": "counselor",
+      "text": "听起来这周你被好几件事同时拽着：女儿的发烧、没写完的教案、妈妈拿错了药。你差点在办公室哭出来，可好像连那个“差点”都被你压着，只剩一闭眼就转个不停。你现在坐在这里，周围这些事里最让你揪着放不下的是哪一件？",
+      "request_sha256": "e8222fc6d85addd20cb973a83ed0ffd161c3c885c6c539f8eebb34ac4c5f90e6",
+      "usage": {
+        "input_tokens": 2611,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 327,
+        "output_tokens_details": {
+          "reasoning_tokens": 257
+        },
+        "total_tokens": 2938,
+        "x_details": [
+          {
+            "input_tokens": 2611,
+            "output_tokens": 327,
+            "output_tokens_details": {
+              "reasoning_tokens": 257
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2938,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U03",
+      "role": "client",
+      "text": "其实吧，我也说不上哪一件最揪着，就像它们是一起压上来的。女儿喊妈妈的时候我人还在改教案，脑子却一下转到那瓶退烧药上，差点把旁边的水杯碰翻。我总觉得自己慢一步就会出大事，连去趟厕所都得盘算着时间。",
+      "request_sha256": "9eb594f17e88067bfe79d0978b360f550ee85d834ee200bb5ea2cf98a29169d4",
+      "usage": {
+        "input_tokens": 3300,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 388,
+        "output_tokens_details": {
+          "reasoning_tokens": 319
+        },
+        "total_tokens": 3688,
+        "x_details": [
+          {
+            "input_tokens": 3300,
+            "output_tokens": 388,
+            "output_tokens_details": {
+              "reasoning_tokens": 319
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3688,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U04",
+      "role": "counselor",
+      "text": "这些事不是一件一件来，而是一起压上来，所以你连在女儿喊妈妈的时候，脑子都还在教案和药瓶之间来回跳。你好像一直把自己放在“慢一步就会出大事”的警报里，连去厕所都要盘算时间，是因为你几乎不敢让自己松下来。",
+      "request_sha256": "5ec92d807bf38d20c2a0f6d37453b6a0f62f1a000c6e869931a24d34e188c997",
+      "usage": {
+        "input_tokens": 2795,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 783,
+        "output_tokens_details": {
+          "reasoning_tokens": 718
+        },
+        "total_tokens": 3578,
+        "x_details": [
+          {
+            "input_tokens": 2795,
+            "output_tokens": 783,
+            "output_tokens_details": {
+              "reasoning_tokens": 718
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3578,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U05",
+      "role": "client",
+      "text": "其实吧，我就是不敢松，怕一松下来又出那种事。我妈拿错药那晚，我坐在厨房地上盯着那两瓶药，脑子里全是我爸走之前的样子，然后就咬了自己一口，怕自己真喊出来。",
+      "request_sha256": "ceaafb5726e1bee5d25730a28e9e055ba90a3981a792be620923fd45830f11f8",
+      "usage": {
+        "input_tokens": 3479,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 198,
+        "output_tokens_details": {
+          "reasoning_tokens": 145
+        },
+        "total_tokens": 3677,
+        "x_details": [
+          {
+            "input_tokens": 3479,
+            "output_tokens": 198,
+            "output_tokens_details": {
+              "reasoning_tokens": 145
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3677,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U06",
+      "role": "counselor",
+      "text": "你咬自己那一下，像是在把快要冲出来的声音硬压回去。盯着那两瓶药时，脑子里浮起爸爸走之前的样子——那一瞬间的恐惧，好像不只在药上，也怕自己会像当时那样喊出来、或者完全撑不住。",
+      "request_sha256": "610122e930310e0943bc36cbaa43917212e118c903deb89004adbaba0f577ac4",
+      "usage": {
+        "input_tokens": 2958,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 264,
+        "output_tokens_details": {
+          "reasoning_tokens": 206
+        },
+        "total_tokens": 3222,
+        "x_details": [
+          {
+            "input_tokens": 2958,
+            "output_tokens": 264,
+            "output_tokens_details": {
+              "reasoning_tokens": 206
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3222,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U07",
+      "role": "client",
+      "text": "其实吧，我最怕的就是自己哪天会像我爸走的那晚一样，整个人突然就空了，只能靠咬自己留住一点知觉。你刚一说“喊出来”，我手臂上那个牙印好像又烫起来了。",
+      "request_sha256": "13bcb92f01a6cb013fec3bcd845f05babe4bb42ec5dcb0a6ca5e700fea736e7c",
+      "usage": {
+        "input_tokens": 3635,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 474,
+        "output_tokens_details": {
+          "reasoning_tokens": 426
+        },
+        "total_tokens": 4109,
+        "x_details": [
+          {
+            "input_tokens": 3635,
+            "output_tokens": 474,
+            "output_tokens_details": {
+              "reasoning_tokens": 426
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4109,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U08",
+      "role": "counselor",
+      "text": "那个牙印会“烫起来”，像是那个“怕自己空了”的感觉现在还在你身体里，并没有停在那个晚上。你说靠咬自己留住一点知觉——我在想，是不是在那一刻，你需要用痛来确认自己还在，还没有整个散掉。",
+      "request_sha256": "6958b0a4fc1f396c1d9e64951994d3fa5896d1d082d77fcdd67e3112e410f896",
+      "usage": {
+        "input_tokens": 3109,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 370,
+        "output_tokens_details": {
+          "reasoning_tokens": 314
+        },
+        "total_tokens": 3479,
+        "x_details": [
+          {
+            "input_tokens": 3109,
+            "output_tokens": 370,
+            "output_tokens_details": {
+              "reasoning_tokens": 314
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3479,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U09",
+      "role": "client",
+      "text": "其实吧，我有时候半夜醒过来，得先摸一摸自己的手腕才敢动。那晚在厨房地上，药瓶是凉的，可我一直出汗，衣服贴在背上，又觉得自己像被人从头顶撕开了。",
+      "request_sha256": "aa4c85eb7237e9771f7f1c1ced2bf0b54a045456347461d2070fa8d553efc644",
+      "usage": {
+        "input_tokens": 3784,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 399,
+        "output_tokens_details": {
+          "reasoning_tokens": 350
+        },
+        "total_tokens": 4183,
+        "x_details": [
+          {
+            "input_tokens": 3784,
+            "output_tokens": 399,
+            "output_tokens_details": {
+              "reasoning_tokens": 350
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4183,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U10",
+      "role": "counselor",
+      "text": "那种“被从头顶撕开”的感觉听起来很可怕，像整个人都要裂成几片，而你还能说出它，已经是在努力把自己兜住。你半夜先摸一摸手腕才敢动，好像也需要先确认自己还在、还连着，才敢继续面对这个身体。",
+      "request_sha256": "7810c932344153fdcaa1e3aaa13d2775e94d4ef86e62a911eb39c85eb95bc121",
+      "usage": {
+        "input_tokens": 3259,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 279,
+        "output_tokens_details": {
+          "reasoning_tokens": 217
+        },
+        "total_tokens": 3538,
+        "x_details": [
+          {
+            "input_tokens": 3259,
+            "output_tokens": 279,
+            "output_tokens_details": {
+              "reasoning_tokens": 217
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3538,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U11",
+      "role": "client",
+      "text": "其实吧，我有时候真恨自己怎么连确认自己还活着都要靠摸手腕。这周在办公室听见隔壁两个年轻老师约着周末看电影，我差一点就凑过去说“加我一个”，可话到嘴边又咽了回去，觉得自己跟她们已经不在一个世界里了。",
+      "request_sha256": "dc5e04bc98b9cbb85cbb1a6caf822eb79e593c7b3dbebee0dc99d92aefa009c9",
+      "usage": {
+        "input_tokens": 3947,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 444,
+        "output_tokens_details": {
+          "reasoning_tokens": 382
+        },
+        "total_tokens": 4391,
+        "x_details": [
+          {
+            "input_tokens": 3947,
+            "output_tokens": 444,
+            "output_tokens_details": {
+              "reasoning_tokens": 382
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4391,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U12",
+      "role": "counselor",
+      "text": "你恨的不是摸手腕这个动作本身，而是自己已经累到需要用这种方式才能确认“还在”。看着隔壁老师约看电影，你差点凑过去又咽回去，那种“已经不在一个世界”的感觉，听起来很孤独。\n\n也许不是你真的不想靠近，而是你太久没允许自己踏进那种轻松里了。今天先到这里也可以，你已经把很多压着的东西说出来了。",
+      "request_sha256": "8d5318668915328404e6f48605cdabbbc11f7b5815492d41d2b32529ba005f3c",
+      "usage": {
+        "input_tokens": 3435,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 228,
+        "output_tokens_details": {
+          "reasoning_tokens": 146
+        },
+        "total_tokens": 3663,
+        "x_details": [
+          {
+            "input_tokens": 3435,
+            "output_tokens": 228,
+            "output_tokens_details": {
+              "reasoning_tokens": 146
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3663,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U13",
+      "role": "client",
+      "text": "其实吧，我有时候听她们聊周末、聊新开的店，心里会忍不住想，要是我也还没结婚、没孩子，现在是不是也能这么轻松。可这话我不敢跟任何人说，连自己想一想都觉得不配。",
+      "request_sha256": "3020c82ac0dc8ceb1fb2eec9602ac645cfa43e7bd341bbd2f7f1d42726985219",
+      "usage": {
+        "input_tokens": 4139,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 256,
+        "output_tokens_details": {
+          "reasoning_tokens": 207
+        },
+        "total_tokens": 4395,
+        "x_details": [
+          {
+            "input_tokens": 4139,
+            "output_tokens": 256,
+            "output_tokens_details": {
+              "reasoning_tokens": 207
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4395,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U14",
+      "role": "counselor",
+      "text": "你想到“要是还没结婚没孩子，会不会也能那么轻松”，又马上觉得自己不配这么想——这个转折里好像既有一丝对自己辛苦的看见，也有很多苛刻的责备。",
+      "request_sha256": "b7e45186bd533618a0d8a0017c471996301b5a8c3ef36ef1aac141e4f2848e73",
+      "usage": {
+        "input_tokens": 3614,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 183,
+        "output_tokens_details": {
+          "reasoning_tokens": 143
+        },
+        "total_tokens": 3797,
+        "x_details": [
+          {
+            "input_tokens": 3614,
+            "output_tokens": 183,
+            "output_tokens_details": {
+              "reasoning_tokens": 143
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3797,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U15",
+      "role": "client",
+      "text": "其实吧，我总觉得自己连羡慕别人的资格都没有，她们能那样活着是因为没被这些事缠住，而我要是也那么想，就像在怪自己的命。可我真的没有力气去怪谁，只能一遍遍告诉自己“这就是你的日子”。",
+      "request_sha256": "ffa5d5df2bece57e5d3015045e806abec5eb797c0470e9c6e617dfe48417654a",
+      "usage": {
+        "input_tokens": 4273,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 239,
+        "output_tokens_details": {
+          "reasoning_tokens": 185
+        },
+        "total_tokens": 4512,
+        "x_details": [
+          {
+            "input_tokens": 4273,
+            "output_tokens": 239,
+            "output_tokens_details": {
+              "reasoning_tokens": 185
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4512,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S03-U16",
+      "role": "counselor",
+      "text": "你把羡慕也当成了一种“没资格”的东西，好像往轻松那边看一眼，就是在否定自己现在这样活着；可那句“一遍遍告诉自己‘这就是你的日子’”，听起来像是把累和委屈都咽下去后，不许自己再问一句“那我呢”。今天先到这里吧，你愿意把这些说出来，已经很不容易。",
+      "request_sha256": "20036438d535695b4558827980db6b52fa7b63b1496ec1b31646a4b1822d7371",
+      "usage": {
+        "input_tokens": 3753,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 443,
+        "output_tokens_details": {
+          "reasoning_tokens": 373
+        },
+        "total_tokens": 4196,
+        "x_details": [
+          {
+            "input_tokens": 3753,
+            "output_tokens": 443,
+            "output_tokens_details": {
+              "reasoning_tokens": 373
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4196,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

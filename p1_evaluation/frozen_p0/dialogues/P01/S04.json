@@ -1,0 +1,504 @@
+{
+  "case_id": "P01",
+  "session": 4,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P01-S04-U01",
+      "role": "client",
+      "text": "陈姐在周会上表扬了第三版，说方向可以，细节再收一下。我当时嘴快就追问她，是整体收还是只收边缘，结果她只回了一句“你看着办”。这两天我老在琢磨，她是不是被我那一下问得有点烦了。",
+      "request_sha256": "17e1aa17c5c5ad8064d0107ae9f33d34bf7cb17a6a3d184d08bd385ef492330f",
+      "usage": {
+        "input_tokens": 4946,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 639,
+        "output_tokens_details": {
+          "reasoning_tokens": 577
+        },
+        "total_tokens": 5585,
+        "x_details": [
+          {
+            "input_tokens": 4946,
+            "output_tokens": 639,
+            "output_tokens_details": {
+              "reasoning_tokens": 577
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 5585,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U02",
+      "role": "counselor",
+      "text": "好像陈姐那句“你看着办”本来是把判断交给你，但你很快又把它听成“她是不是被我那一下问烦了”，于是这两天反复在琢磨自己那一问是不是太多。你似乎很需要一个明确的边界或标准，否则“自己看着办”反而让人更不踏实；而追问本身在你心里，也容易变成“是不是我太计较、太不专业”的证据。",
+      "request_sha256": "a3f4a709b2c4f3ddc595c61fc5de91d1b743f4abb1d14694fe3357f0423c59a2",
+      "usage": {
+        "input_tokens": 4159,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 515,
+        "output_tokens_details": {
+          "reasoning_tokens": 430
+        },
+        "total_tokens": 4674,
+        "x_details": [
+          {
+            "input_tokens": 4159,
+            "output_tokens": 515,
+            "output_tokens_details": {
+              "reasoning_tokens": 430
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 4674,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U03",
+      "role": "client",
+      "text": "可能……她夸第三版的时候我确实开心了一下，但“细节你再收一下”一出来，我就觉得那个开心特别不真实，好像后面还跟着很多没说出来的要求。我问她范围，结果只得到“你看着办”，这两句话放在一起，我就更拿不准她到底是觉得我太较真，还是真的把判断都交给我了。",
+      "request_sha256": "dcf7360dabea9cd5ca7683ecb0bef5ce6dc67a98629a20f3ced5de0e663fd82d",
+      "usage": {
+        "input_tokens": 5139,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 860,
+        "output_tokens_details": {
+          "reasoning_tokens": 782
+        },
+        "total_tokens": 5999,
+        "x_details": [
+          {
+            "input_tokens": 5139,
+            "output_tokens": 860,
+            "output_tokens_details": {
+              "reasoning_tokens": 782
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5999,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U04",
+      "role": "counselor",
+      "text": "好像陈姐那句“你看着办”让你更不确定了：它既可以被理解为“我相信你能判断”，也可以被理解为“别再来问我了”。你似乎很难让自己停在“被表扬了”这个事实上，反而更习惯去确认那个开心的感觉是不是“不真实”，于是总想从她接下来的话里找出一个明确答案。",
+      "request_sha256": "ac66c5607508ec8f8c24bf2d290acbc24f988dd6a3b024fd45ec44c44d46b87c",
+      "usage": {
+        "input_tokens": 4367,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 285,
+        "output_tokens_details": {
+          "reasoning_tokens": 213
+        },
+        "total_tokens": 4652,
+        "x_details": [
+          {
+            "input_tokens": 4367,
+            "output_tokens": 285,
+            "output_tokens_details": {
+              "reasoning_tokens": 213
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 4652,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U05",
+      "role": "client",
+      "text": "可能……我确实很难停下来去信那个表扬，总觉得“细节你再收一下”才是更真的那句，后面那些没明说的，才是我该去够到的东西。结果“你看着办”一出来，我反而更不知道要够到什么程度，好像做少了是没听懂，做多了又变成在赌。其实这周方宁还约我去攀岩，我本来以为要爬山，后来她改了，我居然松了一口气，但又不敢让她看出来我其实不太想动。",
+      "request_sha256": "3e8712005f6553679801c3180a1a7b97e63d6ffea3271c5381780c0f92f3e2cd",
+      "usage": {
+        "input_tokens": 5334,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 384,
+        "output_tokens_details": {
+          "reasoning_tokens": 279
+        },
+        "total_tokens": 5718,
+        "x_details": [
+          {
+            "input_tokens": 5334,
+            "output_tokens": 384,
+            "output_tokens_details": {
+              "reasoning_tokens": 279
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5718,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U06",
+      "role": "counselor",
+      "text": "你好像在陈姐那里很难允许自己按自己的判断来，只能夹在“做少了像没听懂、做多了像在赌”的两端，反而让“你看着办”变得更没着落。方宁那里也有一点像：你明明因为改攀岩松了口气，却不敢让她看出来你其实不太想动，好像自己的偏好一露出来，就会变成扫兴或计较的人。",
+      "request_sha256": "6a78ff1e0a897b3b64d31d4f2533d22a9adaa18fee374c4c7a5d6fc851f6759a",
+      "usage": {
+        "input_tokens": 4589,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 617,
+        "output_tokens_details": {
+          "reasoning_tokens": 532
+        },
+        "total_tokens": 5206,
+        "x_details": [
+          {
+            "input_tokens": 4589,
+            "output_tokens": 617,
+            "output_tokens_details": {
+              "reasoning_tokens": 532
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5206,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U07",
+      "role": "client",
+      "text": "其实我这两天改稿的时候，一直想起陈姐那句“你看着办”，好像她越是让我自己判断，我越不知道该往哪儿使劲。方宁那边也是，她说改攀岩，我松了口气，可我连跟她说我其实有点怕高都不敢，怕她以后就不约我了。前同事回“你太认真了”，我到现在也没搞懂那是夸我还是嫌我烦，又不敢再问。",
+      "request_sha256": "88b41ce5a5345fb2ece1272f1d8bcdd2e15dffc503eabb21616e68f3c62ec2b6",
+      "usage": {
+        "input_tokens": 5569,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 762,
+        "output_tokens_details": {
+          "reasoning_tokens": 673
+        },
+        "total_tokens": 6331,
+        "x_details": [
+          {
+            "input_tokens": 5569,
+            "output_tokens": 762,
+            "output_tokens_details": {
+              "reasoning_tokens": 673
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6331,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U08",
+      "role": "counselor",
+      "text": "你好像把陈姐的“你看着办”、方宁改攀岩时的松一口气、前同事那句“你太认真了”，都变成了一道道必须自己猜出正确答案的题；而且“怕高”和“想再问一句”这些真实感受，似乎一露出来就担心会让对方不想再约你。你宁可自己反复掂量，也不敢让对方知道你在怕、在不确定。",
+      "request_sha256": "85868dd93b21a095fe8a7921419857a0e64a91691981d2d542d94adee122996a",
+      "usage": {
+        "input_tokens": 4808,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 339,
+        "output_tokens_details": {
+          "reasoning_tokens": 252
+        },
+        "total_tokens": 5147,
+        "x_details": [
+          {
+            "input_tokens": 4808,
+            "output_tokens": 339,
+            "output_tokens_details": {
+              "reasoning_tokens": 252
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5147,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U09",
+      "role": "client",
+      "text": "其实我这两天还一直在想前同事那句“你太认真了”，当时我回了个“哈哈有吗”，然后就没再说话了。我总觉得那三个字后面可能还有别的意思，比如“你有点烦”或者“跟你合作好累”，但我又不敢再问，怕问了就真变成那种很较真又很没眼力的人。",
+      "request_sha256": "af2917f67eecbc6d2b103ce32210944ae7197c5c0ea79a1b8d8918fc573a2978",
+      "usage": {
+        "input_tokens": 5790,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 426,
+        "output_tokens_details": {
+          "reasoning_tokens": 350
+        },
+        "total_tokens": 6216,
+        "x_details": [
+          {
+            "input_tokens": 5790,
+            "output_tokens": 426,
+            "output_tokens_details": {
+              "reasoning_tokens": 350
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6216,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U10",
+      "role": "counselor",
+      "text": "你似乎已经先把“你太认真了”翻译成了“你有点烦”或“跟你合作好累”，然后用一句“哈哈有吗”轻轻带过，既不敢追问，又让那三个字在心里继续发酵。也许更让你悬着的，不是那句话本身，而是一旦问清楚，可能会看见对方脸上真的有不耐烦或疏远。",
+      "request_sha256": "4af65ba7567053602042a53f45e27adca93aa7e0f0e35c946237b78c04e315ea",
+      "usage": {
+        "input_tokens": 5016,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 330,
+        "output_tokens_details": {
+          "reasoning_tokens": 253
+        },
+        "total_tokens": 5346,
+        "x_details": [
+          {
+            "input_tokens": 5016,
+            "output_tokens": 330,
+            "output_tokens_details": {
+              "reasoning_tokens": 253
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5346,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U11",
+      "role": "client",
+      "text": "其实我这两天还是老在想那句“你太认真了”，总觉得“哈哈有吗”回得太轻了，反而像故意不接话。可能我真正怕的不是那句话本身，是怕问下去会看到对方脸上那种“你怎么连这都要问”的表情。方宁改攀岩的事也是，我松口气那下自己都觉得有点对不住她，好像她是为了不让我爬山才改的。",
+      "request_sha256": "43c815b047a2d7a63ee6a8aa1fcdc2922b23b2acce1bfa56e5d2a9e17640c05b",
+      "usage": {
+        "input_tokens": 5995,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 299,
+        "output_tokens_details": {
+          "reasoning_tokens": 211
+        },
+        "total_tokens": 6294,
+        "x_details": [
+          {
+            "input_tokens": 5995,
+            "output_tokens": 299,
+            "output_tokens_details": {
+              "reasoning_tokens": 211
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6294,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U12",
+      "role": "counselor",
+      "text": "好像“你太认真了”和方宁改攀岩这两件事，最后都落到了同一个位置：你既想弄清对方真正是什么意思，又怕一旦看清，会看到自己不想面对的反应；连松口气都像欠了对方一点什么。你似乎在替别人的决定和一句话承担最坏的可能。今天也许可以先不急着去够那些“没明说”的东西，让自己停在这个位置上就好。",
+      "request_sha256": "6a859d1ea6b33533d601193897ec54bc4400c8c38aa659064633e07345cdf3d8",
+      "usage": {
+        "input_tokens": 5233,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 412,
+        "output_tokens_details": {
+          "reasoning_tokens": 324
+        },
+        "total_tokens": 5645,
+        "x_details": [
+          {
+            "input_tokens": 5233,
+            "output_tokens": 412,
+            "output_tokens_details": {
+              "reasoning_tokens": 324
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5645,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U13",
+      "role": "client",
+      "text": "其实我到现在还是没回前同事那句“你太认真了”，对话框打开又关上，总觉得现在说什么都像在较真。方宁那边我也没提怕高，只说了句“攀岩也行吧”。",
+      "request_sha256": "f3e73c1349c2e09085f57ff3e7ed862f7d22765ac98a3fedcced8b9328526430",
+      "usage": {
+        "input_tokens": 6216,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 276,
+        "output_tokens_details": {
+          "reasoning_tokens": 228
+        },
+        "total_tokens": 6492,
+        "x_details": [
+          {
+            "input_tokens": 6216,
+            "output_tokens": 276,
+            "output_tokens_details": {
+              "reasoning_tokens": 228
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6492,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U14",
+      "role": "counselor",
+      "text": "你好像同时停在两件没回的事情上：对前同事那句“你太认真了”一直开着对话框又关上，对方宁也只说“攀岩也行吧”，没提自己怕高。这两个没说出口的部分，似乎都卡在同一个位置：说出来怕变成较真或扫兴，不说明又只能自己悬着。今天可以先不用决定要不要回、要怎么回，也许“没回”本身就是你现在的真实状态。",
+      "request_sha256": "4f9b8d54c6d6a6a96cd1df9fd7f1f48dace4bf3374cc5c8d1038fca8c60d6b51",
+      "usage": {
+        "input_tokens": 5414,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 348,
+        "output_tokens_details": {
+          "reasoning_tokens": 254
+        },
+        "total_tokens": 5762,
+        "x_details": [
+          {
+            "input_tokens": 5414,
+            "output_tokens": 348,
+            "output_tokens_details": {
+              "reasoning_tokens": 254
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5762,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U15",
+      "role": "client",
+      "text": "其实我这两天还是忍不住想，前同事那句“你太认真了”到底是什么意思，可对话框我已经关了又开，开了又关，最后也没发出去。方宁那边攀岩的事我也没再提，好像一旦说了怕高，她就知道我之前都在硬撑。现在坐在这里，脑子里还是这两件事来回转，也想停了，但总怕停下来就漏掉什么。",
+      "request_sha256": "bf66d7edb4d35ffebd120faf42b1e62323a27406815597da04df0f59b784c02f",
+      "usage": {
+        "input_tokens": 6403,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 257,
+        "output_tokens_details": {
+          "reasoning_tokens": 174
+        },
+        "total_tokens": 6660,
+        "x_details": [
+          {
+            "input_tokens": 6403,
+            "output_tokens": 257,
+            "output_tokens_details": {
+              "reasoning_tokens": 174
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6660,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S04-U16",
+      "role": "counselor",
+      "text": "好像你脑子里这两件事一直在转，是因为它们都停在“没说出口”的地方：前同事那句话你没问，方宁那边怕高也没提。你怕停下来会漏掉什么，可越怕漏掉，反而越难从这两件事里抽身。也许现在不需要逼自己停下来，先承认“我就是还在想这两件事”，就已经比反复开关对话框要松一点了。",
+      "request_sha256": "1fc7d0885ffe041a15b235400fa42245b80121d8fbb423d58fd5e34c6e68bb14",
+      "usage": {
+        "input_tokens": 5636,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 292,
+        "output_tokens_details": {
+          "reasoning_tokens": 209
+        },
+        "total_tokens": 5928,
+        "x_details": [
+          {
+            "input_tokens": 5636,
+            "output_tokens": 292,
+            "output_tokens_details": {
+              "reasoning_tokens": 209
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5928,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

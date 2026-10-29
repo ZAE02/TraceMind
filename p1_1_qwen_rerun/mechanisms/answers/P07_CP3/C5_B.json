@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP3",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "41a5021ac033d862aa951641c0a07a0e643dc2e51ad3bd84fceedd06655f79a0",
+  "request_sha256": "35d7d4f2b56d139f5e59db98b5eb6d34117ff473fb2b83299f43a319d077d584",
+  "memory_sha256": "b932d77d09704929052afa1cfac13faf8f465d5c14b29700f239e0f99d2a354b",
+  "memory_source": "77cf9179f403af980a9a01d49cf7b94ffd3ca41058efac7e2287993e11be79cd",
+  "raw_text": "那种“连走开的力气都得提前攒”的预感，好像比真的被搭话更让人疲惫。\n周姐那条还没转文字的语音，和石桌上没人下的残局一样，都在等着一个可能并不存在的追问。\n今晚先不点开它，也不用急着攒力气，就让那个声音暂时停在手机里吧。",
+  "usage": {
+    "input_tokens": 10440,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 71,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10511,
+    "x_details": [
+      {
+        "input_tokens": 10440,
+        "output_tokens": 71,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10511,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.781,
+  "model": "qwen3.7-flash-2026-07-15"
+}

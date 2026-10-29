@@ -1,0 +1,407 @@
+{
+  "case_id": "C01",
+  "stable_profile": {
+    "name": "林岚",
+    "age": 28,
+    "gender": "女",
+    "occupation": "品牌设计师",
+    "living_context": "在杭州一家中型设计公司工作三年，独自租房，母亲住在同城。",
+    "relationships": "项目负责人周姐比自己年长；同组小许是合作一年多的同事；母亲与自己联系较多。",
+    "speech_style": "谨慎细致，会描述具体改动和时间；拿不准时会说‘可能吧’或自我修正，较少主动谈大道理。"
+  },
+  "confirmed_additions": [
+    {
+      "id": "C01-F01",
+      "fact": "最近两三周，隔两三天会有一晚躺下后想白天说过的话或未回的消息。",
+      "category": "reported_experience",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U09",
+        "C01-S01-U11"
+      ],
+      "reviewed_by": "Codex assistant (model pre-review)",
+      "reviewed_at": "2026-10-12T08:43:16.219485+00:00",
+      "consistency_check": "Compared with stable profile, S1 card and full dialogue; no contradiction found. Bounded client report, not an established trait or objective clinical fact."
+    },
+    {
+      "id": "C01-F02",
+      "fact": "约前两周一个项目较赶，连续几天晚上九点后下班；自述项目结束后仍难安静下来。",
+      "category": "reported_event",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U13"
+      ],
+      "reviewed_by": "Codex assistant (model pre-review)",
+      "reviewed_at": "2026-10-12T08:43:16.219485+00:00",
+      "consistency_check": "Compared with stable profile, S1 card and full dialogue; no contradiction found. Bounded client report, not an established trait or objective clinical fact."
+    },
+    {
+      "id": "C01-F03",
+      "fact": "那段赶项目的时间母亲打过两次关心生活的电话；她自述当时觉得回应耗力、想安静待一会儿。",
+      "category": "reported_event_and_experience",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U15",
+        "C01-S01-U17"
+      ],
+      "reviewed_by": "Codex assistant (model pre-review)",
+      "reviewed_at": "2026-10-12T08:43:16.219485+00:00",
+      "consistency_check": "Compared with stable profile, S1 card and full dialogue; no contradiction found. Bounded client report, not an established trait or objective clinical fact."
+    },
+    {
+      "fact": "周姐在本次提案后说整体方向可以继续、周五前定稿，不用推翻。",
+      "category": "work_event",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U05"
+      ],
+      "id": "C01-F004",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.513086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "近两三周每隔两三天有一晚睡前思绪难停，内容包括工作、说过的话及未回消息。",
+      "category": "sleep_and_rumination",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U09",
+        "C01-S01-U11"
+      ],
+      "id": "C01-F005",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.513086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "此前一个赶项目阶段连续数日九点后下班，结束后夜间思绪难静并未立即消失。",
+      "category": "work_history",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U13"
+      ],
+      "id": "C01-F006",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.513086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "母亲当时两次来电关心忙碌与饮食，她感到又多一件事要回应并担心如实说累会令母亲担心。",
+      "category": "family_experience",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U15",
+        "C01-S01-U17"
+      ],
+      "id": "C01-F007",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.513086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "这周活动海报交付前找小许、周姐、设计朋友各检查，三人均表示没问题，发送前自己仍检查四遍。",
+      "category": "work_event",
+      "first_session": 2,
+      "evidence": [
+        "C01-S02-U01"
+      ],
+      "id": "C01-F008",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:19:47.490396+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "她听到没问题时短暂放松，随后怀疑别人只是快速扫过，尤其那些自己费时的细节。",
+      "category": "reassurance_experience",
+      "first_session": 2,
+      "evidence": [
+        "C01-S02-U03",
+        "C01-S02-U05"
+      ],
+      "id": "C01-F009",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:19:47.490396+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "局部查看可能持续十几秒至一两分钟，也可能两三秒；会试调字号间距后再放回原样。",
+      "category": "checking_process",
+      "first_session": 2,
+      "evidence": [
+        "C01-S02-U17"
+      ],
+      "id": "C01-F010",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:19:47.490396+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "她初步觉得颜色区域会吸引检查，但尚未确定。",
+      "category": "tentative_observation",
+      "first_session": 2,
+      "evidence": [
+        "C01-S02-U19"
+      ],
+      "id": "C01-F011",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:19:47.490396+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "本周母亲体检为常规复查无大事，她协助交通并在两个项目期间陪同。",
+      "category": "family_event",
+      "first_session": 3,
+      "evidence": [
+        "C01-S03-U01"
+      ],
+      "id": "C01-F012",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:22:17.702325+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "她反复猜母亲交通安排回复好的是否表示不周到，又不愿询问免得显得想太多。",
+      "category": "family_communication_experience",
+      "first_session": 3,
+      "evidence": [
+        "C01-S03-U05",
+        "C01-S03-U09",
+        "C01-S03-U11"
+      ],
+      "id": "C01-F013",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:22:17.702325+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "她模糊回想小时候母亲没有明确回应时自己可能会补解释，现在更多在脑内推演对话；这是不确定回忆而非确定历史。",
+      "category": "tentative_autobiographical_recollection",
+      "first_session": 3,
+      "evidence": [
+        "C01-S03-U13",
+        "C01-S03-U15",
+        "C01-S03-U17"
+      ],
+      "id": "C01-F014",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:22:17.702325+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "本周非正式小图讨论中解释保留原色，小许接受先保留；图不直接给客户，下班查看一次群聊后没再打开。",
+      "category": "work_event",
+      "first_session": 4,
+      "evidence": [
+        "C01-S04-U01",
+        "C01-S04-U05"
+      ],
+      "id": "C01-F015",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:28:37.179274+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "回忆上周小许明确提出图标与文字距离建议，她调整后停下，未持续打开文件。",
+      "category": "reported_previous_event",
+      "first_session": 4,
+      "evidence": [
+        "C01-S04-U09",
+        "C01-S04-U11"
+      ],
+      "id": "C01-F016",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:28:37.179274+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "小许一般提建议后不多追问，周姐有时会进一步问具体地方。",
+      "category": "reported_relationship_pattern",
+      "first_session": 4,
+      "evidence": [
+        "C01-S04-U07"
+      ],
+      "id": "C01-F017",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:28:37.179274+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "本周客户经周姐要求标题更突出、未否定整体，前晚改七版，昨晚检查四遍，计划明天交付。",
+      "category": "work_event",
+      "first_session": 5,
+      "evidence": [
+        "C01-S05-U01",
+        "C01-S05-U19"
+      ],
+      "id": "C01-F018",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:36:08.062114+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "第四版字号加大一号并挪说明文字，曾短暂满意，十几分钟后又怀疑比例，往回调后又怕不够突出。",
+      "category": "checking_process",
+      "first_session": 5,
+      "evidence": [
+        "C01-S05-U05",
+        "C01-S05-U09"
+      ],
+      "id": "C01-F019",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:36:08.062114+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "夜晚会翻看自己回复的消息，但因时机已过未再补发，反复思绪到将睡着才消退。",
+      "category": "night_rumination",
+      "first_session": 5,
+      "evidence": [
+        "C01-S05-U17"
+      ],
+      "id": "C01-F020",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:36:08.062114+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "周三周姐认为第二版整体可以，但数据模块层级要理一下，未具体指出；小许指出图标圆角不统一，修改后她放下。",
+      "category": "work_event",
+      "first_session": 6,
+      "evidence": [
+        "C01-S06-U01"
+      ],
+      "id": "C01-F021",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:41:40.353304+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "周姐说话时她在想另一项目表格列宽，口头答好但没完全听进去。",
+      "category": "attention_context",
+      "first_session": 6,
+      "evidence": [
+        "C01-S06-U03"
+      ],
+      "id": "C01-F022",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:41:40.353304+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "她想问层级具体哪里，却担心询问显得白天没在听；目前计划先单独比较模块与旁边图。",
+      "category": "clarification_dilemma_and_plan",
+      "first_session": 6,
+      "evidence": [
+        "C01-S06-U05",
+        "C01-S06-U09"
+      ],
+      "id": "C01-F023",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:41:40.353304+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "本周周四客户展示，她从提前两天起反复看关键页，改间距又改回，漏了晚饭。",
+      "category": "work_event_and_impact",
+      "first_session": 7,
+      "evidence": [
+        "C01-S07-U01",
+        "C01-S07-U11"
+      ],
+      "id": "C01-F024",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:57:59.186309+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "今天午餐只先吃两口面包又看文件，约两点才吃余下，曾胃不舒服。",
+      "category": "daily_function_impact",
+      "first_session": 7,
+      "evidence": [
+        "C01-S07-U07",
+        "C01-S07-U09"
+      ],
+      "id": "C01-F025",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:57:59.186309+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "本周组里两次直接说明保留方案理由。",
+      "category": "local_positive_behavior",
+      "first_session": 7,
+      "evidence": [
+        "C01-S07-U01"
+      ],
+      "id": "C01-F026",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:57:59.186309+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "同期有一个按尺寸套模板的小banner任务，她考虑先完成或穿插，尚未决定。",
+      "category": "work_context_and_plan",
+      "first_session": 7,
+      "evidence": [
+        "C01-S07-U17",
+        "C01-S07-U19"
+      ],
+      "id": "C01-F027",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:57:59.186309+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "周四客户展示中，周姐和小许没有提出大的问题；小许指出一处小调整，来访者当场修改。",
+      "category": "work_event_and_outcome",
+      "first_session": 8,
+      "evidence": [
+        "C01-S08-U01"
+      ],
+      "id": "C01-F028",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:43:31.941000+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "本周新项目有周姐给出的两条修改建议；来访者晚上改到较晚，次晨又调整间距约两像素并合上文件，之后仍感到可能要再处理。",
+      "category": "work_event_and_ongoing_uncertainty",
+      "first_session": 8,
+      "evidence": [
+        "C01-S08-U01",
+        "C01-S08-U03",
+        "C01-S08-U05"
+      ],
+      "id": "C01-F029",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:43:31.941000+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "本周一次组内讨论中，来访者说明了版式安排理由并未回头检查；她说晚间反复仍偶尔发生，但不如前两周频繁。",
+      "category": "work_event_and_self_reported_change",
+      "first_session": 8,
+      "evidence": [
+        "C01-S08-U13"
+      ],
+      "id": "C01-F030",
+      "reviewed_by": "gpt-6-luna/low model review",
+      "reviewed_at": "2026-10-13T05:43:31.941000+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    }
+  ],
+  "pending_dialogue_reviews": [],
+  "rejected_candidates": [],
+  "note": "事实确认须附对话证据并检查与人物档案和已知事实的一致性；私人体验不等同Gold。",
+  "pending_new_fact_candidates": [],
+  "reported_intentions": [
+    {
+      "first_session": 1,
+      "intention": "打算周五交付前只检查一遍。",
+      "evidence": [
+        "C01-S01-U21"
+      ],
+      "status": "intention_not_observed_outcome"
+    }
+  ]
+}

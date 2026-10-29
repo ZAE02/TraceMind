@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "e94809ca36b936700d34f1e6b546411c3a6b59ff4690a50e96df6b159edb2b16",
+  "request_sha256": "5c58e6f3a4a962aa1e02d03c851a481832f75246d35f2169e93a899c6e4e1049",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你连“让它多待一会儿”都做不到，因为那个声音太急了，急着用排班和反复检查来确认安全。这种对“语气太冲”的焦虑，是不是也在提醒你，一旦停下来，怕自己会失控或者被指责？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 9056,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9109,
+    "x_details": [
+      {
+        "input_tokens": 9056,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9109,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

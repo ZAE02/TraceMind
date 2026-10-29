@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP1",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "e0fc384dde73d2fc34af85b8effb59ba979de5f95e582a84aa5a9709dcee029a",
+  "request_sha256": "13d11e9f120d69edd8fc725fad57e373e6f2e5dcadb23435eacd5382ff624f20",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你站在房间门口没出声，守着她走完那一趟才回去躺下，身体好像自动进入了“护着她”的位置。中午那阵反胃，也许不只是累，更像是夜里绷着的那根弦，到白天才从胃里冒出来。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3292,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 55,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3347,
+    "x_details": [
+      {
+        "input_tokens": 3292,
+        "output_tokens": 55,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3347,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

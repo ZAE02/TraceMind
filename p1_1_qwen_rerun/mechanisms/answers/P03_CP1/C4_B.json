@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP1",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "b26b15ac427179fb207a81ce871579ad47e49beea18367a15e302713e0771d02",
+  "request_sha256": "077f36f26ba6124aa45c6caaf80017e19316e3bbbc5c6bc866516c5d23083da6",
+  "memory_sha256": "32847155f203a6d09708e229f46760d91c475548138b9ef398c50f9df940eb5f",
+  "memory_source": "272d1e8be89888d346619a8eb4bad221df65f441f9852cd3003a90cfe80a540f",
+  "raw_text": "水声停了，那个“没说出来”的瞬间依然悬在那里。也许你不需要立刻决定要不要打破它，我们可以先看看，此刻这个没被说出口的解释，对你来说意味着什么。",
+  "usage": {
+    "input_tokens": 4247,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 40,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4287,
+    "x_details": [
+      {
+        "input_tokens": 4247,
+        "output_tokens": 40,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4287,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.953,
+  "model": "qwen3.7-flash-2026-07-15"
+}

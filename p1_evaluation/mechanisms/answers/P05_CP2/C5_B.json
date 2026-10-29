@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P05_CP2",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "0db40771647ee982e747dc6f7787a5b3684b4e9a8f1b48b86e34fa6da44982a6",
+  "request_sha256": "3d51f3ec24e3f470ae2142d63ff2ef9189b108e456dbbb3101be097e70c022a1",
+  "memory_sha256": "073c00adcd8971f2f929d7ccad40b8e44d0871f1debed4d21bbcca8ccfd8e495",
+  "memory_source": "3cd1d09d2886e35f9cd2d2d028a4fd0edf7f417d46552bfc0b6d52e85f757c4e",
+  "raw_text": "你希望她“别管什么加班”直接来找你，可又预感到自己真到那时只会说“没事，就是工作上的事”——好像你既渴望被看穿，又已经准备好把那个想被看穿的自己藏起来。那条动态发不发都“改变不了什么”的感觉，也许不只是对李繁，更像是在说：你不太相信自己的表达真的能带来什么不同。",
+  "usage": {
+    "input_tokens": 7282,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 85,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7367,
+    "x_details": [
+      {
+        "input_tokens": 7282,
+        "output_tokens": 85,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 7367,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.453,
+  "model": "deepseek-v4-pro-0813"
+}

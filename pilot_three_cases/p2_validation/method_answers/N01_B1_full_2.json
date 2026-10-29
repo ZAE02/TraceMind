@@ -1,0 +1,136 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N01",
+  "condition": "H2_full",
+  "sample": 2,
+  "public_input_sha256": "8a3293f599e1b9e2e9033635346f3489d597041bc38dbb5bf24c050572bd2509",
+  "request_sha256": "da58767596eecced1bac3160a207ff057c1e2a4fb091cdaf31a614585e8c2b2c",
+  "context_sha256": "3a5a150c01668379531300958d074b1585c49e828aafbc7c8f6e0c959fb10669",
+  "call_id": "561e06ffec2b41d6ad4eab8eac8caab3",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:26:38.910199+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者本周同时承担两个项目和母亲体检的安排，外部负荷较高\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"「反复过文件」的模式再次出现，且来访者用「又」字标记了它的重复性\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者对这次「又过了」带有某种停顿或自我觉察，不完全是无意识的\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"moderate\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"「乱」具体指外部事情多，还是事情之间切换时的内在感受\",\n    \"这次「又过了」的质地跟之前哪次更像——是第二次的「被拽一下、走不开」，还是第一次的「没法确认」，还是别的\",\n    \"母亲体检这件事在这次「又过了」中扮演的角色——是负荷的一部分，还是单独触发了什么\",\n    \"来访者对母亲这件事现在的情绪状态，跟第一次提到电话时的烦躁是否相同\"\n  ],\n  \"next_focus\": \"探索这次「又过了」的质地和触发条件——是事情堆在一起手就自己去了，还是跟母亲那件事有特定的关联\",\n  \"next_counselor_utterance\": \"陪完她回来，文件「又过了」——你那个停顿好像挺说明问题的。这个「又」，是事情堆在一起手就自己去了，还是跟陪她那段时间有关系？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者本周同时承担两个项目和母亲体检的安排，外部负荷较高",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "「反复过文件」的模式再次出现，且来访者用「又」字标记了它的重复性",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者对这次「又过了」带有某种停顿或自我觉察，不完全是无意识的",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "moderate"
+      }
+    ],
+    "remaining_uncertainties": [
+      "「乱」具体指外部事情多，还是事情之间切换时的内在感受",
+      "这次「又过了」的质地跟之前哪次更像——是第二次的「被拽一下、走不开」，还是第一次的「没法确认」，还是别的",
+      "母亲体检这件事在这次「又过了」中扮演的角色——是负荷的一部分，还是单独触发了什么",
+      "来访者对母亲这件事现在的情绪状态，跟第一次提到电话时的烦躁是否相同"
+    ],
+    "next_focus": "探索这次「又过了」的质地和触发条件——是事情堆在一起手就自己去了，还是跟母亲那件事有特定的关联",
+    "next_counselor_utterance": "陪完她回来，文件「又过了」——你那个停顿好像挺说明问题的。这个「又」，是事情堆在一起手就自己去了，还是跟陪她那段时间有关系？"
+  },
+  "usage": {
+    "input_tokens": 4225,
+    "input_tokens_details": {
+      "cached_tokens": 3328
+    },
+    "output_tokens": 2148,
+    "output_tokens_details": {
+      "reasoning_tokens": 1739
+    },
+    "total_tokens": 6373,
+    "x_details": [
+      {
+        "input_tokens": 4225,
+        "input_tokens_details": {
+          "text_tokens": 4225
+        },
+        "output_tokens": 2148,
+        "output_tokens_details": {
+          "reasoning_tokens": 1739
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 3328
+        },
+        "total_tokens": 6373,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C01-S01-U01",
+    "C01-S01-U02",
+    "C01-S01-U03",
+    "C01-S01-U04",
+    "C01-S01-U05",
+    "C01-S01-U06",
+    "C01-S01-U07",
+    "C01-S01-U08",
+    "C01-S01-U09",
+    "C01-S01-U10",
+    "C01-S01-U11",
+    "C01-S01-U12",
+    "C01-S01-U13",
+    "C01-S01-U14",
+    "C01-S01-U15",
+    "C01-S01-U16",
+    "C01-S01-U17",
+    "C01-S01-U18",
+    "C01-S01-U19",
+    "C01-S01-U20",
+    "C01-S01-U21",
+    "C01-S01-U22",
+    "C01-S01-U23",
+    "C01-S01-U24",
+    "C01-S02-U01",
+    "C01-S02-U02",
+    "C01-S02-U03",
+    "C01-S02-U04",
+    "C01-S02-U05",
+    "C01-S02-U06",
+    "C01-S02-U07",
+    "C01-S02-U08",
+    "C01-S02-U09",
+    "C01-S02-U10",
+    "C01-S02-U11",
+    "C01-S02-U12",
+    "C01-S02-U13",
+    "C01-S02-U14",
+    "C01-S02-U15",
+    "C01-S02-U16",
+    "C01-S02-U17",
+    "C01-S02-U18",
+    "C01-S02-U19",
+    "C01-S02-U20",
+    "C01-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false,
+  "method": "B1_full",
+  "reused_from": "p2_validation\\reselection\\answers\\N01_H2_full_2.json",
+  "memory_info": {
+    "history_tokens": 3875,
+    "budget": null
+  }
+}

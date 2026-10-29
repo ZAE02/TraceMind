@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P08_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "bce7f09be9c70e2cbd2c321233d3fcebedbf9e997a476fb282f625a1438e2888",
+  "public_sha256": "b33db8f600c5ba20a8e64befae8eb965003e0391b698f1329dccba8ded73d433",
+  "candidate_input_sha256": "69d3d7fc0ba1a9be4651977e4907e10b7ec576bdf0ea8f527a49cafd23ee28d1",
+  "candidate_answer_sha256": "9d6db8a4048ca08ff0e7afced90539bbcc651bfae2a3a0a1405f49c2033688bb",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键断言（如请假被驳、赵岩分享经验、来访者的反思与无力感）均能精确回溯到Session 7的具体发言，且未将咨询师的解释当作事实。\",\n    \"progress_understanding\": \"准确捕捉了从Session 1-6建立的“独自硬扛/怕欠人情”模式，在Session 7中因赵岩的经验分享而产生的认知松动（意识到有别的办法），以及随之而来的“知道但动不了”的矛盾状态。\",\n    \"uncertainty_awareness\": \"清晰区分了已确认的事实（请假被驳、赵岩分享了经验）和来访者当下的主观感受（觉得晚了、无法行动）。虽然列出的不确定性多为预测性（未来行为），但在当前节点下，对“认知与行动脱节”这一核心不确定性的把握是准确的。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键断言（如请假被驳、赵岩分享经验、来访者的反思与无力感）均能精确回溯到Session 7的具体发言，且未将咨询师的解释当作事实。",
+      "progress_understanding": "准确捕捉了从Session 1-6建立的“独自硬扛/怕欠人情”模式，在Session 7中因赵岩的经验分享而产生的认知松动（意识到有别的办法），以及随之而来的“知道但动不了”的矛盾状态。",
+      "uncertainty_awareness": "清晰区分了已确认的事实（请假被驳、赵岩分享了经验）和来访者当下的主观感受（觉得晚了、无法行动）。虽然列出的不确定性多为预测性（未来行为），但在当前节点下，对“认知与行动脱节”这一核心不确定性的把握是准确的。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 19144,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 254,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19398,
+    "x_details": [
+      {
+        "input_tokens": 19144,
+        "output_tokens": 254,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 19398,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.594
+}

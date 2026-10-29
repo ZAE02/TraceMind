@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "a1740b1884844c739aed4233c8389447ac4c9e293d7fb4b39f65967ab3e07d29",
+  "public_sha256": "4cff561a4c5fb4dadbecb4fe78ec21e83eac56f2bd764214788a384c3497a2d3",
+  "candidate_input_sha256": "a52aa05cf90d72415d5c1eab57bdd31ff7e773739b97714877edeb1113a50fbc",
+  "candidate_answer_sha256": "ac108f731fef4d61eb0c8b766079e4248a860d083f9eb6359f07bc0f3abdf8d3",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"主要判断均有具体发言支持（如脸热、发三个方案、说‘最保守’、等方宁冷风、说‘刚到不久’）。但存在一处轻微过度推断：将‘发三个方案到群里’的动机直接归结为‘证明自己足够专业’，而来访者原文仅表达‘担心显得不专业’，未明确确认这是为了证明专业度（参考标注中列为unsupported_assumption），不过整体仍基于当前对话内容。\",\n    \"progress_understanding\": \"准确识别了本会话中的核心进展：从之前的‘不敢追问/不敢休息’扩展到‘不敢生气/不敢让场面麻烦’，并捕捉到了‘替对方抹平内疚’这一新层面的防御机制。连接了不同情境（工作、朋友）下的共同模式。但未明确指出这与之前‘怕被评价’的核心恐惧是一脉相承的深化，略显孤立地看待本会话内容。\",\n    \"uncertainty_awareness\": \"精确区分了已知（行为模式、自我怀疑）和未知（是否真的能体验正当愤怒、后续改变可能性）。提出的不确定点（如‘刚到不久’是否有其他动机、觉察是否转化为行动）非常具体且贴合当前节点，没有强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"unsupported_presupposition: 在established中断言来访者做三个方案的动机是‘证明自己足够专业’，而来访者并未确认此动机，仅表达了事后的焦虑。这属于将咨询师的推测当作事实陈述。\"\n  ]\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有具体发言支持（如脸热、发三个方案、说‘最保守’、等方宁冷风、说‘刚到不久’）。但存在一处轻微过度推断：将‘发三个方案到群里’的动机直接归结为‘证明自己足够专业’，而来访者原文仅表达‘担心显得不专业’，未明确确认这是为了证明专业度（参考标注中列为unsupported_assumption），不过整体仍基于当前对话内容。",
+      "progress_understanding": "准确识别了本会话中的核心进展：从之前的‘不敢追问/不敢休息’扩展到‘不敢生气/不敢让场面麻烦’，并捕捉到了‘替对方抹平内疚’这一新层面的防御机制。连接了不同情境（工作、朋友）下的共同模式。但未明确指出这与之前‘怕被评价’的核心恐惧是一脉相承的深化，略显孤立地看待本会话内容。",
+      "uncertainty_awareness": "精确区分了已知（行为模式、自我怀疑）和未知（是否真的能体验正当愤怒、后续改变可能性）。提出的不确定点（如‘刚到不久’是否有其他动机、觉察是否转化为行动）非常具体且贴合当前节点，没有强行定论。"
+    },
+    "confidence": "high",
+    "issues": [
+      "unsupported_presupposition: 在established中断言来访者做三个方案的动机是‘证明自己足够专业’，而来访者并未确认此动机，仅表达了事后的焦虑。这属于将咨询师的推测当作事实陈述。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9184,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 392,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9576,
+    "x_details": [
+      {
+        "input_tokens": 9184,
+        "output_tokens": 392,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9576,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.094
+}

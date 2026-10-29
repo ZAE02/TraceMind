@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "J",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "All key claims are well-supported by specific utterance IDs from sessions 1-6. No unsupported assumptions detected; interpretations align with client's own words.",
+      "progress_understanding": "Accurately traces the shift from emotional outbursts to dissociation/numbness and escalating somatic symptoms across sessions. However, it omits the critical session 7 material (mother's nighttime behavior, husband's involvement, 'ruler in heart' monitoring) which is central to the current checkpoint.",
+      "uncertainty_awareness": "Poses thoughtful unresolved questions about dissociation as defense vs. pattern, external support, and identity reconstruction. Slightly misses the immediate unresolved tension of session 7 (the conflict between needing help and losing the 'enduring' foundation)."
+    },
+    "confidence": "high",
+    "issues": [
+      "Task A summary entirely omits session 7 content (current dialogue), which is significant given the CP3 checkpoint context. While historical grounding is excellent, the lack of current-session integration limits progress understanding and uncertainty awareness for the present node."
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"All key claims are well-supported by specific utterance IDs from sessions 1-6. No unsupported assumptions detected; interpretations align with client's own words.\",\"progress_understanding\":\"Accurately traces the shift from emotional outbursts to dissociation/numbness and escalating somatic symptoms across sessions. However, it omits the critical session 7 material (mother's nighttime behavior, husband's involvement, 'ruler in heart' monitoring) which is central to the current checkpoint.\",\"uncertainty_awareness\":\"Poses thoughtful unresolved questions about dissociation as defense vs. pattern, external support, and identity reconstruction. Slightly misses the immediate unresolved tension of session 7 (the conflict between needing help and losing the 'enduring' foundation).\"},\"confidence\":\"high\",\"issues\":[\"Task A summary entirely omits session 7 content (current dialogue), which is significant given the CP3 checkpoint context. While historical grounding is excellent, the lack of current-session integration limits progress understanding and uncertainty awareness for the present node.\"]}",
+  "request_sha256": "81be09cb02f0dcb4405a60d900006d732bc5183f7d50ca84a886d7927add845e",
+  "usage": {
+    "input_tokens": 19054,
+    "input_tokens_details": {
+      "cached_tokens": 9728
+    },
+    "output_tokens": 239,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19293,
+    "x_details": [
+      {
+        "input_tokens": 19054,
+        "output_tokens": 239,
+        "prompt_tokens_details": {
+          "cached_tokens": 9728
+        },
+        "total_tokens": 19293,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.719
+}

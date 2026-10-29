@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP1",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "a4f52e7a66104386a01d83b493abacb9bcdaa9070d98b0310de9393b916efb07",
+  "request_sha256": "15534f3f424cb20df894a89310c6f6ba9c3bf1f6397eab2a1c9ceef5625bcb19",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你提到“越想要稳，越觉得自己装得漏洞百出”，好像那个“稳”变成了一道必须时刻证明的考题，而教小赵时你反而不用证明什么。或许我们可以先不急着判断自己是不是在装，而是看看那个“提醒”每次响起来时，你最想被谁看见。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3181,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 67,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3248,
+    "x_details": [
+      {
+        "input_tokens": 3181,
+        "output_tokens": 67,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3248,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

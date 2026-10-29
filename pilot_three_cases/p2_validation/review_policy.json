@@ -1,0 +1,10 @@
+{
+  "mode": "user_authorized_model_review",
+  "human_review_performed": false,
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "independent_reviewers": 2,
+  "authorization": "User chose model subagent review for P2 and then explicitly changed subagents to GPT-6.1 Sol medium.",
+  "node_gate": "At least 3 nodes from at least 2 cases, both independent model reviewers confirm substantive cross-session history need.",
+  "evaluation_status": "model-assisted pilot judgments, not human gold"
+}

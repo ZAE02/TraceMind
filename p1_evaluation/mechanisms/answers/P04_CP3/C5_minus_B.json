@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "06ec3f974bebf95afc3d3c452dbb8a9ea5cbae9cb680e719189bbe3883b68f8f",
+  "request_sha256": "b7e65e5fa0f9bf5e2e6be02e3724fcae5bf71131d8d37debf0467cc1c58aa786",
+  "memory_sha256": "a725623ed55db4635c58048f7504c63d58d43e428a6e412b1b42910d9e729396",
+  "memory_source": "1b8837ff0e43dcb777655a5be0272147139ebf5504955832e3cf44b992f826f7",
+  "raw_text": "那件工服没洗，像把“到极限了”的证据留了一夜；可早上看见它又觉得恶心，好像那半口没出完的气真的捂臭了。也许你不是嫌衣服脏，是怕那个瘫在椅子上、没力气开洗衣机的自己，在白天看起来太陌生了。",
+  "usage": {
+    "input_tokens": 11458,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 67,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11525,
+    "x_details": [
+      {
+        "input_tokens": 11458,
+        "output_tokens": 67,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 11525,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.203,
+  "model": "deepseek-v4-pro-0813"
+}

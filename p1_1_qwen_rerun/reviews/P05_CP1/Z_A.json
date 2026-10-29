@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "d8d287b51aac6ce100b26446e4bdcb608bc12ad3d97e067b6c69e90eab3db041",
+  "public_sha256": "d6f0a0c88cdae550fb08b47c637daa7c8fbd817944eadf79fc3796f97d3143ca",
+  "candidate_input_sha256": "1ed290ed38a8b2c35bf548cf3b0784aea2a8d8ae1f7e1cf5ca1f7dc5aaadb881",
+  "candidate_answer_sha256": "9019f3a81c382cb02724b631eba415da42417afd38fc51d0e4c7492cb9651824",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":4},\"brief_reasons\":{\"evidence_grounding\":\"所有'established'条目均可直接回溯到来访者原话或咨询师准确反映后被来访者确认的内容，引用ID完整且恰当。\",\"progress_understanding\":\"识别了本次会话中忙碌-踏实-掉出来的循环及教小赵的例外体验，也连接了S1的自我保护模式，但未明确点出'被移出核心群仍未询问'这一跨会话悬而未决的议题，对进展脉络的连接略有缺口。\",\"uncertainty_awareness\":\"精准区分了咨询师的推测性解释（如'没人接住那个晃''没找到被听见的位置'）与来访者自述体验，并指出'装得漏洞百出'的深层原因仍待探索，未将假设当作事实。\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有'established'条目均可直接回溯到来访者原话或咨询师准确反映后被来访者确认的内容，引用ID完整且恰当。",
+      "progress_understanding": "识别了本次会话中忙碌-踏实-掉出来的循环及教小赵的例外体验，也连接了S1的自我保护模式，但未明确点出'被移出核心群仍未询问'这一跨会话悬而未决的议题，对进展脉络的连接略有缺口。",
+      "uncertainty_awareness": "精准区分了咨询师的推测性解释（如'没人接住那个晃''没找到被听见的位置'）与来访者自述体验，并指出'装得漏洞百出'的深层原因仍待探索，未将假设当作事实。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 8435,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 193,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8628,
+    "x_details": [
+      {
+        "input_tokens": 8435,
+        "output_tokens": 193,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8628,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.25
+}

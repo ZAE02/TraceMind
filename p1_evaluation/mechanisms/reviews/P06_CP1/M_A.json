@@ -1,0 +1,48 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "M",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答准确提取了前两次会话中的核心事实（如学校与家庭的反差、对弟弟的愤怒、自我怀疑等），证据引用具体且相关。但未能涵盖当前会话（Session 3）中关于“父亲离开那晚”及躯体化症状的关键新信息，导致对“established understanding”的覆盖不全。",
+      "progress_understanding": "候选回答较好地总结了前两次的咨询进展，识别出从情绪爆发到压抑、再到寻求确认的模式变化。然而，它完全忽略了当前会话中来访者将压力与创伤记忆（父亲离开）连接的这一重大进展，仅停留在旧有模式的总结上，未能体现咨询关系的动态推进。",
+      "uncertainty_awareness": "候选回答列出的未解问题主要基于前两次会话（如妈妈的事、弟弟的期待），虽然这些确实是未解之谜，但它遗漏了当前会话中最紧迫的未知点：即“父亲离开那晚”的具体情境及其对来访者当前恐惧（怕空了、怕失控）的影响。这种遗漏使得对当前不确定性的把握不够精确。"
+    },
+    "confidence": "high",
+    "issues": [
+      "missed_progress: 忽略了当前会话（Session 3）中来访者明确提及的“父亲离开那晚”的创伤记忆连接，这是当前咨询的核心焦点和重要进展。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 2\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答准确提取了前两次会话中的核心事实（如学校与家庭的反差、对弟弟的愤怒、自我怀疑等），证据引用具体且相关。但未能涵盖当前会话（Session 3）中关于“父亲离开那晚”及躯体化症状的关键新信息，导致对“established understanding”的覆盖不全。\",\n    \"progress_understanding\": \"候选回答较好地总结了前两次的咨询进展，识别出从情绪爆发到压抑、再到寻求确认的模式变化。然而，它完全忽略了当前会话中来访者将压力与创伤记忆（父亲离开）连接的这一重大进展，仅停留在旧有模式的总结上，未能体现咨询关系的动态推进。\",\n    \"uncertainty_awareness\": \"候选回答列出的未解问题主要基于前两次会话（如妈妈的事、弟弟的期待），虽然这些确实是未解之谜，但它遗漏了当前会话中最紧迫的未知点：即“父亲离开那晚”的具体情境及其对来访者当前恐惧（怕空了、怕失控）的影响。这种遗漏使得对当前不确定性的把握不够精确。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"missed_progress: 忽略了当前会话（Session 3）中来访者明确提及的“父亲离开那晚”的创伤记忆连接，这是当前咨询的核心焦点和重要进展。\"\n  ]\n}",
+  "request_sha256": "219528ad20cb3119f8978f75ae6e15b4821495e9e196a1a815f3fc950fd7cc90",
+  "usage": {
+    "input_tokens": 7467,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 352,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7819,
+    "x_details": [
+      {
+        "input_tokens": 7467,
+        "output_tokens": 352,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7819,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.906,
+  "model": "qwen3.7-flash-2026-07-15"
+}

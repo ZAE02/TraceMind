@@ -1,0 +1,125 @@
+{
+  "table": [
+    {
+      "node": "N01",
+      "group": "B1_full",
+      "samples": 2,
+      "mean_U": 3.0,
+      "mean_R": 3.0,
+      "mean_E": 1.75,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N01",
+      "group": "B2_temporal_RAG",
+      "samples": 2,
+      "mean_U": 3.5,
+      "mean_R": 2.5,
+      "mean_E": 1.75,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N01",
+      "group": "B3_generic_rollup",
+      "samples": 2,
+      "mean_U": 3.5,
+      "mean_R": 3.5,
+      "mean_E": 1.75,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N01",
+      "group": "B4_psych_rollup",
+      "samples": 2,
+      "mean_U": 4.0,
+      "mean_R": 3.75,
+      "mean_E": 2.0,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N04",
+      "group": "B1_full",
+      "samples": 2,
+      "mean_U": 3.25,
+      "mean_R": 2.25,
+      "mean_E": 1.5,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N04",
+      "group": "B2_temporal_RAG",
+      "samples": 2,
+      "mean_U": 3.5,
+      "mean_R": 3.5,
+      "mean_E": 1.75,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N04",
+      "group": "B3_generic_rollup",
+      "samples": 2,
+      "mean_U": 3.25,
+      "mean_R": 2.5,
+      "mean_E": 1.75,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N04",
+      "group": "B4_psych_rollup",
+      "samples": 2,
+      "mean_U": 3.5,
+      "mean_R": 3.5,
+      "mean_E": 1.75,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N06",
+      "group": "B1_full",
+      "samples": 2,
+      "mean_U": 3.0,
+      "mean_R": 3.0,
+      "mean_E": 1.75,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N06",
+      "group": "B2_temporal_RAG",
+      "samples": 2,
+      "mean_U": 3.0,
+      "mean_R": 3.5,
+      "mean_E": 1.5,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N06",
+      "group": "B3_generic_rollup",
+      "samples": 2,
+      "mean_U": 3.75,
+      "mean_R": 2.5,
+      "mean_E": 2.0,
+      "P_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N06",
+      "group": "B4_psych_rollup",
+      "samples": 2,
+      "mean_U": 3.25,
+      "mean_R": 3.0,
+      "mean_E": 1.75,
+      "P_count": 0,
+      "S_count": 0
+    }
+  ],
+  "human_review_performed": false
+}

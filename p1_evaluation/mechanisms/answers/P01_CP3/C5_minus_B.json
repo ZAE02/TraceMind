@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "b6553aaf8d47cb308270861486036c6af31667c272144667e5ce6b0d6a7b8f05",
+  "request_sha256": "92a5884e5f6281e004133208026b135e384a4729adf38c3e772b7ed68d85ca8e",
+  "memory_sha256": "b65fa1a8c61dd17398cacb794f40ec6de6edb7e3923bafa8106da20101c5824f",
+  "memory_source": "257f55847e430cb7d08c4aac003dcf6f8d4e27d2d2ab47d0640743671b337ad7",
+  "raw_text": "你好像把“嫉妒”当成了一种不该有的情绪，于是连点赞都停住了，又把它和项目的事混在一起，越混越分不清。也许那个停在点赞上的手指，和“那我呢”一样，都在提醒你：有些感觉已经冒出来了，只是你还不允许它单独待一会儿。",
+  "usage": {
+    "input_tokens": 10818,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 66,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10884,
+    "x_details": [
+      {
+        "input_tokens": 10818,
+        "output_tokens": 66,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 10884,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.172,
+  "model": "deepseek-v4-pro-0813"
+}

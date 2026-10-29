@@ -1,0 +1,77 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "Z",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "126604eaadabde033d1b8eee754c289ccf391de0ddac5f9145bf1330caf4d07d",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "c0bac2c684c824954b3fa8367935f127820d4c46b23913a5ec67bdc2efb51d9c",
+  "candidate_answer_sha256": "c434bcf8e49af5ddbd58b7c5869780ac04ef1586c286a61e2e2764f3856053f3",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"输入中previous_sessions为空，候选仅能利用当前会话内容。它承接了夜间警觉和值班室等本会话线索，但无法触及前两次会谈中关于内疚、调休、哥哥等重要认识。\",\"exploration_value\":\"回应以解释性总结收尾，未对来访者新提出的'反胃'身体信号或'站在门口不出声'的体验留下任何开放探索空间，封闭了对话推进的可能。\",\"response_appropriateness\":\"语言温和且有一定共情，但将反胃直接定性为'身体发出抗议'属于未经确认的因果推断，略显武断；同时'整夜守在门口'轻微夸大了来访者描述的'起来过一次'的事实。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"中午的反胃似乎在提醒你，那份紧绷的警觉已经让身体发出了抗议\",\"evidence_ids\":[\"P02-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"high\",\"issues\":[\"将反胃直接归因为警觉导致的身体抗议，缺乏来访者确认，构成未经支持的预设。\",\"'整夜守在门口'与来访者原文'昨晚倒是起来过一次'不完全吻合，存在轻微事实夸大。\",\"回应为封闭式总结，未对最新出现的身体感受（反胃）或行为细节（站门口不出声）进行任何探索性邀请。\",\"因输入中previous_sessions为空，无法评估跨会话历史利用，但不影响对本会话内线索承接的判断。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 1,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "输入中previous_sessions为空，候选仅能利用当前会话内容。它承接了夜间警觉和值班室等本会话线索，但无法触及前两次会谈中关于内疚、调休、哥哥等重要认识。",
+      "exploration_value": "回应以解释性总结收尾，未对来访者新提出的'反胃'身体信号或'站在门口不出声'的体验留下任何开放探索空间，封闭了对话推进的可能。",
+      "response_appropriateness": "语言温和且有一定共情，但将反胃直接定性为'身体发出抗议'属于未经确认的因果推断，略显武断；同时'整夜守在门口'轻微夸大了来访者描述的'起来过一次'的事实。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "中午的反胃似乎在提醒你，那份紧绷的警觉已经让身体发出了抗议",
+        "evidence_ids": [
+          "P02-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": true
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "将反胃直接归因为警觉导致的身体抗议，缺乏来访者确认，构成未经支持的预设。",
+      "'整夜守在门口'与来访者原文'昨晚倒是起来过一次'不完全吻合，存在轻微事实夸大。",
+      "回应为封闭式总结，未对最新出现的身体感受（反胃）或行为细节（站门口不出声）进行任何探索性邀请。",
+      "因输入中previous_sessions为空，无法评估跨会话历史利用，但不影响对本会话内线索承接的判断。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 6277,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 391,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6668,
+    "x_details": [
+      {
+        "input_tokens": 6277,
+        "output_tokens": 391,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 6668,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.39
+}

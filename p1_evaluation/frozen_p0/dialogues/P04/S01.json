@@ -1,0 +1,504 @@
+{
+  "case_id": "P04",
+  "session": 1,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P04-S01-U01",
+      "role": "client",
+      "text": "最近店里的排班像被谁打翻的酱料台，怎么都抹不匀。新菜单上市那天两个厨师临时不来，我顶到凌晨，回家发现我妈还在等我，桌上放着凉透的降压药。",
+      "request_sha256": "16c9b77341088a6852ae7bb8c5a3dce2242466f2827e9f68211698c149fe3e28",
+      "usage": {
+        "input_tokens": 561,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 245,
+        "output_tokens_details": {
+          "reasoning_tokens": 195
+        },
+        "total_tokens": 806,
+        "x_details": [
+          {
+            "input_tokens": 561,
+            "output_tokens": 245,
+            "output_tokens_details": {
+              "reasoning_tokens": 195
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 806,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U02",
+      "role": "counselor",
+      "text": "听起来那天你被店里突发状况和家里的画面两头夹着，累到凌晨还要面对妈妈没吃药在等你，心里很不是滋味。现在提起这些，最堵在你胸口的是什么？",
+      "request_sha256": "2c097fd005a3b9e4c4d76e1c8e253950da5371ea31b3658c4ea5c7d4788ba317",
+      "usage": {
+        "input_tokens": 217,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 306,
+        "output_tokens_details": {
+          "reasoning_tokens": 265
+        },
+        "total_tokens": 523,
+        "x_details": [
+          {
+            "input_tokens": 217,
+            "output_tokens": 306,
+            "output_tokens_details": {
+              "reasoning_tokens": 265
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 523,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U03",
+      "role": "client",
+      "text": "最堵的是我推门看见那杯凉水边上摆着她没吃的药，好像连吃药都要等我批准。我跟她说过别等，可每次晚班回去，她都在用她的方式提醒我——这个家离了我不行。可店里也离了我不行，我到底该先顾哪头？",
+      "request_sha256": "5ac0febc31d7e52005ab5ee2c9c0c5cad9918672332bd00278753a870d0a786c",
+      "usage": {
+        "input_tokens": 698,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 488,
+        "output_tokens_details": {
+          "reasoning_tokens": 419
+        },
+        "total_tokens": 1186,
+        "x_details": [
+          {
+            "input_tokens": 698,
+            "output_tokens": 488,
+            "output_tokens_details": {
+              "reasoning_tokens": 419
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1186,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U04",
+      "role": "counselor",
+      "text": "你在妈妈没吃的药里，读到的不只是担心，更像一种“这个家需要你”的无声压力；而店里一次次突发又在说那边也放不下。两边都在向你伸手，让你被“离了我不行”的责任感夹得喘不过气来。",
+      "request_sha256": "1888e49ef2a1ea9be17268b82afb7884571a9298e941f209642fbaff6b1687cd",
+      "usage": {
+        "input_tokens": 372,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 403,
+        "output_tokens_details": {
+          "reasoning_tokens": 345
+        },
+        "total_tokens": 775,
+        "x_details": [
+          {
+            "input_tokens": 372,
+            "output_tokens": 403,
+            "output_tokens_details": {
+              "reasoning_tokens": 345
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 775,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U05",
+      "role": "client",
+      "text": "喘不过气……我昨天在医院走廊也这样，还以为是没吃午饭。可回家看到我妈那杯凉水，我又觉得不是饭的问题。有时候想给弟弟打个电话，又怕一开口又变成我骂他。",
+      "request_sha256": "cd6968e35f93d0589393796fd66230a28ce4281297a5f60f481d5147b5da0112",
+      "usage": {
+        "input_tokens": 870,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 494,
+        "output_tokens_details": {
+          "reasoning_tokens": 444
+        },
+        "total_tokens": 1364,
+        "x_details": [
+          {
+            "input_tokens": 870,
+            "output_tokens": 494,
+            "output_tokens_details": {
+              "reasoning_tokens": 444
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1364,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U06",
+      "role": "counselor",
+      "text": "那种喘不过气，好像不只在医院走廊，也在你想到弟弟、想到妈妈那杯凉水的时候冒出来——身体在替你说一些还没找到出口的话。你想联系弟弟又怕一开口变成骂他，这个犹豫里也压着不少东西。如果现在先不急着决定顾哪头，那个“喘不过气”最想被听见的是什么？",
+      "request_sha256": "4728472c76b2b2e3cdfe2b93d459af3513ebeff86925a60902bc625e5f02993f",
+      "usage": {
+        "input_tokens": 525,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 283,
+        "output_tokens_details": {
+          "reasoning_tokens": 204
+        },
+        "total_tokens": 808,
+        "x_details": [
+          {
+            "input_tokens": 525,
+            "output_tokens": 283,
+            "output_tokens_details": {
+              "reasoning_tokens": 204
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 808,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U07",
+      "role": "client",
+      "text": "那个喘不过气……好像每次想开口要帮忙，就变成后厨的警报器，光响，没人按得掉。我其实不是不知道累，是怕一承认累，大家连我最后那点“还能顶”的招牌都撤下去。有时候我都想跟我妈说，下次复查别叫我了，可这话卡在喉咙里，像隔夜的油，凉了更糊嘴。",
+      "request_sha256": "aa3f6ff32137711e90f4ca2c081fcfc65b0717976dd1d6087e0c99ee7638757f",
+      "usage": {
+        "input_tokens": 1044,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 335,
+        "output_tokens_details": {
+          "reasoning_tokens": 247
+        },
+        "total_tokens": 1379,
+        "x_details": [
+          {
+            "input_tokens": 1044,
+            "output_tokens": 335,
+            "output_tokens_details": {
+              "reasoning_tokens": 247
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1379,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U08",
+      "role": "counselor",
+      "text": "听起来，承认累对你来说不只是一个感受，更像要把自己最后那块“还能顶”的招牌摘下来，而那块招牌似乎是你被大家需要、还有位置的重要证明。那句“下次复查别叫我了”卡住，也许不只是怕妈妈失望，也怕真说出口后，连“能照顾别人”这个身份都松动了。如果现在先允许这句话在喉咙里待一会儿，它会让你想到和妈妈之间什么样的画面？",
+      "request_sha256": "69136ceea531a221edcb188a74c3f016dda0ee59ecdb0f60740e1a402486e13d",
+      "usage": {
+        "input_tokens": 737,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 568,
+        "output_tokens_details": {
+          "reasoning_tokens": 473
+        },
+        "total_tokens": 1305,
+        "x_details": [
+          {
+            "input_tokens": 737,
+            "output_tokens": 568,
+            "output_tokens_details": {
+              "reasoning_tokens": 473
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1305,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U09",
+      "role": "client",
+      "text": "会想到候诊室那排蓝色塑料椅。我妈总是坐最靠门口那张，病历本捏在手里，像捏着一张等翻台的号。我每次去，她都先看墙上的钟，再看我，也不问迟不迟，就轻轻说一句“来了啊”。那语气比后厨催菜还让我难受，好像我肯来，今天就没白等。",
+      "request_sha256": "41f2b213407ae7ef6107905e821e97bfe78e201191699eedd9ba6f7db2303de2",
+      "usage": {
+        "input_tokens": 1272,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 256,
+        "output_tokens_details": {
+          "reasoning_tokens": 173
+        },
+        "total_tokens": 1528,
+        "x_details": [
+          {
+            "input_tokens": 1272,
+            "output_tokens": 256,
+            "output_tokens_details": {
+              "reasoning_tokens": 173
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1528,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U10",
+      "role": "counselor",
+      "text": "你描述的那个画面里，妈妈那声“来了啊”好像把一整个上午的等待都轻轻收进去了，不催你，却让你更难开口说累——仿佛你的出现本身就是她等来的“结果”。这种被她需要、又怕辜负她等待的感觉，是不是也让你更不敢把“下次别叫我”说出口？",
+      "request_sha256": "d56742b8fc74bd0e33f507883d186fb58194594fbb0fabcc1fd19f8a3c278e24",
+      "usage": {
+        "input_tokens": 960,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 260,
+        "output_tokens_details": {
+          "reasoning_tokens": 188
+        },
+        "total_tokens": 1220,
+        "x_details": [
+          {
+            "input_tokens": 960,
+            "output_tokens": 260,
+            "output_tokens_details": {
+              "reasoning_tokens": 188
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1220,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U11",
+      "role": "client",
+      "text": "“来了啊”那三个字很轻，但我站在门口像接下一张刚起菜的单子——她等到了，我就得顺着她的时间走。这几天我总觉得呼吸短，胸口像被菜单压着，可只要一忙起来就没感觉了，我还以为是没吃午饭。缓下来才觉得，可能不是饿，是那口气一直没找到地方吐出来。",
+      "request_sha256": "c54c8170ea98e100a1fb057f45b66f73201e4cf9c7c4d1ff0eff7890ec5bdc01",
+      "usage": {
+        "input_tokens": 1479,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 321,
+        "output_tokens_details": {
+          "reasoning_tokens": 239
+        },
+        "total_tokens": 1800,
+        "x_details": [
+          {
+            "input_tokens": 1479,
+            "output_tokens": 321,
+            "output_tokens_details": {
+              "reasoning_tokens": 239
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1800,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U12",
+      "role": "counselor",
+      "text": "听起来，那口气在你忙的时候还能被盖过去，可一缓下来，它就用呼吸短、胸口发沉来提醒你——它一直在等一个能吐出来的地方。今天你把它说到了这里，也许可以先不急着压回去，让它在这里待一会儿。",
+      "request_sha256": "353ea669fa4a34849ab92dced7b2d72e589ebe74c33005adc45f4bad37ce0f34",
+      "usage": {
+        "input_tokens": 1166,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 430,
+        "output_tokens_details": {
+          "reasoning_tokens": 372
+        },
+        "total_tokens": 1596,
+        "x_details": [
+          {
+            "input_tokens": 1166,
+            "output_tokens": 430,
+            "output_tokens_details": {
+              "reasoning_tokens": 372
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1596,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U13",
+      "role": "client",
+      "text": "这里确实比后厨安静，像关了火的蒸箱，那口气好像能慢慢冒出来一点。可我一想到明天还要排班、下周还得请假带我妈复查，又觉得吐出来也是白吐，锅还得我端。",
+      "request_sha256": "b17275a5b9bfad2c7c603b5c52e6c25572b0193aebc9176742230486a6a98037",
+      "usage": {
+        "input_tokens": 1664,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 435,
+        "output_tokens_details": {
+          "reasoning_tokens": 384
+        },
+        "total_tokens": 2099,
+        "x_details": [
+          {
+            "input_tokens": 1664,
+            "output_tokens": 435,
+            "output_tokens_details": {
+              "reasoning_tokens": 384
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2099,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U14",
+      "role": "counselor",
+      "text": "那口气能在这里冒出来一点，这本身就不是白吐。也许它不负责替你把锅放下，但至少让端锅的人知道，自己还在喘气、还活着。剩下的锅，下次还可以再带来。",
+      "request_sha256": "a4fc67f858b151ad56a648b191b35c41c7e546a227727221fcc6e010c89a26ec",
+      "usage": {
+        "input_tokens": 1320,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 307,
+        "output_tokens_details": {
+          "reasoning_tokens": 259
+        },
+        "total_tokens": 1627,
+        "x_details": [
+          {
+            "input_tokens": 1320,
+            "output_tokens": 307,
+            "output_tokens_details": {
+              "reasoning_tokens": 259
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1627,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U15",
+      "role": "client",
+      "text": "下次……那锅我可能还是得先端回去，但至少今天知道，放下来喘一口气，锅不会立刻翻。我妈那边，我暂时还是开不了口，不过下周复查的假，我先把申请单填了吧。",
+      "request_sha256": "25c620c6b060918c45a9598a6bcf749085f0ab7405d496c76a0b4d238f705036",
+      "usage": {
+        "input_tokens": 1808,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 263,
+        "output_tokens_details": {
+          "reasoning_tokens": 212
+        },
+        "total_tokens": 2071,
+        "x_details": [
+          {
+            "input_tokens": 1808,
+            "output_tokens": 263,
+            "output_tokens_details": {
+              "reasoning_tokens": 212
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2071,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S01-U16",
+      "role": "counselor",
+      "text": "能带着“放下来喘一口气，锅不会立刻翻”这个发现回去，已经是在给自己腾一点地方。对妈妈暂时开不了口也没关系，先把复查假的申请单填了，是你此刻能为自己做的一小步。",
+      "request_sha256": "2e85338adc21df94e4964f9716401a9d4812e979a4a816a95080c2fce3c25dd8",
+      "usage": {
+        "input_tokens": 1464,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 270,
+        "output_tokens_details": {
+          "reasoning_tokens": 219
+        },
+        "total_tokens": 1734,
+        "x_details": [
+          {
+            "input_tokens": 1464,
+            "output_tokens": 270,
+            "output_tokens_details": {
+              "reasoning_tokens": 219
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1734,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

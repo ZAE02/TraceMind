@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P05_CP1",
+  "raw_text": "那种“不用管自己看起来稳不稳”的状态，对你来说意味着什么？是终于允许自己不那么完美，还是只是暂时躲开了被评判的恐惧？",
+  "request_sha256": "38b05c2d76c79e60ce0e3c5b6d02ae2a09be8048892def30e4e24eaf6c9c0b1f",
+  "input_sha256": "f94f736a489fb05dd6f661ab549cbcc842233a77c809bb2f9aa3372ee0353048",
+  "memory_sha256": "045dd1ca23e2e8ff9bbd8aea71fde368c45eec735d1d2b08b8d96d508c98084d",
+  "usage": {
+    "input_tokens": 3828,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 33,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3861,
+    "x_details": [
+      {
+        "input_tokens": 3828,
+        "output_tokens": 33,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3861,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.828
+}

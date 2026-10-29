@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_3a3c2210198d",
+  "round": 2,
+  "node": "N04",
+  "method": "B3_generic_rollup",
+  "replicate": 1,
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "request_sha256": "995727b03680fae7abb6084222f40a50b0a6bce5a7c96f9cfb6a495bbf6e70fe",
+  "call_id": "96001e2b19c94a25a614d4da234e1267",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "嗯……我想了想，好像不是费劲的那种。就是……以前是它自己就在那儿，我现在是得\"哦对，周六下午还是我的\"，加一个确认。但那个确认也不费劲，就是……多了一个\"确认\"的动作。以前不用确认，现在得确认一下，但确认完了它还是在那儿的，就是……那个\"自动\"没了。",
+  "usage": {
+    "input_tokens": 14332,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 300,
+    "output_tokens_details": {
+      "reasoning_tokens": 219
+    },
+    "total_tokens": 14632,
+    "x_details": [
+      {
+        "input_tokens": 14332,
+        "input_tokens_details": {
+          "text_tokens": 14332
+        },
+        "output_tokens": 300,
+        "output_tokens_details": {
+          "reasoning_tokens": 219
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14632,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T11:18:57.890231+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

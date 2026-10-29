@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP2",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "6026ba8e43569cc0a1defee8391b5f80887c5671ae9f8fdd0a86293c3c17492f",
+  "request_sha256": "423369c3ed1928f5faa1d539c4ee51eebde26f81efddd5e26aa8827e23b0a760",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来，赵岩家里人的那句话不只是让你意外，也把你原来用来判断他“凑过来”的那套心思打乱了。现在你面对他时，好像既没法再按以前的方式猜他，又还没找到新的方式和他相处，所以话到嘴边又咽了回去。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 5715,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5774,
+    "x_details": [
+      {
+        "input_tokens": 5715,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 5774,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "92060bb7fa0dbe8ee571332232127f609df2d4db5a405a6ff177a17e611c6462",
+  "request_sha256": "de51cfe9e951cf0882c58d23c52c8c9fd54c1d4b04f5fe0dbcf2d41203b0cdb1",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "赵岩那些“早该有人讲”的经验，让你看清了过去几年独自硬扛的代价，这种清醒确实让人感慨。只是眼前审核提前、假又批不下来，这些刚找到的路暂时还帮不上忙，这种“知道了却动不了”的落差感，是不是让你觉得更无力了？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 8647,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 67,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8714,
+    "x_details": [
+      {
+        "input_tokens": 8647,
+        "output_tokens": 67,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8714,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

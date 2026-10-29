@@ -1,0 +1,68 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者'悬着一把尺'的比喻及第5次会谈中关于接受搭把手的挣扎，但未明确连接前几轮已识别的'能熬'作为自我确认核心支撑这一深层认识。",
+      "exploration_value": "将具体行为（拉被角、补解释）与内在紧张感联系起来，为来访者探索'搭手变成考验'的体验留下了空间，但探索方向略偏向引导性解读而非完全开放。",
+      "response_appropriateness": "语言自然、贴近来访者用词，情绪反映基本到位；但'怕自己做得不够好'略带推断色彩，来访者原文更强调的是对失控和暴露监控行为的恐惧，而非对自身能力的担忧。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "又怕自己做得不够好的紧张感",
+        "evidence_ids": [
+          "P06-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "'怕自己做得不够好'是对来访者动机的轻度预设，来访者表达的更多是怕被发现自己在监控（'怕被他看出来'），以及对失去'能熬'底子的恐惧，而非担心自己能力不足。",
+      "回应较好地抓住了当下细节，但未能将此与第5-6次会谈中已建立的'承认需要帮助不等于没用'的认识进展做更深连接。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'悬着一把尺'的比喻及第5次会谈中关于接受搭把手的挣扎，但未明确连接前几轮已识别的'能熬'作为自我确认核心支撑这一深层认识。\",\"exploration_value\":\"将具体行为（拉被角、补解释）与内在紧张感联系起来，为来访者探索'搭手变成考验'的体验留下了空间，但探索方向略偏向引导性解读而非完全开放。\",\"response_appropriateness\":\"语言自然、贴近来访者用词，情绪反映基本到位；但'怕自己做得不够好'略带推断色彩，来访者原文更强调的是对失控和暴露监控行为的恐惧，而非对自身能力的担忧。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"又怕自己做得不够好的紧张感\",\"evidence_ids\":[\"P06-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"'怕自己做得不够好'是对来访者动机的轻度预设，来访者表达的更多是怕被发现自己在监控（'怕被他看出来'），以及对失去'能熬'底子的恐惧，而非担心自己能力不足。\",\"回应较好地抓住了当下细节，但未能将此与第5-6次会谈中已建立的'承认需要帮助不等于没用'的认识进展做更深连接。\"]}",
+  "request_sha256": "f3f76d6ebdb98f7b25e0fad4726d64d3234ec3ae596e0179688b26d73f33e283",
+  "usage": {
+    "input_tokens": 19879,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 364,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20243,
+    "x_details": [
+      {
+        "input_tokens": 19879,
+        "output_tokens": 364,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 20243,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.61
+}

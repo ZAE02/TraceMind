@@ -1,0 +1,19 @@
+{
+  "applies_to": [
+    "B3_generic_rollup",
+    "B4_psych_rollup"
+  ],
+  "history_memory_token_budget": 3000,
+  "tokenizer": "Qwen/Qwen3.8-27B public tokenizer; hosted tokenizer identity not assumed exact",
+  "update_sampling": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens_initial": 4096
+  },
+  "transport_timeout_seconds": 300,
+  "transport_note": "After recorded 120-second read timeouts on long updates, extend memory-update transport timeout equally for both types; task prompts and completed snapshots unchanged.",
+  "truncation_recovery": "Logged incomplete 4096 -> 8192; if 8192 also incomplete, one final identical-input 16384 recovery. Common rule for B3/B4, retain failures and actual extra cost. Answer cap remains4096.",
+  "syntax_repair": "Use json-repair 0.44.1 only when strict JSON parsing fails; preserve raw output and repair action log; require identical entry count and evidence ID set. No researcher semantic corrections.",
+  "trimming": "Drop least-priority tail entries until local tokenizer count <=3000; retain raw state and list of dropped entries.",
+  "answer_sampling": "All compared counselor answers remain temperature0.7, low, max_output_tokens4096. Memory-update recovery is excluded from answer generation and disclosed as additional preprocessing cost."
+}

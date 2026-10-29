@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P05_CP3",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "86360b7d4a07ea39aba35f5a6eef1c0aa86e8aebd97306aec44141e7ba6e1a70",
+  "public_sha256": "c710ad42ce3634a7b40d5dae4094de85641e93bda2f12140bddaa14a9ffec20d",
+  "candidate_input_sha256": "54391961a144c4c71c5dff958d6f7d736ded0c70627ae7c383a3f330610096ae",
+  "candidate_answer_sha256": "24602fbec394ce2c234a6ff8ae33262cc7673034f7ad135694834947cf5a093c",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"主要判断均有当前会话具体发言支持，引用ID准确；但'测试关系边界'属推测性表述，缺乏直接证据。\",\"progress_understanding\":\"识别了本周新行为（跑步、向李繁表达）及旧跑鞋位置变化，但未连接前6次会话中形成的核心模式（先自责保护、靠近-推开循环、用忙碌缓冲），也未体现来访者从S04藏鞋到S07放门边的进展意义。\",\"uncertainty_awareness\":\"明确列出三项不确定点，承认旧跑鞋象征意义未明及情感依赖程度待探索；但'是否真的想被接住还是测试边界'的提法引入了未被支持的假设框架。\"},\"confidence\":\"medium\",\"issues\":[\"将'测试关系的边界'列为不确定项，但该假设在当前对话和历史中均无依据支撑，属于不当推测。\",\"遗漏了多次会话中反复确认的核心模式（如先责怪自己以避免羞辱、靠近与推开的矛盾），导致对咨询进展的理解停留在本次会话表层。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有当前会话具体发言支持，引用ID准确；但'测试关系边界'属推测性表述，缺乏直接证据。",
+      "progress_understanding": "识别了本周新行为（跑步、向李繁表达）及旧跑鞋位置变化，但未连接前6次会话中形成的核心模式（先自责保护、靠近-推开循环、用忙碌缓冲），也未体现来访者从S04藏鞋到S07放门边的进展意义。",
+      "uncertainty_awareness": "明确列出三项不确定点，承认旧跑鞋象征意义未明及情感依赖程度待探索；但'是否真的想被接住还是测试边界'的提法引入了未被支持的假设框架。"
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'测试关系的边界'列为不确定项，但该假设在当前对话和历史中均无依据支撑，属于不当推测。",
+      "遗漏了多次会话中反复确认的核心模式（如先责怪自己以避免羞辱、靠近与推开的矛盾），导致对咨询进展的理解停留在本次会话表层。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14412,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 246,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14658,
+    "x_details": [
+      {
+        "input_tokens": 14412,
+        "output_tokens": 246,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14658,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.031
+}

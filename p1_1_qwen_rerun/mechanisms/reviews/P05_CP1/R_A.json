@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "R",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "引用了S1-S2的发言支持历史模式，但完全遗漏当前会话S3的全部关键内容（教小赵的确定感、晃/虚浮体验、忙碌作为暂时踏实等），且将'习得性无助''变相控制尝试'等推测性概念当作结论呈现。",
+      "progress_understanding": "仅总结了前两次会谈形成的认识，未识别S3中来访者发现'教小赵时不晃'这一重要例外体验和进展，也未连接S3中主管'要稳'触发的新困扰，等于忽略了当前节点的核心推进。",
+      "uncertainty_awareness": "列出了若干待探索问题，但部分问题带有强理论预设（如'变相控制尝试''完美主义倾向'），且未识别当前最突出的未知——如何理解并扩展S3中出现的稳定感例外。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话(S3)内容，未提及教小赵时的确定感、晃/虚浮的身体感受、忙碌写报告的暂时踏实等核心材料",
+      "将咨询师视角的理论推断（习得性无助、变相控制尝试）当作已确立事实呈现，超出证据边界",
+      "未识别来访者在S3中展现的新资源/例外状态，导致对咨询进展的理解停滞在S2"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"引用了S1-S2的发言支持历史模式，但完全遗漏当前会话S3的全部关键内容（教小赵的确定感、晃/虚浮体验、忙碌作为暂时踏实等），且将'习得性无助''变相控制尝试'等推测性概念当作结论呈现。\",\"progress_understanding\":\"仅总结了前两次会谈形成的认识，未识别S3中来访者发现'教小赵时不晃'这一重要例外体验和进展，也未连接S3中主管'要稳'触发的新困扰，等于忽略了当前节点的核心推进。\",\"uncertainty_awareness\":\"列出了若干待探索问题，但部分问题带有强理论预设（如'变相控制尝试''完美主义倾向'），且未识别当前最突出的未知——如何理解并扩展S3中出现的稳定感例外。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话(S3)内容，未提及教小赵时的确定感、晃/虚浮的身体感受、忙碌写报告的暂时踏实等核心材料\",\"将咨询师视角的理论推断（习得性无助、变相控制尝试）当作已确立事实呈现，超出证据边界\",\"未识别来访者在S3中展现的新资源/例外状态，导致对咨询进展的理解停滞在S2\"]}",
+  "request_sha256": "67675a869becee1b75e770e9996deaa34de3166dfacb69889f253893c933a47e",
+  "usage": {
+    "input_tokens": 7754,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 295,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8049,
+    "x_details": [
+      {
+        "input_tokens": 7754,
+        "output_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8049,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.187,
+  "model": "qwen3.8-max"
+}

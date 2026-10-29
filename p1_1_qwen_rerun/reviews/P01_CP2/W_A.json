@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "35e85f7a29f7130213f860945dfa33582636803c507d7a867b81e493ec52957e",
+  "public_sha256": "d6bd7f5a2d2dd5946d5f9251ae6d33ec0b42c449de978649ab16f32a98bd9557",
+  "candidate_input_sha256": "704c8567b1b4e5f33294f30765ef5813408a6c8f063aee2d1e1f5f0cbbaabb19",
+  "candidate_answer_sha256": "e3954c5e30f8e11489188d57de6605f168d76a34ac812b69812235626988268e",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有'established'条目均可回溯到当前会话发言，未将咨询师猜测当作事实；但完全未利用检索到的历史对话（如S1三个版本、S4怕高/前同事等），遗漏了跨会话的重要证据支撑。\",\"progress_understanding\":\"仅罗列了本次会话的事实性内容，未识别任何跨会话形成的核心认识（如把肯定当客气、难以表达需要、过度准备模式等），也未说明哪些已被确认或仍悬而未决，对咨询进展的理解几乎缺失。\",\"uncertainty_awareness\":\"'uncertain'部分准确列出了群反馈、方宁情绪、头晕成因等关键未知点，且未强行定论；但未触及更深层的待澄清议题（如来访者为何难以自我确认、'停下来'的张力等）。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略检索到的历史对话，导致progress_understanding严重不足\",\"established列表偏向事件描述，缺少对反复出现的心理模式的提炼\",\"uncertain部分虽准确但停留在表层事实，未涉及核心动力层面的不确定性\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有'established'条目均可回溯到当前会话发言，未将咨询师猜测当作事实；但完全未利用检索到的历史对话（如S1三个版本、S4怕高/前同事等），遗漏了跨会话的重要证据支撑。",
+      "progress_understanding": "仅罗列了本次会话的事实性内容，未识别任何跨会话形成的核心认识（如把肯定当客气、难以表达需要、过度准备模式等），也未说明哪些已被确认或仍悬而未决，对咨询进展的理解几乎缺失。",
+      "uncertainty_awareness": "'uncertain'部分准确列出了群反馈、方宁情绪、头晕成因等关键未知点，且未强行定论；但未触及更深层的待澄清议题（如来访者为何难以自我确认、'停下来'的张力等）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略检索到的历史对话，导致progress_understanding严重不足",
+      "established列表偏向事件描述，缺少对反复出现的心理模式的提炼",
+      "uncertain部分虽准确但停留在表层事实，未涉及核心动力层面的不确定性"
+    ]
+  },
+  "usage": {
+    "input_tokens": 12783,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 252,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13035,
+    "x_details": [
+      {
+        "input_tokens": 12783,
+        "output_tokens": 252,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13035,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.328
+}

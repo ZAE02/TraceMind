@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "8961b6aa3330bbad6cca035ec77b52e2ce4a1dca5f2fe4188ba9efe46ec1ab16",
+  "public_sha256": "d6bd7f5a2d2dd5946d5f9251ae6d33ec0b42c449de978649ab16f32a98bd9557",
+  "candidate_input_sha256": "ad0155e61ef06f521e475c15641e449b0c7c91ee43c2e9b1aae3e61c411dd089",
+  "candidate_answer_sha256": "1bb8ee42e09e20216b8097bf442833507933dcf7b519561c342c36f7b10d0a65",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":1,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有'established'条目均可直接回溯到S05-U01至U09的原文，引用准确，无凭空断言。\",\"progress_understanding\":\"仅罗列了本次会话的事实细节，完全未识别跨会话形成的核心模式（如将肯定听成批评、过度准备后更焦虑、难以表达真实需要等），也未提及任何已确认或待修正的认识进展。\",\"uncertainty_awareness\":\"明确列出了群回复内容、方宁'好'字意图、头晕成因等关键未知点，未将其当作确定事实；但缺少对来访者自身觉察（如'又把简单事搞复杂'）中不确定性的进一步区分。\"},\"confidence\":\"high\",\"issues\":[\"progress_understanding严重缺失：候选输出仅为当前轮次事件摘要，未体现对五次咨询中反复出现的主题（评价焦虑、压抑自我需要、'不敢看/反复看'循环）的任何理解或连接。\",\"established部分偏向表面行为描述，未提炼出参考标注中强调的深层模式性认识。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有'established'条目均可直接回溯到S05-U01至U09的原文，引用准确，无凭空断言。",
+      "progress_understanding": "仅罗列了本次会话的事实细节，完全未识别跨会话形成的核心模式（如将肯定听成批评、过度准备后更焦虑、难以表达真实需要等），也未提及任何已确认或待修正的认识进展。",
+      "uncertainty_awareness": "明确列出了群回复内容、方宁'好'字意图、头晕成因等关键未知点，未将其当作确定事实；但缺少对来访者自身觉察（如'又把简单事搞复杂'）中不确定性的进一步区分。"
+    },
+    "confidence": "high",
+    "issues": [
+      "progress_understanding严重缺失：候选输出仅为当前轮次事件摘要，未体现对五次咨询中反复出现的主题（评价焦虑、压抑自我需要、'不敢看/反复看'循环）的任何理解或连接。",
+      "established部分偏向表面行为描述，未提炼出参考标注中强调的深层模式性认识。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 15892,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 250,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16142,
+    "x_details": [
+      {
+        "input_tokens": 15892,
+        "output_tokens": 250,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 16142,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.766
+}

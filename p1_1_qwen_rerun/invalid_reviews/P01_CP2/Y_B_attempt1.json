@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应抓住了来访者'不敢点开'的回避模式，这与历史中反复出现的逃避确认行为一致，但未自然承接任何具体已形成的认识（如S4中命名的'一个人猜'或S3中对自身需要的压抑），仅泛泛联系。\",\"exploration_value\":\"回应以解释性总结为主，未对来访者刚提出的新信息（头晕、自我怀疑'又把简单事搞复杂了'）留出探索空间，也未推进对当前关键不确定性的理解，属于封闭式归纳。\",\"response_appropriateness\":\"语言基本尊重，但将'躲藏'与'头晕'直接因果关联（'让你一直被困在猜测和头晕里'）缺乏来访者确认，存在轻微过度解读；同时完全忽略了来访者末尾提到的身体不适和自我反思，显得不够贴合当下。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种躲藏虽然让你暂时不用承受失望，但也让你一直被困在猜测和头晕里\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"你似乎把\"没点开\"当成了一种保护……没法真正落地。\",\"evidence_ids\":[\"P01-S05-U08\",\"P01-S05-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"将来访者自述的不确定身体症状（头晕）直接与心理回避行为建立因果关系，属于未经证实的推断\",\"完全忽略来访者在U09末尾新增的两个重要信息点：头晕的身体感受以及'我是不是又把简单事搞复杂了'的自我觉察\",\"回应停留在对上一轮咨询师已命名内容的重复总结层面，未向前推进探索\"]}",
+  "request_sha256": "122e5ed2f78ad22269d5c8471c338660e7fc54a9e2c7fe02eb755cb9a70e8b62",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 15630,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 421,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16051,
+    "x_details": [
+      {
+        "input_tokens": 15630,
+        "output_tokens": 421,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 16051,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

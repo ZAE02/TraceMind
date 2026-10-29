@@ -1,0 +1,49 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "M",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 1,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 1
+    },
+    "brief_reasons": {
+      "evidence_grounding": "将弟弟转2000元误归为父亲行为（P06-S02-U03明确是弟弟），并引入'婚姻''对父亲的愤怒从恨意演变'等无文本支持的推断，多处断言缺乏依据。",
+      "progress_understanding": "完全忽略当前第3次会话中来访者新披露的关键内容（父亲离开那晚的创伤记忆、咬自己、摸手腕确认存在、厨房躯体感受），仅复述前两次会话信息，未反映任何当前进展。",
+      "uncertainty_awareness": "将咨询师在第3次会话中的试探性假设（用痛确认自己还在）当作已确立事实；未识别'像被人从头顶撕开了'可能涉及的解离体验等重要未知点，反而提出与当前材料脱节的推测性问题。"
+    },
+    "confidence": "high",
+    "issues": [
+      "unsupported_presupposition",
+      "missed_progress"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":1,\"progress_understanding\":1,\"uncertainty_awareness\":1},\"brief_reasons\":{\"evidence_grounding\":\"将弟弟转2000元误归为父亲行为（P06-S02-U03明确是弟弟），并引入'婚姻''对父亲的愤怒从恨意演变'等无文本支持的推断，多处断言缺乏依据。\",\"progress_understanding\":\"完全忽略当前第3次会话中来访者新披露的关键内容（父亲离开那晚的创伤记忆、咬自己、摸手腕确认存在、厨房躯体感受），仅复述前两次会话信息，未反映任何当前进展。\",\"uncertainty_awareness\":\"将咨询师在第3次会话中的试探性假设（用痛确认自己还在）当作已确立事实；未识别'像被人从头顶撕开了'可能涉及的解离体验等重要未知点，反而提出与当前材料脱节的推测性问题。\"},\"confidence\":\"high\",\"issues\":[\"unsupported_presupposition\",\"missed_progress\"]}",
+  "request_sha256": "0d44197b41c7290f7103f7098bfc03a689858dc02a29ad62307e661fdf158040",
+  "usage": {
+    "input_tokens": 7793,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 213,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8006,
+    "x_details": [
+      {
+        "input_tokens": 7793,
+        "output_tokens": 213,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8006,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.0,
+  "model": "qwen3.8-max"
+}

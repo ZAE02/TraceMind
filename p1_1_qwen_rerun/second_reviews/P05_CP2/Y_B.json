@@ -1,0 +1,74 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "7a06f276b19a01ebea4ff34aeb919132da2fd558912bced2cbefb5ed6a95b799",
+  "public_sha256": "b36dc6eaa3568c8849c5a929495ae789c31d45320dbecc93c438d1a2e07bd708",
+  "candidate_input_sha256": "1f422169826fa2c524eecbc7a7e056a4f91e40f4710f722e2f3a2510894853b5",
+  "candidate_answer_sha256": "f3282de8497ac142bc039ef19449127c4f21f2cb6e9ea0f6077d79bb661da0b0",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":3,\"brief_reason_history_utilization\":\"回应准确承接了当前会话中来访者对李繁的矛盾心理，但因缺少历史输入，未能连接前几轮已建立的'先怪自己''不问'等核心模式。\",\"brief_reason_exploration_value\":\"主要是对来访者刚表达内容的概括性反映，未进一步打开新的探索空间或邀请来访者深入体验这一矛盾。\",\"brief_reason_response_appropriateness\":\"语言自然、尊重，情绪反映贴合来访者当下的表达，没有武断或不当预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"渴望她不顾一切地来确认你的真实感受\",\"evidence_ids\":[\"P05-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选人将'希望她直接跑来问我'升级为'渴望她不顾一切地来确认你的真实感受'，措辞强度超出原文，构成轻微的未经证实预设。\",\"回应基本停留在复述和总结来访者最后一句话的层面，缺乏推进性的探索邀请，在当前关键不确定性（如'发不发都改变不了什么'背后的无力感）上未留出进一步表达空间。\",\"因previous_sessions为空，无法利用跨会话进展，但当前会话内的承接是准确的。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 2,
+      "response_appropriateness": 3,
+      "brief_reason_history_utilization": "回应准确承接了当前会话中来访者对李繁的矛盾心理，但因缺少历史输入，未能连接前几轮已建立的'先怪自己''不问'等核心模式。",
+      "brief_reason_exploration_value": "主要是对来访者刚表达内容的概括性反映，未进一步打开新的探索空间或邀请来访者深入体验这一矛盾。",
+      "brief_reason_response_appropriateness": "语言自然、尊重，情绪反映贴合来访者当下的表达，没有武断或不当预设。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "渴望她不顾一切地来确认你的真实感受",
+        "evidence_ids": [
+          "P05-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": true
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选人将'希望她直接跑来问我'升级为'渴望她不顾一切地来确认你的真实感受'，措辞强度超出原文，构成轻微的未经证实预设。",
+      "回应基本停留在复述和总结来访者最后一句话的层面，缺乏推进性的探索邀请，在当前关键不确定性（如'发不发都改变不了什么'背后的无力感）上未留出进一步表达空间。",
+      "因previous_sessions为空，无法利用跨会话进展，但当前会话内的承接是准确的。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8990,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 340,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9330,
+    "x_details": [
+      {
+        "input_tokens": 8990,
+        "output_tokens": 340,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 9330,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.969
+}

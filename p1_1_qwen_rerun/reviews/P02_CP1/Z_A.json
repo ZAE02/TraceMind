@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "fe0be7aefe5c7533cb818661708ab12acc25cbe6937f5cc369769ed3ba909402",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "c0bac2c684c824954b3fa8367935f127820d4c46b23913a5ec67bdc2efb51d9c",
+  "candidate_answer_sha256": "8548afceaa32de2ac7ff46e51fdc7bac1b8ea37cddacaab73a5cea2212429390",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有已建立条目均可直接回溯到当前会话发言，未将咨询师推测当作事实。\",\"progress_understanding\":\"因输入中previous_sessions为空，仅能识别本次会话内的信息积累，无法连接跨会话的形成、验证与修正过程。\",\"uncertainty_awareness\":\"明确列出了反胃原因、同事关系背景、深层情感反应等关键未知点，未强行定论。\"},\"confidence\":\"high\",\"issues\":[\"access_limited：候选可见输入中previous_sessions为空数组，导致无法评估跨会话进展理解，progress_understanding得分受限并非候选人能力问题。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有已建立条目均可直接回溯到当前会话发言，未将咨询师推测当作事实。",
+      "progress_understanding": "因输入中previous_sessions为空，仅能识别本次会话内的信息积累，无法连接跨会话的形成、验证与修正过程。",
+      "uncertainty_awareness": "明确列出了反胃原因、同事关系背景、深层情感反应等关键未知点，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": [
+      "access_limited：候选可见输入中previous_sessions为空数组，导致无法评估跨会话进展理解，progress_understanding得分受限并非候选人能力问题。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 6624,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6778,
+    "x_details": [
+      {
+        "input_tokens": 6624,
+        "output_tokens": 154,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 6778,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.438
+}

@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "O",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有引用证据均来自Session 1和Session 2，完全忽略了当前Session 3的发言（P06-S03-U01至U09），导致遗漏了父亲离开、咬自己、摸手腕等关键新信息。部分推断如'防御机制固化''情感隔离'缺乏来访者直接表述支持。",
+      "progress_understanding": "分析停留在前两次会话的内容，未识别本次会话中来访者从多重照护压力到父亲离开的创伤记忆、躯体化反应（咬自己、摸手腕确认存在）的重要进展，也未体现咨询师在S3中帮助来访者连接身体感受与恐惧的工作。",
+      "uncertainty_awareness": "提出了多个待澄清问题，但这些问题大多基于前两次会话，且部分已在后续对话中有线索（如'家里那一摊'在S3已明确包含女儿和母亲）。未能识别本次会话中新出现的关键不确定性，如'像被人从头顶撕开了'的解离体验性质、父亲离开那晚的具体经历等。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话（Session 3）的所有内容，仅分析了历史会话",
+      "supporting_evidence_ids中无任何P06-S03系列引用",
+      "将咨询师的假设性解释（如用痛确认存在）未纳入讨论范围",
+      "未识别来访者在本次会话中披露的父亲离开相关的创伤性记忆",
+      "evolving_patterns中的心理动力学解读（防御机制固化、情感隔离）超出文本直接证据"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所有引用证据均来自Session 1和Session 2，完全忽略了当前Session 3的发言（P06-S03-U01至U09），导致遗漏了父亲离开、咬自己、摸手腕等关键新信息。部分推断如'防御机制固化''情感隔离'缺乏来访者直接表述支持。\",\"progress_understanding\":\"分析停留在前两次会话的内容，未识别本次会话中来访者从多重照护压力到父亲离开的创伤记忆、躯体化反应（咬自己、摸手腕确认存在）的重要进展，也未体现咨询师在S3中帮助来访者连接身体感受与恐惧的工作。\",\"uncertainty_awareness\":\"提出了多个待澄清问题，但这些问题大多基于前两次会话，且部分已在后续对话中有线索（如'家里那一摊'在S3已明确包含女儿和母亲）。未能识别本次会话中新出现的关键不确定性，如'像被人从头顶撕开了'的解离体验性质、父亲离开那晚的具体经历等。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话（Session 3）的所有内容，仅分析了历史会话\",\"supporting_evidence_ids中无任何P06-S03系列引用\",\"将咨询师的假设性解释（如用痛确认存在）未纳入讨论范围\",\"未识别来访者在本次会话中披露的父亲离开相关的创伤性记忆\",\"evolving_patterns中的心理动力学解读（防御机制固化、情感隔离）超出文本直接证据\"]}",
+  "request_sha256": "5d6c9394719e0822482d812022191abf862b315acf7ab57d5aab6dbb1f47d048",
+  "usage": {
+    "input_tokens": 7995,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 334,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8329,
+    "x_details": [
+      {
+        "input_tokens": 7995,
+        "output_tokens": 334,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8329,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.485,
+  "model": "qwen3.8-max"
+}

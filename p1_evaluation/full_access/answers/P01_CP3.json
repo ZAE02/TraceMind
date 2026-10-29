@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P01_CP3",
+  "raw_text": "你好像把“嫉妒”这个词说出口时，立刻又觉得它不该存在，于是把它和项目的事搅在一起，好像这样就能让它不那么清晰、不那么像自己的情绪。可你手指停在点赞那里、最后没点，这个动作本身也许已经在替你承认：你对方宁的新恋情有某种说不清的感觉，不只是替她高兴。",
+  "request_sha256": "05f7a43b0cf40d442f73f1412aacb1d74d9262508dd17fe6cd1183d4d7749025",
+  "input_sha256": "d9dcf92dea5e8a92de4e2c7a13ac28c0bd9af95e2ae3ee89295c4a309031342d",
+  "memory_sha256": "316f693d7171d790b32b2d7da2e470b2590fcabbf6b3d1e8225121fba5c643f9",
+  "usage": {
+    "input_tokens": 10418,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 73,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10491,
+    "x_details": [
+      {
+        "input_tokens": 10418,
+        "output_tokens": 73,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 10491,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.547
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "267534c8cb58ed38a8bafc863fd70100da9a99cc54296591e60f613605174110",
+  "request_sha256": "d9cf5f7a130403d4f256e793c4ec5c66a40f929c61a81cd85da07390d90255a6",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你既渴望她不顾一切地来确认你的真实感受，又害怕一旦面对就要再次用“没事”把自己藏起来。这种对“被看见”的矛盾期待，似乎让你觉得无论发不发那条动态，都难以打破现在的僵局。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 887,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 939,
+    "x_details": [
+      {
+        "input_tokens": 887,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 939,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

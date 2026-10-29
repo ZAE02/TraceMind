@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P06_CP3",
+  "raw_text": "你下意识去拉平被角，又立刻补上一句解释，那个瞬间的紧张里，是不是怕一旦松了手，家里就又要乱回原来的样子？",
+  "request_sha256": "6dcab579028352d54f2954c0f47d093cfb1347d59c0a349e639691921c7b17a1",
+  "input_sha256": "f6a5b931da0a56720a2bac099202a9ecde19011f5b23e4f4e2906e24d255f60e",
+  "memory_sha256": "b4febcc424d9cd630f7742967c01890fe7424d485e4b56ac15bc1448c27040ae",
+  "usage": {
+    "input_tokens": 9736,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 36,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9772,
+    "x_details": [
+      {
+        "input_tokens": 9736,
+        "output_tokens": 36,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 9772,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.016
+}

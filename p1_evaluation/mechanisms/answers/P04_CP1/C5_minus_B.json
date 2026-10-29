@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP1",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "d9f49ac6708d2e243afdde0099456f6e0fd35629da31a5bb982d29701c8fcdc4",
+  "request_sha256": "9148c895973ecfbee616eb03f29f71411d8cddd25d89770183f4badb7b26af4a",
+  "memory_sha256": "104f15f37424ef2d5584bdf87220d92c957f9b181ee9e592874d382d50b85377",
+  "memory_source": "bc2931dfec4d3254c8e3011520f98c275b14d3202489b523a8768e21f6fdd7a2",
+  "raw_text": "你怕被听出的，不只是“不想回家”这个念头，更是它背后那个“我也有不想修的时候”的自己。排风扇卡住时所有人都等你上去，可你更想拔掉插头、坐在巷口听它不转——那个不转的声音，也许才是你一直没敢让自己多听一会儿的。",
+  "usage": {
+    "input_tokens": 4077,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 70,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4147,
+    "x_details": [
+      {
+        "input_tokens": 4077,
+        "output_tokens": 70,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 4147,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.156,
+  "model": "deepseek-v4-pro-0813"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "declared_before_reselected_answer_scores_are_inspected",
+  "scope": "exploratory P2 gate; model judgments, not human validation",
+  "minimum_nodes": 3,
+  "minimum_cases": 2,
+  "rule": "At least 3 nodes across 2 cases require both fresh reviewers to confirm substantive historical value. Stop method ranking if a majority of the selected nodes are already well answered by H1 (mean U and R each at least 3.5), and H1/H2 are nearly equivalent (absolute U and R mean differences each below 0.5, with no change in presupposition count). Otherwise retain both helpful and harmful history effects for method comparison.",
+  "scale": "U/R 0-4; each condition 2 generated samples and 2 independent ratings",
+  "reason": "Operationalize the plan's stop rule for mostly current-session-sufficient nodes. A historical baseline need not improve responses: harmful use of history is itself relevant to the proposed presupposition phenomenon. This replaces an overly restrictive initial positive-gain-only draft before answer score values were inspected.",
+  "negative_outcome": "If fewer than 3 nodes across at least 2 cases pass fresh source review, or most selected nodes meet the current-session-sufficiency/equivalence rule, retain results and stop ranking plus interactive method comparison.",
+  "caution": "Threshold is an exploratory operational choice added for reproducible stop/continue decisions; no significance or population inference. Original nine-node results retained."
+}

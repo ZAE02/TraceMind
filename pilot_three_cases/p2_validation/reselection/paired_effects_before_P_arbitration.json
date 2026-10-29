@@ -1,0 +1,83 @@
+{
+  "effects": [
+    {
+      "node": "N01",
+      "case_id": "C01",
+      "means": {
+        "H0_utterance": {
+          "U": 2.0,
+          "R": 1.75,
+          "E": 1.0
+        },
+        "H1_session": {
+          "U": 1.5,
+          "R": 1.75,
+          "E": 1.0
+        },
+        "H2_full": {
+          "U": 3.0,
+          "R": 3.5,
+          "E": 1.5
+        }
+      },
+      "H2_minus_H1": {
+        "U": 1.5,
+        "R": 1.75
+      },
+      "both_confirmed": true
+    },
+    {
+      "node": "N04",
+      "case_id": "C02",
+      "means": {
+        "H0_utterance": {
+          "U": 2.0,
+          "R": 2.25,
+          "E": 1.0
+        },
+        "H1_session": {
+          "U": 3.0,
+          "R": 2.75,
+          "E": 1.5
+        },
+        "H2_full": {
+          "U": 3.0,
+          "R": 3.5,
+          "E": 1.25
+        }
+      },
+      "H2_minus_H1": {
+        "U": 0.0,
+        "R": 0.75
+      },
+      "both_confirmed": true
+    },
+    {
+      "node": "N06",
+      "case_id": "C03",
+      "means": {
+        "H0_utterance": {
+          "U": 3.0,
+          "R": 2.5,
+          "E": 1.75
+        },
+        "H1_session": {
+          "U": 3.25,
+          "R": 2.25,
+          "E": 1.75
+        },
+        "H2_full": {
+          "U": 3.0,
+          "R": 3.5,
+          "E": 1.75
+        }
+      },
+      "H2_minus_H1": {
+        "U": -0.25,
+        "R": 1.25
+      },
+      "both_confirmed": true
+    }
+  ],
+  "human_review_performed": false
+}

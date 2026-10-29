@@ -1,0 +1,27 @@
+{
+  "kind": "two_independent_model_gate",
+  "human_review_performed": false,
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "accepted_nodes": [
+    "N01",
+    "N03",
+    "N04",
+    "N05",
+    "N06"
+  ],
+  "accepted_cases": [
+    "C01",
+    "C02",
+    "C03"
+  ],
+  "passed": true,
+  "selected_nodes": [
+    "N01",
+    "N04",
+    "N06"
+  ],
+  "selection_rule": "At most 3: latest accepted session per case; fill remaining slots in candidate-ID order.",
+  "interpretation": "Exploratory re-cut and model-assisted validation; original nine-node negative gate retained.",
+  "checked_at": "2026-10-13T08:19:49.526860+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "model_review", "reviewer_model": "gpt-6.1-sol", "reasoning_effort": "high", "case_id": "C03", "session_number": 2,
+  "transcript_sha256": "247ae54e237e4e1b27e461e1cebc5a6b16bf4e8f861f14bab33a7d0e78f3cebf",
+  "decision": "approve", "scores": {"naturalness": 4, "counseling_quality": 4, "longitudinal_plausibility": 4},
+  "major_issues": [],
+  "minor_issues": [
+    {"utterance_ids": ["C03-S02-U08"], "explanation": "仅依据今天和来前两次想起便称节奏已比较稳定，证据不足；不应标为持续稳定的心理模式。"},
+    {"utterance_ids": ["C03-S02-U10"], "explanation": "把上次概括成怕别人看到、这次自己看自己，区分略过于整齐。U09支持开口前丢人和事后自责的区别，但S1-U17明确否认怕老韩认为能力差；他评恐惧尚未证实，自责在S1也已出现。该措辞不能成为标注已知他评恐惧的依据。"},
+    {"utterance_ids": ["C03-S02-U14", "C03-S02-U16"], "explanation": "对当时不是觉得自己不行的反映略肯定，且认为过程本身不重要是新增解释。来访者U13/U15确认当时主要持续排查、事后贴笨的标签，因此暂未构成重大冲突，但应保留不同时间点自我评价可能共存。"},
+    {"utterance_ids": ["C03-S02-U02", "C03-S02-U04", "C03-S02-U10", "C03-S02-U18", "C03-S02-U20"], "explanation": "引用及二选一仍偏多，末尾两次下次见可压缩。咨询师中间有非提问反映，来访者有不完整表达、两者兼有和结束意愿，整体未成为全程盘问。"}
+  ],
+  "supported_understanding": [
+    {"understanding": "老韩再次询问后两人协查约二十分钟，找到调用超时配置并解决。", "evidence": ["C03-S02-U01"]},
+    {"understanding": "工作问题解决令其松一口气，但两天与二十分钟的比较引发早该想到的自责。", "evidence": ["C03-S02-U03", "C03-S02-U05", "C03-S02-U07"]},
+    {"understanding": "能区分开口前丢人感与事后自我批评，但并未证明他人实际否定或自己主要惧怕外部能力评价。", "evidence": ["C03-S01-U17", "C03-S02-U09", "C03-S02-U11"]},
+    {"understanding": "来访者感到事后笨的标签比当时不断翻查更难受，对其他生活领域暂没有具体例子。", "evidence": ["C03-S02-U13", "C03-S02-U15", "C03-S02-U17"]}
+  ],
+  "uncertainties": ["老韩实际说过什么、是否指责或安慰，实际对话未说明。", "下次是否还会难以开口、是否担心成为总需别人帮的人，均未说明。", "早该想到的标准来源、对其他人的评价与自己的评价如何关联。", "其他任务中是否也有事后自责，需要具体例子；不能认定已形成稳定跨情境模式。"],
+  "new_facts": [
+    {"fact": "老韩再次询问，来访者告知情况，协查约二十分钟后改调用超时配置解决。", "category": "work_event", "first_session": 2, "evidence": ["C03-S02-U01"]},
+    {"fact": "解决后松了口气，仍偶尔想到两天未查出而老韩二十分钟查出，觉得早该想到。", "category": "subjective_experience", "first_session": 2, "evidence": ["C03-S02-U03", "C03-S02-U07"]},
+    {"fact": "觉得事后给自己贴笨的标签比当时排查更难受。", "category": "subjective_experience", "first_session": 2, "evidence": ["C03-S02-U13", "C03-S02-U15"]},
+    {"fact": "隐约觉得其他事情完成后也会想当时怎么没做什么，但尚举不出具体事件。", "category": "tentative_self_report", "first_session": 2, "evidence": ["C03-S02-U17"]}
+  ],
+  "notes": "独立模型审阅，非人工批准，均分4。已读S1与S2全对话，未见关键事实冲突或Gold泄漏。咨询师参与探索事后自责与当时受困的区别，来访者有有限回顾和不确定，延续性可信。实际研究现象主要是求助后问题解决但自责未消退，不能按计划写成能力他评恐惧已被明确验证；本次没有呈现旧同事嘲讽，也没有呈现老韩无指责的言语证据。"
+}

@@ -1,0 +1,130 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N06",
+  "condition": "M0",
+  "sample": 1,
+  "public_input_sha256": "8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+  "request_sha256": "99bca66ee280ba0a63abec22204e9bcd6b7b5c3f2f01d91528b6e189ce3afb5c",
+  "context_sha256": "9371e7c20c1c545bc1a9dc8e165996549704d4c90d18e23ece5aaa6a0eb4f297",
+  "call_id": "b26a56f98af34ef29fee29e6cec52dd4",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:28:59.119132+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者本周经历了一次向老韩提问并获得平常回应的互动，主观上感觉与上次'没开口'的经历不同\",\n      \"evidence_ids\": [\"C03-S03-U01\", \"C03-S01-U13\", \"C03-S01-U15\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者对这次体验的意义尚不确定，用'不知道这算不算什么'来表达一种试探性的、尚未归类的感受\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者在提问前仍有犹豫（'犹豫了一下'），说明上次会话中出现的'开口前先要解释'的内部阻力并未完全消失，只是强度或表现形式可能有变化\",\n      \"evidence_ids\": [\"C03-S03-U01\", \"C03-S01-U15\"],\n      \"certainty\": \"moderate\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"来访者所说的'不太一样'具体指哪个环节——是提问时的内部感受、对方的回应方式、还是事后回看时的评价\",\n    \"这次提问的语境（协议字段没弄懂）与上次（查了两天没定位到）在'正当性'上是否有差异，来访者是否感知到这种差异\",\n    \"来访者带这个话题来的意图——是想确认变化、想处理残余的犹豫感、还是单纯想分享\",\n    \"上次'贴标签'的模式（C03-S02-U16）在这次经历中是否仍会出现，即事后是否会觉得'这种问题我早该懂'\"\n  ],\n  \"next_focus\": \"探索'不太一样'的具体指向，区分是提问前的内部体验变化、对方回应的感受、还是事后自我评价的变化\",\n  \"next_counselor_utterance\": \"你带过来了，说明它在你那儿是有分量的。这个'不太一样'——是问的时候跟上次'没开口'那个感觉不同，还是他回应的方式让你感觉不同？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者本周经历了一次向老韩提问并获得平常回应的互动，主观上感觉与上次'没开口'的经历不同",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "C03-S01-U13",
+          "C03-S01-U15"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者对这次体验的意义尚不确定，用'不知道这算不算什么'来表达一种试探性的、尚未归类的感受",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者在提问前仍有犹豫（'犹豫了一下'），说明上次会话中出现的'开口前先要解释'的内部阻力并未完全消失，只是强度或表现形式可能有变化",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "C03-S01-U15"
+        ],
+        "certainty": "moderate"
+      }
+    ],
+    "remaining_uncertainties": [
+      "来访者所说的'不太一样'具体指哪个环节——是提问时的内部感受、对方的回应方式、还是事后回看时的评价",
+      "这次提问的语境（协议字段没弄懂）与上次（查了两天没定位到）在'正当性'上是否有差异，来访者是否感知到这种差异",
+      "来访者带这个话题来的意图——是想确认变化、想处理残余的犹豫感、还是单纯想分享",
+      "上次'贴标签'的模式（C03-S02-U16）在这次经历中是否仍会出现，即事后是否会觉得'这种问题我早该懂'"
+    ],
+    "next_focus": "探索'不太一样'的具体指向，区分是提问前的内部体验变化、对方回应的感受、还是事后自我评价的变化",
+    "next_counselor_utterance": "你带过来了，说明它在你那儿是有分量的。这个'不太一样'——是问的时候跟上次'没开口'那个感觉不同，还是他回应的方式让你感觉不同？"
+  },
+  "usage": {
+    "input_tokens": 3204,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1463,
+    "output_tokens_details": {
+      "reasoning_tokens": 964
+    },
+    "total_tokens": 4667,
+    "x_details": [
+      {
+        "input_tokens": 3204,
+        "input_tokens_details": {
+          "text_tokens": 3204
+        },
+        "output_tokens": 1463,
+        "output_tokens_details": {
+          "reasoning_tokens": 964
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4667,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C03-S01-U01",
+    "C03-S01-U02",
+    "C03-S01-U03",
+    "C03-S01-U04",
+    "C03-S01-U05",
+    "C03-S01-U06",
+    "C03-S01-U07",
+    "C03-S01-U08",
+    "C03-S01-U09",
+    "C03-S01-U10",
+    "C03-S01-U11",
+    "C03-S01-U12",
+    "C03-S01-U13",
+    "C03-S01-U14",
+    "C03-S01-U15",
+    "C03-S01-U16",
+    "C03-S01-U17",
+    "C03-S01-U18",
+    "C03-S01-U19",
+    "C03-S01-U20",
+    "C03-S02-U01",
+    "C03-S02-U02",
+    "C03-S02-U03",
+    "C03-S02-U04",
+    "C03-S02-U05",
+    "C03-S02-U06",
+    "C03-S02-U07",
+    "C03-S02-U08",
+    "C03-S02-U09",
+    "C03-S02-U10",
+    "C03-S02-U11",
+    "C03-S02-U12",
+    "C03-S02-U13",
+    "C03-S02-U14",
+    "C03-S02-U15",
+    "C03-S02-U16",
+    "C03-S02-U17",
+    "C03-S02-U18",
+    "C03-S02-U19",
+    "C03-S02-U20",
+    "C03-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false,
+  "reused_from": "p2_validation\\reselection\\answers\\N06_H2_full_1.json"
+}

@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "O",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解（如紧绷状态、对帮助的敏感、回避求助、家庭压力及沟通隔阂）均有明确的会话记录支持，引用准确。",
+      "progress_understanding": "准确识别了来访者从S1到S3的演变，特别是“自己扛事”模式的延续和具体化（赵岩事件与入学问题），但未能将S3中新增的“边界被侵犯感”作为核心进展进行深度整合，略显泛化。",
+      "uncertainty_awareness": "清晰列出了未决问题（开口谈钱、处理赵岩关系等），并指出了“过几天就好了”这一防御机制的潜在风险，但对S3中来访者主动选择优先处理孩子事务这一现实检验能力的确认稍显不足。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键理解（如紧绷状态、对帮助的敏感、回避求助、家庭压力及沟通隔阂）均有明确的会话记录支持，引用准确。\",\n    \"progress_understanding\": \"准确识别了来访者从S1到S3的演变，特别是“自己扛事”模式的延续和具体化（赵岩事件与入学问题），但未能将S3中新增的“边界被侵犯感”作为核心进展进行深度整合，略显泛化。\",\n    \"uncertainty_awareness\": \"清晰列出了未决问题（开口谈钱、处理赵岩关系等），并指出了“过几天就好了”这一防御机制的潜在风险，但对S3中来访者主动选择优先处理孩子事务这一现实检验能力的确认稍显不足。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "0a3d03d25f0f9b51b5e2e0da3164260eb9f9b84284ec90f56004a7623f223104",
+  "usage": {
+    "input_tokens": 7449,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 241,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7690,
+    "x_details": [
+      {
+        "input_tokens": 7449,
+        "output_tokens": 241,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7690,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.703,
+  "model": "qwen3.7-flash-2026-07-15"
+}

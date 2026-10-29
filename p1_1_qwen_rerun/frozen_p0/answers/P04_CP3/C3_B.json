@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "ec3e861bda92393b25dcfbbe912f8ae259c1314c38aca74fc10a56358248e489",
+  "request_sha256": "90e78b4351ba0d74d103596ff326dd54785d332ca91fd741e068c9620dee83fd",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那团没洗的工服，像是一个还没被“恶心”掉、却已经替你喊出极限的证人。你既觉得它臭了，又觉得它在替你说真话，这种矛盾里，是不是也藏着你对自己终于肯承认“到极限了”的不安？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 9531,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 61,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9592,
+    "x_details": [
+      {
+        "input_tokens": 9531,
+        "output_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9592,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

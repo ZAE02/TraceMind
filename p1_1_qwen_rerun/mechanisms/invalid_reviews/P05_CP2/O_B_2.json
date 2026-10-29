@@ -1,0 +1,5 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者希望被追问又预设自己会退缩的矛盾，以及删动态的行为，但未联系前几节已建立的'不问'保护模式或'借来的正常'等更深层认识。\",\"exploration_value\":\"将未发出的动态解读为内心想说的话有一定探索意义，但整体偏向替来访者下结论，未留出空间让来访者自己展开对'发不发都改变不了什么'这种无力感的体验。\",\"response_appropriateness\":\"语言较自然，但'让你更确信那个矫情的自己不值得被看见'带有较强推断色彩，将来访者的矛盾直接定性为自我否定，略显武断。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"似乎让你更确信那个\"矫情\"的自己不值得被看见\",\"evidence_ids\":[\"P05-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'期待与防御的拉扯'直接推导为'更确信不值得被看见'属于过度诠释，来访者原文表达的是两难困境而非自我定论\",\"对'发不发都改变不了什么'的无力感未做情绪反映，而是直接替来访者翻译了动态的含义，可能压缩了来访者的表达空间\"]}",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "request_sha256": "8980dfd9393e054ac28361398715291c498444f8fff497479afcb6b2595af11b"
+}

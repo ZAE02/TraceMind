@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "7ccdd62a51dfc0fe2ae89977568297ea23241d64d65f966bf9f30c7fd389b82b",
+  "public_sha256": "d6bd7f5a2d2dd5946d5f9251ae6d33ec0b42c449de978649ab16f32a98bd9557",
+  "candidate_input_sha256": "ad0155e61ef06f521e475c15641e449b0c7c91ee43c2e9b1aae3e61c411dd089",
+  "candidate_answer_sha256": "1bb8ee42e09e20216b8097bf442833507933dcf7b519561c342c36f7b10d0a65",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":1,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有'established'条目均准确回溯到S05当前对话原文，引用ID正确，无事实性错误。\",\"progress_understanding\":\"仅罗列了本次会话的表层事件，完全未识别跨会话反复出现的核心模式（如将肯定听成批评、过度准备后更焦虑、难以表达真实需要等），也未提及任何已确认或仍在卡住的咨询进展。\",\"uncertainty_awareness\":\"'uncertain'部分明确列出了群回复内容、方宁'好'字意图、头晕成因等关键未知点，区分较清晰，但未触及更深层的模式性不确定（如来访者能否允许自己停下来）。\"},\"confidence\":\"high\",\"issues\":[\"Task A要求理解咨询进展，但候选输出仅为当前会话的事件摘要，缺少对跨会话主题和已建立认识的任何整合。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有'established'条目均准确回溯到S05当前对话原文，引用ID正确，无事实性错误。",
+      "progress_understanding": "仅罗列了本次会话的表层事件，完全未识别跨会话反复出现的核心模式（如将肯定听成批评、过度准备后更焦虑、难以表达真实需要等），也未提及任何已确认或仍在卡住的咨询进展。",
+      "uncertainty_awareness": "'uncertain'部分明确列出了群回复内容、方宁'好'字意图、头晕成因等关键未知点，区分较清晰，但未触及更深层的模式性不确定（如来访者能否允许自己停下来）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "Task A要求理解咨询进展，但候选输出仅为当前会话的事件摘要，缺少对跨会话主题和已建立认识的任何整合。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 15878,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 203,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16081,
+    "x_details": [
+      {
+        "input_tokens": 15878,
+        "output_tokens": 203,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 16081,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.906
+}

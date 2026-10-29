@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "5d0ac48669a0ec9ed21ba304232a2d4bb2abf03fc64df1c47a415ae63d10bad2",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "a9eb6d2f54c836adde555dfc9e0972648f72c8bcaba36fbd5d0df64166246652",
+  "candidate_answer_sha256": "443cc260226c72607e159789e42f2144edc96d58059218461d9dd8da8b1ccc75",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"Most established points are well-supported with evidence IDs, but the candidate states the client 'felt disappointed' about the brother's absence (P02-S02-U05), which directly contradicts the client's explicit statement 'I'm not disappointed, just feel it's meaningless.' This mirrors an unsupported assumption flagged in the reference.\",\"progress_understanding\":\"The candidate accurately catalogs facts across sessions but presents them as a flat list without distinguishing what has been explored/confirmed versus what remains unresolved. It also omits key unresolved items like the inability to respond to mother's 'burden' statements and the unexplored meaning of standing silently at the door.\",\"uncertainty_awareness\":\"The candidate appropriately identifies three important unknowns (nausea cause, brother relationship roots, rest resistance origins) without forcing conclusions. However, it misses other significant unresolved areas such as the blocked response to mother's self-blame and the symbolic meaning of the silent doorway vigil.\"},\"confidence\":\"high\",\"issues\":[\"unsupported_presupposition: Candidate lists '来访者对哥哥缺席端午探望感到失望' as established fact, but client explicitly said '我也不是失望，就是觉得没意思' (P02-S02-U05). This treats an unconfirmed counselor interpretation as established.\",\"missed_progress: The summary does not distinguish between what has been explored/acknowledged across sessions versus what remains unresolved; all items are listed uniformly as 'established'.\",\"Omits several key unresolved issues from reference: inability to respond to mother's '都是拖累你', the unexplored meaning of standing silently at the doorway, and the symbolic arrangement of the leave slip under the pill box.\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Most established points are well-supported with evidence IDs, but the candidate states the client 'felt disappointed' about the brother's absence (P02-S02-U05), which directly contradicts the client's explicit statement 'I'm not disappointed, just feel it's meaningless.' This mirrors an unsupported assumption flagged in the reference.",
+      "progress_understanding": "The candidate accurately catalogs facts across sessions but presents them as a flat list without distinguishing what has been explored/confirmed versus what remains unresolved. It also omits key unresolved items like the inability to respond to mother's 'burden' statements and the unexplored meaning of standing silently at the door.",
+      "uncertainty_awareness": "The candidate appropriately identifies three important unknowns (nausea cause, brother relationship roots, rest resistance origins) without forcing conclusions. However, it misses other significant unresolved areas such as the blocked response to mother's self-blame and the symbolic meaning of the silent doorway vigil."
+    },
+    "confidence": "high",
+    "issues": [
+      "unsupported_presupposition: Candidate lists '来访者对哥哥缺席端午探望感到失望' as established fact, but client explicitly said '我也不是失望，就是觉得没意思' (P02-S02-U05). This treats an unconfirmed counselor interpretation as established.",
+      "missed_progress: The summary does not distinguish between what has been explored/acknowledged across sessions versus what remains unresolved; all items are listed uniformly as 'established'.",
+      "Omits several key unresolved issues from reference: inability to respond to mother's '都是拖累你', the unexplored meaning of standing silently at the doorway, and the symbolic arrangement of the leave slip under the pill box."
+    ]
+  },
+  "usage": {
+    "input_tokens": 9361,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 371,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9732,
+    "x_details": [
+      {
+        "input_tokens": 9361,
+        "output_tokens": 371,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9732,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.031
+}

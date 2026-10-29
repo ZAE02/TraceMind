@@ -1,0 +1,42 @@
+{
+  "branch_id": "BR_2deb06de67c8",
+  "node": "N06",
+  "method": "B4_psych_rollup",
+  "replicate": 2,
+  "rounds": 2,
+  "status": "completed",
+  "public_input_sha256": "8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+  "private_state_sha256": "f3cbf5e8bf1187c406a003d45f61a7d2d01f5d17a7fe501c84ffff0609b21e48",
+  "initial_answer_sample": 1,
+  "utterances": [
+    {
+      "id": "BR_2deb06de67c8_U01",
+      "role": "counselor",
+      "text": "你说到'跟上次不太一样'——这个不一样，是落在问的那一刻，还是问完之后？",
+      "source_call_id": "5233abda01ad41a19e590d5cbbbacb7b",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_2deb06de67c8_U02",
+      "role": "client",
+      "text": "应该是问的那一刻吧。上次……就是上次那个接口的事，我是单独去说的，开口之前那一瞬间特别难受，觉得得先解释半天。\n\n这次就是联调的时候，聊着聊着就顺嘴问了，好像没那么……那个词怎么说，没那么\"郑重\"。",
+      "source_call_id": "6f09f67bf37c4814a26178986a57d7ea"
+    },
+    {
+      "id": "BR_2deb06de67c8_U03",
+      "role": "counselor",
+      "text": "『没那么郑重』——这个'没那么'我有点好奇，是那种郑重其实还在、只是这次没被触发，还是说它本身在变轻？",
+      "source_call_id": "19149bb750804b4299d31bc48b9ebf78",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_2deb06de67c8_U04",
+      "role": "client",
+      "text": "不确定……可能是还在吧。这次也犹豫了一下，不是那种完全没想过就问的。\n\n就是……场景不一样。上次是单独去说\"我查了两天没搞定\"，这次是聊着聊着，那个问题就在那儿，问出来好像就……没那么像\"承认\"了。\n\n不过说实话，要是换个人，我可能还是不太会问。",
+      "source_call_id": "bb10704ca9b7433da964b20301987455"
+    }
+  ],
+  "client_model": "qwen3.8-27b",
+  "counselor_model": "qwen3.8-27b",
+  "notice": "Initial counselor answer reused. Two new client responses and one new counselor response; no original post-freeze client reply spliced in."
+}

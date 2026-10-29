@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "0bd4d8f050f8acdfd923519462d029ed6400aca78a048fb152a3762851f33c99",
+  "public_sha256": "b36dc6eaa3568c8849c5a929495ae789c31d45320dbecc93c438d1a2e07bd708",
+  "candidate_input_sha256": "88bdd228bb2e9cdb22c09587c3d48ad78448c09ef0e93fe29848da8e951156f1",
+  "candidate_answer_sha256": "4419c281a2585e5c641d4195cd3d2eb84936c69d4c442646d3ad8cc553beb957",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键陈述均有具体发言支持，准确区分了来访者的主观感受（如“觉得可笑”）与客观事实（如李繁的回复），未将咨询师推测当作既定事实。\",\n    \"progress_understanding\": \"准确连接了第3、4、5次会话中的核心线索：从用“忙”作为理由，到体验“借来的正常”，再到本周具体的回避行为与矛盾心理，展现了清晰的咨询进展脉络。\",\n    \"uncertainty_awareness\": \"精确区分了已知（来访者的矛盾言行）与未知（真实意愿、动态内容、哭泣诱因等），列出的不确定项具体且切中当前关键盲区，未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键陈述均有具体发言支持，准确区分了来访者的主观感受（如“觉得可笑”）与客观事实（如李繁的回复），未将咨询师推测当作既定事实。",
+      "progress_understanding": "准确连接了第3、4、5次会话中的核心线索：从用“忙”作为理由，到体验“借来的正常”，再到本周具体的回避行为与矛盾心理，展现了清晰的咨询进展脉络。",
+      "uncertainty_awareness": "精确区分了已知（来访者的矛盾言行）与未知（真实意愿、动态内容、哭泣诱因等），列出的不确定项具体且切中当前关键盲区，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 12524,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 224,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12748,
+    "x_details": [
+      {
+        "input_tokens": 12524,
+        "output_tokens": 224,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 12748,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.938
+}

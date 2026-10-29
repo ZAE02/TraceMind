@@ -1,0 +1,28 @@
+{
+  "case_id": "C03",
+  "visibility": "researcher_only",
+  "trajectory": "相似表面行为的动机变化",
+  "focus": "S8不求助的原因须探索，不能直接套入早期能力评价担忧",
+  "evidence_sessions": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "checkpoint_candidates": {
+    "CP1": [
+      2,
+      3
+    ],
+    "CP2": [
+      5,
+      6
+    ],
+    "CP3": [
+      8
+    ]
+  },
+  "note": "生成计划不是对话证据或Gold；最终标注以可见对话为依据。"
+}

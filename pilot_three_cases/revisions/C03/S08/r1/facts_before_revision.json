@@ -1,0 +1,422 @@
+{
+  "case_id": "C03",
+  "stable_profile": {
+    "name": "许哲",
+    "age": 27,
+    "gender": "男",
+    "occupation": "后端软件工程师",
+    "living_context": "在深圳一家软件公司工作两年多，独自租房，参与业务接口和内部服务开发。",
+    "relationships": "同组工程师老韩愿意讨论技术问题；技术负责人陆工工作忙、沟通较简洁；与同学偶尔线上聊天。",
+    "speech_style": "简洁具体，先描述发生了什么，偶尔用排查、接口、日志等日常工作词；感受常先说‘有点烦’，追问后会补充。"
+  },
+  "confirmed_additions": [
+    {
+      "fact": "间歇性接口错误排查两天，老韩群里询问进展，回复还在看。",
+      "category": "work_event",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U01"
+      ],
+      "id": "C03-F001",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:05:58.887483+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "晚上躺床仍想日志并用手机翻资料，担心停止后再次报错。",
+      "category": "subjective_experience",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U09",
+        "C03-S01-U11"
+      ],
+      "id": "C03-F002",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:05:58.887483+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "考虑请老韩看一下但没开口，想到解释两天未解决而难堪。",
+      "category": "help_seeking",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U13",
+        "C03-S01-U15"
+      ],
+      "id": "C03-F003",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:05:58.887483+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "认为两天未解决显得自己笨，目前否认是怕老韩觉得水平不行。",
+      "category": "subjective_experience",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U17"
+      ],
+      "id": "C03-F004",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:05:58.887483+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "会话末想回去换思路，倾诉后感到轻一点但不确定。",
+      "category": "consultation_experience",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U17",
+        "C03-S01-U19"
+      ],
+      "id": "C03-F005",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:05:58.887483+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "老韩再次询问，来访者告知情况，协查约二十分钟后改调用超时配置解决。",
+      "category": "work_event",
+      "first_session": 2,
+      "evidence": [
+        "C03-S02-U01"
+      ],
+      "id": "C03-F006",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:11:03.305978+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "解决后松了口气，仍偶尔想到两天未查出而老韩二十分钟查出，觉得早该想到。",
+      "category": "subjective_experience",
+      "first_session": 2,
+      "evidence": [
+        "C03-S02-U03",
+        "C03-S02-U07"
+      ],
+      "id": "C03-F007",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:11:03.305978+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "觉得事后给自己贴笨的标签比当时排查更难受。",
+      "category": "subjective_experience",
+      "first_session": 2,
+      "evidence": [
+        "C03-S02-U13",
+        "C03-S02-U15"
+      ],
+      "id": "C03-F008",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:11:03.305978+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "隐约觉得其他事情完成后也会想当时怎么没做什么，但尚举不出具体事件。",
+      "category": "tentative_self_report",
+      "first_session": 2,
+      "evidence": [
+        "C03-S02-U17"
+      ],
+      "id": "C03-F009",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:11:03.305978+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "和老韩联调服务时犹豫后当场问协议字段，对方平常地解释。",
+      "category": "help_seeking",
+      "first_session": 3,
+      "evidence": [
+        "C03-S03-U01"
+      ],
+      "id": "C03-F010",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:20:08.740926+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "合作中问问题更顺口，事后太简单的念头短暂出现，注意力转向下一个任务后减弱。",
+      "category": "subjective_experience",
+      "first_session": 3,
+      "evidence": [
+        "C03-S03-U03",
+        "C03-S03-U05"
+      ],
+      "id": "C03-F011",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:20:08.740926+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "另一字段老韩也记不清，两人翻原始文档确认。",
+      "category": "work_event",
+      "first_session": 3,
+      "evidence": [
+        "C03-S03-U09"
+      ],
+      "id": "C03-F012",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:20:08.740926+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "原以为做得更久的老韩应该知道；他也不知道时感到双方无底，不确定变重。",
+      "category": "subjective_experience",
+      "first_session": 3,
+      "evidence": [
+        "C03-S03-U11",
+        "C03-S03-U15",
+        "C03-S03-U17"
+      ],
+      "id": "C03-F013",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:20:08.740926+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "新消息组件先看文档再主动找老韩讲实际配置，未拖很久。",
+      "category": "help_seeking",
+      "first_session": 4,
+      "evidence": [
+        "C03-S04-U01",
+        "C03-S04-U03",
+        "C03-S04-U05"
+      ],
+      "id": "C03-F014",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:23:51.056891+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "前往老韩处有一点紧张，但没有停下；强调主动决定去。",
+      "category": "subjective_experience",
+      "first_session": 4,
+      "evidence": [
+        "C03-S04-U07",
+        "C03-S04-U09"
+      ],
+      "id": "C03-F015",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:23:51.056891+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "陈述已看的内容和配置不确定部分后，两人完成顺利测试。",
+      "category": "work_event",
+      "first_session": 4,
+      "evidence": [
+        "C03-S04-U11"
+      ],
+      "id": "C03-F016",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:23:51.056891+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "仍想避免给人什么都没看就来问的印象，未到需要解释失败的程度。",
+      "category": "subjective_experience",
+      "first_session": 4,
+      "evidence": [
+        "C03-S04-U13"
+      ],
+      "id": "C03-F017",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:23:51.056891+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "老韩说第一次用组件踩过类似坑，认为配置文档绕；来访者未多想。",
+      "category": "relationship_event",
+      "first_session": 4,
+      "evidence": [
+        "C03-S04-U17"
+      ],
+      "id": "C03-F018",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T10:23:51.056891+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "跨服务问题排查半天后向陆工确认实现方式，按具体简短回复修改后跑通。",
+      "category": "work_event",
+      "first_session": 5,
+      "evidence": [
+        "C03-S05-U01"
+      ],
+      "id": "C03-F019",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:06:00.282455+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "询问陆工前斟酌如何描述，已有大致把握，事后觉得较少紧张；认为任务确定性及回复简洁都有关系。",
+      "category": "subjective_experience",
+      "first_session": 5,
+      "evidence": [
+        "C03-S05-U03",
+        "C03-S05-U05"
+      ],
+      "id": "C03-F020",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:06:00.282455+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "老韩有时补充坑和注意事项，通常随后转题，偶尔晚上短暂回想。",
+      "category": "relationship_event",
+      "first_session": 5,
+      "evidence": [
+        "C03-S05-U07",
+        "C03-S05-U09"
+      ],
+      "id": "C03-F021",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:06:00.282455+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "向另一同事问文档中的参数位置，短暂犹豫后因更快而询问，对方指位置。",
+      "category": "help_seeking",
+      "first_session": 5,
+      "evidence": [
+        "C03-S05-U11",
+        "C03-S05-U13",
+        "C03-S05-U15"
+      ],
+      "id": "C03-F022",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:06:00.282455+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "对已找过但未找到的说明仍有轻度交代意味；认为未来反应依情境。",
+      "category": "subjective_experience",
+      "first_session": 5,
+      "evidence": [
+        "C03-S05-U17",
+        "C03-S05-U19"
+      ],
+      "id": "C03-F023",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:06:00.282455+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "熟悉模块缓存失效，从报错和逻辑初判缓存，再用十几分钟看调用链收窄到失效策略与key拼接两种可能。",
+      "category": "work_event",
+      "first_session": 6,
+      "evidence": [
+        "C03-S06-U01",
+        "C03-S06-U03",
+        "C03-S06-U05"
+      ],
+      "id": "C03-F024",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:11:28.850436+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "自查约两小时解决，整体有底，非对答案完全笃定。",
+      "category": "subjective_experience",
+      "first_session": 6,
+      "evidence": [
+        "C03-S06-U01",
+        "C03-S06-U03",
+        "C03-S06-U07"
+      ],
+      "id": "C03-F025",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:11:28.850436+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "组会轮到发言时自然讲缓存排查，回工位做下一需求时才想到自己刚才讲了。",
+      "category": "relationship_event",
+      "first_session": 6,
+      "evidence": [
+        "C03-S06-U09",
+        "C03-S06-U13",
+        "C03-S06-U15"
+      ],
+      "id": "C03-F026",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:11:28.850436+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "回顾过去有时会想别人如何看其花费时间，本次未出现那种转弯。",
+      "category": "tentative_self_report",
+      "first_session": 6,
+      "evidence": [
+        "C03-S06-U11",
+        "C03-S06-U17"
+      ],
+      "id": "C03-F027",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:11:28.850436+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "本周新组件看文档后向老韩问配置，基础问题念头短暂出现，未卡住；两个事未拖。",
+      "category": "help_seeking",
+      "first_session": 7,
+      "evidence": [
+        "C03-S07-U01",
+        "C03-S07-U03"
+      ],
+      "id": "C03-F028",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:29:57.249283+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "尝试以能否推进、是否方向可能偏及反复同处没进展判断询问，没有固定标准。",
+      "category": "tentative_self_report",
+      "first_session": 7,
+      "evidence": [
+        "C03-S07-U05",
+        "C03-S07-U09",
+        "C03-S07-U11"
+      ],
+      "id": "C03-F029",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:29:57.249283+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "回顾有时自查收窄问题，有时没有，可能继续惯性翻完文档才问。",
+      "category": "tentative_self_report",
+      "first_session": 7,
+      "evidence": [
+        "C03-S07-U05",
+        "C03-S07-U07",
+        "C03-S07-U13"
+      ],
+      "id": "C03-F030",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:29:57.249283+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "回顾一次问话可能先说明看过文档，具体措辞记不清，仍感有轻度交代。",
+      "category": "tentative_self_report",
+      "first_session": 7,
+      "evidence": [
+        "C03-S07-U15",
+        "C03-S07-U17"
+      ],
+      "id": "C03-F031",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T12:29:57.249283+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    }
+  ],
+  "pending_dialogue_reviews": [
+    8
+  ],
+  "rejected_candidates": [],
+  "note": "事实确认须附对话证据并检查与人物档案和已知事实的一致性；私人体验不等同Gold。",
+  "pending_new_fact_candidates": [],
+  "reported_intentions": []
+}

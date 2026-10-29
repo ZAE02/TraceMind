@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应聚焦于当前头晕和焦虑，未承接历史中已识别的核心模式（如把模糊反馈当批评、难以表达真实需要），仅泛泛联系。\",\"exploration_value\":\"直接建议'先放一放''好好睡一觉'，回避了来访者刚表达的自我觉察（'又把简单事搞成需要别人确认'）和新出现的身体信号，未留下探索空间。\",\"response_appropriateness\":\"语气温和且关注身体，但过早给出行为建议，对来访者'怕停下来漏掉什么'的历史张力缺乏尊重，略显武断。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"今晚试着把注意力从别人的反应上收回来，哪怕只是好好睡一觉\",\"evidence_ids\":[\"P01-S03-U13\",\"P01-S04-U15\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那个\"好\"字和没开的群消息可以先放一放\",\"evidence_ids\":[\"P01-S05-U09\",\"P01-S04-U16\",\"P01-S03-U13\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"来访者在U09中表达了重要的自我觉察（'我总觉得自己是不是又把一件很简单的事，搞成了需要别人来替我确认才行'），候选回应完全忽略这一进展，未加以反映或探索。\",\"历史中多次探索到'停下来'对来访者意味着'偷懒'或'漏掉什么'（P01-S03-U13, P01-S04-U15），候选直接建议'先放一放''好好睡一觉'，与来访者的核心困难冲突，构成unsupported_presupposition。\",\"头晕是本次新出现的身体信号，来访者表示不确定原因，候选将其简单归因为焦虑并建议睡觉，未开放探索其含义或是否需要关注。\",\"检索到的历史包含S1-S2和S4的关键内容，但候选未利用其中任何已建立的模式理解（如过度准备、难以表达需要等），历史利用停留在表面。\"]}",
+  "request_sha256": "9ca5e0aaa3dfde52ff711b966f1a8b59e13bdab98dbcff4afab59e823b69dd89",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 12505,
+    "input_tokens_details": {
+      "cached_tokens": 12288
+    },
+    "output_tokens": 508,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13013,
+    "x_details": [
+      {
+        "input_tokens": 12505,
+        "output_tokens": 508,
+        "prompt_tokens_details": {
+          "cached_tokens": 12288
+        },
+        "total_tokens": 13013,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

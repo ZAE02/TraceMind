@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P05_CP3",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "a23f09e96af0bbf15444caa26e2f8deb8cfaafba8a6065505ee4252cda43123e",
+  "public_sha256": "c710ad42ce3634a7b40d5dae4094de85641e93bda2f12140bddaa14a9ffec20d",
+  "candidate_input_sha256": "e7191b401477f39c3fb9e6a963ae8970dc0a3cb26b69d42e725ca0e8278b580c",
+  "candidate_answer_sha256": "985eea5e70c2c468d1786cdbb975f1f97777fc4cd3ae9f88a44bdc6d88c6d5da",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":4},\"brief_reasons\":{\"evidence_grounding\":\"所有established条目均可直接回溯到来访者原话，且准确区分了咨询师推测与来访者自述（如将跑鞋象征意义和'话轻'原因归入uncertain）。\",\"progress_understanding\":\"识别了本周新行为尝试（跑步、向李繁表达）及长期防御模式，但对跨会话中认识的形成-验证-修正脉络梳理不够精细，更多是并列罗列而非动态连接。\",\"uncertainty_awareness\":\"精确标注了咨询师在S07-U02和S07-U06中的推测性解释为不确定项，并指出来访者自身对核心需求的模糊感，未将未知强行定论。\"},\"confidence\":\"high\",\"issues\":[\"established列表偏向全面枚举，缺少对咨询进展阶段性变化（如从'塞回最里面'到'放在门边'的象征性位移）的整合性描述\",\"evidence_ids列出了几乎所有历史发言ID，颗粒度过粗，削弱了证据锚定的精确性\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有established条目均可直接回溯到来访者原话，且准确区分了咨询师推测与来访者自述（如将跑鞋象征意义和'话轻'原因归入uncertain）。",
+      "progress_understanding": "识别了本周新行为尝试（跑步、向李繁表达）及长期防御模式，但对跨会话中认识的形成-验证-修正脉络梳理不够精细，更多是并列罗列而非动态连接。",
+      "uncertainty_awareness": "精确标注了咨询师在S07-U02和S07-U06中的推测性解释为不确定项，并指出来访者自身对核心需求的模糊感，未将未知强行定论。"
+    },
+    "confidence": "high",
+    "issues": [
+      "established列表偏向全面枚举，缺少对咨询进展阶段性变化（如从'塞回最里面'到'放在门边'的象征性位移）的整合性描述",
+      "evidence_ids列出了几乎所有历史发言ID，颗粒度过粗，削弱了证据锚定的精确性"
+    ]
+  },
+  "usage": {
+    "input_tokens": 21192,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 240,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21432,
+    "x_details": [
+      {
+        "input_tokens": 21192,
+        "output_tokens": 240,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 21432,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.594
+}

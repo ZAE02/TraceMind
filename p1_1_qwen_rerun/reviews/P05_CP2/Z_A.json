@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "73898bc58e1ca732ca55c092dbfea08b4acb60217aaf6043814be6f1acac6c9d",
+  "public_sha256": "b36dc6eaa3568c8849c5a929495ae789c31d45320dbecc93c438d1a2e07bd708",
+  "candidate_input_sha256": "88bdd228bb2e9cdb22c09587c3d48ad78448c09ef0e93fe29848da8e951156f1",
+  "candidate_answer_sha256": "cb35d64e3bb7168849136e9734fda269e4c62e8de34d5177cd6502a96ea2f705",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均可回溯到具体发言，证据ID引用准确，但遗漏了S1-S2中'先怪自己''不问'等核心模式的跨会话证据支撑。\",\"progress_understanding\":\"识别了来访者用忙碌回避、对李繁的矛盾期待等主题，但未明确连接这些与早期形成的'按回去''先自责'模式之间的延续和深化关系，也未提及已确认或修正的认识（如S4中'不用一个人显得那么怪'）。\",\"uncertainty_awareness\":\"准确列出了多项重要未知点，包括是否故意找借口、删除动态的深层动机、能否打破循环等，未强行定论，但对'稳定给谁看''旧跑鞋隐喻'等历史遗留未解议题未予涉及。\"},\"confidence\":\"high\",\"issues\":[\"established列表偏重事实复述，缺少对跨会话核心模式（如'先怪自己''不问'作为保护机制）的整合性总结\",\"未引用S1-S2的关键证据来支撑'长期用忙碌回避'这一判断的形成过程\",\"uncertain部分虽合理，但遗漏了参考标注中指出的'稳定给谁看''旧跑鞋'等重要未解决议题\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均可回溯到具体发言，证据ID引用准确，但遗漏了S1-S2中'先怪自己''不问'等核心模式的跨会话证据支撑。",
+      "progress_understanding": "识别了来访者用忙碌回避、对李繁的矛盾期待等主题，但未明确连接这些与早期形成的'按回去''先自责'模式之间的延续和深化关系，也未提及已确认或修正的认识（如S4中'不用一个人显得那么怪'）。",
+      "uncertainty_awareness": "准确列出了多项重要未知点，包括是否故意找借口、删除动态的深层动机、能否打破循环等，未强行定论，但对'稳定给谁看''旧跑鞋隐喻'等历史遗留未解议题未予涉及。"
+    },
+    "confidence": "high",
+    "issues": [
+      "established列表偏重事实复述，缺少对跨会话核心模式（如'先怪自己''不问'作为保护机制）的整合性总结",
+      "未引用S1-S2的关键证据来支撑'长期用忙碌回避'这一判断的形成过程",
+      "uncertain部分虽合理，但遗漏了参考标注中指出的'稳定给谁看''旧跑鞋'等重要未解决议题"
+    ]
+  },
+  "usage": {
+    "input_tokens": 11872,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 281,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12153,
+    "x_details": [
+      {
+        "input_tokens": 11872,
+        "output_tokens": 281,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 12153,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.671
+}

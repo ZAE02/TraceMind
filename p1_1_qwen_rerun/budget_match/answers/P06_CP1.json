@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P06_CP1",
+  "condition": "C5_budget",
+  "raw_text": "那种“被从头顶撕开”的恐惧，让你现在连动一下都需要先确认手腕还在。这种对失控的极度警惕，是不是让你觉得连呼吸都成了负担？",
+  "input_sha256": "62e6f7deb1e2afaa9ad94911a147f9b314a010931167e271e2245f6c86e34e32",
+  "memory_sha256": "07da300b2fab8319d1637ef3b1278330562c411eca6c782f99e0722454178701",
+  "request_sha256": "c844a01e2b5768d56a9c64f119d6d0ad8936eba7227a5f377185af588d5c1a43",
+  "usage": {
+    "input_tokens": 4022,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 38,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4060,
+    "x_details": [
+      {
+        "input_tokens": 4022,
+        "output_tokens": 38,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4060,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.953
+}

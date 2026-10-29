@@ -1,0 +1,127 @@
+{
+  "method": "B3_generic_rollup",
+  "case_id": "C03",
+  "last_completed_session": 1,
+  "state": {
+    "entries": [
+      {
+        "text": "工作卡点：一个接口间歇性报错，已排查两天，翻日志未定位原因。核心困难在于间歇性——无法确认问题是否真实存在，\"方向本身在晃\"（C03-S01-U07）。这比\"有问题但找不到原因\"更让人没着落。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S01-U01",
+          "C03-S01-U05",
+          "C03-S01-U07"
+        ]
+      },
+      {
+        "text": "求助障碍：来咨询前想着找老韩看，到公司没开口。原因是开口前觉得需要先解释\"为什么还没查出来\"，\"我查了两天了还没搞定\"这句话本身让他觉得\"拿不出手\"、\"显得有点笨\"。明确区分：不是怕老韩觉得水平不行，而是\"还没查出来\"这件事本身说出来不太好听（C03-S01-U15, U17）。",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S01-U13",
+          "C03-S01-U15",
+          "C03-S01-U17"
+        ]
+      },
+      {
+        "text": "无法真正切换：晚上躺床上还会翻手机看之前查过的资料。停下来的瞬间有\"没做完\"的不适感。核心逻辑是\"放着它，它就一直在那儿\"，不知道什么时候会再冒出来，所以干脆别让它冒出来（C03-S01-U09, U11）。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S01-U09",
+          "C03-S01-U11"
+        ]
+      },
+      {
+        "text": "与老韩的关系：老韩在群里问进展，客户回复\"还在看\"。发出去后又看了一眼，觉得太短但不知补什么（C03-S01-U03）。整体关系未见明显紧张，但求助意愿被自身感受压制。",
+        "type": "relationship",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S01-U01",
+          "C03-S01-U03"
+        ]
+      },
+      {
+        "text": "咨询后状态：客户表示\"今天说出来感觉轻了一点，但也不知道是不是真的轻了\"（C03-S01-U19）。计划回去换个思路再看看。未确认问题是否解决。",
+        "type": "state",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S01-U19"
+        ]
+      }
+    ]
+  },
+  "state_sha256": "aed668af1a66a31c1132f0e198de3cb42e8fca97c5b79da9e125fc0aa02dd667",
+  "tokenizer_tokens": 564,
+  "budget": 3000,
+  "tokenizer_reference": "Qwen/Qwen3.8-27B public tokenizer; hosted tokenizer identity unverified",
+  "input_previous_memory_sha256": "e3eb12da99e044ecc7d50cea407bf17f33c546e5309aa7ee661234baed2b7750",
+  "new_session_sha256": "cd257584aaa7eedb67f4252947e97b8e9aa4c90b426bf5a0233d4a51cbadf4ad",
+  "source_call_id": "daefdf1850af4a56acda2e7c672eff07",
+  "dropped_entries": [],
+  "raw_state_tokens": 564,
+  "structural_repair": {
+    "method": "json-repair 0.44.1, syntax only; raw API output retained",
+    "raw_text_sha256": "bcbb5d709435accd5896dd2426773835b3d9b70d01b551636f5b7599485bfe26",
+    "parsed_sha256": "aed668af1a66a31c1132f0e198de3cb42e8fca97c5b79da9e125fc0aa02dd667",
+    "actions": [
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "认问题是否真实存在，\"方向本身在晃\"（C"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "01-U07）。这比\"有问题但找不到原因"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "开口前觉得需要先解释\"为什么还没查出来\""
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "为什么还没查出来\"，\"我查了两天了还没搞"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "\"这句话本身让他觉得\"拿不出手\"、\"显得"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "他觉得\"拿不出手\"、\"显得有点笨\"。明确"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "韩觉得水平不行，而是\"还没查出来\"这件事"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "资料。停下来的瞬间有\"没做完\"的不适感。"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "的不适感。核心逻辑是\"放着它，它就一直在"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "群里问进展，客户回复\"还在看\"。发出去后"
+      },
+      {
+        "text": "While parsing a string, we a misplaced quote that would have closed the string but has a different meaning here, ignoring it",
+        "context": "咨询后状态：客户表示\"今天说出来感觉轻了"
+      },
+      {
+        "text": "The parser returned early, checking if there's more json elements",
+        "context": "   }\n  ]\n}\n"
+      },
+      {
+        "text": "There were no more elements, returning the element without the array",
+        "context": "  }\n  ]\n}\n"
+      }
+    ]
+  },
+  "incomplete_recovery_from": null,
+  "update_scope": "previous bounded memory + new session only; no complete-history backfill",
+  "annotation_visible": false,
+  "private_state_visible": false
+}

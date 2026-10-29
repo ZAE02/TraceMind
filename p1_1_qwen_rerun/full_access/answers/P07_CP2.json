@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P07_CP2",
+  "raw_text": "你承认自己“想画得再野一点”，这比刚才的自责更有力量。\n那个被按回去的亮色，也许并没有消失，只是还在等你允许它重新出现。",
+  "request_sha256": "94593c12188801c9638d9abda1145c5fab594fedd605a128c4a53b28277f20c6",
+  "input_sha256": "8d5eff306240672ff22f08194e7a068fd72a6134ba4951ef70d7ac01b92d3ad0",
+  "memory_sha256": "bad1eebfa48e75a3ee093f953e5335fe5370f5cb389e9ef1a1592cd47b843745",
+  "usage": {
+    "input_tokens": 7425,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 40,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7465,
+    "x_details": [
+      {
+        "input_tokens": 7425,
+        "output_tokens": 40,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7465,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.765
+}

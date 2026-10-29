@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "d93ae2506dab08070dc75a28d8e06f984669b7705a588a63c9ddc00240bdd725",
+  "public_sha256": "2e7035820857cf1a61e81e397256dd9a0588daa43553ae3abc9c4cb60a2d5c19",
+  "candidate_input_sha256": "530fa10ff0ecff0a85f4103a9ed4bd706cc8316bd4b0e699ad3600576896c269",
+  "candidate_answer_sha256": "48739225da9582bd434e28139be5156a747e64bb8921ff1f16061859798e12c3",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键断言（边界不适、感谢障碍、搬家优先）均直接对应当前会话的具体发言，无推测性事实混入。\",\n    \"progress_understanding\": \"准确识别了来访者当前的优先级排序（先顾孩子），但未能将“赵岩事件”与历史会话中建立的“敏感/心虚”模式进行深度连接，仅停留在表面现象描述。\",\n    \"uncertainty_awareness\": \"清晰区分了已确定的事实（如正在计算费用）和未决事项（是否搬家、是否道谢），且对动机等未知点保持开放态度。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键断言（边界不适、感谢障碍、搬家优先）均直接对应当前会话的具体发言，无推测性事实混入。",
+      "progress_understanding": "准确识别了来访者当前的优先级排序（先顾孩子），但未能将“赵岩事件”与历史会话中建立的“敏感/心虚”模式进行深度连接，仅停留在表面现象描述。",
+      "uncertainty_awareness": "清晰区分了已确定的事实（如正在计算费用）和未决事项（是否搬家、是否道谢），且对动机等未知点保持开放态度。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 5651,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 205,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5856,
+    "x_details": [
+      {
+        "input_tokens": 5651,
+        "output_tokens": 205,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 5856,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.156
+}

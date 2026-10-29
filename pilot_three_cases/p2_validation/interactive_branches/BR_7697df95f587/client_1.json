@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_7697df95f587",
+  "round": 1,
+  "node": "N04",
+  "method": "B4_psych_rollup",
+  "replicate": 1,
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "request_sha256": "4acdf88a583e88284406bfcc1bb81a89a5ba0a80d18a7ce172c388afd78e7e1e",
+  "call_id": "cabcfec9143e480491ec89139a37e36c",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "嗯……我想了想，好像最具体的还是周末那段时间。就是周六下午、周六晚上，以前我觉得那段时间是\"我的\"，想干嘛干嘛。但现在就是……我答应别人的时候越来越多，那个\"我的\"就越来越短，短到有时候周六一下午就没了。\n\n但你说\"什么在变薄\"，我想了想，好像也不光是时间。就是……我周六正常去了悦悦那边做饭，那个下午确实是\"我的\"，但做完之后我好像也没觉得特别……就是没有那种\"哦这是我自己的时间\"的感觉了。以前可能会觉得，嗯，今天是我自己的，挺好的。现在就是……做了就做了，没什么特别的感觉。",
+  "usage": {
+    "input_tokens": 14150,
+    "input_tokens_details": {
+      "cached_tokens": 7424
+    },
+    "output_tokens": 422,
+    "output_tokens_details": {
+      "reasoning_tokens": 279
+    },
+    "total_tokens": 14572,
+    "x_details": [
+      {
+        "input_tokens": 14150,
+        "input_tokens_details": {
+          "text_tokens": 14150
+        },
+        "output_tokens": 422,
+        "output_tokens_details": {
+          "reasoning_tokens": 279
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 7424
+        },
+        "total_tokens": 14572,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T11:19:40.644314+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

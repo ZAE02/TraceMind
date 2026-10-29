@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP2",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "5d0c4b9077355378fec9c0179d0b6a57ce39ee2b8113dffd95546789afe6b455",
+  "request_sha256": "89bdf6c43bb1caa074fd8a55b002f9fa52cd45ff6e6e376dc67782ab321b8d10",
+  "memory_sha256": "283dbbd7cba5ed16384739e3fe211e5a0ed2c94cc0ba93c2ba0ce22508796c4a",
+  "memory_source": "345910a85ccaa810d99995171064a9fa26de351a7af84c0323399ad272864e0a",
+  "raw_text": "你把自己搞得很累，连头晕都分不清是熬夜还是心累了。\n那个“好”字被你放大、截图、反复审视，好像只有把它读成某种情绪，才能解释你此刻的焦虑。\n但也许它真的只是一个字，而让你难受的，是你自己心里那个还没停下来的声音。",
+  "usage": {
+    "input_tokens": 7440,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 67,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7507,
+    "x_details": [
+      {
+        "input_tokens": 7440,
+        "output_tokens": 67,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7507,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.515,
+  "model": "qwen3.7-flash-2026-07-15"
+}

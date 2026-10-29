@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP3",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "d8dd5ef651ae194095363ad5dafd2518845530be268c901424827948f5fd7fc7",
+  "request_sha256": "5c6e1df8f84b54a8e708d135e3ac5dd03d1ef0f87dc64ce231a728e7efe272cd",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你伸手去拉平被角，又补了句“这边有点卷”，好像不只是怕他做不好，更像是怕自己那个“必须盯着”的位置被看见。他看你一眼没说话，你心里那把尺子是不是反而更悬了？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3246,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3299,
+    "x_details": [
+      {
+        "input_tokens": 3246,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3299,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

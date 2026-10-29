@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP3",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "8f6279c4e8c4ebbbc7e6fea7ffd28d076c43261d729145a4d577fb069e415344",
+  "request_sha256": "4b70514a9190235d596bd5d70781fbdfd761ad4c5e3d125e0dfa0a7d4e9cefa5",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你担心承认嫉妒会显得“太把自己当回事”，所以选择把这种情绪藏起来，甚至把它和工作压力混在一起。也许我们可以先试着不去评判这个念头，只是看看它在那里时，身体和心里具体是什么样的感觉？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3392,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3441,
+    "x_details": [
+      {
+        "input_tokens": 3392,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3441,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

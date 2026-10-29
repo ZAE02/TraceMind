@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP3",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "195abcb273f08258d442eb8cc81ea166c2b02ae8aea729329fb037ecc97e9872",
+  "request_sha256": "07e955f6850abbe7db3e9f781ffb4fa18737f8de0d3a297f763671149de925f4",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "连“让它多待一会儿”都做不到，好像那个念头一出现，你就得马上用排班表、对话框、反复检查来把它压下去。你越看越觉得语气太冲，也许不只是在担心护士长怎么想，更像是那个“为了自己”的请求一出口，你自己先觉得它不该说得那么直接。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3372,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 71,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3443,
+    "x_details": [
+      {
+        "input_tokens": 3372,
+        "output_tokens": 71,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3443,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

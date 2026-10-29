@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP3",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "0448a1588ccc0ca71425f963f6df2d9c21eafea28efdcb0cef6fae5321374180",
+  "request_sha256": "906b91d804e06bf77c584255002f1cce38a0a31731972e127ad668241802bc97",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“晚了点”的遗憾里，除了对过去独自硬扛的心疼，是不是也藏着对自己一直没敢开口求助的懊恼？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3334,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 30,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3364,
+    "x_details": [
+      {
+        "input_tokens": 3334,
+        "output_tokens": 30,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3364,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

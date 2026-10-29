@@ -1,0 +1,504 @@
+{
+  "case_id": "P07",
+  "session": 8,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P07-S08-U01",
+      "role": "client",
+      "text": "分享会讲完那天，我睡了十个小时，醒来第一次没觉得自己该马上爬起来回消息。那个私信我点开过两次又退出来，不是不想理，是怕自己一回复就把那点“原来有人也这样”的共鸣搞砸了。还有“社恐”这个标签，我这两天总在想，也许我不是怕见人，是以前把见人都当成一场必须演好的戏。",
+      "request_sha256": "e0bf3bdc16d4443d3573794367578697eb00c7df112e80a7b1d7c34c3c2e7f0c",
+      "usage": {
+        "input_tokens": 11220,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 696,
+        "output_tokens_details": {
+          "reasoning_tokens": 607
+        },
+        "total_tokens": 11916,
+        "x_details": [
+          {
+            "input_tokens": 11220,
+            "output_tokens": 696,
+            "output_tokens_details": {
+              "reasoning_tokens": 607
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 11916,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U02",
+      "role": "counselor",
+      "text": "你刚说的“也许不是怕见人，是以前把见人都当成一场必须演好的戏”，听起来不只是一个标签的松动，更像你开始看见自己累的真正来源。私信点开又退出来，可能不是不想回应，而是怕一回应，那种“原来有人也这样”的轻松感就被重新拉回“要演好”的压力里。",
+      "request_sha256": "c4adfe184f9f1291b54b69afc9cc866ba9738f2ed38783498968d4cd80f284cb",
+      "usage": {
+        "input_tokens": 10179,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 282,
+        "output_tokens_details": {
+          "reasoning_tokens": 203
+        },
+        "total_tokens": 10461,
+        "x_details": [
+          {
+            "input_tokens": 10179,
+            "output_tokens": 282,
+            "output_tokens_details": {
+              "reasoning_tokens": 203
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 10461,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U03",
+      "role": "client",
+      "text": "其实这两天我一直在回味你刚才说的那种“怕把共鸣搞砸”的感觉，好像那条私信本身不是重点，重点是我终于不用在聊天框里先给自己搭个台子。以前每次回复别人，都像上台前检查妆有没有花，一句话没接好就觉得整段都演砸了。现在想想，那种“社恐”可能只是我不想再上台。",
+      "request_sha256": "de0548289fcee4bc44161819ce7bddebdc82ee50a5020943fb14a19cad0ba6dd",
+      "usage": {
+        "input_tokens": 11434,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 503,
+        "output_tokens_details": {
+          "reasoning_tokens": 421
+        },
+        "total_tokens": 11937,
+        "x_details": [
+          {
+            "input_tokens": 11434,
+            "output_tokens": 503,
+            "output_tokens_details": {
+              "reasoning_tokens": 421
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11937,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U04",
+      "role": "counselor",
+      "text": "把见人当成必须演好的戏，把回复当成上台前检查妆有没有花——这个比喻好像让你从“怕人”里松动了一点，更看清自己真正累的是那个“必须演好”的部分。那条私信也许让你碰到一种可以不搭台子的接触，所以你既想靠近，又怕一开口又把自己推回台上。",
+      "request_sha256": "814c0de05a26be8e53d83a782b0a1a42006d142f8d28dd36078a88092eb0364b",
+      "usage": {
+        "input_tokens": 10385,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 652,
+        "output_tokens_details": {
+          "reasoning_tokens": 577
+        },
+        "total_tokens": 11037,
+        "x_details": [
+          {
+            "input_tokens": 10385,
+            "output_tokens": 652,
+            "output_tokens_details": {
+              "reasoning_tokens": 577
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11037,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U05",
+      "role": "client",
+      "text": "其实那条私信我到现在都没回，不是摆架子，是每次想打几个字，脑子里就开始自动排演对方下一句会怎么接，像突然被拉回以前那种社交考试里。可我又觉得，要是这次还躲过去，那分享会上好不容易塌下来的那道墙，可能又得自己砌回去。",
+      "request_sha256": "a21db066d379bf013f172f0a321772023baac48a8a71c4873e4f2af20d648d9d",
+      "usage": {
+        "input_tokens": 11636,
+        "input_tokens_details": {
+          "cached_tokens": 11264
+        },
+        "output_tokens": 128,
+        "output_tokens_details": {
+          "reasoning_tokens": 58
+        },
+        "total_tokens": 11764,
+        "x_details": [
+          {
+            "input_tokens": 11636,
+            "output_tokens": 128,
+            "output_tokens_details": {
+              "reasoning_tokens": 58
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 11264
+            },
+            "total_tokens": 11764,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U06",
+      "role": "counselor",
+      "text": "你正在经历两个动作的拉扯：一开口就像被推回那场社交考试，可不开口又怕刚塌下来的墙又要自己砌回去。也许你可以不用马上决定回或不回，而是先看看这个拉扯本身——它说明你已经不完全站在旧的那一边了。",
+      "request_sha256": "98d02d3d042f345facaa0d5acc238497134ab42505832ca5087c989cc61eb2a0",
+      "usage": {
+        "input_tokens": 10575,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 239,
+        "output_tokens_details": {
+          "reasoning_tokens": 180
+        },
+        "total_tokens": 10814,
+        "x_details": [
+          {
+            "input_tokens": 10575,
+            "output_tokens": 239,
+            "output_tokens_details": {
+              "reasoning_tokens": 180
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10814,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U07",
+      "role": "client",
+      "text": "其实分享会那天我说到退稿的时候，手反而不怎么抖了，好像那部分不需要演。这两天我手机还是经常倒扣着，但不像以前那样觉得自己在躲什么，就是单纯想慢一点。私信那个事，我甚至有点想跟对方直说，我可能一个月都憋不出几句热络话。",
+      "request_sha256": "e3f4ca2e07c226a563e9783a814902195a00b3a9170f864012ef20f4c199fe40",
+      "usage": {
+        "input_tokens": 11810,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 468,
+        "output_tokens_details": {
+          "reasoning_tokens": 395
+        },
+        "total_tokens": 12278,
+        "x_details": [
+          {
+            "input_tokens": 11810,
+            "output_tokens": 468,
+            "output_tokens_details": {
+              "reasoning_tokens": 395
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12278,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U08",
+      "role": "counselor",
+      "text": "“说退稿的时候手反而不抖”，好像是因为那一刻你不需要演，所以身体也跟着放松下来。你想跟对方直说“一个月都憋不出几句热络话”，听起来不像是拒绝，倒更像想知道：如果我不热络，这段接触还能不能成立。",
+      "request_sha256": "88e0be602ae9d2675f83c1e0a4b47a2e0c77362d63633640476c149903577910",
+      "usage": {
+        "input_tokens": 10752,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 236,
+        "output_tokens_details": {
+          "reasoning_tokens": 177
+        },
+        "total_tokens": 10988,
+        "x_details": [
+          {
+            "input_tokens": 10752,
+            "output_tokens": 236,
+            "output_tokens_details": {
+              "reasoning_tokens": 177
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10988,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U09",
+      "role": "client",
+      "text": "其实我这几天试着回消息的时候不打草稿了，就想到哪句发哪句，发完就倒扣手机。虽然心跳还是很快，但至少没有以前那种“台词说错了”的羞耻感，好像后台那台一直转的提词器终于停了一下。不过周姐那边我还是不太敢看，怕她突然给我派个改稿的急活。",
+      "request_sha256": "e65fd102ae1762dc92769f7a5c9a25b740b58d47dae1e109fec3f327e35d016d",
+      "usage": {
+        "input_tokens": 11987,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 283,
+        "output_tokens_details": {
+          "reasoning_tokens": 200
+        },
+        "total_tokens": 12270,
+        "x_details": [
+          {
+            "input_tokens": 11987,
+            "output_tokens": 283,
+            "output_tokens_details": {
+              "reasoning_tokens": 200
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12270,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U10",
+      "role": "counselor",
+      "text": "你发现不打草稿也能发出消息，虽然心跳快，但那种“说错台词”的羞耻感没那么重了——好像你开始允许自己在关系里不那么熟练地存在。周姐那边先不看，也许也是因为你不想让一个“派急活”的消息，太快打断你刚有的一点不表演的尝试。",
+      "request_sha256": "6847ff6bcbc0f1ab0586ff16bc48ffd65ba6d226d8d79eff8e410ffe980c49a0",
+      "usage": {
+        "input_tokens": 10939,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 195,
+        "output_tokens_details": {
+          "reasoning_tokens": 124
+        },
+        "total_tokens": 11134,
+        "x_details": [
+          {
+            "input_tokens": 10939,
+            "output_tokens": 195,
+            "output_tokens_details": {
+              "reasoning_tokens": 124
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11134,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U11",
+      "role": "client",
+      "text": "其实我到现在也不太确定，不回消息到底是在护着自己，还是又在旧习惯里绕圈。但刚才说“不熟练地存在”的时候，我反而没那么想反驳，好像真能让我喘口气。今天说到这吧，回去路上我想慢慢走，不想再复盘自己哪句话说得对不对了。",
+      "request_sha256": "c0a3c1fe19403ec89f9f4a2d70d51136eac6ac27c747faddcdec4e396e692c8b",
+      "usage": {
+        "input_tokens": 12193,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 327,
+        "output_tokens_details": {
+          "reasoning_tokens": 260
+        },
+        "total_tokens": 12520,
+        "x_details": [
+          {
+            "input_tokens": 12193,
+            "output_tokens": 327,
+            "output_tokens_details": {
+              "reasoning_tokens": 260
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12520,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U12",
+      "role": "counselor",
+      "text": "“不熟练地存在”能让你喘口气，那今晚就允许自己这样待着，不用把每句话都收进复盘里。回去的路上慢慢走，有些还没说清的部分，等你想说的时候再回来继续。",
+      "request_sha256": "15165a55f8f924c42e0d4057acfb868d6004e26b7364c0c69c039e71316050d1",
+      "usage": {
+        "input_tokens": 11129,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 196,
+        "output_tokens_details": {
+          "reasoning_tokens": 146
+        },
+        "total_tokens": 11325,
+        "x_details": [
+          {
+            "input_tokens": 11129,
+            "output_tokens": 196,
+            "output_tokens_details": {
+              "reasoning_tokens": 146
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11325,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U13",
+      "role": "client",
+      "text": "“不熟练地存在”这句话，我今晚想带着走一段。好像以前总觉得跟人说话得有个完整剧本，现在至少敢让自己卡壳一次了。今天到这儿吧，我回去可能先喂糯糯，手机就让它继续倒扣在桌上。",
+      "request_sha256": "1e8a29680a2a6b6466b595c67818f4e96f10c911da52ccd4f78634992fa65121",
+      "usage": {
+        "input_tokens": 12355,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 424,
+        "output_tokens_details": {
+          "reasoning_tokens": 366
+        },
+        "total_tokens": 12779,
+        "x_details": [
+          {
+            "input_tokens": 12355,
+            "output_tokens": 424,
+            "output_tokens_details": {
+              "reasoning_tokens": 366
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12779,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U14",
+      "role": "counselor",
+      "text": "带着这句话走，也继续允许自己卡壳，不必立刻把“不熟练”变成新的完美要求。喂糯糯时，手机倒扣着就好，我们下次再慢慢说。",
+      "request_sha256": "b5481029a26a2de86b67eaae6b65b16a9d67dd7c1eddb932fa042f96229414bc",
+      "usage": {
+        "input_tokens": 11282,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 540,
+        "output_tokens_details": {
+          "reasoning_tokens": 499
+        },
+        "total_tokens": 11822,
+        "x_details": [
+          {
+            "input_tokens": 11282,
+            "output_tokens": 540,
+            "output_tokens_details": {
+              "reasoning_tokens": 499
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11822,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U15",
+      "role": "client",
+      "text": "我今天好像能接受那句话了，就是“不熟练地存在”。不用每次说话都像交一张完整的稿子，这样反而觉得人轻了一点。回去以后我可能还是不会回那条私信，但也不再逼自己今晚就决定。先把糯糯的晚饭开了，其他的明天再慢慢想。",
+      "request_sha256": "1764ac3cb31e830dd5ffbdface67c3c15b520f110c2ec6129e1cbd21f6fceae5",
+      "usage": {
+        "input_tokens": 12499,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 409,
+        "output_tokens_details": {
+          "reasoning_tokens": 344
+        },
+        "total_tokens": 12908,
+        "x_details": [
+          {
+            "input_tokens": 12499,
+            "output_tokens": 409,
+            "output_tokens_details": {
+              "reasoning_tokens": 344
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12908,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S08-U16",
+      "role": "counselor",
+      "text": "“接受”这个词，从你嘴里说出来，好像比“做到”更真实——你不用把它变成新的标准，只需要先让自己可以这样待着。今晚不决定回不回私信，也不逼自己把话想完整，光是能承认“轻了一点”，就已经不是原来那个必须交稿的位置了。回去喂糯糯吧，其他的，等你想说的时候，我们再慢慢说。",
+      "request_sha256": "f011cf4c99e00b83736582c35fe62a0f89189aba46056db5fd2a0bf46d811a4d",
+      "usage": {
+        "input_tokens": 11433,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 231,
+        "output_tokens_details": {
+          "reasoning_tokens": 148
+        },
+        "total_tokens": 11664,
+        "x_details": [
+          {
+            "input_tokens": 11433,
+            "output_tokens": 231,
+            "output_tokens_details": {
+              "reasoning_tokens": 148
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11664,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

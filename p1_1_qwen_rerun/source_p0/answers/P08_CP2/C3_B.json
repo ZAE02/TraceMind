@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP2",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "6026ba8e43569cc0a1defee8391b5f80887c5671ae9f8fdd0a86293c3c17492f",
+  "request_sha256": "f6f91be0b8ce2b041fb51f9495d1daec18d4f2dd0453db82f6f355b7f99b576e",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "这种“没处搁”的感觉，是不是让你突然意识到，原来你一直用来防备他的那些心思，其实也是你在独自硬扛的一部分？既然猜疑的力气没了，现在面对他时，那种不知道该怎么处的空白里，你最希望发生的是什么？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 5852,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5906,
+    "x_details": [
+      {
+        "input_tokens": 5852,
+        "output_tokens": 54,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 5906,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

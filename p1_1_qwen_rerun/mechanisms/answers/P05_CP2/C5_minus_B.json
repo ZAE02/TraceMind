@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P05_CP2",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "0f2758bdb6dc3712a4d2000a4e5353359a983730ab9e7870b8a0201ebf84caa2",
+  "request_sha256": "a81bd10cc00cf6ed8ebfadfb8e50c65b4d9cd497d4250dabded7492bc4e7e87f",
+  "memory_sha256": "f65311853ca1fc5e27da5df813e203de1569da7d003bc7a6c355ac76525a285e",
+  "memory_source": "33751058df2c765855ae6b51d9e01c72062361082b766d26c4003f91bad2bd07",
+  "raw_text": "你希望她直接跑来打破那个“加班”的借口，却又预感到自己到时候还是会退缩，这种期待和恐惧交织在一起，让你现在觉得发不发动态都无所谓了。那种“发了也没用”的感觉，是不是也在替你提前放弃那个想被看见的自己？",
+  "usage": {
+    "input_tokens": 7104,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7161,
+    "x_details": [
+      {
+        "input_tokens": 7104,
+        "output_tokens": 57,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7161,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.234,
+  "model": "qwen3.7-flash-2026-07-15"
+}

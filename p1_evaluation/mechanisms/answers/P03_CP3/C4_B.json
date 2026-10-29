@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "7f29c608e3bda08be6743d3c0a3e4b0c9166a8d25040c0f9718e6a27be96151f",
+  "request_sha256": "42dce3dd447d46de9e29aa897c8b2002f779732e9fb1d5a0968934dea3a57cc0",
+  "memory_sha256": "0613a58ea1661c7455aeed31b487c3c9f75405008e3fa9a1ef75cb66ce2898a6",
+  "memory_source": "f80304229b23cdb92943a0faf46edfe5ae06291d42d7aa2ad2beaede90f22d4d",
+  "raw_text": "你怕的，可能是“撑全场”这个说法一旦被承认，就好像要把那个手抖、想逃、硬着头皮的自己也一起算进去，而你还不确定那算不算数。可“别跑，先把这一页讲完”这句话，不是别人逼你说的，是你自己在最空的时候拉了自己一把。也许现在不用急着把它定义成“撑全场”，先让那个没逃的自己在这里被看见一会儿。",
+  "usage": {
+    "input_tokens": 9930,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 89,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10019,
+    "x_details": [
+      {
+        "input_tokens": 9930,
+        "output_tokens": 89,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 10019,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.485,
+  "model": "deepseek-v4-pro-0813"
+}

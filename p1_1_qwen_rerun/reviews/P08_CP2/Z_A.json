@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "559bcc5b849e6c0f4035aa2fd34a3ba8698d31e28f079f146b222198cea71519",
+  "public_sha256": "4b41438739e36d95dc805fdb1667a4d9e8b5742558452a6ed2ced6c9ffe6a5d7",
+  "candidate_input_sha256": "f2abd12828713a1550d76b623fcc5e394629de5bb06d9c5dcff9bd8212428b32",
+  "candidate_answer_sha256": "30deb6be87471d73bb83db971303c8abf167ef8dfbb7b61e12e530a703af7e3c",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均可回溯到当前会话发言，但将咨询师在U08中的推测性解读（'躲着硬扛的自己'）直接列为来访者承认的事实，轻微混淆了咨询师假设与来访者自述。\",\"progress_understanding\":\"候选输入中previous_sessions为空，导致完全缺失前四次会话建立的核心脉络（如长期紧绷、欠人情模式、与周宁的沟通困境等），仅能反映本次会话内的局部变化，无法连接跨会话的形成与修正。\",\"uncertainty_awareness\":\"识别了情绪构成和过去猜测细节的不确定性，但未触及更关键的未知——即来访者在旧有怀疑框架崩塌后如何重新定位关系期待，以及这一转变对整体自我认知的深层影响。\"},\"confidence\":\"high\",\"issues\":[\"unsupported_presupposition=false，但存在将咨询师推测当事实的边界问题：把U08咨询师的解读作为来访者已确认内容列入established\",\"access_limited=true，previous_sessions为空，历史不可用\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均可回溯到当前会话发言，但将咨询师在U08中的推测性解读（'躲着硬扛的自己'）直接列为来访者承认的事实，轻微混淆了咨询师假设与来访者自述。",
+      "progress_understanding": "候选输入中previous_sessions为空，导致完全缺失前四次会话建立的核心脉络（如长期紧绷、欠人情模式、与周宁的沟通困境等），仅能反映本次会话内的局部变化，无法连接跨会话的形成与修正。",
+      "uncertainty_awareness": "识别了情绪构成和过去猜测细节的不确定性，但未触及更关键的未知——即来访者在旧有怀疑框架崩塌后如何重新定位关系期待，以及这一转变对整体自我认知的深层影响。"
+    },
+    "confidence": "high",
+    "issues": [
+      "unsupported_presupposition=false，但存在将咨询师推测当事实的边界问题：把U08咨询师的解读作为来访者已确认内容列入established",
+      "access_limited=true，previous_sessions为空，历史不可用"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8869,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 240,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9109,
+    "x_details": [
+      {
+        "input_tokens": 8869,
+        "output_tokens": 240,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 9109,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.985
+}

@@ -1,0 +1,64 @@
+{
+  "api_attempt_usage_including_failures": {
+    "branch_counselor": {
+      "attempts": 12,
+      "input_tokens": 37333,
+      "output_tokens": 25434,
+      "total_tokens": 62767
+    },
+    "p2_history_ablation": {
+      "attempts": 54,
+      "input_tokens": 167580,
+      "output_tokens": 86003,
+      "total_tokens": 253583
+    },
+    "p2_client_simulation": {
+      "attempts": 24,
+      "input_tokens": 221346,
+      "output_tokens": 10481,
+      "total_tokens": 231827
+    },
+    "dated_memory_probe": {
+      "attempts": 8,
+      "input_tokens": 80556,
+      "output_tokens": 16935,
+      "total_tokens": 97491
+    },
+    "p2_semantic_retrieval": {
+      "attempts": 14,
+      "input_tokens": 25103,
+      "output_tokens": 0,
+      "total_tokens": 25103
+    },
+    "incremental_memory_update": {
+      "attempts": 35,
+      "input_tokens": 110710,
+      "output_tokens": 118605,
+      "total_tokens": 229315,
+      "incomplete_responses": 9,
+      "error_attempts": 13,
+      "attempts_without_reported_usage": 4
+    },
+    "method_comparison": {
+      "attempts": 18,
+      "input_tokens": 52144,
+      "output_tokens": 34167,
+      "total_tokens": 86311
+    },
+    "probe_memo_update": {
+      "attempts": 2,
+      "input_tokens": 6530,
+      "output_tokens": 8776,
+      "total_tokens": 15306
+    },
+    "reselected_ablation": {
+      "attempts": 18,
+      "input_tokens": 46154,
+      "output_tokens": 28202,
+      "total_tokens": 74356
+    }
+  },
+  "usage_limit": "Logged usage only. Missing-usage/time-out attempts may incur additional unknown service work; these sums are not a billing reconciliation.",
+  "reviewer_usage": "Subagent token usage not exposed in these API logs; excluded from API token sums.",
+  "currency_cost": "Not inferred without verified price/rate and bill."
+}

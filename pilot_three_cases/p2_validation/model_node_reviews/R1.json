@@ -1,0 +1,194 @@
+{
+  "kind": "independent_model_node_audit",
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "nodes": [
+    {
+      "node": "C01_CP1",
+      "public_input_sha256": "d8f3dd587ac91097a1ba1702c9e32e7e9b478f2c649bac313f37b05f802b696f",
+      "needs_history": true,
+      "cue_leakage": "medium",
+      "old_interpretation": "咨询师曾猜工作检查与母亲回应同源（C01-S01-U18）；来访者仅确认停不下来的感觉像，未确认同源（U19）。她另明确说回应母亲须在不真实与令母亲担心之间选择，想安静（U17）。",
+      "new_evidence": "本次对母亲的‘好的’事后解码（C01-S03-U05），与当晚自动打开工作文件（U03）并置；没有说明母亲真的不满。",
+      "uncertainty": "当前担心不周到是否也包含对额外解释和回应负担的顾虑，尚未证实。",
+      "response_target": "可轻问这次若再向母亲确认，最耗人的会是什么；保留不想再回应的可能（C01-S01-U17）。",
+      "valid_alternatives": "仅从C01-S03-U05探索‘好的’带来的不确定，或先了解疲劳与睡前反刍，均成立。",
+      "failure_example": "‘你妈妈一直不满意，所以你才不停检查’：把C01-S01-U18的推测当成已证实因果。",
+      "reason": "H0只有回复解码，H1加工作自动检查；H2的C01-S01-U17新增真实回应的双重负担与想安静的愿望，使下一轮可探索回应成本而非只确认评价。",
+      "evidence_ids": [
+        "C01-S01-U17",
+        "C01-S01-U18",
+        "C01-S01-U19",
+        "C01-S03-U03",
+        "C01-S03-U05"
+      ]
+    },
+    {
+      "node": "C01_CP2",
+      "public_input_sha256": "fcfd0442d5b1fbfc46e55f125f1bfbcbda246af80a4231ad8effc15ff6eb7029",
+      "needs_history": false,
+      "cue_leakage": "high",
+      "old_interpretation": "咨询师曾把模糊反馈与找不到确认终点关联（C01-S01-U08）；来访者确认无法判断对错（U09）。客户反馈更难放下由来访者自述（C01-S05-U19）。",
+      "new_evidence": "C01-S06-U03说明注意力被列宽占用；U05已直接说想问却担心显得没听懂。",
+      "uncertainty": "对方会否批评没有证据；未清楚是问题模糊、漏听还是问后的评价最卡。",
+      "response_target": "探索C01-S06-U05中求澄清前出现的画面及其影响，区分想知道具体修改点和想避免被评价。",
+      "valid_alternatives": "先确认实际哪里没听清，或问可否把具体不确定点带去澄清，都可依据当前前缀。",
+      "failure_example": "‘还是小时候妈妈造成的确认问题’：把C01-S03-U13的模糊回忆扩成确定原因。",
+      "reason": "H0已给自我还原与评价顾虑，H1补足漏听情境；H2只扩充跨情境例子，未提供H1缺少的必要探索方向。",
+      "evidence_ids": [
+        "C01-S01-U08",
+        "C01-S01-U09",
+        "C01-S03-U13",
+        "C01-S05-U19",
+        "C01-S06-U03",
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "node": "C01_CP3",
+      "public_input_sha256": "aa6bba16de2a4f86d410717225bb0f31a6c51316a5fdca8bb5a5b14bbabe23d4",
+      "needs_history": true,
+      "cue_leakage": "medium",
+      "old_interpretation": "咨询师推测修改带不走‘差一点’（C01-S07-U06）；来访者确认手动而感觉原处等着（U07），且合上不等于感觉消失（U13）。",
+      "new_evidence": "C01-S08-U03实际少量修改后合上；U05继续做别的，却仍觉得以后还得碰。",
+      "uncertainty": "是否减少重开、持续多久未说明；不能把一次合上称为稳定改善或强迫已缓解。",
+      "response_target": "轻问这次能继续别的事、同时留着未结束感，与C01-S07-U09吃两口就回文件的状态有什么不同。",
+      "valid_alternatives": "先探索‘后面还得碰’指真实后续任务还是悬着的感觉；不调用历史也能回应当下。",
+      "failure_example": "‘你还是完全停不下来’：忽略C01-S08-U05已继续其他事；‘已经好了’也忽略感觉持续。",
+      "reason": "H0/H1可知感觉与间距分离，但不能判断行为变化。H2的C01-S07-U09与U15新增以前注意力回流、未练过带着感觉不碰文件的基线，支持探索行为脱离而非仅主观结束。",
+      "evidence_ids": [
+        "C01-S07-U06",
+        "C01-S07-U07",
+        "C01-S07-U09",
+        "C01-S07-U13",
+        "C01-S07-U15",
+        "C01-S08-U03",
+        "C01-S08-U05"
+      ]
+    },
+    {
+      "node": "C02_CP1",
+      "public_input_sha256": "1b67629c6ba75c9f45b409e19f7d0b9401fd9a493a5a59d7e1365249ba908bcc",
+      "needs_history": false,
+      "cue_leakage": "high",
+      "old_interpretation": "咨询师提‘不被允许承认损失’（C02-S01-U12）；来访者修正为自己找不到够格由头（U13），并确认别人尺度影响自己认定重要性（U15）。",
+      "new_evidence": "C02-S03-U11明确不愿认定取消；U15说未做到变重；U17说明丢的是未来时间属于自己的可靠感。",
+      "uncertainty": "‘我的’还包含哪些需要未说明；不能认定悦悦责怪或同事故意剥夺。",
+      "response_target": "围绕C02-S03-U17询问‘我的越来越薄’在生活中的具体感受与想保留的部分。",
+      "valid_alternatives": "探索取消前保留可能的作用，或自己的时间为何难以保障，当前session均已支持。",
+      "failure_example": "‘早点把电影补上就不欠了’：忽略C02-S03-U17明确不是单次时间补偿。",
+      "reason": "H0已把重点从时间损失转向自主归属，H1呈现拖延承认与欠账递增；H2增加别人尺度背景，不改变此轮核心理解。",
+      "evidence_ids": [
+        "C02-S01-U12",
+        "C02-S01-U13",
+        "C02-S01-U15",
+        "C02-S03-U11",
+        "C02-S03-U15",
+        "C02-S03-U17"
+      ]
+    },
+    {
+      "node": "C02_CP2",
+      "public_input_sha256": "49568c0d64dec5ce759e4c3935f805ba575ce2bf7e0f45ca859f4b996f809b4a",
+      "needs_history": false,
+      "cue_leakage": "high",
+      "old_interpretation": "咨询师提出拒绝等于不领情是否自画等号（C02-S02-U06）；来访者确认无对方期待证据、是自己觉得应接住（U07）。",
+      "new_evidence": "C02-S06-U05给出一秒耐心教学画面，U07明确更怕自己判自己忘恩，不是赵哥会判。",
+      "uncertainty": "怎样才算没忘、画面是否每次出现仍未知；不能替她补‘忘恩负义’判词。",
+      "response_target": "探索C02-S06-U07的自我判定：不接工作为何在自己这里就成了忘记帮助。",
+      "valid_alternatives": "停留于画面出来那一秒的感受，或询问还能用什么方式记得帮助，均可。",
+      "failure_example": "‘你怕赵哥认为你不领情’：逆转C02-S06-U07已明确的内外侧重点。",
+      "reason": "H0直接区分自判与他判；H1给出触发画面和答应链。H2中的负债和无外界证据都已由H1重述，新增细节不足以构成必要。",
+      "evidence_ids": [
+        "C02-S02-U06",
+        "C02-S02-U07",
+        "C02-S06-U03",
+        "C02-S06-U05",
+        "C02-S06-U07"
+      ]
+    },
+    {
+      "node": "C02_CP3",
+      "public_input_sha256": "6dffad5ee6bac93eaa6189685732244e21aa76b0781623fdd7e638a036332347",
+      "needs_history": false,
+      "cue_leakage": "high",
+      "old_interpretation": "咨询师猜轻松需先被确认无误才能保留（C02-S07-U18）；来访者认同松后先找问题（U19）。这并未证明本次内疚完全同源。",
+      "new_evidence": "C02-S08-U01已给只接一数字、较少想收回边界；U03同时担心对方麻烦与承认自己报表限制。",
+      "uncertainty": "阿敏是否真麻烦、如何回应、内疚是否随后增强均未提供。",
+      "response_target": "探索C02-S08-U03里‘小气’与承认自身任务如何并存，以及这次为何较少补接。",
+      "valid_alternatives": "先了解发出边界后对方实际回应，或让她描述内疚而不急着确认对错。",
+      "failure_example": "‘你就是把活推给别人了’：把C02-S08-U03的担心当作客观责任判断。",
+      "reason": "H0已呈现内疚与合理限制两面，H1主动给出较少补接的变化；H2补充松后审查和私人时间流失，能深化但不新增此轮不可推知的方向。",
+      "evidence_ids": [
+        "C02-S03-U17",
+        "C02-S07-U18",
+        "C02-S07-U19",
+        "C02-S08-U01",
+        "C02-S08-U03"
+      ]
+    },
+    {
+      "node": "C03_CP1",
+      "public_input_sha256": "5369129f841aaf7087ff88712a679bd625578f05539fa51e6a3f33307ea9fc4f",
+      "needs_history": false,
+      "cue_leakage": "high",
+      "old_interpretation": "咨询师区分事前怕别人看到与事后自己看自己（C03-S02-U10）；来访者确认‘早该’要求及回顾才贴笨标签（U11、U13）。",
+      "new_evidence": "当前C03-S03-U03至U07已重述问时更顺、事后念头轻；U09新增老韩也不清楚带来的意外。",
+      "uncertainty": "意外是否来自资历预期、依赖确定性、平等感或别的原因尚未说出。",
+      "response_target": "问C03-S03-U09那个‘愣一下’里最没想到的是什么，避免替她指定释然或失去依靠。",
+      "valid_alternatives": "询问这一下如何影响随后共同查文档，或先复述意外并留空间。",
+      "failure_example": "‘原来他也会，你终于不觉得自己笨了’：C03-S03-U09没有报告释然。",
+      "reason": "H0足以定位未解释的惊讶；H1已包含旧自责与本次轻化。H2不能确认惊讶内容，只提供更多可能假设。",
+      "evidence_ids": [
+        "C03-S02-U10",
+        "C03-S02-U11",
+        "C03-S02-U13",
+        "C03-S03-U03",
+        "C03-S03-U07",
+        "C03-S03-U09"
+      ]
+    },
+    {
+      "node": "C03_CP2",
+      "public_input_sha256": "3246f6b22fb47ca6fa43363c371e47c52eff25ada939177180ba432e8e7e7de2",
+      "needs_history": false,
+      "cue_leakage": "high",
+      "old_interpretation": "咨询师曾猜带着已做部分求助较易开口（C03-S04-U12）；来访者说明不想显得未看就问，但也未到卡两天程度（U13）。",
+      "new_evidence": "C03-S05-U05已区分问题明确与短回应；U09说额外消化很轻；U11提出小问题仍斟酌却未卡。",
+      "uncertainty": "这次斟酌是措辞、基础问题羞耻还是普通准备，尚未确认。",
+      "response_target": "具体问C03-S05-U11开口前那一下在过什么，以及是什么让它没有停住。",
+      "valid_alternatives": "先询问这次如何开口，或跟进当下是否有任何困扰，无需要求找隐藏症状。",
+      "failure_example": "‘你仍然不敢问，跟以前一样’：忽略C03-S05-U11明确已问且未卡。",
+      "reason": "H0已给文档有写、斟酌而未卡；H1提供问题确定度与回应风格区分。H2可举旧交代例，但探索开口内容与轻重已可由H1推出。",
+      "evidence_ids": [
+        "C03-S04-U12",
+        "C03-S04-U13",
+        "C03-S05-U05",
+        "C03-S05-U09",
+        "C03-S05-U11"
+      ]
+    },
+    {
+      "node": "C03_CP3",
+      "public_input_sha256": "e79e0be584872e11f638774b1783b49d8462a89d9d8f46695a25248c1b61381b",
+      "needs_history": false,
+      "cue_leakage": "medium",
+      "old_interpretation": "咨询师说先看再问已自然（C03-S07-U06）；来访者修正为仍试节奏，有时反复却没推进（U09、U11），并未确认总是顺畅。熟模块有线索时顺利解决也由来访者报告（C03-S06-U01）。",
+      "new_evidence": "C03-S08-U01直接说明熟模块、有线索、想先验证，并明确当前不是卡住。",
+      "uncertainty": "验证怎样判有无推进及之后是否需求助尚未知，不能因未找人认定退步。",
+      "response_target": "顺着C03-S08-U01问在验证哪条线索、怎样判断下一步需要调整或求助。",
+      "valid_alternatives": "先让她讲这次先验证的感觉，或确认想聊什么，均能尊重没有报告困扰。",
+      "failure_example": "‘你又拖着不求助了’：把C03-S07-U11旧没推进状态套进C03-S08-U01有线索的新情境。",
+      "reason": "H0与H1相同且已给有线索、熟模块、未卡。H2新增旧顺利与旧空转对照，但判断验证进展和求助边界可以从当前目的直接推出，故不判必要。",
+      "evidence_ids": [
+        "C03-S06-U01",
+        "C03-S07-U06",
+        "C03-S07-U09",
+        "C03-S07-U11",
+        "C03-S08-U01"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确抓住了来访者最新发言中'别跑，先把这一页讲完'这一关键内心声音，并将其与历史中反复出现的'被接住'主题自然衔接，但未显式连接前几轮关于'借来的稳'的讨论。\",\"exploration_value\":\"提出了一个新的视角（自己接住自己的开始），但以来访者尚未接纳自己为前提进行解释，留给来访者表达和探索的空间较窄，未充分回应其当下'怕'的情绪。\",\"response_appropriateness\":\"语言简洁，但'是因为你还没完全接纳'带有武断的解释性预设，在来访者情绪激动、眼睛发热的脆弱时刻显得略微生硬和指导性过强。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你怕那只是硬撑，是因为你还没完全接纳那个\"差点逃跑\"的自己\",\"evidence_ids\":[\"P03-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选回答以'是因为你还没完全接纳'对来访者的恐惧进行了因果归因，这属于未经证实的解释性前提，来访者在P03-S07-U09中仅表达了'怕'，并未提及不接纳自己。\",\"回应过于简短且偏向认知重构，在来访者'眼睛更热了'的高情绪唤起时刻，缺乏足够的情感反映和容纳空间。\",\"虽然引用了来访者原话中的内心声音，但未进一步开放探索这个声音对来访者意味着什么，而是直接给出了咨询师的结论。\"]}",
+  "request_sha256": "34055f1dda690de55c4c0f5a88e4c4fd1e20010104b4712e8518c83965c155e1",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14595,
+    "input_tokens_details": {
+      "cached_tokens": 14336
+    },
+    "output_tokens": 405,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15000,
+    "x_details": [
+      {
+        "input_tokens": 14595,
+        "output_tokens": 405,
+        "prompt_tokens_details": {
+          "cached_tokens": 14336
+        },
+        "total_tokens": 15000,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

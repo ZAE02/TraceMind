@@ -1,0 +1,504 @@
+{
+  "case_id": "P05",
+  "session": 8,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P05-S08-U01",
+      "role": "client",
+      "text": "这周复盘会上主管提到我的故障报告，我居然有点不知道该怎么反应，一直低头看手机。李繁周末问我下个月要不要去短途徒步，我没马上答应，只说“再看”。其实我有点想去，又怕自己体力跟不上，到半路掉链子。回家之后我开始清那堆外卖盒，清到一半又觉得自己挺可笑的，居然为这种事松一口气。",
+      "request_sha256": "eba5398a122f42c718eea4f6e29a5b7b66bc817ee41f3fa3f68d3a5811688763",
+      "usage": {
+        "input_tokens": 10340,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 376,
+        "output_tokens_details": {
+          "reasoning_tokens": 291
+        },
+        "total_tokens": 10716,
+        "x_details": [
+          {
+            "input_tokens": 10340,
+            "output_tokens": 376,
+            "output_tokens_details": {
+              "reasoning_tokens": 291
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 10716,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U02",
+      "role": "counselor",
+      "text": "你刚才说到“清外卖盒清到一半松一口气”，又立刻觉得这很可笑——好像连让自己舒服一点，都得先给自己找个理由否定掉。李繁的邀请让“想去”和“怕掉链子”同时冒出来，那个“再看”里也许不只是体力问题，还有“我值不值得去”的犹豫。",
+      "request_sha256": "c0bc3b2823441e5ba168fc9e5c97ed9d97795ade01b61cb62a2ebaac0c03bfd2",
+      "usage": {
+        "input_tokens": 9511,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 171,
+        "output_tokens_details": {
+          "reasoning_tokens": 97
+        },
+        "total_tokens": 9682,
+        "x_details": [
+          {
+            "input_tokens": 9511,
+            "output_tokens": 171,
+            "output_tokens_details": {
+              "reasoning_tokens": 97
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 9682,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U03",
+      "role": "client",
+      "text": "“也不是什么值不值得吧，我就怕真到了半路坐地上起不来，那才丢人。其实我还偷偷查过路线，看到旁边有补给点，但看两眼就退了。整理外卖盒的时候，突然觉得家里空一点，人也能喘口气，不过马上又觉得这事太可笑了。”",
+      "request_sha256": "b80dd81ed712de712a0a4857bf7af51ddf356d75f32ecb3db300d593d6bb5a30",
+      "usage": {
+        "input_tokens": 10545,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 431,
+        "output_tokens_details": {
+          "reasoning_tokens": 363
+        },
+        "total_tokens": 10976,
+        "x_details": [
+          {
+            "input_tokens": 10545,
+            "output_tokens": 431,
+            "output_tokens_details": {
+              "reasoning_tokens": 363
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10976,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U04",
+      "role": "counselor",
+      "text": "你查路线看到补给点，看两眼就退出来，好像多停留一会儿，那个“想去”就会变得更真实、也更难再收回去了。整理外卖盒后家里空一点、能喘口气，这本是你给自己的照顾，可你又很快用“可笑”把它压下去——那种短暂的轻松，似乎总让你不敢认领。",
+      "request_sha256": "82bb075da89eed1c3903b851c1bfa71c29b4d4bb3e6d65427bd214ca095fba42",
+      "usage": {
+        "input_tokens": 9698,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 494,
+        "output_tokens_details": {
+          "reasoning_tokens": 422
+        },
+        "total_tokens": 10192,
+        "x_details": [
+          {
+            "input_tokens": 9698,
+            "output_tokens": 494,
+            "output_tokens_details": {
+              "reasoning_tokens": 422
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10192,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U05",
+      "role": "client",
+      "text": "“那你说得挺准的，我每次查路线，其实都顺手把要带的东西想了一遍，但最后还是会退出来。我怕自己太想去了，结果真到那天半路跟不上，别人还得停下来等我。整理外卖盒也是，那一瞬间觉得这屋子总算能透气了，可马上又觉得这有什么好高兴的，好像我不配为这么小的事轻松。”",
+      "request_sha256": "225eecac5dbb2c1b4730bdfc6f2f6709e1ea587ebdae213a5a26c06b46be1d2e",
+      "usage": {
+        "input_tokens": 10730,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 495,
+        "output_tokens_details": {
+          "reasoning_tokens": 412
+        },
+        "total_tokens": 11225,
+        "x_details": [
+          {
+            "input_tokens": 10730,
+            "output_tokens": 495,
+            "output_tokens_details": {
+              "reasoning_tokens": 412
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11225,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U06",
+      "role": "counselor",
+      "text": "你在“太想去”和“怕拖累别人”之间反复退出，也在“终于透气”和“这点小事不配高兴”之间把自己按了下去。好像任何一点想靠近、想轻松的感觉一出现，你就会开始替别人担心、替自己打折。",
+      "request_sha256": "45e3fe885182ca941bc61e36433b54de181947975c43f69a2a9d57ec1ac6b02b",
+      "usage": {
+        "input_tokens": 9898,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 146,
+        "output_tokens_details": {
+          "reasoning_tokens": 89
+        },
+        "total_tokens": 10044,
+        "x_details": [
+          {
+            "input_tokens": 9898,
+            "output_tokens": 146,
+            "output_tokens_details": {
+              "reasoning_tokens": 89
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10044,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U07",
+      "role": "client",
+      "text": "“我其实已经把李繁那个徒步路线收藏了，昨晚还列了个清单，写着要带什么，然后又全删了。我怕她看出来我特别想去，到时候真跟不上，更显得我这个人没数。”",
+      "request_sha256": "87aff44b72a5231bee58214ca4cf0df141e88b7678fb755cc39a053888a6a467",
+      "usage": {
+        "input_tokens": 10915,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 212,
+        "output_tokens_details": {
+          "reasoning_tokens": 165
+        },
+        "total_tokens": 11127,
+        "x_details": [
+          {
+            "input_tokens": 10915,
+            "output_tokens": 212,
+            "output_tokens_details": {
+              "reasoning_tokens": 165
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11127,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U08",
+      "role": "counselor",
+      "text": "你收藏路线、列清单，其实已经在为“想去”做准备了；可紧接着又全删掉，像要把那个认真期待的自己提前藏起来。也许怕李繁看出你特别想去，更怕一旦去了再跟不上，就坐实了“没数”这两个字。",
+      "request_sha256": "935d01d20b385fca764abddd977096ad7d7cab7a6f647ceee87304b070cc6a1c",
+      "usage": {
+        "input_tokens": 10047,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 672,
+        "output_tokens_details": {
+          "reasoning_tokens": 611
+        },
+        "total_tokens": 10719,
+        "x_details": [
+          {
+            "input_tokens": 10047,
+            "output_tokens": 672,
+            "output_tokens_details": {
+              "reasoning_tokens": 611
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10719,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U09",
+      "role": "client",
+      "text": "“其实也不是什么特别认真的准备，就是半夜睡不着，顺手点的。我也知道我这样挺矛盾的，一边收藏一边又删，像怕被自己看见似的。李繁那条消息到现在还躺在聊天框里，我每次点进去又退出，感觉回什么都像在答应什么。”",
+      "request_sha256": "4b2227ce468d0fe2b389765eccd444c2b618e05029214cd22184c00b3bd9f9bf",
+      "usage": {
+        "input_tokens": 11068,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 284,
+        "output_tokens_details": {
+          "reasoning_tokens": 223
+        },
+        "total_tokens": 11352,
+        "x_details": [
+          {
+            "input_tokens": 11068,
+            "output_tokens": 284,
+            "output_tokens_details": {
+              "reasoning_tokens": 223
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11352,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U10",
+      "role": "counselor",
+      "text": "好像你一直在检查那个“想去”的自己，连收藏、列清单都要偷偷进行，看完就删，像怕被自己看出来你其实已经认真了。而李繁那条消息变得那么重，也许不是回什么字的问题，而是你一回应，就好像要为自己心里那份“想去”负责了。",
+      "request_sha256": "9aaf2f8ea65d85fdec2179f4642ba4f3b2793cb48305b779406e1fbedf6d61a6",
+      "usage": {
+        "input_tokens": 10214,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 244,
+        "output_tokens_details": {
+          "reasoning_tokens": 178
+        },
+        "total_tokens": 10458,
+        "x_details": [
+          {
+            "input_tokens": 10214,
+            "output_tokens": 244,
+            "output_tokens_details": {
+              "reasoning_tokens": 178
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10458,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U11",
+      "role": "client",
+      "text": "可能我就是在用“再看”拖着，好让自己不用现在就去面对那个特别想去的部分。清外卖盒能松一口气，也许是最近少数几件我做了之后不觉得更糟的事。李繁那条消息我再放两天，说不定哪天就顺手回了。",
+      "request_sha256": "9ebce44dcdfc52b7e30649765aca4e1719606ead416f3d77d37dc759d3eadbbb",
+      "usage": {
+        "input_tokens": 11247,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 283,
+        "output_tokens_details": {
+          "reasoning_tokens": 226
+        },
+        "total_tokens": 11530,
+        "x_details": [
+          {
+            "input_tokens": 11247,
+            "output_tokens": 283,
+            "output_tokens_details": {
+              "reasoning_tokens": 226
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11530,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U12",
+      "role": "counselor",
+      "text": "“放两天”那口气，好像是你给自己留了一点不用立刻决定的空间，也不想现在就逼自己去面对那个“特别想去”的部分。清外卖盒这件小事，让你难得地没有变得更糟，也许值得被当作一件真实的小事留下来，而不是马上被否定。今天先到这里，那条消息可以再放一放，不用急着让它变成完成。",
+      "request_sha256": "16d843ffc9b0a64cc067af7fa0050818d9756475717f5386d1b5268de617b8e0",
+      "usage": {
+        "input_tokens": 10389,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 186,
+        "output_tokens_details": {
+          "reasoning_tokens": 110
+        },
+        "total_tokens": 10575,
+        "x_details": [
+          {
+            "input_tokens": 10389,
+            "output_tokens": 186,
+            "output_tokens_details": {
+              "reasoning_tokens": 110
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10575,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U13",
+      "role": "client",
+      "text": "我回去应该还会再点开那条消息看，但不一定回。跑鞋放在门边了，早上出门差点被它绊一下，倒也没再收进去。",
+      "request_sha256": "6f6eb13c8b2e64071ff8a71e72fd0345a15a4a5e9be26a39da76adb7382ebc42",
+      "usage": {
+        "input_tokens": 11425,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 226,
+        "output_tokens_details": {
+          "reasoning_tokens": 189
+        },
+        "total_tokens": 11651,
+        "x_details": [
+          {
+            "input_tokens": 11425,
+            "output_tokens": 226,
+            "output_tokens_details": {
+              "reasoning_tokens": 189
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11651,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U14",
+      "role": "counselor",
+      "text": "跑鞋还在门边，早上差点绊一下，但你没有再把它收进去——好像它也在替你留着一个“可以再出门”的口气。那条消息也一样，点开不一定要回，先让它和跑鞋都待在你看得见的地方就好。今天先到这里，回去不用急着决定什么。",
+      "request_sha256": "90e71e886c170cb0feb5ed89f91b7dac872df802fd18178bb1e0a297c3ef17b7",
+      "usage": {
+        "input_tokens": 10547,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 257,
+        "output_tokens_details": {
+          "reasoning_tokens": 191
+        },
+        "total_tokens": 10804,
+        "x_details": [
+          {
+            "input_tokens": 10547,
+            "output_tokens": 257,
+            "output_tokens_details": {
+              "reasoning_tokens": 191
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10804,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U15",
+      "role": "client",
+      "text": "其实我已经把李繁那条消息点开看了不下十次，每次都停在输入框，一个字也没打。跑鞋在门边第二天了，我出门前会看一眼，也不知道是在等自己换鞋，还是等它自己消失。",
+      "request_sha256": "22aa0f56a0de469af3d232f9c4f3eb8499d60e1877a3ce9256fcbfb831ae4103",
+      "usage": {
+        "input_tokens": 11573,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 453,
+        "output_tokens_details": {
+          "reasoning_tokens": 402
+        },
+        "total_tokens": 12026,
+        "x_details": [
+          {
+            "input_tokens": 11573,
+            "output_tokens": 453,
+            "output_tokens_details": {
+              "reasoning_tokens": 402
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12026,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S08-U16",
+      "role": "counselor",
+      "text": "你反复点开却一个字也不打，和出门前看一眼那双鞋，好像都是同一个动作——让自己还和“想去”保持一点联系，又不真的跨进去。也许现在不用急着分清是在等自己换鞋，还是等它消失，那个“再看一眼”本身就还留着一点东西没走。",
+      "request_sha256": "b07e742c909cc59ce024a61bfd9fb2e47d8c835ba109ff0d1ac00fe174a0f0c0",
+      "usage": {
+        "input_tokens": 10709,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 233,
+        "output_tokens_details": {
+          "reasoning_tokens": 167
+        },
+        "total_tokens": 10942,
+        "x_details": [
+          {
+            "input_tokens": 10709,
+            "output_tokens": 233,
+            "output_tokens_details": {
+              "reasoning_tokens": 167
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10942,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

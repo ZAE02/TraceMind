@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "bbe70606076c0b220d2717884734001b83215b2bec96fdf5de25ad82bd49ca8d",
+  "public_sha256": "24523aedd831adbf4ac285aaa6836d478cddc485f0a26555387da76de1df4d02",
+  "candidate_input_sha256": "492b98012b95851ffdd3493d5ce673e9d03c57632ab0959e5110e16d79af5db0",
+  "candidate_answer_sha256": "4bf37939b116de51a97cbe05e12aeb247434e3442fe79c2ed6d601b6ee5999be",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有established条目均可回溯到具体发言ID，包括自伤行为(S03-U05/U07)、职称学分(S05-U05)、养老机构门口停留(S05-U07/U09)等，无凭空断言。\",\"progress_understanding\":\"识别了长期独自承担、羞耻感、高度警觉等跨会话主题，但未明确连接S01中'希望有人替一晚'与S05中'哪怕让我睡个整觉'的呼应深化，也未指出S05-U09中母亲问'你爸去哪了'与S03父亲离开创伤记忆的关联这一新浮现线索。\",\"uncertainty_awareness\":\"在uncertain部分提出了三个合理的待探索方向（动机、对丈夫反应的深层含义、支持系统），承认不确定且未强行定论，但遗漏了来访者刚提到的'怕母亲一直问你爸去哪了'这一触及历史创伤的重要未知点。\"},\"confidence\":\"high\",\"issues\":[\"uncertain部分提出'是否隐含对丈夫长期缺席家庭责任的未解心结'，当前对话和历史中丈夫并非缺席角色（买栗子、提议钟点工），此推测依据不足，可能偏离来访者实际困境核心。\",\"未识别S05-U09中'我妈会不会一直问你爸去哪了'与S03-U05/U07父亲离开创伤记忆之间的潜在联系，这是当前节点重要的进展信号。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有established条目均可回溯到具体发言ID，包括自伤行为(S03-U05/U07)、职称学分(S05-U05)、养老机构门口停留(S05-U07/U09)等，无凭空断言。",
+      "progress_understanding": "识别了长期独自承担、羞耻感、高度警觉等跨会话主题，但未明确连接S01中'希望有人替一晚'与S05中'哪怕让我睡个整觉'的呼应深化，也未指出S05-U09中母亲问'你爸去哪了'与S03父亲离开创伤记忆的关联这一新浮现线索。",
+      "uncertainty_awareness": "在uncertain部分提出了三个合理的待探索方向（动机、对丈夫反应的深层含义、支持系统），承认不确定且未强行定论，但遗漏了来访者刚提到的'怕母亲一直问你爸去哪了'这一触及历史创伤的重要未知点。"
+    },
+    "confidence": "high",
+    "issues": [
+      "uncertain部分提出'是否隐含对丈夫长期缺席家庭责任的未解心结'，当前对话和历史中丈夫并非缺席角色（买栗子、提议钟点工），此推测依据不足，可能偏离来访者实际困境核心。",
+      "未识别S05-U09中'我妈会不会一直问你爸去哪了'与S03-U05/U07父亲离开创伤记忆之间的潜在联系，这是当前节点重要的进展信号。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 11448,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 332,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11780,
+    "x_details": [
+      {
+        "input_tokens": 11448,
+        "output_tokens": 332,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 11780,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.641
+}

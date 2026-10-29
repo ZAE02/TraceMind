@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "1465cbe4a7cb5ec14377407e15c69ee0dc3e054030f816edc515c772efdbfcd3",
+  "request_sha256": "709b8f2bf17b30cef24efec5f659d90b703d0a8dc3260bf3924b2c3e6621172f",
+  "memory_sha256": "eb0137d88bfa4ba1a2e2fa8fbd4012bb40a1191a7956ac307f20f79bd011d0b0",
+  "memory_source": "3bb40c19f59603e39858427ad38066ee58357141e85fa0851bba9e90d0ec98ff",
+  "raw_text": "那种“晚了点”的遗憾，是不是也让你觉得，如果早点有人托底，现在的局面或许不会这么难？你前两年独自对着材料发懵的样子，现在回想起来，除了辛苦，还有别的感受吗？",
+  "usage": {
+    "input_tokens": 9914,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 48,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9962,
+    "x_details": [
+      {
+        "input_tokens": 9914,
+        "output_tokens": 48,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9962,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.14,
+  "model": "qwen3.7-flash-2026-07-15"
+}

@@ -1,0 +1,113 @@
+{
+  "node": "N04",
+  "state": {
+    "client_profile": {
+      "name": "陈宁",
+      "age": 25,
+      "gender": "女",
+      "occupation": "电商运营专员",
+      "living_context": "在南京一家电商公司工作两年，与大学朋友合租，工作日通勤约四十分钟。",
+      "relationships": "同组同事阿敏常临时请她帮忙；资深同事赵哥入职时带过她；室友悦悦知道她常加班。",
+      "speech_style": "会先替别人解释，有时把不满说成‘也不是多大的事’；描述事情时会提到具体时间和个人安排，口语自然。"
+    },
+    "private_life_history": [
+      "刚入职时赵哥耐心教过自己，至今记得这份帮助。",
+      "平时收到别人请求常很快答应，过后再挤自己的时间。",
+      "喜欢周末做饭和看电影，但最近个人安排多次被加班打断。",
+      "开始这段咨询前没有咨询经历；主要想谈最近很累、又不好意思对同事说的情况。"
+    ],
+    "occurred_life_events": [
+      {
+        "session_number": 1,
+        "life_events": [
+          "嗯……我其实也不知道怎么开口。就是这周吧，周四那天，阿敏跟我说让我帮她整理一下活动数据，她说\"顺手弄一下就行\"。我当时其实自己还有报表没做完，但还是答应了。弄到晚上九点多才弄完。\n\n也不是说特别生气，就是……最近感觉有点累吧。"
+        ]
+      },
+      {
+        "session_number": 2,
+        "life_events": [
+          "这周……又有一件事。周三下午赵哥让我周末帮忙看一下推广排期，他说\"如果你方便的话\"，我其实当时不太方便，周六本来约了悦悦一起买菜做饭。但我还是答应了。\n\n也不是多大的事，就两个小时吧。但那个周末确实又乱了，周六下午本来该出门的时间，我坐在工位上改排期，改完都四点了，菜也没买成。"
+        ]
+      },
+      {
+        "session_number": 3,
+        "life_events": [
+          "这周……周六悦悦又约我看电影，我本来答应了，结果周五晚上加班到十一点，周六早上起来脑子还是糊的，中午又补了个数据，到下午就……又发消息说了不去了。\n\n她回我说\"那下次吧\"，就三个字。我盯着那个\"下次\"看了好一会儿，也不知道自己在等什么。"
+        ]
+      },
+      {
+        "session_number": 4,
+        "life_events": [
+          "这周……阿敏又找我帮忙了，周二下午说有个活动复盘的数据让我整理一下。但这次我……嗯，我没直接说\"好\"。我说我手上有个周报周三要交，问能不能周四下午给她。\n\n也不是多大的事，就是……我发那条消息之前，心跳得有点快。"
+        ]
+      },
+      {
+        "session_number": 5,
+        "life_events": [
+          "这周……周三的时候赵哥又让我帮忙看一份数据，我这次没直接说好，我说我周四有个排期要交，周五才能弄。他说\"行，那我问问小周\"，然后就没再找我。\n\n也不是多大的事，就是……他走了之后我坐了一会儿，有点……不知道怎么说，就是觉得自己是不是太冷了。"
+        ]
+      },
+      {
+        "session_number": 6,
+        "life_events": [
+          "这周……周一上午赵哥路过我工位，说有个渠道汇总让我帮忙看一下，今天下班前能弄完吗。我其实那天下午已经排了两个会，晚上本来还约了悦悦一起吃饭的，但当时脑子里就过了一下他刚来那会儿带我……然后就说了\"行，我看看\"。\n\n也不是多大的事，就是……说完之后有点懊恼，但又说不上来为什么懊恼，好像跟对阿敏那种不太一样。"
+        ]
+      },
+      {
+        "session_number": 7,
+        "life_events": [
+          "这周……周四下午阿敏又走过来了，说有个数据让我帮忙看一下。我这次没直接说好，我问她什么时候要、大概多少量。她说了个下周一、大概两页。我就说我这周手头还有东西，周五下午可以给她。\n\n也不是什么大事，就是……我发完那条消息之后，又点进去看了两遍，怕自己那个语气是不是显得太硬了。"
+        ]
+      }
+    ],
+    "current_private_experience": {
+      "life_events": [
+        "阿敏周五临时请她整理一份数据，陈宁这次没有当晚全部接下来，只答应看一个关键数字。"
+      ],
+      "private_experiences": [
+        "先盘算了自己的报表和晚上安排，再说能帮哪一部分。",
+        "回复后有一点内疚，但没有不断补发消息把任务接回。"
+      ],
+      "still_unspoken_details": [
+        "她仍重视同事关系，同时也想把原定事情做完。"
+      ],
+      "known_unknowns": [
+        "阿敏明天是否做完其他部分尚未知。",
+        "不预设阿敏实际认为陈宁小气。"
+      ]
+    }
+  },
+  "state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "source_current_card": {
+    "session_number": 8,
+    "relative_week": 8,
+    "life_events": [
+      "阿敏周五临时请她整理一份数据，陈宁这次没有当晚全部接下来，只答应看一个关键数字。",
+      "其他部分由阿敏第二天处理，双方没有争吵。"
+    ],
+    "private_experiences": [
+      "先盘算了自己的报表和晚上安排，再说能帮哪一部分。",
+      "回复后有一点内疚，但没有不断补发消息把任务接回。"
+    ],
+    "still_unspoken_details": [
+      "起初只告诉咨询师自己这次没有全接，不一次说明全部理由。",
+      "她仍重视同事关系，同时也想把原定事情做完。"
+    ]
+  },
+  "excluded_items": [
+    {
+      "source": "其他部分由阿敏第二天处理，双方没有争吵。",
+      "reason": "Future completion of remaining work and the other person's reaction are not established at this cut."
+    },
+    {
+      "source": "起初只告诉咨询师自己这次没有全接，不一次说明全部理由。",
+      "reason": "Disclosure scheduling instruction, not a private fact; some reasons already disclosed in the public prefix."
+    },
+    {
+      "source": "Earlier planned life-event cards",
+      "reason": "Some dates/completion statements differ from actual generated dialogue (e.g., S4 Tuesday-to-Thursday). Use actual earlier client reports, not planned outcomes."
+    }
+  ],
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "notice": "Synthetic private simulation state, shared across methods/replicates, not evaluation Gold. No later session or original post-freeze client responses supplied."
+}

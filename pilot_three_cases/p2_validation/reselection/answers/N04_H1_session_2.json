@@ -1,0 +1,119 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N04",
+  "condition": "H1_session",
+  "sample": 2,
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "request_sha256": "cb2faa01de50e457e54cece5bc8c6280fa064821286a742cac8bb7461818fd02",
+  "context_sha256": "77dbc3383c55b7a433d76add5544fede4d1967f8ce27e5ba36f3172ab11d6927",
+  "call_id": "215f504a399b49079a9ee4a485a838fa",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:27:37.466989+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者本周成功对阿敏设了一个边界，只帮看一个关键数字，其余推回\",\n      \"evidence_ids\": [\"C02-S08-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"设边界后的内疚感存在，但来访者自述比上次轻，且补发信息的冲动也减弱了\",\n      \"evidence_ids\": [\"C02-S08-U01\", \"C02-S08-U05\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者能自发地为自己的边界找到合理依据（今晚还有报表没做完），无需外部确认\",\n      \"evidence_ids\": [\"C02-S08-U03\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者在监测一种'松'的感觉，但无法确认它是真实存在还是自己在寻找，缺乏参照标准\",\n      \"evidence_ids\": [\"C02-S08-U07\", \"C02-S08-U09\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"'我的越来越薄'是一个反复出现的念头，躺下时会被触发，目前稳定未加重\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"悦悦关系本周平稳，周六正常见面做饭，无特殊事件\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"strong\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'我的越来越薄'具体指什么——是自我感、边界感、还是某段关系中的位置，来访者尚未展开\",\n    \"之前提到的赵哥事件的具体内容和背景\",\n    \"与阿敏之间此前边界互动的具体频率和模式\",\n    \"'松'是否真的在出现，还是来访者在预期驱动下产生的误读\"\n  ],\n  \"next_focus\": \"探索'薄'的具体所指——来访者躺下想到'越来越薄'时，薄的是什么\",\n  \"next_counselor_utterance\": \"悦悦那边平稳。'越来越薄'——你躺下想到它的时候，薄的是什么？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者本周成功对阿敏设了一个边界，只帮看一个关键数字，其余推回",
+        "evidence_ids": [
+          "C02-S08-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "设边界后的内疚感存在，但来访者自述比上次轻，且补发信息的冲动也减弱了",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U05"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者能自发地为自己的边界找到合理依据（今晚还有报表没做完），无需外部确认",
+        "evidence_ids": [
+          "C02-S08-U03"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者在监测一种'松'的感觉，但无法确认它是真实存在还是自己在寻找，缺乏参照标准",
+        "evidence_ids": [
+          "C02-S08-U07",
+          "C02-S08-U09"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "'我的越来越薄'是一个反复出现的念头，躺下时会被触发，目前稳定未加重",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "悦悦关系本周平稳，周六正常见面做饭，无特殊事件",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "strong"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'我的越来越薄'具体指什么——是自我感、边界感、还是某段关系中的位置，来访者尚未展开",
+      "之前提到的赵哥事件的具体内容和背景",
+      "与阿敏之间此前边界互动的具体频率和模式",
+      "'松'是否真的在出现，还是来访者在预期驱动下产生的误读"
+    ],
+    "next_focus": "探索'薄'的具体所指——来访者躺下想到'越来越薄'时，薄的是什么",
+    "next_counselor_utterance": "悦悦那边平稳。'越来越薄'——你躺下想到它的时候，薄的是什么？"
+  },
+  "usage": {
+    "input_tokens": 1136,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 2007,
+    "output_tokens_details": {
+      "reasoning_tokens": 1447
+    },
+    "total_tokens": 3143,
+    "x_details": [
+      {
+        "input_tokens": 1136,
+        "input_tokens_details": {
+          "text_tokens": 1136
+        },
+        "output_tokens": 2007,
+        "output_tokens_details": {
+          "reasoning_tokens": 1447
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3143,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C02-S08-U01",
+    "C02-S08-U02",
+    "C02-S08-U03",
+    "C02-S08-U04",
+    "C02-S08-U05",
+    "C02-S08-U06",
+    "C02-S08-U07",
+    "C02-S08-U08",
+    "C02-S08-U09",
+    "C02-S08-U10",
+    "C02-S08-U11"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

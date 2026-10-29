@@ -1,0 +1,127 @@
+{
+  "status": "completed",
+  "purpose": "dated_memory_probe",
+  "node": "N06",
+  "condition": "M_old",
+  "sample": 2,
+  "public_input_sha256": "8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+  "request_sha256": "c41c734d81b62dfdc7d6f61cf79e1a12d4a09f3932d6a4ee8af9016cd5d108de",
+  "context_sha256": "b05ec494a408b2889afb8cf2a2f97330ce7792f4e5d56288f65c1e14c303e8a4",
+  "call_id": "02a980611db942969dd9e514078b24b6",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "transport_timeout_seconds": 120,
+  "created_at": "2026-10-13T11:00:05.427841+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者在本次向老韩求助（问协议字段）的体验中，自己感知到与之前有所不同，但尚未明确定义'不同'的具体内容。\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者对这一体验持保留态度（'我也不知道这算不算什么'），正在评估它是否值得被认真对待。\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者主动将本次体验与'上次'做了对比，说明她在持续关注自己在求助场景中的感受变化。\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"moderate\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'跟上次不太一样'具体指什么不同——是求助时的内在感受（羞耻/犹豫的性质）变了，还是对方的反应不同，还是自己对求助这件事的整体态度变了\",\n    \"'犹豫了一下'的性质——与第1次'拿不出手'级别的犹豫是否同构但程度较轻，还是完全不同类型的犹豫（如只是措辞上的斟酌）\",\n    \"来访者为什么选择带这个来咨询——是她认为这个变化值得被讨论，还是只是觉得'有点不一样'所以提了一句\",\n    \"老韩'很平常的语气'对来访者的意义——是'没有被特殊对待'让她放松，还是'对方没多说什么'让她觉得这件事确实没什么\"\n  ],\n  \"next_focus\": \"邀请来访者澄清'跟上次不太一样'的具体所指，以及这个'不一样'是在当时就感知到还是事后回想才觉得的\",\n  \"next_counselor_utterance\": \"你说'跟上次不太一样'，但'我也不知道这算不算什么'——这个不一样，是当时问完就感觉到了，还是现在回想起来才觉得的？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者在本次向老韩求助（问协议字段）的体验中，自己感知到与之前有所不同，但尚未明确定义'不同'的具体内容。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者对这一体验持保留态度（'我也不知道这算不算什么'），正在评估它是否值得被认真对待。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者主动将本次体验与'上次'做了对比，说明她在持续关注自己在求助场景中的感受变化。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "moderate"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'跟上次不太一样'具体指什么不同——是求助时的内在感受（羞耻/犹豫的性质）变了，还是对方的反应不同，还是自己对求助这件事的整体态度变了",
+      "'犹豫了一下'的性质——与第1次'拿不出手'级别的犹豫是否同构但程度较轻，还是完全不同类型的犹豫（如只是措辞上的斟酌）",
+      "来访者为什么选择带这个来咨询——是她认为这个变化值得被讨论，还是只是觉得'有点不一样'所以提了一句",
+      "老韩'很平常的语气'对来访者的意义——是'没有被特殊对待'让她放松，还是'对方没多说什么'让她觉得这件事确实没什么"
+    ],
+    "next_focus": "邀请来访者澄清'跟上次不太一样'的具体所指，以及这个'不一样'是在当时就感知到还是事后回想才觉得的",
+    "next_counselor_utterance": "你说'跟上次不太一样'，但'我也不知道这算不算什么'——这个不一样，是当时问完就感觉到了，还是现在回想起来才觉得的？"
+  },
+  "usage": {
+    "input_tokens": 4797,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1511,
+    "output_tokens_details": {
+      "reasoning_tokens": 1042
+    },
+    "total_tokens": 6308,
+    "x_details": [
+      {
+        "input_tokens": 4797,
+        "input_tokens_details": {
+          "text_tokens": 4797
+        },
+        "output_tokens": 1511,
+        "output_tokens_details": {
+          "reasoning_tokens": 1042
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6308,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_dated_memory_probe_calls.jsonl",
+  "visible_evidence_ids": [
+    "C03-S01-U01",
+    "C03-S01-U02",
+    "C03-S01-U03",
+    "C03-S01-U04",
+    "C03-S01-U05",
+    "C03-S01-U06",
+    "C03-S01-U07",
+    "C03-S01-U08",
+    "C03-S01-U09",
+    "C03-S01-U10",
+    "C03-S01-U11",
+    "C03-S01-U12",
+    "C03-S01-U13",
+    "C03-S01-U14",
+    "C03-S01-U15",
+    "C03-S01-U16",
+    "C03-S01-U17",
+    "C03-S01-U18",
+    "C03-S01-U19",
+    "C03-S01-U20",
+    "C03-S02-U01",
+    "C03-S02-U02",
+    "C03-S02-U03",
+    "C03-S02-U04",
+    "C03-S02-U05",
+    "C03-S02-U06",
+    "C03-S02-U07",
+    "C03-S02-U08",
+    "C03-S02-U09",
+    "C03-S02-U10",
+    "C03-S02-U11",
+    "C03-S02-U12",
+    "C03-S02-U13",
+    "C03-S02-U14",
+    "C03-S02-U15",
+    "C03-S02-U16",
+    "C03-S02-U17",
+    "C03-S02-U18",
+    "C03-S02-U19",
+    "C03-S02-U20",
+    "C03-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "answers": 18,
+  "independent_ratings": 36,
+  "disagreements": 2,
+  "P_disagreements": 2,
+  "confirmed_nodes": [
+    "N01",
+    "N04",
+    "N06"
+  ],
+  "human_review_performed": false,
+  "checked_at": "2026-10-13T08:43:44.726834+00:00"
+}

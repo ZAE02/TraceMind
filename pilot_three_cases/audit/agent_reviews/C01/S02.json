@@ -1,0 +1,110 @@
+{
+  "kind": "model_review",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "case_id": "C01",
+  "session_number": 2,
+  "transcript_sha256": "aa58d1e2f890cb75202e3025493180079feddd73d57a3e0b78917d3fef3b1cb2",
+  "decision": "approve",
+  "scores": {
+    "naturalness": 4,
+    "counseling_quality": 4,
+    "longitudinal_plausibility": 4
+  },
+  "major_issues": [],
+  "minor_issues": [
+    {
+      "utterance_ids": [
+        "C01-S02-U06"
+      ],
+      "explanation": "把“希望对方看到费时细节”解释成“对方得花一样多时间”偏强；来访者随后赞同不代表原证据已支持相等时间的标准。后续应核实她需要哪种具体确认，不把这个标准永久写成事实。"
+    },
+    {
+      "utterance_ids": [
+        "C01-S02-U04",
+        "C01-S02-U08",
+        "C01-S02-U10",
+        "C01-S02-U12",
+        "C01-S02-U14",
+        "C01-S02-U16"
+      ],
+      "explanation": "仍频繁逐句引用并拆解短语，语言带模板感；相较前稿已减少相邻轮重复同一历史对比，当前达到可用门槛。后续宜更多直接回应体验，不必每个比喻都区别成机制。"
+    },
+    {
+      "utterance_ids": [
+        "C01-S02-U12",
+        "C01-S02-U16"
+      ],
+      "explanation": "“更自动”和“走不开与停不下来不同”是暂定假设，并无充分历史行为比较支持程度变化；本次带出具体过程可以视为信息增加，不等于心理机制已经改变。"
+    }
+  ],
+  "supported_understanding": [
+    {
+      "understanding": "他人肯定与自行检查都只能短暂使她觉得可以，确认很快再次被疑问动摇。",
+      "evidence": [
+        "C01-S02-U01",
+        "C01-S02-U03",
+        "C01-S02-U05",
+        "C01-S02-U09"
+      ]
+    },
+    {
+      "understanding": "她担心检查者没有逐处仔细看，不能从别人表示没问题获得稳定确定感。",
+      "evidence": [
+        "C01-S02-U05",
+        "C01-S02-U07"
+      ]
+    },
+    {
+      "understanding": "检查既有主动再看也有注意力被局部吸引后迅速操作；她把那一刻描述为紧和被拽，明确不称为心跳加速的怕。",
+      "evidence": [
+        "C01-S02-U11",
+        "C01-S02-U13",
+        "C01-S02-U15",
+        "C01-S02-U17"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "遗漏细节最令她担心的后果及其与专业评价的联系尚未说出，不能从卡片补足。",
+    "注意力与操作的先后、紧的性质仍是回忆观察，不是已确定的自动机制。",
+    "颜色是否为固定触发点，U19仍明确不确定。",
+    "本次海报的新重复检查并不证明首轮那一项目的计划失败；没有首轮项目的后续结果。"
+  ],
+  "new_facts": [
+    {
+      "fact": "这周活动海报交付前找小许、周姐、设计朋友各检查，三人均表示没问题，发送前自己仍检查四遍。",
+      "category": "work_event",
+      "first_session": 2,
+      "evidence": [
+        "C01-S02-U01"
+      ]
+    },
+    {
+      "fact": "她听到没问题时短暂放松，随后怀疑别人只是快速扫过，尤其那些自己费时的细节。",
+      "category": "reassurance_experience",
+      "first_session": 2,
+      "evidence": [
+        "C01-S02-U03",
+        "C01-S02-U05"
+      ]
+    },
+    {
+      "fact": "局部查看可能持续十几秒至一两分钟，也可能两三秒；会试调字号间距后再放回原样。",
+      "category": "checking_process",
+      "first_session": 2,
+      "evidence": [
+        "C01-S02-U17"
+      ]
+    },
+    {
+      "fact": "她初步觉得颜色区域会吸引检查，但尚未确定。",
+      "category": "tentative_observation",
+      "first_session": 2,
+      "evidence": [
+        "C01-S02-U19"
+      ]
+    }
+  ],
+  "notes": "独立模型复审，非人工审核。对新的可见发言哈希进行审阅；前稿重复相同历史对比的问题明显减少，三维均分4达到门槛，尚有频繁引词的风格局限。人物和时间无重大冲突。探索集中到确认短暂、局部注意力与操作过程；不要求本轮解释所有评价担忧，也不把局部过程的描述细化标作心理改善或恶化。"
+}

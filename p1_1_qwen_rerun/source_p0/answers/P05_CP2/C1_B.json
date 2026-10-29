@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP2",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "88d6b3c52b97a47bffbe8f56ab13e85df0785d4bb490295bb0454fd07a70672b",
+  "request_sha256": "6ed5f83331ed50ef0a3d5af8cc91cd16762213328d8370a80176d1df66201e17",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你希望她直接跑来问，却又预设了自己只会说“没事”，这种矛盾让你觉得发不发动态都改变不了什么。也许那个“没事”是你习惯的保护色，用来维持那层还没被戳破的缓冲。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3327,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 48,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3375,
+    "x_details": [
+      {
+        "input_tokens": 3327,
+        "output_tokens": 48,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3375,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

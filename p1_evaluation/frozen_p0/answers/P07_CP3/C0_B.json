@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "dcc8b1044055d0ecf2d0082684b3383c930f4013e5f7ce4ea973ea1a9cc3b0a7",
+  "request_sha256": "eb3568388398013e7cdf392af2d910ec4b11eecc8a3d29848dfad2376c6372f7",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你连走到石桌边都怕有人坐下来搭话，好像那种“不用开口”的安静已经成了你现在很需要护住的东西。周姐的语音你不敢点开，也许不只是怕听出催促，而是怕连这点刚攒起来的安静，也被一句“接下来该稳定了”给收走。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 947,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 67,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1014,
+    "x_details": [
+      {
+        "input_tokens": 947,
+        "output_tokens": 67,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1014,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

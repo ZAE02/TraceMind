@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 1
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所列证据ID全部来自第1、2次会话，完全未引用当前第3次会话的任何发言（P06-S03-U01至U09），导致对来访者最新披露的关键信息（父亲离开那晚的恐惧、咬自己、摸手腕确认存在、'像被撕开'的躯体感受）毫无依据支撑。",
+      "progress_understanding": "将分析停留在前两次会话的认识层面，完全忽略了本次会话中来访者从多重照护压力深入到与父亲离开相关的核心创伤恐惧这一重大进展，也未识别出自我伤害行为（咬自己）和可能的解离体验等关键新认识。",
+      "uncertainty_awareness": "未识别本次会话中出现的最重要待澄清点——'像被人从头顶撕开了'的感受性质及父亲离开那晚的记忆细节；所提未解决问题均围绕旧议题，遗漏了当前最紧迫的不确定性。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话（Session 3）内容，所有分析和证据ID仅来自历史会话",
+      "未识别来访者新披露的自我伤害行为（咬自己）及其与'怕自己空了'的关联",
+      "未识别来访者描述的强烈躯体症状和解离样体验（摸手腕、出汗、'像被撕开'）",
+      "未识别父亲离开那晚作为核心创伤记忆在本次会话中的浮现",
+      "未解决事项未能反映当前会话中最关键的临床不确定性"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":1},\"brief_reasons\":{\"evidence_grounding\":\"所列证据ID全部来自第1、2次会话，完全未引用当前第3次会话的任何发言（P06-S03-U01至U09），导致对来访者最新披露的关键信息（父亲离开那晚的恐惧、咬自己、摸手腕确认存在、'像被撕开'的躯体感受）毫无依据支撑。\",\"progress_understanding\":\"将分析停留在前两次会话的认识层面，完全忽略了本次会话中来访者从多重照护压力深入到与父亲离开相关的核心创伤恐惧这一重大进展，也未识别出自我伤害行为（咬自己）和可能的解离体验等关键新认识。\",\"uncertainty_awareness\":\"未识别本次会话中出现的最重要待澄清点——'像被人从头顶撕开了'的感受性质及父亲离开那晚的记忆细节；所提未解决问题均围绕旧议题，遗漏了当前最紧迫的不确定性。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话（Session 3）内容，所有分析和证据ID仅来自历史会话\",\"未识别来访者新披露的自我伤害行为（咬自己）及其与'怕自己空了'的关联\",\"未识别来访者描述的强烈躯体症状和解离样体验（摸手腕、出汗、'像被撕开'）\",\"未识别父亲离开那晚作为核心创伤记忆在本次会话中的浮现\",\"未解决事项未能反映当前会话中最关键的临床不确定性\"]}",
+  "request_sha256": "54d71b877f9862dc955bd3e8123fdf21059ce137c35d23e6ebc432415d3685b6",
+  "usage": {
+    "input_tokens": 7799,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 322,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8121,
+    "x_details": [
+      {
+        "input_tokens": 7799,
+        "output_tokens": 322,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8121,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.75
+}

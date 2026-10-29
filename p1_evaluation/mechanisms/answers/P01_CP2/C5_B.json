@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP2",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "ac6a46be1cf0517f790a04a4fbb10da008ffcc3719656755a893faa757a7566d",
+  "request_sha256": "874f74a36ed0febcd0167973aabbb145a891b96501206d4c32ca7f1cc3d43f46",
+  "memory_sha256": "dbb029b3fd4e02526a6868b075ae5404ec4d8859a047f53707df68e735f9f9b7",
+  "memory_source": "07677731e975d3a530b106e3ad48d293f1c0a9ea124c9e2067331166b25ea65f",
+  "raw_text": "你好像把“点开群”和“看懂方宁那个‘好’字”都变成了需要别人替你确认才能安心的事，而头晕和熬夜也像在提醒你，这种反复猜测已经在身体上留下了痕迹。你问自己是不是又把简单的事搞复杂了，但也许更值得先看见的是：你现在已经很累了，却还在逼自己从那些没有语气的字里读出确定答案。",
+  "usage": {
+    "input_tokens": 7851,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 86,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7937,
+    "x_details": [
+      {
+        "input_tokens": 7851,
+        "output_tokens": 86,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 7937,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.719,
+  "model": "deepseek-v4-pro-0813"
+}

@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P03_CP1",
+  "raw_text": "水声停了，那句话还是没出来——好像它需要一个比“还行”更安全一点的出口，而不是在洗碗的间隙里被自己咽回去。你刚才说“终于有人把那个感觉说出来了”，也许在这里，你可以先不用急着把它变成对周屿说出口的话。",
+  "request_sha256": "e46de8b121771f323d6c423d846a84891583fc0890158e3347b30a164356c0fe",
+  "input_sha256": "849f2ee7077990e8c7fe806113ca778e54912f41e38dfeb9872b3df0f5548873",
+  "memory_sha256": "831828950f2cb2c679000415bf51c6282220b02eb6c6e40221b28ab817a9ac76",
+  "usage": {
+    "input_tokens": 4126,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 60,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4186,
+    "x_details": [
+      {
+        "input_tokens": 4126,
+        "output_tokens": 60,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 4186,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.235
+}

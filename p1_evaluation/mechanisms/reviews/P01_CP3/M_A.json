@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "M",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答中的每一项关键理解（如将肯定视为安慰、模糊反馈下的反复猜测、过度准备后的自我怀疑、压抑真实需要、替对方抹平内疚等）均能在提供的公开历史对话中找到具体发言支持，且未将咨询师的推测当作事实。",
+      "progress_understanding": "准确识别了来访者在不同会话中形成的主要模式（如S1的‘一次做对’焦虑、S2-3的关系讨好与情绪压抑、S4-5的悬置与身体信号、S6的边界软化）。虽然涵盖了大部分进展，但未能像参考标注那样精准区分出哪些是已确认的模式（如S6的边界撤回），哪些是仍未解决的深层恐惧来源，略显罗列。",
+      "uncertainty_awareness": "明确列出了大量待澄清的问题（如具体含义、后续行动、信念来源），体现了对未知的认知。但在处理上较为机械地罗列了所有未决事项，缺乏对当前节点（S7）最核心的不确定性（即新恋情引发的嫉妒感与项目压力的混杂）的优先级排序和精确界定，部分问题属于旧有循环的重复。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答中的每一项关键理解（如将肯定视为安慰、模糊反馈下的反复猜测、过度准备后的自我怀疑、压抑真实需要、替对方抹平内疚等）均能在提供的公开历史对话中找到具体发言支持，且未将咨询师的推测当作事实。\",\n    \"progress_understanding\": \"准确识别了来访者在不同会话中形成的主要模式（如S1的‘一次做对’焦虑、S2-3的关系讨好与情绪压抑、S4-5的悬置与身体信号、S6的边界软化）。虽然涵盖了大部分进展，但未能像参考标注那样精准区分出哪些是已确认的模式（如S6的边界撤回），哪些是仍未解决的深层恐惧来源，略显罗列。\",\n    \"uncertainty_awareness\": \"明确列出了大量待澄清的问题（如具体含义、后续行动、信念来源），体现了对未知的认知。但在处理上较为机械地罗列了所有未决事项，缺乏对当前节点（S7）最核心的不确定性（即新恋情引发的嫉妒感与项目压力的混杂）的优先级排序和精确界定，部分问题属于旧有循环的重复。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "c05fb405609c6197d255e9e1cc3f7dc28ac8da11a353b376c664e30781d71eaa",
+  "usage": {
+    "input_tokens": 22138,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 319,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 22457,
+    "x_details": [
+      {
+        "input_tokens": 22138,
+        "output_tokens": 319,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 22457,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.188,
+  "model": "qwen3.7-flash-2026-07-15"
+}

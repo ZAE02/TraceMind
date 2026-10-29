@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "5a58b6d9f3dc25c28ed7d978877fa41447f74a96b65c0b0866eca16107791445",
+  "request_sha256": "9603c3420c6f1caf87bc4f3965b9d2b83da8ea427735921420a44928e96eca57",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "没回周姐的语音，也没点开那盘残局，这种“连走开的力气都得提前攒”的感觉，听起来像是你把自己关进了一个绝对安全的壳里。也许我们可以先看看，在这个壳里，除了怕被追问，还有没有一点点属于你自己的、不用向任何人交代的安静？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 9519,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 65,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9584,
+    "x_details": [
+      {
+        "input_tokens": 9519,
+        "output_tokens": 65,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9584,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

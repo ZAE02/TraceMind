@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者最新发言中'别跑，先把这一页讲完'的内心声音，并将其与历史中反复出现的'被接住'主题自然连接。\",\"exploration_value\":\"将'怕硬撑'重新框架为'自己接住自己的开始'有一定价值，但以解释性断言呈现，未给来访者对这种新视角的不适或犹豫留出表达空间。\",\"response_appropriateness\":\"开头直接诊断式地告诉来访者'你还没完全接纳'，语气偏武断；在来访者眼睛更热、情绪脆弱且明确表达害怕的时刻，这种解释性语言显得生硬，缺少足够的情绪容纳。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"是因为你还没完全接纳那个\"差点逃跑\"的自己\",\"evidence_ids\":[\"P03-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应以因果解释('是因为')开场，在来访者情绪高涨时显得过于分析性，缺乏先共情再探索的节奏\",\"未充分回应来访者表达的'怕'——即担心被咨询师的新框架改变自己对经历的原有理解，这份怕本身值得被看见和停留\"]}",
+  "request_sha256": "34055f1dda690de55c4c0f5a88e4c4fd1e20010104b4712e8518c83965c155e1",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14595,
+    "input_tokens_details": {
+      "cached_tokens": 14336
+    },
+    "output_tokens": 338,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14933,
+    "x_details": [
+      {
+        "input_tokens": 14595,
+        "output_tokens": 338,
+        "prompt_tokens_details": {
+          "cached_tokens": 14336
+        },
+        "total_tokens": 14933,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

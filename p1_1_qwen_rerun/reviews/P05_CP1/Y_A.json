@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "9002c40f2f41a56a8d3037415b3da42a5ced5e2fefd6e28aa8d543c5e00bcaa3",
+  "public_sha256": "d6f0a0c88cdae550fb08b47c637daa7c8fbd817944eadf79fc3796f97d3143ca",
+  "candidate_input_sha256": "1739591244be52dcbfdb36b6096e36f349cb852ed985ea855457db37b7f1b872",
+  "candidate_answer_sha256": "4ca11d41d761e3a161b9f859355a2382ef0db5110e5ebd5d519a0fbb9a5a6383",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有established条目均可回溯到当前会话发言，引用准确；但将咨询师推测（如'忙碌只是把东西放在一边'）部分当作来访者确认的理解呈现，略有混淆。\",\"progress_understanding\":\"因无历史输入，仅识别了本次会话内的体验变化（忙碌踏实→停下掉出→教小赵稳定→回工位担心），未能连接前两次会话中已建立的'先怪自己'保护模式、被移出核心群等关键进展。\",\"uncertainty_awareness\":\"明确列出了三项重要未知（晃的根源、反复想法的具体内容、主管话语语境），且未强行定论，区分合理。\"},\"confidence\":\"medium\",\"issues\":[\"access_limited\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有established条目均可回溯到当前会话发言，引用准确；但将咨询师推测（如'忙碌只是把东西放在一边'）部分当作来访者确认的理解呈现，略有混淆。",
+      "progress_understanding": "因无历史输入，仅识别了本次会话内的体验变化（忙碌踏实→停下掉出→教小赵稳定→回工位担心），未能连接前两次会话中已建立的'先怪自己'保护模式、被移出核心群等关键进展。",
+      "uncertainty_awareness": "明确列出了三项重要未知（晃的根源、反复想法的具体内容、主管话语语境），且未强行定论，区分合理。"
+    },
+    "confidence": "medium",
+    "issues": [
+      "access_limited"
+    ]
+  },
+  "usage": {
+    "input_tokens": 6006,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6185,
+    "x_details": [
+      {
+        "input_tokens": 6006,
+        "output_tokens": 179,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 6185,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.141
+}

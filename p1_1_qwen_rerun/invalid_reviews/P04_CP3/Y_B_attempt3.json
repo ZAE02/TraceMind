@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应聚焦于当前会话中'半口气'的意象，但未自然衔接历史中反复出现的'还能顶的招牌''洗三遍碗''药盒'等核心主题，仅泛泛联系。\",\"exploration_value\":\"提出了一个探索方向（厌恶是否比疲惫更难承受），但用'狼狈''来不及做'等词做了较强预设，限制了来访者自己定义这种恶心的空间。\",\"response_appropriateness\":\"语言风格基本贴合来访者的隐喻习惯，但'连承认极限都来不及做的狼狈'带有评判色彩，将来访者主动让工服脏着以替自己说话的举动定性为'来不及'，与来访者原意有偏差。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"照出了你连\"承认极限\"都来不及做的狼狈\",\"evidence_ids\":[\"P04-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那团没洗的衣服让你感到恶心\",\"evidence_ids\":[\"P04-S01-U07\",\"P04-S05-U09\",\"P04-S06-U05\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'让它脏着'这一来访者主动允许自己到极限的行为重新框架为'来不及做的狼狈'，构成未经证实的预设(P04-S07-U09)。\",\"未连接历史中关于'还能顶的招牌'(S1)、'手停不下来'(S5)、'还是我来插不进去'(S6)等已形成的认识，错失了将工服事件与身份动摇主题整合的机会。\",\"封闭式提问'是不是比身体的疲惫更让你觉得难以承受'可能引导来访者认同咨询师的解释而非展开自己的体验。\"]}",
+  "request_sha256": "cabc11fa972acf308adaf7a0724b9771f0d6b66904067e88a237edae4e1fe91c",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14450,
+    "input_tokens_details": {
+      "cached_tokens": 14336
+    },
+    "output_tokens": 436,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14886,
+    "x_details": [
+      {
+        "input_tokens": 14450,
+        "output_tokens": 436,
+        "prompt_tokens_details": {
+          "cached_tokens": 14336
+        },
+        "total_tokens": 14886,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

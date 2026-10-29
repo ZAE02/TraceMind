@@ -1,0 +1,504 @@
+{
+  "case_id": "P05",
+  "session": 2,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P05-S02-U01",
+      "role": "client",
+      "text": "其实这周我本来不太想来。但昨天还是出了门，路上走得很慢。工作上有点变化，我被挪出核心群了，没人跟我解释，我也没问。可能领导有他的考虑吧，其实也不是什么大事。",
+      "request_sha256": "6830caaae3b0632b0917bf9d0a4ff7a742481ab9fa22f8d0570f2b38ead9aa55",
+      "usage": {
+        "input_tokens": 1789,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 397,
+        "output_tokens_details": {
+          "reasoning_tokens": 346
+        },
+        "total_tokens": 2186,
+        "x_details": [
+          {
+            "input_tokens": 1789,
+            "output_tokens": 397,
+            "output_tokens_details": {
+              "reasoning_tokens": 346
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 2186,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U02",
+      "role": "counselor",
+      "text": "你这次还是来了，虽然路上走得很慢。听起来“被挪出核心群”这件事，你又一次先替领导找到了理由，然后告诉自己“不是什么大事”——但那种没人解释、你也没问的安静里，可能有些东西正压着。",
+      "request_sha256": "d3985e8870ae9e7e6e63ebfc768e09c97a80fa501d55f98f494815b6dff3471f",
+      "usage": {
+        "input_tokens": 1335,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 243,
+        "output_tokens_details": {
+          "reasoning_tokens": 188
+        },
+        "total_tokens": 1578,
+        "x_details": [
+          {
+            "input_tokens": 1335,
+            "output_tokens": 243,
+            "output_tokens_details": {
+              "reasoning_tokens": 188
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1578,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U03",
+      "role": "client",
+      "text": "我确实没问。可能怕问了显得自己太在乎，或者得到一句“公司安排”再堵回来。其实也不是什么大事，就是突然少了一个每天打卡的地方，有点空。",
+      "request_sha256": "f932bca0cee013007a280a54d4a81a800249288d0fec5d12ab3ce41c415617a9",
+      "usage": {
+        "input_tokens": 1941,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 250,
+        "output_tokens_details": {
+          "reasoning_tokens": 209
+        },
+        "total_tokens": 2191,
+        "x_details": [
+          {
+            "input_tokens": 1941,
+            "output_tokens": 250,
+            "output_tokens_details": {
+              "reasoning_tokens": 209
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2191,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U04",
+      "role": "counselor",
+      "text": "你又一次说“也不是什么大事”，但“突然少了一个每天打卡的地方”那种空，好像已经在替你承认它对你是有分量的。怕问出来被一句“公司安排”堵回来，那种堵回来的感觉，和你上周把反驳的话按回去时，是不是有点像？",
+      "request_sha256": "88c8407fe29ebc79a91056882e1292c240de3d6ac4ccad6ac31ccf5697afe38d",
+      "usage": {
+        "input_tokens": 1476,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 444,
+        "output_tokens_details": {
+          "reasoning_tokens": 384
+        },
+        "total_tokens": 1920,
+        "x_details": [
+          {
+            "input_tokens": 1476,
+            "output_tokens": 444,
+            "output_tokens_details": {
+              "reasoning_tokens": 384
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1920,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U05",
+      "role": "client",
+      "text": "可能就像嗓子里卡了根很细的鱼刺，很小，但每次咽口水都会磨一下。我洗澡的时候一直在想上周评审和这次移群的事，它们好像是连着的，又觉得是自己……算了。",
+      "request_sha256": "cc50e6ba4a834ab9c1f1a71e4cb5fc3031fbdf57e3f5829ed61529b0103d077f",
+      "usage": {
+        "input_tokens": 2087,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 228,
+        "output_tokens_details": {
+          "reasoning_tokens": 180
+        },
+        "total_tokens": 2315,
+        "x_details": [
+          {
+            "input_tokens": 2087,
+            "output_tokens": 228,
+            "output_tokens_details": {
+              "reasoning_tokens": 180
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2315,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U06",
+      "role": "counselor",
+      "text": "那根“很细的鱼刺”一直都在，所以每次咽口水都会提醒你它在。你说“它们好像是连着的，又觉得是自己……算了”，那个“算了”后面好像藏着一句没说完的话，如果你愿意，可以试着不把它咽回去。",
+      "request_sha256": "bdc54e5788124da5a870e73f973ab6f7c38678addefbbffe2002616813667476",
+      "usage": {
+        "input_tokens": 1629,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 175,
+        "output_tokens_details": {
+          "reasoning_tokens": 118
+        },
+        "total_tokens": 1804,
+        "x_details": [
+          {
+            "input_tokens": 1629,
+            "output_tokens": 175,
+            "output_tokens_details": {
+              "reasoning_tokens": 118
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1804,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U07",
+      "role": "client",
+      "text": "其实我想说的是，可能是我自己能力不够，他们才不告诉我。但这话一说出来，就像承认了自己真的很差劲，也像在跟人讨一个解释，很没意思。",
+      "request_sha256": "2ae98484d6bae0766afb7c04a5c1590b3e3a093f979e42d18243a507475fc2c1",
+      "usage": {
+        "input_tokens": 2237,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 453,
+        "output_tokens_details": {
+          "reasoning_tokens": 412
+        },
+        "total_tokens": 2690,
+        "x_details": [
+          {
+            "input_tokens": 2237,
+            "output_tokens": 453,
+            "output_tokens_details": {
+              "reasoning_tokens": 412
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2690,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U08",
+      "role": "counselor",
+      "text": "“能力不够”那个解释一冒出来，好像很快就把“想要一个解释”变成了“承认自己很差劲”的证据，于是更没意思了。你觉得如果去问，就是在“讨”，而“讨”这件事本身，似乎比不知道答案更让你难堪。",
+      "request_sha256": "621efc5d2aa35aeb9dec6dd46ba3186db3dd6f07c86582ebdf18f2b058296eb8",
+      "usage": {
+        "input_tokens": 1772,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 242,
+        "output_tokens_details": {
+          "reasoning_tokens": 183
+        },
+        "total_tokens": 2014,
+        "x_details": [
+          {
+            "input_tokens": 1772,
+            "output_tokens": 242,
+            "output_tokens_details": {
+              "reasoning_tokens": 183
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2014,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U09",
+      "role": "client",
+      "text": "对，我宁愿不知道。去问就像承认我特别需要那个位置，特别需要他们给我一个说法，这让我觉得自己很低。可能我这些年最擅长的就是不问，等别人先开口，但别人不说，我也就装没事。",
+      "request_sha256": "56bd93c329bfb349aadd23c4780b7faa96dc901432f3082beb077bd8330dbeb4",
+      "usage": {
+        "input_tokens": 2382,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 332,
+        "output_tokens_details": {
+          "reasoning_tokens": 280
+        },
+        "total_tokens": 2714,
+        "x_details": [
+          {
+            "input_tokens": 2382,
+            "output_tokens": 332,
+            "output_tokens_details": {
+              "reasoning_tokens": 280
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2714,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U10",
+      "role": "counselor",
+      "text": "你用了“最擅长”这个词，好像“不问”已经不是偶尔的选择，而是你练了很久、很熟练地保护自己的方式。只是这种保护，常常让你一个人在“装没事”里等，等一个别人可能根本不知道你在等的开口。",
+      "request_sha256": "e2c996b4cad7996974ffa075219524c3ef67cf56b4a02a57e31a21795d83c6a7",
+      "usage": {
+        "input_tokens": 1928,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 364,
+        "output_tokens_details": {
+          "reasoning_tokens": 311
+        },
+        "total_tokens": 2292,
+        "x_details": [
+          {
+            "input_tokens": 1928,
+            "output_tokens": 364,
+            "output_tokens_details": {
+              "reasoning_tokens": 311
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2292,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U11",
+      "role": "client",
+      "text": "可能我该试着问一次，但每次话到嘴边，又觉得算了。带新人这事，我本来想推掉，可主管说让我带，我又不敢拒绝。",
+      "request_sha256": "14963ad6efc359ebd509c817c2210e3b3414017ce40fb6d0b2218d2d7870182f",
+      "usage": {
+        "input_tokens": 2539,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 163,
+        "output_tokens_details": {
+          "reasoning_tokens": 125
+        },
+        "total_tokens": 2702,
+        "x_details": [
+          {
+            "input_tokens": 2539,
+            "output_tokens": 163,
+            "output_tokens_details": {
+              "reasoning_tokens": 125
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2702,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U12",
+      "role": "counselor",
+      "text": "你刚说“话到嘴边又算了”，然后很快提到“不敢拒绝”带新人——这两件看似不同的事，好像都在重复同一个动作：想开口，又自己按下去。今天我们不必急着决定要不要去问，也许可以先看见，那个“不敢拒绝”里，你最怕的是被看成什么样的人。",
+      "request_sha256": "d61bb13fcc04dcdf8deae8d70c455a225b547884f2f956fa934f22c3e015269c",
+      "usage": {
+        "input_tokens": 2071,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 251,
+        "output_tokens_details": {
+          "reasoning_tokens": 183
+        },
+        "total_tokens": 2322,
+        "x_details": [
+          {
+            "input_tokens": 2071,
+            "output_tokens": 251,
+            "output_tokens_details": {
+              "reasoning_tokens": 183
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2322,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U13",
+      "role": "client",
+      "text": "可能怕被当成那种计较、不配合的人吧。其实我也不是不想带，就是怕做不好，又怕拒绝会让人失望。",
+      "request_sha256": "cd932fb9b550780fd3873d4b968a787fa4bc21b1ab636e62bca90e89088fe757",
+      "usage": {
+        "input_tokens": 2690,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 316,
+        "output_tokens_details": {
+          "reasoning_tokens": 285
+        },
+        "total_tokens": 3006,
+        "x_details": [
+          {
+            "input_tokens": 2690,
+            "output_tokens": 316,
+            "output_tokens_details": {
+              "reasoning_tokens": 285
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 3006,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U14",
+      "role": "counselor",
+      "text": "你怕的好像不只是事情本身，而是被看成“计较、不配合”的人，同时又不忍心让别人失望——这两种怕加在一起，让“拒绝”变得很重。今天我们先停在这里，你可以带着这个“怕做不好又怕让人失望”的感觉回去，不用马上决定带新人该怎么处理。",
+      "request_sha256": "c379b08e3d938738daaaab7150c1b2bbec09cb872bce795fc67560ab46f687f5",
+      "usage": {
+        "input_tokens": 2215,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 165,
+        "output_tokens_details": {
+          "reasoning_tokens": 97
+        },
+        "total_tokens": 2380,
+        "x_details": [
+          {
+            "input_tokens": 2215,
+            "output_tokens": 165,
+            "output_tokens_details": {
+              "reasoning_tokens": 97
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2380,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U15",
+      "role": "client",
+      "text": "嗯，我回去再想想。可能我就是想得太多，带新人也不一定就是坏事。",
+      "request_sha256": "a323619ea37cab06219d5e0030aaa4f58a15c9ea8814c1679a5573f59b19d8c4",
+      "usage": {
+        "input_tokens": 2834,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 199,
+        "output_tokens_details": {
+          "reasoning_tokens": 178
+        },
+        "total_tokens": 3033,
+        "x_details": [
+          {
+            "input_tokens": 2834,
+            "output_tokens": 199,
+            "output_tokens_details": {
+              "reasoning_tokens": 178
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3033,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S02-U16",
+      "role": "counselor",
+      "text": "你愿意回去再想想，这本身就很重要。或许“想太多”也是你正在试着理解自己，而不是要急着否定它。我们下次可以再看看，那些反复冒出来的担心想告诉你什么。",
+      "request_sha256": "14a572acea16c44cc3b61fd531b552fa559d8bf3d75768900d8ca34d9f58457c",
+      "usage": {
+        "input_tokens": 2349,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 437,
+        "output_tokens_details": {
+          "reasoning_tokens": 394
+        },
+        "total_tokens": 2786,
+        "x_details": [
+          {
+            "input_tokens": 2349,
+            "output_tokens": 437,
+            "output_tokens_details": {
+              "reasoning_tokens": 394
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2786,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

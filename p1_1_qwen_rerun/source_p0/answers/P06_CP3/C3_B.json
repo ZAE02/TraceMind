@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "4db30b0cafd88b503004bc2e996e6511a1da1846236cc6dc1bd77d72e7782945",
+  "request_sha256": "c6f02f881e3b5d495864c181e0734afb769fc8756d44d95b09b337adf1cc3948",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那把悬着的尺子，是不是也在悄悄告诉你：你其实很怕一旦放手，那个“只有我盯着才不会出错”的自己就彻底没用了？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 8957,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 33,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8990,
+    "x_details": [
+      {
+        "input_tokens": 8957,
+        "output_tokens": 33,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8990,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

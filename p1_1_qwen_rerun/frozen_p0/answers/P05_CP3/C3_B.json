@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "33a8f7e167aa3126bb7faf829f119b733bfa417d5a10a920f8ce248e431a4dca",
+  "request_sha256": "14e3d82f1cae85809324bbd1d71514c5e3bccf0db02cfab275922f8905406e70",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你一边觉得她能听完就不错了，一边又嫌自己太贪心，这种对自己期待的拉扯，是不是让你连那份“被接住”的感觉都变得不敢确认了？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 8853,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 37,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8890,
+    "x_details": [
+      {
+        "input_tokens": 8853,
+        "output_tokens": 37,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8890,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

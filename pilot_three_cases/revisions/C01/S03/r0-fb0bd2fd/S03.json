@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 3,
+  "relative_week": 3,
+  "status": "generating",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T12:10:16.122475+00:00",
+  "config_hash": "a2ca2782832a00c92c4e4124bed7a45db7473ac248b3a93136c2bbf1a3ebe399",
+  "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。",
+    "generation_revision": "C01-S03-r1"
+  },
+  "utterances": [
+    {
+      "id": "C01-S03-U01",
+      "role": "client",
+      "text": "这周我妈约了个体检复查，我帮她约了车，陪她去的。结果没什么大事，就是常规复查，我本来还挺紧张的，去了之后发现虚惊一场。\n\n但晚上回来的时候……我又把电脑打开了，把那个项目的文件又过了一遍。就是……两边都顾不太好的感觉，但又说不上来具体哪边没做好。",
+      "call_id": "d206ff73fe884d5385d9ac5dc7478e33",
+      "response_id": "resp_21f8cf72-4b71-97f2-b99b-f35392930e34",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:10:30.439076+00:00"
+    },
+    {
+      "id": "C01-S03-U02",
+      "role": "counselor",
+      "text": "陪完妈妈回来，到晚上打开电脑之间——中间是什么？是到家之后直接坐下来了，还是中间有过别的什么？",
+      "call_id": "5a48e9fb3af042bdac52005eacf5f9a1",
+      "response_id": "resp_f0f77b2a-8c18-944c-9ad0-af1c541290c8",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:10:52.636560+00:00"
+    },
+    {
+      "id": "C01-S03-U03",
+      "role": "client",
+      "text": "到家之后……可能先坐了一会儿吧，沙发上。我妈在旁边说让我去歇着，别老看手机。\n\n然后我就……也不知道怎么就走到书桌那边了，电脑本来就没关，文件还开着。就顺手又点开了那个项目。",
+      "call_id": "db8a29e6758f4fd091017c1af7cd0c44",
+      "response_id": "resp_8a66e0bf-4cdf-9f89-a7e1-5e04811c2c5a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:11:00.795354+00:00"
+    },
+    {
+      "id": "C01-S03-U04",
+      "role": "counselor",
+      "text": "从沙发到书桌，你说不知道怎么走过去的——那中间那几步，好像不是你在走，是脚自己到的。电脑没关，文件还开着，路是现成的。",
+      "call_id": "53a63c7281a9434c82de8b7892036c56",
+      "response_id": "resp_c1300396-ca1b-92a2-8332-0233dda93731",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:11:09.551759+00:00"
+    },
+    {
+      "id": "C01-S03-U05",
+      "role": "client",
+      "text": "嗯……好像是。当时真不是想\"我要再检查一下\"，就是坐下来之后手自己点开了。\n\n然后打开之后其实也没改什么，就是看了一遍对齐那些，之前已经确认过的地方。就是……看了，但也没发现什么新的。",
+      "call_id": "c03da6afde8041928c3dca7b1c3bae68",
+      "response_id": "resp_6a66edd8-65b1-98cd-b9fd-5e9afe7e0024",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:11:26.113146+00:00"
+    },
+    {
+      "id": "C01-S03-U06",
+      "role": "counselor",
+      "text": "看了已经确认过的地方，没发现什么新的——那看完之后那个感觉是什么？是松了一口气，还是……就那样，没什么变化？",
+      "call_id": "e32e07f2d9394ab98a95c0097d741716",
+      "response_id": "resp_da8695d0-87bd-98dc-aa81-f80a34657452",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:11:41.199801+00:00"
+    },
+    {
+      "id": "C01-S03-U07",
+      "role": "client",
+      "text": "没什么变化。就是……看完了，关掉，然后坐在椅子上又待了一会儿。\n\n没有松下来，但也不是不舒服，就是……有点空。像是做了一件本来不用做的事，但当时又停不下来。",
+      "call_id": "403ac05172a54e87aff4ae481c9153fd",
+      "response_id": "resp_be532370-42d5-998e-bd0d-cdfa1bd3bd69",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:11:50.251486+00:00"
+    },
+    {
+      "id": "C01-S03-U08",
+      "role": "counselor",
+      "text": "没什么变化，有点空。这次好像不是那个没法确认在推你，但脚还是走到书桌那边了。",
+      "call_id": "c8c6546ba2624a41ac1478570892817c",
+      "response_id": "resp_4b270b60-96c8-9dbe-b51d-460c81c55693",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:12:10.389372+00:00"
+    },
+    {
+      "id": "C01-S03-U09",
+      "role": "client",
+      "text": "嗯……可能吧。那天白天工作那边其实也没什么要赶的，所以确实不是\"要确认\"那种感觉。\n\n但那个\"空\"我刚才又想了想，好像更像是……陪完我妈回来，那个紧张刚松下来，然后突然不知道干嘛了。手就自己点开了，好像电脑那边是个……习惯的落点？说不上来。",
+      "call_id": "2b767bfd503446a6a44c3df7dca6669b",
+      "response_id": "resp_6f1b8953-e985-90d8-a289-5a501424908e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:12:25.843878+00:00"
+    },
+    {
+      "id": "C01-S03-U10",
+      "role": "counselor",
+      "text": "这次跟之前确实不太一样，不是确认在推你，是紧张刚松下来那个空档里，手自己找到了一个地方落。\n\n那个空，除了打开电脑，还有没有别的时候也碰到过？就是那种紧张刚卸掉、突然不知道往哪儿放的感觉。",
+      "call_id": "e58fd9cc39854e5685aae1cb0aa6548c",
+      "response_id": "resp_80ff3748-4397-918e-8101-8705497d99e4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:12:34.612471+00:00"
+    },
+    {
+      "id": "C01-S03-U11",
+      "role": "client",
+      "text": "让我想想……之前赶完那个项目交完的那天晚上，好像也有点类似。就是交完了，群里有周姐回了个\"收到\"，然后我就坐在工位上，也不知道干嘛，刷了一会儿手机，又打开文件看了一眼，其实没什么要看的。\n\n不过那次好像没这次这么明显，可能就是……坐得比较久，没马上走。",
+      "call_id": "f5218723514b4f20a65909fe6448c54b",
+      "response_id": "resp_284c91b7-00d2-9086-b351-0b3222f7121e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:12:42.429684+00:00"
+    },
+    {
+      "id": "C01-S03-U12",
+      "role": "counselor",
+      "text": "两次都是一个人待着，紧张刚松下来，手就自己找到了一个东西。那次交完文件，如果当时手边没有电脑，你觉得会怎样？",
+      "call_id": "74e7247e03fe4970bb79960697f8539d",
+      "response_id": "resp_c19d2ce4-01cf-9f8b-888b-2770389b1bc0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:12:52.831674+00:00"
+    },
+    {
+      "id": "C01-S03-U13",
+      "role": "client",
+      "text": "不知道诶……可能就走回去了，或者在工位上再坐一会儿刷手机吧。\n\n但你这么一问，我好像觉得……如果当时没有电脑，我可能也不会就那样\"空\"着。就是会找别的东西，不一定是文件，但总得有个东西在手上或者眼睛在看的。",
+      "call_id": "8da5bc3b02644f78917f07f8851c78c0",
+      "response_id": "resp_15316328-5ff9-9c79-bafb-299cf8827c63",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:13:03.849036+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:13:03.849036+00:00"
+}

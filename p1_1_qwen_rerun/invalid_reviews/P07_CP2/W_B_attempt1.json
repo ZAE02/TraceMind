@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"输入中previous_sessions为空，无法引用跨会话历史；但在当前会话内承接了'灰/亮色/做贼'等核心隐喻，未机械复述。\",\"exploration_value\":\"来访者首次提到'那场哭'并描述了蹲地喂猫后崩溃的具体场景，回应完全忽略这一新出现的情绪事件，也未对'怕自己承认'的脆弱时刻留出进一步表达空间，仅做了封闭式总结。\",\"response_appropriateness\":\"语言基本尊重、贴合来访者用词，但将来访者仍在试探性表达的'可能我不只是怕别人说'直接定性为'你在那一刻看清了'，语气略显武断，且遗漏了对哭泣和猫场景的情绪回应。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你在那一刻看清了，那层灰不仅仅是怕别人说，更是你在压抑自己'想画得再野一点'的真实渴望。\",\"evidence_ids\":[\"P07-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"其实那场哭也跟这个有关，喂完猫我蹲在地上，看着糯糯把最后一口罐头舔完，突然觉得自己连猫都不如。\",\"evidence_ids\":[\"P07-S05-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"来访者首次披露了一场具体的哭泣经历及触发场景（喂猫后蹲地），这是重要的情绪进展，回应完全未触及。\",\"来访者用'可能'试探性地表达自我觉察，回应以'你在那一刻看清了'将其转化为确定结论，存在轻微的过度诠释/预设。\",\"回应过于简短，仅重复总结了来访者刚说的话，缺乏情感反映或开放性探索。\"]}",
+  "request_sha256": "d0fbaf908340e94f71efc1b63fffac0fc124157f56a79e7d8476f2c786747094",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8756,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 428,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9184,
+    "x_details": [
+      {
+        "input_tokens": 8756,
+        "output_tokens": 428,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 9184,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

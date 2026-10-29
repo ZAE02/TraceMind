@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P04_CP2",
+  "condition": "C5_budget",
+  "raw_text": "那个碗洗了三遍，手指都皱了，水还热着——你停不下来的手，好像一直在替那句“你手比我女儿还轻”找一个能放下的地方。那根小刺吐不出也咽不下，也许是因为它不只扎在耳朵里，也扎在“我是不是连照顾妈妈这件事都做得不够好”的旧伤上。",
+  "input_sha256": "f6bda396a5b999bfbbcf3fba57ba1247054c70a0d69872a80e4a4a222029fe10",
+  "memory_sha256": "3bae8d944c901f1353accd175d8e5cf46e88f0bc1afa9b3b38bdbbac8cb9da5e",
+  "request_sha256": "a82042d567aceab6991bfe48913d7804a2499af14e8a782112c667c70fa78fba",
+  "usage": {
+    "input_tokens": 7055,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 78,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7133,
+    "x_details": [
+      {
+        "input_tokens": 7055,
+        "output_tokens": 78,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 7133,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.187
+}

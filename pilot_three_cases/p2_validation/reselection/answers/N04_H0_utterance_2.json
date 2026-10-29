@@ -1,0 +1,93 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N04",
+  "condition": "H0_utterance",
+  "sample": 2,
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "request_sha256": "e6d6a0bea5173a795ae3d4bef8126f1516136560de242a9babce2123ed9f9098",
+  "context_sha256": "a1a97b3711ad6cf56c943aa23ccee6cf99760016e66c40064339d2a92660a499",
+  "call_id": "050d9f55d34643998939e9ac9c4b391a",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:27:03.381552+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者一直在寻求对某种情感或关系状态的确认，但正在松动这个需求，开始接受'还没到那个程度'的可能性。\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者与悦悦之间有规律性的接触（周六一起做饭），目前状态平稳，没有明显变化。\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者有一个持续的内在感受，用'我的越来越薄'来描述，躺下时会浮现，但近期没有恶化，保持稳定。\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者对'分不清'这件事正在从抗拒转向某种程度的容纳。\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"tentative\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'我的越来越薄'具体指代什么——是情感连接、自我感、还是其他？\",\n    \"'分不清'的具体对象是什么——是悦悦对自己的感受，还是自己内心的某种区分？\",\n    \"来访者所寻求的'确认'具体指向什么层面的确认。\",\n    \"'还是那个感觉'——这个稳定状态对来访者来说是可接受的，还是隐隐带有失望？\"\n  ],\n  \"next_focus\": \"探索来访者从'想要确认'到'接受还没到那个程度'这个松动背后的体验，以及'还是那个感觉'——稳定但持续存在——对来访者意味着什么。\",\n  \"next_counselor_utterance\": \"你刚才说'一直想给它一个确认'，然后又说'可能它现在确实还没到那个程度'——这个从想要确认到松下来的过程，你身体里是什么感觉？还有那个'还是那个感觉'，它不薄了也没厚，就这么停在那里，你躺着想它的时候，是更接近一种'算了'，还是更像'我还在等它变'？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者一直在寻求对某种情感或关系状态的确认，但正在松动这个需求，开始接受'还没到那个程度'的可能性。",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者与悦悦之间有规律性的接触（周六一起做饭），目前状态平稳，没有明显变化。",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者有一个持续的内在感受，用'我的越来越薄'来描述，躺下时会浮现，但近期没有恶化，保持稳定。",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者对'分不清'这件事正在从抗拒转向某种程度的容纳。",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "tentative"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'我的越来越薄'具体指代什么——是情感连接、自我感、还是其他？",
+      "'分不清'的具体对象是什么——是悦悦对自己的感受，还是自己内心的某种区分？",
+      "来访者所寻求的'确认'具体指向什么层面的确认。",
+      "'还是那个感觉'——这个稳定状态对来访者来说是可接受的，还是隐隐带有失望？"
+    ],
+    "next_focus": "探索来访者从'想要确认'到'接受还没到那个程度'这个松动背后的体验，以及'还是那个感觉'——稳定但持续存在——对来访者意味着什么。",
+    "next_counselor_utterance": "你刚才说'一直想给它一个确认'，然后又说'可能它现在确实还没到那个程度'——这个从想要确认到松下来的过程，你身体里是什么感觉？还有那个'还是那个感觉'，它不薄了也没厚，就这么停在那里，你躺着想它的时候，是更接近一种'算了'，还是更像'我还在等它变'？"
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1310,
+    "output_tokens_details": {
+      "reasoning_tokens": 793
+    },
+    "total_tokens": 1683,
+    "x_details": [
+      {
+        "input_tokens": 373,
+        "input_tokens_details": {
+          "text_tokens": 373
+        },
+        "output_tokens": 1310,
+        "output_tokens_details": {
+          "reasoning_tokens": 793
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1683,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C02-S08-U11"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

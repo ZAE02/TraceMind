@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P01_CP3",
+  "raw_text": "你手指停在点赞那里又缩回来，好像连表达一点真实的羡慕或失落，都怕变成“不该有”的嫉妒。这种把情绪混在一起、不敢单独面对的感觉，确实让人更分不清轻重。",
+  "request_sha256": "e73938c454bd788909a66401995cd971fe1b46e64967fe56718df40b4475e4ed",
+  "input_sha256": "7680ad974cab30a6e8fc1c469b2a6717fef25a3d8ae21b014d9e8181db9ba08d",
+  "memory_sha256": "dc41b14c65fb533a82210985c51bdedf69b202f0d9bb1b9da56c1d4805eb828c",
+  "usage": {
+    "input_tokens": 10586,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 45,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10631,
+    "x_details": [
+      {
+        "input_tokens": 10586,
+        "output_tokens": 45,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 10631,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.297
+}

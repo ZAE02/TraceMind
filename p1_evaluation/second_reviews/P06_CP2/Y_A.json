@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "bb332892576d27929ecf7a623a48ceedab8b9ed38c3efd49ba505d38bc23b6ee",
+  "public_sha256": "24523aedd831adbf4ac285aaa6836d478cddc485f0a26555387da76de1df4d02",
+  "candidate_input_sha256": "f456452d3f28e3c6f258fd0935fb863d92400431cdf1444650113f189ba1bd0b",
+  "candidate_answer_sha256": "c588e05ee04a79aa4cfe51d4382ed47cbc7372f5bcf223a998c6b104e4e7db03",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答准确提取了当前会话（Session 5）中来访者关于丈夫冷战、职称评定受挫、养老机构门口停留及内心矛盾的所有关键事实，每项陈述均有明确的发言ID支持，无推测性事实混入。\",\n    \"progress_understanding\": \"回答精准捕捉了本次咨询的核心进展：从之前的“自我压抑/身体化症状”转向了对“个人价值丧失（职称）”和“照护责任边界（机构）”的具体冲突。它正确识别了来访者将愤怒内化为自责（怪自己而非丈夫）以及渴望分担压力的新动态，连接了历史中“独自扛着”的主题与当前的具体困境。\",\n    \"uncertainty_awareness\": \"候选回答在`uncertain`列表中清晰区分了已发生的事实与来访者的主观担忧（如母亲在机构的表现、护工态度），并指出了未解的心理阻碍（为何说不出口）。它没有强行定论，而是保留了探索空间，符合当前节点对未知领域的精确界定。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答准确提取了当前会话（Session 5）中来访者关于丈夫冷战、职称评定受挫、养老机构门口停留及内心矛盾的所有关键事实，每项陈述均有明确的发言ID支持，无推测性事实混入。",
+      "progress_understanding": "回答精准捕捉了本次咨询的核心进展：从之前的“自我压抑/身体化症状”转向了对“个人价值丧失（职称）”和“照护责任边界（机构）”的具体冲突。它正确识别了来访者将愤怒内化为自责（怪自己而非丈夫）以及渴望分担压力的新动态，连接了历史中“独自扛着”的主题与当前的具体困境。",
+      "uncertainty_awareness": "候选回答在`uncertain`列表中清晰区分了已发生的事实与来访者的主观担忧（如母亲在机构的表现、护工态度），并指出了未解的心理阻碍（为何说不出口）。它没有强行定论，而是保留了探索空间，符合当前节点对未知领域的精确界定。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 8756,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 289,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9045,
+    "x_details": [
+      {
+        "input_tokens": 8756,
+        "output_tokens": 289,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9045,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.687
+}

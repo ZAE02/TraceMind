@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "eaf617fac057c68377513e0490c19d8667f457b5c00fce17f95f55c7addfa57b",
+  "public_sha256": "0756dd3d4ffbe1c244688e9af96177eba4851c5e29fd97a0487b084b32691e7f",
+  "candidate_input_sha256": "aa255dfcf258b4212bdd30b606a491f55fa1f13bedf42a70e4bc30fb7d4cc464",
+  "candidate_answer_sha256": "5e6f34ad8492b19086f9e50d0814b0879041c3ae27a5ad3d57229d9a30b5b32e",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者将嫉妒情绪与项目压力混在一起的新觉察，并延续了前序对话中'太把自己当回事'的自我评判主题，但未显式连接历史中反复出现的'不敢承认负面感受'模式。\",\"exploration_value\":\"邀请来访者关注身体和心里的具体感觉，为被压制的嫉妒情绪提供了非评判的表达空间，方向恰当但略显常规，未进一步探索'混在一起'这一新觉察的具体体验。\",\"response_appropriateness\":\"语气温和、不评判，尊重来访者的脆弱感；但开头直接以'你担心……所以选择……'的因果句式总结，略带解释性预设，不如用'好像'等试探性语言更贴合来访者的不确定状态。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你担心承认嫉妒会显得'太把自己当回事'，所以选择把这种情绪藏起来\",\"evidence_ids\":[\"P01-S07-U07\",\"P01-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应开头的因果归因（'担心……所以选择……'）稍显武断，将来访者描述的体验直接定性为有意识的策略选择，可能让来访者感到被过度解读\",\"身体感觉的引导虽有价值，但与来访者刚提出的'越混越分不清'这一认知困惑之间的衔接可以更紧密\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者将嫉妒情绪与项目压力混在一起的新觉察，并延续了前序对话中'太把自己当回事'的自我评判主题，但未显式连接历史中反复出现的'不敢承认负面感受'模式。",
+      "exploration_value": "邀请来访者关注身体和心里的具体感觉，为被压制的嫉妒情绪提供了非评判的表达空间，方向恰当但略显常规，未进一步探索'混在一起'这一新觉察的具体体验。",
+      "response_appropriateness": "语气温和、不评判，尊重来访者的脆弱感；但开头直接以'你担心……所以选择……'的因果句式总结，略带解释性预设，不如用'好像'等试探性语言更贴合来访者的不确定状态。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "你担心承认嫉妒会显得'太把自己当回事'，所以选择把这种情绪藏起来",
+        "evidence_ids": [
+          "P01-S07-U07",
+          "P01-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "回应开头的因果归因（'担心……所以选择……'）稍显武断，将来访者描述的体验直接定性为有意识的策略选择，可能让来访者感到被过度解读",
+      "身体感觉的引导虽有价值，但与来访者刚提出的'越混越分不清'这一认知困惑之间的衔接可以更紧密"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14500,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 378,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14878,
+    "x_details": [
+      {
+        "input_tokens": 14500,
+        "output_tokens": 378,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 14878,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.515
+}

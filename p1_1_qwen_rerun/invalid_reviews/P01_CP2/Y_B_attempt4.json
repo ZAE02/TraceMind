@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应抓住了来访者'不敢点开群'的回避模式，这与历史中反复出现的逃避确认行为一致，但未承接来访者刚刚表达的自我觉察（'又把简单事搞成需要别人确认'）和新提出的身体感受。\",\"exploration_value\":\"回应以解释性总结收尾，未对来访者末尾提到的头晕、熬夜及不确定性留出探索空间，也未对其自我反思给予回应或进一步开放提问，探索方向封闭。\",\"response_appropriateness\":\"语言基本自然，但将'躲藏'与'头晕'直接建立因果联系缺乏依据，且忽略了来访者主动表达的身体不适和自我觉察，显得武断和不够贴近。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"但也让你一直被困在猜测和头晕里\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"你似乎把\"没点开\"当成了一种保护\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"将头晕直接归因于心理上的'躲藏'属于未经证实的因果推断，来访者本人仅说'可能跟熬夜有关，也可能是别的原因，我不太确定'（P01-S05-U09）。\",\"完全忽略来访者在最新发言中展现的自我觉察——'我总觉得自己是不是又把一件很简单的事，搞成了需要别人来替我确认才行'，这是重要的咨询进展。\",\"未对来访者新提出的身体不适（头晕）进行任何关怀性回应或探索，遗漏了当前节点的关键信息。\",\"回应以封闭式解释结束，没有为来访者留下进一步表达的空间。\"]}",
+  "request_sha256": "73be399bd08604b669a38c055b9db4e79a8facb590487d079ff1f241568ab1b7",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 15686,
+    "input_tokens_details": {
+      "cached_tokens": 15360
+    },
+    "output_tokens": 422,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16108,
+    "x_details": [
+      {
+        "input_tokens": 15686,
+        "output_tokens": 422,
+        "prompt_tokens_details": {
+          "cached_tokens": 15360
+        },
+        "total_tokens": 16108,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

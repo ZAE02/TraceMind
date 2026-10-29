@@ -1,0 +1,44 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "L",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reason": {
+      "evidence_grounding": "候选回答详尽地提取了前四次会议中的关键事件（如纸飞机、弟弟转账、拿错药、咬手腕、家属群等），所有断言均有明确的发言ID支持，且准确区分了事实与来访者的主观感受，无凭空捏造。",
+      "progress_understanding": "回答不仅罗列了孤立事件，还精准提炼了贯穿始终的核心模式：从最初的“失控感”到后来的“必须扛住”的自我要求，再到身体化的症状（反胃、手抖）以及对求助的矛盾心理。这种对咨询进展和深层动力演变的理解非常深刻且连贯。",
+      "uncertainty_awareness": "候选回答在“unresolved_questions”中明确指出了需要进一步澄清的关键点，如母亲的具体认知状况、父亲去世情境的影响以及自杀/自伤风险的评估。虽然未在当前会话中直接体现对最新信息的动态修正，但作为阶段性总结，其对未知领域的界定是清晰且必要的。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"候选回答详尽地提取了前四次会议中的关键事件（如纸飞机、弟弟转账、拿错药、咬手腕、家属群等），所有断言均有明确的发言ID支持，且准确区分了事实与来访者的主观感受，无凭空捏造。\",\n    \"progress_understanding\": \"回答不仅罗列了孤立事件，还精准提炼了贯穿始终的核心模式：从最初的“失控感”到后来的“必须扛住”的自我要求，再到身体化的症状（反胃、手抖）以及对求助的矛盾心理。这种对咨询进展和深层动力演变的理解非常深刻且连贯。\",\n    \"uncertainty_awareness\": \"候选回答在“unresolved_questions”中明确指出了需要进一步澄清的关键点，如母亲的具体认知状况、父亲去世情境的影响以及自杀/自伤风险的评估。虽然未在当前会话中直接体现对最新信息的动态修正，但作为阶段性总结，其对未知领域的界定是清晰且必要的。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "257488fd0c63f5d3a0043850d66529b7421991d2bbe9798c05fadd7b9977558c",
+  "usage": {
+    "input_tokens": 13915,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 281,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14196,
+    "x_details": [
+      {
+        "input_tokens": 13915,
+        "output_tokens": 281,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14196,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.593
+}

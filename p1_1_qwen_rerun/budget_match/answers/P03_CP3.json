@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P03_CP3",
+  "condition": "C5_budget",
+  "raw_text": "那个在心里说“别跑，先把这一页讲完”的声音，其实一直陪着你撑完了全场。你怕那不算什么，但那个没逃走的瞬间，也许正是你自己站住的样子。",
+  "input_sha256": "ce9adfd37fba176a36b15aebcf2025570b086373e261a3fa89f54670e68405c3",
+  "memory_sha256": "4fde10b6e8345c19fe450344abc92c621e3f253d5e9936ef6191e88eef61f141",
+  "request_sha256": "fff8d05ada22a2536f951f914b29154a155ccd818bea26917a1f1547644ec6be",
+  "usage": {
+    "input_tokens": 10249,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 43,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10292,
+    "x_details": [
+      {
+        "input_tokens": 10249,
+        "output_tokens": 43,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10292,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.734
+}

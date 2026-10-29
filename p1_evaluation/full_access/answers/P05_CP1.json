@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P05_CP1",
+  "raw_text": "你刚刚说“越想要稳，越觉得自己装得漏洞百出”，这句话里好像藏着一种很累的循环：你越努力去维持那个“稳”的样子，就越能看见自己哪里不够稳。也许那个“提醒”不是你真的不稳，而是你太害怕被人看出来，所以一刻都不敢放松。",
+  "request_sha256": "ced61f36606f55876ecf675e54fde075adb2a2aa613431d4969be276dbb27ecb",
+  "input_sha256": "adc1f4b63ac2891f0016a26eef08c47d56d24fbf2bcd207220a846c54c10185e",
+  "memory_sha256": "3d60a01c0928b10fe82f1d5d088f4cc0ed32c680f522ea253fa4c74aa23243b0",
+  "usage": {
+    "input_tokens": 3641,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 66,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3707,
+    "x_details": [
+      {
+        "input_tokens": 3641,
+        "output_tokens": 66,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3707,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.969
+}

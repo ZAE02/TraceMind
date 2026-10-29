@@ -1,0 +1,178 @@
+{
+  "updated_at": "2026-10-13T06:10:19.557698+00:00",
+  "target_sessions": 24,
+  "complete_sessions": 24,
+  "approved_sessions": 24,
+  "human_review_performed": false,
+  "sessions": [
+    {
+      "case_id": "C01",
+      "session": 1,
+      "status": "reviewed_by_model",
+      "utterances": 24,
+      "prompt_version": "pilot-v1-original-prompts"
+    },
+    {
+      "case_id": "C01",
+      "session": 2,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v4-concise-concrete-role-prompts"
+    },
+    {
+      "case_id": "C01",
+      "session": 3,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v7-counseling-process-focus"
+    },
+    {
+      "case_id": "C01",
+      "session": 4,
+      "status": "reviewed_by_model",
+      "utterances": 18,
+      "prompt_version": "pilot-v7-counseling-process-focus"
+    },
+    {
+      "case_id": "C01",
+      "session": 5,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v7-counseling-process-focus"
+    },
+    {
+      "case_id": "C01",
+      "session": 6,
+      "status": "reviewed_by_model",
+      "utterances": 16,
+      "prompt_version": "pilot-v7-counseling-process-focus"
+    },
+    {
+      "case_id": "C01",
+      "session": 7,
+      "status": "reviewed_by_model",
+      "utterances": 22,
+      "prompt_version": "pilot-v8-world-state-and-role-reasoning"
+    },
+    {
+      "case_id": "C01",
+      "session": 8,
+      "status": "reviewed_by_model",
+      "utterances": 16,
+      "prompt_version": "pilot-v8-world-state-and-role-reasoning"
+    },
+    {
+      "case_id": "C02",
+      "session": 1,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v1-original-prompts"
+    },
+    {
+      "case_id": "C02",
+      "session": 2,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v6-unsent-editor-and-session-clock"
+    },
+    {
+      "case_id": "C02",
+      "session": 3,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v7-counseling-process-focus"
+    },
+    {
+      "case_id": "C02",
+      "session": 4,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v8-world-state-and-role-reasoning"
+    },
+    {
+      "case_id": "C02",
+      "session": 5,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v8-world-state-and-role-reasoning"
+    },
+    {
+      "case_id": "C02",
+      "session": 6,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v8-world-state-and-role-reasoning"
+    },
+    {
+      "case_id": "C02",
+      "session": 7,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v9-user-authorized-low-effort"
+    },
+    {
+      "case_id": "C02",
+      "session": 8,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v9-user-authorized-low-effort"
+    },
+    {
+      "case_id": "C03",
+      "session": 1,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v3-natural-dialogue-constraints"
+    },
+    {
+      "case_id": "C03",
+      "session": 2,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v3-natural-dialogue-constraints"
+    },
+    {
+      "case_id": "C03",
+      "session": 3,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v4-concise-concrete-role-prompts"
+    },
+    {
+      "case_id": "C03",
+      "session": 4,
+      "status": "reviewed_by_model",
+      "utterances": 18,
+      "prompt_version": "pilot-v4-concise-concrete-role-prompts"
+    },
+    {
+      "case_id": "C03",
+      "session": 5,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v6-unsent-editor-and-session-clock"
+    },
+    {
+      "case_id": "C03",
+      "session": 6,
+      "status": "reviewed_by_model",
+      "utterances": 18,
+      "prompt_version": "pilot-v6-unsent-editor-and-session-clock"
+    },
+    {
+      "case_id": "C03",
+      "session": 7,
+      "status": "reviewed_by_model",
+      "utterances": 20,
+      "prompt_version": "pilot-v7-counseling-process-focus"
+    },
+    {
+      "case_id": "C03",
+      "session": 8,
+      "status": "reviewed_by_model",
+      "utterances": 18,
+      "prompt_version": "pilot-v7-counseling-process-focus"
+    }
+  ],
+  "checkpoint_exports": 9
+}

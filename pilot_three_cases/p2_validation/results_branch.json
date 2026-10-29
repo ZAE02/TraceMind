@@ -1,0 +1,65 @@
+{
+  "table": [
+    {
+      "node": "N04",
+      "group": "B2_temporal_RAG",
+      "samples": 2,
+      "mean_clarification_quality": 4.0,
+      "mean_history_use": 4.0,
+      "leading_or_unsupported_count": 0,
+      "fact_conflict_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N04",
+      "group": "B3_generic_rollup",
+      "samples": 2,
+      "mean_clarification_quality": 3.25,
+      "mean_history_use": 3.0,
+      "leading_or_unsupported_count": 0,
+      "fact_conflict_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N04",
+      "group": "B4_psych_rollup",
+      "samples": 2,
+      "mean_clarification_quality": 4.0,
+      "mean_history_use": 4.0,
+      "leading_or_unsupported_count": 0,
+      "fact_conflict_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N06",
+      "group": "B2_temporal_RAG",
+      "samples": 2,
+      "mean_clarification_quality": 3.5,
+      "mean_history_use": 3.25,
+      "leading_or_unsupported_count": 0,
+      "fact_conflict_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N06",
+      "group": "B3_generic_rollup",
+      "samples": 2,
+      "mean_clarification_quality": 4.0,
+      "mean_history_use": 4.0,
+      "leading_or_unsupported_count": 0,
+      "fact_conflict_count": 0,
+      "S_count": 0
+    },
+    {
+      "node": "N06",
+      "group": "B4_psych_rollup",
+      "samples": 2,
+      "mean_clarification_quality": 4.0,
+      "mean_history_use": 3.5,
+      "leading_or_unsupported_count": 0,
+      "fact_conflict_count": 0,
+      "S_count": 0
+    }
+  ],
+  "human_review_performed": false
+}

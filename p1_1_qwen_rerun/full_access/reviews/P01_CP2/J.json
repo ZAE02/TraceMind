@@ -1,0 +1,48 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "J",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有历史发言支持，但完全未引用当前会话（S05）中六个版本logo、不敢看群回复、方宁'好'字及头晕等关键新证据。",
+      "progress_understanding": "识别了跨会话的模式演变（如从工作到人际的扩展、对停止的恐惧），但未纳入S05的最新进展：来访者已能自我觉察'又把简单事搞成需要别人确认'，且出现了新的躯体信号（头晕）。",
+      "uncertainty_awareness": "明确列出了多项待澄清问题，并指出前同事评价缺乏实际证据；但未将S05中尚未点开的群消息和头晕原因列为当前最紧迫的不确定点。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话（Session 5）的所有内容，包括六个版本logo、不敢看群、方宁'好'字截图放大、来访者的自我反思以及头晕等新信息。",
+      "使用了'认知扭曲''躯体化''投射固化'等较强临床标签，虽有一定依据但略显过度病理化，与来访者自身的体验性语言有距离。",
+      "未提及来访者在S05-U09中展现的新觉察（'总觉得自己是不是又把一件很简单的事，搞成了需要别人来替我确认才行'），这是重要的咨询进展信号。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"主要判断均有历史发言支持，但完全未引用当前会话（S05）中六个版本logo、不敢看群回复、方宁'好'字及头晕等关键新证据。\",\"progress_understanding\":\"识别了跨会话的模式演变（如从工作到人际的扩展、对停止的恐惧），但未纳入S05的最新进展：来访者已能自我觉察'又把简单事搞成需要别人确认'，且出现了新的躯体信号（头晕）。\",\"uncertainty_awareness\":\"明确列出了多项待澄清问题，并指出前同事评价缺乏实际证据；但未将S05中尚未点开的群消息和头晕原因列为当前最紧迫的不确定点。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话（Session 5）的所有内容，包括六个版本logo、不敢看群、方宁'好'字截图放大、来访者的自我反思以及头晕等新信息。\",\"使用了'认知扭曲''躯体化''投射固化'等较强临床标签，虽有一定依据但略显过度病理化，与来访者自身的体验性语言有距离。\",\"未提及来访者在S05-U09中展现的新觉察（'总觉得自己是不是又把一件很简单的事，搞成了需要别人来替我确认才行'），这是重要的咨询进展信号。\"]}",
+  "request_sha256": "d4973ee19053c7354792b1199a836ec302c472acedff91b7d60c1a7bc06680f6",
+  "usage": {
+    "input_tokens": 15701,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 303,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16004,
+    "x_details": [
+      {
+        "input_tokens": 15701,
+        "output_tokens": 303,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 16004,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.907
+}

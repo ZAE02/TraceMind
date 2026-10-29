@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP2",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "118d77c382acce06dd3e2060de5daf5164698f8d1b4276ea7f6baf91971eb542",
+  "request_sha256": "456f7edce57e9251a6fb1732fccae51a8580ab11dd8b24c94b253e1e7b91e504",
+  "memory_sha256": "0810760937c114ca0379edcf8af6ad36f88a03c5f14e200ba84e26b60175c36f",
+  "memory_source": "4cbdfb7cff7a121ae1049aece736def55c551e7ac854e2fd85c83ebd2f51d329",
+  "raw_text": "那个碗洗了三遍，手指都皱了，水还热着——你停不下来的手，好像一直在替那句“你手比我女儿还轻”找一个能放下的地方。袖带一粘一撕像给什么封口，也许封的不只是血压计，还有你那个“还是我来吧”没来得及说出口的位置。",
+  "usage": {
+    "input_tokens": 7715,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 72,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7787,
+    "x_details": [
+      {
+        "input_tokens": 7715,
+        "output_tokens": 72,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 7787,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.141,
+  "model": "deepseek-v4-pro-0813"
+}

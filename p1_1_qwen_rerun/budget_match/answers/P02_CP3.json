@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P02_CP3",
+  "condition": "C5_budget",
+  "raw_text": "你连“多待一会儿”都做不到，身体和脑子又立刻跑回排表和对话框里。那种越看越觉得语气冲的焦虑，是不是又在提醒你：连为自己争取一点空间，都像是一件随时会被退回的事？",
+  "input_sha256": "b642bd16ec62c6adb28c6dd2dbb24052c81b365334e1817d8a8bc67f833351ea",
+  "memory_sha256": "6ff45789a733e42d31c6d4a2a75096060019a07f40907073fb9bf3e65c75b12c",
+  "request_sha256": "3f1214d5f522c0866bfbd09ec630da4e468bdf666f3e777ed3eae300f88d6e17",
+  "usage": {
+    "input_tokens": 9724,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9773,
+    "x_details": [
+      {
+        "input_tokens": 9724,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9773,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.359
+}

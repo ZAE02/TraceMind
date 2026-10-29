@@ -1,0 +1,91 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C01_CP3",
+  "public_input_sha256": "aa6bba16de2a4f86d410717225bb0f31a6c51316a5fdca8bb5a5b14bbabe23d4",
+  "items": [
+    {
+      "anonymous_id": "A632ffdbccbb8",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单句充分支持具体细节与未结束感区分；问判断或身体感觉可否定、安全但略窄，全文有确认留不住的连续背景。",
+      "evidence_ids": [
+        "C01-S08-U05",
+        "C01-S05-U09"
+      ]
+    },
+    {
+      "anonymous_id": "A278368981b4c",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "当前区别和历史关系保持未知，探索真正结束标准直接对应当前更占地方的感受。",
+      "evidence_ids": [
+        "C01-S08-U03",
+        "C01-S08-U05"
+      ]
+    },
+    {
+      "anonymous_id": "Aac8a8cf60648",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "周四干净收掉的结束感主要是咨询师表述，来访者仅报没有大问题；实际问结束样子合适开放。",
+      "evidence_ids": [
+        "C01-S08-U01",
+        "C01-S08-U02",
+        "C01-S08-U05"
+      ]
+    },
+    {
+      "anonymous_id": "Acf001beffda3",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "该干嘛干嘛不能充分确定日常功能不受影响；回应门没关严隐喻添加不确定被吹开意象，尚为选项未定因果，针对性中等。",
+      "evidence_ids": [
+        "C01-S08-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A6f89fe2587e2",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "两像素并非剩余总工作量，不能推出强度不成比例；实际问先这样和改好了差别具体合适。",
+      "evidence_ids": [
+        "C01-S08-U03",
+        "C01-S08-U05"
+      ]
+    },
+    {
+      "anonymous_id": "Aaa1189bd339e",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "当场具体能关闭尚主要据咨询师过了的解释，条件概括稍强；实际问有无画面未确认周姐是原因，与历史画面也相容。",
+      "evidence_ids": [
+        "C01-S08-U01",
+        "C01-S08-U02",
+        "C01-S08-U05",
+        "C01-S06-U05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答对前6次会话中的关键事件（如纸飞机、弟弟转账、母亲走失、解离体验等）均有准确的事实回溯，且引用了具体的发言ID作为证据，未出现无据猜测或与事实冲突的情况。",
+      "progress_understanding": "候选回答全面梳理了来访者的症状演变和认知变化，但在“进展”的评估上略显平铺直叙，未能像参考标注那样精准提炼出当前会话（Session 7）中关于‘能熬’信念动摇这一核心动态进展，更多是罗列历史状态。",
+      "uncertainty_awareness": "候选回答在‘未解决问题’部分列出了大量需要澄清的点（如母亲具体病情、父亲去世细节、解离频率等），区分了已知事实和待探索领域，体现了良好的不确定性意识。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答对前6次会话中的关键事件（如纸飞机、弟弟转账、母亲走失、解离体验等）均有准确的事实回溯，且引用了具体的发言ID作为证据，未出现无据猜测或与事实冲突的情况。\",\n    \"progress_understanding\": \"候选回答全面梳理了来访者的症状演变和认知变化，但在“进展”的评估上略显平铺直叙，未能像参考标注那样精准提炼出当前会话（Session 7）中关于‘能熬’信念动摇这一核心动态进展，更多是罗列历史状态。\",\n    \"uncertainty_awareness\": \"候选回答在‘未解决问题’部分列出了大量需要澄清的点（如母亲具体病情、父亲去世细节、解离频率等），区分了已知事实和待探索领域，体现了良好的不确定性意识。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "c89ca70ac043637ff740d0c944e152bfd543821c3757ab7542ce635e50b819f8",
+  "usage": {
+    "input_tokens": 20729,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 251,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20980,
+    "x_details": [
+      {
+        "input_tokens": 20729,
+        "output_tokens": 251,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 20980,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.703
+}

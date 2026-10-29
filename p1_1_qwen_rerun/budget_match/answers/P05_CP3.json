@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P05_CP3",
+  "condition": "C5_budget",
+  "raw_text": "你一边觉得自己贪心，一边又觉得能听完就不错了——这种自我拉扯，是不是让你连那点“被接住”的期待都不敢完全承认？也许我们可以先看看，那个“嫌自己贪心”的声音，是在保护你免受什么失望。",
+  "input_sha256": "7c045d6c8ff13cf9462202f4acdfd65408f473eb1152af91f8fdbb63eec7b333",
+  "memory_sha256": "0d430001424497a59be94d212dd60c7589154f68fe036eebb3e4fea97a54a70e",
+  "request_sha256": "e708e2885d4202fcf95e094b081aed568bcd47a23c87afd7cde92bb24571d365",
+  "usage": {
+    "input_tokens": 9599,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9653,
+    "x_details": [
+      {
+        "input_tokens": 9599,
+        "output_tokens": 54,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9653,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.015
+}

@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P05_CP1",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "6209b4856e46e5d67f5b2fbee1aea77d2830c14ab7449c3897ba45cf14abe14e",
+  "request_sha256": "59aa7818b74de4902a96da1235704ee2149979aa47e140a89b65591d1201db5b",
+  "memory_sha256": "a6eee5e8cafdcce0d4f077781f236c14491b9f43c46c1e15e303e24b8346f863",
+  "memory_source": "68d2ac27f1ff45a8591c2cfaf39c0d832bf114c0672d396da8517648aed64222",
+  "raw_text": "你刚刚说“越想要稳，越觉得自己装得漏洞百出”，这句话里好像藏着一种很累的循环：你越努力维持那个“稳”的样子，就越能看见自己哪里不够稳。也许那个“提醒”不是你真的不稳，而是你太久没有允许自己在一个安全的地方不用装。",
+  "usage": {
+    "input_tokens": 3702,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 65,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3767,
+    "x_details": [
+      {
+        "input_tokens": 3702,
+        "output_tokens": 65,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3767,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.578,
+  "model": "deepseek-v4-pro-0813"
+}

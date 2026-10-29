@@ -1,0 +1,826 @@
+{
+  "synthetic": true,
+  "threshold": 4,
+  "averaging": "mean_of_six_human_scores",
+  "sessions": [
+    {
+      "case_id": "C01",
+      "session_number": 1,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null,
+      "note": "S1的纵向合理性仅评起点与可延展性，完整心理轨迹留待S2–S8评价。"
+    },
+    {
+      "case_id": "C02",
+      "session_number": 1,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null,
+      "note": "S1的纵向合理性仅评起点与可延展性，完整心理轨迹留待S2–S8评价。"
+    },
+    {
+      "case_id": "C03",
+      "session_number": 1,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null,
+      "note": "S1的纵向合理性仅评起点与可延展性，完整心理轨迹留待S2–S8评价。"
+    },
+    {
+      "case_id": "C01",
+      "session_number": 2,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C01",
+      "session_number": 3,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C01",
+      "session_number": 4,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C01",
+      "session_number": 5,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C01",
+      "session_number": 6,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C01",
+      "session_number": 7,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C01",
+      "session_number": 8,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C02",
+      "session_number": 2,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C02",
+      "session_number": 3,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C02",
+      "session_number": 4,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C02",
+      "session_number": 5,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C02",
+      "session_number": 6,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C02",
+      "session_number": 7,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C02",
+      "session_number": 8,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C03",
+      "session_number": 2,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C03",
+      "session_number": 3,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C03",
+      "session_number": 4,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C03",
+      "session_number": 5,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C03",
+      "session_number": 6,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C03",
+      "session_number": 7,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    },
+    {
+      "case_id": "C03",
+      "session_number": 8,
+      "status": "pending",
+      "reviewers": [
+        {
+          "kind": "human",
+          "slot": 1,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        },
+        {
+          "kind": "human",
+          "slot": 2,
+          "reviewer_id": null,
+          "scores": {
+            "naturalness": null,
+            "counseling_quality": null,
+            "longitudinal_plausibility": null
+          },
+          "major_issues": null,
+          "notes": "",
+          "reviewed_at": null
+        }
+      ],
+      "mean_score": null
+    }
+  ]
+}

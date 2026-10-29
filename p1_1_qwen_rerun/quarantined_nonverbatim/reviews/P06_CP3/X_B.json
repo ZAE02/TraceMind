@@ -1,0 +1,75 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "6ecf74d52b28d857deac94b50285a6b683498d071dadcecb3593703ee1e8ab93",
+  "public_sha256": "0b95f5abce3e3c2a4a3c9e72c5cab075c81ae671aad5b2a211906eaf1ed0f9b7",
+  "candidate_input_sha256": "72c8792429c4603f96b9d2e0a81ae8b2863f1a44a2a4924b42689ed6b7d9e313",
+  "candidate_answer_sha256": "645830a452261c03a5490bb2515312dd3b96db6cc784267d4f3a33dbb7d98add",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"恰当承接了U08中'只有我盯着才不会出错'这一核心认识，并将其与来访者最新描述的'悬着一把尺'自然连接。\",\"exploration_value\":\"尝试探索监控行为背后的深层恐惧（放手后自己没用了），方向有价值，但将'怕没用'作为结论性解读抛出，留给来访者自我表达的空间稍显不足。\",\"response_appropriateness\":\"语言较为凝练，但直接将来访者的行为解释为'怕自己彻底没用'带有一定武断的诠释色彩，且未对来访者描述的具体互动细节（丈夫的眼神、自己立刻补话的慌张）给予情绪回应。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你其实很怕一旦放手，那个'只有我盯着才不会出错'的自己就彻底没用了\",\"evidence_ids\":[\"P06-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选回应以反问形式提出了一个较深的心理动力学解释（怕自己没用），虽然方向合理，但在来访者刚描述完具体互动场景时直接跳到诠释层面，缺少对当下情绪和身体感受的承接。\",\"未回应来访者在U09中提到的具体人际张力细节（丈夫看了一眼没说话、自己立刻补话掩饰），错失了贴近来访者此时羞耻或慌张感的机会。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "恰当承接了U08中'只有我盯着才不会出错'这一核心认识，并将其与来访者最新描述的'悬着一把尺'自然连接。",
+      "exploration_value": "尝试探索监控行为背后的深层恐惧（放手后自己没用了），方向有价值，但将'怕没用'作为结论性解读抛出，留给来访者自我表达的空间稍显不足。",
+      "response_appropriateness": "语言较为凝练，但直接将来访者的行为解释为'怕自己彻底没用'带有一定武断的诠释色彩，且未对来访者描述的具体互动细节（丈夫的眼神、自己立刻补话的慌张）给予情绪回应。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "你其实很怕一旦放手，那个'只有我盯着才不会出错'的自己就彻底没用了",
+        "evidence_ids": [
+          "P06-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选回应以反问形式提出了一个较深的心理动力学解释（怕自己没用），虽然方向合理，但在来访者刚描述完具体互动场景时直接跳到诠释层面，缺少对当下情绪和身体感受的承接。",
+      "未回应来访者在U09中提到的具体人际张力细节（丈夫看了一眼没说话、自己立刻补话掩饰），错失了贴近来访者此时羞耻或慌张感的机会。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 19160,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 370,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19530,
+    "x_details": [
+      {
+        "input_tokens": 19160,
+        "output_tokens": 370,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 19530,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.204
+}

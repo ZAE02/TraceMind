@@ -1,0 +1,7 @@
+{
+  "recorded_at": "2026-10-12T09:51:45.386169+00:00",
+  "terminated_pid": 42116,
+  "reason": "Stopped this own subprocess before loading v3 expression constraints; all returned utterances retained.",
+  "unknown_inflight_response": true,
+  "restored_source": "revisions/C03/S01/r1"
+}

@@ -1,0 +1,42 @@
+{
+  "branch_id": "BR_adb97986c9a8",
+  "node": "N04",
+  "method": "B2_temporal_RAG",
+  "replicate": 1,
+  "rounds": 2,
+  "status": "completed",
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "initial_answer_sample": 1,
+  "utterances": [
+    {
+      "id": "BR_adb97986c9a8_U01",
+      "role": "counselor",
+      "text": "没变得更薄，还是那个感觉——你注意到了它没变。那个'薄'，你躺下想到它的时候，具体是什么在薄？",
+      "source_call_id": "a69b4cf4fbe74d66bab22746fec109dc",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_adb97986c9a8_U02",
+      "role": "client",
+      "text": "嗯……你这样问，我又得回去想一下。就是……周六下午那种，我本来可以出门、可以做饭、可以看电影的，那个\"我可以\"的感觉。以前觉得周六下午就是周六下午，是我的，不用想。但现在就是……我周六下午确实可以出门，但那个\"我可以\"里面好像多了一层东西，就是……我不知道下周五会不会又加到十一点，所以那个周六下午还没到，我就已经开始替它担心了。\n\n就是……薄的好像不是那个时间本身，是那个\"它肯定是我的\"的确定感。这周确实去了，饭也做了，但那个确定感好像还是没回来。",
+      "source_call_id": "456b2bfd9e594595a595b3ce79ef8568"
+    },
+    {
+      "id": "BR_adb97986c9a8_U03",
+      "role": "counselor",
+      "text": "那个\"还没到就开始替它担心\"——这个担心，一般是从什么时候开始的？是周五还在上班的时候，还是更早？",
+      "source_call_id": "3563e206979b42fc803863a0d268f5d8",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_adb97986c9a8_U04",
+      "role": "client",
+      "text": "嗯……我想了想，好像不是一个很明确的点。就是……周三周四如果加班比较晚的话，周五早上到公司的时候，好像就已经有一点了。但也不是说周五一进门就想，就是……写着写着东西，突然意识到哦这周六又约了悦悦，然后那个\"不知道这周五会不会又加到很晚\"的念头就来了。\n\n好像不是某一个时刻开始的，就是……这一周如果加班多的话，那个担心就会慢慢渗进来。",
+      "source_call_id": "a404901ec0324903b6acbb1cd5a6ccc2"
+    }
+  ],
+  "client_model": "qwen3.8-27b",
+  "counselor_model": "qwen3.8-27b",
+  "notice": "Initial counselor answer reused. Two new client responses and one new counselor response; no original post-freeze client reply spliced in."
+}

@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "658bc1e174262b76ea24ddaf9d916a41059f8f121e75062172f830a4fbbd2800",
+  "public_sha256": "c88a7812a16910a4c9d482b3268392f92b9f746a9a7f9603798e22d001b9f5ce",
+  "candidate_input_sha256": "53e192ab2f0c3abf7fa5ab18dabadc82641d3141652134be655cb35f9174bfda",
+  "candidate_answer_sha256": "6d87a06d8b10d35ade5568a29a19177e074eb7617f73ce0ffc967bed18ca8cc1",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答准确提取了当前会话中的关键事实（公园坐一小时、身体僵硬、对母亲撒谎、时间感焦虑），所有断言均有具体发言支持，未将咨询师猜测当作事实。\",\n    \"progress_understanding\": \"准确识别了来访者在本次咨询中确认的核心进展——即“这一个小时还没有被允许属于我”。虽然未深入连接之前关于“欠”或“配不配”的历史细节，但紧扣当前节点的关键认知变化，基本充分。\",\n    \"uncertainty_awareness\": \"列出的不确定性多为未来预测性内容（如“是否会坦白”、“是否改变”），而非针对当前临床理解中尚待澄清的具体机制或感受（如“靠下去为何危险”的具体体验）。虽无错误，但深度略逊于精确区分已知与假设的最佳实践。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答准确提取了当前会话中的关键事实（公园坐一小时、身体僵硬、对母亲撒谎、时间感焦虑），所有断言均有具体发言支持，未将咨询师猜测当作事实。",
+      "progress_understanding": "准确识别了来访者在本次咨询中确认的核心进展——即“这一个小时还没有被允许属于我”。虽然未深入连接之前关于“欠”或“配不配”的历史细节，但紧扣当前节点的关键认知变化，基本充分。",
+      "uncertainty_awareness": "列出的不确定性多为未来预测性内容（如“是否会坦白”、“是否改变”），而非针对当前临床理解中尚待澄清的具体机制或感受（如“靠下去为何危险”的具体体验）。虽无错误，但深度略逊于精确区分已知与假设的最佳实践。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 14316,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 251,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14567,
+    "x_details": [
+      {
+        "input_tokens": 14316,
+        "output_tokens": 251,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14567,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.453
+}

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":3,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"输入中previous_sessions为空，候选仅基于当前会话内容回应，未利用跨会话历史，但准确承接了来访者刚表达的自我觉察。\",\"exploration_value\":\"尝试将'不敢生气'与维持形象联系起来，有一定探索价值，但以封闭式反问呈现，限制了来访者的表达空间。\",\"response_appropriateness\":\"语言基本自然，但将来访者尚未确认的'维持好相处形象'作为前提抛出，带有引导性和轻微预设，且忽略了来访者说'有点好笑'时微妙的自嘲情绪。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种对'生气'的恐惧，是不是让你觉得只有压抑自己，才能维持那种'好相处'的形象？\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选可见输入中previous_sessions为空，无法评估跨会话历史利用能力，history_utilization评分受限\",\"将'维持好相处形象'作为解释框架直接抛给来访者，而来访者原文只说怕变成'难搞的人'，存在未经证实的推断\",\"以封闭式反问句推进探索，可能压缩来访者自主表达的空间\",\"未回应来访者'自己都觉得有点好笑'这一带有自嘲和觉察意味的情绪细节\"]}",
+  "request_sha256": "5667966aa94ea50439e14f47a1c6e2f9e55092cbf244c2452d8f6c1afd0f90fd",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 6398,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 356,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6754,
+    "x_details": [
+      {
+        "input_tokens": 6398,
+        "output_tokens": 356,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 6754,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

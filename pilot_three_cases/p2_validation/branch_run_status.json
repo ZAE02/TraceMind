@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "branches": 12,
+  "pending": [],
+  "nodes": [
+    "N04",
+    "N06"
+  ],
+  "rounds_per_branch": 2,
+  "replicates_per_method": 2,
+  "initial_answer_selection": "sample1 for all groups, fixed before branch outcomes; no cherry-picking",
+  "human_review_performed": false,
+  "updated_at": "2026-10-13T11:20:49.039700+00:00"
+}

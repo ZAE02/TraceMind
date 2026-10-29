@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P08_CP3",
+  "condition": "C5_budget",
+  "raw_text": "那种“晚了点”的遗憾，是不是也让你觉得，如果早点有人托底，现在的局面也许就不会这么被动？其实你并不是不知道问谁，而是怕一旦开口，就坐实了“搞不定”这个身份。",
+  "input_sha256": "f2dd28419a5047ac1ae7db4ea5b06fde864116f4832588381228d7ff4f335e1b",
+  "memory_sha256": "b2fcc599e20d568a0a0d776e44f6f3c41dd99092c86711778438303f256480b0",
+  "request_sha256": "6a7dbecce8d22342340d01dc9d24c70c28a7b0029b6d06e41868249f222b9332",
+  "usage": {
+    "input_tokens": 9387,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9436,
+    "x_details": [
+      {
+        "input_tokens": 9387,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9436,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.469
+}

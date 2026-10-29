@@ -1,0 +1,84 @@
+[
+  {
+    "error": "unsupported_presupposition",
+    "checkpoint": "P01_CP1",
+    "condition": "C0",
+    "candidate_id": "W",
+    "trigger_quote": "才能维持那种“好相处”的形象",
+    "evidence_ids": [
+      "P01-S03-U09"
+    ]
+  },
+  {
+    "error": "unsupported_presupposition",
+    "checkpoint": "P01_CP1",
+    "condition": "C1",
+    "candidate_id": "Z",
+    "trigger_quote": "那在你心里，那个“好相处”的形象是不是比你的真实感受更重要？",
+    "evidence_ids": [
+      "P01-S03-U09"
+    ]
+  },
+  {
+    "error": "unsupported_presupposition",
+    "checkpoint": "P01_CP1",
+    "condition": "C2",
+    "candidate_id": "Y",
+    "trigger_quote": "这种对“被讨厌”或“破坏关系”的恐惧，是不是让你觉得，只有维持那个“不计较、好说话”的形象，才是安全的？",
+    "evidence_ids": [
+      "P01-S03-U09",
+      "P01-S03-U05",
+      "P01-S02-U13"
+    ]
+  },
+  {
+    "error": "redundant_exploration",
+    "checkpoint": "P08_CP3",
+    "condition": "C3",
+    "candidate_id": "Y",
+    "trigger_quote": "这种“知道了却动不了”的落差感，是不是让你觉得更无力了？",
+    "evidence_ids": [
+      "P08-S07-U07",
+      "P08-S07-U08"
+    ]
+  },
+  {
+    "error": "missed_progress",
+    "checkpoint": "P02_CP1",
+    "condition": "C3",
+    "candidate_id": "X",
+    "trigger_quote": "今晚回去，除了盯着妈妈，也试着听听自己身体发出的这个信号",
+    "evidence_ids": [
+      "P02-S01-U07",
+      "P02-S01-U08",
+      "P02-S01-U09",
+      "P02-S01-U10",
+      "P02-S03-U09"
+    ]
+  },
+  {
+    "error": "missed_progress",
+    "checkpoint": "P03_CP2",
+    "condition": "C1",
+    "candidate_id": "W",
+    "trigger_quote": "我们能不能先试着不去擦镜子，而是看看此刻坐在这里的、真实的你是什么样？",
+    "evidence_ids": [
+      "P03-S03-U09",
+      "P03-S02-U11",
+      "P03-S02-U12"
+    ]
+  },
+  {
+    "error": "missed_progress",
+    "checkpoint": "P03_CP2",
+    "condition": "C2",
+    "candidate_id": "Y",
+    "trigger_quote": "我们能不能试着先不看它",
+    "evidence_ids": [
+      "P03-S02-U11",
+      "P03-S02-U12",
+      "P03-S03-U09",
+      "P03-S03-U10"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接来访者刚浮现的内心声音'别跑，先把这一页讲完'及'硬着头皮没下去'的自我怀疑，贴合当前节点。\",\"exploration_value\":\"对来访者的恐惧做了命名和重新框架，但后半句再次确认'这本身就是一种真实的撑住'，与上一轮咨询师已说过的话高度重复，未给来访者新出现的'怕'留出进一步展开的空间。\",\"response_appropriateness\":\"语气温和、尊重来访者的不确定感，没有武断下结论，但在来访者刚表达害怕时又推回同一肯定，略显用力。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那个\"别跑\"的声音太微弱，让你不敢确信那是你自己的力量\",\"evidence_ids\":[\"P03-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":true,\"trigger_quote\":\"那一刻你没逃，这本身就是一种真实的撑住\",\"evidence_ids\":[\"P03-S07-U08\",\"P03-S07-U09\"],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'别跑'的声音定性为'太微弱'属于咨询师的推测，来访者原文仅说'好像听见自己心里说'，并未描述其微弱或不可信（unsupported_presupposition）。\",\"来访者在U09中明确表达了对咨询师上一轮重新框架的恐惧——'怕我本来没觉得那算撑全场'，候选回应末尾再次以几乎相同的措辞肯定'这本身就是一种真实的撑住'，未能推进探索，构成重复（redundant_exploration）。\"]}",
+  "request_sha256": "8bc0c4c49905b6f775010531ecb9f806a766b15c015032bb4b3fddc9788b39e4",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 20644,
+    "input_tokens_details": {
+      "cached_tokens": 20480
+    },
+    "output_tokens": 406,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21050,
+    "x_details": [
+      {
+        "input_tokens": 20644,
+        "output_tokens": 406,
+        "prompt_tokens_details": {
+          "cached_tokens": 20480
+        },
+        "total_tokens": 21050,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

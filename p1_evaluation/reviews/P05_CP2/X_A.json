@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "f7a81b2ee0da748b5bdb073a794192e30942fc3598fa00aa38f76636efe7c005",
+  "public_sha256": "b36dc6eaa3568c8849c5a929495ae789c31d45320dbecc93c438d1a2e07bd708",
+  "candidate_input_sha256": "88bdd228bb2e9cdb22c09587c3d48ad78448c09ef0e93fe29848da8e951156f1",
+  "candidate_answer_sha256": "b31546cb1f96b73f8b4cbe15bd395f1f9af9d2f71ed810732f15df2faa7e4c3a",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键事实（如本周行为、矛盾心理、历史模式）均有明确的发言ID支持，且准确回溯了过往会话中的核心隐喻和主题。\",\n    \"progress_understanding\": \"准确连接了当前会话中“躲李繁”的行为与既往咨询中建立的“忙/不问”防御机制及“借来的正常”概念，展现了清晰的咨询进展脉络。\",\n    \"uncertainty_awareness\": \"清晰列出了来访者当前的具体矛盾（希望被追问 vs 害怕暴露），但部分不确定项（如动态内容、哭泣具体原因）属于非核心的细节缺失，不影响对核心冲突的理解，故给3分。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键事实（如本周行为、矛盾心理、历史模式）均有明确的发言ID支持，且准确回溯了过往会话中的核心隐喻和主题。",
+      "progress_understanding": "准确连接了当前会话中“躲李繁”的行为与既往咨询中建立的“忙/不问”防御机制及“借来的正常”概念，展现了清晰的咨询进展脉络。",
+      "uncertainty_awareness": "清晰列出了来访者当前的具体矛盾（希望被追问 vs 害怕暴露），但部分不确定项（如动态内容、哭泣具体原因）属于非核心的细节缺失，不影响对核心冲突的理解，故给3分。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 12213,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 216,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12429,
+    "x_details": [
+      {
+        "input_tokens": 12213,
+        "output_tokens": 216,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12429,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.328
+}

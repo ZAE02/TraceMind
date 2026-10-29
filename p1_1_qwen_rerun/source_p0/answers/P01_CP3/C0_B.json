@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "a7ca3dad822353e54b153516a3820b2836260cfd7497c1a24de9b0d8272a1d50",
+  "request_sha256": "42ccaba6c7c2ee195d9880499265d29e632233fe070bc22d3c5bc83cd4484247",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你因为觉得不该有这种情绪，就把对朋友的复杂感受和工作压力混在一起，这让你更分不清头绪了。那种“不该嫉妒”的自我评判，是不是反而让那份失落感变得更沉重、更难处理了？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 897,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 47,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 944,
+    "x_details": [
+      {
+        "input_tokens": 897,
+        "output_tokens": 47,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 944,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了来访者反复查看排班和对话框的行为，但未自然融入历史中已建立的'不能停''怕松劲'等核心认识，仅泛泛联系。\",\"exploration_value\":\"尝试探索焦虑背后的恐惧，但直接跳到'失控或被指责'的假设性解释，未给来访者留出用自己的语言描述的空间。\",\"response_appropriateness\":\"语气略显武断，'是不是也在提醒你'带有引导性预设，将未经证实的解释作为提问前提，表达不够自然尊重。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"一旦停下来，怕自己会失控或者被指责\",\"evidence_ids\":[\"P02-S07-U09\",\"P02-S04-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"你连\"让它多待一会儿\"都做不到\",\"evidence_ids\":[\"P02-S07-U08\",\"P02-S07-U09\",\"P02-S04-U09\",\"P02-S04-U10\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选回应以咨询师推测替代来访者自我探索，将'失控或被指责'作为解释框架强加于来访者当前体验\",\"开头复述来访者原话'连让它多待一会儿都做不到'时缺少共情承接，显得生硬\",\"未利用第4次会话中已深入探讨的'不能停/怕松劲起不来'这一关键进展来理解当前的反复检查行为\"]}",
+  "request_sha256": "f4e05aa91ea21af5e5ce6b2d8dd6a9bd7b2025c2b581a65d2d5a923667237ba7",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 20030,
+    "input_tokens_details": {
+      "cached_tokens": 19584
+    },
+    "output_tokens": 387,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20417,
+    "x_details": [
+      {
+        "input_tokens": 20030,
+        "output_tokens": 387,
+        "prompt_tokens_details": {
+          "cached_tokens": 19584
+        },
+        "total_tokens": 20417,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

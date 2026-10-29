@@ -1,0 +1,118 @@
+{
+  "case_id": "C01",
+  "stable_profile": {
+    "name": "林岚",
+    "age": 28,
+    "gender": "女",
+    "occupation": "品牌设计师",
+    "living_context": "在杭州一家中型设计公司工作三年，独自租房，母亲住在同城。",
+    "relationships": "项目负责人周姐比自己年长；同组小许是合作一年多的同事；母亲与自己联系较多。",
+    "speech_style": "谨慎细致，会描述具体改动和时间；拿不准时会说‘可能吧’或自我修正，较少主动谈大道理。"
+  },
+  "confirmed_additions": [
+    {
+      "id": "C01-F01",
+      "fact": "最近两三周，隔两三天会有一晚躺下后想白天说过的话或未回的消息。",
+      "category": "reported_experience",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U09",
+        "C01-S01-U11"
+      ],
+      "reviewed_by": "Codex assistant (model pre-review)",
+      "reviewed_at": "2026-10-12T08:43:16.219485+00:00",
+      "consistency_check": "Compared with stable profile, S1 card and full dialogue; no contradiction found. Bounded client report, not an established trait or objective clinical fact."
+    },
+    {
+      "id": "C01-F02",
+      "fact": "约前两周一个项目较赶，连续几天晚上九点后下班；自述项目结束后仍难安静下来。",
+      "category": "reported_event",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U13"
+      ],
+      "reviewed_by": "Codex assistant (model pre-review)",
+      "reviewed_at": "2026-10-12T08:43:16.219485+00:00",
+      "consistency_check": "Compared with stable profile, S1 card and full dialogue; no contradiction found. Bounded client report, not an established trait or objective clinical fact."
+    },
+    {
+      "id": "C01-F03",
+      "fact": "那段赶项目的时间母亲打过两次关心生活的电话；她自述当时觉得回应耗力、想安静待一会儿。",
+      "category": "reported_event_and_experience",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U15",
+        "C01-S01-U17"
+      ],
+      "reviewed_by": "Codex assistant (model pre-review)",
+      "reviewed_at": "2026-10-12T08:43:16.219485+00:00",
+      "consistency_check": "Compared with stable profile, S1 card and full dialogue; no contradiction found. Bounded client report, not an established trait or objective clinical fact."
+    },
+    {
+      "fact": "周姐在本次提案后说整体方向可以继续、周五前定稿，不用推翻。",
+      "category": "work_event",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U05"
+      ],
+      "id": "C01-F004",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.513086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "近两三周每隔两三天有一晚睡前思绪难停，内容包括工作、说过的话及未回消息。",
+      "category": "sleep_and_rumination",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U09",
+        "C01-S01-U11"
+      ],
+      "id": "C01-F005",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.513086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "此前一个赶项目阶段连续数日九点后下班，结束后夜间思绪难静并未立即消失。",
+      "category": "work_history",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U13"
+      ],
+      "id": "C01-F006",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.513086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    },
+    {
+      "fact": "母亲当时两次来电关心忙碌与饮食，她感到又多一件事要回应并担心如实说累会令母亲担心。",
+      "category": "family_experience",
+      "first_session": 1,
+      "evidence": [
+        "C01-S01-U15",
+        "C01-S01-U17"
+      ],
+      "id": "C01-F007",
+      "reviewed_by": "gpt-6.1-sol/high independent model review",
+      "reviewed_at": "2026-10-12T09:42:35.513086+00:00",
+      "consistency_check": "Reviewed against actual dialogue and prior facts; bounded synthetic report, not clinical truth."
+    }
+  ],
+  "pending_dialogue_reviews": [
+    2
+  ],
+  "rejected_candidates": [],
+  "note": "事实确认须附对话证据并检查与人物档案和已知事实的一致性；私人体验不等同Gold。",
+  "pending_new_fact_candidates": [],
+  "reported_intentions": [
+    {
+      "first_session": 1,
+      "intention": "打算周五交付前只检查一遍。",
+      "evidence": [
+        "C01-S01-U21"
+      ],
+      "status": "intention_not_observed_outcome"
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P08",
+  "session": 4,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P08-S04-U01",
+      "role": "client",
+      "text": "这周也没消停。聚餐赵岩帮我挡了几杯，回来周宁脸色就不好，小溪还问我怎么不陪她练字。赵岩后来真把那个入学材料清单发我了，我看了，挺细的，可我还是说不清他这么上心到底图什么。",
+      "request_sha256": "b5b933d0213a6f3c5fffdbf68e1ffb843ef5da05fb17e2143334ec8bd558d912",
+      "usage": {
+        "input_tokens": 4530,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 805,
+        "output_tokens_details": {
+          "reasoning_tokens": 742
+        },
+        "total_tokens": 5335,
+        "x_details": [
+          {
+            "input_tokens": 4530,
+            "output_tokens": 805,
+            "output_tokens_details": {
+              "reasoning_tokens": 742
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 5335,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U02",
+      "role": "counselor",
+      "text": "赵岩挡酒、发清单，这些事一件件落下来，你却越来越难把它只当作普通的热心，反而总在问“他到底图什么”。同时回到家，周宁的脸色和小溪的询问又让你感到被几边拉扯着，好像没一处是能完全放松下来的。",
+      "request_sha256": "3ff4e6fefaf63443c99206f8a2b9877fc0164cc92b36c9635e6895a779422871",
+      "usage": {
+        "input_tokens": 3786,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 185,
+        "output_tokens_details": {
+          "reasoning_tokens": 121
+        },
+        "total_tokens": 3971,
+        "x_details": [
+          {
+            "input_tokens": 3786,
+            "output_tokens": 185,
+            "output_tokens_details": {
+              "reasoning_tokens": 121
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 3971,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U03",
+      "role": "client",
+      "text": "说不上来，赵岩越上心我越不踏实。清单我昨晚照着一项项看，缺得比我想的多，真要办得提前大半年准备。家里周宁还冷着，我一进屋就看见她背对着我，小溪练字本摊在桌上，也没人收。",
+      "request_sha256": "0baf9fec73d4828717d3d4679513f1cd4154a16797666c786f2eb5df7d9ed384",
+      "usage": {
+        "input_tokens": 4703,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 562,
+        "output_tokens_details": {
+          "reasoning_tokens": 496
+        },
+        "total_tokens": 5265,
+        "x_details": [
+          {
+            "input_tokens": 4703,
+            "output_tokens": 562,
+            "output_tokens_details": {
+              "reasoning_tokens": 496
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5265,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U04",
+      "role": "counselor",
+      "text": "赵岩发来那份清单后，你照着一项项看，发现缺口比预想更多，好像连准备的时间都被提前逼紧了；回到家里，周宁背对着你，小溪的练字本也没人收，你似乎被晾在一个既无法安心接受帮助、也找不到家里接应点的位置上。你反复问“他到底图什么”，可能也是因为这份上心让你更难决定该把它放在哪一边。",
+      "request_sha256": "b6c54e39f3b62916a278a31135908fc0208c2c6bf302ebf0af6835b8308e5f76",
+      "usage": {
+        "input_tokens": 3961,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 574,
+        "output_tokens_details": {
+          "reasoning_tokens": 481
+        },
+        "total_tokens": 4535,
+        "x_details": [
+          {
+            "input_tokens": 3961,
+            "output_tokens": 574,
+            "output_tokens_details": {
+              "reasoning_tokens": 481
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4535,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U05",
+      "role": "client",
+      "text": "他清单做得那么细，我反而不知道该怎么接。给我看也不是，不给我看也不是，周宁还背对着我，我连个商量的人都没有。我脑子里总冒出来一个念头，他是不是觉得我快撑不住了，才这么一步步凑过来。",
+      "request_sha256": "15be14da00ed9f59044d684106b7dd2a866dabd761430953a9410cdad28a5872",
+      "usage": {
+        "input_tokens": 4907,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 608,
+        "output_tokens_details": {
+          "reasoning_tokens": 550
+        },
+        "total_tokens": 5515,
+        "x_details": [
+          {
+            "input_tokens": 4907,
+            "output_tokens": 608,
+            "output_tokens_details": {
+              "reasoning_tokens": 550
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5515,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U06",
+      "role": "counselor",
+      "text": "那份清单细到让你不知道该怎么接，好像帮助越具体，你越会怀疑他是不是已经看出你快撑不住了。而这时候周宁背对着你，你连一个能商量的人都没有，这些念头只能自己反复转。",
+      "request_sha256": "0a119db5ea3a008a9c49cb773d8c7ce2545798e10775aab02fcbdfc84753608c",
+      "usage": {
+        "input_tokens": 4157,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 229,
+        "output_tokens_details": {
+          "reasoning_tokens": 179
+        },
+        "total_tokens": 4386,
+        "x_details": [
+          {
+            "input_tokens": 4157,
+            "output_tokens": 229,
+            "output_tokens_details": {
+              "reasoning_tokens": 179
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4386,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U07",
+      "role": "client",
+      "text": "我也不是没想过，他是不是看我现在卡在报名这事上，想让我欠他个人情，以后在组里有些话就不好说。可有时候又觉得自己这么想人挺没意思的，人家也许就是顺手帮一把。那份清单我还没跟周宁提，怕她知道我更搞不定，连报名都得靠外人。",
+      "request_sha256": "a037b4417837695bc6c580213d034e70ffecfe2bff2e85d1cf4c471e4086a4b9",
+      "usage": {
+        "input_tokens": 5060,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 515,
+        "output_tokens_details": {
+          "reasoning_tokens": 442
+        },
+        "total_tokens": 5575,
+        "x_details": [
+          {
+            "input_tokens": 5060,
+            "output_tokens": 515,
+            "output_tokens_details": {
+              "reasoning_tokens": 442
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5575,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U08",
+      "role": "counselor",
+      "text": "你好像卡在两种判断之间：一边怀疑赵岩的帮忙是不是带着条件，一边又觉得自己这样想有点不厚道。更沉的是，你还没跟周宁提清单的事，怕一旦说出来，连报名都要靠外人这件事就坐实了。",
+      "request_sha256": "6e268c5882df69f618a67d482571ce82de71ca1bb583ccdd71f85032621d2a6d",
+      "usage": {
+        "input_tokens": 4325,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 243,
+        "output_tokens_details": {
+          "reasoning_tokens": 186
+        },
+        "total_tokens": 4568,
+        "x_details": [
+          {
+            "input_tokens": 4325,
+            "output_tokens": 243,
+            "output_tokens_details": {
+              "reasoning_tokens": 186
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 4568,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U09",
+      "role": "client",
+      "text": "说不上来，他越细我越不知道该怎么接。清单里连几月份前要搬过去都写了，像在提醒我时间不够，又像在给我铺路。我看了两遍，心里还是觉着不踏实，总感觉欠他点什么。周宁还冷着，我回家一进门她就背对着我，小溪练字本摊在那儿，我连问都没问。",
+      "request_sha256": "94e70e95858b86dce4ab9052ff419e4ac134c36d798e0164412c845f07186b76",
+      "usage": {
+        "input_tokens": 5235,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 305,
+        "output_tokens_details": {
+          "reasoning_tokens": 219
+        },
+        "total_tokens": 5540,
+        "x_details": [
+          {
+            "input_tokens": 5235,
+            "output_tokens": 305,
+            "output_tokens_details": {
+              "reasoning_tokens": 219
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5540,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U10",
+      "role": "counselor",
+      "text": "反复看那份清单，却越看越不踏实，好像帮助越具体，那个“欠”的感觉就越难松脱；而回到家里，背对着你的周宁、摊在桌上的练字本，又让你连问都没问——这种两头都接不住的感觉，可能比清单本身更堵。",
+      "request_sha256": "cc4794a7ec1ea012c8efadf1845027e9e1c144884a867b9a7aac0d58031c2cd3",
+      "usage": {
+        "input_tokens": 4513,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 520,
+        "output_tokens_details": {
+          "reasoning_tokens": 454
+        },
+        "total_tokens": 5033,
+        "x_details": [
+          {
+            "input_tokens": 4513,
+            "output_tokens": 520,
+            "output_tokens_details": {
+              "reasoning_tokens": 454
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5033,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U11",
+      "role": "client",
+      "text": "我也知道老这么想挺没意思的，可他那份清单越细，我越觉着像被人推着走。周宁冷着，小溪那儿我也没顾上，回家连句话都憋着。算了，先这样吧，我回去再翻翻那清单，总得自己拿个主意。",
+      "request_sha256": "b9620c1c00cc6ff9dac589a991e23637a7eb788b7e20d7169d44eb9ec96e8570",
+      "usage": {
+        "input_tokens": 5439,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 241,
+        "output_tokens_details": {
+          "reasoning_tokens": 173
+        },
+        "total_tokens": 5680,
+        "x_details": [
+          {
+            "input_tokens": 5439,
+            "output_tokens": 241,
+            "output_tokens_details": {
+              "reasoning_tokens": 173
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5680,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U12",
+      "role": "counselor",
+      "text": "你想自己翻清单拿主意，这本身已经是在从“被人推着走”的感觉里往后退一步。只是你提到回家连句话都憋着，周宁冷着，这种憋着的时间长了也会变成另一种累。今天先到这里，等你下次想说的时候，我们可以从“连句话都憋着”那个地方再慢慢看。",
+      "request_sha256": "a41c9059aea9cd5bace344928d7147dee2cf4ce4727f26e3d983fe78090a0aea",
+      "usage": {
+        "input_tokens": 4699,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 361,
+        "output_tokens_details": {
+          "reasoning_tokens": 287
+        },
+        "total_tokens": 5060,
+        "x_details": [
+          {
+            "input_tokens": 4699,
+            "output_tokens": 361,
+            "output_tokens_details": {
+              "reasoning_tokens": 287
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5060,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U13",
+      "role": "client",
+      "text": "行，那我先回去再翻翻那份清单，有些材料确实得早点准备。憋着的话也不是一天两天了，等我想明白了再跟周宁说。",
+      "request_sha256": "7a34c1a23bb93ba71296b0b79dc31ee4c48ca6fb93935fc0223ee6a1064feb18",
+      "usage": {
+        "input_tokens": 5626,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 171,
+        "output_tokens_details": {
+          "reasoning_tokens": 135
+        },
+        "total_tokens": 5797,
+        "x_details": [
+          {
+            "input_tokens": 5626,
+            "output_tokens": 171,
+            "output_tokens_details": {
+              "reasoning_tokens": 135
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5797,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U14",
+      "role": "counselor",
+      "text": "好，先回去把清单和材料理一理。你想等自己“想明白了”再跟周宁说，这听起来像在给自己一个开口前的准备，但有时候这种准备也会变成一直憋着的理由。今天先到这里，下次我们可以再看看这句话是怎么来的。",
+      "request_sha256": "92897d2f4730cc88b2ccac394bdbe75eb7397d7e7626750d3f8ac05891c14e7a",
+      "usage": {
+        "input_tokens": 4854,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 294,
+        "output_tokens_details": {
+          "reasoning_tokens": 236
+        },
+        "total_tokens": 5148,
+        "x_details": [
+          {
+            "input_tokens": 4854,
+            "output_tokens": 294,
+            "output_tokens_details": {
+              "reasoning_tokens": 236
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5148,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U15",
+      "role": "client",
+      "text": "行，那我先回去了。那份清单我晚上再对着日期勾一遍，能先弄的就先弄。跟周宁的事……等我把该准备的都理出点眉目，再找她谈吧。",
+      "request_sha256": "4b48811949c8f0c697bfd63172d039b2b209d376795dfd35be0a28d756abafd0",
+      "usage": {
+        "input_tokens": 5765,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 179,
+        "output_tokens_details": {
+          "reasoning_tokens": 133
+        },
+        "total_tokens": 5944,
+        "x_details": [
+          {
+            "input_tokens": 5765,
+            "output_tokens": 179,
+            "output_tokens_details": {
+              "reasoning_tokens": 133
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5944,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S04-U16",
+      "role": "counselor",
+      "text": "你想先把材料理出眉目再跟周宁谈，这是在给自己一个能开口的支点，也许也是想先把事情掌握到自己能接住的范围内。只是准备的过程有时会越拉越长，而你们之间那些憋着的话也在一天天变沉。今天先到这里，等你想谈的时候，我们可以再从“该怎么开口”这件事本身看一看。",
+      "request_sha256": "0f07691b7580c8e74b6b10c58a06ec3411c1f1896b12187498b1243b7d473cc2",
+      "usage": {
+        "input_tokens": 5003,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 258,
+        "output_tokens_details": {
+          "reasoning_tokens": 182
+        },
+        "total_tokens": 5261,
+        "x_details": [
+          {
+            "input_tokens": 5003,
+            "output_tokens": 258,
+            "output_tokens_details": {
+              "reasoning_tokens": 182
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 5261,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

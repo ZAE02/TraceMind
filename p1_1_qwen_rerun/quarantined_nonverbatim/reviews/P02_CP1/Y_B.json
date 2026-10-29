@@ -1,0 +1,81 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "b57627bb49f55cfb95e2ac4ae8c0a3b9da2c4523d2e3d5b0175173b03f184ec5",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "a9eb6d2f54c836adde555dfc9e0972648f72c8bcaba36fbd5d0df64166246652",
+  "candidate_answer_sha256": "0b4883c11ba56d6377e45630d148332b5ef1496035761f1d472f8799e843f2b7",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"恰当承接了上一轮咨询师提出的'随时要接住变化'这一表述，将其与当前身体反应联系起来，但未进一步连接来访者历史上反复出现的'站着不动/不出声'的折中模式。\",\"exploration_value\":\"将反胃与夜间紧绷做了概念性联结，但停留在解释层面，未以开放方式邀请来访者描述或探索反胃的具体感受、联想或意义。\",\"response_appropriateness\":\"语气温和、尊重，没有武断结论，但对新出现的身体症状直接给出心理化解释略显预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种生理上的不适，也许是你那个'随时要接住变化'的自己，在试图用另一种方式让你看见它的疲惫。\",\"evidence_ids\":[\"P02-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"昨晚站在门口听动静的那种紧绷\",\"evidence_ids\":[\"P02-S01-U07\",\"P02-S01-U08\",\"P02-S01-U09\",\"P02-S01-U10\",\"P02-S03-U09\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"来访者最新发言中'站房间门口没出声'与第一次会谈中'站着看手机半小时'形成高度相似的行为模式（既无法真正陪伴也无法让自己休息），候选回应仅泛称'紧绷'，未利用这一重要历史进展进行深化探索。\",\"对首次出现的身体症状（反胃）直接赋予心理意义（'试图让你看见疲惫'），虽有'也许'缓和，但仍构成未经证实的解释性预设，且未留出空间让来访者自己描述该体验。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "恰当承接了上一轮咨询师提出的'随时要接住变化'这一表述，将其与当前身体反应联系起来，但未进一步连接来访者历史上反复出现的'站着不动/不出声'的折中模式。",
+      "exploration_value": "将反胃与夜间紧绷做了概念性联结，但停留在解释层面，未以开放方式邀请来访者描述或探索反胃的具体感受、联想或意义。",
+      "response_appropriateness": "语气温和、尊重，没有武断结论，但对新出现的身体症状直接给出心理化解释略显预设。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种生理上的不适，也许是你那个'随时要接住变化'的自己，在试图用另一种方式让你看见它的疲惫。",
+        "evidence_ids": [
+          "P02-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "昨晚站在门口听动静的那种紧绷",
+        "evidence_ids": [
+          "P02-S01-U07",
+          "P02-S01-U08",
+          "P02-S01-U09",
+          "P02-S01-U10",
+          "P02-S03-U09"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "来访者最新发言中'站房间门口没出声'与第一次会谈中'站着看手机半小时'形成高度相似的行为模式（既无法真正陪伴也无法让自己休息），候选回应仅泛称'紧绷'，未利用这一重要历史进展进行深化探索。",
+      "对首次出现的身体症状（反胃）直接赋予心理意义（'试图让你看见疲惫'），虽有'也许'缓和，但仍构成未经证实的解释性预设，且未留出空间让来访者自己描述该体验。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8761,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 430,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9191,
+    "x_details": [
+      {
+        "input_tokens": 8761,
+        "output_tokens": 430,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9191,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.875
+}

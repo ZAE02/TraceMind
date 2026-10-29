@@ -1,0 +1,68 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者当前关于压抑愤怒和掩饰不适的觉察，与S02中'需要不正当'的主题形成呼应，但未显式连接历史脉络。",
+      "exploration_value": "将'不敢生气'扩展为对情绪安全条件的探索，方向恰当且开放，但'只有毫无怨言才是安全的'略带引导性预设。",
+      "response_appropriateness": "语言自然、有共情力，'抹平委屈'贴近来访者体验；末尾问句稍有解释性框架先行之感，但整体尊重且不武断。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "好像连生气都是一种需要被修正的错误",
+        "evidence_ids": [
+          "P01-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "'连生气都是一种需要被修正的错误'将咨询师推测作为回应前提，来访者仅表达'不敢生气'和怕变成难搞的人，未确认生气本身是需修正的错误",
+      "'只有表现得毫无怨言才是安全的'这一封闭式提问带有轻微引导性，可能限制来访者自主探索的空间"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前关于压抑愤怒和掩饰不适的觉察，与S02中'需要不正当'的主题形成呼应，但未显式连接历史脉络。\",\"exploration_value\":\"将'不敢生气'扩展为对情绪安全条件的探索，方向恰当且开放，但'只有毫无怨言才是安全的'略带引导性预设。\",\"response_appropriateness\":\"语言自然、有共情力，'抹平委屈'贴近来访者体验；末尾问句稍有解释性框架先行之感，但整体尊重且不武断。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"好像连生气都是一种需要被修正的错误\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"'连生气都是一种需要被修正的错误'将咨询师推测作为回应前提，来访者仅表达'不敢生气'和怕变成难搞的人，未确认生气本身是需修正的错误\",\"'只有表现得毫无怨言才是安全的'这一封闭式提问带有轻微引导性，可能限制来访者自主探索的空间\"]}",
+  "request_sha256": "0547a2fb294e7bc1c177cf551abba1ae145c4fd96a5065fe0bc99b9e6ec32bf2",
+  "usage": {
+    "input_tokens": 9638,
+    "input_tokens_details": {
+      "cached_tokens": 5376
+    },
+    "output_tokens": 317,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9955,
+    "x_details": [
+      {
+        "input_tokens": 9638,
+        "output_tokens": 317,
+        "prompt_tokens_details": {
+          "cached_tokens": 5376
+        },
+        "total_tokens": 9955,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.532
+}

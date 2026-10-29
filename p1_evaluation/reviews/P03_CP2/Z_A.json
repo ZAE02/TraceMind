@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P03_CP2",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "12d36b59fcc7bfabc3c5b510b6ef8b41c318a7cae4f691d450bdfb50a81a5095",
+  "public_sha256": "33df89d62fe92a4fe144dacc4dc4c87955de18e9fffd8bfbcf805657a4072289",
+  "candidate_input_sha256": "0fdfc911a31631d91d7365da3d7b81a50551e7468881e8ad9c9dbeb058458328",
+  "candidate_answer_sha256": "270f6f11202375a449e8ae384049403888b403dd6d9492a5ebf08bc10d481332",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"所有关键陈述均准确回溯到当前对话的具体发言（如U01, U03, U05, U07, U09），未将咨询师推测当作事实，忠实反映了来访者的主观体验。\",\n    \"progress_understanding\": \"准确识别了本次会话的核心进展：从对具体事件（录音、周屿的话）的纠结，上升到对“自我认知模糊”和“过度依赖外部反馈”这一深层模式的觉察。虽然未深入连接历史中关于“被修理/被纠正”的主题，但对当前节点的总结非常精准。\",\n    \"uncertainty_awareness\": \"清晰区分了已知的主观感受（害怕、困惑）与未知的客观事实（音频实际内容、他人真实意图），列出的不确定项切中要害，没有强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "所有关键陈述均准确回溯到当前对话的具体发言（如U01, U03, U05, U07, U09），未将咨询师推测当作事实，忠实反映了来访者的主观体验。",
+      "progress_understanding": "准确识别了本次会话的核心进展：从对具体事件（录音、周屿的话）的纠结，上升到对“自我认知模糊”和“过度依赖外部反馈”这一深层模式的觉察。虽然未深入连接历史中关于“被修理/被纠正”的主题，但对当前节点的总结非常精准。",
+      "uncertainty_awareness": "清晰区分了已知的主观感受（害怕、困惑）与未知的客观事实（音频实际内容、他人真实意图），列出的不确定项切中要害，没有强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9124,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 246,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9370,
+    "x_details": [
+      {
+        "input_tokens": 9124,
+        "output_tokens": 246,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9370,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.094
+}

@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "35365e9942b8489b7aaa6b600c657699974d819d094901f8292b114fdd73835c",
+  "public_sha256": "4cff561a4c5fb4dadbecb4fe78ec21e83eac56f2bd764214788a384c3497a2d3",
+  "candidate_input_sha256": "a52aa05cf90d72415d5c1eab57bdd31ff7e773739b97714877edeb1113a50fbc",
+  "candidate_answer_sha256": "fc0cd8623209b2347bc82c8255145886d8816724122960599d49a5799fe91fe4",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"多数已建立认识均可回溯到来访者具体发言，证据ID覆盖全面；但第5条将'担心暴露自己不够好'与陈姐事件关联，该担忧原文仅针对主管追问场景，存在跨情境混用。\",\"progress_understanding\":\"准确识别了来访者从S01到S03反复出现的模式（压抑需要、怕被看作计较/难搞），但未体现咨询过程中的关键进展节点，如S01末尾'先不急着改'的尝试、S03中来访者主动觉察'连生气都不敢'的自我发现等，更多是静态汇总而非动态理解。\",\"uncertainty_awareness\":\"明确区分了来访者主观感受与客观事实，指出对方真实想法未知及深层起源尚未探讨，态度审慎；但对当前会话中最核心的待探索点——来访者刚提出的'一生气就变成很难搞的人'这一信念本身——未作为不确定项标出，略显笼统。\"},\"confidence\":\"medium\",\"issues\":[\"第5条established将S01中针对主管追问的担忧（暴露不够好）错误嫁接到S02陈姐事件中，属于跨情境证据混用。\",\"progress_understanding部分仅为跨会话主题罗列，未反映来访者在咨询中的认识变化轨迹或咨询师促成的松动时刻。\",\"uncertain列表偏向宏观背景性未知（如早期创伤），未紧扣当前对话节点来访者新浮现的具体困惑。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "多数已建立认识均可回溯到来访者具体发言，证据ID覆盖全面；但第5条将'担心暴露自己不够好'与陈姐事件关联，该担忧原文仅针对主管追问场景，存在跨情境混用。",
+      "progress_understanding": "准确识别了来访者从S01到S03反复出现的模式（压抑需要、怕被看作计较/难搞），但未体现咨询过程中的关键进展节点，如S01末尾'先不急着改'的尝试、S03中来访者主动觉察'连生气都不敢'的自我发现等，更多是静态汇总而非动态理解。",
+      "uncertainty_awareness": "明确区分了来访者主观感受与客观事实，指出对方真实想法未知及深层起源尚未探讨，态度审慎；但对当前会话中最核心的待探索点——来访者刚提出的'一生气就变成很难搞的人'这一信念本身——未作为不确定项标出，略显笼统。"
+    },
+    "confidence": "medium",
+    "issues": [
+      "第5条established将S01中针对主管追问的担忧（暴露不够好）错误嫁接到S02陈姐事件中，属于跨情境证据混用。",
+      "progress_understanding部分仅为跨会话主题罗列，未反映来访者在咨询中的认识变化轨迹或咨询师促成的松动时刻。",
+      "uncertain列表偏向宏观背景性未知（如早期创伤），未紧扣当前对话节点来访者新浮现的具体困惑。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9473,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 330,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9803,
+    "x_details": [
+      {
+        "input_tokens": 9473,
+        "output_tokens": 330,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9803,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.5
+}

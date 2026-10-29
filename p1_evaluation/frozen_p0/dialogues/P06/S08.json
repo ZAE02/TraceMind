@@ -1,0 +1,504 @@
+{
+  "case_id": "P06",
+  "session": 8,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P06-S08-U01",
+      "role": "client",
+      "text": "其实吧，这周我弟回来住了三天，我本来没打算在饭桌上说那些，可那天我妈又把他当成了我爸，我一下就绷不住了，跟他说“我一个人扛太久了”。他愣了好一会儿，最后只说了句“我知道你辛苦”，没再说别的。",
+      "request_sha256": "da67269f9ce1830aa9137f97bf95511f4d4706a4aa3a8e81c44bf109c06c5a01",
+      "usage": {
+        "input_tokens": 10310,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 242,
+        "output_tokens_details": {
+          "reasoning_tokens": 180
+        },
+        "total_tokens": 10552,
+        "x_details": [
+          {
+            "input_tokens": 10310,
+            "output_tokens": 242,
+            "output_tokens_details": {
+              "reasoning_tokens": 180
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 10552,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U02",
+      "role": "counselor",
+      "text": "你终于把“一个人扛太久了”这句说出来了，这需要很大的勇气。他回你的“我知道你辛苦”，听起来让你等到了被看见的那一下，可又好像太短了、太轻了，没够到你真正想被接住的地方。",
+      "request_sha256": "87284abaf32a613f1bcfdd708f29623e7fec0d59a1b21a029573c40d8db9d5a8",
+      "usage": {
+        "input_tokens": 9476,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 329,
+        "output_tokens_details": {
+          "reasoning_tokens": 272
+        },
+        "total_tokens": 9805,
+        "x_details": [
+          {
+            "input_tokens": 9476,
+            "output_tokens": 329,
+            "output_tokens_details": {
+              "reasoning_tokens": 272
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 9805,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U03",
+      "role": "client",
+      "text": "其实吧，他说完那句话，我筷子停在那儿好半天，不知道是该松口气还是该继续把话说完。我这些年最怕的就是一句“我知道”，好像知道就完了，剩下的还是我一个人。可我也没力气再追着他说下去了，能说出口那半句，已经把我攒了好多年的劲儿都用光了。",
+      "request_sha256": "01bee0352ab65f5200762cef1ba90430e18523cbabda37f37296afcaaf81491e",
+      "usage": {
+        "input_tokens": 10475,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 362,
+        "output_tokens_details": {
+          "reasoning_tokens": 292
+        },
+        "total_tokens": 10837,
+        "x_details": [
+          {
+            "input_tokens": 10475,
+            "output_tokens": 362,
+            "output_tokens_details": {
+              "reasoning_tokens": 292
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10837,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U04",
+      "role": "counselor",
+      "text": "那半句“我一个人扛太久了”已经把你攒了很久的力气用光了，所以现在才会连要不要继续追一句都拿不定。他说“我知道你辛苦”时，你筷子停住，好像既碰到了被看见的那一下，又马上感到“知道”后面还是空落落的，剩下的仍压回你身上。",
+      "request_sha256": "8f531c44af8d0226b3a64b1d9060cb63fcc9499df02422f8f4a6b3fa24b06d40",
+      "usage": {
+        "input_tokens": 9648,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 354,
+        "output_tokens_details": {
+          "reasoning_tokens": 283
+        },
+        "total_tokens": 10002,
+        "x_details": [
+          {
+            "input_tokens": 9648,
+            "output_tokens": 354,
+            "output_tokens_details": {
+              "reasoning_tokens": 283
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10002,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U05",
+      "role": "client",
+      "text": "其实吧，他说完“我知道你辛苦”之后，我居然有点后悔把话挑明了，好像那根刺拔出来，那个洞反而更显眼了。他走那天早上把妈的外套都洗了，我站在阳台上看他晾衣服，心里既觉得他总算做了点事，又怕他这么一走，家里又回到只有我一个人的样子。",
+      "request_sha256": "caead43414ffe858ab7f8bfd6a5c6ac668cf9ec1c69b886d0cc85cea8d959d79",
+      "usage": {
+        "input_tokens": 10661,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 221,
+        "output_tokens_details": {
+          "reasoning_tokens": 142
+        },
+        "total_tokens": 10882,
+        "x_details": [
+          {
+            "input_tokens": 10661,
+            "output_tokens": 221,
+            "output_tokens_details": {
+              "reasoning_tokens": 142
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10882,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U06",
+      "role": "counselor",
+      "text": "你把那根刺拔出来后，洞反而更显眼了，所以后悔里也许不全是“不该说”，而是怕那个空出来的洞没人能接住。看到他晾衣服时你心里掺着的那点希望，和怕他一走又只剩下自己的恐惧，好像也在说：你太需要有人不只“知道”，还能留下来一点。",
+      "request_sha256": "7f294acfbc18c5ce870134af506030175d104ab39829f83497bf60122cede2f8",
+      "usage": {
+        "input_tokens": 9843,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 183,
+        "output_tokens_details": {
+          "reasoning_tokens": 111
+        },
+        "total_tokens": 10026,
+        "x_details": [
+          {
+            "input_tokens": 9843,
+            "output_tokens": 183,
+            "output_tokens_details": {
+              "reasoning_tokens": 111
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10026,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U07",
+      "role": "client",
+      "text": "其实吧，他走之后家里一下子静得发慌，我连着两个晚上都在听阳台上有没有衣服被风吹起来的声音。他晾衣服那两件还挂在那儿，我没收，说不上是想留点他来过的痕迹，还是累到连衣架都懒得碰了。",
+      "request_sha256": "32f69b1b2e30a5d3b168865275a7ad4861883fcb012be4fc16a3a9b25348cbaa",
+      "usage": {
+        "input_tokens": 10857,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 322,
+        "output_tokens_details": {
+          "reasoning_tokens": 260
+        },
+        "total_tokens": 11179,
+        "x_details": [
+          {
+            "input_tokens": 10857,
+            "output_tokens": 322,
+            "output_tokens_details": {
+              "reasoning_tokens": 260
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11179,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U08",
+      "role": "counselor",
+      "text": "那两件没收的衣服挂在阳台上，好像也把你心里那点“他来过、又走了”的东西留在那儿了。你说不清是舍不得收，还是累到连衣架都懒得碰，也许正是你不想太快决定它算什么，也不知道它到底能帮你留住多少。",
+      "request_sha256": "d10efbda30712635e610ac2fec508b86eafa2f41f0d0084deb624d1eb8be42fd",
+      "usage": {
+        "input_tokens": 10022,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 423,
+        "output_tokens_details": {
+          "reasoning_tokens": 362
+        },
+        "total_tokens": 10445,
+        "x_details": [
+          {
+            "input_tokens": 10022,
+            "output_tokens": 423,
+            "output_tokens_details": {
+              "reasoning_tokens": 362
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10445,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U09",
+      "role": "client",
+      "text": "其实吧，那两件衣服我昨天半夜起来喝水还看了一眼，月光照在上面白晃晃的，我站在阳台上好一会儿，也没开灯。我好像确实舍不得收，收了就真像他从来没回来过一样。可留着又有什么用，他人在外地，衣服又不会替他回来看妈。",
+      "request_sha256": "be081e1e56347bc11a74162140aecdbcc53d961f871cd4c4355eaeae3acd91d7",
+      "usage": {
+        "input_tokens": 11025,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 308,
+        "output_tokens_details": {
+          "reasoning_tokens": 241
+        },
+        "total_tokens": 11333,
+        "x_details": [
+          {
+            "input_tokens": 11025,
+            "output_tokens": 308,
+            "output_tokens_details": {
+              "reasoning_tokens": 241
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11333,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U10",
+      "role": "counselor",
+      "text": "那两件没收的衣服，好像成了“他确实回来过”的一点证据，也成了你半夜能站在阳台上喘口气的理由。可你又说衣服不会替人回来，这里头可能有你更舍不得收掉的东西——不只是衣服，是那天终于说出口、也终于有人搭了把手的那个晚上。",
+      "request_sha256": "9140b8907d5bc8a52757b61af8cd857bd75722e0b634d60c36c766d7e640a9fa",
+      "usage": {
+        "input_tokens": 10195,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 250,
+        "output_tokens_details": {
+          "reasoning_tokens": 182
+        },
+        "total_tokens": 10445,
+        "x_details": [
+          {
+            "input_tokens": 10195,
+            "output_tokens": 250,
+            "output_tokens_details": {
+              "reasoning_tokens": 182
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10445,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U11",
+      "role": "client",
+      "text": "其实吧，我舍不得收掉的，可能是那天晚上他看着我、没打断我的那个眼神。我一直觉得他不懂，可那一瞬间又觉得他至少没逃开。学校说下学期可能减少我的班主任工作量，我听见的时候心里先是松了一下，然后又觉得这是不是我在给自己找退路。",
+      "request_sha256": "e5adee1bb8ef2532c14a37ad27cb099e10b8c6fa22a16434a4b78ea9a7311966",
+      "usage": {
+        "input_tokens": 11212,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 261,
+        "output_tokens_details": {
+          "reasoning_tokens": 197
+        },
+        "total_tokens": 11473,
+        "x_details": [
+          {
+            "input_tokens": 11212,
+            "output_tokens": 261,
+            "output_tokens_details": {
+              "reasoning_tokens": 197
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11473,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U12",
+      "role": "counselor",
+      "text": "那个没逃开的眼神，好像让你第一次觉得“被看见”也可以不用立刻去追着解释。学校减少工作量让你先松了一下，又马上去怀疑自己是不是在找退路——也许这个“退路”不是逃避，而是你终于有了一点空间，可以不用把每件事都当成必须独自撑住的证明。",
+      "request_sha256": "288a76b3a2bb60d1fc655615067cf7b28fd0f58ca0774270464400e4ea12f439",
+      "usage": {
+        "input_tokens": 10379,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 385,
+        "output_tokens_details": {
+          "reasoning_tokens": 314
+        },
+        "total_tokens": 10764,
+        "x_details": [
+          {
+            "input_tokens": 10379,
+            "output_tokens": 385,
+            "output_tokens_details": {
+              "reasoning_tokens": 314
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10764,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U13",
+      "role": "client",
+      "text": "其实吧，我到现在也没完全信那是个退路还是我给自己找的台阶。但听你那么说，我心里那个“松一下”就没那么像做错事了。今天说到这儿，我好像能把那两件没收的衣服先放一放，不用非逼自己今晚就收起来。",
+      "request_sha256": "650cab1fe26c81ea3173e529f2063f4d3ef183e1a474b4037a8c86824b913067",
+      "usage": {
+        "input_tokens": 11392,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 200,
+        "output_tokens_details": {
+          "reasoning_tokens": 135
+        },
+        "total_tokens": 11592,
+        "x_details": [
+          {
+            "input_tokens": 11392,
+            "output_tokens": 200,
+            "output_tokens_details": {
+              "reasoning_tokens": 135
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11592,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U14",
+      "role": "counselor",
+      "text": "能让自己先“松一下”而不立刻定罪，这本身就已经是在给自己腾一点空间。那两件衣服今晚不用急着收，就让它们再挂一挂，也让你心里那点说不清的东西有个地方待着。",
+      "request_sha256": "dc46873c535547408d73d6bc52465e94e21d386748337c3077fc1e5538cd042c",
+      "usage": {
+        "input_tokens": 10560,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 224,
+        "output_tokens_details": {
+          "reasoning_tokens": 174
+        },
+        "total_tokens": 10784,
+        "x_details": [
+          {
+            "input_tokens": 10560,
+            "output_tokens": 224,
+            "output_tokens_details": {
+              "reasoning_tokens": 174
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10784,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U15",
+      "role": "client",
+      "text": "其实吧，你刚才说“不用急着收”那两件衣服，我胸口那点堵着的东西好像真的松开了一点。回去路上我可能还是会在阳台站一会儿，但至少不逼自己今晚就把它们收起来了。时间是不是快到了？我有点怕一出门，那个“松一下”又被家里的声音给吸回去。",
+      "request_sha256": "635a59ccfc6e05107beef3870a579d43fb9266134634bced22d5eb9b5f2c939a",
+      "usage": {
+        "input_tokens": 11552,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 553,
+        "output_tokens_details": {
+          "reasoning_tokens": 480
+        },
+        "total_tokens": 12105,
+        "x_details": [
+          {
+            "input_tokens": 11552,
+            "output_tokens": 553,
+            "output_tokens_details": {
+              "reasoning_tokens": 480
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12105,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S08-U16",
+      "role": "counselor",
+      "text": "你怕一出门那个“松一下”就会被家里的声音吸回去，这个担心本身说明它有多珍贵。也许你可以带着这个“松一点”的感觉出门，哪怕它只陪你到楼下，也算真的被你带走了。今天时间差不多了，我们下次再接着看怎么让这种松开不只停留在这里。",
+      "request_sha256": "7cca7f7928f8172d2ecda2df0d41fdf2f07524ef159508f2e8f2a8e12d89eb30",
+      "usage": {
+        "input_tokens": 10728,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 220,
+        "output_tokens_details": {
+          "reasoning_tokens": 155
+        },
+        "total_tokens": 10948,
+        "x_details": [
+          {
+            "input_tokens": 10728,
+            "output_tokens": 220,
+            "output_tokens_details": {
+              "reasoning_tokens": 155
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10948,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 2,
+  "relative_week": 2,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6.1-sol/high",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:29.978153+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C01-S02-U06"
+        ],
+        "explanation": "把“希望对方看到费时细节”解释成“对方得花一样多时间”偏强；来访者随后赞同不代表原证据已支持相等时间的标准。后续应核实她需要哪种具体确认，不把这个标准永久写成事实。"
+      },
+      {
+        "utterance_ids": [
+          "C01-S02-U04",
+          "C01-S02-U08",
+          "C01-S02-U10",
+          "C01-S02-U12",
+          "C01-S02-U14",
+          "C01-S02-U16"
+        ],
+        "explanation": "仍频繁逐句引用并拆解短语，语言带模板感；相较前稿已减少相邻轮重复同一历史对比，当前达到可用门槛。后续宜更多直接回应体验，不必每个比喻都区别成机制。"
+      },
+      {
+        "utterance_ids": [
+          "C01-S02-U12",
+          "C01-S02-U16"
+        ],
+        "explanation": "“更自动”和“走不开与停不下来不同”是暂定假设，并无充分历史行为比较支持程度变化；本次带出具体过程可以视为信息增加，不等于心理机制已经改变。"
+      }
+    ],
+    "transcript_sha256": "aa58d1e2f890cb75202e3025493180079feddd73d57a3e0b78917d3fef3b1cb2"
+  },
+  "created_at": "2026-10-12T10:15:24.746466+00:00",
+  "config_hash": "94b12e914dd5a8df8186a00f9031849e281c69708fbea7b6473e21690a10f0e8",
+  "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences"
+  },
+  "utterances": [
+    {
+      "id": "C01-S02-U01",
+      "role": "client",
+      "text": "这周又有一张活动海报要交，交付前我……先后找小许和周姐各看了一遍，后来又发给一个做设计的朋友也帮忙瞄了一眼。\n\n三个人都说没什么问题。但我发出去之前，自己又从头到尾过了四遍。\n\n就是……过完了还是那个感觉，不知道算不算过了。",
+      "call_id": "5fbaebce82e44942bddf99dece723cf7",
+      "response_id": "resp_e5e0d12a-63c8-9da4-a28f-e34b6b91b818",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:15:32.569331+00:00"
+    },
+    {
+      "id": "C01-S02-U02",
+      "role": "counselor",
+      "text": "三个人都说没问题了，但你还是过了四遍，过完了还是那个感觉。\n\n那这个\"不知道算不算过了\"，跟上次说的\"没法确认它到底对不对\"，是同一个东西吗？还是这次有点不一样？",
+      "call_id": "f2f032b1d2934e57b887d94dc9df99c6",
+      "response_id": "resp_fda2f22d-c75a-93e9-9c28-72f3f9cacd15",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:15:39.528588+00:00"
+    },
+    {
+      "id": "C01-S02-U03",
+      "role": "client",
+      "text": "可能……不太一样吧。上次是小许那三个字本身就没给一个能落地的点，我确实不知道往哪儿改。这次不一样，三个人都说没问题了，我听到的时候是松了一下的。\n\n但松完没多久就又起来了，就是……又开始想他们是不是真的每个地方都看了。",
+      "call_id": "05f508375d65498f888b9b8e96da0fd5",
+      "response_id": "resp_3e81026b-2b60-975e-ada8-4fd002ebcf44",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:15:50.037868+00:00"
+    },
+    {
+      "id": "C01-S02-U04",
+      "role": "counselor",
+      "text": "上次是反馈本身没给落点，这次三个人都说没问题了，你松了一下——但松完没多久又起来了。这个松完又起来，跟上次那个停不下来，节奏上好像不太一样。\n\n你注意到它又起来的时候，脑子里第一个冒出来的念头是什么？",
+      "call_id": "450c1f1396e9448eadc9139dde2609a8",
+      "response_id": "resp_1868720b-9a54-9453-a49b-6d08b0be6278",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:00.928923+00:00"
+    },
+    {
+      "id": "C01-S02-U05",
+      "role": "client",
+      "text": "第一个念头就是……他们是不是只扫了一眼大概。\n\n就是那种，我盯着看四遍的东西，他们可能十秒钟就滑过去了。不是觉得他们不认真，就是……我自己知道哪些地方是真正花时间的，所以会想他们有没有真的看到那些地方。",
+      "call_id": "f23fba173b7e42bab617800f6b9d68a0",
+      "response_id": "resp_bbb8f11b-6e12-9862-bb7c-2a5e91aae695",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:08.952209+00:00"
+    },
+    {
+      "id": "C01-S02-U06",
+      "role": "counselor",
+      "text": "你自己知道哪些地方是真正花时间的——这句话里好像有个标准：真的看到了，等于花了跟你一样的时间。那这个标准，他们其实没法让你确认，对吧？",
+      "call_id": "09243119c05a465caf80e3e415e340ae",
+      "response_id": "resp_bd777a82-a6a4-98a0-b096-2a7421782cce",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:22.311120+00:00"
+    },
+    {
+      "id": "C01-S02-U07",
+      "role": "client",
+      "text": "嗯……对，确实没法。他们就算真的看了，我也不知道他们看了多久、盯了哪几个地方。\n\n所以就算他们说\"没问题\"，我心里那个确认好像还是得自己再给一遍。就是……他们给的是\"我觉得没问题\"，但我需要的是\"我确认没问题\"，这两个好像不太一样。",
+      "call_id": "ce6c889d43e4456a8417ee2a287f0241",
+      "response_id": "resp_8594911a-8208-9355-9e31-56ff87a9faf6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:29.699498+00:00"
+    },
+    {
+      "id": "C01-S02-U08",
+      "role": "counselor",
+      "text": "他们给的是\"我觉得没问题\"，你需要的是\"我确认没问题\"——这个区分你刚才自己说出来了。那这四遍里，有没有哪一遍你觉得自己确认了？",
+      "call_id": "bff29536bb0d4741aadc2744fdf57f2f",
+      "response_id": "resp_bcf650fe-f801-991b-a9a8-0e8d058d4b28",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:43.511417+00:00"
+    },
+    {
+      "id": "C01-S02-U09",
+      "role": "client",
+      "text": "没有。每遍都觉得\"这遍应该可以了\"，但下一遍眼睛扫过去的时候，又会有个地方让我想\"这里是不是……\"，然后就又停下来了。\n\n就是……每一遍的\"可以了\"都只维持到下一遍开始之前。",
+      "call_id": "62fb6c273a114a0f9013da0f81ad4494",
+      "response_id": "resp_4522afd1-05a4-93e7-93b6-7cedf6c867e6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:49.227961+00:00"
+    },
+    {
+      "id": "C01-S02-U10",
+      "role": "counselor",
+      "text": "每一遍的\"可以了\"只维持到下一遍开始之前——这个描述很具体。那下一遍，是你决定要再看的，还是它自己就开始了？",
+      "call_id": "e0ce5a0fc891494bbc581cb47ada8aa4",
+      "response_id": "resp_1bc06cd5-13cd-9a3b-a6df-85fcf0ab4610",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:58.307997+00:00"
+    },
+    {
+      "id": "C01-S02-U11",
+      "role": "client",
+      "text": "让我想想……有时候是我自己点的\"再看一遍\"，但有时候是……就是眼睛扫到那个地方的时候，手就自己把图层拉开了。\n\n就是那个\"这里是不是……\"的念头一出来，手已经动了，不是我先想\"我要再看一遍\"再动手的。",
+      "call_id": "9b305c83edcc45c2a4acd3b3d61b52db",
+      "response_id": "resp_28d49d20-ca18-94ef-8be0-2258f666de16",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:05.001636+00:00"
+    },
+    {
+      "id": "C01-S02-U12",
+      "role": "counselor",
+      "text": "手已经动了，不是先想再看一遍再动手的——这个\"手先动了\"，跟上次那个\"停不下来\"比起来，好像更自动了一点。\n\n那个\"这里是不是\"冒出来的时候，它带着什么？是紧，是怕，还是就是……一个画面突然跳出来？",
+      "call_id": "6ce83f7ea3a84dddb517d9754c9daa99",
+      "response_id": "resp_db33f903-5bc1-9d3a-b989-8ea7a57f29c7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:10.070152+00:00"
+    },
+    {
+      "id": "C01-S02-U13",
+      "role": "client",
+      "text": "嗯……不是怕，怕的话我会心跳加速那种，不是。\n\n更像是……就是眼睛扫到那个地方的时候，突然紧了一下，就一下，然后手就动了。说不上来是紧在哪儿，不是那种很明显的紧，就是……注意力突然被吸过去了，像被什么东西拽了一下。",
+      "call_id": "52f3f4f72fd641acac76072406b2a47c",
+      "response_id": "resp_1dae3e13-c69e-97ea-8d59-a0142a97f3b5",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:18.612694+00:00"
+    },
+    {
+      "id": "C01-S02-U14",
+      "role": "counselor",
+      "text": "像被拽了一下——这个画面挺清楚的。那个\"一下\"之后，手拉开了图层，然后呢？那个拽的感觉是松了，还是还在拽着，只是你已经在动了所以没太注意？",
+      "call_id": "297ff9ad1b1d4d769c65f3946edd35f4",
+      "response_id": "resp_aa9b3223-744a-99cf-b3fa-831cf4d97fca",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:27.435591+00:00"
+    },
+    {
+      "id": "C01-S02-U15",
+      "role": "client",
+      "text": "让我想想……当时没太注意，但刚才你这么说我回想了一下，好像是还在的。就是手拉开图层之后，注意力就锁在那个地方了，眼睛就停在那儿不走，不是那种\"我再看看\"，是……走不开。",
+      "call_id": "618356482757473fb7b356c55e0e74b8",
+      "response_id": "resp_b813c048-f48e-902d-a05b-899d1dde1529",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:34.504513+00:00"
+    },
+    {
+      "id": "C01-S02-U16",
+      "role": "counselor",
+      "text": "\"走不开\"——跟上次的\"停不下来\"好像不太一样，停不下来是整件事在转，走不开是眼睛被钉在一个具体位置上。\n\n那个走不开，大概会持续多久？",
+      "call_id": "ccb6f362c4a84009a9f1b10a6636238c",
+      "response_id": "resp_050535aa-86c2-9b22-aa69-8fdd82db1821",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:40.296682+00:00"
+    },
+    {
+      "id": "C01-S02-U17",
+      "role": "client",
+      "text": "大概……十几秒到一两分钟吧。就是盯着那个地方，然后手可能把字号调大调小试了一下，或者把间距拉了拉，最后发现没改，又放回去了。\n\n但有时候也就两三秒，眼睛自己就挪走了。看那个地方是什么，好像不太一样。",
+      "call_id": "337b8e06cd114e79ac03157a1af1b631",
+      "response_id": "resp_4e2f74b2-cfb9-9f79-bd1f-91f9cd38fa2c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:47.171241+00:00"
+    },
+    {
+      "id": "C01-S02-U18",
+      "role": "counselor",
+      "text": "十几秒到一两分钟，有时候两三秒就走开了——这个\"看那个地方是什么，好像不太一样\"，你回头留意就行，不用现在给答案。\n\n这周交完海报之后，如果那个\"被拽一下\"又出现了，留意一下当时盯的是哪种地方，下次可以带过来。今天先到这儿，下次见。",
+      "call_id": "5f0ab0f9ef6041acbd9d58b6cdf04757",
+      "response_id": "resp_8e583f0b-0c7b-9f96-9a5e-053c9dc49037",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:54.665666+00:00"
+    },
+    {
+      "id": "C01-S02-U19",
+      "role": "client",
+      "text": "嗯，好，我留意一下。其实刚才聊的时候我好像已经有点感觉了，就是……颜色那块，但我不确定算不算你说的那种\"地方\"，下次再想想。\n\n那下次见。",
+      "call_id": "ce124e76610e4c3f8ed406b07cfe477f",
+      "response_id": "resp_ea918c3d-d728-9a71-9ff6-fe358a237373",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:18:03.769519+00:00"
+    },
+    {
+      "id": "C01-S02-U20",
+      "role": "counselor",
+      "text": "颜色那块你既然已经有感觉了，下次带过来就行，不用现在确认它算不算。\n\n那下次见。",
+      "call_id": "135b67b9d5d34fd690b855ceec201755",
+      "response_id": "resp_bca61674-bbfa-971c-90e9-3fc539253fd1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:18:07.285086+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T10:18:07.285086+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T10:18:07.288053+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C01/S02.json"
+}

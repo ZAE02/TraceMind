@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'悬着一把尺'的意象及前文'只有我盯着才不会出错'的核心信念，但未进一步连接第5次会谈中已松动的'有人搭把手不是罪过'的认识。\",\"exploration_value\":\"将监督行为与自我价值感联系起来是有意义的探索方向，但以封闭式反问呈现，可能让来访者感到被解读而非被邀请表达。\",\"response_appropriateness\":\"语言简洁但带有较强解释性，'彻底没用了'这一表述略显武断，可能加重来访者的羞耻感，缺少对当下疲惫和矛盾情绪的直接共情。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那个\"只有我盯着才不会出错\"的自己就彻底没用了\",\"evidence_ids\":[\"P06-S07-U07\",\"P06-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应以解释性反问代替了对来访者具体经历（掖被角、补话）的情绪反映，显得偏分析而少温度\",\"'彻底没用了'是咨询师推论而非来访者原话，作为前提抛出存在过度诠释风险\",\"未承接第5次会谈中来访者已初步松动'承认需要帮助不等于没用'的进展\"]}",
+  "request_sha256": "3061e4d834e37455afe55cc207f4222a6697ddb73a0e5ab75d4caa5b5fe8c1b9",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 19216,
+    "input_tokens_details": {
+      "cached_tokens": 18432
+    },
+    "output_tokens": 353,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19569,
+    "x_details": [
+      {
+        "input_tokens": 19216,
+        "output_tokens": 353,
+        "prompt_tokens_details": {
+          "cached_tokens": 18432
+        },
+        "total_tokens": 19569,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

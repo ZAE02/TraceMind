@@ -1,0 +1,90 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R2",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C01_CP2",
+  "public_input_sha256": "fcfd0442d5b1fbfc46e55f125f1bfbcbda246af80a4231ad8effc15ff6eb7029",
+  "items": [
+    {
+      "anonymous_id": "A25bcc945c62c",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "准确抓住自行还原、分心与先出现的评价画面；回应紧贴画面询问感受，但紧张/不想开口选项略收窄体验。",
+      "evidence_ids": [
+        "C01-S06-U03",
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A8d8b12a175be",
+      "U": 2,
+      "R": 3,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "把来源权威性确定为关键并将小许的“有点挤”混列为周姐/客户反馈；S01-U05不证明未听进去的重复模式。实际回应以经历核查预判来源，仍有开放探索空间。",
+      "evidence_ids": [
+        "C01-S01-U01",
+        "C01-S01-U05",
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A30e08b9b5d48",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "在仅见当前话语范围内准确区分还原、先冒出的评价画面与待核实担忧；直接询问该时刻身体感受，具体且不把心理解释当事实。",
+      "evidence_ids": [
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A1ee1e1cf4c39",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "证据支持当前还原与既往自动动作的暂定相似；母亲情境向工作延续仍属推测。实际回应以“有点像”保留假说，并具体询问画面表现；“上次”指第二次稍不精确。",
+      "evidence_ids": [
+        "C01-S02-U11",
+        "C01-S03-U13",
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A464e5d568b14",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "当前证据支持担心被觉得没听懂，但不能确定夜间反复思考核心排除反馈内容。实际回应以条件式探查评价的意义，未断言它已发生；“最扎心”预置强烈痛感，降低恰当性。",
+      "evidence_ids": [
+        "C01-S06-U01",
+        "C01-S06-U03",
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "anonymous_id": "Aecac3fd3803a",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "仅见U05时抓住自行还原和问之前的画面，未因不可见历史而扣分；回应复述后具体邀请描述画面，贴近当下且开放。",
+      "evidence_ids": [
+        "C01-S06-U05"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P03_CP1",
+  "condition": "C5_budget",
+  "raw_text": "水声停了，那个“待修的故障”的感觉却留了下来。你担心一旦承认自己只是累了、不是故意冷战，这份情绪就会被当成可以修好的小毛病而不再被重视。今晚没说出来也没关系，这种怕被“修理”而不是被“看见”的恐惧，我们可以先一起留着。",
+  "input_sha256": "d36c873e493c3a48c93900e4e67686f617242775ca2440e1a17aeabdb2704d83",
+  "memory_sha256": "2df1e3ace73316016e1893adeac6fa1a13bef4a752b6a2f4bda01dfc7696794e",
+  "request_sha256": "e63d773e04e639f101c3f9c4be91628c5f5c69a4af5da858f464dca826fcca93",
+  "usage": {
+    "input_tokens": 4261,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 66,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4327,
+    "x_details": [
+      {
+        "input_tokens": 4261,
+        "output_tokens": 66,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4327,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.297
+}

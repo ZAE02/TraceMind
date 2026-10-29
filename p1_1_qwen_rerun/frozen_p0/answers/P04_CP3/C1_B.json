@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP3",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "a28408bb7fdc1655df4f1b0e6d773d16932cac919daf06a2eb497e12144fe6f7",
+  "request_sha256": "0ba048821335af4b7d2e1f4d35971b5e467c002123ce3d241377dbec9a00e637",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那团没洗的衣服让你感到恶心，是因为它像一面镜子，照出了你连“承认极限”都来不及做的狼狈。这种对自己状态的厌恶，是不是比身体的疲惫更让你觉得难以承受？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3502,
+    "input_tokens_details": {
+      "cached_tokens": 896
+    },
+    "output_tokens": 43,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3545,
+    "x_details": [
+      {
+        "input_tokens": 3502,
+        "output_tokens": 43,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "total_tokens": 3545,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

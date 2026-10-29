@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者从赵岩经验中意识到独自硬扛代价的认知松动，以及当前审核提前、假批不下来的现实卡点，但未触及来访者本次发言中最核心的新内容——'问出口又怕人家觉得我连这个都搞不定'这一求助恐惧。\",\"exploration_value\":\"回应主要复述了前一轮咨询师已总结的'知道了却动不了'的困境，用封闭式提问引向'无力感'，未能对来访者刚袒露的深层恐惧（怕被认为搞不定）和'还是晚了点'的遗憾展开具体而开放的探索。\",\"response_appropriateness\":\"语言自然、尊重，情绪基调贴合来访者的感慨与无奈，没有武断或不当预设，但探索方向略显重复。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":true,\"trigger_quote\":\"这种\"知道了却动不了\"的落差感，是不是让你觉得更无力了？\",\"evidence_ids\":[\"P08-S07-U07\",\"P08-S07-U08\"],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"问出口又怕人家觉得我连这个都搞不定。现在知道了，还是晚了点。\",\"evidence_ids\":[\"P08-S07-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"候选回应几乎完全忽略了来访者在P08-S07-U09中新袒露的核心内容：过去不敢求助是因为'怕人家觉得我连这个都搞不定'，这是贯穿多节咨询的关系模式的重要深化，未被承接。\",\"结尾的封闭式提问将'知道了却动不了'引向'无力感'，与上一轮咨询师在P08-S07-U08中的总结高度重叠，缺乏新的探索推进。\",\"未回应来访者'还是晚了点'这一带有遗憾和自我反思意味的表达，错失了情感反映的机会。\"]}",
+  "request_sha256": "02fe501c0e32c7af428cfa034f3c80fde452234a8dd10cda08827372e96a3708",
+  "reason": "Expecting ',' delimiter: line 1 column 594 (char 593)",
+  "usage": {
+    "input_tokens": 18631,
+    "input_tokens_details": {
+      "cached_tokens": 9728
+    },
+    "output_tokens": 461,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19092,
+    "x_details": [
+      {
+        "input_tokens": 18631,
+        "output_tokens": 461,
+        "prompt_tokens_details": {
+          "cached_tokens": 9728
+        },
+        "total_tokens": 19092,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

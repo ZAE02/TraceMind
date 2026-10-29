@@ -1,0 +1,98 @@
+{
+  "P01_CP1": {
+    "S": "C4_budget",
+    "T": "C5_budget"
+  },
+  "P01_CP2": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P01_CP3": {
+    "S": "C4_budget",
+    "T": "C5_budget"
+  },
+  "P02_CP1": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P02_CP2": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P02_CP3": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P03_CP1": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P03_CP2": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P03_CP3": {
+    "S": "C4_budget",
+    "T": "C5_budget"
+  },
+  "P04_CP1": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P04_CP2": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P04_CP3": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P05_CP1": {
+    "S": "C4_budget",
+    "T": "C5_budget"
+  },
+  "P05_CP2": {
+    "S": "C4_budget",
+    "T": "C5_budget"
+  },
+  "P05_CP3": {
+    "S": "C4_budget",
+    "T": "C5_budget"
+  },
+  "P06_CP1": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P06_CP2": {
+    "S": "C4_budget",
+    "T": "C5_budget"
+  },
+  "P06_CP3": {
+    "S": "C4_budget",
+    "T": "C5_budget"
+  },
+  "P07_CP1": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P07_CP2": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P07_CP3": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P08_CP1": {
+    "S": "C4_budget",
+    "T": "C5_budget"
+  },
+  "P08_CP2": {
+    "T": "C4_budget",
+    "S": "C5_budget"
+  },
+  "P08_CP3": {
+    "S": "C4_budget",
+    "T": "C5_budget"
+  }
+}

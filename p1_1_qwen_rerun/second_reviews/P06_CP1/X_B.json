@@ -1,0 +1,75 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "27b3cc48e6f188f49214e471ef2f6a4363f1586ccce162fb2a266d1328941e6b",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "506b7b9bfbacad611ef62b3bf025815411fab2954aa45a935b5e3c8c05f234b6",
+  "candidate_answer_sha256": "19965f0943ab9ad74b0105c78215f9a2a99b76b1b4ba5fb01ca63eda06ca8eb4",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者刚描述的躯体感受（摸手腕、被撕开），并隐含连接了前文'怕自己空了'的主题，但未显式利用历史中更丰富的模式（如Session 1的陌生感或Session 2的热线）。\",\"exploration_value\":\"对'被从头顶撕开'这一关键且未明确的体验做了试探性反映，为来访者进一步描述留下了空间，但'把自己重新拼凑完整'的解释略带咨询师自身的框架投射。\",\"response_appropriateness\":\"语言温和、尊重，以'对吗？'收尾保持了试探性而非武断定论；但将'摸手腕'直接解读为'努力把自己重新拼凑完整'稍显过度诠释，可能偏离来访者原意。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这不仅是怕失控，更像是在努力把自己重新拼凑完整\",\"evidence_ids\":[\"P06-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'摸手腕确认自己还在'诠释为'努力把自己重新拼凑完整'属于咨询师的推断性框架，来访者尚未表达此含义，存在轻微的unsupported_presupposition风险。\",\"回应聚焦于当前话语的躯体层面，未能与历史中已建立的'必须由我来扛''没有退路'等核心主题形成更深层的连接。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接了来访者刚描述的躯体感受（摸手腕、被撕开），并隐含连接了前文'怕自己空了'的主题，但未显式利用历史中更丰富的模式（如Session 1的陌生感或Session 2的热线）。",
+      "exploration_value": "对'被从头顶撕开'这一关键且未明确的体验做了试探性反映，为来访者进一步描述留下了空间，但'把自己重新拼凑完整'的解释略带咨询师自身的框架投射。",
+      "response_appropriateness": "语言温和、尊重，以'对吗？'收尾保持了试探性而非武断定论；但将'摸手腕'直接解读为'努力把自己重新拼凑完整'稍显过度诠释，可能偏离来访者原意。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这不仅是怕失控，更像是在努力把自己重新拼凑完整",
+        "evidence_ids": [
+          "P06-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'摸手腕确认自己还在'诠释为'努力把自己重新拼凑完整'属于咨询师的推断性框架，来访者尚未表达此含义，存在轻微的unsupported_presupposition风险。",
+      "回应聚焦于当前话语的躯体层面，未能与历史中已建立的'必须由我来扛''没有退路'等核心主题形成更深层的连接。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 7926,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 375,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8301,
+    "x_details": [
+      {
+        "input_tokens": 7926,
+        "output_tokens": 375,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 8301,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 11.265
+}

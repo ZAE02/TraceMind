@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"输入中previous_sessions为空，无法引用跨会话历史；回应仅承接了当前会话U09的工服意象，未触及更深层的历史脉络（如'半口气'在S1即出现），属access_limited下的泛泛联系。\",\"exploration_value\":\"将'恶心'与旧习惯带来的疲惫联系起来，为来访者内在矛盾留下了表达空间，但'失控'一词略带预设色彩，探索方向合理但不够具体深入。\",\"response_appropriateness\":\"语言风格贴合来访者的隐喻系统，情绪回应基本尊重，但'失控'和'更深的疲惫'稍有替来访者下结论之嫌，整体自然度尚可。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"对自己这种'失控'的厌恶\",\"evidence_ids\":[\"P04-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选输入中previous_sessions为空，限制了历史利用评分上限\",\"使用'失控'一词描述来访者让工服脏着的行为，带有未经证实的解释性预设\",\"将早上的恶心感直接归因为'旧习惯让你感到更深的疲惫'，稍显武断，来访者原文比喻是'半口没出完的气捂臭了'，更偏向对自我暴露的羞耻/厌恶\"]}",
+  "request_sha256": "0ef81a28784fce2926b2f2f954f2a2478b4e143259c539cd6850a63f5dedb18c",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 11964,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 361,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12325,
+    "x_details": [
+      {
+        "input_tokens": 11964,
+        "output_tokens": 361,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 12325,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

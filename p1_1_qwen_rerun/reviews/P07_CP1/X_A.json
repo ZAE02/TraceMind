@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P07_CP1",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "f1b3e7891066b590d7632ce8f1324b0bc299f6cc6f620d844abf0beea7c794bd",
+  "public_sha256": "5919ea9ca2c9debba1196f5216203c6afad16a33d5eb8ebbe29775f7157c0a24",
+  "candidate_input_sha256": "3af6f802824e955055354aab0029583cfb5a243d37ee23e391a6516a742b69c9",
+  "candidate_answer_sha256": "11cef24c8bb49a7b664c61d55050b3d0bfe758df84a9346a31fd89221c72b168",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"Established points are well-supported by specific utterances from the current session. However, evidence_ids list includes many utterances (entire S01, S02) that are never actually referenced in the established or uncertain sections, creating a mismatch between cited evidence and used evidence.\",\"progress_understanding\":\"Captures key developments within Session 3 (wedding experience, deleting contacts, 'lingqi' as switch, unopened email), but largely treats them as isolated facts rather than connecting them to the broader therapeutic arc—such as how the avoidance pattern evolved from S01's exhaustion through S02's suspended decisions to S03's fear of confirming self-doubt.\",\"uncertainty_awareness\":\"Identifies meaningful unresolved areas including the tension between relief and self-criticism after deletion, long-term impact of 'lingqi' beliefs, and recovery possibilities. Appropriately flags these as needing further observation without forcing conclusions.\"},\"confidence\":\"medium\",\"issues\":[\"evidence_ids array is excessively broad, listing nearly all utterances from S01 and S02 without corresponding references in the established/uncertain text, suggesting mechanical inclusion rather than precise grounding\",\"Missing connection to S02's wedding invitation struggle—the fact that the client ultimately attended represents significant progress that isn't contextualized against prior sessions\",\"Does not note the previously unsupported assumption (S03-U04 about disappointment) that was corrected by the client, which is relevant for tracking what has been clarified vs. remains uncertain\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Established points are well-supported by specific utterances from the current session. However, evidence_ids list includes many utterances (entire S01, S02) that are never actually referenced in the established or uncertain sections, creating a mismatch between cited evidence and used evidence.",
+      "progress_understanding": "Captures key developments within Session 3 (wedding experience, deleting contacts, 'lingqi' as switch, unopened email), but largely treats them as isolated facts rather than connecting them to the broader therapeutic arc—such as how the avoidance pattern evolved from S01's exhaustion through S02's suspended decisions to S03's fear of confirming self-doubt.",
+      "uncertainty_awareness": "Identifies meaningful unresolved areas including the tension between relief and self-criticism after deletion, long-term impact of 'lingqi' beliefs, and recovery possibilities. Appropriately flags these as needing further observation without forcing conclusions."
+    },
+    "confidence": "medium",
+    "issues": [
+      "evidence_ids array is excessively broad, listing nearly all utterances from S01 and S02 without corresponding references in the established/uncertain text, suggesting mechanical inclusion rather than precise grounding",
+      "Missing connection to S02's wedding invitation struggle—the fact that the client ultimately attended represents significant progress that isn't contextualized against prior sessions",
+      "Does not note the previously unsupported assumption (S03-U04 about disappointment) that was corrected by the client, which is relevant for tracking what has been clarified vs. remains uncertain"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9585,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 335,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9920,
+    "x_details": [
+      {
+        "input_tokens": 9585,
+        "output_tokens": 335,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9920,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.579
+}

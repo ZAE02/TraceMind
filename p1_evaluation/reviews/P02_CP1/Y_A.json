@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "68c04173aebbd411f0bcac402fb5b0ccc4dfd4d5aa79cc1e35af3d47d542465a",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "a9eb6d2f54c836adde555dfc9e0972648f72c8bcaba36fbd5d0df64166246652",
+  "candidate_answer_sha256": "844d24b5488b693ffeef1e65d728442df6afb4a9b714ee9c0082a68368b88401",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"所有陈述均有明确的对话文本支持，事实提取准确，无推测性内容混入。\",\n    \"progress_understanding\": \"全面覆盖了当前会话及历史关键节点，但列表形式较为机械，未像参考标注那样对“进展”与“未决问题”进行功能性区分，略显平铺直叙。\",\n    \"uncertainty_awareness\": \"清晰列出了反胃原因、行为动机等未知点，且未将咨询师的主观解读（如“惊吓未落地”）当作既定事实，边界感良好。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "所有陈述均有明确的对话文本支持，事实提取准确，无推测性内容混入。",
+      "progress_understanding": "全面覆盖了当前会话及历史关键节点，但列表形式较为机械，未像参考标注那样对“进展”与“未决问题”进行功能性区分，略显平铺直叙。",
+      "uncertainty_awareness": "清晰列出了反胃原因、行为动机等未知点，且未将咨询师的主观解读（如“惊吓未落地”）当作既定事实，边界感良好。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9452,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 192,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9644,
+    "x_details": [
+      {
+        "input_tokens": 9452,
+        "output_tokens": 192,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9644,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.391
+}

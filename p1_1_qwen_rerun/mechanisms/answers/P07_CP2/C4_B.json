@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "df91b4d26af3f1202ea877975f3c4a186f177788854b2efe217bb552e86a4515",
+  "request_sha256": "4b66d06b43272e01ed397ef0c6f2e6dfe1288c69ca60092e4e1d1c5ccec9648c",
+  "memory_sha256": "9064b78969f3cf986d46a4c87cebc43c3b2728c2221554456ae2aea545e5fdc1",
+  "memory_source": "92f01ef4f511b15391fd93e4ea4360c406c6ad35ff00e4b2e72e07216711dbd2",
+  "raw_text": "那种“像做贼一样”的羞耻感，似乎比别人的评价更让你难以承受。你觉得自己连猫都不如，是因为它不需要为表达自己而感到抱歉吗？",
+  "usage": {
+    "input_tokens": 7249,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 38,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7287,
+    "x_details": [
+      {
+        "input_tokens": 7249,
+        "output_tokens": 38,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7287,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.016,
+  "model": "qwen3.7-flash-2026-07-15"
+}

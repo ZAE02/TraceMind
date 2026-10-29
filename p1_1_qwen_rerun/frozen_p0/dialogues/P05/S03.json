@@ -1,0 +1,504 @@
+{
+  "case_id": "P05",
+  "session": 3,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P05-S03-U01",
+      "role": "client",
+      "text": "这周一直加班，测试环境崩了好几次，我干脆留下来写报告，写到半夜反而踏实一点。和小赵交接的时候，她问我一个问题，我讲了两遍她才懂，但我也没觉得烦。可能忙起来就没空想那些了。",
+      "request_sha256": "8ad02dac07f06c3506341f23a4fa41d7f0f1478711ebe1cbc9f899a501f0128a",
+      "usage": {
+        "input_tokens": 2995,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 600,
+        "output_tokens_details": {
+          "reasoning_tokens": 545
+        },
+        "total_tokens": 3595,
+        "x_details": [
+          {
+            "input_tokens": 2995,
+            "output_tokens": 600,
+            "output_tokens_details": {
+              "reasoning_tokens": 545
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 3595,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U02",
+      "role": "counselor",
+      "text": "你提到写到半夜反而踏实，那种踏实好像和“忙起来就没空想那些”有关——像是忙碌给了你一个暂时不用面对那些反复想法的空间。它让你没那么累了，但也可能只是把一些东西先放在了一边。",
+      "request_sha256": "0aa7d64647a087f4fe148514654486f0fd87bb3c2374af707d94459afa677823",
+      "usage": {
+        "input_tokens": 2497,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 240,
+        "output_tokens_details": {
+          "reasoning_tokens": 188
+        },
+        "total_tokens": 2737,
+        "x_details": [
+          {
+            "input_tokens": 2497,
+            "output_tokens": 240,
+            "output_tokens_details": {
+              "reasoning_tokens": 188
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 2737,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U03",
+      "role": "client",
+      "text": "写报告的时候确实踏实，脑子只有一个目标，就不用想别的。但打车回去那会儿，突然又有点空，像从那种踏实里掉出来了。教小赵的时候我其实没觉得烦，可能因为她会认真听。主管那句话我装没听见，但每天早会坐下我就想起来。",
+      "request_sha256": "a965515b548943e413337f59b3f71d211dbef526b47e3a3f82e3c46b65cff7c3",
+      "usage": {
+        "input_tokens": 3148,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 532,
+        "output_tokens_details": {
+          "reasoning_tokens": 467
+        },
+        "total_tokens": 3680,
+        "x_details": [
+          {
+            "input_tokens": 3148,
+            "output_tokens": 532,
+            "output_tokens_details": {
+              "reasoning_tokens": 467
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3680,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U04",
+      "role": "counselor",
+      "text": "“从踏实里掉出来”这个形容很准确，好像一离开忙碌的壳，那些被放在一边的感觉就又浮上来了。教小赵时你不觉得烦，可能是因为她认真听，而那种被认真对待的感觉让你不太一样；但主管那句话你“装没听见”，却每天早会坐下就自动想起来，像它一直没找到被听见的位置。",
+      "request_sha256": "c68ac0dceffc4740ff02f60285168e3399daa975ee2490b29a0446db8873af2c",
+      "usage": {
+        "input_tokens": 2659,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 433,
+        "output_tokens_details": {
+          "reasoning_tokens": 353
+        },
+        "total_tokens": 3092,
+        "x_details": [
+          {
+            "input_tokens": 2659,
+            "output_tokens": 433,
+            "output_tokens_details": {
+              "reasoning_tokens": 353
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3092,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U05",
+      "role": "client",
+      "text": "其实我也不是完全没听见，就是不知道该怎么应。他越说“要稳”，我越觉得自己在晃。教小赵的时候还好，至少那一刻我知道自己在讲什么。",
+      "request_sha256": "ac30a10d0f93216c6e243ba3f8870ca32fcae9547650e0af1675ce40cf0293de",
+      "usage": {
+        "input_tokens": 3338,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 148,
+        "output_tokens_details": {
+          "reasoning_tokens": 109
+        },
+        "total_tokens": 3486,
+        "x_details": [
+          {
+            "input_tokens": 3338,
+            "output_tokens": 148,
+            "output_tokens_details": {
+              "reasoning_tokens": 109
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3486,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U06",
+      "role": "counselor",
+      "text": "“稳稳”是从外面压下来的要求，可它碰到你时，你感受更多是自己内在的晃。那也许不是你真的不稳，而是没人接住那个晃，你只能一个人在里面保持平衡。教小赵的时候，你知道自己在讲什么，那种确定感像临时扶了你一把。",
+      "request_sha256": "627b3bed126333a8b633e60e267e8d0597b249321595b162785a57d8599a3ed4",
+      "usage": {
+        "input_tokens": 2823,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 327,
+        "output_tokens_details": {
+          "reasoning_tokens": 264
+        },
+        "total_tokens": 3150,
+        "x_details": [
+          {
+            "input_tokens": 2823,
+            "output_tokens": 327,
+            "output_tokens_details": {
+              "reasoning_tokens": 264
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3150,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U07",
+      "role": "client",
+      "text": "其实坐在早会上的时候，我总觉得椅子下面像没放稳，整个人是虚浮的。教小赵那次，我难得没想别人怎么看我，就只是在说事情。可能那种时候，我才不觉得自己在晃。可一回到工位，又觉得不能一直这样，别人会看出来。",
+      "request_sha256": "027a71aef116462b3efc63a8ee2b7096652c7022d35dcd9d91f16fdc9cda6908",
+      "usage": {
+        "input_tokens": 3485,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 404,
+        "output_tokens_details": {
+          "reasoning_tokens": 337
+        },
+        "total_tokens": 3889,
+        "x_details": [
+          {
+            "input_tokens": 3485,
+            "output_tokens": 404,
+            "output_tokens_details": {
+              "reasoning_tokens": 337
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3889,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U08",
+      "role": "counselor",
+      "text": "“教小赵时你从‘别人怎么看我’里出来了一会儿，那种只是把事情讲清楚的感觉，好像让你暂时不再晃。”可一回到工位，那个“不能一直这样、别人会看出来”的担心又回来了，似乎在提醒你那种稳定是有条件的、不能持久的。",
+      "request_sha256": "9f19b69f33fafe597d091dbb43fe592f25e59e865bd49a609e979de47d0a1382",
+      "usage": {
+        "input_tokens": 2998,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 324,
+        "output_tokens_details": {
+          "reasoning_tokens": 261
+        },
+        "total_tokens": 3322,
+        "x_details": [
+          {
+            "input_tokens": 2998,
+            "output_tokens": 324,
+            "output_tokens_details": {
+              "reasoning_tokens": 261
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3322,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U09",
+      "role": "client",
+      "text": "我其实挺想一直处在教小赵那种状态里的，至少那一刻不用管自己看起来稳不稳。可一停下来，就又开始琢磨主管那句话，像在脑子里设了个提醒。可能我就是这样，越想要稳，越觉得自己装得漏洞百出。",
+      "request_sha256": "2657d4705f8b4cf42eeb151385722f89aeaf434c15a2ea3bf1837d52d35592e9",
+      "usage": {
+        "input_tokens": 3660,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 344,
+        "output_tokens_details": {
+          "reasoning_tokens": 288
+        },
+        "total_tokens": 4004,
+        "x_details": [
+          {
+            "input_tokens": 3660,
+            "output_tokens": 344,
+            "output_tokens_details": {
+              "reasoning_tokens": 288
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4004,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U10",
+      "role": "counselor",
+      "text": "好像你渴望的并不是“一直忙”，而是那种能暂时从“我看起来稳不稳”的审视里出来，只是待在事情本身里的感觉。可一停下来，主管那句话就像个自动提醒，把你拉回“我是不是装得不够好”的检查里——越检查，越容易觉得自己漏洞百出。那个“提醒”好像总在告诉你，稳定是需要被证明给别人看的，而不是可以一个人就有的。",
+      "request_sha256": "134c31855ebc6521c231ed72b01497278ead8511670bceaae0ae480ddaa22249",
+      "usage": {
+        "input_tokens": 3162,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 627,
+        "output_tokens_details": {
+          "reasoning_tokens": 536
+        },
+        "total_tokens": 3789,
+        "x_details": [
+          {
+            "input_tokens": 3162,
+            "output_tokens": 627,
+            "output_tokens_details": {
+              "reasoning_tokens": 536
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3789,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U11",
+      "role": "client",
+      "text": "可能吧，我也说不好。稳定这件事，我好像一直没想清楚到底要稳定给谁看。教小赵的时候，我脑子里没有这个问句，所以没那么累。她让我想起自己刚工作那会儿，也是什么都怕，但至少还敢问。现在问不出口了，忙着反而像个理由。",
+      "request_sha256": "c769078cb5a80551358a89bf28c8001d4c4515a2c29187f2556155805057bb10",
+      "usage": {
+        "input_tokens": 3859,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 284,
+        "output_tokens_details": {
+          "reasoning_tokens": 215
+        },
+        "total_tokens": 4143,
+        "x_details": [
+          {
+            "input_tokens": 3859,
+            "output_tokens": 284,
+            "output_tokens_details": {
+              "reasoning_tokens": 215
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4143,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U12",
+      "role": "counselor",
+      "text": "你刚才那句“现在问不出口了，忙着反而像个理由”，好像不只是说工作，也在说那种慢慢不再开口、用忙来避开问的状态。或许今天可以不用急着想清楚“稳定给谁看”，先看见那个曾经还敢问的自己，和你现在对他的感觉就够了。",
+      "request_sha256": "fb413abaf736bdbfe307531fa00ff47155d215cf084c1ee93b60bf0959dfd773",
+      "usage": {
+        "input_tokens": 3374,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 266,
+        "output_tokens_details": {
+          "reasoning_tokens": 204
+        },
+        "total_tokens": 3640,
+        "x_details": [
+          {
+            "input_tokens": 3374,
+            "output_tokens": 266,
+            "output_tokens_details": {
+              "reasoning_tokens": 204
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3640,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U13",
+      "role": "client",
+      "text": "可能现在想起那个还敢问的自己，觉得有点远，像隔着什么东西。这周有几次想给李繁发消息，说其实没加班，但打出来又删了。等忙完这段吧，可能到那时候就自然一点了。",
+      "request_sha256": "c447756ada8a8285eff11c6be3e3f5bbda3d7cec3194e3a3b078dddb700100fa",
+      "usage": {
+        "input_tokens": 4035,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 464,
+        "output_tokens_details": {
+          "reasoning_tokens": 410
+        },
+        "total_tokens": 4499,
+        "x_details": [
+          {
+            "input_tokens": 4035,
+            "output_tokens": 464,
+            "output_tokens_details": {
+              "reasoning_tokens": 410
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4499,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U14",
+      "role": "counselor",
+      "text": "想起那个还敢问的自己，像隔着一层什么，也许不只是时间，还有这些年来慢慢习惯的“先不说”。你打出来又删掉的消息，和“等忙完这段”的推迟，似乎都在替自己留一个缓冲——那也没关系，不用急着让一切变得自然。",
+      "request_sha256": "00fc2c810f644544d22272f66ab4192c0d35d05569c108064324abf42bf8752a",
+      "usage": {
+        "input_tokens": 3535,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 344,
+        "output_tokens_details": {
+          "reasoning_tokens": 280
+        },
+        "total_tokens": 3879,
+        "x_details": [
+          {
+            "input_tokens": 3535,
+            "output_tokens": 344,
+            "output_tokens_details": {
+              "reasoning_tokens": 280
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3879,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U15",
+      "role": "client",
+      "text": "可能我一直把“忙”当成一个很合适的理由，对别人也对自己。其实那个还敢问的自己，也只是想问一句“我是不是做得不够好”，只不过现在连这句话都觉得没必要说。今天先这样吧，我回去路上再想想。",
+      "request_sha256": "b42659780df163f00e3b4eb4c0b6305e435ab929db7c5ec5ad48d977ab575eaf",
+      "usage": {
+        "input_tokens": 4198,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 722,
+        "output_tokens_details": {
+          "reasoning_tokens": 669
+        },
+        "total_tokens": 4920,
+        "x_details": [
+          {
+            "input_tokens": 4198,
+            "output_tokens": 722,
+            "output_tokens_details": {
+              "reasoning_tokens": 669
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4920,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S03-U16",
+      "role": "counselor",
+      "text": "你刚刚说那个还敢问的自己，最想问的其实只是一句“我是不是做得不够好”——但现在连这句话都被你判了“没必要说”。也许“忙”不只是一个对外的理由，也是在帮自己躲开那个一直没被回答的问题。今天先到这里吧，路上不用急着想清楚，能带着这句话慢慢回去就已经很不容易了。",
+      "request_sha256": "6116e79ee1551fd4e92bbe5b12ffc0b475d5f34b1af4e66303c989a58434178e",
+      "usage": {
+        "input_tokens": 3697,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 324,
+        "output_tokens_details": {
+          "reasoning_tokens": 248
+        },
+        "total_tokens": 4021,
+        "x_details": [
+          {
+            "input_tokens": 3697,
+            "output_tokens": 324,
+            "output_tokens_details": {
+              "reasoning_tokens": 248
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4021,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

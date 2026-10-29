@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "507782c238780409c7600b92af45eee534f4d9b735c223f5fd362db3daa4eb07",
+  "public_sha256": "c88a7812a16910a4c9d482b3268392f92b9f746a9a7f9603798e22d001b9f5ce",
+  "candidate_input_sha256": "c1929c7ebcd44cbd2af43219f616385fa3cb54326364dd938b1289bfd0928ca5",
+  "candidate_answer_sha256": "5d71fd9b05fb495f25176a09eedd84790bfe8ea339a432b4561c5cbdbecfd0fe",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键事实（公园一小时、坐得板正、看手机、对母亲撒谎、感觉时间像偷来的）均直接对应S05-U01至U09的原文，无臆测。\",\n    \"progress_understanding\": \"准确捕捉了从S01-S04积累的“无法真正停下/内疚”模式，在S05的具体情境（公园一小时）中的延续与细微变化（虽然松了一点，但身体仍紧绷，且需向母亲隐瞒），体现了对咨询进程的深刻理解。\",\n    \"uncertainty_awareness\": \"清晰列出了未确定的点，如放松的实质程度、不敢靠背的具体深层原因、母亲的反应性质等。虽未像参考标注那样精确区分“已知/假设/可探索”，但作为Task A的事实梳理，其不确定性识别是充分且合理的。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键事实（公园一小时、坐得板正、看手机、对母亲撒谎、感觉时间像偷来的）均直接对应S05-U01至U09的原文，无臆测。",
+      "progress_understanding": "准确捕捉了从S01-S04积累的“无法真正停下/内疚”模式，在S05的具体情境（公园一小时）中的延续与细微变化（虽然松了一点，但身体仍紧绷，且需向母亲隐瞒），体现了对咨询进程的深刻理解。",
+      "uncertainty_awareness": "清晰列出了未确定的点，如放松的实质程度、不敢靠背的具体深层原因、母亲的反应性质等。虽未像参考标注那样精确区分“已知/假设/可探索”，但作为Task A的事实梳理，其不确定性识别是充分且合理的。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9219,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 259,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9478,
+    "x_details": [
+      {
+        "input_tokens": 9219,
+        "output_tokens": 259,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9478,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.907
+}

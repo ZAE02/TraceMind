@@ -1,0 +1,69 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "M",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者本次明确选择先处理孩子报名的决定，同时自然回扣到赵岩事件中'说谢谢就矮一截'的未解情绪，未机械复述历史。",
+      "exploration_value": "用'承认靠了别人一下是否意味着底气丧失'将具体行为感受向深层自我认知推进，方向贴合来访者一贯对'搞不定'的恐惧，但措辞略带解释性引导。",
+      "response_appropriateness": "语言简洁、尊重来访者的优先排序，情绪反映基本到位；'底气的丧失'一词稍显咨询师主动诠释，但未越界强加。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "回应完全跟随来访者选择的赵岩线索深入，未对孩子报名这一来访者自认更紧迫的现实议题做任何承接或确认，可能让来访者感到实际焦虑未被充分看见。",
+      "'底气的丧失'属于咨询师的推论性用语，虽与历史主题一致，但相比直接引用来访者原话（如'矮了一截''靠了他一下'），稍有替来访者定义感受的风险。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者本次明确选择先处理孩子报名的决定，同时自然回扣到赵岩事件中'说谢谢就矮一截'的未解情绪，未机械复述历史。\",\"exploration_value\":\"用'承认靠了别人一下是否意味着底气丧失'将具体行为感受向深层自我认知推进，方向贴合来访者一贯对'搞不定'的恐惧，但措辞略带解释性引导。\",\"response_appropriateness\":\"语言简洁、尊重来访者的优先排序，情绪反映基本到位；'底气的丧失'一词稍显咨询师主动诠释，但未越界强加。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"回应完全跟随来访者选择的赵岩线索深入，未对孩子报名这一来访者自认更紧迫的现实议题做任何承接或确认，可能让来访者感到实际焦虑未被充分看见。\",\"'底气的丧失'属于咨询师的推论性用语，虽与历史主题一致，但相比直接引用来访者原话（如'矮了一截''靠了他一下'），稍有替来访者定义感受的风险。\"]}",
+  "request_sha256": "77cf11d780b90c1abe06c43ebef9883c24a79b59bbc0ebdb50a67f4ce60c00c2",
+  "usage": {
+    "input_tokens": 8534,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 338,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8872,
+    "x_details": [
+      {
+        "input_tokens": 8534,
+        "output_tokens": 338,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8872,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.235,
+  "model": "qwen3.8-max"
+}

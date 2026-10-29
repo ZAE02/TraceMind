@@ -1,0 +1,42 @@
+{
+  "branch_id": "BR_7697df95f587",
+  "node": "N04",
+  "method": "B4_psych_rollup",
+  "replicate": 1,
+  "rounds": 2,
+  "status": "completed",
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "initial_answer_sample": 1,
+  "utterances": [
+    {
+      "id": "BR_7697df95f587_U01",
+      "role": "counselor",
+      "text": "那个'薄'还在，没变得更薄。你说到'我的越来越薄'的时候，那个'我的'后面，你想到的是什么在变薄？",
+      "source_call_id": "ed2e6db25c484c7d9957d0ce7e705b42",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_7697df95f587_U02",
+      "role": "client",
+      "text": "嗯……我想了想，好像最具体的还是周末那段时间。就是周六下午、周六晚上，以前我觉得那段时间是\"我的\"，想干嘛干嘛。但现在就是……我答应别人的时候越来越多，那个\"我的\"就越来越短，短到有时候周六一下午就没了。\n\n但你说\"什么在变薄\"，我想了想，好像也不光是时间。就是……我周六正常去了悦悦那边做饭，那个下午确实是\"我的\"，但做完之后我好像也没觉得特别……就是没有那种\"哦这是我自己的时间\"的感觉了。以前可能会觉得，嗯，今天是我自己的，挺好的。现在就是……做了就做了，没什么特别的感觉。",
+      "source_call_id": "cabcfec9143e480491ec89139a37e36c"
+    },
+    {
+      "id": "BR_7697df95f587_U03",
+      "role": "counselor",
+      "text": "时间变短我听到了。但你说的第二个好像更值得停一下——下午确实是你的，但做完之后那个'今天是我自己的'的感觉没有了。以前那个感觉，你记得它大概是什么样的？",
+      "source_call_id": "1e31f6fe7d1c4b4aa3c16896cb485287",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_7697df95f587_U04",
+      "role": "client",
+      "text": "嗯……我想了想，好像就是……以前周六下午出门之前，会有一种\"哦今天不用看手机了\"的感觉，就是那种，终于不用回消息、不用想报表了，那个\"不用\"里面有一点轻。但现在周六下午出门，好像还是……脑子里会过一下明天要交什么，就是那个\"不用\"没那么彻底了。",
+      "source_call_id": "fcfba295073d4dceae46cc0d89b02507"
+    }
+  ],
+  "client_model": "qwen3.8-27b",
+  "counselor_model": "qwen3.8-27b",
+  "notice": "Initial counselor answer reused. Two new client responses and one new counselor response; no original post-freeze client reply spliced in."
+}

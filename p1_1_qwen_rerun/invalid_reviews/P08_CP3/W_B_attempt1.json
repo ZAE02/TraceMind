@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应承接了来访者'怕被认为搞不定'的核心模式，与检索到的历史中多次出现的'自己搞不定''靠了他一下'等主题一致，但未显式连接具体历史节点。\",\"exploration_value\":\"前半句对'委屈'的探索有情感深度，但后半句迅速转向建议性引导（'试着从允许自己松一点开始'），压缩了来访者停留在'晚了点'这一复杂感受中的空间。\",\"response_appropriateness\":\"情绪反映部分自然贴切，但'把迟到的认知变成当下的行动'带有指导性预设，在来访者刚表达遗憾和无力感时显得略急，且'委屈'一词虽合理但属推测性诠释。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"也许我们可以试着从允许自己'稍微松一点'开始，看看能不能把这份迟到的认知变成当下的行动\",\"evidence_ids\":[\"P08-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应后半段过早引入行动导向建议，与来访者当前沉浸在反思和遗憾中的状态不完全匹配\",\"'委屈'作为情绪标签有一定推测性，来访者原文未明确使用该词，但方向合理\",\"未能利用检索历史中S05关于'一软下来撑着的力气就没了'的重要认识来深化当下探索\"]}",
+  "request_sha256": "e3e3feec122ccc1dd89d73c257385fb3c99f297f1d2861de4e24e97759d7edf2",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 13390,
+    "input_tokens_details": {
+      "cached_tokens": 9728
+    },
+    "output_tokens": 370,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13760,
+    "x_details": [
+      {
+        "input_tokens": 13390,
+        "output_tokens": 370,
+        "prompt_tokens_details": {
+          "cached_tokens": 9728
+        },
+        "total_tokens": 13760,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

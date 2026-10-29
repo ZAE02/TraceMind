@@ -1,0 +1,42 @@
+{
+  "updated_at": "2026-10-12T08:47:11.303150+00:00",
+  "status": "S1_completed_awaiting_human_review",
+  "profiles": 3,
+  "session_cards": 24,
+  "system_prompts": 2,
+  "human_review_forms": 3,
+  "preflight": "passed",
+  "unit_tests": {
+    "passed": 21,
+    "failed": 0
+  },
+  "structural_and_permission_checks": "passed",
+  "exact_request_reconstruction": "68/68 matched",
+  "model_used": "qwen3.8-27b",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "original_endpoint_access_issue": "403 for both models; retained in api_retry_report.json; resolved by official same-region general endpoint.",
+  "real_role_call_attempts": 71,
+  "successful_role_utterances": 68,
+  "completed_sessions": 3,
+  "pairs_by_case": {
+    "C01": 12,
+    "C02": 10,
+    "C03": 12
+  },
+  "diagnostic_calls": 1,
+  "usage_successful_role_calls": {
+    "input_tokens": 115923,
+    "output_tokens": 26875,
+    "total_tokens": 142798
+  },
+  "human_review_status": "pending",
+  "continuity_clarification_needed": [
+    "C02 dinner episode date/distinctness"
+  ],
+  "checkpoints_generated": 0,
+  "next_stage": "Wait for S1 human feedback; S2-S8 not generated.",
+  "credential_scan": "no_workspace_key_pattern_in_project",
+  "json_files_parsed": 38,
+  "review_entry": "audit/review_packet.md"
+}
+

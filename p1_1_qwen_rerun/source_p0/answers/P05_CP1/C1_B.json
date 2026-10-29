@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP1",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "a4f52e7a66104386a01d83b493abacb9bcdaa9070d98b0310de9393b916efb07",
+  "request_sha256": "e841756830783dbe7f28acd2f8a9222c6362306dafccd0ca5eea4742dc229593",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“漏洞百出”的感觉，是不是像那个想反驳却被按回去的自己，一直在等着被看见？也许我们可以一起看看，除了“稳”，你还能允许自己拥有什么样的状态。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3226,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 41,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3267,
+    "x_details": [
+      {
+        "input_tokens": 3226,
+        "output_tokens": 41,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3267,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

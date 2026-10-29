@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_aa0f765f150b",
+  "round": 1,
+  "node": "N06",
+  "method": "B3_generic_rollup",
+  "replicate": 2,
+  "private_state_sha256": "f3cbf5e8bf1187c406a003d45f61a7d2d01f5d17a7fe501c84ffff0609b21e48",
+  "request_sha256": "3673d27b2f4cc272f8b76247c79f188c0d9cc709a65d9a2a155ea3fec9bbf106",
+  "call_id": "e67bbe7ce34a4821ad1a5fd58256b82a",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "就是……上次那个事，我开口之前一直在想怎么措辞，觉得说出来有点难堪。这次问的时候没那个感觉，就是……没弄懂就问，挺直接的。\n\n他解释的时候也没那种\"这你都不知道\"的意思，就是很平常地讲了一下。\n\n……但我也在想，是不是因为这次是在一起看东西的时候顺带问的，不是单独跑去说\"我卡住了\"。要是单独去问，可能还是会犹豫。",
+  "usage": {
+    "input_tokens": 4105,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 390,
+    "output_tokens_details": {
+      "reasoning_tokens": 290
+    },
+    "total_tokens": 4495,
+    "x_details": [
+      {
+        "input_tokens": 4105,
+        "input_tokens_details": {
+          "text_tokens": 4105
+        },
+        "output_tokens": 390,
+        "output_tokens_details": {
+          "reasoning_tokens": 290
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4495,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T10:54:32.702988+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

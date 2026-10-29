@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C02",
+  "session_number": 2,
+  "relative_week": 2,
+  "status": "generating",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T10:12:14.664598+00:00",
+  "config_hash": "9a6139f349a1220078354100f50f08670a30bf79c5951e571888076b3217471f",
+  "prompt_version": "pilot-v3-natural-dialogue-constraints",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v3-natural-dialogue-constraints",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "generation_revision": "C02-S02-r1"
+  },
+  "utterances": [
+    {
+      "id": "C02-S02-U01",
+      "role": "client",
+      "text": "嗯……这周又碰到一次类似的事。周三的时候，组里一个人跟我说周末能不能帮他看一下推广排期，他说\"如果你方便的话\"。我当时其实打了\"这周可能不太方便\"，但发出去之前又删了，最后回的是\"行，我看看\"。\n\n也不是什么大事，就是……那个删掉的过程，我自己看着都有点想笑。",
+      "call_id": "432b7e553c0c402cab0aee08a3cda636",
+      "response_id": "resp_db8834d4-4464-9311-8525-a9110b774433",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:12:37.159072+00:00"
+    },
+    {
+      "id": "C02-S02-U02",
+      "role": "counselor",
+      "text": "\"想笑\"——好像你已经能站在那条消息旁边看着自己了。不过我注意到一个跟上次不太一样的地方：上次你说\"不行\"还没成形嘴就先答应了，这次你其实已经打出来了，只是发出去之前自己删掉了。那个\"删掉\"，你当时是什么感觉？",
+      "call_id": "4360148babc6425bb680da0c279de5ec",
+      "response_id": "resp_f60a9f99-868c-96cb-beab-dedf8a2cfdc0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:12:53.017402+00:00"
+    },
+    {
+      "id": "C02-S02-U03",
+      "role": "client",
+      "text": "当时……就是打出来之后，盯着看了大概两三秒吧。手指悬在发送上面，然后就不太确定发出去之后他会不会觉得我这个人不太好说话。也不是说他会不高兴，就是……那种\"我拒绝了他，他会不会以后就不找我了\"的念头，冒了一下。然后我就觉得，算了，反正就两个小时的事，就删了。\n\n\"想笑\"是因为，我明明已经想好了怎么拒绝，但最后还是没发出去，就觉得自己那个\"不方便\"好像也不是真的不方便。",
+      "call_id": "f2e232fd09ae4c6eb871b8e91e4a7987",
+      "response_id": "resp_72411ffa-0b9f-99ca-b852-dcbb911288d8",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:13:01.152885+00:00"
+    },
+    {
+      "id": "C02-S02-U04",
+      "role": "counselor",
+      "text": "这次\"不方便\"已经打出来了，只是最后自己删掉了——跟上次那个\"来不及\"确实不太一样。不过我注意到，删掉之后你好像紧接着就开始怀疑那个\"不方便\"是不是真的了。那个\"他会不会以后就不找我了\"，冒出来的时候你是什么反应？",
+      "call_id": "986fe0fd7e0842f1b0e5a71f23afc859",
+      "response_id": "resp_a374bd4e-3052-9125-b48a-789fbea490e3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:13:26.692105+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T10:13:26.692105+00:00"
+}

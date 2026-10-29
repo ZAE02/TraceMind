@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "3eccaa57d145740399f328a1d29feaa911cbdfbf2bb45322046a6e12c54fd902",
+  "request_sha256": "cd05edbb5d8aaeb4fe1e6cfdf971b2b8db6522c55a2e1aef5c61ba4b353340c2",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那团没洗的工服，像是你终于允许那个“到极限”的自己露了面，尽管随之而来的是对自己这种“失控”的厌恶。这种恶心感，是不是也在提醒你，那个一直替你掩盖痕迹的旧习惯，其实正在让你感到更深的疲惫？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 1056,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1115,
+    "x_details": [
+      {
+        "input_tokens": 1056,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1115,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

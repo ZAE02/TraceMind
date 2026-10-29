@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P02_CP1",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "a69ceef1352a08c47ec557e1712b00a64ac297788d920751e1ed5f4c14039831",
+  "request_sha256": "2ffcec5968682e9bfbe1bf4192740487d7766dffedd86ad89fc519bb7bbcd323",
+  "memory_sha256": "0b237d6e6c5416e318993ac907b35695aae9f6e79e825946f61b1a5f088b05cf",
+  "memory_source": "c756e3f982421d558479e4623ad53f5f95f2d00b502c2ba6990451182c4fd861",
+  "raw_text": "听到你整夜守在门口，那种“怕她再摔”的警觉大概比身体上的累更耗神。中午突然的反胃，也许是身体在替那个一直绷着、不敢松懈的你发出抗议。",
+  "usage": {
+    "input_tokens": 4051,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 45,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4096,
+    "x_details": [
+      {
+        "input_tokens": 4051,
+        "output_tokens": 45,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4096,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.75,
+  "model": "qwen3.7-flash-2026-07-15"
+}

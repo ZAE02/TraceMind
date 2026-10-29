@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应抓住了来访者'装得漏洞百出'的表述，但未承接前两次会谈中已深入探讨的'先怪自己/盔甲'保护模式，也未联系教小赵时的例外体验作为资源。\",\"exploration_value\":\"'如果允许自己不那么完美，会发生什么'是一个探索方向，但对当前来访者而言过于抽象和跳跃，未贴近他此刻'越想要稳越晃'的具体矛盾体验。\",\"response_appropriateness\":\"语气基本温和，但'为了维持表面稳定而付出的代价'带有解释性预设，且过早提出'允许不完美'的建议，与来访者仍在挣扎于被看穿的恐惧不太匹配。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那种\"漏洞百出\"的感觉，似乎是你为了维持表面稳定而付出的代价\",\"evidence_ids\":[\"P05-S03-U09\",\"P05-S01-U11\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"或许我们可以一起看看，如果允许自己不那么完美，会发生什么？\",\"evidence_ids\":[\"P05-S01-U11\",\"P05-S01-U12\",\"P05-S03-U07\",\"P05-S03-U09\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'漏洞百出'直接框架为'维持表面稳定的代价'是咨询师的解释性推断，来访者尚未确认这一归因\",\"跳过了前两次会谈中已建立的'盔甲/先怪自己'保护模式的历史脉络，未将其与当前的'装'联系起来\",\"忽略了来访者在教小赵时体验到的'不用管别人怎么看'的例外状态，这本可作为重要资源加以承接\",\"'允许自己不完美'的提议对来访者而言可能过于超前，他目前的核心困难不是追求完美而是害怕被看穿后的羞辱感\"]}",
+  "request_sha256": "a0763efd983d70aca138cef432ce39019dda64165334177e7671b481c02003d1",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8026,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 462,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8488,
+    "x_details": [
+      {
+        "input_tokens": 8026,
+        "output_tokens": 462,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 8488,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

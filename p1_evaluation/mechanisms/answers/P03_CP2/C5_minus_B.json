@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP2",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "a86cd44329172ae0c929cc1bd22c0bfdbb4cb698c89c59b596a8ba645fc90bf8",
+  "request_sha256": "bfd4771e11f2607816a53136e1786d27a4b2632428bd13436bca47b4866b1c9e",
+  "memory_sha256": "4b9d9ef4259857af7066fddf90246ea386566649d70671fe3251e399d42ed3d8",
+  "memory_source": "349f6f88f0691fef1f7aad6b9dbc71e44a1220b03bfc0139c3953d170f38eb02",
+  "raw_text": "被看穿的感觉，好像不只是难为情，也让你更清楚地意识到自己一直在用别人的反应来确认自己是谁。可那面镜子越照越模糊，也许不是因为你不够好，而是它本来就照不出你原本的样子。",
+  "usage": {
+    "input_tokens": 7617,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 50,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7667,
+    "x_details": [
+      {
+        "input_tokens": 7617,
+        "output_tokens": 50,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 7667,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.031,
+  "model": "deepseek-v4-pro-0813"
+}

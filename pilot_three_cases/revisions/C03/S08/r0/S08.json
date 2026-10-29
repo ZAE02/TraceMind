@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 8,
+  "relative_week": 8,
+  "status": "awaiting_model_review",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T12:29:57.269302+00:00",
+  "config_hash": "c98aaaffbfa0961da8d5bdbec266b69c09b69f61e9a8198baefb424d300ae9ce",
+  "prompt_version": "pilot-v7-counseling-process-focus",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v7-counseling-process-focus",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。",
+    "counselor_process_instruction": "请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。"
+  },
+  "utterances": [
+    {
+      "id": "C03-S08-U01",
+      "role": "client",
+      "text": "这周有个问题，在比较熟的模块里，翻了一下发现有个配置跟预期对不上，打算上午改一下试试。\n\n……还没找谁，就是先自己看看。",
+      "call_id": "99b152dc03d34bd9a7741bf056f2793b",
+      "response_id": "resp_e7c5f06e-bfc2-952d-9b7c-932ff229359e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:30:14.907156+00:00"
+    },
+    {
+      "id": "C03-S08-U02",
+      "role": "counselor",
+      "text": "在比较熟的模块里，先自己看看，这个节奏挺自然的。这次来，是就这件事，还是这周还有别的想聊的？",
+      "call_id": "374a5e7934384762b0d2fb7e7822d0d0",
+      "response_id": "resp_bf3a8b2e-5d25-94b6-940a-25a11a036b61",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:30:22.578962+00:00"
+    },
+    {
+      "id": "C03-S08-U03",
+      "role": "client",
+      "text": "就这个吧，也没什么别的。\n\n……就是翻的时候发现那个配置跟预期对不上，想着先改一下试试，看是不是这个原因。还没改呢，打算上午弄。",
+      "call_id": "fd4da261d7cc40cdb0b5dccf3bb51241",
+      "response_id": "resp_acc6ed87-0521-9bdc-9cb3-388277cf1c35",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:30:28.374720+00:00"
+    },
+    {
+      "id": "C03-S08-U04",
+      "role": "counselor",
+      "text": "熟的模块里发现配置对不上，先改一下试试，这个判断挺直接的。改完要是通了，那这事就完了；要是没通，到时候再说。",
+      "call_id": "b80c7f742cb04b5688eb95f8498aa3d6",
+      "response_id": "resp_ebc9f4c4-306b-9679-a6ce-ff5796dc8915",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:30:34.832266+00:00"
+    },
+    {
+      "id": "C03-S08-U05",
+      "role": "client",
+      "text": "嗯，对，就是先试一下。截止还有两天，应该来得及。\n\n……就是改的时候如果通了，可能还得再观察一下，确认不是碰巧好了。",
+      "call_id": "e814065b37664fe99d661035f08a7034",
+      "response_id": "resp_c5c9cea1-0fed-9e57-9a3f-9ad4b92f361d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:30:43.822717+00:00"
+    },
+    {
+      "id": "C03-S08-U06",
+      "role": "counselor",
+      "text": "改完通了还要再确认不是碰巧，这个习惯挺实际的。那如果观察下来确实没问题，这事就算收了，还是到时候可能还会再回头看一眼？",
+      "call_id": "64f4a5b422134768891f614e3cbc64ad",
+      "response_id": "resp_6bb834a0-57c9-9069-8c51-6e5b1c347c07",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:30:50.118676+00:00"
+    },
+    {
+      "id": "C03-S08-U07",
+      "role": "client",
+      "text": "大概率就收了吧。就是……过一两天可能会再瞄一眼那个配置，确认一下没被谁又改回去之类的。\n\n……也不算刻意回头看，就是那种，改完的东西过两天会顺手再扫一眼，习惯了。",
+      "call_id": "0a2e066d845e4a51a17f88f7b8c1c24d",
+      "response_id": "resp_6742786a-b3cc-9ed2-9efa-debcdf6aae54",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:30:57.265683+00:00"
+    },
+    {
+      "id": "C03-S08-U08",
+      "role": "counselor",
+      "text": "顺手再扫一眼，这个习惯挺实际的，不用非得给它找什么意义。这周整体听起来比较稳，还有别的想聊的吗？",
+      "call_id": "3b0ffb6ad2524b7cbfdd8b6b7c9a81ce",
+      "response_id": "resp_90e325c3-5b23-93b0-97b2-84f9f7f9c4e5",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:31:01.412783+00:00"
+    },
+    {
+      "id": "C03-S08-U09",
+      "role": "client",
+      "text": "没了，就这个。\n\n……就是如果中午改完还没通的话，就找老韩看一下，到时候再说。",
+      "call_id": "c4e7a1ed339940b1b5f9c53c2639486a",
+      "response_id": "resp_1abfec1b-cb20-94a8-abd8-91558e672356",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:31:12.302009+00:00"
+    },
+    {
+      "id": "C03-S08-U10",
+      "role": "counselor",
+      "text": "改完没通就找老韩，这个安排挺清楚的。到时候真去找他，你大概会怎么跟他说？",
+      "call_id": "f8bd9245928a44ad99a6c2b3c60b2fda",
+      "response_id": "resp_76e0d815-7914-909c-84f3-23ce5addf648",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:31:46.883947+00:00"
+    },
+    {
+      "id": "C03-S08-U11",
+      "role": "client",
+      "text": "大概就说\"这个配置我改了一下试试，没通，你帮我看看\"之类的。\n\n……就是先说一下我试了什么，然后让他看看。没觉得有什么特别要斟酌的。",
+      "call_id": "9decfbd7fd7342b48f16e536c4deacb3",
+      "response_id": "resp_c0871f0b-2872-9990-9431-05f79e508095",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:31:52.782978+00:00"
+    },
+    {
+      "id": "C03-S08-U12",
+      "role": "counselor",
+      "text": "先说试了什么再说没通，这个说法挺直接的。到时候真去找他，应该也就那样了。",
+      "call_id": "b08cb088a4124e93b6074bcaf85d426e",
+      "response_id": "resp_3a2b5ab3-3787-9cbf-9b8b-90563cfcb2bf",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:32:09.052305+00:00"
+    },
+    {
+      "id": "C03-S08-U13",
+      "role": "client",
+      "text": "嗯，应该就那样。\n\n……行，那今天差不多，我回去上午改一下试试。下次再聊。",
+      "call_id": "ec8cb9ee126746489b872eb5499ef130",
+      "response_id": "resp_91fd8fec-b38d-9850-907e-fdc583146aec",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:32:22.818131+00:00"
+    },
+    {
+      "id": "C03-S08-U14",
+      "role": "counselor",
+      "text": "嗯，回去改完看结果。这周确实没什么悬着的东西，比较稳。",
+      "call_id": "f214be663ddb45d4a10c3d0f2d6c0423",
+      "response_id": "resp_21d11e67-0788-95c8-9b87-71c0fadead4c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:32:53.370731+00:00"
+    },
+    {
+      "id": "C03-S08-U15",
+      "role": "client",
+      "text": "嗯，这周确实没什么卡住的。行，下次再聊。",
+      "call_id": "ba23613508214e68a37fa001b23fd31d",
+      "response_id": "resp_ec29e8ce-d4b3-9a44-b795-a293df3beaa7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:33:00.090076+00:00"
+    },
+    {
+      "id": "C03-S08-U16",
+      "role": "counselor",
+      "text": "嗯，下次改完看结果，到时候再说。下次见。",
+      "call_id": "74e89e9e910449658b9805ab8c3823c1",
+      "response_id": "resp_6f1e5c36-18a9-9614-b135-33ac54d60123",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:33:05.027624+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:33:05.027624+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T12:33:05.029626+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 8
+  }
+}

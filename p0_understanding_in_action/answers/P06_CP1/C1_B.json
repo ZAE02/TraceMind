@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP1",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "829a610f5595ea85025f329500dfcdc9e31a64d372bc8db91d4b25d47077fab5",
+  "request_sha256": "b0818b69d19445bc36c2420ba1a0c8eee1674036f6a342cecfd9c73ed56a2d88",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你半夜醒来要先摸手腕才敢动，药瓶是凉的，身上却一直出汗，还觉得像被人从头顶撕开——这些身体的感觉好像都在说，那个“怕自己空了”的恐惧并没有离开，而是常常在夜里回来。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3134,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3187,
+    "x_details": [
+      {
+        "input_tokens": 3134,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3187,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

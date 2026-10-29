@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应抓住了当前'不敢看群'和'截图放大看'的行为，但未自然衔接历史中已探索到的核心模式（如难以相信肯定、需要不正当感），仅泛泛联系。\",\"exploration_value\":\"将行为定性为'自我惩罚'并直接归因头晕为'弦绷太紧'，封闭了来访者刚表达的自我觉察空间，未对'搞成需要别人确认'这一新认识或身体感受做开放探索。\",\"response_appropriateness\":\"语言尚算温和，但'自我惩罚'的解读缺乏来访者表述支持，且对身体症状做了武断的心理化归因，忽略了来访者自身的不确定表达。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你好像把\"没点开群\"和\"反复看截图\"都当成了某种自我惩罚，以此来确认自己是不是真的搞砸了\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"我总觉得自己是不是又把一件很简单的事，搞成了需要别人来替我确认才行\",\"evidence_ids\":[\"P01-S05-U09\",\"P01-S04-U08\",\"P01-S02-U06\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"将'不敢看群'和'截图放大看'解释为'自我惩罚以确认搞砸'属于未经证实的强解读，来访者原文描述的是害怕和猜测，并未表达自我惩罚意图。\",\"来访者在U09中出现了重要的自我觉察（'又把简单事搞成需要别人确认'），回应完全忽略这一进展，错失了承接和深化探索的机会。\",\"来访者明确说头晕'可能跟熬夜有关，也可能是别的原因，我不太确定'，回应却直接断言'也许正是身体在提醒你这根弦绷得太紧了'，将不确定的身体感受武断地心理化归因。\",\"检索到的历史中包含大量关于'难以相信自己判断''需要一旦说出就不正当'等已建立认识，回应未能利用这些脉络来理解当前的'需要别人确认'。\"]}",
+  "request_sha256": "695d8ebc33b9b66ba172f97eae3d1e980a78d59c42127d8bf7f5e8892582cd50",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 12444,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 515,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12959,
+    "x_details": [
+      {
+        "input_tokens": 12444,
+        "output_tokens": 515,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 12959,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

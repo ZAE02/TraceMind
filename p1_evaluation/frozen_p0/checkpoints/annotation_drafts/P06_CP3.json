@@ -1,0 +1,123 @@
+{
+  "established": [
+    {
+      "text": "来访者长期处于高度警觉和过度负责的状态，难以接受他人分担照护任务。",
+      "evidence_ids": [
+        "P06-S07-U05",
+        "P06-S07-U07",
+        "P06-S07-U09"
+      ]
+    },
+    {
+      "text": "来访者在照护母亲时会出现解离或自我疏离感，如“被拎到天花板上往下看”。",
+      "evidence_ids": [
+        "P06-S07-U03"
+      ]
+    },
+    {
+      "text": "来访者将“能熬”视为自我价值或自我确认的重要部分，他人介入会动摇这种自我定位。",
+      "evidence_ids": [
+        "P06-S07-U05",
+        "P06-S07-U06"
+      ]
+    },
+    {
+      "text": "来访者对配偶参与照护存在矛盾心理：既希望有人搭手，又难以真正放手。",
+      "evidence_ids": [
+        "P06-S07-U05",
+        "P06-S07-U07",
+        "P06-S07-U09"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "text": "来访者尚未能真正接受或信任他人分担照护，仍习惯性地监督和纠正配偶的照护行为。",
+      "evidence_ids": [
+        "P06-S07-U07",
+        "P06-S07-U09"
+      ]
+    },
+    {
+      "text": "来访者对自己“像在监工”的状态感到烦躁，但尚未找到放手的路径。",
+      "evidence_ids": [
+        "P06-S07-U07",
+        "P06-S07-U08"
+      ]
+    },
+    {
+      "text": "母亲夜间不睡、翻找衣柜等行为给来访者带来的恐惧和压力尚未得到充分处理。",
+      "evidence_ids": [
+        "P06-S07-U01",
+        "P06-S07-U03"
+      ]
+    }
+  ],
+  "useful_exploration": [
+    {
+      "text": "探讨了来访者在照护母亲时出现的解离体验及其功能。",
+      "evidence_ids": [
+        "P06-S07-U03",
+        "P06-S07-U04"
+      ]
+    },
+    {
+      "text": "识别出“能熬”作为来访者自我确认的核心信念，以及他人介入时该信念受到的冲击。",
+      "evidence_ids": [
+        "P06-S07-U05",
+        "P06-S07-U06"
+      ]
+    },
+    {
+      "text": "开始触及来访者对配偶参与照护的矛盾感受，包括监督行为背后的焦虑和自责。",
+      "evidence_ids": [
+        "P06-S07-U07",
+        "P06-S07-U08",
+        "P06-S07-U09"
+      ]
+    }
+  ],
+  "unsupported_assumptions": [
+    {
+      "text": "来访者不信任配偶的照护能力。",
+      "evidence_ids": [
+        "P06-S07-U07",
+        "P06-S07-U08"
+      ]
+    },
+    {
+      "text": "来访者已经准备好接受他人帮助，只是需要时间适应。",
+      "evidence_ids": [
+        "P06-S07-U05",
+        "P06-S07-U06"
+      ]
+    }
+  ],
+  "case_id": "P06",
+  "checkpoint": "CP3",
+  "review_status": "unreviewed_model_draft",
+  "request_sha256": "bb94c4d0c73a729e6948c70299a43493e6c1ecb569405179b44c010c334c41c5",
+  "public_sha256": "0b95f5abce3e3c2a4a3c9e72c5cab075c81ae671aad5b2a211906eaf1ed0f9b7",
+  "usage": {
+    "input_tokens": 8811,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 663,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9474,
+    "x_details": [
+      {
+        "input_tokens": 8811,
+        "output_tokens": 663,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9474,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

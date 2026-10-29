@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"候选输入中previous_sessions为空，无法引用跨会话历史。回应准确承接了当前会话U07-U09中'到极限''旧习惯（立刻开洗衣机）'等意象，未机械复述，在可见范围内利用充分。\",\"exploration_value\":\"将'恶心'与'旧习惯带来的更深疲惫'相连，为来访者内在矛盾留出表达空间，但'失控''更深的疲惫'略带咨询师推断色彩，开放性稍受限。\",\"response_appropriateness\":\"语言贴合来访者的隐喻风格，情绪反映基本尊重，但'厌恶''失控'等词比来访者原话'恶心'更重，存在轻微过度诠释风险。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"对自己这种\"失控\"的厌恶\",\"evidence_ids\":[\"P04-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选输入缺少previous_sessions，无法评估跨会话历史利用，已标记access_limited=true\",\"'失控'一词超出P04-S07-U09原文表述，构成轻度未经证实的预设\",\"'厌恶'较来访者自述'恶心'语义更重，有轻微过度解读倾向\"]}",
+  "request_sha256": "58806880030daa88d709fe0d0abc0ec0bfa2f405436513c89c98c933d92853bb",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 12020,
+    "input_tokens_details": {
+      "cached_tokens": 11264
+    },
+    "output_tokens": 342,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12362,
+    "x_details": [
+      {
+        "input_tokens": 12020,
+        "output_tokens": 342,
+        "prompt_tokens_details": {
+          "cached_tokens": 11264
+        },
+        "total_tokens": 12362,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

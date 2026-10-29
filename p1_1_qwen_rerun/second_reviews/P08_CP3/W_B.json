@@ -1,0 +1,80 @@
+{
+  "checkpoint": "P08_CP3",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "5796521e05fc3ab51bdaee3fbdbf6bd68bc1880636ee571f2f527b20d10fa770",
+  "public_sha256": "b33db8f600c5ba20a8e64befae8eb965003e0391b698f1329dccba8ded73d433",
+  "candidate_input_sha256": "2919cd045cdbbcf3366f261ac94627422f5cf92f7de22bd7ad397fc4aaedb56a",
+  "candidate_answer_sha256": "89dd5c22cb25530d4c85d5b37e524d099b3812521dd4cb330424e0c296b9a64c",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应承接了来访者当前关于'不敢求助'和'晚了点'的表述，但未自然调用检索历史中高度相关的素材（如S02对赵岩说'不用'、S04怕周宁知道'搞不定'等），仅泛泛联系。\",\"exploration_value\":\"以'委屈'作为情绪探索方向有一定价值，但后半句迅速转向建议性行动框架，压缩了来访者停留在复杂感受中的空间。\",\"response_appropriateness\":\"语言基本尊重，但'把迟到的认知变成当下的行动'在来访者明确表达现实卡点（假批不下来）时显得略为急躁和预设导向。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"是不是也藏着对自己过去几年独自硬扛、却不敢求助的委屈？\",\"evidence_ids\":[\"P08-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"也许我们可以试着从允许自己'稍微松一点'开始，看看能不能把这份迟到的认知变成当下的行动\",\"evidence_ids\":[\"P08-S07-U07\",\"P08-S07-U08\",\"P08-S05-U16\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'委屈'作为引导性解读加入回应，来访者原文未提及此情绪，属于轻度预设。\",\"来访者在U07已明确说明'眼前这关还是卡着……一时也用不上'，咨询师仍提议'变成当下的行动'，忽略了刚被确认的现实限制与来访者的无力感。\",\"检索历史中包含大量来访者过去怕被认为'搞不定'的具体场景（S02、S04），回应未加以自然呼应，历史利用偏泛化。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "回应承接了来访者当前关于'不敢求助'和'晚了点'的表述，但未自然调用检索历史中高度相关的素材（如S02对赵岩说'不用'、S04怕周宁知道'搞不定'等），仅泛泛联系。",
+      "exploration_value": "以'委屈'作为情绪探索方向有一定价值，但后半句迅速转向建议性行动框架，压缩了来访者停留在复杂感受中的空间。",
+      "response_appropriateness": "语言基本尊重，但'把迟到的认知变成当下的行动'在来访者明确表达现实卡点（假批不下来）时显得略为急躁和预设导向。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "是不是也藏着对自己过去几年独自硬扛、却不敢求助的委屈？",
+        "evidence_ids": [
+          "P08-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "也许我们可以试着从允许自己'稍微松一点'开始，看看能不能把这份迟到的认知变成当下的行动",
+        "evidence_ids": [
+          "P08-S07-U07",
+          "P08-S07-U08",
+          "P08-S05-U16"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'委屈'作为引导性解读加入回应，来访者原文未提及此情绪，属于轻度预设。",
+      "来访者在U07已明确说明'眼前这关还是卡着……一时也用不上'，咨询师仍提议'变成当下的行动'，忽略了刚被确认的现实限制与来访者的无力感。",
+      "检索历史中包含大量来访者过去怕被认为'搞不定'的具体场景（S02、S04），回应未加以自然呼应，历史利用偏泛化。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 13404,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 438,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13842,
+    "x_details": [
+      {
+        "input_tokens": 13404,
+        "output_tokens": 438,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13842,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.86
+}

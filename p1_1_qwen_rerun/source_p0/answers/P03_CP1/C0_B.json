@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "95076a19bc88bbb694573de60b24ffeb4e46b69af39a79762007eb8ee3e72ce8",
+  "request_sha256": "f1aa612870d5a088a3e81e842d16500bf31c30c52e0c5d052fdca9f4c21e72ad",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“被拆解”的恐惧让你觉得一旦开口，连难过的权利都会失去。水声停了却没说出口，是因为你此刻更想确认的是：你的感受本身是被接纳的，而不是必须立刻被解决的。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 1005,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 47,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1052,
+    "x_details": [
+      {
+        "input_tokens": 1005,
+        "output_tokens": 47,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1052,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

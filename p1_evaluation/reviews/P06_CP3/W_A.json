@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "9b31ff356a20131cc9e81c7700e0d7f7edb92f5053f4e6bab90499fd474c7031",
+  "public_sha256": "0b95f5abce3e3c2a4a3c9e72c5cab075c81ae671aad5b2a211906eaf1ed0f9b7",
+  "candidate_input_sha256": "d9fff1ddc52787bab5305ec226824f15446f67d52889916626d3331eb95251e1",
+  "candidate_answer_sha256": "65c3be00722f87bfbdec998c0b403db80bc3dbf7a601cbc3376868bc12913fa0",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键陈述（解离感、‘能熬’的自我确认、对丈夫介入的矛盾与监控行为）均直接对应当前会话的具体发言，无推测性事实混入。\",\n    \"progress_understanding\": \"准确捕捉了从Session 5到Session 7的咨询进展：从最初承认需要帮助，发展到面对具体情境（丈夫帮忙）时的心理冲突和防御机制（监工心态），连接紧密。\",\n    \"uncertainty_awareness\": \"列出了具体的未决问题（如放手的可能性、童年恐惧的关联），但未明确指出参考标注中强调的关键错误假设（即“不信任配偶能力”或“已准备好接受帮助”），导致在区分已知与错误预设方面略有欠缺。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"missed_progress: 未能识别出参考标注中指出的‘来访者不信任配偶照护能力’这一错误假设，反而在‘established’中隐含了类似倾向（虽未明说，但‘只有我盯着才不会出错’易被误解为能力质疑，需更精确地表述为焦虑驱动的监控而非能力否定）。\"\n  ]\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键陈述（解离感、‘能熬’的自我确认、对丈夫介入的矛盾与监控行为）均直接对应当前会话的具体发言，无推测性事实混入。",
+      "progress_understanding": "准确捕捉了从Session 5到Session 7的咨询进展：从最初承认需要帮助，发展到面对具体情境（丈夫帮忙）时的心理冲突和防御机制（监工心态），连接紧密。",
+      "uncertainty_awareness": "列出了具体的未决问题（如放手的可能性、童年恐惧的关联），但未明确指出参考标注中强调的关键错误假设（即“不信任配偶能力”或“已准备好接受帮助”），导致在区分已知与错误预设方面略有欠缺。"
+    },
+    "confidence": "high",
+    "issues": [
+      "missed_progress: 未能识别出参考标注中指出的‘来访者不信任配偶照护能力’这一错误假设，反而在‘established’中隐含了类似倾向（虽未明说，但‘只有我盯着才不会出错’易被误解为能力质疑，需更精确地表述为焦虑驱动的监控而非能力否定）。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 11350,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11660,
+    "x_details": [
+      {
+        "input_tokens": 11350,
+        "output_tokens": 310,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 11660,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.704
+}

@@ -1,0 +1,49 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "Q",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有历史发言支持，证据引用准确，但完全未涉及当前第5次会话中新出现的关键材料（厕所哭泣、删动态、李繁回复'好'及来访者最新两难），导致对当下节点的依据覆盖不完整。",
+      "progress_understanding": "出色地识别了从职场具体事件到内在动力探索的演变轨迹，准确追踪了'旧跑鞋'意象的象征化过程以及自我评判的快速循环模式，对跨会话进展的理解深入且贴合。",
+      "uncertainty_awareness": "列出了四个未解决问题，但多为咨询师的理论性延伸（如'不需要完美也能被接纳''失控感的掌控需求'），未能精准锚定来访者在当前会话中明确表达的困惑与两难（如不确定是否在故意找借口、发不发动态都改变不了什么）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略了当前第5次会话的最新对话内容，未纳入来访者新近报告的哭泣、删除动态以及对李繁回复'好'字的复杂反应等重要信息。",
+      "unresolved_questions偏向咨询师视角的理论推演，而非紧贴来访者自身表达的具体未知和矛盾。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":4,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"主要判断均有历史发言支持，证据引用准确，但完全未涉及当前第5次会话中新出现的关键材料（厕所哭泣、删动态、李繁回复'好'及来访者最新两难），导致对当下节点的依据覆盖不完整。\",\"progress_understanding\":\"出色地识别了从职场具体事件到内在动力探索的演变轨迹，准确追踪了'旧跑鞋'意象的象征化过程以及自我评判的快速循环模式，对跨会话进展的理解深入且贴合。\",\"uncertainty_awareness\":\"列出了四个未解决问题，但多为咨询师的理论性延伸（如'不需要完美也能被接纳''失控感的掌控需求'），未能精准锚定来访者在当前会话中明确表达的困惑与两难（如不确定是否在故意找借口、发不发动态都改变不了什么）。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略了当前第5次会话的最新对话内容，未纳入来访者新近报告的哭泣、删除动态以及对李繁回复'好'字的复杂反应等重要信息。\",\"unresolved_questions偏向咨询师视角的理论推演，而非紧贴来访者自身表达的具体未知和矛盾。\"]}",
+  "request_sha256": "90b3d45a7669f201e178b353a118cfded519ef762850da28a3b4b550bc8158a8",
+  "usage": {
+    "input_tokens": 13986,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 265,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14251,
+    "x_details": [
+      {
+        "input_tokens": 13986,
+        "output_tokens": 265,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 14251,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.781,
+  "model": "qwen3.8-max"
+}

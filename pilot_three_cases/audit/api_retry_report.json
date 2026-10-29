@@ -1,0 +1,36 @@
+{
+  "started_at": "2026-10-12T08:15:55.990826+00:00",
+  "authorization": "User requested retry of Qwen, then deepseek-v4-flash if unsuccessful.",
+  "attempts": [
+    {
+      "model": "qwen3.8-27b",
+      "started_at": "2026-10-12T08:15:55.990826+00:00",
+      "status": "failed",
+      "error": "Request failed: {\"request_id\":\"2d31647c-83e3-9f54-8535-7c52eb3820df\",\"code\":\"Endpoint.AccessDenied\",\"message\":\"Workspace endpoint access denied.\"}",
+      "finished_at": "2026-10-12T08:15:56.308985+00:00",
+      "last_api_result": {
+        "http_status": 403,
+        "error_code": "Endpoint.AccessDenied",
+        "request_id": "2d31647c-83e3-9f54-8535-7c52eb3820df",
+        "status": "http_error",
+        "retry_count": 0
+      }
+    },
+    {
+      "model": "deepseek-v4-flash",
+      "started_at": "2026-10-12T08:15:56.327684+00:00",
+      "status": "failed",
+      "error": "Request failed: {\"request_id\":\"6e8ea153-9bbd-9c28-a20f-de1fbe660c7c\",\"code\":\"Endpoint.AccessDenied\",\"message\":\"Workspace endpoint access denied.\"}",
+      "finished_at": "2026-10-12T08:15:56.594926+00:00",
+      "last_api_result": {
+        "http_status": 403,
+        "error_code": "Endpoint.AccessDenied",
+        "request_id": "6e8ea153-9bbd-9c28-a20f-de1fbe660c7c",
+        "status": "http_error",
+        "retry_count": 0
+      }
+    }
+  ],
+  "status": "both_models_failed",
+  "finished_at": "2026-10-12T08:15:56.610029+00:00"
+}

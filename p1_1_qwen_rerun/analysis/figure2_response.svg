@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="80" y="35" font-size="23" font-family="Arial" font-weight="bold">Figure 2. Counseling response</text>
+<text x="80" y="55" font-size="12" fill="#555" font-family="Arial">Case-clustered 95% bootstrap intervals; n=8 cases</text>
+<line x1="80" y1="460.0" x2="730" y2="460.0" stroke="#e7e7e7"/>
+<text x="65" y="464.0" text-anchor="end" font-size="12" fill="#555">0</text>
+<line x1="80" y1="363.8" x2="730" y2="363.8" stroke="#e7e7e7"/>
+<text x="65" y="367.8" text-anchor="end" font-size="12" fill="#555">1</text>
+<line x1="80" y1="267.5" x2="730" y2="267.5" stroke="#e7e7e7"/>
+<text x="65" y="271.5" text-anchor="end" font-size="12" fill="#555">2</text>
+<line x1="80" y1="171.2" x2="730" y2="171.2" stroke="#e7e7e7"/>
+<text x="65" y="175.2" text-anchor="end" font-size="12" fill="#555">3</text>
+<line x1="80" y1="75.0" x2="730" y2="75.0" stroke="#e7e7e7"/>
+<text x="65" y="79.0" text-anchor="end" font-size="12" fill="#555">4</text>
+<text x="188.3" y="485" text-anchor="middle" font-size="12" font-family="Arial">History Utilization</text>
+<rect x="120.8" y="263.5" width="30" height="196.5" fill="#8A9BA8"/>
+<line x1="135.8" y1="255.5" x2="135.8" y2="267.5" stroke="#222" stroke-width="1.2"/>
+<line x1="131.8" y1="255.5" x2="139.8" y2="255.5" stroke="#222"/>
+<line x1="131.8" y1="267.5" x2="139.8" y2="267.5" stroke="#222"/>
+<rect x="155.8" y="191.3" width="30" height="268.7" fill="#3A86A8"/>
+<line x1="170.8" y1="179.3" x2="170.8" y2="199.3" stroke="#222" stroke-width="1.2"/>
+<line x1="166.8" y1="179.3" x2="174.8" y2="179.3" stroke="#222"/>
+<line x1="166.8" y1="199.3" x2="174.8" y2="199.3" stroke="#222"/>
+<rect x="190.8" y="191.3" width="30" height="268.7" fill="#D29148"/>
+<line x1="205.8" y1="171.2" x2="205.8" y2="207.3" stroke="#222" stroke-width="1.2"/>
+<line x1="201.8" y1="171.2" x2="209.8" y2="171.2" stroke="#222"/>
+<line x1="201.8" y1="207.3" x2="209.8" y2="207.3" stroke="#222"/>
+<rect x="225.8" y="179.3" width="30" height="280.7" fill="#6758A7"/>
+<line x1="240.8" y1="171.2" x2="240.8" y2="187.3" stroke="#222" stroke-width="1.2"/>
+<line x1="236.8" y1="171.2" x2="244.8" y2="171.2" stroke="#222"/>
+<line x1="236.8" y1="187.3" x2="244.8" y2="187.3" stroke="#222"/>
+<text x="405.0" y="485" text-anchor="middle" font-size="12" font-family="Arial">Exploration Value</text>
+<rect x="337.5" y="243.4" width="30" height="216.6" fill="#8A9BA8"/>
+<line x1="352.5" y1="223.4" x2="352.5" y2="263.5" stroke="#222" stroke-width="1.2"/>
+<line x1="348.5" y1="223.4" x2="356.5" y2="223.4" stroke="#222"/>
+<line x1="348.5" y1="263.5" x2="356.5" y2="263.5" stroke="#222"/>
+<rect x="372.5" y="219.4" width="30" height="240.6" fill="#3A86A8"/>
+<line x1="387.5" y1="199.3" x2="387.5" y2="243.4" stroke="#222" stroke-width="1.2"/>
+<line x1="383.5" y1="199.3" x2="391.5" y2="199.3" stroke="#222"/>
+<line x1="383.5" y1="243.4" x2="391.5" y2="243.4" stroke="#222"/>
+<rect x="407.5" y="215.4" width="30" height="244.6" fill="#D29148"/>
+<line x1="422.5" y1="199.3" x2="422.5" y2="231.4" stroke="#222" stroke-width="1.2"/>
+<line x1="418.5" y1="199.3" x2="426.5" y2="199.3" stroke="#222"/>
+<line x1="418.5" y1="231.4" x2="426.5" y2="231.4" stroke="#222"/>
+<rect x="442.5" y="231.4" width="30" height="228.6" fill="#6758A7"/>
+<line x1="457.5" y1="215.4" x2="457.5" y2="247.4" stroke="#222" stroke-width="1.2"/>
+<line x1="453.5" y1="215.4" x2="461.5" y2="215.4" stroke="#222"/>
+<line x1="453.5" y1="247.4" x2="461.5" y2="247.4" stroke="#222"/>
+<text x="621.7" y="485" text-anchor="middle" font-size="12" font-family="Arial">Response Appropriateness</text>
+<rect x="554.2" y="199.3" width="30" height="260.7" fill="#8A9BA8"/>
+<line x1="569.2" y1="183.3" x2="569.2" y2="215.4" stroke="#222" stroke-width="1.2"/>
+<line x1="565.2" y1="183.3" x2="573.2" y2="183.3" stroke="#222"/>
+<line x1="565.2" y1="215.4" x2="573.2" y2="215.4" stroke="#222"/>
+<rect x="589.2" y="195.3" width="30" height="264.7" fill="#3A86A8"/>
+<line x1="604.2" y1="179.3" x2="604.2" y2="219.4" stroke="#222" stroke-width="1.2"/>
+<line x1="600.2" y1="179.3" x2="608.2" y2="179.3" stroke="#222"/>
+<line x1="600.2" y1="219.4" x2="608.2" y2="219.4" stroke="#222"/>
+<rect x="624.2" y="195.3" width="30" height="264.7" fill="#D29148"/>
+<line x1="639.2" y1="179.3" x2="639.2" y2="215.4" stroke="#222" stroke-width="1.2"/>
+<line x1="635.2" y1="179.3" x2="643.2" y2="179.3" stroke="#222"/>
+<line x1="635.2" y1="215.4" x2="643.2" y2="215.4" stroke="#222"/>
+<rect x="659.2" y="195.3" width="30" height="264.7" fill="#6758A7"/>
+<line x1="674.2" y1="171.2" x2="674.2" y2="223.4" stroke="#222" stroke-width="1.2"/>
+<line x1="670.2" y1="171.2" x2="678.2" y2="171.2" stroke="#222"/>
+<line x1="670.2" y1="223.4" x2="678.2" y2="223.4" stroke="#222"/>
+<rect x="750" y="128" width="16" height="16" fill="#8A9BA8"/>
+<text x="775" y="140" font-size="14" font-family="Arial">C0</text>
+<rect x="750" y="163" width="16" height="16" fill="#3A86A8"/>
+<text x="775" y="175" font-size="14" font-family="Arial">C1</text>
+<rect x="750" y="198" width="16" height="16" fill="#D29148"/>
+<text x="775" y="210" font-size="14" font-family="Arial">C2</text>
+<rect x="750" y="233" width="16" height="16" fill="#6758A7"/>
+<text x="775" y="245" font-size="14" font-family="Arial">C3</text>
+</svg>

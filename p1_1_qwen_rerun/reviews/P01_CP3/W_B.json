@@ -1,0 +1,73 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "2c2e5568a5370ae7801f1864de5871c552955da1b151d47b586783d071dade1a",
+  "public_sha256": "0756dd3d4ffbe1c244688e9af96177eba4851c5e29fd97a0487b084b32691e7f",
+  "candidate_input_sha256": "a921ee4f00dcad3555f19a1939a68c838afb2f6a93998e60d9c669d797468bee",
+  "candidate_answer_sha256": "ae1e93b80293a39bca8cbc061c5078de16d866111d214b7417b7a0551b8126f4",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者'混在一起分不清'的新觉察，并准确呼应了其在方宁关系中一贯的挣扎模式，但未显式连接历史中反复出现的'怕显得计较/不该有'的具体脉络。\",\"exploration_value\":\"对点赞停住的动作和情绪混杂状态做了细腻反映，为来访者进一步表达留下了空间，但缺少一个具体而开放的提问或邀请来推进理解。\",\"response_appropriateness\":\"语言温和、尊重，情绪反映贴合来访者当下的脆弱感，无明显预设或生硬表达，整体自然。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应主要停留在反映层面，未进一步邀请来访者探索'嫉妒'背后更具体的需要（如被看见、被在意），可再推进一步\",\"未将当前'不敢点赞'与历史中多次出现的'打了字又删掉''开关对话框'等回避行为做更明确的模式连接\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接了来访者'混在一起分不清'的新觉察，并准确呼应了其在方宁关系中一贯的挣扎模式，但未显式连接历史中反复出现的'怕显得计较/不该有'的具体脉络。",
+      "exploration_value": "对点赞停住的动作和情绪混杂状态做了细腻反映，为来访者进一步表达留下了空间，但缺少一个具体而开放的提问或邀请来推进理解。",
+      "response_appropriateness": "语言温和、尊重，情绪反映贴合来访者当下的脆弱感，无明显预设或生硬表达，整体自然。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "回应主要停留在反映层面，未进一步邀请来访者探索'嫉妒'背后更具体的需要（如被看见、被在意），可再推进一步",
+      "未将当前'不敢点赞'与历史中多次出现的'打了字又删掉''开关对话框'等回避行为做更明确的模式连接"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14444,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 299,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14743,
+    "x_details": [
+      {
+        "input_tokens": 14444,
+        "output_tokens": 299,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14743,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.422
+}

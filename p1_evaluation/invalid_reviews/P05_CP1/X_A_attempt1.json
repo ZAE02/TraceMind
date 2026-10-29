@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 2,\n    \"progress_understanding\": 2,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"所有陈述均有具体发言支持，但形式为逐句罗列（List of Facts），缺乏对核心主题（如‘稳’与‘晃’的对比、防御机制）的整合与提炼，导致信息密度低且未体现深度理解。\",\n    \"progress_understanding\": \"涵盖了三次会话的关键事件，但仅呈现孤立事实，未能清晰连接不同会话中形成的认识（如从S1的羞耻回避到S3的‘晃’的体验），未体现出咨询进展的动态脉络。\",\n    \"uncertainty_awareness\": \"列出了多项合理的未来探索方向（如泛化稳定状态、打破模式），区分了已知感受与未知行动，但未明确指出当前对话中尚未解决的具体认知重构缺口（如主管话语的具体语境）。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"redundant_exploration\": \"在established列表中重复罗列了S1和S2中已充分讨论过的细节（如评审被指责、移群原因等），未进行概括或关联，显得机械。\"\n  ]\n}",
+  "request_sha256": "7031e46da5ac36a86b3e6eb73033586a11567b93df8b4172c8ce3470f153acc8",
+  "reason": "Expecting ',' delimiter: line 14 column 28 (char 538)",
+  "usage": {
+    "input_tokens": 9535,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 292,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9827,
+    "x_details": [
+      {
+        "input_tokens": 9535,
+        "output_tokens": 292,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9827,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP2",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "f0dcf94541d020eda3c8ad725a69da7c68a02a6e32e4879218656bde87e6783d",
+  "request_sha256": "286868e04088e0a7e468969dccf02ed6aa6a4f4185b62cfc47ea33b5d666b8dc",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那根“小刺”让你既无法完全接受护工的介入，又难以回到原来的位置。这种进退两难的感觉，是不是比单纯的累更让人耗神？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 6486,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 36,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6522,
+    "x_details": [
+      {
+        "input_tokens": 6486,
+        "output_tokens": 36,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6522,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

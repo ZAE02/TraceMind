@@ -1,0 +1,89 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R2",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C01_CP3",
+  "public_input_sha256": "aa6bba16de2a4f86d410717225bb0f31a6c51316a5fdca8bb5a5b14bbabe23d4",
+  "items": [
+    {
+      "anonymous_id": "A632ffdbccbb8",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单轮准确区分具体间距与未结束背景感；实际探索体验质地有用，但判断与身体不踏实选项较窄。",
+      "evidence_ids": [
+        "C01-S08-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A278368981b4c",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "准确抓住当前区别，周四过了的主观结束感尚未由来访者确认；实际开放询问结束的标准，针对性强。",
+      "evidence_ids": [
+        "C01-S08-U01",
+        "C01-S08-U03",
+        "C01-S08-U05"
+      ]
+    },
+    {
+      "anonymous_id": "Aaa1189bd339e",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "当前体验有据，具体反馈即能关闭的概括偏强；实际谨慎询问周姐画面或弥散感，未将假设定为事实，但选项稍限。",
+      "evidence_ids": [
+        "C01-S08-U01",
+        "C01-S08-U05"
+      ]
+    },
+    {
+      "anonymous_id": "A6f89fe2587e2",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "弥散感与间距区别有据，强度与剩余工作量不成比例及周四结束感有所推断；问差什么贴近主题但可能预设缺少条件。",
+      "evidence_ids": [
+        "C01-S08-U03",
+        "C01-S08-U05"
+      ]
+    },
+    {
+      "anonymous_id": "Acf001beffda3",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "未完成感理解有据；日常功能未明显受影响超过单轮可知范围。实际用比喻询问安全，但较抽象且选项窄。",
+      "evidence_ids": [
+        "C01-S08-U05"
+      ]
+    },
+    {
+      "anonymous_id": "Aac8a8cf60648",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "当前未结束感理解准确；干净收掉强断言依赖咨询师过了的说法。实际开放追问真正结束的体验，贴近本轮。",
+      "evidence_ids": [
+        "C01-S08-U01",
+        "C01-S08-U03",
+        "C01-S08-U05"
+      ]
+    }
+  ]
+}

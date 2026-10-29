@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应抓住了当前'半口气'与极限的主题，但未自然衔接前几节中'还能顶的招牌''药盒''护工'等已形成的核心意象，仅泛泛联系。\",\"exploration_value\":\"提出了一个探索方向（厌恶是否比疲惫更难承受），但用'是因为它像一面镜子'直接替来访者下了因果定论，压缩了来访者自己展开的空间。\",\"response_appropriateness\":\"语言风格基本贴合来访者的隐喻习惯，但'连承认极限都来不及做的狼狈'带有较强评判色彩，将来访者早上的恶心感定性为自我厌恶，预设偏重。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那团没洗的衣服让你感到恶心，是因为它像一面镜子，照出了你连\"承认极限\"都来不及做的狼狈\",\"evidence_ids\":[\"P04-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应以'是因为'句式直接给出来访者恶心感的解释，属于未经证实的因果推断，限制了来访者自主表达的空间。\",\"未利用检索历史中高度相关的意象（如S1的'还能顶的招牌'、S6的药盒与'还是我来'），错失了将当前体验与已有认识自然串联的机会。\",\"'狼狈'一词带有轻微贬义和评判性，可能让来访者感到被定义而非被理解。\"]}",
+  "request_sha256": "cabc11fa972acf308adaf7a0724b9771f0d6b66904067e88a237edae4e1fe91c",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14450,
+    "input_tokens_details": {
+      "cached_tokens": 14336
+    },
+    "output_tokens": 384,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14834,
+    "x_details": [
+      {
+        "input_tokens": 14450,
+        "output_tokens": 384,
+        "prompt_tokens_details": {
+          "cached_tokens": 14336
+        },
+        "total_tokens": 14834,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

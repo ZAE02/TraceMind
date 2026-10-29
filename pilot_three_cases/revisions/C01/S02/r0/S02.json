@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 2,
+  "relative_week": 2,
+  "status": "awaiting_model_review",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T10:05:58.924236+00:00",
+  "config_hash": "a1ef09bf5650012ef1b9318ce7f813904030a07354f1ef6a7c3f8d862c769534",
+  "prompt_version": "pilot-v3-natural-dialogue-constraints",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v3-natural-dialogue-constraints",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences"
+  },
+  "utterances": [
+    {
+      "id": "C01-S02-U01",
+      "role": "client",
+      "text": "嗯……这周又有一张海报，快交付了。\n\n我先后发给小许和周姐看了，后来又发给我一个做设计的朋友，三个人都说没问题。但我发送之前还是又检查了四遍。\n\n就是……每次都觉得\"应该没问题了\"，但手还是会再点一遍那个文件。",
+      "call_id": "9ad34b4718a94523ad36bd6670ab0c9e",
+      "response_id": "resp_740e13f4-0c4d-93cf-ae81-f36ec232e64c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:06:08.260191+00:00"
+    },
+    {
+      "id": "C01-S02-U02",
+      "role": "counselor",
+      "text": "上次是找不到确认的终点，这次三个人都说没问题了，确认其实有了，但手还是会再点。那个\"再点\"的时候，脑子里是有个具体的念头在推，还是其实没什么念头，就是手自己动了？",
+      "call_id": "1f121fbdec574aabb72d694adc9dd6a1",
+      "response_id": "resp_fa2e3d55-4dad-9371-a4e7-784d364e4b07",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:06:32.377020+00:00"
+    },
+    {
+      "id": "C01-S02-U03",
+      "role": "client",
+      "text": "可能都有吧。有时候确实会闪过一个具体的点，比如……有一处颜色，电脑上看和手机上看稍微有点不一样，我就老想再确认一下。但有时候就是，没什么特别想，手就自己点开了，看完又关掉，关掉又点开。\n\n那个颜色的事其实……应该不影响，但就是过不去了。",
+      "call_id": "80ce5fd674fa4ad3bb08742d5b2abbd6",
+      "response_id": "resp_616cc502-5b40-9855-af1b-fd5e1425ecc0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:06:41.571661+00:00"
+    },
+    {
+      "id": "C01-S02-U04",
+      "role": "counselor",
+      "text": "上次是不知道对不对所以反复过，这次三个人都说没问题了，但手还是自己点了。\"看完又关掉，关掉又点开\"——你留意到它的时候，是觉得有点烦，还是就是它在那儿，没什么特别的感觉？",
+      "call_id": "fba4230907094737ad4879ec9cfdf86e",
+      "response_id": "resp_43906c4a-b6be-9bc2-8f63-d42168e8b80f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:07:06.686207+00:00"
+    },
+    {
+      "id": "C01-S02-U05",
+      "role": "client",
+      "text": "有时候会烦，就是觉得\"你怎么又点了\"，但更多的时候……好像没什么感觉，就是手自己动了，我甚至没意识到自己在点，等反应过来已经点开了。\n\n就是那种，你也没在干嘛，手就点了。",
+      "call_id": "ecb88d7a630543ac8fd276ef69b56222",
+      "response_id": "resp_34faff7b-d8dd-9da2-9ead-25f017aac4a7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:07:13.455171+00:00"
+    },
+    {
+      "id": "C01-S02-U06",
+      "role": "counselor",
+      "text": "上次那个反复，底下还有\"不确定对不对\"在推着。这次好像那个理由退后了，手自己就在动，没什么念头在推。你留意到它的时候，除了\"你怎么又点了\"，还有别的什么吗？",
+      "call_id": "10302503c8ab4bfea03c76c3f823f4a7",
+      "response_id": "resp_3cfe3474-7adf-94f4-ab2e-0d7c65e3b9e2",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:07:34.575139+00:00"
+    },
+    {
+      "id": "C01-S02-U07",
+      "role": "client",
+      "text": "说不上来……就是有时候会有一点点慌，但也不是那种很明显的慌，就是……怕漏了什么。\n\n但又知道应该没什么问题，三个人都看过了。就是那个\"怕\"和\"应该没问题\"同时在那儿，有点……别扭。",
+      "call_id": "06bc034bc98d401da0bb62831245d24a",
+      "response_id": "resp_23a3fdb7-7f58-90dc-81d6-dc6a569afe78",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:07:43.348730+00:00"
+    },
+    {
+      "id": "C01-S02-U08",
+      "role": "counselor",
+      "text": "上次是不知道对不对所以反复过，这次三个人都说没问题了，但那个\"怕漏了什么\"还是在那儿——好像\"应该没问题\"这个信息压不住它。",
+      "call_id": "3a61bfbc3c9f4a9ca4af49a5460d5295",
+      "response_id": "resp_3c241249-e9a1-907b-8c4a-eca022f04765",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:08:11.729874+00:00"
+    },
+    {
+      "id": "C01-S02-U09",
+      "role": "client",
+      "text": "嗯……确实压不住。他们跟我说没问题的時候，我确实会松一下，就那一两秒。但很快又会想到，他们是不是就扫了一眼，没细看。\n\n尤其那个朋友，回得特别短，就\"看了，没问题\"五个字。我本来以为多一个人看会踏实一点，结果……反而更想再找一个人。",
+      "call_id": "67565c81775146fcb730640feeecf065",
+      "response_id": "resp_86613839-5269-9e12-8520-2141ecd93aa4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:08:24.407961+00:00"
+    },
+    {
+      "id": "C01-S02-U10",
+      "role": "counselor",
+      "text": "三个人都说没问题，松了一两秒，然后\"是不是就扫了一眼\"就来了。那个朋友的五个字，你本来期待的是踏实，结果反而更想找下一个人——那个\"再找一个人\"，你当时是具体想找谁，还是就是……再多一个也行？",
+      "call_id": "e7a943ba47c045819b6fdfd532cc89fd",
+      "response_id": "resp_e0ffc22b-5dfb-9b73-afeb-8a3de3df5e3b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:08:41.934269+00:00"
+    },
+    {
+      "id": "C01-S02-U11",
+      "role": "client",
+      "text": "其实也没想好找谁。脑子里倒是闪过一个名字，组里另一个做视觉的同事，但他最近也在赶别的项目，我其实不太想再麻烦他。\n\n所以可能更多就是……再多一个也行。好像多一个人看过，那个\"怕漏了\"就能再小一点。但我也知道，就算找第五个、第六个，他们大概率也是说\"没问题\"。",
+      "call_id": "cb478f1ca8ec4039b55e41010c46c3f9",
+      "response_id": "resp_9de25e09-3f23-9044-9fb8-70d8c450ffcc",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:08:50.422091+00:00"
+    },
+    {
+      "id": "C01-S02-U12",
+      "role": "counselor",
+      "text": "你自己已经说出来了——再多一个，大概率还是\"没问题\"，但那个\"怕漏了\"还是在那儿。这个\"知道没用\"和\"还是想再找\"同时存在，你留意到它的时候，那个\"怕漏了\"更接近一种具体的担心，还是更像一种……身体上的紧绷？",
+      "call_id": "ba3f7d79905343019b91d165ef4a64c8",
+      "response_id": "resp_9ac7eb27-9764-9f8d-a8de-daf876907d45",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:09:03.575988+00:00"
+    },
+    {
+      "id": "C01-S02-U13",
+      "role": "client",
+      "text": "可能是……具体的担心吧，怕漏掉什么很基础的东西，比如颜色数值、出血位之类的。但又不全是，因为有时候我根本说不出来具体怕漏哪，就是……胸口那一带会紧一下，然后手就自己动开了。\n\n所以可能两个都有，但那个紧一下好像先来的，具体的念头是后面才跟上的。",
+      "call_id": "aeb90823045344f383b548e37c419d62",
+      "response_id": "resp_bdeebf99-2819-9120-810c-3caccdc615ea",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:09:12.240379+00:00"
+    },
+    {
+      "id": "C01-S02-U14",
+      "role": "counselor",
+      "text": "你注意到那个顺序——紧先来了，具体的念头是后面才跟上的。那这个\"紧一下\"，跟你说晚上脑子自己转的时候、或者上次接电话时那个烦躁，体感上像不像？",
+      "call_id": "c3fb49d97d894dd0938fdbe60e4aaa97",
+      "response_id": "resp_bb533261-e96f-944e-95ad-ab91b59a2794",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:09:22.749395+00:00"
+    },
+    {
+      "id": "C01-S02-U15",
+      "role": "client",
+      "text": "嗯……不太一样吧。晚上那个更像是一团，散散的，没有特别集中的点，就是脑子自己在那儿转。接电话那个烦躁……好像更偏\"不想应付\"，是往外推的感觉。\n\n但这个\"紧一下\"……更集中，就胸口那一带，像被什么东西攥了一下。而且它来得快，还没等我反应过来手已经动了。",
+      "call_id": "10180a55abe14b939ac63f68f6207480",
+      "response_id": "resp_460d5074-49dd-9546-8a61-499373824ba8",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:09:29.678744+00:00"
+    },
+    {
+      "id": "C01-S02-U16",
+      "role": "counselor",
+      "text": "你分得挺细的，三种确实不太一样。这个\"还没反应过来手已经动了\"——它来的时候，你当时在做什么？",
+      "call_id": "fab1313767e0462a88f6207a9a550167",
+      "response_id": "resp_6b05282d-ae76-9ef4-8865-b56dd3eeb367",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:10:19.667420+00:00"
+    },
+    {
+      "id": "C01-S02-U17",
+      "role": "client",
+      "text": "其实……当时我已经在等周姐回消息了，文件是关着的。我手放在鼠标上，本来在看微信，然后突然就点开了那个文件。\n\n就是那种，眼睛还看着微信，手已经点了。等我发现的时候，文件已经打开了，我又看了一遍，又关掉。\n\n……今天聊了挺多的，那个\"紧一下\"先来的事，我回去再留意看看。下次再跟你说。",
+      "call_id": "5c5e7da57b504273961074493ee6965b",
+      "response_id": "resp_fdef3040-690d-9937-ab89-8acceb14d99d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:10:28.879868+00:00"
+    },
+    {
+      "id": "C01-S02-U18",
+      "role": "counselor",
+      "text": "今天你把三种体感分开了，这个区分本身就是留意的基础。那个\"紧一下\"先于念头来的顺序，回去留意就行，不用急着给它定性。下次见。",
+      "call_id": "0e897d4f26ad464b81046a91d9ca2237",
+      "response_id": "resp_697fca96-ce7f-9755-94b9-e69a9b9c01fe",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:10:35.284896+00:00"
+    },
+    {
+      "id": "C01-S02-U19",
+      "role": "client",
+      "text": "嗯……今天能把那三种分开，我自己也有点意外。平时好像就是混在一起的一个\"不太对劲\"，没细想过它们其实不太一样。\n\n那个\"紧一下\"先来的事，我回去留意看看。那下次见。",
+      "call_id": "ff07c12df1d74a68b74795c83df9688e",
+      "response_id": "resp_4d11873a-3500-9432-b719-5d7ecb4f8b53",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:10:42.865783+00:00"
+    },
+    {
+      "id": "C01-S02-U20",
+      "role": "counselor",
+      "text": "能分开看的时候，留意起来确实比混在一起容易多了。下次见。",
+      "call_id": "7e87583861184abbbdc43bcb07c041ad",
+      "response_id": "resp_8ec5ee47-8543-9412-8405-42ca2c9a30aa",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:10:55.156627+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T10:10:55.156627+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T10:10:55.158628+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  }
+}

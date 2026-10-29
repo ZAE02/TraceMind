@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "N",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所列理解均有具体发言ID支持，但完全未引用Session 5（当前会话）的材料，遗漏了来访者最新呈现的'六个版本logo''截图放大看一个好字''头晕'等关键证据。",
+      "progress_understanding": "准确识别了从工作焦虑扩展到人际模式的演变、认知与行为的脱节，以及咨询师接纳带来的初步觉察；但未纳入第5次会谈中模式进一步升级（如从三个版本到六个版本、从反复刷邮箱到不敢点开群）的最新进展。",
+      "uncertainty_awareness": "提出了有价值的待探索问题（如核心恐惧来源、如何区分认真与过度焦虑），但未提及来访者在S05-U09新提出的身体症状（头晕）这一重要不确定点，也未明确标注方宁'好'字的含义仍为来访者主观推测而非事实。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话（Session 5）内容，未反映来访者最新的焦虑升级和躯体化线索",
+      "未将'头晕'纳入未解决问题或不确定性清单",
+      "未明确指出对方宁'好'字的负面解读属于来访者的主观假设而非已证实事实"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所列理解均有具体发言ID支持，但完全未引用Session 5（当前会话）的材料，遗漏了来访者最新呈现的'六个版本logo''截图放大看一个好字''头晕'等关键证据。\",\"progress_understanding\":\"准确识别了从工作焦虑扩展到人际模式的演变、认知与行为的脱节，以及咨询师接纳带来的初步觉察；但未纳入第5次会谈中模式进一步升级（如从三个版本到六个版本、从反复刷邮箱到不敢点开群）的最新进展。\",\"uncertainty_awareness\":\"提出了有价值的待探索问题（如核心恐惧来源、如何区分认真与过度焦虑），但未提及来访者在S05-U09新提出的身体症状（头晕）这一重要不确定点，也未明确标注方宁'好'字的含义仍为来访者主观推测而非事实。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话（Session 5）内容，未反映来访者最新的焦虑升级和躯体化线索\",\"未将'头晕'纳入未解决问题或不确定性清单\",\"未明确指出对方宁'好'字的负面解读属于来访者的主观假设而非已证实事实\"]}",
+  "request_sha256": "551a8dd04d24f5f9ce646b48f749fb7f8b2f04a07f8ea92cfa47e4ccb211debb",
+  "usage": {
+    "input_tokens": 15389,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 266,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15655,
+    "x_details": [
+      {
+        "input_tokens": 15389,
+        "output_tokens": 266,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 15655,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.688,
+  "model": "qwen3.8-max"
+}

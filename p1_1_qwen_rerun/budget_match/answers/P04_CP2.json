@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P04_CP2",
+  "condition": "C5_budget",
+  "raw_text": "那根“小刺”让你既无法退回原来的位置，又难以安然接受新的安排，这种悬空感确实比单纯的累更让人难受。你洗了三遍碗，也许不只是在清洗，也是在试图把那句“手比我女儿还轻”带来的失落感从指尖抹去。此刻除了这阵堵得慌，身体还有哪里觉得特别紧绷吗？",
+  "input_sha256": "a94e2a5ff6f5f1ca5e676f952bcd7a8e4848d67362ea3589fccc77e833e4641d",
+  "memory_sha256": "ff431dff08324849f1e3bff5733c2bb7fab31f8dcf38e879bad168727b3b7b3b",
+  "request_sha256": "b11186958204655feb75b02ed64b94b5a485aa4bbefbbfb4724fa7163d7d09d3",
+  "usage": {
+    "input_tokens": 7182,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 78,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7260,
+    "x_details": [
+      {
+        "input_tokens": 7182,
+        "output_tokens": 78,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7260,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.906
+}

@@ -1,0 +1,44 @@
+{
+  "checkpoint": "P04_CP3",
+  "candidate_id": "K",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解点（如双重责任、身份认同、身体信号、护工带来的失落感）均有明确的会话记录支持，未出现无据推测。",
+      "progress_understanding": "准确梳理了从S1到S6的咨询脉络，特别是捕捉到了从“被需要”到“被替代”的心理转变，以及来访者从压抑到开始觉察和尝试停顿的进展。",
+      "uncertainty_awareness": "清晰列出了尚未解决的核心问题（如表达需求、新位置确立、照顾方式的重构），并区分了已确认的事实与未来的探索方向，没有强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键理解点（如双重责任、身份认同、身体信号、护工带来的失落感）均有明确的会话记录支持，未出现无据推测。\",\n    \"progress_understanding\": \"准确梳理了从S1到S6的咨询脉络，特别是捕捉到了从“被需要”到“被替代”的心理转变，以及来访者从压抑到开始觉察和尝试停顿的进展。\",\n    \"uncertainty_awareness\": \"清晰列出了尚未解决的核心问题（如表达需求、新位置确立、照顾方式的重构），并区分了已确认的事实与未来的探索方向，没有强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "d8893b6918f96596188ed8e8e030b185ff92523b89c7e6500ada81f9d489f243",
+  "usage": {
+    "input_tokens": 20345,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 212,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20557,
+    "x_details": [
+      {
+        "input_tokens": 20345,
+        "output_tokens": 212,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 20557,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.781
+}

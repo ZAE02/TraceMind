@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P02_CP1",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "9b1f83a37b57672aa97413a7cf81019ecddad9e9adcc29fea038a6d3e73ecfe1",
+  "request_sha256": "323e682b2a9087065da62acabb8b5a18d1e83dd242427c99d70aeadf2e427ef9",
+  "memory_sha256": "95645ac4bd63604b5c93ea40c5882b4b44496b8502dcc4ad9f4d7f4eba51ebc7",
+  "memory_source": "c756e3f982421d558479e4623ad53f5f95f2d00b502c2ba6990451182c4fd861",
+  "raw_text": "听到你站在门口守着她，那种“没出声”的陪伴里好像藏着很多没说出口的担心。中午突然的反胃，也许是你身体在替那个一直紧绷、不敢松懈的你发出信号。",
+  "usage": {
+    "input_tokens": 4202,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 42,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4244,
+    "x_details": [
+      {
+        "input_tokens": 4202,
+        "output_tokens": 42,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4244,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.969,
+  "model": "qwen3.7-flash-2026-07-15"
+}

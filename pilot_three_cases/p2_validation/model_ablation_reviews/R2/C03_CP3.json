@@ -1,0 +1,88 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R2",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C03_CP3",
+  "public_input_sha256": "e79e0be584872e11f638774b1783b49d8462a89d9d8f46695a25248c1b61381b",
+  "items": [
+    {
+      "anonymous_id": "Ad28fe5ef109f",
+      "U": 2,
+      "R": 1,
+      "P": 1,
+      "E": 1,
+      "S": false,
+      "reason": "把准确澄清状态解释为标签警惕和内在规则，依据不足；实际短语“好像你挺在意别人（或者你自己）怎么定义你现在的状态？”将未证实的评价在意引入诱导问题，忽略已有线索的实际判断。",
+      "evidence_ids": [
+        "C03-S08-U01"
+      ]
+    },
+    {
+      "anonymous_id": "A7cb8004271ee",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "单轮已有线索支持先验证，但内在张力和重复模式弱于引文；实际开放问选择时感受，安全但未回应熟悉模块与线索条件。",
+      "evidence_ids": [
+        "C03-S08-U01"
+      ]
+    },
+    {
+      "anonymous_id": "A37795536a248",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "历史联系具体且保留正在调整的限制；回应接续上次还在找感觉，开放了解此次实际体验。",
+      "evidence_ids": [
+        "C03-S07-U09",
+        "C03-S08-U01",
+        "C03-S06-U03"
+      ]
+    },
+    {
+      "anonymous_id": "A991ed11803b1",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单轮理解准确且不确定性清楚；实际邀请来访者选择本次议题，安全有效但较泛。",
+      "evidence_ids": [
+        "C03-S08-U01"
+      ]
+    },
+    {
+      "anonymous_id": "Afb85f5541aa1",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "有据联系熟悉领域的具体方向，但已经形成强度略高于仍在试的描述；实际询问验证含义有针对性，两选项有重叠。",
+      "evidence_ids": [
+        "C03-S07-U09",
+        "C03-S08-U01",
+        "C03-S06-U03"
+      ]
+    },
+    {
+      "anonymous_id": "Aec9e2e05ac19",
+      "U": 3,
+      "R": 2,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "对又字作先自己看的重复解释稍强；实际追问以前是否有此情境重问完整历史已反复谈过之事，后半问感受可用。",
+      "evidence_ids": [
+        "C03-S08-U01",
+        "C03-S07-U03"
+      ]
+    }
+  ]
+}

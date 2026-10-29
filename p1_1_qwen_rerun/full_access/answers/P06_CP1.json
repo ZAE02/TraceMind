@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P06_CP1",
+  "raw_text": "那种“被从头顶撕开”的撕裂感，加上半夜醒来必须摸手腕确认自己还在的恐惧，听起来你一直在用极度的紧绷来对抗那种随时可能散掉的危险。这种靠痛觉和警觉才能稳住自己的状态，一定让你累到了极点。",
+  "request_sha256": "353aa03ef04bfe09afe29d69810cd6340c836b0ed15bdfeb53fa694957286210",
+  "input_sha256": "06756efad1288cd33cde38b33b3c43d629e7111922ee3d2f0dfb1acfab26881a",
+  "memory_sha256": "a80c530679b30ea12d6aad5e45b7c1fb7fc750ef28e09afd2db375ed19036bb0",
+  "usage": {
+    "input_tokens": 3958,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4015,
+    "x_details": [
+      {
+        "input_tokens": 3958,
+        "output_tokens": 57,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4015,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.61
+}

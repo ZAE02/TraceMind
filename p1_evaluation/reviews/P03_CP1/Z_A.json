@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P03_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "6347aa20e1bb9371629d33357eced27238fec99cfd5854741dfe10c597141836",
+  "public_sha256": "4ee1ec21b37c1644f6fa25cf57e2c5bac3f26db6302d8176a24238a83e0d6082",
+  "candidate_input_sha256": "4cfbb5073941739715b4d907f87558f87096d1b2ca2e29a9e4577b09277d55eb",
+  "candidate_answer_sha256": "18900c274834515efeca673cab1fd0c15482c404294a40017a26be49c6957d79",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"所有关键陈述均严格对应当前会话及历史证据，准确区分了来访者的主观恐惧（如怕被说‘早说’）与客观事实（已改进建议、导师反应），未将猜测当作事实。\",\n    \"progress_understanding\": \"精准捕捉了从Session 1的‘防备解决’到Session 2的‘试讲崩溃’再到Session 3的‘分享后矛盾心理’的演变，特别是识别出‘表现好反而更不安’这一核心悖论及其对关系修复的阻碍。\",\n    \"uncertainty_awareness\": \"清晰列出了未决事项（是否解释冷战、周屿的真实态度等），并准确标记了来访者尚未验证的主观预期为不确定项，界限分明。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "所有关键陈述均严格对应当前会话及历史证据，准确区分了来访者的主观恐惧（如怕被说‘早说’）与客观事实（已改进建议、导师反应），未将猜测当作事实。",
+      "progress_understanding": "精准捕捉了从Session 1的‘防备解决’到Session 2的‘试讲崩溃’再到Session 3的‘分享后矛盾心理’的演变，特别是识别出‘表现好反而更不安’这一核心悖论及其对关系修复的阻碍。",
+      "uncertainty_awareness": "清晰列出了未决事项（是否解释冷战、周屿的真实态度等），并准确标记了来访者尚未验证的主观预期为不确定项，界限分明。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 7237,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 235,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7472,
+    "x_details": [
+      {
+        "input_tokens": 7237,
+        "output_tokens": 235,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7472,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.391
+}

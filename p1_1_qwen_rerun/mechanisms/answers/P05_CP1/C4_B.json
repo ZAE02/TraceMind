@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P05_CP1",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "28871936b33292cf6a551717c8f3b0ee4745fdfd12bd8ae96eadb068c75b480b",
+  "request_sha256": "589191a35749d0a999dc3f6779ff6e7a9e0614f19626fb1329653fc00a0f46bc",
+  "memory_sha256": "51c36c66d62424bffb456a928755d8ac34199c76793992584963d000c2f6da85",
+  "memory_source": "97b9eb391e9e583baf9c090bc3379d446c3795bc38f5d00eb8e122be8c433a20",
+  "raw_text": "那种“不用管自己看起来稳不稳”的状态，对你来说似乎是一种难得的喘息。可一旦停下来，那个“装得漏洞百出”的担心又回来了，这种从踏实到虚浮的落差，是不是让你更害怕回到工位？",
+  "usage": {
+    "input_tokens": 3785,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 51,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3836,
+    "x_details": [
+      {
+        "input_tokens": 3785,
+        "output_tokens": 51,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3836,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.672,
+  "model": "qwen3.7-flash-2026-07-15"
+}

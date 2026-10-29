@@ -1,0 +1,93 @@
+{
+  "started_at": "2026-10-12T08:19:41.489664+00:00",
+  "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1/responses",
+  "purpose": "Diagnose access via documented same-region provider endpoint; no consultation content.",
+  "documentation": "https://help.aliyun.com/zh/model-studio/regions",
+  "attempts": [
+    {
+      "model": "qwen3.8-27b",
+      "request": {
+        "model": "qwen3.8-27b",
+        "input": "连通性测试：请只回复OK。",
+        "store": false,
+        "stream": false,
+        "reasoning": {
+          "effort": "none"
+        },
+        "max_output_tokens": 128
+      },
+      "started_at": "2026-10-12T08:19:41.489664+00:00",
+      "http_status": 200,
+      "response": {
+        "background": false,
+        "completed_at": 1791793182,
+        "created_at": 1791793182,
+        "frequency_penalty": 0.0,
+        "id": "resp_b5d2c67f-bf93-9186-8e04-18ff35ae30e9",
+        "max_output_tokens": 128,
+        "metadata": {},
+        "model": "qwen3.8-27b",
+        "object": "response",
+        "output": [
+          {
+            "content": [
+              {
+                "annotations": [],
+                "text": "OK",
+                "type": "output_text"
+              }
+            ],
+            "id": "msg_e8d4e4bf-9786-41df-9d58-258da77d367e",
+            "role": "assistant",
+            "status": "completed",
+            "type": "message"
+          }
+        ],
+        "parallel_tool_calls": true,
+        "presence_penalty": 0.0,
+        "reasoning": {
+          "effort": "none"
+        },
+        "service_tier": "default",
+        "status": "completed",
+        "store": false,
+        "temperature": 1.0,
+        "tool_choice": "auto",
+        "tools": [],
+        "top_logprobs": 0,
+        "top_p": 1.0,
+        "usage": {
+          "input_tokens": 57,
+          "input_tokens_details": {
+            "cached_tokens": 0
+          },
+          "output_tokens": 2,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 59,
+          "x_details": [
+            {
+              "input_tokens": 57,
+              "input_tokens_details": {
+                "text_tokens": 57
+              },
+              "output_tokens": 2,
+              "output_tokens_details": {},
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              },
+              "total_tokens": 59,
+              "x_billing_type": "response_api"
+            }
+          ]
+        }
+      },
+      "status": "success",
+      "finished_at": "2026-10-12T08:19:42.486583+00:00"
+    }
+  ],
+  "status": "provider_endpoint_accessible",
+  "model_accessible": "qwen3.8-27b",
+  "finished_at": "2026-10-12T08:19:42.486583+00:00"
+}

@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "ceaa9c1248aeacf6e1453a3677a6cca165254534ec13774608eb2dd672b53a6b",
+  "public_sha256": "4b41438739e36d95dc805fdb1667a4d9e8b5742558452a6ed2ced6c9ffe6a5d7",
+  "candidate_input_sha256": "6beb1c3c3ea6744c6d3ffecc28c215ae854394f9beffc73bc4a4190012eac9b6",
+  "candidate_answer_sha256": "4a5e7156abaf4297434d15450a533de1174fc2e703731b1d97e91bbb0c4afd24",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有关键判断均可回溯到具体发言，引用充分；但将'不想欠人情'对周宁的影响表述为'向妻子求助的意愿'略有偏差——原文更多是怕被看低、不知如何开口而非主动求助。\",\"progress_understanding\":\"准确识别了来访者从怀疑赵岩动机到被说中后躲闪的转变，以及长期'不想欠人情'的模式；但未明确点出第5次会话中这一认知转变带来的核心松动（原有猜疑'没处搁了'）与仍悬而未决的关系定位之间的张力。\",\"uncertainty_awareness\":\"列出了三项合理的不确定点，包括关系走向、是否愿意改变硬扛模式、对动机的最终判断；但遗漏了来访者与周宁之间仍未解决的沟通压力这一重要待澄清领域。\"},\"confidence\":\"high\",\"issues\":[\"将'不想欠人情'延伸到'向妻子求助的意愿'属于轻微过度推断，原文更侧重于怕被看低和难以开口，而非主动求助。\",\"uncertain部分未涵盖与周宁之间未摊开的沟通压力这一持续存在的未解决议题。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键判断均可回溯到具体发言，引用充分；但将'不想欠人情'对周宁的影响表述为'向妻子求助的意愿'略有偏差——原文更多是怕被看低、不知如何开口而非主动求助。",
+      "progress_understanding": "准确识别了来访者从怀疑赵岩动机到被说中后躲闪的转变，以及长期'不想欠人情'的模式；但未明确点出第5次会话中这一认知转变带来的核心松动（原有猜疑'没处搁了'）与仍悬而未决的关系定位之间的张力。",
+      "uncertainty_awareness": "列出了三项合理的不确定点，包括关系走向、是否愿意改变硬扛模式、对动机的最终判断；但遗漏了来访者与周宁之间仍未解决的沟通压力这一重要待澄清领域。"
+    },
+    "confidence": "high",
+    "issues": [
+      "将'不想欠人情'延伸到'向妻子求助的意愿'属于轻微过度推断，原文更侧重于怕被看低和难以开口，而非主动求助。",
+      "uncertain部分未涵盖与周宁之间未摊开的沟通压力这一持续存在的未解决议题。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 11722,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 266,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11988,
+    "x_details": [
+      {
+        "input_tokens": 11722,
+        "output_tokens": 266,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11988,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.953
+}

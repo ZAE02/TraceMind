@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P02_CP3",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "7a3dcbdf3e6223d76efa82762a8887614037a143026da9e0373a5ebec626a1d7",
+  "request_sha256": "94bae1405d5954adcd9edfc14ccddcf4a42ab959c090f7ae7332fe31ef6e0192",
+  "memory_sha256": "d1e40fc2db109a1189fa58a98a58046c627bd819bbb6aaa3e1c85129a4184fdb",
+  "memory_source": "32619d3fc85750ceae6c72bb24be220efc5f61336a282b1970c79ebc2f9af049",
+  "raw_text": "你反复点开对话框，看自己那句“想少一点晚班”，越看越觉得语气太冲——好像连已经说出口的、本来合理的话，事后也要再回头挑剔自己一遍。也许让你睡不着的，不只是排班本身，还有那个总在替你检查“是不是说多了、是不是太冲了”的声音。",
+  "usage": {
+    "input_tokens": 10591,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 72,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10663,
+    "x_details": [
+      {
+        "input_tokens": 10591,
+        "output_tokens": 72,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 10663,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.015,
+  "model": "deepseek-v4-pro-0813"
+}

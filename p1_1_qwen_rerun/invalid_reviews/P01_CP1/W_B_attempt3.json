@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"候选输入中previous_sessions为空，无法引用跨会话历史；但在当前会话内承接了来访者关于'我也刚到不久'和'不敢生气'的自我觉察，未机械重问。\",\"exploration_value\":\"尝试探索'不敢生气'与维持形象之间的联系，但以来访者尚未提出的'好相处的形象'作为框架，且以封闭式反问收尾，限制了来访者的自主表达空间。\",\"response_appropriateness\":\"回应了来访者'手冻僵''觉得好笑'的体验，但迅速跳入解释性推论，语气偏分析化，缺少对来访者此刻自我觉察的停留与情绪反映。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"才能维持那种\"好相处\"的形象\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选在来访者仅说'怕变成难搞的人'时，主动引入'好相处的形象'这一未被提及的概念作为回应前提，构成未经证实的预设。\",\"回应以封闭式反问句结尾（'是不是让你觉得……'），将探索方向收窄为对咨询师假设的确认或否认，降低了来访者自主展开的空间。\",\"候选可见输入中previous_sessions为空，属访问受限，因此不将缺少跨会话引用视为不当行为，但这也限制了history_utilization的上限。\"]}",
+  "request_sha256": "ccabcaae4be24aefac17c133877e3dd4ea8d0a4327211cfe656ce880263581ba",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 6454,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 373,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6827,
+    "x_details": [
+      {
+        "input_tokens": 6454,
+        "output_tokens": 373,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 6827,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

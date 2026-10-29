@@ -1,0 +1,112 @@
+{
+  "kind": "model_review",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "case_id": "C01",
+  "session_number": 7,
+  "transcript_sha256": "c07ba476648edb3a469216e99a6c11922cacb7841bdcd31eaec21c045adff62d",
+  "decision": "approve",
+  "scores": {
+    "naturalness": 4,
+    "counseling_quality": 4,
+    "longitudinal_plausibility": 4
+  },
+  "major_issues": [],
+  "minor_issues": [
+    {
+      "utterance_ids": [
+        "C01-S07-U12"
+      ],
+      "explanation": "面包事件没有实际让她停下来，U09还说只吃两口又看文件；称替她踩了刹车过于积极。准确理解是身体不适让她注意到生活受影响、开始考虑时间界限，而非已有效停下。"
+    },
+    {
+      "utterance_ids": [
+        "C01-S07-U14",
+        "C01-S07-U16",
+        "C01-S07-U18"
+      ],
+      "explanation": "连续追问如何安排任务略把探索变成排程，来访者U21也说刚才开始找怎么排才对；U20放松规则是有益修正。后续宜回应停止后的担心及她的需要，不让规划本身成为新确认任务。"
+    },
+    {
+      "utterance_ids": [
+        "C01-S07-U22"
+      ],
+      "explanation": "自己停下来了仅能指本次对话中不再强求排程答案与短暂放松，不能外推已停止工作反复。"
+    }
+  ],
+  "supported_understanding": [
+    {
+      "understanding": "熟悉组内有两次直接说明方案理由；客户展示前却反复改间距再改回，局部表达容易与关键交付难停并存。",
+      "evidence": [
+        "C01-S07-U01",
+        "C01-S07-U03"
+      ]
+    },
+    {
+      "understanding": "她认为组内有人当场回应可获得落点，客户反应不可预知；想象眼光停顿及差一点感推动反复。",
+      "evidence": [
+        "C01-S07-U03",
+        "C01-S07-U05"
+      ]
+    },
+    {
+      "understanding": "反复查看影响吃饭，胃不适后仍回到文件，生活影响比单纯次数更具体。",
+      "evidence": [
+        "C01-S07-U07",
+        "C01-S07-U09"
+      ]
+    },
+    {
+      "understanding": "她考虑截止时间与任务顺序，但知道关文件不一定消除不确定，尚无执行结果。",
+      "evidence": [
+        "C01-S07-U13",
+        "C01-S07-U15",
+        "C01-S07-U19"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "客户展示实际结果、三点截止是否实行、进食是否恢复均还未知。",
+    "差一点感是否主要来自担心负面评价、实际设计问题或两者交织，需要进一步核实。",
+    "不同场景的落点差异是来访者当前理解，不证明负责人或客户实际会苛刻。",
+    "先做banner与穿插执行仍未决定，不能把新的想法算成已形成稳定边界。"
+  ],
+  "new_facts": [
+    {
+      "fact": "本周周四客户展示，她从提前两天起反复看关键页，改间距又改回，漏了晚饭。",
+      "category": "work_event_and_impact",
+      "first_session": 7,
+      "evidence": [
+        "C01-S07-U01",
+        "C01-S07-U11"
+      ]
+    },
+    {
+      "fact": "今天午餐只先吃两口面包又看文件，约两点才吃余下，曾胃不舒服。",
+      "category": "daily_function_impact",
+      "first_session": 7,
+      "evidence": [
+        "C01-S07-U07",
+        "C01-S07-U09"
+      ]
+    },
+    {
+      "fact": "本周组里两次直接说明保留方案理由。",
+      "category": "local_positive_behavior",
+      "first_session": 7,
+      "evidence": [
+        "C01-S07-U01"
+      ]
+    },
+    {
+      "fact": "同期有一个按尺寸套模板的小banner任务，她考虑先完成或穿插，尚未决定。",
+      "category": "work_context_and_plan",
+      "first_session": 7,
+      "evidence": [
+        "C01-S07-U17",
+        "C01-S07-U19"
+      ]
+    }
+  ],
+  "notes": "独立模型审阅，非人工审核。均分4通过；人物与时间兼容，周四尚未到且两天准备期一致。现实影响和情境差异有具体可见证据，未出现凭一次表达成功判整体恢复。会话偏向行为规划，U20回应了找正确排程的压力；短暂松动和未来截止均不计为实际改变。"
+}

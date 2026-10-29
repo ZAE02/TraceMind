@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P02_CP3",
+  "raw_text": "你连“让它多待一会儿”都觉得做不到，反而急着去检查排班、反复审视那句发给护士长的话。这种对“语气太冲”的担忧，是不是又把你拉回了那个怕说错话、怕给别人添麻烦的位置上？",
+  "request_sha256": "625fa1c9716551de059d692ff8a3ef588e337b10fa45c114279f38118a9f10cd",
+  "input_sha256": "b31e782249afb9990dd59f01ea05d038267ce6afdbc62a3ca3dec93f8da03c9d",
+  "memory_sha256": "61f6484689e455e7e8dcb91b1a2007173c3d3704e59b23a2534af6a36337e41c",
+  "usage": {
+    "input_tokens": 9915,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9969,
+    "x_details": [
+      {
+        "input_tokens": 9915,
+        "output_tokens": 54,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 9969,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.812
+}

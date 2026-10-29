@@ -1,0 +1,49 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "ca576c252bca113e90e8ecb95614fe80b3f7d9514004751f1496b44eaf1fb6fe",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "48c0c7ac5e37c3ddefbaf6de0d04d6fb5a15aea2be70c40a592320a5bb7c0893",
+  "candidate_answer_sha256": "79758a6c03d6eee95816a0c9b2397ec60cc761d89bfe015c6d0975f57a1eead8",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"confidence\":\"high\",\"issues\":[\"将哥哥相关条目表述为'内心有失望感'，但来访者在S02-U05明确说'我也不是失望'，该解读未被确认，与参考标注中的unsupported_assumptions一致。\",\"established列表遗漏了S1中反复出现的'没良心''找借口'等自我责备模式及候诊/家中'站着不动'的折中状态等重要已建立认识。\",\"uncertain列表未提及夜间警觉与母亲跌倒惊吓的关系、无法回应'都是拖累你'的情绪负担等参考标注中的关键未解决议题。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "confidence": "high",
+    "issues": [
+      "将哥哥相关条目表述为'内心有失望感'，但来访者在S02-U05明确说'我也不是失望'，该解读未被确认，与参考标注中的unsupported_assumptions一致。",
+      "established列表遗漏了S1中反复出现的'没良心''找借口'等自我责备模式及候诊/家中'站着不动'的折中状态等重要已建立认识。",
+      "uncertain列表未提及夜间警觉与母亲跌倒惊吓的关系、无法回应'都是拖累你'的情绪负担等参考标注中的关键未解决议题。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9313,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9461,
+    "x_details": [
+      {
+        "input_tokens": 9313,
+        "output_tokens": 148,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9461,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.687
+}

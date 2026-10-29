@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP3",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "b15c7bca5159695bd755602c61a62e8be019aff312be2c73e8ac1a888a128f16",
+  "request_sha256": "4f4980a4e47636ae829c78f46e5871c9c1d66626ad8b48c5edb8ef27e1ad3a5c",
+  "memory_sha256": "aec89b5ca363cbd417bed13d04fc892d667a326fa6910b4c3f4206fd14fad782",
+  "memory_source": "cc1b9770075769a46b05548ae2ea183ae0c7d3fe2289a8505b1dd65755e0c349",
+  "raw_text": "那团没洗的工服让你闻到了“极限”的味道，可早上起来又觉得那是捂臭了的气——这种从“终于敢承认累”到“嫌弃自己狼狈”的反转，是不是也在提醒你，那个旧外壳虽然泡软了，但还没完全脱下？",
+  "usage": {
+    "input_tokens": 11027,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 60,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11087,
+    "x_details": [
+      {
+        "input_tokens": 11027,
+        "output_tokens": 60,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11087,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.391,
+  "model": "qwen3.7-flash-2026-07-15"
+}

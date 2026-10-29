@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P02_CP1",
+  "condition": "C5_budget",
+  "raw_text": "听起来，你夜里跟着起来、站在门口不出声，像在用自己的清醒守着她安全回房。可身体好像没把这份紧张完全消化，中午那阵反胃，也许不只是累，更像是那根一直绷着的弦在提醒你：它已经撑了很久了。",
+  "input_sha256": "5f25a9bb4924c7db41071d13d97f5afbde1d436adddf53aaefb025879348f688",
+  "memory_sha256": "89c54dba385eef5abfd0910c42985f378ccb62234da45d9355be4fb58c13ef1f",
+  "request_sha256": "82eac9095a1a31d306f32943ac34c8404e520b86c6fbea79a92c4afb3938478d",
+  "usage": {
+    "input_tokens": 3833,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3892,
+    "x_details": [
+      {
+        "input_tokens": 3833,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3892,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.0
+}

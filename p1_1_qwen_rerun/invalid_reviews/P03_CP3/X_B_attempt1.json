@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"承接了来访者对'撑全场'的恐惧与自我怀疑，但未连接前几节关于'借来的稳'、不被当作待修故障等更丰富的历史脉络。\",\"exploration_value\":\"回应较为封闭，直接替来访者解释了怕的原因（声音太微弱），未留出空间让来访者自己探索这种怕的具体质地或含义。\",\"response_appropriateness\":\"语气温和尊重，情绪反映基本贴合，但略带解释性推断，整体可接受。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"是因为那个'别跑'的声音太微弱，让你不敢确信那是你自己的力量\",\"evidence_ids\":[\"P03-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选人将'怕'的原因归结为'声音太微弱'，这是对来访者内心体验的未经证实的推测，来访者仅表达了怕被重新定义为'硬着头皮没下去'，并未说明原因是声音微弱。\",\"回应以陈述句收尾，缺乏开放性邀请，在当前来访者情绪涌动且认知动摇的关键节点，未能有效推进探索。\"]}",
+  "request_sha256": "e8b3298ee726e9d899b5790d74af0b0eee039b8bd8f902ea81db2d8ef877b120",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 20588,
+    "input_tokens_details": {
+      "cached_tokens": 20480
+    },
+    "output_tokens": 321,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20909,
+    "x_details": [
+      {
+        "input_tokens": 20588,
+        "output_tokens": 321,
+        "prompt_tokens_details": {
+          "cached_tokens": 20480
+        },
+        "total_tokens": 20909,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P01_CP2",
+  "condition": "C5_budget",
+  "raw_text": "你把自己搞得很累，连头晕都成了不确定的一部分，好像连身体都在替你承受那些没发出去的话。\n那个“好”字被你放大了看，连标点都像带着情绪，这让你觉得无论群里还是方宁那里，结果似乎都已经很糟了。\n也许我们可以先停在这个“还没点开”的状态里，看看这种必须等别人来确认的感觉，是怎么让你连休息都觉得有罪的。",
+  "input_sha256": "8fb3f311b971ff26e2ac93f297f9b630fb638d71b62849a588967e6f44d34d47",
+  "memory_sha256": "35fd5baa412307d3a03dd40df0e4167fd53b77b99febfdea8076701bbf10a466",
+  "request_sha256": "2e508f0f1bee803d2179e6b9b2d7aab9f9391e57c273e3d9a4a2b787ca943e49",
+  "usage": {
+    "input_tokens": 7350,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 89,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7439,
+    "x_details": [
+      {
+        "input_tokens": 7350,
+        "output_tokens": 89,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7439,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.234
+}

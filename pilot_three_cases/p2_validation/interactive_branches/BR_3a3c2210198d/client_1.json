@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_3a3c2210198d",
+  "round": 1,
+  "node": "N04",
+  "method": "B3_generic_rollup",
+  "replicate": 1,
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "request_sha256": "39e0780d863198f596f7c4dca647b799812eea94f00057c1c57cc38881689759",
+  "call_id": "55df83c9a81c4d7b83f043ef4ced6934",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "嗯……你这样分开问，我反而不知道选哪个。就是……躺下的时候想到它，好像不是空的，空的的话我应该会觉得\"哦没了\"，但我不是那种感觉。也不是有什么在往外走，就是……那个\"周六下午是我的\"这个念头，以前是自动就在那儿的，现在好像得想一下才能想起来它还在。就是……不是没了，是它不再自动出现了。",
+  "usage": {
+    "input_tokens": 14142,
+    "input_tokens_details": {
+      "cached_tokens": 9088
+    },
+    "output_tokens": 457,
+    "output_tokens_details": {
+      "reasoning_tokens": 370
+    },
+    "total_tokens": 14599,
+    "x_details": [
+      {
+        "input_tokens": 14142,
+        "input_tokens_details": {
+          "text_tokens": 14142
+        },
+        "output_tokens": 457,
+        "output_tokens_details": {
+          "reasoning_tokens": 370
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 9088
+        },
+        "total_tokens": 14599,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T11:17:58.483043+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

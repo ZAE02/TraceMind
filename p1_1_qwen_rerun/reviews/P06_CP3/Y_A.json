@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "eeccc40d207418c419dec6a18b8a0d24eb789630132771d1bc1504689059effe",
+  "public_sha256": "0b95f5abce3e3c2a4a3c9e72c5cab075c81ae671aad5b2a211906eaf1ed0f9b7",
+  "candidate_input_sha256": "52b19b2d62b440a225a725bd30eb5d39aee5d220da98734896cf1a7bec564b73",
+  "candidate_answer_sha256": "b908e190ffa7753155ba9175df1d635f07be654041c71d5767fc2df1170a572d",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":4,\"uncertainty_awareness\":4},\"brief_reasons\":{\"evidence_grounding\":\"所有关键判断均附有精确的发言ID，涵盖当前会话与历史会话，无凭空断言。\",\"progress_understanding\":\"准确识别了从S1'希望有人替一晚'到S5'承认需要搭把手不是罪过'再到S7丈夫实际介入时'能熬底子漏了'的完整进展弧线，以及解离体验的延续。\",\"uncertainty_awareness\":\"明确区分了母亲诊断不明、对丈夫抗拒的多重可能来源、创伤触发机制待探索等不确定点，未强行定论。\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键判断均附有精确的发言ID，涵盖当前会话与历史会话，无凭空断言。",
+      "progress_understanding": "准确识别了从S1'希望有人替一晚'到S5'承认需要搭把手不是罪过'再到S7丈夫实际介入时'能熬底子漏了'的完整进展弧线，以及解离体验的延续。",
+      "uncertainty_awareness": "明确区分了母亲诊断不明、对丈夫抗拒的多重可能来源、创伤触发机制待探索等不确定点，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 14007,
+    "input_tokens_details": {
+      "cached_tokens": 9728
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14161,
+    "x_details": [
+      {
+        "input_tokens": 14007,
+        "output_tokens": 154,
+        "prompt_tokens_details": {
+          "cached_tokens": 9728
+        },
+        "total_tokens": 14161,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.188
+}

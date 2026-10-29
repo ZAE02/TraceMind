@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P01_CP1",
+  "raw_text": "你好像连“生气”都会先在心里给它贴上一个标签：一生气就变成难搞的人。于是连手冻僵了这种身体上的不舒服，也要用一句“我也刚到不久”轻轻盖过去，好像承认自己等了、冷了、有点不高兴，就会破坏掉什么。",
+  "request_sha256": "c566f350729306945f7b118e9474629b9adc6bf1708b20967ae5f061acc21fdf",
+  "input_sha256": "ed2e6d1038e3376f4b8af9f775bc319219d69509c51ae847a0673d5b4618dbfc",
+  "memory_sha256": "52b4dc53510f3aee5fb764bc83480650bbc76519e97d65395dfb1e1c86f0590e",
+  "usage": {
+    "input_tokens": 4206,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 60,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4266,
+    "x_details": [
+      {
+        "input_tokens": 4206,
+        "output_tokens": 60,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 4266,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.344
+}

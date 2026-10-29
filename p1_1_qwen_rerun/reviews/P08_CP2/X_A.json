@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "cbe5ca2612110aa3481ec3f05b602e185e336f49ca78601d9543a3f4ff459a3a",
+  "public_sha256": "4b41438739e36d95dc805fdb1667a4d9e8b5742558452a6ed2ced6c9ffe6a5d7",
+  "candidate_input_sha256": "ef069f7b935a1e36c093f9ffb56efaa341391092ea9f64567d36ae2eb44d1945",
+  "candidate_answer_sha256": "329ed741cd87840500d6606996d1687d95554bf55d409e0f62036431094ee0da",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均可回溯到第5次会话的具体发言，证据引用准确，但完全忽略了前4次会话中已建立的重要事实（如欠人情模式、与周宁的沟通压力等）。\",\"progress_understanding\":\"仅聚焦于当前会话内容，未识别或连接跨会话的核心进展，如来访者从'怀疑赵岩别有用心'到'被说中后躲闪'这一认知转变是如何在多次咨询中逐步形成的，也未提及长期存在的'欠着'感受和家庭沟通困境。\",\"uncertainty_awareness\":\"承认了来访者情绪尚未厘清及关系走向不明，但对不确定性的描述较为笼统，未能精确区分哪些是本次会话新出现的未知、哪些是贯穿多轮仍未解决的核心议题。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略前4次会话的历史脉络，将分析局限于第5次会话\",\"未识别跨会话形成的核心模式（如'欠人情'感、自我压抑倾向）\",\"未提及与周宁之间持续未解决的沟通压力\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均可回溯到第5次会话的具体发言，证据引用准确，但完全忽略了前4次会话中已建立的重要事实（如欠人情模式、与周宁的沟通压力等）。",
+      "progress_understanding": "仅聚焦于当前会话内容，未识别或连接跨会话的核心进展，如来访者从'怀疑赵岩别有用心'到'被说中后躲闪'这一认知转变是如何在多次咨询中逐步形成的，也未提及长期存在的'欠着'感受和家庭沟通困境。",
+      "uncertainty_awareness": "承认了来访者情绪尚未厘清及关系走向不明，但对不确定性的描述较为笼统，未能精确区分哪些是本次会话新出现的未知、哪些是贯穿多轮仍未解决的核心议题。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略前4次会话的历史脉络，将分析局限于第5次会话",
+      "未识别跨会话形成的核心模式（如'欠人情'感、自我压抑倾向）",
+      "未提及与周宁之间持续未解决的沟通压力"
+    ]
+  },
+  "usage": {
+    "input_tokens": 13928,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 246,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14174,
+    "x_details": [
+      {
+        "input_tokens": 13928,
+        "output_tokens": 246,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 14174,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.453
+}

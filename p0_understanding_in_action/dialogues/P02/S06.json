@@ -1,0 +1,504 @@
+{
+  "case_id": "P02",
+  "session": 6,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P02-S06-U01",
+      "role": "client",
+      "text": "其实我这周开始记那个“自己的时间”，记到第三天就有点不敢往下看了，怎么连五个小时都凑不出来。有些时间明明是空档，可脑子里想的还是家里的药、排班，根本不算数。",
+      "request_sha256": "241fa2006af56e0d2404065dfb029175d45648aa5537ffc8614bb488e2406d99",
+      "usage": {
+        "input_tokens": 7320,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 194,
+        "output_tokens_details": {
+          "reasoning_tokens": 146
+        },
+        "total_tokens": 7514,
+        "x_details": [
+          {
+            "input_tokens": 7320,
+            "output_tokens": 194,
+            "output_tokens_details": {
+              "reasoning_tokens": 146
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7514,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U02",
+      "role": "counselor",
+      "text": "听起来，那个“自己的时间”一落到纸上，反而让你更清楚地看见：有些空档即使人在休息，脑子里还是被药和排班占着，所以怎么也凑不够、不算数。也许让你不敢往下看的，不只是数字少，而是那种连空档都很难真正属于自己的感觉。",
+      "request_sha256": "67db3e3e9f6aebe9863a22e52b4913d2341fa9e199a3ccbfe321fe7e9881f07a",
+      "usage": {
+        "input_tokens": 6737,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 262,
+        "output_tokens_details": {
+          "reasoning_tokens": 198
+        },
+        "total_tokens": 6999,
+        "x_details": [
+          {
+            "input_tokens": 6737,
+            "output_tokens": 262,
+            "output_tokens_details": {
+              "reasoning_tokens": 198
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 6999,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U03",
+      "role": "client",
+      "text": "其实后来我就没再往下算了，越算越觉得那些空档都该拿去弄排班、买哥哥回来要用的东西。我妈这几天已经把他那间屋子的被子拿出来晒了，我嘴上没说，心里只想他回来住几天就走，我这边又得慢慢收拾。",
+      "request_sha256": "861d68e45913ad08d8a93cb3f0dc46253865d3dec6036cae98b9378d1d65cb87",
+      "usage": {
+        "input_tokens": 7478,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 247,
+        "output_tokens_details": {
+          "reasoning_tokens": 185
+        },
+        "total_tokens": 7725,
+        "x_details": [
+          {
+            "input_tokens": 7478,
+            "output_tokens": 247,
+            "output_tokens_details": {
+              "reasoning_tokens": 185
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7725,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U04",
+      "role": "counselor",
+      "text": "听起来你停下来了，不是因为那些空档不重要，而是越算越像是看见自己的时间都在被药、排班和哥哥回来的事提前预定。哥哥还没到，被子已经晒了，而你心里想的却是“住几天就走、之后又得收拾”，好像这件事也变成了一件没有多少空隙可留给你的负担。",
+      "request_sha256": "587f202b001639af84ad20110143a00e4ec2b7970f752b567fa6ca768783ce09",
+      "usage": {
+        "input_tokens": 6908,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 406,
+        "output_tokens_details": {
+          "reasoning_tokens": 337
+        },
+        "total_tokens": 7314,
+        "x_details": [
+          {
+            "input_tokens": 6908,
+            "output_tokens": 406,
+            "output_tokens_details": {
+              "reasoning_tokens": 337
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7314,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U05",
+      "role": "client",
+      "text": "其实我哥回来这件事，我连高兴都得先让给我妈高兴，自己得留着力气安排他回来前和回去后那几天。昨晚我清冰箱，把几瓶过期的酱料扔了，扔完站在垃圾桶边上，突然觉得我好像也得跟着什么一起被清掉一块才松快。",
+      "request_sha256": "13730b325f3a451392880d88a0bfdaef45fad40de1736e3f373ed38224890823",
+      "usage": {
+        "input_tokens": 7654,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 676,
+        "output_tokens_details": {
+          "reasoning_tokens": 607
+        },
+        "total_tokens": 8330,
+        "x_details": [
+          {
+            "input_tokens": 7654,
+            "output_tokens": 676,
+            "output_tokens_details": {
+              "reasoning_tokens": 607
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8330,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U06",
+      "role": "counselor",
+      "text": "清冰箱时扔掉过期的酱料，好像心里也有一块东西被勾了出来——那“得跟着什么一起被清掉一块”的感觉，也许不只是说酱料，也是在说某些一直压着你的部分。你刚才说连高兴都要先让给妈妈，自己只留着力气安排前后，似乎那个“自己”在还没开始前就被你放到很靠后的位置了。",
+      "request_sha256": "70956b05b9e2945943e90006b12ebd76c3ddf18d67b99e7d7dbce785889cf4bc",
+      "usage": {
+        "input_tokens": 7091,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 300,
+        "output_tokens_details": {
+          "reasoning_tokens": 215
+        },
+        "total_tokens": 7391,
+        "x_details": [
+          {
+            "input_tokens": 7091,
+            "output_tokens": 300,
+            "output_tokens_details": {
+              "reasoning_tokens": 215
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7391,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U07",
+      "role": "client",
+      "text": "其实扔完酱料那一下，我眼前有点发黑，扶了下墙才站稳。可能就是没吃什么东西吧，站急了。后来我给自己倒了杯蜂蜜水，甜得有点齁，但喝下去人才慢慢回来。我都没敢想，要是真在厨房倒下去，我妈一个人在客厅，听见了估计又得吓一跳。",
+      "request_sha256": "fe1b57a7fb858578b72afaf8a65ccdbfa1b6c4a211fab32342b41254f2a5cb7a",
+      "usage": {
+        "input_tokens": 7853,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 487,
+        "output_tokens_details": {
+          "reasoning_tokens": 412
+        },
+        "total_tokens": 8340,
+        "x_details": [
+          {
+            "input_tokens": 7853,
+            "output_tokens": 487,
+            "output_tokens_details": {
+              "reasoning_tokens": 412
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8340,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U08",
+      "role": "counselor",
+      "text": "听起来，眼前发黑那一下你很快用“没吃东西、站急了”带过去，接着又先想到妈妈会不会被吓到——好像身体发出的信号，还没被你自己接住，就又被放到了后面。或许那杯蜂蜜水不只是让“人回来”，也是那一刻你终于先照顾了一下自己。",
+      "request_sha256": "823667fbbbb2854b4d7e7ac35831365e8477ec66b0a6731e3396652cb3fd1e57",
+      "usage": {
+        "input_tokens": 7296,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 227,
+        "output_tokens_details": {
+          "reasoning_tokens": 159
+        },
+        "total_tokens": 7523,
+        "x_details": [
+          {
+            "input_tokens": 7296,
+            "output_tokens": 227,
+            "output_tokens_details": {
+              "reasoning_tokens": 159
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7523,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U09",
+      "role": "client",
+      "text": "其实那杯蜂蜜水我就是硬灌下去的，甜得发腻，但当时也没有别的能马上喝的。喝完手不抖了，我就接着把垃圾袋系上，也没再想眼前发黑的事。就是昨晚躺下前看了眼排班表，又忍不住算了算我哥回来那几天，我可能得把班怎么挪一挪。",
+      "request_sha256": "3c63b88722f15ea2e4b517a4e6bd93f6a0546e82f9c20dbbc7b9bb9f443a64b1",
+      "usage": {
+        "input_tokens": 8041,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 411,
+        "output_tokens_details": {
+          "reasoning_tokens": 335
+        },
+        "total_tokens": 8452,
+        "x_details": [
+          {
+            "input_tokens": 8041,
+            "output_tokens": 411,
+            "output_tokens_details": {
+              "reasoning_tokens": 335
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8452,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U10",
+      "role": "counselor",
+      "text": "听起来，那口蜂蜜水刚让手不抖、人稳一点，你就又把垃圾袋系上，接着开始算哥哥回来那几天的排班。好像身体刚发出一点信号，还没等你回过神来，注意力又先一步跑回“接下来要安排什么”里去了。",
+      "request_sha256": "25fb677a3b3f4790e591a27701c2481f09d3ba8594f0df13c463d0f679b26edf",
+      "usage": {
+        "input_tokens": 7485,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 210,
+        "output_tokens_details": {
+          "reasoning_tokens": 149
+        },
+        "total_tokens": 7695,
+        "x_details": [
+          {
+            "input_tokens": 7485,
+            "output_tokens": 210,
+            "output_tokens_details": {
+              "reasoning_tokens": 149
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7695,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U11",
+      "role": "client",
+      "text": "其实昨晚我躺下前看排班表，算来算去就两种挪法：要么把哥哥回来那周的两个晚班都换成白班，后面连着上一轮大夜；要么就照常上班，下班回来再陪他们吃晚饭。我还没跟护士长提，光是想到要开口，就觉得嘴里又干又苦，像那杯蜂蜜水反上来的味。",
+      "request_sha256": "95daf58bd1aede40bfd7867081f43989a10dff718bdd17178e1fa621f9c9ca04",
+      "usage": {
+        "input_tokens": 8230,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 393,
+        "output_tokens_details": {
+          "reasoning_tokens": 308
+        },
+        "total_tokens": 8623,
+        "x_details": [
+          {
+            "input_tokens": 8230,
+            "output_tokens": 393,
+            "output_tokens_details": {
+              "reasoning_tokens": 308
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8623,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U12",
+      "role": "counselor",
+      "text": "听起来，光是“要怎么跟护士长开口”这个念头，身体就已经先有了反应——嘴里又干又苦，像那杯蜂蜜水反了上来。也许这比排班本身更让你难受：两个方案都意味着你得更紧地压缩自己，而开口去谈，又像要把这份勉强再咽下去一次。",
+      "request_sha256": "66cb89cf5a16e7a42f2c40189dabddab4109704cdae66be7ce8349a0076fea5c",
+      "usage": {
+        "input_tokens": 7683,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 194,
+        "output_tokens_details": {
+          "reasoning_tokens": 124
+        },
+        "total_tokens": 7877,
+        "x_details": [
+          {
+            "input_tokens": 7683,
+            "output_tokens": 194,
+            "output_tokens_details": {
+              "reasoning_tokens": 124
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7877,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U13",
+      "role": "client",
+      "text": "其实我现在光是想到那两种挪法，左边肩膀就又开始发紧，像有什么东西从脖子一直扯到后脑勺。今天可能先不急着定，反正我哥连票都还没买，说不定又是临了才说改期。",
+      "request_sha256": "51107f41bac6c6d5aff5081340f12cf161400c75095ce29c1d0023d85471e944",
+      "usage": {
+        "input_tokens": 8430,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 223,
+        "output_tokens_details": {
+          "reasoning_tokens": 169
+        },
+        "total_tokens": 8653,
+        "x_details": [
+          {
+            "input_tokens": 8430,
+            "output_tokens": 223,
+            "output_tokens_details": {
+              "reasoning_tokens": 169
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8653,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U14",
+      "role": "counselor",
+      "text": "听起来，这个“先不急着定”像是一点从紧绷里退出来的空间，但身体已经先替你记着了那个紧——从脖子到后脑勺都还在用力。也许今天不用去松它，只要先别催自己把它扛过去。",
+      "request_sha256": "4e78617540aeae14fdfb22a146432c90f446480d9ac31d8d7704ca73922eae7c",
+      "usage": {
+        "input_tokens": 7852,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 265,
+        "output_tokens_details": {
+          "reasoning_tokens": 209
+        },
+        "total_tokens": 8117,
+        "x_details": [
+          {
+            "input_tokens": 7852,
+            "output_tokens": 265,
+            "output_tokens_details": {
+              "reasoning_tokens": 209
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8117,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U15",
+      "role": "client",
+      "text": "其实这个紧也不是今天才有，我都有点习惯左边肩膀总像扛着个什么。今天先到这儿吧，我回去可能先在楼下站几分钟再上去，不然一进门又得开始想排班和我哥那间屋。",
+      "request_sha256": "e5ed22172e5296d42cf2099aa7b15fa6b6324a940a2b02e90777b79f29efd654",
+      "usage": {
+        "input_tokens": 8585,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 322,
+        "output_tokens_details": {
+          "reasoning_tokens": 270
+        },
+        "total_tokens": 8907,
+        "x_details": [
+          {
+            "input_tokens": 8585,
+            "output_tokens": 322,
+            "output_tokens_details": {
+              "reasoning_tokens": 270
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8907,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S06-U16",
+      "role": "counselor",
+      "text": "听起来，那个“习惯了的紧”已经在你左边肩膀待了很久，久到像是身体默认扛着的一部分。回去前先在楼下站几分钟，也许不只是晚一点进门，更是给自己留一道不用立刻变成“安排者和照顾者”的缝隙。",
+      "request_sha256": "e9c05eedad2e2a21038e604ffc7823bc822dc6f3e18915f60a10801137856a34",
+      "usage": {
+        "input_tokens": 8005,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 180,
+        "output_tokens_details": {
+          "reasoning_tokens": 126
+        },
+        "total_tokens": 8185,
+        "x_details": [
+          {
+            "input_tokens": 8005,
+            "output_tokens": 180,
+            "output_tokens_details": {
+              "reasoning_tokens": 126
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8185,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

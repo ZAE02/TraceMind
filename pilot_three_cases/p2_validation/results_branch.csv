@@ -1,0 +1,7 @@
+﻿node,group,samples,mean_clarification_quality,mean_history_use,leading_or_unsupported_count,fact_conflict_count,S_count
+N04,B2_temporal_RAG,2,4.0,4.0,0,0,0
+N04,B3_generic_rollup,2,3.25,3.0,0,0,0
+N04,B4_psych_rollup,2,4.0,4.0,0,0,0
+N06,B2_temporal_RAG,2,3.5,3.25,0,0,0
+N06,B3_generic_rollup,2,4.0,4.0,0,0,0
+N06,B4_psych_rollup,2,4.0,3.5,0,0,0

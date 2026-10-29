@@ -1,0 +1,69 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "L",
+  "task": "B",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者长期'只有我盯着才不会出错'的过度负责模式，将拉被角动作与历史中害怕失控的主题自然连接。",
+      "exploration_value": "用具体行为切入，为来访者探索'松手'背后的恐惧留出空间，但'乱回原来的样子'略带预设性推断。",
+      "response_appropriateness": "语言温和、贴近来访者体验，情绪回应恰当，但对动机的解读稍显武断。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "怕一旦松了手，家里就又要乱回原来的样子",
+        "evidence_ids": [
+          "P06-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选回应将'怕被他看出来'的羞耻/暴露焦虑转化为对家庭失控的恐惧，虽与历史模式一致，但在当前语境下略有偏移",
+      "未直接触及来访者刚描述的'偷偷打分'和'立刻补解释'中的自我监控与被审视感"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者长期'只有我盯着才不会出错'的过度负责模式，将拉被角动作与历史中害怕失控的主题自然连接。\",\"exploration_value\":\"用具体行为切入，为来访者探索'松手'背后的恐惧留出空间，但'乱回原来的样子'略带预设性推断。\",\"response_appropriateness\":\"语言温和、贴近来访者体验，情绪回应恰当，但对动机的解读稍显武断。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"怕一旦松了手，家里就又要乱回原来的样子\",\"evidence_ids\":[\"P06-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选回应将'怕被他看出来'的羞耻/暴露焦虑转化为对家庭失控的恐惧，虽与历史模式一致，但在当前语境下略有偏移\",\"未直接触及来访者刚描述的'偷偷打分'和'立刻补解释'中的自我监控与被审视感\"]}",
+  "request_sha256": "84f068b5de91a092b6e3d80f02d20baf60bff3eb88d74bdd4166d07983b6fb8b",
+  "usage": {
+    "input_tokens": 19933,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 295,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20228,
+    "x_details": [
+      {
+        "input_tokens": 19933,
+        "output_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 20228,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.015
+}

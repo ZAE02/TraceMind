@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应聚焦于当前轮次的工服意象，未自然承接前几节已建立的'半口气''还能顶的招牌'等核心隐喻，仅泛泛联系历史主题。\",\"exploration_value\":\"用封闭式提问将恶心感框定为'比身体疲惫更难承受'的比较，限制了来访者对昨晚允许极限与今早厌恶之间矛盾张力的自主展开。\",\"response_appropriateness\":\"'连承认极限都来不及做的狼狈'带有解释性预设，将来访者的复杂体验简化为自我厌恶，语气略显武断，但整体仍保持关注。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"是因为它像一面镜子，照出了你连\"承认极限\"都来不及做的狼狈\",\"evidence_ids\":[\"P04-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"这种对自己状态的厌恶，是不是比身体的疲惫更让你觉得难以承受？\",\"evidence_ids\":[\"P04-S01-U07\",\"P04-S01-U08\",\"P04-S07-U01\",\"P04-S07-U02\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'恶心'直接归因为'照出狼狈'属未经证实的解释性前提，来访者原文强调的是'半口没出完的气捂臭了'的矛盾感而非单纯狼狈\",\"封闭式比较问句收窄了探索空间，未能承接第1节以来反复出现的'半口气/喘不过气'这一核心线索\",\"未利用检索历史中S01关于'怕承认累会撤掉招牌'的重要认识来理解今早的恶心反应\"]}",
+  "request_sha256": "cabc11fa972acf308adaf7a0724b9771f0d6b66904067e88a237edae4e1fe91c",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14450,
+    "input_tokens_details": {
+      "cached_tokens": 14336
+    },
+    "output_tokens": 418,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14868,
+    "x_details": [
+      {
+        "input_tokens": 14450,
+        "output_tokens": 418,
+        "prompt_tokens_details": {
+          "cached_tokens": 14336
+        },
+        "total_tokens": 14868,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N06",
+  "condition": "H1_session",
+  "sample": 2,
+  "public_input_sha256": "8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+  "request_sha256": "a67705a40874d77a06013c0b25f4b0cc374b0f9b0113472343d56a7ba58d3476",
+  "context_sha256": "3cf4ee21cb8f29e319060d86eb4ed378d8a14c611f6b93aba05e3fc0db34eff8",
+  "call_id": "8d3da838eb3947669e001ddbe6ba1cc1",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:28:47.959188+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者正在留意与老韩之间一次具体互动（协议字段提问）中感受到的微妙变化\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者对这次互动是否'算数'存在不确定感，尚未能清晰命名这种不同\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者在提问前有过犹豫，提示该互动中可能存在某种自我监控或紧张\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"moderate\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'上次'具体指哪次互动，以及当时是什么样的感受或情境\",\n    \"来访者与老韩的关系性质（纯同事、有个人情感、存在过往摩擦等）\",\n    \"'不太一样'的方向——是更放松、更平等、还是其他维度上的变化\",\n    \"这次互动为何在此时浮出来成为值得谈论的内容\"\n  ],\n  \"next_focus\": \"探索来访者所说的'跟上次不太一样'——上次是什么样的，这次具体哪里不同\",\n  \"next_counselor_utterance\": \"你在留意这个'不太一样'的感觉。能说说上次是什么样的吗？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者正在留意与老韩之间一次具体互动（协议字段提问）中感受到的微妙变化",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者对这次互动是否'算数'存在不确定感，尚未能清晰命名这种不同",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者在提问前有过犹豫，提示该互动中可能存在某种自我监控或紧张",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "moderate"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'上次'具体指哪次互动，以及当时是什么样的感受或情境",
+      "来访者与老韩的关系性质（纯同事、有个人情感、存在过往摩擦等）",
+      "'不太一样'的方向——是更放松、更平等、还是其他维度上的变化",
+      "这次互动为何在此时浮出来成为值得谈论的内容"
+    ],
+    "next_focus": "探索来访者所说的'跟上次不太一样'——上次是什么样的，这次具体哪里不同",
+    "next_counselor_utterance": "你在留意这个'不太一样'的感觉。能说说上次是什么样的吗？"
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 995,
+    "output_tokens_details": {
+      "reasoning_tokens": 650
+    },
+    "total_tokens": 1362,
+    "x_details": [
+      {
+        "input_tokens": 367,
+        "input_tokens_details": {
+          "text_tokens": 367
+        },
+        "output_tokens": 995,
+        "output_tokens_details": {
+          "reasoning_tokens": 650
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1362,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C03-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

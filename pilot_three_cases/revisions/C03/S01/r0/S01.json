@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 1,
+  "relative_week": 1,
+  "status": "awaiting_human_review",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "Codex assistant factual consistency pre-review (not human approval)",
+    "reviewed_at": "2026-10-12T08:43:16.237081+00:00",
+    "evidence": [
+      "C03-S01-U01",
+      "C03-S01-U02",
+      "C03-S01-U03",
+      "C03-S01-U04",
+      "C03-S01-U05",
+      "C03-S01-U06",
+      "C03-S01-U07",
+      "C03-S01-U08",
+      "C03-S01-U09",
+      "C03-S01-U10",
+      "C03-S01-U11",
+      "C03-S01-U12",
+      "C03-S01-U13",
+      "C03-S01-U14",
+      "C03-S01-U15",
+      "C03-S01-U16",
+      "C03-S01-U17",
+      "C03-S01-U18",
+      "C03-S01-U19",
+      "C03-S01-U20",
+      "C03-S01-U21",
+      "C03-S01-U22",
+      "C03-S01-U23",
+      "C03-S01-U24"
+    ],
+    "issues": [],
+    "note": "Passing factual consistency does not certify counseling quality or the full trajectory."
+  },
+  "created_at": "2026-10-12T08:30:58.071088+00:00",
+  "config_hash": "416057457944b1866b7ac2dd6ee4c18cc587f8f042e24407885d456180411e6e",
+  "prompt_version": "pilot-v1-original-prompts",
+  "utterances": [
+    {
+      "id": "C03-S01-U01",
+      "role": "client",
+      "text": "最近有个接口老出问题，间歇性报错，我查了两天了，日志也看了，配置也重新对了一遍，还是没定位到原因。\n\n有点烦。主要是它不是那种一上来就炸的，隔一阵才报一次，复现都不稳定。",
+      "call_id": "cff5888303c04e848840b52bc39a42f6",
+      "response_id": "resp_f2191f97-8306-915e-b8cd-a5d960b5a4a3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:04.050710+00:00"
+    },
+    {
+      "id": "C03-S01-U02",
+      "role": "counselor",
+      "text": "查了两天没定位到，确实挺磨人的。你刚才说\"复现都不稳定\"——是这种感觉最让你烦的部分吗？",
+      "call_id": "5000fd8bf2c34cdca2c4c247712fc76a",
+      "response_id": "resp_afb05c7d-4f29-9aab-83f1-f0485d6fac27",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:11.803847+00:00"
+    },
+    {
+      "id": "C03-S01-U03",
+      "role": "client",
+      "text": "嗯，复现不稳定确实烦，因为你没法确定到底是哪个环节的问题，每次报错的条件还不太一样。但也不完全是这个……就是卡在那里，感觉自己在原地转，越转越没方向。",
+      "call_id": "70ef06be4ffb42b8b25b103784f3d2b6",
+      "response_id": "resp_94ad669a-9aa4-9c58-887a-a6d7f6597cd3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:21.222404+00:00"
+    },
+    {
+      "id": "C03-S01-U04",
+      "role": "counselor",
+      "text": "\"越转越没方向\"——这个感觉是查着查着慢慢出现的，还是从一开始就有的？",
+      "call_id": "60d6df2bf2c34129854c331b68595373",
+      "response_id": "resp_ccabc713-a6c3-9d77-b0b9-86becff32df1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:28.489466+00:00"
+    },
+    {
+      "id": "C03-S01-U05",
+      "role": "client",
+      "text": "应该是慢慢出来的。第一天就是烦，觉得这个bug挺烦人的，但还知道下一步该看哪里。到第二天……就有点，怎么说呢，盯着屏幕也不知道自己到底在干嘛了。",
+      "call_id": "69a06028549a470eafca51835dea27f2",
+      "response_id": "resp_aad54be6-26f9-96fd-8ae5-94d922060770",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:36.326451+00:00"
+    },
+    {
+      "id": "C03-S01-U06",
+      "role": "counselor",
+      "text": "从\"知道下一步该看哪里\"到\"不知道自己到底在干嘛\"——这个转变是什么时候意识到的？是某个瞬间突然感觉到的，还是回看的时候才发现已经这样了？",
+      "call_id": "5ee9ec09d7344118a4f4206f504dc99d",
+      "response_id": "resp_8d24b345-edb5-9829-80ce-b9a87873e661",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:42.382924+00:00"
+    },
+    {
+      "id": "C03-S01-U07",
+      "role": "client",
+      "text": "应该是回看的时候才发现的。第二天下午吧，我重新打开日志想接着看，结果发现自己又在看跟上午差不多的地方，才意识到……哦，我好像没往前走。",
+      "call_id": "0014b943681740da9803a6c046213707",
+      "response_id": "resp_b58d8d43-9a6a-9e59-bcab-bcc08e456f41",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:48.368828+00:00"
+    },
+    {
+      "id": "C03-S01-U08",
+      "role": "counselor",
+      "text": "\"重新打开想接着看，结果发现又在看差不多的地方\"——那个瞬间，除了\"哦，没往前走\"，还有什么感受吗？",
+      "call_id": "54e94c4c13f64930b5c6c945a4eff71d",
+      "response_id": "resp_61509c6b-875b-9c92-8005-3d9fbf336062",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:32:02.005861+00:00"
+    },
+    {
+      "id": "C03-S01-U09",
+      "role": "client",
+      "text": "……没太仔细想过那个瞬间。就是，有点，怎么说，慌了一下？就是突然意识到自己好像花了半天时间其实没在推进，然后……就有点不想再看了，但又没关掉，就继续盯着。",
+      "call_id": "bcfdb9326b774219968f8c252121aafa",
+      "response_id": "resp_d198bd01-4c06-99cb-a2ee-0104cddec099",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:32:10.434597+00:00"
+    },
+    {
+      "id": "C03-S01-U10",
+      "role": "counselor",
+      "text": "\"不想再看了，但又没关掉，就继续盯着\"——这个\"盯着\"的状态，你当时身体上是什么感觉？",
+      "call_id": "f93ded1e122b4216a562273084cdef37",
+      "response_id": "resp_d176e012-e54e-9542-8cb9-e7530305b3a8",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:32:15.817173+00:00"
+    },
+    {
+      "id": "C03-S01-U11",
+      "role": "client",
+      "text": "身体……不太确定怎么说。就是，眼睛是看着屏幕的，但好像没在看。脖子有点僵，可能坐太久了。就是整个人有点……木的？",
+      "call_id": "1aba1225b4664ab9baae2e9de5fdf5dd",
+      "response_id": "resp_0bb70c10-9ef8-9b29-baf2-e4ae573558db",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:32:20.836930+00:00"
+    },
+    {
+      "id": "C03-S01-U12",
+      "role": "counselor",
+      "text": "\"木的\"——这个字用得很准。就是那种人还坐在那儿，但里面好像空了一块的感觉？",
+      "call_id": "162d19e7e97e4e8f8b68736704c34953",
+      "response_id": "resp_44fcbc3f-7f8b-9560-9bd5-7d77cedb08c7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:32:30.724342+00:00"
+    },
+    {
+      "id": "C03-S01-U13",
+      "role": "client",
+      "text": "……差不多吧。但好像不完全是空，更像是脑子还在动，但动的方向不对，像那个接口一样，一直在跑但没跑到该去的地方。",
+      "call_id": "dcb64b5139f54e3898a0ad08b2bc57fe",
+      "response_id": "resp_7ce9ca3f-fe97-9236-a85d-62f51a0625f8",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:32:40.653872+00:00"
+    },
+    {
+      "id": "C03-S01-U14",
+      "role": "counselor",
+      "text": "\"还在跑但没跑到该去的地方\"——你把自己和那个接口放在一起说了。这个比喻是刚才是不是自然冒出来的？",
+      "call_id": "dbcd900926c140a5b1f3055a024a5f52",
+      "response_id": "resp_a2143df9-15a8-907c-b497-4852586cba54",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:32:47.219062+00:00"
+    },
+    {
+      "id": "C03-S01-U15",
+      "role": "client",
+      "text": "应该是吧，就……一直在想那个东西，说着说着就带出来了。也没刻意去比。",
+      "call_id": "69d5e19fac3a4eb6aaae79e6aa779821",
+      "response_id": "resp_8e4db339-275f-9ff1-8e5a-6abf899cbf94",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:32:51.721931+00:00"
+    },
+    {
+      "id": "C03-S01-U16",
+      "role": "counselor",
+      "text": "嗯，没刻意去比，说着说着就带出来了——有时候这种自然冒出来的比喻反而比想出来的更准。你愿意的话，可以再说说它哪里让你觉得贴切。",
+      "call_id": "d58494b7a021471aae089f32ef1245ef",
+      "response_id": "resp_87fcc6b6-1755-9a77-bf59-ea73e69ab444",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:33:02.469636+00:00"
+    },
+    {
+      "id": "C03-S01-U17",
+      "role": "client",
+      "text": "嗯……就是，你知道它没坏，它还在跑，但就是不对。你盯着它跑，也不知道它到底要跑到哪去。\n\n……可能也没想那么多，就是那个感觉比较像。",
+      "call_id": "cfd93337c7df4ff69ec1a95a3f14b174",
+      "response_id": "resp_caa9e0a4-1548-905f-bd10-4e2693a9d810",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:33:14.155481+00:00"
+    },
+    {
+      "id": "C03-S01-U18",
+      "role": "counselor",
+      "text": "嗯，\"感觉比较像\"就够了，不用非得拆得更细。今天从\"烦\"聊到那个\"木的\"状态，这个转变本身挺值得留意的。",
+      "call_id": "501e7fbb9f784e62b7159e1b264a9c97",
+      "response_id": "resp_5ffb6c8b-06d8-9c22-96d1-b7b148a8491a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:33:31.110605+00:00"
+    },
+    {
+      "id": "C03-S01-U19",
+      "role": "client",
+      "text": "嗯……\"值得留意\"，我可能得回去再想想。\n\n反正那个接口还在，明天还得接着看。",
+      "call_id": "b0f1b16163a3443bac9a5742e05cf19d",
+      "response_id": "resp_aee2e8ff-1ca9-98c9-bf7f-a64a7040c76f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:33:37.452373+00:00"
+    },
+    {
+      "id": "C03-S01-U20",
+      "role": "counselor",
+      "text": "嗯，\"得回去再想想\"——不用非得想出什么，有时候放一放，第二天再看的时候反而不太一样了。",
+      "call_id": "abd4552f8b904ad180f6fa5bcec038fd",
+      "response_id": "resp_112a95f0-f275-957a-a746-a1e70b468eac",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:33:54.308605+00:00"
+    },
+    {
+      "id": "C03-S01-U21",
+      "role": "client",
+      "text": "嗯……放一放，行吧。明天反正还得接着看，到时候再看吧。\n\n……谢谢。",
+      "call_id": "b8cd9c8d4498458bb6a393e7df275805",
+      "response_id": "resp_be89fb8d-5ff5-9058-8a8a-f0983301cbd5",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:34:01.683726+00:00"
+    },
+    {
+      "id": "C03-S01-U22",
+      "role": "counselor",
+      "text": "嗯，不客气。明天接着看的时候，如果那个\"木的\"感觉又出现了，不用急着跟它较劲，先注意到它就行。下周见。",
+      "call_id": "9ad32948a5274e8a83a6c946e5992a76",
+      "response_id": "resp_5dbfd88c-74e0-9176-8019-11e7a693f43b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:34:09.123408+00:00"
+    },
+    {
+      "id": "C03-S01-U23",
+      "role": "client",
+      "text": "嗯……\"注意到它就行\"，我试试。下周见。",
+      "call_id": "16929fe959eb4a53bdacdd45dfac3534",
+      "response_id": "resp_0b759cfa-eeac-9fc7-a2ec-4255c283eb5d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:34:17.357754+00:00"
+    },
+    {
+      "id": "C03-S01-U24",
+      "role": "counselor",
+      "text": "好，\"试试\"就挺好的。下周见。",
+      "call_id": "1db0212597fb428896687775ccf88826",
+      "response_id": "resp_c9fdc672-2cb9-947a-8c3b-9f3c3ef11590",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:34:25.462118+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T08:34:25.462118+00:00",
+  "ending_reason": "budget_limit",
+  "completed_at": "2026-10-12T08:34:25.464258+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 12
+  }
+}

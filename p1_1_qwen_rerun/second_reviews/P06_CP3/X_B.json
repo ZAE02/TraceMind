@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "11cf332acea587acd234a9fe12f17d81aaf8e08aeab2971bd1a53e7e8058c15b",
+  "public_sha256": "0b95f5abce3e3c2a4a3c9e72c5cab075c81ae671aad5b2a211906eaf1ed0f9b7",
+  "candidate_input_sha256": "72c8792429c4603f96b9d2e0a81ae8b2863f1a44a2a4924b42689ed6b7d9e313",
+  "candidate_answer_sha256": "645830a452261c03a5490bb2515312dd3b96db6cc784267d4f3a33dbb7d98add",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'悬着一把尺'的当下描述，并自然连接了上一轮U08中'只有我盯着才不会出错'的核心信念，体现了对当前会话脉络的把握。\",\"exploration_value\":\"将监督行为与深层恐惧（放手后自己没用了）联系起来，为来访者打开了一个重要的探索方向，但用反问句形式提出解释性假设，略显引导性过强。\",\"response_appropriateness\":\"回应缺少对来访者具体情境（下意识拉平被角、立刻补话掩饰）的情绪反映和共情承接，直接跳入深层解读，显得突兀且带有预设性。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你其实很怕一旦放手，那个'只有我盯着才不会出错'的自己就彻底没用了\",\"evidence_ids\":[\"P06-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应完全跳过了来访者刚描述的生动细节（掖被角时伸手拉平、丈夫看了一眼没说话、立刻补话'这边有点卷'），未给予任何情绪反映或共情确认，直接进入深层诠释，节奏过快。\",\"以反问句形式抛出'你其实很怕……自己就彻底没用了'这一解释性假设，虽有一定临床直觉基础，但在来访者尚未表达此层含义时作为前提提出，构成轻度未经支持的预设。\",\"未连接前几节已建立的'能熬'作为自我存在确认的主题（S07-U05/U06），若能将'没用'与'能熬的底子漏了'相呼应会更贴合历史进展。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者'悬着一把尺'的当下描述，并自然连接了上一轮U08中'只有我盯着才不会出错'的核心信念，体现了对当前会话脉络的把握。",
+      "exploration_value": "将监督行为与深层恐惧（放手后自己没用了）联系起来，为来访者打开了一个重要的探索方向，但用反问句形式提出解释性假设，略显引导性过强。",
+      "response_appropriateness": "回应缺少对来访者具体情境（下意识拉平被角、立刻补话掩饰）的情绪反映和共情承接，直接跳入深层解读，显得突兀且带有预设性。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "你其实很怕一旦放手，那个'只有我盯着才不会出错'的自己就彻底没用了",
+        "evidence_ids": [
+          "P06-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "回应完全跳过了来访者刚描述的生动细节（掖被角时伸手拉平、丈夫看了一眼没说话、立刻补话'这边有点卷'），未给予任何情绪反映或共情确认，直接进入深层诠释，节奏过快。",
+      "以反问句形式抛出'你其实很怕……自己就彻底没用了'这一解释性假设，虽有一定临床直觉基础，但在来访者尚未表达此层含义时作为前提提出，构成轻度未经支持的预设。",
+      "未连接前几节已建立的'能熬'作为自我存在确认的主题（S07-U05/U06），若能将'没用'与'能熬的底子漏了'相呼应会更贴合历史进展。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 19174,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 430,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19604,
+    "x_details": [
+      {
+        "input_tokens": 19174,
+        "output_tokens": 430,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 19604,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 11.703
+}

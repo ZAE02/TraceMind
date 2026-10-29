@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P01_CP2",
+  "condition": "C5_budget",
+  "raw_text": "你好像把“点开群”和“看懂方宁那个‘好’字”都变成了需要别人来替你确认的事，连一个标点都像在替你下判断。你已经在怀疑自己是不是把简单的事搞复杂了，但那种“必须确认清楚才敢动”的感觉，似乎比事情本身更让你累。",
+  "input_sha256": "53d98df65a257ab36aa26a52b739f31643c50af143442d2e457304de2a1f7a75",
+  "memory_sha256": "1c3078ad35e3a59273c789ab3b81418eebeda539a3c0652c337db6c03703dbcf",
+  "request_sha256": "e0c67250f8c7800585dd29b1293b6fee23b86c25d103e7a2437c3d90a0ce245a",
+  "usage": {
+    "input_tokens": 7188,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 71,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7259,
+    "x_details": [
+      {
+        "input_tokens": 7188,
+        "output_tokens": 71,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 7259,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.032
+}

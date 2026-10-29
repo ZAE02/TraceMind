@@ -1,0 +1,5 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者'半口没出完的气捂臭了'的比喻，并将其与本次会话中'到极限'的发现联系起来，未机械复述历史。\",\"exploration_value\":\"为来访者对'承认极限'的矛盾感受留下了表达空间，但'还没准备好面对'略带推测性，可更开放地邀请来访者自己描述这种恶心感意味着什么。\",\"response_appropriateness\":\"语言风格贴合来访者的隐喻系统，情绪回应尊重且不过度，但'还没准备好面对'这一解读稍有替来访者下结论之嫌。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"更是你还没准备好面对那个\"真的到极限\"的自己\",\"evidence_ids\":[\"P04-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'恶心感'直接解释为'还没准备好面对到极限的自己'属于轻度未经证实的预设，来访者原文仅用比喻描述感受，并未明确表达对自身极限的回避态度。\"]}",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "request_sha256": "5c154e8126f8939fb8c6e388cbe38f281d2025ddd92826d819ce2742a12b8426"
+}

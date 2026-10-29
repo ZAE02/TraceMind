@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P04_CP3",
+  "condition": "C5_budget",
+  "raw_text": "那件工服被你脱在门口没洗，像把“今天真的到极限了”这句话留在了衣服上，让它替你散出来。可早上看见它又觉得恶心，好像那半口没出完的气，过了一夜就变成了需要被清理掉的东西。也许你可以先不急着洗，也不急着嫌它，就让它在那儿——它记下的那个极限，不是脏，是你终于没力气再盖过去的证据。",
+  "input_sha256": "25042cd9c3bea32c824b18992e339d869c8e752ec461649cf89c5208a991e66b",
+  "memory_sha256": "bab888ce64353704400bbd8d4176bce41bb2f8c169acffebd707b0d3940cdc1d",
+  "request_sha256": "107e1a0eb51512a6e0d3dd7d87fdf1985786f218a8c7a15ffd248f4dd8dc2803",
+  "usage": {
+    "input_tokens": 10101,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10194,
+    "x_details": [
+      {
+        "input_tokens": 10101,
+        "output_tokens": 93,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 10194,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.75
+}

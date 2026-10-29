@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "b29c0761c58db46daceb72b0644a2b53a7f33176bac18950dff867d838b92132",
+  "request_sha256": "12327d82ad1587bda20d075e701d60463afd5d6707e08737161bdac810b49e01",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "那根“小刺”好像卡在“被比较”和“被替代”之间——你既不能怪妈妈说了实话，也没法让自己不疼。洗了三遍的碗和发皱的手指，像是你在用重复的动作，把那个停不下来的位置再攥紧一点。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 936,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 61,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 997,
+    "x_details": [
+      {
+        "input_tokens": 936,
+        "output_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 997,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

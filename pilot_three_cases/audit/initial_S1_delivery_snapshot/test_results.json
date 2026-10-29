@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-12T08:47:11.302150+00:00",
+  "command": "python -m unittest discover -s tests -v",
+  "tests_run": 21,
+  "failures": 0,
+  "errors": 0,
+  "status": "passed",
+  "scope": "Mock tests of isolation, transport, resume, same-session fact exclusion, fallback provenance and human gate; no clinical quality claim."
+}
+

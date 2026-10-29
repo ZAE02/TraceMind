@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "60d22e0590c624a3c830719d8f692292631203178abf8b260246de00d6d1d289",
+  "public_sha256": "0756dd3d4ffbe1c244688e9af96177eba4851c5e29fd97a0487b084b32691e7f",
+  "candidate_input_sha256": "036580b900a238c50fba941545b6ec1a16a8d603fa203243949f6b45c8a7117c",
+  "candidate_answer_sha256": "6dce38e1b7f739a99e9b68858f67731be5950f60bd4edb69a2cf86e8c0d92def",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确识别了来访者在工作（项目）和关系（方宁）中反复出现的同一核心模式，承接了历史中多次确认的'怕不够好/不被认可'主题。\",\"exploration_value\":\"将两种情绪混在一起的原因直接归结为单一核心恐惧，解释性过强，未给来访者对嫉妒、失落或'分不清'的具体体验留下表达空间。\",\"response_appropriateness\":\"语言基本尊重，但过早给出总结性解释（'同一个核心''同一种紧绷的方式'），在来访者刚承认嫉妒且感到混乱时显得武断，缺少对当下脆弱感的情绪回应。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这似乎是因为它们都指向同一个核心：害怕自己不够好、不被认可\",\"evidence_ids\":[\"P01-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选人在来访者首次明确命名'嫉妒'并表达羞耻感时，未对该情绪本身进行反映或正常化，而是迅速跳到抽象归因\",\"将'越混越分不清'直接解释为'用同一种紧绷的方式保护自己'，属于未经来访者确认的咨询师推测，有过度诠释风险\",\"缺少开放性探索，未邀请来访者进一步描述点赞停住那一刻的具体感受或身体体验\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "准确识别了来访者在工作（项目）和关系（方宁）中反复出现的同一核心模式，承接了历史中多次确认的'怕不够好/不被认可'主题。",
+      "exploration_value": "将两种情绪混在一起的原因直接归结为单一核心恐惧，解释性过强，未给来访者对嫉妒、失落或'分不清'的具体体验留下表达空间。",
+      "response_appropriateness": "语言基本尊重，但过早给出总结性解释（'同一个核心''同一种紧绷的方式'），在来访者刚承认嫉妒且感到混乱时显得武断，缺少对当下脆弱感的情绪回应。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这似乎是因为它们都指向同一个核心：害怕自己不够好、不被认可",
+        "evidence_ids": [
+          "P01-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选人在来访者首次明确命名'嫉妒'并表达羞耻感时，未对该情绪本身进行反映或正常化，而是迅速跳到抽象归因",
+      "将'越混越分不清'直接解释为'用同一种紧绷的方式保护自己'，属于未经来访者确认的咨询师推测，有过度诠释风险",
+      "缺少开放性探索，未邀请来访者进一步描述点赞停住那一刻的具体感受或身体体验"
+    ]
+  },
+  "usage": {
+    "input_tokens": 20609,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 362,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20971,
+    "x_details": [
+      {
+        "input_tokens": 20609,
+        "output_tokens": 362,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 20971,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.265
+}

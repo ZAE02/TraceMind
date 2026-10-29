@@ -1,0 +1,504 @@
+{
+  "case_id": "P01",
+  "session": 8,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P01-S08-U01",
+      "role": "client",
+      "text": "其实这周主管说“可以大胆一点”之后，我反倒整夜没睡，把改动做成了三个版本，从很收敛到很放开。最后发出去的是中间那个，可发完之后我一直在想，我是不是又把“大胆”偷偷做成了“安全”。",
+      "request_sha256": "144629451e9d10f2e9709f53800529ffe8ab89e59a3a0976b3f4e8a611471d04",
+      "usage": {
+        "input_tokens": 11201,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 458,
+        "output_tokens_details": {
+          "reasoning_tokens": 398
+        },
+        "total_tokens": 11659,
+        "x_details": [
+          {
+            "input_tokens": 11201,
+            "output_tokens": 458,
+            "output_tokens_details": {
+              "reasoning_tokens": 398
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 11659,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U02",
+      "role": "counselor",
+      "text": "你似乎在“大胆”这个词刚落到自己身上时，就马上把它变成了一道需要精确拿捏的题：三个版本从收敛到放开，最后还是选了中间那个，像是不敢完全离开“安全”的位置，又担心这样就不算真正大胆。你整夜没睡地改，好像不只是怕做不好，更怕自己其实没有真的放开，却又要交出一个“够大胆”的结果。",
+      "request_sha256": "87b6ece38972dd8951b8f00e51dad8420e3ad770162c48d24854ccdc1c27495c",
+      "usage": {
+        "input_tokens": 9997,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 335,
+        "output_tokens_details": {
+          "reasoning_tokens": 248
+        },
+        "total_tokens": 10332,
+        "x_details": [
+          {
+            "input_tokens": 9997,
+            "output_tokens": 335,
+            "output_tokens_details": {
+              "reasoning_tokens": 248
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 10332,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U03",
+      "role": "client",
+      "text": "其实那个最放开的版本我到现在也没删，就放在桌面一个没名字的文件夹里。也不是说它有多好，就是每次瞟到都会想，如果当时发的是那个，现在会不会更踏实一点，或者更难熬。",
+      "request_sha256": "7b9c4ee21c1aead8209403323e18b784d65c883a2e18a23cadec2ae2f52dcc0c",
+      "usage": {
+        "input_tokens": 11394,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 331,
+        "output_tokens_details": {
+          "reasoning_tokens": 280
+        },
+        "total_tokens": 11725,
+        "x_details": [
+          {
+            "input_tokens": 11394,
+            "output_tokens": 331,
+            "output_tokens_details": {
+              "reasoning_tokens": 280
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11725,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U04",
+      "role": "counselor",
+      "text": "那个没删的版本，好像一直替你在桌面留着一个“没被交出去的可能性”；你每次看到它，都会重新掉进“如果发的是那个，现在会怎样”的推演里，可无论答案是更踏实还是更难熬，似乎都让你停不下来去想。也许它不只是一个文件，更像你还没允许自己放下的“够大胆”的证明。",
+      "request_sha256": "635b2f711d05bcc706c6f1a0997ef843bbae6de6c218efc96945e583c155dd37",
+      "usage": {
+        "input_tokens": 10180,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 335,
+        "output_tokens_details": {
+          "reasoning_tokens": 254
+        },
+        "total_tokens": 10515,
+        "x_details": [
+          {
+            "input_tokens": 10180,
+            "output_tokens": 335,
+            "output_tokens_details": {
+              "reasoning_tokens": 254
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10515,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U05",
+      "role": "client",
+      "text": "其实那个最放开的版本我做完之后，就一直没再点开过，好像一打开就不得不在“够大胆”和“怕被说”之间选一个。我到现在也说不清，到底是不敢看它，还是不敢承认自己其实更想交那个。",
+      "request_sha256": "1be327f471114a1d320c3c2d19aa9deb2679c2e18b52d28e913a4c381281216c",
+      "usage": {
+        "input_tokens": 11571,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 274,
+        "output_tokens_details": {
+          "reasoning_tokens": 214
+        },
+        "total_tokens": 11845,
+        "x_details": [
+          {
+            "input_tokens": 11571,
+            "output_tokens": 274,
+            "output_tokens_details": {
+              "reasoning_tokens": 214
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11845,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U06",
+      "role": "counselor",
+      "text": "你好像怕的不仅是那个版本本身会不会被说，更怕一旦承认自己“其实更想交那个”，就要面对自己明明有偏好、却还是把它藏起来的事实。于是它只能放在一个没有名字的文件夹里，既不能打开，也不能删掉。",
+      "request_sha256": "f2a0668299685a080f110ff09ff9bf20693a79ee95159eecd7d05ad53bcf303c",
+      "usage": {
+        "input_tokens": 10366,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 256,
+        "output_tokens_details": {
+          "reasoning_tokens": 198
+        },
+        "total_tokens": 10622,
+        "x_details": [
+          {
+            "input_tokens": 10366,
+            "output_tokens": 256,
+            "output_tokens_details": {
+              "reasoning_tokens": 198
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10622,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U07",
+      "role": "client",
+      "text": "其实我也说不清是不是更想交那个，就是它一直在那儿，像一件没做完的事。每次想删掉，又觉得删了好像就真的承认自己只敢交一个折中的上去。可能我怕的不是被说，是怕承认自己明明心里有更想选的那个，最后还是选了安全。",
+      "request_sha256": "f5b04bd69b36902af754d215a592b8de6cfd549e82fbe42a3503f76e71d4c956",
+      "usage": {
+        "input_tokens": 11734,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 346,
+        "output_tokens_details": {
+          "reasoning_tokens": 280
+        },
+        "total_tokens": 12080,
+        "x_details": [
+          {
+            "input_tokens": 11734,
+            "output_tokens": 346,
+            "output_tokens_details": {
+              "reasoning_tokens": 280
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12080,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U08",
+      "role": "counselor",
+      "text": "那个文件留着，好像是在替你保存一个“我本来也可以更放开”的可能，而删掉它，就等于承认自己最后还是选了折中。它既不能打开，也不能删掉，也许你卡住的地方，不是那个版本本身，而是“明明有更想选的，却交给了安全”这个事实。",
+      "request_sha256": "8119d1265f20cc9744c259818bcbd6cc343f39ac1a65fb944f22c3c4573e0638",
+      "usage": {
+        "input_tokens": 10535,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 359,
+        "output_tokens_details": {
+          "reasoning_tokens": 292
+        },
+        "total_tokens": 10894,
+        "x_details": [
+          {
+            "input_tokens": 10535,
+            "output_tokens": 359,
+            "output_tokens_details": {
+              "reasoning_tokens": 292
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10894,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U09",
+      "role": "client",
+      "text": "其实我到现在也没再打开那个最放开的版本，好像一打开就真的要承认自己其实挺喜欢它。可能我也不敢想，如果连做设计都一直卡在这个位置，以后是不是对谁都只能交出一个折中的东西。",
+      "request_sha256": "73364ee4e1837c3962c7d6d7d345b3942f3d3c31a37c6bb2e472bf0d838bcb88",
+      "usage": {
+        "input_tokens": 11912,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 498,
+        "output_tokens_details": {
+          "reasoning_tokens": 447
+        },
+        "total_tokens": 12410,
+        "x_details": [
+          {
+            "input_tokens": 11912,
+            "output_tokens": 498,
+            "output_tokens_details": {
+              "reasoning_tokens": 447
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12410,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U10",
+      "role": "counselor",
+      "text": "你从那个文件夹说到了“对谁”——这已经不是文件的事了。“只敢交折中东西”好像是你很熟悉的一种姿态，而且它已经跟着你很久。你其实不是真的不敢想，而是已经想到这里了，只是它有点大，你一个人先不用急着全接住。",
+      "request_sha256": "63ac128a021f69be28c4a48852679fd2152c28a49eb647215585516fe4942211",
+      "usage": {
+        "input_tokens": 10698,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 773,
+        "output_tokens_details": {
+          "reasoning_tokens": 710
+        },
+        "total_tokens": 11471,
+        "x_details": [
+          {
+            "input_tokens": 10698,
+            "output_tokens": 773,
+            "output_tokens_details": {
+              "reasoning_tokens": 710
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11471,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U11",
+      "role": "client",
+      "text": "可能……你这么说的时候，我有点接不住。好像对谁都折中，不是我故意要这样，是总觉得如果没有一个“安全”的东西放在前面，后面那个真的我可能根本站不住。那个大胆版我到现在也没删，但打开它就像要先承认自己其实有更想选的那个。今天先停在这里吧，我回去再想想你说的“对谁”。",
+      "request_sha256": "319d0a2069cdbb0025311f551681e9312ea201bb2933662bbd8ce231f309c1fa",
+      "usage": {
+        "input_tokens": 12078,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 451,
+        "output_tokens_details": {
+          "reasoning_tokens": 371
+        },
+        "total_tokens": 12529,
+        "x_details": [
+          {
+            "input_tokens": 12078,
+            "output_tokens": 451,
+            "output_tokens_details": {
+              "reasoning_tokens": 371
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12529,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U12",
+      "role": "counselor",
+      "text": "你刚才说“如果没有一个‘安全’的东西放在前面，后面那个真的我可能根本站不住”——这句话其实已经说得很重，也很接近你说的“接不住”的那个地方。你今天能把它放在这里，已经不需要马上想出答案，也不需要现在就让自己站住。也许我们下次可以顺着它慢慢看，不用急。",
+      "request_sha256": "49e268b8b1ee1947b02c528fcae7f08a39a7f874ca4d1057877c7e2413740f66",
+      "usage": {
+        "input_tokens": 10893,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 362,
+        "output_tokens_details": {
+          "reasoning_tokens": 292
+        },
+        "total_tokens": 11255,
+        "x_details": [
+          {
+            "input_tokens": 10893,
+            "output_tokens": 362,
+            "output_tokens_details": {
+              "reasoning_tokens": 292
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11255,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U13",
+      "role": "client",
+      "text": "可能……你刚才说“对谁”的时候，我脑子里其实闪过好几个人，但最后又都回到我自己。今天先停在这里吧，我回去可能会盯着那个文件夹看一会儿，但不一定打开。先不逼自己了。",
+      "request_sha256": "837013d9fa89802356e1cde5eb44b5836462be52fb35564d4d42cb93fbc4b410",
+      "usage": {
+        "input_tokens": 12273,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 969,
+        "output_tokens_details": {
+          "reasoning_tokens": 918
+        },
+        "total_tokens": 13242,
+        "x_details": [
+          {
+            "input_tokens": 12273,
+            "output_tokens": 969,
+            "output_tokens_details": {
+              "reasoning_tokens": 918
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 13242,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U14",
+      "role": "counselor",
+      "text": "你刚才说“最后又都回到我自己”，这听起来已经不是在讲文件夹或某个版本了，而是在往一个更深的地方靠近。今天不用急着打开它，也不需要现在就看清那个“真的我”是什么样。  \n你可以只是看着那个文件夹，不点开它，让这种“想看又先不逼自己看”的状态，也成为今天留下的一部分。",
+      "request_sha256": "b6c0fa3bdd62a77aebcced6edb0ff36b206f94c550331a7345a0856a8bec018e",
+      "usage": {
+        "input_tokens": 11059,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 189,
+        "output_tokens_details": {
+          "reasoning_tokens": 113
+        },
+        "total_tokens": 11248,
+        "x_details": [
+          {
+            "input_tokens": 11059,
+            "output_tokens": 189,
+            "output_tokens_details": {
+              "reasoning_tokens": 113
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11248,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U15",
+      "role": "client",
+      "text": "可能……我回去大概还是会盯着那个文件夹看，也可能真的会点开一次，但不会去改它，就只是想确认那个“更想选的”还在。你说“对谁”的时候，我其实有点怕，怕最后发现我拿出来的那些折中，不只是给主管或者方宁的。今天先到这里吧，我回去的路上可能会一直想这个。",
+      "request_sha256": "526ff65802afa057b9e68e510f811acd32347143c2bebec7e668020843359281",
+      "usage": {
+        "input_tokens": 12447,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 365,
+        "output_tokens_details": {
+          "reasoning_tokens": 286
+        },
+        "total_tokens": 12812,
+        "x_details": [
+          {
+            "input_tokens": 12447,
+            "output_tokens": 365,
+            "output_tokens_details": {
+              "reasoning_tokens": 286
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12812,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S08-U16",
+      "role": "counselor",
+      "text": "你刚才说，怕最后发现那些折中不只是给主管或方宁的——这个觉察很重要，也难怪你会有种“怕”的感觉。今天不用急着看清它到底还给了谁，能让这个“怕”先被你承认，就已经是很大的一步了。你放心把那个文件夹原样放着，想看或不想看，都可以；我们下次再从你现在停住的地方慢慢说。",
+      "request_sha256": "4180879db25d33cf94144b390dc0c3e85648d5cd88a1d7cf2c0a1daa7749e090",
+      "usage": {
+        "input_tokens": 11261,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 277,
+        "output_tokens_details": {
+          "reasoning_tokens": 193
+        },
+        "total_tokens": 11538,
+        "x_details": [
+          {
+            "input_tokens": 11261,
+            "output_tokens": 277,
+            "output_tokens_details": {
+              "reasoning_tokens": 193
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11538,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

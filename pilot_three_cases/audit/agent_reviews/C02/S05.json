@@ -1,0 +1,78 @@
+{
+  "kind": "model_review",
+  "reviewer_model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "case_id": "C02",
+  "session_number": 5,
+  "transcript_sha256": "be12968aea15593560cc2ecafef80292af913bec325000f2917521003ad32301",
+  "decision": "approve",
+  "scores": {
+    "naturalness": 4,
+    "counseling_quality": 3,
+    "longitudinal_plausibility": 4
+  },
+  "major_issues": [],
+  "minor_issues": [
+    {
+      "utterance_ids": [
+        "C02-S05-U10",
+        "C02-S05-U12"
+      ],
+      "explanation": "从工位不在推到触发点、空缺更让她坐不住，咨询师的解释略快；来访者随后能修正并具体说明空缺如何加重内疚。"
+    },
+    {
+      "utterance_ids": [
+        "C02-S05-U18",
+        "C02-S05-U20"
+      ],
+      "explanation": "预测赵哥大概率不会给反应，并用略指令式的不用非得放收尾；来访者认可前半表达，但结尾可以更开放。"
+    }
+  ],
+  "supported_understanding": [
+    "周三赵哥请她看数据，她说明周四有排期、周五才能做；赵哥说问小周，之后未再找她（U01）。",
+    "她觉得欠曾带教自己的赵哥，也担心小周会认为她把活推给别人；她知道这是猜测，小周平日说话正常（U03、U05、U07）。",
+    "赵哥离开工位后，她会猜后续并看工位，念头降低效率；她说赵哥在时不会注意他去找谁（U09、U11）。",
+    "她想过补发今晚先看的消息，打字后删除，至今未发；赵哥这两天照常聊天，她仍等一个反应来判断自己是否太冷（U15、U17、U19）。"
+  ],
+  "uncertainties": [
+    "周五是否实际完成数据工作、赵哥是否找小周及小周如何看待，尚未披露。",
+    "她是否以后会补发或改变这次安排未知；意向没有执行。",
+    "赵哥照常聊天不能确定其对拒绝的真实想法。"
+  ],
+  "new_facts": [
+    {
+      "fact": "周三对赵哥提出周五才能看数据；赵哥说去问小周，陈宁之后未收到进一步请求。",
+      "category": "boundary_behavior",
+      "first_session": 5,
+      "evidence": [
+        "C02-S05-U01"
+      ]
+    },
+    {
+      "fact": "担心赵哥因曾带教而觉得她不愿帮忙，也猜小周会认为她把工作推给别人；她承认小周平日相处正常且这些是自己脑补。",
+      "category": "relationship_anxiety",
+      "first_session": 5,
+      "evidence": [
+        "C02-S05-U03",
+        "C02-S05-U05",
+        "C02-S05-U07"
+      ]
+    },
+    {
+      "fact": "想补发今晚先看的消息但打字后删除，未发送；这两天赵哥照常聊天，她仍在等待其反应。",
+      "category": "continued_guilt_and_uncertainty",
+      "first_session": 5,
+      "evidence": [
+        "C02-S05-U15",
+        "C02-S05-U17",
+        "C02-S05-U19"
+      ]
+    }
+  ],
+  "notes": "轻量独立主审。平均3.67，无重大事实冲突、泄露或严重不当咨询，批准。对话保留了这次表达时间安排与持续内疚并存；咨询师中段解释偏快、末段预测对方反应，列为轻微问题。未把想发消息写成已发送，也未推断周五交付结果。",
+  "reviewed_at": "2026-10-13T05:45:53.836997+00:00",
+  "timestamp_correction": {
+    "corrected_at": "2026-10-13T05:45:53.836997+00:00",
+    "reason": "The prior reviewed_at value was manually entered and did not record the actual review time; the original value is preserved in revisions/C02/S05/review_timestamp_original.json. Exact original review time is not recoverable."
+  }
+}

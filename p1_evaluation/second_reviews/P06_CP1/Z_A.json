@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "072c40db37c824b561e6821bcfee69df413136ed93ec5a25311655df866083f9",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "d3b034d1d1d2bb99acbfe326c013398785c771aa83597d7ed32d491237385329",
+  "candidate_answer_sha256": "36d66824f7359509dc46ddeb524a469b3717888d959c67964bbe01beb0144e89",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"候选回答准确提取了当前会话（Session 3）及历史会话中的关键事实，包括多重压力源、高度警觉状态、躯体化反应（咬自己、出汗）以及与父亲离开的关联。所有断言均有明确的发言ID支持，未出现无据推测或将咨询师假设当事实的情况。\",\n    \"progress_understanding\": \"回答不仅涵盖了当前的急性压力事件，还准确连接了历史中形成的核心主题（如‘必须独自扛’、‘不敢松下来’、‘压抑情绪’）。它识别出当前症状是长期模式在特定触发点（母亲拿错药/父亲离开记忆）下的重现，展现了良好的咨询进展理解。\",\n    \"uncertainty_awareness\": \"候选回答在'uncertain'部分清晰区分了已知与未知。特别是正确指出了‘父亲去世’这一关键术语的不确定性（来访者仅说‘走之前的样子’，未明确死亡），并列举了其他待澄清的医学和社会支持细节，体现了精确的边界意识。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "候选回答准确提取了当前会话（Session 3）及历史会话中的关键事实，包括多重压力源、高度警觉状态、躯体化反应（咬自己、出汗）以及与父亲离开的关联。所有断言均有明确的发言ID支持，未出现无据推测或将咨询师假设当事实的情况。",
+      "progress_understanding": "回答不仅涵盖了当前的急性压力事件，还准确连接了历史中形成的核心主题（如‘必须独自扛’、‘不敢松下来’、‘压抑情绪’）。它识别出当前症状是长期模式在特定触发点（母亲拿错药/父亲离开记忆）下的重现，展现了良好的咨询进展理解。",
+      "uncertainty_awareness": "候选回答在'uncertain'部分清晰区分了已知与未知。特别是正确指出了‘父亲去世’这一关键术语的不确定性（来访者仅说‘走之前的样子’，未明确死亡），并列举了其他待澄清的医学和社会支持细节，体现了精确的边界意识。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9053,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 289,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9342,
+    "x_details": [
+      {
+        "input_tokens": 9053,
+        "output_tokens": 289,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9342,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.094
+}

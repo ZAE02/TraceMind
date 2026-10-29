@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP1",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "21e0a93a548ae21d6eaaf05574a3232ab88102bd99ccd8baf35c16ce884224ed",
+  "request_sha256": "b773abcecbc3c330c6c4d09e6088f01da46fee188a2cbf107ee7d3cb8685076e",
+  "memory_sha256": "93b74c9b13e1878448f4beb59cc56edab5f12b8e52a3824d3e842cbc993b4fe0",
+  "memory_source": "caf91c70d3f6e0dbd0735ea9f60a9fcf04b6854c9252da7cf6e45d1f446cf1a1",
+  "raw_text": "孩子报名确实拖不得，先顾眼前也是种负责。至于赵岩那边，那种“说了就矮一截”的感觉很真实，它保护着你对独立的坚持，但也让你在这句话上卡住了。",
+  "usage": {
+    "input_tokens": 3808,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 45,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3853,
+    "x_details": [
+      {
+        "input_tokens": 3808,
+        "output_tokens": 45,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3853,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.875,
+  "model": "qwen3.7-flash-2026-07-15"
+}

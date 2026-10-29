@@ -1,0 +1,49 @@
+{
+  "synthetic": true,
+  "created_at": "2026-10-13T08:11:03.613147+00:00",
+  "nodes": {
+    "N01": {
+      "case_id": "C01",
+      "session": 3,
+      "current_utterance_id": "C01-S03-U01",
+      "public_input_sha256": "8a3293f599e1b9e2e9033635346f3489d597041bc38dbb5bf24c050572bd2509",
+      "selection": "exploratory; actual dialogue unchanged"
+    },
+    "N02": {
+      "case_id": "C01",
+      "session": 8,
+      "current_utterance_id": "C01-S08-U03",
+      "public_input_sha256": "070d1a39cc5ed07e610c8d2cabe27ec34d50dcf2024d9034286e5e7306afe3bf",
+      "selection": "exploratory; actual dialogue unchanged"
+    },
+    "N03": {
+      "case_id": "C02",
+      "session": 5,
+      "current_utterance_id": "C02-S05-U01",
+      "public_input_sha256": "92ab94fc2614355c5d0853771b059f6012b3a751387f48815aa2292d92486828",
+      "selection": "exploratory; actual dialogue unchanged"
+    },
+    "N04": {
+      "case_id": "C02",
+      "session": 8,
+      "current_utterance_id": "C02-S08-U11",
+      "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+      "selection": "exploratory; actual dialogue unchanged"
+    },
+    "N05": {
+      "case_id": "C03",
+      "session": 2,
+      "current_utterance_id": "C03-S02-U01",
+      "public_input_sha256": "cd1dabc08a1fece190d1d9eb7a9895a3ab7beca01f518a99eb6740a383aed5f5",
+      "selection": "exploratory; actual dialogue unchanged"
+    },
+    "N06": {
+      "case_id": "C03",
+      "session": 3,
+      "current_utterance_id": "C03-S03-U01",
+      "public_input_sha256": "8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+      "selection": "exploratory; actual dialogue unchanged"
+    }
+  },
+  "notice": "Selected after original node gate failed. No new cases or edited utterances. Candidate selection saw later dialogue; independent raters receive only frozen public evidence."
+}

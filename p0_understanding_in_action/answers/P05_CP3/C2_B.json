@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP3",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "14724036c62c676e3dd9d67c696b12b6329232da42a7b54a322b28e2f9057621",
+  "request_sha256": "c786866dc3e212956be67c4d3310246db37e3ccfc79fb940476612dc8cd26e55",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你希望她当时能多问一句，可又觉得自己“贪心”——好像连被接住都只敢要一点点，还要先替对方原谅。也许那个“贪心”不是过分，而是你终于承认自己其实想要更多回应。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3386,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3438,
+    "x_details": [
+      {
+        "input_tokens": 3386,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3438,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

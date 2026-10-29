@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP1",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "eec608cc14f44ef760a629b7a630952b90ef036bae4a42591d5dbac6a193d87f",
+  "request_sha256": "9af9946dd7880a75b2919103e3c936cf766330760de48ee5db24700069b5a13b",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来你已经把报名的事放在最前面，也在具体算搬过去要添多少，这是你现在能抓住的确定感。赵岩那边，那句谢谢说不出口，好像不只是怕欠人情，更像是怕承认自己那一刻确实需要被接住。我们先从报名这一头往下走，赵岩的事可以等你想碰的时候再回来。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3221,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 71,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3292,
+    "x_details": [
+      {
+        "input_tokens": 3221,
+        "output_tokens": 71,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3292,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

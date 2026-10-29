@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP2",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "13d475f871d1eea3b3b22e029c3d6742508ab58e8ce1a68741ddc17e088e0279",
+  "request_sha256": "02c757d4c287626a935ef6e4e9d2731b086a712f1180c8bc62c63cd978e52e10",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你在那门口站了半小时，脑子里全是妈妈会不会一直问“你爸去哪了”、护工会不会不耐烦——好像你连想象“有人搭把手”的时候，都先替所有人把最坏的情况想完了。可那句“哪怕就让我睡个整觉”，听起来是你真的很累，累到连休息都成了一种奢望。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 5984,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 72,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6056,
+    "x_details": [
+      {
+        "input_tokens": 5984,
+        "output_tokens": 72,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6056,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

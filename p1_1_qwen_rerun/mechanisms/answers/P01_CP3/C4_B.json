@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "8fe6237b326d894dca6052f3c16012af2dddf27a30e778170adfab7f92a042c5",
+  "request_sha256": "42d36efd5fd84befe5c276bcb085383f139f7c896ac3e156e775ae62537ef7da",
+  "memory_sha256": "27325897392d1541d8a38c189f16ed66d4c3c7ac5a127bf1517537265832f94f",
+  "memory_source": "f73b5627707f27059980ba25f54798b5ae1b58dd70ec2add3546616cdb6516af",
+  "raw_text": "你把手指停在点赞那里却没点下去，好像连表达一点点的关注，都怕显得太刻意或太嫉妒。那种“不该有这种情绪”的自责，似乎比嫉妒本身更让你难受。",
+  "usage": {
+    "input_tokens": 10123,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 44,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10167,
+    "x_details": [
+      {
+        "input_tokens": 10123,
+        "output_tokens": 44,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10167,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.375,
+  "model": "qwen3.7-flash-2026-07-15"
+}

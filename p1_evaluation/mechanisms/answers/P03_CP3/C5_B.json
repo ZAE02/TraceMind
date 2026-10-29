@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP3",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "a7cd5c394a009bf84aee67898166f398622483356482c57ed6d302931d40a74a",
+  "request_sha256": "ccfa24e2b7e2335fd052478d91e3707fff292306051f75e5d0f2f75f1b880291",
+  "memory_sha256": "9712cbeec420d2716851fb7799413771719caa34773ab1bc7cc6f739f7625483",
+  "memory_source": "47bb9b25ede59fff5225406bd28228685a0f7ae2eed9b7c6233b1547271f8660",
+  "raw_text": "你眼睛更热，却还在这里接着讲，这本身就不是“只是硬着头皮没下去”能概括的。也许“撑全场”这个词让你觉得太重，像在夸你，可你当时心里那句“别跑，先把这一页讲完”，确实是你自己对自己说的，不是别人逼你的。",
+  "usage": {
+    "input_tokens": 11994,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 67,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12061,
+    "x_details": [
+      {
+        "input_tokens": 11994,
+        "output_tokens": 67,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 12061,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.015,
+  "model": "deepseek-v4-pro-0813"
+}

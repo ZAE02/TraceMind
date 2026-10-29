@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"回应聚焦于当前邮件悬置状态，未自然连接来访者此前反复出现的'欠费停机''关机后怕屏幕不亮'等核心隐喻模式，仅泛泛触及悬而未决的主题。\",\"exploration_value\":\"用封闭式反问将悬而未决直接等同于疲惫，虽贴合来访者的耗竭体验，但收窄了探索空间，未给来访者留出表达打开邮件背后更复杂期待或恐惧的余地。\",\"response_appropriateness\":\"语言温和、尊重来访者节奏，没有武断下结论，但'灯泡'意象与来访者原话略有错位，整体仍属自然可接受。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那个没点开的邮件，像不像你手里攥着的那颗'灯泡'——既怕它彻底灭了，又不敢去确认它到底还亮不亮？\",\"evidence_ids\":[\"P07-S01-U07\",\"P07-S01-U09\",\"P07-S03-U09\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"未将来访者对试稿邮件的恐惧与此前'关机后怕屏幕按不亮'的核心担忧做有机连接，错失了深化理解的机会。\",\"'是不是比直接面对结果更让你感到疲惫？'为引导性较强的封闭反问，可能压缩来访者自主表达的空间。\",\"'手里攥着的灯泡'意象与来访者原文'躺在收件箱里没点开'及'最后那颗证明确实灭了的灯泡'存在轻微偏差，来访者并未描述'攥着'的动作。\"]}",
+  "request_sha256": "3436ecb22cfee5c531f30ff64487ea0f710c4d4483b151b4d3a95ace50d2fbba",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 8570,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 425,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8995,
+    "x_details": [
+      {
+        "input_tokens": 8570,
+        "output_tokens": 425,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8995,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

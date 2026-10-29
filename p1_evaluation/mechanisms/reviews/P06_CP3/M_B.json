@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "M",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reason": {
+      "history_utilization": "精准承接了S07-U07中“像在监工”的矛盾心理，并自然关联到S07-U09的具体行为（拉平被角、补话），未机械复述。",
+      "exploration_value": "将具体的防御性行为（整理被子）与内在的心理冲突（想藏起‘监工’自我）建立联系，通过询问对沉默的反应，为探索来访者的羞耻感和关系焦虑留出空间。",
+      "response_appropriateness": "语言细腻且具象，准确捕捉到来访者行为背后的掩饰意图，语气尊重且不带评判，贴合当前咨询节点。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 4\n  },\n  \"brief_reason\": {\n    \"history_utilization\": \"精准承接了S07-U07中“像在监工”的矛盾心理，并自然关联到S07-U09的具体行为（拉平被角、补话），未机械复述。\",\n    \"exploration_value\": \"将具体的防御性行为（整理被子）与内在的心理冲突（想藏起‘监工’自我）建立联系，通过询问对沉默的反应，为探索来访者的羞耻感和关系焦虑留出空间。\",\n    \"response_appropriateness\": \"语言细腻且具象，准确捕捉到来访者行为背后的掩饰意图，语气尊重且不带评判，贴合当前咨询节点。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "36bf86b77b7ef3245b9c45fb7b89e2e242cfd5fae354e593884dcea0b01b9a04",
+  "usage": {
+    "input_tokens": 21624,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 354,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21978,
+    "x_details": [
+      {
+        "input_tokens": 21624,
+        "output_tokens": 354,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 21978,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.5,
+  "model": "qwen3.7-flash-2026-07-15"
+}

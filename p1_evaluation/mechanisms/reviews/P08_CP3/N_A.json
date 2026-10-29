@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P08_CP3",
+  "candidate_id": "N",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答详尽地回溯了从第1次到第6次咨询的所有关键事件（如赵岩的帮忙、边界冲突、家庭压力、借钱困境等），所有陈述均有明确的对话原文支持，未出现无据猜测。",
+      "progress_understanding": "准确捕捉了来访者在关系认知上的核心转折：从怀疑赵岩“别有用心”到被其家人点破“太要强”，以及由此引发的身份认同松动和应对方式失效。同时清晰梳理了现实困境（报名、借钱）与心理防御（怕欠、怕示弱）的交织。",
+      "uncertainty_awareness": "识别了来访者当前“知道有办法但觉得晚了/用不上”的认知滞后状态，以及面对新关系动态时的迷茫。但在区分“已确认的模式”与“仍需验证的具体恐惧”方面，略显笼统，未像参考标注那样精确指出“觉得晚了”背后的具体恐惧点（时间不够 vs 承认错误）。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答详尽地回溯了从第1次到第6次咨询的所有关键事件（如赵岩的帮忙、边界冲突、家庭压力、借钱困境等），所有陈述均有明确的对话原文支持，未出现无据猜测。\",\n    \"progress_understanding\": \"准确捕捉了来访者在关系认知上的核心转折：从怀疑赵岩“别有用心”到被其家人点破“太要强”，以及由此引发的身份认同松动和应对方式失效。同时清晰梳理了现实困境（报名、借钱）与心理防御（怕欠、怕示弱）的交织。\",\n    \"uncertainty_awareness\": \"识别了来访者当前“知道有办法但觉得晚了/用不上”的认知滞后状态，以及面对新关系动态时的迷茫。但在区分“已确认的模式”与“仍需验证的具体恐惧”方面，略显笼统，未像参考标注那样精确指出“觉得晚了”背后的具体恐惧点（时间不够 vs 承认错误）。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "c0b1d819e19b22f5e5d1899e0938c642bf4a26781280d3eaf1277b3d8cc61f3d",
+  "usage": {
+    "input_tokens": 20034,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 283,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20317,
+    "x_details": [
+      {
+        "input_tokens": 20034,
+        "output_tokens": 283,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 20317,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.656,
+  "model": "qwen3.7-flash-2026-07-15"
+}

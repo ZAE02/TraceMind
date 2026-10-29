@@ -1,0 +1,68 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "L",
+  "task": "B",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者当前关于压抑愤怒和'刚到不久'的自我觉察，并自然联系到前序会话中反复出现的自我审查模式，未机械复述历史。",
+      "exploration_value": "以'只有表现得毫无怨言才是安全的'这一假设性问句为来访者的核心恐惧留出表达空间，推进了对情绪压抑背后信念的理解，但略带引导性。",
+      "response_appropriateness": "语言自然、共情到位，'连让自己生气的权利都要先经过批准'贴合来访者原话；但将'安全'作为框架引入稍有预设色彩，整体仍属尊重且恰当。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "是不是让你觉得，只有表现得毫无怨言，才是安全的？",
+        "evidence_ids": [
+          "P01-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "回应末尾的问句引入了'安全'这一概念框架，虽以疑问形式呈现，但对来访者尚未明确表达的动机做了轻微预设（参考标注亦指出咨询师此前有类似推测倾向）。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前关于压抑愤怒和'刚到不久'的自我觉察，并自然联系到前序会话中反复出现的自我审查模式，未机械复述历史。\",\"exploration_value\":\"以'只有表现得毫无怨言才是安全的'这一假设性问句为来访者的核心恐惧留出表达空间，推进了对情绪压抑背后信念的理解，但略带引导性。\",\"response_appropriateness\":\"语言自然、共情到位，'连让自己生气的权利都要先经过批准'贴合来访者原话；但将'安全'作为框架引入稍有预设色彩，整体仍属尊重且恰当。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"是不是让你觉得，只有表现得毫无怨言，才是安全的？\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"回应末尾的问句引入了'安全'这一概念框架，虽以疑问形式呈现，但对来访者尚未明确表达的动机做了轻微预设（参考标注亦指出咨询师此前有类似推测倾向）。\"]}",
+  "request_sha256": "64932b9419f630039cbb5a52c1e0d7787729d2b7f6eacc159b8ea9fe60e5f759",
+  "usage": {
+    "input_tokens": 9709,
+    "input_tokens_details": {
+      "cached_tokens": 5376
+    },
+    "output_tokens": 311,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10020,
+    "x_details": [
+      {
+        "input_tokens": 9709,
+        "output_tokens": 311,
+        "prompt_tokens_details": {
+          "cached_tokens": 5376
+        },
+        "total_tokens": 10020,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.391
+}

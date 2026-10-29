@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP1",
+  "condition": "direct",
+  "task": "B",
+  "input_sha256": "6d9d0c2dbea1f8af8bf1d59fe6988fce2283ea0f4a417c84881257b133a3e62b",
+  "request_sha256": "2cb211e450bfeae6ea25d817d60a9d8f1c950ea6bb56790830f8dbcf07e014a0",
+  "memory_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "memory_source": null,
+  "raw_text": "你明明手都冻僵了，却还要用“我也刚到不久”来抹平对方的内疚，甚至不敢让自己生一点气。这种对“生气就会变成难搞的人”的恐惧，似乎让你连真实的感受都不敢认领。",
+  "usage": {
+    "input_tokens": 3658,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 51,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3709,
+    "x_details": [
+      {
+        "input_tokens": 3658,
+        "output_tokens": 51,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3709,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.859,
+  "model": "qwen3.7-flash-2026-07-15"
+}

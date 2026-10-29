@@ -1,0 +1,73 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "M",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者'希望被追问又预设自己只会说没事'的矛盾，并联系到历史中反复出现的自我否定模式，但未显式呼应本次会话中刚浮现的'矫情'自我批判或删动态等具体细节。",
+      "exploration_value": "将表面矛盾深化为'没有资格去解释或求助'的核心信念探索，方向有价值且开放，但略带咨询师推断色彩，可能稍快于来访者当前节奏。",
+      "response_appropriateness": "语言温和、共情到位，'也许'一词保留了不确定性；但'没有资格'这一表述是咨询师的推论而非来访者原话，存在轻微过度诠释风险。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "你真正害怕的不是被看穿，而是即便她真的看见了，你也依然觉得自己没有资格去解释或求助",
+        "evidence_ids": [
+          "P05-S05-U09",
+          "P05-S02-U07",
+          "P05-S04-U07"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'没有资格去解释或求助'作为来访者'真正害怕'的内容提出，虽有历史依据（如怕被认为差劲、怕暴露过得不好），但属于咨询师的深层推断，来访者尚未明确表达过'没资格'这一概念，存在轻微的unsupported_presupposition风险。",
+      "未直接回应来访者最后一句关于'动态发不发都改变不了什么'的表达无力感，遗漏了当前话语中的一个重要情绪落点。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'希望被追问又预设自己只会说没事'的矛盾，并联系到历史中反复出现的自我否定模式，但未显式呼应本次会话中刚浮现的'矫情'自我批判或删动态等具体细节。\",\"exploration_value\":\"将表面矛盾深化为'没有资格去解释或求助'的核心信念探索，方向有价值且开放，但略带咨询师推断色彩，可能稍快于来访者当前节奏。\",\"response_appropriateness\":\"语言温和、共情到位，'也许'一词保留了不确定性；但'没有资格'这一表述是咨询师的推论而非来访者原话，存在轻微过度诠释风险。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你真正害怕的不是被看穿，而是即便她真的看见了，你也依然觉得自己没有资格去解释或求助\",\"evidence_ids\":[\"P05-S05-U09\",\"P05-S02-U07\",\"P05-S04-U07\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'没有资格去解释或求助'作为来访者'真正害怕'的内容提出，虽有历史依据（如怕被认为差劲、怕暴露过得不好），但属于咨询师的深层推断，来访者尚未明确表达过'没资格'这一概念，存在轻微的unsupported_presupposition风险。\",\"未直接回应来访者最后一句关于'动态发不发都改变不了什么'的表达无力感，遗漏了当前话语中的一个重要情绪落点。\"]}",
+  "request_sha256": "d6db4a8afc8af2fc18509f16c4df7dafc5c752e0d087314c7473857d3297132a",
+  "usage": {
+    "input_tokens": 15442,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 407,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15849,
+    "x_details": [
+      {
+        "input_tokens": 15442,
+        "output_tokens": 407,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 15849,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.656,
+  "model": "qwen3.8-max"
+}

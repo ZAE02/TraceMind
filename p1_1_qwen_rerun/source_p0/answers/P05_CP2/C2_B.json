@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP2",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "88d6b3c52b97a47bffbe8f56ab13e85df0785d4bb490295bb0454fd07a70672b",
+  "request_sha256": "6ed5f83331ed50ef0a3d5af8cc91cd16762213328d8370a80176d1df66201e17",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你既希望她直接跑来打破你的借口，又预设了自己会退缩说“没事”，这种对立的期待让你陷入了更深的无力感。那条没发出去、现在觉得也改变不了什么的动态，似乎成了你此刻最真实的写照：想靠近又怕受伤，最后只能停在原地。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3327,
+    "input_tokens_details": {
+      "cached_tokens": 3200
+    },
+    "output_tokens": 61,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3388,
+    "x_details": [
+      {
+        "input_tokens": 3327,
+        "output_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 3200
+        },
+        "total_tokens": 3388,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

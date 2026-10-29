@@ -1,0 +1,86 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N01",
+  "condition": "H1_session",
+  "sample": 1,
+  "public_input_sha256": "8a3293f599e1b9e2e9033635346f3489d597041bc38dbb5bf24c050572bd2509",
+  "request_sha256": "a605fd09578bdc1e455d48108d0219f00485a28b9d3e0bf54b2375bbe637e094",
+  "context_sha256": "b81bdc8705fe9cdd2e4d637837532c4a38550c678ec413d4875ab6c901005a5d",
+  "call_id": "9e167cf0692b46c1b9bea1403f822293",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:25:50.580594+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者在母亲体检这件事上经历了从担忧到确认无大碍的过程\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者在完成工作后仍有再次检查的倾向，且用'又'字暗示这不是首次\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"tentative\"\n    },\n    {\n      \"claim\": \"来访者倾向于用轻描淡写的方式表达自身体验（'有点乱''就是……又过了'）\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"moderate\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'乱'具体指向什么——是情绪上的、节奏上的、还是关系上的\",\n    \"对母亲健康的担忧在体检前持续了多久、强度如何\",\n    \"'又打开电脑'是出于焦虑、习惯、还是项目本身的紧迫性\",\n    \"'又过了'所指的重复模式具体是什么、从什么时候开始\"\n  ],\n  \"next_focus\": \"探索'又过了'这个表达背后的含义——它暗示了一种重复模式，同时语气上带有轻描淡写，值得温和地打开\",\n  \"next_counselor_utterance\": \"你最后说'又过了'——这个'又'让我好奇，它听起来像是某种你已经很熟悉的东西。能多说一点吗，'又'的是什么？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者在母亲体检这件事上经历了从担忧到确认无大碍的过程",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者在完成工作后仍有再次检查的倾向，且用'又'字暗示这不是首次",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "tentative"
+      },
+      {
+        "claim": "来访者倾向于用轻描淡写的方式表达自身体验（'有点乱''就是……又过了'）",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "moderate"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'乱'具体指向什么——是情绪上的、节奏上的、还是关系上的",
+      "对母亲健康的担忧在体检前持续了多久、强度如何",
+      "'又打开电脑'是出于焦虑、习惯、还是项目本身的紧迫性",
+      "'又过了'所指的重复模式具体是什么、从什么时候开始"
+    ],
+    "next_focus": "探索'又过了'这个表达背后的含义——它暗示了一种重复模式，同时语气上带有轻描淡写，值得温和地打开",
+    "next_counselor_utterance": "你最后说'又过了'——这个'又'让我好奇，它听起来像是某种你已经很熟悉的东西。能多说一点吗，'又'的是什么？"
+  },
+  "usage": {
+    "input_tokens": 352,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 900,
+    "output_tokens_details": {
+      "reasoning_tokens": 527
+    },
+    "total_tokens": 1252,
+    "x_details": [
+      {
+        "input_tokens": 352,
+        "input_tokens_details": {
+          "text_tokens": 352
+        },
+        "output_tokens": 900,
+        "output_tokens_details": {
+          "reasoning_tokens": 527
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1252,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C01-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

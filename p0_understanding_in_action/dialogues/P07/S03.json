@@ -1,0 +1,504 @@
+{
+  "case_id": "P07",
+  "session": 3,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P07-S03-U01",
+      "role": "client",
+      "text": "婚礼……还行，去了一下。就是那种，你知道的，表面热闹得像所有人都被按了播放键，只有我坐在那里快进不了。有人问我自由职业是不是不稳定，还热心地建议我考虑考编，我笑着说不急不急，心里其实只想把喜糖塞进对方嘴里。",
+      "request_sha256": "0afe563e5fc294acb7730206c2697fdf55c592e02047f424aa6504ae4a44fb06",
+      "usage": {
+        "input_tokens": 3391,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 385,
+        "output_tokens_details": {
+          "reasoning_tokens": 320
+        },
+        "total_tokens": 3776,
+        "x_details": [
+          {
+            "input_tokens": 3391,
+            "output_tokens": 385,
+            "output_tokens_details": {
+              "reasoning_tokens": 320
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3776,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U02",
+      "role": "counselor",
+      "text": "去了一下，听起来你像是在一个所有人都踩着节拍往前走的热闹里，硬把自己按在座位上，那种“快进不了”的感觉可能比没去更累。特别是被人问起自由职业、还被建议考编的时候，你表面笑着说“不急”，心里却堵得慌——好像别人用关心的语气，把你现在的生活当成需要被修正的问题。",
+      "request_sha256": "db4c5a2d8df8c34d132edf782b45b7e7fbb1f21a4e8001f45ef4489706da1067",
+      "usage": {
+        "input_tokens": 2754,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 291,
+        "output_tokens_details": {
+          "reasoning_tokens": 214
+        },
+        "total_tokens": 3045,
+        "x_details": [
+          {
+            "input_tokens": 2754,
+            "output_tokens": 291,
+            "output_tokens_details": {
+              "reasoning_tokens": 214
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 3045,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U03",
+      "role": "client",
+      "text": "对，就是那种被当成落后分子的感觉。其实我连一个小时都没坐满，提前走了，回来路上删了几个刚加的人。删到那个以前挺尊敬的学长时，我停了一下，还是删了。",
+      "request_sha256": "e4517c2d4550fc7f83b91430569261fb1cf2a21d0ae65e4e8df5a0c8a4560754",
+      "usage": {
+        "input_tokens": 3579,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 816,
+        "output_tokens_details": {
+          "reasoning_tokens": 769
+        },
+        "total_tokens": 4395,
+        "x_details": [
+          {
+            "input_tokens": 3579,
+            "output_tokens": 816,
+            "output_tokens_details": {
+              "reasoning_tokens": 769
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4395,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U04",
+      "role": "counselor",
+      "text": "删到学长时停了一下，说明这段关系对你来说并不完全是“加错了”或“不重要”的。你提前离场又删人，像是想从那种被当成落后分子的难受里赶快逃出来，可删掉一个曾经尊敬的人，也许还带着一点别的什么——比如失望，或者不想让对方看到自己现在的样子？",
+      "request_sha256": "56dfbfa837ff7ddcf10cd9db60b835a4800cbea396b81c10b19c1ac80b135d7f",
+      "usage": {
+        "input_tokens": 2923,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 196,
+        "output_tokens_details": {
+          "reasoning_tokens": 123
+        },
+        "total_tokens": 3119,
+        "x_details": [
+          {
+            "input_tokens": 2923,
+            "output_tokens": 196,
+            "output_tokens_details": {
+              "reasoning_tokens": 123
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3119,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U05",
+      "role": "client",
+      "text": "其实停那一下，不是失望，是突然想起他以前帮我看过画，还夸过我笔触有灵气。现在留着也只会提醒我，我和那个“有灵气”的人越走越远了。删完确实松了口气，可马上又觉得自己挺幼稚的，三十岁还做这种清空列表的事。",
+      "request_sha256": "e17e3a71a77993545e906b05cdaa43002eebed1739213893ce631c233b916509",
+      "usage": {
+        "input_tokens": 3744,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 552,
+        "output_tokens_details": {
+          "reasoning_tokens": 483
+        },
+        "total_tokens": 4296,
+        "x_details": [
+          {
+            "input_tokens": 3744,
+            "output_tokens": 552,
+            "output_tokens_details": {
+              "reasoning_tokens": 483
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4296,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U06",
+      "role": "counselor",
+      "text": "你删掉学长时停的那一下，好像不只是对这个人，而是对那个被他夸过“有灵气”的自己——留下他就会一直提醒你离那个自己越来越远。删完松了口气，又觉得自己三十岁还做清空列表这种事很幼稚，好像连给自己减少一点刺痛的方式，你都要先批评自己一顿。",
+      "request_sha256": "0054eef76f918cdaf67aff004da1a349e84eb4ce44870bd5de50288c2d70a9cb",
+      "usage": {
+        "input_tokens": 3110,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 690,
+        "output_tokens_details": {
+          "reasoning_tokens": 620
+        },
+        "total_tokens": 3800,
+        "x_details": [
+          {
+            "input_tokens": 3110,
+            "output_tokens": 690,
+            "output_tokens_details": {
+              "reasoning_tokens": 620
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3800,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U07",
+      "role": "client",
+      "text": "其实删完我也没想太多，就是觉得手机里少了一个会让我突然心虚的名字。现在想想，他夸我灵气那会儿，我可能自己也不怎么信，就记得被夸的时候挺高兴，后来每次画不下去都会想，是不是那点东西早就用完了。",
+      "request_sha256": "715781ad69e5251449dd48bc1b6dfb1bfee325f2e4525a7b99ca3eb869619bfd",
+      "usage": {
+        "input_tokens": 3928,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 187,
+        "output_tokens_details": {
+          "reasoning_tokens": 126
+        },
+        "total_tokens": 4115,
+        "x_details": [
+          {
+            "input_tokens": 3928,
+            "output_tokens": 187,
+            "output_tokens_details": {
+              "reasoning_tokens": 126
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4115,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U08",
+      "role": "counselor",
+      "text": "被夸时的高兴好像是真的，信不信却又是另一回事——现在画不下去的时候，那个“灵气早就用完了”的念头就冒出来，像是一句对自己下的判决。也许更让你无力的不是画不出来，而是每次停下来，都要重新确认一遍“自己已经不是那个人了”。",
+      "request_sha256": "020c9ae07c0b15a59baccd5ab1dc51a02651539d9bb531263062c0cf7c3eb4d2",
+      "usage": {
+        "input_tokens": 3286,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 316,
+        "output_tokens_details": {
+          "reasoning_tokens": 252
+        },
+        "total_tokens": 3602,
+        "x_details": [
+          {
+            "input_tokens": 3286,
+            "output_tokens": 316,
+            "output_tokens_details": {
+              "reasoning_tokens": 252
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3602,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U09",
+      "role": "client",
+      "text": "可能我一直把“灵气”当成一个开关，要么亮着，要么早就烧坏了。这周其实有个绘本试稿，稿费比平时高不少，邮件到现在还躺在收件箱里没点开——也不是不想接，是怕一打开就变成最后那颗证明确实灭了的灯泡。",
+      "request_sha256": "f8d4c0271a4cde983d0ee7361c6adcf74c9bfe3c2da652931165b8840fe1b71f",
+      "usage": {
+        "input_tokens": 4098,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 871,
+        "output_tokens_details": {
+          "reasoning_tokens": 805
+        },
+        "total_tokens": 4969,
+        "x_details": [
+          {
+            "input_tokens": 4098,
+            "output_tokens": 871,
+            "output_tokens_details": {
+              "reasoning_tokens": 805
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4969,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U10",
+      "role": "counselor",
+      "text": "你怕的好像不是试稿本身，而是打开邮件后可能不得不面对一个答案：那颗灯泡是不是真的不亮了。所以不点开，反而还能让“灵气也许还在”这件事暂时悬着，给自己留一点余地。",
+      "request_sha256": "287929d71407f2ec6d6af51171b1d0b4d0b6d218305bbdada1c336935c261936",
+      "usage": {
+        "input_tokens": 3461,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 279,
+        "output_tokens_details": {
+          "reasoning_tokens": 229
+        },
+        "total_tokens": 3740,
+        "x_details": [
+          {
+            "input_tokens": 3461,
+            "output_tokens": 279,
+            "output_tokens_details": {
+              "reasoning_tokens": 229
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3740,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U11",
+      "role": "client",
+      "text": "其实那个邮件也不是多重，就是每次划过去，都觉得它在替别人问我：你还能不能画。我甚至已经想好怎么回复周姐了，就说最近档期排得太满，接不了。可这个借口说出来，自己都觉得虚，像往墙上贴一层湿墙纸。",
+      "request_sha256": "5863546e9ae8d17efd1a658bc11648e6052f0f94fe76ee0153b979abc115b4e4",
+      "usage": {
+        "input_tokens": 4266,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 373,
+        "output_tokens_details": {
+          "reasoning_tokens": 310
+        },
+        "total_tokens": 4639,
+        "x_details": [
+          {
+            "input_tokens": 4266,
+            "output_tokens": 373,
+            "output_tokens_details": {
+              "reasoning_tokens": 310
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4639,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U12",
+      "role": "counselor",
+      "text": "听起来那个借口是你想先把自己从“你还能不能画”这个问题前挡一挡，可它又像湿墙纸，贴上去也不牢，自己都觉得虚。也许你不是不想接，而是怕一接，就要亲自去按那个还不知道会不会亮的开关。",
+      "request_sha256": "943918723e2c1b4be2da996a77a850f824f53989af4f8f1953fa987e99385971",
+      "usage": {
+        "input_tokens": 3626,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 124,
+        "output_tokens_details": {
+          "reasoning_tokens": 66
+        },
+        "total_tokens": 3750,
+        "x_details": [
+          {
+            "input_tokens": 3626,
+            "output_tokens": 124,
+            "output_tokens_details": {
+              "reasoning_tokens": 66
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3750,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U13",
+      "role": "client",
+      "text": "那个湿墙纸的比喻，我好像特别熟，每次编理由都像趁墙没干赶紧贴，可心里清楚一碰就掉。其实这周我连那封邮件标题都没看完，只扫到“试稿”两个字，就往下划了。不是不想点，是怕点开之后，连“不想接”这个选项都要费力气解释。可能我就是在等它自己过期吧，跟那张请柬一样。",
+      "request_sha256": "8123c5cd34b86668e011bf81148ddf954fea71a02c29b58912bcbe8371ef06bd",
+      "usage": {
+        "input_tokens": 4432,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 448,
+        "output_tokens_details": {
+          "reasoning_tokens": 352
+        },
+        "total_tokens": 4880,
+        "x_details": [
+          {
+            "input_tokens": 4432,
+            "output_tokens": 448,
+            "output_tokens_details": {
+              "reasoning_tokens": 352
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4880,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U14",
+      "role": "counselor",
+      "text": "听起来连“不接”都需要费力气解释，所以你宁可让它像请柬一样，等时间替你过期——可它又一直在收件箱里，不点开也没真的离开。这周先停在这里吧，那封邮件可以继续躺着，不用现在决定。",
+      "request_sha256": "ccfa1796e571efec44cd70f36df5e8700c0f2a717918fa057e00bee32583849e",
+      "usage": {
+        "input_tokens": 3825,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 233,
+        "output_tokens_details": {
+          "reasoning_tokens": 174
+        },
+        "total_tokens": 4058,
+        "x_details": [
+          {
+            "input_tokens": 3825,
+            "output_tokens": 233,
+            "output_tokens_details": {
+              "reasoning_tokens": 174
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4058,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U15",
+      "role": "client",
+      "text": "其实我今晚本来打算回去就把它删了，可又觉得删邮件跟删人不一样，人删了就不会再出现，邮件删了，人家那边还会再问一句。那感觉就像门没锁，但我不想听到敲门声。不过今天先这样吧，我回去可能就只喂个猫，别的都不想动。",
+      "request_sha256": "4ad478b02c798afd73d359743bd45e6f041f64588ab34bcc7dea4d2df4ac4b45",
+      "usage": {
+        "input_tokens": 4632,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 289,
+        "output_tokens_details": {
+          "reasoning_tokens": 217
+        },
+        "total_tokens": 4921,
+        "x_details": [
+          {
+            "input_tokens": 4632,
+            "output_tokens": 289,
+            "output_tokens_details": {
+              "reasoning_tokens": 217
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4921,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S03-U16",
+      "role": "counselor",
+      "text": "听起来你已经撑过了不少——去婚礼、提前离场、删掉一些人，现在还想着怎么面对那封邮件和可能的“再问一句”。今晚先不急着处理这些，回去喂猫、什么都不想动，也是可以的。那扇门没锁，敲门声你可以暂时不听。",
+      "request_sha256": "64f91ad6eff6b7925337e728e808cd07b63708decc45ae1dbd73e7663024ba48",
+      "usage": {
+        "input_tokens": 4001,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 258,
+        "output_tokens_details": {
+          "reasoning_tokens": 196
+        },
+        "total_tokens": 4259,
+        "x_details": [
+          {
+            "input_tokens": 4001,
+            "output_tokens": 258,
+            "output_tokens_details": {
+              "reasoning_tokens": 196
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4259,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,48 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Most claims are well-supported by cited utterances across sessions 1-4. However, '不给人添麻烦' is an interpretive extrapolation not directly stated by the client, and the summary omits all session 5 evidence despite it being part of the current dialogue.",
+      "progress_understanding": "The response accurately traces evolving patterns from sessions 1-4 (review incident → core group removal → teaching Xiao Zhao → Li Fan/old shoes), but completely ignores session 5 developments: the client's crying episode, deleting the draft post, self-criticism as '矫情', and the specific push-pull dynamic with Li Fan's '好' reply. This is a significant gap at CP2/session 5.",
+      "uncertainty_awareness": "Unresolved questions are reasonable but somewhat generic and therapy-goal-oriented rather than precisely reflecting the client's current stuck points. Notably missing are the client's explicit uncertainties from session 5: whether they're deliberately making excuses, the paradox of wanting Li Fan to come but knowing they'd deflect, and the feeling that posting changes nothing."
+    },
+    "confidence": "high",
+    "issues": [
+      "Completely omits session 5 content (crying in bathroom, deleting draft post, '矫情' self-criticism, Li Fan's '好' reply dilemma) which is critical for CP2 assessment",
+      "Uses interpretive phrase '不给人添麻烦' not directly evidenced in client speech",
+      "Unresolved questions lean toward generic therapeutic goals rather than client's specific articulated uncertainties"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"Most claims are well-supported by cited utterances across sessions 1-4. However, '不给人添麻烦' is an interpretive extrapolation not directly stated by the client, and the summary omits all session 5 evidence despite it being part of the current dialogue.\",\"progress_understanding\":\"The response accurately traces evolving patterns from sessions 1-4 (review incident → core group removal → teaching Xiao Zhao → Li Fan/old shoes), but completely ignores session 5 developments: the client's crying episode, deleting the draft post, self-criticism as '矫情', and the specific push-pull dynamic with Li Fan's '好' reply. This is a significant gap at CP2/session 5.\",\"uncertainty_awareness\":\"Unresolved questions are reasonable but somewhat generic and therapy-goal-oriented rather than precisely reflecting the client's current stuck points. Notably missing are the client's explicit uncertainties from session 5: whether they're deliberately making excuses, the paradox of wanting Li Fan to come but knowing they'd deflect, and the feeling that posting changes nothing.\"},\"confidence\":\"high\",\"issues\":[\"Completely omits session 5 content (crying in bathroom, deleting draft post, '矫情' self-criticism, Li Fan's '好' reply dilemma) which is critical for CP2 assessment\",\"Uses interpretive phrase '不给人添麻烦' not directly evidenced in client speech\",\"Unresolved questions lean toward generic therapeutic goals rather than client's specific articulated uncertainties\"]}",
+  "request_sha256": "ed1f47af3bb5a0813dc643d0fb22235e52b88817e48bc41f146b588f1e61d9d6",
+  "usage": {
+    "input_tokens": 14079,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 335,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14414,
+    "x_details": [
+      {
+        "input_tokens": 14079,
+        "output_tokens": 335,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14414,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.422
+}

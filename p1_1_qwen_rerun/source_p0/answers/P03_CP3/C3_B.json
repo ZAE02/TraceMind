@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "ad886e04be1d8acc90b454599fdb933e4942dc4712e8c787c7908d33000cbcd9",
+  "request_sha256": "b8d186eab6d2e85b74ade5f8f7f56f7d499b6c33671e1a425cffc6d8570d1e54",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你怕自己只是硬着头皮没下去，是因为那个“别跑”的声音太微弱，让你不敢确信那是你自己的力量。但那一刻你没逃，这本身就是一种真实的撑住。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 9498,
+    "input_tokens_details": {
+      "cached_tokens": 896
+    },
+    "output_tokens": 39,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9537,
+    "x_details": [
+      {
+        "input_tokens": 9498,
+        "output_tokens": 39,
+        "prompt_tokens_details": {
+          "cached_tokens": 896
+        },
+        "total_tokens": 9537,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

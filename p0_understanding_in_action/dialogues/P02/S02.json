@@ -1,0 +1,504 @@
+{
+  "case_id": "P02",
+  "session": 2,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P02-S02-U01",
+      "role": "client",
+      "text": "其实我上周还是去找护士长了，就提了晚班能不能调开，她只说“再协调看看”。我等到新排班出来，发现没动晚班，就多补了半天调休。我拿着那半天，也不知道该高兴还是更气，好像被塞了块糖打发了一下。",
+      "request_sha256": "f1aaf8d62b590484816b7b942b6f2cbc7a8bb478018be97c6d1f966cd3e5a2d4",
+      "usage": {
+        "input_tokens": 1775,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 343,
+        "output_tokens_details": {
+          "reasoning_tokens": 277
+        },
+        "total_tokens": 2118,
+        "x_details": [
+          {
+            "input_tokens": 1775,
+            "output_tokens": 343,
+            "output_tokens_details": {
+              "reasoning_tokens": 277
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 2118,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U02",
+      "role": "counselor",
+      "text": "你鼓起勇气去提了，结果晚班还是没动，只多了半天调休。这半天拿在手里，高兴像在承认被敷衍，生气又好像没处放，所以才那么别扭。",
+      "request_sha256": "c3c5424b8fa0131e7a3a07f2abf7eca4702b15b0360f11b2a27deb226a4e2ef5",
+      "usage": {
+        "input_tokens": 1408,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 390,
+        "output_tokens_details": {
+          "reasoning_tokens": 345
+        },
+        "total_tokens": 1798,
+        "x_details": [
+          {
+            "input_tokens": 1408,
+            "output_tokens": 390,
+            "output_tokens_details": {
+              "reasoning_tokens": 345
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1798,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U03",
+      "role": "client",
+      "text": "其实我哥昨天也打电话，说端午又不回来，改成国庆再看。我“哦”了一声就挂了，心里也没起多大波澜，就是后来想到排班的事，突然觉得怎么连个晚班都比他会替我上心一点。可马上又觉得自己这话太刻薄了。",
+      "request_sha256": "2593013f541f9c012cfc07762ae05dfed9e77910971deb00609abcb837d82a13",
+      "usage": {
+        "input_tokens": 1932,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 412,
+        "output_tokens_details": {
+          "reasoning_tokens": 350
+        },
+        "total_tokens": 2344,
+        "x_details": [
+          {
+            "input_tokens": 1932,
+            "output_tokens": 412,
+            "output_tokens_details": {
+              "reasoning_tokens": 350
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2344,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U04",
+      "role": "counselor",
+      "text": "你“哦”一声就挂了，表面好像没什么波澜，可后来那句“连晚班都比他会替我上心”，听起来不像刻薄，倒更像一种很深的失望被突然勾了出来。只是这失望还没来得及被你看见，就先被“这话太刻薄”给按下去了。",
+      "request_sha256": "5bbc71137cfdf05877dccdddfc2d44017fb80889277e269f8f70a1825ec02146",
+      "usage": {
+        "input_tokens": 1560,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 312,
+        "output_tokens_details": {
+          "reasoning_tokens": 250
+        },
+        "total_tokens": 1872,
+        "x_details": [
+          {
+            "input_tokens": 1560,
+            "output_tokens": 312,
+            "output_tokens_details": {
+              "reasoning_tokens": 250
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1872,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U05",
+      "role": "client",
+      "text": "其实我也不是失望，就是觉得没意思。工作的事我好歹还去问了一句，他那边我连问都懒得问，可能心里早就不指望了。",
+      "request_sha256": "cac5d233d20b1408e7616c21b12e68f611f1f4f0fe0c82f992735d40c3021da2",
+      "usage": {
+        "input_tokens": 2101,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 886,
+        "output_tokens_details": {
+          "reasoning_tokens": 850
+        },
+        "total_tokens": 2987,
+        "x_details": [
+          {
+            "input_tokens": 2101,
+            "output_tokens": 886,
+            "output_tokens_details": {
+              "reasoning_tokens": 850
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2987,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U06",
+      "role": "counselor",
+      "text": "好像你对工作还留着一点“去问一句”的力气，但对哥哥那边已经连开口都不想了。这种“没意思”和“不指望”，听起来不像真的无所谓，更像是失望放久了，慢慢结成的一层壳。",
+      "request_sha256": "cf8b20b4203f3dbb7a0270bce32514ffa53c346a340f1f6cb12c4167d7de23a2",
+      "usage": {
+        "input_tokens": 1703,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 117,
+        "output_tokens_details": {
+          "reasoning_tokens": 67
+        },
+        "total_tokens": 1820,
+        "x_details": [
+          {
+            "input_tokens": 1703,
+            "output_tokens": 117,
+            "output_tokens_details": {
+              "reasoning_tokens": 67
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1820,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U07",
+      "role": "client",
+      "text": "其实我后来也在想，那半天调休要是真拿去休息，我大概也不会睡，可能会去把家里冰箱擦了，或者把换季的衣服收一收。好像非得做点看得见的事，这半天才算没白拿。",
+      "request_sha256": "5757cb2baca95b021e4b7e8dfb75691907a7ccfe9a8f66900a0c58a919b0db48",
+      "usage": {
+        "input_tokens": 2232,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 246,
+        "output_tokens_details": {
+          "reasoning_tokens": 194
+        },
+        "total_tokens": 2478,
+        "x_details": [
+          {
+            "input_tokens": 2232,
+            "output_tokens": 246,
+            "output_tokens_details": {
+              "reasoning_tokens": 194
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2478,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U08",
+      "role": "counselor",
+      "text": "那半天调休好像很难真的拿来“休”，一到你手里就变成得赶紧兑换成冰箱、换季衣服这些看得见的事，才觉得没白拿。也许真正让你不安的，是停下来什么都不做的那一刻。",
+      "request_sha256": "fa36a99d4cbe9ec1021b3be51a65695e715ff9aacc8a3e623cd8c78a5dab18e4",
+      "usage": {
+        "input_tokens": 1850,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 758,
+        "output_tokens_details": {
+          "reasoning_tokens": 709
+        },
+        "total_tokens": 2608,
+        "x_details": [
+          {
+            "input_tokens": 1850,
+            "output_tokens": 758,
+            "output_tokens_details": {
+              "reasoning_tokens": 709
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2608,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U09",
+      "role": "client",
+      "text": "其实我最近也偷偷查了下劳动法，结果越查越觉得自己是不是太计较了。可那半天调休，本来就是我拿休息换的，怎么倒像是我欠了谁似的。",
+      "request_sha256": "12916d5c5930ef4a3c31de884e9d2ceeaa560edc3cfb5629e620d4afe95ef76b",
+      "usage": {
+        "input_tokens": 2378,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 294,
+        "output_tokens_details": {
+          "reasoning_tokens": 251
+        },
+        "total_tokens": 2672,
+        "x_details": [
+          {
+            "input_tokens": 2378,
+            "output_tokens": 294,
+            "output_tokens_details": {
+              "reasoning_tokens": 251
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2672,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U10",
+      "role": "counselor",
+      "text": "你越查越清楚这本该是你的，可心里那个“欠了谁”的感觉反而更明显。好像连一件合理的事，你都得先在心里说服自己才有底气认下来。那个“欠”的声音，也许比劳动法更早就在你心里了。",
+      "request_sha256": "c81fedbf6892c017779d3bf77848b2ac7951b6e826b9de9e05cb1e33ec4e9fc5",
+      "usage": {
+        "input_tokens": 1987,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 359,
+        "output_tokens_details": {
+          "reasoning_tokens": 302
+        },
+        "total_tokens": 2346,
+        "x_details": [
+          {
+            "input_tokens": 1987,
+            "output_tokens": 359,
+            "output_tokens_details": {
+              "reasoning_tokens": 302
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2346,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U11",
+      "role": "client",
+      "text": "其实你说“欠”那个字，我特别想反驳，但又不知道怎么反驳。好像从小就这样，别人给一点什么，第一反应是算算自己配不配。那半天调休我到现在也没用，可能还放在那里，像等它自己过期算了。",
+      "request_sha256": "d95109dc4096b5c267453145ca03c937e175df74e90ec3b3961309cabb663e84",
+      "usage": {
+        "input_tokens": 2530,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 174,
+        "output_tokens_details": {
+          "reasoning_tokens": 116
+        },
+        "total_tokens": 2704,
+        "x_details": [
+          {
+            "input_tokens": 2530,
+            "output_tokens": 174,
+            "output_tokens_details": {
+              "reasoning_tokens": 116
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2704,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U12",
+      "role": "counselor",
+      "text": "那个“算算自己配不配”好像从小就跟着你，这半天调休一直没用，也许不只是没力气，而是你暂时还不允许自己心安理得地接住它。今天先不急着决定它该不该过期，能看见它摆在那里，已经是你给那个总在验算的自己让出了一点空间。",
+      "request_sha256": "d0399817508fe93d4b525aca58acdcccb5923d479049546a695c5c38d2df35c2",
+      "usage": {
+        "input_tokens": 2154,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 229,
+        "output_tokens_details": {
+          "reasoning_tokens": 158
+        },
+        "total_tokens": 2383,
+        "x_details": [
+          {
+            "input_tokens": 2154,
+            "output_tokens": 229,
+            "output_tokens_details": {
+              "reasoning_tokens": 158
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2383,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U13",
+      "role": "client",
+      "text": "其实你说“看见它摆在那里”，我第一反应是，那它过期之前我是不是还得专门找个时间去看它一眼。可能今晚回去分完药，我就把调休单压在药盒下面，至少让它跟家里那些非做不可的事待在一起。",
+      "request_sha256": "4a8525fd4ead2c82087b29ade4f283686f4eaa9a2ea3c0fd661c5d6f3ee32dc5",
+      "usage": {
+        "input_tokens": 2704,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 160,
+        "output_tokens_details": {
+          "reasoning_tokens": 103
+        },
+        "total_tokens": 2864,
+        "x_details": [
+          {
+            "input_tokens": 2704,
+            "output_tokens": 160,
+            "output_tokens_details": {
+              "reasoning_tokens": 103
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2864,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U14",
+      "role": "counselor",
+      "text": "压在药盒下面，听起来像是你给那半天找了一个位置——不必单独面对它，也不会任它无声无息地过期。今晚分药时，也许只需要知道它在那儿，不必急着决定它算休息还是欠账。",
+      "request_sha256": "eaecb1f43ac2ca3dbd049389fdc2b94796872ac4448998fabb3b2eac8ec9efcf",
+      "usage": {
+        "input_tokens": 2327,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 345,
+        "output_tokens_details": {
+          "reasoning_tokens": 294
+        },
+        "total_tokens": 2672,
+        "x_details": [
+          {
+            "input_tokens": 2327,
+            "output_tokens": 345,
+            "output_tokens_details": {
+              "reasoning_tokens": 294
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2672,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U15",
+      "role": "client",
+      "text": "其实今晚分药的时候，我确实把调休单压在药盒下面了。我妈看见了，问那是什么，我说单位发的纸，顺手放一下。后来她突然说，你哥是不是端午不回来了，我替他回了句“他国庆再看”，说完又觉得挺没意思的。",
+      "request_sha256": "efee2ec0708209c777307ca0b23b6351be1adc02f7a0b9f07b4c9c1858127852",
+      "usage": {
+        "input_tokens": 2857,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 388,
+        "output_tokens_details": {
+          "reasoning_tokens": 324
+        },
+        "total_tokens": 3245,
+        "x_details": [
+          {
+            "input_tokens": 2857,
+            "output_tokens": 388,
+            "output_tokens_details": {
+              "reasoning_tokens": 324
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3245,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S02-U16",
+      "role": "counselor",
+      "text": "你把调休单说成“顺手放的纸”，又替哥哥回了句“他国庆再看”，好像都在用最轻的方式把一些东西带过去。可那句“挺没意思的”一出来，又像有些话还是没被说出来。今晚能让它停在这儿，已经不需要再赶着解释了。",
+      "request_sha256": "9658a75ff3e78cd63e675bd1db2cc6b7f6e735e503eeb9bfeab2f359649caa47",
+      "usage": {
+        "input_tokens": 2487,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 497,
+        "output_tokens_details": {
+          "reasoning_tokens": 430
+        },
+        "total_tokens": 2984,
+        "x_details": [
+          {
+            "input_tokens": 2487,
+            "output_tokens": 497,
+            "output_tokens_details": {
+              "reasoning_tokens": 430
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2984,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

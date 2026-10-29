@@ -1,0 +1,42 @@
+{
+  "branch_id": "BR_eae0ee2cc463",
+  "node": "N06",
+  "method": "B2_temporal_RAG",
+  "replicate": 1,
+  "rounds": 2,
+  "status": "completed",
+  "public_input_sha256": "8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+  "private_state_sha256": "f3cbf5e8bf1187c406a003d45f61a7d2d01f5d17a7fe501c84ffff0609b21e48",
+  "initial_answer_sample": 1,
+  "utterances": [
+    {
+      "id": "BR_eae0ee2cc463_U01",
+      "role": "counselor",
+      "text": "你注意到了'跟上次不太一样'——这个不一样，你感觉是哪里？是开口那个瞬间，还是他回应之后？",
+      "source_call_id": "7e6f16b4c8164633a4be3d33c09ff199",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_eae0ee2cc463_U02",
+      "role": "client",
+      "text": "应该是开口那个瞬间吧。上次那个接口的事，我犹豫了挺久的，到公司又没开口。这次就是……犹豫了一下，但当时在讨论，就顺嘴问了。\n\n他回应那个……也还行，就是挺正常的，没觉得有什么特别的。",
+      "source_call_id": "060998caa7914a2ba1f8c80db9910f4a"
+    },
+    {
+      "id": "BR_eae0ee2cc463_U03",
+      "role": "counselor",
+      "text": "「顺嘴问了」——上次是单独要开口说'我查了两天了'，这次是在讨论中自然带出来的。你觉得是'在讨论中'这个条件让它变轻了，还是说这次问的东西本身比较小？",
+      "source_call_id": "968716b5e3b44f789df04421717e9d1f",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_eae0ee2cc463_U04",
+      "role": "client",
+      "text": "应该是\"在讨论中\"吧。就是……当时大家都在看那个协议，我卡在那儿，问出来就好像是流程里的一步，不是单独去说\"我不懂\"。\n\n……不过说实话，问之前我还是先自己翻了一下文档，确认确实没写清楚，才开口的。",
+      "source_call_id": "6d2f662d5fbe4cf3b9d9f06982eee562"
+    }
+  ],
+  "client_model": "qwen3.8-27b",
+  "counselor_model": "qwen3.8-27b",
+  "notice": "Initial counselor answer reused. Two new client responses and one new counselor response; no original post-freeze client reply spliced in."
+}

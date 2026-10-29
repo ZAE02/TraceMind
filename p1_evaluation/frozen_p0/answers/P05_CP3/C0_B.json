@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "7c8053c4c8007f959ff15cab7d7680ad3a70f8e65a91486e18bab388d5fe193e",
+  "request_sha256": "e0ac19ca2a42f06d48679c43915cf05e957ada8cab442b6f5a6aa28f59d09608",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你希望李繁当时能多问一句，这种“嫌自己太贪心”的感觉，好像你连对别人有期待这件事，都要先替自己找一个不配的理由。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 926,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 38,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 964,
+    "x_details": [
+      {
+        "input_tokens": 926,
+        "output_tokens": 38,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 964,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

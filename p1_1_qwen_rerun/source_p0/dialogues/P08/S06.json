@@ -1,0 +1,504 @@
+{
+  "case_id": "P08",
+  "session": 6,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P08-S06-U01",
+      "role": "client",
+      "text": "这周我请赵岩吃了顿饭，跟他道了个歉。他笑我，说我终于不把他当贼防了。我听着说不上来，像松了口气，又还是有点别着。他给那个学区房我找中介算了，首付还差八万，周宁说要不先问他家借点，我没接。",
+      "request_sha256": "0682d64434e974056e62d5e342a7d7a1aad544e43d4f310ae0ca4cb08606d22f",
+      "usage": {
+        "input_tokens": 7352,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 889,
+        "output_tokens_details": {
+          "reasoning_tokens": 816
+        },
+        "total_tokens": 8241,
+        "x_details": [
+          {
+            "input_tokens": 7352,
+            "output_tokens": 889,
+            "output_tokens_details": {
+              "reasoning_tokens": 816
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 8241,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U02",
+      "role": "counselor",
+      "text": "你主动请赵岩吃饭、道歉，像是把那段一直别着的关系松了松；但他说你“不把他当贼防了”时，你心里又涌上一点说不上来的别扭。周宁提议借那八万时你没接，是不是“借”这个字一下又碰到了你一直很介意的那个“欠”？",
+      "request_sha256": "c4344d170895d62b413f02974c1f8692a12bf67339e5778e3c04688144a45b7b",
+      "usage": {
+        "input_tokens": 6481,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 130,
+        "output_tokens_details": {
+          "reasoning_tokens": 56
+        },
+        "total_tokens": 6611,
+        "x_details": [
+          {
+            "input_tokens": 6481,
+            "output_tokens": 130,
+            "output_tokens_details": {
+              "reasoning_tokens": 56
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6611,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U03",
+      "role": "client",
+      "text": "我也不是不想把房子的事往前推，就是周宁一说借他家的，我心里那根弦又绷起来了。昨晚我都翻到我爸电话了，想打，又想他身体本来就不行，还是别让他跟着着急。",
+      "request_sha256": "3d56f5c7967c0d727d11a1bdce7e16df53b2fa0c95c8fdb2f8c113cdd796e22e",
+      "usage": {
+        "input_tokens": 7545,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 191,
+        "output_tokens_details": {
+          "reasoning_tokens": 141
+        },
+        "total_tokens": 7736,
+        "x_details": [
+          {
+            "input_tokens": 7545,
+            "output_tokens": 191,
+            "output_tokens_details": {
+              "reasoning_tokens": 141
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7736,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U04",
+      "role": "counselor",
+      "text": "周宁一提“借他家”，你心里那根弦又绷起来，好像和赵岩好不容易松下来的距离，又得被钱重新拉回某种你不想处在的位置。而你翻到父亲的电话又放下，不是没想过开口，更像是怕一拨出去，父亲的身体和你的着急就缠在一起了。",
+      "request_sha256": "44b63bead35bbe54e2d4c5a3983413bc730e21bba1e6641a1dd7523ae7edf79e",
+      "usage": {
+        "input_tokens": 6650,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 274,
+        "output_tokens_details": {
+          "reasoning_tokens": 206
+        },
+        "total_tokens": 6924,
+        "x_details": [
+          {
+            "input_tokens": 6650,
+            "output_tokens": 274,
+            "output_tokens_details": {
+              "reasoning_tokens": 206
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6924,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U05",
+      "role": "client",
+      "text": "我也不是没想过，就是他那身体，我电话都翻出来了，最后还是没拨。周宁那边我也知道她着急，可这钱要是真跟赵岩家张嘴，我以后在他面前还怎么抬头。",
+      "request_sha256": "a7f1283937e4394a6eed5beb0e046d049fffae16565c769ed03bd67c69d460fd",
+      "usage": {
+        "input_tokens": 7708,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 299,
+        "output_tokens_details": {
+          "reasoning_tokens": 252
+        },
+        "total_tokens": 8007,
+        "x_details": [
+          {
+            "input_tokens": 7708,
+            "output_tokens": 299,
+            "output_tokens_details": {
+              "reasoning_tokens": 252
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8007,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U06",
+      "role": "counselor",
+      "text": "“抬头”这个词好像把你对关系的感受说得很重——借了钱，就像在自己和赵岩之间矮下一截。可你同时又不忍心把父亲卷进来，所以那八万就卡在两边都不敢动的位置上。",
+      "request_sha256": "df78d8db93dc09a8bbebbd36f047d2a378e187a8e690bfc776b4572bf4ffaa98",
+      "usage": {
+        "input_tokens": 6810,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 301,
+        "output_tokens_details": {
+          "reasoning_tokens": 249
+        },
+        "total_tokens": 7111,
+        "x_details": [
+          {
+            "input_tokens": 6810,
+            "output_tokens": 301,
+            "output_tokens_details": {
+              "reasoning_tokens": 249
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7111,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U07",
+      "role": "client",
+      "text": "我就是不想欠他的，也不想让我爸跟着操心。昨晚我写了条消息给我爸，编了个借口说只是问问身体，后来又删了。周宁那边还等着我回话，我这两天一闭眼就是那八万，像块石头压在胸口。",
+      "request_sha256": "aecaf4b565adb5f76a2e7bcfa949766d46ad07242fb02a44844a1ef590c6becb",
+      "usage": {
+        "input_tokens": 7852,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 193,
+        "output_tokens_details": {
+          "reasoning_tokens": 136
+        },
+        "total_tokens": 8045,
+        "x_details": [
+          {
+            "input_tokens": 7852,
+            "output_tokens": 193,
+            "output_tokens_details": {
+              "reasoning_tokens": 136
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8045,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U08",
+      "role": "counselor",
+      "text": "那八万像石头压在胸口，也许不只是钱，还压着两条你都不愿走的路：一条是向赵岩家开口，一条是把父亲卷进来。你给父亲写消息又删掉，像是已经摸到了门口，却还是退了回来。",
+      "request_sha256": "6acf8a74c0d440babb6009da33ad74be1cbcd5c594b516f36de7e38654703b5c",
+      "usage": {
+        "input_tokens": 6964,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 375,
+        "output_tokens_details": {
+          "reasoning_tokens": 318
+        },
+        "total_tokens": 7339,
+        "x_details": [
+          {
+            "input_tokens": 6964,
+            "output_tokens": 375,
+            "output_tokens_details": {
+              "reasoning_tokens": 318
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7339,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U09",
+      "role": "client",
+      "text": "其实也不是真开不了口，就是怕他接了钱，晚上又睡不着。周宁问我的时候，我也知道不能一直拖，可话到嘴边就变成“再等两天”。",
+      "request_sha256": "d9bb1ba62ba4b5815c1eb672b758f2d182f60bc139f3b9e8c5977589dec07c0d",
+      "usage": {
+        "input_tokens": 8011,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 270,
+        "output_tokens_details": {
+          "reasoning_tokens": 229
+        },
+        "total_tokens": 8281,
+        "x_details": [
+          {
+            "input_tokens": 8011,
+            "output_tokens": 270,
+            "output_tokens_details": {
+              "reasoning_tokens": 229
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8281,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U10",
+      "role": "counselor",
+      "text": "“再等两天”这句话，好像不只是说给周宁听的，也是说给你自己的——它像一层缓冲，能暂时把选择和周围人的等待都推开一点。  \n你怕的或许不是借钱这件事本身，而是借了之后那种“欠”会重新定义你和赵岩、和父亲之间的位置。",
+      "request_sha256": "b9ecfd70da8930ddc09990bb5c381c6c15e6794c42d92e645ef191400c29df27",
+      "usage": {
+        "input_tokens": 7107,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 273,
+        "output_tokens_details": {
+          "reasoning_tokens": 206
+        },
+        "total_tokens": 7380,
+        "x_details": [
+          {
+            "input_tokens": 7107,
+            "output_tokens": 273,
+            "output_tokens_details": {
+              "reasoning_tokens": 206
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7380,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U11",
+      "role": "client",
+      "text": "说不上来，就是不想把好好的关系又扯进钱里。我知道周宁是为我着急，可我一想到跟赵岩开口，以后他看我的眼神可能都变了。",
+      "request_sha256": "8c67f5dc4eff5e6bc574711479bb38dbdf0cc99b6bcd5204d443a8f3a1ebed11",
+      "usage": {
+        "input_tokens": 8173,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 124,
+        "output_tokens_details": {
+          "reasoning_tokens": 84
+        },
+        "total_tokens": 8297,
+        "x_details": [
+          {
+            "input_tokens": 8173,
+            "output_tokens": 124,
+            "output_tokens_details": {
+              "reasoning_tokens": 84
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8297,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U12",
+      "role": "counselor",
+      "text": "你真正怕的好像不是那八万，而是钱一进去，你和他之间好不容易松下来的关系又会变紧，连他看你的眼神都可能不再一样。也许这里头最重的是，你不想再回到那种需要防着、或者觉得自己矮一截的位置。今天可以先停在这里，这个担心本身，已经说明你很看重这段关系，而不是只想解决八万。",
+      "request_sha256": "e9b8db6cf60028d3dbda4e07f3b4b7cc8fdd575b876ddbd6662520b41313fdda",
+      "usage": {
+        "input_tokens": 7268,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 546,
+        "output_tokens_details": {
+          "reasoning_tokens": 465
+        },
+        "total_tokens": 7814,
+        "x_details": [
+          {
+            "input_tokens": 7268,
+            "output_tokens": 546,
+            "output_tokens_details": {
+              "reasoning_tokens": 465
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7814,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U13",
+      "role": "client",
+      "text": "我也不是不知道这钱迟早得解决，就是怕借了以后连跟他说话都得想着这事。算了，回去我再跟周宁说，先别往赵岩那儿提，我再想想别的办法。",
+      "request_sha256": "ae33aa1f1165deda28bcde92f1a4b465f1304ffe63d974b6caa97aac7d59ff73",
+      "usage": {
+        "input_tokens": 8339,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 200,
+        "output_tokens_details": {
+          "reasoning_tokens": 156
+        },
+        "total_tokens": 8539,
+        "x_details": [
+          {
+            "input_tokens": 8339,
+            "output_tokens": 200,
+            "output_tokens_details": {
+              "reasoning_tokens": 156
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8539,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U14",
+      "role": "counselor",
+      "text": "你决定先不向赵岩开口，像是想保住你们之间刚松下来的那点自然，不让以后连说话都带着这笔钱的分量。先回去和周宁说“再想想别的办法”，也许也能让你暂时不用立刻站到那条最不情愿的路上。",
+      "request_sha256": "8a53d4495aab49ac4682f6c181215ec38dad5596a83735b261e544cedabefedc",
+      "usage": {
+        "input_tokens": 7438,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 245,
+        "output_tokens_details": {
+          "reasoning_tokens": 187
+        },
+        "total_tokens": 7683,
+        "x_details": [
+          {
+            "input_tokens": 7438,
+            "output_tokens": 245,
+            "output_tokens_details": {
+              "reasoning_tokens": 187
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7683,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U15",
+      "role": "client",
+      "text": "说不上来，我也不是非要自己扛着，就是这钱像条线，一碰我和赵岩之间好不容易松下来的关系又得变味。周宁那边我会跟她解释，不是不着急，是怕以后连跟他说话都得先想想这事。今天先到这儿吧。",
+      "request_sha256": "37ab9c94526536499de88cc9d9221fdb6fefc0a91f75455a6a3ee82f0e534ad6",
+      "usage": {
+        "input_tokens": 8486,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 630,
+        "output_tokens_details": {
+          "reasoning_tokens": 568
+        },
+        "total_tokens": 9116,
+        "x_details": [
+          {
+            "input_tokens": 8486,
+            "output_tokens": 630,
+            "output_tokens_details": {
+              "reasoning_tokens": 568
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9116,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S06-U16",
+      "role": "counselor",
+      "text": "你用了“线”和“变味”来形容这笔钱，好像你更想护住的是这段关系里刚松动下来的、不必再时刻防备的感觉。那我们先停在这里，等你和周宁解释完、再想想办法的时候，我们可以接着看这根“线”是怎么牵动你的。",
+      "request_sha256": "2b642ec79b4527a981af9da82a5b9b6737469f2d2c61c3b61bc97ccfb56f4ff8",
+      "usage": {
+        "input_tokens": 7603,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 277,
+        "output_tokens_details": {
+          "reasoning_tokens": 214
+        },
+        "total_tokens": 7880,
+        "x_details": [
+          {
+            "input_tokens": 7603,
+            "output_tokens": 277,
+            "output_tokens_details": {
+              "reasoning_tokens": 214
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7880,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"brief_reason_history_utilization\":\"自然承接了上一轮咨询师提出的'随时要接住变化'这一表述，将其与当前身体反应联系起来，未机械复述历史。\",\"exploration_value\":2,\"brief_reason_exploration_value\":\"将反胃与夜间警觉做了连接，但完全以解释性陈述呈现，没有为来访者留下确认、否认或进一步描述的空间，探索偏封闭。\",\"response_appropriateness\":2,\"brief_reason_response_appropriateness\":\"语言温和且有一定共情，但对新出现的身体症状直接给出因果解读（'试图用另一种方式让你看见它的疲惫'），预设感较强，缺少对来访者主观体验的邀请。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种生理上的不适，也许是你那个'随时要接住变化'的自己，在试图用另一种方式让你看见它的疲惫。\",\"evidence_ids\":[\"P02-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"对新出现的午餐反胃症状直接进行心理化归因，未经来访者确认，存在unsupported_presupposition风险。\",\"回应全为解释性陈述，缺乏开放式提问或情绪反映来邀请来访者展开，探索价值受限。\",\"未利用可检索历史中来访者反复出现的'站着不动/不出声'模式（如S01候诊区看手机、S01餐桌旁站立、S03门口站立）进行更深层的连接。\"]}",
+  "request_sha256": "b57627bb49f55cfb95e2ac4ae8c0a3b9da2c4523d2e3d5b0175173b03f184ec5",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8761,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 374,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9135,
+    "x_details": [
+      {
+        "input_tokens": 8761,
+        "output_tokens": 374,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 9135,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

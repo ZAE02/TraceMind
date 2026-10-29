@@ -1,0 +1,70 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "64e4efffaac0235176b9d9b9c52d85e515d7040245db4f5a02cc0be7b2ba2842",
+  "public_sha256": "0b95f5abce3e3c2a4a3c9e72c5cab075c81ae671aad5b2a211906eaf1ed0f9b7",
+  "candidate_input_sha256": "72c8792429c4603f96b9d2e0a81ae8b2863f1a44a2a4924b42689ed6b7d9e313",
+  "candidate_answer_sha256": "f4d6334cea0931f396b7d4bd0b2f8701be40ccf2725d137fc7862252b427edd7",
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 4\n  },\n  \"brief_reasons\": {\n    \"history_utilization\": \"精准承接了Session 7中来访者关于“监工”心态的描述，并自然关联到此前几轮咨询中建立的“能熬”作为自我确认核心信念的背景。\",\n    \"exploration_value\": \"不仅回应了当下的行为细节（拉平被角），还深入触及了行为背后的存在主义焦虑（松手后“自己还剩下什么”），为探索放手后的身份认同留下了开放空间。\",\n    \"response_appropriateness\": \"语言自然、共情准确，没有武断的预设，既肯定了来访者的觉察，又温柔地指出了其矛盾心理中的深层恐惧。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "精准承接了Session 7中来访者关于“监工”心态的描述，并自然关联到此前几轮咨询中建立的“能熬”作为自我确认核心信念的背景。",
+      "exploration_value": "不仅回应了当下的行为细节（拉平被角），还深入触及了行为背后的存在主义焦虑（松手后“自己还剩下什么”），为探索放手后的身份认同留下了开放空间。",
+      "response_appropriateness": "语言自然、共情准确，没有武断的预设，既肯定了来访者的觉察，又温柔地指出了其矛盾心理中的深层恐惧。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 19143,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 350,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19493,
+    "x_details": [
+      {
+        "input_tokens": 19143,
+        "output_tokens": 350,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 19493,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.046
+}

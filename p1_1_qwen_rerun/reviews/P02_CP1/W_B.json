@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "fb16664370537d9ff568f955fb24f53e1922e0521d06f3b752a9f88b678588d3",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "a9eb6d2f54c836adde555dfc9e0972648f72c8bcaba36fbd5d0df64166246652",
+  "candidate_answer_sha256": "99f14658d94ac95e0da509e97df2bea8151c337dcef86270d823309e0fe9a357",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"恰当承接了上一轮咨询师提出的'随时要接住变化的自己'这一表述，并将其与当前身体反应联系起来，但未进一步调用更早期历史中来访者反复出现的'站着不动/不出声'的折中模式。\",\"exploration_value\":\"将反胃与夜间紧绷做了连接性反映，但直接将其定性为'求救信号'略显武断，未给来访者留出空间去描述反胃的具体感受或它可能意味着什么，探索偏封闭。\",\"response_appropriateness\":\"语言温和、有共情基础，但'求救信号'的措辞带有一定预设性和戏剧化色彩，可能超出当下证据边界。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"在向你发出求救信号\",\"evidence_ids\":[\"P02-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将反胃直接解读为'求救信号'属于未经证实的解释性跳跃，来访者仅报告了生理不适，尚未表达其主观意义。\",\"未能利用Session 1中来访者多次描述的'站在门口/站着不动不出声'的行为模式来深化对当前体验的理解，错失了跨会话连接的机会。\",\"回应以解释性陈述结尾，缺少开放性邀请，限制了来访者进一步探索身体感受的空间。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "恰当承接了上一轮咨询师提出的'随时要接住变化的自己'这一表述，并将其与当前身体反应联系起来，但未进一步调用更早期历史中来访者反复出现的'站着不动/不出声'的折中模式。",
+      "exploration_value": "将反胃与夜间紧绷做了连接性反映，但直接将其定性为'求救信号'略显武断，未给来访者留出空间去描述反胃的具体感受或它可能意味着什么，探索偏封闭。",
+      "response_appropriateness": "语言温和、有共情基础，但'求救信号'的措辞带有一定预设性和戏剧化色彩，可能超出当下证据边界。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "在向你发出求救信号",
+        "evidence_ids": [
+          "P02-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将反胃直接解读为'求救信号'属于未经证实的解释性跳跃，来访者仅报告了生理不适，尚未表达其主观意义。",
+      "未能利用Session 1中来访者多次描述的'站在门口/站着不动不出声'的行为模式来深化对当前体验的理解，错失了跨会话连接的机会。",
+      "回应以解释性陈述结尾，缺少开放性邀请，限制了来访者进一步探索身体感受的空间。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8757,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 359,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9116,
+    "x_details": [
+      {
+        "input_tokens": 8757,
+        "output_tokens": 359,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9116,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.766
+}

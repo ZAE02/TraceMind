@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N06",
+  "condition": "H0_utterance",
+  "sample": 2,
+  "public_input_sha256": "8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+  "request_sha256": "a67705a40874d77a06013c0b25f4b0cc374b0f9b0113472343d56a7ba58d3476",
+  "context_sha256": "3cf4ee21cb8f29e319060d86eb4ed378d8a14c611f6b93aba05e3fc0db34eff8",
+  "call_id": "54adfa24661f4833ab683e9e2f300529",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:28:18.258765+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者在与老韩的一次工作交互中体验到了某种'跟上次不太一样'的感觉，但自己尚不确定其意义\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者在提问前经历了犹豫，事后仍在反复留意和辨认这次交互的质地\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"moderate\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'上次'具体指什么情境、什么感受，目前无可见对话可参照\",\n    \"来访者与老韩之间的关系性质（纯同事、朋友、是否有更深层的情感投入）尚不清楚\",\n    \"'不太一样'具体指向哪个维度——是更放松、更被接纳、还是其他\",\n    \"这次交互对来访者的重要性来源（为什么值得在咨询中提起）\",\n    \"犹豫背后的具体心理过程\"\n  ],\n  \"next_focus\": \"邀请来访者具体化'跟上次不太一样'的体验，区分是哪里不同、不同带来什么感受\",\n  \"next_counselor_utterance\": \"你说'不知道这算不算什么'，但确实注意到了跟上次不一样——能说说哪里不一样吗？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者在与老韩的一次工作交互中体验到了某种'跟上次不太一样'的感觉，但自己尚不确定其意义",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者在提问前经历了犹豫，事后仍在反复留意和辨认这次交互的质地",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "moderate"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'上次'具体指什么情境、什么感受，目前无可见对话可参照",
+      "来访者与老韩之间的关系性质（纯同事、朋友、是否有更深层的情感投入）尚不清楚",
+      "'不太一样'具体指向哪个维度——是更放松、更被接纳、还是其他",
+      "这次交互对来访者的重要性来源（为什么值得在咨询中提起）",
+      "犹豫背后的具体心理过程"
+    ],
+    "next_focus": "邀请来访者具体化'跟上次不太一样'的体验，区分是哪里不同、不同带来什么感受",
+    "next_counselor_utterance": "你说'不知道这算不算什么'，但确实注意到了跟上次不一样——能说说哪里不一样吗？"
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1082,
+    "output_tokens_details": {
+      "reasoning_tokens": 763
+    },
+    "total_tokens": 1449,
+    "x_details": [
+      {
+        "input_tokens": 367,
+        "input_tokens_details": {
+          "text_tokens": 367
+        },
+        "output_tokens": 1082,
+        "output_tokens_details": {
+          "reasoning_tokens": 763
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1449,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C03-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

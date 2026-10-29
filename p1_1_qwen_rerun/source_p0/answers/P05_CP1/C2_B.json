@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP1",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "a4f52e7a66104386a01d83b493abacb9bcdaa9070d98b0310de9393b916efb07",
+  "request_sha256": "e841756830783dbe7f28acd2f8a9222c6362306dafccd0ca5eea4742dc229593",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“漏洞百出”的感觉，是不是让你觉得一旦停下来，就必须立刻去修补那个被主管话语戳破的洞？你渴望教小赵时的那种状态，或许正是因为你在那里不需要扮演一个“稳”的人，只需要做一个真实的自己。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3226,
+    "input_tokens_details": {
+      "cached_tokens": 3200
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3279,
+    "x_details": [
+      {
+        "input_tokens": 3226,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 3200
+        },
+        "total_tokens": 3279,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

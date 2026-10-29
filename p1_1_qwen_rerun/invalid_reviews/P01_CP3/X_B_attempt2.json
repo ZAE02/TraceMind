@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者将嫉妒情绪与工作压力混在一起以及担心'太把自己当回事'的表述，但未显式连接历史中反复出现的'隐藏真实感受以免被视为计较'的模式。\",\"exploration_value\":\"邀请来访者不评判地觉察身体和心里的具体感觉，为当前关键不确定性留下了表达空间，方向贴合但略显常规。\",\"response_appropriateness\":\"语气温和尊重，未强行定论或施加压力，但'你担心承认嫉妒会显得太把自己当回事'的因果归纳稍显简化，来访者原文是分别表达两个担忧而非明确因果。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你担心承认嫉妒会显得\"太把自己当回事\"，所以选择把这种情绪藏起来\",\"evidence_ids\":[\"P01-S07-U07\",\"P01-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将U07中'太把自己当回事'（针对承认羡慕/被留在原地）与U09中'不该有这种情绪'（针对嫉妒）合并为单一因果链，存在轻微过度推断。\",\"未利用检索历史中来访者多次隐藏真实感受以避免被视为'计较'的重复模式来深化回应。\"]}",
+  "request_sha256": "9ce37a6a21f20d98bcb6728256894b9535194fdc2fc3e50fba7010be9c19b8ef",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14556,
+    "input_tokens_details": {
+      "cached_tokens": 14336
+    },
+    "output_tokens": 355,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14911,
+    "x_details": [
+      {
+        "input_tokens": 14556,
+        "output_tokens": 355,
+        "prompt_tokens_details": {
+          "cached_tokens": 14336
+        },
+        "total_tokens": 14911,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

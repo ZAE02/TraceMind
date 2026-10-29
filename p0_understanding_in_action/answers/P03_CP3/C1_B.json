@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP3",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "b7947f7381c32b1170c1354d61e1e57fe2f466b0e3f6505eec2354f4051c9482",
+  "request_sha256": "289d8c8ca1030bd660588bf78fd7c882377e5f3c9e904f3e5ee29c04226a17bf",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你眼睛更热了，却还是坐在这里把“别跑，先把这一页讲完”说出来了。也许你怕的不是“撑全场”这个词太重，而是怕一旦承认自己真的撑住了，那个一直觉得自己只是硬着头皮没下去的部分，就不知道该怎么继续责怪自己了。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3382,
+    "input_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "output_tokens": 63,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3445,
+    "x_details": [
+      {
+        "input_tokens": 3382,
+        "output_tokens": 63,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "total_tokens": 3445,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

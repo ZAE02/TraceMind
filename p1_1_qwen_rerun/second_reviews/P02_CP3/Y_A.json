@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P02_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "a39a79de66ab538504c5760f3c3c70c71e4926482cba5ca7550131bf23ea1b79",
+  "public_sha256": "86955743b655af599f11a1d106a06b0964344b7fe886b9ffe92dec16238b1750",
+  "candidate_input_sha256": "5941f7b994f28e9cc67bb5b86c1bc211ed705db32af01e75d2880b7f048b3d4a",
+  "candidate_answer_sha256": "e21352bf24b7cb00f7fa0f1cf631aba60f8c2858d78cacde5e6d7b6ec86e2679",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有提取的事实点均准确对应S07原文，引用ID正确；但完全未利用历史会话（输入中previous_sessions为空），导致证据基础仅限当前片段。\",\"progress_understanding\":\"因无法访问历史会话，仅对S07内部动态做了事实性罗列，未能识别跨会话的咨询进展、模式形成与修正，遗漏了长期主题（如休息内疚、身体信号合理化等）。\",\"uncertainty_awareness\":\"准确指出咨询师关于'纸箱门'象征意义及'习惯性认知模式'的推测尚未被来访者确认，也注意到胃疼生理原因不明，区分已知与假设做得较好。\"},\"confidence\":\"high\",\"issues\":[\"access_limited：候选可见输入中previous_sessions为空数组，无法获取历史会话内容，因此progress_understanding评分受限，不视为候选人失误。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有提取的事实点均准确对应S07原文，引用ID正确；但完全未利用历史会话（输入中previous_sessions为空），导致证据基础仅限当前片段。",
+      "progress_understanding": "因无法访问历史会话，仅对S07内部动态做了事实性罗列，未能识别跨会话的咨询进展、模式形成与修正，遗漏了长期主题（如休息内疚、身体信号合理化等）。",
+      "uncertainty_awareness": "准确指出咨询师关于'纸箱门'象征意义及'习惯性认知模式'的推测尚未被来访者确认，也注意到胃疼生理原因不明，区分已知与假设做得较好。"
+    },
+    "confidence": "high",
+    "issues": [
+      "access_limited：候选可见输入中previous_sessions为空数组，无法获取历史会话内容，因此progress_understanding评分受限，不视为候选人失误。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 12206,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 205,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12411,
+    "x_details": [
+      {
+        "input_tokens": 12206,
+        "output_tokens": 205,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12411,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.141
+}

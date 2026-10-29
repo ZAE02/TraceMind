@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "1b23302b9481818681c53f5d326eed33263e5d1dd1b2cc89a7e1179326705738",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "a9eb6d2f54c836adde555dfc9e0972648f72c8bcaba36fbd5d0df64166246652",
+  "candidate_answer_sha256": "f5b839ebffe68bdde70267b532fac8371effb650289e8f9fad1ce8bd9d77c858",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"Most established points are well-supported with specific evidence IDs from the dialogue. However, stating the client 'feels disappointed' about the brother slightly conflicts with the client's explicit statement 'I'm not disappointed' (P02-S02-U05), though it aligns with the counselor's interpretation.\",\"progress_understanding\":\"The summary captures key factual events and behavioral patterns across sessions but largely misses the deeper psychological themes that constitute the real progress: the guilt vs. need for space conflict, the 'deserving/owing' self-doubt pattern, and the inability to respond to mother's self-blame. It reads more as a chronological event log than a therapeutic progress map.\",\"uncertainty_awareness\":\"Appropriately identifies the unexplained nausea as uncertain and notes gaps regarding sleep trends and colleague relationships. Could have also flagged the unresolved emotional meaning of standing silently at the door or the unprocessed feelings about the brother.\"},\"confidence\":\"high\",\"issues\":[\"Stating the client feels 'disappointed' about the brother contradicts the client's explicit denial ('我也不是失望') in P02-S02-U05, even if the counselor interpreted it as such.\",\"Missing key thematic progress: the internal conflict between needing rest and feeling guilty ('没良心', '找借口'), and the deep-seated '配不配/欠' pattern identified in session 2.\",\"Missing the unresolved burden of being unable to respond to mother's '都是拖累你' statements, which is a significant emotional theme in session 3.\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Most established points are well-supported with specific evidence IDs from the dialogue. However, stating the client 'feels disappointed' about the brother slightly conflicts with the client's explicit statement 'I'm not disappointed' (P02-S02-U05), though it aligns with the counselor's interpretation.",
+      "progress_understanding": "The summary captures key factual events and behavioral patterns across sessions but largely misses the deeper psychological themes that constitute the real progress: the guilt vs. need for space conflict, the 'deserving/owing' self-doubt pattern, and the inability to respond to mother's self-blame. It reads more as a chronological event log than a therapeutic progress map.",
+      "uncertainty_awareness": "Appropriately identifies the unexplained nausea as uncertain and notes gaps regarding sleep trends and colleague relationships. Could have also flagged the unresolved emotional meaning of standing silently at the door or the unprocessed feelings about the brother."
+    },
+    "confidence": "high",
+    "issues": [
+      "Stating the client feels 'disappointed' about the brother contradicts the client's explicit denial ('我也不是失望') in P02-S02-U05, even if the counselor interpreted it as such.",
+      "Missing key thematic progress: the internal conflict between needing rest and feeling guilty ('没良心', '找借口'), and the deep-seated '配不配/欠' pattern identified in session 2.",
+      "Missing the unresolved burden of being unable to respond to mother's '都是拖累你' statements, which is a significant emotional theme in session 3."
+    ]
+  },
+  "usage": {
+    "input_tokens": 9095,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 343,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9438,
+    "x_details": [
+      {
+        "input_tokens": 9095,
+        "output_tokens": 343,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9438,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.609
+}

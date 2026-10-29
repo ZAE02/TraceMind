@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应承接了当前会话中'不敢看群'和'反复看截图'的行为模式，但未利用检索历史中已建立的来访者难以确认自身需要、害怕暴露不确定等核心认识。\",\"exploration_value\":\"将行为定性为'自我惩罚'并直接解释头晕原因，未给来访者新出现的自我觉察（'是不是又把简单事搞成需要别人确认'）留出表达空间，探索方向封闭且带有强预设。\",\"response_appropriateness\":\"语言尚算温和，但'自我惩罚''身体在提醒你弦绷太紧'均为未经证实的解释性断言，忽略了来访者对头晕原因的明确不确定，显得武断。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你好像把\"没点开群\"和\"反复看截图\"都当成了某种自我惩罚，以此来确认自己是不是真的搞砸了\",\"evidence_ids\":[\"P01-S05-U07\",\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"这种头晕的感觉，也许正是身体在提醒你这根弦绷得太紧了\",\"evidence_ids\":[\"P01-S05-U09\",\"P01-S04-U15\",\"P01-S03-U13\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"来访者在U09中首次出现自我觉察式反思（'我总觉得自己是不是又把一件很简单的事，搞成了需要别人来替我确认才行'），候选回应完全忽略这一重要进展，未予承接或深化。\",\"'自我惩罚'是对来访者行为的强解释性标签，历史上无证据支持来访者将此体验为惩罚，属于unsupported_presupposition。\",\"来访者明确表示头晕'可能跟熬夜有关，也可能是别的原因，我不太确定'，候选却直接断言'正是身体在提醒你这根弦绷得太紧了'，将猜测当作结论，忽视了来访者的不确定性。\",\"检索历史中包含大量关于来访者难以表达真实需要、害怕暴露不确定的已建立认识（如S02、S04多次讨论），候选未加以利用，仅停留在当前回合表面行为的解读上。\"]}",
+  "request_sha256": "31be43a9c4ec7e915ad03f0a42f8ce01a741b627b2e0f15d68b500d74af07fb5",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 12500,
+    "input_tokens_details": {
+      "cached_tokens": 12288
+    },
+    "output_tokens": 523,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13023,
+    "x_details": [
+      {
+        "input_tokens": 12500,
+        "output_tokens": 523,
+        "prompt_tokens_details": {
+          "cached_tokens": 12288
+        },
+        "total_tokens": 13023,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

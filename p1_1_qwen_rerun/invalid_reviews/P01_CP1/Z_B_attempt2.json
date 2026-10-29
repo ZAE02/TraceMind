@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前关于'不敢生气'的新觉察，并用'忽略自己感受'呼应了S01中反复出现的压抑模式，但未显式连接历史中的具体进展。\",\"exploration_value\":\"以开放式提问邀请来访者探索'好相处形象'与'真实感受'之间的优先级，为当前关键不确定性留下了表达空间，但略带引导性预设。\",\"response_appropriateness\":\"情绪回应自然、有共情（'心疼又无奈'），语言贴合来访者的自我觉察；但'是不是比……更重要'的句式稍有将咨询师框架强加于来访者的风险。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那在你心里，那个\"好相处\"的形象是不是比你的真实感受更重要？\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选回答中'好相处的形象'是对来访者'难搞的人'反面的合理推断，但以反问句形式呈现时带有轻微预设，可能将来访者尚未确认的解释当作前提。\",\"未直接引用或呼应前两次会话中来访者已形成的认识（如S01末尾'不逼自己立刻弄明白'的尝试、S02中'需要放到别人面前就不正当'的觉察），错失了将当前觉察与已有进展串联的机会。\"]}",
+  "request_sha256": "5611c9b35ca85f0dc889613add46a1170dd5407dd23aca9ec6d9333abf00d89a",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8829,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 373,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9202,
+    "x_details": [
+      {
+        "input_tokens": 8829,
+        "output_tokens": 373,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 9202,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

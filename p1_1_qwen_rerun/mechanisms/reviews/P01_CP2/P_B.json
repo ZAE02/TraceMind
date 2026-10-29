@@ -1,0 +1,75 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "P",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 1,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者反复放大、审视简短词语（如'好'字）的模式，以及难以停下来的核心主题，与历史高度相关。",
+      "exploration_value": "以'也许它真的只是一个字'直接给出解释性结论，封闭了探索空间；未对来访者新提出的头晕及自我觉察（'搞成需要别人确认'）留出表达余地。",
+      "response_appropriateness": "'你把自己搞得很累'语气略显武断和评判；将焦虑归因于'自己心里那个还没停下来的声音'带有说教意味，缺乏情绪共情与尊重。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "但也许它真的只是一个字，而让你难受的，是你自己心里那个还没停下来的声音。",
+        "evidence_ids": [
+          "P01-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "连头晕都分不清是熬夜还是心累了",
+        "evidence_ids": [
+          "P01-S05-U09"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "咨询师将'好'字定性为'真的只是一个字'，把来访者的主观解读当作事实前提来纠正，属于unsupported_presupposition。",
+      "来访者在U09中首次提出头晕的身体信号并表达不确定，咨询师仅用一句带过，未给予关注或探索空间，构成missed_progress。",
+      "回应整体偏向面质和解释，缺少对来访者自我觉察（'我是不是又把简单的事搞复杂了'）的情感反映和支持。",
+      "'你把自己搞得很累'的表达方式较为生硬，可能让来访者感到被指责而非被理解。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者反复放大、审视简短词语（如'好'字）的模式，以及难以停下来的核心主题，与历史高度相关。\",\"exploration_value\":\"以'也许它真的只是一个字'直接给出解释性结论，封闭了探索空间；未对来访者新提出的头晕及自我觉察（'搞成需要别人确认'）留出表达余地。\",\"response_appropriateness\":\"'你把自己搞得很累'语气略显武断和评判；将焦虑归因于'自己心里那个还没停下来的声音'带有说教意味，缺乏情绪共情与尊重。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"但也许它真的只是一个字，而让你难受的，是你自己心里那个还没停下来的声音。\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"连头晕都分不清是熬夜还是心累了\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"咨询师将'好'字定性为'真的只是一个字'，把来访者的主观解读当作事实前提来纠正，属于unsupported_presupposition。\",\"来访者在U09中首次提出头晕的身体信号并表达不确定，咨询师仅用一句带过，未给予关注或探索空间，构成missed_progress。\",\"回应整体偏向面质和解释，缺少对来访者自我觉察（'我是不是又把简单的事搞复杂了'）的情感反映和支持。\",\"'你把自己搞得很累'的表达方式较为生硬，可能让来访者感到被指责而非被理解。\"]}",
+  "request_sha256": "d98e47d453e4c2402e2f6e7b6b67775f6575e951d9bb8af998093a635a6a4de4",
+  "usage": {
+    "input_tokens": 16454,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 415,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16869,
+    "x_details": [
+      {
+        "input_tokens": 16454,
+        "output_tokens": 415,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 16869,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.875,
+  "model": "qwen3.8-max"
+}

@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-10-13T05:55:29.876731+00:00",
+  "status": "all_cases_complete",
+  "cases": {
+    "C01": {
+      "session": 8,
+      "status": "case_complete",
+      "updated_at": "2026-10-13T05:55:30.380472+00:00"
+    },
+    "C02": {
+      "session": 8,
+      "status": "case_complete",
+      "updated_at": "2026-10-13T06:04:30.122001+00:00"
+    },
+    "C03": {
+      "session": 8,
+      "status": "case_complete",
+      "updated_at": "2026-10-13T05:55:30.384476+00:00"
+    }
+  },
+  "finished_at": "2026-10-13T06:04:30.123513+00:00"
+}

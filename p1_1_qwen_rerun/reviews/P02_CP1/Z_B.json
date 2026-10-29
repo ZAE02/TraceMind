@@ -1,0 +1,74 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "Z",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "6a0a847803dcff61d09b25eac73695849a61bdb07bbf99b137a985eee03aa9ee",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "c0bac2c684c824954b3fa8367935f127820d4c46b23913a5ec67bdc2efb51d9c",
+  "candidate_answer_sha256": "c434bcf8e49af5ddbd58b7c5869780ac04ef1586c286a61e2e2764f3856053f3",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":3,\"brief_reason_history\":\"候选准确承接了来访者最新描述中'站门口不出声'和'中午反胃'两个细节，但因输入中previous_sessions为空，未能联系前两次会话中反复出现的'站着不动的折中状态'（P02-S01-U07至U10）及'配不配/欠'等核心主题，仅停留在当前会话层面。\",\"brief_reason_exploration\":\"候选指出了反胃与紧绷警觉的可能关联，但用'身体发出了抗议'作了较封闭的定性解读，未以开放方式邀请来访者自己探索这一新出现的身体感受意味着什么。\",\"brief_reason_response\":\"语言自然、有共情，准确反映了来访者无声守护的行为；但将反胃直接定义为'抗议'略带预设性解释，稍减开放性。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那份紧绷的警觉已经让身体发出了抗议\",\"evidence_ids\":[\"P02-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选输入中previous_sessions为空(access_limited=true)，导致无法利用S1中'站着看手机半小时'的折中模式与本次'站门口不出声'的深层呼应，也无法连接S2中调休单压在药盒下等象征性安排。\",\"'身体发出了抗议'属于对尚未探索的身体症状的定性解读，来访者仅说'突然有点反胃'，未确认其含义，构成轻度unsupported_presupposition。\",\"回应整体偏总结陈述，缺少为来访者留出空间的开放式探索邀请。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 2,
+      "response_appropriateness": 3,
+      "brief_reason_history": "候选准确承接了来访者最新描述中'站门口不出声'和'中午反胃'两个细节，但因输入中previous_sessions为空，未能联系前两次会话中反复出现的'站着不动的折中状态'（P02-S01-U07至U10）及'配不配/欠'等核心主题，仅停留在当前会话层面。",
+      "brief_reason_exploration": "候选指出了反胃与紧绷警觉的可能关联，但用'身体发出了抗议'作了较封闭的定性解读，未以开放方式邀请来访者自己探索这一新出现的身体感受意味着什么。",
+      "brief_reason_response": "语言自然、有共情，准确反映了来访者无声守护的行为；但将反胃直接定义为'抗议'略带预设性解释，稍减开放性。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "那份紧绷的警觉已经让身体发出了抗议",
+        "evidence_ids": [
+          "P02-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": true
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选输入中previous_sessions为空(access_limited=true)，导致无法利用S1中'站着看手机半小时'的折中模式与本次'站门口不出声'的深层呼应，也无法连接S2中调休单压在药盒下等象征性安排。",
+      "'身体发出了抗议'属于对尚未探索的身体症状的定性解读，来访者仅说'突然有点反胃'，未确认其含义，构成轻度unsupported_presupposition。",
+      "回应整体偏总结陈述，缺少为来访者留出空间的开放式探索邀请。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 6304,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 413,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6717,
+    "x_details": [
+      {
+        "input_tokens": 6304,
+        "output_tokens": 413,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 6717,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.078
+}

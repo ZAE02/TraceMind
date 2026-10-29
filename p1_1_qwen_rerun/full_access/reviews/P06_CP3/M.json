@@ -1,0 +1,48 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Most claims are well-supported by cited utterances, but '心慌' (palpitations) is not explicitly stated in the transcript and appears to be an unsupported addition. Some clinical labels like 'Dissociation' go slightly beyond client's own words but are reasonable interpretations.",
+      "progress_understanding": "The summary captures historical patterns across sessions 1-6 well, including the loosening around accepting help and the emergence of dissociative experiences. However, it completely ignores session 7 (the current dialogue), missing the critical new development where the husband actually took leave to help and the client's intense monitoring behavior ('心里悬着一把尺'). This is a significant omission for CP3.",
+      "uncertainty_awareness": "The unresolved questions section is extensive and covers many relevant areas. However, several questions lean toward clinical/medical assessment rather than therapeutic exploration, and the summary fails to identify the most immediate unresolved tension from the current session—the client's inability to stop monitoring her husband despite wanting to accept his help."
+    },
+    "confidence": "high",
+    "issues": [
+      "Completely omits session 7 content, which is the current session at CP3, missing the husband's actual involvement and the client's 'scoring' behavior",
+      "Includes '心慌' (palpitations) as a somatic symptom without explicit textual support in the provided utterances",
+      "Unresolved questions include medical/clinical triage items (e.g., whether dissociation meets clinical intervention criteria) that are somewhat outside typical counseling formulation scope"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"Most claims are well-supported by cited utterances, but '心慌' (palpitations) is not explicitly stated in the transcript and appears to be an unsupported addition. Some clinical labels like 'Dissociation' go slightly beyond client's own words but are reasonable interpretations.\",\"progress_understanding\":\"The summary captures historical patterns across sessions 1-6 well, including the loosening around accepting help and the emergence of dissociative experiences. However, it completely ignores session 7 (the current dialogue), missing the critical new development where the husband actually took leave to help and the client's intense monitoring behavior ('心里悬着一把尺'). This is a significant omission for CP3.\",\"uncertainty_awareness\":\"The unresolved questions section is extensive and covers many relevant areas. However, several questions lean toward clinical/medical assessment rather than therapeutic exploration, and the summary fails to identify the most immediate unresolved tension from the current session—the client's inability to stop monitoring her husband despite wanting to accept his help.\"},\"confidence\":\"high\",\"issues\":[\"Completely omits session 7 content, which is the current session at CP3, missing the husband's actual involvement and the client's 'scoring' behavior\",\"Includes '心慌' (palpitations) as a somatic symptom without explicit textual support in the provided utterances\",\"Unresolved questions include medical/clinical triage items (e.g., whether dissociation meets clinical intervention criteria) that are somewhat outside typical counseling formulation scope\"]}",
+  "request_sha256": "c33c37f91819998cb8e1a16c8783f79906dc310724af9425533d3f4dc71f163e",
+  "usage": {
+    "input_tokens": 19631,
+    "input_tokens_details": {
+      "cached_tokens": 9728
+    },
+    "output_tokens": 330,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19961,
+    "x_details": [
+      {
+        "input_tokens": 19631,
+        "output_tokens": 330,
+        "prompt_tokens_details": {
+          "cached_tokens": 9728
+        },
+        "total_tokens": 19961,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.969
+}

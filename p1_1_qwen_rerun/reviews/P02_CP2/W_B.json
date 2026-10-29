@@ -1,0 +1,74 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "a7a3c672307790d2a9c560e0134ba25b317e4770b93a19695d6ccac9bbd931d0",
+  "public_sha256": "c88a7812a16910a4c9d482b3268392f92b9f746a9a7f9603798e22d001b9f5ce",
+  "candidate_input_sha256": "53e192ab2f0c3abf7fa5ab18dabadc82641d3141652134be655cb35f9174bfda",
+  "candidate_answer_sha256": "0c7c6cfa3d0a27cb981da20fd248032e090240449dd2d3ca6c82644b27eb1cc7",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'偷来的时间''不敢靠下去''数时间'等当前会话核心体验，并自然联系到对母亲的隐瞒模式，但未显式连接前几节已建立的'不能停/一停就起不来'的深层恐惧。\",\"exploration_value\":\"以假设性提问邀请来访者探索身体防御松动后的可能体验，方向具体且开放，但'如果不再需要解释、不再担心被打断'的前提条件较多，可能让来访者难以直接进入感受层面。\",\"response_appropriateness\":\"语言温和、尊重来访者节奏，情绪反映贴合原文，未强加结论；但前半段略有复述感，后半段的假设性框架稍显引导性。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"未直接回应来访者'真的'这一强烈认同的情感重量，而是较快转入假设性探索\",\"假设性问题中叠加了两个前提条件（不需要向妈妈解释+不担心被打断），可能增加来访者的认知负担\",\"未将当前'不敢靠下去'与第4节已确认的'一停就可能起不来'的核心恐惧做显式连接\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者'偷来的时间''不敢靠下去''数时间'等当前会话核心体验，并自然联系到对母亲的隐瞒模式，但未显式连接前几节已建立的'不能停/一停就起不来'的深层恐惧。",
+      "exploration_value": "以假设性提问邀请来访者探索身体防御松动后的可能体验，方向具体且开放，但'如果不再需要解释、不再担心被打断'的前提条件较多，可能让来访者难以直接进入感受层面。",
+      "response_appropriateness": "语言温和、尊重来访者节奏，情绪反映贴合原文，未强加结论；但前半段略有复述感，后半段的假设性框架稍显引导性。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "未直接回应来访者'真的'这一强烈认同的情感重量，而是较快转入假设性探索",
+      "假设性问题中叠加了两个前提条件（不需要向妈妈解释+不担心被打断），可能增加来访者的认知负担",
+      "未将当前'不敢靠下去'与第4节已确认的'一停就可能起不来'的核心恐惧做显式连接"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14036,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 344,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14380,
+    "x_details": [
+      {
+        "input_tokens": 14036,
+        "output_tokens": 344,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14380,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.109
+}

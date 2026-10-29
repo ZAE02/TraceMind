@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前回合表达的矛盾心理，并呼应了前几轮中反复出现的'喘口气''搭把手'主题，但未显式连接更深层的历史线索（如父亲离开的创伤、对母亲问'你爸去哪了'的恐惧与第三轮的关联）。\",\"exploration_value\":\"回应主要是对来访者已表达内容的总结和重新框架化，缺乏开放性的探索空间或邀请，未推进对核心不确定性的理解。\",\"response_appropriateness\":\"语言温和、尊重，准确反映了来访者的两难处境，没有不当预设，但整体偏陈述性，缺少情绪层面的进一步贴近或探索性提问。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"脑子里想的是我妈坐在里面会不会一直问'你爸去哪了'\",\"evidence_ids\":[\"P06-S05-U09\",\"P06-S03-U05\",\"P06-S03-U07\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"来访者在U09中提到母亲会问'你爸去哪了'，这与第三轮中父亲离开时的创伤记忆直接相关，是重要的历史进展节点，但候选回应完全忽略了这一层，仅停留在'怕护工不耐烦'和'承认失败'的表面矛盾上。\",\"回应以总结性陈述结尾，未给来访者留下继续展开的空间，探索价值有限。\"]}",
+  "request_sha256": "44f310bebfe8aea01b9bfe4a867b273666eff6581e648c4f11cdbac476c170c6",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 13687,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 379,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14066,
+    "x_details": [
+      {
+        "input_tokens": 13687,
+        "output_tokens": 379,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 14066,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

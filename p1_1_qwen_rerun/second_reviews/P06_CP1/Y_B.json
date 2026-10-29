@@ -1,0 +1,75 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "bd4bb466b67f83f2be3f913309886b5f75b008550c5edc4d8e7fe1f4dc3d5b8d",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "506b7b9bfbacad611ef62b3bf025815411fab2954aa45a935b5e3c8c05f234b6",
+  "candidate_answer_sha256": "7d72a2e30bee141aac5c156f40df885ef27c48ea919505bdb4394971cd042a62",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'摸手腕确认自己还在'的行为及前文'怕散掉'的主题，但未触及本次发言中新增的强烈躯体感受（出汗、衣服贴背）和'被撕开'的解离意象。\",\"exploration_value\":\"将具体行为与更广泛的'对失控的恐惧'联系起来，为来访者理解自身状态提供了有意义的视角，但忽略了当前话语中最突出的新体验（'像被人从头顶撕开了'），探索焦点略有偏移。\",\"response_appropriateness\":\"语言温和、试探性语气恰当，情绪回应尊重来访者节奏；但对来访者刚描述的极具冲击力的躯体和解离体验未作直接反映，显得稍有回避。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"这种对失控的恐惧，是不是让你连休息都变成了一种需要警惕的任务？\",\"evidence_ids\":[\"P06-S03-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"来访者在最新发言中描述了非常强烈的躯体感受（'药瓶是凉的，可我一直出汗，衣服贴在背上'）以及可能涉及解离的体验（'觉得自己像被人从头顶撕开了'），候选回应完全未对这些新出现的重要线索作出反映或探索，而是转向了一个相对抽象的概念化问题。\",\"虽然候选回应准确连接了'摸手腕'与'怕散掉'的主题，体现了对历史进展的理解，但在当前节点，来访者正在展开更深层的身体记忆，回应的焦点选择略显保守。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者'摸手腕确认自己还在'的行为及前文'怕散掉'的主题，但未触及本次发言中新增的强烈躯体感受（出汗、衣服贴背）和'被撕开'的解离意象。",
+      "exploration_value": "将具体行为与更广泛的'对失控的恐惧'联系起来，为来访者理解自身状态提供了有意义的视角，但忽略了当前话语中最突出的新体验（'像被人从头顶撕开了'），探索焦点略有偏移。",
+      "response_appropriateness": "语言温和、试探性语气恰当，情绪回应尊重来访者节奏；但对来访者刚描述的极具冲击力的躯体和解离体验未作直接反映，显得稍有回避。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "这种对失控的恐惧，是不是让你连休息都变成了一种需要警惕的任务？",
+        "evidence_ids": [
+          "P06-S03-U09"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "来访者在最新发言中描述了非常强烈的躯体感受（'药瓶是凉的，可我一直出汗，衣服贴在背上'）以及可能涉及解离的体验（'觉得自己像被人从头顶撕开了'），候选回应完全未对这些新出现的重要线索作出反映或探索，而是转向了一个相对抽象的概念化问题。",
+      "虽然候选回应准确连接了'摸手腕'与'怕散掉'的主题，体现了对历史进展的理解，但在当前节点，来访者正在展开更深层的身体记忆，回应的焦点选择略显保守。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 7917,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 404,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8321,
+    "x_details": [
+      {
+        "input_tokens": 7917,
+        "output_tokens": 404,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8321,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.782
+}

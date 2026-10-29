@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "d820392b19f6424763b640ea9169bf3d11f1c8725b74a0ededa4ff603c9dfa55",
+  "public_sha256": "4cff561a4c5fb4dadbecb4fe78ec21e83eac56f2bd764214788a384c3497a2d3",
+  "candidate_input_sha256": "a01718148816ca7c630239b3d9774dc26a1eae4b20e5beeecde76b4a92b37e99",
+  "candidate_answer_sha256": "36a5112ea4cfadb9ae4656e8546a0cfc42074f7a5f0b891d0b3e981e608fef53",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键判断均有具体发言支持，准确区分了来访者的行为（如发三个方案、说‘刚到不久’）与背后的心理动力，未将咨询师猜测当作事实。\",\n    \"progress_understanding\": \"准确连接了不同会话中的形成、验证与修正。不仅总结了当前的压抑模式，还回顾了之前关于‘一次做对’和‘正当性’的讨论，展现了完整的咨询进展脉络。\",\n    \"uncertainty_awareness\": \"明确指出了几个重要的未知领域（如情感性质、根源、长期影响），但部分推测（如依恋类型）略显宽泛，若能更紧密地结合当前‘不敢生气’的具体情境会更精准。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键判断均有具体发言支持，准确区分了来访者的行为（如发三个方案、说‘刚到不久’）与背后的心理动力，未将咨询师猜测当作事实。",
+      "progress_understanding": "准确连接了不同会话中的形成、验证与修正。不仅总结了当前的压抑模式，还回顾了之前关于‘一次做对’和‘正当性’的讨论，展现了完整的咨询进展脉络。",
+      "uncertainty_awareness": "明确指出了几个重要的未知领域（如情感性质、根源、长期影响），但部分推测（如依恋类型）略显宽泛，若能更紧密地结合当前‘不敢生气’的具体情境会更精准。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9605,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 221,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9826,
+    "x_details": [
+      {
+        "input_tokens": 9605,
+        "output_tokens": 221,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9826,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.359
+}

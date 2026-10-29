@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "8e0a2444ceae5eae418ee90521c0432a125f80532ed3003f02ecdb5f1b487ef7",
+  "request_sha256": "fd5796a8a9ed25ae269fd82bb744a4c2ac2a1afae390bcace8630e5a7682ce30",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“问出口怕被看轻”的顾虑，似乎比事情本身更难跨越。如果现在回头看，是什么让你觉得赵岩是可以开口的人？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 929,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 32,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 961,
+    "x_details": [
+      {
+        "input_tokens": 929,
+        "output_tokens": 32,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 961,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "Q",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接了来访者一贯的'该不该有'自我审判模式（如S03对生气、S07对羡慕的压制），以及将情绪与事件混在一起回避感受的防御机制，未机械复述病历。",
+      "exploration_value": "准确命名了'手指停在点赞又收回'的细节并给出假设性理解（用'可能正是为了'），为来访者确认或修正留出空间，但探索略偏解释性，可进一步邀请来访者体会那个停住瞬间的身体或情绪感受。",
+      "response_appropriateness": "语言温和、尊重，贴合来访者当下的脆弱表达，没有武断定性，情绪回应与证据边界均恰当。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":3,\"response_appropriateness\":4},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者一贯的'该不该有'自我审判模式（如S03对生气、S07对羡慕的压制），以及将情绪与事件混在一起回避感受的防御机制，未机械复述病历。\",\"exploration_value\":\"准确命名了'手指停在点赞又收回'的细节并给出假设性理解（用'可能正是为了'），为来访者确认或修正留出空间，但探索略偏解释性，可进一步邀请来访者体会那个停住瞬间的身体或情绪感受。\",\"response_appropriateness\":\"语言温和、尊重，贴合来访者当下的脆弱表达，没有武断定性，情绪回应与证据边界均恰当。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[]}",
+  "request_sha256": "54f625d31086f0dda3109bca15327995138d007c0150c5790263ae9e884ba2a9",
+  "usage": {
+    "input_tokens": 21953,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 264,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 22217,
+    "x_details": [
+      {
+        "input_tokens": 21953,
+        "output_tokens": 264,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 22217,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.75,
+  "model": "qwen3.8-max"
+}

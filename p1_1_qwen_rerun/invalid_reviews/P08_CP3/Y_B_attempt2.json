@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者从赵岩经验中获得的自我觉察及当前现实卡点，但未显式回应'怕人家觉得我连这个都搞不定'这一核心恐惧与历史中反复出现的'不想欠人''怕矮一截'模式的关联。\",\"exploration_value\":\"识别了'知道了却动不了'的落差感并尝试命名情绪，但以封闭式确认问句收尾，未为来访者新暴露的求助恐惧和'晚了点'的遗憾留出充分展开空间。\",\"response_appropriateness\":\"语言自然、共情到位，无武断预设，但将复杂感受直接框定为'更无力'略显收窄。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种\"知道了却动不了\"的落差感，是不是让你觉得更无力了？\",\"evidence_ids\":[\"P08-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选回复未触及来访者在P08-S07-U09中新表达的核心恐惧——'问出口又怕人家觉得我连这个都搞不定'，这与前几节中反复出现的'怕被看成处理不好'(P08-S02-U02)、'说谢谢就矮一截'(P08-S03-U07)高度呼应，是重要的模式连接点。\",\"以'是不是让你觉得更无力了？'作结属于引导性较强的封闭问句，来访者原文表达的是感慨与遗憾('现在知道了，还是晚了点')，直接等同于'无力'存在轻微的unsupported_presupposition风险。\",\"探索方向偏向确认情绪标签，而非邀请来访者进一步展开'晚了点'背后的具体感受或对当下困境的意义。\"]}",
+  "request_sha256": "34aa1766ee68cc744f25b36137d44eb25b5cea9f334ca62fad2df65ff744b86f",
+  "reason": "Expecting ',' delimiter: line 1 column 447 (char 446)",
+  "usage": {
+    "input_tokens": 18672,
+    "input_tokens_details": {
+      "cached_tokens": 18432
+    },
+    "output_tokens": 447,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19119,
+    "x_details": [
+      {
+        "input_tokens": 18672,
+        "output_tokens": 447,
+        "prompt_tokens_details": {
+          "cached_tokens": 18432
+        },
+        "total_tokens": 19119,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3055 @@
+{
+  "human_review_performed": false,
+  "answers": [
+    {
+      "node": "C01_CP1",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "683959eb746e47ce8f6682b511684cfe",
+      "anonymous_id": "A3ad6c5aba9e9",
+      "scope": "original",
+      "U": 4.0,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A3ad6c5aba9e9",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单句准确保留可能评价，问持续时间贴近体验；全文已确认反复与睡眠背景，可进一步问这一次如何转。",
+        "evidence_ids": [
+          "C01-S03-U05",
+          "C01-S01-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A3ad6c5aba9e9",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单轮范围内理解与引用准确；持续时间问题贴近当前困扰，但推进较基础。",
+        "evidence_ids": [
+          "C01-S03-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP1",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "dd11a02868c14d1190c05ced09940200",
+      "anonymous_id": "A3f5c1a75f041",
+      "scope": "original",
+      "U": 3.5,
+      "R": 2.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A3f5c1a75f041",
+        "U": 4,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "在单句范围内谨慎概括；询问持续时间安全但全文S01已谈两三周，回顾历史会更贴当前过程。",
+        "evidence_ids": [
+          "C01-S03-U05",
+          "C01-S01-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A3f5c1a75f041",
+        "U": 3,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "可见单轮理解基本成立，困扰未减轻略有推断；实际询问起始时间安全，但完整历史已谈夜间转念数周，针对性有限。",
+        "evidence_ids": [
+          "C01-S03-U05",
+          "C01-S01-U11"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP1",
+      "condition": "H1_session",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "92100e9371ff43aca1d5a299c320b19d",
+      "anonymous_id": "Ad89817ab0866",
+      "scope": "original",
+      "U": 3.5,
+      "R": 3.5,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Ad89817ab0866",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "区分自动文件扫描与母亲担忧，回应追问未知后续行为，局部证据足够且与全文相容。",
+        "evidence_ids": [
+          "C01-S03-U03",
+          "C01-S03-U05"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Ad89817ab0866",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "理解大体有据，但将睡前打开文件和躺下后的念头合并；询问实际反应有针对性，选项略窄。",
+        "evidence_ids": [
+          "C01-S03-U03",
+          "C01-S03-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP1",
+      "condition": "H1_session",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "d3b64734dc034862aea927167c8a00c4",
+      "anonymous_id": "Ac01d9153d8c0",
+      "scope": "original",
+      "U": 3.5,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Ac01d9153d8c0",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "身体先于意识为略强改述；单次资料将负面归因说成模式也偏强。问停留时长可行但比具体转折泛。",
+        "evidence_ids": [
+          "C01-S03-U03",
+          "C01-S03-U05"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Ac01d9153d8c0",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "可见范围内区分文件扫描与人际念头，引用准确；开放追问持续和反复有效，但推进较基础。",
+        "evidence_ids": [
+          "C01-S03-U03",
+          "C01-S03-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP1",
+      "condition": "H2_full",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "d688b03ab34c4f329a5e3c8af58b2def",
+      "anonymous_id": "Ad3db7e3cd8a6",
+      "scope": "original",
+      "U": 3.0,
+      "R": 3.5,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Ad3db7e3cd8a6",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "核心简短回复与负面预判有依据，但旧母亲烦躁证据不能证明当时同样睡前负面解读；实际问触发方向合适。",
+        "evidence_ids": [
+          "C01-S03-U05",
+          "C01-S01-U17"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Ad3db7e3cd8a6",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "抓住简短回应后的担心；跨场景概括稍强，S01-U15/U17并不直接支持中性回应后的负面解读。实际回应谨慎询问来源。",
+        "evidence_ids": [
+          "C01-S03-U05",
+          "C01-S01-U05",
+          "C01-S01-U17"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP1",
+      "condition": "H2_full",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "eb3cd28b0e8042b3bafba2e8951c9173",
+      "anonymous_id": "A8ff1a63eb04d",
+      "scope": "original",
+      "U": 3.5,
+      "R": 3.5,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A8ff1a63eb04d",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "历史具体连接反馈与母亲回应，并邀请检验异同，保留关系层面未知。",
+        "evidence_ids": [
+          "C01-S01-U07",
+          "C01-S01-U19",
+          "C01-S03-U05"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A8ff1a63eb04d",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "历史类比有据并留有不确定性；回应以好像作试探，未强定同一机制，但同一个还是多一层的问法略收窄。",
+        "evidence_ids": [
+          "C01-S03-U05",
+          "C01-S01-U07",
+          "C01-S01-U19"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP2",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "c53e752a1da746f79c68a3f6da6e62f5",
+      "anonymous_id": "A30e08b9b5d48",
+      "scope": "original",
+      "U": 4.0,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A30e08b9b5d48",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单句支持自己猜与询问顾虑，身体感受尚未知；回应直接探索画面出现的体验，全文相容。",
+        "evidence_ids": [
+          "C01-S06-U05"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A30e08b9b5d48",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "在仅见当前话语范围内准确区分还原、先冒出的评价画面与待核实担忧；直接询问该时刻身体感受，具体且不把心理解释当事实。",
+        "evidence_ids": [
+          "C01-S06-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP2",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "927a7ed3e7224db18cde459306d4e479",
+      "anonymous_id": "Aecac3fd3803a",
+      "scope": "original",
+      "U": 3.5,
+      "R": 3.5,
+      "E": 2.0,
+      "P": 1,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Aecac3fd3803a",
+        "U": 3,
+        "R": 3,
+        "P": 1,
+        "E": 2,
+        "S": false,
+        "reason": "局部支持询问顾虑，但回应“然后就变成自己在还原”把未确认的因果先后定成事实；全文表明先有分心与反馈不具体，尚未确认因画面才转向还原。",
+        "evidence_ids": [
+          "C01-S06-U05",
+          "C01-S06-U03"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Aecac3fd3803a",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "仅见U05时抓住自行还原和问之前的画面，未因不可见历史而扣分；回应复述后具体邀请描述画面，贴近当下且开放。",
+        "evidence_ids": [
+          "C01-S06-U05"
+        ]
+      },
+      "P_adjudication": {
+        "anonymous_id": "Aecac3fd3803a",
+        "node": "C01_CP2",
+        "P": 1,
+        "reason": "实际回应将‘那个…画面先跳出来了，然后就变成自己在还原’作为既成过程，继而只邀请描述该画面。U05支持想过询问、担忧显得没在听及画面先冒出，却未确认自行还原由该画面引起或发生在它之后；U03已描述未听清反馈后开始还原，历史也反复出现模糊反馈下自行确认。‘听起来’不足以将这条未确认的心理因果改为询问，后续探索已据它定位，故P=1。",
+        "evidence_ids": [
+          "C01-S06-U05",
+          "C01-S06-U03",
+          "C01-S01-U07",
+          "C01-S02-U07"
+        ]
+      }
+    },
+    {
+      "node": "C01_CP2",
+      "condition": "H1_session",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "573a2e08ab904df39118a209bcc6447c",
+      "anonymous_id": "A25bcc945c62c",
+      "scope": "original",
+      "U": 4.0,
+      "R": 3.5,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A25bcc945c62c",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "当前五句区分具体反馈、分心和画面障碍充分；问感受并提供可否定选项，未肯定权威或能力解释。",
+        "evidence_ids": [
+          "C01-S06-U01",
+          "C01-S06-U03",
+          "C01-S06-U05"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A25bcc945c62c",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "准确抓住自行还原、分心与先出现的评价画面；回应紧贴画面询问感受，但紧张/不想开口选项略收窄体验。",
+        "evidence_ids": [
+          "C01-S06-U03",
+          "C01-S06-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP2",
+      "condition": "H1_session",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "c018b86a592c4588bb0ef7659e38cd95",
+      "anonymous_id": "A464e5d568b14",
+      "scope": "original",
+      "U": 2.5,
+      "R": 3.0,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A464e5d568b14",
+        "U": 2,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "“核心不是反馈内容”否定来访者主要还原内容，过度缩成评价恐惧；回应条件式问意义尚开放，但最扎心夸大情绪强度。",
+        "evidence_ids": [
+          "C01-S06-U05",
+          "C01-S06-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A464e5d568b14",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "当前证据支持担心被觉得没听懂，但不能确定夜间反复思考核心排除反馈内容。实际回应以条件式探查评价的意义，未断言它已发生；“最扎心”预置强烈痛感，降低恰当性。",
+        "evidence_ids": [
+          "C01-S06-U01",
+          "C01-S06-U03",
+          "C01-S06-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP2",
+      "condition": "H2_full",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "ef99994dfe024c85a6dbb8a0a5eb446f",
+      "anonymous_id": "A8d8b12a175be",
+      "scope": "original",
+      "U": 2.0,
+      "R": 3.5,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A8d8b12a175be",
+        "U": 2,
+        "R": 4,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "有点挤实际来自小许，权威来源决定卡住及接收模式证据不足；实际回应查询真实经历和预判保持开放。",
+        "evidence_ids": [
+          "C01-S01-U01",
+          "C01-S06-U03",
+          "C01-S06-U05"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A8d8b12a175be",
+        "U": 2,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "把来源权威性确定为关键并将小许的“有点挤”混列为周姐/客户反馈；S01-U05不证明未听进去的重复模式。实际回应以经历核查预判来源，仍有开放探索空间。",
+        "evidence_ids": [
+          "C01-S01-U01",
+          "C01-S01-U05",
+          "C01-S06-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP2",
+      "condition": "H2_full",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "fabfab4daa19404b8b67367cdff4bd75",
+      "anonymous_id": "A1ee1e1cf4c39",
+      "scope": "original",
+      "U": 3.0,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A1ee1e1cf4c39",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "排除实际成本无依据，历史类比保留tentative；回应类比有点像未锁定机制，但先后说得偏实，具体询问画面仍合适。",
+        "evidence_ids": [
+          "C01-S06-U05",
+          "C01-S02-U11",
+          "C01-S03-U13"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A1ee1e1cf4c39",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "证据支持当前还原与既往自动动作的暂定相似；母亲情境向工作延续仍属推测。实际回应以“有点像”保留假说，并具体询问画面表现；“上次”指第二次稍不精确。",
+        "evidence_ids": [
+          "C01-S02-U11",
+          "C01-S03-U13",
+          "C01-S06-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP3",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "f3b19246e0e944e7adaeb17d3bb71f07",
+      "anonymous_id": "A632ffdbccbb8",
+      "scope": "original",
+      "U": 4.0,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A632ffdbccbb8",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单句充分支持具体细节与未结束感区分；问判断或身体感觉可否定、安全但略窄，全文有确认留不住的连续背景。",
+        "evidence_ids": [
+          "C01-S08-U05",
+          "C01-S05-U09"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A632ffdbccbb8",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单轮准确区分具体间距与未结束背景感；实际探索体验质地有用，但判断与身体不踏实选项较窄。",
+        "evidence_ids": [
+          "C01-S08-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP3",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "aac8d6cdc33840a8a446fecb20dc7b65",
+      "anonymous_id": "Acf001beffda3",
+      "scope": "original",
+      "U": 3.0,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Acf001beffda3",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "该干嘛干嘛不能充分确定日常功能不受影响；回应门没关严隐喻添加不确定被吹开意象，尚为选项未定因果，针对性中等。",
+        "evidence_ids": [
+          "C01-S08-U05"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Acf001beffda3",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "未完成感理解有据；日常功能未明显受影响超过单轮可知范围。实际用比喻询问安全，但较抽象且选项窄。",
+        "evidence_ids": [
+          "C01-S08-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP3",
+      "condition": "H1_session",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "aa1ef452b65e4bf298b48ee2306dafb3",
+      "anonymous_id": "Aac8a8cf60648",
+      "scope": "original",
+      "U": 3.0,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Aac8a8cf60648",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "周四干净收掉的结束感主要是咨询师表述，来访者仅报没有大问题；实际问结束样子合适开放。",
+        "evidence_ids": [
+          "C01-S08-U01",
+          "C01-S08-U02",
+          "C01-S08-U05"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Aac8a8cf60648",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "当前未结束感理解准确；干净收掉强断言依赖咨询师过了的说法。实际开放追问真正结束的体验，贴近本轮。",
+        "evidence_ids": [
+          "C01-S08-U01",
+          "C01-S08-U03",
+          "C01-S08-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP3",
+      "condition": "H1_session",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "19f1584b878b4893a6fa58c2ae8a7dba",
+      "anonymous_id": "A6f89fe2587e2",
+      "scope": "original",
+      "U": 3.0,
+      "R": 3.5,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A6f89fe2587e2",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "两像素并非剩余总工作量，不能推出强度不成比例；实际问先这样和改好了差别具体合适。",
+        "evidence_ids": [
+          "C01-S08-U03",
+          "C01-S08-U05"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A6f89fe2587e2",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "弥散感与间距区别有据，强度与剩余工作量不成比例及周四结束感有所推断；问差什么贴近主题但可能预设缺少条件。",
+        "evidence_ids": [
+          "C01-S08-U03",
+          "C01-S08-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP3",
+      "condition": "H2_full",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "4d01aa9a292b49f9a0af1cbc73a38a90",
+      "anonymous_id": "Aaa1189bd339e",
+      "scope": "original",
+      "U": 3.0,
+      "R": 3.5,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Aaa1189bd339e",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "当场具体能关闭尚主要据咨询师过了的解释，条件概括稍强；实际问有无画面未确认周姐是原因，与历史画面也相容。",
+        "evidence_ids": [
+          "C01-S08-U01",
+          "C01-S08-U02",
+          "C01-S08-U05",
+          "C01-S06-U05"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Aaa1189bd339e",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "当前体验有据，具体反馈即能关闭的概括偏强；实际谨慎询问周姐画面或弥散感，未将假设定为事实，但选项稍限。",
+        "evidence_ids": [
+          "C01-S08-U01",
+          "C01-S08-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C01_CP3",
+      "condition": "H2_full",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "b70e1f0b40e6496ea85e367b72156bcd",
+      "anonymous_id": "A278368981b4c",
+      "scope": "original",
+      "U": 3.5,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A278368981b4c",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "当前区别和历史关系保持未知，探索真正结束标准直接对应当前更占地方的感受。",
+        "evidence_ids": [
+          "C01-S08-U03",
+          "C01-S08-U05"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A278368981b4c",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "准确抓住当前区别，周四过了的主观结束感尚未由来访者确认；实际开放询问结束的标准，针对性强。",
+        "evidence_ids": [
+          "C01-S08-U01",
+          "C01-S08-U03",
+          "C01-S08-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP1",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "5352be06b15940308a21a72e0f914596",
+      "anonymous_id": "A7d4c66285e21",
+      "scope": "original",
+      "U": 2.0,
+      "R": 3.5,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A7d4c66285e21",
+        "U": 2,
+        "R": 4,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "治疗空间无可见证据，完整历史明确周六是电影等个人生活；理解降分，但实际回应未带入治疗解释而保持开放。",
+        "evidence_ids": [
+          "C02-S03-U17",
+          "C02-S03-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A7d4c66285e21",
+        "U": 2,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "仅见U17仍能理解所有感与下回不可靠；却无依据把周六下午断定为治疗空间，证据不支持该场景。实际回应未带入治疗空间，仍可开放探查“我的”，不判P。",
+        "evidence_ids": [
+          "C02-S03-U17"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP1",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "9419d25c7e4a453ba05785e2b9fbfb11",
+      "anonymous_id": "Acf7a238ffa26",
+      "scope": "original",
+      "U": 3.0,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Acf7a238ffa26",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单句可见充分支持变薄；自我承诺信任属延伸且标moderate。身体及坐下场景为额外引导，全文电影情境可使提问更准确。",
+        "evidence_ids": [
+          "C02-S03-U17",
+          "C02-S03-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Acf7a238ffa26",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "仅见U17所能支持的归属感与信任减弱把握较好，但排除突然节点仍有推断。回应以周六身体感受使隐喻具体化，预设“坐下来”场景稍多，未强加心理解释。",
+        "evidence_ids": [
+          "C02-S03-U17"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP1",
+      "condition": "H1_session",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "60f8c5dfd73f455d931b72b2b75c06ff",
+      "anonymous_id": "A88e8d3e27b62",
+      "scope": "original",
+      "U": 3.0,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A88e8d3e27b62",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "抓住所有感及取消后的内部记账；称不是事变多忽略U15同时承认增多；实际回应开放具体。",
+        "evidence_ids": [
+          "C02-S03-U11",
+          "C02-S03-U15",
+          "C02-S03-U17"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A88e8d3e27b62",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "抓住取消、确认后的欠账与“我的”变薄；概括“不是事变多”略抹掉来访者明确承认事情确实增多。回应具体用过去周六体验作参照，贴合当下。",
+        "evidence_ids": [
+          "C02-S03-U15",
+          "C02-S03-U17"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP1",
+      "condition": "H1_session",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "e1b3a3d3b2794028a95b053e4992cdce",
+      "anonymous_id": "A4bd7e75bd3f1",
+      "scope": "original",
+      "U": 3.0,
+      "R": 3.5,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A4bd7e75bd3f1",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "我的及内部欠账有依据，但不是答应变多误简化U15；问原来的体验合适。",
+        "evidence_ids": [
+          "C02-S03-U15",
+          "C02-S03-U17"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A4bd7e75bd3f1",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "理解主要有证，但“不是答应的事变多了”与U15承认增多不符；实际问题保留“我的”含义开放性，虽贴近隐喻但具体场景支撑较少。",
+        "evidence_ids": [
+          "C02-S03-U15",
+          "C02-S03-U17"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP1",
+      "condition": "H2_full",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "b9854e6d7b194d778d0b828eaf8be68e",
+      "anonymous_id": "A1114d1f8869e",
+      "scope": "original",
+      "U": 4.0,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A1114d1f8869e",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "覆盖自我确认、补不上与未来不可靠，历史关联留为未知；直接探索我的含义。",
+        "evidence_ids": [
+          "C02-S03-U11",
+          "C02-S03-U15",
+          "C02-S03-U17"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A1114d1f8869e",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "准确把时间量、归属感和未来可靠性区分，同时将历史尺子机制留作不确定；实际回应直接询问“我的”除时间外还包含什么，具体且开放。",
+        "evidence_ids": [
+          "C02-S03-U05",
+          "C02-S03-U15",
+          "C02-S03-U17"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP1",
+      "condition": "H2_full",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "50092d0fbd3c4aa2a9f403560ce828f7",
+      "anonymous_id": "Ab0883475e561",
+      "scope": "original",
+      "U": 3.5,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Ab0883475e561",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "历史连接以可能性保留；问变薄的过程贴合，但较宽，完整历史可进一步区分自我确认与他人反应。",
+        "evidence_ids": [
+          "C02-S03-U17",
+          "C02-S02-U19"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Ab0883475e561",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "当前及既往证据支持不踏实与渐进体验，但排除单次事件的强断言和两次不踏实的连续性仍需核实。回应探查变薄的体验时序有针对性，二选一略限制表达。",
+        "evidence_ids": [
+          "C02-S02-U19",
+          "C02-S03-U15",
+          "C02-S03-U17"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP2",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "e65d7d04db194c6fb72a94e663e2e5f5",
+      "anonymous_id": "Af76a7fa1c33b",
+      "scope": "original",
+      "U": 3.0,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Af76a7fa1c33b",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "准确理解当前自我评判更难受及画面触发；道德定罪是对判字的延伸推测，仍待确认。实际回应只问具体判的是什么，没有将道德性推测带入定论；证据均在单句可见范围。",
+        "evidence_ids": [
+          "C02-S06-U07"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Af76a7fa1c33b",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单轮自我先判与更难受有据，道德定罪强度稍高；实际开放询问判的内容，正对未知。",
+        "evidence_ids": [
+          "C02-S06-U07"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP2",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "f1a4701d7f3441dc840c7219859da6fd",
+      "anonymous_id": "A1e6d6b6f34e0",
+      "scope": "original",
+      "U": 4.0,
+      "R": 3.5,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A1e6d6b6f34e0",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "在仅可见当前一句的范围内准确识别自我判断先出现且更难受，保持画面和关系背景未知。追问感受升起时的内在话语，具体承接当下且开放。",
+        "evidence_ids": [
+          "C02-S06-U07"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A1e6d6b6f34e0",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单轮事实和时序理解准确；实际问内在话语可推进，但通常一词泛化且未必体验为语言。",
+        "evidence_ids": [
+          "C02-S06-U07"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP2",
+      "condition": "H1_session",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "5f3ef81c80f5480cb3d0eb7ffd976d76",
+      "anonymous_id": "A7afdc3aa749b",
+      "scope": "original",
+      "U": 3.0,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A7afdc3aa749b",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "能辨认自我评判与外部评价的区别；还配得上那份好的意义尚无直接证据，但标为暂定且列有不确定性。实际回应以好像和开放问句探索判词，没有锁定未确认原因。",
+        "evidence_ids": [
+          "C02-S06-U03",
+          "C02-S06-U05",
+          "C02-S06-U07"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A7afdc3aa749b",
+        "U": 3,
+        "R": 2,
+        "P": 1,
+        "E": 2,
+        "S": false,
+        "reason": "当前亏欠与自我判断有据，是否配得上属推断；实际短语“判的好像不是‘帮没帮’这件事本身”未经来访者确认便排除行为层，S06-U03明确由不帮引出不对，提问因而限定解释方向。",
+        "evidence_ids": [
+          "C02-S06-U03",
+          "C02-S06-U05",
+          "C02-S06-U07"
+        ]
+      },
+      "P_adjudication": {
+        "anonymous_id": "A7afdc3aa749b",
+        "node": "C02_CP2",
+        "P": 0,
+        "reason": "实际回应‘判的好像不是…帮没帮…这件事本身’是谨慎提出的意义区分，接着以‘忘的到底是什么’开放询问，没有指定忘恩、配不上等原因。U07已明确‘我自己先判了’和‘我忘了’比对方评价更难受，且U01当次实际上答应了帮忙，仍发生这种自判；U03、U05也支持帮助与记得恩情之间存在主观联系。措辞可进一步留出纠正空间，但未把无依据的心理原因定为事实并据此锁定解释，故P=0；understanding中的配得上推测不自动计P。",
+        "evidence_ids": [
+          "C02-S06-U01",
+          "C02-S06-U03",
+          "C02-S06-U05",
+          "C02-S06-U07"
+        ]
+      }
+    },
+    {
+      "node": "C02_CP2",
+      "condition": "H1_session",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "6a7ed92873e6454f855e263048b295fe",
+      "anonymous_id": "A99212d0bfaf1",
+      "scope": "original",
+      "U": 3.5,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A99212d0bfaf1",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "当前机制和阿敏/赵哥的区别有据；将更多怕自己这边写成而非外部评价，略显排他。实际回应询问判的内容和忘的对象，未预设未确认的心理原因。",
+        "evidence_ids": [
+          "C02-S06-U03",
+          "C02-S06-U05",
+          "C02-S06-U06",
+          "C02-S06-U07"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A99212d0bfaf1",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "本轮事实与引用匹配；直接开放问判的结果及忘的对象，回应当前未接上的内容。",
+        "evidence_ids": [
+          "C02-S06-U03",
+          "C02-S06-U05",
+          "C02-S06-U07"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP2",
+      "condition": "H2_full",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "e3d34b657c374b708daeb602d348a841",
+      "anonymous_id": "Aac1231d289cd",
+      "scope": "original",
+      "U": 3.0,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Aac1231d289cd",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "准确抓住画面触发的欠感和自我评判，并以开放选项追问忘了什么。将历次材料概括为自我审判成分在加重，超出各次表述可直接支持的变化强度，故理解略扣分；实际回应未把更深原因定为事实。",
+        "evidence_ids": [
+          "C02-S06-U03",
+          "C02-S06-U05",
+          "C02-S06-U07",
+          "C02-S02-U05",
+          "C02-S05-U03"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Aac1231d289cd",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "历史与当前亏欠有据，自我审判加重尚无充分比较；实际用具体耐心作为可否认假设并留别的可能，针对性强。",
+        "evidence_ids": [
+          "C02-S02-U07",
+          "C02-S06-U05",
+          "C02-S06-U07"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP2",
+      "condition": "H2_full",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "1d6ada803ca14097906c41d633255cad",
+      "anonymous_id": "A7e0b7dc1ee90",
+      "scope": "original",
+      "U": 4.0,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A7e0b7dc1ee90",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "跨次引用与当前内外评判的区分相符，并保留尚未接出的词。回应探索忘了的意义具有针对性，但连续重复不只是忘了略引向更深含义，语句也较迂回；好像和开放追问仍保留确认空间，不构成P。",
+        "evidence_ids": [
+          "C02-S06-U05",
+          "C02-S06-U07",
+          "C02-S02-U07",
+          "C02-S02-U13",
+          "C02-S05-U17"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A7e0b7dc1ee90",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "历史关联保留不确定性，抓住内部判断；实际谨慎探索忘了的含义，未强定具体隐藏解释，但重复且稍抽象。",
+        "evidence_ids": [
+          "C02-S06-U03",
+          "C02-S06-U05",
+          "C02-S06-U07"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP3",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "75f3c34bf5ac40f5a9036a180b2e8aaf",
+      "anonymous_id": "Adb43795847e1",
+      "scope": "original",
+      "U": 3.0,
+      "R": 2.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Adb43795847e1",
+        "U": 3,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "合理化措辞有心理延伸但留moderate；问最近还是此次特别强烈安全，全文已有长期评价模式且本次冲动减轻，历史可避免泛问。",
+        "evidence_ids": [
+          "C02-S08-U03",
+          "C02-S01-U15",
+          "C02-S08-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Adb43795847e1",
+        "U": 3,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单轮小气与报表理由有据，合理化略作解释；实际泛问频率并问特别强烈，未接住当前仅一点内疚与撤回冲动较轻。",
+        "evidence_ids": [
+          "C02-S08-U03",
+          "C02-S08-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP3",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "aad940c5462145e6a4b2a983d98aaa7c",
+      "anonymous_id": "A1074392bdb33",
+      "scope": "original",
+      "U": 4.0,
+      "R": 2.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A1074392bdb33",
+        "U": 4,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单句内冲突及自我评判有据；打官司是过程比喻，询问平时评价安全但全文早已反复谈小气与审判，针对性有限。",
+        "evidence_ids": [
+          "C02-S08-U03",
+          "C02-S01-U15"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A1074392bdb33",
+        "U": 4,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "可见单轮自我辩驳描述有据；实际打官司比喻尚属试探，但平时是否小气完整历史已有类似顾虑，遗漏此次改变。",
+        "evidence_ids": [
+          "C02-S08-U03",
+          "C02-S01-U03"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP3",
+      "condition": "H1_session",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "fccf379481f04b7fbe817e0f14ad61f9",
+      "anonymous_id": "A7c6a13e1619f",
+      "scope": "original",
+      "U": 3.0,
+      "R": 3.5,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A7c6a13e1619f",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "撤销冲动减弱准确，内疚强度降低并非明确自述；问小气隐含衡量尺度贴合，未指定尺度内容。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U03"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A7c6a13e1619f",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "误把补发冲动较轻等同内疚较轻，引用无法支持内疚强度比较；实际试探标准并开放问程度，安全且基本针对。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U03"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP3",
+      "condition": "H1_session",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "3a0999e50c6e45ed96acd54c0c566838",
+      "anonymous_id": "A43067d82a1e0",
+      "scope": "original",
+      "U": 4.0,
+      "R": 3.5,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A43067d82a1e0",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "准确反映两种考虑及撤销冲动减少，未完全接纳用tentative；问不小气样子开放且切合当前标准未知。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U03"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A43067d82a1e0",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "本轮内疚与撤回冲动降低区分准确，解释保留不确定性；实际问不小气的标准可推进，但未同时接住行为变化与现实报表限制。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U03"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C02_CP3",
+      "condition": "H2_full",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "65f38ec9b5dd4208ba77bbeed2eb8a57",
+      "anonymous_id": "Aa4bdcbaeca66",
+      "scope": "original",
+      "U": 2.5,
+      "R": 2.5,
+      "E": 1.5,
+      "P": 1,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Aa4bdcbaeca66",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "把没那么想补发变成没有冲动、把内疚也说成变轻超出U01；判词隐喻有U03顺序与S07审判支持，但解释较满、少探索空间。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U03",
+          "C02-S07-U19"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Aa4bdcbaeca66",
+        "U": 2,
+        "R": 2,
+        "P": 1,
+        "E": 1,
+        "S": false,
+        "reason": "把没那么想改为没有，并新增阿敏自己说了明天弄等不可证内容；实际短语“报表只是把判词从‘错’改成了‘不完全错’”将未确认的审判机制与报表仅属辩护的解释写成结论，忽略来访者现实任务与有限内疚。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U03"
+        ]
+      },
+      "P_adjudication": {
+        "anonymous_id": "Aa4bdcbaeca66",
+        "node": "C02_CP3",
+        "P": 1,
+        "reason": "实际回应‘太小气先判了，报表只是把判词从错改成了不完全错’把疑问式自评和现实任务权衡定成审判机制，尤其‘只是’将报表的作用限定为减轻既定判词。U03的‘是不是太小气了’及‘转念又想’支持先担忧后考虑任务，S07-U19也支持审查自己的松感；但两者均未确认这次已判为错、现实报表只能辩护或选择仍被这种机制控制。回应没有询问这一解释是否贴合，整段据此收束意义，故P=1。understanding中没有冲动等过度概括不是本项计P的依据。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U03",
+          "C02-S07-U17",
+          "C02-S07-U19"
+        ]
+      }
+    },
+    {
+      "node": "C02_CP3",
+      "condition": "H2_full",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "fbff0b4479a643289f2ca13460ccdf3f",
+      "anonymous_id": "Ae0202f1d2b27",
+      "scope": "original",
+      "U": 2.5,
+      "R": 4.0,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Ae0202f1d2b27",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "S5有補发念头但非接剩下，且本次不是没有冲动；历史同一尺子关联合理保留moderate。实际问担忧与自判顺序具体开放。",
+        "evidence_ids": [
+          "C02-S05-U15",
+          "C02-S08-U01",
+          "C02-S08-U03"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Ae0202f1d2b27",
+        "U": 2,
+        "R": 4,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "错称内疚明显减轻和没有撤回冲动，原文仅好像没那么想补发；实际区分担忧与自评、询问先后，具体贴近当轮且不强定机制。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U03"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP1",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "2d188b79d5744e659ebbd9e892d69dcd",
+      "anonymous_id": "A16bb0ea838d5",
+      "scope": "original",
+      "U": 3.5,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A16bb0ea838d5",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "对意外及预期偏离的理解有据且保留不确定性，但从单次其实没什么推出淡化倾向略概括过度。实际回应试探承认不确定与表达方式，没有将具体心理原因认定为事实；二选一方式略缩窄开放程度，尚属谨慎假设探索。",
+        "evidence_ids": [
+          "C03-S03-U09"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A16bb0ea838d5",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "在仅见当前句的条件下准确描写惊讶与尚待核查的预期；回应区分承认不确定与表达方式，有针对性但二选一缺少其他入口。",
+        "evidence_ids": [
+          "C03-S03-U09"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP1",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "0a9eaa1d6998452784e9283174e11590",
+      "anonymous_id": "Af7ffd8ebe3ae",
+      "scope": "original",
+      "U": 4.0,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Af7ffd8ebe3ae",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "仅据单句辨认意外，并保留角色关系和心理意义未知，证据使用准确。实际回应以问句试探承认不确定或场景因素，未定论，但两个选项高度重叠，且后者基本重复已经报告的意外，故针对性未满分。",
+        "evidence_ids": [
+          "C03-S03-U09"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Af7ffd8ebe3ae",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "仅见U09的理解不过度确定期待内容；实际追问针对“没想到”，两种说法较重叠而第二种复述意外，探索效率一般。",
+        "evidence_ids": [
+          "C03-S03-U09"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP1",
+      "condition": "H1_session",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "7f506f514f5a4fdaae4cefcec984df9c",
+      "anonymous_id": "Aa4953a6b3abc",
+      "scope": "original",
+      "U": 3.5,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Aa4953a6b3abc",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "变化与意外有据，并将能力强者应知道的解释标为暂定。把一句其实没什么概括为最小化模式略超出材料；回应谨慎询问承认不确定的可能含义，未断定原因，但后半句感觉不太一样较模糊，探索效力有限。",
+        "evidence_ids": [
+          "C03-S03-U03",
+          "C03-S03-U05",
+          "C03-S03-U07",
+          "C03-S03-U09"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Aa4953a6b3abc",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "当前会话支持轻微念头自然转移与惊讶，关于强者应知道保留为暂定；回应贴近“没想到”，但后一选项“感觉不太一样”较模糊。",
+        "evidence_ids": [
+          "C03-S03-U05",
+          "C03-S03-U07",
+          "C03-S03-U09"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP1",
+      "condition": "H1_session",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "5e348a0a0987458ea7c79de00a8d2bb9",
+      "anonymous_id": "A2318ad8a3d7c",
+      "scope": "original",
+      "U": 4.0,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A2318ad8a3d7c",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "在当前会话可见范围内准确区分念头转走和标签停住，未把某种权威关系或预期内容定为事实。实际回应简洁追问当时预期怎样回应，具体对应没想到，保留多种解释。",
+        "evidence_ids": [
+          "C03-S03-U03",
+          "C03-S03-U05",
+          "C03-S03-U07",
+          "C03-S03-U09"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A2318ad8a3d7c",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "准确描述当前变化并把具体预期保留未知；实际回应紧扣愣住时刻，直接问预期如何回应，简短但具情境指向。",
+        "evidence_ids": [
+          "C03-S03-U05",
+          "C03-S03-U09"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP1",
+      "condition": "H2_full",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "a288f7b2970d4df2b24183cc4395fcaf",
+      "anonymous_id": "A35c80fdb842d",
+      "scope": "original",
+      "U": 4.0,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A35c80fdb842d",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "准确承接当下意外和此前与老韩的时间比较，将他应该都清楚保留为可能而非事实。实际回应开放追问愣住瞬间的思绪，让来访者提供意义，针对性充分。",
+        "evidence_ids": [
+          "C03-S02-U03",
+          "C03-S02-U05",
+          "C03-S03-U09"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A35c80fdb842d",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "历史二十分钟/两天比较为暂定期待提供依据，未把期待断定为事实；实际回应具体回到愣住瞬间的念头，开放核查。",
+        "evidence_ids": [
+          "C03-S02-U03",
+          "C03-S03-U09"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP1",
+      "condition": "H2_full",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "5c918c9590f94306baa0fd3624d713c6",
+      "anonymous_id": "Abec47174f3d8",
+      "scope": "original",
+      "U": 2.5,
+      "R": 2.0,
+      "E": 1.0,
+      "P": 1,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Abec47174f3d8",
+        "U": 3,
+        "R": 2,
+        "P": 1,
+        "E": 1,
+        "S": false,
+        "reason": "既往早该想到和笨支持自我评价要求，但并未证明来访者认定任何人都不应记不清。实际回应的‘之前是觉得他应该知道，还是说，这种程度的东西，本来就不该有人记不清？’把惊讶原因限定为两种应该知道的标准，排除了可能仅对公开说出不确定或互动方式感到意外等未探索含义；依据不足且限制探索，构成P。引用ID均可见，但部分论断超出引用内容。",
+        "evidence_ids": [
+          "C03-S01-U17",
+          "C03-S02-U11",
+          "C03-S03-U03",
+          "C03-S03-U07",
+          "C03-S03-U09"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Abec47174f3d8",
+        "U": 2,
+        "R": 2,
+        "P": 1,
+        "E": 1,
+        "S": false,
+        "reason": "历史支持自己应更快定位的要求，不支持“这种程度的东西不该有人记不清”。实际回应“之前是觉得他应该知道，还是说，这种程度的东西，本来就不该有人记不清？”把未知惊讶原因限于两个未证实标准，诱导接受预设，故P1。",
+        "evidence_ids": [
+          "C03-S02-U11",
+          "C03-S03-U09"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP2",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "6a63b87ccf1a4260badde8a666845103",
+      "anonymous_id": "Afbd7910f20f1",
+      "scope": "original",
+      "U": 3.5,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Afbd7910f20f1",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "较轻的一个只有单句间接支持，淡化保留tentative；怕太简单作可否定选项不算预设，全文能更明确比较已知变化。",
+        "evidence_ids": [
+          "C03-S05-U11",
+          "C03-S04-U13"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Afbd7910f20f1",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "在仅见当前句范围内保留此前主题未知，理解准确；回应具体聚焦斟酌，提出“怕问得太简单”未证实但明确允许别的解释，属谨慎探索。",
+        "evidence_ids": [
+          "C03-S05-U11"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP2",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "726157aa93ee406cbdd189625f6fb2ae",
+      "anonymous_id": "A7f5296dcfe1b",
+      "scope": "original",
+      "U": 4.0,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A7f5296dcfe1b",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单句范围准确，张力为tentative；实际聚焦此次斟酌未知，全文也尚未说明具体内容。",
+        "evidence_ids": [
+          "C03-S05-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A7f5296dcfe1b",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "仅见当前句时准确描述斟酌、没卡住并暂定表达张力；实际直接询问斟酌瞬间的念头，具体、开放且没有附加解释。",
+        "evidence_ids": [
+          "C03-S05-U11"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP2",
+      "condition": "H1_session",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "6ebef47d0a3348089113a458a495f335",
+      "anonymous_id": "A1d4374ab5c92",
+      "scope": "original",
+      "U": 2.5,
+      "R": 3.0,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A1d4374ab5c92",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "局部只有陆工与新同事明确斟酌，老韩在本周没有第三个斟酌例；无论对象都会属过度概括，实际问内容仍开放。",
+        "evidence_ids": [
+          "C03-S05-U03",
+          "C03-S05-U07",
+          "C03-S05-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A1d4374ab5c92",
+        "U": 2,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "把两个明确例子扩大为三个，并强称“无论大小对象都会”，现有证据不足；实际回应也重复“这周三个例子”与概括，但最终开放询问斟酌内容，主要为证据/概括错误而非封闭心理解释。",
+        "evidence_ids": [
+          "C03-S05-U03",
+          "C03-S05-U05",
+          "C03-S05-U11"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP2",
+      "condition": "H1_session",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "533e39923c72433ba8b0b2aaf0002dc4",
+      "anonymous_id": "A4a17d1dafabe",
+      "scope": "original",
+      "U": 3.0,
+      "R": 3.0,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A4a17d1dafabe",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "回应说提了三次及老韩那次，当前可见没有老韩的斟酌说明；核心探索适当但错误计数。",
+        "evidence_ids": [
+          "C03-S05-U03",
+          "C03-S05-U07",
+          "C03-S05-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A4a17d1dafabe",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "当前可见只直接出现陆工和另一同事两次开口斟酌，未描述找老韩的斟酌。实际回应“这次提了三次了，陆工那次、老韩那次”错误计数并添了例子；末尾仍开放问内容，不是强加未知心理解释。",
+        "evidence_ids": [
+          "C03-S05-U03",
+          "C03-S05-U07",
+          "C03-S05-U11"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP2",
+      "condition": "H2_full",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "ef0311e0f5eb4359a4eff29a7040848b",
+      "anonymous_id": "Ab8af4482c4d3",
+      "scope": "original",
+      "U": 4.0,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Ab8af4482c4d3",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "历史卡住到主动求助变化有证据，比较两次斟酌不预先确认同一机制。",
+        "evidence_ids": [
+          "C03-S01-U15",
+          "C03-S04-U07",
+          "C03-S05-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Ab8af4482c4d3",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "以历史和当前支持求助前斟酌及卡住减轻，淡化意义只暂定；实际引用确有的陆工例子询问两次是否同类，针对性强并由来访者判断联系。",
+        "evidence_ids": [
+          "C03-S01-U15",
+          "C03-S04-U07",
+          "C03-S05-U03",
+          "C03-S05-U11"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP2",
+      "condition": "H2_full",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "4e291b748c144fb294de7df8875b805c",
+      "anonymous_id": "Ac5064966a6a3",
+      "scope": "original",
+      "U": 4.0,
+      "R": 3.5,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Ac5064966a6a3",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "历史改善及轻微斟酌区分明确；淡化仅moderate且保留低强度可能；回应开放问斟酌内容。",
+        "evidence_ids": [
+          "C03-S04-U07",
+          "C03-S05-U03",
+          "C03-S05-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Ac5064966a6a3",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "历史与当前支持斟酌仍在、开口不再明显卡住；实际回应具体询问斟酌内容，但先强调“没什么但还是带来”及后续两个问题略分散重点。",
+        "evidence_ids": [
+          "C03-S01-U15",
+          "C03-S04-U07",
+          "C03-S05-U11"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP3",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "e3cd685c8fd3481dae26a3962e629632",
+      "anonymous_id": "A991ed11803b1",
+      "scope": "original",
+      "U": 4.0,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A991ed11803b1",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单句准确，重复模式保留tentative；询问带来关切安全开放，完整历史可使它直接接上仍在找感觉。",
+        "evidence_ids": [
+          "C03-S08-U01",
+          "C03-S07-U09"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A991ed11803b1",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "单轮理解准确且不确定性清楚；实际邀请来访者选择本次议题，安全有效但较泛。",
+        "evidence_ids": [
+          "C03-S08-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP3",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "2d4f4a40c26c47b78a0a8df5f662387e",
+      "anonymous_id": "Aec9e2e05ac19",
+      "scope": "original",
+      "U": 3.0,
+      "R": 2.0,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Aec9e2e05ac19",
+        "U": 3,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "又仅直接表示又遇问题，重复先看的推论偏强；问过往经历安全但全文已有多个例，双问削弱当前验证焦点。",
+        "evidence_ids": [
+          "C03-S08-U01",
+          "C03-S06-U01",
+          "C03-S07-U03"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Aec9e2e05ac19",
+        "U": 3,
+        "R": 2,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "对又字作先自己看的重复解释稍强；实际追问以前是否有此情境重问完整历史已反复谈过之事，后半问感受可用。",
+        "evidence_ids": [
+          "C03-S08-U01",
+          "C03-S07-U03"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP3",
+      "condition": "H1_session",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "1090398d53974d41906437d3a8868d47",
+      "anonymous_id": "Ad28fe5ef109f",
+      "scope": "original",
+      "U": 2.0,
+      "R": 1.5,
+      "E": 1.0,
+      "P": 1,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Ad28fe5ef109f",
+        "U": 2,
+        "R": 2,
+        "P": 1,
+        "E": 1,
+        "S": false,
+        "reason": "内在规则与标签警惕无单句支持；回应“好像你挺在意别人（或者你自己）怎么定义”直接把正常澄清心理化，全文先看仍在尝试，并未确立标签顾虑。",
+        "evidence_ids": [
+          "C03-S08-U01",
+          "C03-S07-U09"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Ad28fe5ef109f",
+        "U": 2,
+        "R": 1,
+        "P": 1,
+        "E": 1,
+        "S": false,
+        "reason": "把准确澄清状态解释为标签警惕和内在规则，依据不足；实际短语“好像你挺在意别人（或者你自己）怎么定义你现在的状态？”将未证实的评价在意引入诱导问题，忽略已有线索的实际判断。",
+        "evidence_ids": [
+          "C03-S08-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP3",
+      "condition": "H1_session",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "5d90e0bbabb54b48a611a4f7c6351e0a",
+      "anonymous_id": "A7cb8004271ee",
+      "scope": "original",
+      "U": 3.0,
+      "R": 3.0,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A7cb8004271ee",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "单句不足确立重复先自己来模式，张力为tentative；实际问决定感受开放但没有抓验证有线索的区别。",
+        "evidence_ids": [
+          "C03-S08-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A7cb8004271ee",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "单轮已有线索支持先验证，但内在张力和重复模式弱于引文；实际开放问选择时感受，安全但未回应熟悉模块与线索条件。",
+        "evidence_ids": [
+          "C03-S08-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP3",
+      "condition": "H2_full",
+      "sample": 1,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "5460b3c7871845108b2f60527c0381bd",
+      "anonymous_id": "Afb85f5541aa1",
+      "scope": "original",
+      "U": 3.5,
+      "R": 3.5,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Afb85f5541aa1",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "将当前有线索与历史方向具体相连，保留节奏仍在调；直接辨认验证形式贴当前未知。",
+        "evidence_ids": [
+          "C03-S06-U03",
+          "C03-S07-U09",
+          "C03-S08-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Afb85f5541aa1",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "有据联系熟悉领域的具体方向，但已经形成强度略高于仍在试的描述；实际询问验证含义有针对性，两选项有重叠。",
+        "evidence_ids": [
+          "C03-S07-U09",
+          "C03-S08-U01",
+          "C03-S06-U03"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "C03_CP3",
+      "condition": "H2_full",
+      "sample": 2,
+      "model_returned": "qwen3.8-27b",
+      "call_id": "b8bbf5d0f9b24d6c8663b21226126ee8",
+      "anonymous_id": "A37795536a248",
+      "scope": "original",
+      "U": 4.0,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "A37795536a248",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "有底与正在调整节奏均有历史支持，轻的语气标tentative；接续上次找感觉并问本次体验很适切。",
+        "evidence_ids": [
+          "C03-S07-U09",
+          "C03-S08-U01",
+          "C03-S06-U03"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "A37795536a248",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "历史联系具体且保留正在调整的限制；回应接续上次还在找感觉，开放了解此次实际体验。",
+        "evidence_ids": [
+          "C03-S07-U09",
+          "C03-S08-U01",
+          "C03-S06-U03"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N01",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "call_id": "dbcea55465a443a39855c1e237c03da9",
+      "source": "reselection\\answers\\N01_H0_utterance_1.json",
+      "anonymous_id": "Xae0f99a3a23c",
+      "scope": "reselected",
+      "U": 2.0,
+      "R": 2.0,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Xae0f99a3a23c",
+        "U": 2,
+        "R": 2,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "从开电脑断言母亲占较多心理空间无据，反复模式仍保留试探；实际只问类似感受，未落实检查环节。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Xae0f99a3a23c",
+        "U": 2,
+        "R": 2,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "识别负荷和重复性，但体检占据较多心理空间无直接支持；实际询问类似感受较泛，没有打开过文件过程，仍为开放核对。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N01",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "call_id": "321ea7fe571b4483ac59297482184ff9",
+      "source": "reselection\\answers\\N01_H0_utterance_2.json",
+      "anonymous_id": "Xc7f63cd49498",
+      "scope": "reselected",
+      "U": 2.0,
+      "R": 1.5,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Xc7f63cd49498",
+        "U": 2,
+        "R": 1,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "任务背景准确，未处理模式缺支持，实际赶过去询问错失过文件的明确对象；属于谨慎询问不算P。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Xc7f63cd49498",
+        "U": 2,
+        "R": 2,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "准确识别事情叠加，但把过文件误读为赶过去或未处理的经历，偏离具体检查行为；实际回应以疑问提出，未把未知原因坐实。引据存在但不能支持未充分经历的解释。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N01",
+      "condition": "H1_session",
+      "sample": 1,
+      "call_id": "9e167cf0692b46c1b9bea1403f822293",
+      "source": "reselection\\answers\\N01_H1_session_1.json",
+      "anonymous_id": "Xdf4ddaef94a9",
+      "scope": "reselected",
+      "U": 2.0,
+      "R": 2.5,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Xdf4ddaef94a9",
+        "U": 2,
+        "R": 2,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "识别再次检查，但担忧到确认及完成工作未获文本支持；话语谨慎询问又所指，较泛。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Xdf4ddaef94a9",
+        "U": 2,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "重复检查理解可取，但从担忧到确认无碍及表达倾向未被证实；实际直接邀请解释又的是什么，开放且贴合词语，但尚未问具体检查。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N01",
+      "condition": "H1_session",
+      "sample": 2,
+      "call_id": "1aa4e1ff347b40dab71d407f139ac571",
+      "source": "reselection\\answers\\N01_H1_session_2.json",
+      "anonymous_id": "X99c93cb18fd1",
+      "scope": "reselected",
+      "U": 1.0,
+      "R": 1.0,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X99c93cb18fd1",
+        "U": 1,
+        "R": 1,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "正确识别多项任务，却把过文件的过误读成事情撑过去，另推断回避感受；实际问句以假设形式提出，故不算P，但回应偏离检查行为。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X99c93cb18fd1",
+        "U": 1,
+        "R": 1,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "把过文件解释成撑过事情，并推及忽略休息与轻描淡写感受，依据薄弱；实际以问题询问撑过去模式，虽偏题但未断言心理原因。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N01",
+      "condition": "H2_full",
+      "sample": 1,
+      "call_id": "463f8cd47e62433bb8da4bacfef1769c",
+      "source": "reselection\\answers\\N01_H2_full_1.json",
+      "anonymous_id": "X374fadb50b41",
+      "scope": "reselected",
+      "U": 3.0,
+      "R": 4.0,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X374fadb50b41",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "format_error": "原文JSON字符串内的又、乱等双引号未转义，answer为空；按raw_text评分，未修改原文。",
+        "reason": "准确识别重复过文件并提出与被拽体验比较，实际问句明确允许不一样；把交付前及触发已经不同说得略确定，比较历史的理解引用仅当前导致追溯较弱。",
+        "evidence_ids": [
+          "C01-S03-U01",
+          "C01-S01-U15",
+          "C01-S02-U13",
+          "C01-S02-U15"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X374fadb50b41",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "按原文评分；JSON有未转义内嵌引号的格式错误。区分历史检查质地有用，实际邀请核对被拽感觉是否相同，针对性强；交付前及明确排除前两次诱因稍超证据，历史比较引据不完整。",
+        "evidence_ids": [
+          "C01-S03-U01",
+          "C01-S01-U15",
+          "C01-S02-U13"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N01",
+      "condition": "H2_full",
+      "sample": 2,
+      "call_id": "561e06ffec2b41d6ad4eab8eac8caab3",
+      "source": "reselection\\answers\\N01_H2_full_2.json",
+      "anonymous_id": "X77d9637d1bdb",
+      "scope": "reselected",
+      "U": 3.0,
+      "R": 3.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X77d9637d1bdb",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "识别反复过文件，历史区分留作未知；实际探索手自动去与陪母亲关联虽有具体性，但二选框架和停顿说明问题较笼统，尚未断定未知心理机制。",
+        "evidence_ids": [
+          "C01-S03-U01",
+          "C01-S02-U11",
+          "C01-S02-U15"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X77d9637d1bdb",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "正确抓住检查重复并保留历史体验与当前诱因的不确定；实际问题贴近启动过程，但两种选项和停顿说明问题略限缩。假说核对不计P。主要明确主张可由当前引据支持。",
+        "evidence_ids": [
+          "C01-S03-U01",
+          "C01-S02-U11",
+          "C01-S02-U13"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N04",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "call_id": "ab387e4c83e64d1881153cd55967989e",
+      "source": "reselection\\answers\\N04_H0_utterance_1.json",
+      "anonymous_id": "Xaffc77034efe",
+      "scope": "reselected",
+      "U": 2.0,
+      "R": 2.5,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Xaffc77034efe",
+        "U": 2,
+        "R": 2,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "试探接受和持续感受有据，但关系稳定平淡强断言过度；实际询问等待或容忍是谨慎举例，未作事实，只是对当前具体做饭与我的线索较泛。",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Xaffc77034efe",
+        "U": 2,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "持续感受与暂未加重有据，但由一次做饭断言关系稳定无冲突明显泛化；实际询问睡前感觉较贴切，等待或容忍为可选假说而非事实。",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N04",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "call_id": "050d9f55d34643998939e9ac9c4b391a",
+      "source": "reselection\\answers\\N04_H0_utterance_2.json",
+      "anonymous_id": "X6494470b9218",
+      "scope": "reselected",
+      "U": 2.0,
+      "R": 2.0,
+      "E": 1.0,
+      "P": 1,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X6494470b9218",
+        "U": 2,
+        "R": 2,
+        "P": 1,
+        "E": 1,
+        "S": false,
+        "reason": "把一次正常做饭扩大为规律接触与关系平稳，并混淆确认对象。实际话语把试探接受分不清称为已松下来，再要求描述身体感觉，将尚未知体验作事实；同时双重询问较拥挤。",
+        "evidence_ids": [
+          "C02-S08-U09",
+          "C02-S08-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X6494470b9218",
+        "U": 2,
+        "R": 2,
+        "P": 1,
+        "E": 1,
+        "S": false,
+        "reason": "由一次做饭推断规律关系，由暂接纳推定从抗拒转容纳，支持不足。实际将从想要确认到松下来的过程作为已发生的内在变化并要求身体体验，诱导在未确认的松动框架中探索；后续算了或等变化也较限缩。",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N04",
+      "condition": "H1_session",
+      "sample": 1,
+      "call_id": "15906975307c49b88f8f28a5b388c11b",
+      "source": "reselection\\answers\\N04_H1_session_1.json",
+      "anonymous_id": "Xc0a6045dd04e",
+      "scope": "reselected",
+      "U": 3.0,
+      "R": 2.5,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Xc0a6045dd04e",
+        "U": 3,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "当前边界与确认倾向有据，无需外部确认泛化稍强；实际卡住或偶尔确认的询问仍为可否认假设，非P，但选项较长且缺具体赴约关联。",
+        "evidence_ids": [
+          "C02-S08-U03",
+          "C02-S08-U09",
+          "C02-S08-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Xc0a6045dd04e",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "利用当前Session识别边界、内疚与确认困难，不需要外部确认泛化了单次自发转念。实际贴近仍在的感觉，卡住或偶尔看为询问假说，但后者叙述过长且略限定。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U03",
+          "C02-S08-U09",
+          "C02-S08-U11"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N04",
+      "condition": "H1_session",
+      "sample": 2,
+      "call_id": "215f504a399b49079a9ee4a485a838fa",
+      "source": "reselection\\answers\\N04_H1_session_2.json",
+      "anonymous_id": "X088f3a78c156",
+      "scope": "reselected",
+      "U": 3.0,
+      "R": 3.0,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X088f3a78c156",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "边界、内疚和松的未知理解有据，关系平稳稍过强；实际针对薄的所指作开放探索，但未连接赴约与自己时间的具体对照。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U03",
+          "C02-S08-U09",
+          "C02-S08-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X088f3a78c156",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "多数当前Session理解有据，但无需外部确认及关系平稳较泛化；实际薄的是什么直接开放核心隐喻，尚未具体连接做饭与体验。仅有当前证据不因缺历史扣分。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U03",
+          "C02-S08-U09",
+          "C02-S08-U11"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N04",
+      "condition": "H2_full",
+      "sample": 1,
+      "call_id": "16ba6eace982462f9e39fcaf99f522ec",
+      "source": "reselection\\answers\\N04_H2_full_1.json",
+      "anonymous_id": "Xcb3eada8ae2b",
+      "scope": "reselected",
+      "U": 3.0,
+      "R": 4.0,
+      "E": 1.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "Xcb3eada8ae2b",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "历史取消与这次赴约对照有据，但将不那么想补发改成不想、把不同类型情绪作强下降趋势略过度，历史模式引用仅当前稍弱。实际话语具体问没取消是否不同，同时允许确实正常，未预设恢复意义。",
+        "evidence_ids": [
+          "C02-S03-U01",
+          "C02-S06-U13",
+          "C02-S07-U05",
+          "C02-S08-U01",
+          "C02-S08-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "Xcb3eada8ae2b",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "识别赴约和既往取消差别，实际邀请其报告不同或确为正常，保留来访者意义判断，针对性强。理解中强断言逐步下降且把冲动轻了说成不想补发超出资料；部分引据未直接包含心跳或取消背景。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U11",
+          "C02-S03-U01",
+          "C02-S06-U13",
+          "C02-S07-U05"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N04",
+      "condition": "H2_full",
+      "sample": 2,
+      "call_id": "fe38259155494f33b62d04ef2b28f881",
+      "source": "reselection\\answers\\N04_H2_full_2.json",
+      "anonymous_id": "X3930e7c5a2e8",
+      "scope": "reselected",
+      "U": 3.0,
+      "R": 3.0,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X3930e7c5a2e8",
+        "U": 3,
+        "R": 3,
+        "P": 1,
+        "E": 2,
+        "S": false,
+        "reason": "准确识别此次赴约与历史取消区别，边界成本趋势有所支持但近几周稳定扩大时间范围。实际断言周六下午确实是你的且用了它，把赴约事实直接赋予我的心理归属意义，没有核对来访者主观感受。",
+        "evidence_ids": [
+          "C02-S03-U17",
+          "C02-S06-U13",
+          "C02-S08-U11"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X3930e7c5a2e8",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "连接赴约与此前取消有价值，亦承认松不确定；近几周稳定及连续模式略泛化。实际点明赴约事实可回应历史，但直接赋予时间是你的的意义、没有邀请核对仍薄的体验。未断言未知心理原因，不计P；部分历史引据对具体强度不精确。",
+        "evidence_ids": [
+          "C02-S08-U11",
+          "C02-S03-U17",
+          "C02-S06-U13",
+          "C02-S07-U05",
+          "C02-S08-U09"
+        ]
+      },
+      "P_adjudication": {
+        "anonymous_id": "X3930e7c5a2e8",
+        "node": "N04",
+        "P": 0,
+        "reason": "实际下一句以‘可能就是还没到需要特别对待的程度’保留假说语气；‘那个周六下午确实是你的，而且你用了它’将此次实际赴约与历史取消连接，虽替来访者赋予时间归属意义且未邀请核对，但没有把未知心理原因定为事实，也未据此诱导或限定其原因探索。来访者明确说此次正常赴约且‘我的越来越薄’仍是原有感觉，回应对该感受承接不足可影响回应质量，不自动构成P。",
+        "evidence_ids": [
+          "C02-S03-U17",
+          "C02-S06-U13",
+          "C02-S08-U11"
+        ]
+      }
+    },
+    {
+      "node": "N06",
+      "condition": "H0_utterance",
+      "sample": 1,
+      "call_id": "de0f433e1dab4596bef0b860c3e4c459",
+      "source": "reselection\\answers\\N06_H0_utterance_1.json",
+      "anonymous_id": "X2b0f223b80b3",
+      "scope": "reselected",
+      "U": 3.0,
+      "R": 2.5,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X2b0f223b80b3",
+        "U": 3,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "理解主要贴合文本，值得讨论的犹豫作为试探可接受；实际认可后泛问不同感觉，没有强加心理解释。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X2b0f223b80b3",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "识别留意语气与差异，是否值得咨询为试探性解释；实际邀请不一样的感受开放而贴题，但仍泛问。可见当前引据足以支持主要主张。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N06",
+      "condition": "H0_utterance",
+      "sample": 2,
+      "call_id": "54adfa24661f4833ab683e9e2f300529",
+      "source": "reselection\\answers\\N06_H0_utterance_2.json",
+      "anonymous_id": "X994c89aed008",
+      "scope": "reselected",
+      "U": 3.0,
+      "R": 2.5,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X994c89aed008",
+        "U": 3,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "抓住犹豫和不同尚未命名，但反复留意略超当前文本；实际话语泛问哪里不同，未具体连接开口或事后评价。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X994c89aed008",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "承认当前差异未命名并开放邀请，适合可见单话轮；事后反复留意比原话多推一步，引据部分支持。实际哪里不一样有针对词语但较宽泛。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N06",
+      "condition": "H1_session",
+      "sample": 1,
+      "call_id": "0f177cd93cd84f0bb5513eae34b9a904",
+      "source": "reselection\\answers\\N06_H1_session_1.json",
+      "anonymous_id": "X94b6f9de7ab8",
+      "scope": "reselected",
+      "U": 3.5,
+      "R": 2.5,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X94b6f9de7ab8",
+        "U": 3,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "理解保留未知，内在阻力以试探表达；实际询问如何注意到不同，开放但对关键情境针对性有限。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X94b6f9de7ab8",
+        "U": 4,
+        "R": 3,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "主要理解与当前可见证据一致，内在阻力标为试探；实际询问如何注意到差异，可打开体验，但未具体聚焦犹豫或提问环节。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N06",
+      "condition": "H1_session",
+      "sample": 2,
+      "call_id": "8d3da838eb3947669e001ddbe6ba1cc1",
+      "source": "reselection\\answers\\N06_H1_session_2.json",
+      "anonymous_id": "X0fc2825138db",
+      "scope": "reselected",
+      "U": 3.0,
+      "R": 2.0,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X0fc2825138db",
+        "U": 3,
+        "R": 2,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "准确复述并将紧张留作可能；实际询问上次是什么样可补未知，但对本次当场问的环节较泛。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X0fc2825138db",
+        "U": 3,
+        "R": 2,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "具体互动及意义不确定有据，自我监控或紧张只能弱假说；实际只要求回述上次，暂未探索这次体验，针对性有限。缺历史本身不扣引据分。",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ]
+      },
+      "P_adjudication": null
+    },
+    {
+      "node": "N06",
+      "condition": "H2_full",
+      "sample": 1,
+      "call_id": "b26a56f98af34ef29fee29e6cec52dd4",
+      "source": "reselection\\answers\\N06_H2_full_1.json",
+      "anonymous_id": "X083022db6b32",
+      "scope": "reselected",
+      "U": 2.5,
+      "R": 3.0,
+      "E": 1.5,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X083022db6b32",
+        "U": 2,
+        "R": 3,
+        "P": 1,
+        "E": 2,
+        "S": false,
+        "reason": "引用历史有价值，也留意事后贴标签，但把此次犹豫认定为旧阻力延续过强。实际话语断定带来就说明有分量，替来访者赋予意义，并用问时与回应两项收窄探索。",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "C03-S01-U15",
+          "C03-S02-U15"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X083022db6b32",
+        "U": 3,
+        "R": 3,
+        "P": 0,
+        "E": 1,
+        "S": false,
+        "reason": "区分开口前、回应与事后评价有用，但把本次犹豫直接认定为旧内部阻力延续、把上次指向没开口仍超证据。实际以两种可能核对差别，较具体；有分量的解释略预设但不构成未知心理原因断言。",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "C03-S01-U13",
+          "C03-S01-U15",
+          "C03-S02-U09"
+        ]
+      },
+      "P_adjudication": {
+        "anonymous_id": "X083022db6b32",
+        "node": "N06",
+        "P": 0,
+        "reason": "实际下一句‘你带过来了，说明它在你那儿是有分量的’对分享经历的意义有所预设，但未断定犹豫或提问变化的未知心理原因；后续‘是问的时候……还是他回应的方式……’以两种可能询问差别，没有把任何一个解释定为事实。该问题漏掉事后评价这一可能且预设‘上次’指没开口，会影响探索充分性，但在指定标准下不构成P。答卷understanding把此次犹豫联系为旧阻力延续过强，也不能自动转计实际话语P。",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "C03-S01-U13",
+          "C03-S01-U15",
+          "C03-S02-U09"
+        ]
+      }
+    },
+    {
+      "node": "N06",
+      "condition": "H2_full",
+      "sample": 2,
+      "call_id": "d798fb361e304263a42fd2d6ad13164e",
+      "source": "reselection\\answers\\N06_H2_full_2.json",
+      "anonymous_id": "X323c0378a289",
+      "scope": "reselected",
+      "U": 3.5,
+      "R": 4.0,
+      "E": 2.0,
+      "P": 0,
+      "S": false,
+      "rater_1": {
+        "anonymous_id": "X323c0378a289",
+        "U": 3,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "行为前后对照有据且保留不同所指未知；第二次先要解释的说法略混淆时间。实际话语具体比较此次问了与此前没开口，允许不同回答，未断言进步或动机。",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "C03-S01-U13",
+          "C03-S01-U15"
+        ]
+      },
+      "rater_2": {
+        "anonymous_id": "X323c0378a289",
+        "U": 4,
+        "R": 4,
+        "P": 0,
+        "E": 2,
+        "S": false,
+        "reason": "准确描述行为差别，明确上次所指与犹豫内容尚待核对；实际引用曾未开口的具体情境并询问体验是否相同，可检验且不预设变化方向。",
+        "evidence_ids": [
+          "C03-S03-U01",
+          "C03-S01-U13",
+          "C03-S01-U15"
+        ]
+      },
+      "P_adjudication": null
+    }
+  ],
+  "model_judges": "two independent GPT-6.1 Sol/medium plus third for P disagreement",
+  "original_review_order_corrections": "review_order_risk.json"
+}

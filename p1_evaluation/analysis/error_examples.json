@@ -1,0 +1,23 @@
+[
+  {
+    "error": "unsupported_presupposition",
+    "checkpoint": "P01_CP2",
+    "condition": "C3",
+    "candidate_id": "Y",
+    "trigger_quote": "头晕可能不只是熬夜，也像你一直把自己绷在“必须猜对”的状态里，身体先替你发出了信号。",
+    "evidence_ids": [
+      "P01-S05-U09"
+    ]
+  },
+  {
+    "error": "unsupported_presupposition",
+    "checkpoint": "P04_CP2",
+    "condition": "C2",
+    "candidate_id": "Z",
+    "trigger_quote": "像在提醒你：护工的手可以轻，但“被妈妈拿来比较”的那一下，还是扎到了你。",
+    "evidence_ids": [
+      "P04-S05-U07",
+      "P04-S05-U09"
+    ]
+  }
+]

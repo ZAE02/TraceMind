@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "7b553913a41334aad9bbbf005a16603dbae99685e8886f1db3282dcbe5e4cc36",
+  "request_sha256": "274f8c98aed1f493faffb14c0e55b1a1212c383f5a873c55507da8841bc473b1",
+  "memory_sha256": "31ce3f4b9419e162eb399fee7e54bd62bbd6707429aada8826fd00081cd62870",
+  "memory_source": "d8d6cd73acd90d375ed576bda2ce3a370fed7555d8b85dec0d155cf240fcf40f",
+  "raw_text": "那根“小刺”让你既被推出了原来的位置，又找不到新的方式安放自己。洗了三遍碗，也许不只是在洗手，也是在试图把那句“手比我女儿还轻”从心里抹掉。",
+  "usage": {
+    "input_tokens": 6967,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 46,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7013,
+    "x_details": [
+      {
+        "input_tokens": 6967,
+        "output_tokens": 46,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7013,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.156,
+  "model": "qwen3.7-flash-2026-07-15"
+}

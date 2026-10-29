@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "55cfacf4941ede8030f3a2250a7709cf82bbf39d4ffab3ce095ad50115080a56",
+  "public_sha256": "4cff561a4c5fb4dadbecb4fe78ec21e83eac56f2bd764214788a384c3497a2d3",
+  "candidate_input_sha256": "9589df36358bb478859a9422e898061b1f3b33e091f3aea026b230393cce30ae",
+  "candidate_answer_sha256": "53a402e602633c85ec394ff2bc8d0d4570f5f99697862fe421185e7bb4e1477f",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":3,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"候选输入中previous_sessions为空，无法引用跨会话历史；但回应准确承接了当前会话S03-U07至U09中来访者关于冻僵、掩饰和不敢生气的自我觉察。\",\"exploration_value\":\"回应抓住了来访者'一生气就变成很难搞的人'这一核心信念进行探索，方向有价值，但以封闭式反问推进，限制了来访者的表达空间。\",\"response_appropriateness\":\"语言基本自然，但'维持那种好相处的形象'属于咨询师自行归纳的框架，来访者原文只说怕变成'难搞的人'，未提及'好相处的形象'，存在一定预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"才能维持那种\\\"好相处\\\"的形象\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选可见输入中previous_sessions为空(access_limited)，因此无法评估跨会话历史利用，仅基于当前会话评分。\",\"回应将'怕变成难搞的人'重新框架为'维持好相处的形象'，引入了来访者未使用的概念，构成轻度未经支持的预设。\",\"以封闭式反问句('是不是让你觉得……')收尾，虽聚焦关键议题，但不如开放式邀请更能促进来访者自主探索。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 3,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "候选输入中previous_sessions为空，无法引用跨会话历史；但回应准确承接了当前会话S03-U07至U09中来访者关于冻僵、掩饰和不敢生气的自我觉察。",
+      "exploration_value": "回应抓住了来访者'一生气就变成很难搞的人'这一核心信念进行探索，方向有价值，但以封闭式反问推进，限制了来访者的表达空间。",
+      "response_appropriateness": "语言基本自然，但'维持那种好相处的形象'属于咨询师自行归纳的框架，来访者原文只说怕变成'难搞的人'，未提及'好相处的形象'，存在一定预设。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "才能维持那种“好相处”的形象",
+        "evidence_ids": [
+          "P01-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": true
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选可见输入中previous_sessions为空(access_limited)，因此无法评估跨会话历史利用，仅基于当前会话评分。",
+      "回应将'怕变成难搞的人'重新框架为'维持好相处的形象'，引入了来访者未使用的概念，构成轻度未经支持的预设。",
+      "以封闭式反问句('是不是让你觉得……')收尾，虽聚焦关键议题，但不如开放式邀请更能促进来访者自主探索。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 6461,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 359,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6820,
+    "x_details": [
+      {
+        "input_tokens": 6461,
+        "output_tokens": 359,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 6820,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.172
+}

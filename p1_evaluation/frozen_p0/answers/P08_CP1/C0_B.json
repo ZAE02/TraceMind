@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "aad143d044ef137f7c8ed2f2c6665d3c543c93ae0b8b260082a8b4eae8f8b9b3",
+  "request_sha256": "ed659a0903941c706678c34f566c788bc6b61b7aa4328e1d20572b963fbee8c8",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来你已经决定先处理孩子报名的事，同时也在算搬家的经济账；而赵岩那边，那句“谢谢”卡住的，似乎不只是人情，更是“承认自己靠了他一下”的不舒服。我们先从报名和搬家的实际压力入手，等你有余力了，再回头看那句没说出口的话也不迟。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 891,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 69,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 960,
+    "x_details": [
+      {
+        "input_tokens": 891,
+        "output_tokens": 69,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 960,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

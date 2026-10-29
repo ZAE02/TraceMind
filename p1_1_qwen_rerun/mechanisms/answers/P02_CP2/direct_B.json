@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P02_CP2",
+  "condition": "direct",
+  "task": "B",
+  "input_sha256": "f1161cf1f3ee881bf4968ee942b4fb71b81bfa3db4420811ddc9c332e13c1d09",
+  "request_sha256": "e8ef099876d4d3397cf9306b7b4b310c054069cf830d58f26bc2b10c8d24ee9d",
+  "memory_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "memory_source": null,
+  "raw_text": "你数着时间、不敢靠下，既怕它过得太快，又怕手机响被叫走，这种紧绷的状态里，那个小时确实很难真正属于你。也许我们可以一起看看，是什么让你觉得“靠下去”或“承认去公园”会那么危险？",
+  "usage": {
+    "input_tokens": 6136,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6193,
+    "x_details": [
+      {
+        "input_tokens": 6136,
+        "output_tokens": 57,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6193,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.36,
+  "model": "qwen3.7-flash-2026-07-15"
+}

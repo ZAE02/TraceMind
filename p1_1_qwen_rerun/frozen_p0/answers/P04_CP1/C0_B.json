@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "1ca601551fe314e9270067eb38c6a88ecfb393bd87cc256b3ef9008536394de3",
+  "request_sha256": "789c29c34ee564db97d33cabe2800bdf865fca269c2fc0141a8e9fc7e07c3b6e",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种想彻底切断电源、只听见静止声音的渴望，听起来像是你唯一能完全掌控的时刻。在那一刻，如果不去修那个排风扇，你觉得最糟糕的后果会是什么？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 863,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 39,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 902,
+    "x_details": [
+      {
+        "input_tokens": 863,
+        "output_tokens": 39,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 902,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

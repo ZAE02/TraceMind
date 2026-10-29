@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP1",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "e9801fc21cafbda55c12fd420af42e1a8ce46128f3034f8651e2ae948f93d66d",
+  "request_sha256": "84263c94705ece3db9ed1871eed9292abbaa57d22251ad3398d1292b9314feda",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“被从头顶撕开”的痛感，似乎比药瓶的冰凉更让你难以承受。你半夜醒来必须先确认手腕还在，是不是因为只有在感觉到身体的实存时，才敢稍微松一口气？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3336,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 46,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3382,
+    "x_details": [
+      {
+        "input_tokens": 3336,
+        "output_tokens": 46,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3382,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

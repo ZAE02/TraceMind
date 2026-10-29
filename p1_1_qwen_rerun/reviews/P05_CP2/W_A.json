@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "ff3e2592e4aeb092361a89dce2ce9cd67143478f0f32d80f6b8334429a26552b",
+  "public_sha256": "b36dc6eaa3568c8849c5a929495ae789c31d45320dbecc93c438d1a2e07bd708",
+  "candidate_input_sha256": "b9183a3c64190c0dcc34b0e181fe14a2d49f4ddd34184d59c9259c3ed9e966e3",
+  "candidate_answer_sha256": "86d2f7778dcb5a2f90b6fff08a44a7f3a366d92756aa43f331ed8314f04ab6a5",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":4},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均可回溯到具体发言，引用准确，未将咨询师推测当作事实。\",\"progress_understanding\":\"识别了当前会话中的矛盾心理及长期行为模式，但遗漏了第4次会话中关于'借来的正常''旧跑鞋'等重要已确认认识。\",\"uncertainty_awareness\":\"精确区分了已知与未知，列出的不确定点合理且未强行定论。\"},\"confidence\":\"high\",\"issues\":[\"遗漏了第4次会话中来访者确认的'借来的正常'感受、对李繁说'乱过'松口气后的内疚、以及旧跑鞋隐喻等重要已建立认识。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均可回溯到具体发言，引用准确，未将咨询师推测当作事实。",
+      "progress_understanding": "识别了当前会话中的矛盾心理及长期行为模式，但遗漏了第4次会话中关于'借来的正常''旧跑鞋'等重要已确认认识。",
+      "uncertainty_awareness": "精确区分了已知与未知，列出的不确定点合理且未强行定论。"
+    },
+    "confidence": "high",
+    "issues": [
+      "遗漏了第4次会话中来访者确认的'借来的正常'感受、对李繁说'乱过'松口气后的内疚、以及旧跑鞋隐喻等重要已建立认识。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14696,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14863,
+    "x_details": [
+      {
+        "input_tokens": 14696,
+        "output_tokens": 167,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14863,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.203
+}

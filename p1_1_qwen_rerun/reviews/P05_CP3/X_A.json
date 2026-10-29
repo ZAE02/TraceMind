@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P05_CP3",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "be614f557cc275b8281b29f8098baf29e16ae3bb515811d43ac9c3314aa7d89b",
+  "public_sha256": "c710ad42ce3634a7b40d5dae4094de85641e93bda2f12140bddaa14a9ffec20d",
+  "candidate_input_sha256": "54391961a144c4c71c5dff958d6f7d736ded0c70627ae7c383a3f330610096ae",
+  "candidate_answer_sha256": "b23fdd70ad3c2a6b01d456d419bbf9d83a1dcf1ace10c172afce79be96853932",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":4},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均可回溯到具体发言，引用了S07当前对话及S04-S06历史片段，未将咨询师推测当作事实。\",\"progress_understanding\":\"准确识别了本周新行为（跑步、向李繁表达）与旧跑鞋位置变化等进展，也提及长期模式，但对'从塞回最里面到放在门边'这一象征性转变的咨询意义连接不够深入，且未明确点出'先怪自己'的核心保护机制在本周的延续。\",\"uncertainty_awareness\":\"精确区分了已知（说出了部分感受、跑鞋放门边）、来访者自述的不确定（'说不好想要被接住的是什么'）以及待探索方向（关系走向、跑鞋象征转化），未强行定论。\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均可回溯到具体发言，引用了S07当前对话及S04-S06历史片段，未将咨询师推测当作事实。",
+      "progress_understanding": "准确识别了本周新行为（跑步、向李繁表达）与旧跑鞋位置变化等进展，也提及长期模式，但对'从塞回最里面到放在门边'这一象征性转变的咨询意义连接不够深入，且未明确点出'先怪自己'的核心保护机制在本周的延续。",
+      "uncertainty_awareness": "精确区分了已知（说出了部分感受、跑鞋放门边）、来访者自述的不确定（'说不好想要被接住的是什么'）以及待探索方向（关系走向、跑鞋象征转化），未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 14477,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 204,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14681,
+    "x_details": [
+      {
+        "input_tokens": 14477,
+        "output_tokens": 204,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 14681,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.172
+}

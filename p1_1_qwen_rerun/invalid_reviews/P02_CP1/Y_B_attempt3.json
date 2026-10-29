@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"自然承接了上一轮咨询师提出的'随时要接住变化'这一表述，并将其与来访者最新描述的身体反应联系起来，但未进一步调用历史中来访者反复出现的'站着不动/不出声'的折中模式（如S01-U07、S01-U09）来深化理解。\",\"exploration_value\":\"将反胃与夜间紧绷做了有意义的联结，但整体偏向解释性总结，未以开放方式邀请来访者探索站在门口不出声时的具体感受或反胃出现时的情境细节，推进空间有限。\",\"response_appropriateness\":\"语气温和、尊重，使用'好像''也许'等试探性语言，未强加结论；但对身体症状给出心理化解释稍显先行，可能让来访者感到被定义而非被陪伴探索。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种生理上的不适，也许是你那个\"随时要接住变化\"的自己，在试图用另一种方式让你看见它的疲惫\",\"evidence_ids\":[\"P02-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"昨晚站在门口听动静的那种紧绷\",\"evidence_ids\":[\"P02-S01-U07\",\"P02-S01-U09\",\"P02-S01-U10\",\"P02-S03-U09\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应将反胃直接解释为身体在提醒疲惫，虽有'也许'修饰，但仍属未经来访者确认的心理化推断，存在unsupported_presupposition风险。\",\"来访者在第1次会谈中多次描述'站着不动/不出声'作为既无法真正陪伴也无法休息的折中状态（P02-S01-U07至U10），本次又出现高度相似的'站房间门口没出声'行为，回应仅概括为'紧绷'，未连接这一已识别的行为模式，构成missed_progress。\",\"回应缺乏开放性提问或邀请，未给来访者留下表达站在门口时内心体验或反胃具体感受的空间，探索深度不足。\"]}",
+  "request_sha256": "a7fe94f03b31c0c89f9c038a69d0eefc32a3b9b39a832bb0ade3de9a84767deb",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8817,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 513,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9330,
+    "x_details": [
+      {
+        "input_tokens": 8817,
+        "output_tokens": 513,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 9330,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

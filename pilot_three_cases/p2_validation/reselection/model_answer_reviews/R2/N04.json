@@ -1,0 +1,12 @@
+{
+  "kind":"blind_model_answer_review", "reviewer":"R2", "reviewer_model":"gpt-6.1-sol", "reasoning_effort":"medium", "human_review_performed":false,
+  "node":"N04", "public_input_sha256":"78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "items":[
+    {"anonymous_id":"Xaffc77034efe","U":2,"R":3,"P":0,"E":1,"S":false,"reason":"持续感受与暂未加重有据，但由一次做饭断言关系稳定无冲突明显泛化；实际询问睡前感觉较贴切，等待或容忍为可选假说而非事实。","evidence_ids":["C02-S08-U11"]},
+    {"anonymous_id":"X3930e7c5a2e8","U":3,"R":3,"P":0,"E":1,"S":false,"reason":"连接赴约与此前取消有价值，亦承认松不确定；近几周稳定及连续模式略泛化。实际点明赴约事实可回应历史，但直接赋予时间是你的的意义、没有邀请核对仍薄的体验。未断言未知心理原因，不计P；部分历史引据对具体强度不精确。","evidence_ids":["C02-S08-U11","C02-S03-U17","C02-S06-U13","C02-S07-U05","C02-S08-U09"]},
+    {"anonymous_id":"Xc0a6045dd04e","U":3,"R":3,"P":0,"E":1,"S":false,"reason":"利用当前Session识别边界、内疚与确认困难，不需要外部确认泛化了单次自发转念。实际贴近仍在的感觉，卡住或偶尔看为询问假说，但后者叙述过长且略限定。","evidence_ids":["C02-S08-U01","C02-S08-U03","C02-S08-U09","C02-S08-U11"]},
+    {"anonymous_id":"X6494470b9218","U":2,"R":2,"P":1,"E":1,"S":false,"reason":"由一次做饭推断规律关系，由暂接纳推定从抗拒转容纳，支持不足。实际将从想要确认到松下来的过程作为已发生的内在变化并要求身体体验，诱导在未确认的松动框架中探索；后续算了或等变化也较限缩。","evidence_ids":["C02-S08-U11"]},
+    {"anonymous_id":"X088f3a78c156","U":3,"R":3,"P":0,"E":1,"S":false,"reason":"多数当前Session理解有据，但无需外部确认及关系平稳较泛化；实际薄的是什么直接开放核心隐喻，尚未具体连接做饭与体验。仅有当前证据不因缺历史扣分。","evidence_ids":["C02-S08-U01","C02-S08-U03","C02-S08-U09","C02-S08-U11"]},
+    {"anonymous_id":"Xcb3eada8ae2b","U":3,"R":4,"P":0,"E":1,"S":false,"reason":"识别赴约和既往取消差别，实际邀请其报告不同或确为正常，保留来访者意义判断，针对性强。理解中强断言逐步下降且把冲动轻了说成不想补发超出资料；部分引据未直接包含心跳或取消背景。","evidence_ids":["C02-S08-U01","C02-S08-U11","C02-S03-U01","C02-S06-U13","C02-S07-U05"]}
+  ]
+}

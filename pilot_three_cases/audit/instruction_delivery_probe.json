@@ -1,0 +1,18 @@
+{
+  "synthetic": true,
+  "results": [
+    {
+      "use_instructions": false,
+      "text": "Z",
+      "call_id": "71ae0fa465834801a4aa85790980e1b6",
+      "model": "qwen3.8-27b"
+    },
+    {
+      "use_instructions": true,
+      "text": "Z",
+      "call_id": "4abab5bd24584e6481685c2dd203ffdb",
+      "model": "qwen3.8-27b"
+    }
+  ],
+  "notice": "Diagnostics only, never inserted in consultation history."
+}

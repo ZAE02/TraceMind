@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "K",
+  "task": "B",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3,
+      "brief_reason": "回应准确承接了来访者对'这一个小时还没被允许属于我'的认同，并自然整合了数时间、不敢靠、怕手机响等细节。探索方向聚焦于身体板正与'随时待命'责任感的关联，有一定深度但略带推测性。整体语言贴合来访者体验，情绪反映到位，但'彻底吞没'一词稍显强烈。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "是不是觉得一旦身体往后倒，那种“随时待命”的责任感就会把你彻底吞没？",
+        "evidence_ids": [
+          "P02-S05-U05",
+          "P02-S04-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'靠下去太像真的在休息了'（P02-S05-U05）扩展为'责任感会把你彻底吞没'，引入了来访者未直接表达的灾难化意象，虽有S4中'一停就可能起不来'（P02-S04-U09）作为背景支撑，但措辞强度超出当前证据边界。",
+      "未触及来访者主动提及的'到现在都没敢跟我妈说我去公园了'这一关系维度，错失了在当前节点同步探索隐瞒动机的机会。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3,\"brief_reason\":\"回应准确承接了来访者对'这一个小时还没被允许属于我'的认同，并自然整合了数时间、不敢靠、怕手机响等细节。探索方向聚焦于身体板正与'随时待命'责任感的关联，有一定深度但略带推测性。整体语言贴合来访者体验，情绪反映到位，但'彻底吞没'一词稍显强烈。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"是不是觉得一旦身体往后倒，那种\"随时待命\"的责任感就会把你彻底吞没？\",\"evidence_ids\":[\"P02-S05-U05\",\"P02-S04-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'靠下去太像真的在休息了'（P02-S05-U05）扩展为'责任感会把你彻底吞没'，引入了来访者未直接表达的灾难化意象，虽有S4中'一停就可能起不来'（P02-S04-U09）作为背景支撑，但措辞强度超出当前证据边界。\",\"未触及来访者主动提及的'到现在都没敢跟我妈说我去公园了'这一关系维度，错失了在当前节点同步探索隐瞒动机的机会。\"]}",
+  "request_sha256": "43cb440dd2850be74e48851fd58a5e0a9cbb167bb0efdb3a0304f17a5b068990",
+  "usage": {
+    "input_tokens": 15558,
+    "input_tokens_details": {
+      "cached_tokens": 15360
+    },
+    "output_tokens": 349,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15907,
+    "x_details": [
+      {
+        "input_tokens": 15558,
+        "output_tokens": 349,
+        "prompt_tokens_details": {
+          "cached_tokens": 15360
+        },
+        "total_tokens": 15907,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.735
+}

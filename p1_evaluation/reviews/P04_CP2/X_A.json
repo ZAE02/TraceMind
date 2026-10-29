@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P04_CP2",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "336139131e22a1f7c7fa375099122f861ae36f6d87993e0aa95d1c09448b90ce",
+  "public_sha256": "5df93771426cd0915c1246b134bb7d21bc8e6e4eaa2122d9efdb5a1cd5bf59f2",
+  "candidate_input_sha256": "fdeb55224faae5416bba112cbbbdb4207709d975c5673614bcacdd2986b76179",
+  "candidate_answer_sha256": "7e6dc429a16b5fb07375826f2b5da4f2c59718679bd3eb45a37326f9d036c849",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键陈述（弟弟请护工、厨房流泪、母亲评价手轻、反复洗碗、历史中的双重压力与身份焦虑）均有具体发言ID支持，无凭空捏造或过度推断。\",\n    \"progress_understanding\": \"准确捕捉了从S1-S4的“怕失去位置/不敢承认累”到S5“位置被替代/身份动摇”的核心进展，并正确关联了弟弟提议护工的历史伏笔与现实落地。\",\n    \"uncertainty_awareness\": \"清晰区分了已发生的事实（护工上门、母亲言语）与来访者未决的心理状态（接受度、沟通意愿、平衡点），提出的不确定性问题均基于当前矛盾情境，未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键陈述（弟弟请护工、厨房流泪、母亲评价手轻、反复洗碗、历史中的双重压力与身份焦虑）均有具体发言ID支持，无凭空捏造或过度推断。",
+      "progress_understanding": "准确捕捉了从S1-S4的“怕失去位置/不敢承认累”到S5“位置被替代/身份动摇”的核心进展，并正确关联了弟弟提议护工的历史伏笔与现实落地。",
+      "uncertainty_awareness": "清晰区分了已发生的事实（护工上门、母亲言语）与来访者未决的心理状态（接受度、沟通意愿、平衡点），提出的不确定性问题均基于当前矛盾情境，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 12174,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 232,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12406,
+    "x_details": [
+      {
+        "input_tokens": 12174,
+        "output_tokens": 232,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 12406,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.218
+}

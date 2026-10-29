@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP3",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "276e0c7a1b1aa49f034db549a88a5b3bc12d4613cd4b08addc03b97f2daab29d",
+  "request_sha256": "5b8c53c059a80d33e14cb72c1bc5fde0bdb16280855f29db345b30254055894a",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“连走开的力气都得提前攒”的预支感，听起来像是你一直在为可能到来的打扰做防御准备，这本身就很耗神。周姐那条还没转文字的语音，或许可以先让它悬在那里，不用急着去拆解它的意思。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3478,
+    "input_tokens_details": {
+      "cached_tokens": 3200
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3532,
+    "x_details": [
+      {
+        "input_tokens": 3478,
+        "output_tokens": 54,
+        "prompt_tokens_details": {
+          "cached_tokens": 3200
+        },
+        "total_tokens": 3532,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

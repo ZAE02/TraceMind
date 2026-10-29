@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP1",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "0833a98bef08710141eabc51ac5f3b185ea3cf279795f387df8c9ce598173938",
+  "request_sha256": "96b6380929606c7089e861c04fdecf58df0d572980a45d39fd919bb3be83463d",
+  "memory_sha256": "c9008c0446eb1e323876978a796648b316acec9e3b800504a5b15569663fb2aa",
+  "memory_source": "28838bd10d1387026c20466b3f2efd01d7c25840311af0d130ba16d0d0e27cc5",
+  "raw_text": "把“灵气”当成一个非黑即白的开关，确实让人不敢去碰那个可能已经坏掉的灯泡。\n那封躺在收件箱里的邮件，现在更像是一个悬在头顶的审判，让你连打开的勇气都没有了吗？",
+  "usage": {
+    "input_tokens": 4253,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4302,
+    "x_details": [
+      {
+        "input_tokens": 4253,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4302,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.906,
+  "model": "qwen3.7-flash-2026-07-15"
+}

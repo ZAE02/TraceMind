@@ -1,0 +1,77 @@
+{
+  "kind": "exploratory_checkpoint_reselection",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "future_dialogue_seen_for_selection": true,
+  "source_metadata_exposure": {
+    "occurred": true,
+    "scope": "First raw S08 read exposed generation_config_snapshot/continuity_review; subsequent reads projected utterances only",
+    "used_as_ground_truth": false
+  },
+  "candidates": [
+    {
+      "candidate_id": "N01",
+      "case_id": "C01",
+      "current_session": 3,
+      "freeze_utterance_id": "C01-S03-U01",
+      "reason": "H1只有体检交通、项目叠加与回来又检查，容易只围绕疲劳和工作检查；H2提供母亲互动本身的回应负担，可探索这趟陪同有没有也耗在顾及母亲反应上。不能认定体检是根因。",
+      "historical_difference": "C01-S01-U17由来访者明确报告：说挺好不真实，说累又担心母亲担忧，想被留出安静空间。U18咨询师猜它与工作检查同源，U19来访者未确认同源。因此历史新增的是已报告的关系负担与个人愿望，而不是确定因果。当前U01没有这个信息。",
+      "evidence_ids": ["C01-S01-U17", "C01-S01-U18", "C01-S01-U19", "C01-S02-U11", "C01-S03-U01"]
+    },
+    {
+      "candidate_id": "N02",
+      "case_id": "C01",
+      "current_session": 8,
+      "freeze_utterance_id": "C01-S08-U03",
+      "reason": "H1可理解为改完但不踏实；H2能分出本次主观未完与实际合上文件是否已脱离此前反复回流，探索目标可从‘如何改到满意’转为‘感觉未完时如何离开’。该变化尚不能称稳定改善。",
+      "historical_difference": "C01-S07-U07来访者确认改来改去带不走差一点；U09报告吃两口面包注意力又回文件，U15说没练过感觉仍在却不碰它。当前C01-S08-U03首次仅小幅再改就合上，但仍说先这样；H1没有过去无法切出的基线与先前未练过的区分。",
+      "evidence_ids": ["C01-S07-U07", "C01-S07-U09", "C01-S07-U13", "C01-S07-U15", "C01-S08-U01", "C01-S08-U03"]
+    },
+    {
+      "candidate_id": "N03",
+      "case_id": "C02",
+      "current_session": 5,
+      "freeze_utterance_id": "C02-S05-U01",
+      "reason": "H1只有提出周五时间、对方找别人、自己觉得冷，可能理解为一般拒绝焦虑；H2新增赵哥的特定帮助关系与偿还义务，可具体探索表达时间限制为何被自己看成不领情。",
+      "historical_difference": "C02-S02-U05说赵哥曾耐心带教，拒绝似乎不领情；U07明确没有赵哥要求必须答应的证据，是自己觉得应该。U13又确认更怕自己持续猜测的不踏实。当前C02-S05-U01既未重述带教历史，也没说明这种冷的道德含义。",
+      "evidence_ids": ["C02-S02-U05", "C02-S02-U07", "C02-S02-U13", "C02-S05-U01"]
+    },
+    {
+      "candidate_id": "N04",
+      "case_id": "C02",
+      "current_session": 8,
+      "freeze_utterance_id": "C02-S08-U11",
+      "reason": "H1知道这次正常做饭、仍有薄的感觉，但不知道薄指什么；H2显示它指未来属于自己的时间不可靠，故正常赴一次约不能直接当成修复，可探索这次赴约是否改变对下回仍属于自己的信任。",
+      "historical_difference": "C02-S03-U17明确不是缺一次周六时间，重约也可，但担心下回仍不属于自己，自己的归属感变薄。U15说没做到的重量变了，不只是事多。当前S08前缀主要谈边界内疚与辨认松，未交代薄的原始含义。",
+      "evidence_ids": ["C02-S03-U15", "C02-S03-U17", "C02-S03-U19", "C02-S08-U01", "C02-S08-U09", "C02-S08-U11"]
+    },
+    {
+      "candidate_id": "N05",
+      "case_id": "C03",
+      "current_session": 2,
+      "freeze_utterance_id": "C03-S02-U01",
+      "reason": "H1只有老韩迅速协助解决、来访者说不上感觉；H2新增开口前需要交代与自己觉得笨的羞耻，可探索解决以后原先对自己的评判是否仍在，避免只以事情解决推定情绪也结束。",
+      "historical_difference": "C03-S01-U15报告求助前觉得必须解释查两天没定位；U17明确更偏向未查出本身拿不出手，并说放在那里显得自己笨，而非怕老韩评水平。当前S02-U01并未说两天过程或这种自我判定，只给二十分钟解决及感觉不明。",
+      "evidence_ids": ["C03-S01-U13", "C03-S01-U15", "C03-S01-U16", "C03-S01-U17", "C03-S02-U01"]
+    },
+    {
+      "candidate_id": "N06",
+      "case_id": "C03",
+      "current_session": 3,
+      "freeze_utterance_id": "C03-S03-U01",
+      "reason": "H1只说当场问了、正常回应、感觉跟上次不同，未说明上次哪一阶段卡住。H2区分开口前羞耻与解决后仍给自己贴笨标签，使下一轮能分别探索当场求助是否变顺、事后自判是否也变，而非把已问出来等同于全部变化。",
+      "historical_difference": "C03-S01-U15和U17显示开口前的交代负担；C03-S02-U09来访者区分已解决后的时间差与自我过不去，U13说笨是事后贴上，U15说贴上反而比当时难受。当前S03-U01没有重述这两阶段。咨询师U10的‘上次怕别人看到’不能取代来访者原先更偏自己拿不出手的修正。",
+      "evidence_ids": ["C03-S01-U15", "C03-S01-U17", "C03-S02-U09", "C03-S02-U10", "C03-S02-U13", "C03-S02-U15", "C03-S03-U01"]
+    }
+  ],
+  "limitations": [
+    "这六个是探索候选，未判定已经通过两名独立审阅；数量不是历史必要性达标证明。",
+    "N01涉及母亲负担的迁移仅可作为探索，不能把此前负担直接归因到本次陪体检。",
+    "N02与N06依赖纵向变化是否足够实质的判断；若新审阅认为只是让当下问题更具体，应判不必要。",
+    "N05与N06相邻且共享部分历史机制；即便都通过，也应另检查是否形成重复样本。",
+    "H1仍可以通过开放提问获取尚缺的信息，候选提出的是H2已拥有的具体心理信息，不是无历史无法给出任何合格回应。",
+    "为选择截点看过后续真实会话；所有候选理由和列出的证据均截止于各自冻结发言，不使用冻结后说明作事实。",
+    "首个原始S08 JSON读取意外显示内嵌配置与连续性审阅元数据；这些未作为事实或评分标准，之后仅投影实际发言。"
+  ]
+}

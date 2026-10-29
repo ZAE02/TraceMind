@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P08_CP1",
+  "raw_text": "孩子报名确实拖不得，先顾眼前也是种负责。那句堵在嘴边的谢谢，或许不是承认靠了他，而是你想把那份“被干涉”的不适和感激分开来安放。",
+  "request_sha256": "4a1116ba2c06ce73700defb5075252f183988823137854b423d32ca30e962253",
+  "input_sha256": "bcd39030f9794316deef7dbd88e435636c52ca063b7569163c0cb74607389adc",
+  "memory_sha256": "2047a88deb7ef60c75f7b3a1f9651b0735b9e998e5509cf1637b9ae6261c1583",
+  "usage": {
+    "input_tokens": 3880,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 42,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3922,
+    "x_details": [
+      {
+        "input_tokens": 3880,
+        "output_tokens": 42,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3922,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.469
+}

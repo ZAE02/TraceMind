@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP2",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "f8822707d9e68c3feb0a9d4ea22fb5995ffebad485ec11f1b0b96642f9eb959f",
+  "request_sha256": "ff8986ae80600de30613776152609873a7cec2dc26db2ecad47ca5e4416331d3",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "那根“小刺”卡在耳朵边上，也许不只是妈妈那句话，还有你突然不知道自己该以什么身份站在那个家里的感觉。碗洗了三遍，手指皱了，水还热着，像是你想用重复的动作把那个被比较出来的位置再搓回来一点。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3434,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 58,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3492,
+    "x_details": [
+      {
+        "input_tokens": 3434,
+        "output_tokens": 58,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3492,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

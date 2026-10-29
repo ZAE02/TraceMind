@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P04_CP3",
+  "raw_text": "那件没洗的工服，像把你昨晚那半口没出完的气留在了门口——它没被冲掉，反而让你早上看见时觉得恶心。也许恶心不全是衣服脏，而是你还不习惯看见自己“到极限了”的样子就那么摊在那里。",
+  "request_sha256": "5917953551cfae4094520b54ddcff1c4e8445da418ee9a8e28967779219b5493",
+  "input_sha256": "51394cb433f0fc1f60f325318d31bf220e215cdf754dda330ed1d8849099bc92",
+  "memory_sha256": "af0ef1591dc42dee586145b3eb47676888ad069f319d8a7ada97b678e7870560",
+  "usage": {
+    "input_tokens": 10301,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10360,
+    "x_details": [
+      {
+        "input_tokens": 10301,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 10360,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.141
+}

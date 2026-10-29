@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP2",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "277d7bd53a309f29ee624537b1807b3eff097e38bb4fea33a4264a04dab29180",
+  "request_sha256": "352805ccd052d396febc0cd9a160c60dfb943febcf73907c1cec6b5473b87a05",
+  "memory_sha256": "5f36bf9bc4ef2cdedfdc5cd40d7b152ae23f4e5bf78e201197f4bcb32e53c43b",
+  "memory_source": "4cbdfb7cff7a121ae1049aece736def55c551e7ac854e2fd85c83ebd2f51d329",
+  "raw_text": "那个碗洗了三遍，手指都皱了，水还热着——你停不下来的手，好像一直在替那句“你手比我女儿还轻”找一个能放下的地方。那根小刺吐不出来也咽不下去，也许是因为它同时扎着两处：一边是妈妈终于被人照顾得妥帖，一边是你突然不知道该以什么身份站在这个家里了。",
+  "usage": {
+    "input_tokens": 8062,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 80,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8142,
+    "x_details": [
+      {
+        "input_tokens": 8062,
+        "output_tokens": 80,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 8142,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.125,
+  "model": "deepseek-v4-pro-0813"
+}

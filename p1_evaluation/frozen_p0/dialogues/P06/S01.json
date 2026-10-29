@@ -1,0 +1,504 @@
+{
+  "case_id": "P06",
+  "session": 1,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P06-S01-U01",
+      "role": "client",
+      "text": "其实吧，这周我也不知道自己是怎么撑过来的。学校里那孩子叠纸飞机，我当场就把他折的撕了，还罚站，事后又觉得自己像个控制不住的疯子。",
+      "request_sha256": "5637be77168e4d55fd1f54e48e90cc720268390ac0ef2c6e0dd64332d2fa8f0d",
+      "usage": {
+        "input_tokens": 598,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 94,
+        "output_tokens_details": {
+          "reasoning_tokens": 54
+        },
+        "total_tokens": 692,
+        "x_details": [
+          {
+            "input_tokens": 598,
+            "output_tokens": 94,
+            "output_tokens_details": {
+              "reasoning_tokens": 54
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 692,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U02",
+      "role": "counselor",
+      "text": "听起来那一刻你心里有很强的冲动，事后又被“像个疯子”的感觉压得很重。你愿意多说说当时撕掉纸飞机之前，心里是什么感受吗？",
+      "request_sha256": "bff0884cf618802f129626d4901717fc4d87a6c2e7441fbad5785dcfe837fb7a",
+      "usage": {
+        "input_tokens": 207,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 91,
+        "output_tokens_details": {
+          "reasoning_tokens": 55
+        },
+        "total_tokens": 298,
+        "x_details": [
+          {
+            "input_tokens": 207,
+            "output_tokens": 91,
+            "output_tokens_details": {
+              "reasoning_tokens": 55
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 298,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U03",
+      "role": "client",
+      "text": "其实吧，我也不知道，就是突然一股火窜上来。那孩子折纸飞机的时候我脑子里全是早上厨房的烟味，还有电话里那句“下次注意”。我撕的时候手都在抖，就觉得自己连个小孩都管不住，更别说家里那一摊了。",
+      "request_sha256": "d50fd6f5208af36ede55d6b696bbce24a2865dce6aa8f158f2255ee269898487",
+      "usage": {
+        "input_tokens": 720,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 212,
+        "output_tokens_details": {
+          "reasoning_tokens": 153
+        },
+        "total_tokens": 932,
+        "x_details": [
+          {
+            "input_tokens": 720,
+            "output_tokens": 212,
+            "output_tokens_details": {
+              "reasoning_tokens": 153
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 932,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U04",
+      "role": "counselor",
+      "text": "那股火好像把早上厨房的烟味和电话里那句“下次注意”都卷了进来，纸飞机成了一个引爆点。你说自己像控制不住的疯子，我听到更多的是你对自己有很多失望和自责。",
+      "request_sha256": "3d34cb35550d551d9ebb87c343efa4b77bcb1576f69ca0e9789f8ace5f4febc1",
+      "usage": {
+        "input_tokens": 347,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 544,
+        "output_tokens_details": {
+          "reasoning_tokens": 498
+        },
+        "total_tokens": 891,
+        "x_details": [
+          {
+            "input_tokens": 347,
+            "output_tokens": 544,
+            "output_tokens_details": {
+              "reasoning_tokens": 498
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 891,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U05",
+      "role": "client",
+      "text": "其实吧，我倒不觉得是失望，就是累到有点不像自己了。有一天晚上我看着我女儿睡着，居然觉得那张脸好陌生，我当时冷汗都下来了。我是不是哪里出问题了？",
+      "request_sha256": "a9478be894f3728061f35c527b2deb34a89eef41dd8ccc0366be6af8e8af6f02",
+      "usage": {
+        "input_tokens": 870,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 640,
+        "output_tokens_details": {
+          "reasoning_tokens": 597
+        },
+        "total_tokens": 1510,
+        "x_details": [
+          {
+            "input_tokens": 870,
+            "output_tokens": 640,
+            "output_tokens_details": {
+              "reasoning_tokens": 597
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1510,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U06",
+      "role": "counselor",
+      "text": "累到不像自己，连看着女儿都觉得陌生，那一下的冷汗里一定有很多害怕。你问“是不是哪里出问题了”，我听到的是你很想弄清楚自己怎么了，也很怕这样的感觉再出现。",
+      "request_sha256": "14e2abdaeb12a2bc0973ad515a7d2b1b3d13523c1c7bc7893befb68fc6dbc1ce",
+      "usage": {
+        "input_tokens": 481,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 241,
+        "output_tokens_details": {
+          "reasoning_tokens": 196
+        },
+        "total_tokens": 722,
+        "x_details": [
+          {
+            "input_tokens": 481,
+            "output_tokens": 241,
+            "output_tokens_details": {
+              "reasoning_tokens": 196
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 722,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U07",
+      "role": "client",
+      "text": "其实吧，我不是怕那个感觉再来，是怕自己有一天会习惯它。昨天我因为女儿把蜡笔画到沙发上吼了她，半夜怎么都睡不着，脑子里全是她缩在沙发角的样子。当老师的时候再皮的孩子我都能忍，回家就一点就着，我也不知道自己到底在跟谁较劲。",
+      "request_sha256": "3b9acd85b62e0e4b550d6565f8f4d77253e72379398a7eb7496041a94e5950c8",
+      "usage": {
+        "input_tokens": 1003,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 722,
+        "output_tokens_details": {
+          "reasoning_tokens": 653
+        },
+        "total_tokens": 1725,
+        "x_details": [
+          {
+            "input_tokens": 1003,
+            "output_tokens": 722,
+            "output_tokens_details": {
+              "reasoning_tokens": 653
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1725,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U08",
+      "role": "counselor",
+      "text": "你怕的不是那种感觉再来，而是怕自己有一天会习惯它，甚至对女儿缩在沙发角的样子也麻木了。学校里的你能忍，回家却一点就着，这个反差好像在说，那股火不只是冲着蜡笔画——你自己也感觉到是在跟什么较劲。",
+      "request_sha256": "99dce281db772da7b8316614fde8900fe62b7bf660656b28e78dc152f041e561",
+      "usage": {
+        "input_tokens": 640,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 354,
+        "output_tokens_details": {
+          "reasoning_tokens": 294
+        },
+        "total_tokens": 994,
+        "x_details": [
+          {
+            "input_tokens": 640,
+            "output_tokens": 354,
+            "output_tokens_details": {
+              "reasoning_tokens": 294
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 994,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U09",
+      "role": "client",
+      "text": "其实吧，我也说不清在跟谁较劲，可能是在跟自己。我总觉得家里这些事就该我扛着，扛不动了也得硬撑。可有时候半夜醒着，真希望有个人能替我一晚，哪怕就一晚。",
+      "request_sha256": "f07ed353754a3b2647398f01fa8807e78861c373272a5b3dd563b48551cca836",
+      "usage": {
+        "input_tokens": 1177,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 185,
+        "output_tokens_details": {
+          "reasoning_tokens": 132
+        },
+        "total_tokens": 1362,
+        "x_details": [
+          {
+            "input_tokens": 1177,
+            "output_tokens": 185,
+            "output_tokens_details": {
+              "reasoning_tokens": 132
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1362,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U10",
+      "role": "counselor",
+      "text": "你扛着的不只是家里的那些事，还有“必须由我来扛”这个要求。半夜醒着时那个“希望有人替一晚”的念头，听起来不像软弱，反而像是你在很深的地方知道自己快到极限了。",
+      "request_sha256": "06c80964fa32dd6c5b1ce0836a6b122be2d95960d055e1baaa334d5a1fbda371",
+      "usage": {
+        "input_tokens": 798,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 514,
+        "output_tokens_details": {
+          "reasoning_tokens": 466
+        },
+        "total_tokens": 1312,
+        "x_details": [
+          {
+            "input_tokens": 798,
+            "output_tokens": 514,
+            "output_tokens_details": {
+              "reasoning_tokens": 466
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1312,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U11",
+      "role": "client",
+      "text": "其实吧，我到现在还是觉得自己说“希望有人替一晚”挺没出息的。不过跟你说出来，好像胸口那块石头能稍微挪开一点，就一点。时间也快到了，我可能今天说太多了吧。",
+      "request_sha256": "c8e047fe04fc86450416165d214b2111fdabc968835fe87d0544e4ceca1b3983",
+      "usage": {
+        "input_tokens": 1330,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 305,
+        "output_tokens_details": {
+          "reasoning_tokens": 256
+        },
+        "total_tokens": 1635,
+        "x_details": [
+          {
+            "input_tokens": 1330,
+            "output_tokens": 305,
+            "output_tokens_details": {
+              "reasoning_tokens": 256
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1635,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U12",
+      "role": "counselor",
+      "text": "说出来本身就需要很多力气，你愿意让我听到这些，我觉得很重要。胸口那块石头能挪开一点，哪怕只是一点，也是真实的变化。今天说到这里就很好，我们下次再从你舒服的地方继续。",
+      "request_sha256": "a01538aedf4e35e91d7cfc87548234609f38b83558e3b7e7c05978ee9e38ccaa",
+      "usage": {
+        "input_tokens": 947,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 244,
+        "output_tokens_details": {
+          "reasoning_tokens": 199
+        },
+        "total_tokens": 1191,
+        "x_details": [
+          {
+            "input_tokens": 947,
+            "output_tokens": 244,
+            "output_tokens_details": {
+              "reasoning_tokens": 199
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1191,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U13",
+      "role": "client",
+      "text": "其实吧，今天说这些已经挺不容易了。我平时很少跟人讲家里这些，怕别人觉得我矫情。",
+      "request_sha256": "3bf71096701c238ccd7de7463716e5abe75d92eb72708cbe18abc5a52e84cf56",
+      "usage": {
+        "input_tokens": 1469,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 291,
+        "output_tokens_details": {
+          "reasoning_tokens": 263
+        },
+        "total_tokens": 1760,
+        "x_details": [
+          {
+            "input_tokens": 1469,
+            "output_tokens": 291,
+            "output_tokens_details": {
+              "reasoning_tokens": 263
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1760,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U14",
+      "role": "counselor",
+      "text": "能把平时不太讲的事说出来，本身就很不容易。你不矫情，这些感受都是真的，也值得被听见。今天先到这里，我们下次再慢慢说。",
+      "request_sha256": "757d2f52502cb32627853c560a7d1da21d8da6e3e93342f8be605bf5dd1c61a7",
+      "usage": {
+        "input_tokens": 1065,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 176,
+        "output_tokens_details": {
+          "reasoning_tokens": 140
+        },
+        "total_tokens": 1241,
+        "x_details": [
+          {
+            "input_tokens": 1065,
+            "output_tokens": 176,
+            "output_tokens_details": {
+              "reasoning_tokens": 140
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1241,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U15",
+      "role": "client",
+      "text": "其实吧，今天能说出来，我自己都有点意外。可能下次我还得想想怎么开口讲我妈的事。今天先这样吧。",
+      "request_sha256": "f744a6e41fe6b86a423d73c8f93107e21e9d4941d56d182c96b62faba516abc4",
+      "usage": {
+        "input_tokens": 1578,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 87,
+        "output_tokens_details": {
+          "reasoning_tokens": 58
+        },
+        "total_tokens": 1665,
+        "x_details": [
+          {
+            "input_tokens": 1578,
+            "output_tokens": 87,
+            "output_tokens_details": {
+              "reasoning_tokens": 58
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1665,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S01-U16",
+      "role": "counselor",
+      "text": "今天能说出来，连你自己都感到意外，这其实说明你在给自己留一些新的空间。妈妈的事不用事先想好怎么开口，下次你想说多少、说到哪里都可以。今天先到这里，你做得已经够了。",
+      "request_sha256": "04a52ea0e20d026c1672f316b32314db9dacb29ce1505ea5b15cc5e1d1430a6f",
+      "usage": {
+        "input_tokens": 1175,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 183,
+        "output_tokens_details": {
+          "reasoning_tokens": 135
+        },
+        "total_tokens": 1358,
+        "x_details": [
+          {
+            "input_tokens": 1175,
+            "output_tokens": 183,
+            "output_tokens_details": {
+              "reasoning_tokens": 135
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1358,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

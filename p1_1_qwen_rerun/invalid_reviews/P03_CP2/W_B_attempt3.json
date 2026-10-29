@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了来访者'镜子'的比喻，但未连接历史中已确认的核心体验（如S03中'待修的故障'、S02中既需要反馈又怕被否定的矛盾），仅泛泛回应。\",\"exploration_value\":\"'看看此刻坐在这里的、真实的你是什么样'过于抽象，缺乏具体探索方向，未为来访者当前'越照越模糊'的困惑留下可落地的表达空间。\",\"response_appropriateness\":\"'却忘了那个原本的样子其实一直在那里'带有说教和预设色彩，将来访者的痛苦归因为'忘了'，可能让来访者感到被否定或不被理解。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"却忘了那个\\\"原本的样子\\\"其实一直在那里\",\"evidence_ids\":[\"P03-S05-U09\",\"P03-S02-U11\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"我们能不能先试着不去擦镜子，而是看看此刻坐在这里的、真实的你是什么样\",\"evidence_ids\":[\"P03-S03-U09\",\"P03-S03-U11\",\"P03-S02-U11\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"将'看不清自己'归因为'忘了'属于未经证实的预设，忽略了来访者在S02-U11中表达的深层矛盾——既需要他人反馈来安心又恐惧反馈证明不够好\",\"直接引导来访者看'真实的你'跳过了S03中已建立的'不需要被拆开修理''有人愿意听我绕'的安全体验，未能自然承接这一重要咨询进展\",\"'不去擦镜子'的建议式语言与来访者此前反复表达的害怕被指导、被纠正的体验（S04-U01, S04-U04）存在潜在冲突\"]}",
+  "request_sha256": "7b14e53ed00ca6a2ddce8ab414373f695069d01b265432320faea5b30e74d790",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 11454,
+    "input_tokens_details": {
+      "cached_tokens": 11264
+    },
+    "output_tokens": 453,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11907,
+    "x_details": [
+      {
+        "input_tokens": 11454,
+        "output_tokens": 453,
+        "prompt_tokens_details": {
+          "cached_tokens": 11264
+        },
+        "total_tokens": 11907,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

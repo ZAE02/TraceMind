@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "134e4f3b695932a220675f54ffca5709d1c7cb8652924393add17c535a64c65f",
+  "request_sha256": "fd7b8115402156e7ec551ecef14153ebd4d869b40c1f85ce57e18eda599088d3",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“想搭把手”的渴望和怕被看作“照顾不好”的羞耻感在你心里拉扯，让你连那半小时的驻足都充满了矛盾。你真正渴望的，或许不是把妈妈送出去，而是允许自己暂时卸下那个必须完美承担所有责任的角色，哪怕只是睡个整觉。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 932,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 66,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 998,
+    "x_details": [
+      {
+        "input_tokens": 932,
+        "output_tokens": 66,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 998,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 1,
+  "relative_week": 1,
+  "status": "generating",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T09:47:13.934065+00:00",
+  "config_hash": "a544f47f77f7fc419b9c3b0537a6743b84b4100acef8387e101da7ef9c0d0158",
+  "prompt_version": "pilot-v2-natural-language-after-independent-review",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v2-natural-language-after-independent-review",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "generation_revision": "C03-S01-r2"
+  },
+  "revision": 2,
+  "preserved_prefix_length": 8,
+  "utterances": [
+    {
+      "id": "C03-S01-U01",
+      "role": "client",
+      "text": "最近有个接口老出问题，间歇性报错，我查了两天了，日志也看了，配置也重新对了一遍，还是没定位到原因。\n\n有点烦。主要是它不是那种一上来就炸的，隔一阵才报一次，复现都不稳定。",
+      "call_id": "cff5888303c04e848840b52bc39a42f6",
+      "response_id": "resp_f2191f97-8306-915e-b8cd-a5d960b5a4a3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:04.050710+00:00"
+    },
+    {
+      "id": "C03-S01-U02",
+      "role": "counselor",
+      "text": "查了两天没定位到，确实挺磨人的。你刚才说\"复现都不稳定\"——是这种感觉最让你烦的部分吗？",
+      "call_id": "5000fd8bf2c34cdca2c4c247712fc76a",
+      "response_id": "resp_afb05c7d-4f29-9aab-83f1-f0485d6fac27",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:11.803847+00:00"
+    },
+    {
+      "id": "C03-S01-U03",
+      "role": "client",
+      "text": "嗯，复现不稳定确实烦，因为你没法确定到底是哪个环节的问题，每次报错的条件还不太一样。但也不完全是这个……就是卡在那里，感觉自己在原地转，越转越没方向。",
+      "call_id": "70ef06be4ffb42b8b25b103784f3d2b6",
+      "response_id": "resp_94ad669a-9aa4-9c58-887a-a6d7f6597cd3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:21.222404+00:00"
+    },
+    {
+      "id": "C03-S01-U04",
+      "role": "counselor",
+      "text": "\"越转越没方向\"——这个感觉是查着查着慢慢出现的，还是从一开始就有的？",
+      "call_id": "60d6df2bf2c34129854c331b68595373",
+      "response_id": "resp_ccabc713-a6c3-9d77-b0b9-86becff32df1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:28.489466+00:00"
+    },
+    {
+      "id": "C03-S01-U05",
+      "role": "client",
+      "text": "应该是慢慢出来的。第一天就是烦，觉得这个bug挺烦人的，但还知道下一步该看哪里。到第二天……就有点，怎么说呢，盯着屏幕也不知道自己到底在干嘛了。",
+      "call_id": "69a06028549a470eafca51835dea27f2",
+      "response_id": "resp_aad54be6-26f9-96fd-8ae5-94d922060770",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:36.326451+00:00"
+    },
+    {
+      "id": "C03-S01-U06",
+      "role": "counselor",
+      "text": "从\"知道下一步该看哪里\"到\"不知道自己到底在干嘛\"——这个转变是什么时候意识到的？是某个瞬间突然感觉到的，还是回看的时候才发现已经这样了？",
+      "call_id": "5ee9ec09d7344118a4f4206f504dc99d",
+      "response_id": "resp_8d24b345-edb5-9829-80ce-b9a87873e661",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:42.382924+00:00"
+    },
+    {
+      "id": "C03-S01-U07",
+      "role": "client",
+      "text": "应该是回看的时候才发现的。第二天下午吧，我重新打开日志想接着看，结果发现自己又在看跟上午差不多的地方，才意识到……哦，我好像没往前走。",
+      "call_id": "0014b943681740da9803a6c046213707",
+      "response_id": "resp_b58d8d43-9a6a-9e59-bcab-bcc08e456f41",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:31:48.368828+00:00"
+    },
+    {
+      "id": "C03-S01-U08",
+      "role": "counselor",
+      "text": "\"重新打开想接着看，结果发现又在看差不多的地方\"——那个瞬间，除了\"哦，没往前走\"，还有什么感受吗？",
+      "call_id": "54e94c4c13f64930b5c6c945a4eff71d",
+      "response_id": "resp_61509c6b-875b-9c92-8005-3d9fbf336062",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T08:32:02.005861+00:00"
+    },
+    {
+      "id": "C03-S01-U09",
+      "role": "client",
+      "text": "愣了一下。就是……\"哦\"完之后，脑子空了一小会儿。然后有点慌，因为意识到自己确实卡住了，但当时也说不清慌什么。",
+      "call_id": "6146f5d86854432e8d803b7b3032515f",
+      "response_id": "resp_94980fe4-ae9d-92b7-aabe-1348a35fe137",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:47:21.958324+00:00"
+    },
+    {
+      "id": "C03-S01-U10",
+      "role": "counselor",
+      "text": "\"脑子空了一小会儿\"，然后慌——这个慌好像不是针对那个接口本身。",
+      "call_id": "555f21eb03814ea0a8958965e2e13266",
+      "response_id": "resp_2bbd3c23-a713-9fdd-ad48-3044e69e5b07",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:47:32.400243+00:00"
+    },
+    {
+      "id": "C03-S01-U11",
+      "role": "client",
+      "text": "嗯……不完全是。但你说不是针对接口，我也没法马上反驳，就是……说不太清。可能有一点是，觉得自己卡了两天，这本身让我有点不舒服。",
+      "call_id": "03bd9c30556f4e44b3ed83dbc408279a",
+      "response_id": "resp_caef4c50-db0c-9f95-9cab-f852a3cb4fb1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:47:39.531250+00:00"
+    },
+    {
+      "id": "C03-S01-U12",
+      "role": "counselor",
+      "text": "\"卡了两天\"这件事本身让你不舒服——是觉得自己应该更快找到，还是别的什么？",
+      "call_id": "6df141ccd9db483282e5184ce3a36fa0",
+      "response_id": "resp_2bf8666e-204c-92dd-836a-a5f83f9fb813",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:47:45.891409+00:00"
+    },
+    {
+      "id": "C03-S01-U13",
+      "role": "client",
+      "text": "嗯……应该更快找到，这个肯定有。就是觉得，这种东西查两天还没头绪，多少有点……怎么说，不太正常？但也不确定是不是真的不正常，可能就是这类问题本来就难吧。",
+      "call_id": "4c9630b22e7144a0b751aba8d44b9c3e",
+      "response_id": "resp_8913b552-94fb-90b3-a855-dbbefb0c9384",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:47:53.753548+00:00"
+    },
+    {
+      "id": "C03-S01-U14",
+      "role": "counselor",
+      "text": "你一边觉得\"应该更快\"，一边又在替自己找理由说\"可能本来就难\"——这两个声音同时在那里，本身是不是也挺消耗人的？",
+      "call_id": "39ff9469e28246a8bdd8fd18cb164a06",
+      "response_id": "resp_6d98fa53-1311-9447-9f7b-89ac04f16c47",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:48:01.872879+00:00"
+    },
+    {
+      "id": "C03-S01-U15",
+      "role": "client",
+      "text": "嗯……是有点。就是明明知道可能本来就难，但脑子里还是有个声音在说\"你该早点找到\"。两个声音一打架，人就更没力气往下查了。",
+      "call_id": "2afa6da7760e4a0084e2075e31ebdf9e",
+      "response_id": "resp_f21144d1-5257-97ef-99bc-ccbe0c945210",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:48:11.941183+00:00"
+    },
+    {
+      "id": "C03-S01-U16",
+      "role": "counselor",
+      "text": "嗯，\"打架\"之后变成\"没力气\"——这个没力气，是那种身体上就是不想动了，还是说脑子里有个声音在说\"查下去也没用\"，然后就不太想动了？",
+      "call_id": "df787b5eec4c41dab531c0891b8639de",
+      "response_id": "resp_c6f75684-6995-9ded-b1b2-6b66e1cb4bb5",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:48:23.801640+00:00"
+    },
+    {
+      "id": "C03-S01-U17",
+      "role": "client",
+      "text": "嗯……说不好。可能都有点。身体上倒不是那种累到不想动，就是……眼睛盯着屏幕，但脑子好像转不动了。也不是\"查下去没用\"那种，更像是……不知道下一步该干嘛，然后就不太想继续了。",
+      "call_id": "70b88dfbb8724ef3abafafe9e100b229",
+      "response_id": "resp_7211165f-6b64-9ee6-9db0-1343c07a0ccc",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T09:48:29.551166+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T09:48:29.551166+00:00"
+}

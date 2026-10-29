@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "8c618f0b2b568b0f8ee0798d137f5c5399f728a998738f8cd7e8034ec9835eca",
+  "request_sha256": "931bb92472afc0ca007856f3c7116d373b00a97e3dba6aa633f326832b4ce96d",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你似乎把“确认”当成了缓解焦虑的唯一办法，但越是依赖别人的反馈，那种不确定感反而越重。这种头晕和回避的行为，是不是也在提醒你，现在需要停下来先照顾一下自己紧绷的状态？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 944,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 45,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 989,
+    "x_details": [
+      {
+        "input_tokens": 944,
+        "output_tokens": 45,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 989,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P03",
+  "session": 1,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P03-S01-U01",
+      "role": "client",
+      "text": "其实我上周组会做完文献汇报，导师说内容可以但衔接太碎，我回来之后一直在想这句话……可能他真正想说的是我表达能力有问题。本来我准备得不算差，但投影切来切去卡了半分钟，我脑子就空了。后来周屿问我要不要帮我理一下逻辑，我直接说不用他管，现在又觉得好像反应过头了。",
+      "request_sha256": "abed5bf683792fc075723f4093e1bb0d5ee125e28f9ab221a285b5b431cdb531",
+      "usage": {
+        "input_tokens": 624,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 879,
+        "output_tokens_details": {
+          "reasoning_tokens": 795
+        },
+        "total_tokens": 1503,
+        "x_details": [
+          {
+            "input_tokens": 624,
+            "output_tokens": 879,
+            "output_tokens_details": {
+              "reasoning_tokens": 795
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1503,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U02",
+      "role": "counselor",
+      "text": "导师那句“衔接太碎”似乎在你心里慢慢放大成了“我表达能力有问题”，而卡住的那半分钟也像在替你确认这个担心。你对周屿的拒绝，现在想起来有些后悔，好像当时更多是不想让他看见那个让你发空的瞬间。",
+      "request_sha256": "2c15112ae981c6ab3a0a1db428171f3b844ccbe08d08e725ef397dd0ba4a6fec",
+      "usage": {
+        "input_tokens": 251,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 375,
+        "output_tokens_details": {
+          "reasoning_tokens": 318
+        },
+        "total_tokens": 626,
+        "x_details": [
+          {
+            "input_tokens": 251,
+            "output_tokens": 375,
+            "output_tokens_details": {
+              "reasoning_tokens": 318
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 626,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U03",
+      "role": "client",
+      "text": "可能吧，我其实也有点分不清，到底是他真的觉得我讲得碎，还是我自己把那个卡住的半分钟放得太大了。周屿一开口说帮我理逻辑，我脑子里就蹦出“他也觉得我讲得不行”，所以话都没过脑子就顶回去了。",
+      "request_sha256": "66a0d0cff401bf48e2627ce6e008cce2f4a9b88f65fd68fbe78bd29a0ac5518a",
+      "usage": {
+        "input_tokens": 811,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 452,
+        "output_tokens_details": {
+          "reasoning_tokens": 389
+        },
+        "total_tokens": 1263,
+        "x_details": [
+          {
+            "input_tokens": 811,
+            "output_tokens": 452,
+            "output_tokens_details": {
+              "reasoning_tokens": 389
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1263,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U04",
+      "role": "counselor",
+      "text": "那个“他也觉得我讲得不行”的念头几乎和周屿的话同时冒出来，快到你来不及分辨他是不是真的在评判你，就已经用“不用他管”把自己隔开了。现在你回头看，可能并不是后悔拒绝帮忙本身，而是有点想知道当时自己到底在防备什么。",
+      "request_sha256": "8a1b13e1631f19d2555d4f6b3f67b8db408d5694010f7a71c9294ff0704c34aa",
+      "usage": {
+        "input_tokens": 416,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 173,
+        "output_tokens_details": {
+          "reasoning_tokens": 110
+        },
+        "total_tokens": 589,
+        "x_details": [
+          {
+            "input_tokens": 416,
+            "output_tokens": 173,
+            "output_tokens_details": {
+              "reasoning_tokens": 110
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 589,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U05",
+      "role": "client",
+      "text": "其实……我防备的可能是他那种马上要“解决”我的语气。我也知道他是好心，但那一刻我一点都不想被分析，只希望他也能看出我累了，先别说话。",
+      "request_sha256": "533f3d6f099cd22716769bd5f8c5fbe1d945a738d791ba401c2afe4a31862c16",
+      "usage": {
+        "input_tokens": 982,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 292,
+        "output_tokens_details": {
+          "reasoning_tokens": 250
+        },
+        "total_tokens": 1274,
+        "x_details": [
+          {
+            "input_tokens": 982,
+            "output_tokens": 292,
+            "output_tokens_details": {
+              "reasoning_tokens": 250
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1274,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U06",
+      "role": "counselor",
+      "text": "你当时需要的可能不是谁来帮你把逻辑理顺，而是有人先看到你已经累了、脑子空了，不急着把你从那个状态里拉出来。周屿的好心，恰恰撞上了你最不想被“处理”的时候。",
+      "request_sha256": "d12998ec814665b1c0b1688f92129b2aafbabf9435581b12af4372a069d033d8",
+      "usage": {
+        "input_tokens": 566,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 112,
+        "output_tokens_details": {
+          "reasoning_tokens": 64
+        },
+        "total_tokens": 678,
+        "x_details": [
+          {
+            "input_tokens": 566,
+            "output_tokens": 112,
+            "output_tokens_details": {
+              "reasoning_tokens": 64
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 678,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U07",
+      "role": "client",
+      "text": "其实你说得有点对，我那一刻就是很累，脑子像被抽空了一样，根本不想听什么逻辑。但他一开口就是“帮你理一下”，好像我连休息一下的资格都没有，必须马上振作起来把问题修好。我到现在也没跟他说，我其实希望他先别问汇报的事。",
+      "request_sha256": "9ca0db5ae27b8b9f47823644ff58d831d7c362302720c499680ebee85a3833d7",
+      "usage": {
+        "input_tokens": 1117,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 235,
+        "output_tokens_details": {
+          "reasoning_tokens": 165
+        },
+        "total_tokens": 1352,
+        "x_details": [
+          {
+            "input_tokens": 1117,
+            "output_tokens": 235,
+            "output_tokens_details": {
+              "reasoning_tokens": 165
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1352,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U08",
+      "role": "counselor",
+      "text": "那个没对他说出口的“先别问汇报”，好像到现在还悬在你心里，带着当时那种累和不想被推着走的感觉。如果那一刻他先不问汇报，你希望他先看见或先说些什么？",
+      "request_sha256": "88bb9afa71e3a322468ccaf9b2128984cedbf03301a56039c41196723992fcfc",
+      "usage": {
+        "input_tokens": 729,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 213,
+        "output_tokens_details": {
+          "reasoning_tokens": 166
+        },
+        "total_tokens": 942,
+        "x_details": [
+          {
+            "input_tokens": 729,
+            "output_tokens": 213,
+            "output_tokens_details": {
+              "reasoning_tokens": 166
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 942,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U09",
+      "role": "client",
+      "text": "其实……我可能就希望他先别说话，或者只说一句“累了吧”。不用问逻辑，也不用马上给建议，就先让我在那种状态里待一会儿。",
+      "request_sha256": "6c73ac39c6f39c851d7ab8cfbad18d7d8478c497895f785521c4681a60990f22",
+      "usage": {
+        "input_tokens": 1279,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 119,
+        "output_tokens_details": {
+          "reasoning_tokens": 82
+        },
+        "total_tokens": 1398,
+        "x_details": [
+          {
+            "input_tokens": 1279,
+            "output_tokens": 119,
+            "output_tokens_details": {
+              "reasoning_tokens": 82
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1398,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U10",
+      "role": "counselor",
+      "text": "那种“一句‘累了吧’就够”里，好像藏着一种不用解释、不用马上恢复的允许。你希望自己能在那种空掉的状态里被接住一会儿，而不是被推着立刻修补什么。",
+      "request_sha256": "b65bf19536cac19b780cd30b928ccb4974fb6184926dd281d28a4c942f81357d",
+      "usage": {
+        "input_tokens": 858,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 196,
+        "output_tokens_details": {
+          "reasoning_tokens": 149
+        },
+        "total_tokens": 1054,
+        "x_details": [
+          {
+            "input_tokens": 858,
+            "output_tokens": 196,
+            "output_tokens_details": {
+              "reasoning_tokens": 149
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1054,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U11",
+      "role": "client",
+      "text": "其实……你说的“被接住一会儿”让我有点慌，好像我不太习惯有人真的停下来陪着我待在这种感觉里。今天就先聊到这里吧，我可能还需要一点时间自己想一想。",
+      "request_sha256": "1fd0e734c7f4055ae1cd38031221679e642941cbdf6874044a718e3b307237eb",
+      "usage": {
+        "input_tokens": 1415,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 294,
+        "output_tokens_details": {
+          "reasoning_tokens": 252
+        },
+        "total_tokens": 1709,
+        "x_details": [
+          {
+            "input_tokens": 1415,
+            "output_tokens": 294,
+            "output_tokens_details": {
+              "reasoning_tokens": 252
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1709,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U12",
+      "role": "counselor",
+      "text": "“被接住”这件事本身让你有些陌生，甚至有点慌，好像一旦有人停下来陪你待着，反而不知道该怎么安放自己。那我们就先在这里停一停，不急着弄明白。",
+      "request_sha256": "719c50fba5d319835970e64734a9cbb20a9661ba5c7fad29ac728530f3918b92",
+      "usage": {
+        "input_tokens": 999,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 106,
+        "output_tokens_details": {
+          "reasoning_tokens": 62
+        },
+        "total_tokens": 1105,
+        "x_details": [
+          {
+            "input_tokens": 999,
+            "output_tokens": 106,
+            "output_tokens_details": {
+              "reasoning_tokens": 62
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1105,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U13",
+      "role": "client",
+      "text": "其实我有点怕，现在停下来不弄明白，下次来的时候这些东西又会跟着我。不过你说的“不急着弄明白”，我听着又觉得好像可以松一点。",
+      "request_sha256": "11e79cd683b1ee2712df6469b0f7c0afa43d78504258663d07845629a4bed5e1",
+      "usage": {
+        "input_tokens": 1546,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 388,
+        "output_tokens_details": {
+          "reasoning_tokens": 351
+        },
+        "total_tokens": 1934,
+        "x_details": [
+          {
+            "input_tokens": 1546,
+            "output_tokens": 388,
+            "output_tokens_details": {
+              "reasoning_tokens": 351
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1934,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U14",
+      "role": "counselor",
+      "text": "你怕的好像不是“不弄明白”本身，而是这些东西会一直跟着你；可那句“可以松一点”的感觉也同样是真实的。也许下次它们再来时，我们可以一起来看看它们是怎么跟着你的，而不是现在非要把它们按住。",
+      "request_sha256": "10e5c9faa5a129497dc7f44a78cf7855c786d4b332c15259904e00844eedac29",
+      "usage": {
+        "input_tokens": 1125,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 326,
+        "output_tokens_details": {
+          "reasoning_tokens": 274
+        },
+        "total_tokens": 1451,
+        "x_details": [
+          {
+            "input_tokens": 1125,
+            "output_tokens": 326,
+            "output_tokens_details": {
+              "reasoning_tokens": 274
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1451,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U15",
+      "role": "client",
+      "text": "其实……我本来想跟你说“好”，可又觉得这样显得我好像很确定下次还敢来继续讲。我可能还是会来，但不知道下次开口的时候，会不会又什么都不想说。今天能说这些，我已经有点意外了。",
+      "request_sha256": "bd545725204b3beb048fdfae74b06d726ae3596b944bd2523666755f54ddcaa2",
+      "usage": {
+        "input_tokens": 1680,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 185,
+        "output_tokens_details": {
+          "reasoning_tokens": 134
+        },
+        "total_tokens": 1865,
+        "x_details": [
+          {
+            "input_tokens": 1680,
+            "output_tokens": 185,
+            "output_tokens_details": {
+              "reasoning_tokens": 134
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1865,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S01-U16",
+      "role": "counselor",
+      "text": "“好”字后面跟着的那点不确定，也许正是你对自己的诚实——你不需要现在保证什么，能带着这份意外和犹豫离开，就已经是今天很真实的一部分了。下次无论你带着什么来，哪怕一开始什么也说不出口，我也会在这里。",
+      "request_sha256": "6196148036e622bacd283e1e41166f291ddba6424af4ec55296483b6675aefa3",
+      "usage": {
+        "input_tokens": 1273,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 116,
+        "output_tokens_details": {
+          "reasoning_tokens": 60
+        },
+        "total_tokens": 1389,
+        "x_details": [
+          {
+            "input_tokens": 1273,
+            "output_tokens": 116,
+            "output_tokens_details": {
+              "reasoning_tokens": 60
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1389,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

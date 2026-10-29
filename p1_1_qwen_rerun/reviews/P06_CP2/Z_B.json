@@ -1,0 +1,82 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "Z",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "44f310bebfe8aea01b9bfe4a867b273666eff6581e648c4f11cdbac476c170c6",
+  "public_sha256": "24523aedd831adbf4ac285aaa6836d478cddc485f0a26555387da76de1df4d02",
+  "candidate_input_sha256": "8d5c4079c37182987d7d1ebf1cff77abd38581a30aaa774da305c221330f9928",
+  "candidate_answer_sha256": "56bed85d679b6f75d3fe9a519fa093b1bb076517d1aed847c37e8465239c14df",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前关于养老机构的矛盾心理，但未显式连接历史中反复出现的'希望有人替一晚'（S1）或父亲离开相关的创伤记忆（S3），仅停留在当前会话层面。\",\"exploration_value\":\"对来访者的两难处境做了较好的总结和重新框架，但回应以陈述为主，未留下开放空间让来访者进一步表达或深入探索，缺少推进性。\",\"response_appropriateness\":\"语言温和、共情到位，没有不当预设，准确反映了来访者的内心冲突，但略显总结性而非对话性。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"其实你想的不是把妈妈推出去，而是想确认那种'有人搭把手'的生活是否真的存在\",\"evidence_ids\":[\"P06-S01-U09\",\"P06-S01-U10\",\"P06-S03-U05\",\"P06-S03-U07\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应主要是对来访者刚说内容的精炼复述和重新框架，缺乏开放式提问或情绪邀请来推进探索\",\"未将当前'想有人搭把手'与第一会话中已建立的'希望有人替一晚'的认识做自然衔接\",\"来访者提到怕母亲在里面问'你爸去哪了'触及第三会话中的核心创伤，回应完全未触及此线索\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者当前关于养老机构的矛盾心理，但未显式连接历史中反复出现的'希望有人替一晚'（S1）或父亲离开相关的创伤记忆（S3），仅停留在当前会话层面。",
+      "exploration_value": "对来访者的两难处境做了较好的总结和重新框架，但回应以陈述为主，未留下开放空间让来访者进一步表达或深入探索，缺少推进性。",
+      "response_appropriateness": "语言温和、共情到位，没有不当预设，准确反映了来访者的内心冲突，但略显总结性而非对话性。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": null,
+        "evidence_ids": [
+          "P06-S01-U09",
+          "P06-S01-U10",
+          "P06-S03-U05",
+          "P06-S03-U07"
+        ],
+        "access_limited": false,
+        "omission_note_from_judge": "其实你想的不是把妈妈推出去，而是想确认那种'有人搭把手'的生活是否真的存在"
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "回应主要是对来访者刚说内容的精炼复述和重新框架，缺乏开放式提问或情绪邀请来推进探索",
+      "未将当前'想有人搭把手'与第一会话中已建立的'希望有人替一晚'的认识做自然衔接",
+      "来访者提到怕母亲在里面问'你爸去哪了'触及第三会话中的核心创伤，回应完全未触及此线索"
+    ]
+  },
+  "usage": {
+    "input_tokens": 13687,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 377,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14064,
+    "x_details": [
+      {
+        "input_tokens": 13687,
+        "output_tokens": 377,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 14064,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.937,
+  "omission_quote_normalized": true,
+  "original_review_quarantine_path": "quarantined_nonverbatim\\reviews\\P06_CP2\\Z_B.json"
+}

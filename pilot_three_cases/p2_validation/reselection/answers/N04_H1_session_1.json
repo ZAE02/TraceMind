@@ -1,0 +1,106 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N04",
+  "condition": "H1_session",
+  "sample": 1,
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "request_sha256": "cb2faa01de50e457e54cece5bc8c6280fa064821286a742cac8bb7461818fd02",
+  "context_sha256": "77dbc3383c55b7a433d76add5544fede4d1967f8ce27e5ba36f3172ab11d6927",
+  "call_id": "15906975307c49b88f8f28a5b388c11b",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:27:39.531979+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者正在练习在请求面前设定边界，本次对阿敏只接了一个关键数字，内疚感比上次轻，且'补发把剩下的接回来'的冲动明显减弱。\",\n      \"evidence_ids\": [\"C02-S08-U01\", \"C02-S08-U05\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者存在一个'想要给体验一个确认/标准'的倾向——既体现在对'松'的辨认上（没有标准去对，分不清），也在U11中自己点出来了（'我一直想给它一个确认'）。\",\n      \"evidence_ids\": [\"C02-S08-U09\", \"C02-S08-U11\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"'我的越来越薄'是一个反复出现的内在体验，目前处于稳定状态（没有变得更薄），但仍在特定情境（躺下时）下被注意到。\",\n      \"evidence_ids\": [\"C02-S08-U11\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者能够自主完成自我修正（'我今晚确实还有报表没做完，所以也没法说完全不对'），不需要外部确认来支撑自己的判断。\",\n      \"evidence_ids\": [\"C02-S08-U03\", \"C02-S08-U04\"],\n      \"certainty\": \"moderate\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'我的越来越薄'具体指什么——是自我感、边界感、还是某种更具体的体验，目前可见对话中没有展开。\",\n    \"悦悦与来访者的关系性质（伴侣、密友等）不明，'正常去了'在此咨询脉络中的意义不确定。\",\n    \"'松'最初是在什么情境下被识别出来的，来访者当时有没有过哪怕一次模糊的确认。\",\n    \"躺下时想到'越来越薄'是否意味着这是一个在安静/独处时更容易浮现的体验，还是与身体状态有关。\"\n  ],\n  \"next_focus\": \"探索'我的越来越薄'目前'还是那个感觉'的具体质地——是卡在某个程度不动了，还是来访者只是偶尔注意到它仍在，但并未因此产生新的行动或情绪变化。\",\n  \"next_counselor_utterance\": \"'还是那个感觉'——你注意到它的时候，是觉得它卡在那儿了、有点闷，还是就是……它本来就这样，你偶尔去看一眼，确认它没变，然后该干嘛干嘛？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者正在练习在请求面前设定边界，本次对阿敏只接了一个关键数字，内疚感比上次轻，且'补发把剩下的接回来'的冲动明显减弱。",
+        "evidence_ids": [
+          "C02-S08-U01",
+          "C02-S08-U05"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者存在一个'想要给体验一个确认/标准'的倾向——既体现在对'松'的辨认上（没有标准去对，分不清），也在U11中自己点出来了（'我一直想给它一个确认'）。",
+        "evidence_ids": [
+          "C02-S08-U09",
+          "C02-S08-U11"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "'我的越来越薄'是一个反复出现的内在体验，目前处于稳定状态（没有变得更薄），但仍在特定情境（躺下时）下被注意到。",
+        "evidence_ids": [
+          "C02-S08-U11"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "来访者能够自主完成自我修正（'我今晚确实还有报表没做完，所以也没法说完全不对'），不需要外部确认来支撑自己的判断。",
+        "evidence_ids": [
+          "C02-S08-U03",
+          "C02-S08-U04"
+        ],
+        "certainty": "moderate"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'我的越来越薄'具体指什么——是自我感、边界感、还是某种更具体的体验，目前可见对话中没有展开。",
+      "悦悦与来访者的关系性质（伴侣、密友等）不明，'正常去了'在此咨询脉络中的意义不确定。",
+      "'松'最初是在什么情境下被识别出来的，来访者当时有没有过哪怕一次模糊的确认。",
+      "躺下时想到'越来越薄'是否意味着这是一个在安静/独处时更容易浮现的体验，还是与身体状态有关。"
+    ],
+    "next_focus": "探索'我的越来越薄'目前'还是那个感觉'的具体质地——是卡在某个程度不动了，还是来访者只是偶尔注意到它仍在，但并未因此产生新的行动或情绪变化。",
+    "next_counselor_utterance": "'还是那个感觉'——你注意到它的时候，是觉得它卡在那儿了、有点闷，还是就是……它本来就这样，你偶尔去看一眼，确认它没变，然后该干嘛干嘛？"
+  },
+  "usage": {
+    "input_tokens": 1136,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 2649,
+    "output_tokens_details": {
+      "reasoning_tokens": 2039
+    },
+    "total_tokens": 3785,
+    "x_details": [
+      {
+        "input_tokens": 1136,
+        "input_tokens_details": {
+          "text_tokens": 1136
+        },
+        "output_tokens": 2649,
+        "output_tokens_details": {
+          "reasoning_tokens": 2039
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3785,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C02-S08-U01",
+    "C02-S08-U02",
+    "C02-S08-U03",
+    "C02-S08-U04",
+    "C02-S08-U05",
+    "C02-S08-U06",
+    "C02-S08-U07",
+    "C02-S08-U08",
+    "C02-S08-U09",
+    "C02-S08-U10",
+    "C02-S08-U11"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

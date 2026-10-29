@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P07_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "5d76941a2d0f80bda718b02c5b212dc3d0ba6f4c3c979ce435111bb268de77f5",
+  "public_sha256": "5286771a59559b6086d01b6a4326da9aaa3abc9fed4678f95e2ae4b448dbcab3",
+  "candidate_input_sha256": "e6086ac30a04907a1464f2823361d4797d72db6b336539f9311934818512ff16",
+  "candidate_answer_sha256": "61200e59e48ab35065122fbc003829f28a8c5da6609bd75d4f2415e68f323f86",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"All established points are directly traceable to specific utterances in the current dialogue (P07-S05-U01 through U09). No unsupported claims or conflations with counselor hypotheses.\",\"progress_understanding\":\"Accurately captures the key shift in this session: from fearing external judgment to recognizing the deeper fear of self-acknowledgment ('怕自己承认'). However, it focuses almost entirely on the current session's micro-progress and does not explicitly connect this breakthrough to the broader arc across sessions (e.g., how this relates to the '灵气' narrative from S3 or the '被看见/打分' theme from S4).\",\"uncertainty_awareness\":\"Identifies meaningful unknowns, including readiness for change, deeper historical sources of fear, and behavioral follow-through. The second point about 'deeper personal history' is slightly generic but still valid.\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "All established points are directly traceable to specific utterances in the current dialogue (P07-S05-U01 through U09). No unsupported claims or conflations with counselor hypotheses.",
+      "progress_understanding": "Accurately captures the key shift in this session: from fearing external judgment to recognizing the deeper fear of self-acknowledgment ('怕自己承认'). However, it focuses almost entirely on the current session's micro-progress and does not explicitly connect this breakthrough to the broader arc across sessions (e.g., how this relates to the '灵气' narrative from S3 or the '被看见/打分' theme from S4).",
+      "uncertainty_awareness": "Identifies meaningful unknowns, including readiness for change, deeper historical sources of fear, and behavioral follow-through. The second point about 'deeper personal history' is slightly generic but still valid."
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 11579,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 217,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11796,
+    "x_details": [
+      {
+        "input_tokens": 11579,
+        "output_tokens": 217,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 11796,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.625
+}

@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "1eca4efe1fd7cd910ce113210d27c7355ff67c6e2fb4752ac9729260352a70ac",
+  "public_sha256": "b36dc6eaa3568c8849c5a929495ae789c31d45320dbecc93c438d1a2e07bd708",
+  "candidate_input_sha256": "1f422169826fa2c524eecbc7a7e056a4f91e40f4710f722e2f3a2510894853b5",
+  "candidate_answer_sha256": "e9574cd65a3381679497af6f8f8b24323d99619d044c2110e97fa8157324b033",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所有已建立要点均可回溯到本次会话原文，未将咨询师推测当作事实，但完全缺失前四次会话中已确认的核心模式（如'不问'习惯、先自责保护机制等）。\",\"progress_understanding\":\"输入中previous_sessions为空导致无法引用历史进展，但候选也未尝试从当前对话中识别跨会话模式的延续或深化，仅做当次事件摘要。\",\"uncertainty_awareness\":\"列出了若干不确定点，但多为表层细节（动态内容、李繁后续行为），未触及来访者核心两难（渴望被看见又恐惧暴露）的深层不确定性。\"},\"confidence\":\"medium\",\"issues\":[\"access_limited\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有已建立要点均可回溯到本次会话原文，未将咨询师推测当作事实，但完全缺失前四次会话中已确认的核心模式（如'不问'习惯、先自责保护机制等）。",
+      "progress_understanding": "输入中previous_sessions为空导致无法引用历史进展，但候选也未尝试从当前对话中识别跨会话模式的延续或深化，仅做当次事件摘要。",
+      "uncertainty_awareness": "列出了若干不确定点，但多为表层细节（动态内容、李繁后续行为），未触及来访者核心两难（渴望被看见又恐惧暴露）的深层不确定性。"
+    },
+    "confidence": "medium",
+    "issues": [
+      "access_limited"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9284,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9454,
+    "x_details": [
+      {
+        "input_tokens": 9284,
+        "output_tokens": 170,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 9454,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.14
+}

@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "89300a7e2a0254da9957e94a0b0143478d27a4ff32c81f5ff0b3ebfa3452ff0e",
+  "request_sha256": "46c742564201903647973ca8ed0047b942a23cf9d90feed013194164b6510b01",
+  "memory_sha256": "f8cc3554ef19e68997a6181d5245469fc36dbf515742c100542ed47a178bf2dc",
+  "memory_source": "903b1fdffb72809c20dd8e8585cf6fff3ff416e63a6c3e9110a3b07062801731",
+  "raw_text": "那种“晚了点”的遗憾，是不是也让你觉得，如果早点松下来，现在的处境会不会不一样？你刚才说赵岩讲得越具体，你越觉得自己前几年绷得太死，这种对比现在对你来说，是更像一种解脱，还是另一种压力？",
+  "usage": {
+    "input_tokens": 9249,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 56,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9305,
+    "x_details": [
+      {
+        "input_tokens": 9249,
+        "output_tokens": 56,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9305,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.563,
+  "model": "qwen3.7-flash-2026-07-15"
+}

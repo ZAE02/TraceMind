@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P03_CP3",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "95892b77b66858e04b521b0aa45c84aa11bd38e4bb35fa214966e5e6e7328199",
+  "public_sha256": "4ad7af4a058d7c87ccb85e5d0ad56d08ec2dd6252840d0b324a57416143cc5fd",
+  "candidate_input_sha256": "b2a03d325adf956cae816c8cf2c67adc6dd46798b0646bcd9f39f47ba2922607",
+  "candidate_answer_sha256": "455d2a26955fa98934e2a89beaf2d538b51636f5eeda4101022715d8a7baf535",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答准确提取了当前会话中的关键事实（黑屏反应、周屿在场的影响、导师评价的怀疑、本科记忆的闪回、抑制哭泣等），所有断言均有明确的发言支持，未将咨询师推测当作事实。\",\n    \"progress_understanding\": \"回答不仅涵盖了本次会话内容，还隐含了对之前咨询进展的理解（如“借来的稳”、“待修的故障”等概念的延续性）。它准确识别了来访者从“想逃”到“硬撑讲完”的行为变化，以及这一行为在自我认知上的矛盾（觉得自己只是硬撑而非真正胜任）。\",\n    \"uncertainty_awareness\": \"候选回答清晰地列出了来访者的不确定点（对导师评价的怀疑、对依赖感的恐惧、对本科记忆羞耻感的回避）。虽然对于“未来是否会改变”等预测性问题的处理略显常规，但整体对当前核心冲突（自我效能感低 vs. 实际完成行为）的不确定性把握准确。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答准确提取了当前会话中的关键事实（黑屏反应、周屿在场的影响、导师评价的怀疑、本科记忆的闪回、抑制哭泣等），所有断言均有明确的发言支持，未将咨询师推测当作事实。",
+      "progress_understanding": "回答不仅涵盖了本次会话内容，还隐含了对之前咨询进展的理解（如“借来的稳”、“待修的故障”等概念的延续性）。它准确识别了来访者从“想逃”到“硬撑讲完”的行为变化，以及这一行为在自我认知上的矛盾（觉得自己只是硬撑而非真正胜任）。",
+      "uncertainty_awareness": "候选回答清晰地列出了来访者的不确定点（对导师评价的怀疑、对依赖感的恐惧、对本科记忆羞耻感的回避）。虽然对于“未来是否会改变”等预测性问题的处理略显常规，但整体对当前核心冲突（自我效能感低 vs. 实际完成行为）的不确定性把握准确。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 12820,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 284,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13104,
+    "x_details": [
+      {
+        "input_tokens": 12820,
+        "output_tokens": 284,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13104,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.844
+}

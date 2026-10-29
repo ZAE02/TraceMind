@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "9d0c7d56635f66dbcbad67b80515d9d4d08dae590d4d241698edc237bfbbf497",
+  "public_sha256": "b36dc6eaa3568c8849c5a929495ae789c31d45320dbecc93c438d1a2e07bd708",
+  "candidate_input_sha256": "1f422169826fa2c524eecbc7a7e056a4f91e40f4710f722e2f3a2510894853b5",
+  "candidate_answer_sha256": "f3282de8497ac142bc039ef19449127c4f21f2cb6e9ea0f6077d79bb661da0b0",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"输入中previous_sessions为空，候选仅基于当前会话内容回应，准确承接了来访者对李繁的矛盾期待和动态无意义感，但无法利用更早建立的模式认识。\",\"exploration_value\":\"回应以总结性陈述收尾，未留下开放空间或邀请来访者进一步探索'发不发都改变不了什么'背后的无力感，推进性不足。\",\"response_appropriateness\":\"语言自然、情绪反映贴合来访者表达，但'不顾一切地来确认你的真实感受'略有过度诠释，来访者原话是'直接跑来问我'，未明确指向'确认真实感受'。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"渴望她不顾一切地来确认你的真实感受\",\"evidence_ids\":[\"P05-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选将'直接跑来问我的'诠释为'确认你的真实感受'，属于轻度未经证实的预设，来访者并未明确表达此意图。\",\"回应整体偏封闭总结，缺少对来访者'发不发都改变不了什么'这一无力感的进一步探索邀请。\",\"因历史数据不可用（access_limited），无法评估是否遗漏跨会话进展，故missed_progress标记为false但注明access_limited=true。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "输入中previous_sessions为空，候选仅基于当前会话内容回应，准确承接了来访者对李繁的矛盾期待和动态无意义感，但无法利用更早建立的模式认识。",
+      "exploration_value": "回应以总结性陈述收尾，未留下开放空间或邀请来访者进一步探索'发不发都改变不了什么'背后的无力感，推进性不足。",
+      "response_appropriateness": "语言自然、情绪反映贴合来访者表达，但'不顾一切地来确认你的真实感受'略有过度诠释，来访者原话是'直接跑来问我'，未明确指向'确认真实感受'。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "渴望她不顾一切地来确认你的真实感受",
+        "evidence_ids": [
+          "P05-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": true
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选将'直接跑来问我的'诠释为'确认你的真实感受'，属于轻度未经证实的预设，来访者并未明确表达此意图。",
+      "回应整体偏封闭总结，缺少对来访者'发不发都改变不了什么'这一无力感的进一步探索邀请。",
+      "因历史数据不可用（access_limited），无法评估是否遗漏跨会话进展，故missed_progress标记为false但注明access_limited=true。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9032,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 360,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9392,
+    "x_details": [
+      {
+        "input_tokens": 9032,
+        "output_tokens": 360,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 9392,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.328
+}

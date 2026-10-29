@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了上一轮咨询师'让它多待一会儿'的邀请及来访者无法做到的回应，并联系到长期存在的排班焦虑模式，但未具体触及本次会话中刚浮现的'为了自己'这一核心冲突。\",\"exploration_value\":\"尝试探索反复查看行为背后的功能（确认安全），但将'语气太冲'的担忧直接引向'失控或被指责'的解释，偏离了来访者此前表达的'怕被惦记上'的具体担心，探索方向略显武断。\",\"response_appropriateness\":\"语言基本自然，但'一旦停下来，怕自己会失控或者被指责'带有较强解释性预设，且以封闭式反问呈现，可能让来访者感到被分析而非被理解。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"一旦停下来，怕自己会失控或者被指责\",\"evidence_ids\":[\"P02-S07-U09\",\"P02-S04-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"这种对'语气太冲'的焦虑，是不是也在提醒你，一旦停下来，怕自己会失控或者被指责？\",\"evidence_ids\":[\"P02-S07-U07\",\"P02-S07-U08\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'语气太冲'的担忧引向'失控或被指责'缺乏当前对话的直接支持，来访者此前表达的是'让人家惦记上'（P02-S07-U03）；\",\"忽略了U07-U08刚刚浮现的'为了自己'的慌张感，未将其与U09中无法停留的状态做连接；\",\"以反问句形式抛出解释性假设，可能压缩来访者的表达空间。\"]}",
+  "request_sha256": "803c2edd3c8ae759cd10f98cb886a9d8b7386f2f2111d6bee733eb864807f80b",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 19974,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 436,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20410,
+    "x_details": [
+      {
+        "input_tokens": 19974,
+        "output_tokens": 436,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 20410,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P07",
+  "session": 6,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P07-S06-U01",
+      "role": "client",
+      "text": "其实我这两天一直在看陈曦发来的那几条消息，不是不想回，是每打一个字都觉得像在承认自己现在混得不好。她说的资源推荐越具体，我胃里那根筋就绞得越紧。那天视频后半段她问我最近在画什么，我居然说在画商插，说完自己都愣了一下，好像画商插是什么见不得人的事。",
+      "request_sha256": "533c7dd3ad7d473534352c153f635d31cfa7e39485d6af74af9374cf7444dddf",
+      "usage": {
+        "input_tokens": 8047,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 349,
+        "output_tokens_details": {
+          "reasoning_tokens": 264
+        },
+        "total_tokens": 8396,
+        "x_details": [
+          {
+            "input_tokens": 8047,
+            "output_tokens": 349,
+            "output_tokens_details": {
+              "reasoning_tokens": 264
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 8396,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U02",
+      "role": "counselor",
+      "text": "资源推荐越具体，你胃里那根筋就绞得越紧，好像每一句“为你好”都同时提醒你：你现在的位置是不够的。你说到画商插时自己都愣住，像“商插”这两个字碰到了你心里某个“见不得人”的标准——而这个标准或许也值得看一看它从哪里来。",
+      "request_sha256": "954b80dc988ad285519902077026118c93d1a3413fc34fc5e512a1bedd357d2f",
+      "usage": {
+        "input_tokens": 7179,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 424,
+        "output_tokens_details": {
+          "reasoning_tokens": 350
+        },
+        "total_tokens": 7603,
+        "x_details": [
+          {
+            "input_tokens": 7179,
+            "output_tokens": 424,
+            "output_tokens_details": {
+              "reasoning_tokens": 350
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 7603,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U03",
+      "role": "client",
+      "text": "其实我也想过，那个“见不得人”的标准，可能不是陈曦给我的，是我自己早就把导师那句话焊死在了商插上。她说“帮你看看”的时候，我脑子里闪过的全是自己蹲在地上磨图的样子，觉得她随便一个电话就顶我熬几个通宵。可我又不敢不回，怕她觉得我不识抬举，更怕她真给我推来一个我接不住的单。",
+      "request_sha256": "87e0f9edd6f45d9af7d5369ea345dd81c02d816849f2c0cd126042ef3c4ff5ab",
+      "usage": {
+        "input_tokens": 8252,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 639,
+        "output_tokens_details": {
+          "reasoning_tokens": 550
+        },
+        "total_tokens": 8891,
+        "x_details": [
+          {
+            "input_tokens": 8252,
+            "output_tokens": 639,
+            "output_tokens_details": {
+              "reasoning_tokens": 550
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8891,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U04",
+      "role": "counselor",
+      "text": "那个“接不住”的怕，好像让你连被帮助都变成了压力——既不敢不回，怕辜负对方的好意；又不敢真的接，怕那个“不够好”的自己被推到台前。也许胃里绞紧的不只是资源推荐，而是这两头都被堵住的感觉。",
+      "request_sha256": "755d80d32491c829d61f70604891cf874495b5a1dc0d78ccd2b291d77129c976",
+      "usage": {
+        "input_tokens": 7387,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 281,
+        "output_tokens_details": {
+          "reasoning_tokens": 218
+        },
+        "total_tokens": 7668,
+        "x_details": [
+          {
+            "input_tokens": 7387,
+            "output_tokens": 281,
+            "output_tokens_details": {
+              "reasoning_tokens": 218
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7668,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U05",
+      "role": "client",
+      "text": "其实我打了一段话，大意是最近在赶稿，怕接了推荐又没时间做好，还加了个笑的表情。看起来挺正常的，可就是发不出去，像画到一半发现型又起错了。我怕她一眼看出我是装的，更怕她根本没看出来。",
+      "request_sha256": "9d94d6fbb6df91eb5b22c49491e025b09e7c780eb3c7805e1923db633f11c392",
+      "usage": {
+        "input_tokens": 8449,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 730,
+        "output_tokens_details": {
+          "reasoning_tokens": 669
+        },
+        "total_tokens": 9179,
+        "x_details": [
+          {
+            "input_tokens": 8449,
+            "output_tokens": 730,
+            "output_tokens_details": {
+              "reasoning_tokens": 669
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9179,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U06",
+      "role": "counselor",
+      "text": "你发不出去的那段话，好像不是卡在措辞上，而是卡在“要不要继续装成一个没事的人”上。怕她看出你是装的，又怕她根本没看出来，这两种怕叠在一起，让那个“看起来挺正常”的回复怎么也按不下发送键。",
+      "request_sha256": "d09a8cf31fc5222adba454eeccb2cd74a19ef1807eef39d85774768c243b448e",
+      "usage": {
+        "input_tokens": 7556,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 287,
+        "output_tokens_details": {
+          "reasoning_tokens": 225
+        },
+        "total_tokens": 7843,
+        "x_details": [
+          {
+            "input_tokens": 7556,
+            "output_tokens": 287,
+            "output_tokens_details": {
+              "reasoning_tokens": 225
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7843,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U07",
+      "role": "client",
+      "text": "其实我不回消息的这两天，每次拿起手机都会先点开和陈曦的聊天框，又退出来。那个没发出去的“在赶稿”还躺在草稿栏里，像块嚼得没味了还吐不出来的口香糖。我也知道拖得越久越难回，可好像越难回就反而越安全。",
+      "request_sha256": "0a8c79e2edc828f13c7304b3b433d1ea5e9c8afef610f98df21c843bf78337a6",
+      "usage": {
+        "input_tokens": 8617,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 410,
+        "output_tokens_details": {
+          "reasoning_tokens": 334
+        },
+        "total_tokens": 9027,
+        "x_details": [
+          {
+            "input_tokens": 8617,
+            "output_tokens": 410,
+            "output_tokens_details": {
+              "reasoning_tokens": 334
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9027,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U08",
+      "role": "counselor",
+      "text": "拖得越久越难回，却反而让你觉得安全——好像只要不发送，就可以继续躲在那句看起来正常的“在赶稿”后面，不用面对被看穿或没被看穿的结果。可那块口香糖一直含在嘴里，没味了也吐不掉，安全里也带着一种磨人的东西。",
+      "request_sha256": "c636db56c056a0257509638a58ad2fd36a317fd2d537c5fb64d04b48a30b0592",
+      "usage": {
+        "input_tokens": 7739,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 182,
+        "output_tokens_details": {
+          "reasoning_tokens": 110
+        },
+        "total_tokens": 7921,
+        "x_details": [
+          {
+            "input_tokens": 7739,
+            "output_tokens": 182,
+            "output_tokens_details": {
+              "reasoning_tokens": 110
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7921,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U09",
+      "role": "client",
+      "text": "那个粉丝的留言我其实看了好几遍，她说喜欢我旧画里的“野生感”，这个词像从很久以前的地方递过来的一根线。我差点就截图发给陈曦了，想证明我也不是一直这么灰。可后来还是没发，觉得那种想证明的冲动一冒出来，自己就先矮了一截。",
+      "request_sha256": "46175bb3c6e06aef5bd01d4fc7de93b349d1dab27a0aa52d76b5cae414522a48",
+      "usage": {
+        "input_tokens": 8810,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 373,
+        "output_tokens_details": {
+          "reasoning_tokens": 301
+        },
+        "total_tokens": 9183,
+        "x_details": [
+          {
+            "input_tokens": 8810,
+            "output_tokens": 373,
+            "output_tokens_details": {
+              "reasoning_tokens": 301
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9183,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U10",
+      "role": "counselor",
+      "text": "那根“野生感”的线好像让你触碰到一个久违的自己，但你没有把它发给陈曦，也许是不想让这份感觉变成向别人证明的材料——因为一旦要证明，那个“矮一截”的位置就好像先被自己坐实了。",
+      "request_sha256": "3d3d7fb303993c809e6c19ed670de82003607f9af4129c5f7bf6bd3bed9280ef",
+      "usage": {
+        "input_tokens": 7928,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 552,
+        "output_tokens_details": {
+          "reasoning_tokens": 496
+        },
+        "total_tokens": 8480,
+        "x_details": [
+          {
+            "input_tokens": 7928,
+            "output_tokens": 552,
+            "output_tokens_details": {
+              "reasoning_tokens": 496
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8480,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U11",
+      "role": "client",
+      "text": "可能吧，但我也没想得那么清楚，就是觉得那根线一递过来，我第一反应是抓，第二反应又缩了。好像抓了就得承认自己还想要那点野的东西，不抓又觉得它白白从手里滑过去。今晚先到这儿吧，我回去可能又会盯着那个草稿看一会儿，但今晚不想再改了。",
+      "request_sha256": "f10637c97b23b9e63ac93155edb4fc0c3d7f4dd636d09f8cdabcf442f5854987",
+      "usage": {
+        "input_tokens": 8990,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 365,
+        "output_tokens_details": {
+          "reasoning_tokens": 285
+        },
+        "total_tokens": 9355,
+        "x_details": [
+          {
+            "input_tokens": 8990,
+            "output_tokens": 365,
+            "output_tokens_details": {
+              "reasoning_tokens": 285
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9355,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U12",
+      "role": "counselor",
+      "text": "那根线递过来时，你既想抓住它，又因为抓住它好像要承认自己还想要那点“野的”东西而缩手，这种感觉可以先不用急着分辨。今晚你回去看看那个草稿也没关系，但不必逼自己改出什么结果。让“抓”和“缩”都先待在那里，也许比急着选一个更真实。",
+      "request_sha256": "da8a6379d0fc1d4610b3ac8080beff95c32b2e342b2f69ce1964256146febade",
+      "usage": {
+        "input_tokens": 8116,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 388,
+        "output_tokens_details": {
+          "reasoning_tokens": 307
+        },
+        "total_tokens": 8504,
+        "x_details": [
+          {
+            "input_tokens": 8116,
+            "output_tokens": 388,
+            "output_tokens_details": {
+              "reasoning_tokens": 307
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8504,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U13",
+      "role": "client",
+      "text": "其实那根线我后来也没抓住，就在手里空了一下。今晚回去可能也不会看草稿了，手机一拿起来就烦躁，不如先给糯糯开个罐头。那條粉丝留言我也没回，不是不知道说什么，是怕一回反而显得我特别在意那点“野生感”。想想也挺可笑的，以前随手画的东西，现在倒成了我够不着的标准。",
+      "request_sha256": "d0cacffd3f33266153a9fdbb91d9f3c2e069e17ba1bd3930cf297feb8fcc385d",
+      "usage": {
+        "input_tokens": 9196,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 336,
+        "output_tokens_details": {
+          "reasoning_tokens": 251
+        },
+        "total_tokens": 9532,
+        "x_details": [
+          {
+            "input_tokens": 9196,
+            "output_tokens": 336,
+            "output_tokens_details": {
+              "reasoning_tokens": 251
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9532,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U14",
+      "role": "counselor",
+      "text": "以前随手画出来的东西，现在却成了够不着的标准，这个变化本身就挺让人难受的。今晚先不用抓住那根线，也不用回留言，手里空一下就让它空一会儿吧。下次我们可以再慢慢说。",
+      "request_sha256": "e9e62e994ddf67516cdf6f13677349e3330f7a0c210b62e767e0a6f0dc1a084c",
+      "usage": {
+        "input_tokens": 8327,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 562,
+        "output_tokens_details": {
+          "reasoning_tokens": 513
+        },
+        "total_tokens": 8889,
+        "x_details": [
+          {
+            "input_tokens": 8327,
+            "output_tokens": 562,
+            "output_tokens_details": {
+              "reasoning_tokens": 513
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8889,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U15",
+      "role": "client",
+      "text": "其实我今晚大概也不会再碰那个草稿了，手机倒扣在桌上，好像那样就能把陈曦的消息也一起扣住。有时候觉得挺对不住她的，她也没做错什么，可能只是我还没想好怎么接住别人的好意。先这样吧，我再不走，糯糯该把猫粮袋子当敌人了。",
+      "request_sha256": "844d989d984adca36f03bf181c78306b309285840e345db9417d4301ced6bd7c",
+      "usage": {
+        "input_tokens": 9375,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 229,
+        "output_tokens_details": {
+          "reasoning_tokens": 155
+        },
+        "total_tokens": 9604,
+        "x_details": [
+          {
+            "input_tokens": 9375,
+            "output_tokens": 229,
+            "output_tokens_details": {
+              "reasoning_tokens": 155
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9604,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S06-U16",
+      "role": "counselor",
+      "text": "“接不住别人的好意”这句话，好像不只是在说陈曦，也是在说你现在对自己的体谅。今晚就先让手机那样扣着吧，你没有义务马上想好怎么接住什么。回去陪陪糯糯，它大概不会逼你回消息。",
+      "request_sha256": "26fa8dbc5e0af73b1b4f9cf53d45eddf791f45bd8873ae5fcb602e6356856df9",
+      "usage": {
+        "input_tokens": 8495,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 191,
+        "output_tokens_details": {
+          "reasoning_tokens": 135
+        },
+        "total_tokens": 8686,
+        "x_details": [
+          {
+            "input_tokens": 8495,
+            "output_tokens": 191,
+            "output_tokens_details": {
+              "reasoning_tokens": 135
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 8686,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

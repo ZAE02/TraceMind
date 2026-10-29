@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "2917c49a549c0112cce87be7ea189e3261e726373a5f4348e2cdd670a7729249",
+  "request_sha256": "76c433741fd4abc3a2c70e16f23bd44c1911b183ecf75040604f675266117e8c",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来，你很想留住那种“只是在说事情、不用管自己看起来稳不稳”的状态，可一停下来，主管那句话就像个自动提醒，把你拉回“装得漏洞百出”的感觉里。也许那个提醒本身，也在让你更难相信自己的稳是真实的。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 866,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 58,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 924,
+    "x_details": [
+      {
+        "input_tokens": 866,
+        "output_tokens": 58,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 924,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

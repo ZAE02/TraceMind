@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "6af2e3009edd0cbb696f380c232d542976658221ae7d2598ec0c1c2a6ebb65bf",
+  "public_sha256": "d6bd7f5a2d2dd5946d5f9251ae6d33ec0b42c449de978649ab16f32a98bd9557",
+  "candidate_input_sha256": "d20283d0968661796112576b57b118ea84d95a1dd3d57d3ee74572391f75b62f",
+  "candidate_answer_sha256": "d9c77322b86eaf8896103b1db4bd09ca647859cd09928ec1c9bf415b58329370",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键陈述（未看群、放大‘好’字、头晕推测、心虚感）均直接对应S05的具体发言，无臆测。\",\n    \"progress_understanding\": \"准确识别了S05中‘不敢看’与‘反复看’的核心冲突及具体行为表现；虽未显式串联S1-S4的深层模式（如讨好/怕被挑错），但作为单轮Task A总结已充分覆盖当前节点的关键进展。\",\n    \"uncertainty_awareness\": \"清晰区分了已知事实（未点开、截图）与未知/猜测（同事实际回复、方宁真实态度、头晕确切原因），未将假设当作事实。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键陈述（未看群、放大‘好’字、头晕推测、心虚感）均直接对应S05的具体发言，无臆测。",
+      "progress_understanding": "准确识别了S05中‘不敢看’与‘反复看’的核心冲突及具体行为表现；虽未显式串联S1-S4的深层模式（如讨好/怕被挑错），但作为单轮Task A总结已充分覆盖当前节点的关键进展。",
+      "uncertainty_awareness": "清晰区分了已知事实（未点开、截图）与未知/猜测（同事实际回复、方宁真实态度、头晕确切原因），未将假设当作事实。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 12724,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 228,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12952,
+    "x_details": [
+      {
+        "input_tokens": 12724,
+        "output_tokens": 228,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 12952,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.875
+}

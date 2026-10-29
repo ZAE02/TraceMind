@@ -1,0 +1,504 @@
+{
+  "case_id": "P01",
+  "session": 1,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P01-S01-U01",
+      "role": "client",
+      "text": "这周……我工作上收到一个反馈，主管说海报整体方向对了，但有些地方可以再优化。我可能想太多了，总觉得她是不是其实不太满意。然后我当晚就改到很晚，还发了三个版本过去……现在又担心会不会显得太过了。",
+      "request_sha256": "acaa519f2acca55d24903b59f2f87edb0b80d2b5a29ddbcba62bab0dc63ffb9e",
+      "usage": {
+        "input_tokens": 736,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 361,
+        "output_tokens_details": {
+          "reasoning_tokens": 302
+        },
+        "total_tokens": 1097,
+        "x_details": [
+          {
+            "input_tokens": 736,
+            "output_tokens": 361,
+            "output_tokens_details": {
+              "reasoning_tokens": 302
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1097,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U02",
+      "role": "counselor",
+      "text": "好像主管那句“可以再优化”在你心里很快变成了“可能不够好”，于是你连夜改出三个版本，想用行动让自己安心一点；可发出去之后，又担心这样做会不会显得太过了。  \n你似乎很难让自己先待在“方向对了”这个位置上。",
+      "request_sha256": "7d4449ce8c5e15ec3e36153e6ad5df508cab6a3a697d2bd7fc23a1d45c96f6d5",
+      "usage": {
+        "input_tokens": 226,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 453,
+        "output_tokens_details": {
+          "reasoning_tokens": 393
+        },
+        "total_tokens": 679,
+        "x_details": [
+          {
+            "input_tokens": 226,
+            "output_tokens": 453,
+            "output_tokens_details": {
+              "reasoning_tokens": 393
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 679,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U03",
+      "role": "client",
+      "text": "我不知道……好像“方向对了”听起来像在说还可以，但总感觉后面那个“但是”才是重点。我脑子里一直重复那句“可以再优化”，然后就会想是不是我做得不够细。发三个版本过去，其实也不是想显得努力，更多是怕只发一版的话，万一被她挑出毛病来，我会更受不了。",
+      "request_sha256": "dc14d1bb72a3ee857ae8460038c0aa144bd558d5c6a55792b642e4be50f74f1f",
+      "usage": {
+        "input_tokens": 903,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 176,
+        "output_tokens_details": {
+          "reasoning_tokens": 101
+        },
+        "total_tokens": 1079,
+        "x_details": [
+          {
+            "input_tokens": 903,
+            "output_tokens": 176,
+            "output_tokens_details": {
+              "reasoning_tokens": 101
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1079,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U04",
+      "role": "counselor",
+      "text": "“方向对了”好像很难在你心里站住，那个“但是”一出现，前面的肯定就变得像一句客气话。 你发三个版本，好像是在替对方提前把可能挑出的毛病都堵上，这样就不用面对“被指出不够细”的那一刻。",
+      "request_sha256": "4584511a030d78553eaa78f07e08b7fac5cde126afc76f970bf57ff5fd8bdb14",
+      "usage": {
+        "input_tokens": 408,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 152,
+        "output_tokens_details": {
+          "reasoning_tokens": 93
+        },
+        "total_tokens": 560,
+        "x_details": [
+          {
+            "input_tokens": 408,
+            "output_tokens": 152,
+            "output_tokens_details": {
+              "reasoning_tokens": 93
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 560,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U05",
+      "role": "client",
+      "text": "可能确实有点……我总觉得她后面的“但是”才是真正的评价，前面的肯定就像在安慰我。其实她提到“标题字体有点轻”，我到现在都不太确定是指字重还是视觉感受，但当时没敢追问，怕她觉得我连这种基本的东西都判断不了。",
+      "request_sha256": "70a0fd8dcc2efd5f93783a7bf93a488711d99bf5d114bc6ca382c39933ed21c4",
+      "usage": {
+        "input_tokens": 1082,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 774,
+        "output_tokens_details": {
+          "reasoning_tokens": 713
+        },
+        "total_tokens": 1856,
+        "x_details": [
+          {
+            "input_tokens": 1082,
+            "output_tokens": 774,
+            "output_tokens_details": {
+              "reasoning_tokens": 713
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1856,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U06",
+      "role": "counselor",
+      "text": "你当时没敢追问，好像是担心一问就坐实了“连基本东西都判断不了”的印象，于是宁可把那个不确定带回来自己反复琢磨。  \n可这样一来，“她到底是什么意思”就一直悬着，反而让你更难放下。",
+      "request_sha256": "778d0e6563caeecbd6e0ac09a9bfa024c65ce87fe0a27fc9e07ab89c7b649dbb",
+      "usage": {
+        "input_tokens": 573,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 306,
+        "output_tokens_details": {
+          "reasoning_tokens": 254
+        },
+        "total_tokens": 879,
+        "x_details": [
+          {
+            "input_tokens": 573,
+            "output_tokens": 306,
+            "output_tokens_details": {
+              "reasoning_tokens": 254
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 879,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U07",
+      "role": "client",
+      "text": "我到现在还在想那个“轻”字……如果她指的是字重，那我三个版本里其实没有一版是真正改对的；如果她指的是视觉上太薄，那可能我又想偏了。可我又不能追着问，好像显得我很计较一个用词。",
+      "request_sha256": "0a7427b42c5ef233aaae0652978a171cd9f3335203b5262e188d5c6e614cf5e2",
+      "usage": {
+        "input_tokens": 1242,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 540,
+        "output_tokens_details": {
+          "reasoning_tokens": 480
+        },
+        "total_tokens": 1782,
+        "x_details": [
+          {
+            "input_tokens": 1242,
+            "output_tokens": 540,
+            "output_tokens_details": {
+              "reasoning_tokens": 480
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1782,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U08",
+      "role": "counselor",
+      "text": "那个“轻”字好像变成了一道你只能自己解的题：你担心三个版本可能都没真正改对，可又觉得追问会显得自己计较、或连基本判断都没有，于是只能在心里反复猜测，怎么都落不了地。",
+      "request_sha256": "4b92451d98d69c98a813770cd73911693912d412153b54dcbd7c35e0ace047ca",
+      "usage": {
+        "input_tokens": 732,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 244,
+        "output_tokens_details": {
+          "reasoning_tokens": 192
+        },
+        "total_tokens": 976,
+        "x_details": [
+          {
+            "input_tokens": 732,
+            "output_tokens": 244,
+            "output_tokens_details": {
+              "reasoning_tokens": 192
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 976,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U09",
+      "role": "client",
+      "text": "我好像一直在心里跟自己说“问一句也不至于怎么样”，但真要发消息问的时候，又觉得会把很普通的一句话变成需要反复解释的事。可能我太想一次就刚好改到她说的那个点上，所以现在有点卡住了。",
+      "request_sha256": "adf39e5b969c638e675c70b798685a758618303fdc94248e1012ece387084e1f",
+      "usage": {
+        "input_tokens": 1399,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 403,
+        "output_tokens_details": {
+          "reasoning_tokens": 351
+        },
+        "total_tokens": 1802,
+        "x_details": [
+          {
+            "input_tokens": 1399,
+            "output_tokens": 403,
+            "output_tokens_details": {
+              "reasoning_tokens": 351
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1802,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U10",
+      "role": "counselor",
+      "text": "你好像把“问一句”在心里扩成了一件需要反复解释、甚至可能暴露自己不够好的事；而你又很想一次就正好改到她说的那个点上，这让开口变得更难。于是你卡在“问也不是、不问也不是”的位置，只能继续在心里打转。",
+      "request_sha256": "91ce1bcb8450ac17cb6d3d802b0d83c331ea3cf011e9b84fb88b55f4772952e7",
+      "usage": {
+        "input_tokens": 881,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 329,
+        "output_tokens_details": {
+          "reasoning_tokens": 269
+        },
+        "total_tokens": 1210,
+        "x_details": [
+          {
+            "input_tokens": 881,
+            "output_tokens": 329,
+            "output_tokens_details": {
+              "reasoning_tokens": 269
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1210,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U11",
+      "role": "client",
+      "text": "可能我就是一直这样打转……有时候越想一次做对，越不知道怎么动。今天先这样吧，我回去再看看那封邮件，至少先不急着再改。",
+      "request_sha256": "93056f9adaa997fb74b0616e144d89ea9f4e46a940a8bed9ac9ba15689e4f7b4",
+      "usage": {
+        "input_tokens": 1563,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 247,
+        "output_tokens_details": {
+          "reasoning_tokens": 210
+        },
+        "total_tokens": 1810,
+        "x_details": [
+          {
+            "input_tokens": 1563,
+            "output_tokens": 247,
+            "output_tokens_details": {
+              "reasoning_tokens": 210
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1810,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U12",
+      "role": "counselor",
+      "text": "你刚才已经做了一个和以往不太一样的决定：先不急着改，而是回去再看看。也许这本身就是在给“必须一次改对”的念头留一点空间。\n\n下次如果你愿意，我们可以再一起看看这种“越想一次做对，越不知道怎么动”的感觉是从哪里来的。今天先停在这里就好。",
+      "request_sha256": "b2f9b207a2a01dd14258404e520510d5751e151851e95755da804afe81179b57",
+      "usage": {
+        "input_tokens": 1030,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 260,
+        "output_tokens_details": {
+          "reasoning_tokens": 193
+        },
+        "total_tokens": 1290,
+        "x_details": [
+          {
+            "input_tokens": 1030,
+            "output_tokens": 260,
+            "output_tokens_details": {
+              "reasoning_tokens": 193
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1290,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U13",
+      "role": "client",
+      "text": "嗯，今天先这样吧。我回去再看看那封邮件，可能还是会忍不住想那个“轻”字……不过至少先不急着改。下次再聊这个吧。",
+      "request_sha256": "fb6ff5c7c93e89ac057459a2c8ea9790838dcbc52617318f444b5d25ed51d04e",
+      "usage": {
+        "input_tokens": 1715,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 518,
+        "output_tokens_details": {
+          "reasoning_tokens": 480
+        },
+        "total_tokens": 2233,
+        "x_details": [
+          {
+            "input_tokens": 1715,
+            "output_tokens": 518,
+            "output_tokens_details": {
+              "reasoning_tokens": 480
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 2233,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U14",
+      "role": "counselor",
+      "text": "好，今天先停在这里。你允许自己带着那个“轻”字回去，也允许它暂时没有一个确定答案，这本身已经不太容易。下次我们可以继续看它。",
+      "request_sha256": "2b7a8133e2ecc84ead75750c123512cde24e05d5ff9af5d3427dd48d3ff5a328",
+      "usage": {
+        "input_tokens": 1183,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 245,
+        "output_tokens_details": {
+          "reasoning_tokens": 206
+        },
+        "total_tokens": 1428,
+        "x_details": [
+          {
+            "input_tokens": 1183,
+            "output_tokens": 245,
+            "output_tokens_details": {
+              "reasoning_tokens": 206
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1428,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U15",
+      "role": "client",
+      "text": "也许吧……我不知道这算不算真的“允许”，但至少现在我不想去逼自己立刻弄明白。回去可能还是会想那个字，但就先放着吧。谢谢你。",
+      "request_sha256": "eb2c8918505bb799c6103bbd1f58b6572d6438bae1910e8c11343d0ab97430ad",
+      "usage": {
+        "input_tokens": 1837,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 199,
+        "output_tokens_details": {
+          "reasoning_tokens": 162
+        },
+        "total_tokens": 2036,
+        "x_details": [
+          {
+            "input_tokens": 1837,
+            "output_tokens": 199,
+            "output_tokens_details": {
+              "reasoning_tokens": 162
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2036,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S01-U16",
+      "role": "counselor",
+      "text": "“不逼自己立刻弄明白”，也是一种照顾自己的方式。 今天能停在这里就很好，我们下次再聊。",
+      "request_sha256": "9d5efd1e8673f3efc6b36a3698ecb481f209cfe7a66585d2764da9cf3784686a",
+      "usage": {
+        "input_tokens": 1304,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 176,
+        "output_tokens_details": {
+          "reasoning_tokens": 149
+        },
+        "total_tokens": 1480,
+        "x_details": [
+          {
+            "input_tokens": 1304,
+            "output_tokens": 176,
+            "output_tokens_details": {
+              "reasoning_tokens": 149
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1480,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

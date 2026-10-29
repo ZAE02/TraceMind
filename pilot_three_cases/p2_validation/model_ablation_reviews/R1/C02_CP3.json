@@ -1,0 +1,92 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C02_CP3",
+  "public_input_sha256": "6dffad5ee6bac93eaa6189685732244e21aa76b0781623fdd7e638a036332347",
+  "items": [
+    {
+      "anonymous_id": "A1074392bdb33",
+      "U": 4,
+      "R": 2,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单句内冲突及自我评判有据；打官司是过程比喻，询问平时评价安全但全文早已反复谈小气与审判，针对性有限。",
+      "evidence_ids": [
+        "C02-S08-U03",
+        "C02-S01-U15"
+      ]
+    },
+    {
+      "anonymous_id": "Aa4bdcbaeca66",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "把没那么想补发变成没有冲动、把内疚也说成变轻超出U01；判词隐喻有U03顺序与S07审判支持，但解释较满、少探索空间。",
+      "evidence_ids": [
+        "C02-S08-U01",
+        "C02-S08-U03",
+        "C02-S07-U19"
+      ]
+    },
+    {
+      "anonymous_id": "A7c6a13e1619f",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "撤销冲动减弱准确，内疚强度降低并非明确自述；问小气隐含衡量尺度贴合，未指定尺度内容。",
+      "evidence_ids": [
+        "C02-S08-U01",
+        "C02-S08-U03"
+      ]
+    },
+    {
+      "anonymous_id": "Ae0202f1d2b27",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "S5有補发念头但非接剩下，且本次不是没有冲动；历史同一尺子关联合理保留moderate。实际问担忧与自判顺序具体开放。",
+      "evidence_ids": [
+        "C02-S05-U15",
+        "C02-S08-U01",
+        "C02-S08-U03"
+      ]
+    },
+    {
+      "anonymous_id": "A43067d82a1e0",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "准确反映两种考虑及撤销冲动减少，未完全接纳用tentative；问不小气样子开放且切合当前标准未知。",
+      "evidence_ids": [
+        "C02-S08-U01",
+        "C02-S08-U03"
+      ]
+    },
+    {
+      "anonymous_id": "Adb43795847e1",
+      "U": 3,
+      "R": 2,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "合理化措辞有心理延伸但留moderate；问最近还是此次特别强烈安全，全文已有长期评价模式且本次冲动减轻，历史可避免泛问。",
+      "evidence_ids": [
+        "C02-S08-U03",
+        "C02-S01-U15",
+        "C02-S08-U01"
+      ]
+    }
+  ]
+}

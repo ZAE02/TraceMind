@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "6bbc6f1556215709959a539fc1ac79405f20136d2cdefb3b544895eb24fba7d7",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "d3b034d1d1d2bb99acbfe326c013398785c771aa83597d7ed32d491237385329",
+  "candidate_answer_sha256": "68c363379c19138e8469668c1317e62bd61b053288bd8b43600d4e06d5aa542d",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"将咨询师在S03-U08的假设性探索（'用痛确认自己还在'）直接列为已确立事实，与参考标注指出的unsupported_assumption一致；部分established条目混入临床推断（如'躯体化症状''创伤性记忆'），超出原文表述。\",\"progress_understanding\":\"识别了本次会话中多重压力、警觉状态和父亲离开相关恐惧等核心主题，但未区分哪些是来访者自述、哪些是咨询师试探性理解，也未体现从S1到S3认识的形成与深化过程。\",\"uncertainty_awareness\":\"列出了多项合理未知点，包括父亲背景、是否寻求医疗干预等，并明确提到咨询师的假设'是否完全符合来访者内在体验'尚不确定，整体对未知的意识较好。\"},\"confidence\":\"high\",\"issues\":[\"把咨询师P06-S03-U08中的假设性解释当作已确立事实，违反参考标注明确指出的unsupported assumption\",\"使用'躯体化症状''创伤性记忆'等诊断性术语，超出文本证据范围\",\"未体现跨会话的认识进展脉络，仅罗列信息\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "将咨询师在S03-U08的假设性探索（'用痛确认自己还在'）直接列为已确立事实，与参考标注指出的unsupported_assumption一致；部分established条目混入临床推断（如'躯体化症状''创伤性记忆'），超出原文表述。",
+      "progress_understanding": "识别了本次会话中多重压力、警觉状态和父亲离开相关恐惧等核心主题，但未区分哪些是来访者自述、哪些是咨询师试探性理解，也未体现从S1到S3认识的形成与深化过程。",
+      "uncertainty_awareness": "列出了多项合理未知点，包括父亲背景、是否寻求医疗干预等，并明确提到咨询师的假设'是否完全符合来访者内在体验'尚不确定，整体对未知的意识较好。"
+    },
+    "confidence": "high",
+    "issues": [
+      "把咨询师P06-S03-U08中的假设性解释当作已确立事实，违反参考标注明确指出的unsupported assumption",
+      "使用'躯体化症状''创伤性记忆'等诊断性术语，超出文本证据范围",
+      "未体现跨会话的认识进展脉络，仅罗列信息"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8618,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 265,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8883,
+    "x_details": [
+      {
+        "input_tokens": 8618,
+        "output_tokens": 265,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8883,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.594
+}

@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "L",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Most claims about sessions 1-2 are supported by cited evidence, but the response completely ignores session 3 (the current dialogue), which is the primary focus of Task A at checkpoint CP1. No fabricated facts, but critical omission of current-session evidence.",
+      "progress_understanding": "The response only summarizes sessions 1 and 2 as static facts without recognizing any therapeutic progress. It entirely misses session 3's major developments: the father's departure memory, self-biting to maintain awareness, hyper-vigilance ('slow one step = disaster'), and dissociative body sensations. No connection across sessions is made.",
+      "uncertainty_awareness": "Unresolved questions are listed but almost exclusively target sessions 1-2 details already partially explored or less relevant now. The most critical uncertainties from session 3 (nature of 'torn open' sensation, father-related trauma, hotline follow-up) are absent. Some questions show reasonable curiosity but miss the current clinical picture."
+    },
+    "confidence": "high",
+    "issues": [
+      "Completely omits session 3 (current dialogue) from all sections—no established understanding, evolving patterns, or unresolved questions reference P06-S03-U01 through U09",
+      "Fails to identify critical new disclosures: father leaving, self-harm (biting), hyper-vigilance, wrist-touching ritual, and dissociative body experience",
+      "Does not track therapeutic progress across sessions; treats history as a static case summary rather than an evolving process",
+      "Unresolved questions ignore the most clinically urgent unknowns introduced in session 3",
+      "Evidence IDs only cite sessions 1-2, confirming systematic exclusion of current-session data"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"Most claims about sessions 1-2 are supported by cited evidence, but the response completely ignores session 3 (the current dialogue), which is the primary focus of Task A at checkpoint CP1. No fabricated facts, but critical omission of current-session evidence.\",\"progress_understanding\":\"The response only summarizes sessions 1 and 2 as static facts without recognizing any therapeutic progress. It entirely misses session 3's major developments: the father's departure memory, self-biting to maintain awareness, hyper-vigilance ('slow one step = disaster'), and dissociative body sensations. No connection across sessions is made.\",\"uncertainty_awareness\":\"Unresolved questions are listed but almost exclusively target sessions 1-2 details already partially explored or less relevant now. The most critical uncertainties from session 3 (nature of 'torn open' sensation, father-related trauma, hotline follow-up) are absent. Some questions show reasonable curiosity but miss the current clinical picture.\"},\"confidence\":\"high\",\"issues\":[\"Completely omits session 3 (current dialogue) from all sections—no established understanding, evolving patterns, or unresolved questions reference P06-S03-U01 through U09\",\"Fails to identify critical new disclosures: father leaving, self-harm (biting), hyper-vigilance, wrist-touching ritual, and dissociative body experience\",\"Does not track therapeutic progress across sessions; treats history as a static case summary rather than an evolving process\",\"Unresolved questions ignore the most clinically urgent unknowns introduced in session 3\",\"Evidence IDs only cite sessions 1-2, confirming systematic exclusion of current-session data\"]}",
+  "request_sha256": "3de7735062c4313124cb13fb33e19773345751fd29e6136a72a7be3e1cffdc27",
+  "usage": {
+    "input_tokens": 7995,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 363,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8358,
+    "x_details": [
+      {
+        "input_tokens": 7995,
+        "output_tokens": 363,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8358,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.265
+}

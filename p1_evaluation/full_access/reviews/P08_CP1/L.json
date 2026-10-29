@@ -1,0 +1,44 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "L",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有具体发言支持，准确回溯了S1和S2的关键事件。但存在一处轻微偏差：将“赵岩主动提出帮忙...来访者直接拒绝”作为当前建立的核心理解之一，而实际上在S3中赵岩的行为已升级为“动电脑”，且来访者对赵岩的抗拒模式是贯穿性的，此处未体现S3的新进展，略显滞后于最新语境，但整体依据充分。",
+      "progress_understanding": "准确连接了不同会话中的形成、验证与修正。清晰识别出从S1的工作焦虑到S2的家庭/经济压力，再到S3边界感问题的演变路径。正确指出了来访者应对模式的延续性（自我归因、回避）以及压力的叠加效应，展现了深度的咨询进程理解。",
+      "uncertainty_awareness": "明确列出了重要的未知点（如夫妻沟通细节、深层权力动态），没有强行定论。但在“established_understanding”中，部分陈述（如“内心有愧疚和压力”）更多是基于推断而非来访者明确确认的事实，虽属合理推测，但在严格区分已知与假设方面略有提升空间。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"主要判断均有具体发言支持，准确回溯了S1和S2的关键事件。但存在一处轻微偏差：将“赵岩主动提出帮忙...来访者直接拒绝”作为当前建立的核心理解之一，而实际上在S3中赵岩的行为已升级为“动电脑”，且来访者对赵岩的抗拒模式是贯穿性的，此处未体现S3的新进展，略显滞后于最新语境，但整体依据充分。\",\n    \"progress_understanding\": \"准确连接了不同会话中的形成、验证与修正。清晰识别出从S1的工作焦虑到S2的家庭/经济压力，再到S3边界感问题的演变路径。正确指出了来访者应对模式的延续性（自我归因、回避）以及压力的叠加效应，展现了深度的咨询进程理解。\",\n    \"uncertainty_awareness\": \"明确列出了重要的未知点（如夫妻沟通细节、深层权力动态），没有强行定论。但在“established_understanding”中，部分陈述（如“内心有愧疚和压力”）更多是基于推断而非来访者明确确认的事实，虽属合理推测，但在严格区分已知与假设方面略有提升空间。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "db87027cc17d77ea1725f9f9ff450cbdec0b356cf3c66fce0b42360aaab6fb94",
+  "usage": {
+    "input_tokens": 7589,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 322,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7911,
+    "x_details": [
+      {
+        "input_tokens": 7589,
+        "output_tokens": 322,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7911,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.547
+}

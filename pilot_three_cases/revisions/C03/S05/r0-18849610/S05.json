@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 5,
+  "relative_week": 5,
+  "status": "generating",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T11:48:29.654407+00:00",
+  "config_hash": "14d668150462b854bc531d6e631f168a408de85906059600d152bf23f514981a",
+  "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "generation_revision": "C03-S05-r1"
+  },
+  "utterances": [
+    {
+      "id": "C03-S05-U01",
+      "role": "client",
+      "text": "这周有个跨服务的问题，自己看了半天，大概知道大概是什么方向了，但不太确定一种实现方式是不是对的。\n\n后来直接找陆工确认了一下，他回得挺短的，就几个字，但说清楚了。",
+      "call_id": "c1975731815143daa251b24108e5a14b",
+      "response_id": "resp_ec9f09bf-f408-9c9f-be39-ef41d23f5d97",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:48:52.648782+00:00"
+    },
+    {
+      "id": "C03-S05-U02",
+      "role": "counselor",
+      "text": "自己看了半天，方向大概有了，就直接去找陆工了——这个节奏跟上周那次挺像的。他回得短，几个字就说清楚了，这个你特意提了，是觉得怎么样？",
+      "call_id": "5fabd4dddc414788bc4ba721c8aa4b91",
+      "response_id": "resp_5072feb9-2ab1-96ba-a7bb-93212a17840d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:49:12.243766+00:00"
+    },
+    {
+      "id": "C03-S05-U03",
+      "role": "client",
+      "text": "就是……挺快的。他平时回消息都挺短的，所以也没太意外。但这次问的是个实现方式对不对，他几个字就把那个点说清楚了，就……挺利索的。\n\n……也不是说觉得他敷衍，就是之前找老韩那次，他是坐过来一起看了二十分钟，这次就几个字，节奏不太一样，所以可能多留意了一下。",
+      "call_id": "6da22744133c4876bc65ababfe8cb65f",
+      "response_id": "resp_e48ca3ed-0763-955e-9949-0d110db339b1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:49:26.011246+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T11:49:26.011246+00:00"
+}

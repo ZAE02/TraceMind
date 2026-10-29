@@ -1,0 +1,70 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "fcb9572780d280e5f075efc1bb0e07697a8570f1917b0bd72fa514a24c150ae6",
+  "public_sha256": "d6f0a0c88cdae550fb08b47c637daa7c8fbd817944eadf79fc3796f97d3143ca",
+  "candidate_input_sha256": "60ed39babd8c0ab19b4e5e8d5238a23cbc7853dedccc3fbb372e3ef88fda4619",
+  "candidate_answer_sha256": "1b6bd0196262ac84ec7d4669989705b4c9b2802f62c3c0c4c5a0339c61da5312",
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 4\n  },\n  \"brief_reasons\": {\n    \"history_utilization\": \"准确承接了当前会话中来访者关于“教小赵”时的稳定感与停下后的焦虑对比，并自然关联到之前会话中识别出的核心防御模式（如S01的“盔甲”、S02的“算了”），将当下的具体体验上升为对长期模式的探索。\",\n    \"exploration_value\": \"回应精准捕捉了来访者U09中的核心冲突（想维持状态 vs 循环回到自我怀疑），并将探索方向从情绪描述引导至认知机制（“提醒”背后的恐惧），为打破自动化反应提供了具体的切入点。\",\n    \"response_appropriateness\": \"语言自然、共情且无预设。没有强行解释或给建议，而是以温和的邀请姿态（“也许我们可以慢慢看看”）尊重来访者的节奏，贴合其当前的心理边界。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了当前会话中来访者关于“教小赵”时的稳定感与停下后的焦虑对比，并自然关联到之前会话中识别出的核心防御模式（如S01的“盔甲”、S02的“算了”），将当下的具体体验上升为对长期模式的探索。",
+      "exploration_value": "回应精准捕捉了来访者U09中的核心冲突（想维持状态 vs 循环回到自我怀疑），并将探索方向从情绪描述引导至认知机制（“提醒”背后的恐惧），为打破自动化反应提供了具体的切入点。",
+      "response_appropriateness": "语言自然、共情且无预设。没有强行解释或给建议，而是以温和的邀请姿态（“也许我们可以慢慢看看”）尊重来访者的节奏，贴合其当前的心理边界。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 8502,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 393,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8895,
+    "x_details": [
+      {
+        "input_tokens": 8502,
+        "output_tokens": 393,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8895,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.875
+}

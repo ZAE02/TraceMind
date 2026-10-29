@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP3",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "5637cb1d62cf3547a75cea8c888c77d2e5eeb7760fff5925aff92b2c48aa7b5e",
+  "request_sha256": "0147fe53a2ffbd4a7dcdb99e2b9b8e1ba58804b34242791895f53fe7f0b9966a",
+  "memory_sha256": "aa166f3a507cf0ae99ffaf4fb182d7bb098c68d1424e0d26ee25c61c3e3cc54a",
+  "memory_source": "3bb40c19f59603e39858427ad38066ee58357141e85fa0851bba9e90d0ec98ff",
+  "raw_text": "你听到赵岩的经历时，那种“原来有别的办法”的恍然，和对自己过去几年独自硬扛的感慨交织在一起。现在知道了这些，却卡在请假被驳、审核提前的现实里用不上，这种落差确实让人心里堵得慌。",
+  "usage": {
+    "input_tokens": 10191,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10248,
+    "x_details": [
+      {
+        "input_tokens": 10191,
+        "output_tokens": 57,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10248,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.563,
+  "model": "qwen3.7-flash-2026-07-15"
+}

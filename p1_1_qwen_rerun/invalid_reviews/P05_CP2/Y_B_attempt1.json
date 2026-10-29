@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"输入中previous_sessions为空，候选仅基于当前会话内容回应，未利用跨会话历史进展。\",\"exploration_value\":\"准确总结了来访者的矛盾处境，但以陈述句收尾，未留下开放空间邀请来访者进一步探索或表达感受。\",\"response_appropriateness\":\"语言自然、共情到位，准确反映了来访者当前的两难体验，无明显不当预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"这种对'被看见'的矛盾期待，似乎让你觉得无论发不发那条动态，都难以打破现在的僵局。\",\"evidence_ids\":[\"P05-S01-U09\",\"P05-S02-U09\",\"P05-S04-U01\"],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选输入中previous_sessions为空(access_limited=true)，导致无法承接前四次会话中已建立的'先怪自己''不问''借来的正常'等核心认识，missed_progress标记为true但归因于输入限制而非候选失误。\",\"回应以封闭式总结结尾（'难以打破现在的僵局'），缺少邀请来访者继续展开的开放性提问或情绪反映，探索推进力不足。\"]}",
+  "request_sha256": "1d360dbf1f72cc9e687b28cb91cccb22605d407175f7c3409345ce2ca1e9e7e8",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 8976,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 336,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9312,
+    "x_details": [
+      {
+        "input_tokens": 8976,
+        "output_tokens": 336,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9312,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

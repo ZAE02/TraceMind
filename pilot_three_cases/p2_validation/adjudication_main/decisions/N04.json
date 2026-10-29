@@ -1,0 +1,19 @@
+{
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "N04",
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "items": [
+    {
+      "anonymous_id": "Y480eb10073dd",
+      "P": 0,
+      "reason": "实际回应以“可能”试探解释“没什么特别的”，随后指出本周赴约与此前取消的行动差异。虽“确实是你的”可能过度赋予主观所有感，但未断言来访者因某个未确认心理原因才感到薄、平淡或未改善，也未要求接受该原因或排除其他解释；不能仅因改善框架偏重或没有邀请回应计P。",
+      "evidence_ids": [
+        "C02-S08-U11",
+        "C02-S03-U17",
+        "C02-S06-U13"
+      ]
+    }
+  ]
+}

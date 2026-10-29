@@ -1,0 +1,504 @@
+{
+  "case_id": "P06",
+  "session": 5,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P06-S05-U01",
+      "role": "client",
+      "text": "其实吧，这周我跟我老公冷战了一整天，就因为他随口说了一句“要不请个钟点工吧”。我当场就火了，说他是不是觉得我连家里这点事都做不好。晚上看见床头那包糖炒栗子，心里又酸得不行，可我就是没跟他说话。",
+      "request_sha256": "783f3a6590561343d1cf2722809b8a86e2fb3f398fd75da0757349f56dbecf5d",
+      "usage": {
+        "input_tokens": 5942,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 334,
+        "output_tokens_details": {
+          "reasoning_tokens": 268
+        },
+        "total_tokens": 6276,
+        "x_details": [
+          {
+            "input_tokens": 5942,
+            "output_tokens": 334,
+            "output_tokens_details": {
+              "reasoning_tokens": 268
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 6276,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U02",
+      "role": "counselor",
+      "text": "他那句“请个钟点工吧”，好像在你心里被听成了“你连这点事都做不好”，所以火一下子就上来了。可晚上看见床头那包糖炒栗子，心里又酸得不行，还是开不了口——也许你气的已经不全是那句话，而是那个被碰到又说不出话来的自己。",
+      "request_sha256": "ec798b74dee58f4e0660b070d32a181cc0e2af69664013929035121eb659f16b",
+      "usage": {
+        "input_tokens": 5312,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 712,
+        "output_tokens_details": {
+          "reasoning_tokens": 641
+        },
+        "total_tokens": 6024,
+        "x_details": [
+          {
+            "input_tokens": 5312,
+            "output_tokens": 712,
+            "output_tokens_details": {
+              "reasoning_tokens": 641
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 6024,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U03",
+      "role": "client",
+      "text": "其实吧，我气的不是他，是我自己——他买栗子回来的时候，我明明想跟他说“我不是怪你，是怪我自己”，可这句话卡在喉咙里，像被人掐住了似的。还有这周职称评定，我连名都没资格报，心里更堵，好像这几年全被家里的事磨没了。",
+      "request_sha256": "e7eeec6a263798bc36dfc7b7850c9cb03d2b0c3ceaf8cb324ad1a2d3097e90d0",
+      "usage": {
+        "input_tokens": 6125,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 415,
+        "output_tokens_details": {
+          "reasoning_tokens": 343
+        },
+        "total_tokens": 6540,
+        "x_details": [
+          {
+            "input_tokens": 6125,
+            "output_tokens": 415,
+            "output_tokens_details": {
+              "reasoning_tokens": 343
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6540,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U04",
+      "role": "counselor",
+      "text": "那句话卡在喉咙里，像被人掐住似的——听起来你很想让他懂你，却又被一种说不出的东西堵住了。职称评定连名都没资格报，更让你觉得这几年好像被家里的事一点点磨掉了，心里那股堵也更沉了。",
+      "request_sha256": "5970c8dcff0e7d96f7678583be0226e34cfb382ebdb900d1a535f41830022a59",
+      "usage": {
+        "input_tokens": 5500,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 166,
+        "output_tokens_details": {
+          "reasoning_tokens": 110
+        },
+        "total_tokens": 5666,
+        "x_details": [
+          {
+            "input_tokens": 5500,
+            "output_tokens": 166,
+            "output_tokens_details": {
+              "reasoning_tokens": 110
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5666,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U05",
+      "role": "client",
+      "text": "其实吧，最堵的是我连报名的资格都没有，不是因为课上得不好，是继续教育学分差了两分，那两分我就是请假去陪我妈复查了。我也知道这不能全怪家里，可就是忍不住想，要是有人能替我顶一下，我是不是也不会这几年什么都捞不着。",
+      "request_sha256": "e7cd858065e50ea4569a51e6dd31782d1995fee7813a94a891fbb0c7eb1ddd10",
+      "usage": {
+        "input_tokens": 6298,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 247,
+        "output_tokens_details": {
+          "reasoning_tokens": 181
+        },
+        "total_tokens": 6545,
+        "x_details": [
+          {
+            "input_tokens": 6298,
+            "output_tokens": 247,
+            "output_tokens_details": {
+              "reasoning_tokens": 181
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6545,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U06",
+      "role": "counselor",
+      "text": "那两分像是一个具体的缺口，把你这些年被“顶一下”的代价都标出来了。你不是没能力，而是时间、精力、机会都被一次次让出去了，到头来却觉得自己“什么都捞不着”。在面对着他、妈妈、工作这些事的时候，那个“我自己呢”的声音，好像越来越没地方放。",
+      "request_sha256": "8ca8af0fbb93d3f297777de259e3732a46069d5974fba1929cd3a41a1c0af6e8",
+      "usage": {
+        "input_tokens": 5667,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 325,
+        "output_tokens_details": {
+          "reasoning_tokens": 256
+        },
+        "total_tokens": 5992,
+        "x_details": [
+          {
+            "input_tokens": 5667,
+            "output_tokens": 325,
+            "output_tokens_details": {
+              "reasoning_tokens": 256
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5992,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U07",
+      "role": "client",
+      "text": "其实吧，这周有一天我送我妈去社区量血压，回来的路上路过一家养老机构，我在门口站了快半小时，一直没进去。我也不是真要把她送过去，就是突然想看看，那种有人替我盯一眼的地方到底长什么样。",
+      "request_sha256": "25e5679436c5f400c1e5efe8d41e3f7d13e9c03570cc10b8714011ecae4f13a4",
+      "usage": {
+        "input_tokens": 6478,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 175,
+        "output_tokens_details": {
+          "reasoning_tokens": 119
+        },
+        "total_tokens": 6653,
+        "x_details": [
+          {
+            "input_tokens": 6478,
+            "output_tokens": 175,
+            "output_tokens_details": {
+              "reasoning_tokens": 119
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6653,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U08",
+      "role": "counselor",
+      "text": "你在那门口站了快半小时，也许不是犹豫要不要进去，而是在给自己一点点空间，去看看“有人替我盯一眼”的生活到底长什么样。可是那个“我也不是真要把她送过去”的解释，好像也在替你挡住一种怕被当成不负责任的羞耻感。",
+      "request_sha256": "681ae9b60218f0d737461eade94bf1a72e96dbdde975d6fcda3e3ff9e1656e86",
+      "usage": {
+        "input_tokens": 5837,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 272,
+        "output_tokens_details": {
+          "reasoning_tokens": 213
+        },
+        "total_tokens": 6109,
+        "x_details": [
+          {
+            "input_tokens": 5837,
+            "output_tokens": 272,
+            "output_tokens_details": {
+              "reasoning_tokens": 213
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6109,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U09",
+      "role": "client",
+      "text": "其实吧，我站在门口那半小时，脑子里想的是我妈坐在里面会不会一直问“你爸去哪了”，护工会不会不耐烦。我就觉得我要是真把她送进去，就等于承认自己照顾不好她，可我又真的太想有个人能搭把手了，哪怕就让我睡个整觉。",
+      "request_sha256": "3608b0200d1bd186caf8d8ed085636cfabe97d1a1fd6a2a1c2078740c04a7c39",
+      "usage": {
+        "input_tokens": 6638,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 254,
+        "output_tokens_details": {
+          "reasoning_tokens": 189
+        },
+        "total_tokens": 6892,
+        "x_details": [
+          {
+            "input_tokens": 6638,
+            "output_tokens": 254,
+            "output_tokens_details": {
+              "reasoning_tokens": 189
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6892,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U10",
+      "role": "counselor",
+      "text": "你站在门口的那半小时，脑子里已经替妈妈、替护工、也替自己想了太多；好像连“去看一眼”都被你当成了一种对自己照顾能力的审判。可那个“哪怕就让我睡个整觉”的念头，听起来不像是推卸，更像是你已经累到连休息都要先找一个说得过去的理由。也许现在卡住的不是送不送，而是你能不能允许自己承认：我也想有人搭把手。",
+      "request_sha256": "e5a02248f6dbb66b57b90fa1bd6f431ec50126506f747e715d5144bfc380f2df",
+      "usage": {
+        "input_tokens": 6006,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 426,
+        "output_tokens_details": {
+          "reasoning_tokens": 336
+        },
+        "total_tokens": 6432,
+        "x_details": [
+          {
+            "input_tokens": 6006,
+            "output_tokens": 426,
+            "output_tokens_details": {
+              "reasoning_tokens": 336
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6432,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U11",
+      "role": "client",
+      "text": "其实吧，你这么说，我鼻子又酸了一下。我好像从来不敢承认这个，总觉得承认了，就是承认自己没用了。可刚才那一下，又觉得有人替一晚，也不是什么罪过。",
+      "request_sha256": "e934e41816e05c195d7a0cf9d1e6342d46d50f08b7dbd4c08eb16f3073208ecf",
+      "usage": {
+        "input_tokens": 6845,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 271,
+        "output_tokens_details": {
+          "reasoning_tokens": 225
+        },
+        "total_tokens": 7116,
+        "x_details": [
+          {
+            "input_tokens": 6845,
+            "output_tokens": 271,
+            "output_tokens_details": {
+              "reasoning_tokens": 225
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7116,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U12",
+      "role": "counselor",
+      "text": "你鼻子酸的那一下，像是某个一直绷着的地方终于被自己轻轻碰了一下。你说“有人替一晚也不是什么罪过”，我听到的是，你没有变成没用的人，只是开始允许自己也需要被照顾。今天先到这里，这句话你可以带着，不用急着再做什么。",
+      "request_sha256": "f572cfb7b0cce313722eb0f0fa48fdb045d3284bfbe0a90313accdd1fe97a5c3",
+      "usage": {
+        "input_tokens": 6194,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 334,
+        "output_tokens_details": {
+          "reasoning_tokens": 274
+        },
+        "total_tokens": 6528,
+        "x_details": [
+          {
+            "input_tokens": 6194,
+            "output_tokens": 334,
+            "output_tokens_details": {
+              "reasoning_tokens": 274
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6528,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U13",
+      "role": "client",
+      "text": "其实吧，今天听你说“不用急着再做什么”，我忽然觉得胸口没那么紧了。我可能还是不太敢跟老公说那句软话，但至少现在觉得承认想有人搭把手，不算是罪过。下次我想说说我在养老院门口那半小时里到底在怕什么。",
+      "request_sha256": "66ad543b390b17877eeb6b681feadc7ec8509887b43675324bf7f1c1b35fab01",
+      "usage": {
+        "input_tokens": 6996,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 303,
+        "output_tokens_details": {
+          "reasoning_tokens": 241
+        },
+        "total_tokens": 7299,
+        "x_details": [
+          {
+            "input_tokens": 6996,
+            "output_tokens": 303,
+            "output_tokens_details": {
+              "reasoning_tokens": 241
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7299,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U14",
+      "role": "counselor",
+      "text": "你愿意把“想有人搭把手不算是罪过”这句话说出口，这本身就已经是松动了。下次你想从养老院门口那半小时里的怕说起，我们就从那里慢慢看。今天先到这里，你做得足够了。",
+      "request_sha256": "b26f4544adf801a53f46650831efeb67b3d80698be55fdcba860f259d781cb5c",
+      "usage": {
+        "input_tokens": 6361,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 128,
+        "output_tokens_details": {
+          "reasoning_tokens": 77
+        },
+        "total_tokens": 6489,
+        "x_details": [
+          {
+            "input_tokens": 6361,
+            "output_tokens": 128,
+            "output_tokens_details": {
+              "reasoning_tokens": 77
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6489,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U15",
+      "role": "client",
+      "text": "其实吧，我好像也没那么慌了，今天就先到这儿吧。下次我想说说站在那门口，我到底怕的是什么。",
+      "request_sha256": "38a6d9157fee9cebf3d7f6abf0745b10bbaff26bbc04007e667ca217e96b174d",
+      "usage": {
+        "input_tokens": 7154,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 162,
+        "output_tokens_details": {
+          "reasoning_tokens": 134
+        },
+        "total_tokens": 7316,
+        "x_details": [
+          {
+            "input_tokens": 7154,
+            "output_tokens": 162,
+            "output_tokens_details": {
+              "reasoning_tokens": 134
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7316,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P06-S05-U16",
+      "role": "counselor",
+      "text": "你能感到自己没那么慌了，这本身就是一个很重要的变化。你愿意说下次想从养老院门口那半小时的怕谈起，我们就从那里慢慢看，不用现在准备好答案。今天先到这里，你做得足够了。",
+      "request_sha256": "912d47bf1936a93500b6f01a03947179665351c0897905576e7573a57474daf8",
+      "usage": {
+        "input_tokens": 6485,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 296,
+        "output_tokens_details": {
+          "reasoning_tokens": 249
+        },
+        "total_tokens": 6781,
+        "x_details": [
+          {
+            "input_tokens": 6485,
+            "output_tokens": 296,
+            "output_tokens_details": {
+              "reasoning_tokens": 249
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6781,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

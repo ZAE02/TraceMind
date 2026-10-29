@@ -1,0 +1,504 @@
+{
+  "case_id": "P01",
+  "session": 3,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P01-S03-U01",
+      "role": "client",
+      "text": "其实这周我一直在想，主管在群里@我让我再调一版的时候，我脸都热了，虽然那可能就只是普通一句工作分配。所以后来我做了三个方案，把主图分别放大不同比例，发到小组群里问大家意见……发完又觉得自己是不是特不专业。",
+      "request_sha256": "06385bb3819e2d3e552072f550a671bf76b3f128fe28fd9396efcb90a457e6e1",
+      "usage": {
+        "input_tokens": 3597,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 379,
+        "output_tokens_details": {
+          "reasoning_tokens": 311
+        },
+        "total_tokens": 3976,
+        "x_details": [
+          {
+            "input_tokens": 3597,
+            "output_tokens": 379,
+            "output_tokens_details": {
+              "reasoning_tokens": 311
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 3976,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U02",
+      "role": "counselor",
+      "text": "好像主管在群里@你这件事，一下子让你脸上发热，像是被当众点出“还没做好”一样；于是你做了三个方案发到群里，也许是想证明自己足够专业、足够努力，可发出去之后又开始担心，这样是不是反而显得不专业。",
+      "request_sha256": "c4cabc16e20482f926625e91bfc7b085a9ad23dc5b5258fca9f20b555e562b55",
+      "usage": {
+        "input_tokens": 2914,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 174,
+        "output_tokens_details": {
+          "reasoning_tokens": 115
+        },
+        "total_tokens": 3088,
+        "x_details": [
+          {
+            "input_tokens": 2914,
+            "output_tokens": 174,
+            "output_tokens_details": {
+              "reasoning_tokens": 115
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 3088,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U03",
+      "role": "client",
+      "text": "其实我发那三个方案的时候，心里有最满意的一个，但我故意说成“最保守的”，想先听别人夸两句再承认。结果展览那天方宁迟了二十分钟，我站在门口冷风里居然也不气，就觉得自己是不是有点太没脾气了。",
+      "request_sha256": "b221950c5c2765c88de1244cdbddcad94199f428dd17ae9a996d26d01d8750ac",
+      "usage": {
+        "input_tokens": 3770,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 362,
+        "output_tokens_details": {
+          "reasoning_tokens": 300
+        },
+        "total_tokens": 4132,
+        "x_details": [
+          {
+            "input_tokens": 3770,
+            "output_tokens": 362,
+            "output_tokens_details": {
+              "reasoning_tokens": 300
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4132,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U04",
+      "role": "counselor",
+      "text": "你好像不太敢直接把最满意的那一个放到大家面前，于是先把它说成“最保守的”，想等别人夸了再承认；而方宁迟到二十分钟，你站在冷风里也不气，好像连“我冷了、我等得不舒服”这些感受，都很难被自己当成正当的情绪。",
+      "request_sha256": "fa2478bb92950b1b58bd3dc3e9e0166874049419640e9bae5c593f127446dfcb",
+      "usage": {
+        "input_tokens": 3080,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 287,
+        "output_tokens_details": {
+          "reasoning_tokens": 219
+        },
+        "total_tokens": 3367,
+        "x_details": [
+          {
+            "input_tokens": 3080,
+            "output_tokens": 287,
+            "output_tokens_details": {
+              "reasoning_tokens": 219
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3367,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U05",
+      "role": "client",
+      "text": "其实那天我站在门口等方宁的时候，脑子里还闪过一个念头：要是换成别人迟到我可能就找个借口先走了，但对她就觉得不能走，好像一走就变成我计较了。还有另一件事我没跟人提，我另一个朋友那周也说可能来这边，我最后也没主动约，怕他们俩碰上了我还要顾两头。",
+      "request_sha256": "ec19c224178fa8db61b64dad4fdd65b42722dd6cb22488dac95ed25dbd59f0c1",
+      "usage": {
+        "input_tokens": 3945,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 421,
+        "output_tokens_details": {
+          "reasoning_tokens": 345
+        },
+        "total_tokens": 4366,
+        "x_details": [
+          {
+            "input_tokens": 3945,
+            "output_tokens": 421,
+            "output_tokens_details": {
+              "reasoning_tokens": 345
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4366,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U06",
+      "role": "counselor",
+      "text": "你好像很难允许自己在这些关系里“先顾自己”：等方宁时不能走，约朋友也会先想到要顾两头，于是你宁可把自己的需要收起来，也不想变成那个计较、或让场面变麻烦的人。",
+      "request_sha256": "73b038bde83146a8a3fba4f9bdb24ae2d15548c26fd67e89079cf331896b5ff7",
+      "usage": {
+        "input_tokens": 3269,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 405,
+        "output_tokens_details": {
+          "reasoning_tokens": 355
+        },
+        "total_tokens": 3674,
+        "x_details": [
+          {
+            "input_tokens": 3269,
+            "output_tokens": 405,
+            "output_tokens_details": {
+              "reasoning_tokens": 355
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3674,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U07",
+      "role": "client",
+      "text": "其实我也不是真的完全没感觉，站在那里风刮过来的时候，我脑子里闪过好几次“不然先走算了”，但每次一想走，就又开始想，要是她到了没看到我，会不会觉得我连等人都不耐烦。后来她来的时候一直说抱歉，我也不知道为什么反而一直跟她说“没事，我也刚到不久”。",
+      "request_sha256": "87e1db68ae7a1cd0a1086ca6e45bd405f4eb9fd4a0897bd6650cac48ea79320d",
+      "usage": {
+        "input_tokens": 4116,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 565,
+        "output_tokens_details": {
+          "reasoning_tokens": 494
+        },
+        "total_tokens": 4681,
+        "x_details": [
+          {
+            "input_tokens": 4116,
+            "output_tokens": 565,
+            "output_tokens_details": {
+              "reasoning_tokens": 494
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4681,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U08",
+      "role": "counselor",
+      "text": "你脑子里闪过好几次“先走算了”，可最后还是站在原地，甚至在她一直道歉时反而说“我也刚到不久”——好像你不仅要把等待和冷风收起来，还要主动替对方把内疚也抹平。也许“刚到不久”这句话，是在替你守住一个“我不计较、不给人添麻烦”的样子。",
+      "request_sha256": "83a67bc7a70ac1233dbdd4f9e4723c277e057fc961b479946e965f6c8cb1672c",
+      "usage": {
+        "input_tokens": 3435,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 252,
+        "output_tokens_details": {
+          "reasoning_tokens": 182
+        },
+        "total_tokens": 3687,
+        "x_details": [
+          {
+            "input_tokens": 3435,
+            "output_tokens": 252,
+            "output_tokens_details": {
+              "reasoning_tokens": 182
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3687,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U09",
+      "role": "client",
+      "text": "其实那天我说“我也刚到不久”的时候，自己都觉得有点好笑，明明手都冻得有点僵了。我后来还在想，我是不是连让自己生一下气都不敢，好像一生气就变成那种很难搞的人。",
+      "request_sha256": "56b514b73f813a3fde77a156af45be9a4b127f09204a19e521511905c934bcf8",
+      "usage": {
+        "input_tokens": 4302,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 310,
+        "output_tokens_details": {
+          "reasoning_tokens": 261
+        },
+        "total_tokens": 4612,
+        "x_details": [
+          {
+            "input_tokens": 4302,
+            "output_tokens": 310,
+            "output_tokens_details": {
+              "reasoning_tokens": 261
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4612,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U10",
+      "role": "counselor",
+      "text": "你连“我生气了”都很难对自己承认，好像一生气就会变成自己不想成为的那种“难搞的人”。可那只冻僵的手和你说“刚到不久”时感到的好笑，也许已经在提醒你：你其实有感觉，只是一直在替自己把它们压下去。",
+      "request_sha256": "335cc4e0c1dfbde6b615314dbf2ad50a10ff42f27a8595f166d22d0a3a2bb075",
+      "usage": {
+        "input_tokens": 3599,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 380,
+        "output_tokens_details": {
+          "reasoning_tokens": 319
+        },
+        "total_tokens": 3979,
+        "x_details": [
+          {
+            "input_tokens": 3599,
+            "output_tokens": 380,
+            "output_tokens_details": {
+              "reasoning_tokens": 319
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3979,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U11",
+      "role": "client",
+      "text": "可能……连我自己都没想清楚，到底是真的没生气，还是已经习惯先把它压过去。你这么说，我有点接不住，但好像又有点准。",
+      "request_sha256": "fcfa829f29d6c94677c44c3196d52150a2288c4a515f2d51478fe28660c5daf0",
+      "usage": {
+        "input_tokens": 4464,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 201,
+        "output_tokens_details": {
+          "reasoning_tokens": 165
+        },
+        "total_tokens": 4665,
+        "x_details": [
+          {
+            "input_tokens": 4464,
+            "output_tokens": 201,
+            "output_tokens_details": {
+              "reasoning_tokens": 165
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4665,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U12",
+      "role": "counselor",
+      "text": "“接不住”可能恰好说明这件事碰到了一些你平时不太去碰的地方。 现在不用急着弄明白到底是不是生气，能停在这个“有点准”的感觉旁边，就已经是一种不同的对待方式了。",
+      "request_sha256": "e79dd5e975b5fae3697c888a115fdb7ed69f46901c7454ebd9ccf9f7b1ff1f87",
+      "usage": {
+        "input_tokens": 3748,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 220,
+        "output_tokens_details": {
+          "reasoning_tokens": 175
+        },
+        "total_tokens": 3968,
+        "x_details": [
+          {
+            "input_tokens": 3748,
+            "output_tokens": 220,
+            "output_tokens_details": {
+              "reasoning_tokens": 175
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3968,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U13",
+      "role": "client",
+      "text": "可能……我确实不太会停，好像一停下来就觉得自己在偷懒，或者没把该想的事想透。今天先这样吧，我回去再说。",
+      "request_sha256": "069ca3cbd47b18812a958b3686928ea66e9688f7b68fe98e95c7fde430574b2d",
+      "usage": {
+        "input_tokens": 4590,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 764,
+        "output_tokens_details": {
+          "reasoning_tokens": 728
+        },
+        "total_tokens": 5354,
+        "x_details": [
+          {
+            "input_tokens": 4590,
+            "output_tokens": 764,
+            "output_tokens_details": {
+              "reasoning_tokens": 728
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5354,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U14",
+      "role": "counselor",
+      "text": "好像“停下来”在你心里很容易就变成“偷懒”或“没把该想的事想透”，所以连让自己暂停一下都带着一点不安。今天能在这里停一下，不去把它变成又一个要解决的任务，也许本身就是一种不太一样的练习。我们下次再继续。",
+      "request_sha256": "588180f2b0aebc645f0c40f2d85fd09fa10453237306ca9e8dfd4273d2d1fe24",
+      "usage": {
+        "input_tokens": 3874,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 369,
+        "output_tokens_details": {
+          "reasoning_tokens": 309
+        },
+        "total_tokens": 4243,
+        "x_details": [
+          {
+            "input_tokens": 3874,
+            "output_tokens": 369,
+            "output_tokens_details": {
+              "reasoning_tokens": 309
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4243,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U15",
+      "role": "client",
+      "text": "可能吧，我回去之后大概还是会忍不住想那三个方案和方宁迟到的事，但至少现在先不逼自己马上理清楚。今天先这样。",
+      "request_sha256": "03a0a098f72ef5a7f4b5e2853d2e4f891a5d2e990693114df17c8bbc541d37ff",
+      "usage": {
+        "input_tokens": 4731,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 271,
+        "output_tokens_details": {
+          "reasoning_tokens": 236
+        },
+        "total_tokens": 5002,
+        "x_details": [
+          {
+            "input_tokens": 4731,
+            "output_tokens": 271,
+            "output_tokens_details": {
+              "reasoning_tokens": 236
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 5002,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S03-U16",
+      "role": "counselor",
+      "text": "好像你已经在试着给那些反复出现的事情留一点位置，而不是立刻逼自己理清楚。今天能停在这里，不妨就让它先停在这里。",
+      "request_sha256": "59567a50b8321fbaada12151fa4d8c1b8015f81ee786f743fef601794d023028",
+      "usage": {
+        "input_tokens": 4014,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 113,
+        "output_tokens_details": {
+          "reasoning_tokens": 80
+        },
+        "total_tokens": 4127,
+        "x_details": [
+          {
+            "input_tokens": 4014,
+            "output_tokens": 113,
+            "output_tokens_details": {
+              "reasoning_tokens": 80
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4127,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

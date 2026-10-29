@@ -1,0 +1,113 @@
+{
+  "kind": "exploratory_model_assisted_empirical_gate",
+  "passed": true,
+  "selected_nodes": [
+    "N01",
+    "N04",
+    "N06"
+  ],
+  "confirmed_nodes": 3,
+  "confirmed_cases": 3,
+  "most_current_session_sufficient": false,
+  "effects": [
+    {
+      "node": "N01",
+      "case_id": "C01",
+      "both_confirmed": true,
+      "H1": {
+        "scope": "reselected",
+        "node": "N01",
+        "condition": "H1_session",
+        "samples": 2,
+        "mean_U": 1.5,
+        "mean_R": 1.75,
+        "mean_E": 1.0,
+        "P_count": 0,
+        "P_rate": 0.0,
+        "S_count": 0
+      },
+      "H2": {
+        "scope": "reselected",
+        "node": "N01",
+        "condition": "H2_full",
+        "samples": 2,
+        "mean_U": 3.0,
+        "mean_R": 3.5,
+        "mean_E": 1.5,
+        "P_count": 0,
+        "P_rate": 0.0,
+        "S_count": 0
+      },
+      "delta_U": 1.5,
+      "delta_R": 1.75,
+      "current_session_sufficient_and_equivalent": false
+    },
+    {
+      "node": "N04",
+      "case_id": "C02",
+      "both_confirmed": true,
+      "H1": {
+        "scope": "reselected",
+        "node": "N04",
+        "condition": "H1_session",
+        "samples": 2,
+        "mean_U": 3.0,
+        "mean_R": 2.75,
+        "mean_E": 1.5,
+        "P_count": 0,
+        "P_rate": 0.0,
+        "S_count": 0
+      },
+      "H2": {
+        "scope": "reselected",
+        "node": "N04",
+        "condition": "H2_full",
+        "samples": 2,
+        "mean_U": 3.0,
+        "mean_R": 3.5,
+        "mean_E": 1.25,
+        "P_count": 0,
+        "P_rate": 0.0,
+        "S_count": 0
+      },
+      "delta_U": 0.0,
+      "delta_R": 0.75,
+      "current_session_sufficient_and_equivalent": false
+    },
+    {
+      "node": "N06",
+      "case_id": "C03",
+      "both_confirmed": true,
+      "H1": {
+        "scope": "reselected",
+        "node": "N06",
+        "condition": "H1_session",
+        "samples": 2,
+        "mean_U": 3.25,
+        "mean_R": 2.25,
+        "mean_E": 1.75,
+        "P_count": 0,
+        "P_rate": 0.0,
+        "S_count": 0
+      },
+      "H2": {
+        "scope": "reselected",
+        "node": "N06",
+        "condition": "H2_full",
+        "samples": 2,
+        "mean_U": 3.0,
+        "mean_R": 3.5,
+        "mean_E": 1.75,
+        "P_count": 0,
+        "P_rate": 0.0,
+        "S_count": 0
+      },
+      "delta_U": -0.25,
+      "delta_R": 1.25,
+      "current_session_sufficient_and_equivalent": false
+    }
+  ],
+  "protocol": "empirical_gate_protocol.json",
+  "human_review_performed": false,
+  "checked_at": "2026-10-13T10:39:39.162992+00:00"
+}

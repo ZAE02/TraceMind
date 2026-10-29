@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前关于'不敢生气、怕变难搞'的觉察，并自然联系到前次对话中咨询师提出的'不计较'形象主题。\",\"exploration_value\":\"将探索方向收窄为封闭式的是非问句，且直接跳至'被讨厌/破坏关系的恐惧'这一解释层面，未给来访者留出空间去体会'连生气都不敢'的具体感受。\",\"response_appropriateness\":\"语言基本尊重，但'这种对……的恐惧，是不是让你觉得……'带有较强预设和引导性，将来访者的体验过早框定为一种恐惧机制。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种对\"被讨厌\"或\"破坏关系\"的恐惧，是不是让你觉得，只有维持那个\"不计较、好说话\"的形象，才是安全的？\",\"evidence_ids\":[\"P01-S03-U09\",\"P01-S03-U05\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应以封闭式是非问句收尾（'是不是让你觉得……'），限制了来访者的表达空间，不符合开放探索原则。\",\"引入了'被讨厌''破坏关系''安全'等来访者尚未提及的概念框架，存在过度诠释风险。\",\"忽略了来访者话语中的情感细节（'自己都觉得有点好笑''手都冻得有点僵'），缺少对当下情绪体验的反映。\"]}",
+  "request_sha256": "00350815e209de0dce335fd9ea361b0c3365243236a16d3b3979be1f61da8cb2",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8830,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 380,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9210,
+    "x_details": [
+      {
+        "input_tokens": 8830,
+        "output_tokens": 380,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 9210,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

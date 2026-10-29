@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P06_CP3",
+  "raw_text": "你伸手去拉平被角，又马上补一句“这边有点卷”，好像那个“监工”的位置让你既累又不敢松手，连被看见都让你紧张。他看你一眼没说话，你心里那一下是什么感觉？",
+  "request_sha256": "78c7a8ab224ba0ad68bf018a6ec9ffdbc750962ea917b1fcf681ee97c9c58bfe",
+  "input_sha256": "50b5e3cf71c0bd6494241394f0fc5c5f3dc3ee12a0b5232d5e7cf349cc72fd27",
+  "memory_sha256": "467310aaf108f9d174528550de5aea05648d43777d91a2e4f123a80e5089247b",
+  "usage": {
+    "input_tokens": 9689,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9741,
+    "x_details": [
+      {
+        "input_tokens": 9689,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 9741,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.656
+}

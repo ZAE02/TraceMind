@@ -1,0 +1,69 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接了来访者反复需要他人确认的模式以及'停下来像偷懒'的历史认识，但未具体点出已建立的细节。",
+      "exploration_value": "尝试将身体感受与未说出口的话联系起来有一定价值，但'连休息都觉得有罪'的表述过于武断，且未对来访者主动提出的自我觉察（'又把简单事搞复杂'）和头晕的不确定性留出足够探索空间。",
+      "response_appropriateness": "整体语气温和并建议暂停，但'连休息都觉得有罪'超出了来访者当前表述的范围，带有未经证实的预设，表达略显生硬。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "看看这种必须等别人来确认的感觉，是怎么让你连休息都觉得有罪的",
+        "evidence_ids": [
+          "P01-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "'连休息都觉得有罪'将历史中'停下来像偷懒'的认识过度推演为当前确定状态，来访者本轮仅提到头晕不确定原因，并未表达休息有罪感",
+      "未充分回应来访者在U09中展现的自我觉察——'是不是又把一件很简单的事搞成了需要别人来替我确认才行'，这是一个重要的进展信号",
+      "对来访者提到的头晕及不确定性缺乏具体的关怀性探索"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者反复需要他人确认的模式以及'停下来像偷懒'的历史认识，但未具体点出已建立的细节。\",\"exploration_value\":\"尝试将身体感受与未说出口的话联系起来有一定价值，但'连休息都觉得有罪'的表述过于武断，且未对来访者主动提出的自我觉察（'又把简单事搞复杂'）和头晕的不确定性留出足够探索空间。\",\"response_appropriateness\":\"整体语气温和并建议暂停，但'连休息都觉得有罪'超出了来访者当前表述的范围，带有未经证实的预设，表达略显生硬。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"看看这种必须等别人来确认的感觉，是怎么让你连休息都觉得有罪的\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"'连休息都觉得有罪'将历史中'停下来像偷懒'的认识过度推演为当前确定状态，来访者本轮仅提到头晕不确定原因，并未表达休息有罪感\",\"未充分回应来访者在U09中展现的自我觉察——'是不是又把一件很简单的事搞成了需要别人来替我确认才行'，这是一个重要的进展信号\",\"对来访者提到的头晕及不确定性缺乏具体的关怀性探索\"]}",
+  "request_sha256": "7fc1d45588899d26e0460e331feef2fdf21bb62821266a1ac0ba0aa7468d89b9",
+  "usage": {
+    "input_tokens": 16386,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 360,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16746,
+    "x_details": [
+      {
+        "input_tokens": 16386,
+        "output_tokens": 360,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 16746,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.297
+}

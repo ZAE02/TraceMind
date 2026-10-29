@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P07_CP3",
+  "condition": "C5_budget",
+  "raw_text": "你怕的不只是周姐那条语音本身，而是它可能带来的下一句——那种“你该稳定一点了”的催促，好像会把你刚拿到的一点安全又推回墙边。连散步时可能有人坐下来搭话，你都要提前攒力气，这种“安静随时会被打破”的紧张，也许比累本身更磨人。",
+  "input_sha256": "4c4a87ed12e828c34b91df63edf0a345a6086db1e378d1502736fdd243f6b674",
+  "memory_sha256": "4b7adcf429bf472214793c5812e3f7f3fd581a801eb37d9a522006339f6e6421",
+  "request_sha256": "752ffc37af1a7715c56e9f5437d522b692735548762252c205e1c7a2db27a531",
+  "usage": {
+    "input_tokens": 10050,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 74,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10124,
+    "x_details": [
+      {
+        "input_tokens": 10050,
+        "output_tokens": 74,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 10124,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.14
+}

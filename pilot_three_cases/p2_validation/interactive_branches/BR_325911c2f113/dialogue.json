@@ -1,0 +1,42 @@
+{
+  "branch_id": "BR_325911c2f113",
+  "node": "N06",
+  "method": "B3_generic_rollup",
+  "replicate": 1,
+  "rounds": 2,
+  "status": "completed",
+  "public_input_sha256": "8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+  "private_state_sha256": "f3cbf5e8bf1187c406a003d45f61a7d2d01f5d17a7fe501c84ffff0609b21e48",
+  "initial_answer_sample": 1,
+  "utterances": [
+    {
+      "id": "BR_325911c2f113_U01",
+      "role": "counselor",
+      "text": "你说感觉跟上次不太一样——能多说说是哪里不一样吗？",
+      "source_call_id": "8cbf626b432e40aa86fcf9f6b7484dcb",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_325911c2f113_U02",
+      "role": "client",
+      "text": "就是……上次是那种，得先说\"我查了两天了\"，然后才问问题，中间有个停顿。这次就是联调的时候直接问\"这个字段是什么意思\"，他解释完就继续了，没有那个……交代的感觉。",
+      "source_call_id": "c9e66c0d28bf489e9ad2c3f7cd0ad9ca"
+    },
+    {
+      "id": "BR_325911c2f113_U03",
+      "role": "counselor",
+      "text": "你说犹豫了一下，然后就直接问了——那个犹豫的片刻里，是什么在？",
+      "source_call_id": "494f7e80042a44a28c923a1ccd142ee5",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_325911c2f113_U04",
+      "role": "client",
+      "text": "就是……就一下，脑子里过了一下\"这个问出来会不会显得……\"，然后发现旁边还有别的东西在聊，就顺势问了。\n\n说不上具体在犹豫什么，可能就是那个\"要不要问\"的念头本身。但比上次快，上次那个停顿是好几秒，这次可能就……一下。",
+      "source_call_id": "4d206a23182b4fa794ea1d815cb71270"
+    }
+  ],
+  "client_model": "qwen3.8-27b",
+  "counselor_model": "qwen3.8-27b",
+  "notice": "Initial counselor answer reused. Two new client responses and one new counselor response; no original post-freeze client reply spliced in."
+}

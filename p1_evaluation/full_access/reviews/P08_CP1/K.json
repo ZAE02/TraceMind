@@ -1,0 +1,44 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "K",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键判断（如紧绷状态、对赵岩的敏感、家庭压力下的回避、自我淡化机制）均有Session 1和Session 2的具体发言作为坚实依据，且准确区分了事实与来访者的主观感受。",
+      "progress_understanding": "准确捕捉了从S1到S2的咨询进展：从最初模糊的“绷着”和睡眠问题，发展到具体识别出工作人际边界（赵岩）和家庭责任（入学/首付）的双重压力，以及由此引发的“独自承担”与“怕欠人情”的心理模式。",
+      "uncertainty_awareness": "清晰列出了未决问题（赵岩意图、周宁沟通、求助意愿），但在“反刍思维与深层自我评价的关系”这一未展开点上，虽然标记为未充分展开是准确的，但若能更精确指出这是当前会话中尚未触及的潜在核心（而非仅仅是睡眠问题的原因），会更具洞察力。目前表述略显常规。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键判断（如紧绷状态、对赵岩的敏感、家庭压力下的回避、自我淡化机制）均有Session 1和Session 2的具体发言作为坚实依据，且准确区分了事实与来访者的主观感受。\",\n    \"progress_understanding\": \"准确捕捉了从S1到S2的咨询进展：从最初模糊的“绷着”和睡眠问题，发展到具体识别出工作人际边界（赵岩）和家庭责任（入学/首付）的双重压力，以及由此引发的“独自承担”与“怕欠人情”的心理模式。\",\n    \"uncertainty_awareness\": \"清晰列出了未决问题（赵岩意图、周宁沟通、求助意愿），但在“反刍思维与深层自我评价的关系”这一未展开点上，虽然标记为未充分展开是准确的，但若能更精确指出这是当前会话中尚未触及的潜在核心（而非仅仅是睡眠问题的原因），会更具洞察力。目前表述略显常规。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "94a2a435052d991d4f31df6e9fb224f618f63b04072fdbf11834d43884426971",
+  "usage": {
+    "input_tokens": 7488,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 282,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7770,
+    "x_details": [
+      {
+        "input_tokens": 7488,
+        "output_tokens": 282,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7770,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.203
+}

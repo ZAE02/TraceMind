@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_325911c2f113",
+  "round": 2,
+  "node": "N06",
+  "method": "B3_generic_rollup",
+  "replicate": 1,
+  "private_state_sha256": "f3cbf5e8bf1187c406a003d45f61a7d2d01f5d17a7fe501c84ffff0609b21e48",
+  "request_sha256": "3e4b787d78706a03d3696971c58d7691e217a8498f94d46c2532098f78382b81",
+  "call_id": "4d206a23182b4fa794ea1d815cb71270",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "就是……就一下，脑子里过了一下\"这个问出来会不会显得……\"，然后发现旁边还有别的东西在聊，就顺势问了。\n\n说不上具体在犹豫什么，可能就是那个\"要不要问\"的念头本身。但比上次快，上次那个停顿是好几秒，这次可能就……一下。",
+  "usage": {
+    "input_tokens": 4244,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 397,
+    "output_tokens_details": {
+      "reasoning_tokens": 329
+    },
+    "total_tokens": 4641,
+    "x_details": [
+      {
+        "input_tokens": 4244,
+        "input_tokens_details": {
+          "text_tokens": 4244
+        },
+        "output_tokens": 397,
+        "output_tokens_details": {
+          "reasoning_tokens": 329
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4641,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T10:54:32.293654+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

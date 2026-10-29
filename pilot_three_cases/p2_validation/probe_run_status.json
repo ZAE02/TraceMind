@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "answers": 12,
+  "nodes": [
+    "N04",
+    "N06"
+  ],
+  "pending": [],
+  "M0_reused": 4,
+  "scope": "mechanism probe only; excluded from method ranking",
+  "updated_at": "2026-10-13T11:19:30.427667+00:00"
+}

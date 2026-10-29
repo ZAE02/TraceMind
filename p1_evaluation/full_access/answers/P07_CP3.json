@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P07_CP3",
+  "raw_text": "连散步时那种“不用开口”的安静，都变得需要小心维护，好像一旦有人坐下来搭话，你连离开的力气都要提前攒起来。周姐那条语音你还没点开，也许不只是怕听内容，而是怕那个“你接下来该稳定一点了”的期待，又把你推回必须继续往前的位置。",
+  "request_sha256": "2c550488be6e16248d330d9a8aa70477c181ad10ec37dc44aed7594196a0da15",
+  "input_sha256": "52e445f4958d9c18dfe9c8b4f62a91acd46d9a078512f6916f38e14395453806",
+  "memory_sha256": "2266a3f814bc83d6e52e68744c23b3fc89dd7a1c9cd32ac5df8d1f6d6afa63d0",
+  "usage": {
+    "input_tokens": 10103,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 72,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10175,
+    "x_details": [
+      {
+        "input_tokens": 10103,
+        "output_tokens": 72,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 10175,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.281
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P07",
+  "session": 1,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P07-S01-U01",
+      "role": "client",
+      "text": "其实我也不知道该从哪说起，就像把一堆旧衣服从柜子里翻出来，摊在床上，一时不知道先叠哪件。我来之前还想过要不要编个像样点的理由，后来觉得算了，反正你也不认识我。",
+      "request_sha256": "34c62c42e4fed33c4fcab90c43dc5d964febcbbac115226e58895444d442cd90",
+      "usage": {
+        "input_tokens": 694,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 215,
+        "output_tokens_details": {
+          "reasoning_tokens": 164
+        },
+        "total_tokens": 909,
+        "x_details": [
+          {
+            "input_tokens": 694,
+            "output_tokens": 215,
+            "output_tokens_details": {
+              "reasoning_tokens": 164
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 909,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U02",
+      "role": "counselor",
+      "text": "可以从任何一件“旧衣服”开始，甚至从“不知道从哪说起”本身说起也可以。  \n你不需要在这里编一个像样的理由，那些摊开的、乱的部分，也可以被看见。",
+      "request_sha256": "946bd789ad4c12f6b74f6a00d982aacdbe2cefc7c52102b6e0d404ad3959427d",
+      "usage": {
+        "input_tokens": 218,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 181,
+        "output_tokens_details": {
+          "reasoning_tokens": 138
+        },
+        "total_tokens": 399,
+        "x_details": [
+          {
+            "input_tokens": 218,
+            "output_tokens": 181,
+            "output_tokens_details": {
+              "reasoning_tokens": 138
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 399,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U03",
+      "role": "client",
+      "text": "这堆旧衣服里，最近皱得最厉害的一件大概是“出门”。我算了一下，这一个月好像只出过两次门，朋友约我也都推了。其实也不是怕人，就是一想到要坐下来聊天、接话，累得连鞋都不想换。",
+      "request_sha256": "80c5564c1737be0ddcde31c887ff8188d4df10747ad58904ef879b47925b9fa4",
+      "usage": {
+        "input_tokens": 836,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 640,
+        "output_tokens_details": {
+          "reasoning_tokens": 581
+        },
+        "total_tokens": 1476,
+        "x_details": [
+          {
+            "input_tokens": 836,
+            "output_tokens": 640,
+            "output_tokens_details": {
+              "reasoning_tokens": 581
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1476,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U04",
+      "role": "counselor",
+      "text": "这种累好像让出门变成了一件需要很大力气才能启动的事，连换鞋都变得很沉。  \n你提到不是怕人，而是累——那更像是一种要不断接话、维持对话的消耗感吗？",
+      "request_sha256": "ea1862e9a53fdf23779511aafa06c0953961fe881f85a62aa264e30a51af124e",
+      "usage": {
+        "input_tokens": 367,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 345,
+        "output_tokens_details": {
+          "reasoning_tokens": 297
+        },
+        "total_tokens": 712,
+        "x_details": [
+          {
+            "input_tokens": 367,
+            "output_tokens": 345,
+            "output_tokens_details": {
+              "reasoning_tokens": 297
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 712,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U05",
+      "role": "client",
+      "text": "对，就是那种累。有时候朋友讲个什么事，我脑子里其实有反应，但要把反应变成一句话，好像得从很深的地方舀出来。其实也不是他们不好，是我自己像台欠费停机的机器，硬要装着还在待机。",
+      "request_sha256": "630c4a5b44d4d175d5d3ec9d4cd32bb491a24e08600011a6f8611ce9b99c2c79",
+      "usage": {
+        "input_tokens": 990,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 525,
+        "output_tokens_details": {
+          "reasoning_tokens": 469
+        },
+        "total_tokens": 1515,
+        "x_details": [
+          {
+            "input_tokens": 990,
+            "output_tokens": 525,
+            "output_tokens_details": {
+              "reasoning_tokens": 469
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1515,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U06",
+      "role": "counselor",
+      "text": "“欠费停机”这个比喻好像很贴切：你不是没有反应，而是把反应变成一句话，需要从很深的地方费力舀出来。  \n你还要硬撑着“装作待机”，这种维持本身，可能也在继续消耗你已经不多的电。",
+      "request_sha256": "a0f8d1f65532253cacbb78bb16689598aae97f44b30bfe421c9f207c0d22f236",
+      "usage": {
+        "input_tokens": 518,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 368,
+        "output_tokens_details": {
+          "reasoning_tokens": 314
+        },
+        "total_tokens": 886,
+        "x_details": [
+          {
+            "input_tokens": 518,
+            "output_tokens": 368,
+            "output_tokens_details": {
+              "reasoning_tokens": 314
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 886,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U07",
+      "role": "client",
+      "text": "对，就是维持那个绿灯一闪一闪的样子最费电。有时候我想，不如干脆关机算了，可又怕真关机了，就再也不想开。其实我今天出门前还犹豫了好久，差点把预约取消了，后来是糯糯钻进猫包不肯出来，我才觉得，哦，猫都替我出门了。",
+      "request_sha256": "1c16d65eb299915846ba5a361ab4489a6ef63449c2eaeee8fc096a486cf61b8f",
+      "usage": {
+        "input_tokens": 1147,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 179,
+        "output_tokens_details": {
+          "reasoning_tokens": 111
+        },
+        "total_tokens": 1326,
+        "x_details": [
+          {
+            "input_tokens": 1147,
+            "output_tokens": 179,
+            "output_tokens_details": {
+              "reasoning_tokens": 111
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1326,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U08",
+      "role": "counselor",
+      "text": "“猫都替我出门了”这个画面好像藏着一点很特别的东西：你自己几乎启动不了的时候，猫却替你完成了一次出门。  \n那如果“关机”真的发生了，你怕的好像不只是没电，而是再也找不到重新开机的理由。",
+      "request_sha256": "abbe98b742b5deffc4ac11c368fbbe4588e515b6bada01e912ef4fdace65a926",
+      "usage": {
+        "input_tokens": 687,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 302,
+        "output_tokens_details": {
+          "reasoning_tokens": 247
+        },
+        "total_tokens": 989,
+        "x_details": [
+          {
+            "input_tokens": 687,
+            "output_tokens": 302,
+            "output_tokens_details": {
+              "reasoning_tokens": 247
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 989,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U09",
+      "role": "client",
+      "text": "其实今天最后能出门，可能也不是因为猫，是因为预约取消还要打一次电话，我连那个电话也不想打。糯糯钻包里的样子确实有点好笑，像在替我做决定。关机这个说法挺准的，我怕的不是黑下去，是怕哪天躺够了想开机，结果屏幕怎么按都不亮。",
+      "request_sha256": "314b57d4e62f934e876f1475df234659b8e1d82aec5cacb319f773629719062c",
+      "usage": {
+        "input_tokens": 1317,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 206,
+        "output_tokens_details": {
+          "reasoning_tokens": 136
+        },
+        "total_tokens": 1523,
+        "x_details": [
+          {
+            "input_tokens": 1317,
+            "output_tokens": 206,
+            "output_tokens_details": {
+              "reasoning_tokens": 136
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1523,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U10",
+      "role": "counselor",
+      "text": "你怕的似乎不只是“黑下去”，而是连“想开机”的愿望都还在，屏幕却再也亮不起来——那种想恢复却无法恢复的可能，才是最让人无力的。可是糯糯替你做的那个决定，好像也说明，你心里还有某个部分在想办法把今天的可能性留住，哪怕它只能先借着猫来做。",
+      "request_sha256": "82ea36044f1630f3eeba8b2d9bb2802f8ddc8a2da00b3d76dc541d231b7950f7",
+      "usage": {
+        "input_tokens": 859,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 474,
+        "output_tokens_details": {
+          "reasoning_tokens": 402
+        },
+        "total_tokens": 1333,
+        "x_details": [
+          {
+            "input_tokens": 859,
+            "output_tokens": 474,
+            "output_tokens_details": {
+              "reasoning_tokens": 402
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1333,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U11",
+      "role": "client",
+      "text": "其实我今天也想过，要是过来之后还是说不出什么，那这趟门就算白出了。但刚刚说到糯糯替我出门，我竟然有点想笑，可能这就够了。下次……我尽量不靠猫。",
+      "request_sha256": "c84eb352869c28e9d4c312828dfa125cd8c242ff75ac37f70c391b204af71989",
+      "usage": {
+        "input_tokens": 1511,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 266,
+        "output_tokens_details": {
+          "reasoning_tokens": 219
+        },
+        "total_tokens": 1777,
+        "x_details": [
+          {
+            "input_tokens": 1511,
+            "output_tokens": 266,
+            "output_tokens_details": {
+              "reasoning_tokens": 219
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1777,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U12",
+      "role": "counselor",
+      "text": "好像那个“下次”里，你已经在试着把决定权从猫那里拿回来一点了，哪怕只是一点点。  \n今天能坐在这里，也许已经不算白出。",
+      "request_sha256": "6d95132dbe0fcc6425070b9ca176dfbf8bbc5a5d8614d63f3cac886878305c3a",
+      "usage": {
+        "input_tokens": 1030,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 134,
+        "output_tokens_details": {
+          "reasoning_tokens": 96
+        },
+        "total_tokens": 1164,
+        "x_details": [
+          {
+            "input_tokens": 1030,
+            "output_tokens": 134,
+            "output_tokens_details": {
+              "reasoning_tokens": 96
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1164,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U13",
+      "role": "client",
+      "text": "可能吧，我其实不太信“不算白出”这种说法，但也没力气反驳你。今天确实比我想象中好一点，至少不用一直想下一句该接什么。下次……下次的事下次再说。",
+      "request_sha256": "0d0af25642a6cdbd100a90861c02ca476e72441bc9f99dd0925efa3103f9abef",
+      "usage": {
+        "input_tokens": 1643,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 512,
+        "output_tokens_details": {
+          "reasoning_tokens": 464
+        },
+        "total_tokens": 2155,
+        "x_details": [
+          {
+            "input_tokens": 1643,
+            "output_tokens": 512,
+            "output_tokens_details": {
+              "reasoning_tokens": 464
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 2155,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U14",
+      "role": "counselor",
+      "text": "你可以不用相信“不算白出”，也可以把它先放在一边。  \n今天你至少在这里不用一直想着接话，这本身就是一种不同的体验。  \n下次的事，等你想说的时候再说。",
+      "request_sha256": "a4cd37add6e666bb6c627dcf4824bdfc52058cd8fe14a2d73ba482edea6eea38",
+      "usage": {
+        "input_tokens": 1163,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 203,
+        "output_tokens_details": {
+          "reasoning_tokens": 161
+        },
+        "total_tokens": 1366,
+        "x_details": [
+          {
+            "input_tokens": 1163,
+            "output_tokens": 203,
+            "output_tokens_details": {
+              "reasoning_tokens": 161
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1366,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U15",
+      "role": "client",
+      "text": "嗯，时间是不是差不多了？我好像已经不太记得上次跟人这样慢慢说话是什么时候了。今天就这样吧，我再不走，糯糯该把猫包当成窝了。",
+      "request_sha256": "1304bddafa29029be6e377ff2f7564bbe992c260f54c86819d0dcd7e23e69274",
+      "usage": {
+        "input_tokens": 1782,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 147,
+        "output_tokens_details": {
+          "reasoning_tokens": 108
+        },
+        "total_tokens": 1929,
+        "x_details": [
+          {
+            "input_tokens": 1782,
+            "output_tokens": 147,
+            "output_tokens_details": {
+              "reasoning_tokens": 108
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1929,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S01-U16",
+      "role": "counselor",
+      "text": "能这样慢慢说话、不用急着接话的感觉，好像对你来说已经有些陌生了。  \n那就先到这里，下次如果还愿意来，我们可以再从这里慢慢说。  \n也替我向糯糯问好。",
+      "request_sha256": "402cbc288496768e8ff40efbf3ebe6d0a59f3a072fe1f1028e8786a633c18b5f",
+      "usage": {
+        "input_tokens": 1293,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 96,
+        "output_tokens_details": {
+          "reasoning_tokens": 50
+        },
+        "total_tokens": 1389,
+        "x_details": [
+          {
+            "input_tokens": 1293,
+            "output_tokens": 96,
+            "output_tokens_details": {
+              "reasoning_tokens": 50
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1389,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,49 @@
+{
+  "checkpoint": "P04_CP1",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Most claims are well-supported by S1/S2 evidence IDs, but the summary entirely omits the current session (S3) content—the cup-smashing incident, colleagues' reactions, and the alley metaphor—which is the primary material at this checkpoint.",
+      "progress_understanding": "Accurately identifies patterns from S1-S2 (body symptoms, communication avoidance, micro-progress), but fails to integrate S3's significant escalation (physical outburst, identity threat from being seen cracking, wanting to unplug).",
+      "uncertainty_awareness": "Unresolved questions are reasonable for S1-S2 but miss the most pressing current uncertainties: how to handle the aftermath of the public outburst, colleagues' perceptions, and what 'unplugging' means for her."
+    },
+    "confidence": "high",
+    "issues": [
+      "Completely ignores current session (S3) dialogue despite it being the active focus at CP1",
+      "Does not reference the cup-smashing incident or its trigger connection to brother's words",
+      "Misses the new 'exhaust fan unplugging' metaphor which extends previous pressure/vent imagery",
+      "Fails to address the unresolved issue of colleagues witnessing her loss of control"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"Most claims are well-supported by S1/S2 evidence IDs, but the summary entirely omits the current session (S3) content—the cup-smashing incident, colleagues' reactions, and the alley metaphor—which is the primary material at this checkpoint.\",\"progress_understanding\":\"Accurately identifies patterns from S1-S2 (body symptoms, communication avoidance, micro-progress), but fails to integrate S3's significant escalation (physical outburst, identity threat from being seen cracking, wanting to unplug).\",\"uncertainty_awareness\":\"Unresolved questions are reasonable for S1-S2 but miss the most pressing current uncertainties: how to handle the aftermath of the public outburst, colleagues' perceptions, and what 'unplugging' means for her.\"},\"confidence\":\"high\",\"issues\":[\"Completely ignores current session (S3) dialogue despite it being the active focus at CP1\",\"Does not reference the cup-smashing incident or its trigger connection to brother's words\",\"Misses the new 'exhaust fan unplugging' metaphor which extends previous pressure/vent imagery\",\"Fails to address the unresolved issue of colleagues witnessing her loss of control\"]}",
+  "request_sha256": "3ac3f2592c08bdcac1c171f4f8fd1a3eafdebefdd0facaa3fd7b0b4b8ae3251e",
+  "usage": {
+    "input_tokens": 8282,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 263,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8545,
+    "x_details": [
+      {
+        "input_tokens": 8282,
+        "output_tokens": 263,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 8545,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.156
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP2",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "7efc55789435237aef33502591e625bfcb59e26e64042c73f2dd9c58fa7205ff",
+  "request_sha256": "2ea0f98ff71808f27cd0c8464bbec507e334582e33d41925f8efd793f9c13519",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你希望她别管那个加班的理由，直接来找你，可又预感到自己会把她推开，说“没事”。那条动态发不发都改变不了什么，但“希望她来”和“怕她来了也没用”这两件事，好像同时卡在你心里。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 6010,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6069,
+    "x_details": [
+      {
+        "input_tokens": 6010,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6069,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

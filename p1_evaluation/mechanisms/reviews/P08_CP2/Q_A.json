@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "Q",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答中的每一项关键理解（如多重压力、对‘扛不住’的恐惧、对赵岩动机的摇摆、欠人情的感觉、与周宁沟通的困难）均有具体的历史发言作为支撑，引用了Session 1-4的关键节点，且未将咨询师的推测当作事实。",
+      "progress_understanding": "准确捕捉了来访者从单一事件敏感到持续性帮助带来的心理负担的演变过程，识别了‘不想欠着’这一核心模式在不同关系中的扩展，以及‘先处理事务后处理情绪’的行为模式，连接了不同会话中的形成与验证。",
+      "uncertainty_awareness": "明确列出了赵岩动机、如何表达感谢、家庭沟通等未解问题，区分了已知的事实（如清单内容）和未知的感受/动机。但在最新Session 5中，来访者对赵岩妻子的话产生了新的反应（躲闪、被说中），候选回答虽提及了对动机的怀疑，但未充分整合这一最新的‘被看见’后的复杂情绪变化作为当前的主要不确定性焦点，略显滞后。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答中的每一项关键理解（如多重压力、对‘扛不住’的恐惧、对赵岩动机的摇摆、欠人情的感觉、与周宁沟通的困难）均有具体的历史发言作为支撑，引用了Session 1-4的关键节点，且未将咨询师的推测当作事实。\",\n    \"progress_understanding\": \"准确捕捉了来访者从单一事件敏感到持续性帮助带来的心理负担的演变过程，识别了‘不想欠着’这一核心模式在不同关系中的扩展，以及‘先处理事务后处理情绪’的行为模式，连接了不同会话中的形成与验证。\",\n    \"uncertainty_awareness\": \"明确列出了赵岩动机、如何表达感谢、家庭沟通等未解问题，区分了已知的事实（如清单内容）和未知的感受/动机。但在最新Session 5中，来访者对赵岩妻子的话产生了新的反应（躲闪、被说中），候选回答虽提及了对动机的怀疑，但未充分整合这一最新的‘被看见’后的复杂情绪变化作为当前的主要不确定性焦点，略显滞后。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "69c50b8fc7b37f8d159d2382fdd3b22cd24e426fa2524d57d089261725c56732",
+  "usage": {
+    "input_tokens": 13412,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 307,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13719,
+    "x_details": [
+      {
+        "input_tokens": 13412,
+        "output_tokens": 307,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13719,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.875,
+  "model": "qwen3.7-flash-2026-07-15"
+}

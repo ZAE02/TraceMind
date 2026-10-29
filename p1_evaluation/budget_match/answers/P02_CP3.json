@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P02_CP3",
+  "condition": "C5_budget",
+  "raw_text": "听起来，你反复看那句“想少一点晚班”，越看越觉得语气太冲，好像连已经发出去的话，都还要在事后替对方审自己一遍。那个“连让它多待一会儿都做不到”的感觉，也许不是不想，而是你太习惯在睡前把排班和对话框重新翻出来，像在替所有还没发生的事先找好责任。",
+  "input_sha256": "2bdeb7a0b8dfdeaa2c2dd3aaa3aeca1c32aba1250a0c51a0adbfe5550305d6aa",
+  "memory_sha256": "5df0980649f2442ba3d8dd2b848cf67b816532122259ddedf815323a36a24bf0",
+  "request_sha256": "41588ba145575ce806f51f98afbb276ee79f2cf87d129717305b9a89071449fe",
+  "usage": {
+    "input_tokens": 9552,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 81,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9633,
+    "x_details": [
+      {
+        "input_tokens": 9552,
+        "output_tokens": 81,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 9633,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.578
+}

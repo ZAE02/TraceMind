@@ -1,0 +1,42 @@
+{
+  "branch_id": "BR_41ede8090505",
+  "node": "N04",
+  "method": "B4_psych_rollup",
+  "replicate": 2,
+  "rounds": 2,
+  "status": "completed",
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "initial_answer_sample": 1,
+  "utterances": [
+    {
+      "id": "BR_41ede8090505_U01",
+      "role": "counselor",
+      "text": "那个'薄'还在，没变得更薄。你说到'我的越来越薄'的时候，那个'我的'后面，你想到的是什么在变薄？",
+      "source_call_id": "ed2e6db25c484c7d9957d0ce7e705b42",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_41ede8090505_U02",
+      "role": "client",
+      "text": "嗯……我想了想，好像最具体的就是周六下午吧。就是那种……我不用看工作消息，不用想\"这个数据明天要不要补\"，就只是坐在厨房切菜，或者窝沙发上看电影。那个\"我的\"，我脑子里第一个想到的就是那个下午。\n\n但你说\"变薄\"……好像也不只是那个下午没了，就是……我连\"我周六下午可以不用想工作\"这个念头本身，好像都没以前那么确定了。以前我会觉得\"周六就是周六\"，现在就是……我周六坐在厨房，脑子里还是会过一下明天那个报表。",
+      "source_call_id": "4cb3cf0022b14767a38fd27e9c6aaab6"
+    },
+    {
+      "id": "BR_41ede8090505_U03",
+      "role": "counselor",
+      "text": "以前'周六就是周六'，现在坐在厨房里脑子里会过一下报表。那个'过一下'，过完就过了，还是它会多待一会儿？",
+      "source_call_id": "e6b25a1673494319b402fe91136010d7",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_41ede8090505_U04",
+      "role": "client",
+      "text": "嗯……我想了想，好像是过完就过了，就是……脑子里\"哦明天那个报表\"一下，然后我就继续切菜了。但就是……那个\"一下\"本身，以前好像没有。以前我坐在厨房里就是切菜，不会突然跳出来一个\"明天\"。现在就是……它来一下，我接住了，但那个\"它来了\"这件事本身，让我觉得那个下午好像不是完全我的了。",
+      "source_call_id": "02173c2af92b407391b2416791d484b3"
+    }
+  ],
+  "client_model": "qwen3.8-27b",
+  "counselor_model": "qwen3.8-27b",
+  "notice": "Initial counselor answer reused. Two new client responses and one new counselor response; no original post-freeze client reply spliced in."
+}

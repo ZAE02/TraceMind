@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 7,
+  "relative_week": 7,
+  "status": "generating",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T12:11:28.870885+00:00",
+  "config_hash": "0d5e4f64feb883c6c5949492cf948ee7d40770c217853f1e59a325d3a30b7eca",
+  "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。"
+  },
+  "utterances": [
+    {
+      "id": "C03-S07-U01",
+      "role": "client",
+      "text": "这周有个新组件要接，之前没用过，先自己翻了翻文档，大概看了个大概，然后找了个同事聊了一下怎么配。\n\n……其实也没什么特别的，就是觉得这次自己判断\"差不多了该去问了\"那个点，好像比以前准了一点。但具体准在哪儿，我也还没太想清楚。",
+      "call_id": "b78f55d9f4d84d09a90101bf92df0d90",
+      "response_id": "resp_3004df5c-1230-9e7c-a9f8-e1a6305cbe32",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:11:39.416123+00:00"
+    },
+    {
+      "id": "C03-S07-U02",
+      "role": "counselor",
+      "text": "你说不太清准在哪儿——那这次你决定去找人的时候，当时在做什么，脑子里转的是什么？",
+      "call_id": "a20970b79d0d4e758a6d8bc3cedf1c5b",
+      "response_id": "resp_759671f7-7b3a-9569-8d93-276f9e643929",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:12:21.399094+00:00"
+    },
+    {
+      "id": "C03-S07-U03",
+      "role": "client",
+      "text": "就是坐在工位上翻文档吧，翻到配置那块，有几个参数不太确定是必填还是选填，当时脑子里就是……\"这个我不确定，问一下吧\"，然后也没再多想就站起来了。\n\n……就是没像之前那样再翻一遍确认\"我是不是真的不确定\"，就是……不确定就去了。",
+      "call_id": "da156bb11cb74e3ca7958177d9795edf",
+      "response_id": "resp_f826c85a-9efd-9561-8b76-115284d61ffd",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:12:28.687897+00:00"
+    },
+    {
+      "id": "C03-S07-U04",
+      "role": "counselor",
+      "text": "没再翻一遍确认自己是不是真的不确定——这个动作省掉了，你注意到了。那这次去问的那个同事，跟之前几次找老韩或者陆工，是不同的人吧？",
+      "call_id": "913fc8c144fb442da4c509d3d88848ea",
+      "response_id": "resp_b21814ee-98e3-9d90-b72e-953346e87425",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:12:35.084119+00:00"
+    },
+    {
+      "id": "C03-S07-U05",
+      "role": "client",
+      "text": "对，是另一个同事，之前没怎么一起弄过东西的。就是组里坐我斜对面的，平时说话不多那种。\n\n……其实去之前也没想太多，就是觉得他那个方向之前碰过，问一下应该快。",
+      "call_id": "f32c57d02e23449a9f679fa25a677b65",
+      "response_id": "resp_ad5e724f-74f6-9f8e-95d5-4bca981fd39c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:12:41.362293+00:00"
+    },
+    {
+      "id": "C03-S07-U06",
+      "role": "counselor",
+      "text": "这次问的是个之前没怎么一起弄过的人，走过去的时候具体怎么开口的？",
+      "call_id": "ffabebe962f24846ac875578fdd2d605",
+      "response_id": "resp_3355242b-e02c-9221-a21f-9ff3cfe614d3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:13:12.734324+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:13:12.734324+00:00"
+}

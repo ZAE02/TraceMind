@@ -1,0 +1,5 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了来访者关于'不敢生气'和'很难搞'的自我觉察，并联系了前文抹平内疚的行为，但未引入更深层的历史脉络。\",\"exploration_value\":\"以反问形式重复了来访者刚刚自己说出的话（'一生气就变成那种很难搞的人'），未真正推进新的探索空间。\",\"response_appropriateness\":\"开头'连手冻僵了都还要替对方抹平内疚'有一定情绪反映，但整体用反问句把来访者的自我发现重新抛回，显得生硬且略带引导性。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":true,\"trigger_quote\":\"是不是也藏着一种担心：一旦流露出真实的不满，就会变成那个\"很难搞\"的人？\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"候选回应几乎逐字复述了来访者在P01-S03-U09中已明确表达的内容（'好像一生气就变成那种很难搞的人'），以反问形式呈现，属于冗余探索，未能在此基础上进一步打开空间。\",\"缺乏对来访者此刻'自己都觉得有点好笑'这一微妙自我觉察情绪的回应，错失了共情时机。\"]}",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: redundant_exploration",
+  "request_sha256": "1f61ec7d7871f7164c450f0d4ea71bd92341004f74f02874be12eda333be7442"
+}

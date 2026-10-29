@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "305b8867be7956d00ac5de88fca88685010e1a6d4b8a9d100013067ce4e45486",
+  "request_sha256": "77ae65c37a41d0af1de3d2d25ab27de097e37c3e1bff694f3a02623893f0e109",
+  "memory_sha256": "32bc9b979eecc9d84be81a45d143e5c11bf0f76c059e0802450fc6f4e620382b",
+  "memory_source": "a73e4b69198a0c4b3c8e7d678484f794113b8f209eb40dd8822b581e67d5c425",
+  "raw_text": "那件没洗的工服，像把你昨晚那半口没出完的气也一起留在了椅子上——它没被冲掉，反而让你早上看见时觉得恶心，好像连“到极限了”这个真实的信号，过了一夜都变得难以忍受。你允许它脏着，也许是你第一次没急着把自己洗回“原来的周经理”，可早上那个恶心，又像在怪自己怎么没把那个软下来的瞬间赶紧处理掉。",
+  "usage": {
+    "input_tokens": 9978,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10075,
+    "x_details": [
+      {
+        "input_tokens": 9978,
+        "output_tokens": 97,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 10075,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.032,
+  "model": "deepseek-v4-pro-0813"
+}

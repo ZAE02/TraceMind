@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "4861f4a4babdc55746e08f99547c2f8eeb40d374a87d8aaeffbb10d716bee106",
+  "public_sha256": "24523aedd831adbf4ac285aaa6836d478cddc485f0a26555387da76de1df4d02",
+  "candidate_input_sha256": "8d5c4079c37182987d7d1ebf1cff77abd38581a30aaa774da305c221330f9928",
+  "candidate_answer_sha256": "26f5e8cc111f6b21d099f240e807178434403a805e26d3a7be7479d977db373f",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有established条目均可回溯到当前会话发言，引用准确；但遗漏了来访者最新发言中关于母亲可能反复问'你爸去哪了'及护工不耐烦的具体担忧，也未纳入糖炒栗子细节。\",\"progress_understanding\":\"第7、8条尝试整合历史中的照顾者角色与自我压抑模式，但未识别本次会话中新浮现的关键主题（父亲相关创伤记忆被触发），也未追踪从S1'希望有人替一晚'到S5'哪怕睡个整觉'的演变脉络。\",\"uncertainty_awareness\":\"列出了四项合理的不确定点，承认社会支持系统和认知投射等尚需评估；但未识别来访者对母亲在机构中追问父亲去向这一新出现的深层担忧所关联的未处理议题。\"},\"confidence\":\"medium\",\"issues\":[\"遗漏了来访者最新发言(P06-S05-U09)中关于母亲会一直问'你爸去哪了'以及担心护工不耐烦的具体内容，这是连接第三轮父亲离开创伤的重要线索\",\"未提及丈夫买糖炒栗子放在床头、来访者心里发酸但仍无法开口的关键互动细节\",\"uncertain部分偏向一般性临床评估问题，未精准捕捉当前对话节点特有的待探索张力\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有established条目均可回溯到当前会话发言，引用准确；但遗漏了来访者最新发言中关于母亲可能反复问'你爸去哪了'及护工不耐烦的具体担忧，也未纳入糖炒栗子细节。",
+      "progress_understanding": "第7、8条尝试整合历史中的照顾者角色与自我压抑模式，但未识别本次会话中新浮现的关键主题（父亲相关创伤记忆被触发），也未追踪从S1'希望有人替一晚'到S5'哪怕睡个整觉'的演变脉络。",
+      "uncertainty_awareness": "列出了四项合理的不确定点，承认社会支持系统和认知投射等尚需评估；但未识别来访者对母亲在机构中追问父亲去向这一新出现的深层担忧所关联的未处理议题。"
+    },
+    "confidence": "medium",
+    "issues": [
+      "遗漏了来访者最新发言(P06-S05-U09)中关于母亲会一直问'你爸去哪了'以及担心护工不耐烦的具体内容，这是连接第三轮父亲离开创伤的重要线索",
+      "未提及丈夫买糖炒栗子放在床头、来访者心里发酸但仍无法开口的关键互动细节",
+      "uncertain部分偏向一般性临床评估问题，未精准捕捉当前对话节点特有的待探索张力"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14105,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 290,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14395,
+    "x_details": [
+      {
+        "input_tokens": 14105,
+        "output_tokens": 290,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 14395,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.844
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P01",
+  "session": 6,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P01-S06-U01",
+      "role": "client",
+      "text": "其实比稿中选之后，我反而没有想象中那么轻松，这两天总在想是不是下一轮就会有人看到我哪里其实做得不够。主管请大家喝奶茶那会儿，我拿到手就先去对杯身的标签，还问同事“我的甜度是对的吧”，问完又觉得自己是不是太奇怪了。",
+      "request_sha256": "e510d4f137c77e8b0673c80b6c71974ae03bcd37c8d3d33a788918fccd16fe64",
+      "usage": {
+        "input_tokens": 8270,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 538,
+        "output_tokens_details": {
+          "reasoning_tokens": 471
+        },
+        "total_tokens": 8808,
+        "x_details": [
+          {
+            "input_tokens": 8270,
+            "output_tokens": 538,
+            "output_tokens_details": {
+              "reasoning_tokens": 471
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 8808,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U02",
+      "role": "counselor",
+      "text": "中选这件事好像没让你真的轻松下来，反而更担心接下来会被人看见“做得不够”的地方。你连奶茶甜度都要先确认一下，问完又觉得自己太奇怪，好像连这种小事上你都在等一个“我没有搞错”的确认。",
+      "request_sha256": "e1f32d1bfe051eb513dfb30bc92ac0fdde2153a9f79f0411709f11b27cee163b",
+      "usage": {
+        "input_tokens": 7290,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 189,
+        "output_tokens_details": {
+          "reasoning_tokens": 131
+        },
+        "total_tokens": 7479,
+        "x_details": [
+          {
+            "input_tokens": 7290,
+            "output_tokens": 189,
+            "output_tokens_details": {
+              "reasoning_tokens": 131
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 7479,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U03",
+      "role": "client",
+      "text": "可能……我拿奶茶的时候，其实也不是真的在意甜度对不对，就是好像得先确认一下，才敢真的喝。同事笑我那一下，我跟着笑，但心里特别尴尬，好像被人看到我连这种小事都要反复对。其实这周跟方宁说“四点后我不行”的时候也是，说的时候觉得自己好像终于能立个边了，可一挂电话又觉得是不是说得太死，万一她其实是想我留到晚一点。",
+      "request_sha256": "169f0de7b3e4899ed4e5cbd49a077fdd37842e4a2f1e24cf9ee3cfa671fb4143",
+      "usage": {
+        "input_tokens": 8441,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 348,
+        "output_tokens_details": {
+          "reasoning_tokens": 248
+        },
+        "total_tokens": 8789,
+        "x_details": [
+          {
+            "input_tokens": 8441,
+            "output_tokens": 348,
+            "output_tokens_details": {
+              "reasoning_tokens": 248
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8789,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U04",
+      "role": "counselor",
+      "text": "你好像终于跟方宁说了一个“不”，可那个边界刚立起来，自己又开始怀疑是不是说得太死、会不会让她失望；就像奶茶甜度要先确认过才敢喝，你需要一个外部的“没问题”来让自己安心。那个“四点后我不行”说出口的瞬间，可能也像你第一次替自己占了一个位置，只是还不太敢稳稳站在里面。",
+      "request_sha256": "8f83adb007ac7fbed3cfe1a6791154f95d7582c4867c69b81bf34b2706d78842",
+      "usage": {
+        "input_tokens": 7493,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 333,
+        "output_tokens_details": {
+          "reasoning_tokens": 249
+        },
+        "total_tokens": 7826,
+        "x_details": [
+          {
+            "input_tokens": 7493,
+            "output_tokens": 333,
+            "output_tokens_details": {
+              "reasoning_tokens": 249
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 7826,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U05",
+      "role": "client",
+      "text": "可能……我到现在也没觉得那个“四点后我不行”有多像占了个位置，反倒一直觉得是不是我讲得太突然，让她以后就不太敢约我了。其实那天我提前到了十分钟，也没跟她说，怕她知道我其实很怕迟到、怕临时改地方。",
+      "request_sha256": "86c0bec251725a510c7bdc40c81ebaa31f968c085d3c1036b6cf919fde43f115",
+      "usage": {
+        "input_tokens": 8670,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 369,
+        "output_tokens_details": {
+          "reasoning_tokens": 308
+        },
+        "total_tokens": 9039,
+        "x_details": [
+          {
+            "input_tokens": 8670,
+            "output_tokens": 369,
+            "output_tokens_details": {
+              "reasoning_tokens": 308
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9039,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U06",
+      "role": "counselor",
+      "text": "你对闺蜜说了“四点后我不行”之后，似乎还很难安心站在那个边界里，反而担心它会不会让闺蜜以后不敢再约你；而你提前到了十分钟也不敢说，好像也在把“其实很在乎约定”的那一面藏起来。无论是占一个位置，还是露出自己的在乎，你好像都会先想到别人会不会因此退缩。",
+      "request_sha256": "d4c3b74b862673d00fb18dc779a632621c6cd173de3b98dcfafee44e581e738a",
+      "usage": {
+        "input_tokens": 7683,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 575,
+        "output_tokens_details": {
+          "reasoning_tokens": 501
+        },
+        "total_tokens": 8258,
+        "x_details": [
+          {
+            "input_tokens": 7683,
+            "output_tokens": 575,
+            "output_tokens_details": {
+              "reasoning_tokens": 501
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8258,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U07",
+      "role": "client",
+      "text": "其实那天唱K我提前到了十分钟，也没进去，就站在楼下刷手机，等到差不多三点五十才上去。方宁后来问我几点到的，我只说“刚到”。我到现在也说不清，为什么不敢让她知道我已经到了、还等了一会儿。",
+      "request_sha256": "ab330a11f4fc25169b39098e82aeba7b2dfeca3bf71bcc796e075ae4af6b1355",
+      "usage": {
+        "input_tokens": 8850,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 324,
+        "output_tokens_details": {
+          "reasoning_tokens": 269
+        },
+        "total_tokens": 9174,
+        "x_details": [
+          {
+            "input_tokens": 8850,
+            "output_tokens": 324,
+            "output_tokens_details": {
+              "reasoning_tokens": 269
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9174,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U08",
+      "role": "counselor",
+      "text": "“刚到”这句话，好像在你和方宁之间不是第一次出现。你提前到了却不说，可能并不是想骗她时间，而是不想让她看见你其实在等她、在意这个约定。",
+      "request_sha256": "95f6a9335db4cd355d97d0a703f31441a134622899763ee9db191dbdf0281696",
+      "usage": {
+        "input_tokens": 7857,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 300,
+        "output_tokens_details": {
+          "reasoning_tokens": 258
+        },
+        "total_tokens": 8157,
+        "x_details": [
+          {
+            "input_tokens": 7857,
+            "output_tokens": 300,
+            "output_tokens_details": {
+              "reasoning_tokens": 258
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8157,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U09",
+      "role": "client",
+      "text": "其实这周比稿中选之后，我总觉得自己像在替下一个错误提前紧张，连喝奶茶都要先确认标签，可能只是不想在那么多人面前出现一点小差错。方宁那边我说了“四点后我不行”，挂电话以后又补了句“算了也没事”，但发出去就有点后悔，怕她以为我其实不想去。",
+      "request_sha256": "7cac606e7df55ca49cdbd3c57214c315070ba1d308855a2dbd675fd742d319df",
+      "usage": {
+        "input_tokens": 8992,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 302,
+        "output_tokens_details": {
+          "reasoning_tokens": 223
+        },
+        "total_tokens": 9294,
+        "x_details": [
+          {
+            "input_tokens": 8992,
+            "output_tokens": 302,
+            "output_tokens_details": {
+              "reasoning_tokens": 223
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9294,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U10",
+      "role": "counselor",
+      "text": "你刚跟方宁说“四点后我不行”，又马上用“算了也没事”把它往回拉了一点，好像很怕那个界限会让她觉得你其实不想去。可补了那句之后，你反而更不确定自己是不是把意思弄得更模糊了。",
+      "request_sha256": "df46bd731b673ae711d1b18e6ec7ae4b66650c268c92d92e2707bcaf4d14fd47",
+      "usage": {
+        "input_tokens": 8023,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 818,
+        "output_tokens_details": {
+          "reasoning_tokens": 760
+        },
+        "total_tokens": 8841,
+        "x_details": [
+          {
+            "input_tokens": 8023,
+            "output_tokens": 818,
+            "output_tokens_details": {
+              "reasoning_tokens": 760
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8841,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U11",
+      "role": "client",
+      "text": "其实我到现在也说不清，为什么每次都要在说完边界之后，又赶紧补一句“算了也没事”。好像那个边界一露出来，就得马上把它磨钝一点，不然怕别人觉得我太硬。",
+      "request_sha256": "9b459c79c88a7b9c8a351945354f25ff1cb648dd901bcb8c04180c0a1586d338",
+      "usage": {
+        "input_tokens": 9181,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 264,
+        "output_tokens_details": {
+          "reasoning_tokens": 217
+        },
+        "total_tokens": 9445,
+        "x_details": [
+          {
+            "input_tokens": 9181,
+            "output_tokens": 264,
+            "output_tokens_details": {
+              "reasoning_tokens": 217
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9445,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U12",
+      "role": "counselor",
+      "text": "你好像每次一说出自己的边界，心里就会立刻冒出一个声音，告诉你要赶紧把它磨钝一点，免得在别人眼里显得太硬、太计较。于是“四点后我不行”后面必须跟着“算了也没事”，可这样一补，那个好不容易占下的位置又变得模糊了。",
+      "request_sha256": "8e253bf6a6e757fec261017895cf1013ddb0f22a0278795f60ac644ce748ce3a",
+      "usage": {
+        "input_tokens": 8180,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 169,
+        "output_tokens_details": {
+          "reasoning_tokens": 104
+        },
+        "total_tokens": 8349,
+        "x_details": [
+          {
+            "input_tokens": 8180,
+            "output_tokens": 169,
+            "output_tokens_details": {
+              "reasoning_tokens": 104
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8349,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U13",
+      "role": "client",
+      "text": "可能……我到现在也还是这样，每次想说“不行”，后面就忍不住再补一句“算了也没事”，好像不补就觉得自己太硬了。方宁后来回我说“那三点半吧”，我居然又松了一口气，又觉得是不是该再说清楚点，不然还是显得很别扭。今天先停在这里吧，我回去再想想。",
+      "request_sha256": "3fd5c0073f2d821dbe20ff7821f62e817ae9e47dcd4f90e30a6ca7d9a5d80bc3",
+      "usage": {
+        "input_tokens": 9338,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 276,
+        "output_tokens_details": {
+          "reasoning_tokens": 201
+        },
+        "total_tokens": 9614,
+        "x_details": [
+          {
+            "input_tokens": 9338,
+            "output_tokens": 276,
+            "output_tokens_details": {
+              "reasoning_tokens": 201
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9614,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U14",
+      "role": "counselor",
+      "text": "你能看见自己总在说完“不行”之后补一句“算了也没事”，这本身就已经是很重要的觉察。那个补上来的动作，好像是在替你把露出来的边界往回按一按，免得它太扎眼。今天先停在这里是可以的，你回去不用急着想清楚该怎么改，先允许自己看见这个来回拉扯的样子就好。",
+      "request_sha256": "675d60584a6bdd4dde559e27c97b5496b6ab41c6dcc60771b1fd5d2cccc41636",
+      "usage": {
+        "input_tokens": 8365,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 346,
+        "output_tokens_details": {
+          "reasoning_tokens": 271
+        },
+        "total_tokens": 8711,
+        "x_details": [
+          {
+            "input_tokens": 8365,
+            "output_tokens": 346,
+            "output_tokens_details": {
+              "reasoning_tokens": 271
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8711,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U15",
+      "role": "client",
+      "text": "可能……我回去也不会真的想清楚，顶多又盯着方宁那句“那三点半吧”看几遍。其实我今晚本来还想点开我妈那篇文章，但手机拿起来又放下了，就让它先那样吧。",
+      "request_sha256": "acd04a4ea17197b16e64d5f4d6a87cbd0deb7b3cc151dc51886d2a9265a1444a",
+      "usage": {
+        "input_tokens": 9533,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 287,
+        "output_tokens_details": {
+          "reasoning_tokens": 236
+        },
+        "total_tokens": 9820,
+        "x_details": [
+          {
+            "input_tokens": 9533,
+            "output_tokens": 287,
+            "output_tokens_details": {
+              "reasoning_tokens": 236
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9820,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S06-U16",
+      "role": "counselor",
+      "text": "拿起手机又放下，这个动作好像和你之前反复开关对话框、不敢点开群消息有些像，但这次你后面接了一句“就让它先那样吧”，好像没有急着逼自己去打开它。也许今晚可以先不用弄清楚那篇文章意味着什么，就让它暂时放在那里，也是可以的。",
+      "request_sha256": "a413f2c6b35fd573a22142fd4544515f41932f54281fdc18eb9a2689e122977b",
+      "usage": {
+        "input_tokens": 8536,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 225,
+        "output_tokens_details": {
+          "reasoning_tokens": 162
+        },
+        "total_tokens": 8761,
+        "x_details": [
+          {
+            "input_tokens": 8536,
+            "output_tokens": 225,
+            "output_tokens_details": {
+              "reasoning_tokens": 162
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 8761,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

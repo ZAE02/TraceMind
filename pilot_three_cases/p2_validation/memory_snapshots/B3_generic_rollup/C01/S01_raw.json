@@ -1,0 +1,76 @@
+{
+  "status": "completed",
+  "purpose": "incremental_memory_update",
+  "case_id": "C01",
+  "session_number": 1,
+  "method": "B3_generic_rollup",
+  "request_sha256": "d330d807cbf93dd51a53ddd8d0505b2fab0acf5e77f04737161c3f21b758e3cd",
+  "context_sha256": "f630b9bebcf59e6e3dfb258da2f3ecad083b9742fb88207adb7f6039ef74c3e2",
+  "call_id": "46ea84eefe7a497097e9e43b50fabf4d",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:26:18.891246+00:00",
+  "raw_text": "```json\n{\n  \"entries\": [\n    {\n      \"text\": \"核心模式：来访者将模糊反馈（如\"有点挤\"）体验为\"找不到确认终点\"，不是觉得哪里不对，而是\"没法确认它到底对不对\"，因此只能反复过一遍来试图确认，但过完仍无法确认。来访者自己总结：\"只要还在动，就说明它还没好。\"（U03, U07, U09）\",\n      \"type\": \"pattern\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U03\", \"C01-S01-U07\", \"C01-S01-U09\"]\n    },\n    {\n      \"text\": \"触发事件：周二内部提案，小许看了一眼首页说\"有点挤\"，仅三字，未指出具体位置或方案不可用。来访者当晚改到23:30，前后六版；次日早上将其中两处改回原版。周五交付前方案本身应无问题，但来访者停不下来在想那个页面。（U01）\",\n      \"type\": \"event\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U01\"]\n    },\n    {\n      \"text\": \"睡眠与反刍：最近约两三周，隔两三天有一晚躺下后脑子停不下来，内容杂（白天一句话、没回的消息等），\"跟有没有关系好像不太大\"。起于前两周一个赶得紧的项目（连好几天过九点才走），项目结束后未随之消退。（U09, U11, U13）\",\n      \"type\": \"pattern\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U09\", \"C01-S01-U11\", \"C01-S01-U13\"]\n    },\n    {\n      \"text\": \"周姐反馈与来访者的解读：周姐原话\"先这样往下推，周五前定稿就行\"，方向可以继续不用推翻。但来访者当时第一反应不是松下来，而是\"她是不是觉得我没处理到小许说的那个挤的问题\"——她没提，来访者觉得她心里还留着那个点。来访者自己判断这更多是自己替周姐预判。（U05）\",\n      \"type\": \"event\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U05\"]\n    },\n    {\n      \"text\": \"母亲电话：赶项目那阵子母亲打两次电话问忙不忙、吃没吃好，无大事。来访者接时烦躁，核心是\"又多了一件事要回应\"——答\"挺好的\"觉得不真实，答\"确实累\"又担心母亲那边开始担心，来回耗人。来访者当时真正想要的是\"能不能别问了，让我安静待会儿就行\"。（U15, U17）\",\n      \"type\": \"event\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U15\", \"C01-S01-U17\"]\n    },\n    {\n      \"text\": \"咨询师假设（来访者未确认）：白天的\"没法确认对不对\"、晚上\"脑子里自己转\"、接电话时\"想怎么回\"，底下可能是同一个\"停不下来\"的东西。来访者回应\"说'是同一件事'我还有点不确定，但那个'停不下来'的感觉确实像\"。（U10, U12, U18, U19）\",\n      \"type\": \"hypothesis\",\n      \"speaker\": \"counselor\",\n      \"evidence_ids\": [\"C01-S01-U10\", \"C01-S01-U12\", \"C01-S01-U18\", \"C01-S01-U19\"]\n    },\n    {\n      \"text\": \"来访者来访初衷：本来只想聊\"怎么少加班\"，后觉得还是得把整件事讲一下。（U01）\",\n      \"type\": \"goal\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U01\"]\n    },\n    {\n      \"text\": \"来访者自评收获：今天聊下来比自己想的时候清楚一点，\"至少知道不是方案真的有什么问题\"。计划周五交付前再过一遍（不再六版），如果过完还想再过，留意那个\"想再过\"本身。（U19, U21）\",\n      \"type\": \"insight\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U19\", \"C01-S01-U21\"]\n    },\n    {\n      \"text\": \"人物关系：小许——同事，给出\"有点挤\"的模糊反馈；周姐——上级或资深同事，给出\"先这样往下推\"的明确推进信号；母亲——赶项目期间两次来电，来访者当时烦躁但事后觉得没理由。（U01, U05, U15）\",\n      \"type\": \"relationship\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U01\", \"C01-S01-U05\", \"C01-S01-U15\"]\n    },\n    {\n      \"text\": \"尚未确认：①\"停不下来\"在不同情境下是否为同一底层机制（来访者表示不确定）；②睡眠/反刍模式的确切起始日期（来访者说不太清）；③周五交付后该模式是否持续。\",\n      \"type\": \"unresolved\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C01-S01-U19\", \"C01-S01-U13\", \"C01-S01-U22\"]\n    }\n  ]\n}\n```",
+  "parsed_answer": null,
+  "usage": {
+    "input_tokens": 2466,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 2104,
+    "output_tokens_details": {
+      "reasoning_tokens": 766
+    },
+    "total_tokens": 4570,
+    "x_details": [
+      {
+        "input_tokens": 2466,
+        "input_tokens_details": {
+          "text_tokens": 2466
+        },
+        "output_tokens": 2104,
+        "output_tokens_details": {
+          "reasoning_tokens": 766
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4570,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_incremental_memory_update_calls.jsonl",
+  "visible_evidence_ids": [
+    "C01-S01-U01",
+    "C01-S01-U02",
+    "C01-S01-U03",
+    "C01-S01-U04",
+    "C01-S01-U05",
+    "C01-S01-U06",
+    "C01-S01-U07",
+    "C01-S01-U08",
+    "C01-S01-U09",
+    "C01-S01-U10",
+    "C01-S01-U11",
+    "C01-S01-U12",
+    "C01-S01-U13",
+    "C01-S01-U14",
+    "C01-S01-U15",
+    "C01-S01-U16",
+    "C01-S01-U17",
+    "C01-S01-U18",
+    "C01-S01-U19",
+    "C01-S01-U20",
+    "C01-S01-U21",
+    "C01-S01-U22",
+    "C01-S01-U23",
+    "C01-S01-U24"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

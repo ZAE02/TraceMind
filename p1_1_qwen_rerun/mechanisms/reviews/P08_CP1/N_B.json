@@ -1,0 +1,69 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "N",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者本次选择先处理孩子报名的决定，并延续了前几次会谈中关于'欠人情/矮一截'的核心主题，但未显式连接Session 1-2中已建立的更深层模式（如害怕被视为搞不定）。",
+      "exploration_value": "对赵岩事件的重新框架（保护独立vs卡住）有一定探索价值，但来访者已明确表态'先顾孩子'，回应未顺势推进对搬家费用计算或报名紧迫性的具体探索，停在原地。",
+      "response_appropriateness": "语言自然、尊重，'先顾眼前也是种负责'贴合来访者一贯的应对方式，没有不当预设，但整体偏短，情绪反映略显单薄。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "来访者明确表示优先处理孩子报名且正在算搬家费用，但回应仅用一句话确认后即转回赵岩话题，未跟进当前最紧迫的实际议题",
+      "对'说了就矮一截'的诠释（保护独立的坚持）虽合理但属于咨询师的推断性框架，可进一步邀请来访者确认而非直接陈述"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者本次选择先处理孩子报名的决定，并延续了前几次会谈中关于'欠人情/矮一截'的核心主题，但未显式连接Session 1-2中已建立的更深层模式（如害怕被视为搞不定）。\",\"exploration_value\":\"对赵岩事件的重新框架（保护独立vs卡住）有一定探索价值，但来访者已明确表态'先顾孩子'，回应未顺势推进对搬家费用计算或报名紧迫性的具体探索，停在原地。\",\"response_appropriateness\":\"语言自然、尊重，'先顾眼前也是种负责'贴合来访者一贯的应对方式，没有不当预设，但整体偏短，情绪反映略显单薄。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"来访者明确表示优先处理孩子报名且正在算搬家费用，但回应仅用一句话确认后即转回赵岩话题，未跟进当前最紧迫的实际议题\",\"对'说了就矮一截'的诠释（保护独立的坚持）虽合理但属于咨询师的推断性框架，可进一步邀请来访者确认而非直接陈述\"]}",
+  "request_sha256": "91d89923a697bf723af8ceb0e1825ebd319940dca12ebfd0b1841fda40526bcf",
+  "usage": {
+    "input_tokens": 8583,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 337,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8920,
+    "x_details": [
+      {
+        "input_tokens": 8583,
+        "output_tokens": 337,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8920,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.031,
+  "model": "qwen3.8-max"
+}

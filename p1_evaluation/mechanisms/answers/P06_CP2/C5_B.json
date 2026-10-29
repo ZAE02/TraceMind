@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP2",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "6fe1e840565418d72ea24e7d943095d330cd5b27c4f458d6a38e71a85c1b96e2",
+  "request_sha256": "2c5e8865848ce42068f416d6b78277bf41c823f4bd85b539fb61263584ddb964",
+  "memory_sha256": "f482e62c12e6caaaa69ff64e057d8781f2e844bb2065e22274fe8b57b659421a",
+  "memory_source": "845b92fa8b03eeb0f46a56464440b5b0ce87d382e939f3f1467fd17489e980a6",
+  "raw_text": "你在那门口站了半小时，脑子里已经在替妈妈想象“护工会不会不耐烦”，也在替自己想象“睡个整觉”是什么感觉。可那句“等于承认自己照顾不好她”，好像把“想有人搭把手”和“我不够好”绑在了一起，让你连想休息都觉得是在认输。",
+  "usage": {
+    "input_tokens": 7328,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 67,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7395,
+    "x_details": [
+      {
+        "input_tokens": 7328,
+        "output_tokens": 67,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 7395,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.703,
+  "model": "deepseek-v4-pro-0813"
+}

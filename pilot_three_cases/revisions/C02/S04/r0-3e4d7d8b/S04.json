@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C02",
+  "session_number": 4,
+  "relative_week": 4,
+  "status": "generating",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T12:39:32.257633+00:00",
+  "config_hash": "fe52031d006ebf610d064d8a51b77ed2e3ecce9aa5066effad160aa97447898a",
+  "prompt_version": "pilot-v7-counseling-process-focus",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v7-counseling-process-focus",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。",
+    "counselor_process_instruction": "请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。",
+    "generation_revision": "C02-S04-r1"
+  },
+  "utterances": [
+    {
+      "id": "C02-S04-U01",
+      "role": "client",
+      "text": "这周……阿敏又找我帮忙了，周二下午说有个活动复盘的数据让我整理一下。但这次我……嗯，我没直接说\"好\"。我说我手上有个周报周三要交，问能不能周四下午给她。\n\n也不是多大的事，就是……我发那条消息之前，心跳得有点快。",
+      "call_id": "de1097a015bd4df3a161b4212aae88aa",
+      "response_id": "resp_cd16077e-e4f1-985e-96d0-09b91862e72a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:39:45.443010+00:00"
+    },
+    {
+      "id": "C02-S04-U02",
+      "role": "counselor",
+      "text": "这次没直接说好，心跳快那个，发出去之后她怎么回的？",
+      "call_id": "d61ab63509df4cb3a712a0b2b6ee7513",
+      "response_id": "resp_6007a002-2b55-9346-998a-0178f601dbce",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:40:02.146807+00:00"
+    },
+    {
+      "id": "C02-S04-U03",
+      "role": "client",
+      "text": "她回得挺快的，就\"行，周四下午可以\"，就这几个字。我看完……就是松了一下，但又不太敢完全松，就是怕她后面又改口或者加个什么条件。",
+      "call_id": "7b0113aa0f63448e82c99eafe4ce3520",
+      "response_id": "resp_78fe0abb-6c25-9f88-8865-8bd006c27ec1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:40:18.321357+00:00"
+    },
+    {
+      "id": "C02-S04-U04",
+      "role": "counselor",
+      "text": "她那边已经回了，你这边松了一下但没完全松——好像那个确认，她给到了，你这边还没接住。",
+      "call_id": "113f4f2eb3604167884cf9778bb046bb",
+      "response_id": "resp_c5f48e6b-0775-9e72-835d-f46522cf206a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:40:38.691575+00:00"
+    },
+    {
+      "id": "C02-S04-U05",
+      "role": "client",
+      "text": "\"接住\"……我听着觉得好像是，就是她回了之后我确实松了，但那个松好像只松了一半，另一半还在等。我发完消息之后大概看了四五次手机，确认她没有再发什么。而且我脑子里有一个念头，就是……这次是不是她刚好心情好，下次可能就不行了。",
+      "call_id": "e21270f1bbc745abbd5f068a3fc9fe47",
+      "response_id": "resp_50357860-ac6a-99b4-80a1-60f808a663c4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:40:49.181019+00:00"
+    },
+    {
+      "id": "C02-S04-U06",
+      "role": "counselor",
+      "text": "她回得挺明确的，但你还是看了四五次，然后脑子里就过了下次可能不行的念头。那个念头是刚看完回复就来了，还是过了一阵才冒出来的？",
+      "call_id": "0d85857b204d402599b09f8e7f17568a",
+      "response_id": "resp_51b3f59e-92e7-9db6-9cd9-3df917ae1c5c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:41:39.286724+00:00"
+    },
+    {
+      "id": "C02-S04-U07",
+      "role": "client",
+      "text": "好像是过了一阵。刚看完那几分钟，就是松的，真的松了。但大概……过了个把小时吧，可能是在工位上干别的事，突然又想起来，然后那个\"下次可能就不行了\"才冒出来。\n\n就是那个松没维持住，自己又回去了。",
+      "call_id": "762d0c82eee441029b89421ef392dd53",
+      "response_id": "resp_a0d35ba5-1e22-9995-b6ba-2e5a02f2819e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:41:45.999527+00:00"
+    },
+    {
+      "id": "C02-S04-U08",
+      "role": "counselor",
+      "text": "这次你说了，她也接住了，但那个松没站稳就自己回去了。那个念头冒出来的时候，你当时在过什么？",
+      "call_id": "c2797fd4f8a045928690773ebb1a0582",
+      "response_id": "resp_90568d04-d517-9da0-9c9f-186a1750e75e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:42:06.057775+00:00"
+    },
+    {
+      "id": "C02-S04-U09",
+      "role": "client",
+      "text": "当时就是在写那个周报，写着写着……可能就是抬头看了一眼阿敏的对话框，然后那个念头就来了。也不是我专门去想的，就是……突然觉得，她回得也太痛快了，痛快得不太像她平时那种\"顺手弄一下\"的感觉。然后我就开始想，是不是这次刚好她没什么别的事，所以没跟我计较。",
+      "call_id": "461b7dcae8c44564908a69d5d8f7dc8d",
+      "response_id": "resp_a26b85f2-1124-9008-82d4-0e48ba5c8dee",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:42:21.374065+00:00"
+    },
+    {
+      "id": "C02-S04-U10",
+      "role": "counselor",
+      "text": "你拿这次跟她之前那种语气比，觉得这次太快了。那你之前大概预期她会怎么回？",
+      "call_id": "7000078a1aa24bb0a90cf81cc4577182",
+      "response_id": "resp_58140270-42a2-93c6-a611-e1027d0db340",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:42:55.623913+00:00"
+    },
+    {
+      "id": "C02-S04-U11",
+      "role": "client",
+      "text": "我预期她可能会说\"周三我这边要交\"或者\"那能不能再早一点\"，就是……会推一下。因为我之前都是直接接，她可能习惯了，这次我说了个时间，她应该会觉得有点麻烦吧。\n\n结果她就\"行，周四下午可以\"，反而让我有点……不知道该怎么接这个轻松。",
+      "call_id": "306689ee5e9d4dafa8cfc1ef6a060121",
+      "response_id": "resp_d8a70d10-7efd-9e2a-ad0c-e8e703764d70",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:43:11.019764+00:00"
+    },
+    {
+      "id": "C02-S04-U12",
+      "role": "counselor",
+      "text": "你之前准备好的是她会推一下，结果她没推，那个轻松反而不知道往哪放了。",
+      "call_id": "a532a3bceb4f419782deb5ae27da3fce",
+      "response_id": "resp_3d5e1988-919d-9a32-9809-fc6d34b95c9f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:43:24.992552+00:00"
+    },
+    {
+      "id": "C02-S04-U13",
+      "role": "client",
+      "text": "嗯……好像是。就是她没推，我反而有点不知道这个\"行\"的分量。因为我也没完全拒绝嘛，我就是说了个时间，她接了，那这算我争取到了什么，还是她本来就会这样？",
+      "call_id": "d2323c10e210472bad262275e923bfda",
+      "response_id": "resp_4481ffc4-b7ee-9650-b593-ecd7fcfa7e13",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:43:37.557288+00:00"
+    },
+    {
+      "id": "C02-S04-U14",
+      "role": "counselor",
+      "text": "那个不知道往哪放，好像比她回什么本身更让你卡住了。你之前准备的剧本是她会推一下，结果没推，你反而得重新判断这次到底发生了什么。",
+      "call_id": "43e759caa1244ccebe7328dcc9754d87",
+      "response_id": "resp_184332e1-10c6-9678-800b-3c79dfa2e7ad",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:43:44.804877+00:00"
+    },
+    {
+      "id": "C02-S04-U15",
+      "role": "client",
+      "text": "\"剧本\"这个词……我想了想还真是，我脑子里确实有个预设，就是她会推一下，我准备好怎么接了。结果她没推，我那个准备好的劲儿就……落空了。\n\n就是我现在不太确定，这次算我\"争取\"到了，还是她本来就无所谓。如果她本来就无所谓，那我之前那些心跳快、看四五次手机，是不是就……白紧张了？",
+      "call_id": "9675a3feb1b543b295d42a3d47f7be57",
+      "response_id": "resp_f71c1668-5736-92a1-8d6b-589bc5982e48",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:44:00.996936+00:00"
+    },
+    {
+      "id": "C02-S04-U16",
+      "role": "counselor",
+      "text": "你紧张的时候还不知道她会怎么回。现在她回了，你反而在回头看那个紧张是不是白费的。",
+      "call_id": "9e6d2c70af97422482bd9c571c2464b9",
+      "response_id": "resp_b5533b6b-280e-94c9-b36b-84d5ea601e52",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:44:21.438395+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:44:21.438395+00:00"
+}

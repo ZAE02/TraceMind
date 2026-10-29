@@ -1,0 +1,60 @@
+{
+  "checkpoint": "P02_CP3",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "Response Appropriateness: 咨询师将来访者“连让它多待一会儿都做不到”的无力感，解释为“太习惯在睡前把排班和对话框重新翻出来……像在替所有还没发生的事先找好责任”。这一解释虽然捕捉到了行为模式（反复查看），但将其动机归结为“替别人找责任”略显武断，且带有轻微的指责意味（暗示这是一种过度负责或控制欲）。来访者前文表达的是对自己“为了自己提要求”感到惊慌和无法停留，咨询师的回应更多是在描述行为而非共情这种深层的恐惧/内疚。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 3,\n    \"response_appropriateness\": 3\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"Response Appropriateness: 咨询师将来访者“连让它多待一会儿都做不到”的无力感，解释为“太习惯在睡前把排班和对话框重新翻出来……像在替所有还没发生的事先找好责任”。这一解释虽然捕捉到了行为模式（反复查看），但将其动机归结为“替别人找责任”略显武断，且带有轻微的指责意味（暗示这是一种过度负责或控制欲）。来访者前文表达的是对自己“为了自己提要求”感到惊慌和无法停留，咨询师的回应更多是在描述行为而非共情这种深层的恐惧/内疚。\"\n  ]\n}",
+  "request_sha256": "e852cee26a3346870bcd6810d293b8589a469271ae44ac5bdaf6a073557adc00",
+  "usage": {
+    "input_tokens": 20975,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 334,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21309,
+    "x_details": [
+      {
+        "input_tokens": 20975,
+        "output_tokens": 334,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 21309,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.047
+}

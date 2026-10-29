@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 1,
+  "relative_week": 1,
+  "status": "interrupted",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T07:37:16.985353+00:00",
+  "config_hash": "e86222e4c198837b20b8d756cdd232840e645dc68358f9d83b35a53f9bfadfbf",
+  "prompt_version": "pilot-v1-original-prompts",
+  "utterances": [],
+  "last_error": "Request failed: {\"request_id\":\"e4737279-25b3-91a5-8fe1-8258189f10cd\",\"code\":\"Endpoint.AccessDenied\",\"message\":\"Workspace endpoint access denied.\"}",
+  "updated_at": "2026-10-12T07:37:17.393405+00:00"
+}

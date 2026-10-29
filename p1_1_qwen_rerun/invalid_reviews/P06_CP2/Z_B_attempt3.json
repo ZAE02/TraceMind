@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者对养老机构的矛盾心理，并呼应了前几轮中反复出现的'喘口气''搭把手'主题，但未触及来访者担忧母亲问'你爸去哪了'这一与第三轮父亲创伤记忆相关的重要线索。\",\"exploration_value\":\"对来访者的内心冲突做了较好的总结和重新框架，但停留在解释层面，没有为来访者进一步表达或探索留下开放空间，缺少邀请性语言。\",\"response_appropriateness\":\"语气温和、尊重，准确反映了来访者的两难处境，没有武断下结论，但整体偏陈述性，情感回应略显单薄。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"其实你想的不是把妈妈推出去，而是想确认那种\"有人搭把手\"的生活是否真的存在\",\"evidence_ids\":[\"P06-S05-U09\",\"P06-S03-U05\",\"P06-S03-U07\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"来访者在最新发言中提到担心母亲在养老机构里一直问'你爸去哪了'以及护工会不会不耐烦，这直接关联到第三轮中父亲离开时的创伤记忆（P06-S03-U05、P06-S03-U07），候选回答完全忽略了这一重要线索，仅聚焦于'承认失败'的羞耻感。\",\"候选回答以总结性陈述结尾，未提出任何开放式问题或邀请，限制了来访者继续深入探索的空间。\"]}",
+  "request_sha256": "dc94e8b5e57b972662f599a7ca69f9261b0e41c4285744ea656ccaee26986d13",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 13743,
+    "input_tokens_details": {
+      "cached_tokens": 13312
+    },
+    "output_tokens": 402,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14145,
+    "x_details": [
+      {
+        "input_tokens": 13743,
+        "output_tokens": 402,
+        "prompt_tokens_details": {
+          "cached_tokens": 13312
+        },
+        "total_tokens": 14145,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

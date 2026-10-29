@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P08_CP3",
+  "raw_text": "那种“晚了点”的遗憾，好像不只是因为没早点知道办法，更是因为意识到自己前两年其实一直可以不用那么辛苦地硬扛。现在知道了有路可走，却卡在眼前的审核和批不下来的假里，这种无力感是不是比单纯的忙更让人难受？",
+  "request_sha256": "f0892173b508faa5a052195606f59a9f6f6b661cefed9175895fc547ba8c9497",
+  "input_sha256": "0b10c14857ef2337998d95826e9004543c45c7251f4db0a4fa75e60d8c8eb0b5",
+  "memory_sha256": "0ec1f002edd98ca6712ddcf0438e53ce0ee1148d2adbd3a6adc4b0ee92174f14",
+  "usage": {
+    "input_tokens": 9412,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 61,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9473,
+    "x_details": [
+      {
+        "input_tokens": 9412,
+        "output_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 9473,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.922
+}

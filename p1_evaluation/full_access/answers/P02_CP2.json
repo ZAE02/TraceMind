@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P02_CP2",
+  "raw_text": "你连“去公园”这件事都得先换成“排队取药”才敢说出口，好像那一个小时必须有个正当理由，才不算偷来的。你数了三次时间，怕它过得太快，又怕手机响被叫走——坐在那儿的时候，心里还是没真正离开那个随时待命的位置。也许那个“还没被允许属于你”的感觉，不只是对妈妈，也是你还没允许自己把那一个小时接住。",
+  "request_sha256": "dfc4f5d493d995397f5524b921dea8855346b67058bd1ab596c070a52131dd13",
+  "input_sha256": "2d8c368d20b6b3999c6c7fe0e17394621dbcb771c0e684f474ff8171967b5747",
+  "memory_sha256": "777c153ab6265516eb152c8ce749dddf405e14168333591726b528e40fea30ed",
+  "usage": {
+    "input_tokens": 6506,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6599,
+    "x_details": [
+      {
+        "input_tokens": 6506,
+        "output_tokens": 93,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 6599,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.484
+}

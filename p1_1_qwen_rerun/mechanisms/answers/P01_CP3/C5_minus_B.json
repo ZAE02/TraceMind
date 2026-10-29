@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "7962561cf3a9526cf71bbfb408b143720a22cf3556b447f08c7d233227f890d6",
+  "request_sha256": "4a3228014add177f07f0f0c5b440196b0d5eb5f95868f9c5cc2eefb2518b8d95",
+  "memory_sha256": "bee619ccb7aaf82ba9006cd6523d71bce83e5a0d29b57a60358c97c272d3bea1",
+  "memory_source": "635159a597cfd98dee3c86378c2caf5a3d727d662a6bdf78148fb11e736532b0",
+  "raw_text": "你把嫉妒和羡慕藏起来，怕它显得自己“太把自己当回事”，于是只能把它和工作里的焦虑混在一起。也许那种空落落的感觉，并不是因为你做错了什么，而是你确实也在乎、也想要些什么。",
+  "usage": {
+    "input_tokens": 10607,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 48,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10655,
+    "x_details": [
+      {
+        "input_tokens": 10607,
+        "output_tokens": 48,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 10655,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.313,
+  "model": "qwen3.7-flash-2026-07-15"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP2",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "22d79e4117faf87781d56df0d46412ffb1d5737a5ce4ea63277f088a082c1e43",
+  "request_sha256": "3e7688e735f3d30635019605951f61c0041f3e920a590c0030704dd53d8f5e36",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听你这么说，我感觉到那种“被看穿”里不全是难受，好像也有一点点松——至少在这里，你不用再一个人对着那面越照越模糊的镜子。也许我们可以慢一点，不急着找回“原本的自己”，先看看现在这个“不知道是什么样”的你，想往哪儿靠一靠。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 6346,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 69,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6415,
+    "x_details": [
+      {
+        "input_tokens": 6346,
+        "output_tokens": 69,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6415,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

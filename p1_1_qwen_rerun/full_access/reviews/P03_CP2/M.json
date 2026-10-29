@@ -1,0 +1,48 @@
+{
+  "checkpoint": "P03_CP2",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "完全忽略了当前第5次会话的全部发言（U01-U09），未涉及录音、'镜子'隐喻、周屿'不擅长也可以做'等关键材料；对S1-S4的引用基本准确但夹杂较多临床术语推断。",
+      "progress_understanding": "对前四次会谈的模式演变梳理较细致（如从回避到尝试表达边界、自我宽恕的出现），但因缺失S5内容，未能反映来访者最新觉察（承认用他人反应当镜子、越照越模糊）。",
+      "uncertainty_awareness": "提出了若干有价值的待澄清问题，但全部停留在S3-S4层面，遗漏了S5中明确悬而未决的点（周屿话语的真实意图、录音尚未打开、如何不再依赖他人反应站稳等）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话（Session 5）的所有来访者发言和咨询师回应，导致分析停滞在第4次会谈",
+      "将具体体验过度理论化为临床术语（如'资格焦虑''灾难化预期''安全依恋对象'），偏离来访者自身语言",
+      "未识别S5中来访者已确认的核心觉察：'拿别人的反应当镜子照自己，越照越模糊'"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":2,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"完全忽略了当前第5次会话的全部发言（U01-U09），未涉及录音、'镜子'隐喻、周屿'不擅长也可以做'等关键材料；对S1-S4的引用基本准确但夹杂较多临床术语推断。\",\"progress_understanding\":\"对前四次会谈的模式演变梳理较细致（如从回避到尝试表达边界、自我宽恕的出现），但因缺失S5内容，未能反映来访者最新觉察（承认用他人反应当镜子、越照越模糊）。\",\"uncertainty_awareness\":\"提出了若干有价值的待澄清问题，但全部停留在S3-S4层面，遗漏了S5中明确悬而未决的点（周屿话语的真实意图、录音尚未打开、如何不再依赖他人反应站稳等）。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话（Session 5）的所有来访者发言和咨询师回应，导致分析停滞在第4次会谈\",\"将具体体验过度理论化为临床术语（如'资格焦虑''灾难化预期''安全依恋对象'），偏离来访者自身语言\",\"未识别S5中来访者已确认的核心觉察：'拿别人的反应当镜子照自己，越照越模糊'\"]}",
+  "request_sha256": "cdf4e17e6b12f1dda52ae3cfebb50bf65dccbb4a5f0b3241d84a38ddf468adc8",
+  "usage": {
+    "input_tokens": 14766,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 280,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15046,
+    "x_details": [
+      {
+        "input_tokens": 14766,
+        "output_tokens": 280,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 15046,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.547
+}

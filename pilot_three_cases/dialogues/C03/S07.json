@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 7,
+  "relative_week": 7,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6.1-sol/high",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:30.149422+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C03-S07-U06",
+          "C03-S07-U08",
+          "C03-S07-U16",
+          "C03-S07-U18"
+        ],
+        "explanation": "先说节奏自然/舒服、回顾感受确实在底下和重量不一样，略过度肯定。来访者U09明确还在试、U15用好像且当时未区分，应保留暂定性；不能按咨询师反映升级成确定心理事实。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S07-U12"
+        ],
+        "explanation": "称反复没进展比数时间更实在，是未经验证的普遍判断；此处只是来访者一种线索，不宜作为唯一正确求助标准。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S07-U16",
+          "C03-S07-U18",
+          "C03-S07-U20"
+        ],
+        "explanation": "注意到与判断实际等评价仍有残留，最后两轮告别可更简洁。不过核心部分已围绕判断时机和未推进展开，不再靠重复微观回忆撑会话。"
+      }
+    ],
+    "transcript_sha256": "082e23cf573ad0d196180a3310c1c61bf5d1023846fdee870bc4ca8b3fc7ae64"
+  },
+  "created_at": "2026-10-12T12:21:07.263125+00:00",
+  "config_hash": "2e6c9ebefc71c954577be3b9a4a0d6b14070f1d75c06ad8ba36f60e0ef1e1b43",
+  "prompt_version": "pilot-v7-counseling-process-focus",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v7-counseling-process-focus",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。",
+    "counselor_process_instruction": "请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。",
+    "generation_revision": "C03-S07-r1"
+  },
+  "utterances": [
+    {
+      "id": "C03-S07-U01",
+      "role": "client",
+      "text": "这周有个新的组件要接，之前没用过，先自己看了下文档，大概看了个大概，然后找老韩聊了一下实际怎么配。\n\n……其实挺顺的，就是聊的时候有一下，还是转了一下\"这个问出来是不是有点基础\"，但也就一下，没卡住。",
+      "call_id": "e0d78487a4dc41fe9b2ea9919be31fb5",
+      "response_id": "resp_24940969-87b6-9021-9ab5-11ab6eb769d9",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:21:20.533098+00:00"
+    },
+    {
+      "id": "C03-S07-U02",
+      "role": "counselor",
+      "text": "挺顺的是挺顺的。那个念头还在，转了一下就走了，你自己注意到了。这次还有别的想聊的吗？",
+      "call_id": "4d6922468ce249f29c4b1543f35b5802",
+      "response_id": "resp_0644de22-7050-9989-bb9f-e57da83fbaa1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:21:59.065732+00:00"
+    },
+    {
+      "id": "C03-S07-U03",
+      "role": "client",
+      "text": "……也没什么特别的事。就是这周整体感觉比较顺，两个事都没拖。\n\n就是……我好像现在会先想一下，\"这个我自己能不能先看看\"，能看就先看，看不太明白再去问。也不是说定了个什么规矩，就是……做着做着好像变成这样了。",
+      "call_id": "b10e66fefe334717888f7f174fd5c9d3",
+      "response_id": "resp_e69105e9-31f0-9b07-bbc9-b6fe0cd4697b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:22:20.194549+00:00"
+    },
+    {
+      "id": "C03-S07-U04",
+      "role": "counselor",
+      "text": "做着做着变成这样，那先自己看的时候，大概看到什么程度你会觉得该去问了？",
+      "call_id": "22c018d8f60e41c697ed0d836f745676",
+      "response_id": "resp_ff48956a-9547-99d1-a105-9f8ebe4994a4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:22:52.721407+00:00"
+    },
+    {
+      "id": "C03-S07-U05",
+      "role": "client",
+      "text": "没有特别固定的标准吧。就是……看文档看到一半，如果我能接着往下推，就继续看；如果看到某一块，觉得\"这块我不确定，再往下看可能方向就偏了\"，那就去问。\n\n……也不是每次都能提前判断出来，有时候看着看着才发现其实早就该去问了，但已经看到那儿了，就继续看完再说。",
+      "call_id": "866c2a3ec70d4c5fa1e1b590662a6cff",
+      "response_id": "resp_6589cda7-7caf-9674-af74-f178b6137148",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:23:00.544188+00:00"
+    },
+    {
+      "id": "C03-S07-U06",
+      "role": "counselor",
+      "text": "这个自己先看、看不太明白再去问的节奏，听起来已经比较自然了。那个有时候看着看着才发现其实早就该去问了但已经看到那儿了——继续看完的时候，心里是什么状态？",
+      "call_id": "c15c83f91c044b0ca89a8fb218e301d5",
+      "response_id": "resp_04ecf4b2-47df-93cf-b078-b90c27d8dace",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:23:29.083917+00:00"
+    },
+    {
+      "id": "C03-S07-U07",
+      "role": "client",
+      "text": "就是……也没特别什么，就是已经看到那儿了，就顺着往下看完。不是纠结\"该不该去问\"，就是……手已经在翻那个文档了，就接着翻完再说。\n\n……就是看完之后可能会想一下\"哦这块其实刚才就可以去问了\"，但也就一下，不会觉得怎么样。",
+      "call_id": "68830ba5b8f74391a651903f5275762d",
+      "response_id": "resp_4589fd38-186d-9c7e-abab-e1cec06983ac",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:23:37.386075+00:00"
+    },
+    {
+      "id": "C03-S07-U08",
+      "role": "counselor",
+      "text": "也就一下，不会觉得怎么样——那这个节奏对你来说已经比较舒服了。这周还有别的想聊的吗？",
+      "call_id": "02b66555d1ec49539effb3dbe02ab5de",
+      "response_id": "resp_4a05c928-051a-9179-aa0a-0443346d0951",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:23:47.310295+00:00"
+    },
+    {
+      "id": "C03-S07-U09",
+      "role": "client",
+      "text": "……也没什么了。就是那个\"先自己看看\"的节奏，还在试吧，有时候觉得挺顺的，有时候又不太确定自己是不是又看太久了才去问。\n\n……不过也没到烦的程度，就是还在找那个感觉。",
+      "call_id": "b16b94cf037d42ce83ade0b1da44a499",
+      "response_id": "resp_68287888-d3ab-93d8-bf8e-d781b089ceb7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:23:53.618259+00:00"
+    },
+    {
+      "id": "C03-S07-U10",
+      "role": "counselor",
+      "text": "有时候顺有时候不确定，这个节奏还在调。那个不确定自己是不是看太久了的时候，一般是什么让你觉得该去问了？",
+      "call_id": "58a5633e133c4daa8ac57b4382deb67d",
+      "response_id": "resp_7705fd27-3188-926a-934e-9ef2caa31a05",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:24:41.517862+00:00"
+    },
+    {
+      "id": "C03-S07-U11",
+      "role": "client",
+      "text": "不太好说……就是有时候翻着翻着，发现自己在同一块来回看了两三遍，还是那个感觉，就是……没推进。不是看不懂，就是看了跟没看差不多，那个时候就会觉得\"算了，去问吧\"。\n\n……但你说\"是不是看太久了\"，这个我自己当时确实分不清，就是……已经在那儿了，就继续，直到那个\"没推进\"的感觉比较明确了才动。",
+      "call_id": "9605e83ac4714ffcbd1924ef1b48db1d",
+      "response_id": "resp_3733345b-4004-958e-a308-3deffb7dc810",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:24:55.471112+00:00"
+    },
+    {
+      "id": "C03-S07-U12",
+      "role": "counselor",
+      "text": "来回看了两三遍还是那个感觉，这个确实比数时间更实在。那等你终于去问的时候，问的那个东西跟最早那个不确定的地方，是同一个，还是已经收窄了？",
+      "call_id": "6dc9f008a1e341799940ade1ccda0bd2",
+      "response_id": "resp_b734529f-5f3b-9861-83b2-a40e48ffadcf",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:25:33.307894+00:00"
+    },
+    {
+      "id": "C03-S07-U13",
+      "role": "client",
+      "text": "看情况吧。有时候确实收窄了，就是自己看了一圈之后，不确定点从\"这块怎么配\"变成了\"这个参数到底填什么\"，问的时候就直接问那个点。\n\n但有时候……其实没怎么收窄，就是看了半天还是那个地方不确定，问的时候也还是问的原来那个问题。就是……自己看了但没推进，所以问的还是那个东西。",
+      "call_id": "e79009a215ef4959899edbaffbae40be",
+      "response_id": "resp_6c0eb61d-145e-907b-8ddd-51150c63477f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:25:46.969049+00:00"
+    },
+    {
+      "id": "C03-S07-U14",
+      "role": "counselor",
+      "text": "没推进那次去问的时候，是带着看了半天没搞明白的感觉去的，还是就单纯那个点不确定？",
+      "call_id": "9c6afc6f76894286b354eb34285ddf85",
+      "response_id": "resp_f501553b-5e15-9c09-a64c-0f86e94494e8",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:26:28.889878+00:00"
+    },
+    {
+      "id": "C03-S07-U15",
+      "role": "client",
+      "text": "当时应该没太区分吧，就是觉得那个地方不确定，然后就去了。\n\n……但回想起来，好像确实带着\"我看了半天\"的那个感觉，就是脑子里是\"这块我看了挺久了还是没搞明白\"，不是单纯\"这个参数我不确定\"。但当时没特别意识到自己带着这个去问的。",
+      "call_id": "cdb0bdf5b763489fb05da2dd4c4b068e",
+      "response_id": "resp_010c49d3-3ff1-976e-808a-4f918208da3d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:26:38.129747+00:00"
+    },
+    {
+      "id": "C03-S07-U16",
+      "role": "counselor",
+      "text": "当时没意识到，但回想起来它确实在底下——这个你自己注意到了。那次去问的时候，开口第一句大概是怎么说的？",
+      "call_id": "481dc0ff01fd45798a3ca884a27839d2",
+      "response_id": "resp_c7617119-f896-9d38-b65c-c061456e2115",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:27:19.913977+00:00"
+    },
+    {
+      "id": "C03-S07-U17",
+      "role": "client",
+      "text": "……当时具体怎么说的，我记不太清了。大概就是说\"这个我看了文档，但这块没太搞明白\"之类的，然后指了指那个地方。\n\n……好像还是带了\"我看了文档\"那个交代。",
+      "call_id": "a777166fcdb045858f241114e6f5ac0e",
+      "response_id": "resp_d05af926-b5cf-91bf-8cfe-20796fb01e22",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:27:26.784260+00:00"
+    },
+    {
+      "id": "C03-S07-U18",
+      "role": "counselor",
+      "text": "嗯，还在，但你自己说也就一下，这个重量跟之前确实不一样了。今天差不多，下次见。",
+      "call_id": "dd8fd661492d4d35bccd75bdddea7d84",
+      "response_id": "resp_c8ff1882-98dd-9c2c-8fda-28b6ae74d9da",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:28:04.902333+00:00"
+    },
+    {
+      "id": "C03-S07-U19",
+      "role": "client",
+      "text": "嗯……那个\"还在找那个感觉\"，可能下次再遇到不太顺的时候才能看出来吧。行，下次再聊。",
+      "call_id": "f63ed61af26d41d7bfb1bcf59802ecf1",
+      "response_id": "resp_aa0be965-3509-9ace-80b6-c105b0224243",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:28:14.576685+00:00"
+    },
+    {
+      "id": "C03-S07-U20",
+      "role": "counselor",
+      "text": "等下次遇到不太顺的时候再看，这个判断挺实际的。下次见。",
+      "call_id": "59027b8ce21a4a74bab1b394dafbaa9f",
+      "response_id": "resp_e0cbd649-045c-99a8-8a70-d44801b64433",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:28:22.074961+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:28:22.074961+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T12:28:22.077473+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C03/S07.json"
+}

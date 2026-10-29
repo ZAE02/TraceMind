@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "7de1e685c6151822e914b15221ce1dbbe86189ef5ab9595b835c10a4a99ea686",
+  "request_sha256": "304a7167d031accc1e37a79d87733bf25d2344a4b2c59c3adb2b7db3385cb3ca",
+  "memory_sha256": "5e63b051713d6627142b860b75014fc4751553238eb3706185db8db34643f563",
+  "memory_source": "c9307802b7a38ca7d8906a762647a864af8c371a7e988179953fa9f16da163d4",
+  "raw_text": "头晕和熬夜可能是身体在提醒你已经超负荷了，这和你反复纠结那些没回的消息、不敢点开群的心态很像——都在试图通过“悬着”来避免面对某种确定的结果。\n\n你刚才提到觉得自己把简单的事搞复杂了，这种自我批评是不是也让你更不敢去点开那个群或回复方宁？",
+  "usage": {
+    "input_tokens": 7299,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 70,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7369,
+    "x_details": [
+      {
+        "input_tokens": 7299,
+        "output_tokens": 70,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7369,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.954,
+  "model": "qwen3.7-flash-2026-07-15"
+}

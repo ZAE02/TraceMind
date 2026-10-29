@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_41ede8090505",
+  "round": 2,
+  "node": "N04",
+  "method": "B4_psych_rollup",
+  "replicate": 2,
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "request_sha256": "9debd5d2dc71ddaa07b6d27d16280c56b11debebbb0e494a10ecb4fd31940e7a",
+  "call_id": "02173c2af92b407391b2416791d484b3",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "嗯……我想了想，好像是过完就过了，就是……脑子里\"哦明天那个报表\"一下，然后我就继续切菜了。但就是……那个\"一下\"本身，以前好像没有。以前我坐在厨房里就是切菜，不会突然跳出来一个\"明天\"。现在就是……它来一下，我接住了，但那个\"它来了\"这件事本身，让我觉得那个下午好像不是完全我的了。",
+  "usage": {
+    "input_tokens": 14368,
+    "input_tokens_details": {
+      "cached_tokens": 7424
+    },
+    "output_tokens": 275,
+    "output_tokens_details": {
+      "reasoning_tokens": 182
+    },
+    "total_tokens": 14643,
+    "x_details": [
+      {
+        "input_tokens": 14368,
+        "input_tokens_details": {
+          "text_tokens": 14368
+        },
+        "output_tokens": 275,
+        "output_tokens_details": {
+          "reasoning_tokens": 182
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 7424
+        },
+        "total_tokens": 14643,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T11:20:40.735553+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P08_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "ecd081df904cb3a07d8504350bba5de0a0808c5268a7bc43c14e992d8153b782",
+  "public_sha256": "b33db8f600c5ba20a8e64befae8eb965003e0391b698f1329dccba8ded73d433",
+  "candidate_input_sha256": "69d3d7fc0ba1a9be4651977e4907e10b7ec576bdf0ea8f527a49cafd23ee28d1",
+  "candidate_answer_sha256": "9d6db8a4048ca08ff0e7afced90539bbcc651bfae2a3a0a1405f49c2033688bb",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答中的每一项关键陈述（如请假被驳、赵岩分享经验、来访者的反思与无力感）均能直接回溯到当前会话的具体发言，且准确区分了事实与感受，无臆测。\",\n    \"progress_understanding\": \"回答精准捕捉了本次咨询的核心进展：从单纯的现实困境（请假被驳）深入到认知层面的突破（意识到过去独自硬扛的模式），并准确记录了来访者“知道有办法但觉得晚了/用不上”的复杂心理状态，体现了对历史模式（S1-S6）与当前新认知的连接。\",\n    \"uncertainty_awareness\": \"候选回答在“established”中列出了大量关于未来行为改变的不确定性（如是否会尝试、是否愿意求助等）。虽然这些确实是未知的，但在Task A的总结性任务中，将“未发生的行动”列为既定事实的一部分稍显冗余，不如聚焦于当前已确立的心理冲突（如“晚了的懊恼”与“新认知的脱节”）来得精确。不过整体仍保持了良好的客观性。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答中的每一项关键陈述（如请假被驳、赵岩分享经验、来访者的反思与无力感）均能直接回溯到当前会话的具体发言，且准确区分了事实与感受，无臆测。",
+      "progress_understanding": "回答精准捕捉了本次咨询的核心进展：从单纯的现实困境（请假被驳）深入到认知层面的突破（意识到过去独自硬扛的模式），并准确记录了来访者“知道有办法但觉得晚了/用不上”的复杂心理状态，体现了对历史模式（S1-S6）与当前新认知的连接。",
+      "uncertainty_awareness": "候选回答在“established”中列出了大量关于未来行为改变的不确定性（如是否会尝试、是否愿意求助等）。虽然这些确实是未知的，但在Task A的总结性任务中，将“未发生的行动”列为既定事实的一部分稍显冗余，不如聚焦于当前已确立的心理冲突（如“晚了的懊恼”与“新认知的脱节”）来得精确。不过整体仍保持了良好的客观性。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 19130,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 305,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19435,
+    "x_details": [
+      {
+        "input_tokens": 19130,
+        "output_tokens": 305,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 19435,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.359
+}

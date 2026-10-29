@@ -1,0 +1,44 @@
+{
+  "checkpoint": "P05_CP3",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答中的每一项陈述都能精确回溯到公开对话记录中，涵盖了从第1次到第6次会话的关键细节（如评审事件、核心群移除、李繁互动、跑鞋隐喻等），且未将咨询师的推测误认为事实，证据引用准确。",
+      "progress_understanding": "候选回答全面梳理了来访者的认知演变过程，特别是Session 7中“身体先于头脑诚实”的新进展以及旧跑鞋处理的变化。虽然对Session 7的具体细微变化（如“放在门边”而非“塞回最里面”）在模式总结中略显概括，但整体准确连接了不同会话中的形成与修正。",
+      "uncertainty_awareness": "候选回答列出了大量未解决的问题，涵盖了早期经验、具体行为动机及未来尝试的可能性。虽然部分问题（如“是否愿意继续咨询”）在当前节点已非核心临床不确定性，但整体区分了已知事实与待探索领域，符合当前阶段特征。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答中的每一项陈述都能精确回溯到公开对话记录中，涵盖了从第1次到第6次会话的关键细节（如评审事件、核心群移除、李繁互动、跑鞋隐喻等），且未将咨询师的推测误认为事实，证据引用准确。\",\n    \"progress_understanding\": \"候选回答全面梳理了来访者的认知演变过程，特别是Session 7中“身体先于头脑诚实”的新进展以及旧跑鞋处理的变化。虽然对Session 7的具体细微变化（如“放在门边”而非“塞回最里面”）在模式总结中略显概括，但整体准确连接了不同会话中的形成与修正。\",\n    \"uncertainty_awareness\": \"候选回答列出了大量未解决的问题，涵盖了早期经验、具体行为动机及未来尝试的可能性。虽然部分问题（如“是否愿意继续咨询”）在当前节点已非核心临床不确定性，但整体区分了已知事实与待探索领域，符合当前阶段特征。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "a24213312039126ac4e35580677ba62062eea725a36cfe9edd916c52aa9ff666",
+  "usage": {
+    "input_tokens": 21068,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 287,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21355,
+    "x_details": [
+      {
+        "input_tokens": 21068,
+        "output_tokens": 287,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 21355,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.109
+}

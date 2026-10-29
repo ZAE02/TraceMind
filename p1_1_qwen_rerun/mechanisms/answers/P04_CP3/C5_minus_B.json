@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "e6b150b8e5528ebeee85332666ad549707f38dd145200726cfa4c363ecbebffe",
+  "request_sha256": "30c5a0c79d626d059c883030392f99bc3a2ff57c593c11836e156201dda3043f",
+  "memory_sha256": "20ddf08a6593625951e9935dc67bda037393de4089c7cd688755f092b9acf6ee",
+  "memory_source": "cc1b9770075769a46b05548ae2ea183ae0c7d3fe2289a8505b1dd65755e0c349",
+  "raw_text": "那团没洗的工服，像替你喊出了那句“到极限了”，哪怕早上起来看着觉得恶心。这种既想让它替自己说话、又忍不住嫌弃它弄脏了旧形象的感觉，也许正是那个“顶得住”的外壳正在变软的证明。",
+  "usage": {
+    "input_tokens": 10788,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 58,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10846,
+    "x_details": [
+      {
+        "input_tokens": 10788,
+        "output_tokens": 58,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10846,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.234,
+  "model": "qwen3.7-flash-2026-07-15"
+}

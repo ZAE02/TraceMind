@@ -1,0 +1,380 @@
+{
+  "A3ad6c5aba9e9": {
+    "node": "C01_CP1",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "683959eb746e47ce8f6682b511684cfe"
+  },
+  "A3f5c1a75f041": {
+    "node": "C01_CP1",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "dd11a02868c14d1190c05ced09940200"
+  },
+  "Ad89817ab0866": {
+    "node": "C01_CP1",
+    "condition": "H1_session",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "92100e9371ff43aca1d5a299c320b19d"
+  },
+  "Ac01d9153d8c0": {
+    "node": "C01_CP1",
+    "condition": "H1_session",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "d3b64734dc034862aea927167c8a00c4"
+  },
+  "Ad3db7e3cd8a6": {
+    "node": "C01_CP1",
+    "condition": "H2_full",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "d688b03ab34c4f329a5e3c8af58b2def"
+  },
+  "A8ff1a63eb04d": {
+    "node": "C01_CP1",
+    "condition": "H2_full",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "eb3cd28b0e8042b3bafba2e8951c9173"
+  },
+  "A30e08b9b5d48": {
+    "node": "C01_CP2",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "c53e752a1da746f79c68a3f6da6e62f5"
+  },
+  "Aecac3fd3803a": {
+    "node": "C01_CP2",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "927a7ed3e7224db18cde459306d4e479"
+  },
+  "A25bcc945c62c": {
+    "node": "C01_CP2",
+    "condition": "H1_session",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "573a2e08ab904df39118a209bcc6447c"
+  },
+  "A464e5d568b14": {
+    "node": "C01_CP2",
+    "condition": "H1_session",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "c018b86a592c4588bb0ef7659e38cd95"
+  },
+  "A8d8b12a175be": {
+    "node": "C01_CP2",
+    "condition": "H2_full",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "ef99994dfe024c85a6dbb8a0a5eb446f"
+  },
+  "A1ee1e1cf4c39": {
+    "node": "C01_CP2",
+    "condition": "H2_full",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "fabfab4daa19404b8b67367cdff4bd75"
+  },
+  "A632ffdbccbb8": {
+    "node": "C01_CP3",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "f3b19246e0e944e7adaeb17d3bb71f07"
+  },
+  "Acf001beffda3": {
+    "node": "C01_CP3",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "aac8d6cdc33840a8a446fecb20dc7b65"
+  },
+  "Aac8a8cf60648": {
+    "node": "C01_CP3",
+    "condition": "H1_session",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "aa1ef452b65e4bf298b48ee2306dafb3"
+  },
+  "A6f89fe2587e2": {
+    "node": "C01_CP3",
+    "condition": "H1_session",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "19f1584b878b4893a6fa58c2ae8a7dba"
+  },
+  "Aaa1189bd339e": {
+    "node": "C01_CP3",
+    "condition": "H2_full",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "4d01aa9a292b49f9a0af1cbc73a38a90"
+  },
+  "A278368981b4c": {
+    "node": "C01_CP3",
+    "condition": "H2_full",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "b70e1f0b40e6496ea85e367b72156bcd"
+  },
+  "A7d4c66285e21": {
+    "node": "C02_CP1",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "5352be06b15940308a21a72e0f914596"
+  },
+  "Acf7a238ffa26": {
+    "node": "C02_CP1",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "9419d25c7e4a453ba05785e2b9fbfb11"
+  },
+  "A88e8d3e27b62": {
+    "node": "C02_CP1",
+    "condition": "H1_session",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "60f8c5dfd73f455d931b72b2b75c06ff"
+  },
+  "A4bd7e75bd3f1": {
+    "node": "C02_CP1",
+    "condition": "H1_session",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "e1b3a3d3b2794028a95b053e4992cdce"
+  },
+  "A1114d1f8869e": {
+    "node": "C02_CP1",
+    "condition": "H2_full",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "b9854e6d7b194d778d0b828eaf8be68e"
+  },
+  "Ab0883475e561": {
+    "node": "C02_CP1",
+    "condition": "H2_full",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "50092d0fbd3c4aa2a9f403560ce828f7"
+  },
+  "Af76a7fa1c33b": {
+    "node": "C02_CP2",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "e65d7d04db194c6fb72a94e663e2e5f5"
+  },
+  "A1e6d6b6f34e0": {
+    "node": "C02_CP2",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "f1a4701d7f3441dc840c7219859da6fd"
+  },
+  "A7afdc3aa749b": {
+    "node": "C02_CP2",
+    "condition": "H1_session",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "5f3ef81c80f5480cb3d0eb7ffd976d76"
+  },
+  "A99212d0bfaf1": {
+    "node": "C02_CP2",
+    "condition": "H1_session",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "6a7ed92873e6454f855e263048b295fe"
+  },
+  "Aac1231d289cd": {
+    "node": "C02_CP2",
+    "condition": "H2_full",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "e3d34b657c374b708daeb602d348a841"
+  },
+  "A7e0b7dc1ee90": {
+    "node": "C02_CP2",
+    "condition": "H2_full",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "1d6ada803ca14097906c41d633255cad"
+  },
+  "Adb43795847e1": {
+    "node": "C02_CP3",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "75f3c34bf5ac40f5a9036a180b2e8aaf"
+  },
+  "A1074392bdb33": {
+    "node": "C02_CP3",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "aad940c5462145e6a4b2a983d98aaa7c"
+  },
+  "A7c6a13e1619f": {
+    "node": "C02_CP3",
+    "condition": "H1_session",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "fccf379481f04b7fbe817e0f14ad61f9"
+  },
+  "A43067d82a1e0": {
+    "node": "C02_CP3",
+    "condition": "H1_session",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "3a0999e50c6e45ed96acd54c0c566838"
+  },
+  "Aa4bdcbaeca66": {
+    "node": "C02_CP3",
+    "condition": "H2_full",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "65f38ec9b5dd4208ba77bbeed2eb8a57"
+  },
+  "Ae0202f1d2b27": {
+    "node": "C02_CP3",
+    "condition": "H2_full",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "fbff0b4479a643289f2ca13460ccdf3f"
+  },
+  "A16bb0ea838d5": {
+    "node": "C03_CP1",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "2d188b79d5744e659ebbd9e892d69dcd"
+  },
+  "Af7ffd8ebe3ae": {
+    "node": "C03_CP1",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "0a9eaa1d6998452784e9283174e11590"
+  },
+  "Aa4953a6b3abc": {
+    "node": "C03_CP1",
+    "condition": "H1_session",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "7f506f514f5a4fdaae4cefcec984df9c"
+  },
+  "A2318ad8a3d7c": {
+    "node": "C03_CP1",
+    "condition": "H1_session",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "5e348a0a0987458ea7c79de00a8d2bb9"
+  },
+  "A35c80fdb842d": {
+    "node": "C03_CP1",
+    "condition": "H2_full",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "a288f7b2970d4df2b24183cc4395fcaf"
+  },
+  "Abec47174f3d8": {
+    "node": "C03_CP1",
+    "condition": "H2_full",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "5c918c9590f94306baa0fd3624d713c6"
+  },
+  "Afbd7910f20f1": {
+    "node": "C03_CP2",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "6a63b87ccf1a4260badde8a666845103"
+  },
+  "A7f5296dcfe1b": {
+    "node": "C03_CP2",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "726157aa93ee406cbdd189625f6fb2ae"
+  },
+  "A1d4374ab5c92": {
+    "node": "C03_CP2",
+    "condition": "H1_session",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "6ebef47d0a3348089113a458a495f335"
+  },
+  "A4a17d1dafabe": {
+    "node": "C03_CP2",
+    "condition": "H1_session",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "533e39923c72433ba8b0b2aaf0002dc4"
+  },
+  "Ab8af4482c4d3": {
+    "node": "C03_CP2",
+    "condition": "H2_full",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "ef0311e0f5eb4359a4eff29a7040848b"
+  },
+  "Ac5064966a6a3": {
+    "node": "C03_CP2",
+    "condition": "H2_full",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "4e291b748c144fb294de7df8875b805c"
+  },
+  "A991ed11803b1": {
+    "node": "C03_CP3",
+    "condition": "H0_utterance",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "e3cd685c8fd3481dae26a3962e629632"
+  },
+  "Aec9e2e05ac19": {
+    "node": "C03_CP3",
+    "condition": "H0_utterance",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "2d4f4a40c26c47b78a0a8df5f662387e"
+  },
+  "Ad28fe5ef109f": {
+    "node": "C03_CP3",
+    "condition": "H1_session",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "1090398d53974d41906437d3a8868d47"
+  },
+  "A7cb8004271ee": {
+    "node": "C03_CP3",
+    "condition": "H1_session",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "5d90e0bbabb54b48a611a4f7c6351e0a"
+  },
+  "Afb85f5541aa1": {
+    "node": "C03_CP3",
+    "condition": "H2_full",
+    "sample": 1,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "5460b3c7871845108b2f60527c0381bd"
+  },
+  "A37795536a248": {
+    "node": "C03_CP3",
+    "condition": "H2_full",
+    "sample": 2,
+    "model_returned": "qwen3.8-27b",
+    "call_id": "b8bbf5d0f9b24d6c8663b21226126ee8"
+  }
+}

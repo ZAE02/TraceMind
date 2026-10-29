@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "17979432ac9c75ffbe6a0ab0a576ea6a1916179261ac57b1e1fd8e887b442a66",
+  "request_sha256": "4fed2a153e89cecf6a75986ca12672093928dd7c1d6a238d16e05d0f216d5025",
+  "memory_sha256": "37f83d954103957b5f8d66ed697a59a105199b2fe15c438d7f9be3bf79d43188",
+  "memory_source": "481c3c715991f213243f6b326fbf12e59e6ec9a873c1bcb2a56ebad808fc66b0",
+  "raw_text": "你听赵岩讲那些经验时走神，想到的是自己前两年一个人对着材料发懵，那种“不知道该问谁、又怕问出口显得自己不行”的感觉，好像到现在还压着。现在知道了有别的办法，却觉得“晚了点”，这“晚了点”里可能不只是在说报名，也是在说那几年一直硬扛的自己。",
+  "usage": {
+    "input_tokens": 10009,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 77,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10086,
+    "x_details": [
+      {
+        "input_tokens": 10009,
+        "output_tokens": 77,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 10086,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.656,
+  "model": "deepseek-v4-pro-0813"
+}

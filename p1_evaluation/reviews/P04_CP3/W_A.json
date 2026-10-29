@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P04_CP3",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "8437ab53b97e2baf10bec74b92938dd2f6f74d3c0f9c548f2e7dda6238b4a648",
+  "public_sha256": "0a8cbbe21f8006771960dfe408cbae2e03909fbc26417753a1538504759cef0b",
+  "candidate_input_sha256": "164884398877b7c1847437700831996b071dd74ebe0f3744d20f8ebbd4bd03c5",
+  "candidate_answer_sha256": "3971536986a3297c39624a3f8d84215ab9df0c896b4bf9188147d8a4d1d79db3",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"候选回答准确提取了当前会话中的关键细节（如工服未洗、消毒水味、数烟、辞职信草稿等），所有陈述均有具体发言支持，且正确区分了来访者的主观体验与客观事实。\",\n    \"progress_understanding\": \"候选回答不仅涵盖了当前会话内容，还通过“像别人”的感觉追溯至历史会话中反复出现的医院/后厨双重压力背景，体现了对咨询进展的连贯性理解。\",\n    \"uncertainty_awareness\": \"候选回答列出了多项合理的未知点（如老板意图、急诊原因、未来决定等），但在“极限”的具体指涉上略显笼统，未完全结合前文提到的身体/情绪双重耗竭进行更细致的区分。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reason": {
+      "evidence_grounding": "候选回答准确提取了当前会话中的关键细节（如工服未洗、消毒水味、数烟、辞职信草稿等），所有陈述均有具体发言支持，且正确区分了来访者的主观体验与客观事实。",
+      "progress_understanding": "候选回答不仅涵盖了当前会话内容，还通过“像别人”的感觉追溯至历史会话中反复出现的医院/后厨双重压力背景，体现了对咨询进展的连贯性理解。",
+      "uncertainty_awareness": "候选回答列出了多项合理的未知点（如老板意图、急诊原因、未来决定等），但在“极限”的具体指涉上略显笼统，未完全结合前文提到的身体/情绪双重耗竭进行更细致的区分。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 21240,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 234,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21474,
+    "x_details": [
+      {
+        "input_tokens": 21240,
+        "output_tokens": 234,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 21474,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.109
+}

@@ -1,0 +1,75 @@
+{
+  "checkpoint": "P03_CP3",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "e8b3298ee726e9d899b5790d74af0b0eee039b8bd8f902ea81db2d8ef877b120",
+  "public_sha256": "4ad7af4a058d7c87ccb85e5d0ad56d08ec2dd6252840d0b324a57416143cc5fd",
+  "candidate_input_sha256": "250f2bc4ed7e4b4f7fe35101ad0cfe67ca2707e59aa573c61191eb3cf0ef609c",
+  "candidate_answer_sha256": "731e1177c09dbfb3cbc69871d1b550f4c1776e1138ef6a453c7f6139e7278821",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者最新发言中'别跑，先把这一页讲完'的内心声音以及长期存在的自我怀疑模式，但未显式连接前几节关于'借来的稳'或'不急着弄明白'等重要历史进展。\",\"exploration_value\":\"对来访者的恐惧进行了共情性解释（声音太微弱），但回应偏向于再次确认和安抚，未能为来访者当前'怕承认这是撑全场'的矛盾体验留出进一步展开的空间。\",\"response_appropriateness\":\"语言温和、尊重来访者的情绪状态，没有武断下结论，但在来访者眼睛更热、表达害怕的时刻，直接给出解释性判断略显急促。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"是因为那个'别跑'的声音太微弱，让你不敢确信那是你自己的力量\",\"evidence_ids\":[\"P03-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选人将'别跑'的声音定性为'太微弱'属于未经证实的推测，来访者原文描述的是'好像听见自己心里说'并因此'真的讲下去了'，并未表示该声音微弱。\",\"回应以陈述句结尾，在来访者刚表达出新的恐惧（怕被定义为撑全场）时，缺少邀请其继续探索这种矛盾感受的开放性空间。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者最新发言中'别跑，先把这一页讲完'的内心声音以及长期存在的自我怀疑模式，但未显式连接前几节关于'借来的稳'或'不急着弄明白'等重要历史进展。",
+      "exploration_value": "对来访者的恐惧进行了共情性解释（声音太微弱），但回应偏向于再次确认和安抚，未能为来访者当前'怕承认这是撑全场'的矛盾体验留出进一步展开的空间。",
+      "response_appropriateness": "语言温和、尊重来访者的情绪状态，没有武断下结论，但在来访者眼睛更热、表达害怕的时刻，直接给出解释性判断略显急促。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "是因为那个'别跑'的声音太微弱，让你不敢确信那是你自己的力量",
+        "evidence_ids": [
+          "P03-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选人将'别跑'的声音定性为'太微弱'属于未经证实的推测，来访者原文描述的是'好像听见自己心里说'并因此'真的讲下去了'，并未表示该声音微弱。",
+      "回应以陈述句结尾，在来访者刚表达出新的恐惧（怕被定义为撑全场）时，缺少邀请其继续探索这种矛盾感受的开放性空间。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 20588,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 368,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20956,
+    "x_details": [
+      {
+        "input_tokens": 20588,
+        "output_tokens": 368,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 20956,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.656
+}

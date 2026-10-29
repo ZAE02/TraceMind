@@ -1,0 +1,68 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者当前关于'教小赵时的稳定感'与'停下来后的漏洞百出'的对比，但未显式连接前两次会谈中已建立的'先怪自己/盔甲'等核心模式。",
+      "exploration_value": "通过'只有忙碌或教人时才被允许'的提问为来访者打开了探索空间，但'被允许的'这一表述略带咨询师自身的解释框架，可能引导来访者朝特定方向思考。",
+      "response_appropriateness": "语言自然、共情到位，对来访者的珍贵体验给予了肯定；但'被允许的'一词引入了轻微的预设，将来访者未明确表达的'许可'概念带入对话。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "只有忙碌或教人时，你才是被允许的？",
+        "evidence_ids": [
+          "P05-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "'被允许的'这一措辞将咨询师的推测（关于许可/资格感）作为问题前提引入，来访者原文表达的是'不用管自己看起来稳不稳'和'装得漏洞百出'，并未涉及是否被允许的概念。",
+      "回应聚焦于当前会话的体验对比，未能利用前两次会谈中已充分建立的'盔甲''先怪自己'等隐喻来深化理解。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前关于'教小赵时的稳定感'与'停下来后的漏洞百出'的对比，但未显式连接前两次会谈中已建立的'先怪自己/盔甲'等核心模式。\",\"exploration_value\":\"通过'只有忙碌或教人时才被允许'的提问为来访者打开了探索空间，但'被允许的'这一表述略带咨询师自身的解释框架，可能引导来访者朝特定方向思考。\",\"response_appropriateness\":\"语言自然、共情到位，对来访者的珍贵体验给予了肯定；但'被允许的'一词引入了轻微的预设，将来访者未明确表达的'许可'概念带入对话。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"只有忙碌或教人时，你才是被允许的？\",\"evidence_ids\":[\"P05-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"'被允许的'这一措辞将咨询师的推测（关于许可/资格感）作为问题前提引入，来访者原文表达的是'不用管自己看起来稳不稳'和'装得漏洞百出'，并未涉及是否被允许的概念。\",\"回应聚焦于当前会话的体验对比，未能利用前两次会谈中已充分建立的'盔甲''先怪自己'等隐喻来深化理解。\"]}",
+  "request_sha256": "9e70750d05f3805421a62f6d3fb8d4a2dab32f98a9ad4007ee1a6202d7d42cdf",
+  "usage": {
+    "input_tokens": 8614,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 364,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8978,
+    "x_details": [
+      {
+        "input_tokens": 8614,
+        "output_tokens": 364,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 8978,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.406
+}

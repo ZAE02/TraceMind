@@ -1,0 +1,504 @@
+{
+  "case_id": "P05",
+  "session": 6,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P05-S06-U01",
+      "role": "client",
+      "text": "这周请了一天假，偏头痛犯了，躺了几乎一整天。李繁寄来的那盒特产我拆开后又包回去了，拍了张照片却一直没发。给她打电话道歉的时候，我本来想好好说的，结果声音越说越紧，最后就变成“没事没事”。",
+      "request_sha256": "07d1447ce6340edda502c85680a19c31889ff674ae475cbc66dedc7bd6e9a5be",
+      "usage": {
+        "input_tokens": 7344,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 331,
+        "output_tokens_details": {
+          "reasoning_tokens": 267
+        },
+        "total_tokens": 7675,
+        "x_details": [
+          {
+            "input_tokens": 7344,
+            "output_tokens": 331,
+            "output_tokens_details": {
+              "reasoning_tokens": 267
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 7675,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U02",
+      "role": "counselor",
+      "text": "拆开又包回去、拍了照却一直没发，这些动作好像都在靠近之后又收了回来。电话里声音越说越紧，最后落到“没事没事”，或许你本来想让她知道的，并不只是那盒特产。",
+      "request_sha256": "1729135e4137006fbd558779a3fc56385ae43e73e00984ac277dc87d2ac8558f",
+      "usage": {
+        "input_tokens": 6653,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 289,
+        "output_tokens_details": {
+          "reasoning_tokens": 238
+        },
+        "total_tokens": 6942,
+        "x_details": [
+          {
+            "input_tokens": 6653,
+            "output_tokens": 289,
+            "output_tokens_details": {
+              "reasoning_tokens": 238
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 6942,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U03",
+      "role": "client",
+      "text": "其实我打电话的时候，最想说的是“谢谢”，可话一出口就变成道歉了。我盯着那盒特产，觉得它不该寄给我这样的人，连拆开都像占了别人便宜。",
+      "request_sha256": "7b844db4abd33f4b8c97a034a7364ca59c3863f3c7da26f266c15565914fef02",
+      "usage": {
+        "input_tokens": 7505,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 417,
+        "output_tokens_details": {
+          "reasoning_tokens": 374
+        },
+        "total_tokens": 7922,
+        "x_details": [
+          {
+            "input_tokens": 7505,
+            "output_tokens": 417,
+            "output_tokens_details": {
+              "reasoning_tokens": 374
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7922,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U04",
+      "role": "counselor",
+      "text": "你本来想说的“谢谢”，到了嘴边却变成道歉，好像那盒特产让你觉得自己不够资格去接受。“不该寄给我这样的人”——那个“这样的人”听起来带着很深的自我责备，让你连一句“谢谢”都变得难以说出口。",
+      "request_sha256": "8b1dc2446e6a47404417139f99425733cf4b3e905a26b97977de9c30365347b4",
+      "usage": {
+        "input_tokens": 6792,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 314,
+        "output_tokens_details": {
+          "reasoning_tokens": 261
+        },
+        "total_tokens": 7106,
+        "x_details": [
+          {
+            "input_tokens": 6792,
+            "output_tokens": 314,
+            "output_tokens_details": {
+              "reasoning_tokens": 261
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7106,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U05",
+      "role": "client",
+      "text": "其实我到现在都没把照片发出去，怕发出去她就知道我在意了。可要是她以后不寄了，我可能又觉得空。我老觉得自己在等一个别人先靠近的理由，近了又反射性地推开。",
+      "request_sha256": "e0196a331c94572e17dde2cbcd31856a8210797978240ca9418ecf5874e1ceec",
+      "usage": {
+        "input_tokens": 7646,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 370,
+        "output_tokens_details": {
+          "reasoning_tokens": 320
+        },
+        "total_tokens": 8016,
+        "x_details": [
+          {
+            "input_tokens": 7646,
+            "output_tokens": 370,
+            "output_tokens_details": {
+              "reasoning_tokens": 320
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8016,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U06",
+      "role": "counselor",
+      "text": "你刚才把自己看得很清楚：等一个别人先靠近的理由，近了又反射性地推开。那个“怕发出去她就知道我在意”里，或许不只是怕一张照片，而是怕一旦显得需要，就失去了某种让自己安全的位置。我们先不用急着改变这个推开，也许可以先看看，每次推开之后，你心里那个“空”具体是什么样的。",
+      "request_sha256": "fea61e8dedf722abf91f300002a57ca2863bd2af2fa43782faa846a05b00681e",
+      "usage": {
+        "input_tokens": 6940,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 392,
+        "output_tokens_details": {
+          "reasoning_tokens": 316
+        },
+        "total_tokens": 7332,
+        "x_details": [
+          {
+            "input_tokens": 6940,
+            "output_tokens": 392,
+            "output_tokens_details": {
+              "reasoning_tokens": 316
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7332,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U07",
+      "role": "client",
+      "text": "那个“空”不太好形容，就像偏头痛过去之后，太阳穴还在一跳一跳地提醒你它来过。有时候我会打开手机相册看那张特产的照片，看着看着就锁屏，过一会儿又打开，跟有病一样。我其实挺怕李繁以后什么都不寄了，到那时候我可能反而天天盼着有点什么。",
+      "request_sha256": "629fcd3c7822e04c78a8cef61b3d5ea51cdc3d49f70083d89a77cfd213ea0225",
+      "usage": {
+        "input_tokens": 7817,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 281,
+        "output_tokens_details": {
+          "reasoning_tokens": 207
+        },
+        "total_tokens": 8098,
+        "x_details": [
+          {
+            "input_tokens": 7817,
+            "output_tokens": 281,
+            "output_tokens_details": {
+              "reasoning_tokens": 207
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8098,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U08",
+      "role": "counselor",
+      "text": "那个反复打开又锁屏的动作，好像你在用眼睛反复确认那份“还在”的感觉，又不允许自己停留太久。你说怕她以后什么都不寄了，到那时候反而天天盼着有点什么——或许你现在已经在通过“看照片”来提前预习那种盼着又不敢要的状态了。",
+      "request_sha256": "b1e9e44d4da779d835ae2c26df4538f7d82f56eb08713f56b66fc7870ec483aa",
+      "usage": {
+        "input_tokens": 7135,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 232,
+        "output_tokens_details": {
+          "reasoning_tokens": 168
+        },
+        "total_tokens": 7367,
+        "x_details": [
+          {
+            "input_tokens": 7135,
+            "output_tokens": 232,
+            "output_tokens_details": {
+              "reasoning_tokens": 168
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7367,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U09",
+      "role": "client",
+      "text": "其实我有时候盯着那张照片，会突然想把手机摔了，又觉得为这点事发脾气很没道理。那个“提前预习”听着挺准的，我好像老在等一个会断掉的东西，等它真断掉之前自己先练习一遍。",
+      "request_sha256": "5400716752afb404599d030141ccaa4aa69683743d22e2676a928ecaded8aed2",
+      "usage": {
+        "input_tokens": 8000,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 328,
+        "output_tokens_details": {
+          "reasoning_tokens": 271
+        },
+        "total_tokens": 8328,
+        "x_details": [
+          {
+            "input_tokens": 8000,
+            "output_tokens": 328,
+            "output_tokens_details": {
+              "reasoning_tokens": 271
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8328,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U10",
+      "role": "counselor",
+      "text": "那个“提前预习”也许不是小题大做，而是你已经在用自己的方式，反复练习怎样面对一个可能断掉的东西。你把火气按下去、又觉得没道理，这种拉扯本身就比那盒特产重得多。",
+      "request_sha256": "b82db886e3465fc47ab334ff1d9a7374733e5045df432e8b266c5f6c65763f97",
+      "usage": {
+        "input_tokens": 7301,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 189,
+        "output_tokens_details": {
+          "reasoning_tokens": 140
+        },
+        "total_tokens": 7490,
+        "x_details": [
+          {
+            "input_tokens": 7301,
+            "output_tokens": 189,
+            "output_tokens_details": {
+              "reasoning_tokens": 140
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7490,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U11",
+      "role": "client",
+      "text": "偏头痛过去以后，太阳穴那里还是跳着，说不上疼，但总觉得那里还记着。照片我可能今晚又会打开看，看完锁屏，过一会儿再打开。我其实很想让她知道我在意，但好像只要一发出去，就承认我一直在等。",
+      "request_sha256": "bb722b8a4d6623d03d0cfb8f3be96d525d82951e6906ae50f29edd266e117060",
+      "usage": {
+        "input_tokens": 8158,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 462,
+        "output_tokens_details": {
+          "reasoning_tokens": 401
+        },
+        "total_tokens": 8620,
+        "x_details": [
+          {
+            "input_tokens": 8158,
+            "output_tokens": 462,
+            "output_tokens_details": {
+              "reasoning_tokens": 401
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8620,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U12",
+      "role": "counselor",
+      "text": "那个跳动的太阳穴，好像也在替你记着一些还没发出去的话。你想让李繁知道你在意，又怕一发出去就承认了自己一直在等——好像“等待”本身，也让你觉得自己不该有期待。今晚再看那张照片时，或许可以不用急着锁屏，先允许自己心里对她说一句什么，哪怕只是“我其实很在意”。",
+      "request_sha256": "5f6032d443112b45d56409250bc3389e2ddd49200dc42be5bdf7b78caad558a8",
+      "usage": {
+        "input_tokens": 7463,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 691,
+        "output_tokens_details": {
+          "reasoning_tokens": 612
+        },
+        "total_tokens": 8154,
+        "x_details": [
+          {
+            "input_tokens": 7463,
+            "output_tokens": 691,
+            "output_tokens_details": {
+              "reasoning_tokens": 612
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8154,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U13",
+      "role": "client",
+      "text": "其实我有时候会想，真的很想李繁的时候，我会不会连“想”这个字都不敢打出来。凌晨四点醒过来，手机屏幕黑着，我照到自己的脸，突然觉得像在看一个很久没联系的人。那种时候我手已经按在语音条上了，但没松手。",
+      "request_sha256": "cdfeddb5e95db30410ae3e2f52baa43b4730ece6149fc00b931a55efb2639be4",
+      "usage": {
+        "input_tokens": 8343,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 421,
+        "output_tokens_details": {
+          "reasoning_tokens": 354
+        },
+        "total_tokens": 8764,
+        "x_details": [
+          {
+            "input_tokens": 8343,
+            "output_tokens": 421,
+            "output_tokens_details": {
+              "reasoning_tokens": 354
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8764,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U14",
+      "role": "counselor",
+      "text": "那个“按在语音条上，却一直没松手”的画面，好像把你这段时间的很多感受都浓缩在那里了——想靠近一个人的愿望已经碰到了指尖，可最后一刻又停住了。而你在凌晨的屏幕里，看见自己像“一个很久没联系的人”，也许那个想找李繁的你，和那个对自己感到陌生的你，在那一刻是同时存在的。",
+      "request_sha256": "53267cf6f544756492a868824486cbc08913a0330cae426f9b00cf19824ff39d",
+      "usage": {
+        "input_tokens": 7654,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 363,
+        "output_tokens_details": {
+          "reasoning_tokens": 281
+        },
+        "total_tokens": 8017,
+        "x_details": [
+          {
+            "input_tokens": 7654,
+            "output_tokens": 363,
+            "output_tokens_details": {
+              "reasoning_tokens": 281
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8017,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U15",
+      "role": "client",
+      "text": "那个按在语音条上的手，最后还是松开了。可能比起发出去听到自己的声音，我更怕听到她第二天用很平常的语气回我一句“怎么啦”。今天先这样吧，我回去应该能睡着。",
+      "request_sha256": "1a1e4b1e25e3cacaa16e4341177a79d31d14e7394c4c5bdcb27eb38222800b4b",
+      "usage": {
+        "input_tokens": 8537,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 319,
+        "output_tokens_details": {
+          "reasoning_tokens": 271
+        },
+        "total_tokens": 8856,
+        "x_details": [
+          {
+            "input_tokens": 8537,
+            "output_tokens": 319,
+            "output_tokens_details": {
+              "reasoning_tokens": 271
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8856,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S06-U16",
+      "role": "counselor",
+      "text": "松开手的那一刻，你怕的或许不是听到她的声音，而是怕她用很平常的语气回应，让你的那份在乎显得单薄。今天能说到这里，已经够了。你回去就让自己慢慢睡，不用再反复想那条语音。",
+      "request_sha256": "729d85627c75ffc025a07914de869df7874c331d2dc754cc042ab56aa993af0a",
+      "usage": {
+        "input_tokens": 7829,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 253,
+        "output_tokens_details": {
+          "reasoning_tokens": 203
+        },
+        "total_tokens": 8082,
+        "x_details": [
+          {
+            "input_tokens": 7829,
+            "output_tokens": 253,
+            "output_tokens_details": {
+              "reasoning_tokens": 203
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8082,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

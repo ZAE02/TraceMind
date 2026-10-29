@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"回应准确承接了来访者当前关于羞耻与渴望的矛盾，但未利用检索历史中高度相关的线索（如S01-U09'希望有人替一晚'或S03-U05/U07父亲离开的创伤），仅泛泛联系。\",\"exploration_value\":\"通过提问为来访者的内在冲突留下了表达空间，但'自我审判'一词略带解释性预设，探索可更贴近来访者原话中的具体担忧（如母亲问'你爸去哪了'）。\",\"response_appropriateness\":\"语言自然、情绪反映到位，尊重来访者的矛盾体验，无明显武断或不当之处。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那种\"承认自己照顾不好\"的羞耻感，和你渴望有人搭把手、哪怕只是睡个整觉的疲惫，在你心里拉扯得很厉害。\",\"evidence_ids\":[\"P06-S01-U09\",\"P06-S01-U10\",\"P06-S03-U05\",\"P06-S03-U07\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"检索历史中包含S01-U09来访者明确表达的'真希望有个人能替我一晚，哪怕就一晚'，与当前S05-U09'太想有个人能搭把手了，哪怕就让我睡个整觉'形成直接呼应，候选未加以利用。\",\"来访者在S05-U09提到担心母亲在机构里反复问'你爸去哪了'，这与S03-U05/S03-U07中父亲离开时的创伤记忆密切相关，候选未触及这一深层线索。\",\"'自我审判'虽合理推断，但稍显概念化，不如紧贴来访者自身语言进行反映。\"]}",
+  "request_sha256": "045afd36defe61e03da54e4dba2ad3c72cc4d878cc2e27890da256412a3de99a",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 11033,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 465,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11498,
+    "x_details": [
+      {
+        "input_tokens": 11033,
+        "output_tokens": 465,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 11498,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

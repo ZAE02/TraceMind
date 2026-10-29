@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "75742b29b9ceed4987f0e16471489fc44aa553fc2723011b4da54149119f1887",
+  "request_sha256": "39e97e90f951e4f1751b1ec6e9ddf49ac7883cda310326f6c03c30abad53a02b",
+  "memory_sha256": "fd6fec2afeb73aa7fe43f529e231b64bcc03d56e9df8a80fbd325309cf97608d",
+  "memory_source": "0e67f63813369fdb404a4ec88a98b5fa10a7fc6d7cc99991f7a576e70086b377",
+  "raw_text": "你下意识伸手去拉平被角，又补了一句解释，那个瞬间里是不是有一种“怕自己连帮忙的资格都要靠挑剔来确认”的慌张？这种悬在头顶打分的感觉，也许正是你还没完全相信“有人搭把手”时，身体还在替你紧绷着。",
+  "usage": {
+    "input_tokens": 10102,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 61,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10163,
+    "x_details": [
+      {
+        "input_tokens": 10102,
+        "output_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 10163,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.093,
+  "model": "qwen3.7-flash-2026-07-15"
+}

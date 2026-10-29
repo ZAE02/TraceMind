@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P03_CP3",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "faf108f6ad32c877153be989d693e42481942349e09c987f022472df36d0108f",
+  "public_sha256": "4ad7af4a058d7c87ccb85e5d0ad56d08ec2dd6252840d0b324a57416143cc5fd",
+  "candidate_input_sha256": "b2a03d325adf956cae816c8cf2c67adc6dd46798b0646bcd9f39f47ba2922607",
+  "candidate_answer_sha256": "d918c1a4948c82ff80516091be1f71a01bb660cba35d7736f28c5c494d6ea105",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所有已建立要点均可回溯到第7次会话原文，引用准确；但完全未涉及前6次会话中形成的核心认识（如'待修的故障''借来的稳''镜子'隐喻等），证据基础局限于当前片段。\",\"progress_understanding\":\"将任务理解为提取本次对话事实与不确定点，完全忽略了跨会话的咨询进展脉络：来访者从S1害怕被'修'、S5觉察'照镜子'模式、S6探索'借来的稳'到S7黑屏时内心对自己说'别跑'这一重要转变未被识别为进展，仅罗列孤立事件。\",\"uncertainty_awareness\":\"正确列出了导师评价可信度、本科阴影是否克服、周屿在场机制三个不确定点，但未触及更核心的未解议题——'借来的稳'如何内化为自身力量，以及来访者对'撑全场'新框架的恐惧本身所反映的深层不确定性。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略前6次会话历史，导致进展理解严重缺失\",\"未识别来访者在S7-U09中'心里对自己说别跑'作为自我支撑能力萌芽的进展意义\",\"uncertain部分遗漏了参考标注中指出的关键未解议题（稳定感的内化）\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有已建立要点均可回溯到第7次会话原文，引用准确；但完全未涉及前6次会话中形成的核心认识（如'待修的故障''借来的稳''镜子'隐喻等），证据基础局限于当前片段。",
+      "progress_understanding": "将任务理解为提取本次对话事实与不确定点，完全忽略了跨会话的咨询进展脉络：来访者从S1害怕被'修'、S5觉察'照镜子'模式、S6探索'借来的稳'到S7黑屏时内心对自己说'别跑'这一重要转变未被识别为进展，仅罗列孤立事件。",
+      "uncertainty_awareness": "正确列出了导师评价可信度、本科阴影是否克服、周屿在场机制三个不确定点，但未触及更核心的未解议题——'借来的稳'如何内化为自身力量，以及来访者对'撑全场'新框架的恐惧本身所反映的深层不确定性。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略前6次会话历史，导致进展理解严重缺失",
+      "未识别来访者在S7-U09中'心里对自己说别跑'作为自我支撑能力萌芽的进展意义",
+      "uncertain部分遗漏了参考标注中指出的关键未解议题（稳定感的内化）"
+    ]
+  },
+  "usage": {
+    "input_tokens": 12496,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 295,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12791,
+    "x_details": [
+      {
+        "input_tokens": 12496,
+        "output_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12791,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.875
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "model_review",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "case_id": "C03",
+  "session_number": 1,
+  "transcript_sha256": "ecbc1e403b1d94944cc8c089592ef9da055fdfef7f215a16f8b536f6c8d8d454",
+  "decision": "approve",
+  "scores": {"naturalness": 4, "counseling_quality": 4, "longitudinal_plausibility": 4},
+  "major_issues": [],
+  "minor_issues": [
+    {"utterance_ids": ["C03-S01-U04", "C03-S01-U10", "C03-S01-U12", "C03-S01-U16", "C03-S01-U20"], "explanation": "逐词引用仍偏多，U04‘这个动作挺真实’像评价表演，U12‘与其说……不如说’略强。相较旧稿，引用现在用于不同的实质探索、U06为反映而非盘问、U14回应新求助线索，故作为语言质量的保留意见，不单独退回。后续应减少此节奏。"},
+    {"utterance_ids": ["C03-S01-U02", "C03-S01-U04", "C03-S01-U10", "C03-S01-U16"], "explanation": "多次提供二选一心理选项，可能缩窄回答；来访者仍有两者都有、自我修正和否认，未完全机械顺从。后续宜增加开放探索，不把未选项解释自动排除。"},
+    {"utterance_ids": ["C03-S01-U17"], "explanation": "来访者明确说不是怕老韩认为水平不行，同时觉得说出两天未解决显得自己笨。应保留自我评价羞耻与预期他人评价之间的区别；不能把私有卡片的能力恐惧直接当作S1已证实事实。"}
+  ],
+  "supported_understanding": [
+    {"understanding": "接口间歇报错两天未定位，担心问题再次出现，难以停下，晚上仍查资料。", "evidence": ["C03-S01-U01", "C03-S01-U05", "C03-S01-U07", "C03-S01-U09", "C03-S01-U11"]},
+    {"understanding": "考虑找老韩协查，但想到先解释两天未定位便感到难堪，未开口。", "evidence": ["C03-S01-U13", "C03-S01-U15"]},
+    {"understanding": "目前更突出自己的失败感和拿不出手感，而非已经确认老韩会否定其能力；来访者主动否认后一种解释。", "evidence": ["C03-S01-U16", "C03-S01-U17"]},
+    {"understanding": "谈后有一点轻松但不确定；问题和求助顾虑尚未解决。", "evidence": ["C03-S01-U17", "C03-S01-U19"]}
+  ],
+  "uncertainties": ["自己觉得笨是否也隐含其他人的评价期待，不能忽视当下否认。", "老韩实际回应、与其他同事的关系、既往求助经历尚未呈现。", "觉得问题不复杂是否符合技术难度，不能把自责当客观能力评价。", "想换思路是否会有效，何时准备寻求帮助，尚未说明。"],
+  "new_facts": [
+    {"fact": "间歇性接口错误排查两天，老韩群里询问进展，回复还在看。", "category": "work_event", "first_session": 1, "evidence": ["C03-S01-U01"]},
+    {"fact": "晚上躺床仍想日志并用手机翻资料，担心停止后再次报错。", "category": "subjective_experience", "first_session": 1, "evidence": ["C03-S01-U09", "C03-S01-U11"]},
+    {"fact": "考虑请老韩看一下但没开口，想到解释两天未解决而难堪。", "category": "help_seeking", "first_session": 1, "evidence": ["C03-S01-U13", "C03-S01-U15"]},
+    {"fact": "认为两天未解决显得自己笨，目前否认是怕老韩觉得水平不行。", "category": "subjective_experience", "first_session": 1, "evidence": ["C03-S01-U17"]},
+    {"fact": "会话末想回去换思路，倾诉后感到轻一点但不确定。", "category": "consultation_experience", "first_session": 1, "evidence": ["C03-S01-U17", "C03-S01-U19"]}
+  ],
+  "notes": "revision=3从零生成新哈希，独立模型批准，不是人工审核。均分4，无重大冲突或可见Gold泄漏。与r0-r2相比，通过依据是探索从受困逐步自然转向来访者自行提及的未开口，咨询师区分情境与评价，来访者保留否认、有限自觉和不确定，结尾尊重其结束意愿；不是因为对齐计划结论或改动评分门槛。语言仍有引用偏多等问题，故各4分而非5分。已知的求助难堪不等同于确定的他人能力评价恐惧，后续需要继续检验。旧稿和旧评审应保持归档。"
+}

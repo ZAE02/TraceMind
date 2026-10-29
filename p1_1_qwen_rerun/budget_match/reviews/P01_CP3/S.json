@@ -1,0 +1,65 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接来访者长期'怕显得计较/不恰当'的模式，将点赞犹豫自然连接到历史中反复出现的自我审查主题。",
+      "exploration_value": "区分了嫉妒情绪本身与对情绪的自责哪个更让人难受，为来访者进一步探索内在体验留下空间，但未直接回应来访者提到的'跟项目混在一起分不清'这一新觉察。",
+      "response_appropriateness": "语言温和、贴近来访者表达，没有武断定性或过度解读，尊重来访者的不确定感。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "未触及来访者主动提出的'把情绪和项目混在一起越混越分不清'这一重要觉察，错失了帮助来访者梳理两种压力交织的机会。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":3,\"response_appropriateness\":4},\"brief_reasons\":{\"history_utilization\":\"准确承接来访者长期'怕显得计较/不恰当'的模式，将点赞犹豫自然连接到历史中反复出现的自我审查主题。\",\"exploration_value\":\"区分了嫉妒情绪本身与对情绪的自责哪个更让人难受，为来访者进一步探索内在体验留下空间，但未直接回应来访者提到的'跟项目混在一起分不清'这一新觉察。\",\"response_appropriateness\":\"语言温和、贴近来访者表达，没有武断定性或过度解读，尊重来访者的不确定感。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"未触及来访者主动提出的'把情绪和项目混在一起越混越分不清'这一重要觉察，错失了帮助来访者梳理两种压力交织的机会。\"]}",
+  "request_sha256": "a07fead20a6ec0b8c3dc59fde5cdb69fb109a8aa6317c44157a53604d348f17a",
+  "usage": {
+    "input_tokens": 21217,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 257,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21474,
+    "x_details": [
+      {
+        "input_tokens": 21217,
+        "output_tokens": 257,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 21474,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.391
+}

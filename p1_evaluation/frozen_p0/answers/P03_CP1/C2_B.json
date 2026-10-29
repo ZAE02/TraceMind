@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP1",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "536b37d9aba1df549fe7aae77486b6a1be67e6c9120d7ba19203e50585c39041",
+  "request_sha256": "a23476ee19dd673908775a366f567bf3b8aedb7acdc977204a5971b48d298e33",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "水声停了，那句话还是没说出来——也许今晚它需要的不是被说出口，而是先被你听见：你怕的不是承认他有用，而是怕一旦承认，你的累和难过就再也没地方放了。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3372,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 45,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3417,
+    "x_details": [
+      {
+        "input_tokens": 3372,
+        "output_tokens": 45,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3417,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

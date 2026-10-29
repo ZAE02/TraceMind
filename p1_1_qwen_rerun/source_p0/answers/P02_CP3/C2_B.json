@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP3",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "195abcb273f08258d442eb8cc81ea166c2b02ae8aea729329fb037ecc97e9872",
+  "request_sha256": "4d2e9b660ad65b8e009b83c7dd1f4ce35378a3dc193f6dcbd5cbe022b82bd7c6",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你一直在反复审视那句“想少一点晚班”，甚至担心语气太冲，这似乎印证了你之前说的——一旦为自己开口，就会陷入被惦记和自责的循环。这种对“说错话”的恐惧，是不是让你觉得，连争取自己的需求都变成了一件需要小心翼翼、随时准备道歉的事？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3417,
+    "input_tokens_details": {
+      "cached_tokens": 3200
+    },
+    "output_tokens": 67,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3484,
+    "x_details": [
+      {
+        "input_tokens": 3417,
+        "output_tokens": 67,
+        "prompt_tokens_details": {
+          "cached_tokens": 3200
+        },
+        "total_tokens": 3484,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

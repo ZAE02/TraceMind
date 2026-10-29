@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P03_CP3",
+  "raw_text": "你眼睛更热了，却还是把“别跑，先把这一页讲完”这句话说出来了——那可能不是硬着头皮，而是你在最想逃的时候，自己对自己伸了一次手。怕它不算“撑全场”，也许是因为你还不习惯把“没逃”也当成一种撑住，而不是不够好。",
+  "request_sha256": "6287cefe6af5df2688e89f6c4348bbef3dadd88f29e10f2d184b6b474e21c0da",
+  "input_sha256": "6a1ed4987b7083898a851fcf617f991a5e5f7e3739aaf40b5c9c59722bd9cc43",
+  "memory_sha256": "b5bc84a88957ba823031c39e5eaee7f0870778954a13fc0c9d46786a90cca74b",
+  "usage": {
+    "input_tokens": 10391,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 70,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10461,
+    "x_details": [
+      {
+        "input_tokens": 10391,
+        "output_tokens": 70,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 10461,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.343
+}

@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP2",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "8f1039b7c228705fb8ecde1ad6c66559f918a98cc2c720000aca53bcb8eed86e",
+  "request_sha256": "6dece1768b1c52046ef0635c9bc84874ff288183631350e16444d2eeaac2cff1",
+  "memory_sha256": "bbb7be22428044db119fa2a4dd7280ec704ccd64b76e70c4afd5e3f8d843f6f6",
+  "memory_source": "0b99e6ecc4e07150ec014736baedab18bfa4245692bfa643501f4a21ec72f15d",
+  "raw_text": "那面镜子照出的模糊感，也许正是因为你一直在用别人的反应来定义自己，却忘了你自己原本的样子。如果现在不急着去擦干净这面镜子，或者不去确认镜子里到底是谁，你会觉得更慌，还是能稍微松一点？",
+  "usage": {
+    "input_tokens": 7610,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 55,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7665,
+    "x_details": [
+      {
+        "input_tokens": 7610,
+        "output_tokens": 55,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7665,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.5,
+  "model": "qwen3.7-flash-2026-07-15"
+}

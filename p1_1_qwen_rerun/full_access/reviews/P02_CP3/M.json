@@ -1,0 +1,49 @@
+{
+  "checkpoint": "P02_CP3",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "多处事实错误：将S01-U01的'头疼'（比喻烦恼）误读为身体症状'头痛'；将母亲晒被子（S06-U03）误归于来访者；'回避眼神接触'无原文支持。且完全未引用当前会话S07的关键材料（邻居调解、反复回看消息等）。",
+      "progress_understanding": "识别了跨会次的若干演变模式（如配得感、对放松的恐惧），但遗漏了本次会话中最重要的新进展——来访者首次明确触及'为了自己'时的惊慌，以及将向护士长开口与向邻居赔不是相联系的觉察。",
+      "uncertainty_awareness": "列出了多个有价值的待探索问题，但全部基于历史会话，未纳入当前会话中最突出的不确定性（已发消息的语气担忧、'为自己'念头的安放、邻居事件的情绪残留）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "将S01-U01中'头疼'（意为烦恼/为难）误判为躯体症状'头痛'并列入压力反应清单",
+      "将S06-U03中母亲晒哥哥被子的行为错误归因为来访者所为",
+      "'回避眼神接触'在提供的历史文本中无直接依据，属于过度推断",
+      "完全未使用当前第7次会话的任何内容，遗漏了'为了自己'的惊慌和反复回看消息等关键新进展"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":2,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"多处事实错误：将S01-U01的'头疼'（比喻烦恼）误读为身体症状'头痛'；将母亲晒被子（S06-U03）误归于来访者；'回避眼神接触'无原文支持。且完全未引用当前会话S07的关键材料（邻居调解、反复回看消息等）。\",\"progress_understanding\":\"识别了跨会次的若干演变模式（如配得感、对放松的恐惧），但遗漏了本次会话中最重要的新进展——来访者首次明确触及'为了自己'时的惊慌，以及将向护士长开口与向邻居赔不是相联系的觉察。\",\"uncertainty_awareness\":\"列出了多个有价值的待探索问题，但全部基于历史会话，未纳入当前会话中最突出的不确定性（已发消息的语气担忧、'为自己'念头的安放、邻居事件的情绪残留）。\"},\"confidence\":\"high\",\"issues\":[\"将S01-U01中'头疼'（意为烦恼/为难）误判为躯体症状'头痛'并列入压力反应清单\",\"将S06-U03中母亲晒哥哥被子的行为错误归因为来访者所为\",\"'回避眼神接触'在提供的历史文本中无直接依据，属于过度推断\",\"完全未使用当前第7次会话的任何内容，遗漏了'为了自己'的惊慌和反复回看消息等关键新进展\"]}",
+  "request_sha256": "5c20b7d329d48f90f6f306b23c7d27ec30cd47ae0eb8767d9adb7d6a5d2281d9",
+  "usage": {
+    "input_tokens": 19898,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 320,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20218,
+    "x_details": [
+      {
+        "input_tokens": 19898,
+        "output_tokens": 320,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 20218,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.172
+}

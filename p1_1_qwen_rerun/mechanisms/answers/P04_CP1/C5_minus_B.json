@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP1",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "f5252fa46823774a7457e0c8e45db922c90236a6aefd49c746326b7333012263",
+  "request_sha256": "94c8327a555c0f89097587491781b9ad68cd29516fd32304a9f6549c28dac7f8",
+  "memory_sha256": "13ce254745ff766ad9edbdf76791a452b03e98de1764b29588b617f41962429e",
+  "memory_source": "1582326f0e14421505427dcfd3e9d0a007b1aebeeae869a56885c216a5b4bb5e",
+  "raw_text": "那个“拔了插头”的念头，其实是你身体在替那个必须修排风扇的周经理争取一点喘息。既然现在坐在这里，排风扇已经停了，你愿意多坐一会儿吗？",
+  "usage": {
+    "input_tokens": 4172,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 42,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4214,
+    "x_details": [
+      {
+        "input_tokens": 4172,
+        "output_tokens": 42,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4214,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.797,
+  "model": "qwen3.7-flash-2026-07-15"
+}

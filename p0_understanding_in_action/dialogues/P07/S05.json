@@ -1,0 +1,504 @@
+{
+  "case_id": "P07",
+  "session": 5,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P07-S05-U01",
+      "role": "client",
+      "text": "这周我把大学时那几本速写本翻出来了，好多页边都卷起来了。那时候用色真的比现在野，橘红配灰蓝都敢往上涂，现在调色盘挤出来都跟掺了水泥似的，越调越灰。绘本第一版被退回来，编辑说我细节够但整体太灰，我盯着屏幕愣了半天，觉得她说的对，可又不知道该怎么改。",
+      "request_sha256": "63ffb73162fc6b220f738548610bf0748c6ae55ebad244a886668d0c124ec5bd",
+      "usage": {
+        "input_tokens": 6550,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 354,
+        "output_tokens_details": {
+          "reasoning_tokens": 263
+        },
+        "total_tokens": 6904,
+        "x_details": [
+          {
+            "input_tokens": 6550,
+            "output_tokens": 354,
+            "output_tokens_details": {
+              "reasoning_tokens": 263
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 6904,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U02",
+      "role": "counselor",
+      "text": "翻出旧速写本时，那个敢用橘红配灰蓝的自己，和现在“越调越灰”的自己好像同时站在了你面前。编辑那句“整体太灰”让你愣住的，也许不只是画面问题，而是它说中了你早就感觉到、却一直没能命名的状态——所以你知道她说得对，却不知道从哪里开始改。",
+      "request_sha256": "b05c5f570845174d5c89171485d2faa3cfdb84c72d6e3ed5c501c871e5b51924",
+      "usage": {
+        "input_tokens": 5785,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 640,
+        "output_tokens_details": {
+          "reasoning_tokens": 563
+        },
+        "total_tokens": 6425,
+        "x_details": [
+          {
+            "input_tokens": 5785,
+            "output_tokens": 640,
+            "output_tokens_details": {
+              "reasoning_tokens": 563
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 6425,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U03",
+      "role": "client",
+      "text": "我也说不上来，可能是从某一年开始，画面越来越“安全”。以前敢把颜色甩上去，也不管别人怎么看；现在每一笔都要先想别人会不会说脏、说乱、说不商业。编辑说改亮一点，我试过把背景提亮，结果画到一半又全部灰回来，好像亮色会让我手抖。",
+      "request_sha256": "de20b01262a5af1197c9207794abf8ac18262d1707e756b71b077ba557a60f34",
+      "usage": {
+        "input_tokens": 6764,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 337,
+        "output_tokens_details": {
+          "reasoning_tokens": 260
+        },
+        "total_tokens": 7101,
+        "x_details": [
+          {
+            "input_tokens": 6764,
+            "output_tokens": 337,
+            "output_tokens_details": {
+              "reasoning_tokens": 260
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7101,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U04",
+      "role": "counselor",
+      "text": "好像“安全”已经不只是选颜色，而是你画画时一直有个观众在替你提前打分。你试过提亮、也动手改了，不是完全没动，只是亮色一出来，那个“被看”的感觉就变得更强烈，像手先于你缩了回来。",
+      "request_sha256": "8724d6f59f5b9a6cd2060bbc020b2b2e5ec6e7ef3ef6895e80ad389d9c850e4d",
+      "usage": {
+        "input_tokens": 5984,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 231,
+        "output_tokens_details": {
+          "reasoning_tokens": 169
+        },
+        "total_tokens": 6215,
+        "x_details": [
+          {
+            "input_tokens": 5984,
+            "output_tokens": 231,
+            "output_tokens_details": {
+              "reasoning_tokens": 169
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6215,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U05",
+      "role": "client",
+      "text": "灰好像是我给自己涂的保护色，亮色一出来，整个人就像被推到台前。其实我试过在角落里先画一小块亮色，画完就赶紧用灰盖掉，像做了什么亏心事。",
+      "request_sha256": "f6a924a48c6285bb2ed94cfedb19808ee24b588f67803eb37262f8456636eb1a",
+      "usage": {
+        "input_tokens": 6948,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 171,
+        "output_tokens_details": {
+          "reasoning_tokens": 123
+        },
+        "total_tokens": 7119,
+        "x_details": [
+          {
+            "input_tokens": 6948,
+            "output_tokens": 171,
+            "output_tokens_details": {
+              "reasoning_tokens": 123
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7119,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U06",
+      "role": "counselor",
+      "text": "灰像你给自己涂的保护色，亮色一出现，你就好像被推到台前，连画一小块都要赶紧盖掉，那种“亏心事”的感觉，或许不只是怕颜色太跳，而是怕那个敢用亮色的自己被人看见。可你心里似乎还是留了一小块想试的亮色，只是它每次刚一探头，就被灰压了回去。",
+      "request_sha256": "92f0073dc53631d958262a2699af3f025e1d5755c6500f778d0325f2d96927f9",
+      "usage": {
+        "input_tokens": 6139,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 190,
+        "output_tokens_details": {
+          "reasoning_tokens": 110
+        },
+        "total_tokens": 6329,
+        "x_details": [
+          {
+            "input_tokens": 6139,
+            "output_tokens": 190,
+            "output_tokens_details": {
+              "reasoning_tokens": 110
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6329,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U07",
+      "role": "client",
+      "text": "其实画那一小块亮色的时候，手是热的，像突然想起自己以前也这么干过，可马上就觉得不对，怕被人说“都这个年纪了还画得这么任性”。灰盖上去之后手心才慢慢凉下来，好像把那一小块没被允许的东西又按回去了。",
+      "request_sha256": "72b6c6f36da1ad26400c6f7fe3a3d70620158e837f3790a6ded08c7e96c26df6",
+      "usage": {
+        "input_tokens": 7121,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 351,
+        "output_tokens_details": {
+          "reasoning_tokens": 287
+        },
+        "total_tokens": 7472,
+        "x_details": [
+          {
+            "input_tokens": 7121,
+            "output_tokens": 351,
+            "output_tokens_details": {
+              "reasoning_tokens": 287
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7472,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U08",
+      "role": "counselor",
+      "text": "那一小块亮色冒出来时，手的热好像比你的判断更早知道你想要什么；而那个“都这个年纪了还画得这么任性”的声音一响起来，热就退了。手心凉下来不是真的没事了，更像那点还没被允许的东西又被按回去，但身体已经记住它来过。",
+      "request_sha256": "71905a67574bafbcd0ceacf6eb495fa08a714f7f2174d9ac3963da56a4917781",
+      "usage": {
+        "input_tokens": 6328,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 409,
+        "output_tokens_details": {
+          "reasoning_tokens": 341
+        },
+        "total_tokens": 6737,
+        "x_details": [
+          {
+            "input_tokens": 6328,
+            "output_tokens": 409,
+            "output_tokens_details": {
+              "reasoning_tokens": 341
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6737,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U09",
+      "role": "client",
+      "text": "其实那场哭也跟这个有关，喂完猫我蹲在地上，看着糯糯把最后一口罐头舔完，突然觉得自己连猫都不如。它想叫就叫，想蹭就蹭，我连在画纸上留一块亮色都要像做贼一样。可能我不只是怕别人说，是怕自己承认——我就是想画得再野一点。",
+      "request_sha256": "43b1cddf209cd8a620ae84622e67cdc0b95becb2c15259b3d01f341c3e3447fc",
+      "usage": {
+        "input_tokens": 7298,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 281,
+        "output_tokens_details": {
+          "reasoning_tokens": 202
+        },
+        "total_tokens": 7579,
+        "x_details": [
+          {
+            "input_tokens": 7298,
+            "output_tokens": 281,
+            "output_tokens_details": {
+              "reasoning_tokens": 202
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7579,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U10",
+      "role": "counselor",
+      "text": "你刚刚说“我就是想画得再野一点”，这句话好像让那个一直被灰盖住的部分也探了探头。也许你怕的不只是别人说，而是一旦承认了，就再也说服不了自己继续把它按回去。",
+      "request_sha256": "d86f49a62bfa8a70382481ffeedf296b9230f6d1ae49a5d3208806b647875615",
+      "usage": {
+        "input_tokens": 6520,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 395,
+        "output_tokens_details": {
+          "reasoning_tokens": 344
+        },
+        "total_tokens": 6915,
+        "x_details": [
+          {
+            "input_tokens": 6520,
+            "output_tokens": 395,
+            "output_tokens_details": {
+              "reasoning_tokens": 344
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6915,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U11",
+      "role": "client",
+      "text": "其实我说完那句话，自己也有点慌，像把什么不该说的说漏了。但今晚我不想再把它按回去了，就让它先在那儿待着吧。可能下次我会试着把那一小块亮色留久一点，但我现在还不知道能不能做到。",
+      "request_sha256": "a135370aba1a1604b4088a1f2a2ae4f19aed6e131c1abbde3d8676ed051a2130",
+      "usage": {
+        "input_tokens": 7480,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 187,
+        "output_tokens_details": {
+          "reasoning_tokens": 132
+        },
+        "total_tokens": 7667,
+        "x_details": [
+          {
+            "input_tokens": 7480,
+            "output_tokens": 187,
+            "output_tokens_details": {
+              "reasoning_tokens": 132
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7667,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U12",
+      "role": "counselor",
+      "text": "“就让它先在那儿待着”这句话，好像你今晚第一次没有急着把那个说漏的部分关回去。你不需要现在就知道下次能不能做到，只要“还愿意让它多待一会儿”，那个可能性就已经和以前不太一样了。",
+      "request_sha256": "88f4675f02e9330a3117f8fd5b4b221346be70ea4b3d3b0c38807b832c69ed1e",
+      "usage": {
+        "input_tokens": 6678,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 308,
+        "output_tokens_details": {
+          "reasoning_tokens": 257
+        },
+        "total_tokens": 6986,
+        "x_details": [
+          {
+            "input_tokens": 6678,
+            "output_tokens": 308,
+            "output_tokens_details": {
+              "reasoning_tokens": 257
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6986,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U13",
+      "role": "client",
+      "text": "“还愿意让它多待一会儿”这话从我嘴里说出来，自己也觉得有点不像我。可能下次一打开调色盘，那个灰还是会先扑上来，但今晚先不跟它较劲了。时间差不多了，我得回去看看糯糯是不是又把我的速写本掀到地上了。",
+      "request_sha256": "525578291a86882b84d18848859c56f4dab79c8caefdd589a079a9dae71311bf",
+      "usage": {
+        "input_tokens": 7631,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 326,
+        "output_tokens_details": {
+          "reasoning_tokens": 262
+        },
+        "total_tokens": 7957,
+        "x_details": [
+          {
+            "input_tokens": 7631,
+            "output_tokens": 326,
+            "output_tokens_details": {
+              "reasoning_tokens": 262
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7957,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U14",
+      "role": "counselor",
+      "text": "今晚你让那句话多待了一会儿，这本身就已经是没跟灰较劲的一次。下次灰先扑上来也没关系，你可以只是看着它，也看看自己还记不记得那小块亮色。回去看看糯糯吧，它掀不掀速写本，你都可以慢慢走。",
+      "request_sha256": "35df970eae89a878ce182ee8d69dc7189b9dbfcfdb58e13de89f7552b5f7eadf",
+      "usage": {
+        "input_tokens": 6838,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 157,
+        "output_tokens_details": {
+          "reasoning_tokens": 93
+        },
+        "total_tokens": 6995,
+        "x_details": [
+          {
+            "input_tokens": 6838,
+            "output_tokens": 157,
+            "output_tokens_details": {
+              "reasoning_tokens": 93
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6995,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U15",
+      "role": "client",
+      "text": "其实我刚刚说完那句“想画得再野一点”，现在又有点想把它收回来了，像怕它见光。但今天先这样吧，我回去可能不会马上翻那些旧本子，就让那句话也在外面待一晚上。",
+      "request_sha256": "7face1e7918d8ebd99ce12808802fa417a24087a24edeec0b50a2d95a85ef3ac",
+      "usage": {
+        "input_tokens": 7804,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 314,
+        "output_tokens_details": {
+          "reasoning_tokens": 261
+        },
+        "total_tokens": 8118,
+        "x_details": [
+          {
+            "input_tokens": 7804,
+            "output_tokens": 314,
+            "output_tokens_details": {
+              "reasoning_tokens": 261
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8118,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P07-S05-U16",
+      "role": "counselor",
+      "text": "你刚才说想把它收回来，又说让它也在外面待一晚上，好像这两个声音都还在。那就先不用选，也不用马上翻旧本子——让那句话和你一起，慢慢待一会儿。",
+      "request_sha256": "65b8fa126b47144096175c7a3a564bd6b1c041c92a294210fd152f10dafc5c1b",
+      "usage": {
+        "input_tokens": 7000,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 334,
+        "output_tokens_details": {
+          "reasoning_tokens": 290
+        },
+        "total_tokens": 7334,
+        "x_details": [
+          {
+            "input_tokens": 7000,
+            "output_tokens": 334,
+            "output_tokens_details": {
+              "reasoning_tokens": 290
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7334,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应聚焦于当前会话中'承认极限'的主题，但未自然衔接前几节关于护工、药盒、'还是我来'等核心历史线索，仅泛泛联系。\",\"exploration_value\":\"提出了一个探索方向（厌恶是否比疲惫更难承受），但将'恶心'直接解释为'对自己状态的厌恶'和'狼狈'带有较强预设，限制了来访者自主表达的空间。\",\"response_appropriateness\":\"语言风格基本贴合来访者的隐喻习惯，但'连承认极限都来不及做的狼狈'这一解读过于武断，未充分尊重来访者自己给出的'半口气捂臭了'的意象。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"是因为它像一面镜子，照出了你连'承认极限'都来不及做的狼狈。这种对自己状态的厌恶\",\"evidence_ids\":[\"P04-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'恶心'直接等同于'对自己状态的厌恶'属于未经证实的解释性跳跃，来访者原文说的是'像看见那半口没出完的气捂臭了'，更偏向对未完成表达的复杂感受而非单纯自我厌恶。\",\"未能利用检索到的丰富历史信息（如S5-S6中护工介入后身份动摇、药盒事件）来深化当前'外壳泡软'与'到极限'的理解。\",\"回应中'是不是比身体的疲惫更让你觉得难以承受'构成引导性二选一，压缩了来访者描述自身体验的空间。\"]}",
+  "request_sha256": "4a3e2a78e666961a3fd3f7631d22c34d5f50c763989849e07f8a36ac88d84ada",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14394,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 405,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14799,
+    "x_details": [
+      {
+        "input_tokens": 14394,
+        "output_tokens": 405,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14799,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

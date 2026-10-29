@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "c8485f81b0427ef0f445f72d5914ac50cb724020d08befe00b45e90387f1ff01",
+  "request_sha256": "8b4a576db2e4927701603d7862b6126a2a529db0cec8a7c824de1912759b0a12",
+  "memory_sha256": "65f8d2e1891abb8509b95bcac082f55b36bd2c3dd4599b1e64938dcab54e1bc6",
+  "memory_source": "6b51624062c80ef0e40aff37b181ea66bc7e0deb8a06e37d646c458bba7550b4",
+  "raw_text": "你怕的不只是周姐那条语音本身，而是它可能打破你现在好不容易维持住的一点安静——好像一旦听出“你该稳定一点了”的意思，连散步时那种不用开口的片刻都会被收走。你连转文字都不敢点，也许是在保护自己暂时不用去面对那个“下一步”。",
+  "usage": {
+    "input_tokens": 10049,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 65,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10114,
+    "x_details": [
+      {
+        "input_tokens": 10049,
+        "output_tokens": 65,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 10114,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.562,
+  "model": "deepseek-v4-pro-0813"
+}

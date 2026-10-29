@@ -1,0 +1,69 @@
+{
+  "checkpoint": "P08_CP3",
+  "candidate_id": "Z",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "6647b3c781d67a20dfee5c9b8a4da47d86501590b372bf7a3feb3bfcd9d08045",
+  "public_sha256": "b33db8f600c5ba20a8e64befae8eb965003e0391b698f1329dccba8ded73d433",
+  "candidate_input_sha256": "2f7df6a1bc37065a40274307272068a76fe05406b9ccc7586f886f892040e4bf",
+  "candidate_answer_sha256": "589257d75b8c4d5ef8ecdff5c2028b5c7c00a4da3dfc4e5537db050442369a4a",
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 3,\n    \"response_appropriateness\": 4\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"候选回答精准捕捉了来访者从“赵岩的经验”回溯到“过去独自发懵的自己”这一心理过程，并自然承接了历史中反复出现的“不敢问/怕被看轻”的核心冲突。\",\n    \"回应没有陷入对现实困境（请假被驳）的解决建议，而是聚焦于来访者当下的情绪体验（觉得晚了、卡在眼前），符合咨询进程。\",\n    \"语言自然、共情准确，未出现预设或武断判断。\"\n  ]\n}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 4
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "候选回答精准捕捉了来访者从“赵岩的经验”回溯到“过去独自发懵的自己”这一心理过程，并自然承接了历史中反复出现的“不敢问/怕被看轻”的核心冲突。",
+      "回应没有陷入对现实困境（请假被驳）的解决建议，而是聚焦于来访者当下的情绪体验（觉得晚了、卡在眼前），符合咨询进程。",
+      "语言自然、共情准确，未出现预设或武断判断。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 13292,
+    "input_tokens_details": {
+      "cached_tokens": 7296
+    },
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13602,
+    "x_details": [
+      {
+        "input_tokens": 13292,
+        "output_tokens": 310,
+        "prompt_tokens_details": {
+          "cached_tokens": 7296
+        },
+        "total_tokens": 13602,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.329
+}

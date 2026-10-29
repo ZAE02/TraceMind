@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-10-12T13:05:23.440008+00:00",
+  "scope": "limited independent answers",
+  "models": {
+    "qwen3.8-27b": {
+      "status": "completed",
+      "count": 3,
+      "format_valid_count": 3
+    },
+    "deepseek-v4-flash": {
+      "status": "unavailable",
+      "error": "Request failed: {\"request_id\":\"ca25c9c9-e355-9fab-b49a-9d9aeb50624f\",\"code\":\"MODEL_NOT_FOUND\",\"message\":\"Model not found: deepseek-v4-flash\"}",
+      "saved_answers": 0,
+      "probe_reference": "audit/deepseek_connection_probe.json"
+    }
+  },
+  "finished_at": "2026-10-12T13:07:05.279405+00:00"
+}

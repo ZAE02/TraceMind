@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "17f00cdf436494ec1478feb6bee1c15fb8b25f07b65e1f42e8032cbbe259297f",
+  "request_sha256": "3a13954a3a21ff4e34a77498bfca6678237a4af844148bd60314c9d9f18ec484",
+  "memory_sha256": "f8df2dce054752300c2eae3236197f8d8d14e3f0b8cfb98cb651dc7baab52410",
+  "memory_source": "b427d8794fc09056055048cbe366a4bbcafb69339ca5b9f53637c3375cf501e5",
+  "raw_text": "你伸手去拉平被角，又马上补一句“这边有点卷”，好像那个“监工”的位置让你既累又不敢松手。他看你一眼没说话，你心里那一下，是更怕他看出你在打分，还是更怕他其实看懂了却不说？",
+  "usage": {
+    "input_tokens": 10748,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 61,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10809,
+    "x_details": [
+      {
+        "input_tokens": 10748,
+        "output_tokens": 61,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 10809,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.594,
+  "model": "deepseek-v4-pro-0813"
+}

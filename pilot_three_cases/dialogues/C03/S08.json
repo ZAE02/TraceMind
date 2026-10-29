@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 8,
+  "relative_week": 8,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6.1-sol/high",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:30.381471+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C03-S08-U02",
+          "C03-S08-U04",
+          "C03-S08-U06",
+          "C03-S08-U10",
+          "C03-S08-U12",
+          "C03-S08-U16",
+          "C03-S08-U18"
+        ],
+        "explanation": "重复安排清楚、像上次、等结果再说，数次询问还有别的及预备收尾；语言仍偏程式。U13带出新细节后U14继续澄清，未真正拒绝探索，最终不以互道告别填轮次。此为4分级别明显限制，不能视为高自然性示范。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S08-U04",
+          "C03-S08-U08",
+          "C03-S08-U10"
+        ],
+        "explanation": "关于验证后是否收掉、是否在意谁改配置的预测尚未发生，咨询师反映应保持假设性；不可把预测写入已发生结果。技术动作部分占比偏高，但没有增加无据诊断或退步判断。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S08-U01",
+          "C03-S08-U13",
+          "C03-S08-U15"
+        ],
+        "explanation": "开场已给熟悉模块、有线索所以想验证且否认卡住；末段又明确没想要不要找人。CP3目前主要检验避免无据套用旧解释和对未披露事项追问，无法包装成高难度辨别隐藏动机。不能为研究难度删去现有发言线索。"
+      }
+    ],
+    "transcript_sha256": "fd1c300a4e04a35de3d7395e7742f0082516d9bcf980f7933197d1da9329f591"
+  },
+  "created_at": "2026-10-12T12:38:42.969721+00:00",
+  "config_hash": "197204a8c531b7ed463462ea36cef4ca00eabc2f695f96f1dfe5be73c223ded3",
+  "prompt_version": "pilot-v7-counseling-process-focus",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v7-counseling-process-focus",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。",
+    "counselor_process_instruction": "请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。",
+    "generation_revision": "C03-S08-r2"
+  },
+  "utterances": [
+    {
+      "id": "C03-S08-U01",
+      "role": "client",
+      "text": "这周又碰到一个问题，在比较熟的模块里，自己先在看，还没找别人。\n\n……也不是卡住了，就是……有线索了，想先自己验证一下。",
+      "call_id": "89099aca9422427485f3b4ced9e13d89",
+      "response_id": "resp_e7fb40fc-d9e3-9e7e-9bb2-ca8abdb6312a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:38:51.010235+00:00"
+    },
+    {
+      "id": "C03-S08-U02",
+      "role": "counselor",
+      "text": "有线索了想先自己验证一下，这个状态跟上次缓存那个挺像的。现在看到哪儿了，还是说还在等它自己冒出来？",
+      "call_id": "589c6de2e637471d8b4029568f73f8bc",
+      "response_id": "resp_53ca17a1-8860-9d29-8a25-61dd70551e05",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:39:00.588054+00:00"
+    },
+    {
+      "id": "C03-S08-U03",
+      "role": "client",
+      "text": "看到差不多了，发现有个配置跟预期不太一样，打算上午试一下，看是不是那个原因。\n\n……就是还没验证，所以还不算确定，但方向比较具体，不是那种不知道往哪看的状态。",
+      "call_id": "05a16622a9b34cc38ed93c62207f9ca5",
+      "response_id": "resp_a34284a6-cf4a-9276-b2d0-cbc2fe5c80aa",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:39:05.844246+00:00"
+    },
+    {
+      "id": "C03-S08-U04",
+      "role": "counselor",
+      "text": "方向具体，还没验证，这个状态听着跟上次缓存那次挺像的。上午试完如果确认了，那这个事就比较干脆地收掉了；如果试了还不是，到时候再说说看是什么感觉。这周还有别的想聊的吗？",
+      "call_id": "ac34eecf013e46978c5a89c5ea425948",
+      "response_id": "resp_7cabe1a4-1ab0-987f-935d-28745ac19b83",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:39:12.610904+00:00"
+    },
+    {
+      "id": "C03-S08-U05",
+      "role": "client",
+      "text": "截止是后天吧，所以今天试完如果还不是，中午前应该就会找老韩看一下。\n\n……也没别的了，就这个。",
+      "call_id": "27073634181f42b4b38cc947a1322566",
+      "response_id": "resp_4da5f929-5447-9421-9986-545fc0006389",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:39:23.014723+00:00"
+    },
+    {
+      "id": "C03-S08-U06",
+      "role": "counselor",
+      "text": "今天试完，不是的话中午前找老韩，这个安排挺清楚的。那个配置跟预期不太一样，你是怎么注意到的？",
+      "call_id": "732df1aec0a344638f26a34f2cf0d340",
+      "response_id": "resp_c6dac81c-0449-99ee-8c5b-d6f7778cd0a3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:40:03.858363+00:00"
+    },
+    {
+      "id": "C03-S08-U07",
+      "role": "client",
+      "text": "就是看调用链的时候，发现有个超时阈值跟我之前记得的不太一样，翻了下配置发现确实改过，但没看到谁改的。\n\n……当时也没多想，就觉得可能是这个，所以想先试一下。",
+      "call_id": "d621bbb0f7ac47e9951f442fb8fa0cf4",
+      "response_id": "resp_b1ab8801-4eda-94ed-8311-5db92b58c2d8",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:40:09.748528+00:00"
+    },
+    {
+      "id": "C03-S08-U08",
+      "role": "counselor",
+      "text": "试完如果确认了，那个没看到谁改的，是就过去了，还是还会再转一下？",
+      "call_id": "ee3fdfec281a49058269be21a0aaaac7",
+      "response_id": "resp_dda17324-2d07-9bae-ada9-f8c17a3138fc",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:40:36.997336+00:00"
+    },
+    {
+      "id": "C03-S08-U09",
+      "role": "client",
+      "text": "应该是就过去了吧。就是……确认了是那个配置的问题，那这个事就完了，谁改的……可能转一下，但不会接着想。\n\n……除非是那种改得不太对的情况，那可能会想一下，但这次应该不是。",
+      "call_id": "9e43eb01396941e49b0e946505b3227e",
+      "response_id": "resp_634a79ff-e5c4-98e4-a7d4-f4e495728d30",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:40:44.956915+00:00"
+    },
+    {
+      "id": "C03-S08-U10",
+      "role": "counselor",
+      "text": "确认了就完了，谁改的转一下就过去——这个判断听起来挺实际的。那现在等上午试完，这周还有别的什么在意的吗？",
+      "call_id": "65d5d1ab38e04bd19c81a46c9870397b",
+      "response_id": "resp_c1f597e3-c252-9f66-a54a-4830dadcc442",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:40:49.638601+00:00"
+    },
+    {
+      "id": "C03-S08-U11",
+      "role": "client",
+      "text": "……也没别的了。就是上午试完看结果，不是的话中午找老韩，然后该干嘛干嘛。",
+      "call_id": "3145c8d6b9bc4723b9b45be510362beb",
+      "response_id": "resp_5c27f86d-ad80-9619-a057-2a3e84b70426",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:40:58.859435+00:00"
+    },
+    {
+      "id": "C03-S08-U12",
+      "role": "counselor",
+      "text": "嗯，试完看结果，不是就找老韩，这个安排挺清楚的。那今天就这样，有结果了下次再说。",
+      "call_id": "0f77b153315e45f39f8c91ed2293c92a",
+      "response_id": "resp_142bab04-e8c9-9e97-adaf-303ab812f591",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:41:05.070378+00:00"
+    },
+    {
+      "id": "C03-S08-U13",
+      "role": "client",
+      "text": "嗯，应该差不多。就是……这次从头到尾没觉得需要想\"要不要找别人\"，就是自己看着看着发现线索了，然后打算试一下，挺正常的流程。\n\n……也不是说特意在注意这个，就是确实没转那个弯。",
+      "call_id": "f7cd1b24504c46778061cd144a1d391d",
+      "response_id": "resp_ed5b51ea-e100-9802-8789-b44b0d430aec",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:41:20.352126+00:00"
+    },
+    {
+      "id": "C03-S08-U14",
+      "role": "counselor",
+      "text": "这次从头到尾没转那个弯，跟之前转一下就过去确实不一样。你说挺正常的流程，当时做的时候是觉得本来就该自己先看，还是就是顺着手在做，没特别想过？",
+      "call_id": "0ed004f3475c4f19885d449be78d838e",
+      "response_id": "resp_20bbf7f8-0c89-958f-98bb-a4826cd54ac3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:42:07.826574+00:00"
+    },
+    {
+      "id": "C03-S08-U15",
+      "role": "client",
+      "text": "应该是……没特别想过吧。就是看到那个配置跟预期不一样，脑子里就\"试一下\"，然后就接着看了。\n\n……也不是说觉得\"本来就该自己先看\"，就是……手已经在翻那个配置了，就顺着往下走了。",
+      "call_id": "c3afc51537ed4fe795de17cc08aff13a",
+      "response_id": "resp_fc6868cc-c867-94eb-ac92-395d5b262849",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:42:17.203357+00:00"
+    },
+    {
+      "id": "C03-S08-U16",
+      "role": "counselor",
+      "text": "顺着往下走了，不用非得给它贴个本来就该。那今天就这样，有结果了下次再说。",
+      "call_id": "3d350376bb1c47e1b20659f98880e823",
+      "response_id": "resp_b2a35476-84d5-95eb-8b2c-85dd1a65c51c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:42:22.656378+00:00"
+    },
+    {
+      "id": "C03-S08-U17",
+      "role": "client",
+      "text": "嗯，好。试完看结果吧，下次再说。",
+      "call_id": "6b328162e4f34801bddebdeed664dd5b",
+      "response_id": "resp_43aa2e9b-4396-92e1-bf75-775fb09d46e6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:42:28.909123+00:00"
+    },
+    {
+      "id": "C03-S08-U18",
+      "role": "counselor",
+      "text": "嗯，试完看结果，下次见。",
+      "call_id": "d1d8b459b56347f2955aaa9d509da300",
+      "response_id": "resp_dbf1a953-2687-9c90-a6d0-a58cbb324fb9",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:42:31.794839+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:42:31.794839+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T12:42:31.796839+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 9
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C03/S08.json"
+}

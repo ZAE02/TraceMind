@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P07_CP2",
+  "raw_text": "你终于把这句话说出来了——不是怕别人说，是怕自己承认“我就是想画得再野一点”。好像承认这个愿望，比被批评还要让你害怕，因为它意味着你不能再只躲在灰里面。",
+  "request_sha256": "69a96491b39f143fee882ac56b83be81d10748256aa1941554011fa060862e52",
+  "input_sha256": "720d21ad7f3761f30d32678c557ee44a4099ee3a4024fa31187a33e574eb86cc",
+  "memory_sha256": "095396bc7ba1231cf075fd6d85e7f6aaafe2c244143d2402c502666d31d7534b",
+  "usage": {
+    "input_tokens": 7473,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 46,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7519,
+    "x_details": [
+      {
+        "input_tokens": 7473,
+        "output_tokens": 46,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 7519,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.484
+}

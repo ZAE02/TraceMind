@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "15f1f2660a5f307756e3a03e0e6b6b05f8a9b66aad0767a98158613ff219ac5c",
+  "request_sha256": "f493a0c86effccdcc9062cce2f371105eee74e0d5e7445f603e06ae73e1adb9d",
+  "memory_sha256": "282726a703e618c67834789ca467d7a3023a75873a6ad16f0d48318ad164d394",
+  "memory_source": "44629b87495e4fdf36e4e8f24231f0f4de30cc9e2dcd7ab6034e4cb151e5b9a7",
+  "raw_text": "他看你一眼没说话，你立刻补“这边有点卷”，好像那个动作必须马上被解释掉，不然就会变成你对他不放心、或者你放不下手的证据。你心里那把尺子，不只在量他做得好不好，也在量自己能不能从“只有我盯着才行”的位置上退下来一点。",
+  "usage": {
+    "input_tokens": 9392,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 69,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9461,
+    "x_details": [
+      {
+        "input_tokens": 9392,
+        "output_tokens": 69,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9461,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.578,
+  "model": "deepseek-v4-pro-0813"
+}

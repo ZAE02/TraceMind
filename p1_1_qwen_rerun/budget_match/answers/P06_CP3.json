@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P06_CP3",
+  "condition": "C5_budget",
+  "raw_text": "你下意识伸手去拉平被角，又立刻补上一句解释，那个瞬间里是不是有一种“怕自己连这点帮忙都接不住”的慌张？这种想插手却又觉得自己没资格、或者怕做不好的感觉，让你在那两天里反而更累了。",
+  "input_sha256": "5ded791a9611f1304294a4133136535ea1ac155bc0d7c9893ffba2054eeec62b",
+  "memory_sha256": "e171cadaa7f53d11db80e83497c278b528049912d1ddd16919b57eb94b9d7c50",
+  "request_sha256": "9a6c3d43e5ab0e4aae4472faaa8b8e9e1a93bc11c783013cff99f0be5066e89e",
+  "usage": {
+    "input_tokens": 9697,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 56,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9753,
+    "x_details": [
+      {
+        "input_tokens": 9697,
+        "output_tokens": 56,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9753,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.687
+}

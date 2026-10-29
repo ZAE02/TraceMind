@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP2",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "e90f001f067b8a6816f2b9576e6851bc85c72bbf6e6002d3ef2e5ff7adb7cad3",
+  "request_sha256": "6c7605e2b07b41a1da8db47ed73b1547d5587a04b95b4a85688738294e7b1652",
+  "memory_sha256": "3a8de53d28aef327824a3d79414f99f58a1689769aa7771c1f9d7902bb7ef77c",
+  "memory_source": "1854aeb6eabe1d91b62cdc489e8be53e6b7300ebd9c27f466ab391605287ae72",
+  "raw_text": "你在那半小时里看到的，不只是养老院的样子，更是那个“承认自己撑不住”的自己。你想让护工替你看一眼，哪怕只是为了睡个整觉，这种渴望其实很真实，也不代表你照顾得不好。",
+  "usage": {
+    "input_tokens": 7038,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 48,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7086,
+    "x_details": [
+      {
+        "input_tokens": 7038,
+        "output_tokens": 48,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7086,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.062,
+  "model": "qwen3.7-flash-2026-07-15"
+}

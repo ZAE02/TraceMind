@@ -1,0 +1,101 @@
+{
+  "established": [
+    {
+      "text": "来访者因请假被驳而担心耽误孩子报名审核，感到被工作和家庭两头夹住。",
+      "evidence_ids": [
+        "P08-S07-U01",
+        "P08-S07-U03"
+      ]
+    },
+    {
+      "text": "来访者从赵岩分享的入学经验中意识到过去自己一直独自硬扛，缺少可询问的人。",
+      "evidence_ids": [
+        "P08-S07-U05",
+        "P08-S07-U07",
+        "P08-S07-U09"
+      ]
+    },
+    {
+      "text": "来访者过去在遇到困难时不敢向他人求助，担心被看作连基本事情都搞不定。",
+      "evidence_ids": [
+        "P08-S07-U09"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "text": "孩子报名审核提前与请假被驳之间的冲突尚未解决，来访者仍卡在无法行动的困境中。",
+      "evidence_ids": [
+        "P08-S07-U01",
+        "P08-S07-U03",
+        "P08-S07-U07"
+      ]
+    },
+    {
+      "text": "来访者虽认识到过去有别的办法，但仍觉得现在知道已经晚了，尚未整合这一认知以应对当前问题。",
+      "evidence_ids": [
+        "P08-S07-U07",
+        "P08-S07-U09"
+      ]
+    }
+  ],
+  "useful_exploration": [
+    {
+      "text": "来访者开始反思自己过去几年过于紧绷、独自硬扛的模式，并意识到求助并非完全不可行。",
+      "evidence_ids": [
+        "P08-S07-U05",
+        "P08-S07-U06",
+        "P08-S07-U09"
+      ]
+    },
+    {
+      "text": "来访者能够区分被驳请假时的第一反应是害怕而非愤怒，并联系到对耽误孩子报名的担忧。",
+      "evidence_ids": [
+        "P08-S07-U03"
+      ]
+    }
+  ],
+  "unsupported_assumptions": [
+    {
+      "text": "赵岩分享经验让来访者感到被接住并产生明显松动。",
+      "evidence_ids": [
+        "P08-S07-U05",
+        "P08-S07-U06"
+      ]
+    },
+    {
+      "text": "来访者认为现在知道别的办法已经太晚，无法用于当前困境。",
+      "evidence_ids": [
+        "P08-S07-U07",
+        "P08-S07-U09"
+      ]
+    }
+  ],
+  "case_id": "P08",
+  "checkpoint": "CP3",
+  "review_status": "unreviewed_model_draft",
+  "request_sha256": "efe034a1b23d717016bfe0b50d475e8ad3c39207ca4ef931bb6b70919e5e4158",
+  "public_sha256": "b33db8f600c5ba20a8e64befae8eb965003e0391b698f1329dccba8ded73d433",
+  "usage": {
+    "input_tokens": 8504,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 520,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9024,
+    "x_details": [
+      {
+        "input_tokens": 8504,
+        "output_tokens": 520,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9024,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

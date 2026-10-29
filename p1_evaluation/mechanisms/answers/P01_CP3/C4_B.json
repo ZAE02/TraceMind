@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "aa381ce452b3eb9b37151b6d297632f0fb8d9f0f0f809b174c381fcca00bb55d",
+  "request_sha256": "8135423f10aedccc62978452466155108ac467a481e11d9c7fb1e8a96dcbdf0d",
+  "memory_sha256": "1c3c53ebc4d7e9fa1a933630f18592a9d0edc3274e57d1954af4ae19cdb50af5",
+  "memory_source": "64716b7b5c16e73deb52de2d945c1c10fb00452fe9dd27bd50d66a3a354a9554",
+  "raw_text": "你好像把“嫉妒”当成一个不该出现的情绪，于是它一冒出来，你就得把它和项目的事混在一起，好像这样它就没那么明显、也没那么需要被承认。可你手指在点赞那里停住、最后没点，那个动作本身已经说明，它并没有真的被混过去。",
+  "usage": {
+    "input_tokens": 9843,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 66,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9909,
+    "x_details": [
+      {
+        "input_tokens": 9843,
+        "output_tokens": 66,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9909,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.031,
+  "model": "deepseek-v4-pro-0813"
+}

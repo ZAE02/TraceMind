@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "34f78ef00c9555ca8f954d2a112638beb7b7d330cc397d29c22d2803f56476ef",
+  "request_sha256": "c8ac60270fd65c7e8643821a2b342844225cac90f460d9e68f8fe09569a392c7",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你好像已经察觉到，那句“我也刚到不久”背后藏着一个更深的害怕：一旦承认自己冷了、等了、生气了，就会变成“难搞的人”。也许我们可以先不急着判断这是不是“不敢”，而是看看，当你连手都冻僵了还说自己刚到，那一刻你更想保护的是什么。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 899,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 66,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 965,
+    "x_details": [
+      {
+        "input_tokens": 899,
+        "output_tokens": 66,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 965,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

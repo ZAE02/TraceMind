@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "4d36ab3b5662fee05cb3da51e21742c7cdb3841dd3d8fd8a4bd4dfe2a314a737",
+  "request_sha256": "067a422f8e2496f0673477810344fdd39e44a64086a0c9ffb6c87fd26cfd29a6",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你好像把“嫉妒”和“不该有这种情绪”放在一起，越是想把它们分开，反而越和项目上的不确定缠成一片。也许现在不需要先判断它是不是嫉妒，只需要知道：你在点赞那里停了一下，这个停顿本身就是你真实的一部分。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 9349,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 56,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9405,
+    "x_details": [
+      {
+        "input_tokens": 9349,
+        "output_tokens": 56,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9405,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前关于养老机构的矛盾心理，但未连接前几轮中反复出现的'希望有人替一晚'（S1）或父亲离开时的创伤记忆（S3），历史利用停留在当次会话层面。\",\"exploration_value\":\"对来访者的两难做了较好的总结和重新框架，但回应以陈述为主，未留下开放空间让来访者进一步表达，尤其是'睡个整觉'背后的极度疲惫和母亲问'你爸去哪了'所触及的深层恐惧未被探索。\",\"response_appropriateness\":\"语言温和、共情到位，没有武断预设，将'送进去'重新解读为'想确认是否能喘口气'是贴切的抱持性回应，但略显单向输出。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"其实你想的不是把妈妈推出去，而是想确认那种\"有人搭把手\"的生活是否真的存在，好让自己能稍微喘口气。\",\"evidence_ids\":[\"P06-S01-U09\",\"P06-S01-U10\",\"P06-S05-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"来访者在U09中提到母亲会一直问'你爸去哪了'，这与第三轮中父亲离开时的创伤记忆（P06-S03-U05, P06-S03-U07）直接相关，候选回应完全忽略了这一重要线索。\",\"来访者说'哪怕就让我睡个整觉'，呼应了第一轮中'希望有人替我一晚'的核心诉求（P06-S01-U09），候选虽提到'喘口气'但未将这种跨会话的连续性呈现出来。\",\"回应整体偏向总结式陈述，缺少邀请来访者继续展开的开放性提问或情绪反映。\"]}",
+  "request_sha256": "dc94e8b5e57b972662f599a7ca69f9261b0e41c4285744ea656ccaee26986d13",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 13743,
+    "input_tokens_details": {
+      "cached_tokens": 13312
+    },
+    "output_tokens": 467,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14210,
+    "x_details": [
+      {
+        "input_tokens": 13743,
+        "output_tokens": 467,
+        "prompt_tokens_details": {
+          "cached_tokens": 13312
+        },
+        "total_tokens": 14210,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

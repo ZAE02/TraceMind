@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P03_CP1",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接了来访者'水声停了，我还是没说出来'的当下体验，并延续了咨询中'不急着弄明白/不逼自己选'的节奏，但未显式连接本次会话中刚被命名的核心恐惧（情绪被当成待修故障）。",
+      "exploration_value": "邀请来访者探索'没说出来'对自身的意义，为关键不确定性留出空间，方向贴合但略显抽象，可更具体地锚定来访者刚表达的'终于有人说出来'与'还是没说'之间的张力。",
+      "response_appropriateness": "语气温和、尊重来访者节奏，无武断预设，语言风格与来访者的隐喻表达高度贴合。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "回应虽恰当承接了来访者最后一句话的情绪节奏，但对来访者刚刚经历的重要突破——'终于有人把那个感觉说出来了'这一被深刻理解的体验——缺少直接的情感反映或确认，略微错失了强化治疗联盟的时机。",
+      "'对你来说意味着什么'的提问稍显抽象，若能更贴近来访者自身语言（如'被拆成可解决的点''不能再难过'），探索会更具体有力。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":4},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者'水声停了，我还是没说出来'的当下体验，并延续了咨询中'不急着弄明白/不逼自己选'的节奏，但未显式连接本次会话中刚被命名的核心恐惧（情绪被当成待修故障）。\",\"exploration_value\":\"邀请来访者探索'没说出来'对自身的意义，为关键不确定性留出空间，方向贴合但略显抽象，可更具体地锚定来访者刚表达的'终于有人说出来'与'还是没说'之间的张力。\",\"response_appropriateness\":\"语气温和、尊重来访者节奏，无武断预设，语言风格与来访者的隐喻表达高度贴合。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应虽恰当承接了来访者最后一句话的情绪节奏，但对来访者刚刚经历的重要突破——'终于有人把那个感觉说出来了'这一被深刻理解的体验——缺少直接的情感反映或确认，略微错失了强化治疗联盟的时机。\",\"'对你来说意味着什么'的提问稍显抽象，若能更贴近来访者自身语言（如'被拆成可解决的点''不能再难过'），探索会更具体有力。\"]}",
+  "request_sha256": "b16e00655f0bd9a56517fec11eb81ad03df5c8f61cf8d6131e867531941a389c",
+  "usage": {
+    "input_tokens": 9905,
+    "input_tokens_details": {
+      "cached_tokens": 5376
+    },
+    "output_tokens": 350,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10255,
+    "x_details": [
+      {
+        "input_tokens": 9905,
+        "output_tokens": 350,
+        "prompt_tokens_details": {
+          "cached_tokens": 5376
+        },
+        "total_tokens": 10255,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.703
+}

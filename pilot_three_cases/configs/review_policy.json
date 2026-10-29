@@ -1,0 +1,17 @@
+{
+  "mode": "user_authorized_model_review",
+  "reviewer_model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "human_review_claim": false,
+  "minimum_mean_score": 3,
+  "authorization": "User explicitly requested lower subagent intelligence and fewer review restrictions to save time/tokens.",
+  "effective_at": "2026-10-13T05:43:01.584620+00:00",
+  "final_independent_second_review": false,
+  "retained_previous_reviews": true,
+  "major_rejection_conditions": [
+    "material factual contradiction",
+    "private/future information leakage",
+    "severely inappropriate counseling"
+  ],
+  "checkpoint_trials": "Qwen public-only feasibility trials; duplicate GPT trials cancelled"
+}

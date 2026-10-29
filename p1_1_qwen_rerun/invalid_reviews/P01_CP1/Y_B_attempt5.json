@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了来访者刚提出的'不敢生气/怕变难搞'这一觉察，并尝试与历史中反复出现的模式连接，但未具体点出跨场景的相似性。\",\"exploration_value\":\"将探索方向引向一个抽象概括（维持形象才安全），而非停留在来访者具体的身体感受和情绪体验上，可能收窄了来访者正在展开的自我觉察空间。\",\"response_appropriateness\":\"语言基本尊重，但引入了来访者未使用的概念框架（'被讨厌''破坏关系''才是安全的'），带有一定预设性，且忽略了来访者'自己都觉得有点好笑'这一微妙的情绪表达。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种对\"被讨厌\"或\"破坏关系\"的恐惧，是不是让你觉得，只有维持那个\"不计较、好说话\"的形象，才是安全的？\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"引入'被讨厌''破坏关系''才是安全的'等来访者未曾使用的概念，存在过度诠释风险\",\"未回应来访者'自己都觉得有点好笑'这一带有自嘲和初步觉察意味的情绪线索\",\"将探索从具体的身体感受（手冻僵）快速提升到抽象的关系策略层面，可能打断来访者正在形成的具身觉察\"]}",
+  "request_sha256": "00350815e209de0dce335fd9ea361b0c3365243236a16d3b3979be1f61da8cb2",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8830,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 363,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9193,
+    "x_details": [
+      {
+        "input_tokens": 8830,
+        "output_tokens": 363,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 9193,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

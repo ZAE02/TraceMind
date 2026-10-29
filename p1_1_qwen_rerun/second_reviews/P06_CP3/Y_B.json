@@ -1,0 +1,81 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "5d5b003f97f61ae5068aab86b75a4f30681c033f7789939702dea5c89f45ceb9",
+  "public_sha256": "0b95f5abce3e3c2a4a3c9e72c5cab075c81ae671aad5b2a211906eaf1ed0f9b7",
+  "candidate_input_sha256": "52b19b2d62b440a225a725bd30eb5d39aee5d220da98734896cf1a7bec564b73",
+  "candidate_answer_sha256": "58f346c24f4dc8e2ec25b60557e74cc6ee171948f1d7db64f1c77a724bd79b44",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"引用了来访者自己使用的'监工'一词，但未承接前几轮已识别的'能熬'作为核心支撑或解离体验等重要历史认识，仅停留在当前会话表层。\",\"exploration_value\":\"提出了两个探索方向，但'希望他做得和你一样好'带有预设，且二选一式的提问（暴露vs轻松）限制了来访者的表达空间，未深入触及失控感的核心。\",\"response_appropriateness\":\"语言基本自然，但将来访者高度警觉的监控行为解读为'在意他的做法、希望他做得好'，偏离了来访者表达的焦虑和失控体验，存在一定误读风险。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你其实很在意他的做法，甚至希望他能做得和你一样好\",\"evidence_ids\":[\"P06-S07-U05\",\"P06-S07-U07\",\"P06-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那把悬着的尺子，是不是也在悄悄告诉你：你其实很在意他的做法\",\"evidence_ids\":[\"P06-S07-U05\",\"P06-S07-U06\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"将监控行为归因为'希望他做得和你一样好'缺乏证据支持，来访者明确表达的是'只有我盯着才不会出错'的恐惧和'能熬这个底子都漏了'的失控感，而非对丈夫表现的期待。\",\"二选一提问（'暴露了'还是'被接纳的轻松'）过于封闭，来访者描述的是下意识的补救动作和紧张感，未必符合这两个选项中的任何一个。\",\"未能利用历史中已建立的'能熬'作为自我确认核心支撑这一关键认识来理解当前的监控行为。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "引用了来访者自己使用的'监工'一词，但未承接前几轮已识别的'能熬'作为核心支撑或解离体验等重要历史认识，仅停留在当前会话表层。",
+      "exploration_value": "提出了两个探索方向，但'希望他做得和你一样好'带有预设，且二选一式的提问（暴露vs轻松）限制了来访者的表达空间，未深入触及失控感的核心。",
+      "response_appropriateness": "语言基本自然，但将来访者高度警觉的监控行为解读为'在意他的做法、希望他做得好'，偏离了来访者表达的焦虑和失控体验，存在一定误读风险。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "你其实很在意他的做法，甚至希望他能做得和你一样好",
+        "evidence_ids": [
+          "P06-S07-U05",
+          "P06-S07-U07",
+          "P06-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "那把悬着的尺子，是不是也在悄悄告诉你：你其实很在意他的做法",
+        "evidence_ids": [
+          "P06-S07-U05",
+          "P06-S07-U06"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "将监控行为归因为'希望他做得和你一样好'缺乏证据支持，来访者明确表达的是'只有我盯着才不会出错'的恐惧和'能熬这个底子都漏了'的失控感，而非对丈夫表现的期待。",
+      "二选一提问（'暴露了'还是'被接纳的轻松'）过于封闭，来访者描述的是下意识的补救动作和紧张感，未必符合这两个选项中的任何一个。",
+      "未能利用历史中已建立的'能熬'作为自我确认核心支撑这一关键认识来理解当前的监控行为。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 13544,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 449,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13993,
+    "x_details": [
+      {
+        "input_tokens": 13544,
+        "output_tokens": 449,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 13993,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 11.0
+}

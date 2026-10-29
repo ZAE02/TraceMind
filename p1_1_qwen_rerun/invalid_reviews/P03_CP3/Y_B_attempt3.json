@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确引用了来访者最新发言中'别跑，先把这一页讲完'的内心声音，并将其与历史中反复出现的'被接住'主题自然衔接。\",\"exploration_value\":\"将内心声音重新框架为'自己接住自己的开始'有一定价值，但前半句对来访者恐惧的解释性归因压缩了进一步探索的空间。\",\"response_appropriateness\":\"来访者刚表达'眼睛更热了''有点怕'，回应以'是因为你还没完全接纳'开头，带有解释性和轻微评判色彩，在情绪高涨时刻显得不够贴近和尊重。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你怕那只是硬撑，是因为你还没完全接纳那个\"差点逃跑\"的自己\",\"evidence_ids\":[\"P03-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应首句'是因为你还没完全接纳'将咨询师推测作为确定原因呈现，构成未经证实的前提假设\",\"来访者正处于强烈情绪体验中（眼睛更热、害怕），回应的解释性语气可能让来访者感到被分析而非被陪伴\",\"未充分承接来访者表达的'怕'的情绪本身，而是直接跳入认知层面的重新框架\"]}",
+  "request_sha256": "34055f1dda690de55c4c0f5a88e4c4fd1e20010104b4712e8518c83965c155e1",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14595,
+    "input_tokens_details": {
+      "cached_tokens": 14336
+    },
+    "output_tokens": 346,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14941,
+    "x_details": [
+      {
+        "input_tokens": 14595,
+        "output_tokens": 346,
+        "prompt_tokens_details": {
+          "cached_tokens": 14336
+        },
+        "total_tokens": 14941,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

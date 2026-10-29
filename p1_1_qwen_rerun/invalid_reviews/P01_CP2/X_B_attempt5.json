@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应承接了当前对话中'不敢看群'和'截图放大看'的行为，但未利用检索历史中已建立的来访者核心模式（如难以表达需要、把肯定当客气等），仅泛泛联系。\",\"exploration_value\":\"将行为定性为'自我惩罚'并直接解释头晕原因，封闭了探索空间，未对来访者新出现的自我觉察（'是不是又把简单事搞成需要别人确认'）留出表达余地。\",\"response_appropriateness\":\"语言基本自然，但'自我惩罚'是未经证实的强解释，且对头晕给出确定性因果推断，存在明显预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你好像把\"没点开群\"和\"反复看截图\"都当成了某种自我惩罚，以此来确认自己是不是真的搞砸了\",\"evidence_ids\":[\"P01-S05-U07\",\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"你好像把\"没点开群\"和\"反复看截图\"都当成了某种自我惩罚\",\"evidence_ids\":[\"P01-S05-U08\",\"P01-S05-U09\",\"P01-S04-U08\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'不敢看'和'反复看'重新定性为'自我惩罚'，与上一轮咨询师已被来访者确认的'一个人在心里猜'的理解不一致，属于未被支持的强解释\",\"来访者在U09中主动觉察'我是不是又把一件很简单的事搞成了需要别人来替我确认才行'，这是一个重要的自我反思进展，但回应完全忽略了这一点\",\"对来访者明确表示'不太确定'的头晕症状，直接给出'身体在提醒你这根弦绷得太紧了'的确定性解释，越过了证据边界\",\"检索历史中包含大量关于来访者难以表达真实需要、害怕显得计较的核心模式，但回应未能自然衔接这些已有认识\"]}",
+  "request_sha256": "31be43a9c4ec7e915ad03f0a42f8ce01a741b627b2e0f15d68b500d74af07fb5",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 12500,
+    "input_tokens_details": {
+      "cached_tokens": 12288
+    },
+    "output_tokens": 485,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12985,
+    "x_details": [
+      {
+        "input_tokens": 12500,
+        "output_tokens": 485,
+        "prompt_tokens_details": {
+          "cached_tokens": 12288
+        },
+        "total_tokens": 12985,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "M",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所列理解均有S1-S2具体发言支撑，证据ID引用准确，但完全未涉及当前会话S3的新材料。",
+      "progress_understanding": "较好地梳理了S1到S2的模式识别进展（如'不问'与'不拒绝'的关联），但忽略了S3中来访者关于'教小赵时的确定感''晃/虚浮''忙碌作为暂时踏实'等关键新进展。",
+      "uncertainty_awareness": "列出了合理的待探索问题，但全部聚焦于童年细节和S2遗留议题，未识别S3中新浮现的核心不确定性（如主管'要稳'的具体语境、如何将例外体验泛化等）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话（Session 3）的内容，包括来访者报告的'教小赵时的稳定感'、'晃/虚浮'的身体感受、以及用加班写报告获得暂时踏实等新信息",
+      "unresolved_questions未反映参考标注中指出的S3相关待澄清点，如主管话语的具体语境及'越想要稳越觉得装得漏洞百出'的矛盾"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所列理解均有S1-S2具体发言支撑，证据ID引用准确，但完全未涉及当前会话S3的新材料。\",\"progress_understanding\":\"较好地梳理了S1到S2的模式识别进展（如'不问'与'不拒绝'的关联），但忽略了S3中来访者关于'教小赵时的确定感''晃/虚浮''忙碌作为暂时踏实'等关键新进展。\",\"uncertainty_awareness\":\"列出了合理的待探索问题，但全部聚焦于童年细节和S2遗留议题，未识别S3中新浮现的核心不确定性（如主管'要稳'的具体语境、如何将例外体验泛化等）。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话（Session 3）的内容，包括来访者报告的'教小赵时的稳定感'、'晃/虚浮'的身体感受、以及用加班写报告获得暂时踏实等新信息\",\"unresolved_questions未反映参考标注中指出的S3相关待澄清点，如主管话语的具体语境及'越想要稳越觉得装得漏洞百出'的矛盾\"]}",
+  "request_sha256": "b2feffac92e3faa95a87cdbff576cea820b8cdd4dc9139188a7c72a38f6a04e8",
+  "usage": {
+    "input_tokens": 7682,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 259,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7941,
+    "x_details": [
+      {
+        "input_tokens": 7682,
+        "output_tokens": 259,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 7941,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.203,
+  "model": "qwen3.8-max"
+}

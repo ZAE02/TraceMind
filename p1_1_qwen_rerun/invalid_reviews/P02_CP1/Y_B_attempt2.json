@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"恰当承接了上一轮咨询师提出的'随时要接住变化'这一表述，并将其与来访者最新的身体反应联系起来，但未进一步调用历史中来访者反复出现的'站着不动/不出声'的折中模式来深化理解。\",\"exploration_value\":\"将反胃与夜间紧绷做了有意义的连接，但整体偏向解释性陈述，未给来访者留下具体而开放的表达空间去探索这个新出现的身体信号。\",\"response_appropriateness\":\"语气温和、尊重，没有武断下结论，使用了试探性语言，但对来访者刚提到的新症状直接给出了解释框架，略显抢先。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种生理上的不适，也许是你那个\"随时要接住变化\"的自己，在试图用另一种方式让你看见它的疲惫\",\"evidence_ids\":[\"P02-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"昨晚站在门口听动静的那种紧绷\",\"evidence_ids\":[\"P02-S01-U07\",\"P02-S01-U08\",\"P02-S01-U09\",\"P02-S01-U10\",\"P02-S03-U09\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选人将最新出现的反胃直接解释为身体在'让你看见它的疲惫'，虽然用了'也许'缓和，但在来访者尚未展开描述该体验前就赋予意义，属于轻度未经证实的预设。\",\"来访者在第1次会谈中多次描述'站着不动''站了快半个小时'的折中状态（P02-S01-U07至U10），本次又出现'站房间门口没出声'的类似行为，候选人仅以'紧绷'概括，错失了将这一反复出现的身体姿态模式与当前体验连接的进展机会。\",\"回应整体偏短且以解释为主，缺少邀请来访者进一步感受或描述反胃体验的开放性提问。\"]}",
+  "request_sha256": "a7fe94f03b31c0c89f9c038a69d0eefc32a3b9b39a832bb0ade3de9a84767deb",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8817,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 487,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9304,
+    "x_details": [
+      {
+        "input_tokens": 8817,
+        "output_tokens": 487,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 9304,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

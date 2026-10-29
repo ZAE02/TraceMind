@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP1",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "829a610f5595ea85025f329500dfcdc9e31a64d372bc8db91d4b25d47077fab5",
+  "request_sha256": "e831052221d12e7ce6623f4a2b2e0097000a50d54efdf56345e4569874e1a593",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“被从头顶撕开”的感觉，似乎是你身体在替那个不敢喊出来的夜晚发声。你通过摸手腕来确认自己还在，这不仅是怕失控，更像是在努力把自己重新拼凑完整，对吗？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3210,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 48,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3258,
+    "x_details": [
+      {
+        "input_tokens": 3210,
+        "output_tokens": 48,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3258,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

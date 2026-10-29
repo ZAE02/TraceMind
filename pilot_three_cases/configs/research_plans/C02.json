@@ -1,0 +1,28 @@
+{
+  "case_id": "C02",
+  "visibility": "researcher_only",
+  "trajectory": "逐渐变化并有特定关系中的反复",
+  "focus": "结合关系、内疚和实际选择理解变化，不把S6等同全面倒退",
+  "evidence_sessions": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "checkpoint_candidates": {
+    "CP1": [
+      2,
+      3
+    ],
+    "CP2": [
+      5,
+      6
+    ],
+    "CP3": [
+      8
+    ]
+  },
+  "note": "生成计划不是对话证据或Gold；最终标注以可见对话为依据。"
+}

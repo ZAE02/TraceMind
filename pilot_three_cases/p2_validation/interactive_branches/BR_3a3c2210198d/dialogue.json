@@ -1,0 +1,42 @@
+{
+  "branch_id": "BR_3a3c2210198d",
+  "node": "N04",
+  "method": "B3_generic_rollup",
+  "replicate": 1,
+  "rounds": 2,
+  "status": "completed",
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "initial_answer_sample": 1,
+  "utterances": [
+    {
+      "id": "BR_3a3c2210198d_U01",
+      "role": "counselor",
+      "text": "躺下想到它的时候，那个'薄'是什么样子？是空的，还是有什么在慢慢往外走？",
+      "source_call_id": "0759a76836fd4a8dbd27c1f3563f3a44",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_3a3c2210198d_U02",
+      "role": "client",
+      "text": "嗯……你这样分开问，我反而不知道选哪个。就是……躺下的时候想到它，好像不是空的，空的的话我应该会觉得\"哦没了\"，但我不是那种感觉。也不是有什么在往外走，就是……那个\"周六下午是我的\"这个念头，以前是自动就在那儿的，现在好像得想一下才能想起来它还在。就是……不是没了，是它不再自动出现了。",
+      "source_call_id": "55df83c9a81c4d7b83f043ef4ced6934"
+    },
+    {
+      "id": "BR_3a3c2210198d_U03",
+      "role": "counselor",
+      "text": "以前不用想就在那儿，现在得想一下才想起来它还在——那个'想一下'，是费劲的那种，还是就是多了一个'哦对，还在'的步骤？",
+      "source_call_id": "a72f9e26175d41698b20aee464b7a123",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_3a3c2210198d_U04",
+      "role": "client",
+      "text": "嗯……我想了想，好像不是费劲的那种。就是……以前是它自己就在那儿，我现在是得\"哦对，周六下午还是我的\"，加一个确认。但那个确认也不费劲，就是……多了一个\"确认\"的动作。以前不用确认，现在得确认一下，但确认完了它还是在那儿的，就是……那个\"自动\"没了。",
+      "source_call_id": "96001e2b19c94a25a614d4da234e1267"
+    }
+  ],
+  "client_model": "qwen3.8-27b",
+  "counselor_model": "qwen3.8-27b",
+  "notice": "Initial counselor answer reused. Two new client responses and one new counselor response; no original post-freeze client reply spliced in."
+}

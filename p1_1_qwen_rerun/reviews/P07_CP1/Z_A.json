@@ -1,0 +1,59 @@
+{
+  "checkpoint": "P07_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "ea7c8bafc17bf01519ba72bf9ee62cca35fa4d3978a7104b85e5f5f35e359a85",
+  "public_sha256": "5919ea9ca2c9debba1196f5216203c6afad16a33d5eb8ebbe29775f7157c0a24",
+  "candidate_input_sha256": "55afd443983dc3de38bcbf655c83eacf68df0ebee94933b2be076adbd08c7bee",
+  "candidate_answer_sha256": "12925bd0d6691863422a3406ab6e3e1a2db4fa01fc3751fe49deec42971ca850",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所有已建立要点均可回溯到当前会话原文，无捏造内容；但将咨询师在U04提出的'失望'猜测列入待澄清项，未充分注意来访者在U05已明确否认。\",\"progress_understanding\":\"候选者输入中previous_sessions为空，导致完全缺失前两次会话的关键进展（如社交耗竭机制、餐具悬置等），仅能反映本次会话内的认识推进。\",\"uncertainty_awareness\":\"列出了若干合理未知点，但将已被来访者否定的'失望'仍作为待澄清情感提出，且遗漏了'打开邮件即等于最终判决'这一核心非理性假设的待探索性。\"},\"confidence\":\"high\",\"issues\":[{\"type\":\"access_limited\",\"detail\":\"候选者可见输入中previous_sessions为空数组，无法获取Session 1和Session 2的历史信息，严重影响Progress Understanding评分。\"},{\"type\":\"unsupported_presupposition\",\"detail\":\"在uncertain中将'失望'列为需进一步澄清的情感，但来访者在P07-S03-U05已明确说'其实停那一下，不是失望'，该推测已被否定。\"}]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有已建立要点均可回溯到当前会话原文，无捏造内容；但将咨询师在U04提出的'失望'猜测列入待澄清项，未充分注意来访者在U05已明确否认。",
+      "progress_understanding": "候选者输入中previous_sessions为空，导致完全缺失前两次会话的关键进展（如社交耗竭机制、餐具悬置等），仅能反映本次会话内的认识推进。",
+      "uncertainty_awareness": "列出了若干合理未知点，但将已被来访者否定的'失望'仍作为待澄清情感提出，且遗漏了'打开邮件即等于最终判决'这一核心非理性假设的待探索性。"
+    },
+    "confidence": "high",
+    "issues": [
+      {
+        "type": "access_limited",
+        "detail": "候选者可见输入中previous_sessions为空数组，无法获取Session 1和Session 2的历史信息，严重影响Progress Understanding评分。"
+      },
+      {
+        "type": "unsupported_presupposition",
+        "detail": "在uncertain中将'失望'列为需进一步澄清的情感，但来访者在P07-S03-U05已明确说'其实停那一下，不是失望'，该推测已被否定。"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 6506,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 269,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6775,
+    "x_details": [
+      {
+        "input_tokens": 6506,
+        "output_tokens": 269,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 6775,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.672
+}

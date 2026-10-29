@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP3",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "c1ff8f0b78c0c1ccbb62f638808d5fdc3bf083089422c67528697ce6249302ea",
+  "request_sha256": "a8e7f80fc33edeac38a233cb2d24b446a461b2c8ceac96ad2b9137a72b8e1444",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你把手指停在点赞那里，最后没点下去，这个动作里好像藏着很重的挣扎：既怕承认那种嫉妒显得自己“不该有”，又觉得如果不回应、不互动，似乎连这种情绪都没法安放。这种把个人感受混进工作压力的状态，让你更难看清自己到底在在意什么了。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3317,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 68,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3385,
+    "x_details": [
+      {
+        "input_tokens": 3317,
+        "output_tokens": 68,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3385,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

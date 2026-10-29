@@ -1,0 +1,25 @@
+{
+  "kind": "model_review", "reviewer_model": "gpt-6.1-sol", "reasoning_effort": "high", "case_id": "C03", "session_number": 7,
+  "transcript_sha256": "082e23cf573ad0d196180a3310c1c61bf5d1023846fdee870bc4ca8b3fc7ae64",
+  "decision": "approve", "scores": {"naturalness": 4, "counseling_quality": 4, "longitudinal_plausibility": 4},
+  "major_issues": [],
+  "minor_issues": [
+    {"utterance_ids": ["C03-S07-U06", "C03-S07-U08", "C03-S07-U16", "C03-S07-U18"], "explanation": "先说节奏自然/舒服、回顾感受确实在底下和重量不一样，略过度肯定。来访者U09明确还在试、U15用好像且当时未区分，应保留暂定性；不能按咨询师反映升级成确定心理事实。"},
+    {"utterance_ids": ["C03-S07-U12"], "explanation": "称反复没进展比数时间更实在，是未经验证的普遍判断；此处只是来访者一种线索，不宜作为唯一正确求助标准。"},
+    {"utterance_ids": ["C03-S07-U16", "C03-S07-U18", "C03-S07-U20"], "explanation": "注意到与判断实际等评价仍有残留，最后两轮告别可更简洁。不过核心部分已围绕判断时机和未推进展开，不再靠重复微观回忆撑会话。"}
+  ],
+  "supported_understanding": [
+    {"understanding": "新组件先看文档后问老韩，短暂基础问题担忧未阻止询问；本周两件事均未拖。", "evidence": ["C03-S07-U01", "C03-S07-U03"]},
+    {"understanding": "尝试先看能否自行推进，不确定是否会偏方向或反复同处没推进时考虑问人，没有固定规则，也可能继续惯性看完。", "evidence": ["C03-S07-U03", "C03-S07-U05", "C03-S07-U07", "C03-S07-U09", "C03-S07-U11"]},
+    {"understanding": "独看后有时问题收窄，有时没有；询问中仍可能说明自己看过，回顾时感到带着看很久没弄明白的意味，未必当时自觉。", "evidence": ["C03-S07-U13", "C03-S07-U15", "C03-S07-U17"]},
+    {"understanding": "来访者认为节奏仍在找，尚需遇到不顺情境再观察，并未认定稳定完成改变。", "evidence": ["C03-S07-U09", "C03-S07-U19"]}
+  ],
+  "uncertainties": ["泛指有时候的事件是哪次，不能自动对应既往具体会话或添加明确时间。", "惯性继续看与害怕开口各贡献多少，当前没有统一解释。", "说明看过文档是正常背景交代、评价顾虑或兼有，尚不确定。", "遇到失败、时间紧或他人负面回复时是否仍能适时求助，未知。"],
+  "new_facts": [
+    {"fact": "本周新组件看文档后向老韩问配置，基础问题念头短暂出现，未卡住；两个事未拖。", "category": "help_seeking", "first_session": 7, "evidence": ["C03-S07-U01", "C03-S07-U03"]},
+    {"fact": "尝试以能否推进、是否方向可能偏及反复同处没进展判断询问，没有固定标准。", "category": "tentative_self_report", "first_session": 7, "evidence": ["C03-S07-U05", "C03-S07-U09", "C03-S07-U11"]},
+    {"fact": "回顾有时自查收窄问题，有时没有，可能继续惯性翻完文档才问。", "category": "tentative_self_report", "first_session": 7, "evidence": ["C03-S07-U05", "C03-S07-U07", "C03-S07-U13"]},
+    {"fact": "回顾一次问话可能先说明看过文档，具体措辞记不清，仍感有轻度交代。", "category": "tentative_self_report", "first_session": 7, "evidence": ["C03-S07-U15", "C03-S07-U17"]}
+  ],
+  "notes": "新哈希独立模型批准，非人工审核。已读S1至S7并检查新稿与全部既往真实记录，均分4。返修后真正讨论如何判断继续查/问人、没推进与收窄两种情况，保留惯性、仍有基础问题念头和未形成固定标准，咨询师持续回应客户端新线索。旧稿忽视求助时机与反复一次定不了的问题已实质改善，不需要来访者宣布改变完成。引用称许、二选一及略肯定的反映仍是4分级别限制。旧0ed8c511审阅应保留归档。"
+}

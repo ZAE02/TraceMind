@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 3,
+  "relative_week": 3,
+  "status": "awaiting_model_review",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T11:59:29.437125+00:00",
+  "config_hash": "8566ffcf137d92093b5b434e77c7b04e061d9d6c77ee8fae1d93ddd7f6bed5d6",
+  "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。",
+    "generation_revision": "C01-S03-v6-prefix"
+  },
+  "revision": 1,
+  "preserved_prefix_length": 5,
+  "utterances": [
+    {
+      "id": "C01-S03-U01",
+      "role": "client",
+      "text": "这周有点赶，两个项目差不多同时交。然后我妈预约了个体检，让我帮忙安排一下交通，我就请了半天假陪她去。\n\n晚上回来之后……本来想早点睡的，但不知道怎么回事，又打开电脑把那个项目文件过了一遍。其实那天下午已经确认过了，就是……又过了一遍。",
+      "call_id": "a658cbd3aae241d08dc5cbf741ecf4c9",
+      "response_id": "resp_cbe22de9-280c-9d6d-8bfc-5aa974cbd90e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:51:58.196353+00:00"
+    },
+    {
+      "id": "C01-S03-U02",
+      "role": "counselor",
+      "text": "那天下午已经确认过了，晚上又打开——那个打开的瞬间，是跟上次一样被拽了一下，还是更像手自己就伸过去了？",
+      "call_id": "b335a4def626404284e49b38d73badb9",
+      "response_id": "resp_d20cde0b-86b3-95ef-9053-bf0fcf9ab2a3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:52:38.074706+00:00"
+    },
+    {
+      "id": "C01-S03-U03",
+      "role": "client",
+      "text": "不太一样吧……不是被拽那种。就是回来之后坐在电脑前，本来想关掉的，但手就……点开了。也不是说哪个地方让我停住，就是……觉得应该再看一眼，然后真的就过了一遍。\n\n过完之后也没发现什么，就是……又过了一遍而已。",
+      "call_id": "26d39ae41cca46ad8c66e0b9987bdba7",
+      "response_id": "resp_9c7c9d2e-0461-99c8-bd7a-ad524aef6af9",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:52:47.290068+00:00"
+    },
+    {
+      "id": "C01-S03-U04",
+      "role": "counselor",
+      "text": "这次跟前面两次确实不一样，没有那个拽，也没有走不开，就是手点开了，觉得应该再看一眼。那天本来就赶，又请了半天假陪阿姨体检，回来坐在电脑前的时候，那个应该再看一眼，是跟累不累有关系，还是只要坐在电脑前就会这样？",
+      "call_id": "b085ec2b518d4f599fd940e239d901b9",
+      "response_id": "resp_4fed2e3f-91eb-9c07-802b-6c1312532a34",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:53:31.945753+00:00"
+    },
+    {
+      "id": "C01-S03-U05",
+      "role": "client",
+      "text": "让我想想……可能跟累有关系吧，那天确实坐了一下午。但也不全是，因为以前不累的时候也会这样，就是……坐在电脑前，文件就在那儿，总觉得\"应该\"看一眼。\n\n就是那个\"应该\"，说不上来是谁的应该。",
+      "call_id": "19679af582e14edf9453e49ce35d7532",
+      "response_id": "resp_ebdfe5d0-5263-9b8b-8a83-449e8a977cd6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:53:40.511887+00:00"
+    },
+    {
+      "id": "C01-S03-U06",
+      "role": "counselor",
+      "text": "你说坐在电脑前文件就在那儿，总觉得应该看一眼——那有没有哪次，你坐在电脑前，文件也在，但你没点开？当时是什么让你没点的？",
+      "call_id": "99eb787e25764e38be74d538a0699441",
+      "response_id": "resp_22db673f-5ae9-9362-ba99-bcfcafecc370",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:00:49.439416+00:00"
+    },
+    {
+      "id": "C01-S03-U07",
+      "role": "client",
+      "text": "有一次……上周三吧，那天回来也是坐在电脑前，但当时周姐在群里发了个消息，问周五那个能不能提前一天给。我回了之后……好像就是觉得\"明天再说吧\"，然后就关了。\n\n但那次可能更多是因为回消息打断了，不一定算\"没想点开\"。就是……你问的这种情况，我好像不太记得有特别明确的一次。",
+      "call_id": "8c42913d6c09433aae3a0dcc5381b555",
+      "response_id": "resp_a10024e3-ea9e-945e-ad4f-801d067219fa",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:01:02.666023+00:00"
+    },
+    {
+      "id": "C01-S03-U08",
+      "role": "counselor",
+      "text": "上周三那次，周姐消息弹出来之前，你坐在电脑前那一下，项目文件是已经在桌面上了，还是你还没看到它？",
+      "call_id": "2c97bde19ed547119c2728ce7c93a8b9",
+      "response_id": "resp_6a3b01b9-addb-91c5-af39-09194c420af0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:01:44.205276+00:00"
+    },
+    {
+      "id": "C01-S03-U09",
+      "role": "client",
+      "text": "应该是已经在桌面上了吧，我平时习惯把要交的文件放桌面最前面，方便找。所以……它其实一直在那儿，周姐消息弹出来之前，我眼睛应该扫到过它。\n\n但你说\"看到\"……我好像不太能确定当时是\"看到了但没点\"，还是根本没往那个方向看。就是……不太记得自己当时注意力在哪个位置。",
+      "call_id": "4eccb79090f94930a215577c36bd77d3",
+      "response_id": "resp_5d794aab-a21b-984b-9939-77a186af4091",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:01:51.783161+00:00"
+    },
+    {
+      "id": "C01-S03-U10",
+      "role": "counselor",
+      "text": "那当时注意力在哪儿就不太确定了。不过你平时把文件放桌面最前面——坐下去的时候，它大概在你视野什么位置？是眼睛落下去就在那儿，还是得稍微转一下才看到？",
+      "call_id": "fc2954fe746c48d8ad0a227df6f492a1",
+      "response_id": "resp_625acf1d-a5fe-9669-a0ad-f7402987d3b1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:02:42.068295+00:00"
+    },
+    {
+      "id": "C01-S03-U11",
+      "role": "client",
+      "text": "应该是在正中间偏左一点吧，我一般会把那个文件夹放在桌面中间，图标挺大的。所以坐下去、眼睛落下去的时候，它基本就在那儿，不用特意找。\n\n就是……它一直在。",
+      "call_id": "65a5eba700324abb9498c389e4a913db",
+      "response_id": "resp_9abdb8b6-3c92-944d-831d-869c014fce13",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:02:49.792924+00:00"
+    },
+    {
+      "id": "C01-S03-U12",
+      "role": "counselor",
+      "text": "它一直在，那个应该也就一直在。你刚才说眼睛落下去它基本就在那儿——那个落下去的瞬间，你会有个意识到它在那儿的时刻，还是它就是在那儿，没有哪个瞬间是专门注意到它的？",
+      "call_id": "197e1f4ab7c347a39247d8f2c59c1c6f",
+      "response_id": "resp_a509a715-a393-9d8c-a96c-af8dc70244c0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:03:18.601657+00:00"
+    },
+    {
+      "id": "C01-S03-U13",
+      "role": "client",
+      "text": "应该是……没有哪个专门注意到的瞬间吧。就是坐下去，眼睛落下去，它就在，跟那个椅子腿、那个显示器边框一样，就是在那儿。\n\n但你这么问的话……我好像没法确定\"注意到\"和\"没注意到\"之间那条线在哪儿。就是它一直在那儿，我可能一直都知道它在那儿，但也没有哪一下是\"哦，文件在那儿\"。",
+      "call_id": "b7429e338b21491088b95cec9e477bf8",
+      "response_id": "resp_68bad86d-6c34-923e-86aa-aa36e8d55afc",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:03:26.989709+00:00"
+    },
+    {
+      "id": "C01-S03-U14",
+      "role": "counselor",
+      "text": "你说没法确定那条线在哪儿。那有没有哪次，你坐下去之后先做了别的事，比如倒了杯水或者回了条消息，然后才想起文件的？",
+      "call_id": "0bb65aec08b0466b85258ca8b9141bd7",
+      "response_id": "resp_398caaca-eec9-914c-8eec-fca6d72d2501",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:04:01.730839+00:00"
+    },
+    {
+      "id": "C01-S03-U15",
+      "role": "client",
+      "text": "有一次……好像是前天吧，回来之后先倒了杯水，端着水站了一会儿，然后才想起来\"哦，文件还开着\"。\n\n但你说\"才想起\"……我当时那个念头，是\"我忘了关\"还是\"我应该再看一眼\"，我现在回想有点分不清。就是……那个念头出来的时候，手已经往鼠标方向动了。",
+      "call_id": "202cd0f60f874bee8c9bf36678f8c647",
+      "response_id": "resp_f2f1e7d3-2813-9ed8-8514-f78ea4f59637",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:04:13.807028+00:00"
+    },
+    {
+      "id": "C01-S03-U16",
+      "role": "counselor",
+      "text": "那次手往鼠标方向动的时候，光标最后落在哪儿了？是点开了还是关掉了？",
+      "call_id": "7b8e01b39f384446bd194f029be0010c",
+      "response_id": "resp_60049fc5-6a3f-9e78-8c3f-367ece12ac51",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:04:58.503487+00:00"
+    },
+    {
+      "id": "C01-S03-U17",
+      "role": "client",
+      "text": "应该是点开了吧。就是……光标移到那个图标上的时候，好像没怎么想就双击了。过完一遍之后才关的。",
+      "call_id": "5937393237fc40e9ac0231acace8339d",
+      "response_id": "resp_352c6143-755c-990e-9424-0203051bf849",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:05:05.419031+00:00"
+    },
+    {
+      "id": "C01-S03-U18",
+      "role": "counselor",
+      "text": "过完那遍关掉的时候，是觉得够了，还是过完了就顺手关了？今天先到这儿，下次见。",
+      "call_id": "98e6d137d5a2415cbc2619d9025cfd9c",
+      "response_id": "resp_fcfd4266-9eb3-926d-a439-f2de0916a116",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:05:56.214756+00:00"
+    },
+    {
+      "id": "C01-S03-U19",
+      "role": "client",
+      "text": "应该是……顺手关的吧。就是过完了，没什么特别的感觉，就关了。\n\n但你说\"觉得够了\"……我好像很少有过那种\"够了\"的感觉，就是过完了然后心里有一个\"可以了\"的落点。这次也是，就是过完了，然后关了，但说不上来是够了还是就是过完了。\n\n那下次见吧，谢谢。",
+      "call_id": "b86c3970a5774ffb83306d3ec922223b",
+      "response_id": "resp_56bc2549-26ea-9887-85b7-15a204082aaf",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:06:03.976091+00:00"
+    },
+    {
+      "id": "C01-S03-U20",
+      "role": "counselor",
+      "text": "你很少有过那种够了的落点——这句话其实把前面三次都串起来了。不是每次都在挣扎，是那个确认本身好像从来没出现过，所以每次都是过完了然后关了，而不是过完了然后够了。\n\n下次见。",
+      "call_id": "3f3554109718435780f2e9bc2cd59473",
+      "response_id": "resp_9188ba1b-7768-94d0-ad86-44bc615240a4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:06:10.685700+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:06:10.685700+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T12:06:10.687704+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  }
+}

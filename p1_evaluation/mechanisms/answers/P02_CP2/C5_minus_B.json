@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P02_CP2",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "ca9a9b72398fc8bf8c9d45337406d667d76439fec5b135802fc5076364e27087",
+  "request_sha256": "fb934d53b37a4609ade6c81eb7dd8cfb8648661859413d5734fb50ffa1d4aee4",
+  "memory_sha256": "ca47dfeaca6211b322936f696601e8982f2ac3bc051ac67987f4ad628a14b4c5",
+  "memory_source": "f7a2a4060dbd1117208f87e90c23846126c2687e2cc690981b8f988639b0424a",
+  "raw_text": "听起来，那一小时里你一直在“数时间”和“怕被叫走”之间绷着，连靠一下都不敢，好像一旦真的靠下去，这个时间就不再是你能拿得住的了。可你仍然说“没白坐”，也许是因为那个坐在长椅上的自己，终于被允许出现了一小会儿。",
+  "usage": {
+    "input_tokens": 6831,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 68,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6899,
+    "x_details": [
+      {
+        "input_tokens": 6831,
+        "output_tokens": 68,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 6899,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.5,
+  "model": "deepseek-v4-pro-0813"
+}

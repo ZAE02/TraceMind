@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应聚焦于当前轮次的工服意象，未自然衔接检索历史中高度相关的'还能顶的招牌'(P04-S01-U07)、洗三遍碗(P04-S05-U09)或药盒(P04-S06-U05)等反复出现的身份维持主题，仅泛泛联系。\",\"exploration_value\":\"尝试探索厌恶感与疲惫感的层次差异，但用'连承认极限都来不及做的狼狈'这一解释性框架收窄了来访者的表达空间，且与来访者原话'替我说我今天真的到极限了'（已承认）存在张力。\",\"response_appropriateness\":\"语言风格基本贴合来访者的隐喻习惯，但将恶心直接定性为'对自己状态的厌恶'和'狼狈'带有较强预设，可能让来访者感到被评判而非被承接。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"是因为它像一面镜子，照出了你连\"承认极限\"都来不及做的狼狈\",\"evidence_ids\":[\"P04-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"这种对自己状态的厌恶，是不是比身体的疲惫更让你觉得难以承受？\",\"evidence_ids\":[\"P04-S01-U07\",\"P04-S05-U09\",\"P04-S06-U05\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'恶心'直接等同于'对自己状态的厌恶'和'狼狈'属于未经证实的解释性前提，来访者原文说的是味道'替我说我今天真的到极限了'，说明昨晚她其实已经借由工服承认了极限，候选人的解读与此有偏差。\",\"未能利用检索历史中丰富的平行素材（如S1的'还能顶的招牌'、S5洗三遍碗、S6药盒摆盘）来映照今早对脏工服的恶心反应——这些都是'无法接受自己不再能撑住'的同一主题的不同表现。\",\"封闭式提问'是不是比……更让你觉得难以承受'限制了来访者对自身复杂感受的自主命名。\"]}",
+  "request_sha256": "cabc11fa972acf308adaf7a0724b9771f0d6b66904067e88a237edae4e1fe91c",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14450,
+    "input_tokens_details": {
+      "cached_tokens": 14336
+    },
+    "output_tokens": 511,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14961,
+    "x_details": [
+      {
+        "input_tokens": 14450,
+        "output_tokens": 511,
+        "prompt_tokens_details": {
+          "cached_tokens": 14336
+        },
+        "total_tokens": 14961,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

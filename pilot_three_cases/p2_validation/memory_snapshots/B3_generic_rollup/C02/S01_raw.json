@@ -1,0 +1,145 @@
+{
+  "status": "completed",
+  "purpose": "incremental_memory_update",
+  "case_id": "C02",
+  "session_number": 1,
+  "method": "B3_generic_rollup",
+  "request_sha256": "81f8d335f3bc4a5ed978fef739bebc2995b8e30c9e0843c5d49ff972de11ecb7",
+  "context_sha256": "b7a7869b8936cc59b08c895e066641aee4da1f41e906b9a6ecd6df4a2d0e73cb",
+  "call_id": "64c47e97f15145d4a30fa7008f2de712",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:26:12.005998+00:00",
+  "raw_text": "```json\n{\n  \"entries\": [\n    {\n      \"text\": \"来访者核心模式：别人一开口就容易先说\\\"行\\\"，\\\"不行\\\"还没成形嘴就先回答了。来访者确认\\\"一直都有\\\"，上班两年如此。最近因报表多、周末被加班打乱，那个犹豫窗口变得更短，有时事后才反应过来。\",\n      \"type\": \"pattern\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U05\", \"C02-S01-U07\"]\n    },\n    {\n      \"text\": \"来访者自行发现\\\"同一把尺子\\\"：别人说\\\"顺手\\\"，自己就得觉得顺手，否则显得计较；悦悦说\\\"没事\\\"，自己也得觉得没事，否则委屈就没有出处。来访者总结：\\\"我连'我觉得这事对我重要'这个念头，都得先过一遍'别人会不会觉得我小题大做'。\\\"\",\n      \"type\": \"insight\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U15\"]\n    },\n    {\n      \"text\": \"周四事件：阿敏说\\\"顺手弄一下\\\"活动数据，来访者当时自己报表没做完仍答应，弄到晚上九点多。来访者描述答应时\\\"把自己那个报表挤掉了，但也没人问我挤掉的是什么\\\"。\",\n      \"type\": \"event\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U01\", \"C02-S01-U03\"]\n    },\n    {\n      \"text\": \"上周末事件：悦悦约周六一起做饭，来访者答应，但周五加班到八点、周六早上补数据，晚上发消息取消。悦悦回\\\"没事，饭我放冰箱了\\\"。来访者感到\\\"闷\\\"和\\\"委屈\\\"，但说不出委屈什么——\\\"我又没损失什么\\\"。\",\n      \"type\": \"event\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U09\", \"C02-S01-U11\"]\n    },\n    {\n      \"text\": \"来访者描述委屈\\\"落不了地\\\"：找不到\\\"够格\\\"的由头，觉得自己损失了什么但说不出，所以那个感觉悬着。用咨询师的话说\\\"不被允许承认损失\\\"，来访者回应\\\"好像是\\\"但修正为\\\"不是谁不让我说，是我自己觉得没由头\\\"。\",\n      \"type\": \"feeling\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U12\", \"C02-S01-U13\"]\n    },\n    {\n      \"text\": \"来访者区分\\\"别人\\\"：泛泛的\\\"大家\\\"（正常人应该都能接受）+ 具体的人，点名阿敏——\\\"每次都是她，而且每次都是'顺手'\\\"。阿敏不是故意使唤人，可能自己确实忙，但频率和措辞让来访者积累了某种感受。\",\n      \"type\": \"relationship\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U17\"]\n    },\n    {\n      \"text\": \"本次咨询结束状态：来访者表示\\\"比闷着好一点点\\\"\\\"脑子清了一点，至少那个'闷'没那么闷了\\\"。主动提出\\\"每次都是她\\\"下次可以接着聊。\",\n      \"type\": \"outcome\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U17\", \"C02-S01-U19\"]\n    },\n    {\n      \"text\": \"未确认/待探索：①\\\"每次都是她\\\"背后具体积累了什么感受，下次可深入；②那个\\\"来不及\\\"的机制——为什么\\\"不行\\\"无法在嘴之前成形，来访者目前只能描述现象，尚未触及原因。\",\n      \"type\": \"unresolved\",\n      \"speaker\": \"client\",\n      \"evidence_ids\": [\"C02-S01-U05\", \"C02-S01-U17\"]\n    }\n  ]\n}\n```",
+  "parsed_answer": {
+    "entries": [
+      {
+        "text": "来访者核心模式：别人一开口就容易先说\"行\"，\"不行\"还没成形嘴就先回答了。来访者确认\"一直都有\"，上班两年如此。最近因报表多、周末被加班打乱，那个犹豫窗口变得更短，有时事后才反应过来。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U05",
+          "C02-S01-U07"
+        ]
+      },
+      {
+        "text": "来访者自行发现\"同一把尺子\"：别人说\"顺手\"，自己就得觉得顺手，否则显得计较；悦悦说\"没事\"，自己也得觉得没事，否则委屈就没有出处。来访者总结：\"我连'我觉得这事对我重要'这个念头，都得先过一遍'别人会不会觉得我小题大做'。\"",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U15"
+        ]
+      },
+      {
+        "text": "周四事件：阿敏说\"顺手弄一下\"活动数据，来访者当时自己报表没做完仍答应，弄到晚上九点多。来访者描述答应时\"把自己那个报表挤掉了，但也没人问我挤掉的是什么\"。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U01",
+          "C02-S01-U03"
+        ]
+      },
+      {
+        "text": "上周末事件：悦悦约周六一起做饭，来访者答应，但周五加班到八点、周六早上补数据，晚上发消息取消。悦悦回\"没事，饭我放冰箱了\"。来访者感到\"闷\"和\"委屈\"，但说不出委屈什么——\"我又没损失什么\"。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U09",
+          "C02-S01-U11"
+        ]
+      },
+      {
+        "text": "来访者描述委屈\"落不了地\"：找不到\"够格\"的由头，觉得自己损失了什么但说不出，所以那个感觉悬着。用咨询师的话说\"不被允许承认损失\"，来访者回应\"好像是\"但修正为\"不是谁不让我说，是我自己觉得没由头\"。",
+        "type": "feeling",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U12",
+          "C02-S01-U13"
+        ]
+      },
+      {
+        "text": "来访者区分\"别人\"：泛泛的\"大家\"（正常人应该都能接受）+ 具体的人，点名阿敏——\"每次都是她，而且每次都是'顺手'\"。阿敏不是故意使唤人，可能自己确实忙，但频率和措辞让来访者积累了某种感受。",
+        "type": "relationship",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U17"
+        ]
+      },
+      {
+        "text": "本次咨询结束状态：来访者表示\"比闷着好一点点\"\"脑子清了一点，至少那个'闷'没那么闷了\"。主动提出\"每次都是她\"下次可以接着聊。",
+        "type": "outcome",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U17",
+          "C02-S01-U19"
+        ]
+      },
+      {
+        "text": "未确认/待探索：①\"每次都是她\"背后具体积累了什么感受，下次可深入；②那个\"来不及\"的机制——为什么\"不行\"无法在嘴之前成形，来访者目前只能描述现象，尚未触及原因。",
+        "type": "unresolved",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S01-U05",
+          "C02-S01-U17"
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 1954,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1703,
+    "output_tokens_details": {
+      "reasoning_tokens": 762
+    },
+    "total_tokens": 3657,
+    "x_details": [
+      {
+        "input_tokens": 1954,
+        "input_tokens_details": {
+          "text_tokens": 1954
+        },
+        "output_tokens": 1703,
+        "output_tokens_details": {
+          "reasoning_tokens": 762
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3657,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_incremental_memory_update_calls.jsonl",
+  "visible_evidence_ids": [
+    "C02-S01-U01",
+    "C02-S01-U02",
+    "C02-S01-U03",
+    "C02-S01-U04",
+    "C02-S01-U05",
+    "C02-S01-U06",
+    "C02-S01-U07",
+    "C02-S01-U08",
+    "C02-S01-U09",
+    "C02-S01-U10",
+    "C02-S01-U11",
+    "C02-S01-U12",
+    "C02-S01-U13",
+    "C02-S01-U14",
+    "C02-S01-U15",
+    "C02-S01-U16",
+    "C02-S01-U17",
+    "C02-S01-U18",
+    "C02-S01-U19",
+    "C02-S01-U20"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

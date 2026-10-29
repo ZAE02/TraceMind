@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P01_CP1",
+  "condition": "C5_budget",
+  "raw_text": "你明明手都冻僵了，却还要用“我也刚到不久”来抹平自己的不适和对方的内疚。这种连生气都不敢、生怕变成“难搞的人”的紧绷感，是不是让你觉得只有把自己藏起来，才是安全的？",
+  "input_sha256": "c61889ab7f05a8b64f4c7330697cbcaef4efdeb6f3623e6c05e3d9feab598a28",
+  "memory_sha256": "cbbdb5b46295e00516b7bea5747acacfda0d164c19c22f891979b7f981dd62ff",
+  "request_sha256": "c1cba5b1d2396f99fa67e84c7775f83600412cc2b63d160c864f58e79a822e67",
+  "usage": {
+    "input_tokens": 4345,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4398,
+    "x_details": [
+      {
+        "input_tokens": 4345,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4398,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.375
+}

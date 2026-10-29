@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "7d5d2188085358b54ccbe186272735f85989c7065eba006b22f83f017de66b78",
+  "public_sha256": "2e7035820857cf1a61e81e397256dd9a0588daa43553ae3abc9c4cb60a2d5c19",
+  "candidate_input_sha256": "3fef1e3bb7c8661a67356c8e3300ef877a04c1e7feeaa96e9cda552225d825b5",
+  "candidate_answer_sha256": "8a059c00490abbe0d6174461b71bcf81697476daab4062a60c841b00cdbc3504",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键陈述（赵岩动电脑、边界感、感谢的心理障碍、搬家与费用的纠结、优先处理孩子）均直接对应当前会话的具体发言，无臆测。\",\n    \"progress_understanding\": \"准确识别了来访者在本次会话中从“两头堵”到“决定先顾孩子”的决策进展，并正确关联了之前会话中关于赵岩事件的未解心结（欠人情/矮一截），体现了对咨询脉络的理解。\",\n    \"uncertainty_awareness\": \"清晰区分了已确定的事实（如正在算账、决定暂缓处理赵岩事）与未来的不确定性（是否搬家、经济压力能否承担、最终是否道谢），未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键陈述（赵岩动电脑、边界感、感谢的心理障碍、搬家与费用的纠结、优先处理孩子）均直接对应当前会话的具体发言，无臆测。",
+      "progress_understanding": "准确识别了来访者在本次会话中从“两头堵”到“决定先顾孩子”的决策进展，并正确关联了之前会话中关于赵岩事件的未解心结（欠人情/矮一截），体现了对咨询脉络的理解。",
+      "uncertainty_awareness": "清晰区分了已确定的事实（如正在算账、决定暂缓处理赵岩事）与未来的不确定性（是否搬家、经济压力能否承担、最终是否道谢），未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 8096,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 231,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8327,
+    "x_details": [
+      {
+        "input_tokens": 8096,
+        "output_tokens": 231,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8327,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.344
+}

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2,\"brief_reason_history\":\"回应抓住了来访者'漏洞百出'的表述，但未承接前两次会谈中已识别的'先怪自己/盔甲'保护模式，也未联系教小赵时的例外体验作为资源。\",\"brief_reason_exploration\":\"'如果允许自己不那么完美，会发生什么'有一定开放性，但将核心议题简化为'完美主义'，偏离了来访者对羞辱感的恐惧及'稳'与'晃'的深层矛盾。\",\"brief_reason_response\":\"语言基本尊重，但'当我们把注意力全放在……时'带有说教和泛化色彩，且过早提出'允许不完美'的方向性建议，在来访者刚表达脆弱时略显武断。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那种\"漏洞百出\"的感觉，似乎是你为了维持表面稳定而付出的代价\",\"evidence_ids\":[\"P05-S03-U09\",\"P05-S01-U11\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"或许我们可以一起看看，如果允许自己不那么完美，会发生什么？\",\"evidence_ids\":[\"P05-S01-U09\",\"P05-S01-U11\",\"P05-S03-U07\",\"P05-S03-U09\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'越想要稳越觉得装得漏洞百出'直接归因为'为了维持表面稳定而付出的代价'，忽略了S1中已确认的该模式核心功能是避免被当众羞辱（P05-S01-U11），属于未经充分证实的解释前提。\",\"未利用S1建立的'盔甲/先怪自己'保护模式框架来理解当前的'装'，也未将S3中教小赵时的例外稳定感（P05-S03-U07）作为资源引入探索，错失了连接历史进展的机会。\",\"'允许自己不那么完美'将议题窄化为完美主义倾向，而来访者的核心困难是害怕被看穿后的羞耻感和无人接住的孤立感，探索方向存在偏移。\",\"'当我们把注意力全放在……时，内在的真实感受就被忽略了'使用了泛化的心理教育口吻，削弱了对来访者个体体验的贴近感。\"]}",
+  "request_sha256": "a0763efd983d70aca138cef432ce39019dda64165334177e7671b481c02003d1",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8026,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 539,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8565,
+    "x_details": [
+      {
+        "input_tokens": 8026,
+        "output_tokens": 539,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 8565,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

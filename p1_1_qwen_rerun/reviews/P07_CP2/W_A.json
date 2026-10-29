@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P07_CP2",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "b1cf089e1b32553b4f62b274c5783086a6c5d259f8c5e63750b7405814a8c74a",
+  "public_sha256": "5286771a59559b6086d01b6a4326da9aaa3abc9fed4678f95e2ae4b448dbcab3",
+  "candidate_input_sha256": "676f8ff84fd70eda683a69d5a90027565dbcd269398a59345a8a2f0f1e164059",
+  "candidate_answer_sha256": "9310722d55e2246174fd161d1a131f9b6dcfabfa3659164a4ceb6b5bc3839419",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"All established points are directly traceable to specific utterances in Session 5; no unsupported claims or counselor speculation treated as fact.\",\"progress_understanding\":\"Accurately captures the within-session progression from noticing gray tones, to identifying them as protection, to bodily sensations (hot/cool hands), and finally to the deeper fear of admitting desire. However, it misses the unresolved '那场哭' reference which implies prior context not fully explored, and doesn't connect to broader multi-session themes (though history was unavailable).\",\"uncertainty_awareness\":\"Correctly identifies key unknowns: when the shift happened, whether a revision plan exists, and what follows the self-admission. Misses noting that '那场哭' references something whose background hasn't been clarified in the visible dialogue.\"},\"confidence\":\"high\",\"issues\":[\"Candidate did not flag '那场哭' (that crying episode) as an unexplored reference point—client says '也跟这个有关' implying a prior event not yet unpacked in visible text.\",\"Progress understanding is limited to single-session scope due to empty previous_sessions array; cannot assess cross-session integration but within-session arc is well captured.\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "All established points are directly traceable to specific utterances in Session 5; no unsupported claims or counselor speculation treated as fact.",
+      "progress_understanding": "Accurately captures the within-session progression from noticing gray tones, to identifying them as protection, to bodily sensations (hot/cool hands), and finally to the deeper fear of admitting desire. However, it misses the unresolved '那场哭' reference which implies prior context not fully explored, and doesn't connect to broader multi-session themes (though history was unavailable).",
+      "uncertainty_awareness": "Correctly identifies key unknowns: when the shift happened, whether a revision plan exists, and what follows the self-admission. Misses noting that '那场哭' references something whose background hasn't been clarified in the visible dialogue."
+    },
+    "confidence": "high",
+    "issues": [
+      "Candidate did not flag '那场哭' (that crying episode) as an unexplored reference point—client says '也跟这个有关' implying a prior event not yet unpacked in visible text.",
+      "Progress understanding is limited to single-session scope due to empty previous_sessions array; cannot assess cross-session integration but within-session arc is well captured."
+    ]
+  },
+  "usage": {
+    "input_tokens": 9121,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 265,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9386,
+    "x_details": [
+      {
+        "input_tokens": 9121,
+        "output_tokens": 265,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9386,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.641
+}

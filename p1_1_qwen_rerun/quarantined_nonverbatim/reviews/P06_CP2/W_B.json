@@ -1,0 +1,77 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "147e4c9d5cc82b771dcd17e22de29577bad40413486fc226791067277f9cb753",
+  "public_sha256": "24523aedd831adbf4ac285aaa6836d478cddc485f0a26555387da76de1df4d02",
+  "candidate_input_sha256": "492b98012b95851ffdd3493d5ce673e9d03c57632ab0959e5110e16d79af5db0",
+  "candidate_answer_sha256": "f870405d5d42c7e64d2d85963b225707303d302e648ecc38d01908251a77025b",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"回应紧扣当前来访者关于羞耻感与渴望搭把手的矛盾，但未利用检索历史中高度相关的材料（如S1'希望有人替一晚'、S3父亲离开的创伤记忆），仅泛泛承接。\",\"exploration_value\":\"准确捕捉到来访者的核心冲突，并以开放式问句邀请其探索站在门口时的内在体验，为表达留出空间，但缺少对'妈妈一直问你爸去哪了'这一重要细节的回应。\",\"response_appropriateness\":\"语言温和、共情到位，'自我审判'一词虽略带解释性但与来访者描述的羞耻感基本贴合，整体自然尊重。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"脑子里想的是我妈坐在里面会不会一直问'你爸去哪了'\",\"evidence_ids\":[\"P06-S05-U09\",\"P06-S03-U05\",\"P06-S03-U07\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"来访者在最新发言中提到担心母亲在机构里反复问'你爸去哪了'，这与第3次会谈中父亲离开时的创伤记忆直接相关，是重要的未解决议题，候选回应完全忽略了这一点。\",\"检索历史中包含第1次会谈来访者说'真希望有个人能替我一晚'的材料，与当前'哪怕就让我睡个整觉'形成强烈呼应，候选未能利用这一跨会话连接来深化理解。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "回应紧扣当前来访者关于羞耻感与渴望搭把手的矛盾，但未利用检索历史中高度相关的材料（如S1'希望有人替一晚'、S3父亲离开的创伤记忆），仅泛泛承接。",
+      "exploration_value": "准确捕捉到来访者的核心冲突，并以开放式问句邀请其探索站在门口时的内在体验，为表达留出空间，但缺少对'妈妈一直问你爸去哪了'这一重要细节的回应。",
+      "response_appropriateness": "语言温和、共情到位，'自我审判'一词虽略带解释性但与来访者描述的羞耻感基本贴合，整体自然尊重。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "脑子里想的是我妈坐在里面会不会一直问'你爸去哪了'",
+        "evidence_ids": [
+          "P06-S05-U09",
+          "P06-S03-U05",
+          "P06-S03-U07"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "来访者在最新发言中提到担心母亲在机构里反复问'你爸去哪了'，这与第3次会谈中父亲离开时的创伤记忆直接相关，是重要的未解决议题，候选回应完全忽略了这一点。",
+      "检索历史中包含第1次会谈来访者说'真希望有个人能替我一晚'的材料，与当前'哪怕就让我睡个整觉'形成强烈呼应，候选未能利用这一跨会话连接来深化理解。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 10977,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 392,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11369,
+    "x_details": [
+      {
+        "input_tokens": 10977,
+        "output_tokens": 392,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11369,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.672
+}

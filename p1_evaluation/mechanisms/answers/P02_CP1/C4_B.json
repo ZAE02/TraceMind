@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P02_CP1",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "fcd2ab8a5a71404cf6919ee498ea56827864d01315b44b7f7f7df5725a9d8283",
+  "request_sha256": "e21996a4e1da91eed1e0a7ca897240ae0dc97b8e83fa0ff207a46b1bc43eb981",
+  "memory_sha256": "4eaf911892a85ea7cbcaf45c2f384e0946700c93e2538d5908f1c76c8bdd2d99",
+  "memory_source": "19ad9b6b9e63570deef3e09e09d756e3d2dd8ecb4501a6a43d5d3f76913a7de5",
+  "raw_text": "听起来，你夜里那样站着守她，身体好像一直没真正放松过；中午突然反胃，也许不只是累，更像是那阵紧绷在身体里找了个出口。你当时站在门口没出声，是怕她发现你在守着她吗？",
+  "usage": {
+    "input_tokens": 3821,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3873,
+    "x_details": [
+      {
+        "input_tokens": 3821,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3873,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.203,
+  "model": "deepseek-v4-pro-0813"
+}

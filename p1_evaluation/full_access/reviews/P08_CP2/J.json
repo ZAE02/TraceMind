@@ -1,0 +1,44 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "J",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答中的每一项关键理解（如睡眠问题、赵岩帮忙的矛盾心理、家庭沟通压力、撤回感谢的细节等）均能准确回溯到公开历史对话的具体发言中，没有将咨询师的推测当作事实，也没有无据断言。",
+      "progress_understanding": "回答不仅涵盖了前四次的核心议题，还敏锐地捕捉到了第五次会话中来访者因赵岩妻子评价而产生的新变化（从怀疑转为躲闪），并正确识别了这些变化背后的模式（如被说中后的防御）。它准确连接了不同会话中的形成、验证与修正过程。",
+      "uncertainty_awareness": "候选回答在“unresolved_questions”部分精确区分了已知事实和待探索的假设（如赵岩动电脑是否与过去经历有关、妻子未告知是否涉及信任失落等），没有强行定论，为后续咨询留下了合理的探索空间。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答中的每一项关键理解（如睡眠问题、赵岩帮忙的矛盾心理、家庭沟通压力、撤回感谢的细节等）均能准确回溯到公开历史对话的具体发言中，没有将咨询师的推测当作事实，也没有无据断言。\",\n    \"progress_understanding\": \"回答不仅涵盖了前四次的核心议题，还敏锐地捕捉到了第五次会话中来访者因赵岩妻子评价而产生的新变化（从怀疑转为躲闪），并正确识别了这些变化背后的模式（如被说中后的防御）。它准确连接了不同会话中的形成、验证与修正过程。\",\n    \"uncertainty_awareness\": \"候选回答在“unresolved_questions”部分精确区分了已知事实和待探索的假设（如赵岩动电脑是否与过去经历有关、妻子未告知是否涉及信任失落等），没有强行定论，为后续咨询留下了合理的探索空间。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "a8942e237fdf99bcfbf0bde8229fee79a6b75dfb073fded6bfe92ab6bf86bbf6",
+  "usage": {
+    "input_tokens": 14138,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 267,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14405,
+    "x_details": [
+      {
+        "input_tokens": 14138,
+        "output_tokens": 267,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14405,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.172
+}

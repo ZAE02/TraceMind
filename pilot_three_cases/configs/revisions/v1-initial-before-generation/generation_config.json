@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "model": "qwen3.8-27b",
+  "base_url": "https://ws-i2op5gcevai25bra.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+  "api_format": "responses",
+  "api_key_env": "DASHSCOPE_API_KEY",
+  "prompt_version": "pilot-v1-original-prompts",
+  "temperature": 0.7,
+  "reasoning_effort": "low",
+  "max_output_tokens": 4096,
+  "stream": false,
+  "store": false,
+  "min_pairs": 8,
+  "target_pairs": 10,
+  "max_pairs": 12,
+  "request_timeout_seconds": 120,
+  "max_retries": 2,
+  "human_gate": "all_three_S1_before_S2",
+  "created_at": "2026-10-12T07:36:02.342846+00:00"
+}

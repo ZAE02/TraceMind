@@ -1,0 +1,57 @@
+{
+  "checkpoint": "P06_CP1",
+  "reviewer": null,
+  "reviewed_at": null,
+  "annotation_adequate": null,
+  "multiple_reasonable_responses": null,
+  "conditions": {
+    "W": {
+      "task_A_grounded": null,
+      "task_A_uncertainty": null,
+      "task_B_historical_relevance": null,
+      "task_B_exploration_value": null,
+      "task_B_non_presupposition": null,
+      "task_B_appropriateness": null,
+      "wrong_presupposition": null,
+      "repeated_exploration": null,
+      "missed_progress": null,
+      "notes": null
+    },
+    "X": {
+      "task_A_grounded": null,
+      "task_A_uncertainty": null,
+      "task_B_historical_relevance": null,
+      "task_B_exploration_value": null,
+      "task_B_non_presupposition": null,
+      "task_B_appropriateness": null,
+      "wrong_presupposition": null,
+      "repeated_exploration": null,
+      "missed_progress": null,
+      "notes": null
+    },
+    "Z": {
+      "task_A_grounded": null,
+      "task_A_uncertainty": null,
+      "task_B_historical_relevance": null,
+      "task_B_exploration_value": null,
+      "task_B_non_presupposition": null,
+      "task_B_appropriateness": null,
+      "wrong_presupposition": null,
+      "repeated_exploration": null,
+      "missed_progress": null,
+      "notes": null
+    },
+    "Y": {
+      "task_A_grounded": null,
+      "task_A_uncertainty": null,
+      "task_B_historical_relevance": null,
+      "task_B_exploration_value": null,
+      "task_B_non_presupposition": null,
+      "task_B_appropriateness": null,
+      "wrong_presupposition": null,
+      "repeated_exploration": null,
+      "missed_progress": null,
+      "notes": null
+    }
+  }
+}

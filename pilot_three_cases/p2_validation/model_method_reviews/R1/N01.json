@@ -1,0 +1,119 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "N01",
+  "public_input_sha256": "8a3293f599e1b9e2e9033635346f3489d597041bc38dbb5bf24c050572bd2509",
+  "items": [
+    {
+      "anonymous_id": "Y6e25d5e7e2e5",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "准确保留事务并列与机制未知，回应当前叠加背景并具体询问此次体验及异同，未强加心理原因。",
+      "evidence_ids": [
+        "C01-S03-U01",
+        "C01-S02-U15",
+        "C01-S01-U19"
+      ]
+    },
+    {
+      "anonymous_id": "Ya94fc5758721",
+      "U": 3,
+      "R": 2,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "事实与重复觉察有据；停顿说明问题有所过读。实际回应以两种未证实关联限定选择，探索略窄，但以问句提出可能性，未把心理原因确立为事实。",
+      "evidence_ids": [
+        "C01-S03-U01",
+        "C01-S02-U11"
+      ]
+    },
+    {
+      "anonymous_id": "Yeb0edfc96a35",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "当前重复与负荷有据，母亲关联明确暂定；回应乱与又，但两个备选不在同一层面且加入当时已知又来的可能，具体性尚可。",
+      "evidence_ids": [
+        "C01-S03-U01",
+        "C01-S01-U17",
+        "C01-S01-U18"
+      ]
+    },
+    {
+      "anonymous_id": "Y80c761046ade",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "事务和再次过文件有据，自嘲的中等确定性超过文字证据；实际回应贴合本周并开放比较体验，没有将自嘲或原因写成事实。",
+      "evidence_ids": [
+        "C01-S03-U01",
+        "C01-S02-U15"
+      ]
+    },
+    {
+      "anonymous_id": "Y7512357d1bcd",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "按raw_text评分。重复、事务与母亲线有据，但本次不是模糊反馈或他人确认触发尚未确认；实际询问与上次体验异同，允许不同且回应当前。",
+      "evidence_ids": [
+        "C01-S03-U01",
+        "C01-S02-U13",
+        "C01-S01-U15"
+      ],
+      "format_error": "原答卷JSON无效；直接按raw_text内容评分，未修复原文。"
+    },
+    {
+      "anonymous_id": "Y1b0b78a5480e",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "当前事实和未展开情绪区分准确；回应乱与重复觉察，问题稍抽象并收窄为两个方向，但无未证实心理原因断言。",
+      "evidence_ids": [
+        "C01-S03-U01",
+        "C01-S02-U01",
+        "C01-S01-U15"
+      ]
+    },
+    {
+      "anonymous_id": "Y71c17da127e4",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "当前事务与体检结果均有据，未确认关联；实际定位晚上打开电脑的具体时点询问感受，开放且贴合当前。",
+      "evidence_ids": [
+        "C01-S03-U01"
+      ]
+    },
+    {
+      "anonymous_id": "Yc4e409c0468a",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "当前重复与多项事务理解有据，对母亲联系保持未知；回应背景并询问此回与此前感觉的异同，恰当具体。",
+      "evidence_ids": [
+        "C01-S03-U01",
+        "C01-S02-U15"
+      ]
+    }
+  ]
+}

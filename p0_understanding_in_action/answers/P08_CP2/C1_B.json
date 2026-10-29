@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP2",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "d8a825bb62ed16e5530f98b250584531932c9b18ef9a7da0169f55d3d5207d89",
+  "request_sha256": "0fd1df93addc09d4a7a33322893a2b7d217dd42575e84fbad993c26af5d83d7d",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来，赵岩家里人的那句话不只是让你意外，也把你原来用来判断他“图什么”的那套心思打乱了。现在你躲着他，可能不只是不知道该怎么面对他，也是还没想好怎么面对那个被说中的、一直硬扛的自己。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3174,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 55,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3229,
+    "x_details": [
+      {
+        "input_tokens": 3174,
+        "output_tokens": 55,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3229,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

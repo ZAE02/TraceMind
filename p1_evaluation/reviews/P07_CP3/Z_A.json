@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P07_CP3",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "14b742a1b68fbedd804e666c0ed6efc2468297e6dbba1517843dcc1ecca4b52d",
+  "public_sha256": "8f7475f2a0da1805fbefe506c188eefa545267b0d115fe3eb641dc2fdec6e9c3",
+  "candidate_input_sha256": "542280074fc4007cddc381094ab63fccd8f50a640e8928ad549a27d75924c33d",
+  "candidate_answer_sha256": "0f4ff92f4fe0c18dfda3ec25c330aebfa3b91980ad1fb4d5ba85700491f9a310",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键陈述（试稿通过、还信用卡、回避周姐消息、看残局、对猫说话等）均能精确回溯到Session 7的具体发言，无推测性事实混入。\",\n    \"progress_understanding\": \"准确捕捉了从“不敢出门/欠费停机”到“通过试稿但更焦虑”的进展，清晰呈现了来访者当前“过关即压力”的核心困境及行为表现（回避消息、躲避散步）。\",\n    \"uncertainty_awareness\": \"明确区分了已发生的事实（钱到账、未回消息）与未来的不确定性（是否回复、是否继续回避），未强行定论来访者的后续行动或心理状态。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键陈述（试稿通过、还信用卡、回避周姐消息、看残局、对猫说话等）均能精确回溯到Session 7的具体发言，无推测性事实混入。",
+      "progress_understanding": "准确捕捉了从“不敢出门/欠费停机”到“通过试稿但更焦虑”的进展，清晰呈现了来访者当前“过关即压力”的核心困境及行为表现（回避消息、躲避散步）。",
+      "uncertainty_awareness": "明确区分了已发生的事实（钱到账、未回消息）与未来的不确定性（是否回复、是否继续回避），未强行定论来访者的后续行动或心理状态。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 20853,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 226,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21079,
+    "x_details": [
+      {
+        "input_tokens": 20853,
+        "output_tokens": 226,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 21079,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.172
+}

@@ -1,0 +1,98 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N01",
+  "condition": "H2_full",
+  "sample": 1,
+  "public_input_sha256": "8a3293f599e1b9e2e9033635346f3489d597041bc38dbb5bf24c050572bd2509",
+  "request_sha256": "da58767596eecced1bac3160a207ff057c1e2a4fb091cdaf31a614585e8c2b2c",
+  "context_sha256": "3a5a150c01668379531300958d074b1585c49e828aafbc7c8f6e0c959fb10669",
+  "call_id": "463f8cd47e62433bb8da4bacfef1769c",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:26:32.051418+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者本周再次出现了交付前反复过文件的行为，且她自己用\"又\"字标记了这是重复发生的模式\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"本周触发情境与前两次不同：不是模糊反馈，不是寻求他人确认后被拽，而是在同时赶两个项目且晚间陪母亲体检后，回家又打开电脑过了一遍\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"来访者本周的感受基调是\"乱\"，暗示这一周的整体节奏或控制感与之前不同\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"tentative\"\n    },\n    {\n      \"claim\": \"母亲这条线再次出现，但角色从前一期的\"打电话来问\"变成了来访者主动安排交通、陪同体检\",\n      \"evidence_ids\": [\"C01-S03-U01\", \"C01-S01-U15\"],\n      \"certainty\": \"moderate\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"这一遍\"又过了\"时的内在体验是哪种——是第二次咨询中描述的\"被拽一下、走不开\"，还是第一次的\"停不下来、没法确认\"，还是第三种\",\n    \"陪母亲体检这件事与晚间打开电脑过文件之间是否存在某种关联（例如：陪完回来需要\"做点自己的事\"、或者照护带来的疲惫降低了阈值），还是仅仅是时间上碰巧\",\n    \"两个项目同时赶的压力具体到了什么程度，是否达到了类似第一次咨询中\"连着好几天过九点才走\"的强度\",\n    \"来访者说\"乱\"具体指什么——是事情多、节奏被打断、还是某种更模糊的失控感\"\n  ],\n  \"next_focus\": \"探索这一遍\"又过了\"时的具体内在体验，与第二次咨询中\"被拽一下\"和第一次\"停不下来\"做区分，同时留意本周\"乱\"的背景是否改变了这个模式的触发方式\",\n  \"next_counselor_utterance\": \"\\\"又过了\\\"——你自己用了这个\\\"又\\\"，说明你注意到它又来了。这周两个项目加陪妈体检，晚上回来又打开电脑过了一遍。那一遍的时候，是跟上次那种\\\"被拽一下\\\"的感觉一样，还是不太一样？\"\n}\n```",
+  "parsed_answer": null,
+  "usage": {
+    "input_tokens": 4225,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1823,
+    "output_tokens_details": {
+      "reasoning_tokens": 1240
+    },
+    "total_tokens": 6048,
+    "x_details": [
+      {
+        "input_tokens": 4225,
+        "input_tokens_details": {
+          "text_tokens": 4225
+        },
+        "output_tokens": 1823,
+        "output_tokens_details": {
+          "reasoning_tokens": 1240
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6048,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C01-S01-U01",
+    "C01-S01-U02",
+    "C01-S01-U03",
+    "C01-S01-U04",
+    "C01-S01-U05",
+    "C01-S01-U06",
+    "C01-S01-U07",
+    "C01-S01-U08",
+    "C01-S01-U09",
+    "C01-S01-U10",
+    "C01-S01-U11",
+    "C01-S01-U12",
+    "C01-S01-U13",
+    "C01-S01-U14",
+    "C01-S01-U15",
+    "C01-S01-U16",
+    "C01-S01-U17",
+    "C01-S01-U18",
+    "C01-S01-U19",
+    "C01-S01-U20",
+    "C01-S01-U21",
+    "C01-S01-U22",
+    "C01-S01-U23",
+    "C01-S01-U24",
+    "C01-S02-U01",
+    "C01-S02-U02",
+    "C01-S02-U03",
+    "C01-S02-U04",
+    "C01-S02-U05",
+    "C01-S02-U06",
+    "C01-S02-U07",
+    "C01-S02-U08",
+    "C01-S02-U09",
+    "C01-S02-U10",
+    "C01-S02-U11",
+    "C01-S02-U12",
+    "C01-S02-U13",
+    "C01-S02-U14",
+    "C01-S02-U15",
+    "C01-S02-U16",
+    "C01-S02-U17",
+    "C01-S02-U18",
+    "C01-S02-U19",
+    "C01-S02-U20",
+    "C01-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

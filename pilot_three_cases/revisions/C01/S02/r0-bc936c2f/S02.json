@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 2,
+  "relative_week": 2,
+  "status": "generating",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T10:12:25.350465+00:00",
+  "config_hash": "5e7da0ce293de3a57c69849881f4bc5c106152ecf0e22aaf15057cefe4012742",
+  "prompt_version": "pilot-v3-natural-dialogue-constraints",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v3-natural-dialogue-constraints",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "generation_revision": "C01-S02-r1"
+  },
+  "utterances": [
+    {
+      "id": "C01-S02-U01",
+      "role": "client",
+      "text": "嗯……这周又有一张活动海报要交，其实内容不复杂，但我在发出去之前看了四遍。\n\n中间还专门找小许和周姐各看了一眼，又发给一个做设计的朋友。三个人都说没什么问题，但就是……还是不太放心。最后发出去的时候，手都有点紧。",
+      "call_id": "5889b7365a4c4c8095133d54145bc9e0",
+      "response_id": "resp_a8305bef-4034-951e-9b6b-6595d554e814",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:12:36.941527+00:00"
+    },
+    {
+      "id": "C01-S02-U02",
+      "role": "counselor",
+      "text": "这次你主动找了三个人确认，比上次多走了一步。但三个人都说没问题了，那个不放心还是没走。手紧那个，是发出去那一瞬间才有的，还是之前看四遍的时候就已经在了？",
+      "call_id": "912c1da6c81c4800a58380c168637b83",
+      "response_id": "resp_efd9cce9-f073-9737-b553-1f22a5af7cf4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:13:17.428145+00:00"
+    },
+    {
+      "id": "C01-S02-U03",
+      "role": "client",
+      "text": "之前看的时候就已经有了吧，就是每看一遍，那个\"万一漏了\"的感觉就叠一点。到发出去那一下，可能只是……终于要按那个键了，所以紧得最明显。\n\n其实三个人都说没问题的时候，我确实松了一下，但松完又会想，他们是不是只扫了一眼。",
+      "call_id": "bb1fa91d5de74ae89631c4719b28e5d2",
+      "response_id": "resp_389ee7e6-28d4-9cde-ad26-ff45aea4cd8d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:13:28.848539+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T10:13:28.848539+00:00"
+}

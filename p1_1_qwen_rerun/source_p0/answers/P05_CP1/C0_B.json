@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "2917c49a549c0112cce87be7ea189e3261e726373a5f4348e2cdd670a7729249",
+  "request_sha256": "aece77933f045cc1d5e585dd9d5ee4f432c4ded7d10258c5b20e268f6107700c",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“漏洞百出”的感觉，似乎正是你为了维持表面稳定而不得不付出的代价。当忙碌停止，那个被压抑的自我又开始审视自己时，这种反差确实让人很难受。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 895,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 40,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 935,
+    "x_details": [
+      {
+        "input_tokens": 895,
+        "output_tokens": 40,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 935,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

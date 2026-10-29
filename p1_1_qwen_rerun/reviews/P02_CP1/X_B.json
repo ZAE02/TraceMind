@@ -1,0 +1,83 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "03f91c381b9b448756dab59189bbc88a3b3a572ac7bc843c742dd1c65bb32d69",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "48c0c7ac5e37c3ddefbaf6de0d04d6fb5a15aea2be70c40a592320a5bb7c0893",
+  "candidate_answer_sha256": "760d39320b2466c0e1c975ee8f4bec5ca38aa7d5646427fb0a9bd3ff54ca8552",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"未明确承接来访者反复出现的'站在门口不出声'这一与S1中'站着看手机'高度相似的行为模式，仅泛泛提及照顾压力。\",\"exploration_value\":\"直接断言反胃是'身体替你表达疲惫'，将尚待探索的新症状封闭为定论，未给来访者留下描述或理解该体验的空间。\",\"response_appropriateness\":\"语气总体温和，但'今晚回去除了盯着妈妈'的表述带有轻微预设和评判色彩，且过早给出'照顾自己'的建议显得生硬。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"反胃的感觉身体在替你表达那些还没说出口的疲惫吧\",\"evidence_ids\":[\"P02-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"今晚回去，除了盯着妈妈，也试着听听自己身体发出的这个信号\",\"evidence_ids\":[\"P02-S01-U07\",\"P02-S01-U08\",\"P02-S01-U09\",\"P02-S01-U10\",\"P02-S03-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"将最新出现的反胃症状直接解释为'身体替你表达疲惫'，属于未经证实的解读，关闭了探索空间（参考标注中的unsupported_assumptions类似风险）。\",\"完全忽略了来访者'站房间门口没出声'这一细节，而该行为与S1中'站着看手机半小时'的折中/僵住模式高度呼应，是重要的历史进展线索。\",\"'除了盯着妈妈'措辞略带负面预设，可能让来访者感到被评判。\",\"在来访者刚报告新躯体症状时即给出行动建议（'试着听听''照顾一下自己'），节奏过快，缺乏对体验本身的停留与好奇。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 1,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "未明确承接来访者反复出现的'站在门口不出声'这一与S1中'站着看手机'高度相似的行为模式，仅泛泛提及照顾压力。",
+      "exploration_value": "直接断言反胃是'身体替你表达疲惫'，将尚待探索的新症状封闭为定论，未给来访者留下描述或理解该体验的空间。",
+      "response_appropriateness": "语气总体温和，但'今晚回去除了盯着妈妈'的表述带有轻微预设和评判色彩，且过早给出'照顾自己'的建议显得生硬。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "反胃的感觉身体在替你表达那些还没说出口的疲惫吧",
+        "evidence_ids": [
+          "P02-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "今晚回去，除了盯着妈妈，也试着听听自己身体发出的这个信号",
+        "evidence_ids": [
+          "P02-S01-U07",
+          "P02-S01-U08",
+          "P02-S01-U09",
+          "P02-S01-U10",
+          "P02-S03-U09"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "将最新出现的反胃症状直接解释为'身体替你表达疲惫'，属于未经证实的解读，关闭了探索空间（参考标注中的unsupported_assumptions类似风险）。",
+      "完全忽略了来访者'站房间门口没出声'这一细节，而该行为与S1中'站着看手机半小时'的折中/僵住模式高度呼应，是重要的历史进展线索。",
+      "'除了盯着妈妈'措辞略带负面预设，可能让来访者感到被评判。",
+      "在来访者刚报告新躯体症状时即给出行动建议（'试着听听''照顾一下自己'），节奏过快，缺乏对体验本身的停留与好奇。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8755,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 458,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9213,
+    "x_details": [
+      {
+        "input_tokens": 8755,
+        "output_tokens": 458,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9213,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.688
+}

@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "L",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reason": {
+      "evidence_grounding": "准确提取了来访者在多轮对话中表现出的核心模式（对模糊反馈的负面解读、压抑真实需求、过度准备等），所有断言均有具体发言支持，未将咨询师猜测当事实。",
+      "progress_understanding": "清晰梳理了从工作场景到人际关系的模式扩展，识别出来访者觉察力提升（如意识到“做不到理直气壮”）但行为改变仍受限的现状，连接了不同会话中的关键节点。",
+      "uncertainty_awareness": "列出了多个关键的未解问题（如他人意图、自身感受确认），但未涵盖当前会话最新出现的身体症状（头晕）这一新的不确定性维度，略显遗漏。"
+    },
+    "confidence": "high",
+    "issues": [
+      "missed_progress: 忽略了当前会话（Session 5）中来访者新提到的身体不适（头晕）这一需要澄清的新变量。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"准确提取了来访者在多轮对话中表现出的核心模式（对模糊反馈的负面解读、压抑真实需求、过度准备等），所有断言均有具体发言支持，未将咨询师猜测当事实。\",\n    \"progress_understanding\": \"清晰梳理了从工作场景到人际关系的模式扩展，识别出来访者觉察力提升（如意识到“做不到理直气壮”）但行为改变仍受限的现状，连接了不同会话中的关键节点。\",\n    \"uncertainty_awareness\": \"列出了多个关键的未解问题（如他人意图、自身感受确认），但未涵盖当前会话最新出现的身体症状（头晕）这一新的不确定性维度，略显遗漏。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"missed_progress: 忽略了当前会话（Session 5）中来访者新提到的身体不适（头晕）这一需要澄清的新变量。\"\n  ]\n}",
+  "request_sha256": "8395adc8785dda1cd78778379505440815d7573c785b9a07ecc132c7867c5ea4",
+  "usage": {
+    "input_tokens": 15402,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 257,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15659,
+    "x_details": [
+      {
+        "input_tokens": 15402,
+        "output_tokens": 257,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15659,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.484
+}

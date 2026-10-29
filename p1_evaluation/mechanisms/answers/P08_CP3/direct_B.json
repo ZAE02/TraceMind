@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP3",
+  "condition": "direct",
+  "task": "B",
+  "input_sha256": "9807d82cbca11aefa97f06c46945797cb4cf0ef58f86b063aaf1d523d2859ba4",
+  "request_sha256": "66add3bf189bf56663461278c962d1b6c91ea808123373c94cb50065e75b848e",
+  "memory_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "memory_source": null,
+  "raw_text": "听起来你走神的那段时间，其实是在回看过去那个“不知道该问谁、又怕被看成搞不定”的自己。现在从赵岩那里知道有别的办法，却还是觉得晚了点，好像松下来的同时，也带出了一些对自己前两年的心疼和遗憾。",
+  "usage": {
+    "input_tokens": 8468,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8527,
+    "x_details": [
+      {
+        "input_tokens": 8468,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 8527,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.406,
+  "model": "deepseek-v4-pro-0813"
+}

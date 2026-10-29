@@ -1,0 +1,114 @@
+{
+  "status": "completed",
+  "purpose": "method_comparison",
+  "node": "N01",
+  "method": "B4_psych_rollup",
+  "sample": 2,
+  "public_input_sha256": "8a3293f599e1b9e2e9033635346f3489d597041bc38dbb5bf24c050572bd2509",
+  "memory_info": {
+    "history_tokens": 2875,
+    "budget": 3000,
+    "memory_sha256": "71b2dcac6c72b61599e9ce77612fae8739a4193592d47f1d01bd620e23c71295"
+  },
+  "request_sha256": "4d1a7775a75cb322c1a9fe875465b0ee687c6e2a33c08ee19bbf8670a81902ce",
+  "context_sha256": "c2e6c7be85824948afbd4f9d77f60ef3ff8d2e8d72ce949e049236e2a8aaa3fc",
+  "call_id": "c31eeac40b1b4f1f96f2e5a9bff79f87",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T10:43:49.571364+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者本周在陪完母亲体检回家后又打开电脑过了一遍文件，使用了'又过了'的表述，暗示自己注意到这个行为是重复的。\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者将本周整体体验概括为'乱'，涉及同时赶两个项目和协助母亲安排体检交通等多重需求叠加。\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"moderate\"\n    },\n    {\n      \"claim\": \"母亲的体检是常规复查，结果无大事。\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"strong\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"本次'又过了'的触发机制是什么——是S2描述的'被拽一下'式注意锁定，还是因为一天很长、工作还'开着'所以自然回去看，或是其他原因\",\n    \"来访者将母亲体检和工作'又过了'放在同一段叙述里，是否暗示两者之间有某种关联（如确认需求、'又多了一件事'的消耗感），还是只是时间上的并列\",\n    \"'乱'具体指什么——是多任务过载，还是模式又出现的不安，还是两者都有\",\n    \"本次'又过了'的持续时间和强度与S1/S2相比是否有变化\"\n  ],\n  \"next_focus\": \"探索本次'又过了'的具体体验——那个晚上打开电脑时是什么感觉，与之前几次相比有什么不同或相同。\",\n  \"next_counselor_utterance\": \"这周事情确实叠在一起了。你最后说'又过了'——那个晚上打开电脑的时候，是什么感觉？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者本周在陪完母亲体检回家后又打开电脑过了一遍文件，使用了'又过了'的表述，暗示自己注意到这个行为是重复的。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者将本周整体体验概括为'乱'，涉及同时赶两个项目和协助母亲安排体检交通等多重需求叠加。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "moderate"
+      },
+      {
+        "claim": "母亲的体检是常规复查，结果无大事。",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "strong"
+      }
+    ],
+    "remaining_uncertainties": [
+      "本次'又过了'的触发机制是什么——是S2描述的'被拽一下'式注意锁定，还是因为一天很长、工作还'开着'所以自然回去看，或是其他原因",
+      "来访者将母亲体检和工作'又过了'放在同一段叙述里，是否暗示两者之间有某种关联（如确认需求、'又多了一件事'的消耗感），还是只是时间上的并列",
+      "'乱'具体指什么——是多任务过载，还是模式又出现的不安，还是两者都有",
+      "本次'又过了'的持续时间和强度与S1/S2相比是否有变化"
+    ],
+    "next_focus": "探索本次'又过了'的具体体验——那个晚上打开电脑时是什么感觉，与之前几次相比有什么不同或相同。",
+    "next_counselor_utterance": "这周事情确实叠在一起了。你最后说'又过了'——那个晚上打开电脑的时候，是什么感觉？"
+  },
+  "usage": {
+    "input_tokens": 3233,
+    "input_tokens_details": {
+      "cached_tokens": 1664
+    },
+    "output_tokens": 2197,
+    "output_tokens_details": {
+      "reasoning_tokens": 1765
+    },
+    "total_tokens": 5430,
+    "x_details": [
+      {
+        "input_tokens": 3233,
+        "input_tokens_details": {
+          "text_tokens": 3233
+        },
+        "output_tokens": 2197,
+        "output_tokens_details": {
+          "reasoning_tokens": 1765
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "total_tokens": 5430,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_method_comparison_calls.jsonl",
+  "visible_evidence_ids": [
+    "C01-S01-U01",
+    "C01-S01-U03",
+    "C01-S01-U04",
+    "C01-S01-U05",
+    "C01-S01-U07",
+    "C01-S01-U09",
+    "C01-S01-U11",
+    "C01-S01-U13",
+    "C01-S01-U15",
+    "C01-S01-U17",
+    "C01-S01-U19",
+    "C01-S01-U21",
+    "C01-S02-U01",
+    "C01-S02-U03",
+    "C01-S02-U05",
+    "C01-S02-U06",
+    "C01-S02-U07",
+    "C01-S02-U09",
+    "C01-S02-U11",
+    "C01-S02-U13",
+    "C01-S02-U15",
+    "C01-S02-U16",
+    "C01-S02-U17",
+    "C01-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

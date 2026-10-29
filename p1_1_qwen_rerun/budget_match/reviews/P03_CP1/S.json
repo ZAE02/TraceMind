@@ -1,0 +1,63 @@
+{
+  "checkpoint": "P03_CP1",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接了来访者刚确认的'待修的故障'核心隐喻，并准确连接了前几轮关于怕情绪被当成可解决问题、以及洗碗时水声的意象，未机械复述病历。",
+      "exploration_value": "对来访者此刻'终于被说中'又'还是没说出来'的复杂体验给予了充分的情绪反映和容纳空间，但探索推进略偏保守，主要停留在陪伴层面。",
+      "response_appropriateness": "语言贴合来访者的感官描述（水声停了），情绪回应精准尊重，'今晚没说出来也没关系'有效降低了来访者的羞耻感，无不当预设。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":3,\"response_appropriateness\":4},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者刚确认的'待修的故障'核心隐喻，并准确连接了前几轮关于怕情绪被当成可解决问题、以及洗碗时水声的意象，未机械复述病历。\",\"exploration_value\":\"对来访者此刻'终于被说中'又'还是没说出来'的复杂体验给予了充分的情绪反映和容纳空间，但探索推进略偏保守，主要停留在陪伴层面。\",\"response_appropriateness\":\"语言贴合来访者的感官描述（水声停了），情绪回应精准尊重，'今晚没说出来也没关系'有效降低了来访者的羞耻感，无不当预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[]}",
+  "request_sha256": "3553b06c602866728de6bb661a63b60f72e26bf42b74d65a43c30df647626a4c",
+  "usage": {
+    "input_tokens": 9945,
+    "input_tokens_details": {
+      "cached_tokens": 5376
+    },
+    "output_tokens": 253,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10198,
+    "x_details": [
+      {
+        "input_tokens": 9945,
+        "output_tokens": 253,
+        "prompt_tokens_details": {
+          "cached_tokens": 5376
+        },
+        "total_tokens": 10198,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.844
+}

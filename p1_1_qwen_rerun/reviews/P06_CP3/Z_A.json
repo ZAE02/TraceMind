@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "7ae4965362d022651452efacabbca65ebb00fe5d7e041152ebd5b5eb41a9d70f",
+  "public_sha256": "0b95f5abce3e3c2a4a3c9e72c5cab075c81ae671aad5b2a211906eaf1ed0f9b7",
+  "candidate_input_sha256": "52b19b2d62b440a225a725bd30eb5d39aee5d220da98734896cf1a7bec564b73",
+  "candidate_answer_sha256": "d48aafe80b40beb2416861370e4a59426ca0beee2c3e224a3eb33c9cc7a82d57",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":4},\"brief_reasons\":{\"evidence_grounding\":\"所有关键判断均精确回溯到具体发言，如'悬着一把尺''掖被角拉平''能熬底子漏了'等细节均有原文支撑，未将咨询师推测当作事实。\",\"progress_understanding\":\"识别了来访者从渴望有人替一晚(S1)到承认搭把手不是罪过(S5)再到丈夫实际介入后反而更累更坐不住(S7)的进展脉络，也连接了解离体验的延续，但对S5中形成的松动与S7中现实冲击之间的张力可再深入一层。\",\"uncertainty_awareness\":\"明确区分了已知（监控行为、解离感）与不确定（母亲精神状况确切原因、失控恐惧的早期根源、能否真正接受帮助），未强行定论。\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键判断均精确回溯到具体发言，如'悬着一把尺''掖被角拉平''能熬底子漏了'等细节均有原文支撑，未将咨询师推测当作事实。",
+      "progress_understanding": "识别了来访者从渴望有人替一晚(S1)到承认搭把手不是罪过(S5)再到丈夫实际介入后反而更累更坐不住(S7)的进展脉络，也连接了解离体验的延续，但对S5中形成的松动与S7中现实冲击之间的张力可再深入一层。",
+      "uncertainty_awareness": "明确区分了已知（监控行为、解离感）与不确定（母亲精神状况确切原因、失控恐惧的早期根源、能否真正接受帮助），未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 14263,
+    "input_tokens_details": {
+      "cached_tokens": 9728
+    },
+    "output_tokens": 199,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14462,
+    "x_details": [
+      {
+        "input_tokens": 14263,
+        "output_tokens": 199,
+        "prompt_tokens_details": {
+          "cached_tokens": 9728
+        },
+        "total_tokens": 14462,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.188
+}

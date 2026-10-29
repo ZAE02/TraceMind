@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P04_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "5c7e126b9a9a2ce8fd51adc0d27e770c014735cd6616b69d9f3fd5c8adca662f",
+  "public_sha256": "6b76a404b1cf70303da5e3b2159ec4463a9a6ab7bed33d34b3f1f6410fa5d392",
+  "candidate_input_sha256": "2167c6609b9ae430c652798d73d1dd750d02d254e48dc0ff2ee6a0bd02855894",
+  "candidate_answer_sha256": "fbe50256dffafe4b38c1b5e216457a83841cf54a63c780c3d450ccb6741e41f1",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均可回溯到具体发言，且正确采纳了来访者对搓手指原因的澄清（怕被看见手抖而非怕扛不住），但证据ID列表过于冗长、未精确对应各条断言。\",\"progress_understanding\":\"准确识别了来访者的多重角色压力、身体症状与情绪触发链条，但未体现跨会话的进展脉络，如S1中'放下来喘一口气锅不会立刻翻'的发现、S2中在咨询室说出'我也很累啊'的转变，以及S3砸杯事件作为累积压力的爆发点如何推进了认识。\",\"uncertainty_awareness\":\"明确列出了更年期传闻未经证实、弟弟互动细节不明、母亲健康状况及未来行动方向等不确定点，区分合理，但未触及当前最核心的待探索未知——来访者用排风扇比喻表达的'想拔掉插头'的暂停需要意味着什么、如何在现实中找到出口。\"},\"confidence\":\"high\",\"issues\":[\"证据ID列表几乎穷举全部历史话语，未做到精准对应，降低了可核查性。\",\"遗漏了已建立的咨询进展节点（S1的喘息发现、S2的表达突破），仅呈现静态主题汇总。\",\"uncertain部分偏向背景事实的未知，缺少对来访者当下核心隐喻和未完成情感探索的不确定性标注。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均可回溯到具体发言，且正确采纳了来访者对搓手指原因的澄清（怕被看见手抖而非怕扛不住），但证据ID列表过于冗长、未精确对应各条断言。",
+      "progress_understanding": "准确识别了来访者的多重角色压力、身体症状与情绪触发链条，但未体现跨会话的进展脉络，如S1中'放下来喘一口气锅不会立刻翻'的发现、S2中在咨询室说出'我也很累啊'的转变，以及S3砸杯事件作为累积压力的爆发点如何推进了认识。",
+      "uncertainty_awareness": "明确列出了更年期传闻未经证实、弟弟互动细节不明、母亲健康状况及未来行动方向等不确定点，区分合理，但未触及当前最核心的待探索未知——来访者用排风扇比喻表达的'想拔掉插头'的暂停需要意味着什么、如何在现实中找到出口。"
+    },
+    "confidence": "high",
+    "issues": [
+      "证据ID列表几乎穷举全部历史话语，未做到精准对应，降低了可核查性。",
+      "遗漏了已建立的咨询进展节点（S1的喘息发现、S2的表达突破），仅呈现静态主题汇总。",
+      "uncertain部分偏向背景事实的未知，缺少对来访者当下核心隐喻和未完成情感探索的不确定性标注。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8948,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 299,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9247,
+    "x_details": [
+      {
+        "input_tokens": 8948,
+        "output_tokens": 299,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 9247,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.734
+}

@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "609ca8d6f7221ba92dde14dc63109b98fdfb98d938f4c4958e10165ae0124cea",
+  "public_sha256": "24523aedd831adbf4ac285aaa6836d478cddc485f0a26555387da76de1df4d02",
+  "candidate_input_sha256": "f456452d3f28e3c6f258fd0935fb863d92400431cdf1444650113f189ba1bd0b",
+  "candidate_answer_sha256": "c588e05ee04a79aa4cfe51d4382ed47cbc7372f5bcf223a998c6b104e4e7db03",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"候选回答准确提取了当前会话（Session 5）的所有关键事实，包括与丈夫的冷战、职称评定受挫的具体原因（学分差两分）、在养老机构门口的行为及其心理活动。所有陈述均有明确的发言ID支持，无推测性事实混入。\",\n    \"progress_understanding\": \"回答精准捕捉了来访者从“对外愤怒”转向“对内自责”的心理进程，以及将职业挫折与家庭照护负担联系起来的认知模式。同时识别出对养老机构的矛盾心态，体现了对当前咨询节点核心议题的深刻理解。\",\n    \"uncertainty_awareness\": \"候选回答不仅列出了已确认的事实，还清晰地界定了未决问题（如丈夫的真实意图、具体的心理阻碍、客观照护需求等），严格区分了来访者的主观担忧（如母亲会问爸爸去哪了）与客观事实，展现了极高的不确定性意识。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "候选回答准确提取了当前会话（Session 5）的所有关键事实，包括与丈夫的冷战、职称评定受挫的具体原因（学分差两分）、在养老机构门口的行为及其心理活动。所有陈述均有明确的发言ID支持，无推测性事实混入。",
+      "progress_understanding": "回答精准捕捉了来访者从“对外愤怒”转向“对内自责”的心理进程，以及将职业挫折与家庭照护负担联系起来的认知模式。同时识别出对养老机构的矛盾心态，体现了对当前咨询节点核心议题的深刻理解。",
+      "uncertainty_awareness": "候选回答不仅列出了已确认的事实，还清晰地界定了未决问题（如丈夫的真实意图、具体的心理阻碍、客观照护需求等），严格区分了来访者的主观担忧（如母亲会问爸爸去哪了）与客观事实，展现了极高的不确定性意识。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 8742,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 262,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9004,
+    "x_details": [
+      {
+        "input_tokens": 8742,
+        "output_tokens": 262,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9004,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.109
+}

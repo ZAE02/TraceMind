@@ -1,0 +1,86 @@
+{
+  "status": "completed",
+  "purpose": "reselected_ablation",
+  "node": "N01",
+  "condition": "H0_utterance",
+  "sample": 2,
+  "public_input_sha256": "8a3293f599e1b9e2e9033635346f3489d597041bc38dbb5bf24c050572bd2509",
+  "request_sha256": "a605fd09578bdc1e455d48108d0219f00485a28b9d3e0bf54b2375bbe637e094",
+  "context_sha256": "b81bdc8705fe9cdd2e4d637837532c4a38550c678ec413d4875ab6c901005a5d",
+  "call_id": "321ea7fe571b4483ac59297482184ff9",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "created_at": "2026-10-13T08:25:51.080266+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者本周同时处理母亲体检安排和两个工作项目，主观体验为'乱'\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"母亲体检结果为常规复查，无重大问题\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"'又过了'的措辞暗示存在一种反复出现的、未充分经历或处理的模式\",\n      \"evidence_ids\": [\"C01-S03-U01\"],\n      \"certainty\": \"tentative\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'乱'对来访者具体指什么——时间压力、情绪过载、还是某种失控感\",\n    \"'又过了'指向什么未被处理的内容，以及'又'所暗示的重复模式的具体内容\",\n    \"母亲健康在来访者情绪生活中的实际权重（是真实担忧还是事后淡化）\",\n    \"本次来访的核心议题是什么，与母亲/工作/自我照顾的关系\"\n  ],\n  \"next_focus\": \"探索'又过了'中'又'字所暗示的重复模式，以及那段时间里什么被略过了\",\n  \"next_counselor_utterance\": \"事情确实叠在一起了。你说'又过了'——这个'又'让我好奇，是这种'赶过去'的感觉之前也出现过吗？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者本周同时处理母亲体检安排和两个工作项目，主观体验为'乱'",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "母亲体检结果为常规复查，无重大问题",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "'又过了'的措辞暗示存在一种反复出现的、未充分经历或处理的模式",
+        "evidence_ids": [
+          "C01-S03-U01"
+        ],
+        "certainty": "tentative"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'乱'对来访者具体指什么——时间压力、情绪过载、还是某种失控感",
+      "'又过了'指向什么未被处理的内容，以及'又'所暗示的重复模式的具体内容",
+      "母亲健康在来访者情绪生活中的实际权重（是真实担忧还是事后淡化）",
+      "本次来访的核心议题是什么，与母亲/工作/自我照顾的关系"
+    ],
+    "next_focus": "探索'又过了'中'又'字所暗示的重复模式，以及那段时间里什么被略过了",
+    "next_counselor_utterance": "事情确实叠在一起了。你说'又过了'——这个'又'让我好奇，是这种'赶过去'的感觉之前也出现过吗？"
+  },
+  "usage": {
+    "input_tokens": 352,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1164,
+    "output_tokens_details": {
+      "reasoning_tokens": 802
+    },
+    "total_tokens": 1516,
+    "x_details": [
+      {
+        "input_tokens": 352,
+        "input_tokens_details": {
+          "text_tokens": 352
+        },
+        "output_tokens": 1164,
+        "output_tokens_details": {
+          "reasoning_tokens": 802
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1516,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_reselected_ablation_calls.jsonl",
+  "visible_evidence_ids": [
+    "C01-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

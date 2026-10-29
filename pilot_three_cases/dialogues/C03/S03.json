@@ -1,0 +1,261 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 3,
+  "relative_week": 3,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6.1-sol/high",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:30.016434+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C03-S03-U06",
+          "C03-S03-U08",
+          "C03-S03-U18",
+          "C03-S03-U20"
+        ],
+        "explanation": "继续使用这个区别真实、分得出来、注意到就够了、挺准等评价发现的措辞，末尾两次下次见；比真实咨询更像肯定某种洞察。应保留为语言质量限制，不能把咨询师称许当客户端理解已成立的证据。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S03-U10",
+          "C03-S03-U12",
+          "C03-S03-U16"
+        ],
+        "explanation": "二选一和补全隐喻偏多，U12先给出他不知道所以我不确定就怎样的路径，可能引导回答。不过来访者未机械沿用许可或不丢人的预定方向，而进一步说缺乏底、不确定加重；其具体回应应保留，不能改写成自信改善。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S03-U07",
+          "C03-S03-U13",
+          "C03-S03-U15",
+          "C03-S03-U17"
+        ],
+        "explanation": "较多省略号及抽象词延续前两会话，个体口语风格略重复；已有真实工作细节、信息交换与合作查询，不到必须返修程度。"
+      }
+    ],
+    "transcript_sha256": "0c176d071e3cbfa9cd09b0727591fac975720a9829ad3e1ad5e929176213b11a"
+  },
+  "created_at": "2026-10-12T10:15:24.816001+00:00",
+  "config_hash": "db346480083ae0d6fbfc918912f0019f99654479c205095dbb09a1c2fdb52faa",
+  "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences"
+  },
+  "utterances": [
+    {
+      "id": "C03-S03-U01",
+      "role": "client",
+      "text": "这周跟老韩一起联调一个服务，过程中有几次交换信息，挺正常的。\n\n就是……有一次有个协议字段我没太弄懂，犹豫了一下，还是当场问了。他解释了一下，就那种很平常的语气，没多说什么。\n\n……我也不知道这算不算什么，但感觉跟上次不太一样。",
+      "call_id": "72e6c6fe842840378d79891cdb74ed62",
+      "response_id": "resp_f3626cde-e42e-93f1-b5e2-2e03c3ad03d4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:15:36.496212+00:00"
+    },
+    {
+      "id": "C03-S03-U02",
+      "role": "counselor",
+      "text": "跟上次不太一样——是这次问的时候没那么卡，还是他回应之后你没那么……事后回看？",
+      "call_id": "10404762eb914ac6894838d82160fd8e",
+      "response_id": "resp_635f650b-9f6c-95ab-9d5c-1afc3dd77acb",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:15:49.757726+00:00"
+    },
+    {
+      "id": "C03-S03-U03",
+      "role": "client",
+      "text": "应该是问的时候没那么卡吧。上次是……单独去说\"我查了两天了\"，这次就是讨论着讨论着，那个字段没看懂，顺口就问了。\n\n事后回看……也有一点，但没上次那么重。就是会想，这个是不是太简单了，别人会不会觉得……算了，也没多想。",
+      "call_id": "ffe51d9c96f44f90bde01d1588c073a8",
+      "response_id": "resp_c701d757-b112-9289-989d-a5dfdbb2bcb0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:15:57.598803+00:00"
+    },
+    {
+      "id": "C03-S03-U04",
+      "role": "counselor",
+      "text": "这次是讨论着讨论着顺口就问出来了，不是单独去交代什么——这个区别你自己已经看到了。不过你说\"算了，也没多想\"，那个\"是不是太简单了\"的念头，是就闪了一下就过去了，还是你主动把它按下去了？",
+      "call_id": "e2e58882635c4520a096ed8343700eb1",
+      "response_id": "resp_e8c30684-8024-9765-a8f1-40383402c534",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:04.781124+00:00"
+    },
+    {
+      "id": "C03-S03-U05",
+      "role": "client",
+      "text": "应该是闪了一下吧……就是问完之后脑子里转了一下，\"这个是不是太简单了\"，然后就没再往下想了。\n\n也不算主动按下去，就是……注意力已经转到下一个事情上了。",
+      "call_id": "cb6c7f5657b041139d73fd1637a6431a",
+      "response_id": "resp_24632afc-c2cb-94ac-8ef4-48f11808534d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:10.467281+00:00"
+    },
+    {
+      "id": "C03-S03-U06",
+      "role": "counselor",
+      "text": "上次是事后贴了个结论上去，这次是闪了一下，注意力就走了——这个区别是真实的，不用非得给它算个什么。",
+      "call_id": "ef289cf301104f68952981fc448e50d1",
+      "response_id": "resp_f1844939-0592-9e0a-a63a-4bd2673eaee3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:16.994746+00:00"
+    },
+    {
+      "id": "C03-S03-U07",
+      "role": "client",
+      "text": "嗯……好像是。就是上次那个\"笨\"，是贴上去就停在那儿了，这次没贴。\n\n……这周还有别的事，等下说。",
+      "call_id": "2015546fe70543e588ad1ecfeb8281dc",
+      "response_id": "resp_55a37b87-d979-9a22-833b-657c6d77e002",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:29.708053+00:00"
+    },
+    {
+      "id": "C03-S03-U08",
+      "role": "counselor",
+      "text": "嗯，贴没贴，你自己分得出来。那说别的吧。",
+      "call_id": "c72af1c8b4f44dfdb9a503e9b6254ffa",
+      "response_id": "resp_b022be52-1fa1-9c0c-a917-42f16a4a0ebc",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:32.558185+00:00"
+    },
+    {
+      "id": "C03-S03-U09",
+      "role": "client",
+      "text": "就是联调的时候，有另一个字段，我看了文档也没太确定，老韩说他也记不太清，然后我俩一起翻了翻原始文档，最后确认了。\n\n……这个其实没什么，但当时他说了句\"我也记不清\"，我愣了一下，有点没想到他会这么说。",
+      "call_id": "b97b5888b27d48ccbf1ef1270d6d5b5e",
+      "response_id": "resp_ce0f83d8-7050-91c1-94a7-9872dff7c213",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:40.925912+00:00"
+    },
+    {
+      "id": "C03-S03-U10",
+      "role": "counselor",
+      "text": "他说了句\"我也记不清\"，你愣了一下——这个\"没想到\"里面，是觉得他应该知道，还是说……不确定这件事，好像不该发生在他身上？",
+      "call_id": "42c86e02b61a4d078aaf3f7a6ba3f64b",
+      "response_id": "resp_15e13287-b183-9081-84b8-07a45b932408",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:50.101287+00:00"
+    },
+    {
+      "id": "C03-S03-U11",
+      "role": "client",
+      "text": "应该是……觉得他应该知道吧。就是老韩做的时间比我长，那个服务他之前也碰过，所以默认他应该是清楚的。\n\n他一说\"我也记不清\"，我脑子里就……停了一下。不是觉得他应该知道然后没知道，就是那个\"默认\"突然被打破了，有点……不适应。",
+      "call_id": "99981d383d1c466a9292930ba8c69472",
+      "response_id": "resp_6993111c-1845-923e-8fa6-44c530f43d10",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:16:58.723876+00:00"
+    },
+    {
+      "id": "C03-S03-U12",
+      "role": "counselor",
+      "text": "那个默认被打破的时候，你愣住的那一下，里面是什么？是觉得\"那他也不确定，那我也不确定是不是就……\"，还是就是单纯觉得那个画面跟预期不一样？",
+      "call_id": "fe25c95ffe4e4e079661cee8fd0e293d",
+      "response_id": "resp_3b94a43f-8654-9a92-a89e-59547488f9fe",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:06.809148+00:00"
+    },
+    {
+      "id": "C03-S03-U13",
+      "role": "client",
+      "text": "应该是……画面跟预期不一样吧。就是默认他是那个\"应该知道的人\"，突然不是了，有点……\n\n但好像也有点别的，就是……他不知道的话，那我也不确定这件事，好像就……\n\n……我说不太清，就是那个\"愣\"里面好像不只是一层。",
+      "call_id": "d2dcea1fafa0434ba3ebba321fefbd07",
+      "response_id": "resp_abfee205-9382-94cd-b303-4901581b6407",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:17.312599+00:00"
+    },
+    {
+      "id": "C03-S03-U14",
+      "role": "counselor",
+      "text": "\"他不知道的话，那我也不确定这件事，好像就……\"——你停在这儿了，不用急着补完，那个\"就\"后面是什么，慢慢来。",
+      "call_id": "2dc5c59e34f84c289c3e309969e3e40e",
+      "response_id": "resp_8df1c532-064a-9deb-8ce6-c942cfd8645a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:23.724611+00:00"
+    },
+    {
+      "id": "C03-S03-U15",
+      "role": "client",
+      "text": "就是……好像也没个底了。本来他应该知道，那我不确定也还好，至少他那边是确定的。他也不知道的话，那这个事就……我俩都不确定，但还在做，就有点……\n\n……我说不太清，就是那个\"不确定\"好像变重了。",
+      "call_id": "b899e941a4ab419ba02159fea0be8eee",
+      "response_id": "resp_875e4034-372f-9b2c-943b-ec5053ddc985",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:31.477227+00:00"
+    },
+    {
+      "id": "C03-S03-U16",
+      "role": "counselor",
+      "text": "\"我俩都不确定，但还在做\"——这个\"还在做\"，是不是也是那个重的一部分？就是没有底的情况下还在往前走，比有底的时候更……悬着？",
+      "call_id": "4f043ad739ab46dda15d99f8850080a2",
+      "response_id": "resp_28939bea-b331-957c-90cf-3d51e9ca3969",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:45.943224+00:00"
+    },
+    {
+      "id": "C03-S03-U17",
+      "role": "client",
+      "text": "嗯……好像是。就是如果他知道，那我心里有个底，哪怕我自己没完全确定，也知道方向大概是对的。他也不知道的话，那个方向就……真的在晃了，但还在往前走。\n\n……跟上次那个接口好像有点像，就是不知道是不是真有问题，但还在查。",
+      "call_id": "e07a572cb92d4f4dbbb7362e0b2df9d6",
+      "response_id": "resp_d29021ec-8251-97f2-96e1-8bb60969209c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:17:54.118768+00:00"
+    },
+    {
+      "id": "C03-S03-U18",
+      "role": "counselor",
+      "text": "你自己把这两次连上了——上次是事情本身不确定，这次是连那个能给你底的人也不确定，晃的程度不一样，但\"还在往前走\"这个动作是一样的。这个你注意到了就够了。下次见。",
+      "call_id": "7e97e1ec7e6044748205e90c70fb0d1a",
+      "response_id": "resp_ea0250d6-509b-9a58-91f0-a238fba0b695",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:18:00.114051+00:00"
+    },
+    {
+      "id": "C03-S03-U19",
+      "role": "client",
+      "text": "嗯……那个\"还在往前走\"，确实挺像的。就是晃着晃着就走了，也没停下来。\n\n行，下次再聊。",
+      "call_id": "93bb6a4b778c47df814d65924916b281",
+      "response_id": "resp_92343ba9-d2c9-9006-82ed-d4f96e911261",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:18:10.376561+00:00"
+    },
+    {
+      "id": "C03-S03-U20",
+      "role": "counselor",
+      "text": "晃着晃着就走了，这个你自己说出来的，挺准的。下次见。",
+      "call_id": "e34c44df3c0a4ba2a66498215977e84b",
+      "response_id": "resp_4e37c77e-67b9-9d3b-8c40-0321aa12302c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:18:18.565411+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T10:18:18.565411+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T10:18:18.567411+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C03/S03.json"
+}

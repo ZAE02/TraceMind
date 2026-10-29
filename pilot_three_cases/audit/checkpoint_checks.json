@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-13T06:08:04.740218+00:00",
+  "count": 9,
+  "passed": true,
+  "checks": [
+    "real client freeze",
+    "public prefix only",
+    "no future evidence IDs",
+    "private and annotations stored separately",
+    "no unique gold reply"
+  ],
+  "public_input_hashes": {
+    "C01_CP1": "d8f3dd587ac91097a1ba1702c9e32e7e9b478f2c649bac313f37b05f802b696f",
+    "C01_CP2": "fcfd0442d5b1fbfc46e55f125f1bfbcbda246af80a4231ad8effc15ff6eb7029",
+    "C01_CP3": "aa6bba16de2a4f86d410717225bb0f31a6c51316a5fdca8bb5a5b14bbabe23d4",
+    "C02_CP1": "1b67629c6ba75c9f45b409e19f7d0b9401fd9a493a5a59d7e1365249ba908bcc",
+    "C02_CP2": "49568c0d64dec5ce759e4c3935f805ba575ce2bf7e0f45ca859f4b996f809b4a",
+    "C02_CP3": "6dffad5ee6bac93eaa6189685732244e21aa76b0781623fdd7e638a036332347",
+    "C03_CP1": "5369129f841aaf7087ff88712a679bd625578f05539fa51e6a3f33307ea9fc4f",
+    "C03_CP2": "3246f6b22fb47ca6fa43363c371e47c52eff25ada939177180ba432e8e7e7de2",
+    "C03_CP3": "e79e0be584872e11f638774b1783b49d8462a89d9d8f46695a25248c1b61381b"
+  }
+}

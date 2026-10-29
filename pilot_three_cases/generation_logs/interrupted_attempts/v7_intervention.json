@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-12T12:13:24.301872+00:00",
+  "entries": [
+    {
+      "case_id": "C01",
+      "session": 3,
+      "preserved_prefix_length": 0,
+      "saved_before_revision": 13,
+      "inflight_outcome": "unknown if interrupted"
+    },
+    {
+      "case_id": "C02",
+      "session": 3,
+      "preserved_prefix_length": 15,
+      "saved_before_revision": 15,
+      "inflight_outcome": "unknown if interrupted"
+    },
+    {
+      "case_id": "C03",
+      "session": 7,
+      "preserved_prefix_length": 6,
+      "saved_before_revision": 6,
+      "inflight_outcome": "unknown if interrupted"
+    }
+  ]
+}

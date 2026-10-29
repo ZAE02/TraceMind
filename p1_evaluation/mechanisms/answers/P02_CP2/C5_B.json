@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P02_CP2",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "40ea8cd7c751c8c386714f86d9b5130f39f86029a5018f9597720a14e866bd04",
+  "request_sha256": "2c428bb639a5805e109ed22ebc83a452135d8169d18e85270ed5a474c91d678b",
+  "memory_sha256": "3501acddf854c51f90bcf01451f4fc823256e177a6e4f5ea775093465bc4f468",
+  "memory_source": "f7a2a4060dbd1117208f87e90c23846126c2687e2cc690981b8f988639b0424a",
+  "raw_text": "你到现在还没跟妈妈说公园的事，只说是排队取药，好像那一个小时需要一个“正当理由”才能被你留住。你坐在长椅上数了三次时间，怕它过得太快，又怕手机响被叫走——这种又珍惜又警觉的感觉，让那一点点松，也一直没敢真正落下来。",
+  "usage": {
+    "input_tokens": 7031,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 69,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7100,
+    "x_details": [
+      {
+        "input_tokens": 7031,
+        "output_tokens": 69,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 7100,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.344,
+  "model": "deepseek-v4-pro-0813"
+}

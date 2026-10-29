@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP1",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "a5051d00af04cf55a6266d08cfaf16c73109878708bf597a4262128617f4ecb6",
+  "request_sha256": "2abd4f7ddc3b48f7eef3ca45f08a02e3c07966158b8c3586ee5cc4a446f032cd",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "反胃的感觉身体在替你表达那些还没说出口的疲惫吧。今晚回去，除了盯着妈妈，也试着听听自己身体发出的这个信号，看看它想让你怎么照顾一下自己。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3371,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 39,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3410,
+    "x_details": [
+      {
+        "input_tokens": 3371,
+        "output_tokens": 39,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3410,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

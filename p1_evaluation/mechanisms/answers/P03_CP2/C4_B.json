@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "deff14c932166f3025ccdd5ea8c6ff9270b726ae8f9dd3333a0d5f152f2e3a3e",
+  "request_sha256": "8bcbd46017e6b043858329fc8101b9d2457c98812501f0e122bff2c4eb10271e",
+  "memory_sha256": "5226c9be8fb2987b5504e95ec2023839467d70c6eb46adc7341650d89f489b75",
+  "memory_source": "8f55529b928c4605a3f91878e23344aafd109bd28c075ea69e923f857cd3e671",
+  "raw_text": "你好像已经意识到，那些镜子照出来的并不是你原本的样子，而是别人眼里的“紧张”“不擅长”。可当这些反应越来越多，你反而更难分清哪一个是自己。也许现在重要的不是马上把镜子擦干净，而是先承认这种“越照越模糊”的感觉，它本身就在告诉你，你有多久没从自己这里确认过自己了。",
+  "usage": {
+    "input_tokens": 7011,
+    "input_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "output_tokens": 77,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7088,
+    "x_details": [
+      {
+        "input_tokens": 7011,
+        "output_tokens": 77,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "total_tokens": 7088,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.985,
+  "model": "deepseek-v4-pro-0813"
+}

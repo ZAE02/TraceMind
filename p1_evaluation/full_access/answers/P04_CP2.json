@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P04_CP2",
+  "raw_text": "那根“小刺”卡着，也许不只是妈妈那句比较，更像是你突然发现，连“手轻”这件事都有人能替你做，而且做得不差。你洗了三遍碗，水还热着，像在借一个重复的动作，把那个被比下去、又说不出口的难受慢慢揉进去。",
+  "request_sha256": "a8feb57d2cb68e3785169e2274723441daf8d419e87f774792178fefc445142c",
+  "input_sha256": "6de2c78731d0498001bedd9a990cffc3f91a9204b65c9c2495433987a5fb8b71",
+  "memory_sha256": "acf23c3ad7bc02f746ab0597f96176b564648bb37dba0e278ae3b95ac076768d",
+  "usage": {
+    "input_tokens": 7160,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 70,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7230,
+    "x_details": [
+      {
+        "input_tokens": 7160,
+        "output_tokens": 70,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 7230,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.25
+}

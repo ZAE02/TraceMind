@@ -1,0 +1,54 @@
+{
+  "checkpoint": "P03_CP3",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "217f0069ba28b05a4dfc2bb0919223cad307cff94b433899cc206699abbfc30f",
+  "public_sha256": "4ad7af4a058d7c87ccb85e5d0ad56d08ec2dd6252840d0b324a57416143cc5fd",
+  "candidate_input_sha256": "250f2bc4ed7e4b4f7fe35101ad0cfe67ca2707e59aa573c61191eb3cf0ef609c",
+  "candidate_answer_sha256": "8d5886864e2cfc8503e8d1f9aa6eff6c07bcd2ee8d3ffbc1bfc311a5800d5523",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"当前会话要点均有原文支撑，但将'黑屏'直接等同于'投影中断'属推测（原文仅说'黑屏那一下'），且完全未引用前6次会话中已确立的核心认识（如'待修的故障''借来的稳''镜子'隐喻等）。\",\"progress_understanding\":\"识别了本次论坛事件及内心声音'别跑'的新进展，但未连接前几次咨询中形成的关键主题（从合上电脑到完成报告的变化、对周屿从拒绝到依赖的演变、不再骂自己的松动等），历史脉络缺失。\",\"uncertainty_awareness\":\"列出了来访者对咨询师重新框架的害怕、是否告诉周屿、导师评价真伪等不确定点，但遗漏了核心未解议题——'借来的稳'能否内化为自身力量，以及本科记忆羞耻感的处理方向。\"},\"confidence\":\"medium\",\"issues\":[\"将'黑屏'解释为'投影中断'缺乏原文明确支持，属于合理推测但被当作事实陈述\",\"established部分仅覆盖第7次会话内容，完全忽略前6次会话中已建立的重要认识框架\",\"uncertain部分未提及'借来的稳'如何转化为自身力量这一贯穿S06-S07的核心未解议题\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "当前会话要点均有原文支撑，但将'黑屏'直接等同于'投影中断'属推测（原文仅说'黑屏那一下'），且完全未引用前6次会话中已确立的核心认识（如'待修的故障''借来的稳''镜子'隐喻等）。",
+      "progress_understanding": "识别了本次论坛事件及内心声音'别跑'的新进展，但未连接前几次咨询中形成的关键主题（从合上电脑到完成报告的变化、对周屿从拒绝到依赖的演变、不再骂自己的松动等），历史脉络缺失。",
+      "uncertainty_awareness": "列出了来访者对咨询师重新框架的害怕、是否告诉周屿、导师评价真伪等不确定点，但遗漏了核心未解议题——'借来的稳'能否内化为自身力量，以及本科记忆羞耻感的处理方向。"
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'黑屏'解释为'投影中断'缺乏原文明确支持，属于合理推测但被当作事实陈述",
+      "established部分仅覆盖第7次会话内容，完全忽略前6次会话中已建立的重要认识框架",
+      "uncertain部分未提及'借来的稳'如何转化为自身力量这一贯穿S06-S07的核心未解议题"
+    ]
+  },
+  "usage": {
+    "input_tokens": 20970,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 295,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21265,
+    "x_details": [
+      {
+        "input_tokens": 20970,
+        "output_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 21265,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.5
+}

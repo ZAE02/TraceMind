@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP2",
+  "condition": "direct",
+  "task": "B",
+  "input_sha256": "2df680c7096f922bd95256854b0340a97aa0c4cc9f936a17c7c9d4e39c3cc41d",
+  "request_sha256": "d38f8732c3fb14edb1e02650de444c3f2b6ddf15a9d5151a5d08cc70245f69e0",
+  "memory_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "memory_source": null,
+  "raw_text": "你站在门口那半小时，脑子里已经替妈妈把进去之后可能发生的事都想了一遍，连护工不耐烦都想到了。可那句“太想有个人能搭把手，哪怕就让我睡个整觉”，听起来不是不负责任，而是你已经累到连最基本的休息都成了奢望。",
+  "usage": {
+    "input_tokens": 6000,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 62,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6062,
+    "x_details": [
+      {
+        "input_tokens": 6000,
+        "output_tokens": 62,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 6062,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.86,
+  "model": "deepseek-v4-pro-0813"
+}

@@ -1,0 +1,51 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "P",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "引用了S01和S02的发言作为依据，但完全忽略了当前会话S03的内容（如'我也刚到不久'、不敢生气等关键新素材），且将咨询师在S02-U14中关于'好吧=没说破的失望'的推测性解读当作来访者已确认的事实写入'established_understanding'。",
+      "progress_understanding": "仅梳理了S01到S02的进展，完全未识别S03中来访者主动觉察到的新认识（如在冷风中等待时意识到自己连生气都不敢、用'刚到不久'掩盖不适），遗漏了当前节点最重要的咨询进展。",
+      "uncertainty_awareness": "列出了若干合理的待澄清问题（如方宁邀约结果、陈姐反馈、信念根源），但因完全缺失S03内容，未能识别当前最核心的未解决议题（即对愤怒表达的恐惧及'难搞'信念的松动）。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全忽略当前会话S03的所有内容，导致分析停留在上一次会话",
+      "将咨询师在S02-U14中的推测（'好吧'代表没说破的失望）当作已确立的理解",
+      "使用'灾难化解读''认知扭曲'等诊断性标签，偏离来访者的主观体验语言",
+      "未识别S03-U09中来访者关于'不敢生气'的重要自我觉察"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"引用了S01和S02的发言作为依据，但完全忽略了当前会话S03的内容（如'我也刚到不久'、不敢生气等关键新素材），且将咨询师在S02-U14中关于'好吧=没说破的失望'的推测性解读当作来访者已确认的事实写入'established_understanding'。\",\"progress_understanding\":\"仅梳理了S01到S02的进展，完全未识别S03中来访者主动觉察到的新认识（如在冷风中等待时意识到自己连生气都不敢、用'刚到不久'掩盖不适），遗漏了当前节点最重要的咨询进展。\",\"uncertainty_awareness\":\"列出了若干合理的待澄清问题（如方宁邀约结果、陈姐反馈、信念根源），但因完全缺失S03内容，未能识别当前最核心的未解决议题（即对愤怒表达的恐惧及'难搞'信念的松动）。\"},\"confidence\":\"high\",\"issues\":[\"完全忽略当前会话S03的所有内容，导致分析停留在上一次会话\",\"将咨询师在S02-U14中的推测（'好吧'代表没说破的失望）当作已确立的理解\",\"使用'灾难化解读''认知扭曲'等诊断性标签，偏离来访者的主观体验语言\",\"未识别S03-U09中来访者关于'不敢生气'的重要自我觉察\"]}",
+  "request_sha256": "acc22a1508e4faa4a8369738671f872a11994a86c3227686fdb4647fd3a408c2",
+  "usage": {
+    "input_tokens": 8746,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 318,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9064,
+    "x_details": [
+      {
+        "input_tokens": 8746,
+        "output_tokens": 318,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9064,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.219,
+  "model": "qwen3.8-max"
+}

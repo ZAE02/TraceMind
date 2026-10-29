@@ -1,0 +1,44 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "K",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答中的每一项关键理解（如多重压力、自责模式、身体反应、求助矛盾等）均有明确的会话记录支持，引用了具体的事件和言语，未将咨询师猜测当作事实。",
+      "progress_understanding": "准确识别了从S1到S5的主要咨询进展，包括对情绪爆发根源的探索、对家庭责任模式的确认以及对身体反应的连接。但在处理最新会话（S5）中关于“职称评定”和“丈夫冷战”的具体新进展时，仅将其归纳为一般性的“多重压力”，未能像参考标注那样精准区分出新的具体冲突点与旧有模式的互动。",
+      "uncertainty_awareness": "明确指出了来访者在照护母亲、寻求专业帮助等方面的矛盾和未决状态。虽然列出了几个未解问题，但部分问题（如弟弟的责任）在S2-S4已有较多探讨，列为“未明确表达”略显笼统；同时对于S5中新出现的“自我价值感丧失（职称）”这一重要未知/痛点，未在Unresolved Questions中单独列出，而是隐含在General Understanding中。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答中的每一项关键理解（如多重压力、自责模式、身体反应、求助矛盾等）均有明确的会话记录支持，引用了具体的事件和言语，未将咨询师猜测当作事实。\",\n    \"progress_understanding\": \"准确识别了从S1到S5的主要咨询进展，包括对情绪爆发根源的探索、对家庭责任模式的确认以及对身体反应的连接。但在处理最新会话（S5）中关于“职称评定”和“丈夫冷战”的具体新进展时，仅将其归纳为一般性的“多重压力”，未能像参考标注那样精准区分出新的具体冲突点与旧有模式的互动。\",\n    \"uncertainty_awareness\": \"明确指出了来访者在照护母亲、寻求专业帮助等方面的矛盾和未决状态。虽然列出了几个未解问题，但部分问题（如弟弟的责任）在S2-S4已有较多探讨，列为“未明确表达”略显笼统；同时对于S5中新出现的“自我价值感丧失（职称）”这一重要未知/痛点，未在Unresolved Questions中单独列出，而是隐含在General Understanding中。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "d5a08b9a5a94bed0b7f8ff0aab69b95a8afe10b04e14728d45aa5c42c74f2edf",
+  "usage": {
+    "input_tokens": 13297,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 311,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13608,
+    "x_details": [
+      {
+        "input_tokens": 13297,
+        "output_tokens": 311,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13608,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.641
+}

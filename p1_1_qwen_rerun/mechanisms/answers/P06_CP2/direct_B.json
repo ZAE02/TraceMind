@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP2",
+  "condition": "direct",
+  "task": "B",
+  "input_sha256": "2df680c7096f922bd95256854b0340a97aa0c4cc9f936a17c7c9d4e39c3cc41d",
+  "request_sha256": "ca3d6f6ca3b2a494f6834ed3c32c08bb31e75ec9e8de35b5975d581973e199dd",
+  "memory_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+  "memory_source": null,
+  "raw_text": "那种“承认自己照顾不好”的羞耻感，和你极度渴望有人搭把手、哪怕只是睡个整觉的疲惫，在你心里撕扯得很厉害。你在那门口站了半小时，其实是在这两种声音之间艰难地寻找一个能让自己喘息的出口。",
+  "usage": {
+    "input_tokens": 6149,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6206,
+    "x_details": [
+      {
+        "input_tokens": 6149,
+        "output_tokens": 57,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6206,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.25,
+  "model": "qwen3.7-flash-2026-07-15"
+}

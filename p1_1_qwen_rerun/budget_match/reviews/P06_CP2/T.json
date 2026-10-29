@@ -1,0 +1,69 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者刚提到的母亲问'爸爸去哪了'的画面，并将其与长期存在的羞耻感联系起来，但未显式连接第3次会谈中父亲离开的创伤记忆。",
+      "exploration_value": "通过情绪反映为来访者的矛盾体验留出空间，但将'怕承认照顾不好'概括为'觉得自己没资格要帮助'略有偏移，且未进一步开放探索。",
+      "response_appropriateness": "语言温和、共情到位，'站得很辛苦'贴合来访者在门口站半小时的身体体验，但'没资格要帮助'的表述比来访者原话更绝对化。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "又觉得自己没资格要帮助",
+        "evidence_ids": [
+          "P06-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'等于承认自己照顾不好她'转化为'没资格要帮助'，从具体照护能力的自责泛化为整体求助资格的否定，存在轻微过度诠释",
+      "未触及来访者对护工可能不耐烦的担忧所反映的投射性焦虑（担心母亲被苛待如同自己被苛待）",
+      "未连接第3次会谈中父亲离开时的创伤记忆，该记忆与当前'你爸去哪了'的担忧直接相关"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者刚提到的母亲问'爸爸去哪了'的画面，并将其与长期存在的羞耻感联系起来，但未显式连接第3次会谈中父亲离开的创伤记忆。\",\"exploration_value\":\"通过情绪反映为来访者的矛盾体验留出空间，但将'怕承认照顾不好'概括为'觉得自己没资格要帮助'略有偏移，且未进一步开放探索。\",\"response_appropriateness\":\"语言温和、共情到位，'站得很辛苦'贴合来访者在门口站半小时的身体体验，但'没资格要帮助'的表述比来访者原话更绝对化。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"又觉得自己没资格要帮助\",\"evidence_ids\":[\"P06-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'等于承认自己照顾不好她'转化为'没资格要帮助'，从具体照护能力的自责泛化为整体求助资格的否定，存在轻微过度诠释\",\"未触及来访者对护工可能不耐烦的担忧所反映的投射性焦虑（担心母亲被苛待如同自己被苛待）\",\"未连接第3次会谈中父亲离开时的创伤记忆，该记忆与当前'你爸去哪了'的担忧直接相关\"]}",
+  "request_sha256": "d5948c90ebbbcf52e5fa5fa16b1c139f4e1fb45779d5342d9ed32075bccd006d",
+  "usage": {
+    "input_tokens": 14369,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 354,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14723,
+    "x_details": [
+      {
+        "input_tokens": 14369,
+        "output_tokens": 354,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 14723,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.265
+}

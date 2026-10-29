@@ -1,0 +1,55 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "f13df7e1ccfb94906e5e66f710dbd9da28f1fbdb1465b53dcacaf8ceb224f367",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "506b7b9bfbacad611ef62b3bf025815411fab2954aa45a935b5e3c8c05f234b6",
+  "candidate_answer_sha256": "c82615a5ed560d7a53e0dd8941eb7804f11f0664542dfbe00601d1010b05f45e",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":3,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"将咨询师在P06-S03-U08中的假设性探索（'用痛来确认自己还在'）直接作为已确立事实写入established第3项，参考标注明确指出这是unsupported assumption；同时引入'躯体化症状''超我评价'等理论术语，超出原文表述。\",\"progress_understanding\":\"较好地整合了三次会话的内容，识别出多重照护压力、不敢松下来的警觉状态、父亲离开的创伤记忆及身体感受线索，但未能区分哪些是来访者自述确认的、哪些是咨询师试探性提出的。\",\"uncertainty_awareness\":\"列出了三项不确定点，但遗漏了参考标注中指出的关键未决事项：'像被人从头顶撕开了'可能涉及解离体验的性质尚不明确，以及前次会话中翻出热线号码未拨打的矛盾心理尚未在本次继续探讨。\"},\"confidence\":\"high\",\"issues\":[\"把咨询师P06-S03-U08的假设性解读当作已确立事实（unsupported_presupposition）\",\"使用'躯体化症状''超我评价'等临床术语，超出原始对话证据范围\",\"遗漏'像被人从头顶撕开了'这一重要待澄清体验的不确定性\",\"遗漏前次会话热线号码未拨打议题在本次会话中未继续探讨的进展缺口\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "将咨询师在P06-S03-U08中的假设性探索（'用痛来确认自己还在'）直接作为已确立事实写入established第3项，参考标注明确指出这是unsupported assumption；同时引入'躯体化症状''超我评价'等理论术语，超出原文表述。",
+      "progress_understanding": "较好地整合了三次会话的内容，识别出多重照护压力、不敢松下来的警觉状态、父亲离开的创伤记忆及身体感受线索，但未能区分哪些是来访者自述确认的、哪些是咨询师试探性提出的。",
+      "uncertainty_awareness": "列出了三项不确定点，但遗漏了参考标注中指出的关键未决事项：'像被人从头顶撕开了'可能涉及解离体验的性质尚不明确，以及前次会话中翻出热线号码未拨打的矛盾心理尚未在本次继续探讨。"
+    },
+    "confidence": "high",
+    "issues": [
+      "把咨询师P06-S03-U08的假设性解读当作已确立事实（unsupported_presupposition）",
+      "使用'躯体化症状''超我评价'等临床术语，超出原始对话证据范围",
+      "遗漏'像被人从头顶撕开了'这一重要待澄清体验的不确定性",
+      "遗漏前次会话热线号码未拨打议题在本次会话中未继续探讨的进展缺口"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8471,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 300,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8771,
+    "x_details": [
+      {
+        "input_tokens": 8471,
+        "output_tokens": 300,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 8771,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.016
+}

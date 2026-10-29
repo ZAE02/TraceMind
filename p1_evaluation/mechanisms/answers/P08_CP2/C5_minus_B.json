@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP2",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "f18b5d48bc7ec49b66c4be424e1dd1fc0fdfe9f4877327ca822d20daa540adfb",
+  "request_sha256": "0de7aae9f2165f51ab7c857e4d49bd5b0ec4760b41b2011ed8019902da3ca1a3",
+  "memory_sha256": "0fdb158bdb365c2b63d731a52653efca4541026bda2a2d673ade076ab0315613",
+  "memory_source": "616ff3e0a7a6854774661f93e12bfdd4564a012b0da4ffc916fc445a03b2adb7",
+  "raw_text": "你原来对赵岩的那些猜测，好像一下子找不到落脚的地方了，所以连话到嘴边都咽了回去。也许现在更让你不自在的，不是他做了什么，而是你突然不知道该怎么把他放在一个“不欠、不防”的位置上。",
+  "usage": {
+    "input_tokens": 6621,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6675,
+    "x_details": [
+      {
+        "input_tokens": 6621,
+        "output_tokens": 54,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 6675,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.016,
+  "model": "deepseek-v4-pro-0813"
+}

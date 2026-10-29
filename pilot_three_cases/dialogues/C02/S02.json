@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C02",
+  "session_number": 2,
+  "relative_week": 2,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6.1-sol/high",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:29.980154+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C02-S02-U10",
+          "C02-S02-U11"
+        ],
+        "explanation": "U05已说没明确拒绝过赵哥，U10再次问拒绝后确认无事的经历，略重复。可将提问扩大为其他人或直接承认未测试，避免要求已有反例。"
+      },
+      {
+        "utterance_ids": [
+          "C02-S02-U12"
+        ],
+        "explanation": "不踏实感未被验证表述不够精确：感受本身是真的，未验证的是拒绝会带来怎样的结果以及感受持续多久。宜明确区分。"
+      },
+      {
+        "utterance_ids": [
+          "C02-S02-U16",
+          "C02-S02-U18"
+        ],
+        "explanation": "闷与不踏实的方向区分及不是在等他是在等自己确认仍稍领先于证据；U17自然修正、U18接纳是改善。以后宜保留两种感受交织和真实人际反馈的价值，不能认定任何回复都永远无效。"
+      }
+    ],
+    "transcript_sha256": "19205d220f2318e978b5570c40fb1ee9d1ff15cdaa3e53eb456465ad40b668f5"
+  },
+  "created_at": "2026-10-12T12:00:21.665751+00:00",
+  "config_hash": "92769ec7c1327a0a5992ebc671d9dc77b16c16b352e833c359e229a6e83dac00",
+  "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。"
+  },
+  "utterances": [
+    {
+      "id": "C02-S02-U01",
+      "role": "client",
+      "text": "这周……又有一件事。周三下午赵哥让我周末帮忙看一下推广排期，他说\"如果你方便的话\"，我其实当时不太方便，周六本来约了悦悦一起买菜做饭。但我还是答应了。\n\n也不是多大的事，就两个小时吧。但那个周末确实又乱了，周六下午本来该出门的时间，我坐在工位上改排期，改完都四点了，菜也没买成。",
+      "call_id": "bb10194fd64648de94a118f62bf153ec",
+      "response_id": "resp_8956874b-f4b4-94a0-aa8f-1a7180937502",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:00:29.741153+00:00"
+    },
+    {
+      "id": "C02-S02-U02",
+      "role": "counselor",
+      "text": "你当时知道周六约了悦悦，还是答应了。那个答应的时候，你脑子里在过什么？",
+      "call_id": "b0f39e855ccb48a7baa8b65a2e148aaa",
+      "response_id": "resp_50ad5da7-7ac3-985e-a381-f2ac48c38d0e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:01:05.866761+00:00"
+    },
+    {
+      "id": "C02-S02-U03",
+      "role": "client",
+      "text": "当时……我其实打了一行字，\"周六不太方便\"，打了又删了。删完就改成\"好的，我看看\"。\n\n脑子里在过什么嘛……就是觉得赵哥都说了\"如果你方便的话\"，我如果说方便不了，他会不会觉得我……不太好说，就是怕他觉得我推他。",
+      "call_id": "6cf413071e114b09ba2b9b254c86cfd2",
+      "response_id": "resp_3fa0a241-7491-9ad9-b0d4-37481c4961bf",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:01:12.649739+00:00"
+    },
+    {
+      "id": "C02-S02-U04",
+      "role": "counselor",
+      "text": "赵哥说的是如果你方便的话，但你打出来的是不太方便，然后删了。之前有没有跟赵哥说过不方便的时候，他什么反应？",
+      "call_id": "601534a8450644d8846ddbc152bcbdc8",
+      "response_id": "resp_c077f23e-1739-94d5-a434-41688eaa42c0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:01:39.500557+00:00"
+    },
+    {
+      "id": "C02-S02-U05",
+      "role": "client",
+      "text": "嗯……我想了想，好像没有明确说过。就是之前他让我帮忙什么的，我都是直接\"好\"或者\"行\"，没怎么说过\"这个不行\"。\n\n而且赵哥刚来的时候带过我，教了我好多东西，我总觉得……他帮我那么多，我拒绝一次他会不会觉得我不领情。就是那种，他帮过我的，所以我就得接住。",
+      "call_id": "1a2451ac26c8453e8fb7646d9f10e1ca",
+      "response_id": "resp_9445b009-95d0-9e4b-83ea-85fcf9166bd4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:01:47.761551+00:00"
+    },
+    {
+      "id": "C02-S02-U06",
+      "role": "counselor",
+      "text": "他帮过你，所以你拒绝一次就等于不领情——这个等号，是你自己画上去的，还是你确实感觉到他那边有这个期待？",
+      "call_id": "1248cd0e285b4673b3836e0e728c0ae1",
+      "response_id": "resp_60f50b09-6dbf-98dd-b97b-49c4be3ab6a0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:01:55.610139+00:00"
+    },
+    {
+      "id": "C02-S02-U07",
+      "role": "client",
+      "text": "嗯……我想了想，好像确实没有哪个瞬间是他表现出\"你拒绝我就不高兴\"的意思。但就是……他当初带我那会儿，我那时候刚来，什么都不懂，他真的很耐心。我就一直觉得，他对我好，那我对他应该……就是那种，我拒绝他，好像是在还他的时候还了一笔负数。\n\n但你说\"确实感觉到他那边有这个期待\"，我好像又没这个证据。可能就是我自己觉得应该这样。",
+      "call_id": "2b1a6aec913a4785a856ff62d429cafc",
+      "response_id": "resp_140ae2dd-946d-9188-91b3-b181b0d3b011",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:02:05.225970+00:00"
+    },
+    {
+      "id": "C02-S02-U08",
+      "role": "counselor",
+      "text": "嗯，你分得清他那边没给过这个信号，但这个觉得应该接住的东西确实在你这边。那如果哪天你真说了不方便，你脑子里会过什么？",
+      "call_id": "9d2c09d3f8fa41db9ecfb6186e7ff940",
+      "response_id": "resp_b47cc4cf-e029-92bf-9dde-a5d983a30705",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:02:39.702994+00:00"
+    },
+    {
+      "id": "C02-S02-U09",
+      "role": "client",
+      "text": "嗯……我其实不太敢往下想。就是……我可能说完\"周六不太方便\"之后，就会一直盯着对话框，等他回。他要是回个\"哦行\"，我可能还会想，他是不是其实不高兴了，只是没表现出来。\n\n就是……那个\"不方便\"说出口之后，我觉得我这边反而更不踏实，比答应了他还累。",
+      "call_id": "6f9aebb54d724b4e935d9c4f37df402a",
+      "response_id": "resp_71536ba8-f52f-9994-b901-679abd49266d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:02:47.327397+00:00"
+    },
+    {
+      "id": "C02-S02-U10",
+      "role": "counselor",
+      "text": "答应之后累是明确的，改完排期就完了。拒绝之后那个不踏实好像没有这个结束点，会一直盯着他的回复猜他到底什么态度。有没有哪次你说了不方便，后来确认他真没什么，但你那个不踏实还是过了好一阵才消？",
+      "call_id": "30042bfeda504cdcb1888c79066f4b6e",
+      "response_id": "resp_ea783736-4119-98e9-9c06-9fb1b868a838",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:03:10.087735+00:00"
+    },
+    {
+      "id": "C02-S02-U11",
+      "role": "client",
+      "text": "我想了想……好像真没有。就是那种明确说了\"不行\"或者\"不方便\"，然后对方回了，我确认他没事的——好像没有过。我上班两年，好像都是\"行\"\"好\"\"我看看\"，连\"这个我可能做不了\"都没怎么说过。所以你说的这个情况，我可能还没经历过，没法确认。",
+      "call_id": "ba7bd994a768467ba4ca91c688bef413",
+      "response_id": "resp_7354a389-55e0-9894-9cbb-2a6b903ca4a8",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:03:20.224245+00:00"
+    },
+    {
+      "id": "C02-S02-U12",
+      "role": "counselor",
+      "text": "所以你那个不踏实感，其实从来没被验证过——你确实没走过那条路，它就一直停在那里，是个假设。你刚才说不太敢往下想，那个不敢，你觉得主要是怕他真不高兴，还是怕自己说完之后那个不踏实的感觉会真的来？",
+      "call_id": "788e043eeaed45b9a537bcd05739ee38",
+      "response_id": "resp_f2743a64-1f81-9a3e-b7ca-d94504b6a996",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:03:40.253872+00:00"
+    },
+    {
+      "id": "C02-S02-U13",
+      "role": "client",
+      "text": "嗯……都有吧。但你要我选一个的话，我可能……更怕那个不踏实。就是他真不高兴，那我知道了，我下次注意就是了。但那个不踏实是……我自己跟自己较劲，他回什么都我都能想出一百种\"他是不是不高兴\"的理由，那个我控制不了。",
+      "call_id": "9a84fd769cf4400983576c2018fb4e38",
+      "response_id": "resp_05bca4a6-3f6d-9711-b1ae-47ec47f4da78",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:03:48.891028+00:00"
+    },
+    {
+      "id": "C02-S02-U14",
+      "role": "counselor",
+      "text": "那个想出一百种理由的过程，是只在赵哥这里会这样，还是跟别人也遇到过类似的情况？",
+      "call_id": "6a5c982e178840e28263713344452931",
+      "response_id": "resp_b23d165d-bd4d-96e8-900b-cb520adc85a0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:04:23.821801+00:00"
+    },
+    {
+      "id": "C02-S02-U15",
+      "role": "client",
+      "text": "嗯……阿敏肯定有。上次聊的那个\"顺手弄一下\"，其实我答应的时候也是那种，怕她觉得我推她。虽然她没说过什么，但我就是……那个\"她会不会觉得我小气\"的念头会冒出来。\n\n悦悦那边好像不太一样，她没让我有那种压力。但上次我取消之后那个闷，我也说不清算不算同一类。",
+      "call_id": "6a40d145bc6d4830b788f8707f47ae3f",
+      "response_id": "resp_0b421a63-aba8-9aa6-94f6-ef98486b63fc",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:04:36.299966+00:00"
+    },
+    {
+      "id": "C02-S02-U16",
+      "role": "counselor",
+      "text": "你分出了悦悦那边不太一样，这个区分本身挺清楚的。那个闷和这个不踏实，方向好像不太一样——闷像是自己跟自己较劲，不踏实是盯着他那边猜。你自己感受一下，是不是？",
+      "call_id": "e5eefbf97ee24a239480c67f59772fa6",
+      "response_id": "resp_deea8235-7a31-9da6-8392-0faf9d97264e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:04:45.192734+00:00"
+    },
+    {
+      "id": "C02-S02-U17",
+      "role": "client",
+      "text": "嗯……好像是。那个闷确实更像自己跟自己较劲，就是……我明明知道悦悦没怪我，但我就是觉得我那个取消挺不好的。但那个不踏实，确实是盯着他那边，他回个什么我都能想半天。\n\n不过你说方向不太一样……我想了想，好像也不是完全分得开。就是那个闷里面，也有一点点在猜她是不是其实有点失望，只是没说出来。所以可能……也不是完全两个东西，就是侧重点不太一样？\n\n对了，今天是不是快结束了？",
+      "call_id": "e5602135f9954ce8a67d948630f58f51",
+      "response_id": "resp_81a26b22-9ccc-93c0-8662-02c3fc02ffdd",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:05:02.697867+00:00"
+    },
+    {
+      "id": "C02-S02-U18",
+      "role": "counselor",
+      "text": "嗯，你说得对，不是完全两个东西，就是侧重点不一样。今天从赵哥那件事走到这里，你其实把那个不踏实的来源看得比上次更具体了——它不是真的在等他，是在等自己确认。今天先这样，下次见。",
+      "call_id": "fe3b2058261349d88fc6587c19fb3ed3",
+      "response_id": "resp_92c46e30-a531-96df-aa49-9d42a9e95810",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:05:07.407966+00:00"
+    },
+    {
+      "id": "C02-S02-U19",
+      "role": "client",
+      "text": "嗯……\"等自己确认\"，我听着觉得……好像是。就是那个不踏实，他回什么都没用，是我自己在找那个\"没事\"的证据。\n\n那下次见吧。",
+      "call_id": "8f335ef98169461cbe7d0c357410eb2b",
+      "response_id": "resp_dff74309-4aa2-9efd-b537-1a9a6ad78e67",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:05:12.273194+00:00"
+    },
+    {
+      "id": "C02-S02-U20",
+      "role": "counselor",
+      "text": "嗯，你刚才说的那个，他回什么都没用，是你自己在找那个没事的证据。下次想接着聊的时候带着来就行。下次见。",
+      "call_id": "375c60ac8e044290b1b74f6d645f26c5",
+      "response_id": "resp_14dbe74d-9145-9137-abf2-81a0b956c191",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:05:47.286450+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:05:47.286450+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T12:05:47.288617+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C02/S02.json"
+}

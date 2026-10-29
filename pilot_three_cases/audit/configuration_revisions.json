@@ -1,0 +1,231 @@
+{
+  "revisions": [
+    {
+      "timestamp": "2026-10-12T07:52:01.673588+00:00",
+      "version": "pilot-v1.1-concrete-experiences",
+      "reason": "Use time-bound biography statements and concrete experiences instead of meta descriptions of psychological change.",
+      "original_configs": "configs\\revisions\\v1-initial-before-generation",
+      "original_failed_session": "generation_logs/interrupted_attempts/C01_S01_access_denied_initial.json",
+      "successful_utterances_before_revision": 0
+    },
+    {
+      "timestamp": "2026-10-12T08:15:56.326686+00:00",
+      "type": "user_authorized_model_switch",
+      "from_model": "qwen3.8-27b",
+      "to_model": "deepseek-v4-flash",
+      "reason": "User-authorized retry/fallback; endpoint unchanged.",
+      "revision_id": "977159c6273b",
+      "successful_utterances_before_revision": 0,
+      "original_configs": "configs\\revisions\\model-switch-977159c6273b",
+      "original_empty_attempts": "generation_logs\\interrupted_attempts\\977159c6273b"
+    },
+    {
+      "timestamp": "2026-10-12T08:20:48.205096+00:00",
+      "type": "user_authorized_model_switch",
+      "from_model": "deepseek-v4-flash",
+      "to_model": "qwen3.8-27b",
+      "reason": "Primary model verified at documented Beijing DashScope endpoint; preserve failed model attempts.",
+      "revision_id": "104bd7915dc0",
+      "successful_utterances_before_revision": 0,
+      "original_configs": "configs\\revisions\\model-switch-104bd7915dc0",
+      "original_empty_attempts": "generation_logs\\interrupted_attempts\\104bd7915dc0"
+    },
+    {
+      "timestamp": "2026-10-12T08:20:48.215609+00:00",
+      "type": "verified_same_provider_endpoint_fix",
+      "from_base_url": "https://ws-i2op5gcevai25bra.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+      "to_base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "evidence": "audit/endpoint_diagnostic.json",
+      "documentation": "https://help.aliyun.com/zh/model-studio/regions",
+      "reason": "The supplied workspace domain denied both models; the official same-region general endpoint returned HTTP 200 with the same credential.",
+      "original_configs": "configs/revisions/verified-provider-endpoint-fix",
+      "successful_consultation_utterances_before_revision": 0
+    },
+    {
+      "timestamp": "2026-10-12T10:14:55.330997+00:00",
+      "version": "pilot-v4-concise-concrete-role-prompts",
+      "reason": "Repeated style failures despite appended constraints; replace counselor prompt with concise concrete role rules and add client style reminder.",
+      "original_configs": "configs/revisions/concise-role-prompts-v4",
+      "psychological_answers_added": false,
+      "discarded_partial_drafts": [
+        {
+          "case_id": "C01",
+          "session": 2,
+          "saved_utterances": 3,
+          "inflight_remote_outcome": "unknown",
+          "reason": "generic style repair after rejected S2 drafts"
+        },
+        {
+          "case_id": "C02",
+          "session": 2,
+          "saved_utterances": 4,
+          "inflight_remote_outcome": "unknown",
+          "reason": "generic style repair after rejected S2 drafts"
+        },
+        {
+          "case_id": "C03",
+          "session": 3,
+          "saved_utterances": 11,
+          "inflight_remote_outcome": "unknown",
+          "reason": "generic style repair after rejected S2 drafts"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T11:50:50.959291+00:00",
+      "version": "pilot-v5-unsent-candidate-expression-gate",
+      "reason": "Reject unsent counselor candidates with quotation/word-rating/closing-exploration phrasing and regenerate one utterance before client sees it; at most two candidates. Earlier drafts preserved.",
+      "clinical_judgment_automated": false,
+      "psychological_gold_added": false,
+      "original_configs": "configs/revisions/unsent-candidate-expression-gate-v5",
+      "archived": [
+        {
+          "case_id": "C01",
+          "session": 3,
+          "saved_utterances": 3,
+          "inflight_outcome": "unknown if interrupted",
+          "reason": "candidate expression gate targeted intervention"
+        },
+        {
+          "case_id": "C02",
+          "session": 2,
+          "saved_utterances": 20,
+          "inflight_outcome": "unknown if interrupted",
+          "reason": "candidate expression gate targeted intervention"
+        },
+        {
+          "case_id": "C03",
+          "session": 5,
+          "saved_utterances": 3,
+          "inflight_outcome": "unknown if interrupted",
+          "reason": "candidate expression gate targeted intervention"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T11:59:29.505207+00:00",
+      "version": "pilot-v6-unsent-editor-and-session-clock",
+      "reason": "Separate oral editing instruction for unsent counselor candidates; early neutral time notice; reject stage directions; preserve real substantive prefixes.",
+      "original_configs": "configs/revisions/editing-context-and-session-clock-v6",
+      "psychological_gold_added": false,
+      "entries": [
+        {
+          "case_id": "C01",
+          "session": 3,
+          "saved_before_revision": 5,
+          "preserved_prefix_length": 5,
+          "inflight_outcome": "unknown if interrupted"
+        },
+        {
+          "case_id": "C02",
+          "session": 2,
+          "saved_before_revision": 20,
+          "preserved_prefix_length": 0,
+          "inflight_outcome": "unknown if interrupted"
+        },
+        {
+          "case_id": "C03",
+          "session": 5,
+          "saved_before_revision": 6,
+          "preserved_prefix_length": 6,
+          "inflight_outcome": "unknown if interrupted"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T12:13:24.318389+00:00",
+      "version": "pilot-v7-counseling-process-focus",
+      "reason": "Requested model reviewer identified repeated action-detail interrogation and categorical overstatement; add generic professional guidance to all cases.",
+      "original_configs": "configs/revisions/counseling-process-focus-v7",
+      "psychological_gold_added": false,
+      "entries": [
+        {
+          "case_id": "C01",
+          "session": 3,
+          "preserved_prefix_length": 0,
+          "saved_before_revision": 13,
+          "inflight_outcome": "unknown if interrupted"
+        },
+        {
+          "case_id": "C02",
+          "session": 3,
+          "preserved_prefix_length": 15,
+          "saved_before_revision": 15,
+          "inflight_outcome": "unknown if interrupted"
+        },
+        {
+          "case_id": "C03",
+          "session": 7,
+          "preserved_prefix_length": 6,
+          "saved_before_revision": 6,
+          "inflight_outcome": "unknown if interrupted"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T12:44:38.426872+00:00",
+      "version": "pilot-v8-world-state-and-role-reasoning",
+      "reason": "Repeated within-session planned-to-completed state error and shallow history integration; generic client world-state guard and counselor-only medium reasoning.",
+      "api_documentation": "https://help.aliyun.com/zh/model-studio/qwen-api-via-openai-responses",
+      "default_reasoning_effort": "low",
+      "role_overrides": {
+        "client": "low",
+        "counselor": "medium"
+      },
+      "original_configs": "configs/revisions/world-state-and-role-reasoning-v8",
+      "psychological_gold_added": false,
+      "entries": [
+        {
+          "case_id": "C01",
+          "session": 7,
+          "preserved_prefix_length": 9,
+          "saved_before_revision": 9,
+          "inflight_outcome": "unknown if interrupted"
+        },
+        {
+          "case_id": "C02",
+          "session": 4,
+          "preserved_prefix_length": 16,
+          "saved_before_revision": 16,
+          "inflight_outcome": "unknown if interrupted"
+        },
+        {
+          "case_id": "C03",
+          "session": 8,
+          "preserved_prefix_length": 3,
+          "saved_before_revision": 18,
+          "inflight_outcome": "unknown if interrupted"
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-10-12T12:51:01.015415+00:00",
+      "type": "restore_approved_complete_source",
+      "case_id": "C03",
+      "session": 8,
+      "source": "revisions/C03/S08/r0-6e4694e4/S08.json",
+      "transcript_sha256": "fd1c300a4e04a35de3d7395e7742f0082516d9bcf980f7933197d1da9329f591",
+      "reason": "Independent reviewer completed approval during generator intervention; restore exact approved raw transcript rather than regenerate it.",
+      "text_edited": false
+    },
+    {
+      "timestamp": "2026-10-13T05:55:05.855037+00:00",
+      "version": "pilot-v9-user-authorized-low-effort",
+      "reason": "User explicitly requested lower subagent intelligence, fewer review restrictions, less time/tokens.",
+      "role_overrides": {
+        "client": "low",
+        "counselor": "low"
+      },
+      "expression_gate": false,
+      "original_configs": "configs\\revisions\\user-authorized-fast-v9",
+      "psychological_gold_added": false,
+      "entries": [
+        {
+          "session": 7,
+          "preserved_utterances": 3,
+          "prior_snapshot": "revisions\\C02\\S07\\before_fast_continuation.json"
+        }
+      ]
+    }
+  ]
+}

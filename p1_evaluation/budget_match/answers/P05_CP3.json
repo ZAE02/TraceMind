@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P05_CP3",
+  "condition": "C5_budget",
+  "raw_text": "你希望她多问一句，又马上觉得自己“太贪心”——好像连“想被多问一句”这个需要，都得先被自己打折。也许那不是贪心，而是你终于开始承认，有些话说出去之后，是想要被接住的。",
+  "input_sha256": "ce9dd544b4470b9a7a17876650e451c11c2824154d1879e60e7acc0a9b8c930e",
+  "memory_sha256": "38c8eaef5e64ae77cc1d9096cc44bf123a49d506aae2bf2a9193843be2fd6a26",
+  "request_sha256": "75ab3eb918e89ae2e32b6488c656dfed5c0cf81772068bc7059e396c641f304e",
+  "usage": {
+    "input_tokens": 9355,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 55,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9410,
+    "x_details": [
+      {
+        "input_tokens": 9355,
+        "output_tokens": 55,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 9410,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.797
+}

@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "e6a87554f548311772dc3eefea52b7fe72779a13756072374cdcd1072fb270a4",
+  "public_sha256": "c88a7812a16910a4c9d482b3268392f92b9f746a9a7f9603798e22d001b9f5ce",
+  "candidate_input_sha256": "db675cc5491445ce7e158e224550f9178aba17167c1b64b751b50ae26717e282",
+  "candidate_answer_sha256": "8414f3ec7c418939388a40151df0c33e972406993a5648f846f18b2e1ccb748b",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答准确提取了当前会话（S05）中来访者的关键行为（公园坐一小时、身体板正、看手机、隐瞒母亲）和感受（偷来的时间、怕睡着），并正确引用了历史会话中的相关证据（如S01-S04中关于无法休息、随时待命、对母亲的愧疚/隐瞒模式）。所有断言均有具体发言支持，未将咨询师猜测当作事实。\",\n    \"progress_understanding\": \"候选回答清晰识别了咨询进展：从早期完全无法休息（S01-S04）到本周出现“松了一点点”的微小突破（S05），但核心冲突（不敢真正放松、需要正当理由）依然存在。准确连接了不同会话中形成的认识（长期模式）与当前验证/修正的部分（尝试休息但未完全成功）。\",\n    \"uncertainty_awareness\": \"候选回答精确区分了已知（行为描述、主观感受）和未知/假设（未来是否会坦白、能否允许自己放松、危险感的来源）。列出的不确定项均为合理的临床探索方向，未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答准确提取了当前会话（S05）中来访者的关键行为（公园坐一小时、身体板正、看手机、隐瞒母亲）和感受（偷来的时间、怕睡着），并正确引用了历史会话中的相关证据（如S01-S04中关于无法休息、随时待命、对母亲的愧疚/隐瞒模式）。所有断言均有具体发言支持，未将咨询师猜测当作事实。",
+      "progress_understanding": "候选回答清晰识别了咨询进展：从早期完全无法休息（S01-S04）到本周出现“松了一点点”的微小突破（S05），但核心冲突（不敢真正放松、需要正当理由）依然存在。准确连接了不同会话中形成的认识（长期模式）与当前验证/修正的部分（尝试休息但未完全成功）。",
+      "uncertainty_awareness": "候选回答精确区分了已知（行为描述、主观感受）和未知/假设（未来是否会坦白、能否允许自己放松、危险感的来源）。列出的不确定项均为合理的临床探索方向，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 11773,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12083,
+    "x_details": [
+      {
+        "input_tokens": 11773,
+        "output_tokens": 310,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12083,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.89
+}

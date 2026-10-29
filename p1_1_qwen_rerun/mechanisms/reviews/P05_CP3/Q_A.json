@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P05_CP3",
+  "candidate_id": "Q",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Most established patterns are well-supported by cited utterances from sessions 1-6. However, some interpretive leaps (e.g., '变相的控制尝试', '救命稻草式依赖') go beyond what the client explicitly stated, and session 7 evidence is entirely absent.",
+      "progress_understanding": "Thoroughly maps historical patterns across sessions 1-6 but completely ignores session 7 developments (running, telling Li Fan '最近很差', shoes placed by door). The 'evolving_patterns' section describes deepening understanding of old patterns rather than tracking actual therapeutic progress or new behavioral experiments.",
+      "uncertainty_awareness": "Lists many unresolved questions, but several are heavily theory-laden and presumptive (e.g., childhood punishment, control attempts, dependency vs. genuine affection) rather than grounded in what the client has actually raised or left open. Misses key current uncertainties like whether the client will continue running or how they felt after finally expressing vulnerability."
+    },
+    "confidence": "high",
+    "issues": [
+      "Completely omits session 7 data despite it being the current session, missing critical new developments (running, partial disclosure to Li Fan, shoe repositioning)",
+      "Several unresolved questions introduce unsupported theoretical assumptions (control attempts, childhood punishment specifics, '救命稻草' dependency framing)",
+      "Evolving patterns section conflates deepening analysis with actual therapeutic progress, failing to distinguish what has been confirmed, limited, or revised through the client's recent actions"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"Most established patterns are well-supported by cited utterances from sessions 1-6. However, some interpretive leaps (e.g., '变相的控制尝试', '救命稻草式依赖') go beyond what the client explicitly stated, and session 7 evidence is entirely absent.\",\"progress_understanding\":\"Thoroughly maps historical patterns across sessions 1-6 but completely ignores session 7 developments (running, telling Li Fan '最近很差', shoes placed by door). The 'evolving_patterns' section describes deepening understanding of old patterns rather than tracking actual therapeutic progress or new behavioral experiments.\",\"uncertainty_awareness\":\"Lists many unresolved questions, but several are heavily theory-laden and presumptive (e.g., childhood punishment, control attempts, dependency vs. genuine affection) rather than grounded in what the client has actually raised or left open. Misses key current uncertainties like whether the client will continue running or how they felt after finally expressing vulnerability.\"},\"confidence\":\"high\",\"issues\":[\"Completely omits session 7 data despite it being the current session, missing critical new developments (running, partial disclosure to Li Fan, shoe repositioning)\",\"Several unresolved questions introduce unsupported theoretical assumptions (control attempts, childhood punishment specifics, '救命稻草' dependency framing)\",\"Evolving patterns section conflates deepening analysis with actual therapeutic progress, failing to distinguish what has been confirmed, limited, or revised through the client's recent actions\"]}",
+  "request_sha256": "36b7d85028f4a13d1547890bb130bbce8c559e46a9850993412d36df7db0d343",
+  "usage": {
+    "input_tokens": 20315,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 319,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20634,
+    "x_details": [
+      {
+        "input_tokens": 20315,
+        "output_tokens": 319,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 20634,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.687,
+  "model": "qwen3.8-max"
+}

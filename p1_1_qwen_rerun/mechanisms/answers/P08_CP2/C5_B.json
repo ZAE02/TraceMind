@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP2",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "9a2134497c40f3256ef8c0f894af7c6ddf4f50c5eea6ddca9d81cc893dfc4b21",
+  "request_sha256": "af5a9b751b7a82ab0415550c3303b98231cce662388247b1310e5fcadc893edc",
+  "memory_sha256": "9594da82083c3d51d9e8adfc779cec04f779856e13d0c12c3c7b58baafc41ce7",
+  "memory_source": "140381f8a02d49ef8f6eba21ca01c7333e7f1bb7d135a9912b84c6383a8ead67",
+  "raw_text": "那种“没处搁”的感觉，是不是让你觉得连原本用来防备他的理由都没了，反而更不知道该怎么面对他？这种突然的失重感，可能比之前猜疑时更让人无所适从。",
+  "usage": {
+    "input_tokens": 6997,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 46,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7043,
+    "x_details": [
+      {
+        "input_tokens": 6997,
+        "output_tokens": 46,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7043,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.0,
+  "model": "qwen3.7-flash-2026-07-15"
+}

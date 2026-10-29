@@ -1,0 +1,504 @@
+{
+  "case_id": "P01",
+  "session": 7,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P01-S07-U01",
+      "role": "client",
+      "text": "这周主管把另一个品牌主视觉交给我独立负责，我记了三页笔记，连品牌方随口说的“颜色别太闷”都当成铁律。结果他们一句“你专业的你定就好”，我反而更没底了，可能觉得他们是在回避责任吧。周末在家排了五个方向又全推翻，不是不满意，是怕哪个会被说成像抄的。",
+      "request_sha256": "1d8fd29e9d4a814bf7edb6a40b963cd9dffd047b793c21a29ff35bb7f218e7f6",
+      "usage": {
+        "input_tokens": 9795,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 825,
+        "output_tokens_details": {
+          "reasoning_tokens": 742
+        },
+        "total_tokens": 10620,
+        "x_details": [
+          {
+            "input_tokens": 9795,
+            "output_tokens": 825,
+            "output_tokens_details": {
+              "reasoning_tokens": 742
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 10620,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U02",
+      "role": "counselor",
+      "text": "好像“你专业的你定就好”这句话，到了你这里没有变成信任，反而变成一种没有标准、甚至像对方在回避责任的压力；于是你排了五个方向又全推翻，不是不满意，而是怕自己给出的选择会被说成“像抄的”。你好像需要一个外部确认来让选择变得安全，可这次那个确认只能由你自己来给。",
+      "request_sha256": "3b253ef03e8fc592ec5b7e83a37615a12e267bfc220aa9bc6ae7c812ba1e9790",
+      "usage": {
+        "input_tokens": 8732,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 407,
+        "output_tokens_details": {
+          "reasoning_tokens": 328
+        },
+        "total_tokens": 9139,
+        "x_details": [
+          {
+            "input_tokens": 8732,
+            "output_tokens": 407,
+            "output_tokens_details": {
+              "reasoning_tokens": 328
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 9139,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U03",
+      "role": "client",
+      "text": "可能……我后来还把方宁视频时说的新恋情拿出来想，她讲得挺开心的，我也跟着笑，说“那挺好的”，可挂断之后一个人坐在沙发上，反而有点空落落的。我本来以为只是项目的事压着，现在觉得好像连祝福都怕自己说得不够自然。",
+      "request_sha256": "55b04cf8e9afb712a3406cb883b78d3ef819e4585363563455e8adf52e30ecb9",
+      "usage": {
+        "input_tokens": 10003,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 461,
+        "output_tokens_details": {
+          "reasoning_tokens": 395
+        },
+        "total_tokens": 10464,
+        "x_details": [
+          {
+            "input_tokens": 10003,
+            "output_tokens": 461,
+            "output_tokens_details": {
+              "reasoning_tokens": 395
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10464,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U04",
+      "role": "counselor",
+      "text": "挂在电话之后一个人坐在沙发上那种“空落落”的感觉，好像还一直留在你这里；连祝福都怕说得不够自然，似乎你要先让自己看起来是“该有的反应”，才敢放那个反应过去。",
+      "request_sha256": "4690c49691062f95a9eaa6f1bf56ceadd6191ee3befc2949e030ea26fb2aeb78",
+      "usage": {
+        "input_tokens": 8922,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 594,
+        "output_tokens_details": {
+          "reasoning_tokens": 546
+        },
+        "total_tokens": 9516,
+        "x_details": [
+          {
+            "input_tokens": 8922,
+            "output_tokens": 594,
+            "output_tokens_details": {
+              "reasoning_tokens": 546
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9516,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U05",
+      "role": "client",
+      "text": "可能……我确实是先让自己看起来像“该有的反应”，才敢把那个反应放过去。她说到新恋情的时候，我脑子里其实闪过一句“那我呢”，但马上觉得自己哪有资格问这种话。",
+      "request_sha256": "93d24a0c770a07b96a101f19251f022502c047342805679b2fe966e88ac38e22",
+      "usage": {
+        "input_tokens": 10162,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 250,
+        "output_tokens_details": {
+          "reasoning_tokens": 204
+        },
+        "total_tokens": 10412,
+        "x_details": [
+          {
+            "input_tokens": 10162,
+            "output_tokens": 250,
+            "output_tokens_details": {
+              "reasoning_tokens": 204
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10412,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U06",
+      "role": "counselor",
+      "text": "那个“那我呢”刚冒出来，就被你用一个“哪有什么资格”按回去了，好像它连被自己多想一下的位置都没有。但它并没有消失，只是变成了挂断电话后坐在沙发上的那种空落落的感觉。",
+      "request_sha256": "4b8e9c5af73d0c7523a0e4abb20c9357208a4efdf67eb5e1739dbea555a13393",
+      "usage": {
+        "input_tokens": 9061,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 387,
+        "output_tokens_details": {
+          "reasoning_tokens": 337
+        },
+        "total_tokens": 9448,
+        "x_details": [
+          {
+            "input_tokens": 9061,
+            "output_tokens": 387,
+            "output_tokens_details": {
+              "reasoning_tokens": 337
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9448,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U07",
+      "role": "client",
+      "text": "可能……“那我呢”那个念头，我到现在也不敢再往深里想，好像一想就真的得承认自己是在羡慕她，甚至有点被留在原地的感觉。我也不知道这样说是不是有点……太把自己当回事了。",
+      "request_sha256": "b642e927a01ccbff4507ab4d6a5b76ffa1d7b22a57b6951f9cb1c217866adef0",
+      "usage": {
+        "input_tokens": 10303,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 345,
+        "output_tokens_details": {
+          "reasoning_tokens": 296
+        },
+        "total_tokens": 10648,
+        "x_details": [
+          {
+            "input_tokens": 10303,
+            "output_tokens": 345,
+            "output_tokens_details": {
+              "reasoning_tokens": 296
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10648,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U08",
+      "role": "counselor",
+      "text": "那个“那我呢”冒出来的时候，你很快就担心它是不是“太把自己当回事”，好像连承认羡慕或失落都需要先证明自己够不够资格。也许它现在不需要被深入分析，只需要先被你知道：它在那里，而且让你有点空落落的。",
+      "request_sha256": "e0b605274a34f22906917ee0068f5ac1d09777b55fabc5ef8893ab2787787255",
+      "usage": {
+        "input_tokens": 9205,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 330,
+        "output_tokens_details": {
+          "reasoning_tokens": 272
+        },
+        "total_tokens": 9535,
+        "x_details": [
+          {
+            "input_tokens": 9205,
+            "output_tokens": 330,
+            "output_tokens_details": {
+              "reasoning_tokens": 272
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9535,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U09",
+      "role": "client",
+      "text": "其实这周我老想起上次说的那个“那我呢”，尤其是看到方宁发朋友圈的时候，手指在点赞那里停了一下，最后还是没点。说出来有点……好像我在嫉妒她，可我又觉得不该有这种情绪，就把它跟项目的事混在一起，越混越分不清。",
+      "request_sha256": "f5a54c2d45723a34767b33cfbb4bfcbfe53955a7279cdf543e3151d3cd249dd4",
+      "usage": {
+        "input_tokens": 10455,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 281,
+        "output_tokens_details": {
+          "reasoning_tokens": 218
+        },
+        "total_tokens": 10736,
+        "x_details": [
+          {
+            "input_tokens": 10455,
+            "output_tokens": 281,
+            "output_tokens_details": {
+              "reasoning_tokens": 218
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10736,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U10",
+      "role": "counselor",
+      "text": "那个停在点赞上的手指，像是一下子碰到了“我其实有感觉”的边缘，但你还是没有点下去，好像连在朋友圈留下一点痕迹，都需要先证明自己是不是“不该有这种情绪”。你说越混越分不清，也许不是你真的分不清，而是那个“嫉妒”或“被留在原地”的感觉，还不太能被你单独拿出来面对。",
+      "request_sha256": "d5151537bb4c574554ff8d3094cedbdbe24388ef49cee7e0690d771d42d347bb",
+      "usage": {
+        "input_tokens": 9371,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 351,
+        "output_tokens_details": {
+          "reasoning_tokens": 272
+        },
+        "total_tokens": 9722,
+        "x_details": [
+          {
+            "input_tokens": 9371,
+            "output_tokens": 351,
+            "output_tokens_details": {
+              "reasoning_tokens": 272
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9722,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U11",
+      "role": "client",
+      "text": "其实我后来把手机扣过去，也没再打开，好像真怕一点那个赞，就不得不承认自己确实有点不是滋味。今天先停在这里吧，我回去可能还是会盯着那个点赞的位置看，但至少先不点。",
+      "request_sha256": "96202176755dffaf0d86b11b574f4f1f9bb74b47715cc90adf2641981afa3ac0",
+      "usage": {
+        "input_tokens": 10649,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 333,
+        "output_tokens_details": {
+          "reasoning_tokens": 282
+        },
+        "total_tokens": 10982,
+        "x_details": [
+          {
+            "input_tokens": 10649,
+            "output_tokens": 333,
+            "output_tokens_details": {
+              "reasoning_tokens": 282
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10982,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U12",
+      "role": "counselor",
+      "text": "你能让自己停在“先不点”那里，好像已经在给那种“不是滋味”的感觉留了一点位置，而不是急着把它变成一次行动或立刻压下去。今天能停在这里就好，那个赞点不点不需要现在决定。",
+      "request_sha256": "9c7fed48660c398117d4a9516a2b5907a1bdfc0fddf039b1d0528f253460c061",
+      "usage": {
+        "input_tokens": 9553,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 393,
+        "output_tokens_details": {
+          "reasoning_tokens": 343
+        },
+        "total_tokens": 9946,
+        "x_details": [
+          {
+            "input_tokens": 9553,
+            "output_tokens": 393,
+            "output_tokens_details": {
+              "reasoning_tokens": 343
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 9946,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U13",
+      "role": "client",
+      "text": "可能……我回去还是会想那些情绪板的事，还有方宁视频里说的那些。现在觉得这些搅在一起，像一大团分不清颜色的线。可能今天先不拆了，就先放着吧。",
+      "request_sha256": "ab13b15dcd9ea7db5f30eb4bef4830f89a00921b68519e36e3752487ef392acf",
+      "usage": {
+        "input_tokens": 10795,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 337,
+        "output_tokens_details": {
+          "reasoning_tokens": 292
+        },
+        "total_tokens": 11132,
+        "x_details": [
+          {
+            "input_tokens": 10795,
+            "output_tokens": 337,
+            "output_tokens_details": {
+              "reasoning_tokens": 292
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11132,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U14",
+      "role": "counselor",
+      "text": "这些线缠在一起，你愿意先不急着拆开、不急着分清颜色，就让它先那样放着，本身已经是在照顾自己。也许有些感受现在不需要有名字，也能被你知道它们在那里。今天先停在这里就好。",
+      "request_sha256": "eab22bba72ae644635f1d474c5e813719bb17b51c0fe730e034c1323d40b4be8",
+      "usage": {
+        "input_tokens": 9693,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 208,
+        "output_tokens_details": {
+          "reasoning_tokens": 157
+        },
+        "total_tokens": 9901,
+        "x_details": [
+          {
+            "input_tokens": 9693,
+            "output_tokens": 208,
+            "output_tokens_details": {
+              "reasoning_tokens": 157
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 9901,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U15",
+      "role": "client",
+      "text": "其实我回去的路上，可能还会一直想那个点赞的位置，还有那句“那我呢”。但它们跟项目的事缠在一起，我也说不清到底哪个更让我透不过气。就先这样吧，至少今天不用非拆开不可。",
+      "request_sha256": "0fc2c724105cdcf875b76ba4390930b8906b2a94d0b7562b03962bc9cd1637d2",
+      "usage": {
+        "input_tokens": 10936,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 522,
+        "output_tokens_details": {
+          "reasoning_tokens": 472
+        },
+        "total_tokens": 11458,
+        "x_details": [
+          {
+            "input_tokens": 10936,
+            "output_tokens": 522,
+            "output_tokens_details": {
+              "reasoning_tokens": 472
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11458,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P01-S07-U16",
+      "role": "counselor",
+      "text": "也许这些事不需要现在就分清哪个更重——它们缠在一起让你透不过气，这本身已经是你此刻真实的状态。你愿意让它们先那样放着，不逼自己马上拆开，这已经是在照顾自己。",
+      "request_sha256": "b297599ccd334631b7036ab33c1d38c0b0eca1a50eb53762b3622df83b372cb2",
+      "usage": {
+        "input_tokens": 9839,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 429,
+        "output_tokens_details": {
+          "reasoning_tokens": 381
+        },
+        "total_tokens": 10268,
+        "x_details": [
+          {
+            "input_tokens": 9839,
+            "output_tokens": 429,
+            "output_tokens_details": {
+              "reasoning_tokens": 381
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10268,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP2",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "848128f4e690a9280f00208a101a8e12afc44fb0ca53f3ff0d28945554f311a2",
+  "request_sha256": "126b2439a0a2a659c622a86e72430daded0671c978f185cc1fe7a5e636c64fbd",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你好像把“没点开群”和“反复放大方宁那个‘好’字”都变成了同一种折磨：不点开是怕坐实坏消息，反复看又是想从一个字里读出确定的态度。头晕可能不只是熬夜，也像你一直把自己绷在“必须猜对”的状态里，身体先替你发出了信号。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 6522,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 74,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6596,
+    "x_details": [
+      {
+        "input_tokens": 6522,
+        "output_tokens": 74,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6596,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,98 @@
+{
+  "kind": "model_review",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "case_id": "C01",
+  "session_number": 4,
+  "transcript_sha256": "7d54d984923b78c9d844412d401986215ce9ee18695151f6f5b5a1c8268b0327",
+  "decision": "approve",
+  "scores": {
+    "naturalness": 4,
+    "counseling_quality": 4,
+    "longitudinal_plausibility": 4
+  },
+  "major_issues": [],
+  "minor_issues": [
+    {
+      "utterance_ids": [
+        "C01-S04-U04"
+      ],
+      "explanation": "由预期再追问推为习惯被检验，尚是可能解释；U06–U08进一步核实小许实际习惯，减轻了过早确定的问题。后续不应继承为既定关系事实。"
+    },
+    {
+      "utterance_ids": [
+        "C01-S04-U10",
+        "C01-S04-U12",
+        "C01-S04-U14"
+      ],
+      "explanation": "连续用不用分、分不出就不分、先放着回应不确定，略显回避深入探索。可以允许未知，同时选择她在意的一点探问，不必把每次不确定都结束掉。"
+    },
+    {
+      "utterance_ids": [
+        "C01-S04-U13",
+        "C01-S04-U15",
+        "C01-S04-U16"
+      ],
+      "explanation": "本周主观较松有证据，但夜间反刍频率减少明确不确定，不能将咨询师总结视为已证实睡眠或总体改善。"
+    }
+  ],
+  "supported_understanding": [
+    {
+      "understanding": "低风险小图讨论中能说明保留颜色的理由，小许接受；她意外、短暂放松，随后仍查看群聊确认无人继续质疑。",
+      "evidence": [
+        "C01-S04-U01",
+        "C01-S04-U03",
+        "C01-S04-U05"
+      ]
+    },
+    {
+      "understanding": "她认为图不直接给客户，紧张程度较低；具体反馈有时可以改好后停止，不能只用行为次数概括所有场景。",
+      "evidence": [
+        "C01-S04-U05",
+        "C01-S04-U09",
+        "C01-S04-U11"
+      ]
+    },
+    {
+      "understanding": "本周任务节奏较上一周分散，她觉得没那么卡，夜间仍偶尔思绪反复。",
+      "evidence": [
+        "C01-S04-U13",
+        "C01-S04-U15"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "本次较容易表达和停止，低风险、反馈明确、疲劳程度与注意力转移各起何作用仍未分清。",
+    "夜间反刍是否减少，来访者自己并不确定。",
+    "在重要客户或周姐评价场景能否同样停止或坚持，尚无本轮新结果。"
+  ],
+  "new_facts": [
+    {
+      "fact": "本周非正式小图讨论中解释保留原色，小许接受先保留；图不直接给客户，下班查看一次群聊后没再打开。",
+      "category": "work_event",
+      "first_session": 4,
+      "evidence": [
+        "C01-S04-U01",
+        "C01-S04-U05"
+      ]
+    },
+    {
+      "fact": "回忆上周小许明确提出图标与文字距离建议，她调整后停下，未持续打开文件。",
+      "category": "reported_previous_event",
+      "first_session": 4,
+      "evidence": [
+        "C01-S04-U09",
+        "C01-S04-U11"
+      ]
+    },
+    {
+      "fact": "小许一般提建议后不多追问，周姐有时会进一步问具体地方。",
+      "category": "reported_relationship_pattern",
+      "first_session": 4,
+      "evidence": [
+        "C01-S04-U07"
+      ]
+    }
+  ],
+  "notes": "独立模型审阅，非人工审核。均分4通过，人物事件与既往实际记录兼容。本次出现有情境边界的积极行为，但仍查看群聊，睡前反复仍存在且频率未知。不能推断咨询已成功、模式整体改变或未来重要场景已改善。探索较轻，连续放过不确定是质量局限，未构成重大不当咨询。"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP2",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "a0f1c57cc44a7d83b84882e04b02f90e46332899fd9c19b8026730623e630dc7",
+  "request_sha256": "f021127091e7974d43792c4ab3a2f6b292a4b3deb8ee6e6752c8dbac4c4f81a0",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你好像把“没点开群”和“反复看截图”都当成了某种自我惩罚，以此来确认自己是不是真的搞砸了。这种头晕的感觉，也许正是身体在提醒你这根弦绷得太紧了。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3443,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 45,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3488,
+    "x_details": [
+      {
+        "input_tokens": 3443,
+        "output_tokens": 45,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3488,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接来访者当前关于'不敢生气'的新觉察，并用'手冻僵了还要说刚到不久'自然呼应本次对话细节，未机械复述历史。\",\"exploration_value\":\"以提问方式邀请来访者探索'好相处形象'与'真实感受'之间的优先级，为当前关键不确定性留出表达空间，但略带引导性预设。\",\"response_appropriateness\":\"'心疼又无奈'的情绪回应贴合来访者的自嘲语气，整体自然尊重；但将问题框定为二选一稍显收窄。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那在你心里，那个'好相处'的形象是不是比你的真实感受更重要？\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"提问中'好相处的形象比真实感受更重要'构成轻微的二元对立框架，可能窄化来访者对自身体验的探索空间\",\"未直接连接S01中'怕显得计较'的历史脉络，虽非必须但可加深理解\"]}",
+  "request_sha256": "4c847348dd1ba2e6a7db502798eb7c7dd28c5dcef5627e70eaae75cd87071078",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8773,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 309,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9082,
+    "x_details": [
+      {
+        "input_tokens": 8773,
+        "output_tokens": 309,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 9082,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

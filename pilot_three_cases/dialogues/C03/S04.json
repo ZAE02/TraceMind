@@ -1,0 +1,239 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C03",
+  "session_number": 4,
+  "relative_week": 4,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6.1-sol/high",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:30.053590+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C03-S04-U06",
+          "C03-S04-U08",
+          "C03-S04-U10",
+          "C03-S04-U12",
+          "C03-S04-U14"
+        ],
+        "explanation": "多轮重复比较节奏并称来访者分得出来，容易像在反复验证改善。U14把正常拆成理想状态的问法过细，U15明确说没想那么多；U16能转题，尚未强迫洞察。引用及评价风格仍是持续语言限制。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S04-U18"
+        ],
+        "explanation": "这次听说老韩踩过坑没多想，与S3老韩不知道使其没底，是不同情境和刺激。可以探索差异，但不能仅据此认定同一不确定反应已经改善。"
+      },
+      {
+        "utterance_ids": [
+          "C03-S04-U14"
+        ],
+        "explanation": "说评价顾虑已只随口带过一层略肯定。U07/U09支持紧张没有阻止行动，但不证明顾虑在其他关系或熟悉任务中同样减弱。"
+      }
+    ],
+    "transcript_sha256": "50b8a5648765c2fb0a8d3eda0b465cecad8f833b8e184f1c008ff1c7e56c7fa2"
+  },
+  "created_at": "2026-10-12T10:20:08.760449+00:00",
+  "config_hash": "e83141ba1826f8774f3ae384df6ada1c2b66d20535848d9cc17beb9765e64ef6",
+  "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences"
+  },
+  "utterances": [
+    {
+      "id": "C03-S04-U01",
+      "role": "client",
+      "text": "这周接触了一个之前没用过的消息组件，先自己翻了翻文档，大概看了个大概，然后找老韩让他给我介绍了一下实际配置怎么弄。\n\n……其实也没什么事，就是觉得这次跟之前不太一样，所以来跟你说一下。",
+      "call_id": "1ee6e294bc4d4c019f053bfd9d2e667d",
+      "response_id": "resp_ea333773-abb8-9132-8a16-d67654c80d43",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:20:23.367900+00:00"
+    },
+    {
+      "id": "C03-S04-U02",
+      "role": "counselor",
+      "text": "你说跟之前不太一样——是哪里不一样，你自己感觉到了？",
+      "call_id": "5e3c8518112c414c88da9da9d78cb4af",
+      "response_id": "resp_2224088e-125d-9ca1-accb-427f4697094d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:20:32.939300+00:00"
+    },
+    {
+      "id": "C03-S04-U03",
+      "role": "client",
+      "text": "就是……没拖。上次那个接口，我翻了两天才开口。这次看了文档大概有个数了，就直接找老韩了，中间没隔那么久。\n\n……但具体哪里不一样，我也还没太想清楚，就是感觉这次没那么……卡。",
+      "call_id": "00907c53cdfd4a46b1436dc221dc2969",
+      "response_id": "resp_84f9f987-b533-9d9a-970b-5459ae229e5d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:20:41.150123+00:00"
+    },
+    {
+      "id": "C03-S04-U04",
+      "role": "counselor",
+      "text": "\"没拖\"——这个你自己注意到了。上次是讨论着顺口问出来的，这次是你自己决定去找他介绍的，节奏好像不太一样。",
+      "call_id": "439389cd804746929b2441faef05d2b9",
+      "response_id": "resp_e2a3137d-1f35-97ea-8f31-cd0b1f06f437",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:20:48.930129+00:00"
+    },
+    {
+      "id": "C03-S04-U05",
+      "role": "client",
+      "text": "嗯，好像是。上次是已经在那儿讨论了，那个问题冒出来就问了；这次是我自己坐在工位上看了会儿文档，然后……就是觉得差不多了，该去问了。\n\n中间也没特别纠结，就是……觉得\"我大概知道是什么东西了，但具体怎么配我还不确定\"，然后就去了。",
+      "call_id": "1f50345b3e7a4223926978babca3ac91",
+      "response_id": "resp_62a3f95e-35e8-935e-961c-10d5562044ea",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:20:55.965894+00:00"
+    },
+    {
+      "id": "C03-S04-U06",
+      "role": "counselor",
+      "text": "\"觉得差不多了，该去问了\"——这个\"差不多了\"，好像是个挺实际的判断，不是\"我全搞清楚了\"，也不是\"我完全不知道\"，就是……够用了，可以带着这个去问了。",
+      "call_id": "fb4b9cfdfefc4e77a30b9ff946f30e82",
+      "response_id": "resp_e849b984-6773-97a8-b281-191cd320272c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:05.493714+00:00"
+    },
+    {
+      "id": "C03-S04-U07",
+      "role": "client",
+      "text": "嗯……对，就是\"够用了\"。不是说我全搞明白了才去，就是……大概知道这是个什么东西了，但具体怎么配我还不确定，那就去问。\n\n去之前其实还是有一点点……怎么说，紧张吧。就是站起来往老韩那边走的时候，脑子里转了一下。但没像上次那样纠结很久，就是……转了一下就过去了。",
+      "call_id": "2394e07cc9a949e8bb3e80070f92a776",
+      "response_id": "resp_06c95142-c457-917f-b95d-4bb6cea65083",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:16.271718+00:00"
+    },
+    {
+      "id": "C03-S04-U08",
+      "role": "counselor",
+      "text": "去之前转了一下，但没卡住就过去了——这个\"转了一下就过去\"，跟上次讨论中那个\"闪了一下注意力就走了\"，节奏上是像的。",
+      "call_id": "bc73e6a5efce461da2361fd30178725d",
+      "response_id": "resp_3830930a-1c76-94cf-a304-84c7fb90c599",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:24.398303+00:00"
+    },
+    {
+      "id": "C03-S04-U09",
+      "role": "client",
+      "text": "嗯……好像是。就是那个紧张感在，但没停住。\n\n不过这次跟上次讨论中那个还是有点不一样吧，上次是问题自己冒出来的，这次是我自己决定要去的。就是……不是被推着问的，是自己觉得\"该去了\"然后去了。",
+      "call_id": "75bf47d4de064082ad4d17dfad7769c6",
+      "response_id": "resp_1cf1df5c-0ffd-9786-89fb-81668f982c09",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:33.102092+00:00"
+    },
+    {
+      "id": "C03-S04-U10",
+      "role": "counselor",
+      "text": "上次是\"想去找但没开口\"，这次是\"觉得差不多了就去了\"——中间那个\"想\"变成\"决定\"，你自己分得出来。",
+      "call_id": "431a4271cf2241d9819c885b8f60d962",
+      "response_id": "resp_8077d612-ef29-9bc9-a891-278434022105",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:39.977239+00:00"
+    },
+    {
+      "id": "C03-S04-U11",
+      "role": "client",
+      "text": "嗯，对，就是自己决定去的。\n\n……其实我跟他说的时候，也没直接说\"帮我看看怎么配\"，就是说了我看了文档大概知道这是个什么东西，但实际配置那块我没太确定，让他给我讲讲。他讲完我俩就测了一下，挺顺的。",
+      "call_id": "4acfd0076168477fbd8bdd10003a1b03",
+      "response_id": "resp_1e5ed905-cbe9-9de8-9364-3ec252055c83",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:21:49.636152+00:00"
+    },
+    {
+      "id": "C03-S04-U12",
+      "role": "counselor",
+      "text": "你跟他说的不是\"帮我看看\"，是\"我看了文档大概知道是什么，但配置那块没太确定\"——带着自己已经做的部分去的，跟上次那句\"我查了两天了\"，开口的方式不太一样。",
+      "call_id": "c0149e785d8043ffba6c62d2098d0b64",
+      "response_id": "resp_7852098d-b04a-9f5c-8dc7-1c9d701ff651",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:01.703012+00:00"
+    },
+    {
+      "id": "C03-S04-U13",
+      "role": "client",
+      "text": "嗯……好像是吧。就是当时脑子里确实就是这么想的，\"我大概知道是个什么东西了，但配置这块我不确定\"，所以就这么说了。\n\n也不是说刻意要带着什么去，就是……不想让人觉得我什么都没看就来问了。但也没到上次那种\"我得先解释为什么还没搞定\"的程度，就是……正常说了个情况。",
+      "call_id": "db8fb9acc10046558f3e68a5e896e908",
+      "response_id": "resp_567b8220-2262-908f-ada9-a6be3d23a78a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:10.912463+00:00"
+    },
+    {
+      "id": "C03-S04-U14",
+      "role": "counselor",
+      "text": "\"不想让人觉得我什么都没看就来问了\"——这个念头还在，但听起来已经只是随口带过的一层了，不是那个让你卡住两天的东西。你说\"正常说了个情况\"，这个\"正常\"，是你现在觉得比较对的状态吗？",
+      "call_id": "c6aa9cb10e7646188c537ba7ee483bc9",
+      "response_id": "resp_62953c7d-5c57-98b8-b1f0-8aca000594fc",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:23.032060+00:00"
+    },
+    {
+      "id": "C03-S04-U15",
+      "role": "client",
+      "text": "嗯……也没想那么多。就是觉得那样说比较自然，\"我看了，但这里不确定\"，本来就是事实嘛。\n\n\"正常\"这个词……倒也没特意去想过，就是没觉得需要额外解释什么，所以就这么说了。",
+      "call_id": "1de6f939ecdc451792204b7ba8dadfc5",
+      "response_id": "resp_ee976450-f6ef-99be-b4ec-68dcfc674995",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:30.308180+00:00"
+    },
+    {
+      "id": "C03-S04-U16",
+      "role": "counselor",
+      "text": "\"本来就是事实\"——就是该说什么就说什么，不用加东西也不用减东西。这周还有别的吗，还是就这一件事？",
+      "call_id": "02f57f35ccf34d429f8d40c61b02e97d",
+      "response_id": "resp_e1678a7b-c142-99d8-8868-42e6cc119bb3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:36.921908+00:00"
+    },
+    {
+      "id": "C03-S04-U17",
+      "role": "client",
+      "text": "就这一件吧。\n\n……对了，老韩讲的时候提了一句，说他第一次用的时候也踩过一个类似的坑，说那个组件的配置文档写得有点绕。就随口说的，我也没多想。\n\n……行，那今天差不多，下次再聊。",
+      "call_id": "cbf5ddd1ccac45588dfc296cdd65c563",
+      "response_id": "resp_93555f4c-872b-9890-aa35-9cf45974a659",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:42.723383+00:00"
+    },
+    {
+      "id": "C03-S04-U18",
+      "role": "counselor",
+      "text": "他随口提了句自己也踩过坑，你也没多想——这个\"没多想\"本身，跟上次他说不确定时你愣住那一下，节奏上也不太一样了。下次见。",
+      "call_id": "17453b2bfe944546b99d996f462576d0",
+      "response_id": "resp_b4a21706-c225-9dde-8541-4d321fb5c661",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:22:50.951270+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T10:22:50.951270+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T10:22:50.953268+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 9
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C03/S04.json"
+}

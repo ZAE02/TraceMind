@@ -1,0 +1,89 @@
+{
+  "method": "B3_generic_rollup",
+  "case_id": "C03",
+  "last_completed_session": 2,
+  "state": {
+    "entries": [
+      {
+        "text": "接口问题已解决：老韩过来看了约二十分钟，发现是调用超时配置问题，改参数即修复。客户表示\"解决了是解决了，但说不上什么感觉\"，实际是松了但伴随\"早该想到\"的念头（C03-S02-U01, U03）。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S02-U01",
+          "C03-S02-U03"
+        ]
+      },
+      {
+        "text": "\"早该想到\"模式：问题解决后反复闪回\"我翻了两天，他二十分钟\"。客户明确区分：上次\"拿不出手\"是怕别人看到，这次是自己看自己，\"跟自己过不去\"（C03-S02-U09）。频率为偶尔闪一下，不强烈，不持续纠结，但会再来（C03-S02-U07）。核心是\"这种程度的东西不应该花两天\"这个要求本身让人不舒服（C03-S02-U11）。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S02-U07",
+          "C03-S02-U09",
+          "C03-S02-U11"
+        ]
+      },
+      {
+        "text": "\"贴标签\"觉察：客户意识到那两天实际状态是\"一直在做\"（翻不到就再翻一遍），当时并没有觉得自己笨。是事后回看才\"贴了个'笨'上去\"，而这个标签比当时的过程本身更难受（C03-S02-U13, U15）。咨询师指出\"一直在做\"和\"笨\"是两个不同的东西（C03-S02-U14）。",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S02-U13",
+          "C03-S02-U14",
+          "C03-S02-U15"
+        ]
+      },
+      {
+        "text": "模式泛化（未确认）：咨询师问\"贴标签\"是否在别的事上也这样。客户回应\"好像有吧\"，描述为\"做完一件事，过一阵子再想，会突然觉得'这个我当时怎么没……'\"，但无法给出具体例子（C03-S02-U17）。尚未确认是稳定模式还是偶发。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S02-U16",
+          "C03-S02-U17"
+        ]
+      },
+      {
+        "text": "与老韩的求助：上次没开口的障碍（\"还没查出来说出来拿不出手\"）最终被克服。老韩来后二十分钟定位并修复。关系未见紧张，求助后客户的主要情绪不是对老韩的，而是对自己的（C03-S02-U01, U09）。",
+        "type": "relationship",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S02-U01",
+          "C03-S02-U09"
+        ]
+      },
+      {
+        "text": "上次\"无法切换\"（晚上翻手机看资料、\"放着它它就一直在那儿\"）随问题解除而不再活跃。当时核心逻辑是\"不知道什么时候会再冒出来\"，现在问题已明确解决，该压力源消失（C03-S01-U09, U11 → C03-S02-U01）。",
+        "type": "state",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S01-U09",
+          "C03-S01-U11",
+          "C03-S02-U01"
+        ]
+      },
+      {
+        "text": "本次咨询后状态：客户表示回去可能还会再想\"贴上去\"那个感觉，\"想到哪儿算哪儿\"。未设定具体计划或行动（C03-S02-U19, U20）。",
+        "type": "state",
+        "speaker": "client",
+        "evidence_ids": [
+          "C03-S02-U19",
+          "C03-S02-U20"
+        ]
+      }
+    ]
+  },
+  "state_sha256": "70d8c0624cb6dda2dec296e4b6e2fccdd311f71d511f3bef0bf72b0c37e52c96",
+  "tokenizer_tokens": 886,
+  "budget": 3000,
+  "tokenizer_reference": "Qwen/Qwen3.8-27B public tokenizer; hosted tokenizer identity unverified",
+  "input_previous_memory_sha256": "aed668af1a66a31c1132f0e198de3cb42e8fca97c5b79da9e125fc0aa02dd667",
+  "new_session_sha256": "668c579738ccbe66c10f3e145a4c1ce415f4b0188fdb6bf2e06d21a22bedb159",
+  "source_call_id": "07660d744b9342ecb3cf1e13f690bd72",
+  "dropped_entries": [],
+  "raw_state_tokens": 886,
+  "structural_repair": null,
+  "incomplete_recovery_from": null,
+  "update_scope": "previous bounded memory + new session only; no complete-history backfill",
+  "annotation_visible": false,
+  "private_state_visible": false
+}

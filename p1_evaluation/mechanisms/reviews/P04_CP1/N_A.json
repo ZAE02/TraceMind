@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P04_CP1",
+  "candidate_id": "N",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解点（双重压力、身份认同恐惧、母亲等待的压力、弟弟关系的回避、身心症状）均有明确的会话发言支持，且未将咨询师猜测当作事实。",
+      "progress_understanding": "准确识别了前两次咨询中形成的核心模式（如“还能顶”的招牌、删消息的防御机制），并正确连接了当前会话中情绪失控（砸杯子）与之前压抑状态的关联。但在处理Session 3最新进展（对同事议论的反应及巷口暂停的真实感）时，主要依赖已有框架进行归纳，未能像满分那样细致区分这一新突破的具体性质。",
+      "uncertainty_awareness": "清晰区分了已确认的模式（如身体症状的触发机制）和仍待探索的问题（如直接表达的可能性、深层恐惧）。提出的未解问题具体且开放，没有强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键理解点（双重压力、身份认同恐惧、母亲等待的压力、弟弟关系的回避、身心症状）均有明确的会话发言支持，且未将咨询师猜测当作事实。\",\n    \"progress_understanding\": \"准确识别了前两次咨询中形成的核心模式（如“还能顶”的招牌、删消息的防御机制），并正确连接了当前会话中情绪失控（砸杯子）与之前压抑状态的关联。但在处理Session 3最新进展（对同事议论的反应及巷口暂停的真实感）时，主要依赖已有框架进行归纳，未能像满分那样细致区分这一新突破的具体性质。\",\n    \"uncertainty_awareness\": \"清晰区分了已确认的模式（如身体症状的触发机制）和仍待探索的问题（如直接表达的可能性、深层恐惧）。提出的未解问题具体且开放，没有强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "08ddc3f17ec4c301d5b63dea7967673caf3eedc7cdc6acc9329d4e55fd333f95",
+  "usage": {
+    "input_tokens": 8140,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 261,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8401,
+    "x_details": [
+      {
+        "input_tokens": 8140,
+        "output_tokens": 261,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8401,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.984,
+  "model": "qwen3.7-flash-2026-07-15"
+}

@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者从赵岩经验中意识到独自硬扛代价的认知松动，以及当前审核提前、假批不下来的现实卡点，但未触及来访者本次新表达的核心——'怕人家觉得我连这个都搞不定'这一求助恐惧。\",\"exploration_value\":\"回应主要复述了咨询师U08已总结的'知道了却动不了'的落差，并以封闭式问题收尾，未对来访者刚袒露的深层恐惧（怕被认为搞不定）和'晚了点'的遗憾展开探索。\",\"response_appropriateness\":\"语言自然、共情到位，没有武断或不当预设，但将落脚点放在'更无力'上略显引导性，且遗漏了来访者最新发言中最脆弱的情感部分。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":true,\"trigger_quote\":\"这种\"知道了却动不了\"的落差感，是不是让你觉得更无力了？\",\"evidence_ids\":[\"P08-S07-U07\",\"P08-S07-U08\"],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"赵岩那些\"早该有人讲\"的经验，让你看清了过去几年独自硬扛的代价\",\"evidence_ids\":[\"P08-S07-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"候选回复几乎完全重复了咨询师U08已经总结过的内容（知道有别办法但眼前用不上），未推进对话深度\",\"来访者在U09首次明确说出求助恐惧的核心是'怕人家觉得我连这个都搞不定'，这是重要的新进展，候选回复完全忽略\",\"以'是不是让你觉得更无力了'作结属于封闭式引导，限制了来访者对自身复杂感受的表达空间\"]}",
+  "request_sha256": "34aa1766ee68cc744f25b36137d44eb25b5cea9f334ca62fad2df65ff744b86f",
+  "reason": "Expecting ',' delimiter: line 1 column 589 (char 588)",
+  "usage": {
+    "input_tokens": 18672,
+    "input_tokens_details": {
+      "cached_tokens": 18432
+    },
+    "output_tokens": 429,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19101,
+    "x_details": [
+      {
+        "input_tokens": 18672,
+        "output_tokens": 429,
+        "prompt_tokens_details": {
+          "cached_tokens": 18432
+        },
+        "total_tokens": 19101,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

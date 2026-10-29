@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP2",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "a0f1c57cc44a7d83b84882e04b02f90e46332899fd9c19b8026730623e630dc7",
+  "request_sha256": "d6f41a0487fa11b6d62a29b37c0768f6aa642ab6200bce5cbe1a558486699d74",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你好像把“不敢点开群”和“反复放大方宁那个‘好’字”都变成了同一种折磨：不看不甘心，看了又怕坐实那个“果然是这样”。而且你已经在怀疑，是不是自己把简单的事搞成了需要别人替你确认才行——这个觉察本身，可能比那个“好”字更值得先停一停。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3408,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 77,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3485,
+    "x_details": [
+      {
+        "input_tokens": 3408,
+        "output_tokens": 77,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3485,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

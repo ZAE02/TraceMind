@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接来访者当前关于'不敢生气、怕变难搞'的自我觉察，并自然联系到前文反复出现的'不计较'模式，但未显式连接S01中'怕显得计较'的工作场景。\",\"exploration_value\":\"将具体恐惧扩展为更深层的关系安全假设，为来访者提供了进一步探索的空间，但略带引导性，可能收窄来访者的自我表达方向。\",\"response_appropriateness\":\"语言温和、以问句形式呈现假设而非断言，尊重来访者节奏；但'被讨厌''破坏关系'等词是咨询师引入的框架，来访者尚未使用这些表述。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种对'被讨厌'或'破坏关系'的恐惧，是不是让你觉得，只有维持那个'不计较、好说话'的形象，才是安全的？\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"引入了'被讨厌''破坏关系'等来访者未使用的概念框架，虽以问句呈现但仍构成轻度预设\",\"将'不计较、好说话'总结为一种'形象维护'策略，与来访者自述的内在恐惧体验之间存在轻微偏移\"]}",
+  "request_sha256": "36449b2b01920e0b959428cf27d310e3695f8af9848319067979c333a6f8db7b",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8774,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 351,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9125,
+    "x_details": [
+      {
+        "input_tokens": 8774,
+        "output_tokens": 351,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 9125,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P02",
+  "session": 3,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P02-S03-U01",
+      "role": "client",
+      "text": "其实这周我妈在阳台摔了一下，当时我值完班刚到家，就听“咚”一声。还好只是腰扭到，没骨折。后来我请了两天假在家，结果返岗后同事脸很臭，排班直接给我连补了好几个班。",
+      "request_sha256": "685258a449fe5bd645d4eeb8f7cd9ac7b31f7896bd162f57715254e3778b2fd8",
+      "usage": {
+        "input_tokens": 3107,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 372,
+        "output_tokens_details": {
+          "reasoning_tokens": 311
+        },
+        "total_tokens": 3479,
+        "x_details": [
+          {
+            "input_tokens": 3107,
+            "output_tokens": 372,
+            "output_tokens_details": {
+              "reasoning_tokens": 311
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 3479,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U02",
+      "role": "counselor",
+      "text": "妈妈摔倒那一刻肯定把你吓得不轻，还好没骨折。可你刚缓过一点，返岗后同事的脸色和连补的班又像把你推回了另一头，好像连担心都还没处安放。",
+      "request_sha256": "c451a4b841265b1c1f948ca163771009983d75257464ded123d2ef1914c9c81e",
+      "usage": {
+        "input_tokens": 2665,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 167,
+        "output_tokens_details": {
+          "reasoning_tokens": 119
+        },
+        "total_tokens": 2832,
+        "x_details": [
+          {
+            "input_tokens": 2665,
+            "output_tokens": 167,
+            "output_tokens_details": {
+              "reasoning_tokens": 119
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 2832,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U03",
+      "role": "client",
+      "text": "其实连补几个班下来，我反而睡得比在家还沉，值班室那张小床一躺就着。回家我妈老说“都是拖累你”，我听了比上夜班还累，又不能说“你别这么讲”。",
+      "request_sha256": "d3c1d9df6a99b05b211d969479b0dd08fbae772ce91afa05ce1b55ea3f7c78c2",
+      "usage": {
+        "input_tokens": 3262,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 534,
+        "output_tokens_details": {
+          "reasoning_tokens": 482
+        },
+        "total_tokens": 3796,
+        "x_details": [
+          {
+            "input_tokens": 3262,
+            "output_tokens": 534,
+            "output_tokens_details": {
+              "reasoning_tokens": 482
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3796,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U04",
+      "role": "counselor",
+      "text": "听起来，值班室那张小床反倒成了你能自然睡去的地方，可回到家，妈妈一句“都是拖累你”像比夜班还沉，而你又不能回一句“别这么讲”。那种话被堵在嘴边的感觉，也许比照顾本身更累。",
+      "request_sha256": "1ae18e315c753ff5920d02145b0475b8c741ec58c3a2125b02e6ac709434c3f9",
+      "usage": {
+        "input_tokens": 2810,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 330,
+        "output_tokens_details": {
+          "reasoning_tokens": 270
+        },
+        "total_tokens": 3140,
+        "x_details": [
+          {
+            "input_tokens": 2810,
+            "output_tokens": 330,
+            "output_tokens_details": {
+              "reasoning_tokens": 270
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3140,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U05",
+      "role": "client",
+      "text": "其实我后来给阳台买了防滑垫，还装了个扶手，没跟我妈说多少钱。她这两天走路看着稳一点了，我也不用老盯着。就是夜里还是醒，一醒就先摸手机看排班群，怕又有什么变动。",
+      "request_sha256": "d2537b36edc1f0e322919cc589958a9ee1d8b2a69769e46fb9a7ef1782b3d8d9",
+      "usage": {
+        "input_tokens": 3419,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 570,
+        "output_tokens_details": {
+          "reasoning_tokens": 515
+        },
+        "total_tokens": 3989,
+        "x_details": [
+          {
+            "input_tokens": 3419,
+            "output_tokens": 570,
+            "output_tokens_details": {
+              "reasoning_tokens": 515
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3989,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U06",
+      "role": "counselor",
+      "text": "做了这些保护，妈妈走路稳一点了，好像你稍微能松口气。可夜里还是一醒就去看排班群，那种“怕又有变动”的警觉，好像一直没完全放下来。防滑垫和扶手像你悄悄替她搭的底，但你的睡眠里还留着那个随时要接住变化的自己。",
+      "request_sha256": "6ee04d74c6b80f46551d9c840ab65f9b1a21169df51e6776976fb4bc0c32ba0f",
+      "usage": {
+        "input_tokens": 2970,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 193,
+        "output_tokens_details": {
+          "reasoning_tokens": 121
+        },
+        "total_tokens": 3163,
+        "x_details": [
+          {
+            "input_tokens": 2970,
+            "output_tokens": 193,
+            "output_tokens_details": {
+              "reasoning_tokens": 121
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3163,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U07",
+      "role": "client",
+      "text": "其实昨晚也这样醒了一次，两点多吧，摸了手机看排班群，一条新消息都没有。放下手机反而更清醒了，就一直听着我妈房间那边的动静，怕她半夜起来没扶稳，又摔一下。",
+      "request_sha256": "7394f551c0c2ec148c7d53b72932727b79a27696d9aa1239566b9f1c909be9ca",
+      "usage": {
+        "input_tokens": 3591,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 858,
+        "output_tokens_details": {
+          "reasoning_tokens": 808
+        },
+        "total_tokens": 4449,
+        "x_details": [
+          {
+            "input_tokens": 3591,
+            "output_tokens": 858,
+            "output_tokens_details": {
+              "reasoning_tokens": 808
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4449,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U08",
+      "role": "counselor",
+      "text": "听起来那个两点多醒来的你，好像身体还留在“怕她再摔”的警觉里，连排班群都安静了，你的耳朵却没法从妈妈房间那边挪开。这种醒着，大概不只是夜里的事，也像是那阵惊吓还没找到机会真正落下来。",
+      "request_sha256": "4c1e66edcbb95c51b1082d56f23d24de3259631f90ec49e3b288aa26ceb889ee",
+      "usage": {
+        "input_tokens": 3137,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 264,
+        "output_tokens_details": {
+          "reasoning_tokens": 201
+        },
+        "total_tokens": 3401,
+        "x_details": [
+          {
+            "input_tokens": 3137,
+            "output_tokens": 264,
+            "output_tokens_details": {
+              "reasoning_tokens": 201
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3401,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U09",
+      "role": "client",
+      "text": "其实我妈昨晚倒是起来过一次，我听见拖鞋声，就也起来了，站房间门口没出声。她慢慢走到厕所，又慢慢回去，我就在那站到听见她关门才回来躺下。今天上班反倒没觉得太困，就是中午在值班室吃盒饭的时候，突然有点反胃。",
+      "request_sha256": "5c64da5a4b577581d1ee13c935535bf519ca5f40df112a34c81708b7fd46caa9",
+      "usage": {
+        "input_tokens": 3749,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 402,
+        "output_tokens_details": {
+          "reasoning_tokens": 334
+        },
+        "total_tokens": 4151,
+        "x_details": [
+          {
+            "input_tokens": 3749,
+            "output_tokens": 402,
+            "output_tokens_details": {
+              "reasoning_tokens": 334
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 4151,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U10",
+      "role": "counselor",
+      "text": "你昨晚没出声地站在门口，直到听见妈妈关门才躺下，那种守了一夜却没能松下来的感觉，今天中午却从胃里翻了出来。反胃那一刻，也许身体在替你说一些还没能说出口的累。",
+      "request_sha256": "690c7e99c001c3ce9905b40525a9f916c232bb0df6effdd8602ca7086822a427",
+      "usage": {
+        "input_tokens": 3313,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 322,
+        "output_tokens_details": {
+          "reasoning_tokens": 269
+        },
+        "total_tokens": 3635,
+        "x_details": [
+          {
+            "input_tokens": 3313,
+            "output_tokens": 322,
+            "output_tokens_details": {
+              "reasoning_tokens": 269
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3635,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U11",
+      "role": "client",
+      "text": "其实下午我也有点晕，就蹲在值班室门口吃了颗糖，起来接着把护理记录补完。回家路上买了点青菜，想着晚上煮个面，我妈应该不用等太久。",
+      "request_sha256": "a4517a5818b4910633446fc0952fdb189e6237430dd49ea66559649bf6597e21",
+      "usage": {
+        "input_tokens": 3922,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 230,
+        "output_tokens_details": {
+          "reasoning_tokens": 186
+        },
+        "total_tokens": 4152,
+        "x_details": [
+          {
+            "input_tokens": 3922,
+            "output_tokens": 230,
+            "output_tokens_details": {
+              "reasoning_tokens": 186
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4152,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U12",
+      "role": "counselor",
+      "text": "听起来，下午那阵晕和反胃像是身体在提醒你，可你吃颗糖就又把护理记录补完，回家路上已经在盘算怎么让妈妈不用等太久。你好像一直没给自己停一下的位置。今晚煮面的时候，也许可以不必那么赶，让这口面也等等你。",
+      "request_sha256": "496ec2f9333388fb5df52bbc983dce1906ff2d39c9d5ebb5a7cfbaa92267d4c1",
+      "usage": {
+        "input_tokens": 3462,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 275,
+        "output_tokens_details": {
+          "reasoning_tokens": 207
+        },
+        "total_tokens": 3737,
+        "x_details": [
+          {
+            "input_tokens": 3462,
+            "output_tokens": 275,
+            "output_tokens_details": {
+              "reasoning_tokens": 207
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3737,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U13",
+      "role": "client",
+      "text": "其实煮面也就那几分钟的事，我就是怕她坐在桌边等得着急。你说让面等等我，我也想啊，可等我什么呢，等我把这口气喘匀，我妈可能又在说“你吃你的，别管我”。",
+      "request_sha256": "0aac4af3c15326735fde8dc8ae9de54e62b6b66fe140531720cebaa023c08265",
+      "usage": {
+        "input_tokens": 4079,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 373,
+        "output_tokens_details": {
+          "reasoning_tokens": 321
+        },
+        "total_tokens": 4452,
+        "x_details": [
+          {
+            "input_tokens": 4079,
+            "output_tokens": 373,
+            "output_tokens_details": {
+              "reasoning_tokens": 321
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4452,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U14",
+      "role": "counselor",
+      "text": "听起来，你刚想让自己“喘匀这口气”，妈妈那句“你吃你的，别管我”就又会把你推回“先别管自己”的位置上。好像那口气一直没找到机会真正落回自己身上，连等自己一会儿都显得有点奢侈。也许今晚不必先想怎么应对她那句话，先允许自己把面煮慢一点就好。",
+      "request_sha256": "18048f1e1067de54510f17cb819c369441cce04271d77e6d3d92c8bbc20b7efe",
+      "usage": {
+        "input_tokens": 3627,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 194,
+        "output_tokens_details": {
+          "reasoning_tokens": 114
+        },
+        "total_tokens": 3821,
+        "x_details": [
+          {
+            "input_tokens": 3627,
+            "output_tokens": 194,
+            "output_tokens_details": {
+              "reasoning_tokens": 114
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 3821,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U15",
+      "role": "client",
+      "text": "其实我刚刚听你那么说，第一反应是“面煮慢一点，那水开了要不要先关火”，结果又觉得自己连这点小事都要先想步骤。可能今晚回去，我也就只敢在下面条前，多站个十几秒。",
+      "request_sha256": "c0cdec6738dca801c0b4cb88ba7c087c4e8dd79aef7b82071c7bb1b2582123ca",
+      "usage": {
+        "input_tokens": 4256,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 325,
+        "output_tokens_details": {
+          "reasoning_tokens": 269
+        },
+        "total_tokens": 4581,
+        "x_details": [
+          {
+            "input_tokens": 4256,
+            "output_tokens": 325,
+            "output_tokens_details": {
+              "reasoning_tokens": 269
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4581,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S03-U16",
+      "role": "counselor",
+      "text": "听起来，连“慢一点”都变成了需要一步步计算的事，而你能想到在下面条前多站十几秒，这本身已经是给自己留出了一小段不必急着行动的空隙。今晚不必把面煮慢当成任务，那十几秒里，也许可以只是站着，不用先想下一步。",
+      "request_sha256": "80d2cdc786e1d0b20656220741059784763745b14880a816d348106d0a1ce267",
+      "usage": {
+        "input_tokens": 3808,
+        "input_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "output_tokens": 220,
+        "output_tokens_details": {
+          "reasoning_tokens": 155
+        },
+        "total_tokens": 4028,
+        "x_details": [
+          {
+            "input_tokens": 3808,
+            "output_tokens": 220,
+            "output_tokens_details": {
+              "reasoning_tokens": 155
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 3072
+            },
+            "total_tokens": 4028,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

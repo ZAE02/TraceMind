@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reason": {
+      "evidence_grounding": "所有关键理解点（如自我归责、回避询问、羞耻感）均有明确的会话发言支持，且未将咨询师推测当作事实。",
+      "progress_understanding": "准确识别了前两次的核心模式，并正确关联了第三次会话中“忙碌/教新人”作为应对机制的新进展，但在区分“建立的认识”与“正在演变的动态”时略显混杂。",
+      "uncertainty_awareness": "明确列出了早期经验、具体行为尝试等未解问题，但遗漏了当前会话中最关键的未决点：主管“要稳”的具体语境及其对来访者的心理冲击尚未展开。"
+    },
+    "confidence": "high",
+    "issues": [
+      "missed_progress: 忽略了第三次会话中关于主管“要稳”这一新线索的深入探索需求，仅关注了旧有模式的重复。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"所有关键理解点（如自我归责、回避询问、羞耻感）均有明确的会话发言支持，且未将咨询师推测当作事实。\",\n    \"progress_understanding\": \"准确识别了前两次的核心模式，并正确关联了第三次会话中“忙碌/教新人”作为应对机制的新进展，但在区分“建立的认识”与“正在演变的动态”时略显混杂。\",\n    \"uncertainty_awareness\": \"明确列出了早期经验、具体行为尝试等未解问题，但遗漏了当前会话中最关键的未决点：主管“要稳”的具体语境及其对来访者的心理冲击尚未展开。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"missed_progress: 忽略了第三次会话中关于主管“要稳”这一新线索的深入探索需求，仅关注了旧有模式的重复。\"\n  ]\n}",
+  "request_sha256": "d961cdaebac0ab84b56bea2f77f7a88f6a191f36ec76de463faaa082df9515f8",
+  "usage": {
+    "input_tokens": 8266,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 252,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8518,
+    "x_details": [
+      {
+        "input_tokens": 8266,
+        "output_tokens": 252,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8518,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.781
+}

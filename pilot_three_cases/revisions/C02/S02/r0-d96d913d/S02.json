@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C02",
+  "session_number": 2,
+  "relative_week": 2,
+  "status": "awaiting_model_review",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T10:24:32.412831+00:00",
+  "config_hash": "6f10de904feada2fd43757cef6404367b62ebb07a761dc0f88dcb61f8108f8b8",
+  "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "generation_revision": "C02-S02-r2"
+  },
+  "utterances": [
+    {
+      "id": "C02-S02-U01",
+      "role": "client",
+      "text": "这周……又有一次。周三下午有个同事发消息让我周末帮忙看一下推广排期，说\"如果你方便的话\"。我当时其实已经打了\"这周不太行\"，但打完又删了，最后回的是\"行，我看一下\"。\n\n周六弄了大概两个小时，本来那个时间是要去买菜做饭的，就……又没了。也不是多大的事，就是又觉得有点烦。",
+      "call_id": "3b88a18e454c4e8e8cf342f4bff0d79c",
+      "response_id": "resp_016d4264-50e5-90ce-9df1-fd51e3810cdb",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:24:42.585984+00:00"
+    },
+    {
+      "id": "C02-S02-U02",
+      "role": "counselor",
+      "text": "上次那个\"不行\"还没成形嘴就先说了，这次你其实已经把它打出来了——\"这周不太行\"，就在屏幕上待了一会儿。然后你删了。那个删的动作，是当时有什么东西让你觉得不能发？",
+      "call_id": "baf6b583ab244a73a9002598182a8e18",
+      "response_id": "resp_302f6bbc-d0a4-9502-89c6-d1e74cccab12",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:24:52.711655+00:00"
+    },
+    {
+      "id": "C02-S02-U03",
+      "role": "client",
+      "text": "当时就是……看到\"如果你方便的话\"这几个字，就突然觉得，人家都说了\"如果方便\"，我说不行，是不是显得我多事。也不是她态度不好，就是那个\"方便不方便\"好像把球踢给我了，我接不住。\n\n其实也说不清怕她怎样，就是……打完那三个字之后，盯着看了大概十几秒吧，心里就不太踏实，觉得发出去之后这个周末可能就不太对劲。",
+      "call_id": "52cbc542157a426fa72a6f0bc14bc1a9",
+      "response_id": "resp_d3dc463e-8c18-962f-9ae5-679426d001e1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:25:00.652248+00:00"
+    },
+    {
+      "id": "C02-S02-U04",
+      "role": "counselor",
+      "text": "那个\"不太对劲\"挺有意思的——不是怕她生气，也不是怕她怎样，就是觉得发出去之后，那个周末的氛围会不太一样。你当时脑子里有没有闪过一个很具体的画面，还是就是一片模糊的\"不太对\"？",
+      "call_id": "674fcd7aca594f01b5cef3356a7db11b",
+      "response_id": "resp_2677b851-52ae-9a4e-b80e-38c7e47338fd",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:25:08.483071+00:00"
+    },
+    {
+      "id": "C02-S02-U05",
+      "role": "client",
+      "text": "具体的画面……好像没有特别清晰的那种。就是觉得，发出去之后，下次再碰到她，那个气氛就……怎么说呢，就有点\"我是不是不太好说话\"的感觉。但我也知道，就这一次，她应该不至于怎样。\n\n就是那个\"不至于\"我自己也说不准，所以那个不踏实就一直在那儿挂着。",
+      "call_id": "7d612a14a0b141c6ae20c66dc140e60b",
+      "response_id": "resp_54510614-bdd8-9130-a311-e55acc6fa6cb",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:25:14.716160+00:00"
+    },
+    {
+      "id": "C02-S02-U06",
+      "role": "counselor",
+      "text": "这次那个\"不行\"确实到了嘴边了，比上次走得更远了一步。但它在屏幕上待了十几秒，然后被你收回去了——好像它出来之后，你反而更不踏实了。",
+      "call_id": "2f3a00e06c68497e9b25f2e1021e9ec7",
+      "response_id": "resp_f884eace-39c1-9ddd-a16c-115e618c7e8c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:25:26.425681+00:00"
+    },
+    {
+      "id": "C02-S02-U07",
+      "role": "client",
+      "text": "嗯……\"走得更远一步\"，我听着觉得有点夸张了，其实就是打了又删了，挺普通的。但你说出来之后反而更不踏实，这个……好像是。就是那个\"不行\"打出来的时候，我心里其实有一小下是松的，觉得\"哦我说了\"，但紧接着就变成，我是不是在找借口，我是不是显得不太好相处。然后就删了。\n\n删完那会儿倒是真松了一口气，但周六坐在那儿弄排期的时候，那个烦又回来了，而且好像比答应之前还重一点。",
+      "call_id": "758413f7d099425ab44f7fcf716f8e91",
+      "response_id": "resp_edd77692-032a-962a-b2eb-b62f04a69d4f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:25:39.170993+00:00"
+    },
+    {
+      "id": "C02-S02-U08",
+      "role": "counselor",
+      "text": "那个\"比答应之前还重一点\"——好像那个\"不行\"虽然被删了，但它已经出来过，后面坐着弄排期的时候，就不只是\"我在帮人\"了，还多了一层\"我本来可以不这样的\"。",
+      "call_id": "dfe64d9d191e4e74b2dab78853bb5689",
+      "response_id": "resp_5cb535d3-b324-949a-9171-fa0652a9ad81",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:25:46.561943+00:00"
+    },
+    {
+      "id": "C02-S02-U09",
+      "role": "client",
+      "text": "嗯……\"本来可以不这样\"，这个说法我听着有点……不太敢接。就是，我确实是不该帮的吗？人家说了\"如果方便\"，我方便啊，周末在家坐着也是坐着。\n\n但你说比答应之前还重，我想了想，好像就是……周六坐在那儿弄的时候，脑子里一直在想那个菜，本来想做个番茄牛腩的，周末就能吃上。就那个画面一直在转，但手上还在看排期。",
+      "call_id": "086b463ae3f54490b660b62b6f18e7ab",
+      "response_id": "resp_d4a84cb7-8e33-9959-8a73-f7fae00d0a01",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:25:56.309712+00:00"
+    },
+    {
+      "id": "C02-S02-U10",
+      "role": "counselor",
+      "text": "那个番茄牛腩的画面一直在转，但手上还在看排期——好像你一边在帮人，一边脑子里有个东西在等你，但你不让它等。",
+      "call_id": "e347e2516c5a4b96976975c5c5993126",
+      "response_id": "resp_4aea7ec4-a3bb-9196-9a93-a71ab88eb0a5",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:26:02.713427+00:00"
+    },
+    {
+      "id": "C02-S02-U11",
+      "role": "client",
+      "text": "\"在等你\"……这个说法有点，好像那个菜是个活的一样。其实就是脑子里一直转，手上在拖，转着转着就烦了。弄完排期我去超市买了菜，番茄牛腩确实做了，但做的时候没什么心思，就随便弄弄，味道也没调好。",
+      "call_id": "bd5d5210b65c403aafa5b34136f1c1c9",
+      "response_id": "resp_2acdd512-24f3-909d-b6e1-1c19c26fb48f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:26:12.419899+00:00"
+    },
+    {
+      "id": "C02-S02-U12",
+      "role": "counselor",
+      "text": "那个\"随便弄弄\"，好像不是不会做，是做的时候那个\"我想好好吃上这一顿\"的心气儿，已经不在那了。",
+      "call_id": "679567863eec443aa501c3bd6e71f780",
+      "response_id": "resp_0adf7a91-74fd-98f5-8e08-16a0d4e471fa",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:26:23.336665+00:00"
+    },
+    {
+      "id": "C02-S02-U13",
+      "role": "client",
+      "text": "\"心气儿\"……我听着觉得有点准，但好像也没那么严重。就是以前做饭的时候，我会放个歌，切菜切慢一点，调味的时候会尝一下。现在就是……嗯，步骤还是那些步骤，但就是走流程，想着赶紧弄完，弄完洗了锅就能躺一会儿。那个\"好好吃\"的感觉，确实不知道什么时候开始没了。",
+      "call_id": "0afdae78100346298eb80f312a394518",
+      "response_id": "resp_4a1db31d-7a84-9923-9d3d-777f87b4f3fa",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:26:32.653150+00:00"
+    },
+    {
+      "id": "C02-S02-U14",
+      "role": "counselor",
+      "text": "以前切菜会切慢一点，现在就是赶着弄完——好像那顿饭从\"我想吃\"变成了\"我得把它做完\"。躺下来的那会儿，是松了一口气，还是……有点空的？",
+      "call_id": "d7edf0d138594aca86dd0dcc9cce1552",
+      "response_id": "resp_170b7a29-dc8a-9cab-b431-dd5cc7e104e7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:26:44.075472+00:00"
+    },
+    {
+      "id": "C02-S02-U15",
+      "role": "client",
+      "text": "松肯定是松的，终于不用坐着了嘛。但你说空……我想了想，好像是那种，躺下来之后也没干嘛，就刷了会儿手机，刷着刷着发现也没看进去什么。就是……不累，但也不舒服。说不上来。",
+      "call_id": "4a8d1039b7894f889a5b949e4315c5c0",
+      "response_id": "resp_ebff4a44-1337-9370-8ecd-bd0de6899664",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:26:50.498217+00:00"
+    },
+    {
+      "id": "C02-S02-U16",
+      "role": "counselor",
+      "text": "不累但也不舒服，刷手机也没看进去——那个躺下来的时间，好像不是真的在休息，更像是……身体停了，但那个转的东西还在转。",
+      "call_id": "df0d1cb936a3483f89f2b68985ae5e43",
+      "response_id": "resp_3d5ffcc9-2b23-9570-9780-d5f691d7035b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:26:56.779449+00:00"
+    },
+    {
+      "id": "C02-S02-U17",
+      "role": "client",
+      "text": "嗯……\"还在转\"这个说法，我想了想，好像还真是。就是躺那儿的时候，脑子没停，但也不是在想什么具体的事，就是……嗡嗡的。以前不是这样的吧，以前周末躺一会儿真的能睡着，现在就是……醒着，但也没在干嘛。\n\n今天也差不多到点了吧，我回去可能还得把明天那个数据模板搭一下。",
+      "call_id": "c2d7592f09334e329e51f08b6dbf73a1",
+      "response_id": "resp_16710ddb-c5e4-9eda-aa7a-73fa56ee1517",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:27:03.917894+00:00"
+    },
+    {
+      "id": "C02-S02-U18",
+      "role": "counselor",
+      "text": "今天那个\"不行\"确实比上次多走了一步，虽然最后还是被收回去了，但周六那个番茄牛腩一直在转，让你自己看见了那个代价比以前更清楚了。那个\"嗡嗡的\"，不用急着给它一个解释，下次要是还在那儿，可以带着来。明天那个模板，搭的时候别太赶，能歇一下歇一下。",
+      "call_id": "b7e66c56e73d44d1a10d4e6c1affb7f1",
+      "response_id": "resp_60fb02a5-a0c5-92fc-9e0c-b24e57e04986",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:27:13.983351+00:00"
+    },
+    {
+      "id": "C02-S02-U19",
+      "role": "client",
+      "text": "嗯……好，那个嗡嗡的我先不想了，下次再说吧。模板我尽量搭完就停，不熬了。那下次见。",
+      "call_id": "ee55b5356af64218a749df1b6d6393a9",
+      "response_id": "resp_a4c173ea-130e-9383-a92b-6bffe241c41c",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:27:21.359201+00:00"
+    },
+    {
+      "id": "C02-S02-U20",
+      "role": "counselor",
+      "text": "好，那下次见。",
+      "call_id": "191d9425bb5142ddb09529b764ad607a",
+      "response_id": "resp_7c30d95a-92cc-95b6-8435-83b1772b2768",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T10:27:24.726121+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T10:27:24.726121+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T10:27:24.728120+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  }
+}

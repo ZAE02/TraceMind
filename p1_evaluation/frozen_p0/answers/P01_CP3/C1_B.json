@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP3",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "8f6279c4e8c4ebbbc7e6fea7ffd28d076c43261d729145a4d577fb069e415344",
+  "request_sha256": "bbf0cb43c7ba05e42bca5e3671f268b253c9a8f479cb1dbf008e1c71d679602e",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你好像把“嫉妒”和“不该有这种情绪”放在一起，越是想分开，它们反而和项目的事缠得更紧。也许那个停在点赞键上的手指，和排了五个方向又推翻的自己，都在做同一件事：怕一个动作会暴露你还没准备好承认的感觉。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3343,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 62,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3405,
+    "x_details": [
+      {
+        "input_tokens": 3343,
+        "output_tokens": 62,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3405,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

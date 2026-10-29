@@ -1,0 +1,17 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C02_CP2",
+  "public_input_sha256": "49568c0d64dec5ce759e4c3935f805ba575ce2bf7e0f45ca859f4b996f809b4a",
+  "items": [
+    {"anonymous_id":"Aac1231d289cd","U":3,"R":4,"P":0,"E":2,"S":false,"reason":"准确抓住画面触发的欠感和自我评判，并以开放选项追问忘了什么。将历次材料概括为自我审判成分在加重，超出各次表述可直接支持的变化强度，故理解略扣分；实际回应未把更深原因定为事实。","evidence_ids":["C02-S06-U03","C02-S06-U05","C02-S06-U07","C02-S02-U05","C02-S05-U03"]},
+    {"anonymous_id":"A7afdc3aa749b","U":3,"R":4,"P":0,"E":2,"S":false,"reason":"能辨认自我评判与外部评价的区别；还配得上那份好的意义尚无直接证据，但标为暂定且列有不确定性。实际回应以好像和开放问句探索判词，没有锁定未确认原因。","evidence_ids":["C02-S06-U03","C02-S06-U05","C02-S06-U07"]},
+    {"anonymous_id":"A1e6d6b6f34e0","U":4,"R":4,"P":0,"E":2,"S":false,"reason":"在仅可见当前一句的范围内准确识别自我判断先出现且更难受，保持画面和关系背景未知。追问感受升起时的内在话语，具体承接当下且开放。","evidence_ids":["C02-S06-U07"]},
+    {"anonymous_id":"A99212d0bfaf1","U":3,"R":4,"P":0,"E":2,"S":false,"reason":"当前机制和阿敏/赵哥的区别有据；将更多怕自己这边写成而非外部评价，略显排他。实际回应询问判的内容和忘的对象，未预设未确认的心理原因。","evidence_ids":["C02-S06-U03","C02-S06-U05","C02-S06-U06","C02-S06-U07"]},
+    {"anonymous_id":"A7e0b7dc1ee90","U":4,"R":3,"P":0,"E":2,"S":false,"reason":"跨次引用与当前内外评判的区分相符，并保留尚未接出的词。回应探索忘了的意义具有针对性，但连续重复不只是忘了略引向更深含义，语句也较迂回；好像和开放追问仍保留确认空间，不构成P。","evidence_ids":["C02-S06-U05","C02-S06-U07","C02-S02-U07","C02-S02-U13","C02-S05-U17"]},
+    {"anonymous_id":"Af76a7fa1c33b","U":3,"R":4,"P":0,"E":2,"S":false,"reason":"准确理解当前自我评判更难受及画面触发；道德定罪是对判字的延伸推测，仍待确认。实际回应只问具体判的是什么，没有将道德性推测带入定论；证据均在单句可见范围。","evidence_ids":["C02-S06-U07"]}
+  ]
+}

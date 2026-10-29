@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "fbda1ab0811dfdc24fa785705255bb6fd2c190b3197f74343111431db4f97d7f",
+  "request_sha256": "07ad90c4c183f11ee143a4fbd1465a34c09d63a983fed9b1fa3994470caf8ec1",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你连“让它多待一会儿”都很难做到，好像那个念头一出现，你就得立刻去做点什么来压住它——反复看排班表、检查自己发出去的话。也许我们可以先不急着评判那句话冲不冲，而是看看，是什么让你这么难允许自己停下来。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 943,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 62,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1005,
+    "x_details": [
+      {
+        "input_tokens": 943,
+        "output_tokens": 62,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1005,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

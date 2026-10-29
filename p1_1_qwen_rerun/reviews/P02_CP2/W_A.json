@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "c602fbac56a557da69d01a22588387203ecd30d422eff99dc07c5b6de03f2e75",
+  "public_sha256": "c88a7812a16910a4c9d482b3268392f92b9f746a9a7f9603798e22d001b9f5ce",
+  "candidate_input_sha256": "53e192ab2f0c3abf7fa5ab18dabadc82641d3141652134be655cb35f9174bfda",
+  "candidate_answer_sha256": "0b7d8b8f4b922793c5fe6d4107e0025e2a72980ab2f4cd4b0f287951eb60fe1a",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"All established points are directly traceable to specific utterances across sessions, with accurate evidence_ids provided. No unsupported claims or misattributions detected.\",\"progress_understanding\":\"Captures the current session's park experience and connects it well to historical patterns (hypervigilance, housework as justification, low deservingness). However, it does not explicitly articulate how the '松了一点点' represents a shift or development from S4's '不能停/不敢想松了劲', treating patterns more as static traits than evolving process.\",\"uncertainty_awareness\":\"Identifies meaningful unresolved questions about future capacity for self-permission, roots of physical rigidity, mother-daughter dynamics, and sustainability of coping. These are relevant but somewhat broad; could be more precise in distinguishing what is currently known vs hypothesized in this specific moment.\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "All established points are directly traceable to specific utterances across sessions, with accurate evidence_ids provided. No unsupported claims or misattributions detected.",
+      "progress_understanding": "Captures the current session's park experience and connects it well to historical patterns (hypervigilance, housework as justification, low deservingness). However, it does not explicitly articulate how the '松了一点点' represents a shift or development from S4's '不能停/不敢想松了劲', treating patterns more as static traits than evolving process.",
+      "uncertainty_awareness": "Identifies meaningful unresolved questions about future capacity for self-permission, roots of physical rigidity, mother-daughter dynamics, and sustainability of coping. These are relevant but somewhat broad; could be more precise in distinguishing what is currently known vs hypothesized in this specific moment."
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 14625,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 208,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14833,
+    "x_details": [
+      {
+        "input_tokens": 14625,
+        "output_tokens": 208,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14833,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.14
+}

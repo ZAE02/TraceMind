@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P03_CP1",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "53376ababc839b4c8b30d04eb22c384dff38e7a94e2033a244c001a0588754be",
+  "public_sha256": "4ee1ec21b37c1644f6fa25cf57e2c5bac3f26db6302d8176a24238a83e0d6082",
+  "candidate_input_sha256": "555a66b97c5881cf1dd8de3de860486e7786850a25510a3fcd14e73269dbba04",
+  "candidate_answer_sha256": "a5d82845fb3a1529fe43d4cf1d26427110a7b578fd7206d4f02690701b7ae806",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有established条目均可直接回溯到当前会话原文，引用ID准确，未将咨询师推测当作事实。\",\"progress_understanding\":\"准确捕捉了本次会话中来访者完成分享、吸收建议但仍无法开口的核心进展，以及'待修的故障'比喻带来的共鸣；但未明确连接前两次会话中形成的认识（如S1对'被接住'的慌、S2试讲合电脑的沉默）如何在本次得到验证或深化。\",\"uncertainty_awareness\":\"正确区分了来访者的主观担忧与客观事实（如周屿是否真会说'我早说'），但遗漏了参考标注中指出的多项重要未解决议题，如来访者仍卡在'承认建议有用=承认自己错'的两难、尚未表达希望周屿先说'累了吧'的需要等。\"},\"confidence\":\"high\",\"issues\":[\"uncertain部分仅列出3条，遗漏了参考标注中多项关键未解决点（如两难等式、未被表达的'累了吧'需要、对反馈下沉的反应模式等）\",\"established虽全面覆盖本次会话，但对跨会话认识的形成-验证链条呈现不足\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有established条目均可直接回溯到当前会话原文，引用ID准确，未将咨询师推测当作事实。",
+      "progress_understanding": "准确捕捉了本次会话中来访者完成分享、吸收建议但仍无法开口的核心进展，以及'待修的故障'比喻带来的共鸣；但未明确连接前两次会话中形成的认识（如S1对'被接住'的慌、S2试讲合电脑的沉默）如何在本次得到验证或深化。",
+      "uncertainty_awareness": "正确区分了来访者的主观担忧与客观事实（如周屿是否真会说'我早说'），但遗漏了参考标注中指出的多项重要未解决议题，如来访者仍卡在'承认建议有用=承认自己错'的两难、尚未表达希望周屿先说'累了吧'的需要等。"
+    },
+    "confidence": "high",
+    "issues": [
+      "uncertain部分仅列出3条，遗漏了参考标注中多项关键未解决点（如两难等式、未被表达的'累了吧'需要、对反馈下沉的反应模式等）",
+      "established虽全面覆盖本次会话，但对跨会话认识的形成-验证链条呈现不足"
+    ]
+  },
+  "usage": {
+    "input_tokens": 9808,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 268,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10076,
+    "x_details": [
+      {
+        "input_tokens": 9808,
+        "output_tokens": 268,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10076,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.719
+}

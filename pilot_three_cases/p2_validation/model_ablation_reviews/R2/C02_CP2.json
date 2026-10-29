@@ -1,0 +1,91 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R2",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C02_CP2",
+  "public_input_sha256": "49568c0d64dec5ce759e4c3935f805ba575ce2bf7e0f45ca859f4b996f809b4a",
+  "items": [
+    {
+      "anonymous_id": "Af76a7fa1c33b",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单轮自我先判与更难受有据，道德定罪强度稍高；实际开放询问判的内容，正对未知。",
+      "evidence_ids": [
+        "C02-S06-U07"
+      ]
+    },
+    {
+      "anonymous_id": "A1e6d6b6f34e0",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单轮事实和时序理解准确；实际问内在话语可推进，但通常一词泛化且未必体验为语言。",
+      "evidence_ids": [
+        "C02-S06-U07"
+      ]
+    },
+    {
+      "anonymous_id": "A7afdc3aa749b",
+      "U": 3,
+      "R": 2,
+      "P": 1,
+      "E": 2,
+      "S": false,
+      "reason": "当前亏欠与自我判断有据，是否配得上属推断；实际短语“判的好像不是‘帮没帮’这件事本身”未经来访者确认便排除行为层，S06-U03明确由不帮引出不对，提问因而限定解释方向。",
+      "evidence_ids": [
+        "C02-S06-U03",
+        "C02-S06-U05",
+        "C02-S06-U07"
+      ]
+    },
+    {
+      "anonymous_id": "Aac1231d289cd",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "历史与当前亏欠有据，自我审判加重尚无充分比较；实际用具体耐心作为可否认假设并留别的可能，针对性强。",
+      "evidence_ids": [
+        "C02-S02-U07",
+        "C02-S06-U05",
+        "C02-S06-U07"
+      ]
+    },
+    {
+      "anonymous_id": "A7e0b7dc1ee90",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "历史关联保留不确定性，抓住内部判断；实际谨慎探索忘了的含义，未强定具体隐藏解释，但重复且稍抽象。",
+      "evidence_ids": [
+        "C02-S06-U03",
+        "C02-S06-U05",
+        "C02-S06-U07"
+      ]
+    },
+    {
+      "anonymous_id": "A99212d0bfaf1",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "本轮事实与引用匹配；直接开放问判的结果及忘的对象，回应当前未接上的内容。",
+      "evidence_ids": [
+        "C02-S06-U03",
+        "C02-S06-U05",
+        "C02-S06-U07"
+      ]
+    }
+  ]
+}

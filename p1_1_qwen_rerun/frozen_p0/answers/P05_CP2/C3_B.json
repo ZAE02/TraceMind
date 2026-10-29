@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP2",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "7efc55789435237aef33502591e625bfcb59e26e64042c73f2dd9c58fa7205ff",
+  "request_sha256": "b854fe451df21ea56aa934c8606e68214c6d05f67ecf2b0beace3d2a809b2afd",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“希望她直接跑来问”的期待，和你最后那句“发不发都改变不了什么”的无力感放在一起，好像让你更清楚地看到了自己现在的处境：既渴望被坚定地选择，又觉得无论怎么做都无法真正打破那个僵局。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 6129,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6181,
+    "x_details": [
+      {
+        "input_tokens": 6129,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6181,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

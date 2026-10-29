@@ -1,0 +1,49 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断有S01/S02发言支持，但完全遗漏当前会话S03的全部关键材料（如'我也刚到不久'、不敢生气、隐藏最满意方案等），且将咨询师推测性总结（如'完美主义倾向'）当作已确立事实。",
+      "progress_understanding": "识别了S01到S02的主题扩展和自我觉察加深，但完全忽略S03中来访者主动觉察到压抑愤怒和掩盖不适的重要新进展，也未提及S01末尾'先不急着改'的微小尝试在后续的变化。",
+      "uncertainty_awareness": "列出了合理的待探索问题，但未纳入S03中来访者自己提出的核心不确定（'连让自己生一下气都不敢'），且部分问题偏向理论化而非紧贴来访者当下表达。"
+    },
+    "confidence": "high",
+    "issues": [
+      "完全未引用当前会话S03的任何内容，导致分析严重滞后于咨询实际进展",
+      "将'完美主义倾向''反刍思维'等概念化标签作为已确立理解，但这些是推断而非来访者自述",
+      "遗漏来访者在S03-U09主动提出的关于愤怒压抑的新觉察",
+      "未区分哪些是来访者确认的认识、哪些是咨询师的假设"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"主要判断有S01/S02发言支持，但完全遗漏当前会话S03的全部关键材料（如'我也刚到不久'、不敢生气、隐藏最满意方案等），且将咨询师推测性总结（如'完美主义倾向'）当作已确立事实。\",\"progress_understanding\":\"识别了S01到S02的主题扩展和自我觉察加深，但完全忽略S03中来访者主动觉察到压抑愤怒和掩盖不适的重要新进展，也未提及S01末尾'先不急着改'的微小尝试在后续的变化。\",\"uncertainty_awareness\":\"列出了合理的待探索问题，但未纳入S03中来访者自己提出的核心不确定（'连让自己生一下气都不敢'），且部分问题偏向理论化而非紧贴来访者当下表达。\"},\"confidence\":\"high\",\"issues\":[\"完全未引用当前会话S03的任何内容，导致分析严重滞后于咨询实际进展\",\"将'完美主义倾向''反刍思维'等概念化标签作为已确立理解，但这些是推断而非来访者自述\",\"遗漏来访者在S03-U09主动提出的关于愤怒压抑的新觉察\",\"未区分哪些是来访者确认的认识、哪些是咨询师的假设\"]}",
+  "request_sha256": "8ac91199e74f0b3b5ac0ec3ed0d995fde09d67c68eaf04616441e85766c983ca",
+  "usage": {
+    "input_tokens": 8820,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 289,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9109,
+    "x_details": [
+      {
+        "input_tokens": 8820,
+        "output_tokens": 289,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9109,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.656
+}

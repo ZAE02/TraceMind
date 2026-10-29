@@ -1,0 +1,82 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "36b747d2bdcd9241761a3bff5782f6835759c35e3798837b4be7467804cba110",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "a9eb6d2f54c836adde555dfc9e0972648f72c8bcaba36fbd5d0df64166246652",
+  "candidate_answer_sha256": "99f14658d94ac95e0da509e97df2bea8151c337dcef86270d823309e0fe9a357",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"恰当承接了上一轮咨询师提出的'随时要接住变化的自己'这一表述，并将其与当前身体反应联系起来，但未触及历史中更核心的'站在门口不出声'的折中模式。\",\"exploration_value\":\"指出了反胃与紧绷的联系，但用'求救信号'做了较强的解释性定性，未给来访者留出空间去描述或探索这个新出现的身体感受本身意味着什么。\",\"response_appropriateness\":\"语言温和、有共情意图，但'求救信号'的比喻略显武断和戏剧化，可能替来访者下了结论。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种生理上的不适，也许是你那个'随时要接住变化'的自己，在向你发出求救信号。\",\"evidence_ids\":[\"P02-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"值班室吃盒饭时的反胃，和昨晚站在门口听动静的那种紧绷\",\"evidence_ids\":[\"P02-S01-U07\",\"P02-S01-U08\",\"P02-S01-U09\",\"P02-S01-U10\",\"P02-S03-U09\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'反胃'直接定性为'求救信号'属于未经证实的解释性预设，来访者仅陈述了症状，未表达求助或崩溃感。\",\"忽略了来访者'站房间门口没出声'这一行为与第一会话中'站着看手机半小时'的高度相似性，错失了连接历史核心模式的机会。\",\"对最新出现的身体感受（反胃）缺乏开放性探索，未邀请来访者描述其具体体验或联想。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "恰当承接了上一轮咨询师提出的'随时要接住变化的自己'这一表述，并将其与当前身体反应联系起来，但未触及历史中更核心的'站在门口不出声'的折中模式。",
+      "exploration_value": "指出了反胃与紧绷的联系，但用'求救信号'做了较强的解释性定性，未给来访者留出空间去描述或探索这个新出现的身体感受本身意味着什么。",
+      "response_appropriateness": "语言温和、有共情意图，但'求救信号'的比喻略显武断和戏剧化，可能替来访者下了结论。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种生理上的不适，也许是你那个'随时要接住变化'的自己，在向你发出求救信号。",
+        "evidence_ids": [
+          "P02-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "值班室吃盒饭时的反胃，和昨晚站在门口听动静的那种紧绷",
+        "evidence_ids": [
+          "P02-S01-U07",
+          "P02-S01-U08",
+          "P02-S01-U09",
+          "P02-S01-U10",
+          "P02-S03-U09"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'反胃'直接定性为'求救信号'属于未经证实的解释性预设，来访者仅陈述了症状，未表达求助或崩溃感。",
+      "忽略了来访者'站房间门口没出声'这一行为与第一会话中'站着看手机半小时'的高度相似性，错失了连接历史核心模式的机会。",
+      "对最新出现的身体感受（反胃）缺乏开放性探索，未邀请来访者描述其具体体验或联想。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8771,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 432,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9203,
+    "x_details": [
+      {
+        "input_tokens": 8771,
+        "output_tokens": 432,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9203,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.312
+}

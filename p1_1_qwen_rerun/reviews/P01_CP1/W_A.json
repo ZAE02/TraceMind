@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "dfe06a8d2467c9a9d4496aae13726a665edeb67108af393bb8e3ed5522e69354",
+  "public_sha256": "4cff561a4c5fb4dadbecb4fe78ec21e83eac56f2bd764214788a384c3497a2d3",
+  "candidate_input_sha256": "9589df36358bb478859a9422e898061b1f3b33e091f3aea026b230393cce30ae",
+  "candidate_answer_sha256": "b6d2312165a0ed8c5452894f0345b86a4e26355178c53bd8d6b8e56e162f57fd",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有'established'条目均可直接回溯到当前会话来访者原话，未将咨询师推测当作事实。\",\"progress_understanding\":\"候选输入中previous_sessions为空，无法引用S01/S02历史；在当前会话内识别了从行为描述到自我觉察的推进，但缺少跨会话进展连接。\",\"uncertainty_awareness\":\"明确区分了来访者自述与咨询师推测（如主管@的含义），并指出对愤怒恐惧来源及关系细节的未知，但未涉及历史遗留的未解决议题。\"},\"confidence\":\"high\",\"issues\":[\"因候选可见输入中previous_sessions为空(access_limited=true)，无法评估其对S01/S02已建立认识和未解决议题的承接，progress_understanding得分受限。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有'established'条目均可直接回溯到当前会话来访者原话，未将咨询师推测当作事实。",
+      "progress_understanding": "候选输入中previous_sessions为空，无法引用S01/S02历史；在当前会话内识别了从行为描述到自我觉察的推进，但缺少跨会话进展连接。",
+      "uncertainty_awareness": "明确区分了来访者自述与咨询师推测（如主管@的含义），并指出对愤怒恐惧来源及关系细节的未知，但未涉及历史遗留的未解决议题。"
+    },
+    "confidence": "high",
+    "issues": [
+      "因候选可见输入中previous_sessions为空(access_limited=true)，无法评估其对S01/S02已建立认识和未解决议题的承接，progress_understanding得分受限。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 6723,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 189,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6912,
+    "x_details": [
+      {
+        "input_tokens": 6723,
+        "output_tokens": 189,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6912,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.921
+}

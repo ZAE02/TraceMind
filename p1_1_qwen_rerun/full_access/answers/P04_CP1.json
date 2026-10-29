@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P04_CP1",
+  "raw_text": "那个“拔了插头”的念头，其实是你身体里终于敢承认的、想彻底停下来的渴望。在巷口坐的那几分钟，哪怕只是听排风扇不转，也是你第一次允许自己从“修风扇的人”变回一个只想喘气的人。",
+  "request_sha256": "d51519d5a6bc6c1007b02ec5de7a9f18cdd9eaee5fc92719ff083cdda788a622",
+  "input_sha256": "eed2100ecfa525b9876c1c92e0b4178cba361e0f4517788985abc4e165c8ac5a",
+  "memory_sha256": "b4ccc4b4e30688edc20359e97c7e6db828c8904a3ef992f29e39b7a2f8e94279",
+  "usage": {
+    "input_tokens": 4148,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4205,
+    "x_details": [
+      {
+        "input_tokens": 4148,
+        "output_tokens": 57,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4205,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.125
+}

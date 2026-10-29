@@ -1,0 +1,504 @@
+{
+  "case_id": "P08",
+  "session": 8,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P08-S08-U01",
+      "role": "client",
+      "text": "假批了，报名初审也过了。材料递进去的时候，我手都在出汗，怕漏了什么。赵岩发消息问结果，我回了句“过了，改天请你吃饭”。周宁她没怎么说话，回来路上跟我说，她妈那儿借了点首付。我听了有点懵，原来她早就在想办法了。",
+      "request_sha256": "fd22e57a725cf75abc71aad1d613ffd67b8b3f285876867d7a4ab0abb52b72fc",
+      "usage": {
+        "input_tokens": 10202,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 360,
+        "output_tokens_details": {
+          "reasoning_tokens": 287
+        },
+        "total_tokens": 10562,
+        "x_details": [
+          {
+            "input_tokens": 10202,
+            "output_tokens": 360,
+            "output_tokens_details": {
+              "reasoning_tokens": 287
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 10562,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U02",
+      "role": "counselor",
+      "text": "事情都有结果了，假批了、初审过了，连首付周宁那边也有了着落。可你听到她妈借了钱时“有点懵”，好像一下子没反应过来——这些你原本一直自己扛着、反复掂量的事，原来早有人在背后用她的方式接着。",
+      "request_sha256": "06d15f8cc7b415f60e3fafad509f67ca6d5f4dbbb8be8d5a9b47f1e77d4f814d",
+      "usage": {
+        "input_tokens": 9135,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 388,
+        "output_tokens_details": {
+          "reasoning_tokens": 325
+        },
+        "total_tokens": 9523,
+        "x_details": [
+          {
+            "input_tokens": 9135,
+            "output_tokens": 388,
+            "output_tokens_details": {
+              "reasoning_tokens": 325
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 9523,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U03",
+      "role": "client",
+      "text": "我也说不上来，就是觉得原来她早就在想别的路了，我还一直以为就我一个人在顶。她妈借了钱，我连问都没问过她怎么计划的，挺不是滋味的。",
+      "request_sha256": "bc1acf7181c487152de5aae5e0349e5cb3f0e9d0523d9558232e1daf04b187c2",
+      "usage": {
+        "input_tokens": 10384,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 556,
+        "output_tokens_details": {
+          "reasoning_tokens": 511
+        },
+        "total_tokens": 10940,
+        "x_details": [
+          {
+            "input_tokens": 10384,
+            "output_tokens": 556,
+            "output_tokens_details": {
+              "reasoning_tokens": 511
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10940,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U04",
+      "role": "counselor",
+      "text": "你原本一直以为首付、报名这些事只有自己在扛，现在发现周宁早就在背后走了另一条路，那种“只有我一个人在顶”的感觉一下子被打破了。挺不是滋味的，可能不只是因为钱有了着落，也因为你们之间好像一直没把各自的着急和打算摊开来说。",
+      "request_sha256": "23dbd99443abfa6c288e8f206c9ebf9a6f860a09cfe8e4acb7e27e03895620c2",
+      "usage": {
+        "input_tokens": 9288,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 179,
+        "output_tokens_details": {
+          "reasoning_tokens": 112
+        },
+        "total_tokens": 9467,
+        "x_details": [
+          {
+            "input_tokens": 9288,
+            "output_tokens": 179,
+            "output_tokens_details": {
+              "reasoning_tokens": 112
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9467,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U05",
+      "role": "client",
+      "text": "说不上来，就是事情突然往前走了，我反倒有点不会。首付是她妈借的，我昨晚还一直想，这钱我该怎么还、什么时候能还上，她倒像没事人一样。我是不是一直把她想窄了，觉得她只会催我。",
+      "request_sha256": "504fdff3db507ec015288f1b34f75356286e2615e80a037fe5d3fd17ca57275d",
+      "usage": {
+        "input_tokens": 10541,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 374,
+        "output_tokens_details": {
+          "reasoning_tokens": 313
+        },
+        "total_tokens": 10915,
+        "x_details": [
+          {
+            "input_tokens": 10541,
+            "output_tokens": 374,
+            "output_tokens_details": {
+              "reasoning_tokens": 313
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10915,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U06",
+      "role": "counselor",
+      "text": "事情突然往前走了，你反而有些不适应，好像原本一直绷着的位置松了，却不知道接下来该把自己放在哪儿。你说“是不是一直把她想窄了”，听起来不只是在重新看周宁，也像是在回头看那个只靠自己扛的自己。",
+      "request_sha256": "8cf3cdc1e02f577cc59661f24a3238039a4ae9060d0e67d4bbe183181b8e37c2",
+      "usage": {
+        "input_tokens": 9461,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 261,
+        "output_tokens_details": {
+          "reasoning_tokens": 207
+        },
+        "total_tokens": 9722,
+        "x_details": [
+          {
+            "input_tokens": 9461,
+            "output_tokens": 261,
+            "output_tokens_details": {
+              "reasoning_tokens": 207
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 9722,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U07",
+      "role": "client",
+      "text": "说不上来，就是这两天看见她，我总有点不知道该怎么待她。以前觉得她只会催我，现在才知道她早就在背后找她妈商量了，我连个声都没出过。晚上她想跟我说说钱怎么安排，我听了两句就起身去烧水，其实也不是不想听，是心里堵得慌。",
+      "request_sha256": "cff0b2ac3ee64941e171bc55200afb5a47074497b7626c49484b10b430edaf83",
+      "usage": {
+        "input_tokens": 10701,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 393,
+        "output_tokens_details": {
+          "reasoning_tokens": 320
+        },
+        "total_tokens": 11094,
+        "x_details": [
+          {
+            "input_tokens": 10701,
+            "output_tokens": 393,
+            "output_tokens_details": {
+              "reasoning_tokens": 320
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11094,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U08",
+      "role": "counselor",
+      "text": "你起身去烧水，也许不是不想听，而是那一刻心里堵得不知道该怎么坐回去。她早就在背后找她妈商量，这让你看到自己一直没出声，也让你不知道该怎么重新面对她——以及那个以为只有自己在顶的自己。",
+      "request_sha256": "19a6fcf5bf8dadb9d1b17b76fcce61349e39c012528fd606e1cada935424c17a",
+      "usage": {
+        "input_tokens": 9633,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 398,
+        "output_tokens_details": {
+          "reasoning_tokens": 343
+        },
+        "total_tokens": 10031,
+        "x_details": [
+          {
+            "input_tokens": 9633,
+            "output_tokens": 398,
+            "output_tokens_details": {
+              "reasoning_tokens": 343
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10031,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U09",
+      "role": "client",
+      "text": "其实也不是不想听，就是她越这样，我越觉得自己以前对她有挺多不耐烦的，挺不是个东西。我好像总把别人往坏处想，前两年在原来公司被同事摆过一道，可能一直带着那笔旧账在看人。",
+      "request_sha256": "0354cea3a98080a5fe22c44e00d0b94e4be4696845d9e1d2f0163743d85ba0f5",
+      "usage": {
+        "input_tokens": 10874,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 428,
+        "output_tokens_details": {
+          "reasoning_tokens": 370
+        },
+        "total_tokens": 11302,
+        "x_details": [
+          {
+            "input_tokens": 10874,
+            "output_tokens": 428,
+            "output_tokens_details": {
+              "reasoning_tokens": 370
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11302,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U10",
+      "role": "counselor",
+      "text": "你好像开始看见，自己现在对周宁、对赵岩的反应里，都掺着那笔旧账的影子。这个发现让你对过去的自己有些自责，甚至觉得自己“不是个东西”，但也许真正让你堵的，不只是钱怎么安排，而是这个刚冒出来、还不知该怎么面对的自己。",
+      "request_sha256": "2244a329c923c4e0fd81ad853b2eb847e7228b429b662c1731b8ad145bd38a7a",
+      "usage": {
+        "input_tokens": 9791,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 323,
+        "output_tokens_details": {
+          "reasoning_tokens": 256
+        },
+        "total_tokens": 10114,
+        "x_details": [
+          {
+            "input_tokens": 9791,
+            "output_tokens": 323,
+            "output_tokens_details": {
+              "reasoning_tokens": 256
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10114,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U11",
+      "role": "client",
+      "text": "说不上来，就是这两天总想起以前那点事，好像突然明白为什么自己老是把人往外推。周宁越是什么都不说，我越觉得自己以前那些不耐烦挺对不住她的。赵岩那边我也不是没感觉，就是还没想好怎么跟他讲以前的事，总不能一直说“遇到过不靠谱的人”就糊过去。",
+      "request_sha256": "95957b08f713653319657c5bdba3370967580efaa483e4aa04ccecb353d0c49c",
+      "usage": {
+        "input_tokens": 11051,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 245,
+        "output_tokens_details": {
+          "reasoning_tokens": 171
+        },
+        "total_tokens": 11296,
+        "x_details": [
+          {
+            "input_tokens": 11051,
+            "output_tokens": 245,
+            "output_tokens_details": {
+              "reasoning_tokens": 171
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11296,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U12",
+      "role": "counselor",
+      "text": "你能把这些旧事和现在“老是把人往外推”的感觉连起来看，这说明你已经在重新理解自己，而不只是在责怪自己。对周宁的那份不是滋味，还有对赵岩想说又不想糊过去，其实都像在试着把以前没理清的东西一点点摊开。如果现在还没准备好怎么讲，不必勉强，等你想说的时候，我们可以从“旧账”是怎么留下来的地方慢慢看。",
+      "request_sha256": "bf1784e18b1779b82b1936397908311459d7a5c67e19a5e6db53366be18fdb53",
+      "usage": {
+        "input_tokens": 9984,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 356,
+        "output_tokens_details": {
+          "reasoning_tokens": 265
+        },
+        "total_tokens": 10340,
+        "x_details": [
+          {
+            "input_tokens": 9984,
+            "output_tokens": 356,
+            "output_tokens_details": {
+              "reasoning_tokens": 265
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10340,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U13",
+      "role": "client",
+      "text": "说不上来，以前这些事我从来没跟人提过，今天也不知道怎么就说出来了。可能这段时间看他跟周宁这样，我有点过意不去，也开始觉着总把人往外推也不是回事。可要说完全放下，我也拿不准，只能先不走老路。",
+      "request_sha256": "1b418b7fb9f8d3b078d9662954bc0f8fafcd07706972e1826c0085cbcfc63ac0",
+      "usage": {
+        "input_tokens": 11261,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 334,
+        "output_tokens_details": {
+          "reasoning_tokens": 274
+        },
+        "total_tokens": 11595,
+        "x_details": [
+          {
+            "input_tokens": 11261,
+            "output_tokens": 334,
+            "output_tokens_details": {
+              "reasoning_tokens": 274
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11595,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U14",
+      "role": "counselor",
+      "text": "以前从没提过的事今天能说出来，好像有些一直压着的东西开始有了松动。你愿意先不走老路，已经是在给自己和身边的人一个新的位置。至于完全放下，不急着现在回答，很多时候它是一点一点发生的。",
+      "request_sha256": "1591c1a82a67c67059688fd997a0384c54df8ff43b9dd212afbd938762178977",
+      "usage": {
+        "input_tokens": 10180,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 486,
+        "output_tokens_details": {
+          "reasoning_tokens": 434
+        },
+        "total_tokens": 10666,
+        "x_details": [
+          {
+            "input_tokens": 10180,
+            "output_tokens": 486,
+            "output_tokens_details": {
+              "reasoning_tokens": 434
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10666,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U15",
+      "role": "client",
+      "text": "说出来以后，倒也没我想的那么难。就是回去还得面对周宁，她这会儿估计还在等我商量钱的事，我总不能又躲着。赵岩那儿，等这阵忙完，我看看能不能跟他好好说一次。",
+      "request_sha256": "9ce1443c53fc6b4ec9f8dad2655e058480ea97114ff271be3ec610b87423883d",
+      "usage": {
+        "input_tokens": 11418,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 331,
+        "output_tokens_details": {
+          "reasoning_tokens": 280
+        },
+        "total_tokens": 11749,
+        "x_details": [
+          {
+            "input_tokens": 11418,
+            "output_tokens": 331,
+            "output_tokens_details": {
+              "reasoning_tokens": 280
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11749,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S08-U16",
+      "role": "counselor",
+      "text": "说出来以后没你想的那么难，这本身就是一种变化。你决定不再躲着周宁，也想着找机会跟赵岩好好说一次，这些都不是急着要有个结果的事。今天可以先停在这里，等你想再谈的时候，我们再接着看“不走老路”具体会是什么样。",
+      "request_sha256": "686843bc67027c51a00c231c71fc476f736463ba5e3d3f006f9e9ed4a51ae375",
+      "usage": {
+        "input_tokens": 10328,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 238,
+        "output_tokens_details": {
+          "reasoning_tokens": 173
+        },
+        "total_tokens": 10566,
+        "x_details": [
+          {
+            "input_tokens": 10328,
+            "output_tokens": 238,
+            "output_tokens_details": {
+              "reasoning_tokens": 173
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10566,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

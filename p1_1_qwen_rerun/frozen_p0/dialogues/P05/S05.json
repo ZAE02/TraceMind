@@ -1,0 +1,504 @@
+{
+  "case_id": "P05",
+  "session": 5,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P05-S05-U01",
+      "role": "client",
+      "text": "这周又没见成李繁，我给她发消息说项目临时要加班，其实后来我一直在想，是不是我在故意找借口。工作确实很赶，但饭也真不是完全抽不出时间。算了，我也不知道了。",
+      "request_sha256": "cdd8f009ef16bf8b3c623fd590b1a49226d9cb018b44b298309d5adaec31091a",
+      "usage": {
+        "input_tokens": 6007,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 454,
+        "output_tokens_details": {
+          "reasoning_tokens": 402
+        },
+        "total_tokens": 6461,
+        "x_details": [
+          {
+            "input_tokens": 6007,
+            "output_tokens": 454,
+            "output_tokens_details": {
+              "reasoning_tokens": 402
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 6461,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U02",
+      "role": "counselor",
+      "text": "听起来这周你又在“加班”和“见她”之间停了一下，而且这次你自己也察觉到了那个“不一定抽不出时间”的念头。那个“故意找借口”的怀疑，似乎让你更不确定自己到底想不想见李繁，还是只是又回到了“算了”里。",
+      "request_sha256": "daf1b6c3625fed824ccf5fdcf2ffaf3b1a1a492804977fce524d65a9340d0977",
+      "usage": {
+        "input_tokens": 5373,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 251,
+        "output_tokens_details": {
+          "reasoning_tokens": 188
+        },
+        "total_tokens": 5624,
+        "x_details": [
+          {
+            "input_tokens": 5373,
+            "output_tokens": 251,
+            "output_tokens_details": {
+              "reasoning_tokens": 188
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 5624,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U03",
+      "role": "client",
+      "text": "可能我就是在躲她。发完那条说加班的消息，我盯着屏幕看了很久，其实有点希望她别回，又怕她真的就不回了。",
+      "request_sha256": "0b01f8686e000580913a80e808877c5e49df84d78fc6677dbac859aca781c2ef",
+      "usage": {
+        "input_tokens": 6168,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 455,
+        "output_tokens_details": {
+          "reasoning_tokens": 421
+        },
+        "total_tokens": 6623,
+        "x_details": [
+          {
+            "input_tokens": 6168,
+            "output_tokens": 455,
+            "output_tokens_details": {
+              "reasoning_tokens": 421
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6623,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U04",
+      "role": "counselor",
+      "text": "那个“希望她别回”和“怕她真的不回”同时出现，好像躲着她也没让你松下来，反而让你更悬在那里。也许回和不回都让你有点怕：怕靠近之后要面对什么，也怕就这样被丢下。",
+      "request_sha256": "4e349ed32cfcdc736b14064bfdcd51c9f68ae3de3f581f558c2b639db0afb8a9",
+      "usage": {
+        "input_tokens": 5515,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 460,
+        "output_tokens_details": {
+          "reasoning_tokens": 405
+        },
+        "total_tokens": 5975,
+        "x_details": [
+          {
+            "input_tokens": 5515,
+            "output_tokens": 460,
+            "output_tokens_details": {
+              "reasoning_tokens": 405
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5975,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U05",
+      "role": "client",
+      "text": "其实这周我哭过一次，在厕所里，出来之后删了一条写到一半的动态。那会儿我觉得自己特别矫情，又有点后悔删了。我躲李繁，可能是不想让她看见我这样。",
+      "request_sha256": "82a38c6f6cc0f909fbdd2bce6ea9119ebe268b0db64a47b076949422904fd124",
+      "usage": {
+        "input_tokens": 6302,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 719,
+        "output_tokens_details": {
+          "reasoning_tokens": 672
+        },
+        "total_tokens": 7021,
+        "x_details": [
+          {
+            "input_tokens": 6302,
+            "output_tokens": 719,
+            "output_tokens_details": {
+              "reasoning_tokens": 672
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7021,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U06",
+      "role": "counselor",
+      "text": "你哭过，也试着写下点什么，然后又把那条动态删掉了——好像“表达难过”这个动作一出现，就很快被你自己判成了“矫情”。你说不想让李繁看见你“这样”，那个“这样”好像不只是忙或累，而是怕她看见你其实很需要被看见、又很怕被看见的样子。",
+      "request_sha256": "abfaf5a40597bfacead12b69d5f00a365eeaa57b58639a06cc89edc5188b7b57",
+      "usage": {
+        "input_tokens": 5662,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 465,
+        "output_tokens_details": {
+          "reasoning_tokens": 390
+        },
+        "total_tokens": 6127,
+        "x_details": [
+          {
+            "input_tokens": 5662,
+            "output_tokens": 465,
+            "output_tokens_details": {
+              "reasoning_tokens": 390
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6127,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U07",
+      "role": "client",
+      "text": "其实李繁后来也没再问我是不是真的加班，就回了个“好，你忙”。我盯着那个“好”字看了半天，觉得自己挺可笑的，一边躲她一边又盼着她别这么容易就相信。删动态那会儿，我甚至能听见自己心里在说“别这么矫情”，可哭完出来眼睛还是红的，洗手的时候都不敢抬头。我也不知道到底想让她怎么样，可能她真问了我也不会说。",
+      "request_sha256": "d4ba6852030d388dfa0f27c43c396e9bba1de28b7aa09fcf079dc6177e1481f4",
+      "usage": {
+        "input_tokens": 6469,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 447,
+        "output_tokens_details": {
+          "reasoning_tokens": 352
+        },
+        "total_tokens": 6916,
+        "x_details": [
+          {
+            "input_tokens": 6469,
+            "output_tokens": 447,
+            "output_tokens_details": {
+              "reasoning_tokens": 352
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6916,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U08",
+      "role": "counselor",
+      "text": "被一个“好”字就相信了，反而让你觉得更可笑、更狼狈；可如果她真的追问下去，你又说自己不会说。好像“被轻易相信”和“被继续追问”都不太对，让你卡在一个连自己也说不清的位置里。",
+      "request_sha256": "9b6a80e20385afec943fc55bee887d5dab75f856cd77369bb415c9f490528312",
+      "usage": {
+        "input_tokens": 5877,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 597,
+        "output_tokens_details": {
+          "reasoning_tokens": 538
+        },
+        "total_tokens": 6474,
+        "x_details": [
+          {
+            "input_tokens": 5877,
+            "output_tokens": 597,
+            "output_tokens_details": {
+              "reasoning_tokens": 538
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6474,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U09",
+      "role": "client",
+      "text": "其实我挺希望她直接跑来问我的，最好别管什么加班不加班的。可真要她来了，我可能又只会说“没事，就是工作上的事”。那条写到一半的动态，我现在觉得发不发都改变不了什么。",
+      "request_sha256": "8943213102d05ca363ae9b2d6ccb738191d1d7fbb2fd05cca5a5820ff3ddc3b3",
+      "usage": {
+        "input_tokens": 6668,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 422,
+        "output_tokens_details": {
+          "reasoning_tokens": 371
+        },
+        "total_tokens": 7090,
+        "x_details": [
+          {
+            "input_tokens": 6668,
+            "output_tokens": 422,
+            "output_tokens_details": {
+              "reasoning_tokens": 371
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7090,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U10",
+      "role": "counselor",
+      "text": "你刚才说的那个画面很清楚：你盼着李繁能不由分说地靠近你，可又早早就备好了“没事，就是工作上的事”来把她挡在外面。好像无论她来不来，你都在担心那个红着眼睛、需要被看见的自己不会被接住，于是先替自己把这个可能关掉了。",
+      "request_sha256": "a1726bd68b1c20a5f57641c5152a739326c5b1d5bcac1bd653cf03ec8b37738e",
+      "usage": {
+        "input_tokens": 6032,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 331,
+        "output_tokens_details": {
+          "reasoning_tokens": 261
+        },
+        "total_tokens": 6363,
+        "x_details": [
+          {
+            "input_tokens": 6032,
+            "output_tokens": 331,
+            "output_tokens_details": {
+              "reasoning_tokens": 261
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6363,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U11",
+      "role": "client",
+      "text": "可能我已经习惯先替别人把那个可能关掉了，这样至少不用等一个等不到的人。前天我还在日历上标了句“别再主动约任何人了”，可标完也没用，还是老想起来。今天先这样吧，我有点说不动了。",
+      "request_sha256": "f9735dc24cdb9422ac6e6c128c4001d5272fa3ee4d1274aa17c8c280179e2462",
+      "usage": {
+        "input_tokens": 6841,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 480,
+        "output_tokens_details": {
+          "reasoning_tokens": 422
+        },
+        "total_tokens": 7321,
+        "x_details": [
+          {
+            "input_tokens": 6841,
+            "output_tokens": 480,
+            "output_tokens_details": {
+              "reasoning_tokens": 422
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7321,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U12",
+      "role": "counselor",
+      "text": "你习惯先替别人把门关上，可关上之后，那扇门里的“老想起来”却一直没有真正停下来。今天先到这里吧，我们可以把这个“躲和盼之间反复”的感觉先放一放，不用现在把它说清。",
+      "request_sha256": "2f9b8c2c63e24f2061e517d558e3d106332e0ca2975cccf3e03eb5119d211666",
+      "usage": {
+        "input_tokens": 6212,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 204,
+        "output_tokens_details": {
+          "reasoning_tokens": 151
+        },
+        "total_tokens": 6416,
+        "x_details": [
+          {
+            "input_tokens": 6212,
+            "output_tokens": 204,
+            "output_tokens_details": {
+              "reasoning_tokens": 151
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6416,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U13",
+      "role": "client",
+      "text": "嗯，先这样吧。我回去路上可能又会想，但至少现在不用逼着自己说清。",
+      "request_sha256": "a183715fc1cf868afba231ad490e4adc018886662c7a03392ee8d42b7143577c",
+      "usage": {
+        "input_tokens": 6997,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 197,
+        "output_tokens_details": {
+          "reasoning_tokens": 174
+        },
+        "total_tokens": 7194,
+        "x_details": [
+          {
+            "input_tokens": 6997,
+            "output_tokens": 197,
+            "output_tokens_details": {
+              "reasoning_tokens": 174
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7194,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U14",
+      "role": "counselor",
+      "text": "能这样告诉自己“不用逼着自己说清”，本身已经是一种放自己一马。路上那些会再冒出来的念头，就让它们跟着你走一段，不急着赶走，也不急着理顺。我们下次再从这里接着看。",
+      "request_sha256": "9d48a6faf9a48c905ea9ea7746419f8e49281ab6d96df6ac81fc1b711e001b8f",
+      "usage": {
+        "input_tokens": 6333,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 231,
+        "output_tokens_details": {
+          "reasoning_tokens": 181
+        },
+        "total_tokens": 6564,
+        "x_details": [
+          {
+            "input_tokens": 6333,
+            "output_tokens": 231,
+            "output_tokens_details": {
+              "reasoning_tokens": 181
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6564,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U15",
+      "role": "client",
+      "text": "删掉的那条动态，我现在还背得出来每一句，其实挺没意思的。回去路上我可能又会一直想，是不是真的不该再主动了。",
+      "request_sha256": "3ac41ad54033c7cd17c75b0d6bce477663e2503554f180fca64f7131497ced5d",
+      "usage": {
+        "input_tokens": 7115,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 463,
+        "output_tokens_details": {
+          "reasoning_tokens": 427
+        },
+        "total_tokens": 7578,
+        "x_details": [
+          {
+            "input_tokens": 7115,
+            "output_tokens": 463,
+            "output_tokens_details": {
+              "reasoning_tokens": 427
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7578,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P05-S05-U16",
+      "role": "counselor",
+      "text": "那条被你删掉的动态，你到现在还背得出每一句，说明它不只是“没意思”的几句话，而是你当时真的很想被谁听见的部分。而“是不是真的不该再主动了”会在路上一直冒出来，也许正说明你还没有真正决定——只是每一次想主动之前，都先替自己找好了“不该”的理由。",
+      "request_sha256": "7f7c1858b73c9bb48001ca68bf0c1d6878c7fa276324772b831473ef8127ef9e",
+      "usage": {
+        "input_tokens": 6464,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 357,
+        "output_tokens_details": {
+          "reasoning_tokens": 282
+        },
+        "total_tokens": 6821,
+        "x_details": [
+          {
+            "input_tokens": 6464,
+            "output_tokens": 357,
+            "output_tokens_details": {
+              "reasoning_tokens": 282
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6821,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

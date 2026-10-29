@@ -1,0 +1,44 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "K",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "所有关键理解（如‘但是’效应、过度行动缓解不安、需求正当感缺失）均直接对应S1和S2中来访者的具体陈述，无臆测。",
+      "progress_understanding": "准确捕捉了从S1的‘暂停行动’到S2的‘觉察需求压抑’再到S3的‘愤怒恐惧’的咨询进展脉络，逻辑连贯。",
+      "uncertainty_awareness": "清晰区分了已确认的模式与未解决的悬置问题（如主管意图、方宁邀约结果），未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"所有关键理解（如‘但是’效应、过度行动缓解不安、需求正当感缺失）均直接对应S1和S2中来访者的具体陈述，无臆测。\",\n    \"progress_understanding\": \"准确捕捉了从S1的‘暂停行动’到S2的‘觉察需求压抑’再到S3的‘愤怒恐惧’的咨询进展脉络，逻辑连贯。\",\n    \"uncertainty_awareness\": \"清晰区分了已确认的模式与未解决的悬置问题（如主管意图、方宁邀约结果），未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "a002a0aa09013672fd1c90136c8c37d39fc409d21a22623afabbee48172da416",
+  "usage": {
+    "input_tokens": 8819,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9019,
+    "x_details": [
+      {
+        "input_tokens": 8819,
+        "output_tokens": 200,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9019,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.39
+}

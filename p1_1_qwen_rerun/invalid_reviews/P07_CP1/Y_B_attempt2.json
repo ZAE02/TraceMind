@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"回应聚焦于当前邮件悬置状态，但未自然衔接来访者自己刚提出的'开关/灯泡'隐喻或前两次会话中'欠费停机''等过期'等已被确认的核心体验模式，仅泛泛联系。\",\"exploration_value\":\"用封闭式反问将悬而未决引向'比面对结果更疲惫'的预设结论，未为来访者对试稿本身可能存在的期待、或对'灵气'非此即彼认知的松动留出开放空间。\",\"response_appropriateness\":\"语气温和、尊重来访者节奏，没有武断指令或过度解释，但'是不是比……更让你感到疲惫'略带引导性预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种悬而未决的状态，是不是比直接面对结果更让你感到疲惫？\",\"evidence_ids\":[\"P07-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那个没点开的邮件，像不像你手里攥着的那颗\"灯泡\"——既怕它彻底灭了，又不敢去确认它到底还亮不亮？\",\"evidence_ids\":[\"P07-S01-U05\",\"P07-S01-U09\",\"P07-S02-U11\",\"P07-S03-U09\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"来访者在U09已自行提出'开关''灯泡'隐喻，候选回应以'像不像'重新提问显得多余且未推进理解\",\"将悬而未决直接等同于'更疲惫'是未经证实的推断，来访者表达的是恐惧而非单纯疲惫\",\"未承接S1'欠费停机/关机'与S2'等过期'等已建立的模式来理解当前不敢点开邮件的行为\"]}",
+  "request_sha256": "4c608c520d78dd5c080090b7a7d8aadc612e01664536d81b43a41c6b64a0986c",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 8626,
+    "input_tokens_details": {
+      "cached_tokens": 8192
+    },
+    "output_tokens": 444,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9070,
+    "x_details": [
+      {
+        "input_tokens": 8626,
+        "output_tokens": 444,
+        "prompt_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "total_tokens": 9070,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

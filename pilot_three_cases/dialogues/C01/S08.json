@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 8,
+  "relative_week": 8,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6-luna/low",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:55:30.377475+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C01-S08-U06",
+          "C01-S08-U08",
+          "C01-S08-U10"
+        ],
+        "explanation": "围绕‘再碰一次’连续细问，U08用之前停不下来来比较，U10又给出占地方大小的二选一，略显追踪和引导。来访者仍能补充这次已合上、能继续做事的差异，未造成严重误解。"
+      },
+      {
+        "utterance_ids": [
+          "C01-S08-U12",
+          "C01-S08-U14"
+        ],
+        "explanation": "U12把尚未确认的体验概括成自己给它留了位置，U14又较快总结为这周没那么满；这是咨询师的理解，不能当作来访者确认的心理机制或整体改善。"
+      }
+    ],
+    "transcript_sha256": "de1cb60a65d1c00860776032a8fd184d519f6493069fac0198209e1accaf67e3"
+  },
+  "created_at": "2026-10-12T12:57:59.207328+00:00",
+  "config_hash": "ec9e61019241a6fe8ed22eb9510f5e6c0fff1c1278bb736c3a4ae1cf48e52cfc",
+  "prompt_version": "pilot-v8-world-state-and-role-reasoning",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v8-world-state-and-role-reasoning",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。保留来访者最新修正和事件状态；尚未做的事情不写成已做。不确定仍可以依据具体历史继续探索，不预设必须有困扰。",
+    "counselor_process_instruction": "请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。来访者修正了你的解释，后续应采用修正，不再把旧说法作为事实。不确定仍可以用已经公开的具体例子继续探索，不能反复以一次定不了结束讨论。先了解来访者此时想谈什么，不预设他一定苦恼或已经完全改变。",
+    "role_reasoning_effort": {
+      "client": "low",
+      "counselor": "medium"
+    },
+    "client_process_instruction": "只输出本轮来访者1–4句实际发言。这是同一场连续谈话，角色没有离开会话去执行工作。你刚说尚未做、打算做的事情，在本场仍未做；被问结果时说明未做，不为配合问话编造已经运行、已验证或新结果。保持当前卡片人物和事件事实，可不同意咨询师。回顾此前会话的生活事件时，优先用之前那次、上次聊过的，不要直接把旧对话的这周、上周当成当前周；会话通常相隔一周。不要给出角色说明。"
+  },
+  "utterances": [
+    {
+      "id": "C01-S08-U01",
+      "role": "client",
+      "text": "周四展示那天……周姐和小许都看了，没提什么大的问题，就是小许说了一个小地方可以调，我当场就改了。\n\n但这周有个新项目，周姐给了两条修改建议，我晚上改到挺晚的，第二天早上又打开看了一下。",
+      "call_id": "c077cb2c60c54b88945cb086a92750dc",
+      "response_id": "resp_6b6a8d6f-fe73-91f1-bf28-9c17aa5a9af1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:58:13.824517+00:00"
+    },
+    {
+      "id": "C01-S08-U02",
+      "role": "counselor",
+      "text": "周四当场改了就过了，这个结果你自己也看到了。新项目那两条，第二天早上打开看了一下，是看了就合上了，还是又动了？",
+      "call_id": "97e7bea17d4e4fb68a74cb25a4a805ee",
+      "response_id": "resp_4beaaf48-71ed-93e7-a896-f68830ce2cdb",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:58:43.691546+00:00"
+    },
+    {
+      "id": "C01-S08-U03",
+      "role": "client",
+      "text": "早上打开之后……又动了一小点，就是其中一条那个间距，我觉得晚上改完好像还是差一点，又拉了大概两像素。改完看了一眼，觉得差不多了就合上了。\n\n但合上之后那个感觉……说不上来，就是不是\"改好了\"，更像是\"先这样吧\"。",
+      "call_id": "ed6250e29bc146cbbf50d7999553ceab",
+      "response_id": "resp_4aa0d6c9-11eb-9487-a080-c3cb12f17504",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:58:55.363332+00:00"
+    },
+    {
+      "id": "C01-S08-U04",
+      "role": "counselor",
+      "text": "周四当场改完就过了，这周新项目改到挺晚，早上拉了两像素就合上了。合上之后那个感觉，你当时脑子里在过什么？",
+      "call_id": "a76ceeb9781d4fd088569b877289644f",
+      "response_id": "resp_d135fc4b-8db9-9b8a-8100-9fc61c43a10d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:00:21.168998+00:00"
+    },
+    {
+      "id": "C01-S08-U05",
+      "role": "client",
+      "text": "合上之后……好像也没在想那个文件，就是该干嘛干嘛了。但那个\"先这样吧\"一直在，就是……不是惦记着那个间距，是觉得这件事还没真正结束，后面可能还得再碰一次。\n\n具体在想什么也说不太清，就是那个\"后面还得再碰\"的感觉，比那个间距本身更占地方。",
+      "call_id": "abbc1b03ffff47a6ab3a89190a94abdb",
+      "response_id": "resp_4df9fa6e-c79c-90de-96bb-d6a178339925",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:00:33.658863+00:00"
+    },
+    {
+      "id": "C01-S08-U06",
+      "role": "counselor",
+      "text": "周四改完人都在，那个页面就过了。这次是晚上自己改的，早上拉了两像素合上，那个后面还得再碰的感觉就留下来了。那个再碰，你脑子里有没有个大概的方向，还是就是得再打开一次但具体干嘛还没想好？",
+      "call_id": "16505309a35e4ef0a522dcfd04d09a48",
+      "response_id": "resp_7088c02d-6da2-9c18-8abb-6ad3860ad44b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:01:38.588005+00:00"
+    },
+    {
+      "id": "C01-S08-U07",
+      "role": "client",
+      "text": "方向的话……好像没有。就是知道那个间距可能还得再看一下，但具体看什么、调到哪儿算对，我其实没想好。\n\n跟周四那个不一样，周四小许说的是\"这里可以调\"，我当场就知道往哪儿拉。这次是我自己觉得\"差一点\"，那个\"一点\"到底是多少，我说不出来。",
+      "call_id": "618981facdbd47749173c2071d0ae192",
+      "response_id": "resp_e6b67818-6b1d-91bf-adf4-31c4c4abc27d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:01:51.149813+00:00"
+    },
+    {
+      "id": "C01-S08-U08",
+      "role": "counselor",
+      "text": "周四那个有落点，往那儿拉就完了。这次这个差一点是你自己的，没有谁标一个位置，拉了两像素也不知道到没到。那个先这样吧，跟之前停不下来比起来，待着的感觉不太一样吗？",
+      "call_id": "249676f7027846aa8e80bc832bb8038d",
+      "response_id": "resp_392257ec-f9dc-994e-bce6-45c5383faa88",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:02:27.732536+00:00"
+    },
+    {
+      "id": "C01-S08-U09",
+      "role": "client",
+      "text": "可能……不太一样吧。之前那个\"停不下来\"是手在动，眼睛走不开，人是被拽着的。这次我确实合上了，该干嘛干嘛了，手没在动。\n\n但那个\"先这样吧\"……就是知道还没完，但也不知道完是什么标准。跟之前那个\"差一点\"好像……底下一个东西，但这次我没被拽着走，就是它搁在那儿了。",
+      "call_id": "6b86de114c76475eb9d338cb98c42d88",
+      "response_id": "resp_07af64b1-8248-9999-a2c9-7f8b2bf17ff3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:02:40.740962+00:00"
+    },
+    {
+      "id": "C01-S08-U10",
+      "role": "counselor",
+      "text": "你合上了、手没动、该干嘛干嘛了，但它没走，就搁在那儿——这个跟之前被拽着确实不一样。那个搁着的时候，它占的地方大吗，还是就是知道它在那儿，手头的事基本还能正常推？",
+      "call_id": "97e44bd4ab6341eda65d312716f6ed4f",
+      "response_id": "resp_4bde3ed4-7164-978f-8185-c76f5d4db99d",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:02:54.903774+00:00"
+    },
+    {
+      "id": "C01-S08-U11",
+      "role": "client",
+      "text": "占的地方……不大，就是知道它在那儿。手头的事基本能推，但偶尔眼睛扫到那个文件图标的时候，会顿一下，就是\"哦，那个还没完\"。\n\n然后也就一下，没再打开。但那个\"一下\"好像比之前少了，之前是打开就出不来，这次就是……瞄一眼又回去了。",
+      "call_id": "f4c87df313414ade8d96cb48486dba9f",
+      "response_id": "resp_68d9c255-4fc1-9679-a602-47762ed5dc61",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:03:07.459678+00:00"
+    },
+    {
+      "id": "C01-S08-U12",
+      "role": "counselor",
+      "text": "之前打开就出不来，这次瞄一眼又回去了，这个区别你自己分得挺清楚的。那个先这样吧，好像不是把它解决了，是你自己给它留了个位置，知道它在那儿，但手没再伸过去。这周除了这个新项目的间距，还有别的东西在转吗？",
+      "call_id": "771f46fd48bd41508967c108b1b49446",
+      "response_id": "resp_df14eefb-c61c-9c2e-84ee-a2d46323bdad",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:03:46.595350+00:00"
+    },
+    {
+      "id": "C01-S08-U13",
+      "role": "client",
+      "text": "这周组里讨论的时候有一次我直接说了那个版式为什么这么排，说完就过了，没再回头检查。就是……跟上次小许那个圆角一样，说完就放下了。\n\n晚上还是偶尔会那样，但好像没前两周那么频繁。主要就那个新项目的间距搁在那儿。",
+      "call_id": "c661455bfe274b1c89a5603bdec56c1f",
+      "response_id": "resp_6e88311e-a816-9995-a515-cd2665f52dc7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:04:00.065209+00:00"
+    },
+    {
+      "id": "C01-S08-U14",
+      "role": "counselor",
+      "text": "组里说完就过了，没再回头，你自己也把它跟上次小许那个连起来了。那个间距搁在那儿，手没伸过去，该干嘛干嘛了，偶尔瞄一下又回去了——这周好像没前几周那么满。还有别的想聊的吗？",
+      "call_id": "65225d6392f94675be15906649c2f91c",
+      "response_id": "resp_ef43885e-8cdf-910f-86e0-7124b8b06d90",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:04:33.581546+00:00"
+    },
+    {
+      "id": "C01-S08-U15",
+      "role": "client",
+      "text": "没什么别的……就是那个间距，我明天白天可能还会打开看一眼，到时候看情况吧。\n\n这周确实没前几周那么满，晚上也没怎么转。那我先这样，下次见。",
+      "call_id": "e4f5d99450d44c7fa4a90db37aee95a2",
+      "response_id": "resp_8ec79962-4880-9b1d-a9f1-ef45f524af48",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:04:48.187368+00:00"
+    },
+    {
+      "id": "C01-S08-U16",
+      "role": "counselor",
+      "text": "明天看一眼，到时候看情况，不用现在定好看到什么。下次见。",
+      "call_id": "474ac11e554648d19e5a5314d06a167d",
+      "response_id": "resp_fa12fecd-0a74-919c-b4e1-2bd800a7657b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T13:05:04.538293+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T13:05:04.538293+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-12T13:05:04.540294+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 8
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C01/S08.json"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "4219b930a8917cf5ed3180648f45d6cb7f61a2b361e4e9dd9e6b893244d02e23",
+  "request_sha256": "cbacccbeb1ab74a02b6cd5f7eeef55656047be24f2c7e3d43375dfacf5ccafb3",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你心里那把尺子悬着，连他一个眼神都能让你马上解释，好像不把“监工”的样子藏起来，就会暴露自己其实已经累到需要被照顾。那个“这边有点卷”补上去的瞬间，你更怕的是他看出什么？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 905,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 58,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 963,
+    "x_details": [
+      {
+        "input_tokens": 905,
+        "output_tokens": 58,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 963,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

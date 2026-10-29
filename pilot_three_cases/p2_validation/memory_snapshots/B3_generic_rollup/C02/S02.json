@@ -1,0 +1,103 @@
+{
+  "method": "B3_generic_rollup",
+  "case_id": "C02",
+  "last_completed_session": 2,
+  "state": {
+    "entries": [
+      {
+        "text": "来访者核心模式（更新）：别人一开口就容易先说\"行\"，\"不行\"还没成形嘴就先回答了。本次新增具体机制：周三赵哥说\"如果你方便的话\"，来访者实际打了一行字\"周六不太方便\"，打了又删，改成\"好的，我看看\"。来访者确认上班两年对赵哥从未说过\"不行\"，连\"这个我可能做不了\"都没怎么说过。该模式在阿敏（\"她会不会觉得我小气\"）和赵哥（\"怕他觉得我推他\"）身上均出现；悦悦那边不太一样，没让来访者有那种压力。",
+        "type": "pattern",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S02-U03",
+          "C02-S02-U05",
+          "C02-S02-U11",
+          "C02-S02-U15"
+        ]
+      },
+      {
+        "text": "来访者自行发现的关键区分：假设拒绝之后的\"不踏实\"比实际拒绝的后果更可怕。来访者原话：\"他真不高兴，那我知道了，我下次注意就是了。但那个不踏实是我自己跟自己较劲，他回什么都我都能想出一百种'他是不是不高兴'的理由，那个我控制不了。\"即：外部后果可识别、可处理；内部不踏实无法控制，所以更怕后者。",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S02-U13"
+        ]
+      },
+      {
+        "text": "来访者确认的核心发现：那个\"不踏实\"不是在等对方回复，是在等自己确认。来访者原话：\"他回什么都没用，是我自己在找那个'没事'的证据。\"咨询师总结为\"它不是真的在等他，是在等自己确认\"，来访者回应\"我听着觉得……好像是\"。此发现使\"不踏实\"的来源从外部（对方态度）转向内部（自我确认需求）。",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S02-U19",
+          "C02-S02-U18"
+        ]
+      },
+      {
+        "text": "来访者区分两种感受的方向：\"闷\"（悦悦取消后）更像自己跟自己较劲——\"我明明知道悦悦没怪我，但我就是觉得我那个取消挺不好的\"；\"不踏实\"（赵哥拒绝后假设）是盯着对方那边猜。但来访者修正：不是完全两个东西，闷里面也有一点点在猜悦悦是不是有点失望。来访者总结：\"侧重点不太一样\"。",
+        "type": "insight",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S02-U17"
+        ]
+      },
+      {
+        "text": "赵哥关系：赵哥是来访者刚入职时的带教，来访者形容\"他真的很耐心\"。来访者因此形成一种义务感：\"他帮过我的，所以我就得接住\"\"我拒绝他，好像是在还他的时候还了一笔负数\"。咨询师问是否赵哥那边有这个期待，来访者确认没有证据——\"可能就是我自己觉得应该这样\"。",
+        "type": "relationship",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S02-U05",
+          "C02-S02-U07"
+        ]
+      },
+      {
+        "text": "周三事件：赵哥让来访者周末帮忙看推广排期，措辞为\"如果你方便的话\"。来访者知道周六约了悦悦买菜做饭，仍答应。周六下午坐在工位上改排期到四点，菜没买成。来访者评价\"也不是多大的事，就两个小时\"，但承认周末又乱了。",
+        "type": "event",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S02-U01"
+        ]
+      },
+      {
+        "text": "来访者确认：那个\"不踏实\"从未被验证过。因为从未真正拒绝过赵哥，所以\"拒绝后对方真没什么反应但自己不踏实过了好一阵才消\"这个情况来访者没有经历过，无法确认。咨询师指出这是一个\"停在那里的假设\"。",
+        "type": "unresolved",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S02-U11",
+          "C02-S02-U12"
+        ]
+      },
+      {
+        "text": "待探索：①\"等自己确认\"这个发现刚落地，下次可深入——在找什么证据、找不到时会怎样；②\"闷\"和\"不踏实\"的重叠部分（闷里也有一点点猜对方失望）具体是什么结构；③来访者对赵哥的\"还负数\"义务感是否延伸到其他关系（阿敏似乎也有类似结构但来访者尚未明确连接）。",
+        "type": "unresolved",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S02-U17",
+          "C02-S02-U19"
+        ]
+      },
+      {
+        "text": "本次咨询结束状态：来访者对\"等自己确认\"这个表述表示认同（\"我听着觉得……好像是\"），语气比上次更落地。未主动提出下次议题，咨询师说\"下次想接着聊的时候带着来就行\"。",
+        "type": "outcome",
+        "speaker": "client",
+        "evidence_ids": [
+          "C02-S02-U19",
+          "C02-S02-U20"
+        ]
+      }
+    ]
+  },
+  "state_sha256": "2deaec338fcce4402e60153c47dfbd4108078a1986e71040dd1dec084349fee5",
+  "tokenizer_tokens": 1168,
+  "budget": 3000,
+  "tokenizer_reference": "Qwen/Qwen3.8-27B public tokenizer; hosted tokenizer identity unverified",
+  "input_previous_memory_sha256": "3ecc92e15584fd8b809e17d47b907132d609afe93574db2f8873aca19bec535f",
+  "new_session_sha256": "6f7110e192f5fdb5943395c949db037691eaa61c1eab0271d15f8730ac6ab72a",
+  "source_call_id": "3aff41f488c648dbafddb31af0ba1ade",
+  "dropped_entries": [],
+  "raw_state_tokens": 1168,
+  "structural_repair": null,
+  "incomplete_recovery_from": null,
+  "update_scope": "previous bounded memory + new session only; no complete-history backfill",
+  "annotation_visible": false,
+  "private_state_visible": false
+}

@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP3",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "a2bad5e17c3f55997a9e9ec6f3f603b2514f48a0d787eace03c29feadb1ba662",
+  "request_sha256": "4233589c5a4e32c6cdbce0750593ec9d35a853f0893c6d4eb1044a54b3683ae6",
+  "memory_sha256": "967036ab4e2ed833a3149b77713320d0c759d84a8648d142eb41d894e4666527",
+  "memory_source": "15b44ba9ddb84f2d0e9b2bc1c9011fe961f98522d782867c475659af9499434c",
+  "raw_text": "你听到自己心里那句“别跑，先把这一页讲完”时，那种硬撑着的真实感是不是比导师的评价更让你触动？眼睛热起来的时候，不用急着让它掉下来，就带着这份怕和真实先待一会儿。",
+  "usage": {
+    "input_tokens": 11025,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 51,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11076,
+    "x_details": [
+      {
+        "input_tokens": 11025,
+        "output_tokens": 51,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11076,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.188,
+  "model": "qwen3.7-flash-2026-07-15"
+}

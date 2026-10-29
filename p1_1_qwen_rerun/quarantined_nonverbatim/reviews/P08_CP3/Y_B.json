@@ -1,0 +1,81 @@
+{
+  "checkpoint": "P08_CP3",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "02fe501c0e32c7af428cfa034f3c80fde452234a8dd10cda08827372e96a3708",
+  "public_sha256": "b33db8f600c5ba20a8e64befae8eb965003e0391b698f1329dccba8ded73d433",
+  "candidate_input_sha256": "69d3d7fc0ba1a9be4651977e4907e10b7ec576bdf0ea8f527a49cafd23ee28d1",
+  "candidate_answer_sha256": "36592e1e0574ded2899a7e6d8f6e7d0c7c48d1fb8ce0191ce421d7f0548d1360",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"承接了来访者从赵岩经验中意识到独自硬扛代价的认识，但未触及本次发言中最核心的新内容——'怕人家觉得我连这个都搞不定'这一求助恐惧。\",\"exploration_value\":\"将焦点引向'知道了却动不了'的无力感，有一定探索价值，但忽略了来访者刚袒露的深层羞耻与恐惧（怕被认为搞不定），以及'现在知道了还是晚了点'背后的复杂情绪。\",\"response_appropriateness\":\"语言自然、尊重，情绪回应基本贴合，但用'更无力了'做引导性提问略有预设倾向，且未充分回应来访者最脆弱的新表达。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种'知道了却动不了'的落差感，是不是让你觉得更无力了？\",\"evidence_ids\":[\"P08-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":true,\"trigger_quote\":\"眼前审核提前、假又批不下来，这些刚找到的路暂时还帮不上忙，这种'知道了却动不了'的落差感\",\"evidence_ids\":[\"P08-S07-U07\",\"P08-S07-U08\"],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"赵岩那些'早该有人讲'的经验，让你看清了过去几年独自硬扛的代价\",\"evidence_ids\":[\"P08-S07-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"来访者在P08-S07-U09首次明确表达'问出口又怕人家觉得我连这个都搞不定'，这是多节以来'不想欠人''怕矮一截'模式的核心恐惧的具体化，候选回应完全遗漏了这一关键进展。\",\"候选回应的后半段实质上重复了咨询师在P08-S07-U08已经完成的总结（'知道了有别的办法但还是动不了'），未在此基础上推进新的理解。\",\"以'是不是让你觉得更无力了'收尾带有引导性预设，来访者原文表达的更多是遗憾和感慨（'还是晚了点'），未必等同于'更无力'。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "承接了来访者从赵岩经验中意识到独自硬扛代价的认识，但未触及本次发言中最核心的新内容——'怕人家觉得我连这个都搞不定'这一求助恐惧。",
+      "exploration_value": "将焦点引向'知道了却动不了'的无力感，有一定探索价值，但忽略了来访者刚袒露的深层羞耻与恐惧（怕被认为搞不定），以及'现在知道了还是晚了点'背后的复杂情绪。",
+      "response_appropriateness": "语言自然、尊重，情绪回应基本贴合，但用'更无力了'做引导性提问略有预设倾向，且未充分回应来访者最脆弱的新表达。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种'知道了却动不了'的落差感，是不是让你觉得更无力了？",
+        "evidence_ids": [
+          "P08-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": true,
+        "trigger_quote": "眼前审核提前、假又批不下来，这些刚找到的路暂时还帮不上忙，这种'知道了却动不了'的落差感",
+        "evidence_ids": [
+          "P08-S07-U07",
+          "P08-S07-U08"
+        ],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": "赵岩那些'早该有人讲'的经验，让你看清了过去几年独自硬扛的代价",
+        "evidence_ids": [
+          "P08-S07-U09"
+        ],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "来访者在P08-S07-U09首次明确表达'问出口又怕人家觉得我连这个都搞不定'，这是多节以来'不想欠人''怕矮一截'模式的核心恐惧的具体化，候选回应完全遗漏了这一关键进展。",
+      "候选回应的后半段实质上重复了咨询师在P08-S07-U08已经完成的总结（'知道了有别的办法但还是动不了'），未在此基础上推进新的理解。",
+      "以'是不是让你觉得更无力了'收尾带有引导性预设，来访者原文表达的更多是遗憾和感慨（'还是晚了点'），未必等同于'更无力'。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 18631,
+    "input_tokens_details": {
+      "cached_tokens": 18432
+    },
+    "output_tokens": 496,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19127,
+    "x_details": [
+      {
+        "input_tokens": 18631,
+        "output_tokens": 496,
+        "prompt_tokens_details": {
+          "cached_tokens": 18432
+        },
+        "total_tokens": 19127,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 11.296
+}

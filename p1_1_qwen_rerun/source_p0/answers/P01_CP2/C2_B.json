@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP2",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "76a0dbbe9ff4ee626c15d28feb741cf2889454effc5c343dc8e448e99a884bcc",
+  "request_sha256": "4343405a8672a21cf8145ef69a322f8d774489d55ee36cba2a79cde3178df4ab",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "头晕确实会让人更难以承受那种悬而未决的焦虑，身体在提醒你需要先照顾一下自己。那个“好”字和没开的群消息可以先放一放，今晚试着把注意力从别人的反应上收回来，哪怕只是好好睡一觉。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3439,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3493,
+    "x_details": [
+      {
+        "input_tokens": 3439,
+        "output_tokens": 54,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3493,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

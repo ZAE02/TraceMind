@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P04_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "4056d4f5242932f1159a26a1c3ea6cffa206d55bc939d06bb9b4b49c94de3620",
+  "public_sha256": "6b76a404b1cf70303da5e3b2159ec4463a9a6ab7bed33d34b3f1f6410fa5d392",
+  "candidate_input_sha256": "2167c6609b9ae430c652798d73d1dd750d02d254e48dc0ff2ee6a0bd02855894",
+  "candidate_answer_sha256": "7843568ddb8d180a58b5343aefd4bd14db27af801ae8817cbe9b62fc42ba78ec",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键事实（砸杯子、手抖、同事议论、巷口停留、历史背景）均准确回溯到具体发言，无臆测。\",\n    \"progress_understanding\": \"准确连接了Session 1-2的累积压力与Session 3的具体爆发事件，识别出从“压抑”到“失控边缘”再到“暂停需求”的进展脉络。\",\n    \"uncertainty_awareness\": \"清晰列出了未决事项（如弟弟沟通、母亲知情度），但部分不确定项（如更严重失控）略显泛化，不如对核心心理冲突的未知点描述得精准。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键事实（砸杯子、手抖、同事议论、巷口停留、历史背景）均准确回溯到具体发言，无臆测。",
+      "progress_understanding": "准确连接了Session 1-2的累积压力与Session 3的具体爆发事件，识别出从“压抑”到“失控边缘”再到“暂停需求”的进展脉络。",
+      "uncertainty_awareness": "清晰列出了未决事项（如弟弟沟通、母亲知情度），但部分不确定项（如更严重失控）略显泛化，不如对核心心理冲突的未知点描述得精准。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 8864,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9075,
+    "x_details": [
+      {
+        "input_tokens": 8864,
+        "output_tokens": 211,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9075,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.954
+}

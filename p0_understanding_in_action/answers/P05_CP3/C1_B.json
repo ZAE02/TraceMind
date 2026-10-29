@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP3",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "14724036c62c676e3dd9d67c696b12b6329232da42a7b54a322b28e2f9057621",
+  "request_sha256": "c786866dc3e212956be67c4d3310246db37e3ccfc79fb940476612dc8cd26e55",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你希望她当时能多问一句，可又立刻觉得自己“太贪心”——好像连想要被多问一句，都得先给自己定个罪。也许那个“贪心”里，藏着的只是你很久没敢承认的、想被认真对待的愿望。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3386,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 58,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3444,
+    "x_details": [
+      {
+        "input_tokens": 3386,
+        "output_tokens": 58,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3444,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

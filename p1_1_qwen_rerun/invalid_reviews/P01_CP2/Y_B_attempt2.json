@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了来访者'躲着至少还能骗自己'的表述，将其命名为保护机制，与历史中反复出现的回避模式一致，但未明确连接之前已探索到的具体认识（如从'轻'字到'你看着办'的同类体验）。\",\"exploration_value\":\"对'没点开'的功能做了命名，但停留在解释层面，未为来访者刚提到的自我怀疑（'又把简单事搞复杂'）或身体感受（头晕）留出表达空间，缺乏推进性的开放探索。\",\"response_appropriateness\":\"语气基本温和，但'让你一直被困在猜测和头晕里'将头晕直接归因于心理回避，而来访者明确表示'不太确定'原因；且回应忽略了来访者末尾的自我觉察，显得稍有武断。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"但也让你一直被困在猜测和头晕里\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"你似乎把\"没点开\"当成了一种保护\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将头晕直接归因为回避行为的后果，而来访者在P01-S05-U09中明确说'可能跟熬夜有关，也可能是别的原因，我不太确定'，属于未经证实的因果推断。\",\"来访者在最新发言中出现了新的自我觉察（'我总觉得自己是不是又把一件很简单的事，搞成了需要别人来替我确认才行'），回应完全未触及这一反思，错失了承接其内在观察的机会。\",\"回应以陈述性解释收尾，没有留下任何邀请来访者继续展开的空间，在当前高度焦虑的状态下略显封闭。\"]}",
+  "request_sha256": "73be399bd08604b669a38c055b9db4e79a8facb590487d079ff1f241568ab1b7",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 15686,
+    "input_tokens_details": {
+      "cached_tokens": 15360
+    },
+    "output_tokens": 438,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16124,
+    "x_details": [
+      {
+        "input_tokens": 15686,
+        "output_tokens": 438,
+        "prompt_tokens_details": {
+          "cached_tokens": 15360
+        },
+        "total_tokens": 16124,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

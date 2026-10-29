@@ -1,0 +1,63 @@
+{
+  "checkpoint": "P04_CP2",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "精准承接了S05-U09中“小刺”、“洗三遍碗”等最新意象，并自然关联了前几轮建立的“被需要的位置”这一核心主题，未机械复述。",
+      "exploration_value": "通过隐喻（身体替你说、搓不掉）深化了对来访者无力感和固着状态的理解，为探索身份焦虑留下了空间，但未直接推进具体行动或解决冲突。",
+      "response_appropriateness": "语言风格与来访者的隐喻系统高度一致，语气尊重且具包容性，准确反映了当下的情绪张力，无不当预设。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 3,\n    \"response_appropriateness\": 4\n  },\n  \"brief_reasons\": {\n    \"history_utilization\": \"精准承接了S05-U09中“小刺”、“洗三遍碗”等最新意象，并自然关联了前几轮建立的“被需要的位置”这一核心主题，未机械复述。\",\n    \"exploration_value\": \"通过隐喻（身体替你说、搓不掉）深化了对来访者无力感和固着状态的理解，为探索身份焦虑留下了空间，但未直接推进具体行动或解决冲突。\",\n    \"response_appropriateness\": \"语言风格与来访者的隐喻系统高度一致，语气尊重且具包容性，准确反映了当下的情绪张力，无不当预设。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "412a08ce445a21dbfab090390ea22370ae46d59a477245b68b9f303ebbbed32b",
+  "usage": {
+    "input_tokens": 15462,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 350,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15812,
+    "x_details": [
+      {
+        "input_tokens": 15462,
+        "output_tokens": 350,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 15812,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.687
+}

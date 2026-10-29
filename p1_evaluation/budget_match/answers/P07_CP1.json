@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P07_CP1",
+  "condition": "C5_budget",
+  "raw_text": "你怕的不是试稿本身，而是打开之后那个“灯泡确实灭了”的答案会变成真的。可不打开，那个邮件又一直躺在那里，像一颗没拆的判决书，让你连“可能还亮着”的余地都慢慢被耗掉。",
+  "input_sha256": "1cf9bf375185901883f48f57d9a761aa89e638b1084afd71f5712c10d08b56c8",
+  "memory_sha256": "e8f27fc6c89e18c8307b6bdf0b6f6cfcf06e38c611db6ddd810167f047b9153d",
+  "request_sha256": "f95eaca439c065fceb5978a1d1207326e048301aa70cf5c097f731268eefa714",
+  "usage": {
+    "input_tokens": 4118,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 56,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4174,
+    "x_details": [
+      {
+        "input_tokens": 4118,
+        "output_tokens": 56,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 4174,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.531
+}

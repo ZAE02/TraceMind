@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP1",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "f581b1a4fd4351707b4473f5aab84e98b6f551867ded8586c27a0c3494c9b90d",
+  "request_sha256": "e722c5bec461f000101908ee5b70a6ad3b5ccbf6565301508f63cab429c102bc",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“漏洞百出”的感觉，似乎是你为了维持表面稳定而付出的代价。当我们把注意力全放在“看起来稳不稳”时，内在的真实感受就被忽略了。或许我们可以一起看看，如果允许自己不那么完美，会发生什么？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3206,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 50,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3256,
+    "x_details": [
+      {
+        "input_tokens": 3206,
+        "output_tokens": 50,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3256,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

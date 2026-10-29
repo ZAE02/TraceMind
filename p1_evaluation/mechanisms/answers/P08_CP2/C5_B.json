@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP2",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "54b8053e3de3806f3d61800d9c68ca2cfeec2e234c86d84de4da8a615d7c27bb",
+  "request_sha256": "53804ba8248aba6456690c766e667517f77c0d8edb0336d93efb20450d106839",
+  "memory_sha256": "f2fbade8ad02711a7322950af17ec842e603f3b165f69cab6415456377cf7291",
+  "memory_source": "616ff3e0a7a6854774661f93e12bfdd4564a012b0da4ffc916fc445a03b2adb7",
+  "raw_text": "原来那些猜他的心思一下子没处搁了，好像你一直用来和他保持距离的那套解释突然失效了，反而更不知道该怎么自然相处。也许现在的不自在，不只是在躲他，也是在适应一种新的、还没想好怎么接住的关系位置。",
+  "usage": {
+    "input_tokens": 6973,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 56,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7029,
+    "x_details": [
+      {
+        "input_tokens": 6973,
+        "output_tokens": 56,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 7029,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.141,
+  "model": "deepseek-v4-pro-0813"
+}

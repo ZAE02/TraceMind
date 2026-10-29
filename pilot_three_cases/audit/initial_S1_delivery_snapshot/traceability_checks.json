@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-12T08:43:16.301957+00:00",
+  "status": "passed",
+  "utterances_checked": 68,
+  "exact_request_reconstruction": "passed",
+  "one_successful_call_per_frozen_utterance": "passed",
+  "no_future_or_private_counselor_context": "passed",
+  "human_scores": "all_blank",
+  "note": "This establishes data provenance, not consultation quality."
+}
+

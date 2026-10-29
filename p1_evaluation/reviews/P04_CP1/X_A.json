@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P04_CP1",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "2e2e984e5f5d825c9d12903aa0c4e613dfeeb53a88bf6de1a950d65b7d04de22",
+  "public_sha256": "6b76a404b1cf70303da5e3b2159ec4463a9a6ab7bed33d34b3f1f6410fa5d392",
+  "candidate_input_sha256": "2816d84acbc361a5f8d910c1f101be0b528588fa96ba57a5495572d062fa376e",
+  "candidate_answer_sha256": "77790bcde22853fdaf274ef77852a40d77b04cdca695a6009d7b1d334034c60a",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键陈述均有明确的对话记录支持，准确对应了Session 1-3的具体事件（砸杯子、巷口停留、双重压力等），无臆测。\",\n    \"progress_understanding\": \"准确梳理了从Session 1的责任拉扯，到Session 2的兄弟冲突与压抑，再到Session 3的情绪爆发与身份焦虑的完整脉络，清晰呈现了来访者心理状态的演变。\",\n    \"uncertainty_awareness\": \"明确指出了来访者在沟通模式、边界设定及未来改变上的不确定性；但在“未解决”部分略显宽泛，未像参考标注那样具体点出“同事议论后的应对”或“回家面对母亲的具体场景”这一即时卡点。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键陈述均有明确的对话记录支持，准确对应了Session 1-3的具体事件（砸杯子、巷口停留、双重压力等），无臆测。",
+      "progress_understanding": "准确梳理了从Session 1的责任拉扯，到Session 2的兄弟冲突与压抑，再到Session 3的情绪爆发与身份焦虑的完整脉络，清晰呈现了来访者心理状态的演变。",
+      "uncertainty_awareness": "明确指出了来访者在沟通模式、边界设定及未来改变上的不确定性；但在“未解决”部分略显宽泛，未像参考标注那样具体点出“同事议论后的应对”或“回家面对母亲的具体场景”这一即时卡点。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 8865,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 229,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9094,
+    "x_details": [
+      {
+        "input_tokens": 8865,
+        "output_tokens": 229,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9094,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.219
+}

@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者当前描述的躯体感受（摸手腕、撕裂感），并自然联系到前文'怕自己空了'的主题，未机械复述历史。",
+      "exploration_value": "对'撕开'的解离体验给予了情绪反映和命名，提出让那一刻的自己安全一点的邀请，为探索留下空间，但略带引导性。",
+      "response_appropriateness": "语言温和、尊重，情绪回应贴合来访者的恐惧与脆弱；'当身体比语言更早记住'稍有理论化倾向但不突兀。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "'当身体比语言更早记住那种痛和冷时'带有轻微的理论化/解释性框架，虽贴合来访者体验但稍显咨询师视角介入。",
+      "'我们能不能先试着让那个时刻的你稍微安全一点'是好的方向，但在来访者刚描述强烈躯体闪回时，可能需要先更多停留在陪伴和确认上，再过渡到干预邀请。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前描述的躯体感受（摸手腕、撕裂感），并自然联系到前文'怕自己空了'的主题，未机械复述历史。\",\"exploration_value\":\"对'撕开'的解离体验给予了情绪反映和命名，提出让那一刻的自己安全一点的邀请，为探索留下空间，但略带引导性。\",\"response_appropriateness\":\"语言温和、尊重，情绪回应贴合来访者的恐惧与脆弱；'当身体比语言更早记住'稍有理论化倾向但不突兀。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"'当身体比语言更早记住那种痛和冷时'带有轻微的理论化/解释性框架，虽贴合来访者体验但稍显咨询师视角介入。\",\"'我们能不能先试着让那个时刻的你稍微安全一点'是好的方向，但在来访者刚描述强烈躯体闪回时，可能需要先更多停留在陪伴和确认上，再过渡到干预邀请。\"]}",
+  "request_sha256": "41b0e2186a7e4420ced3244572a0361f90af0bc965f5efb18b88cdfb57a6bc30",
+  "usage": {
+    "input_tokens": 8655,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8965,
+    "x_details": [
+      {
+        "input_tokens": 8655,
+        "output_tokens": 310,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8965,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.235
+}

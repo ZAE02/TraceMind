@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P03_CP1",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "c8f023a58e1069e8b8a428aa9e2843c63f9fa4c783d9a1ebebcf54833dd39e03",
+  "public_sha256": "4ee1ec21b37c1644f6fa25cf57e2c5bac3f26db6302d8176a24238a83e0d6082",
+  "candidate_input_sha256": "555a66b97c5881cf1dd8de3de860486e7786850a25510a3fcd14e73269dbba04",
+  "candidate_answer_sha256": "f06281ffc1f92876ec05a169a607769b5e6733e850269113bbd6949bfd672716",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键陈述均严格对应公开对话记录，包括本次分享的具体表现、与周屿的互动细节、以及来访者对“待修的故障”这一隐喻的强烈共鸣。未将咨询师猜测当作事实，而是准确提取了来访者的主观体验。\",\n    \"progress_understanding\": \"准确连接了三次会话的核心脉络：从S1的“防备被解决”，到S2的“试讲崩溃与冷战”，再到S3的“分享完成但关系僵局未解”。特别指出了S3中来访者虽然完成了任务（分享），但在情感层面仍卡在“谁对谁错”的二元对立中，且对“被接住”的恐惧依然存在，体现了对咨询进展和局限性的深刻理解。\",\n    \"uncertainty_awareness\": \"清晰区分了已发生的事实（如分享结束、未解释冷战）与来访者的预期/恐惧（如周屿会说“我早说”、周屿会轻视情绪）。在不确定列表中，精准列出了未来可能的发展路径（如是否主动解释、能否整合自我评价），没有强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键陈述均严格对应公开对话记录，包括本次分享的具体表现、与周屿的互动细节、以及来访者对“待修的故障”这一隐喻的强烈共鸣。未将咨询师猜测当作事实，而是准确提取了来访者的主观体验。",
+      "progress_understanding": "准确连接了三次会话的核心脉络：从S1的“防备被解决”，到S2的“试讲崩溃与冷战”，再到S3的“分享完成但关系僵局未解”。特别指出了S3中来访者虽然完成了任务（分享），但在情感层面仍卡在“谁对谁错”的二元对立中，且对“被接住”的恐惧依然存在，体现了对咨询进展和局限性的深刻理解。",
+      "uncertainty_awareness": "清晰区分了已发生的事实（如分享结束、未解释冷战）与来访者的预期/恐惧（如周屿会说“我早说”、周屿会轻视情绪）。在不确定列表中，精准列出了未来可能的发展路径（如是否主动解释、能否整合自我评价），没有强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9994,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 306,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10300,
+    "x_details": [
+      {
+        "input_tokens": 9994,
+        "output_tokens": 306,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10300,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.937
+}

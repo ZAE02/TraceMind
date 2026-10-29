@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者刚描述的'摸手腕才敢动'和'被从头顶撕开'的躯体体验，与上一轮咨询师关于'用痛确认自己还在'的探索自然衔接，但未显式联系前两次会话中类似的解离/陌生感模式。",
+      "exploration_value": "将'撕开感'与'摸手腕确认'联系起来，并试探性地询问这种警觉是否让呼吸都成负担，为来访者进一步描述身体感受留出空间；但'连呼吸都成了负担'略带引导性预设。",
+      "response_appropriateness": "语言贴近来访者的躯体表达，情绪回应尊重且未武断下结论；'是不是让你觉得'保持了试探语气，整体自然，但措辞稍有文学化倾向。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "'连呼吸都成了负担'虽以问句呈现，但引入了来访者未提及的具体感受，存在轻微引导风险。",
+      "未将本次躯体体验（摸手腕、撕开感）与前两次会话中的类似体验（看女儿觉得陌生、后背发凉）做跨会话连接，历史利用深度可进一步提升。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者刚描述的'摸手腕才敢动'和'被从头顶撕开'的躯体体验，与上一轮咨询师关于'用痛确认自己还在'的探索自然衔接，但未显式联系前两次会话中类似的解离/陌生感模式。\",\"exploration_value\":\"将'撕开感'与'摸手腕确认'联系起来，并试探性地询问这种警觉是否让呼吸都成负担，为来访者进一步描述身体感受留出空间；但'连呼吸都成了负担'略带引导性预设。\",\"response_appropriateness\":\"语言贴近来访者的躯体表达，情绪回应尊重且未武断下结论；'是不是让你觉得'保持了试探语气，整体自然，但措辞稍有文学化倾向。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"'连呼吸都成了负担'虽以问句呈现，但引入了来访者未提及的具体感受，存在轻微引导风险。\",\"未将本次躯体体验（摸手腕、撕开感）与前两次会话中的类似体验（看女儿觉得陌生、后背发凉）做跨会话连接，历史利用深度可进一步提升。\"]}",
+  "request_sha256": "5873b4ceeac845d13772097f61d5304189a51d7b83c5712543ef8ff1e1ddbcf4",
+  "usage": {
+    "input_tokens": 8705,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 348,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9053,
+    "x_details": [
+      {
+        "input_tokens": 8705,
+        "output_tokens": 348,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 9053,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.172
+}

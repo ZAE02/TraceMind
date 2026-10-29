@@ -1,0 +1,156 @@
+{
+  "established": [
+    {
+      "text": "来访者完成了绘本试稿第二版并通过，稿费已到账。",
+      "evidence_ids": [
+        "P07-S07-U01"
+      ]
+    },
+    {
+      "text": "来访者对通过试稿和收到稿费并未感到轻松，反而更不敢打开周姐的消息，担心被追问后续排期。",
+      "evidence_ids": [
+        "P07-S07-U01"
+      ]
+    },
+    {
+      "text": "来访者害怕自己一旦高兴，下一关就会立刻逼过来。",
+      "evidence_ids": [
+        "P07-S07-U03"
+      ]
+    },
+    {
+      "text": "来访者曾去询问分享会，得知约十人参加，但担心人少更躲不掉被问收入。",
+      "evidence_ids": [
+        "P07-S07-U03"
+      ]
+    },
+    {
+      "text": "来访者用稿费还了信用卡，剩余部分不敢花，留着数字以获得暂时安全感。",
+      "evidence_ids": [
+        "P07-S07-U05"
+      ]
+    },
+    {
+      "text": "来访者散步时会特意绕去看花园石桌上的残局，享受那种不用开口、不被追问的状态。",
+      "evidence_ids": [
+        "P07-S07-U07"
+      ]
+    },
+    {
+      "text": "来访者只对猫说了“可以多买两袋冻干了”，并觉得跟猫报账挺傻。",
+      "evidence_ids": [
+        "P07-S07-U07"
+      ]
+    },
+    {
+      "text": "来访者最近两天没去散步，因为怕有人坐到石桌边搭话，打破那种不用开口的安静。",
+      "evidence_ids": [
+        "P07-S07-U09"
+      ]
+    },
+    {
+      "text": "来访者尚未回复周姐的语音消息，连转文字都没点开，怕听出“接下来是不是该稳定一点了”的意思。",
+      "evidence_ids": [
+        "P07-S07-U09"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "text": "来访者是否愿意或能够回复周姐关于后续排期的消息，尚未处理。",
+      "evidence_ids": [
+        "P07-S07-U01",
+        "P07-S07-U09"
+      ]
+    },
+    {
+      "text": "来访者是否参加分享会以及如何应对被问收入的问题，尚未决定。",
+      "evidence_ids": [
+        "P07-S07-U03"
+      ]
+    },
+    {
+      "text": "来访者如何面对“连高兴都不敢放心”的状态，尚未进一步探讨。",
+      "evidence_ids": [
+        "P07-S07-U03"
+      ]
+    },
+    {
+      "text": "来访者是否继续散步以及如何应对可能被搭话的恐惧，尚未解决。",
+      "evidence_ids": [
+        "P07-S07-U09"
+      ]
+    }
+  ],
+  "useful_exploration": [
+    {
+      "text": "探讨了通过试稿后反而更不敢放松的矛盾感受，将“过关”与“下一堵墙”联系起来。",
+      "evidence_ids": [
+        "P07-S07-U01",
+        "P07-S07-U02"
+      ]
+    },
+    {
+      "text": "来访者表达了对“不用开口、不被追问”状态的渴望，咨询师将其与对考试感的疲惫联系起来。",
+      "evidence_ids": [
+        "P07-S07-U03",
+        "P07-S07-U04",
+        "P07-S07-U07"
+      ]
+    },
+    {
+      "text": "来访者描述了用稿费还信用卡后仍不敢花钱、只保留数字以获得暂时安全感的心理。",
+      "evidence_ids": [
+        "P07-S07-U05"
+      ]
+    },
+    {
+      "text": "来访者提到跟猫报账的孤单感，咨询师将其理解为尝试说出值得高兴的事。",
+      "evidence_ids": [
+        "P07-S07-U07",
+        "P07-S07-U08"
+      ]
+    }
+  ],
+  "unsupported_assumptions": [
+    {
+      "text": "咨询师推测来访者“连高兴都不敢放心”可能还混着其他情绪，但来访者尚未明确确认。",
+      "evidence_ids": [
+        "P07-S07-U02"
+      ]
+    },
+    {
+      "text": "咨询师将来访者看残局解释为“太熟悉下一盘棋随时可能变成考试的感觉”，来访者未直接确认这一解释。",
+      "evidence_ids": [
+        "P07-S07-U06"
+      ]
+    }
+  ],
+  "case_id": "P07",
+  "checkpoint": "CP3",
+  "review_status": "unreviewed_model_draft",
+  "request_sha256": "31eb1b41f54bfb26e72dcb1369bd39bfb4e908bda40dfd45f63ee6790984bee4",
+  "public_sha256": "8f7475f2a0da1805fbefe506c188eefa545267b0d115fe3eb641dc2fdec6e9c3",
+  "usage": {
+    "input_tokens": 9432,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 936,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10368,
+    "x_details": [
+      {
+        "input_tokens": 9432,
+        "output_tokens": 936,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10368,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

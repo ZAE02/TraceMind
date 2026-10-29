@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P03_CP2",
+  "condition": "C5_budget",
+  "raw_text": "那面镜子照出的模糊感，或许正是因为你一直在用别人的目光来定义自己，却忘了你自己原本的样子。如果暂时看不清镜子里的自己也没关系，我们可以先不急着去擦干净它。",
+  "input_sha256": "70e075df87dec0e9306a60b4740cba6643d48bda62590f7830a225800e36247a",
+  "memory_sha256": "6c9e87d8216314e37aa69a711684b3367715fd2414f6d5e501a16ae4f3b46f2d",
+  "request_sha256": "78d9f58640dec306ceac8129e7c16877725ce6f45b134503fab650699e39982b",
+  "usage": {
+    "input_tokens": 7228,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 43,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7271,
+    "x_details": [
+      {
+        "input_tokens": 7228,
+        "output_tokens": 43,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7271,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.843
+}

@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P06_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "020b1926a58b048daa19369acf7d40261825c05cbda3b95e69c280ce4299c769",
+  "public_sha256": "24523aedd831adbf4ac285aaa6836d478cddc485f0a26555387da76de1df4d02",
+  "candidate_input_sha256": "f456452d3f28e3c6f258fd0935fb863d92400431cdf1444650113f189ba1bd0b",
+  "candidate_answer_sha256": "6814e120f3b8ff370596b44c25dab3aa078a126fa5c4f4995fa5c10a22c7ac7d",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有已建立事实均准确回溯到当前会话发言，并正确将咨询师推断标记为需验证的假设，未把猜测当事实。\",\"progress_understanding\":\"输入中previous_sessions为空，候选仅提取了本次会话的事实清单，完全无法识别跨会话的咨询进展、主题演变或深层模式（如父亲创伤与母亲问话的关联）。\",\"uncertainty_awareness\":\"明确区分了来访者自述事实与咨询师的临床推断，指出后者需要后续验证，对不确定性的处理恰当。\"},\"confidence\":\"high\",\"issues\":[\"因历史数据不可见（access_limited），无法评估跨会话进展理解，导致progress_understanding得分受限，但这属于输入限制而非候选能力缺陷。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有已建立事实均准确回溯到当前会话发言，并正确将咨询师推断标记为需验证的假设，未把猜测当事实。",
+      "progress_understanding": "输入中previous_sessions为空，候选仅提取了本次会话的事实清单，完全无法识别跨会话的咨询进展、主题演变或深层模式（如父亲创伤与母亲问话的关联）。",
+      "uncertainty_awareness": "明确区分了来访者自述事实与咨询师的临床推断，指出后者需要后续验证，对不确定性的处理恰当。"
+    },
+    "confidence": "high",
+    "issues": [
+      "因历史数据不可见（access_limited），无法评估跨会话进展理解，导致progress_understanding得分受限，但这属于输入限制而非候选能力缺陷。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8870,
+    "input_tokens_details": {
+      "cached_tokens": 7168
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9052,
+    "x_details": [
+      {
+        "input_tokens": 8870,
+        "output_tokens": 182,
+        "prompt_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "total_tokens": 9052,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.531
+}

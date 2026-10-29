@@ -1,0 +1,102 @@
+{
+  "kind": "model_review",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "case_id": "C01",
+  "session_number": 6,
+  "transcript_sha256": "d9487a31df68f52a9f4d047982625e122dfb2ac3d7cbfef9d184509fde0d79ba",
+  "decision": "approve",
+  "scores": {
+    "naturalness": 4,
+    "counseling_quality": 4,
+    "longitudinal_plausibility": 4
+  },
+  "major_issues": [],
+  "minor_issues": [
+    {
+      "utterance_ids": [
+        "C01-S06-U06"
+      ],
+      "explanation": "断言她不知道白天没听进去，没有关于周姐所知的信息。只能确认来访者当时应好、现担心被发现，不能替周姐确定心理状态。"
+    },
+    {
+      "utterance_ids": [
+        "C01-S06-U10",
+        "C01-S06-U12"
+      ],
+      "explanation": "认可先自己看、到时候再说的节奏可尊重自主，但探索较快停止，尚未区分这一选择是有把握、合理澄清前准备，还是害怕评价导致的回避。后续不能将自己定节奏当成有效应对证据。"
+    },
+    {
+      "utterance_ids": [
+        "C01-S06-U12",
+        "C01-S06-U14",
+        "C01-S06-U16"
+      ],
+      "explanation": "后段反复总结本周松、圆角改完放下；U14在来访者明确告别后又问还有什么，导致U15重复告别。应回应并结束，避免凑轮数式重开探索。"
+    }
+  ],
+  "supported_understanding": [
+    {
+      "understanding": "小许给具体圆角建议、她改完放下；周姐整体可以但层级再理的反馈不具体，晚上仍回想。",
+      "evidence": [
+        "C01-S06-U01",
+        "C01-S06-U11"
+      ]
+    },
+    {
+      "understanding": "周姐说话时她注意力在另一项目，后来既猜反馈内容，也担心询问会显得当时没听懂或没认真听。",
+      "evidence": [
+        "C01-S06-U03",
+        "C01-S06-U05"
+      ]
+    },
+    {
+      "understanding": "她想象负面眼神但知道大概率不会发生，暂未决定询问，只打算先自己看。",
+      "evidence": [
+        "C01-S06-U07",
+        "C01-S06-U09"
+      ]
+    },
+    {
+      "understanding": "本周主观比S5松且夜间思绪频率较少，但特定模糊反馈仍难放下。",
+      "evidence": [
+        "C01-S06-U11",
+        "C01-S06-U13"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "反馈来源与具体程度同时不同，不能只归为周姐身份的作用。",
+    "周姐的实际评价、她是否察觉来访者未听清、澄清后的真实反应均未知。",
+    "本次先自查是否能厘清层级、是否随后询问、修改及交付结果还未发生。",
+    "项目分配与希望得到负责人肯定是卡片私人信息，本稿未公开，不列为咨询师已知。"
+  ],
+  "new_facts": [
+    {
+      "fact": "周三周姐认为第二版整体可以，但数据模块层级要理一下，未具体指出；小许指出图标圆角不统一，修改后她放下。",
+      "category": "work_event",
+      "first_session": 6,
+      "evidence": [
+        "C01-S06-U01"
+      ]
+    },
+    {
+      "fact": "周姐说话时她在想另一项目表格列宽，口头答好但没完全听进去。",
+      "category": "attention_context",
+      "first_session": 6,
+      "evidence": [
+        "C01-S06-U03"
+      ]
+    },
+    {
+      "fact": "她想问层级具体哪里，却担心询问显得白天没在听；目前计划先单独比较模块与旁边图。",
+      "category": "clarification_dilemma_and_plan",
+      "first_session": 6,
+      "evidence": [
+        "C01-S06-U05",
+        "C01-S06-U09"
+      ]
+    }
+  ],
+  "notes": "独立模型审阅，非人工审核。均分4通过，八组往返可作为轻探索会话；结尾重复和替周姐确定所知是局限。实际证据为信息不明确、注意力分散与评价担忧交织，并不足以证明只有对权威的担忧或预设项目分配原因。未要求本轮得到完整原因或立即采取澄清行为，未来计划未视为改善。"
+}

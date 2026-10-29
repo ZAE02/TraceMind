@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 7,
+  "relative_week": 7,
+  "status": "generating",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T12:41:40.375301+00:00",
+  "config_hash": "c1539da166f8b33af7d17c8d03d5be44e51b36a7fa10acb89e56c4680e75cb93",
+  "prompt_version": "pilot-v7-counseling-process-focus",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v7-counseling-process-focus",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。",
+    "counselor_process_instruction": "请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。"
+  },
+  "utterances": [
+    {
+      "id": "C01-S07-U01",
+      "role": "client",
+      "text": "这周有个客户展示，关键页面我提前两天就开始看了。就是……打开改一下间距，关掉，过一会儿又打开，又改回来。晚饭都忘了吃。\n\n不过这周组里讨论的时候，有两次我直接说了为什么保留原来的方案，没像以前那样先自己闷头改完再拿出来。就是……好像没那么绕了，说完就说了。但那个客户展示还是……停不下来。",
+      "call_id": "fd1da28b55964fbeb6f43abce8e39ca4",
+      "response_id": "resp_338d4fee-880e-93a0-a53d-04e5e4ce6c51",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:42:11.551822+00:00"
+    },
+    {
+      "id": "C01-S07-U02",
+      "role": "counselor",
+      "text": "组里那两次直接说了，这个你自己注意到了，挺好的。但客户展示那个页面还是把你拽回去——那个跟组里讨论的时候，好像不太一样，你觉得差在哪儿？",
+      "call_id": "28d8e58a27f14ca39f3f68e84e3419b2",
+      "response_id": "resp_50f1f91c-b879-9b19-a1b4-fa456988d131",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:42:32.567562+00:00"
+    },
+    {
+      "id": "C01-S07-U03",
+      "role": "client",
+      "text": "可能……组里讨论的时候，说完就有人接了，就是小许或者谁\"行\"一下，那个来回是有的。但客户展示那个，是……我改完了，他们后面会看，但我不知道他们看到的时候是什么反应。\n\n就是……组里那个\"说完就说了\"，好像有个落点；客户那个，落点在我够不到的地方。",
+      "call_id": "6dbaaba78ccf4b978a86694720e404f1",
+      "response_id": "resp_e7d8523e-9104-9235-a492-05bb8e3f6eef",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:42:41.730361+00:00"
+    },
+    {
+      "id": "C01-S07-U04",
+      "role": "counselor",
+      "text": "组里说完有人接了，客户那边得等他们看到才有反应，这个差别你分出来了。反复打开改间距再改回来的时候，脑子里在过的是什么？",
+      "call_id": "b700a4593db4453490e143ecd82615e5",
+      "response_id": "resp_89c40684-916a-99ee-8590-cb3f06362eb6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:43:15.706976+00:00"
+    },
+    {
+      "id": "C01-S07-U05",
+      "role": "client",
+      "text": "就是……会想他们打开那个页面的时候，眼睛扫到那个地方的时候，会不会顿一下。\n\n但具体顿在哪儿我其实也说不清，就是……那个间距，我自己盯着看的时候觉得\"这里好像差一点\"，但又说不上差在哪，然后改了一下，改完又觉得\"好像原来那个更好\"，就改回去了。改回去之后又过一会儿，那个\"差一点\"又回来了。",
+      "call_id": "b301028b72ea432d94e2e6cd66752c17",
+      "response_id": "resp_41116123-01b9-95a9-86d2-c9d27962414a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:43:25.840765+00:00"
+    },
+    {
+      "id": "C01-S07-U06",
+      "role": "counselor",
+      "text": "那个差一点改回去之后又回来了，好像它不跟着你的手走，改也带不走它。晚饭都忘了吃，这周确实被它占得挺满的。",
+      "call_id": "e77b179c3e7f45d5b876fad456411c76",
+      "response_id": "resp_a0e8e060-515a-9e98-910b-c071c2fb02a4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:43:53.521098+00:00"
+    },
+    {
+      "id": "C01-S07-U07",
+      "role": "client",
+      "text": "嗯……\"带不走\"这个说法挺准的。就是改完改回去，那个\"差一点\"还在原处等着我，好像我手在动但它根本不在我手上。\n\n今天早饭倒是吃了，但中午……也是打开文件就忘了，后来胃有点不舒服才想起来。就是……身体好像比脑子先知道该停了，但脑子那边还是没停。",
+      "call_id": "ec28ba268979421d9a026d9c5bbcb98b",
+      "response_id": "resp_0563dfd1-4ac0-9add-86d2-28e64e0b39bc",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:44:05.941867+00:00"
+    },
+    {
+      "id": "C01-S07-U08",
+      "role": "counselor",
+      "text": "身体先知道该停了，但脑子没跟着停——这个不同步你描述得很清楚。胃不舒服那一下，你从文件里出来了吗，还是就吃了两口又回去了？",
+      "call_id": "8008c1a475d044ccbb230aa808da8eaa",
+      "response_id": "resp_4c5609b1-8ab4-93d8-8d11-a165ca7b6956",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:44:21.177839+00:00"
+    },
+    {
+      "id": "C01-S07-U09",
+      "role": "client",
+      "text": "就……起来拿了个面包，咬了两口，然后文件那个窗口还开着，眼睛就自己又扫过去了。\n\n面包放在那儿，没吃完。后来大概是快两点了才想起来，把剩下的塞进去了，但那个\"差一点\"还是在那儿，就是……吃了跟没吃差不多，脑子没跟着停。",
+      "call_id": "40627e3b42304e9b9bf8031fa1a780f9",
+      "response_id": "resp_aef17796-6787-9ab0-9798-c3db213b5bfa",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:44:29.467293+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:44:29.467293+00:00"
+}

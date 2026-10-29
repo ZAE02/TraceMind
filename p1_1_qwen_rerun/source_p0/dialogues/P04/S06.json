@@ -1,0 +1,504 @@
+{
+  "case_id": "P04",
+  "session": 6,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P04-S06-U01",
+      "role": "client",
+      "text": "我妈那句话让我在房间里坐了很久，最后只“嗯”了一声就回屋了。半夜听见护工在隔壁轻轻哼歌，像哄小孩睡觉，我缩在被子里哭到鼻子堵住。今天早上看见她把我妈药盒里的药重新摆了一遍，我居然想故意找点错，好让她走。",
+      "request_sha256": "8a8c07b2b2bfe769b319d7b26bdb1288ebfac4f3ba95929307d3bc09f5937601",
+      "usage": {
+        "input_tokens": 7745,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 528,
+        "output_tokens_details": {
+          "reasoning_tokens": 457
+        },
+        "total_tokens": 8273,
+        "x_details": [
+          {
+            "input_tokens": 7745,
+            "output_tokens": 528,
+            "output_tokens_details": {
+              "reasoning_tokens": 457
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 8273,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U02",
+      "role": "counselor",
+      "text": "昨晚躲在被子里哭到鼻子堵住，今天早上却想把护工“找点错”赶走——这两件事放在一起，好像在说：多一个人搭手并没有让心里那个位置变轻，反而让你更不知道该怎么安放自己。那个“想故意找错”的冲动，也许不一定是真的想让她走，而是你疼得太厉害，需要一个能把这疼推出去的口子。",
+      "request_sha256": "f846ab7c5aa7b864eac859c78578552a5ba28c903d698582e853ac8ada649444",
+      "usage": {
+        "input_tokens": 7154,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 311,
+        "output_tokens_details": {
+          "reasoning_tokens": 224
+        },
+        "total_tokens": 7465,
+        "x_details": [
+          {
+            "input_tokens": 7154,
+            "output_tokens": 311,
+            "output_tokens_details": {
+              "reasoning_tokens": 224
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 7465,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U03",
+      "role": "client",
+      "text": "后来我真就站在药盒边上，像等一个错自己长出来。可她连药盒都摆得比我还整齐，像出餐前最后一道检查，我挑不出毛病，反而更难受。我妈昨天还拉着我的手说“有人帮你是好事”，我抽出来的时候，差点把“好事怎么不让我来做”说出口。",
+      "request_sha256": "92a32c7a9fbf9550c2850635a7dcbb4b9c4d2099ef2f04a051834d46e07d0e0f",
+      "usage": {
+        "input_tokens": 7949,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 383,
+        "output_tokens_details": {
+          "reasoning_tokens": 309
+        },
+        "total_tokens": 8332,
+        "x_details": [
+          {
+            "input_tokens": 7949,
+            "output_tokens": 383,
+            "output_tokens_details": {
+              "reasoning_tokens": 309
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 8332,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U04",
+      "role": "counselor",
+      "text": "你想找的那个“错”，好像不只是在药盒里，更是在找一个能证明“她不该在这里”的理由；可她做得越整齐，你就越说不出口，只能把那股难受咽回去。你说差点说出口的那句“好事怎么不让我来做”，也许已经替你把心里真正卡的位子说出来了：有人帮你，好像没让你更轻松，反而动到了你一直靠“我来做”才站稳的地方。",
+      "request_sha256": "66a8a119d2d8560639dc2c863fbfe062b62fe44995bec2670361c19678b383a0",
+      "usage": {
+        "input_tokens": 7360,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 431,
+        "output_tokens_details": {
+          "reasoning_tokens": 340
+        },
+        "total_tokens": 7791,
+        "x_details": [
+          {
+            "input_tokens": 7360,
+            "output_tokens": 431,
+            "output_tokens_details": {
+              "reasoning_tokens": 340
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7791,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U05",
+      "role": "client",
+      "text": "药盒摆得那么齐，我倒像被那排小格子将了一军。后来我趁她出去买菜，把早上的药又倒回原来的顺序，可倒完又觉得自己像在跟一个不认识的人抢菜单。其实她没做错什么，就是太对了，对得我连“还是我来”都插不进去。",
+      "request_sha256": "995f899bd9e9a12232e18e5c82a68e3c7e92d6ddff0cf2ec560590d0d843c9c5",
+      "usage": {
+        "input_tokens": 8159,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 408,
+        "output_tokens_details": {
+          "reasoning_tokens": 334
+        },
+        "total_tokens": 8567,
+        "x_details": [
+          {
+            "input_tokens": 8159,
+            "output_tokens": 408,
+            "output_tokens_details": {
+              "reasoning_tokens": 334
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8567,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U06",
+      "role": "counselor",
+      "text": "你把药盒倒回原来的顺序，好像是在替那个“还是我来”的自己占回一点地方；可占回来之后，又发现那个地方已经不再只属于你。这种“太对了”反而让你插不进去的感觉，也许比护工做错事更让你憋得慌——因为连一个可以怪她的借口都没了。",
+      "request_sha256": "4406fe74cb343948933df1f4683a7e03e7499c04ff24d9c3119207cda7a1a19a",
+      "usage": {
+        "input_tokens": 7570,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 624,
+        "output_tokens_details": {
+          "reasoning_tokens": 551
+        },
+        "total_tokens": 8194,
+        "x_details": [
+          {
+            "input_tokens": 7570,
+            "output_tokens": 624,
+            "output_tokens_details": {
+              "reasoning_tokens": 551
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8194,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U07",
+      "role": "client",
+      "text": "药盒倒回去之后，我站在那儿看了它半天，忽然觉得自己像个在别人已经排好的班上硬要改名的厨子——菜还是那几道，换了个摆盘就以为还是我的。其实她连我妈几点喝水、什么温度都记了，我最后一次那样记，可能还是我爸刚走那年。",
+      "request_sha256": "fe4f8cf93a4804ca7a11fb0a41da4ca13f1a0694fafa403786d74afd0d27acc6",
+      "usage": {
+        "input_tokens": 8351,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 755,
+        "output_tokens_details": {
+          "reasoning_tokens": 685
+        },
+        "total_tokens": 9106,
+        "x_details": [
+          {
+            "input_tokens": 8351,
+            "output_tokens": 755,
+            "output_tokens_details": {
+              "reasoning_tokens": 685
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9106,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U08",
+      "role": "counselor",
+      "text": "你说“换了个摆盘就以为还是我的”，这句话里已经透出一点疼——你好像看到自己不是在乎药盒的顺序，是在乎那个“还是我来”的感觉还能不能留住。你提到最后一次那样记妈妈喝水的时间，还是爸爸刚走那年，也许从那时起，照顾妈妈就不只是照顾，而是你撑起这个家的方式。",
+      "request_sha256": "27add7ebdff032fe50acd929311168599a732fcbbf86fd3e062abc84a8b380d5",
+      "usage": {
+        "input_tokens": 7758,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 368,
+        "output_tokens_details": {
+          "reasoning_tokens": 292
+        },
+        "total_tokens": 8126,
+        "x_details": [
+          {
+            "input_tokens": 7758,
+            "output_tokens": 368,
+            "output_tokens_details": {
+              "reasoning_tokens": 292
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8126,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U09",
+      "role": "client",
+      "text": "\"我后来没再动那个药盒，就让它那么摆着，可心里像被一个错字卡住，吐不出来。她说连我妈几点喝水都记了，我嘴上没接，转头把电视声音调大了两格，其实根本不知道在演什么。\"",
+      "request_sha256": "335eb9d1b3a47adef2c376f38bd823b41ec91f546bd6714b3e57aa546ab13ad8",
+      "usage": {
+        "input_tokens": 8542,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 735,
+        "output_tokens_details": {
+          "reasoning_tokens": 675
+        },
+        "total_tokens": 9277,
+        "x_details": [
+          {
+            "input_tokens": 8542,
+            "output_tokens": 735,
+            "output_tokens_details": {
+              "reasoning_tokens": 675
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9277,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U10",
+      "role": "counselor",
+      "text": "你让它那么摆着，本身已经是另一个动作了——手停下来了，可心里那个“错字”还卡着，像吞不下去也吐不出来。把电视声音调大两格，也许是在用外面的声音盖住那句你没接的话，让它暂时不落在身上。",
+      "request_sha256": "2ca7dd0fcca260a5052de8c83f48cfe6161e1f614433fc6b8488d50fe09ccaaa",
+      "usage": {
+        "input_tokens": 7941,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 320,
+        "output_tokens_details": {
+          "reasoning_tokens": 259
+        },
+        "total_tokens": 8261,
+        "x_details": [
+          {
+            "input_tokens": 7941,
+            "output_tokens": 320,
+            "output_tokens_details": {
+              "reasoning_tokens": 259
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8261,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U11",
+      "role": "client",
+      "text": "电视声音是开得有点大，连广告里那个“幸福一家人”的背景音都震耳朵。我后来也没换台，就那么听完了两段广告，像有人替我把那话接着讲下去——总比我空着强。药盒……就让它那么摆着吧，我手再伸过去，像跟谁较劲似的，没意思。",
+      "request_sha256": "e437d8eb536af3738228bf6514a206b4ce9ea257599dd60a1dd4ab6f58f4f073",
+      "usage": {
+        "input_tokens": 8717,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 597,
+        "output_tokens_details": {
+          "reasoning_tokens": 519
+        },
+        "total_tokens": 9314,
+        "x_details": [
+          {
+            "input_tokens": 8717,
+            "output_tokens": 597,
+            "output_tokens_details": {
+              "reasoning_tokens": 519
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9314,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U12",
+      "role": "counselor",
+      "text": "让药盒就那么摆着，手不再伸过去，也许比改回原来的顺序更需要力气。今晚可以先不分辨这是松开还是累了，就让它这样待着。下次如果你还愿意，也许可以再来说说那句被广告声接过去的话——它没消失，只是被暂时盖住了。",
+      "request_sha256": "457dd2d004daf6087562131b50683bfb756db3437b56ed567d752e3d97a9d60e",
+      "usage": {
+        "input_tokens": 8132,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 291,
+        "output_tokens_details": {
+          "reasoning_tokens": 226
+        },
+        "total_tokens": 8423,
+        "x_details": [
+          {
+            "input_tokens": 8132,
+            "output_tokens": 291,
+            "output_tokens_details": {
+              "reasoning_tokens": 226
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8423,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U13",
+      "role": "client",
+      "text": "今天可能先说到这儿吧，药盒我不动了，就让它那么摆着。电视还开着，等会儿回去把它关小一点，不然我妈该说我费电。护工明天还来，我……还没想好怎么跟她同在一个厨房里待着。",
+      "request_sha256": "e2d0e8caf8027eee043ab68c10ebd83fc313cb078d5ca11c65ab8e9f56ce5144",
+      "usage": {
+        "input_tokens": 8905,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 329,
+        "output_tokens_details": {
+          "reasoning_tokens": 271
+        },
+        "total_tokens": 9234,
+        "x_details": [
+          {
+            "input_tokens": 8905,
+            "output_tokens": 329,
+            "output_tokens_details": {
+              "reasoning_tokens": 271
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9234,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U14",
+      "role": "counselor",
+      "text": "今晚不必急着想好怎么跟她待在同一个厨房里——你已经在尝试让自己不动药盒、把电视关小一点，这些已经够了。那间厨房明天会和护工一起出现，但你今晚先不用把那幕戏排出来。",
+      "request_sha256": "8a639c92b3e09430ac68381728d507f60a46478555131f3734c350d73d44a0d4",
+      "usage": {
+        "input_tokens": 8300,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 224,
+        "output_tokens_details": {
+          "reasoning_tokens": 173
+        },
+        "total_tokens": 8524,
+        "x_details": [
+          {
+            "input_tokens": 8300,
+            "output_tokens": 224,
+            "output_tokens_details": {
+              "reasoning_tokens": 173
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8524,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U15",
+      "role": "client",
+      "text": "回去把那两格电视声音关小的时候，我大概会在客厅站一下，看看药盒还是不是那个顺序。其实它就在那儿，也不会自己变，我就是……想确认一眼，像打烊前最后巡一遍台。",
+      "request_sha256": "634447a5ca6a045ce555eb5dd57a216c1f68c07c0637e19a09b76b3c96ab3f80",
+      "usage": {
+        "input_tokens": 9059,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 521,
+        "output_tokens_details": {
+          "reasoning_tokens": 470
+        },
+        "total_tokens": 9580,
+        "x_details": [
+          {
+            "input_tokens": 9059,
+            "output_tokens": 521,
+            "output_tokens_details": {
+              "reasoning_tokens": 470
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9580,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S06-U16",
+      "role": "counselor",
+      "text": "想确认那一眼，像打烊前最后巡一遍台，也许不只是在看药盒，而是在看那个“还是我的”位置有没有真的被动过。今晚回去，如果脚在客厅停下来，就让那一眼停一下，不急着给自己派任务。",
+      "request_sha256": "63fae555064fdab4cfeaed32d53779b0d1cbc412523e6cea253dc3c0fbbd50b5",
+      "usage": {
+        "input_tokens": 8447,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 299,
+        "output_tokens_details": {
+          "reasoning_tokens": 242
+        },
+        "total_tokens": 8746,
+        "x_details": [
+          {
+            "input_tokens": 8447,
+            "output_tokens": 299,
+            "output_tokens_details": {
+              "reasoning_tokens": 242
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 8746,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

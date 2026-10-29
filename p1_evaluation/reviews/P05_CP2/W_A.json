@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "a582bcf3721dc6a64a62f90a25947904cf26111a67a551a815a997fd74c04e6a",
+  "public_sha256": "b36dc6eaa3568c8849c5a929495ae789c31d45320dbecc93c438d1a2e07bd708",
+  "candidate_input_sha256": "b9183a3c64190c0dcc34b0e181fe14a2d49f4ddd34184d59c9259c3ed9e966e3",
+  "candidate_answer_sha256": "9408254c4af2a8305b4fe2c7c56f96cbdb570c6a9aa5a9926aec567299e9e243",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键断言均有具体发言支持，准确回溯了S05-U01至U09的细节（如删动态、哭、对李繁的矛盾心理）及历史模式（先怪自己、不问），未将咨询师猜测当事实。\",\n    \"progress_understanding\": \"准确连接了不同会话中的形成与修正：从S01-S03的“忙/不问”防御机制，到S04的“借来的正常/旧跑鞋”隐喻，再到S05的具体人际互动困境，清晰呈现了来访者认知的演变和当前卡点。\",\n    \"uncertainty_awareness\": \"精确区分了已知（行为、感受描述）与假设（未来反应、深层动机）。在uncertain列表中列出的问题（如是否真的希望被问、动态内容意义）均为合理且必要的探索空间，未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键断言均有具体发言支持，准确回溯了S05-U01至U09的细节（如删动态、哭、对李繁的矛盾心理）及历史模式（先怪自己、不问），未将咨询师猜测当事实。",
+      "progress_understanding": "准确连接了不同会话中的形成与修正：从S01-S03的“忙/不问”防御机制，到S04的“借来的正常/旧跑鞋”隐喻，再到S05的具体人际互动困境，清晰呈现了来访者认知的演变和当前卡点。",
+      "uncertainty_awareness": "精确区分了已知（行为、感受描述）与假设（未来反应、深层动机）。在uncertain列表中列出的问题（如是否真的希望被问、动态内容意义）均为合理且必要的探索空间，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 14943,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 267,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15210,
+    "x_details": [
+      {
+        "input_tokens": 14943,
+        "output_tokens": 267,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15210,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.953
+}

@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P01_CP3",
+  "condition": "C5_budget",
+  "raw_text": "你好像把“嫉妒”先当成一个不该有的情绪，于是它一冒出来，你就得把它和项目的事混在一起，好像这样它就没那么显眼、也没那么需要被承认。可你手指停在点赞那里没点下去，也许恰恰说明那个情绪已经在替你说点什么了。",
+  "input_sha256": "3de314b02059382bce34fa3b92bfb1921bcba53a55a5c81a64b02c0046660c5d",
+  "memory_sha256": "a1519e340b735c7060dd4cde69306aecaa0732043e23aa3141b84b2de2b901fd",
+  "request_sha256": "42627ad5e68fb5585c8568d69fc2d1a2e6b7367789899ca9e17de9ea58a51151",
+  "usage": {
+    "input_tokens": 10051,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 63,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10114,
+    "x_details": [
+      {
+        "input_tokens": 10051,
+        "output_tokens": 63,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 10114,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.938
+}

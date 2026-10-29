@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P07_CP2",
+  "condition": "C5_budget",
+  "raw_text": "你刚才说“连猫都不如”的时候，好像不只是在羡慕猫的自由，而是在说：你其实一直知道自己想要什么，只是那个“想画得再野一点”的念头，每次一冒出来就被你自己先按住了。也许怕别人说，和怕自己承认，这两件事已经缠在一起很久了。",
+  "input_sha256": "029f04ca295b93a0cc82e1dcfa59e78ee94a7e1fad66fdbb6913685b0a913a33",
+  "memory_sha256": "0f527b65738ad892f1aad5719900267344cd4be497530eeb05888430056ff6aa",
+  "request_sha256": "d3e9242f15c81d56a39081e301847fab9dfebb31f605ba3e4aa1be1b2c6e41a8",
+  "usage": {
+    "input_tokens": 7151,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 69,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7220,
+    "x_details": [
+      {
+        "input_tokens": 7151,
+        "output_tokens": 69,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 7220,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.047
+}

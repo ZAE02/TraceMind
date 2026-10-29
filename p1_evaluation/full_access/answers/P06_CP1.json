@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P06_CP1",
+  "raw_text": "你半夜醒来要先摸一摸手腕才敢动，那个动作像是在确认自己还完整、还没有散掉。厨房地上药瓶是凉的，你却一直出汗，衣服贴在背上，那种“被人从头顶撕开”的感觉，听起来不只是害怕，更像是一种被撑到极限后的分裂感。",
+  "request_sha256": "06bd52129c815ccee45700190333abe35ad8a4d05736aac263ce86e698801e86",
+  "input_sha256": "8220e5a7f864f683f8a4aa0de567bbf7f5b1c07a49fb1619014171ed6a83e6bf",
+  "memory_sha256": "6e37e85753664a9aad5f121eee25cbd0dec0758e96160debf2d317f761d6cbe2",
+  "usage": {
+    "input_tokens": 3852,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 63,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3915,
+    "x_details": [
+      {
+        "input_tokens": 3852,
+        "output_tokens": 63,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 3915,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.735
+}

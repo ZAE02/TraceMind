@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P04_CP1",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有具体发言支持，准确回溯了前两次会话的关键细节（如排班压力、母亲等待、弟弟护工言论）。但在“established_understanding”中遗漏了当前会话（Session 3）的核心事件（砸杯子、手抖、同事议论），导致对最新进展的证据支撑不足。",
+      "progress_understanding": "准确识别了来访者在家庭与职场间的拉扯模式及隐喻系统。虽然涵盖了前两次的进展，但未能将本次会话中“失控-羞耻-暂停需求”这一新的演变节点纳入理解框架，对咨询进程的动态更新捕捉不够完整。",
+      "uncertainty_awareness": "列出的未决问题非常精准且切中要害，特别是关于身体症状的医疗评估以及身份认同的形成机制，体现了对已知、假设和未知边界的清晰区分，没有强行定论。"
+    },
+    "confidence": "high",
+    "issues": [
+      "missed_progress: 忽略了当前会话（Session 3）中来访者情绪失控（砸杯子）、身体反应（手抖）及社会评价（同事议论）带来的新冲击，这是当前咨询节点最重要的进展/变化。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"主要判断均有具体发言支持，准确回溯了前两次会话的关键细节（如排班压力、母亲等待、弟弟护工言论）。但在“established_understanding”中遗漏了当前会话（Session 3）的核心事件（砸杯子、手抖、同事议论），导致对最新进展的证据支撑不足。\",\n    \"progress_understanding\": \"准确识别了来访者在家庭与职场间的拉扯模式及隐喻系统。虽然涵盖了前两次的进展，但未能将本次会话中“失控-羞耻-暂停需求”这一新的演变节点纳入理解框架，对咨询进程的动态更新捕捉不够完整。\",\n    \"uncertainty_awareness\": \"列出的未决问题非常精准且切中要害，特别是关于身体症状的医疗评估以及身份认同的形成机制，体现了对已知、假设和未知边界的清晰区分，没有强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"missed_progress: 忽略了当前会话（Session 3）中来访者情绪失控（砸杯子）、身体反应（手抖）及社会评价（同事议论）带来的新冲击，这是当前咨询节点最重要的进展/变化。\"\n  ]\n}",
+  "request_sha256": "9b02dedf3d10a1e712757bba9ecd195d2cda81a4423ed8806ff8c73e322b6f62",
+  "usage": {
+    "input_tokens": 8301,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 315,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8616,
+    "x_details": [
+      {
+        "input_tokens": 8301,
+        "output_tokens": 315,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8616,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.594
+}

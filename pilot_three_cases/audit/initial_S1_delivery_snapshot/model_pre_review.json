@@ -1,0 +1,265 @@
+{
+  "kind": "model_pre_review",
+  "status": "completed_with_human_review_notes",
+  "reviewed_at": "2026-10-12T08:43:16.212487+00:00",
+  "reviewer": "Codex assistant qualitative review; precise assistant model ID not exposed",
+  "is_human_review": false,
+  "numeric_scoring": "仅作定性模型预审；两位人工审阅者的分数保持空白。",
+  "method": "阅读全文并对照人物档案及当次会话卡核查事实；心理理解仅据可见发言标注，私人计划不作为咨询师已知事实。",
+  "cross_case_issues": [
+    "咨询师频繁采用“引用词语—评价准确或重要—继续解释”的格式，影响自然性。",
+    "暂定解释不能写成已核实心理原因，应保留来访者的纠正与不确定性。",
+    "S1只能评价起点，尚不能认定完整纵向心理轨迹成立；本轮未标注Gold或checkpoint。"
+  ],
+  "sessions": [
+    {
+      "case_id": "C01",
+      "session_number": 1,
+      "pairs": 12,
+      "status": "reviewed_with_notes",
+      "scores": null,
+      "strengths": [
+        {
+          "finding": "具体工作情境、反复修改及反复确认在多轮交流中逐步展开。",
+          "evidence": [
+            "C01-S01-U01",
+            "C01-S01-U03",
+            "C01-S01-U05"
+          ]
+        },
+        {
+          "finding": "来访者修正了咨询师对“悬着”的解释，并对跨情境共同原因保留不确定性。",
+          "evidence": [
+            "C01-S01-U07",
+            "C01-S01-U19"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "severity": "review",
+          "finding": "方案是否客观没有问题并未核实；U20强化了来访者“不是方案真的有问题”的结论。",
+          "evidence": [
+            "C01-S01-U19",
+            "C01-S01-U20"
+          ]
+        },
+        {
+          "severity": "review",
+          "finding": "工作检查与回应母亲是否存在共同原因只是候选解释，来访者仍表示不确定。",
+          "evidence": [
+            "C01-S01-U18",
+            "C01-S01-U19"
+          ]
+        },
+        {
+          "severity": "minor",
+          "finding": "多轮重复赞许“很准、很具体、很重要”，收尾也多延续了一轮，存在模板感。",
+          "evidence": [
+            "C01-S01-U04",
+            "C01-S01-U08",
+            "C01-S01-U10",
+            "C01-S01-U12",
+            "C01-S01-U20",
+            "C01-S01-U22",
+            "C01-S01-U24"
+          ]
+        }
+      ],
+      "supported_understanding": [
+        {
+          "claim": "来访者担心负责人如何看待她对模糊反馈的处理，并反复调整和检查细节。",
+          "evidence": [
+            "C01-S01-U03",
+            "C01-S01-U05",
+            "C01-S01-U07"
+          ]
+        },
+        {
+          "claim": "来访者报告近期晚间反复想事情，起点大致在赶项目期间。",
+          "evidence": [
+            "C01-S01-U09",
+            "C01-S01-U11",
+            "C01-S01-U13"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "评价担忧、任务标准不清和工作负荷是否在不同事件中起相同作用。",
+        "交付前只检查一遍的打算是否会落实，以及实际效果。"
+      ],
+      "do_not_infer": [
+        "因为她打算只检查一次就认为心理模式已经改善。",
+        "认为方案客观上没有问题。",
+        "把对母亲的烦躁与修改设计归为已经确定的同一种原因。"
+      ],
+      "transcript_sha256": "cfe8be65adb4a329efbd30b723942379c61e1cb508a08f37c15ba040f8663105"
+    },
+    {
+      "case_id": "C02",
+      "session_number": 1,
+      "pairs": 10,
+      "status": "reviewed_with_notes",
+      "scores": null,
+      "strengths": [
+        {
+          "finding": "来访者逐步描述迅速答应请求、自身工作量和个人安排被挤占的经历。",
+          "evidence": [
+            "C02-S01-U01",
+            "C02-S01-U05",
+            "C02-S01-U07"
+          ]
+        },
+        {
+          "finding": "来访者对咨询师关于失约与“不被允许”的解释作了限定和修正。",
+          "evidence": [
+            "C02-S01-U11",
+            "C02-S01-U13"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "severity": "fact_review",
+          "finding": "U09将晚餐取消和冰箱留言放在上周六；S1卡安排的是周四晚餐取消。可能是两次不同事件，需核对，不应直接等同或静默修改日期。",
+          "evidence": [
+            "C02-S01-U09"
+          ],
+          "card_reference": "C02 session_cards[0].life_events[2] and private_experiences[2]"
+        },
+        {
+          "severity": "review",
+          "finding": "咨询师提出“不被允许承认损失”的解释偏强；来访者随后澄清主要是自己的评判。",
+          "evidence": [
+            "C02-S01-U12",
+            "C02-S01-U13"
+          ]
+        },
+        {
+          "severity": "review",
+          "finding": "U16把“同一把尺子”的发现归于来访者，但该比喻由咨询师U14先提出，来访者U15再回应；应保留共同形成的来源。",
+          "evidence": [
+            "C02-S01-U14",
+            "C02-S01-U15",
+            "C02-S01-U16"
+          ]
+        }
+      ],
+      "supported_understanding": [
+        {
+          "claim": "来访者常很快答应他人，然后挤出自己的时间完成工作。",
+          "evidence": [
+            "C02-S01-U01",
+            "C02-S01-U05",
+            "C02-S01-U07"
+          ]
+        },
+        {
+          "claim": "来访者会考虑别人是否觉得自己的优先事项小气或小题大做。",
+          "evidence": [
+            "C02-S01-U03",
+            "C02-S01-U15"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "晚餐情境的日期，以及是否为独立于周四的另一次事件。",
+        "拒绝请求时预期会发生什么，以及是否因关系不同而变化。"
+      ],
+      "do_not_infer": [
+        "同事故意利用来访者。",
+        "来访者已经形成稳定的边界。",
+        "咨询师先提出的比较是来访者起初独立形成的认识。"
+      ],
+      "transcript_sha256": "9b1ef6436e8addd90e25e2c27d0a2752862c3ae1914a3979baa2e49fef1431d9"
+    },
+    {
+      "case_id": "C03",
+      "session_number": 1,
+      "pairs": 12,
+      "status": "reviewed_with_notes",
+      "scores": null,
+      "strengths": [
+        {
+          "finding": "技术用语和简短回应符合人物风格，烦躁逐步展开为更具体的体验。",
+          "evidence": [
+            "C03-S01-U01",
+            "C03-S01-U05",
+            "C03-S01-U07",
+            "C03-S01-U09",
+            "C03-S01-U11"
+          ]
+        },
+        {
+          "finding": "来访者纠正了咨询师“里面空了一块”的解释。",
+          "evidence": [
+            "C03-S01-U12",
+            "C03-S01-U13"
+          ]
+        }
+      ],
+      "issues": [
+        {
+          "severity": "research_value",
+          "finding": "对话主要停留在烦躁、身体感受与比喻，未确认是否没有求助或担心能力被评价；不能把私人计划中的原因当作当前可见证据。",
+          "evidence": [
+            "C03-S01-U01",
+            "C03-S01-U07",
+            "C03-S01-U11",
+            "C03-S01-U13",
+            "C03-S01-U17",
+            "C03-S01-U19"
+          ]
+        },
+        {
+          "severity": "review",
+          "finding": "追问比喻是否自然出现、哪里贴切，获得的新情境证据有限。",
+          "evidence": [
+            "C03-S01-U14",
+            "C03-S01-U16"
+          ]
+        },
+        {
+          "severity": "minor",
+          "finding": "重复评价表达“准确、重要”，以及两轮告别，使回应带有模板感。",
+          "evidence": [
+            "C03-S01-U12",
+            "C03-S01-U16",
+            "C03-S01-U18",
+            "C03-S01-U22",
+            "C03-S01-U24"
+          ]
+        }
+      ],
+      "supported_understanding": [
+        {
+          "claim": "两天排查未定位问题后，来访者感到停滞，发现自己重复查看日志而没有进展。",
+          "evidence": [
+            "C03-S01-U01",
+            "C03-S01-U05",
+            "C03-S01-U07"
+          ]
+        },
+        {
+          "claim": "来访者报告短暂慌张、脖子僵和“木”的状态，同时澄清脑子仍在转。",
+          "evidence": [
+            "C03-S01-U09",
+            "C03-S01-U11",
+            "C03-S01-U13"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "是否考虑过或尝试过向同事求助。",
+        "是否存在他人评价或自我能力评判方面的顾虑。"
+      ],
+      "do_not_infer": [
+        "来访者因为害怕显得能力不足而避免求助。",
+        "来访者不能或不愿与同事合作。",
+        "依据比喻或一次身体感受给出心理诊断。"
+      ],
+      "transcript_sha256": "72c72366f9750fe24d9573a2bebfac6fb360fad8528fce9454b6b8019e5ec8b7"
+    }
+  ]
+}
+

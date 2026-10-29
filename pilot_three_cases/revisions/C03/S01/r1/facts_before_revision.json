@@ -1,0 +1,45 @@
+{
+  "case_id": "C03",
+  "stable_profile": {
+    "name": "许哲",
+    "age": 27,
+    "gender": "男",
+    "occupation": "后端软件工程师",
+    "living_context": "在深圳一家软件公司工作两年多，独自租房，参与业务接口和内部服务开发。",
+    "relationships": "同组工程师老韩愿意讨论技术问题；技术负责人陆工工作忙、沟通较简洁；与同学偶尔线上聊天。",
+    "speech_style": "简洁具体，先描述发生了什么，偶尔用排查、接口、日志等日常工作词；感受常先说‘有点烦’，追问后会补充。"
+  },
+  "confirmed_additions": [
+    {
+      "id": "C03-F01",
+      "fact": "第二天下午重新打开日志时发现自己仍在看与上午差不多的地方。",
+      "category": "reported_event",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U07"
+      ],
+      "reviewed_by": "Codex assistant (model pre-review)",
+      "reviewed_at": "2026-10-12T08:43:16.236078+00:00",
+      "consistency_check": "Compared with stable profile, S1 card and full dialogue; no contradiction found. Bounded client report, not an established trait or objective clinical fact."
+    },
+    {
+      "id": "C03-F02",
+      "fact": "排查时自述脖子有些僵、整个人有点木；后来澄清不是脑子空，而是仍在转却找不到方向。",
+      "category": "reported_experience",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U11",
+        "C03-S01-U13"
+      ],
+      "reviewed_by": "Codex assistant (model pre-review)",
+      "reviewed_at": "2026-10-12T08:43:16.236078+00:00",
+      "consistency_check": "Compared with stable profile, S1 card and full dialogue; no contradiction found. Bounded client report, not an established trait or objective clinical fact."
+    }
+  ],
+  "pending_dialogue_reviews": [
+    1
+  ],
+  "rejected_candidates": [],
+  "note": "事实确认须附对话证据并检查与人物档案和已知事实的一致性；私人体验不等同Gold。",
+  "pending_new_fact_candidates": []
+}

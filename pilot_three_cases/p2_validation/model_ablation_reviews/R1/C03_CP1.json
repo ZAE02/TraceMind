@@ -1,0 +1,90 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R1",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C03_CP1",
+  "public_input_sha256": "5369129f841aaf7087ff88712a679bd625578f05539fa51e6a3f33307ea9fc4f",
+  "items": [
+    {
+      "anonymous_id": "Abec47174f3d8",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "早该想到标准支持耗时自判，不支持普遍别人不该记不清；actual二选一谨慎询问既有标准不记P，但选项较窄。",
+      "evidence_ids": [
+        "C03-S02-U11",
+        "C03-S03-U09"
+      ]
+    },
+    {
+      "anonymous_id": "A35c80fdb842d",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "老韩作为比较参照有据，预期仅tentative；问愣住瞬间不锁定解释，贴合当前未知。",
+      "evidence_ids": [
+        "C03-S02-U03",
+        "C03-S03-U09"
+      ]
+    },
+    {
+      "anonymous_id": "A2318ad8a3d7c",
+      "U": 4,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "局部准确描述贴标签与闪过区别；询问原先预期简洁具体，全文也未确定愣住含义。",
+      "evidence_ids": [
+        "C03-S03-U05",
+        "C03-S03-U07",
+        "C03-S03-U09"
+      ]
+    },
+    {
+      "anonymous_id": "Aa4953a6b3abc",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "能力标准候选保留tentative，最小化模式从单次言说概括偏强；没想到承认的选项可否定但另一个选项不清楚。",
+      "evidence_ids": [
+        "C03-S03-U09",
+        "C03-S03-U07"
+      ]
+    },
+    {
+      "anonymous_id": "Af7ffd8ebe3ae",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单句内意外及预期有据；两选项承认与场景差别不清，全文的自我比较背景可使探索更准确。",
+      "evidence_ids": [
+        "C03-S03-U09",
+        "C03-S02-U03"
+      ]
+    },
+    {
+      "anonymous_id": "A16bb0ea838d5",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "值得注意的分量略作延伸；回应在承认及表达方式间询问安全，未覆盖其他愣住体验，历史能支持更具体比较。",
+      "evidence_ids": [
+        "C03-S03-U09",
+        "C03-S02-U03"
+      ]
+    }
+  ]
+}

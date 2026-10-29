@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP1",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "5c7be6d08eb844a75a4bc0ca84a4e0631572a14c53a2259acb18a23e0a2fb1fb",
+  "request_sha256": "f07e26a234822d6d9f833593bdb9200317039381b0b17b16de077bab25ecdec5",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你怕被听出的，不只是“不想回家”这个念头，更是它背后那个“我已经不想再当那个随时能修排风扇的人”的自己。可你最后还是没有拔插头，还是把车推进去了——也许我们可以先不急着判断那个“不想拐进去”是真是假，而是看看它出现时，你有多久没允许自己只是坐在巷口，什么都不修。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3479,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 83,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3562,
+    "x_details": [
+      {
+        "input_tokens": 3479,
+        "output_tokens": 83,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3562,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

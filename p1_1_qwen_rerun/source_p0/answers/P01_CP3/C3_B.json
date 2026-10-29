@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "4d36ab3b5662fee05cb3da51e21742c7cdb3841dd3d8fd8a4bd4dfe2a314a737",
+  "request_sha256": "6c4fa74e480662aeaf37fc62798ac0500a89a4da343375c0452dc38abbd872b1",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你提到把嫉妒和失落跟项目的事混在一起，越混越分不清，这似乎是因为它们都指向同一个核心：害怕自己不够好、不被认可。也许这种“分不清”恰恰说明，无论是工作还是关系，你都在用同一种紧绷的方式在保护自己。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 9493,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9550,
+    "x_details": [
+      {
+        "input_tokens": 9493,
+        "output_tokens": 57,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9550,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

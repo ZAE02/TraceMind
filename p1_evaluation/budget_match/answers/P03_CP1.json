@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P03_CP1",
+  "condition": "C5_budget",
+  "raw_text": "水声停了，那句话还是没出来——好像它需要一个比“还行”更安全、又不会立刻被拆成解决办法的出口。你说“终于有人把那个感觉说出来了”，也许今晚你已经在心里跟周屿说了一遍，只是还没找到能当面对他讲的方式。",
+  "input_sha256": "537e5d11fdb84841e59aa1a16c2dc1080f4202396a98aed5b2a9ee69c62f0466",
+  "memory_sha256": "a889fe17c0fcc96883a3f75907eccebd209ee93e35db988dcefff0d31161a0ce",
+  "request_sha256": "4eb239016df53167d99a4babe0ce42d0254b863e56cd6d0342dd7101b73f892d",
+  "usage": {
+    "input_tokens": 4177,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 60,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4237,
+    "x_details": [
+      {
+        "input_tokens": 4177,
+        "output_tokens": 60,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 4237,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.735
+}

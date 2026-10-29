@@ -1,0 +1,504 @@
+{
+  "case_id": "P08",
+  "session": 7,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P08-S07-U01",
+      "role": "client",
+      "text": "这周也是忙得脚不沾地，台风那两天赵岩留下来跟我一起盯预警，值班室就我们俩吃泡面。我后来还是问了他当年怎么顾孩子入学，他说了不少。可刚松快点，周宁又说报名审核提前了，让我请假陪着去，我跟孙主管提了，他当场给我驳回来了。",
+      "request_sha256": "cb5d6a4bbabfae070816d3d1890ec9ea2ae94743afca017abcd67f7a1f6ab480",
+      "usage": {
+        "input_tokens": 8739,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 171,
+        "output_tokens_details": {
+          "reasoning_tokens": 96
+        },
+        "total_tokens": 8910,
+        "x_details": [
+          {
+            "input_tokens": 8739,
+            "output_tokens": 171,
+            "output_tokens_details": {
+              "reasoning_tokens": 96
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 8910,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U02",
+      "role": "counselor",
+      "text": "赵岩陪你盯台风、又聊了孩子入学的事，你好像刚找到一点能松快下来的感觉；可周宁一提醒审核提前，你请假又被驳回来，那种被工作和家里两头夹住、事情推不动的感觉好像又回来了。被驳回来的时候，你心里最先冒出来的是什么？",
+      "request_sha256": "1c3a407be147e833dfec4bcccc9a44d14d5dbc03510e88c26ad7dbe3be0334b7",
+      "usage": {
+        "input_tokens": 7791,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 393,
+        "output_tokens_details": {
+          "reasoning_tokens": 325
+        },
+        "total_tokens": 8184,
+        "x_details": [
+          {
+            "input_tokens": 7791,
+            "output_tokens": 393,
+            "output_tokens_details": {
+              "reasoning_tokens": 325
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 8184,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U03",
+      "role": "client",
+      "text": "\"请假被驳回来的时候，我脑子懵了一下，第一反应不是生气，是怕。怕真因为我这边卡着，小溪的报名就这么耽误了。孙主管说生产任务紧，让我顾全大局，道理我都懂，可家里那个审核不等人。\"",
+      "request_sha256": "ace53b75cab4289fc2f05a9d0e9830e73ebb058f257350263c2ab65603e1c007",
+      "usage": {
+        "input_tokens": 8928,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 287,
+        "output_tokens_details": {
+          "reasoning_tokens": 229
+        },
+        "total_tokens": 9215,
+        "x_details": [
+          {
+            "input_tokens": 8928,
+            "output_tokens": 287,
+            "output_tokens_details": {
+              "reasoning_tokens": 229
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9215,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U04",
+      "role": "counselor",
+      "text": "你怕的不是请假被驳，而是自己可能成了耽误小溪报名的那一环，哪怕道理都懂，那种“审核不等人”的急也压不下来。被孙主管驳回来时，你好像一下子被推到单位大局和家里急事中间，两边都松不开手。",
+      "request_sha256": "ab30f9b4cb58f7f687a10a3d702b8b3aad335c2f40eeb532c0f5d4cdab95e1e6",
+      "usage": {
+        "input_tokens": 7964,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 307,
+        "output_tokens_details": {
+          "reasoning_tokens": 246
+        },
+        "total_tokens": 8271,
+        "x_details": [
+          {
+            "input_tokens": 7964,
+            "output_tokens": 307,
+            "output_tokens_details": {
+              "reasoning_tokens": 246
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8271,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U05",
+      "role": "client",
+      "text": "其实那天值班室吃泡面，赵岩跟我说了很多他当年怎么请假、怎么补材料的事，我听着反而有点说不上来，好像这些事早该有人跟我讲讲。但他讲得越具体，我越觉得自己前几年是不是太把自己绷死了。",
+      "request_sha256": "48e183c1d6cdb6674154d4ae66868b2627321034b7c47267888a17bb470dad94",
+      "usage": {
+        "input_tokens": 9094,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 318,
+        "output_tokens_details": {
+          "reasoning_tokens": 261
+        },
+        "total_tokens": 9412,
+        "x_details": [
+          {
+            "input_tokens": 9094,
+            "output_tokens": 318,
+            "output_tokens_details": {
+              "reasoning_tokens": 261
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9412,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U06",
+      "role": "counselor",
+      "text": "赵岩讲得越具体，你越觉得这些事“早该有人讲讲”，好像过去几年你一直一个人扛着、没找到可以问的人。那种“说不上来”的感觉里，可能既有被接住的松动，也有对自己一直绷得太紧的感慨。",
+      "request_sha256": "3f848453c508df6b0b08f50522cd52e7c756b95fd5543c280ee4ffe7a9d9f0cc",
+      "usage": {
+        "input_tokens": 8127,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 219,
+        "output_tokens_details": {
+          "reasoning_tokens": 160
+        },
+        "total_tokens": 8346,
+        "x_details": [
+          {
+            "input_tokens": 8127,
+            "output_tokens": 219,
+            "output_tokens_details": {
+              "reasoning_tokens": 160
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8346,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U07",
+      "role": "client",
+      "text": "\"说不上来，就是听他说那些，我才发现原来这些事一直有别的办法，不用每回都自己先撞一遍。可眼前这关还是卡着，审核提前了，假又请不下来，赵岩说的那些经验再好，我一时也用不上。\"",
+      "request_sha256": "996aeae0bb58f02db59fa10831b49a6674885cd89c44f1212db9fcd7f760a275",
+      "usage": {
+        "input_tokens": 9255,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 285,
+        "output_tokens_details": {
+          "reasoning_tokens": 226
+        },
+        "total_tokens": 9540,
+        "x_details": [
+          {
+            "input_tokens": 9255,
+            "output_tokens": 285,
+            "output_tokens_details": {
+              "reasoning_tokens": 226
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 9540,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U08",
+      "role": "counselor",
+      "text": "赵岩的那些经验让你发现，原来很多事可以有别的路径，不必每次都是自己先撞一遍。这个发现好像一下子照见了你过去几年一直绷着、独自硬扛的状态。只是眼前审核提前、假又批不下来，让这个刚松动的认知一时没处使，所以卡在“知道了有别的办法，但还是动不了”的位置上。",
+      "request_sha256": "ceb7477476a31db92002805219372b8b5740a5913d9045c4afadbd404ad8e137",
+      "usage": {
+        "input_tokens": 8292,
+        "input_tokens_details": {
+          "cached_tokens": 7168
+        },
+        "output_tokens": 368,
+        "output_tokens_details": {
+          "reasoning_tokens": 290
+        },
+        "total_tokens": 8660,
+        "x_details": [
+          {
+            "input_tokens": 8292,
+            "output_tokens": 368,
+            "output_tokens_details": {
+              "reasoning_tokens": 290
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 7168
+            },
+            "total_tokens": 8660,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U09",
+      "role": "client",
+      "text": "其实那天赵岩说到后面，我听着听着就走了神，想的全是自己前两年怎么一个人对着那些材料发懵。也不是没找过别人，是根本不知道该问谁，问出口又怕人家觉得我连这个都搞不定。现在知道了，还是晚了点。",
+      "request_sha256": "ab5da259df1f718c6df36c6fd8fc79cd0c3f199a90f7744dc0337ecd226d5085",
+      "usage": {
+        "input_tokens": 9439,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 292,
+        "output_tokens_details": {
+          "reasoning_tokens": 233
+        },
+        "total_tokens": 9731,
+        "x_details": [
+          {
+            "input_tokens": 9439,
+            "output_tokens": 292,
+            "output_tokens_details": {
+              "reasoning_tokens": 233
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9731,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U10",
+      "role": "counselor",
+      "text": "你听赵岩讲的时候走神，回到的是前两年一个人对着材料发懵、想问又不敢问的自己。说“晚了点”的时候，好像不止在说时间，也在说那种一个人撞了太久的遗憾。你此刻感觉到的，更多是可惜那些本该不用硬撑的日子，还是怪自己没早开口？",
+      "request_sha256": "81df9d28920665491b91d602739725315a950a874ef0901d7518ce821c16ab8b",
+      "usage": {
+        "input_tokens": 8474,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 301,
+        "output_tokens_details": {
+          "reasoning_tokens": 230
+        },
+        "total_tokens": 8775,
+        "x_details": [
+          {
+            "input_tokens": 8474,
+            "output_tokens": 301,
+            "output_tokens_details": {
+              "reasoning_tokens": 230
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 8775,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U11",
+      "role": "client",
+      "text": "说不上来，可能都有点。就是觉得那几年自己一个人顶着，挺没必要的，可当时又真的张不开嘴。现在事情堆到眼前了，我连去怪自己都顾不上。回去我再想想办法吧，假的事总不能就这么算了。",
+      "request_sha256": "31fa508bceeaab6412a2315fdc9b7ae3532a6909eab7211eb277fc43cd8f9da3",
+      "usage": {
+        "input_tokens": 9621,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 202,
+        "output_tokens_details": {
+          "reasoning_tokens": 146
+        },
+        "total_tokens": 9823,
+        "x_details": [
+          {
+            "input_tokens": 9621,
+            "output_tokens": 202,
+            "output_tokens_details": {
+              "reasoning_tokens": 146
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9823,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U12",
+      "role": "counselor",
+      "text": "赵岩讲的那些经验让你看清了过去几年自己一个人硬撑的状态，也带来一种“当时要是能早点问就好了”的遗憾。你说现在顾不上怪自己，但那种“不该一个人顶”的感觉好像并没有真的过去，只是被眼前审核和请假的事压住了。如果下次还想说，我们可以慢慢看看，是什么让你当时张不开嘴。",
+      "request_sha256": "c87f9d8d9c4ed7858a69fd956265ab00fb7eb8b73d137ec5b4f4ea2657646125",
+      "usage": {
+        "input_tokens": 8653,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 325,
+        "output_tokens_details": {
+          "reasoning_tokens": 250
+        },
+        "total_tokens": 8978,
+        "x_details": [
+          {
+            "input_tokens": 8653,
+            "output_tokens": 325,
+            "output_tokens_details": {
+              "reasoning_tokens": 250
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 8978,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U13",
+      "role": "client",
+      "text": "我回去再找孙主管说说，总不能就这么等着。赵岩那天讲的我也记下了，有些材料说不定还有别的办法补。至于当时为什么张不开嘴，我也说不上来，等忙完这阵再想吧。",
+      "request_sha256": "3fed4671b79ef43117a87124a91b85501c0d6710dcfab7af4039ad0481c780e1",
+      "usage": {
+        "input_tokens": 9797,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 419,
+        "output_tokens_details": {
+          "reasoning_tokens": 369
+        },
+        "total_tokens": 10216,
+        "x_details": [
+          {
+            "input_tokens": 9797,
+            "output_tokens": 419,
+            "output_tokens_details": {
+              "reasoning_tokens": 369
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10216,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U14",
+      "role": "counselor",
+      "text": "你能先顾眼前的事，并且记下赵岩说的办法，这已经是往前走了一步。至于当时为什么张不开嘴，不急着现在想明白，等忙过这阵子、你愿意的时候，我们还可以一起回头看。今天先到这里，回去的路上也给自己留一点喘气的空。",
+      "request_sha256": "738bbd6809b32a6204296bb3db62747a43d592b5d903841645b9a3e482321eec",
+      "usage": {
+        "input_tokens": 8823,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 369,
+        "output_tokens_details": {
+          "reasoning_tokens": 306
+        },
+        "total_tokens": 9192,
+        "x_details": [
+          {
+            "input_tokens": 8823,
+            "output_tokens": 369,
+            "output_tokens_details": {
+              "reasoning_tokens": 306
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9192,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U15",
+      "role": "client",
+      "text": "行，我回去再琢磨琢磨。假的事我肯定还得再找孙主管说说，不能让这事卡在我这儿。今天先到这儿吧。",
+      "request_sha256": "a3c6da5d16b6e86bd246f0221c4a709c1a91a173b1ff0fb8f7b1bafd99ea93ca",
+      "usage": {
+        "input_tokens": 9955,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 201,
+        "output_tokens_details": {
+          "reasoning_tokens": 168
+        },
+        "total_tokens": 10156,
+        "x_details": [
+          {
+            "input_tokens": 9955,
+            "output_tokens": 201,
+            "output_tokens_details": {
+              "reasoning_tokens": 168
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10156,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S07-U16",
+      "role": "counselor",
+      "text": "好，先回去顾眼前。你想再找孙主管说，是不想让报名的事卡在自己这一步，这份着急里也带着你的担当。等你想再谈的时候，我们可以接着看看假批不下来这件事压在你身上的感觉。",
+      "request_sha256": "4e3a04e37c4684f6a27cdffb05659537c84e10239afb22caf2310805f5b15867",
+      "usage": {
+        "input_tokens": 8963,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 326,
+        "output_tokens_details": {
+          "reasoning_tokens": 277
+        },
+        "total_tokens": 9289,
+        "x_details": [
+          {
+            "input_tokens": 8963,
+            "output_tokens": 326,
+            "output_tokens_details": {
+              "reasoning_tokens": 277
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9289,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C02",
+  "session_number": 3,
+  "relative_week": 3,
+  "status": "generating",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T12:06:57.442746+00:00",
+  "config_hash": "9af0f54c230d74fd1c6dc2428ac6d6756a5b447007f0ace8f774cd8186a5f798",
+  "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v6-unsent-editor-and-session-clock",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": true,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。"
+  },
+  "utterances": [
+    {
+      "id": "C02-S03-U01",
+      "role": "client",
+      "text": "这周……又取消了悦悦一次。周五晚上她说周末一起去看电影，我说了行。结果周六晚上又加班到十一点，周日早上起来脑子还是糊的，就……又发消息说去不了了。\n\n也不是多大的事，就是又爽约了。但她这次回得比上次还短，就一个\"好\"。",
+      "call_id": "4bc5e138d80049aa9cfbb00423df0b68",
+      "response_id": "resp_b7bd8fc0-1b70-9340-9a20-b1b1b1eb1564",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:07:08.400357+00:00"
+    },
+    {
+      "id": "C02-S03-U02",
+      "role": "counselor",
+      "text": "她这次就回了一个好。你看到的时候，当时在想什么？",
+      "call_id": "9956b686dd784426a55edf0382bb9107",
+      "response_id": "resp_43b182c1-5d26-967c-b211-b4da9dfcf7a2",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:07:40.878649+00:00"
+    },
+    {
+      "id": "C02-S03-U03",
+      "role": "client",
+      "text": "就是……当时我刚睡醒，脑子还糊着，看到那个\"好\"字，第一反应是\"哦\"，就那种……她也没说什么，那就这样吧。但后来我又看了一眼，上次她好歹还说了\"饭我放冰箱了\"，这次就一个字。我就……盯着那个对话框看了几秒，想她是不是其实有点不高兴了，但又觉得，人家就回个\"好\"，我还能怎么理解，可能就是懒得打字吧。",
+      "call_id": "d94616704f444390bff6fb521df69439",
+      "response_id": "resp_8f3d8715-f0bb-9792-b1ca-4213990f07a1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:07:56.683871+00:00"
+    },
+    {
+      "id": "C02-S03-U04",
+      "role": "counselor",
+      "text": "那个来回摆——她是不是不高兴，又觉得可能就是懒得打字——那几秒里，你更想相信哪个？",
+      "call_id": "47311dc19d364b628b11b80e3a6d5365",
+      "response_id": "resp_e33e25b1-db48-965e-8760-958780d27d23",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:08:05.929672+00:00"
+    },
+    {
+      "id": "C02-S03-U05",
+      "role": "client",
+      "text": "嗯……我想了想，我第一反应是\"懒得打字\"，就是先往那个方向想。但那个\"她是不是不高兴\"的念头确实冒出来了，就是……上次好歹还多说了一句，这次就一个字，我就觉得那个字里面好像有什么东西被省掉了。但我又不敢往那个方向想，因为如果她真不高兴了，那说明我确实……就是又让她失望了。",
+      "call_id": "fdd6b91dd5674e41aeda835962187271",
+      "response_id": "resp_73df5389-5537-9d59-94b0-1a4f57225f56",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:08:13.707195+00:00"
+    },
+    {
+      "id": "C02-S03-U06",
+      "role": "counselor",
+      "text": "如果她真不高兴了，你就得承认又让她失望了，这个好像是你不敢往下走的那一步。上次你取消之后那个闷，后来是怎么过去的？",
+      "call_id": "4aa97797f5c248999aa2f2685b0a8fa3",
+      "response_id": "resp_410d39e5-f38c-938a-9840-f067eaf5335f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:08:51.270429+00:00"
+    },
+    {
+      "id": "C02-S03-U07",
+      "role": "client",
+      "text": "嗯……也没怎么\"过去\"吧。就是那天晚上我起来热了那个饭，吃了，然后……就那样了。第二天上班忙起来就不想了，但那个闷好像也没完全散，就是……变成了一种\"下次别这样了\"的念头，但也没真做到。",
+      "call_id": "072db7f1bb6c45a88b8a79173a97e887",
+      "response_id": "resp_a6d14c8d-3edb-9462-99a2-49707b6634b4",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:09:00.656348+00:00"
+    },
+    {
+      "id": "C02-S03-U08",
+      "role": "counselor",
+      "text": "那个下次别这样了，后来有没有真的遇到下一次她再约的时候？如果遇到了，当时你脑子里过的是什么？",
+      "call_id": "8813a7f6839341869a798ea215a3f2f0",
+      "response_id": "resp_4004540b-893f-9d09-b81f-b95b01406389",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:09:34.184138+00:00"
+    },
+    {
+      "id": "C02-S03-U09",
+      "role": "client",
+      "text": "有的，就是这周这次。她周五晚上说的，我当时回得挺快的，就是\"好啊\"。脑子里过什么嘛……可能就是觉得看电影又不费什么力气，不像做饭还得提前买菜，应该来得及吧。但说实话，答应的时候我心里已经有点……就是这周加班已经挺多了，我隐约觉得周六可能又不一定，但没太往那方面想，就觉得应该没事。",
+      "call_id": "7806a433ba104ad3abf91848c0f80f5f",
+      "response_id": "resp_35b7d6ab-5470-95b4-bec6-feae70c085c3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:09:43.924098+00:00"
+    },
+    {
+      "id": "C02-S03-U10",
+      "role": "counselor",
+      "text": "你隐约觉得可能又不一定，但还是说了好啊。那个应该没事，是觉得这周加班已经差不多了，还是就是没往那个方向想？",
+      "call_id": "5295c4446e9f43e68abf4ab4728b28e5",
+      "response_id": "resp_a15c2d25-0fc4-99df-ae10-6134da7b6fe6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:10:24.525876+00:00"
+    },
+    {
+      "id": "C02-S03-U11",
+      "role": "client",
+      "text": "嗯……我觉得可能更偏后者吧。就是那个\"可能又不一定\"的念头确实冒了一下，但我没有真的去数这周还有没有别的活要补。就是……没去算，就觉得应该没事。如果我真去算了一下，发现周六大概率还是要加班，我可能就不会说\"好啊\"了。但那样想的话，好像又显得我……算了，就是没去算。",
+      "call_id": "1b71ac6c9bb64b2d91b62d05e5b6ca3c",
+      "response_id": "resp_16c78d49-58d1-9f7b-ac76-81db877b5572",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:10:36.919922+00:00"
+    },
+    {
+      "id": "C02-S03-U12",
+      "role": "counselor",
+      "text": "那个应该没事，里面有没有一个具体的东西，比如觉得这周加班差不多到头了，还是就是一个没有具体内容的感觉？",
+      "call_id": "d06f4603ec0a4693802b76577dbc86a3",
+      "response_id": "resp_80c5fbc7-2703-915f-8b45-95683aabec39",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:11:28.744189+00:00"
+    },
+    {
+      "id": "C02-S03-U13",
+      "role": "client",
+      "text": "嗯……应该没有具体内容吧。就是那种……没有依据的\"应该没事\"。我甚至没去翻日历看周六有没有别的安排，就是觉得，上次加班到八点，这次应该不至于吧。但我也说不上来为什么\"不至于\"，可能就是……没往那个方向想，所以默认没事。",
+      "call_id": "f9c6d39d0f514fa5b2f117499d48bf57",
+      "response_id": "resp_dcb91088-d09a-9250-b253-6a75b270afa6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:11:35.956279+00:00"
+    },
+    {
+      "id": "C02-S03-U14",
+      "role": "counselor",
+      "text": "没往那个方向想，那当时脑子里在过的是什么？",
+      "call_id": "c90d1534f7c547149101bb63abb49447",
+      "response_id": "resp_4e27a356-0a94-9133-bc58-eaa8ab7e10ed",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:12:31.537294+00:00"
+    },
+    {
+      "id": "C02-S03-U15",
+      "role": "client",
+      "text": "嗯……我当时其实没在特别想什么。就是周五晚上吃完饭，在沙发上刷手机，她突然发来说周六一起去看电影，我顺手就回了。脑子里可能就在想\"哦看电影\"，然后就没有然后了。就是……很空，没在过这周还有多少活，也没在想周六几点要起来，就是很随意地接了。",
+      "call_id": "e74201d2179340aeb61e7179ab29fa6d",
+      "response_id": "resp_bdf6c792-78dc-9030-95df-1d44c904f213",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T12:12:40.780426+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T12:12:40.780426+00:00"
+}

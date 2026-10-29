@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_01473f0f1656",
+  "round": 1,
+  "node": "N04",
+  "method": "B2_temporal_RAG",
+  "replicate": 2,
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "request_sha256": "04916a2d07d933f72fa34f05c8e56632b7da1552ca089f44b2e78211f8eeb140",
+  "call_id": "be1ad3abebfc49e393e2e03f918f27b4",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "嗯……\"什么在薄\"，我想了想，好像就是……周六下午那种\"这是我的\"的感觉。以前周六下午我出门买菜、做饭、看电影，那个时间就是\"我的\"，不用跟谁交代。现在就是……我答应别人的时候觉得\"我的\"还在，但真到了那个时间，它就不在了，而且我不太确定它是不是真的没了，还是只是我没去用。\n\n就是那种……它不是被谁拿走的，是我自己先说\"行\"了，然后它就不在了。",
+  "usage": {
+    "input_tokens": 14150,
+    "input_tokens_details": {
+      "cached_tokens": 7424
+    },
+    "output_tokens": 527,
+    "output_tokens_details": {
+      "reasoning_tokens": 416
+    },
+    "total_tokens": 14677,
+    "x_details": [
+      {
+        "input_tokens": 14150,
+        "input_tokens_details": {
+          "text_tokens": 14150
+        },
+        "output_tokens": 527,
+        "output_tokens_details": {
+          "reasoning_tokens": 416
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 7424
+        },
+        "total_tokens": 14677,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T11:18:00.639508+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

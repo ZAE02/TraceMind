@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_adb97986c9a8",
+  "round": 1,
+  "node": "N04",
+  "method": "B2_temporal_RAG",
+  "replicate": 1,
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "request_sha256": "80463819c2d65222ea09d94d01e4300629aa176a8d7467726ab00d37161009f6",
+  "call_id": "456b2bfd9e594595a595b3ce79ef8568",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "嗯……你这样问，我又得回去想一下。就是……周六下午那种，我本来可以出门、可以做饭、可以看电影的，那个\"我可以\"的感觉。以前觉得周六下午就是周六下午，是我的，不用想。但现在就是……我周六下午确实可以出门，但那个\"我可以\"里面好像多了一层东西，就是……我不知道下周五会不会又加到十一点，所以那个周六下午还没到，我就已经开始替它担心了。\n\n就是……薄的好像不是那个时间本身，是那个\"它肯定是我的\"的确定感。这周确实去了，饭也做了，但那个确定感好像还是没回来。",
+  "usage": {
+    "input_tokens": 14148,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 543,
+    "output_tokens_details": {
+      "reasoning_tokens": 403
+    },
+    "total_tokens": 14691,
+    "x_details": [
+      {
+        "input_tokens": 14148,
+        "input_tokens_details": {
+          "text_tokens": 14148
+        },
+        "output_tokens": 543,
+        "output_tokens_details": {
+          "reasoning_tokens": 403
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 14691,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T11:18:00.767864+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

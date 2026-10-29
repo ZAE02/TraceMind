@@ -1,0 +1,55 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "82d1d1c2b60198079b0cb6dc1f7bad5703b2c5bf086acfedfbd26dd5951de154",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "506b7b9bfbacad611ef62b3bf025815411fab2954aa45a935b5e3c8c05f234b6",
+  "candidate_answer_sha256": "ad0e8f3ed0c911921679de5f3a2aa6e3b5a0bb9d30c72680c9f87c4ac5af3421",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":2,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"将咨询师在P06-S03-U08中的假设性探索（'用痛来确认自己还在'）直接作为已确立事实写入established第3条，参考标注明确指出这是unsupported assumption；同时把跨会话的合理推断（如'父亲离家'）当作确定事实。\",\"progress_understanding\":\"罗列了大量历史要点，但仅以清单形式呈现，未说明哪些认识在本次会话中被深化、验证或修正，也未体现从'扛着'到'怕空了'再到躯体闪回的进展脉络。\",\"uncertainty_awareness\":\"识别了部分未知点（如咬自己的频率、父亲离家的原因），但遗漏了当前最关键的待澄清项——来访者描述的'像被人从头顶撕开了'可能涉及解离体验，性质尚不明确；且把咨询师的推测当确定事实也反映出不确定性区分不足。\"},\"confidence\":\"high\",\"issues\":[\"把咨询师试探性假设（P06-S03-U08 '用痛确认自己还在'）当作已确立事实，违反参考标注明确指出的unsupported_assumption\",\"未识别'像被人从头顶撕开了'这一关键表述的潜在解离含义及不确定性\",\"established列表混杂本次会话新发现与历史回顾，缺乏对咨询进展动态的梳理\",\"uncertain部分偏向背景信息追问，忽略当前对话中亟需探索的体验性质问题\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "将咨询师在P06-S03-U08中的假设性探索（'用痛来确认自己还在'）直接作为已确立事实写入established第3条，参考标注明确指出这是unsupported assumption；同时把跨会话的合理推断（如'父亲离家'）当作确定事实。",
+      "progress_understanding": "罗列了大量历史要点，但仅以清单形式呈现，未说明哪些认识在本次会话中被深化、验证或修正，也未体现从'扛着'到'怕空了'再到躯体闪回的进展脉络。",
+      "uncertainty_awareness": "识别了部分未知点（如咬自己的频率、父亲离家的原因），但遗漏了当前最关键的待澄清项——来访者描述的'像被人从头顶撕开了'可能涉及解离体验，性质尚不明确；且把咨询师的推测当确定事实也反映出不确定性区分不足。"
+    },
+    "confidence": "high",
+    "issues": [
+      "把咨询师试探性假设（P06-S03-U08 '用痛确认自己还在'）当作已确立事实，违反参考标注明确指出的unsupported_assumption",
+      "未识别'像被人从头顶撕开了'这一关键表述的潜在解离含义及不确定性",
+      "established列表混杂本次会话新发现与历史回顾，缺乏对咨询进展动态的梳理",
+      "uncertain部分偏向背景信息追问，忽略当前对话中亟需探索的体验性质问题"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8708,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 320,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9028,
+    "x_details": [
+      {
+        "input_tokens": 8708,
+        "output_tokens": 320,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 9028,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.579
+}

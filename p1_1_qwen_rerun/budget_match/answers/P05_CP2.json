@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P05_CP2",
+  "condition": "C5_budget",
+  "raw_text": "你希望她直接跑来问，却又预设自己到时候还是会说“没事”，这种矛盾里好像藏着一种很深的无力感——既渴望被看穿，又觉得自己没有能力去承接那份真实的关心。那条写到一半的动态让你觉得发不发都改变不了什么，是不是因为在你看来，只有对方能主动打破这层隔膜，而你只能被动地等待？",
+  "input_sha256": "d75e1366224d26d1da84f04512d86fb0a13c028fa892dec044c7d676091cad9c",
+  "memory_sha256": "3a58067bcc1d6c01638bcf68977ec08da3e088145dc2aa5fd0fb84021e101c10",
+  "request_sha256": "150db63bb3dc28f5ba968a274cb226b14b07a6bf0a47c691a69eead4ea13a21f",
+  "usage": {
+    "input_tokens": 6868,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 76,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6944,
+    "x_details": [
+      {
+        "input_tokens": 6868,
+        "output_tokens": 76,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6944,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.515
+}

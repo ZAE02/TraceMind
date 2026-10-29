@@ -1,0 +1,87 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "695d8ebc33b9b66ba172f97eae3d1e980a78d59c42127d8bf7f5e8892582cd50",
+  "public_sha256": "d6bd7f5a2d2dd5946d5f9251ae6d33ec0b42c449de978649ab16f32a98bd9557",
+  "candidate_input_sha256": "d20283d0968661796112576b57b118ea84d95a1dd3d57d3ee74572391f75b62f",
+  "candidate_answer_sha256": "8c266ed46fa6e5fe837e015d44e610119e12d1f58ff537118eb4d7516f1e4c75",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"回应抓住了当前'不敢看群'和'反复看截图'的行为模式，但未自然衔接历史中已识别的'需要别人确认才安心''自己的需要不正当'等核心认识，仅泛泛联系。\",\"exploration_value\":\"将行为定性为'自我惩罚'、将头晕归因为'弦绷太紧'，均为封闭式解读，未给来访者留下表达或修正空间，也忽略了来访者刚出现的自我觉察（'是不是又把简单事搞复杂了'）。\",\"response_appropriateness\":\"语言尚算温和，但'自我惩罚'是未经证实的强解释，对头晕的因果推断也过于武断，存在明显预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你好像把\"没点开群\"和\"反复看截图\"都当成了某种自我惩罚，以此来确认自己是不是真的搞砸了\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"你好像把\"没点开群\"和\"反复看截图\"都当成了某种自我惩罚\",\"evidence_ids\":[\"P01-S05-U08\",\"P01-S05-U09\",\"P01-S04-U08\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"将'不敢看群'和'反复看截图'直接定性为'自我惩罚'缺乏来访者表述支持，属于unsupported_presupposition\",\"对头晕做出'身体提醒弦绷太紧'的因果推断过于武断，来访者本人表示'不太确定'\",\"忽略了来访者在U09中展现的自我觉察（'我总觉得自己是不是又把一件很简单的事搞成了需要别人来替我确认才行'），这是重要的进展信号\",\"未利用检索到的历史中关于'难以向对方要明确信号''怕暴露不确定'等已被确认的模式来承接当前体验\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 1,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "回应抓住了当前'不敢看群'和'反复看截图'的行为模式，但未自然衔接历史中已识别的'需要别人确认才安心''自己的需要不正当'等核心认识，仅泛泛联系。",
+      "exploration_value": "将行为定性为'自我惩罚'、将头晕归因为'弦绷太紧'，均为封闭式解读，未给来访者留下表达或修正空间，也忽略了来访者刚出现的自我觉察（'是不是又把简单事搞复杂了'）。",
+      "response_appropriateness": "语言尚算温和，但'自我惩罚'是未经证实的强解释，对头晕的因果推断也过于武断，存在明显预设。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "你好像把“没点开群”和“反复看截图”都当成了某种自我惩罚，以此来确认自己是不是真的搞砸了",
+        "evidence_ids": [
+          "P01-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": null,
+        "evidence_ids": [
+          "P01-S05-U08",
+          "P01-S05-U09",
+          "P01-S04-U08"
+        ],
+        "access_limited": false,
+        "omission_note_from_judge": "你好像把\"没点开群\"和\"反复看截图\"都当成了某种自我惩罚"
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "将'不敢看群'和'反复看截图'直接定性为'自我惩罚'缺乏来访者表述支持，属于unsupported_presupposition",
+      "对头晕做出'身体提醒弦绷太紧'的因果推断过于武断，来访者本人表示'不太确定'",
+      "忽略了来访者在U09中展现的自我觉察（'我总觉得自己是不是又把一件很简单的事搞成了需要别人来替我确认才行'），这是重要的进展信号",
+      "未利用检索到的历史中关于'难以向对方要明确信号''怕暴露不确定'等已被确认的模式来承接当前体验"
+    ]
+  },
+  "usage": {
+    "input_tokens": 12444,
+    "input_tokens_details": {
+      "cached_tokens": 12288
+    },
+    "output_tokens": 467,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12911,
+    "x_details": [
+      {
+        "input_tokens": 12444,
+        "output_tokens": 467,
+        "prompt_tokens_details": {
+          "cached_tokens": 12288
+        },
+        "total_tokens": 12911,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 11.406,
+  "omission_quote_normalized": true,
+  "quote_typography_normalized": [
+    "unsupported_presupposition"
+  ],
+  "original_review_quarantine_path": "quarantined_nonverbatim\\reviews\\P01_CP2\\X_B.json"
+}

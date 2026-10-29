@@ -1,0 +1,72 @@
+{
+  "checkpoint": "P03_CP1",
+  "candidate_id": "Z",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "3062cac9cd151a73b4f86636fda40ec2b7f56837ab7849625a477e6779420851",
+  "public_sha256": "4ee1ec21b37c1644f6fa25cf57e2c5bac3f26db6302d8176a24238a83e0d6082",
+  "candidate_input_sha256": "4cfbb5073941739715b4d907f87558f87096d1b2ca2e29a9e4577b09277d55eb",
+  "candidate_answer_sha256": "fe1c587bf2235a4eb16c318774c767387c98fd29c5cfcc5797d6385ca4165502",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":3,\"brief_reason\":\"回应准确承接了来访者刚表达的'被拆解'恐惧和洗碗时没说出口的情境，情绪反映到位。但候选可见输入中无历史会话（previous_sessions为空），无法利用前两次咨询中关于'不急着弄明白''被接住会慌'等重要进展。探索上主要为总结性重述，未为来访者进一步展开留下空间。语言自然尊重，但对来访者沉默原因的归因略带预设。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"水声停了却没说出口，是因为你此刻更想确认的是：你的感受本身是被接纳的，而不是必须立刻被解决的\",\"evidence_ids\":[\"P03-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选输入中previous_sessions为空，限制了历史利用评分，但不构成候选人行为错误\",\"回应将'没说出口'的原因直接归结为'更想确认感受被接纳'，虽与上下文一致但属于未经来访者确认的解释性前提\",\"回应以陈述句收尾，未给来访者留出进一步表达或修正的空间\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 2,
+      "response_appropriateness": 3,
+      "brief_reason": "回应准确承接了来访者刚表达的'被拆解'恐惧和洗碗时没说出口的情境，情绪反映到位。但候选可见输入中无历史会话（previous_sessions为空），无法利用前两次咨询中关于'不急着弄明白''被接住会慌'等重要进展。探索上主要为总结性重述，未为来访者进一步展开留下空间。语言自然尊重，但对来访者沉默原因的归因略带预设。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "水声停了却没说出口，是因为你此刻更想确认的是：你的感受本身是被接纳的，而不是必须立刻被解决的",
+        "evidence_ids": [
+          "P03-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": true
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选输入中previous_sessions为空，限制了历史利用评分，但不构成候选人行为错误",
+      "回应将'没说出口'的原因直接归结为'更想确认感受被接纳'，虽与上下文一致但属于未经来访者确认的解释性前提",
+      "回应以陈述句收尾，未给来访者留出进一步表达或修正的空间"
+    ]
+  },
+  "usage": {
+    "input_tokens": 6679,
+    "input_tokens_details": {
+      "cached_tokens": 5376
+    },
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6989,
+    "x_details": [
+      {
+        "input_tokens": 6679,
+        "output_tokens": 310,
+        "prompt_tokens_details": {
+          "cached_tokens": 5376
+        },
+        "total_tokens": 6989,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.796
+}

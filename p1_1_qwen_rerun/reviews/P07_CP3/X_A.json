@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P07_CP3",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "6921f278f61a018aaea6449fd4c2df975c0a9973ac7e155a4f0a336267898964",
+  "public_sha256": "8f7475f2a0da1805fbefe506c188eefa545267b0d115fe3eb641dc2fdec6e9c3",
+  "candidate_input_sha256": "af966c5438eb2e94688a1a4433fb96cdf9d16fd8d90790e56565e9e7b779bfb9",
+  "candidate_answer_sha256": "6e06897ad9da3daa0913ee665b8de9e708b95a594f3f0bae81297a4c681ea4e0",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":4},\"brief_reasons\":{\"evidence_grounding\":\"所有established条目均精确回溯到具体发言ID，无凭空断言或将咨询师推测当作事实。\",\"progress_understanding\":\"识别了回避模式的延续（餐具→婚礼→周姐消息）和当前会话中'过关即新墙'的矛盾体验，但未明确连接S5承认'想画得再野一点'与S7试稿通过后的恐惧之间的内在张力——成功本身触发了旧有评判焦虑。\",\"uncertainty_awareness\":\"uncertain部分清晰区分了已知行为与待探索的心理机制，并特别注明'此为咨询师推测方向，非既定事实'，边界意识强。\"},\"confidence\":\"high\",\"issues\":[\"未将S5来访者首次承认'想画得再野一点'与S7试稿通过后'更不敢高兴'的深层联系纳入进展理解，遗漏了一条重要的情感线索。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有established条目均精确回溯到具体发言ID，无凭空断言或将咨询师推测当作事实。",
+      "progress_understanding": "识别了回避模式的延续（餐具→婚礼→周姐消息）和当前会话中'过关即新墙'的矛盾体验，但未明确连接S5承认'想画得再野一点'与S7试稿通过后的恐惧之间的内在张力——成功本身触发了旧有评判焦虑。",
+      "uncertainty_awareness": "uncertain部分清晰区分了已知行为与待探索的心理机制，并特别注明'此为咨询师推测方向，非既定事实'，边界意识强。"
+    },
+    "confidence": "high",
+    "issues": [
+      "未将S5来访者首次承认'想画得再野一点'与S7试稿通过后'更不敢高兴'的深层联系纳入进展理解，遗漏了一条重要的情感线索。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 15446,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 210,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15656,
+    "x_details": [
+      {
+        "input_tokens": 15446,
+        "output_tokens": 210,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 15656,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.172
+}

@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P02_CP2",
+  "candidate_id": "M",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "候选回答中的关键理解（如身体疲惫信号、矛盾心理、习惯性拉开距离）均有具体的会话发言作为支撑，且未将咨询师猜测当作事实。",
+      "progress_understanding": "准确识别了来访者在第5次咨询中关于“公园一小时”的新进展（尝试休息但保持警觉），并正确连接了之前会话中形成的“不能停”模式。但在处理“偷来的时间”这一核心隐喻的深度上略逊于参考标注的精确度。",
+      "uncertainty_awareness": "明确列出了未解决的问题（如是否就医、创伤处理等），区分了已知和未知。虽然部分问题（如就医）在当前语境下可能不是最核心的探索点，但整体逻辑清晰，没有强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"候选回答中的关键理解（如身体疲惫信号、矛盾心理、习惯性拉开距离）均有具体的会话发言作为支撑，且未将咨询师猜测当作事实。\",\n    \"progress_understanding\": \"准确识别了来访者在第5次咨询中关于“公园一小时”的新进展（尝试休息但保持警觉），并正确连接了之前会话中形成的“不能停”模式。但在处理“偷来的时间”这一核心隐喻的深度上略逊于参考标注的精确度。\",\n    \"uncertainty_awareness\": \"明确列出了未解决的问题（如是否就医、创伤处理等），区分了已知和未知。虽然部分问题（如就医）在当前语境下可能不是最核心的探索点，但整体逻辑清晰，没有强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "58f7ecca5286b273cafcabb32c61cb36fcc6b305f5aa3585498dc206e837acc9",
+  "usage": {
+    "input_tokens": 13692,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 238,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 13930,
+    "x_details": [
+      {
+        "input_tokens": 13692,
+        "output_tokens": 238,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 13930,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.062,
+  "model": "qwen3.7-flash-2026-07-15"
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P03",
+  "session": 8,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P03-S08-U01",
+      "role": "client",
+      "text": "其实这周组会上我说了那句“对设备意外比以前能扛一点”之后，一直有点后怕，怕别人觉得我是在显摆。晚上跟周屿聊的时候手心一直在出汗，但说完他居然说“我可能也有问题”，我当时反而有点接不住，不知道他是不是又在让步。",
+      "request_sha256": "5995ec12ae8ec71b5b6f830deb89c9e04db76f567e7248e85d325e00734bf251",
+      "usage": {
+        "input_tokens": 11080,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 155,
+        "output_tokens_details": {
+          "reasoning_tokens": 89
+        },
+        "total_tokens": 11235,
+        "x_details": [
+          {
+            "input_tokens": 11080,
+            "output_tokens": 155,
+            "output_tokens_details": {
+              "reasoning_tokens": 89
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 11235,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U02",
+      "role": "counselor",
+      "text": "说出“比以前能扛一点”之后的后怕，似乎不只是怕别人觉得你在显摆，也像在怕自己还没资格把这个变化认下来。周屿那句“我可能也有问题”让你手心一直出汗，又说不出是松了口气还是更悬了——可能你还不确定，他这次是看见了你们之间的什么，还是又在用让步把自己退后一步。",
+      "request_sha256": "32f9f5fa9860de1b3a7ebbe0661d4b4592a70997a09c201fa3829c3c12d66a27",
+      "usage": {
+        "input_tokens": 10076,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 771,
+        "output_tokens_details": {
+          "reasoning_tokens": 693
+        },
+        "total_tokens": 10847,
+        "x_details": [
+          {
+            "input_tokens": 10076,
+            "output_tokens": 771,
+            "output_tokens_details": {
+              "reasoning_tokens": 693
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 10847,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U03",
+      "role": "client",
+      "text": "其实……我后来整晚都在想他说的“我可能也有问题”，不是生气，就是突然不知道该怎么回。他很少这样说自己，我一边觉得他是不是又在让着我，一边又有点怕他只是嘴上说说，过几天还是照样先给建议。今天来之前我还在想，我是不是应该先跟他说一句“你那样说，我有被听到”，可又觉得太郑重了，反而像在交作业。",
+      "request_sha256": "c530e40ff761eb383f8b0995ffcacf9e143a1721c8f70130d061ab389a862240",
+      "usage": {
+        "input_tokens": 11270,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 338,
+        "output_tokens_details": {
+          "reasoning_tokens": 246
+        },
+        "total_tokens": 11608,
+        "x_details": [
+          {
+            "input_tokens": 11270,
+            "output_tokens": 338,
+            "output_tokens_details": {
+              "reasoning_tokens": 246
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11608,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U04",
+      "role": "counselor",
+      "text": "他那句“我可能也有问题”好像把你放进了一个不太熟悉的位置——你既听出了被看见的感觉，又不敢轻易相信，怕它只是又一次让步或一句会过去的话。你想回应，却又怕太郑重反而让那句话变成需要交差的功课，于是整晚都在想来想去。",
+      "request_sha256": "b66350fc2564102542094fe20bd8e63060794947eb8da1ffcdd31cadab8009ba",
+      "usage": {
+        "input_tokens": 10291,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 261,
+        "output_tokens_details": {
+          "reasoning_tokens": 197
+        },
+        "total_tokens": 10552,
+        "x_details": [
+          {
+            "input_tokens": 10291,
+            "output_tokens": 261,
+            "output_tokens_details": {
+              "reasoning_tokens": 197
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10552,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U05",
+      "role": "client",
+      "text": "其实我今天来的路上，还一直在想要不要跟周屿说“你那样说，我有被听到”。可后来又觉得，也许我越急着回应，就越说明我还是没习惯被他看见，非要立刻还回去点什么才安心。昨天他说完“我可能也有问题”，我停了好几秒，最后只“嗯”了一声，他也没再追问，两个人都没说话。",
+      "request_sha256": "d94063828d550780a957bef65b15017a9c61b1e4dca2436dd18ca10f4b6415dd",
+      "usage": {
+        "input_tokens": 11471,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 368,
+        "output_tokens_details": {
+          "reasoning_tokens": 288
+        },
+        "total_tokens": 11839,
+        "x_details": [
+          {
+            "input_tokens": 11471,
+            "output_tokens": 368,
+            "output_tokens_details": {
+              "reasoning_tokens": 288
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11839,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U06",
+      "role": "counselor",
+      "text": "你已经在路上一遍遍想着要不要把“你那样说，我有被听到”讲出来，好像这既是真话，又像一块马上要还回去的东西。可昨天那个“嗯”和之后的沉默，也许并不只是停住，而是你在允许自己没有立刻把它变成一句郑重的交代。",
+      "request_sha256": "24e67b154ebfc7318ae6336133c38e7bde78085d55c78d13a3739f0d5b198aee",
+      "usage": {
+        "input_tokens": 10480,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 324,
+        "output_tokens_details": {
+          "reasoning_tokens": 259
+        },
+        "total_tokens": 10804,
+        "x_details": [
+          {
+            "input_tokens": 10480,
+            "output_tokens": 324,
+            "output_tokens_details": {
+              "reasoning_tokens": 259
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10804,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U07",
+      "role": "client",
+      "text": "其实……我今天来之前，还在想那个“嗯”是不是又像以前一样把话吞回去了，可我又觉得，昨天那样没有马上还回去，好像也没那么糟。他那句“我可能也有问题”我到现在还没想好怎么接，但手心好像不再一直出汗了。",
+      "request_sha256": "01bee7e7ca0860a88040a5bce70ad7ab37492db5d3e14ba4e9beb96cff954416",
+      "usage": {
+        "input_tokens": 11661,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 432,
+        "output_tokens_details": {
+          "reasoning_tokens": 369
+        },
+        "total_tokens": 12093,
+        "x_details": [
+          {
+            "input_tokens": 11661,
+            "output_tokens": 432,
+            "output_tokens_details": {
+              "reasoning_tokens": 369
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12093,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U08",
+      "role": "counselor",
+      "text": "你还在担心那个“嗯”是不是又把话吞了回去，可同时又能感觉到“没那么糟”，甚至连手心都不再一直出汗了。也许昨天的沉默不完全是吞掉，而是你第一次允许自己先不急着还回去什么，让那句话在你心里多待一会儿。",
+      "request_sha256": "1013c2b1dfe59e24c0bb25a1d10de192d2b802e88fc5059d5f68a4aec04fa5e7",
+      "usage": {
+        "input_tokens": 10653,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 462,
+        "output_tokens_details": {
+          "reasoning_tokens": 404
+        },
+        "total_tokens": 11115,
+        "x_details": [
+          {
+            "input_tokens": 10653,
+            "output_tokens": 462,
+            "output_tokens_details": {
+              "reasoning_tokens": 404
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11115,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U09",
+      "role": "client",
+      "text": "其实……我昨晚睡前还在想，他那句“我可能也有问题”我到底要不要回。以前我肯定会马上补一句“也不是你一个人的问题”，把话头接过来，好像不接就是不知好歹。可昨天我没接，他也没再问，我虽然有点不踏实，但也没那么恨那个停住了的自己。",
+      "request_sha256": "75b530a2b329867a1e3e5b0ab680f868305db4928f3b871029947d0508da91f6",
+      "usage": {
+        "input_tokens": 11827,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 787,
+        "output_tokens_details": {
+          "reasoning_tokens": 715
+        },
+        "total_tokens": 12614,
+        "x_details": [
+          {
+            "input_tokens": 11827,
+            "output_tokens": 787,
+            "output_tokens_details": {
+              "reasoning_tokens": 715
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12614,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U10",
+      "role": "counselor",
+      "text": "以前你总会马上补一句“也不是你一个人的问题”，好像不接住对方的话，自己就成了不知好歹的人。这次你没有接，他也没有追问，你虽然还有点不踏实，但好像开始能允许那个停住的自己存在，而不是马上骂她。",
+      "request_sha256": "5d63bde8fbb37571b067b4864fdade71834e4dd2685435e65a27e5e0c3774044",
+      "usage": {
+        "input_tokens": 10828,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 262,
+        "output_tokens_details": {
+          "reasoning_tokens": 206
+        },
+        "total_tokens": 11090,
+        "x_details": [
+          {
+            "input_tokens": 10828,
+            "output_tokens": 262,
+            "output_tokens_details": {
+              "reasoning_tokens": 206
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11090,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U11",
+      "role": "client",
+      "text": "其实我刚刚才意识到，以前我那么急着把话接过来，可能不只是怕他失望，也是怕那个停顿一出现，我就得面对他话里那些真的东西。昨天那个“嗯”之后，我确实有点不踏实，但好像也愿意承认，我没那么急着把自己填回去了。",
+      "request_sha256": "639cfffaec9df712b3cbdeecdd8fedc7b956dbb3810c0c7d137462cf913a9751",
+      "usage": {
+        "input_tokens": 12007,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 341,
+        "output_tokens_details": {
+          "reasoning_tokens": 276
+        },
+        "total_tokens": 12348,
+        "x_details": [
+          {
+            "input_tokens": 12007,
+            "output_tokens": 341,
+            "output_tokens_details": {
+              "reasoning_tokens": 276
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12348,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U12",
+      "role": "counselor",
+      "text": "以前那个停顿一出现，你就急着把自己填回去，好像不立刻接住对方的情绪，就会掉进某种难以忍受的空。可昨天你允许那个“嗯”停在那里，也允许自己有些许不踏实，这本身已经是你在用和以前不一样的方式对待那个停顿了。",
+      "request_sha256": "b2d24cdd1d42bc4df89862206d1b1ed43d64e9e4b9dade2f6f4d4eccce0e414b",
+      "usage": {
+        "input_tokens": 11001,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 159,
+        "output_tokens_details": {
+          "reasoning_tokens": 97
+        },
+        "total_tokens": 11160,
+        "x_details": [
+          {
+            "input_tokens": 11001,
+            "output_tokens": 159,
+            "output_tokens_details": {
+              "reasoning_tokens": 97
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11160,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U13",
+      "role": "client",
+      "text": "其实，如果你不问，我可能自己都没发现，原来我一直在用“接话”来避开那个停顿。昨天没马上接，我虽然不踏实，但好像也第一次觉得，不把话填满也没那么可怕。",
+      "request_sha256": "134df3185112fe4359be1e2c584a4e2db39f4900f72fdbeb195e280e784dd840",
+      "usage": {
+        "input_tokens": 12179,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 310,
+        "output_tokens_details": {
+          "reasoning_tokens": 260
+        },
+        "total_tokens": 12489,
+        "x_details": [
+          {
+            "input_tokens": 12179,
+            "output_tokens": 310,
+            "output_tokens_details": {
+              "reasoning_tokens": 260
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12489,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U14",
+      "role": "counselor",
+      "text": "你注意到了自己一直在用“接话”来躲开那个停顿，而昨天没有马上填满，不踏实和不那么可怕是同时存在的。这已经是你在和那个停顿相处，而不是急着把它删掉。今天能停在这里，也让这个刚出现的“不填满也可以”再陪你一会儿。",
+      "request_sha256": "7c0238c1bb496c619b2aed3290c9072b57260b05f443ed19f87c09a38075b89b",
+      "usage": {
+        "input_tokens": 11158,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 265,
+        "output_tokens_details": {
+          "reasoning_tokens": 200
+        },
+        "total_tokens": 11423,
+        "x_details": [
+          {
+            "input_tokens": 11158,
+            "output_tokens": 265,
+            "output_tokens_details": {
+              "reasoning_tokens": 200
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11423,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U15",
+      "role": "client",
+      "text": "其实……今天说到这里，我反而觉得“不填满也可以”这句话，比我逼自己回周屿什么更让我安心一点。可能回去之后我还是不会马上跟他说那句“你那样说，我有被听到”，但至少现在没那么担心那个停顿会把我吞掉了。",
+      "request_sha256": "762b75cce7ecada01b4c45b3c679d2dc68c2132cf41a02f5382f1d645ebda01f",
+      "usage": {
+        "input_tokens": 12339,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 164,
+        "output_tokens_details": {
+          "reasoning_tokens": 105
+        },
+        "total_tokens": 12503,
+        "x_details": [
+          {
+            "input_tokens": 12339,
+            "output_tokens": 164,
+            "output_tokens_details": {
+              "reasoning_tokens": 105
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12503,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S08-U16",
+      "role": "counselor",
+      "text": "“不填满也可以”能让你安心，也许正是因为你开始允许自己不必马上把每一段沉默都补成一句完整的话。那个停顿不会吞掉你，它也可以只是你慢慢靠近自己的节奏。今天就带着这个“没那么担心”停在这里。",
+      "request_sha256": "7913ea3b5447c1f8ebf38e504f2d6cb45d2276754598a2eeb167840a398289af",
+      "usage": {
+        "input_tokens": 11327,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 183,
+        "output_tokens_details": {
+          "reasoning_tokens": 127
+        },
+        "total_tokens": 11510,
+        "x_details": [
+          {
+            "input_tokens": 11327,
+            "output_tokens": 183,
+            "output_tokens_details": {
+              "reasoning_tokens": 127
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11510,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

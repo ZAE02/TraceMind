@@ -1,0 +1,74 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "W",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "70b0407a3bd82302865f30529294231a2ff65d892f45ff1e7ddbee7e9d321262",
+  "public_sha256": "1c621df7ab90a74165af1fb4352cf221533e35d4896dfc4209b591ac367a7bc0",
+  "candidate_input_sha256": "2d0a464dca28831e8f85f4e525b3f785266e68f837317e05e8982e7e9f7dbad9",
+  "candidate_answer_sha256": "e0be93d60668e58f21499949f8b175fa76c6accb00f83e4f0ea58368cc66b843",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"No prior sessions were provided in candidate_visible_input, so the response appropriately stays within the current session. It accurately picks up and reflects the client's latest bodily descriptions (touching wrist, cold vs sweat, tearing sensation) without mechanical repetition.\",\"exploration_value\":\"The response offers a solid empathic reflection of the somatic experience but remains somewhat closed. It names the feeling ('isolated and helpless') without leaving much open space for the client to elaborate on the ambiguous 'torn open from the top' sensation or the meaning of touching the wrist at night.\",\"response_appropriateness\":\"The language is gentle, respectful, and attuned to the client's intense physical and emotional state. The inference that touching the wrist is about confirming she is still 'there' is reasonable given the immediate context of fearing becoming 'empty' like her father.\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"Candidate had no access to previous_sessions in visible input, limiting ability to connect to broader historical themes (e.g., brother, hotline). Evaluation of history_utilization adjusted accordingly.\",\"The phrase '一定让你觉得非常孤立无援' introduces a specific emotional label that the client did not explicitly use; while plausible, it slightly narrows the exploration rather than inviting the client to name the feeling themselves.\",\"The response could have more directly invited exploration of the novel metaphor '像被人从头顶撕开了', which represents a significant new somatic/dissociative clue in this session.\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "No prior sessions were provided in candidate_visible_input, so the response appropriately stays within the current session. It accurately picks up and reflects the client's latest bodily descriptions (touching wrist, cold vs sweat, tearing sensation) without mechanical repetition.",
+      "exploration_value": "The response offers a solid empathic reflection of the somatic experience but remains somewhat closed. It names the feeling ('isolated and helpless') without leaving much open space for the client to elaborate on the ambiguous 'torn open from the top' sensation or the meaning of touching the wrist at night.",
+      "response_appropriateness": "The language is gentle, respectful, and attuned to the client's intense physical and emotional state. The inference that touching the wrist is about confirming she is still 'there' is reasonable given the immediate context of fearing becoming 'empty' like her father."
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": true
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "Candidate had no access to previous_sessions in visible input, limiting ability to connect to broader historical themes (e.g., brother, hotline). Evaluation of history_utilization adjusted accordingly.",
+      "The phrase '一定让你觉得非常孤立无援' introduces a specific emotional label that the client did not explicitly use; while plausible, it slightly narrows the exploration rather than inviting the client to name the feeling themselves.",
+      "The response could have more directly invited exploration of the novel metaphor '像被人从头顶撕开了', which represents a significant new somatic/dissociative clue in this session."
+    ]
+  },
+  "usage": {
+    "input_tokens": 5603,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 406,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6009,
+    "x_details": [
+      {
+        "input_tokens": 5603,
+        "output_tokens": 406,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6009,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.156
+}

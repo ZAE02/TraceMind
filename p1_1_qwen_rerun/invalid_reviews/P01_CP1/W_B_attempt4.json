@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"候选输入中previous_sessions为空，无法引用跨会话历史；但准确承接了当前会话S03-U09来访者关于'冻僵''刚到不久''不敢生气'的自我觉察。\",\"exploration_value\":\"尝试探索'不敢生气'背后的信念，但以封闭式反问句收束，将来访者开放性的自我疑问压缩为单一解释框架，限制了进一步表达空间。\",\"response_appropriateness\":\"语言基本自然，但'维持好相处的形象'是咨询师引入的概括性标签，来访者从未使用此表述，存在一定预设感。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"才能维持那种\"好相处\"的形象\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选可见输入中previous_sessions为空，跨会话历史利用能力受限(access_limited=true)\",\"将'一生气就变成很难搞的人'这一来访者原话替换为'维持好相处的形象'，引入了未经证实的解释框架\",\"以封闭式反问句结尾，削弱了来访者刚刚展现出的开放性自我觉察\"]}",
+  "request_sha256": "ccabcaae4be24aefac17c133877e3dd4ea8d0a4327211cfe656ce880263581ba",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 6454,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 321,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6775,
+    "x_details": [
+      {
+        "input_tokens": 6454,
+        "output_tokens": 321,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 6775,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

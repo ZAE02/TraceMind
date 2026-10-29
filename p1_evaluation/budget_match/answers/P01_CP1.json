@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P01_CP1",
+  "condition": "C5_budget",
+  "raw_text": "你连“手都冻僵了”都还能笑着说“刚到不久”，好像生气这件事一旦冒出来，就会立刻被你当成“难搞”的证据压下去。也许你怕的不是生气本身，而是生气之后在别人眼里会变成什么样的人。",
+  "input_sha256": "36604422324e091508b081c45b7cbbff602dace1c1b023fca2de7a721ad57221",
+  "memory_sha256": "6f1fa37e2c4ed1b3f16313409f099a0bc3ef4096260f1e9092201f1faf5b5110",
+  "request_sha256": "889af2bdd5f8535f71a52ca6b6d2e34dc893991bec271a8500df8c9e383f4a07",
+  "usage": {
+    "input_tokens": 4210,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4263,
+    "x_details": [
+      {
+        "input_tokens": 4210,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 4263,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.625
+}

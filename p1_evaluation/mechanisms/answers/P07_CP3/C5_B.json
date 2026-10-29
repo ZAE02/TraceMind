@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP3",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "7fc397830cac02bf5248544e7b068d1ab0d665aced8c063ecf8f205fa64071ae",
+  "request_sha256": "dd99e73f90b697fcda2d30045814b60307d3285cd73f91ea6bc7180705e904b0",
+  "memory_sha256": "608aca7ff9fe724275adf12c7455c1d5ba391a41f8f19f0fa5a5638e02f1d257",
+  "memory_source": "b89f51c79130ed14d9c904c41e1c7fad59aa112e06656e09f8993e0c78313c90",
+  "raw_text": "你怕的好像不只是周姐那条语音，而是它可能带来的下一句——那种“你该稳定一点了”的期待，会把你刚过关的那点轻松又变成新的任务。连散步都开始绕开石桌，可能也是因为那种“不用开口的安静”太薄了，薄到一句话就能打破。",
+  "usage": {
+    "input_tokens": 12272,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 69,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12341,
+    "x_details": [
+      {
+        "input_tokens": 12272,
+        "output_tokens": 69,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 12341,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.0,
+  "model": "deepseek-v4-pro-0813"
+}

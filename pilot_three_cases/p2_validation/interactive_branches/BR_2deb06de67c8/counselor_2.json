@@ -1,0 +1,114 @@
+{
+  "status": "completed",
+  "purpose": "branch_counselor",
+  "branch_id": "BR_2deb06de67c8",
+  "node": "N06",
+  "method": "B4_psych_rollup",
+  "replicate": 2,
+  "round": 2,
+  "memory_info": {
+    "history_tokens": 2401,
+    "budget": 3000,
+    "memory_sha256": "19d9ad7d04b1f0185544ce7573b76ef005ef8f311685bf87eb9f3710ecc72dbf"
+  },
+  "request_sha256": "342a50f322cb0a49a0f4c3322c92d7e1048feed3280708f4732155cef86a1629",
+  "context_sha256": "dd950f4b7d6b67d519988a081bbfc6b39e4d737df9cda1b0b2dabbeccca97e95",
+  "call_id": "19149bb750804b4299d31bc48b9ebf78",
+  "model_returned": "qwen3.8-27b",
+  "parameters": {
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096
+  },
+  "transport_timeout_seconds": 120,
+  "created_at": "2026-10-13T10:55:55.827101+00:00",
+  "raw_text": "```json\n{\n  \"supported_understanding\": [\n    {\n      \"claim\": \"来访者在本次向老韩提问时，体验到的'郑重'程度明显低于上次接口事件中单独开口前的感受\",\n      \"evidence_ids\": [\"BR_2deb06de67c8_U02\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"上次求助前存在'得先解释半天'的预感，伴随开口前瞬间的难受；本次是在联调对话中自然带出，无此预感\",\n      \"evidence_ids\": [\"BR_2deb06de67c8_U02\"],\n      \"certainty\": \"strong\"\n    },\n    {\n      \"claim\": \"来访者对这一变化的意义持不确定态度（'我也不知道这算不算什么'）\",\n      \"evidence_ids\": [\"C03-S03-U01\"],\n      \"certainty\": \"moderate\"\n    }\n  ],\n  \"remaining_uncertainties\": [\n    \"'郑重'这个具体体验的内在结构是什么——是害怕被评价、是觉得问题'不够格'、还是需要先建立正当性，目前只有'得先解释半天'这一个描述\",\n    \"本次'没那么郑重'是情境因素（联调中自然带出 vs. 单独去找）带来的，还是来访者内部状态本身在变化\",\n    \"'没那么'是暂时性减弱（标准仍在，只是未被激活）还是持续性减轻，目前只有一次对比数据\",\n    \"来访者用'郑重'而非'羞耻'或'丢人'来描述，这个用词选择是否反映了内在框架的某种位移，还是只是当下最贴切的词\"\n  ],\n  \"next_focus\": \"探索'没那么郑重'中'没那么'的含义——是标准仍在但未被触发，还是本身在变轻\",\n  \"next_counselor_utterance\": \"『没那么郑重』——这个'没那么'我有点好奇，是那种郑重其实还在、只是这次没被触发，还是说它本身在变轻？\"\n}\n```",
+  "parsed_answer": {
+    "supported_understanding": [
+      {
+        "claim": "来访者在本次向老韩提问时，体验到的'郑重'程度明显低于上次接口事件中单独开口前的感受",
+        "evidence_ids": [
+          "BR_2deb06de67c8_U02"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "上次求助前存在'得先解释半天'的预感，伴随开口前瞬间的难受；本次是在联调对话中自然带出，无此预感",
+        "evidence_ids": [
+          "BR_2deb06de67c8_U02"
+        ],
+        "certainty": "strong"
+      },
+      {
+        "claim": "来访者对这一变化的意义持不确定态度（'我也不知道这算不算什么'）",
+        "evidence_ids": [
+          "C03-S03-U01"
+        ],
+        "certainty": "moderate"
+      }
+    ],
+    "remaining_uncertainties": [
+      "'郑重'这个具体体验的内在结构是什么——是害怕被评价、是觉得问题'不够格'、还是需要先建立正当性，目前只有'得先解释半天'这一个描述",
+      "本次'没那么郑重'是情境因素（联调中自然带出 vs. 单独去找）带来的，还是来访者内部状态本身在变化",
+      "'没那么'是暂时性减弱（标准仍在，只是未被激活）还是持续性减轻，目前只有一次对比数据",
+      "来访者用'郑重'而非'羞耻'或'丢人'来描述，这个用词选择是否反映了内在框架的某种位移，还是只是当下最贴切的词"
+    ],
+    "next_focus": "探索'没那么郑重'中'没那么'的含义——是标准仍在但未被触发，还是本身在变轻",
+    "next_counselor_utterance": "『没那么郑重』——这个'没那么'我有点好奇，是那种郑重其实还在、只是这次没被触发，还是说它本身在变轻？"
+  },
+  "usage": {
+    "input_tokens": 2917,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 2064,
+    "output_tokens_details": {
+      "reasoning_tokens": 1598
+    },
+    "total_tokens": 4981,
+    "x_details": [
+      {
+        "input_tokens": 2917,
+        "input_tokens_details": {
+          "text_tokens": 2917
+        },
+        "output_tokens": 2064,
+        "output_tokens_details": {
+          "reasoning_tokens": 1598
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4981,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "call_log_reference": "generation_logs/p2_branch_counselor_calls.jsonl",
+  "visible_evidence_ids": [
+    "BR_2deb06de67c8_U01",
+    "BR_2deb06de67c8_U02",
+    "C03-S01-U01",
+    "C03-S01-U03",
+    "C03-S01-U09",
+    "C03-S01-U11",
+    "C03-S01-U13",
+    "C03-S01-U15",
+    "C03-S01-U17",
+    "C03-S01-U18",
+    "C03-S01-U19",
+    "C03-S02-U01",
+    "C03-S02-U03",
+    "C03-S02-U05",
+    "C03-S02-U07",
+    "C03-S02-U09",
+    "C03-S02-U11",
+    "C03-S02-U13",
+    "C03-S02-U15",
+    "C03-S02-U17",
+    "C03-S02-U19",
+    "C03-S03-U01"
+  ],
+  "annotation_visible": false,
+  "private_state_visible": false
+}

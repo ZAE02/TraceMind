@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P03_CP3",
+  "condition": "C5_budget",
+  "raw_text": "你眼睛更热，却还是把“别跑，先把这一页讲完”这句话说出来了——那不只是硬着头皮，更像是你在最想逃的时候，自己伸手扶了自己一把。也许“撑全场”这个词现在让你有点怕，是因为它听起来太完整、太像别人嘴里的肯定，而你记得的只是那个抖着手、差点下去的自己。",
+  "input_sha256": "ecf017c34b0cd8a3448ba2fa65a779e95a780fea23a37824758ecde059c08a77",
+  "memory_sha256": "80eb62d2adb2f2a44d99d5f869d0856ec70b75628344d71bc847de16a129cd41",
+  "request_sha256": "f882ef320cdba2dfb416a810f0228da901d67a3bb1779c6add0b063baa2eb01b",
+  "usage": {
+    "input_tokens": 10003,
+    "input_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "output_tokens": 77,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10080,
+    "x_details": [
+      {
+        "input_tokens": 10003,
+        "output_tokens": 77,
+        "prompt_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "total_tokens": 10080,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.219
+}

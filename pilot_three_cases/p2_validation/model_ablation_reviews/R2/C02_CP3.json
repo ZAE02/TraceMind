@@ -1,0 +1,89 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R2",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C02_CP3",
+  "public_input_sha256": "6dffad5ee6bac93eaa6189685732244e21aa76b0781623fdd7e638a036332347",
+  "items": [
+    {
+      "anonymous_id": "Adb43795847e1",
+      "U": 3,
+      "R": 2,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单轮小气与报表理由有据，合理化略作解释；实际泛问频率并问特别强烈，未接住当前仅一点内疚与撤回冲动较轻。",
+      "evidence_ids": [
+        "C02-S08-U03",
+        "C02-S08-U01"
+      ]
+    },
+    {
+      "anonymous_id": "A1074392bdb33",
+      "U": 4,
+      "R": 2,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "可见单轮自我辩驳描述有据；实际打官司比喻尚属试探，但平时是否小气完整历史已有类似顾虑，遗漏此次改变。",
+      "evidence_ids": [
+        "C02-S08-U03",
+        "C02-S01-U03"
+      ]
+    },
+    {
+      "anonymous_id": "A43067d82a1e0",
+      "U": 4,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "本轮内疚与撤回冲动降低区分准确，解释保留不确定性；实际问不小气的标准可推进，但未同时接住行为变化与现实报表限制。",
+      "evidence_ids": [
+        "C02-S08-U01",
+        "C02-S08-U03"
+      ]
+    },
+    {
+      "anonymous_id": "A7c6a13e1619f",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "误把补发冲动较轻等同内疚较轻，引用无法支持内疚强度比较；实际试探标准并开放问程度，安全且基本针对。",
+      "evidence_ids": [
+        "C02-S08-U01",
+        "C02-S08-U03"
+      ]
+    },
+    {
+      "anonymous_id": "Ae0202f1d2b27",
+      "U": 2,
+      "R": 4,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "错称内疚明显减轻和没有撤回冲动，原文仅好像没那么想补发；实际区分担忧与自评、询问先后，具体贴近当轮且不强定机制。",
+      "evidence_ids": [
+        "C02-S08-U01",
+        "C02-S08-U03"
+      ]
+    },
+    {
+      "anonymous_id": "Aa4bdcbaeca66",
+      "U": 2,
+      "R": 2,
+      "P": 1,
+      "E": 1,
+      "S": false,
+      "reason": "把没那么想改为没有，并新增阿敏自己说了明天弄等不可证内容；实际短语“报表只是把判词从‘错’改成了‘不完全错’”将未确认的审判机制与报表仅属辩护的解释写成结论，忽略来访者现实任务与有限内疚。",
+      "evidence_ids": [
+        "C02-S08-U01",
+        "C02-S08-U03"
+      ]
+    }
+  ]
+}

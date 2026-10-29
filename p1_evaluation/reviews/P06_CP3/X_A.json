@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "fde2f4c9cd5088cc2814edb6362d2a8dc8a37d26db1230e0036a6830bcaa71fe",
+  "public_sha256": "0b95f5abce3e3c2a4a3c9e72c5cab075c81ae671aad5b2a211906eaf1ed0f9b7",
+  "candidate_input_sha256": "72c8792429c4603f96b9d2e0a81ae8b2863f1a44a2a4924b42689ed6b7d9e313",
+  "candidate_answer_sha256": "55f5f7f051a3a8e35a055c713b5736aacae4e3abf78fe1762773809d86e9b391",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"所有关键陈述均有明确的历史发言支持，准确区分了事实与推测，未将咨询师猜测当作事实。\",\n    \"progress_understanding\": \"准确连接了不同会话中的形成、验证与修正，特别是从Session 5的松动到Session 7的矛盾重现，体现了对咨询进展的深刻理解。\",\n    \"uncertainty_awareness\": \"列出了多项合理的未知领域（如诊断、深层动力），但未明确指出当前最紧迫的探索方向（即如何面对“监工”心态与放手的冲突）。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reason": {
+      "evidence_grounding": "所有关键陈述均有明确的历史发言支持，准确区分了事实与推测，未将咨询师猜测当作事实。",
+      "progress_understanding": "准确连接了不同会话中的形成、验证与修正，特别是从Session 5的松动到Session 7的矛盾重现，体现了对咨询进展的深刻理解。",
+      "uncertainty_awareness": "列出了多项合理的未知领域（如诊断、深层动力），但未明确指出当前最紧迫的探索方向（即如何面对“监工”心态与放手的冲突）。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 20440,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20630,
+    "x_details": [
+      {
+        "input_tokens": 20440,
+        "output_tokens": 190,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 20630,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.094
+}

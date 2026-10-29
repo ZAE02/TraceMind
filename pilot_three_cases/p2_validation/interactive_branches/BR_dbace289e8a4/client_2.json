@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_dbace289e8a4",
+  "round": 2,
+  "node": "N06",
+  "method": "B4_psych_rollup",
+  "replicate": 1,
+  "private_state_sha256": "f3cbf5e8bf1187c406a003d45f61a7d2d01f5d17a7fe501c84ffff0609b21e48",
+  "request_sha256": "892a0e378ecca9911967e93ee86692056335731df57f182630df23973a8e3722",
+  "call_id": "d0b58330734a453abc92c71b8e4fe103",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "说不上来……可能就是，问完之后我预期里应该会有点什么，但没来。\n\n就……以前问完，哪怕对方没说什么，自己心里也会过一下\"还好他没说啥\"之类的。这次就是，他解释完，我就接着往下听了。",
+  "usage": {
+    "input_tokens": 4274,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 386,
+    "output_tokens_details": {
+      "reasoning_tokens": 326
+    },
+    "total_tokens": 4660,
+    "x_details": [
+      {
+        "input_tokens": 4274,
+        "input_tokens_details": {
+          "text_tokens": 4274
+        },
+        "output_tokens": 386,
+        "output_tokens_details": {
+          "reasoning_tokens": 326
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4660,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T10:55:50.131892+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

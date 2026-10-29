@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P07_CP1",
+  "candidate_id": "L",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有具体发言支持，准确捕捉了“欠费停机”、“等过期”等核心隐喻。但遗漏了当前会话（Session 3）中关于婚礼、删除学长及试稿邮件的关键新证据，导致对“当前节点”的理解不完整。",
+      "progress_understanding": "识别了主要的咨询进展和范围（从社交耗竭到决策瘫痪），但未能连接不同会话中的形成与修正。特别是完全忽略了Session 3中来访者实际参加婚礼并处理社交关系的最新进展，仅停留在前两次的静态描述上。",
+      "uncertainty_awareness": "明确指出了低能量来源、行动意愿及请柬结果等未知点。但未包含Session 3中核心的未决问题（如试稿邮件的处理、自我价值怀疑的具体化），对当前关键不确定性的覆盖不足。"
+    },
+    "confidence": "high",
+    "issues": [
+      "missed_progress: 忽略了Session 3中来访者已实际参加婚礼、删除联系人以及面对试稿邮件恐惧的最新进展，导致对当前咨询阶段的理解滞后。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 2,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"主要判断均有具体发言支持，准确捕捉了“欠费停机”、“等过期”等核心隐喻。但遗漏了当前会话（Session 3）中关于婚礼、删除学长及试稿邮件的关键新证据，导致对“当前节点”的理解不完整。\",\n    \"progress_understanding\": \"识别了主要的咨询进展和范围（从社交耗竭到决策瘫痪），但未能连接不同会话中的形成与修正。特别是完全忽略了Session 3中来访者实际参加婚礼并处理社交关系的最新进展，仅停留在前两次的静态描述上。\",\n    \"uncertainty_awareness\": \"明确指出了低能量来源、行动意愿及请柬结果等未知点。但未包含Session 3中核心的未决问题（如试稿邮件的处理、自我价值怀疑的具体化），对当前关键不确定性的覆盖不足。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"missed_progress: 忽略了Session 3中来访者已实际参加婚礼、删除联系人以及面对试稿邮件恐惧的最新进展，导致对当前咨询阶段的理解滞后。\"\n  ]\n}",
+  "request_sha256": "4f520eab1de76e3db15e7972d29bd1224fb49e6405295a733e47dad83f6fa676",
+  "usage": {
+    "input_tokens": 8293,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 298,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8591,
+    "x_details": [
+      {
+        "input_tokens": 8293,
+        "output_tokens": 298,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8591,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.422
+}

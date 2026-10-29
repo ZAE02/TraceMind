@@ -1,0 +1,9 @@
+{
+  "node_order": [
+    "N01",
+    "N06",
+    "N04"
+  ],
+  "expected_answers": 24,
+  "note": "One point per case; within-node answer order independently shuffled. Wait for a missing node file rather than reading other data."
+}

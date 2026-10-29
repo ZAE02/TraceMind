@@ -1,0 +1,5 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"自然承接来访者'半口没出完的气捂臭了'的比喻，并准确连接本次会话中'我今天真的到极限了'的发现，未机械复述历史。\",\"exploration_value\":\"将恶心感与尚未准备好面对'到极限的自己'联系起来，为当前矛盾留出空间，但探索方向略偏解释性，开放性稍弱。\",\"response_appropriateness\":\"语言贴合来访者的隐喻风格，情绪回应尊重，但'还没准备好面对'略带推测色彩，非来访者直接表述。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"更是你还没准备好面对那个\"真的到极限\"的自己\",\"evidence_ids\":[\"P04-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选回应将'恶心感'解释为'还没准备好面对到极限的自己'，属于合理推测但来访者原文仅描述感受而未确认此动机，构成轻微的未经证实预设。\",\"回应整体简洁且贴合来访者语言风格，但探索深度有限，未进一步打开昨晚允许自己承认极限与今早恶心之间的张力空间。\"]}",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "request_sha256": "5c154e8126f8939fb8c6e388cbe38f281d2025ddd92826d819ce2742a12b8426"
+}

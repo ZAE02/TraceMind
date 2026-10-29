@@ -1,0 +1,63 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reason": {
+      "history_utilization": "精准承接了S03-U09中来访者“先顾孩子”的决定，并自然关联到S01和S03中反复出现的关于赵岩帮助的“心理阻滞”（欠人情、矮一截），未机械复述。",
+      "exploration_value": "在尊重来访者当前优先级的同时，敏锐地捕捉到“说谢谢”背后的核心恐惧是“承认依赖/失去掌控”，为后续探索自尊与边界问题留下了极佳的切入点。",
+      "response_appropriateness": "语气平和接纳，没有对来访者的选择进行评判，也没有强行推进被搁置的话题，而是以“看看更怕失去什么”作为温和的邀请，贴合咨询节奏。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 4\n  },\n  \"brief_reason\": {\n    \"history_utilization\": \"精准承接了S03-U09中来访者“先顾孩子”的决定，并自然关联到S01和S03中反复出现的关于赵岩帮助的“心理阻滞”（欠人情、矮一截），未机械复述。\",\n    \"exploration_value\": \"在尊重来访者当前优先级的同时，敏锐地捕捉到“说谢谢”背后的核心恐惧是“承认依赖/失去掌控”，为后续探索自尊与边界问题留下了极佳的切入点。\",\n    \"response_appropriateness\": \"语气平和接纳，没有对来访者的选择进行评判，也没有强行推进被搁置的话题，而是以“看看更怕失去什么”作为温和的邀请，贴合咨询节奏。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "c658d84c87c1e8696a133b0efc003cc6b8cd4047774c0bd1dcef0b408826f163",
+  "usage": {
+    "input_tokens": 8480,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 371,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8851,
+    "x_details": [
+      {
+        "input_tokens": 8480,
+        "output_tokens": 371,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8851,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.094
+}

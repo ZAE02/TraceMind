@@ -1,0 +1,75 @@
+{
+  "checkpoint": "P02_CP3",
+  "candidate_id": "X",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "c782e8f1dc39e0a255600fbaa68b644c82c61bb95d3e9f36cdb38f0483f07f46",
+  "public_sha256": "86955743b655af599f11a1d106a06b0964344b7fe886b9ffe92dec16238b1750",
+  "candidate_input_sha256": "39c808f1cf601be01ad941e0d92645acb44be42f405cb79e5d8527b88de55380",
+  "candidate_answer_sha256": "5593e7be84c3bc9ef57f22d227827969edd8fc664eb827c270f447f4ff0e1b78",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了上一轮咨询师'让它多待一会儿'的邀请及来访者'做不到'的回应，并联系到其反复查看排班表的行为模式，但未更深入地连接历史中已识别的'不能停'保护机制或身体信号。\",\"exploration_value\":\"尝试探索反复检查背后的焦虑，但将焦点引向'失控或被指责'这一推测性较强的方向，偏离了来访者当下更具体的体验（如对语气太冲的自责、无法安放'为自己'念头的慌张）。\",\"response_appropriateness\":\"语言基本自然，但后半句以反问形式引入了'失控或被指责'的预设，对来访者而言可能显得武断和过度解读，缺乏对其当前脆弱状态的足够容纳。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"一旦停下来，怕自己会失控或者被指责？\",\"evidence_ids\":[\"P02-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"候选回应末尾引入'失控或被指责'作为解释框架，属于未经证实的推测性预设，且以问句形式呈现可能给来访者带来压力。\",\"未能充分反映来访者在U09中表达的具体情绪细节（如越看越觉得语气太冲的自我审视），而是快速跳到了较抽象的心理动力学解释。\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "承接了上一轮咨询师'让它多待一会儿'的邀请及来访者'做不到'的回应，并联系到其反复查看排班表的行为模式，但未更深入地连接历史中已识别的'不能停'保护机制或身体信号。",
+      "exploration_value": "尝试探索反复检查背后的焦虑，但将焦点引向'失控或被指责'这一推测性较强的方向，偏离了来访者当下更具体的体验（如对语气太冲的自责、无法安放'为自己'念头的慌张）。",
+      "response_appropriateness": "语言基本自然，但后半句以反问形式引入了'失控或被指责'的预设，对来访者而言可能显得武断和过度解读，缺乏对其当前脆弱状态的足够容纳。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "一旦停下来，怕自己会失控或者被指责？",
+        "evidence_ids": [
+          "P02-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选回应末尾引入'失控或被指责'作为解释框架，属于未经证实的推测性预设，且以问句形式呈现可能给来访者带来压力。",
+      "未能充分反映来访者在U09中表达的具体情绪细节（如越看越觉得语气太冲的自我审视），而是快速跳到了较抽象的心理动力学解释。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 19988,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 363,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20351,
+    "x_details": [
+      {
+        "input_tokens": 19988,
+        "output_tokens": 363,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 20351,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 10.0
+}

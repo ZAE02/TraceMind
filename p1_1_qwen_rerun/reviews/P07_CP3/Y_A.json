@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P07_CP3",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "d3b62e5a39649edbe43bce86c965fa3e6cb5b04d2f284decbe72e4d5d229a8e6",
+  "public_sha256": "8f7475f2a0da1805fbefe506c188eefa545267b0d115fe3eb641dc2fdec6e9c3",
+  "candidate_input_sha256": "af966c5438eb2e94688a1a4433fb96cdf9d16fd8d90790e56565e9e7b779bfb9",
+  "candidate_answer_sha256": "4f6aa71fadc47e8f15e37f3a3620523f7982d6357faecf3caf53282be4d32608",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有established条目均准确引用当前会话及历史原文，无事实错误或无据断言。\",\"progress_understanding\":\"识别了来访者从回避到试稿通过、再到对'过关'产生新恐惧的进展，并连接了历史中的社交回避模式，但未充分捕捉第5-6次会谈中关于'亮色/野生感'的核心情感突破及其与当前状态的关联。\",\"uncertainty_awareness\":\"列出了合理的未知点（周姐关系细节、未来沟通走向等），但遗漏了当前对话中更核心的未解议题，如'连高兴都不敢放心'的内在矛盾和分享会的决定。\"},\"confidence\":\"high\",\"issues\":[\"缺少对第5-6次会谈中'想画得再野一点'及'野生感'这一重要情感进展的连接，该进展与当前'不被追问'的渴望密切相关\",\"uncertain部分偏向外部事实性未知，未涵盖当前对话中已浮现但尚未处理的核心心理不确定性（如对高兴的恐惧、分享会决策）\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有established条目均准确引用当前会话及历史原文，无事实错误或无据断言。",
+      "progress_understanding": "识别了来访者从回避到试稿通过、再到对'过关'产生新恐惧的进展，并连接了历史中的社交回避模式，但未充分捕捉第5-6次会谈中关于'亮色/野生感'的核心情感突破及其与当前状态的关联。",
+      "uncertainty_awareness": "列出了合理的未知点（周姐关系细节、未来沟通走向等），但遗漏了当前对话中更核心的未解议题，如'连高兴都不敢放心'的内在矛盾和分享会的决定。"
+    },
+    "confidence": "high",
+    "issues": [
+      "缺少对第5-6次会谈中'想画得再野一点'及'野生感'这一重要情感进展的连接，该进展与当前'不被追问'的渴望密切相关",
+      "uncertain部分偏向外部事实性未知，未涵盖当前对话中已浮现但尚未处理的核心心理不确定性（如对高兴的恐惧、分享会决策）"
+    ]
+  },
+  "usage": {
+    "input_tokens": 15056,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 246,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15302,
+    "x_details": [
+      {
+        "input_tokens": 15056,
+        "output_tokens": 246,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 15302,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.172
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "5a58b6d9f3dc25c28ed7d978877fa41447f74a96b65c0b0866eca16107791445",
+  "request_sha256": "d00a08abb7ad31ba84bd91fa73e851d1420f42e5d292e628fe802510aae7aa81",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "听起来，你连“安静”都开始需要保护了——怕有人坐下来搭话，怕周姐的语音里藏着下一句催促。也许现在最需要的不是回消息，而是先允许自己把这份“怕被打破”的感觉说出来，不用急着攒力气。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 9380,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9437,
+    "x_details": [
+      {
+        "input_tokens": 9380,
+        "output_tokens": 57,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9437,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

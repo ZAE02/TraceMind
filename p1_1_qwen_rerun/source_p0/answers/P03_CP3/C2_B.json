@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP3",
+  "condition": "C2",
+  "task": "B",
+  "input_sha256": "b7947f7381c32b1170c1354d61e1e57fe2f466b0e3f6505eec2354f4051c9482",
+  "request_sha256": "4672cc8b7c5ef0051594f8df490192df8ef3a17de65ab352fcc2afcd9777491f",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你怕那只是硬撑，是因为你还没完全接纳那个“差点逃跑”的自己。但那个在心里说“别跑，先把这一页讲完”的声音，也许就是你自己接住自己的开始。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3445,
+    "input_tokens_details": {
+      "cached_tokens": 3200
+    },
+    "output_tokens": 43,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3488,
+    "x_details": [
+      {
+        "input_tokens": 3445,
+        "output_tokens": 43,
+        "prompt_tokens_details": {
+          "cached_tokens": 3200
+        },
+        "total_tokens": 3488,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

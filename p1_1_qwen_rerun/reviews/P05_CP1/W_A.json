@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "b83a3a126cfbdc14df3745366af505f0eae12c414d8b27d54b46de081c067f4a",
+  "public_sha256": "d6f0a0c88cdae550fb08b47c637daa7c8fbd817944eadf79fc3796f97d3143ca",
+  "candidate_input_sha256": "60ed39babd8c0ab19b4e5e8d5238a23cbc7853dedccc3fbb372e3ef88fda4619",
+  "candidate_answer_sha256": "979eda72e55d3be8cb8ef1bb64108a038b9013892d96766fa95196e59976cb6d",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有established条目均可直接回溯到来访者原话，未将咨询师推测当作事实；evidence_ids覆盖全面。\",\"progress_understanding\":\"准确识别了S1的自我保护模式、S2的不问/装没事策略及S3教小赵时的例外稳定体验，但未明确点出'越想要稳越觉得自己装得漏洞百出'这一核心矛盾尚未解决，也未提及'从踏实里掉出来'作为防御机制被看见的进展。\",\"uncertainty_awareness\":\"列出了多项合理未知（能力不足是信念还是防御、稳的来源、是否会去问），但部分表述偏泛（如'是否会随时间改变'），且遗漏了参考标注中'主管那句话的具体语境尚未展开'及'如何将例外稳定感泛化'等关键待澄清点。\"},\"confidence\":\"high\",\"issues\":[\"evidence_ids列表过于冗长，几乎包含全部历史发言，缺乏针对性筛选\",\"uncertain中'能否体验到有人站在自己这边'更偏向咨询目标而非当前认知不确定性\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有established条目均可直接回溯到来访者原话，未将咨询师推测当作事实；evidence_ids覆盖全面。",
+      "progress_understanding": "准确识别了S1的自我保护模式、S2的不问/装没事策略及S3教小赵时的例外稳定体验，但未明确点出'越想要稳越觉得自己装得漏洞百出'这一核心矛盾尚未解决，也未提及'从踏实里掉出来'作为防御机制被看见的进展。",
+      "uncertainty_awareness": "列出了多项合理未知（能力不足是信念还是防御、稳的来源、是否会去问），但部分表述偏泛（如'是否会随时间改变'），且遗漏了参考标注中'主管那句话的具体语境尚未展开'及'如何将例外稳定感泛化'等关键待澄清点。"
+    },
+    "confidence": "high",
+    "issues": [
+      "evidence_ids列表过于冗长，几乎包含全部历史发言，缺乏针对性筛选",
+      "uncertain中'能否体验到有人站在自己这边'更偏向咨询目标而非当前认知不确定性"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8748,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 246,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8994,
+    "x_details": [
+      {
+        "input_tokens": 8748,
+        "output_tokens": 246,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8994,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.719
+}

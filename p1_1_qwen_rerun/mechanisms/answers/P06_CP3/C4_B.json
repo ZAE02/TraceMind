@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "bad726491925405c9f184cd8e777bc00d59a41d294644ef125df7702f7ca1e76",
+  "request_sha256": "8a9064017e3b1dbcb73a7f978ba552020c48bd46e3c5aaf61f1ca15d6e38afee",
+  "memory_sha256": "5c207b700140b187f3cbc1e23e58e0414a5d8e8378caddcca110ec9317c3d218",
+  "memory_source": "90ad0b4c487ca2020b093bf0091d44461c816dfe9c7e876eda587cd22a915a14",
+  "raw_text": "你下意识伸手去拉平被角，又立刻补上一句解释，这个瞬间好像把你心里那把“偷偷打分”的尺子给暴露了。那种怕被看出来、又怕自己做得不够好的紧张感，是不是让你连他递过来的搭手，都变成了一种需要时刻警惕的考验？",
+  "usage": {
+    "input_tokens": 9653,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 65,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9718,
+    "x_details": [
+      {
+        "input_tokens": 9653,
+        "output_tokens": 65,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9718,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.937,
+  "model": "qwen3.7-flash-2026-07-15"
+}

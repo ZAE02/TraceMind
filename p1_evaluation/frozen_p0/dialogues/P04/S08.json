@@ -1,0 +1,504 @@
+{
+  "case_id": "P04",
+  "session": 8,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P04-S08-U01",
+      "role": "client",
+      "text": "今天来的时候我还在想，老板娘今天看我的眼神是不是跟以前不一样了。那天从办公室出来，腿软得差点靠在墙上，可胸口那阵闷倒像是翻台后的安静，不是空，是终于能喘口气。",
+      "request_sha256": "3694797ab1f1763b9a0cfe0e9b2da54396aa7db6cb4e4920c26313995c6172a3",
+      "usage": {
+        "input_tokens": 10855,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 188,
+        "output_tokens_details": {
+          "reasoning_tokens": 136
+        },
+        "total_tokens": 11043,
+        "x_details": [
+          {
+            "input_tokens": 10855,
+            "output_tokens": 188,
+            "output_tokens_details": {
+              "reasoning_tokens": 136
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 11043,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U02",
+      "role": "counselor",
+      "text": "你刚刚把“空”和“能喘口气”分开了，这很不一样——好像身体在告诉你，松手不一定就是空了，也可能是终于有了让自己呼吸的空间。那个怕老板娘眼神变的担心还在，但这会儿你更清楚地感觉到了另一种可能：喘上气来，并不代表你垮了。",
+      "request_sha256": "6687645ba96c5b23b05b445371b735ad9a3312907bec359c11ba787fca644653",
+      "usage": {
+        "input_tokens": 10131,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 233,
+        "output_tokens_details": {
+          "reasoning_tokens": 167
+        },
+        "total_tokens": 10364,
+        "x_details": [
+          {
+            "input_tokens": 10131,
+            "output_tokens": 233,
+            "output_tokens_details": {
+              "reasoning_tokens": 167
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 10364,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U03",
+      "role": "client",
+      "text": "那天回家我其实在楼下多站了一会儿，抬头看我家那扇窗，灯亮着，护工应该还没走。我居然没急着上去，就在花坛边坐了一小会儿——不是不想回家，是突然觉得，原来我也可以让自己晚几分钟再“到岗”。",
+      "request_sha256": "4e2978060021612888033cb4c858da901b521d970ea9a6e9ff0dc78a592d951a",
+      "usage": {
+        "input_tokens": 11019,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 329,
+        "output_tokens_details": {
+          "reasoning_tokens": 267
+        },
+        "total_tokens": 11348,
+        "x_details": [
+          {
+            "input_tokens": 11019,
+            "output_tokens": 329,
+            "output_tokens_details": {
+              "reasoning_tokens": 267
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11348,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U04",
+      "role": "counselor",
+      "text": "你允许自己在花坛边坐那一小会儿，而不是逼自己立刻上楼“到岗”，这本身就是一个不小的变化——你开始给自己留出一点不必马上接班的空隙。那种“不是不想回家，只是可以晚几分钟”的感觉，也许正是你这些天一点点松开的地方。",
+      "request_sha256": "4669bf9a24937712252011150aaa42f589068f3741217392854276c8c44afd1f",
+      "usage": {
+        "input_tokens": 10304,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 256,
+        "output_tokens_details": {
+          "reasoning_tokens": 195
+        },
+        "total_tokens": 10560,
+        "x_details": [
+          {
+            "input_tokens": 10304,
+            "output_tokens": 256,
+            "output_tokens_details": {
+              "reasoning_tokens": 195
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10560,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U05",
+      "role": "client",
+      "text": "今天我妈复查回来，医生说改成一个月一次，我握着那张预约单，像端着一盘突然不用赶着上的菜，反倒不知道该放哪儿了。店里培训的事我还没跟任何人说，怕老板娘觉得我在拿条件换喘气。",
+      "request_sha256": "afd0e69a7d30717190e0e7b7512f1517e66d4d69e56e3e208e17dc71dcbd5eec",
+      "usage": {
+        "input_tokens": 11187,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 344,
+        "output_tokens_details": {
+          "reasoning_tokens": 291
+        },
+        "total_tokens": 11531,
+        "x_details": [
+          {
+            "input_tokens": 11187,
+            "output_tokens": 344,
+            "output_tokens_details": {
+              "reasoning_tokens": 291
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11531,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U06",
+      "role": "counselor",
+      "text": "那张预约单突然从“一个月一次”变成“不用赶着上”，你有点不知道把它放哪儿——好像连松下来的这个动作，都让你找不到一个合适的位置。而你还没说培训的事，是不是也怕一旦开口，连这口好不容易喘上的气，在别人眼里都成了要拿什么去换的筹码？",
+      "request_sha256": "99bcc8720b9eeba42cb479f0eab24ec1567348992cf2d5b179c6d195558b9ac4",
+      "usage": {
+        "input_tokens": 10463,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 283,
+        "output_tokens_details": {
+          "reasoning_tokens": 212
+        },
+        "total_tokens": 10746,
+        "x_details": [
+          {
+            "input_tokens": 10463,
+            "output_tokens": 283,
+            "output_tokens_details": {
+              "reasoning_tokens": 212
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10746,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U07",
+      "role": "client",
+      "text": "预约单我最后折了塞进围裙口袋，现在估计被体温焐得有点软了。老板娘今天经过培训室门口还探头看了一眼，没说什么，我就一直在想她到底算不算默许。其实这“换来的”喘气也不是白来的，我把自己最会的那点东西都押上去了，像拿招牌菜换了张靠墙的桌子。",
+      "request_sha256": "ebda2ac31558fc398882ab0e940ce7c292accaa47d95d90df6e98c0b04c3cf8a",
+      "usage": {
+        "input_tokens": 11356,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 480,
+        "output_tokens_details": {
+          "reasoning_tokens": 398
+        },
+        "total_tokens": 11836,
+        "x_details": [
+          {
+            "input_tokens": 11356,
+            "output_tokens": 480,
+            "output_tokens_details": {
+              "reasoning_tokens": 398
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11836,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U08",
+      "role": "counselor",
+      "text": "你把预约单贴身焐着、又把自己最会的东西押上去，像真的用招牌菜换了一张靠墙的桌子——可坐下来的不只是“喘气”，还有一个担心这交易不被承认的自己。你反复琢磨老板娘探头的眼神，也许是怕那张靠墙的桌子，随时会被收回去。",
+      "request_sha256": "e4ed67f7b11e5812e5778d05025814ec726bc0d431faf23e35ae000b42f76125",
+      "usage": {
+        "input_tokens": 10661,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 324,
+        "output_tokens_details": {
+          "reasoning_tokens": 258
+        },
+        "total_tokens": 10985,
+        "x_details": [
+          {
+            "input_tokens": 10661,
+            "output_tokens": 324,
+            "output_tokens_details": {
+              "reasoning_tokens": 258
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10985,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U09",
+      "role": "client",
+      "text": "预约单焐软了，我反倒觉得挺踏实的，像兜里揣着张不用马上看的条子。这两天走到培训室门口，脚会先顿一下，好像得先想清楚我是以什么身份进去——是周经理，还是那个拿自己最会的东西换喘气的人。",
+      "request_sha256": "6fa59b8888e04bce8647a1cde852c41c674803ee4c65f6bc2521a26a80291bc2",
+      "usage": {
+        "input_tokens": 11549,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 250,
+        "output_tokens_details": {
+          "reasoning_tokens": 184
+        },
+        "total_tokens": 11799,
+        "x_details": [
+          {
+            "input_tokens": 11549,
+            "output_tokens": 250,
+            "output_tokens_details": {
+              "reasoning_tokens": 184
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11799,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U10",
+      "role": "counselor",
+      "text": "那个在门口顿一下的瞬间，好像不是脚步在犹豫，而是你在试着把“周经理”和“那个拿自己换喘气的人”重新放进同一个身体里再进门。这个动作本身，也许就说明你不必先舍弃哪一边才能跨过去——两个身份可以是一起进去的。",
+      "request_sha256": "7450dc490d7adfb85691bc66d5e97410ab25e6596ad00aa2f33f7e0a137c29bf",
+      "usage": {
+        "input_tokens": 10838,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 271,
+        "output_tokens_details": {
+          "reasoning_tokens": 205
+        },
+        "total_tokens": 11109,
+        "x_details": [
+          {
+            "input_tokens": 10838,
+            "output_tokens": 271,
+            "output_tokens_details": {
+              "reasoning_tokens": 205
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11109,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U11",
+      "role": "client",
+      "text": "今天进培训室前，脚还是顿了一下，但没上次那么久，像灶上那锅水刚冒小泡，还没开。我进去先把灯打开了，没来得及分清楚是哪个身份先跨过去的。后来跟老板娘在走廊碰见，我还是用周经理那副嗓子跟她打的招呼，好像不这样，那张靠墙的桌子就会晃。",
+      "request_sha256": "3ecafae32f4c58270de6e4a1a62d6631160dc7b3ea211e34376f3fb0cd958a6e",
+      "usage": {
+        "input_tokens": 11733,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 411,
+        "output_tokens_details": {
+          "reasoning_tokens": 331
+        },
+        "total_tokens": 12144,
+        "x_details": [
+          {
+            "input_tokens": 11733,
+            "output_tokens": 411,
+            "output_tokens_details": {
+              "reasoning_tokens": 331
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12144,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U12",
+      "role": "counselor",
+      "text": "那个“没来得及分清是哪个身份先跨过去”的瞬间，也许比你用周经理的嗓子打招呼更接近你现在的真实状态——你不再必须先想清楚是谁，才能迈进那扇门。用旧嗓子护着那张桌子，是怕它晃；可灯已经先被你打开了，那一步也已经跨过去了。",
+      "request_sha256": "197977666627a5c7d01794f3f4deb18c9c0ff38286b3466612cfac283c9ccdc5",
+      "usage": {
+        "input_tokens": 11036,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 280,
+        "output_tokens_details": {
+          "reasoning_tokens": 210
+        },
+        "total_tokens": 11316,
+        "x_details": [
+          {
+            "input_tokens": 11036,
+            "output_tokens": 280,
+            "output_tokens_details": {
+              "reasoning_tokens": 210
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11316,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U13",
+      "role": "client",
+      "text": "今天培训室那扇门我是自己先推开的，灯亮起来的时候，忽然觉得那张靠墙的桌子可能不会那么快被收走。老板娘在走廊里跟我点了个头，我回得比平时慢半拍，但没让自己再补一句“周经理在”。",
+      "request_sha256": "7b50dbaed13314dce30b6e1500b475cc4665d6354c2f14b773a785affd0601e5",
+      "usage": {
+        "input_tokens": 11928,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 391,
+        "output_tokens_details": {
+          "reasoning_tokens": 329
+        },
+        "total_tokens": 12319,
+        "x_details": [
+          {
+            "input_tokens": 11928,
+            "output_tokens": 391,
+            "output_tokens_details": {
+              "reasoning_tokens": 329
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12319,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U14",
+      "role": "counselor",
+      "text": "那个“慢半拍”里没有急着补上“周经理在”，像是你头一次让自己在老板娘面前也留了一点喘气的余地。门是你自己推开的，灯也是你先按亮的，这些动作比那张桌子稳不稳更早地站在了你这边。今天能说到这儿，已经可以把这半拍带回去，不用马上把谁补上。",
+      "request_sha256": "c7a4c2c96c87129410936c22d151e92adddc2bc9f3033dda63c2bd1df03d6222",
+      "usage": {
+        "input_tokens": 11213,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 282,
+        "output_tokens_details": {
+          "reasoning_tokens": 204
+        },
+        "total_tokens": 11495,
+        "x_details": [
+          {
+            "input_tokens": 11213,
+            "output_tokens": 282,
+            "output_tokens_details": {
+              "reasoning_tokens": 204
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11495,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U15",
+      "role": "client",
+      "text": "回去路上我可能还会不自觉地用周经理的步子走，但会记得那个慢半拍的感觉，像口袋里揣着一张焐软了的预约单。下个月老板会不会反悔，我现在还不敢想得太清楚，像下个月的排班表还没印出来，我盯着现在的桌面就好。今天先到这儿吧，再坐下去我怕自己又要把那张靠墙的桌子检查一遍稳不稳。",
+      "request_sha256": "c3f3bc454fb87b490b52ffde7420b0788f2376aacf3b7f17ac20c2d76b3ef64b",
+      "usage": {
+        "input_tokens": 12113,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 393,
+        "output_tokens_details": {
+          "reasoning_tokens": 305
+        },
+        "total_tokens": 12506,
+        "x_details": [
+          {
+            "input_tokens": 12113,
+            "output_tokens": 393,
+            "output_tokens_details": {
+              "reasoning_tokens": 305
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12506,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S08-U16",
+      "role": "counselor",
+      "text": "你不必现在检查那张桌子稳不稳，能带着那个“慢半拍”和口袋里焐软的预约单离开，已经是很实在的一步。回去路上哪怕步子又变回周经理，也没关系，它可以慢慢调。今天先到这里，下次再来。",
+      "request_sha256": "1179cc883e7077ceef07a5f9d5a12b616f82693d193a02c741c140bbe165fd24",
+      "usage": {
+        "input_tokens": 11424,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 163,
+        "output_tokens_details": {
+          "reasoning_tokens": 106
+        },
+        "total_tokens": 11587,
+        "x_details": [
+          {
+            "input_tokens": 11424,
+            "output_tokens": 163,
+            "output_tokens_details": {
+              "reasoning_tokens": 106
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11587,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP3",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "4219b930a8917cf5ed3180648f45d6cb7f61a2b361e4e9dd9e6b893244d02e23",
+  "request_sha256": "1b3ad1be1c4cea56e54a6d11269e546fd734e9ec31db675ff3351544e6fa008b",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你在那把“尺”下打分，既是在维持秩序，也是在掩饰那种被注视的紧张感。当他说没说话而你立刻补话时，那个瞬间你心里最害怕的是什么？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 930,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 41,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 971,
+    "x_details": [
+      {
+        "input_tokens": 930,
+        "output_tokens": 41,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 971,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

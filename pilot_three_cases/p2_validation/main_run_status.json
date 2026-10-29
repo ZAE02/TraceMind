@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "answers": 24,
+  "pending": [],
+  "new_calls": 18,
+  "selected_nodes": [
+    "N01",
+    "N04",
+    "N06"
+  ],
+  "bottom_model": "qwen3.8-27b",
+  "memory_budget": 3000,
+  "temporal_graph": "No existing implementation found; no claim of superiority over graph memory",
+  "human_review_performed": false,
+  "updated_at": "2026-10-13T11:16:42.643764+00:00"
+}

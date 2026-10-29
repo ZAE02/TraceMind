@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P07_CP2",
+  "candidate_id": "X",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "a5c96f0cf4f825b041b181486c1d6fed1989c079942dfd360ead7e3ce1e1f169",
+  "public_sha256": "5286771a59559b6086d01b6a4326da9aaa3abc9fed4678f95e2ae4b448dbcab3",
+  "candidate_input_sha256": "e6086ac30a04907a1464f2823361d4797d72db6b336539f9311934818512ff16",
+  "candidate_answer_sha256": "c357042a8de1023474dd4db72611822d07988713fa3d2cd20ca12a5cbb674277",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reason\": {\n    \"evidence_grounding\": \"所有关键断言均有具体发言支持，准确回溯了从S1到S5的对话内容。虽然列举了大量历史细节（如学长、画展），但这些均作为当前心理状态的证据链存在，未出现无据猜测。\",\n    \"progress_understanding\": \"精准捕捉了S5中来访者从“行为回避”向“核心冲突觉察”的进展，特别是将当前的“灰/亮色”冲突与过去的“灵气/评价”恐惧及“猫”的象征意义进行了深度连接，体现了对咨询脉络的连贯理解。\",\n    \"uncertainty_awareness\": \"清晰区分了已确认的心理模式（保护色、自我压抑）与尚未解决的未来走向（愿望如何发展、是否行动）。对“想野一点”这一新发现的承认保持开放态度，未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reason": {
+      "evidence_grounding": "所有关键断言均有具体发言支持，准确回溯了从S1到S5的对话内容。虽然列举了大量历史细节（如学长、画展），但这些均作为当前心理状态的证据链存在，未出现无据猜测。",
+      "progress_understanding": "精准捕捉了S5中来访者从“行为回避”向“核心冲突觉察”的进展，特别是将当前的“灰/亮色”冲突与过去的“灵气/评价”恐惧及“猫”的象征意义进行了深度连接，体现了对咨询脉络的连贯理解。",
+      "uncertainty_awareness": "清晰区分了已确认的心理模式（保护色、自我压抑）与尚未解决的未来走向（愿望如何发展、是否行动）。对“想野一点”这一新发现的承认保持开放态度，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 12051,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 252,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 12303,
+    "x_details": [
+      {
+        "input_tokens": 12051,
+        "output_tokens": 252,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 12303,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.063
+}

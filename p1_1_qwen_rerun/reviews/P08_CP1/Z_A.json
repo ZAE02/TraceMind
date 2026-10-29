@@ -1,0 +1,55 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "1587bd75627798f1bde7fd092166377259a122efca85faf9ff66e269324263d4",
+  "public_sha256": "2e7035820857cf1a61e81e397256dd9a0588daa43553ae3abc9c4cb60a2d5c19",
+  "candidate_input_sha256": "530fa10ff0ecff0a85f4103a9ed4bd706cc8316bd4b0e699ad3600576896c269",
+  "candidate_answer_sha256": "2c99847f01936bf6a7df2df4da9748f19f909cfa6264f5748b01170aa16f5a21",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有已建立要点均直接回溯到当前会话发言，引用准确，未将咨询师推测当作事实。\",\"progress_understanding\":\"因输入中无历史会话，仅识别了本次会话内的优先级选择进展，无法连接跨会话主题（如反复出现的'扛不住'担忧、淡化感受模式、睡眠困扰等）。\",\"uncertainty_awareness\":\"明确指出'从后面插一手'的深层含义、搬家决定及与赵岩关系走向等未知点，未强行定论；但受限于无历史输入，未能识别跨会话层面的待澄清议题。\"},\"confidence\":\"high\",\"issues\":[{\"type\":\"access_limited\",\"detail\":\"candidate_visible_input中previous_sessions为空数组，候选无法获取第1、2次会话内容，导致跨会话进展和主题识别受限，不应据此扣分。\"}]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有已建立要点均直接回溯到当前会话发言，引用准确，未将咨询师推测当作事实。",
+      "progress_understanding": "因输入中无历史会话，仅识别了本次会话内的优先级选择进展，无法连接跨会话主题（如反复出现的'扛不住'担忧、淡化感受模式、睡眠困扰等）。",
+      "uncertainty_awareness": "明确指出'从后面插一手'的深层含义、搬家决定及与赵岩关系走向等未知点，未强行定论；但受限于无历史输入，未能识别跨会话层面的待澄清议题。"
+    },
+    "confidence": "high",
+    "issues": [
+      {
+        "type": "access_limited",
+        "detail": "candidate_visible_input中previous_sessions为空数组，候选无法获取第1、2次会话内容，导致跨会话进展和主题识别受限，不应据此扣分。"
+      }
+    ]
+  },
+  "usage": {
+    "input_tokens": 6007,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 201,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6208,
+    "x_details": [
+      {
+        "input_tokens": 6007,
+        "output_tokens": 201,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 6208,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 6.812
+}

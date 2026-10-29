@@ -1,0 +1,34 @@
+{
+  "case_id": "P08",
+  "checkpoint": "CP1",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "eec608cc14f44ef760a629b7a630952b90ef036bae4a42591d5dbac6a193d87f",
+  "request_sha256": "2f772490811d8a3f356c367e51267489acfe0b9e0209e169e3d73c2e6220ccb2",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你选择先顾孩子，是因为报名的时间压力让你觉得必须有个交代，而赵岩那边“说谢谢就承认靠了他”的感觉，似乎让你觉得一旦开口就会失去对自己处境的掌控。在算搬家账目的同时，这种对“欠人情”和“矮一截”的担忧，是不是也在悄悄消耗着你处理眼前事务的精力？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3282,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 75,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3357,
+    "x_details": [
+      {
+        "input_tokens": 3282,
+        "output_tokens": 75,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3357,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

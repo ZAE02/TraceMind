@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP2",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "9a7806a7ed9281a2361454b1d19116dbb6763d297fd3051f2a9f9597e128fa76",
+  "request_sha256": "1598871b1d045149ccce2872e3b52170711578686486895a6944d5a79db66abb",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你终于把这句话说出来了——不是“不能”，而是“想画得再野一点”。那个连猫都敢直接要、你却要像做贼一样藏起来的愿望，现在被你自己承认了，手心那点热也许就是它还在的证据。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3376,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3430,
+    "x_details": [
+      {
+        "input_tokens": 3376,
+        "output_tokens": 54,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3430,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

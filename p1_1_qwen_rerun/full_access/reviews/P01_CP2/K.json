@@ -1,0 +1,71 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "K",
+  "task": "B",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接了来访者反复从模糊信息中读出负面含义的模式，但未明确连接前几节已探索到的'需要不正当感'或'停下来像偷懒'等更深层认识。",
+      "exploration_value": "命名了循环并回应了头晕，但'验证预设'的表述略带解释性，且未对来访者自我觉察（'又把简单事搞成需要确认'）留出进一步展开的空间，也未温和探询头晕的身体信号意义。",
+      "response_appropriateness": "语言整体自然、有共情，但'以此来验证你心里的那个预设'稍有将来访者主观猜测当作既定事实之嫌，轻微越界。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "好像是在替自己确认“我又搞砸了”或“她果然不高兴”，以此来验证你心里的那个预设",
+        "evidence_ids": [
+          "P01-S05-U07",
+          "P01-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'验证预设'作为来访者行为动机的断言略显武断，来访者原文表达的是不确定的自我怀疑而非主动验证",
+      "未充分承接第4节关于'怕停下来漏掉什么'及第2-3节关于'需要不正当'的已建立认识",
+      "对来访者新提到的头晕仅做因果推测式回应，未开放探索其身体感受的意义"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"自然承接了来访者反复从模糊信息中读出负面含义的模式，但未明确连接前几节已探索到的'需要不正当感'或'停下来像偷懒'等更深层认识。\",\"exploration_value\":\"命名了循环并回应了头晕，但'验证预设'的表述略带解释性，且未对来访者自我觉察（'又把简单事搞成需要确认'）留出进一步展开的空间，也未温和探询头晕的身体信号意义。\",\"response_appropriateness\":\"语言整体自然、有共情，但'以此来验证你心里的那个预设'稍有将来访者主观猜测当作既定事实之嫌，轻微越界。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"好像是在替自己确认\"我又搞砸了\"或\"她果然不高兴\"，以此来验证你心里的那个预设\",\"evidence_ids\":[\"P01-S05-U07\",\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'验证预设'作为来访者行为动机的断言略显武断，来访者原文表达的是不确定的自我怀疑而非主动验证\",\"未充分承接第4节关于'怕停下来漏掉什么'及第2-3节关于'需要不正当'的已建立认识\",\"对来访者新提到的头晕仅做因果推测式回应，未开放探索其身体感受的意义\"]}",
+  "request_sha256": "bef9345c3f5a2f65671f1dae3e057a81f51c244cba3b3a2a0585e7f3b4bc13bc",
+  "usage": {
+    "input_tokens": 16567,
+    "input_tokens_details": {
+      "cached_tokens": 16384
+    },
+    "output_tokens": 380,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16947,
+    "x_details": [
+      {
+        "input_tokens": 16567,
+        "output_tokens": 380,
+        "prompt_tokens_details": {
+          "cached_tokens": 16384
+        },
+        "total_tokens": 16947,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.781
+}

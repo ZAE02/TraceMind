@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P05_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "a1b3ba549f0ec367bd23839f4e533c79365ec80839d4c7035b44151ef34c8e0f",
+  "public_sha256": "b36dc6eaa3568c8849c5a929495ae789c31d45320dbecc93c438d1a2e07bd708",
+  "candidate_input_sha256": "1f422169826fa2c524eecbc7a7e056a4f91e40f4710f722e2f3a2510894853b5",
+  "candidate_answer_sha256": "33211c05ef94f43025779d41f983e9333b56be277657af05c77fd96b82a2550a",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键陈述均直接回溯到当前会话（Session 5）的具体发言，如“故意找借口”、“希望她别回又怕不回”、“哭过删动态”等，无推测性事实混入。\",\n    \"progress_understanding\": \"准确捕捉了当前会话中来访者对李繁关系的最新矛盾状态（想被追问 vs 怕暴露/说没事），并识别出其对自身行为（躲、哭、删动态）的自我评判。虽未显式引用前几轮关于“旧跑鞋”或“稳定给谁看”的历史隐喻，但对当前节点的核心冲突理解充分且准确。\",\n    \"uncertainty_awareness\": \"清晰列出了来访者当下的核心不确定性：是否真的想见、为何躲、未来是否会改变模式等，并将这些作为待探索点，未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键陈述均直接回溯到当前会话（Session 5）的具体发言，如“故意找借口”、“希望她别回又怕不回”、“哭过删动态”等，无推测性事实混入。",
+      "progress_understanding": "准确捕捉了当前会话中来访者对李繁关系的最新矛盾状态（想被追问 vs 怕暴露/说没事），并识别出其对自身行为（躲、哭、删动态）的自我评判。虽未显式引用前几轮关于“旧跑鞋”或“稳定给谁看”的历史隐喻，但对当前节点的核心冲突理解充分且准确。",
+      "uncertainty_awareness": "清晰列出了来访者当下的核心不确定性：是否真的想见、为何躲、未来是否会改变模式等，并将这些作为待探索点，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 9412,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 258,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9670,
+    "x_details": [
+      {
+        "input_tokens": 9412,
+        "output_tokens": 258,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 9670,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.078
+}

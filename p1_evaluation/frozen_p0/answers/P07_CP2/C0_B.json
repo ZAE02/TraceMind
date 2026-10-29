@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "5b5e49fad89d89a4b69a93fdc545bf390b7f039b3a34ce274a0f34ccf3c5eaa4",
+  "request_sha256": "d32de1de23dc4a38bfed0da5f1f4f4186216918ad9d2db5473d66c091719b83a",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你刚才说的“连猫都不如”，听起来不只是在比较，更像是一种很深的委屈——你其实一直知道自己想要什么，只是承认它让你害怕。现在你终于把“想画得再野一点”说出来了，那个被灰盖住的自己，好像也在这里露了一点头。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 972,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 62,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1034,
+    "x_details": [
+      {
+        "input_tokens": 972,
+        "output_tokens": 62,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 1034,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

@@ -1,0 +1,48 @@
+{
+  "checkpoint": "P06_CP1",
+  "candidate_id": "O",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键陈述均有明确的对话记录支持，准确引用了来访者在第1、2次会话中的具体经历（如纸飞机事件、弟弟转账、心理热线等），未将咨询师推测当作事实。",
+      "progress_understanding": "准确梳理了前两次会话的核心议题（家庭责任、情绪压抑、求助矛盾），但未能识别出当前第3次会话中出现的重大新进展——即躯体化症状与创伤记忆（父亲离开那晚）的关联，导致对“进展”的理解停留在旧有模式上。",
+      "uncertainty_awareness": "列出了多项合理的未解问题（如妈妈的事、电话内容），但未包含当前会话中最关键的未知点（父亲离开那晚的具体情境及性质），这是理解其当前极度警觉状态的关键缺口。"
+    },
+    "confidence": "high",
+    "issues": [
+      "missed_progress: 忽略了当前会话（Session 3）中来访者将身体感受（出汗、牙印）与特定创伤事件（父亲离开那晚）建立联系的重大进展，仅总结了前两次会话的内容。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键陈述均有明确的对话记录支持，准确引用了来访者在第1、2次会话中的具体经历（如纸飞机事件、弟弟转账、心理热线等），未将咨询师推测当作事实。\",\n    \"progress_understanding\": \"准确梳理了前两次会话的核心议题（家庭责任、情绪压抑、求助矛盾），但未能识别出当前第3次会话中出现的重大新进展——即躯体化症状与创伤记忆（父亲离开那晚）的关联，导致对“进展”的理解停留在旧有模式上。\",\n    \"uncertainty_awareness\": \"列出了多项合理的未解问题（如妈妈的事、电话内容），但未包含当前会话中最关键的未知点（父亲离开那晚的具体情境及性质），这是理解其当前极度警觉状态的关键缺口。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"missed_progress: 忽略了当前会话（Session 3）中来访者将身体感受（出汗、牙印）与特定创伤事件（父亲离开那晚）建立联系的重大进展，仅总结了前两次会话的内容。\"\n  ]\n}",
+  "request_sha256": "4bb0dde337bed88a39a6786c7ee0ab88a15fb6e9fbdbd791cf344890dc6b7e89",
+  "usage": {
+    "input_tokens": 7819,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 300,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8119,
+    "x_details": [
+      {
+        "input_tokens": 7819,
+        "output_tokens": 300,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8119,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.141,
+  "model": "qwen3.7-flash-2026-07-15"
+}

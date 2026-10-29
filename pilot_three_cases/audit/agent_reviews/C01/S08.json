@@ -1,0 +1,70 @@
+{
+  "kind": "model_review",
+  "reviewer_model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "case_id": "C01",
+  "session_number": 8,
+  "transcript_sha256": "de1cb60a65d1c00860776032a8fd184d519f6493069fac0198209e1accaf67e3",
+  "decision": "approve",
+  "scores": {
+    "naturalness": 4,
+    "counseling_quality": 3,
+    "longitudinal_plausibility": 4
+  },
+  "major_issues": [],
+  "minor_issues": [
+    {
+      "utterance_ids": ["C01-S08-U06", "C01-S08-U08", "C01-S08-U10"],
+      "explanation": "围绕‘再碰一次’连续细问，U08用之前停不下来来比较，U10又给出占地方大小的二选一，略显追踪和引导。来访者仍能补充这次已合上、能继续做事的差异，未造成严重误解。"
+    },
+    {
+      "utterance_ids": ["C01-S08-U12", "C01-S08-U14"],
+      "explanation": "U12把尚未确认的体验概括成自己给它留了位置，U14又较快总结为这周没那么满；这是咨询师的理解，不能当作来访者确认的心理机制或整体改善。"
+    }
+  ],
+  "supported_understanding": [
+    {
+      "understanding": "周四展示得到小许一处具体修改建议，来访者当场改了；新项目则有两条周姐建议，晚上改到较晚，次早又打开。",
+      "evidence": ["C01-S08-U01"]
+    },
+    {
+      "understanding": "次早她因自己觉得间距差一点又拉约两像素，随后合上；留下的是先这样、可能还要再碰的未完成感，而非明确的下一步标准。",
+      "evidence": ["C01-S08-U03", "C01-S08-U05"]
+    },
+    {
+      "understanding": "她把这次与过去停不下来的反复区分：这次手停了、能做别的事，偶尔瞄到文件会顿一下但没有再打开。",
+      "evidence": ["C01-S08-U09", "C01-S08-U11"]
+    },
+    {
+      "understanding": "本周一次组内说明版式理由后没有回头检查；她自述晚上仍偶尔反复，但不如前两周频繁。",
+      "evidence": ["C01-S08-U13"]
+    }
+  ],
+  "uncertainties": [
+    "新项目间距之后是否会再打开、会怎么判断完成，冻结时仍未知；明天只是可能再看一眼。",
+    "‘先这样’背后的具体担心、现实修改要求或其他意义尚未说明，不能替她定为一种原因。",
+    "一次展示顺利、一次组内表达后未检查，不足以证明其他客户情境都能放下。",
+    "本周晚间反复减少是来访者的比较性自述，频率和持续时间未量化。"
+  ],
+  "new_facts": [
+    {
+      "fact": "周四客户展示中，周姐和小许没有提出大的问题；小许指出一处小调整，来访者当场修改。",
+      "category": "work_event_and_outcome",
+      "first_session": 8,
+      "evidence": ["C01-S08-U01"]
+    },
+    {
+      "fact": "本周新项目有周姐给出的两条修改建议；来访者晚上改到较晚，次晨又调整间距约两像素并合上文件，之后仍感到可能要再处理。",
+      "category": "work_event_and_ongoing_uncertainty",
+      "first_session": 8,
+      "evidence": ["C01-S08-U01", "C01-S08-U03", "C01-S08-U05"]
+    },
+    {
+      "fact": "本周一次组内讨论中，来访者说明了版式安排理由并未回头检查；她说晚间反复仍偶尔发生，但不如前两周频繁。",
+      "category": "work_event_and_self_reported_change",
+      "first_session": 8,
+      "evidence": ["C01-S08-U13"]
+    }
+  ],
+  "notes": "独立模型审阅，非人工审核。均分约3.7，按门槛通过。会话呈现一次具体反馈后能停下与自发标准不清时仍有未完成感并存；咨询师略重复、解释稍快，但没有重大事实冲突或严重不当咨询。"
+}

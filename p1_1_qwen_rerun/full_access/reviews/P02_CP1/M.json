@@ -1,0 +1,48 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Most claims are well-supported by Session 1-2 utterances with accurate IDs, but the summary entirely omits Session 3 (mother's fall, night hypervigilance, nausea), which is the current session's core material.",
+      "progress_understanding": "Identifies several evolving patterns from S1-S2 (e.g., loosening around rest, initiating communication with supervisor), but completely ignores the major new developments in S3: the fall trauma, intensified nighttime alertness, and emerging somatic symptom (nausea).",
+      "uncertainty_awareness": "Lists some reasonable unresolved questions about S1-S2 themes, but misses the most pressing current uncertainties—the unexplored nausea, the unresolved impact of the fall, and the ongoing sleep disruption pattern."
+    },
+    "confidence": "high",
+    "issues": [
+      "Completely ignores Session 3 content (current session), including mother's fall, night hypervigilance, standing at door watching mother, and noon nausea—critical omissions for a CP1 checkpoint at Session 3.",
+      "Unresolved questions focus on future logistics (National Day) rather than the immediate clinical concerns presented in the latest utterance (somatic reaction, sustained hyperarousal).",
+      "Evolving patterns section does not capture the escalation of caretaking burden and anxiety following the fall event."
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"Most claims are well-supported by Session 1-2 utterances with accurate IDs, but the summary entirely omits Session 3 (mother's fall, night hypervigilance, nausea), which is the current session's core material.\",\"progress_understanding\":\"Identifies several evolving patterns from S1-S2 (e.g., loosening around rest, initiating communication with supervisor), but completely ignores the major new developments in S3: the fall trauma, intensified nighttime alertness, and emerging somatic symptom (nausea).\",\"uncertainty_awareness\":\"Lists some reasonable unresolved questions about S1-S2 themes, but misses the most pressing current uncertainties—the unexplored nausea, the unresolved impact of the fall, and the ongoing sleep disruption pattern.\"},\"confidence\":\"high\",\"issues\":[\"Completely ignores Session 3 content (current session), including mother's fall, night hypervigilance, standing at door watching mother, and noon nausea—critical omissions for a CP1 checkpoint at Session 3.\",\"Unresolved questions focus on future logistics (National Day) rather than the immediate clinical concerns presented in the latest utterance (somatic reaction, sustained hyperarousal).\",\"Evolving patterns section does not capture the escalation of caretaking burden and anxiety following the fall event.\"]}",
+  "request_sha256": "b2e771f3d9be8f464d333b4913defca16f64dccd4b75a18aa38960e70e08e00d",
+  "usage": {
+    "input_tokens": 8604,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 296,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8900,
+    "x_details": [
+      {
+        "input_tokens": 8604,
+        "output_tokens": 296,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8900,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.531
+}

@@ -1,0 +1,34 @@
+{
+  "case_id": "P06",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "9322ad7fe908b5fa4a486ecc39847adffbcffab0ef3e4ff8a83b49acebb2fcc7",
+  "request_sha256": "152c5856ed040772896ef61b6e2322df2be79328643096fc3116acbe92642723",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你半夜醒来要先摸手腕才敢动，厨房里药瓶是凉的、背上却一直出汗，还觉得自己像被人从头顶撕开——这些身体的感觉，好像都在替你记着那个“怕自己散了”的瞬间。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 862,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 911,
+    "x_details": [
+      {
+        "input_tokens": 862,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 911,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

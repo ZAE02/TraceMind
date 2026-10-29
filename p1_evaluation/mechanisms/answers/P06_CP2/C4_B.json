@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "f9959bc6dd9eb06590f3ab781b438c84797e5c080ea3c30639b21eca67a56ac0",
+  "request_sha256": "4059157f67417d18c3b16d9a911f5aa1a27706b6eca156baa794d55aeccab8f6",
+  "memory_sha256": "91078c86d96bdd2b6d119750d56a59f9c75088db458a5d02efa7c5b2d60246c4",
+  "memory_source": "fbf4d43cc2c1771c3969427e754882ed428f8e873e57ca22040c6c8d914cc7b9",
+  "raw_text": "你站在门口那半小时，脑子里已经在替妈妈想象护工会不会不耐烦、她会不会一直问“你爸去哪了”，好像连“想有人搭把手”这个念头，都要先经过一轮对自己的审判。你说“承认自己照顾不好她”，可我听出来的是你已经累到连睡个整觉都成了奢望，而不是你不想照顾她。",
+  "usage": {
+    "input_tokens": 6612,
+    "input_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "output_tokens": 75,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6687,
+    "x_details": [
+      {
+        "input_tokens": 6612,
+        "output_tokens": 75,
+        "prompt_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "total_tokens": 6687,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.218,
+  "model": "deepseek-v4-pro-0813"
+}

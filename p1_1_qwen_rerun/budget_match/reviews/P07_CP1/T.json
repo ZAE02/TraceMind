@@ -1,0 +1,70 @@
+{
+  "checkpoint": "P07_CP1",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者将灵气视为开关、害怕邮件成为最终确认的核心表达，并自然联系到婚礼场景的消耗感。",
+      "exploration_value": "对恐惧的理解基本到位，但第二句的比较性判断（比婚礼更难以启动）略显武断，且整体偏总结性陈述，未为来访者留下进一步展开的空间。",
+      "response_appropriateness": "语言简洁、尊重，情绪基调贴合来访者的疲惫与谨慎，但比较句式可能让来访者感到被评判或被推着走。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种对结果的恐惧，似乎比面对婚礼上的尴尬更让你难以启动。",
+        "evidence_ids": [
+          "P07-S03-U09",
+          "P07-S03-U01"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "第二句将邮件恐惧与婚礼尴尬做程度比较，属于未被来访者证实的推断，可能构成轻微的unsupported_presupposition。",
+      "回应以两句陈述结束，缺少邀请来访者继续探索或确认的开放性空间，exploration_value受限。",
+      "未触及来访者提到的'稿费比平时高不少'这一细节——它暗示来访者并非完全不想接，而是期待与恐惧并存，这一张力未被反映。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者将灵气视为开关、害怕邮件成为最终确认的核心表达，并自然联系到婚礼场景的消耗感。\",\"exploration_value\":\"对恐惧的理解基本到位，但第二句的比较性判断（比婚礼更难以启动）略显武断，且整体偏总结性陈述，未为来访者留下进一步展开的空间。\",\"response_appropriateness\":\"语言简洁、尊重，情绪基调贴合来访者的疲惫与谨慎，但比较句式可能让来访者感到被评判或被推着走。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种对结果的恐惧，似乎比面对婚礼上的尴尬更让你难以启动。\",\"evidence_ids\":[\"P07-S03-U09\",\"P07-S03-U01\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"第二句将邮件恐惧与婚礼尴尬做程度比较，属于未被来访者证实的推断，可能构成轻微的unsupported_presupposition。\",\"回应以两句陈述结束，缺少邀请来访者继续探索或确认的开放性空间，exploration_value受限。\",\"未触及来访者提到的'稿费比平时高不少'这一细节——它暗示来访者并非完全不想接，而是期待与恐惧并存，这一张力未被反映。\"]}",
+  "request_sha256": "256ebf1a583b210fdebc3fca37e9097095acf8f6ceeed459c597a7ace623a5c9",
+  "usage": {
+    "input_tokens": 9292,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 351,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9643,
+    "x_details": [
+      {
+        "input_tokens": 9292,
+        "output_tokens": 351,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9643,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.672
+}

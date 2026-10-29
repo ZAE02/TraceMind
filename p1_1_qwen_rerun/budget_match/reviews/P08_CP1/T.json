@@ -1,0 +1,65 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "自然承接来访者刚做出的优先级选择（先顾孩子），同时精准连接贯穿三次的核心主题——对'靠了别人/承认搞不定'的恐惧，未机械复述病历。",
+      "exploration_value": "在来访者明确优先处理报名后，没有强行拉回赵岩事件，而是邀请其停留在'话堵在嘴边'的体验上，将'矮了一截'与更深层的自我失望相连，具体而开放地推进理解。",
+      "response_appropriateness": "语言贴近来访者用词，情绪反映到位；但'对自己此刻无能为力的失望'略带解释性引导，虽以问句呈现仍有轻微预设风险。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "回应中'无能为力的失望'属于较深层的解释性假设，虽以探索性问句呈现且有三节历史支撑（P08-S01-U07、P08-S02-U03、P08-S03-U09），但对习惯最小化感受的来访者而言可能稍显直接，存在轻微被体验为武断的风险。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":4,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"自然承接来访者刚做出的优先级选择（先顾孩子），同时精准连接贯穿三次的核心主题——对'靠了别人/承认搞不定'的恐惧，未机械复述病历。\",\"exploration_value\":\"在来访者明确优先处理报名后，没有强行拉回赵岩事件，而是邀请其停留在'话堵在嘴边'的体验上，将'矮了一截'与更深层的自我失望相连，具体而开放地推进理解。\",\"response_appropriateness\":\"语言贴近来访者用词，情绪反映到位；但'对自己此刻无能为力的失望'略带解释性引导，虽以问句呈现仍有轻微预设风险。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"回应中'无能为力的失望'属于较深层的解释性假设，虽以探索性问句呈现且有三节历史支撑（P08-S01-U07、P08-S02-U03、P08-S03-U09），但对习惯最小化感受的来访者而言可能稍显直接，存在轻微被体验为武断的风险。\"]}",
+  "request_sha256": "9ef2fbf84ae29159e4783e96ab5502a692e0d9cbe707f14f9d3e94c9a9ac5542",
+  "usage": {
+    "input_tokens": 8680,
+    "input_tokens_details": {
+      "cached_tokens": 4096
+    },
+    "output_tokens": 341,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9021,
+    "x_details": [
+      {
+        "input_tokens": 8680,
+        "output_tokens": 341,
+        "prompt_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "total_tokens": 9021,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.266
+}

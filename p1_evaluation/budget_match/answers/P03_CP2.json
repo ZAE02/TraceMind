@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P03_CP2",
+  "condition": "C5_budget",
+  "raw_text": "你提到“越照越模糊，都快不知道自己原本是什么样了”，这好像不只是对别人反应的困惑，更像是在这些镜子里，你渐渐找不到一个可以不靠别人确认的自己。也许我们可以先不急着把那个“原本的样子”找回来，而是看看在这些模糊的感觉里，你还能不能碰到一点点属于自己的、不用对答案的部分。",
+  "input_sha256": "ea8a5adc71c8d3c9f5e6f8d4a27bf078e280f2f9ae44f902431be53f84ccd35b",
+  "memory_sha256": "aed2cdbad8accced09e68a98ce267d0c30367604f6774f1a3c44c5690b094573",
+  "request_sha256": "e263063e7266a71f02280283db5e43067e6591e6429338c38f962b5dc61a329e",
+  "usage": {
+    "input_tokens": 7001,
+    "input_tokens_details": {
+      "cached_tokens": 6144
+    },
+    "output_tokens": 72,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7073,
+    "x_details": [
+      {
+        "input_tokens": 7001,
+        "output_tokens": 72,
+        "prompt_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "total_tokens": 7073,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.5
+}

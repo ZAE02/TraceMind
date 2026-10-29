@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C01",
+  "session_number": 3,
+  "relative_week": 3,
+  "status": "generating",
+  "human_review_status": "pending",
+  "continuity_review": {
+    "status": "pending",
+    "issues": [],
+    "reviewer": null
+  },
+  "created_at": "2026-10-12T11:48:18.597774+00:00",
+  "config_hash": "d9d54221ec4e26b9a75cf2b6b6888a9942b2d7f7f1964e3a9cb4e03cc25d351a",
+  "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v4-concise-concrete-role-prompts",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "generation_revision": "C01-S03-r1"
+  },
+  "utterances": [
+    {
+      "id": "C01-S03-U01",
+      "role": "client",
+      "text": "这周我陪我妈去做了个体检，她之前一直说想复查一下，我就帮她约了时间，当天请了半天假带她去的。结果没什么问题，就是常规复查。\n\n但那天晚上回家之后，我打开电脑又过了两个项目的文件……其实都还没到交付时间。就是……不知道为什么要打开。",
+      "call_id": "e0eecf64cd51480ea27494cf4ca8e827",
+      "response_id": "resp_b15f9c51-6bdc-916e-8793-935897df0fcb",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:48:30.455627+00:00"
+    },
+    {
+      "id": "C01-S03-U02",
+      "role": "counselor",
+      "text": "体检没什么问题，你帮她约了时间、请了半天假带她去的——这件事本身你好像没什么想聊的，但那天晚上打开电脑这个动作，你把它带过来了。\n\n\"不知道为什么要打开\"——那个打开的瞬间，你当时在干什么？是吃完饭坐下来，还是本来在干别的事然后手就伸向键盘了？",
+      "call_id": "21ef9f9e3761410383764275a78ae618",
+      "response_id": "resp_6ada75bb-8443-99d0-a2a0-592f49275525",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:48:55.690636+00:00"
+    },
+    {
+      "id": "C01-S03-U03",
+      "role": "client",
+      "text": "应该是……吃完饭，碗还没收，我就坐回自己那个小桌子前面了。本来想刷会儿手机，但手就……自己摸到键盘了，然后文件就开了。\n\n开完之后其实也没改什么，就是……对齐那些地方又看了一遍，看了大概二十分钟吧，然后自己把电脑合上了。",
+      "call_id": "0d81c22b876e4d54b8428769aaa768d4",
+      "response_id": "resp_1c54509c-22b6-99a4-890f-a87d54de9a0b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-12T11:49:09.055768+00:00"
+    }
+  ],
+  "updated_at": "2026-10-12T11:49:09.055768+00:00"
+}

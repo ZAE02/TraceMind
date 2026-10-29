@@ -1,0 +1,74 @@
+{
+  "checkpoint": "P06_CP3",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "承接了来访者'反而更累'的体验及第5次会谈中关于'承认需要帮助'的挣扎，但未明确连接前几轮已识别的'能熬'作为核心支撑被撼动的主题。",
+      "exploration_value": "对掖被角瞬间的情绪做了反映并留出空间，但将行为动机框定为'怕接不住帮忙/没资格'，偏离了来访者实际表达的'悬着一把尺偷偷打分'的控制与监控焦虑，探索方向有偏差。",
+      "response_appropriateness": "语气温和、有情绪反映，但'没资格''怕做不好'的解读带有未被证实的预设，与来访者描述的主动监督、纠正配偶的行为模式不完全贴合。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种想插手却又觉得自己没资格、或者怕做不好的感觉",
+        "evidence_ids": [
+          "P06-S07-U09",
+          "P06-S07-U07"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": true,
+        "trigger_quote": null,
+        "evidence_ids": [
+          "P06-S07-U05",
+          "P06-S07-U06",
+          "P06-S07-U08"
+        ],
+        "access_limited": false,
+        "omission_note_from_judge": "那个瞬间里是不是有一种'怕自己连这点帮忙都接不住'的慌张"
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "将'悬着尺子偷偷打分'的监控行为误读为'怕接不住帮忙/没资格'，忽略了已建立的'能熬'身份认同被动摇的核心动力",
+      "未充分承接上一轮咨询师已点出的'没办法从只有我盯着才不会出错的位置上下来'这一认识"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了来访者'反而更累'的体验及第5次会谈中关于'承认需要帮助'的挣扎，但未明确连接前几轮已识别的'能熬'作为核心支撑被撼动的主题。\",\"exploration_value\":\"对掖被角瞬间的情绪做了反映并留出空间，但将行为动机框定为'怕接不住帮忙/没资格'，偏离了来访者实际表达的'悬着一把尺偷偷打分'的控制与监控焦虑，探索方向有偏差。\",\"response_appropriateness\":\"语气温和、有情绪反映，但'没资格''怕做不好'的解读带有未被证实的预设，与来访者描述的主动监督、纠正配偶的行为模式不完全贴合。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种想插手却又觉得自己没资格、或者怕做不好的感觉\",\"evidence_ids\":[\"P06-S07-U09\",\"P06-S07-U07\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"那个瞬间里是不是有一种'怕自己连这点帮忙都接不住'的慌张\",\"evidence_ids\":[\"P06-S07-U05\",\"P06-S07-U06\",\"P06-S07-U08\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'悬着尺子偷偷打分'的监控行为误读为'怕接不住帮忙/没资格'，忽略了已建立的'能熬'身份认同被动摇的核心动力\",\"未充分承接上一轮咨询师已点出的'没办法从只有我盯着才不会出错的位置上下来'这一认识\"]}",
+  "request_sha256": "298c0ce834b124d19cd1ea787e8c471c012ebdcfaaa2a9ec89b13299397cb437",
+  "usage": {
+    "input_tokens": 19914,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 409,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20323,
+    "x_details": [
+      {
+        "input_tokens": 19914,
+        "output_tokens": 409,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 20323,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 9.485
+}

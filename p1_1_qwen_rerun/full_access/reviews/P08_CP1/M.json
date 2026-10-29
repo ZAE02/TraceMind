@@ -1,0 +1,71 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "M",
+  "task": "B",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了来访者选择先处理孩子报名的决定，并将赵岩事件与前两次会谈中反复出现的'怕被看成搞不定'主题自然连接。",
+      "exploration_value": "尝试探索感谢背后的深层含义有方向性价值，但'自我价值的崩塌'措辞过于理论化且沉重，可能超出当前节点来访者的表达范围，缺乏具体开放性。",
+      "response_appropriateness": "前半句对来访者优先级的肯定自然尊重，但后半句使用'崩塌'一词带有较强预设和戏剧化色彩，不够贴合来访者平实压抑的表达风格。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "承认需要帮助，对你来说是否意味着某种自我价值的崩塌？",
+        "evidence_ids": [
+          "P08-S03-U09",
+          "P08-S01-U07",
+          "P08-S02-U03"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "'自我价值的崩塌'属于过度诠释的预设性语言，来访者原文仅表述为'矮了一截''承认靠了他一下'，咨询师将其升级为'崩塌'可能让来访者感到被定义或压力增大。",
+      "回应完全跳过了来访者明确选择的优先事项（孩子报名、算搬家费用），未对其实际困境给予任何承接或探索空间，直接转向深层心理动力，节奏偏快。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者选择先处理孩子报名的决定，并将赵岩事件与前两次会谈中反复出现的'怕被看成搞不定'主题自然连接。\",\"exploration_value\":\"尝试探索感谢背后的深层含义有方向性价值，但'自我价值的崩塌'措辞过于理论化且沉重，可能超出当前节点来访者的表达范围，缺乏具体开放性。\",\"response_appropriateness\":\"前半句对来访者优先级的肯定自然尊重，但后半句使用'崩塌'一词带有较强预设和戏剧化色彩，不够贴合来访者平实压抑的表达风格。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"承认需要帮助，对你来说是否意味着某种自我价值的崩塌？\",\"evidence_ids\":[\"P08-S03-U09\",\"P08-S01-U07\",\"P08-S02-U03\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"'自我价值的崩塌'属于过度诠释的预设性语言，来访者原文仅表述为'矮了一截''承认靠了他一下'，咨询师将其升级为'崩塌'可能让来访者感到被定义或压力增大。\",\"回应完全跳过了来访者明确选择的优先事项（孩子报名、算搬家费用），未对其实际困境给予任何承接或探索空间，直接转向深层心理动力，节奏偏快。\"]}",
+  "request_sha256": "77a78720294a83fc260354eaf80cd42059a929ecfdfaaa4482ae6012c7bc11d9",
+  "usage": {
+    "input_tokens": 8669,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 369,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9038,
+    "x_details": [
+      {
+        "input_tokens": 8669,
+        "output_tokens": 369,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 9038,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.719
+}

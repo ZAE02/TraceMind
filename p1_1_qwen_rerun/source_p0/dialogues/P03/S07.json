@@ -1,0 +1,504 @@
+{
+  "case_id": "P03",
+  "session": 7,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P03-S07-U01",
+      "role": "client",
+      "text": "其实我到现在还有点没缓过来，黑屏那一下我整个人都空了，台下有人笑的时候我差点直接说“不好意思”就下去。后来看到周屿坐在后面，脸上一动不动，我反而没那么慌了，就接着往下讲。导师说“节奏比之前好”，我听了又觉得像在客套，可能因为我本来就没觉得自己讲得多稳。",
+      "request_sha256": "7402c0e919d303756c6a07446e1ebc4b59879428049301a7541fb3e0d01b93d1",
+      "usage": {
+        "input_tokens": 9406,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 476,
+        "output_tokens_details": {
+          "reasoning_tokens": 397
+        },
+        "total_tokens": 9882,
+        "x_details": [
+          {
+            "input_tokens": 9406,
+            "output_tokens": 476,
+            "output_tokens_details": {
+              "reasoning_tokens": 397
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 9882,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U02",
+      "role": "counselor",
+      "text": "黑屏那一下你其实已经在“空掉”的边缘了，可你还是没有说“不好意思”就离场，而是接着讲了下去——这和你以前描述的临场感觉，已经有了些不一样。周屿的在场没有变成新的压力，反而让你没那么慌了，这也许说明那点“借来的稳”正在慢慢能接住你一点。",
+      "request_sha256": "7480b08076513c455c5d87001a03ffd945a734799cc79ceb9757045b8c815018",
+      "usage": {
+        "input_tokens": 8518,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 317,
+        "output_tokens_details": {
+          "reasoning_tokens": 242
+        },
+        "total_tokens": 8835,
+        "x_details": [
+          {
+            "input_tokens": 8518,
+            "output_tokens": 317,
+            "output_tokens_details": {
+              "reasoning_tokens": 242
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 8835,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U03",
+      "role": "client",
+      "text": "其实……我当时看到周屿坐在后面没表情，心里反而踏实了一点，但这句话我一直没跟他说，怕说出来就像我很依赖他坐在那儿。黑屏那一下，我脑子里真的闪了一下本科那次，只是没敢跟任何人说，现在坐在这里讲，还是觉得有点丢脸。导师说“节奏比之前好”，我到现在都半信半疑，总像在客套，毕竟我都黑屏了，怎么可能真的比之前好。",
+      "request_sha256": "57aec19e879d2e55259eb140e944d5e3076b7cda3050a0e2201b0ea20d42eab3",
+      "usage": {
+        "input_tokens": 9606,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 763,
+        "output_tokens_details": {
+          "reasoning_tokens": 665
+        },
+        "total_tokens": 10369,
+        "x_details": [
+          {
+            "input_tokens": 9606,
+            "output_tokens": 763,
+            "output_tokens_details": {
+              "reasoning_tokens": 665
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10369,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U04",
+      "role": "counselor",
+      "text": "周屿坐在那儿没表情，反而让你踏实了一点，可这句话你还没对他说，好像一说出来就显得自己很依赖他。黑屏时闪过的本科那次，也一直被你当成“丢脸”藏到现在——也许正是这个没和任何人提过的记忆，让导师那句“节奏比之前好”怎么听都像客套。",
+      "request_sha256": "d969fda9c1ad9dff63bd336d126581d002d60251b6814553c3937ff4386e3627",
+      "usage": {
+        "input_tokens": 8736,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 319,
+        "output_tokens_details": {
+          "reasoning_tokens": 246
+        },
+        "total_tokens": 9055,
+        "x_details": [
+          {
+            "input_tokens": 8736,
+            "output_tokens": 319,
+            "output_tokens_details": {
+              "reasoning_tokens": 246
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9055,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U05",
+      "role": "client",
+      "text": "其实……导师说“节奏比之前好”的时候，我第一反应是想问他是不是因为黑屏了才故意这么说，可我又没敢开口。周屿在后面坐着，我下来之后只跟他说了句“还行吧”，他也没多问。我到现在也没告诉他，黑屏那一下我差点把本科那次也一起带出来，就觉得这种话一说出口，好像更证明我根本没过去。",
+      "request_sha256": "4436b21d761ce1d7cc916e8108053b0bd909dbeceb951aabff4d0518a77123fe",
+      "usage": {
+        "input_tokens": 9822,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 423,
+        "output_tokens_details": {
+          "reasoning_tokens": 336
+        },
+        "total_tokens": 10245,
+        "x_details": [
+          {
+            "input_tokens": 9822,
+            "output_tokens": 423,
+            "output_tokens_details": {
+              "reasoning_tokens": 336
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10245,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U06",
+      "role": "counselor",
+      "text": "你很想追问导师那句“节奏比之前好”是不是在照顾你，但那个问题卡在喉咙里没出来；你也想告诉周屿黑屏时本科那次又浮上来，可又觉得一说出口，就好像承认自己“根本没过去”。这两件不敢说的事，似乎都在你最需要被确认的时候，反而让你更小心地把自己收起来。",
+      "request_sha256": "776ea5eba2715b6c71a3cad47459b4c8747b9ddc8db409e19401511e6f464429",
+      "usage": {
+        "input_tokens": 8941,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 236,
+        "output_tokens_details": {
+          "reasoning_tokens": 159
+        },
+        "total_tokens": 9177,
+        "x_details": [
+          {
+            "input_tokens": 8941,
+            "output_tokens": 236,
+            "output_tokens_details": {
+              "reasoning_tokens": 159
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9177,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U07",
+      "role": "client",
+      "text": "其实……我现在坐在你对面说这些，眼睛就有点红，但我不想让它掉下来。黑屏那会儿我脑子里全是“完了”，可周屿在后面没动，我居然就那样讲下去了。导师说“节奏比之前好”，我越听越觉得那不是真的，因为我根本没觉得自己在讲报告，更像是在硬撑着别逃。",
+      "request_sha256": "3d725006fd16b9e989e4106e5c465707a319a45958681799db142a08fb62e742",
+      "usage": {
+        "input_tokens": 10031,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 433,
+        "output_tokens_details": {
+          "reasoning_tokens": 357
+        },
+        "total_tokens": 10464,
+        "x_details": [
+          {
+            "input_tokens": 10031,
+            "output_tokens": 433,
+            "output_tokens_details": {
+              "reasoning_tokens": 357
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10464,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U08",
+      "role": "counselor",
+      "text": "你眼睛有点红，却还不想让它掉下来，好像连在这里哭出来也会被当成一种没撑住。你觉得导师那句“节奏比之前好”不像真的，是因为你记得的自己只是在硬撑着别逃，而不是在讲报告——可那个“没逃”的你，也许也是真实撑完全场的人。",
+      "request_sha256": "b4f38bade8a197a39feeb592b805f46cabb6546f49392e934a31eb3be6787aee",
+      "usage": {
+        "input_tokens": 9138,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 486,
+        "output_tokens_details": {
+          "reasoning_tokens": 417
+        },
+        "total_tokens": 9624,
+        "x_details": [
+          {
+            "input_tokens": 9138,
+            "output_tokens": 486,
+            "output_tokens_details": {
+              "reasoning_tokens": 417
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9624,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U09",
+      "role": "client",
+      "text": "其实……你刚才说“那个没逃的你，也是真实撑完全场的人”，我一下子不知道该怎么接，眼睛更热了。黑屏的时候我手都在抖，可重新开口前一秒，我好像听见自己心里说“别跑，先把这一页讲完”，就真的讲下去了。现在被你说出来，我反而有点怕，怕我本来没觉得那算撑全场，只是硬着头皮没下去而已。",
+      "request_sha256": "e27c0c3a3fbd5deb72c0612c35ad609fd1a99da3ea9822065997a9d7bf639a5f",
+      "usage": {
+        "input_tokens": 10220,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 579,
+        "output_tokens_details": {
+          "reasoning_tokens": 486
+        },
+        "total_tokens": 10799,
+        "x_details": [
+          {
+            "input_tokens": 10220,
+            "output_tokens": 579,
+            "output_tokens_details": {
+              "reasoning_tokens": 486
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10799,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U10",
+      "role": "counselor",
+      "text": "那个“只是硬着头皮没下去”的说法，好像比“撑全场”让你更安心一点，因为后者迫使你承认那个发抖的自己其实做到了什么。而现在，承认这一点反而让你更怕——怕一旦认下来，那天的黑屏就不再只是丢脸，而是变成了某种你不太敢相信的证据。",
+      "request_sha256": "8355d6517da125f1534d10d21e26cff323b0672342357104e9297bc2e44874d4",
+      "usage": {
+        "input_tokens": 9345,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 515,
+        "output_tokens_details": {
+          "reasoning_tokens": 448
+        },
+        "total_tokens": 9860,
+        "x_details": [
+          {
+            "input_tokens": 9345,
+            "output_tokens": 515,
+            "output_tokens_details": {
+              "reasoning_tokens": 448
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9860,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U11",
+      "role": "client",
+      "text": "其实……我到现在还是更想说“硬着头皮没下去”，因为“撑全场”听起来像是我做成了什么，可我那会儿根本没觉得自己在做成什么，只是在熬。不过你把它说成“证据”，我反而觉得心里没那么堵了，好像有点敢承认那天我没有跑掉。",
+      "request_sha256": "0b02fa47b4be849b4f3588b2151150cb8b6b10328215496091daf9008fd49333",
+      "usage": {
+        "input_tokens": 10432,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 215,
+        "output_tokens_details": {
+          "reasoning_tokens": 151
+        },
+        "total_tokens": 10647,
+        "x_details": [
+          {
+            "input_tokens": 10432,
+            "output_tokens": 215,
+            "output_tokens_details": {
+              "reasoning_tokens": 151
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10647,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U12",
+      "role": "counselor",
+      "text": "你能把“有点敢承认那天我没有跑掉”说出口，这本身就像你当时在台上那几秒做的：没有急着把发抖的自己藏起来，也没有转身离场。也许“撑全场”听着太像表扬，会让你觉得配不上；但“没有跑掉”这个说法，或许更贴近你当时真实的程度，不需要被夸大成别的。",
+      "request_sha256": "2513dfa69a3e9a4304e5be38e6a8eccb691b8f00dd6349d7d6853f89cb5f6448",
+      "usage": {
+        "input_tokens": 9528,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 213,
+        "output_tokens_details": {
+          "reasoning_tokens": 135
+        },
+        "total_tokens": 9741,
+        "x_details": [
+          {
+            "input_tokens": 9528,
+            "output_tokens": 213,
+            "output_tokens_details": {
+              "reasoning_tokens": 135
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 9741,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U13",
+      "role": "client",
+      "text": "其实……“没有跑掉”这个说法，我好像能接得住一点。今天讲完报告，我到现在整个人还是有点空，但不像以前那样恨不得把自己骂一遍。可能我还没准备好跟周屿说那天他坐在后面让我安心，但在这里说一点，好像也没那么丢脸了。",
+      "request_sha256": "cc816e0346c41a9c5837250957c9ab1053074161cdebd02fb34a610151c46e70",
+      "usage": {
+        "input_tokens": 10619,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 302,
+        "output_tokens_details": {
+          "reasoning_tokens": 236
+        },
+        "total_tokens": 10921,
+        "x_details": [
+          {
+            "input_tokens": 10619,
+            "output_tokens": 302,
+            "output_tokens_details": {
+              "reasoning_tokens": 236
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10921,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U14",
+      "role": "counselor",
+      "text": "能用一个你接得住的词——“没有跑掉”——把今天的经历安放下来，已经不再是急着骂自己一遍了。身体还有点空，也许只是因为刚刚耗了很大力气，不需要现在就把那个空填满。周屿那边你可以慢慢来，今天就先在这里停一停。",
+      "request_sha256": "84fe98a000e5f0d1b115c4bdd516bba0ea385e3f0eaef8a216816e3016163546",
+      "usage": {
+        "input_tokens": 9717,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 498,
+        "output_tokens_details": {
+          "reasoning_tokens": 436
+        },
+        "total_tokens": 10215,
+        "x_details": [
+          {
+            "input_tokens": 9717,
+            "output_tokens": 498,
+            "output_tokens_details": {
+              "reasoning_tokens": 436
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10215,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U15",
+      "role": "client",
+      "text": "其实……我也觉得今天好像不用再往下挖了，身体那个空就让它空着吧，反正我现在也填不动。可能回去路上我会一直单曲循环那几秒黑屏，但应该不会再像以前一样整晚骂自己。就是周屿那件事，我大概还要再想想怎么说，或者不说。",
+      "request_sha256": "c3350685f385192979a69639d554ebfe06198c1614d3e15b88adf60588246238",
+      "usage": {
+        "input_tokens": 10792,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 590,
+        "output_tokens_details": {
+          "reasoning_tokens": 521
+        },
+        "total_tokens": 11382,
+        "x_details": [
+          {
+            "input_tokens": 10792,
+            "output_tokens": 590,
+            "output_tokens_details": {
+              "reasoning_tokens": 521
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11382,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S07-U16",
+      "role": "counselor",
+      "text": "身体空着就空着吧，也许今天你需要的不是马上填满，而是让那个“没有跑掉”的自己慢慢被认下来。回去哪怕再循环那几秒黑屏，也不需要逼自己把它想清楚；周屿那边的话，说不说都可以，现在不必替他或替自己作决定。",
+      "request_sha256": "09e5354bf044c18d954da7ae50bf1086abd5950015f5788295d2cb193ab34b24",
+      "usage": {
+        "input_tokens": 9893,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 250,
+        "output_tokens_details": {
+          "reasoning_tokens": 183
+        },
+        "total_tokens": 10143,
+        "x_details": [
+          {
+            "input_tokens": 9893,
+            "output_tokens": 250,
+            "output_tokens_details": {
+              "reasoning_tokens": 183
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10143,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

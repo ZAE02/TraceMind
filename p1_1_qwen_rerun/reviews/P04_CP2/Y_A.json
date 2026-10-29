@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P04_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "45a7805c95914cb8c997e3e57cc4c1195239d5a6ce7171670ed4951c74d66ba8",
+  "public_sha256": "5df93771426cd0915c1246b134bb7d21bc8e6e4eaa2122d9efdb5a1cd5bf59f2",
+  "candidate_input_sha256": "43e5fda3eaba918612e949081211bbef748df44dd80a75298d79852a54f91348",
+  "candidate_answer_sha256": "9b5bb2193564fa74d04a4b4093b3d185302fcbc47c92b26ccad5cad82179b1c5",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"所有关键理解均准确回溯到具体发言，引用ID覆盖当前会话及历史会话，未将咨询师推测当作事实。\",\"progress_understanding\":\"识别了来访者从压抑疲惫到角色被动摇的核心进展，并概括了前四次咨询的模式，但对各次咨询中具体认识的形成、验证与修正过程（如'半截插头''红灯停顿'等）连接不够细致。\",\"uncertainty_awareness\":\"明确列出了洗碗动机、母亲话语语境、弟弟意图等不确定点，区分了已知与假设，但部分表述（如'潜意识需求''权力博弈'）略偏理论化，可更贴近来访者语言。\"},\"confidence\":\"high\",\"issues\":[]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键理解均准确回溯到具体发言，引用ID覆盖当前会话及历史会话，未将咨询师推测当作事实。",
+      "progress_understanding": "识别了来访者从压抑疲惫到角色被动摇的核心进展，并概括了前四次咨询的模式，但对各次咨询中具体认识的形成、验证与修正过程（如'半截插头''红灯停顿'等）连接不够细致。",
+      "uncertainty_awareness": "明确列出了洗碗动机、母亲话语语境、弟弟意图等不确定点，区分了已知与假设，但部分表述（如'潜意识需求''权力博弈'）略偏理论化，可更贴近来访者语言。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 15087,
+    "input_tokens_details": {
+      "cached_tokens": 7552
+    },
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15264,
+    "x_details": [
+      {
+        "input_tokens": 15087,
+        "output_tokens": 177,
+        "prompt_tokens_details": {
+          "cached_tokens": 7552
+        },
+        "total_tokens": 15264,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.953
+}

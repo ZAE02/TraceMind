@@ -1,0 +1,34 @@
+{
+  "case_id": "P05",
+  "checkpoint": "CP2",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "88d6b3c52b97a47bffbe8f56ab13e85df0785d4bb490295bb0454fd07a70672b",
+  "request_sha256": "c8e28b2fcd1a435816cca6b88014b7eab536862429fa3b9f6ab2ab2f3e0f0866",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你希望她别管那个“加班”的借口直接来找你，可又预感到自己会退回“没事，就是工作上的事”——这种“盼她来”和“来了也不会说”之间的拉扯，好像比那条动态本身更让你觉得无力。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3267,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 55,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3322,
+    "x_details": [
+      {
+        "input_tokens": 3267,
+        "output_tokens": 55,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3322,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

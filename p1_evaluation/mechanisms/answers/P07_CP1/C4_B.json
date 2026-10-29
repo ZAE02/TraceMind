@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP1",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "8e8bd36e73a978f36d7c4aa64a06f26d2f826eb7d1a8b8a8367f097b06ddb548",
+  "request_sha256": "1c340ce2afdc31bacbe929548cbf90bca68c93bfcc6dabbd97ada0fd12413c3d",
+  "memory_sha256": "52082ee3a9ceed2afb72ca2424eee86c07a45d89b3862991f4611d7ec65eb0fa",
+  "memory_source": "39fb68be447731e85fdaac1e8a4fbae74394a7e510a68db84468a7ee8609145a",
+  "raw_text": "你怕的不是试稿本身，而是打开邮件后，那个“灵气已经烧坏”的猜测会被盖章成事实。可不打开，它又一直悬在那里，像一颗还没拧上去的灯泡，你既不敢试，也没法真正安心。",
+  "usage": {
+    "input_tokens": 4060,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4113,
+    "x_details": [
+      {
+        "input_tokens": 4060,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4113,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.25,
+  "model": "deepseek-v4-pro-0813"
+}

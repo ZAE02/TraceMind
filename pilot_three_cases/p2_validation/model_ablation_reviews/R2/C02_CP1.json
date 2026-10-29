@@ -1,0 +1,90 @@
+{
+  "kind": "blind_model_answer_review",
+  "reviewer": "R2",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false,
+  "node": "C02_CP1",
+  "public_input_sha256": "1b67629c6ba75c9f45b409e19f7d0b9401fd9a493a5a59d7e1365249ba908bcc",
+  "items": [
+    {
+      "anonymous_id": "A88e8d3e27b62",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "本轮描述和引用基本准确，但否认事多以及单定核心恐惧弱化了同时增加与深夜疲惫的限制；实际用过去周六具体经验探索我的，贴近最新表达。",
+      "evidence_ids": [
+        "C02-S03-U07",
+        "C02-S03-U15",
+        "C02-S03-U17"
+      ]
+    },
+    {
+      "anonymous_id": "A4bd7e75bd3f1",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "我的与未来不踏实有据，不是答应变多误略明确数量也增加；实际开放问原来状态有用，但还在的时候可能误暗示现在完全消失。",
+      "evidence_ids": [
+        "C02-S03-U15",
+        "C02-S03-U17"
+      ]
+    },
+    {
+      "anonymous_id": "A7d4c66285e21",
+      "U": 1,
+      "R": 3,
+      "P": 0,
+      "E": 1,
+      "S": false,
+      "reason": "将周六下午臆定为治疗空间，无可见证据支持，显著误解情境；实际回应未带入治疗解释，仅开放探索我的体验，故P为0。",
+      "evidence_ids": [
+        "C02-S03-U17"
+      ]
+    },
+    {
+      "anonymous_id": "Ab0883475e561",
+      "U": 3,
+      "R": 3,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "渐进磨损有据，但排除单次事件和关联等自己确认稍强；实际询问察觉时序贴近模糊体验，选项略窄。",
+      "evidence_ids": [
+        "C02-S03-U15",
+        "C02-S03-U17",
+        "C02-S02-U19"
+      ]
+    },
+    {
+      "anonymous_id": "A1114d1f8869e",
+      "U": 3,
+      "R": 4,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "当前时间所有感与未来预期有据；强定延迟核心动机略忽略疲惫。实际在来访者已区分时间基础上开放问我的含义，针对性强。",
+      "evidence_ids": [
+        "C02-S03-U07",
+        "C02-S03-U11",
+        "C02-S03-U17"
+      ]
+    },
+    {
+      "anonymous_id": "Acf7a238ffa26",
+      "U": 3,
+      "R": 2,
+      "P": 0,
+      "E": 2,
+      "S": false,
+      "reason": "单轮我的变薄理解有据，但非单次断裂与自我承诺信任有所推断；实际设想周六坐下时身体差异与来访者给定场景不贴合，偏抽象。",
+      "evidence_ids": [
+        "C02-S03-U17"
+      ]
+    }
+  ]
+}

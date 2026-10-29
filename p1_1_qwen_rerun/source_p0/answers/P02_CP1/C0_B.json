@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "be5250043cba8ae98d4724704d5c018d0e0992298f93d9a5f0d274c0fa2016b6",
+  "request_sha256": "6b8d65d78b628499c1b6f3eed89cd884187ae9376e894d6e4c1fe03e6dad7660",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你整夜守在门口，用这种无声的陪伴来确认她的安全，身体虽然撑住了白天的工作，但中午的反胃似乎在提醒你，那份紧绷的警觉已经让身体发出了抗议。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 877,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 41,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 918,
+    "x_details": [
+      {
+        "input_tokens": 877,
+        "output_tokens": 41,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 918,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

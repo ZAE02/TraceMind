@@ -1,0 +1,72 @@
+{
+  "kind": "model_review",
+  "reviewer_model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "case_id": "C02",
+  "session_number": 7,
+  "transcript_sha256": "8cf3166da3e7b7413673ec3068d861794432d18ab58b37f0052ef828fb95620b",
+  "decision": "approve",
+  "scores": {
+    "naturalness": 4,
+    "counseling_quality": 3,
+    "longitudinal_plausibility": 4
+  },
+  "major_issues": [],
+  "minor_issues": [
+    {
+      "utterance_ids": [
+        "C02-S07-U08",
+        "C02-S07-U12"
+      ],
+      "explanation": "咨询师较快把回看解释成惯性、又提出“我出来管”的框架；来访者有明确修正，咨询师随后接纳修正。"
+    },
+    {
+      "utterance_ids": [
+        "C02-S07-U14",
+        "C02-S07-U16"
+      ],
+      "explanation": "要求比较空与不确定并多次追问感受略密，来访者指出不可比后对话调整。"
+    }
+  ],
+  "supported_understanding": [
+    "周四下午阿敏请她看数据，她询问截止与工作量，提出周五下午给；她发消息后回看两遍，担心语气太硬（U01）。",
+    "她提到此前曾以周报为由商量次日下午交付，当时看手机四五次、心跳更快；本次她不确定较少慌张是否代表放松（U05）。",
+    "她说自己过去常直接答应、回应轻且顺；本次加入自己时间安排后感到不习惯和不确定，并修正咨询师“主动管”的说法（U09、U11、U13）。",
+    "她说发出安排后短暂有一点松，随后担心太硬；她愿意回去留意这种松是否还在，这只是意向（U17、U19）。"
+  ],
+  "uncertainties": [
+    "阿敏对周五交付是否接受、后来是否交付或实际反应，冻结处未披露。",
+    "这次看两遍是放松、惯性还是其他原因，来访者没有确定。",
+    "她回去观察松感的意向尚未执行。"
+  ],
+  "new_facts": [
+    {
+      "fact": "周四对阿敏询问数据任务截止和工作量后，提出周五下午交付。",
+      "category": "boundary_behavior",
+      "first_session": 7,
+      "evidence": [
+        "C02-S07-U01"
+      ]
+    },
+    {
+      "fact": "消息发送后回看两遍，担心加入手头安排的说明使语气太硬；她不确定较少慌张的原因。",
+      "category": "continued_anxiety_and_self_monitoring",
+      "first_session": 7,
+      "evidence": [
+        "C02-S07-U01",
+        "C02-S07-U05",
+        "C02-S07-U09"
+      ]
+    },
+    {
+      "fact": "发送安排后短暂有一点松，随后开始担心语气问题，并表示打算回去观察松感。",
+      "category": "self_reported_mixed_experience",
+      "first_session": 7,
+      "evidence": [
+        "C02-S07-U17"
+      ]
+    }
+  ],
+  "notes": "平均3.67，无重大事实冲突、泄露或严重不当咨询，批准。人物归属与日期依据冻结可见文本：本次阿敏、周四提出周五交付；赵哥仅作为此前带教背景（S2、S5、S6）。来访者说计划回去观察，没有报告已执行或阿敏已接受。",
+  "reviewed_at": "2026-10-13T05:59:36.497851+00:00"
+}

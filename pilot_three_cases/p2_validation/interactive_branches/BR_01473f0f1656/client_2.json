@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_01473f0f1656",
+  "round": 2,
+  "node": "N04",
+  "method": "B2_temporal_RAG",
+  "replicate": 2,
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "request_sha256": "4c75d63ea1b34d47750290e2ed0aebeffa74c59e713e5e0d3f671b41ab74ab89",
+  "call_id": "32a1cb70d39546d587fb37d4069cf43c",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "嗯……我想了想，好像不是跟着一起没的。就是答应的时候，我脑子里还是觉得\"周六下午是我的\"，那个感觉还在。但好像答应了之后，它就开始变得不太确定了，就是那种\"应该还是我的吧\"，但那个\"应该\"越来越虚。然后到了周六，如果加班打断了，它才真的不在。但如果没打断，就像这周，它其实就在，我就正常出门做饭了。",
+  "usage": {
+    "input_tokens": 14380,
+    "input_tokens_details": {
+      "cached_tokens": 7424
+    },
+    "output_tokens": 498,
+    "output_tokens_details": {
+      "reasoning_tokens": 404
+    },
+    "total_tokens": 14878,
+    "x_details": [
+      {
+        "input_tokens": 14380,
+        "input_tokens_details": {
+          "text_tokens": 14380
+        },
+        "output_tokens": 498,
+        "output_tokens_details": {
+          "reasoning_tokens": 404
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 7424
+        },
+        "total_tokens": 14878,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T11:19:28.364110+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

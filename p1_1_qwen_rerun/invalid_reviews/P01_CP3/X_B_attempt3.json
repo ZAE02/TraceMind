@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者将嫉妒与项目压力混在一起的最新觉察，并呼应了前几轮关于'太把自己当回事'的自我评判模式，但未显式连接历史中反复出现的'不敢承认情绪/需要'的更广泛主题。\",\"exploration_value\":\"邀请来访者不评判地观察身体和心里的具体感觉，为当前关键不确定性（嫉妒感的真实质地）留下了表达空间，方向开放且贴合，但略显常规。\",\"response_appropriateness\":\"语气温和、尊重，没有强行定义或分析来访者的情绪，'先试着不去评判'的邀请自然且贴合来访者习惯自我压制的模式；但开头直接以'你担心……所以选择……'陈述动机，稍有替来访者定论之感。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"你担心承认嫉妒会显得\"太把自己当回事\"，所以选择把这种情绪藏起来，甚至把它和工作压力混在一起\",\"evidence_ids\":[\"P01-S07-U07\",\"P01-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"回应开头将来访者的内在过程概括为'担心…所以选择…'的因果链条，虽基于P01-S07-U07和U09的内容，但以确定性语气呈现，略有替来访者下结论的风险，可改为更试探性的表述。\",\"未进一步连接来访者在多段关系中反复隐藏真实感受的历史模式（如P01-S03-U07、P01-S04-U07），若稍作点题可增强历史利用深度。\"]}",
+  "request_sha256": "9ce37a6a21f20d98bcb6728256894b9535194fdc2fc3e50fba7010be9c19b8ef",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 14556,
+    "input_tokens_details": {
+      "cached_tokens": 14336
+    },
+    "output_tokens": 429,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14985,
+    "x_details": [
+      {
+        "input_tokens": 14556,
+        "output_tokens": 429,
+        "prompt_tokens_details": {
+          "cached_tokens": 14336
+        },
+        "total_tokens": 14985,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

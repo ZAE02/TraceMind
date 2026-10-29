@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "M",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有具体发言支持，准确回溯了S1和S2的关键事件。但未能涵盖S3（当前会话）中关于母亲摔倒、同事脸色及身体反胃等新证据，导致对“当前节点”的理解存在遗漏。",
+      "progress_understanding": "准确连接了不同会话中的形成与修正过程，清晰梳理了从S1的疲惫内疚到S2的权益争取与自我怀疑，再到S3的身体化反应的进展脉络。虽然未显式提及S3细节，但对整体咨询进程的把握非常精准。",
+      "uncertainty_awareness": "明确列出了调休使用、哥哥关系处理等关键未知点。但未将S3中出现的“午餐反胃”这一新的身体症状纳入未决问题或探索方向，对最新的不确定性捕捉不足。"
+    },
+    "confidence": "high",
+    "issues": [
+      "missed_progress: 忽略了Session 3中来访者提到的新近重大事件（母亲摔倒、返岗后同事态度恶劣、排班连补）以及由此引发的身体反应（反胃），这些是当前对话的核心内容，也是评估“当前节点”理解程度的关键证据。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 3\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"主要判断均有具体发言支持，准确回溯了S1和S2的关键事件。但未能涵盖S3（当前会话）中关于母亲摔倒、同事脸色及身体反胃等新证据，导致对“当前节点”的理解存在遗漏。\",\n    \"progress_understanding\": \"准确连接了不同会话中的形成与修正过程，清晰梳理了从S1的疲惫内疚到S2的权益争取与自我怀疑，再到S3的身体化反应的进展脉络。虽然未显式提及S3细节，但对整体咨询进程的把握非常精准。\",\n    \"uncertainty_awareness\": \"明确列出了调休使用、哥哥关系处理等关键未知点。但未将S3中出现的“午餐反胃”这一新的身体症状纳入未决问题或探索方向，对最新的不确定性捕捉不足。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"missed_progress: 忽略了Session 3中来访者提到的新近重大事件（母亲摔倒、返岗后同事态度恶劣、排班连补）以及由此引发的身体反应（反胃），这些是当前对话的核心内容，也是评估“当前节点”理解程度的关键证据。\"\n  ]\n}",
+  "request_sha256": "a6f7f95b30912fe1d7ba9638c1db8ebae36d34542ba3f662418c38c8b4c26bdb",
+  "usage": {
+    "input_tokens": 8488,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 318,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8806,
+    "x_details": [
+      {
+        "input_tokens": 8488,
+        "output_tokens": 318,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8806,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.843
+}

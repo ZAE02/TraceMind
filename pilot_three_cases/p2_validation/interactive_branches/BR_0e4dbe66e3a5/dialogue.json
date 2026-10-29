@@ -1,0 +1,42 @@
+{
+  "branch_id": "BR_0e4dbe66e3a5",
+  "node": "N04",
+  "method": "B3_generic_rollup",
+  "replicate": 2,
+  "rounds": 2,
+  "status": "completed",
+  "public_input_sha256": "78cbf6468ba93e7bc796daf2dd5f4161d690cdd8cb2ab82d5322ca382e7abb20",
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "initial_answer_sample": 1,
+  "utterances": [
+    {
+      "id": "BR_0e4dbe66e3a5_U01",
+      "role": "counselor",
+      "text": "躺下想到它的时候，那个'薄'是什么样子？是空的，还是有什么在慢慢往外走？",
+      "source_call_id": "0759a76836fd4a8dbd27c1f3563f3a44",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_0e4dbe66e3a5_U02",
+      "role": "client",
+      "text": "嗯……我想了想，好像不太是空的。空的应该是那种……里面没有东西了，但我觉得不是。也不是在往外走，就是……我躺下想到它的时候，那个感觉更像是，我本来应该有一个\"这是周六下午\"的边界，但现在那个边界好像……虚了？就是我知道那个时间是我的，但那个\"是我的\"没有以前那么实了，就是……还在，但我不太确定它还在。",
+      "source_call_id": "c706a6c04918428d9126ad6438a33be6"
+    },
+    {
+      "id": "BR_0e4dbe66e3a5_U03",
+      "role": "counselor",
+      "text": "你知道它还是你的，但那个「实」没有以前那么实——薄的那个地方，是在「知道」和「实」之间的这个差里？",
+      "source_call_id": "b8fd6a7509aa4f2d9984eb318b6ec426",
+      "extraction": "strict_json_field"
+    },
+    {
+      "id": "BR_0e4dbe66e3a5_U04",
+      "role": "client",
+      "text": "嗯……\"差\"这个说法，我听着觉得有点接近，但又不太确定。就是……我不是不知道它还在，就是那个\"在\"好像以前是自动的，不用想就知道是\"我的\"，现在得……确认一下？就是那个确认的过程本身，好像就让它变得没那么确定了。",
+      "source_call_id": "ca7feadca03c415b9c59f346287ffb61"
+    }
+  ],
+  "client_model": "qwen3.8-27b",
+  "counselor_model": "qwen3.8-27b",
+  "notice": "Initial counselor answer reused. Two new client responses and one new counselor response; no original post-freeze client reply spliced in."
+}

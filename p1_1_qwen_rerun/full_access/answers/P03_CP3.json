@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P03_CP3",
+  "raw_text": "你听到自己心里那句“别跑，先把这一页讲完”时，那种怕它不算数的感觉，也许正是因为你一直习惯把“撑住”等同于“完美”，而没允许那个发抖的自己也被算作成绩。",
+  "request_sha256": "90c93c32136c9123f7e64226f1c8f168e3e70b99654c15a7de44ce28ae28252f",
+  "input_sha256": "b55fe3a26b34d82c7309dc19d19772875c84945576aad0fc64a6d2fae8038f69",
+  "memory_sha256": "0d93e24e887fd40ac14843f435a5e3a62e4f9e464894a6d5572c58375cc55985",
+  "usage": {
+    "input_tokens": 10266,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10315,
+    "x_details": [
+      {
+        "input_tokens": 10266,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 10315,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.188
+}

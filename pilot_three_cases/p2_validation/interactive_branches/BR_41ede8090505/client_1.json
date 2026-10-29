@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "branch_id": "BR_41ede8090505",
+  "round": 1,
+  "node": "N04",
+  "method": "B4_psych_rollup",
+  "replicate": 2,
+  "private_state_sha256": "62de9de70f2af3e0c19934defd98b1e907098f0e708af781c28636d9c32cf05d",
+  "request_sha256": "42671a3f442141f8969148d2c76be8e01e80785f7a2d3b1ab0146dec803d0acf",
+  "call_id": "4cb3cf0022b14767a38fd27e9c6aaab6",
+  "model_returned": "qwen3.8-27b",
+  "raw_text": "嗯……我想了想，好像最具体的就是周六下午吧。就是那种……我不用看工作消息，不用想\"这个数据明天要不要补\"，就只是坐在厨房切菜，或者窝沙发上看电影。那个\"我的\"，我脑子里第一个想到的就是那个下午。\n\n但你说\"变薄\"……好像也不只是那个下午没了，就是……我连\"我周六下午可以不用想工作\"这个念头本身，好像都没以前那么确定了。以前我会觉得\"周六就是周六\"，现在就是……我周六坐在厨房，脑子里还是会过一下明天那个报表。",
+  "usage": {
+    "input_tokens": 14149,
+    "input_tokens_details": {
+      "cached_tokens": 7424
+    },
+    "output_tokens": 458,
+    "output_tokens_details": {
+      "reasoning_tokens": 333
+    },
+    "total_tokens": 14607,
+    "x_details": [
+      {
+        "input_tokens": 14149,
+        "input_tokens_details": {
+          "text_tokens": 14149
+        },
+        "output_tokens": 458,
+        "output_tokens_details": {
+          "reasoning_tokens": 333
+        },
+        "prompt_tokens_details": {
+          "cached_tokens": 7424
+        },
+        "total_tokens": 14607,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "created_at": "2026-10-13T11:19:43.447125+00:00",
+  "call_log_reference": "generation_logs/p2_client_simulation_calls.jsonl"
+}

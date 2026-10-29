@@ -1,0 +1,34 @@
+{
+  "case_id": "P07",
+  "checkpoint": "CP1",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "be2bf76feafda9289850d98373330ca0fea1ad5ee17b5f4c4215fad3937b25b9",
+  "request_sha256": "3b4d51dd94483c6ae97afb2f35a61551aff9fdc77acbf792be7d9f769025a33b",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那个“没点开的邮件”像是一个悬在头顶的开关，你怕一打开，就不得不面对“灵气已耗尽”这个结局。这种对自我价值彻底崩塌的恐惧，似乎比接不接稿子本身更让你难以动弹。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3516,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 53,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3569,
+    "x_details": [
+      {
+        "input_tokens": 3516,
+        "output_tokens": 53,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3569,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

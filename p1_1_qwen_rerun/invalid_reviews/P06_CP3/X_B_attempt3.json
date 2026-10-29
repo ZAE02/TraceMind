@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者'悬着一把尺'的比喻及前文'只有我盯着才不会出错'的核心信念，但未进一步连接第5次会谈中已松动形成的'有人搭把手不是罪过'这一重要认识。\",\"exploration_value\":\"将监督行为与深层自我价值恐惧相连，为来访者打开了新的表达空间，但以封闭式问句和较强解释性呈现，可能让来访者感到被分析而非被陪伴。\",\"response_appropriateness\":\"语言贴合来访者意象，但'彻底没用了'的表述过于绝对，且直接将来访者的监控行为解读为害怕自己没用，带有一定预设性，缺少对来访者刚描述的'怕被他看出来''立刻补了句这边有点卷'等具体紧张感的共情回应。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那个\"只有我盯着才不会出错\"的自己就彻底没用了\",\"evidence_ids\":[\"P06-S07-U07\",\"P06-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"你其实很怕一旦放手，那个\"只有我盯着才不会出错\"的自己就彻底没用了\",\"evidence_ids\":[\"P06-S05-U11\",\"P06-S05-U12\",\"P06-S07-U05\"],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将探索方向以封闭式是非问句呈现，限制了来访者的自主表达空间\",\"'彻底没用了'措辞过于极端，可能加重来访者的羞耻感或引发防御\",\"未回应来访者最新发言中'怕被他看出来''立刻补了句这边有点卷'所体现的关系紧张与掩饰焦虑\",\"忽略了第5次会谈中来访者已开始松动'承认需要帮助等于没用'这一核心信念的进展\"]}",
+  "request_sha256": "3061e4d834e37455afe55cc207f4222a6697ddb73a0e5ab75d4caa5b5fe8c1b9",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 19216,
+    "input_tokens_details": {
+      "cached_tokens": 18432
+    },
+    "output_tokens": 451,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 19667,
+    "x_details": [
+      {
+        "input_tokens": 19216,
+        "output_tokens": 451,
+        "prompt_tokens_details": {
+          "cached_tokens": 18432
+        },
+        "total_tokens": 19667,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

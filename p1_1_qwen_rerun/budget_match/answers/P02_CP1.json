@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P02_CP1",
+  "condition": "C5_budget",
+  "raw_text": "听到你整夜守在门口，那种紧绷的警觉大概比熬夜值班还耗神。中午突然的反胃，也许是身体在替那个一直硬撑着的你发出抗议。",
+  "input_sha256": "f1f1b8c7e669a4298688dcd883e3f5965692952f3b1828aea2d854396daa755a",
+  "memory_sha256": "0b7cd308c00e3b334442fdeee8b4d52603cc947527484ba002c9f32e70ea8edb",
+  "request_sha256": "d3c209b8db657f63c4775d05bda54a3f43a4c4132551e003f0abd75ab9011247",
+  "usage": {
+    "input_tokens": 4058,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 37,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4095,
+    "x_details": [
+      {
+        "input_tokens": 4058,
+        "output_tokens": 37,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4095,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.125
+}

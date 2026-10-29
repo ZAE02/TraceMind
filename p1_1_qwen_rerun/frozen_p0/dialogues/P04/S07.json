@@ -1,0 +1,504 @@
+{
+  "case_id": "P04",
+  "session": 7,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P04-S07-U01",
+      "role": "client",
+      "text": "老板跟我谈调整岗位的时候，我居然第一反应不是争，是松了口气。可那口气刚出到一半，又硬生生咽回去了——像一盘菜端到客人面前，我发现自己既不敢说“就这么上”，也不敢说“我重做”。",
+      "request_sha256": "20a0290941d535b71efb5533964315ff6e9071977d4152e264fd32a9b93ce674",
+      "usage": {
+        "input_tokens": 9278,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 393,
+        "output_tokens_details": {
+          "reasoning_tokens": 337
+        },
+        "total_tokens": 9671,
+        "x_details": [
+          {
+            "input_tokens": 9278,
+            "output_tokens": 393,
+            "output_tokens_details": {
+              "reasoning_tokens": 337
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 9671,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U02",
+      "role": "counselor",
+      "text": "你松的那半口气，也许并不是不想干了，而是身体在替你承认：这个岗位你已经端了很久，手早就酸了。可它又被咽回去，像那个“还能顶”的招牌还不允许你当众把菜放下。",
+      "request_sha256": "f21df5e77828877664c169636a5a4ff5e62277734b1a8f679f0e1743d71b6abd",
+      "usage": {
+        "input_tokens": 8610,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 210,
+        "output_tokens_details": {
+          "reasoning_tokens": 158
+        },
+        "total_tokens": 8820,
+        "x_details": [
+          {
+            "input_tokens": 8610,
+            "output_tokens": 210,
+            "output_tokens_details": {
+              "reasoning_tokens": 158
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 8820,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U03",
+      "role": "client",
+      "text": "我回家又把辞职信草稿翻出来看了一遍，发现写的时候手其实没抖，是我后来自己吓自己，像给一道没问题的菜硬挑毛病。老板说“调整岗位”的时候，我差点以为他终于看出来了，可他那语气又像在帮我找台阶下——我不知道该顺着台阶走，还是该把工牌往桌上一拍说“我还能干”。",
+      "request_sha256": "4465c7449f296ca9a35946628a5ad196a106371502ab27476a803f7280a16902",
+      "usage": {
+        "input_tokens": 9432,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 440,
+        "output_tokens_details": {
+          "reasoning_tokens": 356
+        },
+        "total_tokens": 9872,
+        "x_details": [
+          {
+            "input_tokens": 9432,
+            "output_tokens": 440,
+            "output_tokens_details": {
+              "reasoning_tokens": 356
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 9872,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U04",
+      "role": "counselor",
+      "text": "那半口松掉的气，可能是你最近这段时间最诚实的一个动作——它比工牌、比“还能干”都更早知道你累到了哪里。可你没有让它出完，是因为“顺着台阶走”还是“拍桌说还能干”，都牵扯到你想被怎么看见。你发现自己是在“自己吓自己”，这个觉察很重要，好像怕的不是菜有问题，而是怕承认这盘菜真的不想再端了。",
+      "request_sha256": "42f6e3d11db8b54c7bd22d4e7ffc43020c89dd100ef368fe34d73fc21483b130",
+      "usage": {
+        "input_tokens": 8791,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 411,
+        "output_tokens_details": {
+          "reasoning_tokens": 318
+        },
+        "total_tokens": 9202,
+        "x_details": [
+          {
+            "input_tokens": 8791,
+            "output_tokens": 411,
+            "output_tokens_details": {
+              "reasoning_tokens": 318
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9202,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U05",
+      "role": "client",
+      "text": "“我会想办法”那四个字，像菜单上写着“今日例汤”其实厨房根本没有备料。老板说完之后我一直在后门抽烟，烟盒里就剩三根，我数了一遍又一遍，像在数自己还剩多少句能撑住场面的话。其实昨晚急诊回来我连工服都没换，上面还有消毒水味儿，我自己闻着都像别人。",
+      "request_sha256": "c5d295836782e28c4d7e2f9085e299dd4e7b45f907e0aa5080dbbe3034053ca0",
+      "usage": {
+        "input_tokens": 9654,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 337,
+        "output_tokens_details": {
+          "reasoning_tokens": 253
+        },
+        "total_tokens": 9991,
+        "x_details": [
+          {
+            "input_tokens": 9654,
+            "output_tokens": 337,
+            "output_tokens_details": {
+              "reasoning_tokens": 253
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9991,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U06",
+      "role": "counselor",
+      "text": "你数那三根烟，像在数自己还能拿出多少句“撑住场面”的话；而工服没换、消毒水味闻着像别人，好像连那个一直端着的“周经理”的味道都在变淡，开始不认识了。这种“像别人”的感觉，是最近才有的，还是早就在你身上，只是现在才敢说出口？",
+      "request_sha256": "adfd1bd41e1e9bda8833a23cdf86e150dba4397ac7cbcce342ad251c996b7a0d",
+      "usage": {
+        "input_tokens": 9013,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 534,
+        "output_tokens_details": {
+          "reasoning_tokens": 453
+        },
+        "total_tokens": 9547,
+        "x_details": [
+          {
+            "input_tokens": 9013,
+            "output_tokens": 534,
+            "output_tokens_details": {
+              "reasoning_tokens": 453
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9547,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U07",
+      "role": "client",
+      "text": "那股“像别人”的味儿，不是最近才有，是我这几年每次从医院出来都有的，只是以前洗个澡换身工服就能盖过去。这回工服没脱，消毒水直接腌进去了，像把那个“顶得住”的外壳泡软了。我数烟，也不是在数面子话，是在数我还剩几根能让自己闻起来像原来的周经理。",
+      "request_sha256": "59ec77dfaafa98b408a5d1850942885e89e6b9701c6e84f5abbd80a969238560",
+      "usage": {
+        "input_tokens": 9864,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 519,
+        "output_tokens_details": {
+          "reasoning_tokens": 434
+        },
+        "total_tokens": 10383,
+        "x_details": [
+          {
+            "input_tokens": 9864,
+            "output_tokens": 519,
+            "output_tokens_details": {
+              "reasoning_tokens": 434
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10383,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U08",
+      "role": "counselor",
+      "text": "那个“顶得住”的外壳不是这一次才有的，是这几年一次次从医院带回来的东西泡出来的——只是以前你还能换工服盖过去，这回消毒水味腌进去，让你连“原来的周经理”都快要认不出了。你数烟，或许是在数那个旧外壳还剩多少能穿得住。",
+      "request_sha256": "bc8a08eb54bfdee952058317cca44f2579d3928e971f935779c9be12f7bf9bc6",
+      "usage": {
+        "input_tokens": 9224,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 363,
+        "output_tokens_details": {
+          "reasoning_tokens": 293
+        },
+        "total_tokens": 9587,
+        "x_details": [
+          {
+            "input_tokens": 9224,
+            "output_tokens": 363,
+            "output_tokens_details": {
+              "reasoning_tokens": 293
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9587,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U09",
+      "role": "client",
+      "text": "我昨晚回家，把工服脱在门口没洗，就那么瘫在椅子上，闻着消毒水味从袖口一点点散出来。以前我会立刻开洗衣机，像把医院和餐厅的痕迹全搅进去冲掉；这次我居然就让它脏着，还觉得那味道像在替我说“我今天真的到极限了”。可早上起来看见那团衣服，第一反应是恶心，像看见自己昨晚那半口没出完的气捂臭了。",
+      "request_sha256": "fbb5bac7c77437008fca8f3f2a9af7a13ea920a0555acdf8ea3c9e1877aee695",
+      "usage": {
+        "input_tokens": 10064,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 408,
+        "output_tokens_details": {
+          "reasoning_tokens": 307
+        },
+        "total_tokens": 10472,
+        "x_details": [
+          {
+            "input_tokens": 10064,
+            "output_tokens": 408,
+            "output_tokens_details": {
+              "reasoning_tokens": 307
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 10472,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U10",
+      "role": "counselor",
+      "text": "昨晚那件工服没洗时，像替你把到极限的那口气留在了袖口里；可早上再看，它又变成了让你想推开的东西。也许你不是在恶心那件衣服，而是在恶心自己夜里终于允许它“不干净”了一次。",
+      "request_sha256": "c02715e384724dadf03f466c7c6403e5d1c2934d7a8c4b22c8125cf97cb08bb6",
+      "usage": {
+        "input_tokens": 9440,
+        "input_tokens_details": {
+          "cached_tokens": 8192
+        },
+        "output_tokens": 257,
+        "output_tokens_details": {
+          "reasoning_tokens": 201
+        },
+        "total_tokens": 9697,
+        "x_details": [
+          {
+            "input_tokens": 9440,
+            "output_tokens": 257,
+            "output_tokens_details": {
+              "reasoning_tokens": 201
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 8192
+            },
+            "total_tokens": 9697,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U11",
+      "role": "client",
+      "text": "我早上把那件工服塞进洗衣机了，倒了比平时多的洗衣液，按了三次漂洗。可洗到一半我又按了暂停，蹲在洗衣机前面听里面水停下来的声音——像排风扇突然不转的那一下，整个屋子都空了。我忽然不知道，洗掉那个味道，是想把昨晚的自己冲走，还是想把“到极限”三个字也一起冲走。",
+      "request_sha256": "57d2466768ae021c2b902704c3e645cd395159d6e88a16f0c76f2be077c82706",
+      "usage": {
+        "input_tokens": 10273,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 315,
+        "output_tokens_details": {
+          "reasoning_tokens": 227
+        },
+        "total_tokens": 10588,
+        "x_details": [
+          {
+            "input_tokens": 10273,
+            "output_tokens": 315,
+            "output_tokens_details": {
+              "reasoning_tokens": 227
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10588,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U12",
+      "role": "counselor",
+      "text": "你按下的那个暂停，好像不只是停洗衣机，是给自己留了一段水声落下去的空隙——你蹲在那儿，听的也许正是那个“到极限”还没被冲走时的自己。",
+      "request_sha256": "d025c3c0cb51c35c21d3fd49d4bd8665e9b9715470ce9d8b964d8bd69f7bd39c",
+      "usage": {
+        "input_tokens": 9636,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 252,
+        "output_tokens_details": {
+          "reasoning_tokens": 210
+        },
+        "total_tokens": 9888,
+        "x_details": [
+          {
+            "input_tokens": 9636,
+            "output_tokens": 252,
+            "output_tokens_details": {
+              "reasoning_tokens": 210
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 9888,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U13",
+      "role": "client",
+      "text": "那水声一停，整个卫生间静得只剩我自己蹲在地上的呼吸。后来我干脆把洗衣机关了，衣服就湿漉漉地泡在里头，像泡着一句没说完的话。我站起来的时候腿麻得差点扶墙，心里想的是：原来我连“把自己冲走”都只敢冲一半。",
+      "request_sha256": "610c2e6357054c70c97ded1b1e91afdec6b8361cc0e9f692f2a95e9a677e17bc",
+      "usage": {
+        "input_tokens": 10448,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 328,
+        "output_tokens_details": {
+          "reasoning_tokens": 257
+        },
+        "total_tokens": 10776,
+        "x_details": [
+          {
+            "input_tokens": 10448,
+            "output_tokens": 328,
+            "output_tokens_details": {
+              "reasoning_tokens": 257
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10776,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U14",
+      "role": "counselor",
+      "text": "那个“只敢冲一半”的动作，也许不全是胆怯，也像是你在水声停下的空隙里，给自己留了一部分没被冲走的自己。腿麻到扶墙的时候，你没有继续按下去，这本身就是在替那个“还没决定好”的自己停一停。",
+      "request_sha256": "2df6922524c9e0830d1c4beace620f9d528217c6d222933c06d52ca7993112b6",
+      "usage": {
+        "input_tokens": 9794,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 282,
+        "output_tokens_details": {
+          "reasoning_tokens": 219
+        },
+        "total_tokens": 10076,
+        "x_details": [
+          {
+            "input_tokens": 9794,
+            "output_tokens": 282,
+            "output_tokens_details": {
+              "reasoning_tokens": 219
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10076,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U15",
+      "role": "client",
+      "text": "那件湿衣服还泡在洗衣机里，我出门前没再碰它。路上骑车的时候我一直在想，老板说的“调整岗位”是不是就等于给周经理这个人下了一道换菜单的通知，可我这个做菜的还没想好要不要交勺。",
+      "request_sha256": "bc1f126a5bd4341c0489e9019115038ac877b19437e55c0bd4fa0cdb9d680dd4",
+      "usage": {
+        "input_tokens": 10627,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 380,
+        "output_tokens_details": {
+          "reasoning_tokens": 325
+        },
+        "total_tokens": 11007,
+        "x_details": [
+          {
+            "input_tokens": 10627,
+            "output_tokens": 380,
+            "output_tokens_details": {
+              "reasoning_tokens": 325
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11007,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P04-S07-U16",
+      "role": "counselor",
+      "text": "那件湿衣服停在洗衣机里，像你把“要不要交勺”的念头也先泡在那儿，没逼自己现在答复。路上你问“周经理这个人是不是要被换菜单”，但也许更准确的是：你作为那个做菜的人，第一次允许自己还没想好。勺子可以先不交，也不必马上再握紧。",
+      "request_sha256": "a8ade2694b5be4273256dd3b332930af66f96ddfd36b22347fededcd3e06a21d",
+      "usage": {
+        "input_tokens": 9957,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 218,
+        "output_tokens_details": {
+          "reasoning_tokens": 146
+        },
+        "total_tokens": 10175,
+        "x_details": [
+          {
+            "input_tokens": 9957,
+            "output_tokens": 218,
+            "output_tokens_details": {
+              "reasoning_tokens": 146
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10175,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

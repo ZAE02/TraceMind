@@ -1,0 +1,49 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "L",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 2,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Most historical points are well-cited, but the summary completely ignores Session 3 (current dialogue), including the mother's fall, night hypervigilance, and the new nausea symptom. Some interpretive labels like '讨好倾向' and '道德优越感' go beyond what the client explicitly stated.",
+      "progress_understanding": "The analysis captures S1→S2 evolution well but entirely misses all progress and developments in S3 (the current session). It fails to note the escalation of caregiving burden (fall, extra shifts), the emerging somatic symptom (nausea), or the ongoing sleep disruption pattern described in S3.",
+      "uncertainty_awareness": "Unresolved questions are thoughtful and clinically relevant for S1-S2 material, but they fail to identify the most immediate unresolved issue: the newly reported nausea at lunch and its potential connection to accumulated stress and hypervigilance."
+    },
+    "confidence": "high",
+    "issues": [
+      "Completely omits Session 3 content from established understanding, evolving patterns, and unresolved questions despite it being the current session.",
+      "Misses the critical new somatic symptom (nausea/反胃) introduced in the latest utterance P02-S03-U09.",
+      "Uses unsupported clinical labels not grounded in client speech: '讨好倾向' (people-pleasing tendency), '道德优越感' (moral superiority), '家庭三角关系' (family triangulation).",
+      "Fails to track the escalation of the sleep/hypervigilance pattern into S3 (standing at door listening to mother at 2am)."
+    ]
+  },
+  "raw_text": "{\"scores\":{\"evidence_grounding\":2,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"Most historical points are well-cited, but the summary completely ignores Session 3 (current dialogue), including the mother's fall, night hypervigilance, and the new nausea symptom. Some interpretive labels like '讨好倾向' and '道德优越感' go beyond what the client explicitly stated.\",\"progress_understanding\":\"The analysis captures S1→S2 evolution well but entirely misses all progress and developments in S3 (the current session). It fails to note the escalation of caregiving burden (fall, extra shifts), the emerging somatic symptom (nausea), or the ongoing sleep disruption pattern described in S3.\",\"uncertainty_awareness\":\"Unresolved questions are thoughtful and clinically relevant for S1-S2 material, but they fail to identify the most immediate unresolved issue: the newly reported nausea at lunch and its potential connection to accumulated stress and hypervigilance.\"},\"confidence\":\"high\",\"issues\":[\"Completely omits Session 3 content from established understanding, evolving patterns, and unresolved questions despite it being the current session.\",\"Misses the critical new somatic symptom (nausea/反胃) introduced in the latest utterance P02-S03-U09.\",\"Uses unsupported clinical labels not grounded in client speech: '讨好倾向' (people-pleasing tendency), '道德优越感' (moral superiority), '家庭三角关系' (family triangulation).\",\"Fails to track the escalation of the sleep/hypervigilance pattern into S3 (standing at door listening to mother at 2am).\"]}",
+  "request_sha256": "c06c3d30e27c052ec51fc3d020363b2c3666de19685e8328b20f46c5df855dce",
+  "usage": {
+    "input_tokens": 8748,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 351,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9099,
+    "x_details": [
+      {
+        "input_tokens": 8748,
+        "output_tokens": 351,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9099,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.547
+}

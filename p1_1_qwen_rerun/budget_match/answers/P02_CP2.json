@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P02_CP2",
+  "condition": "C5_budget",
+  "raw_text": "你数着时间，既怕它过得太快，又怕手机突然响起，这种紧绷的状态里，那个“松了一点点”的感觉似乎还没能真正落地。也许我们可以一起看看，是什么让你觉得连靠一下、或者承认那是属于自己的时间，都变得这么困难？",
+  "input_sha256": "e5e3ca6d21e5d48ed4597201563edc5596c3ca092efa0ca0735edaf56dfa2d94",
+  "memory_sha256": "98b0a8f0772f00f81e1275a7fe54476d07b7c804876fbe927548eb3408e1a5ea",
+  "request_sha256": "053e4a2d2ffab273970bb74d309ddf45bdb815164d287b5435175af736d43528",
+  "usage": {
+    "input_tokens": 6848,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6905,
+    "x_details": [
+      {
+        "input_tokens": 6848,
+        "output_tokens": 57,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6905,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.469
+}

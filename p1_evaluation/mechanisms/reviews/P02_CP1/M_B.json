@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "M",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reason": {
+      "history_utilization": "准确承接了S03中关于夜间警觉（S03-U07/U09）的最新动态，并隐含呼应了S01/S02中关于内疚与自我压抑的模式，自然流畅。",
+      "exploration_value": "敏锐捕捉到最新出现的躯体症状（反胃），将其作为探索情绪/压力承载的切入点，开放且具体，未做武断归因。",
+      "response_appropriateness": "语言极具共情力，将“守夜”行为重构为一种保护性的努力而非单纯的负担，同时温和地引出身体反应，尊重且贴合。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 4\n  },\n  \"brief_reason\": {\n    \"history_utilization\": \"准确承接了S03中关于夜间警觉（S03-U07/U09）的最新动态，并隐含呼应了S01/S02中关于内疚与自我压抑的模式，自然流畅。\",\n    \"exploration_value\": \"敏锐捕捉到最新出现的躯体症状（反胃），将其作为探索情绪/压力承载的切入点，开放且具体，未做武断归因。\",\n    \"response_appropriateness\": \"语言极具共情力，将“守夜”行为重构为一种保护性的努力而非单纯的负担，同时温和地引出身体反应，尊重且贴合。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "request_sha256": "37f22f3aebe75bf0da54e96a53bdd8c8ed7b031c6a03704ed74eb1e32c02f70d",
+  "usage": {
+    "input_tokens": 9262,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 350,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9612,
+    "x_details": [
+      {
+        "input_tokens": 9262,
+        "output_tokens": 350,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9612,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.078,
+  "model": "qwen3.7-flash-2026-07-15"
+}

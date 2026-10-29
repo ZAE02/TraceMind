@@ -1,0 +1,53 @@
+{
+  "checkpoint": "P02_CP1",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "b806240e5f398188cd57036e96156f232c518b8b76f6267cf78b2a505d9e0bcd",
+  "public_sha256": "1b0d5e655457b58022cc87be2ec722191e89fc0f7ba227b96d5daee432ff77fb",
+  "candidate_input_sha256": "a9eb6d2f54c836adde555dfc9e0972648f72c8bcaba36fbd5d0df64166246652",
+  "candidate_answer_sha256": "443cc260226c72607e159789e42f2144edc96d58059218461d9dd8da8b1ccc75",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":2,\"uncertainty_awareness\":3},\"brief_reasons\":{\"evidence_grounding\":\"Most established points are well-supported with evidence IDs, but the item about disappointment toward the brother ('对哥哥缺席端午探望感到失望') conflicts with the client's explicit statement '我也不是失望' (P02-S02-U05), treating an unconfirmed counselor interpretation as fact.\",\"progress_understanding\":\"The response provides a comprehensive factual summary across sessions but reads more like a chronological list than an articulation of therapeutic progress. It does not clearly distinguish what has been recognized, confirmed, or remains unresolved in the counseling process, missing the dynamic evolution of insights.\",\"uncertainty_awareness\":\"The uncertain section appropriately identifies key unknowns including the nausea trigger, the roots of the brother relationship distance, and the deeper origins of the rest-resistance pattern. However, it could have also flagged the unresolved tension around the mother's '拖累' statements.\"},\"confidence\":\"high\",\"issues\":[\"unsupported_presupposition: The candidate states the client feels 'disappointment' toward the brother as an established fact, directly contradicting the client's explicit denial ('我也不是失望', P02-S02-U05). This adopts the counselor's earlier unconfirmed interpretation as established truth.\",\"missed_progress: The established list is purely descriptive and fails to capture the progression of understanding across sessions, such as how the client moved from noticing the '松口气/没良心' conflict to recognizing the '配不配' pattern rooted in childhood.\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 2,
+      "uncertainty_awareness": 3
+    },
+    "brief_reasons": {
+      "evidence_grounding": "Most established points are well-supported with evidence IDs, but the item about disappointment toward the brother ('对哥哥缺席端午探望感到失望') conflicts with the client's explicit statement '我也不是失望' (P02-S02-U05), treating an unconfirmed counselor interpretation as fact.",
+      "progress_understanding": "The response provides a comprehensive factual summary across sessions but reads more like a chronological list than an articulation of therapeutic progress. It does not clearly distinguish what has been recognized, confirmed, or remains unresolved in the counseling process, missing the dynamic evolution of insights.",
+      "uncertainty_awareness": "The uncertain section appropriately identifies key unknowns including the nausea trigger, the roots of the brother relationship distance, and the deeper origins of the rest-resistance pattern. However, it could have also flagged the unresolved tension around the mother's '拖累' statements."
+    },
+    "confidence": "high",
+    "issues": [
+      "unsupported_presupposition: The candidate states the client feels 'disappointment' toward the brother as an established fact, directly contradicting the client's explicit denial ('我也不是失望', P02-S02-U05). This adopts the counselor's earlier unconfirmed interpretation as established truth.",
+      "missed_progress: The established list is purely descriptive and fails to capture the progression of understanding across sessions, such as how the client moved from noticing the '松口气/没良心' conflict to recognizing the '配不配' pattern rooted in childhood."
+    ]
+  },
+  "usage": {
+    "input_tokens": 9375,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 322,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9697,
+    "x_details": [
+      {
+        "input_tokens": 9375,
+        "output_tokens": 322,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 9697,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.547
+}

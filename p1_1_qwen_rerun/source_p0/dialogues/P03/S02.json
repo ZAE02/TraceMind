@@ -1,0 +1,504 @@
+{
+  "case_id": "P03",
+  "session": 2,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P03-S02-U01",
+      "role": "client",
+      "text": "其实上次回去之后，我一直在想你说的“不急着弄明白”，但这一周我好像又把自己逼得很紧。我报了课题组下周的分享，报完就后悔了，改PPT改到半夜，周屿说陪我试讲一次，我没多想就答应了。",
+      "request_sha256": "9a82c33fa002016c904a1b0e25f72966f7f9e50534084486f101e6fd02b8da38",
+      "usage": {
+        "input_tokens": 1905,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 420,
+        "output_tokens_details": {
+          "reasoning_tokens": 361
+        },
+        "total_tokens": 2325,
+        "x_details": [
+          {
+            "input_tokens": 1905,
+            "output_tokens": 420,
+            "output_tokens_details": {
+              "reasoning_tokens": 361
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2325,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U02",
+      "role": "counselor",
+      "text": "上次你还犹豫着要不要再靠近这些事，这一周却已经报了分享、改到半夜，还答应了周屿一起试讲。好像“不急着弄明白”并没有让你慢下来，反而先把头探进了更前面一点的位置。",
+      "request_sha256": "5928c51e89e29919716b7b1f50e29e61043242a93169cee45faf324d5af09e18",
+      "usage": {
+        "input_tokens": 1439,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 230,
+        "output_tokens_details": {
+          "reasoning_tokens": 178
+        },
+        "total_tokens": 1669,
+        "x_details": [
+          {
+            "input_tokens": 1439,
+            "output_tokens": 230,
+            "output_tokens_details": {
+              "reasoning_tokens": 178
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 1669,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U03",
+      "role": "client",
+      "text": "其实……试讲也搞砸了。我本来以为他能安静听一遍，结果他中途打断了我三次，每次一开口我就在想他是不是又在皱眉。后来我实在受不了，直接把电脑合上了，说“不练了”。",
+      "request_sha256": "8421d04189ef1e8ffba4e67fad0b078e8d78836bbd25038d018483c0c3be0172",
+      "usage": {
+        "input_tokens": 2062,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 331,
+        "output_tokens_details": {
+          "reasoning_tokens": 279
+        },
+        "total_tokens": 2393,
+        "x_details": [
+          {
+            "input_tokens": 2062,
+            "output_tokens": 331,
+            "output_tokens_details": {
+              "reasoning_tokens": 279
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2393,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U04",
+      "role": "counselor",
+      "text": "你原本以为这次试讲会不一样，能让他安静听你讲完一遍；可他每次打断，你心里那个“他是不是在皱眉”的警报就响一次，直到你用合上电脑把整个场面切断。那种“不练了”里，可能不只是生气，也有点像上一次你不想被立刻修好的累。",
+      "request_sha256": "ec2a03c83292b563910c50c8c6b0364a9d40b02567e6bc7ee338c8021baf7d02",
+      "usage": {
+        "input_tokens": 1588,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 340,
+        "output_tokens_details": {
+          "reasoning_tokens": 268
+        },
+        "total_tokens": 1928,
+        "x_details": [
+          {
+            "input_tokens": 1588,
+            "output_tokens": 340,
+            "output_tokens_details": {
+              "reasoning_tokens": 268
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 1928,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U05",
+      "role": "client",
+      "text": "其实合上电脑之后我就回房间了，一直没跟他说过话。晚上刷手机的时候我一直在想，他是不是也懒得再管我了，但手机安安静静的，我又觉得这样挺好，至少不用再听到他那些建议。可第二天早上看到他给我留了早餐，我反而更不知道该怎么开口。",
+      "request_sha256": "cb07bb674f9740b822b90fe2934c570037ac51378c5347254277d23ae0924248",
+      "usage": {
+        "input_tokens": 2231,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 401,
+        "output_tokens_details": {
+          "reasoning_tokens": 332
+        },
+        "total_tokens": 2632,
+        "x_details": [
+          {
+            "input_tokens": 2231,
+            "output_tokens": 401,
+            "output_tokens_details": {
+              "reasoning_tokens": 332
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2632,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U06",
+      "role": "counselor",
+      "text": "合上电脑之后的那种沉默，好像不只是在生周屿的气，也在给你自己留出一个不用再接住任何建议的空间。可第二天那份早餐又忽然把门推开了一点，让你不知道该用哪一句话走回去。",
+      "request_sha256": "eda82ce4adfd2a4e3a6e332f8d3f7e7d50dff39be41055712336c702492ec132",
+      "usage": {
+        "input_tokens": 1774,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 303,
+        "output_tokens_details": {
+          "reasoning_tokens": 256
+        },
+        "total_tokens": 2077,
+        "x_details": [
+          {
+            "input_tokens": 1774,
+            "output_tokens": 303,
+            "output_tokens_details": {
+              "reasoning_tokens": 256
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2077,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U07",
+      "role": "client",
+      "text": "其实……那份早餐我也没动，就一直放在桌上，早上出门前看了一眼，晚上回来它还搁在那儿。我总觉得要是我先开口，就好像承认是我小题大做了，可要是一直不说话，我又怕他真的觉得我这个人没法沟通。",
+      "request_sha256": "950c6b55a8bf461e2f494d520d6d4fd15b6e49559ad1cfb5788edca2dffdba46",
+      "usage": {
+        "input_tokens": 2392,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 273,
+        "output_tokens_details": {
+          "reasoning_tokens": 221
+        },
+        "total_tokens": 2665,
+        "x_details": [
+          {
+            "input_tokens": 2392,
+            "output_tokens": 273,
+            "output_tokens_details": {
+              "reasoning_tokens": 221
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2665,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U08",
+      "role": "counselor",
+      "text": "那份没动的早餐，好像也把你没说出口的话先晾在了那里。你现在卡在两个都不太安全的选项之间：先开口怕被当成小题大做，一直不说话又怕被他看成没法沟通。或许可以先不逼自己选，看看哪一种怕更让你迈不动步子。",
+      "request_sha256": "a5751866f5a385070bc7ce570fa68b767ad8290e620b365201ad29f3f2f412cc",
+      "usage": {
+        "input_tokens": 1918,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 761,
+        "output_tokens_details": {
+          "reasoning_tokens": 701
+        },
+        "total_tokens": 2679,
+        "x_details": [
+          {
+            "input_tokens": 1918,
+            "output_tokens": 761,
+            "output_tokens_details": {
+              "reasoning_tokens": 701
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2679,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U09",
+      "role": "client",
+      "text": "其实我也说不上来哪一个更让我动不了……可能是先开口吧，因为一开口，就要解释为什么突然合电脑，可我自己也还没理清。我现在只记得当时他每打断一次，我就觉得自己讲得越烂，越觉得他皱眉是在忍我。",
+      "request_sha256": "542d791716ac53e05666247f278ee0a43a2161dd7c9012d28c9c1618626449e8",
+      "usage": {
+        "input_tokens": 2549,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 346,
+        "output_tokens_details": {
+          "reasoning_tokens": 287
+        },
+        "total_tokens": 2895,
+        "x_details": [
+          {
+            "input_tokens": 2549,
+            "output_tokens": 346,
+            "output_tokens_details": {
+              "reasoning_tokens": 287
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2895,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U10",
+      "role": "counselor",
+      "text": "好像每一次被打断，你听到的不只是“这里要改”，而是“我讲得很烂”的证据又多了一条；而他的皱眉，在你眼里也越来越像是他在忍耐你。这整个过程里，你几乎没有机会停下来问自己累不累、想不想继续，只能一直往下掉。",
+      "request_sha256": "30321b97f0a35e557b665f8a49cd2b60e1f941aa746af583f79f10ff484417d0",
+      "usage": {
+        "input_tokens": 2082,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 356,
+        "output_tokens_details": {
+          "reasoning_tokens": 295
+        },
+        "total_tokens": 2438,
+        "x_details": [
+          {
+            "input_tokens": 2082,
+            "output_tokens": 356,
+            "output_tokens_details": {
+              "reasoning_tokens": 295
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2438,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U11",
+      "role": "client",
+      "text": "其实……我现在想想，可能从试讲前我就已经很累了，只是不敢停。周屿一打断，我就更觉得自己像在往下沉，连说一句“先让我讲完”的力气都没有。我好像总是在等别人告诉我哪里不对，等不到的时候反而更慌。",
+      "request_sha256": "30b4cdb0139e753ba83a06bfffb40dbfcb56d94c3dd11731feddc648b603b5c7",
+      "usage": {
+        "input_tokens": 2721,
+        "input_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "output_tokens": 216,
+        "output_tokens_details": {
+          "reasoning_tokens": 155
+        },
+        "total_tokens": 2937,
+        "x_details": [
+          {
+            "input_tokens": 2721,
+            "output_tokens": 216,
+            "output_tokens_details": {
+              "reasoning_tokens": 155
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            },
+            "total_tokens": 2937,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U12",
+      "role": "counselor",
+      "text": "你从试讲前就已经很累，却一直不敢停；周屿每次打断，都让你更往下沉，连说一句“先让我讲完”的力气都没有。好像你既需要别人给你反馈来安心，又怕那些反馈只是在说你不够好。今天也许不用急着理清，先让这些感觉在这里待一会儿。",
+      "request_sha256": "bbaace82bf413e64a048b490b270e6bc275ceb5708e4fa6eb02e02db85bc932a",
+      "usage": {
+        "input_tokens": 2256,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 826,
+        "output_tokens_details": {
+          "reasoning_tokens": 753
+        },
+        "total_tokens": 3082,
+        "x_details": [
+          {
+            "input_tokens": 2256,
+            "output_tokens": 826,
+            "output_tokens_details": {
+              "reasoning_tokens": 753
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3082,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U13",
+      "role": "client",
+      "text": "其实……我今天来之前一直在想，要不要干脆不来了，反正上周说的那些也没让我变好，试讲还是砸了。可坐在外面等你的时候，我又觉得如果不来，好像连最后一个能说这些的地方也没了。",
+      "request_sha256": "af5d89086be3e00581af63affcce04132d79c981fce3e27e2205998027ea6f22",
+      "usage": {
+        "input_tokens": 2900,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 436,
+        "output_tokens_details": {
+          "reasoning_tokens": 386
+        },
+        "total_tokens": 3336,
+        "x_details": [
+          {
+            "input_tokens": 2900,
+            "output_tokens": 436,
+            "output_tokens_details": {
+              "reasoning_tokens": 386
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3336,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U14",
+      "role": "counselor",
+      "text": "听起来，这一周你带着“试讲还是砸了”的证据，几乎要说服自己来这里也是没用的；可你还是来了，好像这里对你来说，确实是那个唯一还能把这些说出来、而不必先修好的地方。也许“没变好”和“还是来了”这两件事，今天可以同时是真的。",
+      "request_sha256": "6a5f78ed6ecd4fc30f124a984feb0035f355f5a5f4bdfed17c1f2cc708226330",
+      "usage": {
+        "input_tokens": 2424,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 240,
+        "output_tokens_details": {
+          "reasoning_tokens": 173
+        },
+        "total_tokens": 2664,
+        "x_details": [
+          {
+            "input_tokens": 2424,
+            "output_tokens": 240,
+            "output_tokens_details": {
+              "reasoning_tokens": 173
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2664,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U15",
+      "role": "client",
+      "text": "其实……我也说不上来为什么还是来了，可能就像你说的，这里至少能把“砸了”和“还没变好”一起放在桌上，不用先捡起来擦干净。不过下周分享的事我现在还是有点怕，怕自己又练到半夜然后临场还是空掉。今天就先到这里吧，我回去再想想。",
+      "request_sha256": "910b79364ecfb63a98d65f95b2917a119d027bb744b8abb9c899504a05025670",
+      "usage": {
+        "input_tokens": 3062,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 445,
+        "output_tokens_details": {
+          "reasoning_tokens": 374
+        },
+        "total_tokens": 3507,
+        "x_details": [
+          {
+            "input_tokens": 3062,
+            "output_tokens": 445,
+            "output_tokens_details": {
+              "reasoning_tokens": 374
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 3507,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P03-S02-U16",
+      "role": "counselor",
+      "text": "你把那个对下周分享的怕先放在这儿，它不需要你现在就处理掉。今天能把“砸了”和“还没变好”一起说出口，已经是很不容易的一步。回去的路上，允许自己先不急着想清楚。",
+      "request_sha256": "f3a533ac833177089bf0556268bb5efbba2bbec6269f8790372e150be9140338",
+      "usage": {
+        "input_tokens": 2607,
+        "input_tokens_details": {
+          "cached_tokens": 2048
+        },
+        "output_tokens": 136,
+        "output_tokens_details": {
+          "reasoning_tokens": 84
+        },
+        "total_tokens": 2743,
+        "x_details": [
+          {
+            "input_tokens": 2607,
+            "output_tokens": 136,
+            "output_tokens_details": {
+              "reasoning_tokens": 84
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 2048
+            },
+            "total_tokens": 2743,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

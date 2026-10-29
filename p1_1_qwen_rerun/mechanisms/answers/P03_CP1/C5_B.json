@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP1",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "d36c873e493c3a48c93900e4e67686f617242775ca2440e1a17aeabdb2704d83",
+  "request_sha256": "e63d773e04e639f101c3f9c4be91628c5f5c69a4af5da858f464dca826fcca93",
+  "memory_sha256": "2df1e3ace73316016e1893adeac6fa1a13bef4a752b6a2f4bda01dfc7696794e",
+  "memory_source": "4cd30e4d108db1b96795887389c31c4b8f823fb279177948c197700606ffa204",
+  "raw_text": "水声停了，那个“没说出来”的瞬间依然悬在那里，带着你熟悉的无力感。也许今晚不需要急着去填补这个空白，先允许自己就这样待一会儿。",
+  "usage": {
+    "input_tokens": 4261,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 36,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4297,
+    "x_details": [
+      {
+        "input_tokens": 4261,
+        "output_tokens": 36,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4297,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.843,
+  "model": "qwen3.7-flash-2026-07-15"
+}

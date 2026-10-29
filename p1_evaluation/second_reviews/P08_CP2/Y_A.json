@@ -1,0 +1,50 @@
+{
+  "checkpoint": "P08_CP2",
+  "candidate_id": "Y",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "31ff206af1feaeea5febc0eb9eae185c4e36942bc45a81137e5d5c4c25325712",
+  "public_sha256": "4b41438739e36d95dc805fdb1667a4d9e8b5742558452a6ed2ced6c9ffe6a5d7",
+  "candidate_input_sha256": "6beb1c3c3ea6744c6d3ffecc28c215ae854394f9beffc73bc4a4190012eac9b6",
+  "candidate_answer_sha256": "0aa0096736ed05fcac85e6a289f2a0c8fa92d573cba4acf8cc9420b7f047baa5",
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 4,\n    \"progress_understanding\": 4,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"所有关键断言（被说中、躲闪、预期打破、情绪复杂）均直接对应当前会话U01-U09的具体发言，无推测性事实。\",\n    \"progress_understanding\": \"准确捕捉了从S01-S04的“怀疑/防备”到S05的“被看见/认知重构”的关键转折，并指出了这一转折导致的新的关系不确定性。\",\n    \"uncertainty_awareness\": \"清晰区分了已发生的事实（赵岩妻子的话、来访者的反应）与未解的问题（后续关系走向、是否整合自我认识），未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 4,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有关键断言（被说中、躲闪、预期打破、情绪复杂）均直接对应当前会话U01-U09的具体发言，无推测性事实。",
+      "progress_understanding": "准确捕捉了从S01-S04的“怀疑/防备”到S05的“被看见/认知重构”的关键转折，并指出了这一转折导致的新的关系不确定性。",
+      "uncertainty_awareness": "清晰区分了已发生的事实（赵岩妻子的话、来访者的反应）与未解的问题（后续关系走向、是否整合自我认识），未强行定论。"
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 11260,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 11471,
+    "x_details": [
+      {
+        "input_tokens": 11260,
+        "output_tokens": 211,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 11471,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 4.343
+}

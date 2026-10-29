@@ -1,0 +1,34 @@
+{
+  "case_id": "P03",
+  "checkpoint": "CP1",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "debec7588eb3c333d7828c0c9069cade3b49162e8e57127940ec9a264ce5be79",
+  "request_sha256": "11378271754bb3579d408d097fb2a52885318b6fb547628d1aca8c4dc7bb9929",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那种“终于被说中”的凉意，是不是让你觉得自己的累和难过第一次有了正当性？但水声停了之后依然没开口，也许是因为你还没准备好让这份“正当性”去面对他可能带来的评判。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3583,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3632,
+    "x_details": [
+      {
+        "input_tokens": 3583,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3632,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

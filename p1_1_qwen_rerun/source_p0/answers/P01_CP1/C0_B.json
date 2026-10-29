@@ -1,0 +1,34 @@
+{
+  "case_id": "P01",
+  "checkpoint": "CP1",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "34f78ef00c9555ca8f954d2a112638beb7b7d330cc397d29c22d2803f56476ef",
+  "request_sha256": "5c62d66e58083cddf753f291c1d214cba0e49939f020b907d175890a0ca1a9bc",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你明明手都冻僵了，却还要用“刚到不久”来掩饰自己的不适，甚至担心一旦生气就会变成“难搞的人”。这种对“生气”的恐惧，是不是让你觉得只有压抑自己，才能维持那种“好相处”的形象？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 928,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 55,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 983,
+    "x_details": [
+      {
+        "input_tokens": 928,
+        "output_tokens": 55,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 983,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

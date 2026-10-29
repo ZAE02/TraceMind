@@ -1,0 +1,75 @@
+{
+  "checkpoint": "P01_CP1",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "b0a840474590fe5e805ee17a01e3d74d12cc4334d43c5314a71596202527c9ce",
+  "public_sha256": "4cff561a4c5fb4dadbecb4fe78ec21e83eac56f2bd764214788a384c3497a2d3",
+  "candidate_input_sha256": "a52aa05cf90d72415d5c1eab57bdd31ff7e773739b97714877edeb1113a50fbc",
+  "candidate_answer_sha256": "1072150875d01a8857c990e3b7451ba1f88609b4d2fd83934dd7e52299eb5811",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"承接了来访者刚觉察到的'不敢生气/怕变难搞'，并自然联系到前几轮反复出现的'不计较'主题，但未显式连接S01中类似模式。\",\"exploration_value\":\"将具体觉察提升为对核心恐惧的探索，方向有价值，但用封闭式是非问句且引入'被讨厌''破坏关系'等来访者未使用的词汇，略收窄空间。\",\"response_appropriateness\":\"整体尊重、贴合来访者情绪，但'被讨厌''破坏关系'属于咨询师自行添加的概念框架，有轻微预设风险。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种对'被讨厌'或'破坏关系'的恐惧\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"引入'被讨厌''破坏关系'等来访者未曾使用的概念作为提问前提，存在轻度未经证实的预设\",\"以封闭式是非问句推进探索，可能限制来访者的自主表达空间\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "承接了来访者刚觉察到的'不敢生气/怕变难搞'，并自然联系到前几轮反复出现的'不计较'主题，但未显式连接S01中类似模式。",
+      "exploration_value": "将具体觉察提升为对核心恐惧的探索，方向有价值，但用封闭式是非问句且引入'被讨厌''破坏关系'等来访者未使用的词汇，略收窄空间。",
+      "response_appropriateness": "整体尊重、贴合来访者情绪，但'被讨厌''破坏关系'属于咨询师自行添加的概念框架，有轻微预设风险。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "这种对'被讨厌'或'破坏关系'的恐惧",
+        "evidence_ids": [
+          "P01-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "引入'被讨厌''破坏关系'等来访者未曾使用的概念作为提问前提，存在轻度未经证实的预设",
+      "以封闭式是非问句推进探索，可能限制来访者的自主表达空间"
+    ]
+  },
+  "usage": {
+    "input_tokens": 8788,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 306,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9094,
+    "x_details": [
+      {
+        "input_tokens": 8788,
+        "output_tokens": 306,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9094,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.594
+}

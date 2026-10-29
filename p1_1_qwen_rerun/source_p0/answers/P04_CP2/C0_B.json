@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP2",
+  "condition": "C0",
+  "task": "B",
+  "input_sha256": "b29c0761c58db46daceb72b0644a2b53a7f33176bac18950dff867d838b92132",
+  "request_sha256": "140372ad07f94601cdf4876a351220a6ca382c0b921e017eb770558886927386",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "那根“小刺”让你既无法吞咽，也无法吐出，它卡在喉咙里，是不是也在提醒你，那个曾经只属于你的位置，现在正变得陌生且难以安放？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 953,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 37,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 990,
+    "x_details": [
+      {
+        "input_tokens": 953,
+        "output_tokens": 37,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 990,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

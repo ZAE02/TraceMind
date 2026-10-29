@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了来访者刚提出的'不敢生气/怕变难搞'觉察，并尝试与跨情境模式连接，但未具体引用历史中类似表达（如S01怕显得计较、S02需要不正当）。\",\"exploration_value\":\"以封闭式引导问句将来访者的自我怀疑直接框定为'对恐惧的确认'，压缩了来访者自主展开的空间。\",\"response_appropriateness\":\"语言基本尊重，但引入了来访者未使用的概念（'被讨厌''破坏关系''安全'），带有理论预设色彩，且忽略了来访者'自己都觉得有点好笑'这一带自嘲意味的情绪质地。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"这种对\"被讨厌\"或\"破坏关系\"的恐惧，是不是让你觉得，只有维持那个\"不计较、好说话\"的形象，才是安全的？\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"引入'被讨厌''破坏关系''安全'等来访者未曾使用的术语，将咨询师的分析框架强加于来访者的体验之上\",\"未回应来访者'自己都觉得有点好笑'这一带有自嘲和初步觉察距离感的情绪细节\",\"探索方向偏封闭，用'是不是'引导来访者确认咨询师的假设而非开放地邀请其继续描述\"]}",
+  "request_sha256": "00350815e209de0dce335fd9ea361b0c3365243236a16d3b3979be1f61da8cb2",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8830,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 367,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9197,
+    "x_details": [
+      {
+        "input_tokens": 8830,
+        "output_tokens": 367,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 9197,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

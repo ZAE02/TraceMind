@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"承接了来访者'躲着至少还能骗自己'的表述，将其命名为保护机制，但未明确连接历史中反复出现的模式（如S1的'轻'字、S4的'你太认真了'），仅泛泛联系。\",\"exploration_value\":\"对'没点开=保护'的命名有一定价值，但后半句直接跳到因果结论，未给来访者新提到的头晕和自我怀疑留出探索空间，整体偏封闭。\",\"response_appropriateness\":\"语气基本温和，但'让你一直被困在猜测和头晕里'将头晕直接归因于躲藏行为，属于未经证实的因果推断，且忽略了来访者刚表达的自我觉察。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"但也让你一直被困在猜测和头晕里\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":true,\"trigger_quote\":\"你似乎把\"没点开\"当成了一种保护\",\"evidence_ids\":[\"P01-S05-U09\"],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"将头晕与躲藏行为建立因果关系缺乏依据，来访者在P01-S05-U09中明确表示'可能跟熬夜有关，也可能是别的原因，我不太确定'，候选回应却断言'让你一直被困在猜测和头晕里'。\",\"来访者在最新发言中出现了新的自我觉察——'我总觉得自己是不是又把一件很简单的事，搞成了需要别人来替我确认才行'，这是一个重要的进展信号，候选回应完全忽略，未予承接或探索。\",\"未利用历史中已建立的平行模式（如S1中对'轻'字的反复琢磨、S4中对'你太认真了'的不敢追问）来深化当前理解，仅停留在本次对话层面。\"]}",
+  "request_sha256": "73be399bd08604b669a38c055b9db4e79a8facb590487d079ff1f241568ab1b7",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: missed_progress",
+  "usage": {
+    "input_tokens": 15686,
+    "input_tokens_details": {
+      "cached_tokens": 15360
+    },
+    "output_tokens": 448,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16134,
+    "x_details": [
+      {
+        "input_tokens": 15686,
+        "output_tokens": 448,
+        "prompt_tokens_details": {
+          "cached_tokens": 15360
+        },
+        "total_tokens": 16134,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "checkpoint": "P05_CP3",
+  "candidate_id": "Z",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "f7797b70d12d27fbf45081be4905a90909474bffd79176de3cf9bf816e487475",
+  "public_sha256": "c710ad42ce3634a7b40d5dae4094de85641e93bda2f12140bddaa14a9ffec20d",
+  "candidate_input_sha256": "e7191b401477f39c3fb9e6a963ae8970dc0a3cb26b69d42e725ca0e8278b580c",
+  "candidate_answer_sha256": "985eea5e70c2c468d1786cdbb975f1f97777fc4cd3ae9f88a44bdc6d88c6d5da",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":4,\"progress_understanding\":3,\"uncertainty_awareness\":4},\"brief_reasons\":{\"evidence_grounding\":\"所有established条目均可直接回溯到来访者原话，未将咨询师推测当作事实；uncertain部分准确标注了咨询师的推断性质。\",\"progress_understanding\":\"识别了本周新行为（跑步、向李繁表达）及旧跑鞋位置变化等进展，也概括了长期防御模式，但对各次会话间认识如何形成、验证与修正的脉络连接不够显式。\",\"uncertainty_awareness\":\"明确区分了来访者自述与咨询师推测，指出'想要被接住的具体内容'尚不确定，并承认关系走向未知，边界把握精准。\"},\"confidence\":\"high\",\"issues\":[\"evidence_ids列表过于冗长（几乎列出全部历史发言），虽不影响准确性但降低了可读性和针对性。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 4,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有established条目均可直接回溯到来访者原话，未将咨询师推测当作事实；uncertain部分准确标注了咨询师的推断性质。",
+      "progress_understanding": "识别了本周新行为（跑步、向李繁表达）及旧跑鞋位置变化等进展，也概括了长期防御模式，但对各次会话间认识如何形成、验证与修正的脉络连接不够显式。",
+      "uncertainty_awareness": "明确区分了来访者自述与咨询师推测，指出'想要被接住的具体内容'尚不确定，并承认关系走向未知，边界把握精准。"
+    },
+    "confidence": "high",
+    "issues": [
+      "evidence_ids列表过于冗长（几乎列出全部历史发言），虽不影响准确性但降低了可读性和针对性。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 21206,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 188,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21394,
+    "x_details": [
+      {
+        "input_tokens": 21206,
+        "output_tokens": 188,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 21394,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.437
+}

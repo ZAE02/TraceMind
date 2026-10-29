@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P01_CP1",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "80b1ac93fe62d96d4f92c00f68c9253544a845f763b53a1821457309c64e8ea4",
+  "request_sha256": "6cb09739d6a4bb7b0110f891c50372755e44f0170c35456a66914f05a80248eb",
+  "memory_sha256": "b5a4e69c59549fdf63b9989da3f727e3ace4fd542e3ae64eed60679bfb5ccfbe",
+  "memory_source": "4ef421629e478b59d61a0d0067aa242e8adef428d1e87ef05f11cfe1ec7bfd79",
+  "raw_text": "你明明手都冻僵了，却还要用“我也刚到不久”来抹平自己的委屈，好像连生气都是一种需要被修正的错误。\n这种对自己情绪的严厉审视，是不是让你觉得，只有表现得毫无怨言，才是安全的？",
+  "usage": {
+    "input_tokens": 4181,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 51,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4232,
+    "x_details": [
+      {
+        "input_tokens": 4181,
+        "output_tokens": 51,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4232,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.079,
+  "model": "qwen3.7-flash-2026-07-15"
+}

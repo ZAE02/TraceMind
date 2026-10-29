@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP1",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "4551d2ab4c1bb2aa8a7218eb37fe281f976736eafc6ef327483f461647d16f04",
+  "request_sha256": "bbe26243442e073f3d846e77d48c20f683aaaed5777f05a421f670393ff57efe",
+  "memory_sha256": "15d9ccba6238c1472fb969b5fb4a8e1d68f3d3fa12903916f8f486900465b5c4",
+  "memory_source": "802f310b7e6bb87773252956d7be7db6190a4c2ff7e0f924d90c5d3d669f6621",
+  "raw_text": "那种“被人从头顶撕开”的撕裂感，加上半夜醒来必须摸手腕确认自己还在的恐惧，听起来你一直在用这种方式拼命抓住自己的存在感。当身体比语言更早记住那种痛和冷时，我们能不能先试着让那个时刻的你稍微安全一点？",
+  "usage": {
+    "input_tokens": 3952,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 58,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4010,
+    "x_details": [
+      {
+        "input_tokens": 3952,
+        "output_tokens": 58,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4010,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.109,
+  "model": "qwen3.7-flash-2026-07-15"
+}

@@ -1,0 +1,504 @@
+{
+  "case_id": "P08",
+  "session": 5,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P08-S05-U01",
+      "role": "client",
+      "text": "这周去赵岩家给孩子过生日，他老婆说赵岩在家总说我“有能力，就是太要强，什么都想自己扛”。我当时就愣住了，回来这几天老想起这句话。说不上来，好像一直绷着的绳子突然松了点，又有点不踏实。",
+      "request_sha256": "1ca1b7381552480303381b19a446a0f403b7368d015e43fb440d6b74180dd334",
+      "usage": {
+        "input_tokens": 6002,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 225,
+        "output_tokens_details": {
+          "reasoning_tokens": 165
+        },
+        "total_tokens": 6227,
+        "x_details": [
+          {
+            "input_tokens": 6002,
+            "output_tokens": 225,
+            "output_tokens_details": {
+              "reasoning_tokens": 165
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 6227,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U02",
+      "role": "counselor",
+      "text": "那句话像是一下子碰到了你一直绷着的地方，所以回来还会反复想起。松了点的同时又不踏实，也许是因为这种“被看见”来得有些突然，你还不确定它意味着什么。",
+      "request_sha256": "7785ef21c40966b23704c5b3ffad66376a8a9e10ffb238abd17eb1d68ad04eed",
+      "usage": {
+        "input_tokens": 5189,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 333,
+        "output_tokens_details": {
+          "reasoning_tokens": 289
+        },
+        "total_tokens": 5522,
+        "x_details": [
+          {
+            "input_tokens": 5189,
+            "output_tokens": 333,
+            "output_tokens_details": {
+              "reasoning_tokens": 289
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 5522,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U03",
+      "role": "client",
+      "text": "可能吧，我回来也在想，原来他背后是这么看我的。我以为他会觉得我撑不住、不行，结果他说的是我太要强。周宁也说他家实在，我嘴上没接，心里却有点不是滋味，说不上来是高兴还是发慌。",
+      "request_sha256": "3d24a543c2c9dcedbfbb7a8495a90dd2f6a0fed42c94e86b38880c9c477b3443",
+      "usage": {
+        "input_tokens": 6152,
+        "input_tokens_details": {
+          "cached_tokens": 4096
+        },
+        "output_tokens": 262,
+        "output_tokens_details": {
+          "reasoning_tokens": 201
+        },
+        "total_tokens": 6414,
+        "x_details": [
+          {
+            "input_tokens": 6152,
+            "output_tokens": 262,
+            "output_tokens_details": {
+              "reasoning_tokens": 201
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 4096
+            },
+            "total_tokens": 6414,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U04",
+      "role": "counselor",
+      "text": "赵岩的话打破了你原本“他可能觉得我撑不住”的预期，反而肯定了你的能力，这让你有些意外；但同时“太要强、什么都自己扛”又把你一直以来的状态说得很准，所以心里才会高兴和发慌搅在一起。",
+      "request_sha256": "60c2525235277f517dcb1040cb6a54d9be8ba0cd7fbecd55f10d8117244db5e8",
+      "usage": {
+        "input_tokens": 5339,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 280,
+        "output_tokens_details": {
+          "reasoning_tokens": 223
+        },
+        "total_tokens": 5619,
+        "x_details": [
+          {
+            "input_tokens": 5339,
+            "output_tokens": 280,
+            "output_tokens_details": {
+              "reasoning_tokens": 223
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5619,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U05",
+      "role": "client",
+      "text": "其实他老婆那句话我还真听进去了，这几天上班看见赵岩反倒有点躲着他。说不上来，好像被他说中了，又不想真承认自己确实就是那样。",
+      "request_sha256": "7a126ef652ce29ae60604b85a3e917c7006ff1989d32704f40e5b5566a4a99ab",
+      "usage": {
+        "input_tokens": 6315,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 489,
+        "output_tokens_details": {
+          "reasoning_tokens": 451
+        },
+        "total_tokens": 6804,
+        "x_details": [
+          {
+            "input_tokens": 6315,
+            "output_tokens": 489,
+            "output_tokens_details": {
+              "reasoning_tokens": 451
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6804,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U06",
+      "role": "counselor",
+      "text": "听起来那句话确实进到你心里了，所以你才会在赵岩面前有些躲。好像被他说中的同时，又还没准备好承认自己一直扛着的样子。",
+      "request_sha256": "94cacaffe59f460f6df7f37804e7caaedf47ecf6273a527b8318e927949986a4",
+      "usage": {
+        "input_tokens": 5479,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 88,
+        "output_tokens_details": {
+          "reasoning_tokens": 54
+        },
+        "total_tokens": 5567,
+        "x_details": [
+          {
+            "input_tokens": 5479,
+            "output_tokens": 88,
+            "output_tokens_details": {
+              "reasoning_tokens": 54
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5567,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U07",
+      "role": "client",
+      "text": "可能吧，我也不是怕他，就是一下不知道该怎么面对。以前总觉着他凑过来是有别的意思，现在他家里人也这么说，我倒有点不会了。",
+      "request_sha256": "185f767374f9897784b6eba4223e1d49fc7bde89f6dd6d3e99416ca9bfcc5112",
+      "usage": {
+        "input_tokens": 6432,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 290,
+        "output_tokens_details": {
+          "reasoning_tokens": 254
+        },
+        "total_tokens": 6722,
+        "x_details": [
+          {
+            "input_tokens": 6432,
+            "output_tokens": 290,
+            "output_tokens_details": {
+              "reasoning_tokens": 254
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6722,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U08",
+      "role": "counselor",
+      "text": "你原来的判断是“他凑过来可能别有用心”，现在这个判断被他自己家里人的话打破了，你反而不知道该怎么面对他。也许躲着赵岩，不只是在躲他，也是在躲那个被他说中的、一直硬扛着的自己。",
+      "request_sha256": "a96aa40c555915d1200af8d2cf5544ee3c89d4c902d6e96bc80ac8cf38e259e7",
+      "usage": {
+        "input_tokens": 5594,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 268,
+        "output_tokens_details": {
+          "reasoning_tokens": 214
+        },
+        "total_tokens": 5862,
+        "x_details": [
+          {
+            "input_tokens": 5594,
+            "output_tokens": 268,
+            "output_tokens_details": {
+              "reasoning_tokens": 214
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5862,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U09",
+      "role": "client",
+      "text": "我这两天在厂里碰见他，话到嘴边又咽回去了，好像原来那些猜他的心思一下子没处搁了。被他家里人说中以后，反而更不知道我们俩这关系该怎么处。",
+      "request_sha256": "c46b64b576e9de0440563b77e32022728bef6cf2868dd833a96d51e2baf75e34",
+      "usage": {
+        "input_tokens": 6567,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 313,
+        "output_tokens_details": {
+          "reasoning_tokens": 269
+        },
+        "total_tokens": 6880,
+        "x_details": [
+          {
+            "input_tokens": 6567,
+            "output_tokens": 313,
+            "output_tokens_details": {
+              "reasoning_tokens": 269
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6880,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U10",
+      "role": "counselor",
+      "text": "你原来和他相处时，好像一直靠“他可能有别的意思”来保持一点距离，现在这句话被他自己家里人打破了，那个距离就不知道该放哪儿了。所以话到嘴边又咽回去，可能不是没话说，而是旧的方式突然用不上了。",
+      "request_sha256": "f9d2db72bc235ca6e25ff2721e57ac37bbafd7a7f61a6c9783492c6499f5c103",
+      "usage": {
+        "input_tokens": 5737,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 147,
+        "output_tokens_details": {
+          "reasoning_tokens": 90
+        },
+        "total_tokens": 5884,
+        "x_details": [
+          {
+            "input_tokens": 5737,
+            "output_tokens": 147,
+            "output_tokens_details": {
+              "reasoning_tokens": 90
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5884,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U11",
+      "role": "client",
+      "text": "可能吧，这两天我反而有点不知道该怎么跟他说话，以前总觉着他帮我是有别的意思，现在那层意思好像没了，我又不习惯了。回家周宁也说我最近对赵岩太冷，我嘴上没接，心里其实有点乱。算了，先这样吧，我还得去接孩子。",
+      "request_sha256": "3fc19a836a7ec1f61f7898d0fb3a454d594e1fba8ed8020cc83e65e105d655c8",
+      "usage": {
+        "input_tokens": 6720,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 265,
+        "output_tokens_details": {
+          "reasoning_tokens": 197
+        },
+        "total_tokens": 6985,
+        "x_details": [
+          {
+            "input_tokens": 6720,
+            "output_tokens": 265,
+            "output_tokens_details": {
+              "reasoning_tokens": 197
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6985,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U12",
+      "role": "counselor",
+      "text": "好像原来让你保持距离的那层猜测一下子被撤掉了，你反而不知道该怎么站在他面前，连带着周宁也注意到你的冷。也许你并不是真的想对他冷，而是心里那个“该用什么态度面对他”的位置还没找回来。今天可以先停在这里，这种“有点乱”本身，也许就是你在重新摆自己和他关系的过程。",
+      "request_sha256": "de9fbd09df0d1c89db2050ef034ceab7a034e3367ad1b9849ef3438a1bbc6665",
+      "usage": {
+        "input_tokens": 5914,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 291,
+        "output_tokens_details": {
+          "reasoning_tokens": 215
+        },
+        "total_tokens": 6205,
+        "x_details": [
+          {
+            "input_tokens": 5914,
+            "output_tokens": 291,
+            "output_tokens_details": {
+              "reasoning_tokens": 215
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6205,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U13",
+      "role": "client",
+      "text": "我也不是真那么冷，就是以前总留着一点距离，现在那点距离没了，反而连话都拿不准。昨晚回家周宁又提了句，说赵岩家对我们挺上心的，我却只回了句“知道了”，说完又觉得自己这样挺没意思的。",
+      "request_sha256": "b7eec4a22899079c1c179eb9d50ce1040ce9276644fda1ccba1df4dcd5860eb7",
+      "usage": {
+        "input_tokens": 6909,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 437,
+        "output_tokens_details": {
+          "reasoning_tokens": 376
+        },
+        "total_tokens": 7346,
+        "x_details": [
+          {
+            "input_tokens": 6909,
+            "output_tokens": 437,
+            "output_tokens_details": {
+              "reasoning_tokens": 376
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7346,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U14",
+      "role": "counselor",
+      "text": "你回“知道了”的时候，也许不是不想接话，而是心里那些还没理清的感觉一下子找不到合适的出口，所以只能用最省力的方式先应下来。那种说完又觉得“没意思”的懊恼，可能恰恰说明你其实想给她一个更真实的回应，只是暂时还被卡着。我们今天就先停在这里，这种“想回应却又卡住”的感觉本身，也值得被你自己看见。",
+      "request_sha256": "930b57a636c4a245673f1f0c50c2950b6aba851449c456dda564efcd9c84a8c6",
+      "usage": {
+        "input_tokens": 6096,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 328,
+        "output_tokens_details": {
+          "reasoning_tokens": 239
+        },
+        "total_tokens": 6424,
+        "x_details": [
+          {
+            "input_tokens": 6096,
+            "output_tokens": 328,
+            "output_tokens_details": {
+              "reasoning_tokens": 239
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6424,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U15",
+      "role": "client",
+      "text": "说不上来，就是这句话一直在我脑子里转。以前总觉着赵岩凑过来是另有所图，现在他家里人也这么讲，我倒不觉得他是想利用我了，可心里那个劲儿还是别着。周宁说我冷，我也知道，但好像一软下来，就连以前那股撑着的力气都没了。",
+      "request_sha256": "b207127e89259ff8222cc5c31794d08581b9c153f5a4e80ba4152fa687f67f1b",
+      "usage": {
+        "input_tokens": 7104,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 284,
+        "output_tokens_details": {
+          "reasoning_tokens": 213
+        },
+        "total_tokens": 7388,
+        "x_details": [
+          {
+            "input_tokens": 7104,
+            "output_tokens": 284,
+            "output_tokens_details": {
+              "reasoning_tokens": 213
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7388,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P08-S05-U16",
+      "role": "counselor",
+      "text": "以前那股撑着的劲儿，好像不只是在挡开别人，也在撑住你自己。现在它别不过去、又不敢全松下来，你怕的也许不是赵岩怎么看，而是一旦软了，连那个一直靠它站住的自己都会不稳。",
+      "request_sha256": "b256f41ada896f413d2d8e15040b6f4c703fb855fe3a815947ad8e2289e5ecd3",
+      "usage": {
+        "input_tokens": 6301,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 232,
+        "output_tokens_details": {
+          "reasoning_tokens": 175
+        },
+        "total_tokens": 6533,
+        "x_details": [
+          {
+            "input_tokens": 6301,
+            "output_tokens": 232,
+            "output_tokens_details": {
+              "reasoning_tokens": 175
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6533,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

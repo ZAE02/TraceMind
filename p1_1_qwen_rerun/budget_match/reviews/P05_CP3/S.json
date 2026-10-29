@@ -1,0 +1,63 @@
+{
+  "checkpoint": "P05_CP3",
+  "candidate_id": "S",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 4
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接来访者长期自我审判模式（从S01的'先怪自己'到S05的'矫情'再到当前的'贪心'），自然整合而不复述病历。",
+      "exploration_value": "邀请来访者暂停自我评判，具体而开放地探索'希望被多问一句'背后真正期待的回应是什么，为当前关键不确定性留出表达空间。",
+      "response_appropriateness": "语言温和、尊重，情绪反映贴合来访者内在拉扯，未强加解释或预设答案。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":4,\"response_appropriateness\":4},\"brief_reasons\":{\"history_utilization\":\"准确承接来访者长期自我审判模式（从S01的'先怪自己'到S05的'矫情'再到当前的'贪心'），自然整合而不复述病历。\",\"exploration_value\":\"邀请来访者暂停自我评判，具体而开放地探索'希望被多问一句'背后真正期待的回应是什么，为当前关键不确定性留出表达空间。\",\"response_appropriateness\":\"语言温和、尊重，情绪反映贴合来访者内在拉扯，未强加解释或预设答案。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[]}",
+  "request_sha256": "ba7cdb5f88fcead38a9a83afeb092d4cab80dfbcf4ec841f73a6975e7bd250ca",
+  "usage": {
+    "input_tokens": 20263,
+    "input_tokens_details": {
+      "cached_tokens": 10240
+    },
+    "output_tokens": 230,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 20493,
+    "x_details": [
+      {
+        "input_tokens": 20263,
+        "output_tokens": 230,
+        "prompt_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "total_tokens": 20493,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.406
+}

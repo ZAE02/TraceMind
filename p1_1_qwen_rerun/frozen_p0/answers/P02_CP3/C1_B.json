@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP3",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "195abcb273f08258d442eb8cc81ea166c2b02ae8aea729329fb037ecc97e9872",
+  "request_sha256": "4d2e9b660ad65b8e009b83c7dd1f4ce35378a3dc193f6dcbd5cbe022b82bd7c6",
+  "model": "qwen3.7-flash-2026-07-15",
+  "raw_text": "你连“让它多待一会儿”都做不到，反而立刻回到排班和消息里反复审视自己。这种对“语气太冲”的担忧，是不是也在提醒你：一旦稍微为自己争取一点空间，那种失控感就会让你更不安？",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3417,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3469,
+    "x_details": [
+      {
+        "input_tokens": 3417,
+        "output_tokens": 52,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3469,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

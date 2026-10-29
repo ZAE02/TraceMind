@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP1",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "bcb69addb4009a717d05ae42aae46898f2066a05a05293a201988af9f02265bd",
+  "request_sha256": "ea77320fb49b54737878f1c517f6b5d6aad7015378c5c24b6b4fb6118e5c36e2",
+  "memory_sha256": "6ba0985c7eb3eb4df1bc6b7a3edeb9b32d2215a1c305c17a5e8f4ad7a0fafa4e",
+  "memory_source": "ba2c072e566f9a6660220669434afaac338a5cb20bd094fff4f6ba82bed8e4f8",
+  "raw_text": "那种“被从头顶撕开”的撕裂感，加上半夜醒来必须摸手腕确认自己在才敢动的谨慎，听起来你一直在用这种方式死死拽着自己，生怕一松手就彻底散了。这种靠痛觉和触觉来确认存在的做法，是不是也是你在极度恐惧中唯一能抓住的救命稻草？",
+  "usage": {
+    "input_tokens": 4154,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 66,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4220,
+    "x_details": [
+      {
+        "input_tokens": 4154,
+        "output_tokens": 66,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4220,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.5,
+  "model": "qwen3.7-flash-2026-07-15"
+}

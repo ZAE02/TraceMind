@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C02",
+  "session_number": 8,
+  "relative_week": 8,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6-luna/low",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T06:04:30.117563+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C02-S08-U04",
+          "C02-S08-U06"
+        ],
+        "explanation": "“不用等谁确认”“你自己也接得住”略提前总结来访者的应对能力，证据有限，但未形成严重不当咨询。"
+      },
+      {
+        "utterance_ids": [
+          "C02-S08-U14",
+          "C02-S08-U18"
+        ],
+        "explanation": "咨询师称整体稳，来访者明确修正为不完全是稳；末段仍复述稳，稍微压过其修正，不过已反映她不再顺着计较念头继续想。"
+      }
+    ],
+    "transcript_sha256": "1bd04373d03ba22e65c982e5c08a5492eecea4a0dabaecb66cc5c3a6810816c8"
+  },
+  "created_at": "2026-10-13T05:59:38.632795+00:00",
+  "config_hash": "9b9eb0497700c0128f77c4ee366739c3608cf6ad91bb7d5df511ad5e9087a89d",
+  "prompt_version": "pilot-v9-user-authorized-low-effort",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v9-user-authorized-low-effort",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": false,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。保留来访者最新修正和事件状态；尚未做的事情不写成已做。不确定仍可以依据具体历史继续探索，不预设必须有困扰。",
+    "counselor_process_instruction": "请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。来访者修正了你的解释，后续应采用修正，不再把旧说法作为事实。不确定仍可以用已经公开的具体例子继续探索，不能反复以一次定不了结束讨论。先了解来访者此时想谈什么，不预设他一定苦恼或已经完全改变。",
+    "role_reasoning_effort": {
+      "client": "low",
+      "counselor": "low"
+    },
+    "client_process_instruction": "只输出本轮来访者1–4句实际发言。这是同一场连续谈话，角色没有离开会话去执行工作。你刚说尚未做、打算做的事情，在本场仍未做；被问结果时说明未做，不为配合问话编造已经运行、已验证或新结果。保持当前卡片人物和事件事实，可不同意咨询师。回顾此前会话的生活事件时，优先用之前那次、上次聊过的，不要直接把旧对话的这周、上周当成当前周；会话通常相隔一周。不要给出角色说明。"
+  },
+  "utterances": [
+    {
+      "id": "C02-S08-U01",
+      "role": "client",
+      "text": "这周……周五下午阿敏又走过来了，说有个数据让我帮忙看一下。我这次没全接，就说了我帮她看一个关键数字，其他她明天自己弄就行。\n\n也不是多大的事，就是……发完那条消息之后，有一点点内疚，但好像没上次那么想补发消息把剩下的接回来。",
+      "call_id": "e9f61e4dbb784d70b3596d1193b83455",
+      "response_id": "resp_46870b08-acbb-91d7-9617-1794324615f1",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:59:48.054183+00:00"
+    },
+    {
+      "id": "C02-S08-U02",
+      "role": "counselor",
+      "text": "上次那个想补发把剩下的接回来的念头，这次轻了。那个一点点内疚，大概是在过什么？",
+      "call_id": "2f0d099ed16d4005820a13ea04853f53",
+      "response_id": "resp_02070966-f290-926b-8124-1bc5a353ed99",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:00:04.828192+00:00"
+    },
+    {
+      "id": "C02-S08-U03",
+      "role": "client",
+      "text": "就是……想着她明天要自己弄剩下的那部分，会不会有点麻烦。而且我帮她看的就一个数字，其他的都推回去了，就……有点觉得自己是不是太小气了。但转念又想，我今晚确实还有报表没做完，所以也没法说完全不对。",
+      "call_id": "9548f732392a4d0ab715fc60aa4bf955",
+      "response_id": "resp_d7bb89a0-0edf-9354-a2a1-2157f7617db2",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:00:12.764834+00:00"
+    },
+    {
+      "id": "C02-S08-U04",
+      "role": "counselor",
+      "text": "那个转念是你自己接上来的，不用等谁确认。那个一点点内疚，现在还在，还是已经过去了？",
+      "call_id": "edc6571f2f654984979cd42f0d751e3b",
+      "response_id": "resp_ffc3e0a5-b94b-9ed7-a2d9-36a946cc7100",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:00:25.563519+00:00"
+    },
+    {
+      "id": "C02-S08-U05",
+      "role": "client",
+      "text": "嗯……应该还在吧，就是……没那么堵了。就是那种，你不用一直想着它，但它就搁在那儿，偶尔想起来一下。跟上次赵哥那个\"搁着\"的感觉有点像，但轻很多，就是……我知道我这次没做错，但那个\"小气\"的念头还是会自己弹一下。",
+      "call_id": "9721b40fdf6643b08e610da5d063223a",
+      "response_id": "resp_3a0458ad-aff7-93c0-a000-e4032de7fb91",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:00:32.001972+00:00"
+    },
+    {
+      "id": "C02-S08-U06",
+      "role": "counselor",
+      "text": "那个弹一下，你不用替它找理由，它弹完你自己也接得住了。这次除了阿敏这个，还有别的想聊的吗？",
+      "call_id": "83010e8d24324213b5176cd9f252343b",
+      "response_id": "resp_ce3d26f7-ec39-93ce-b174-b8f010885224",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:00:39.145911+00:00"
+    },
+    {
+      "id": "C02-S08-U07",
+      "role": "client",
+      "text": "嗯……没有特别大的事。就是那个松，我回去确实留意了一下，周一上班的时候好像……又有一点点，但我也没太确定，就是发完消息之后那个劲儿，好像比上次短，但我说不清是它真的在，还是我自己在找它。",
+      "call_id": "00508cf7bf2c440ca9aec7e5a8e3fffe",
+      "response_id": "resp_7cd3ac8c-da06-943a-b980-0dbf4faf7e41",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:00:48.606165+00:00"
+    },
+    {
+      "id": "C02-S08-U08",
+      "role": "counselor",
+      "text": "那个比上次短，但你又不确定是不是自己在找它——这个\"找\"和\"真的在\"，你当时能分得开吗，还是就是混在一起，只觉得有一点点什么，但抓不太住？",
+      "call_id": "2c7cbb144ad44502b59bfa366ad9c3e6",
+      "response_id": "resp_fee9ff7b-4ea5-9000-8121-2f6a17bd9fba",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:00:58.604403+00:00"
+    },
+    {
+      "id": "C02-S08-U09",
+      "role": "client",
+      "text": "嗯……我想了想，好像就是混在一起的。就是周一发完那条消息之后，有一个很短的……不是松吧，就是那种\"哦，发完了\"的感觉，然后我就开始想，这是不是就是那个松。但我也没法确认，因为我没有一个\"它应该是什么样子\"的标准，所以……可能真的是我在找它，也可能它真的在，就是分不清。",
+      "call_id": "da4f9140c68d468a98be3db473a86da4",
+      "response_id": "resp_71548da2-5f45-9606-8a15-b61cbb8fe051",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:01:05.730655+00:00"
+    },
+    {
+      "id": "C02-S08-U10",
+      "role": "counselor",
+      "text": "那个松你之前从来没确认过它长什么样，现在没有标准去对，分不清就分不清吧，不用非得抓住它才算数。这周还有别的什么，或者就停在这儿也行。",
+      "call_id": "d2f08974e33047f3a302702a27815ee0",
+      "response_id": "resp_ce8e1880-35b0-9562-9b86-4979b12658b9",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:01:16.153192+00:00"
+    },
+    {
+      "id": "C02-S08-U11",
+      "role": "client",
+      "text": "嗯……\"分不清就分不清吧\"，我听着觉得……好像是，就是我一直想给它一个确认，但可能它现在确实还没到那个程度。这周悦悦那边周六正常去了，一起做了饭，没什么特别的。就是那个\"我的越来越薄\"，我这几天躺下的时候还是会想到，但好像……也没变得更薄，就是还是那个感觉。",
+      "call_id": "55349b2269dd45cb8f00b7bc99d50ed2",
+      "response_id": "resp_87aac7aa-15cb-9210-8b70-123d5cdf9d57",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:01:35.743219+00:00"
+    },
+    {
+      "id": "C02-S08-U12",
+      "role": "counselor",
+      "text": "周六正常去了，这个我记着。那个薄还是那个感觉，没变——它待在那儿的时候，你偶尔会专门去想它，还是说它已经更像一种背景了，不专门想它的时候其实不太占地方？",
+      "call_id": "37502e69a3b54259a208abebd3bee513",
+      "response_id": "resp_dffcc138-c0c7-9b8a-b093-e344d9c4eaeb",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:02:05.580822+00:00"
+    },
+    {
+      "id": "C02-S08-U13",
+      "role": "client",
+      "text": "嗯……不专门想的时候，确实不太占地方，就是……它在那儿，但我不会专门去翻它。但躺下来的时候它会自己出来，不是我去想的，就是……脑子一松它就来了。所以好像是……背景？但那个背景偶尔会自己亮一下。",
+      "call_id": "d1eddf52040c4650993076654387552d",
+      "response_id": "resp_b414ea1c-0b49-9fe5-a49a-ea9261f0cffd",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:02:13.384699+00:00"
+    },
+    {
+      "id": "C02-S08-U14",
+      "role": "counselor",
+      "text": "那个背景偶尔亮一下，听着像是它还在，但已经不需要你专门去翻它了。这周整体好像比前几周稳一些，还有别的什么在的吗？",
+      "call_id": "301a7940e6924219a7f8feaa0fc53f41",
+      "response_id": "resp_b20df7d6-3237-9a94-8e3a-08ee9c2f278b",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:02:22.930422+00:00"
+    },
+    {
+      "id": "C02-S08-U15",
+      "role": "client",
+      "text": "嗯……\"稳一些\"，我听着觉得好像也不是，就是……事情本身确实没有比之前多，但那个\"搁着\"的感觉好像确实轻了点。要说别的……好像没有特别的事，就是偶尔还是会想，我这样是不是太计较了，但那个念头弹一下我就知道了，不会像之前那样接着往下想。",
+      "call_id": "158fd1b3217849b69a8c5b15e8221e89",
+      "response_id": "resp_91c26744-0479-9445-b516-9b8eb584ebe2",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:02:33.171851+00:00"
+    },
+    {
+      "id": "C02-S08-U16",
+      "role": "counselor",
+      "text": "那个弹一下就知道了，不接着往下走了——这个停住，你自己留意到的时候，是什么感觉？",
+      "call_id": "c6f0b9e5702f4ee1879adcf14d8cc645",
+      "response_id": "resp_46d5dba1-ac8b-97f6-a530-5efd5d09fe98",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:02:39.545707+00:00"
+    },
+    {
+      "id": "C02-S08-U17",
+      "role": "client",
+      "text": "就是……好像也没特别的感觉。就是那个念头弹出来，我\"哦\"了一下，然后就没再想了。以前会接着往下走，这次好像……就是没走。说不上来是松还是什么，就是没走而已。",
+      "call_id": "c25a36c79e2449e6847460f591dd76ad",
+      "response_id": "resp_4a268006-d5b7-9593-98a5-348d03d83b23",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:02:50.718751+00:00"
+    },
+    {
+      "id": "C02-S08-U18",
+      "role": "counselor",
+      "text": "没走就是没走，不用非得给它一个名字。这周整体听着是稳的，周六也正常去了，那个薄还在但没变薄，就让它待着吧。下次见。",
+      "call_id": "137e8f5c592f490c85055ed49f6d5545",
+      "response_id": "resp_d46f5752-2705-927c-9219-36565a70a32a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:02:57.977759+00:00"
+    },
+    {
+      "id": "C02-S08-U19",
+      "role": "client",
+      "text": "嗯……\"就让它待着吧\"，我听着觉得……行吧。就是那个薄，我可能也不会突然就不想了，但好像确实不用每次都去翻它了。那下次见吧。",
+      "call_id": "b5e377fa1a7a4c62a151108fe580959f",
+      "response_id": "resp_b07d603c-04f9-9b89-aac0-53d9b3b64e45",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:03:04.878169+00:00"
+    },
+    {
+      "id": "C02-S08-U20",
+      "role": "counselor",
+      "text": "嗯，不用每次都去翻它，它在那儿就在那儿。下次见。",
+      "call_id": "8ed9721797fc4542a327fb2ea10add89",
+      "response_id": "resp_b7114839-c0cd-90cb-9db1-59bc5db5cfcb",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T06:03:14.977706+00:00"
+    }
+  ],
+  "updated_at": "2026-10-13T06:03:14.977706+00:00",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-13T06:03:14.979707+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C02/S08.json"
+}

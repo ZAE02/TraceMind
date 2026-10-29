@@ -1,0 +1,11 @@
+{
+  "node": "N01",
+  "public_input_sha256": "8a3293f599e1b9e2e9033635346f3489d597041bc38dbb5bf24c050572bd2509",
+  "needs_history": true,
+  "reason": "当前话轮仅能看到忙碌与陪母亲后再次检查文件；历史显示重复检查在他人确认后仍持续，并可能由具体视觉位置自动牵引，因而会实质改变下一步探索。",
+  "historical_difference": "可具体核对本次又过文件与此前短暂确认后再检查、手先动及颜色位置的关系，同时避免把母亲体检直接解释为心理原因。",
+  "evidence_ids": ["C01-S02-U03", "C01-S02-U09", "C01-S02-U11", "C01-S02-U15", "C01-S02-U19", "C01-S03-U01"],
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "human_review_performed": false
+}

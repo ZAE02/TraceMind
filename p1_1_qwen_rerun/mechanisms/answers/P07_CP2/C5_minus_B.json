@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P07_CP2",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "f7af4ff6845eef39961c0d899974831dddb83b6981d1ccb4176f664a2f75f225",
+  "request_sha256": "2b51b44a277e2199a2e1029136deba4630ce919ea7a783b1afa9a0dfae6c3104",
+  "memory_sha256": "acb2e2aa1f0704f26d9091a8213eb0556f1d11249df219e224a67adbf39b27ca",
+  "memory_source": "bef5f6ea40f3058b2ed6ca4b6d55f72dcf3cf591acf4a577b169b872b47592f0",
+  "raw_text": "那种“做贼”的感觉，好像让你连承认自己渴望自由都变得小心翼翼。\n你其实比想象中更清楚自己想要什么——只是那个想要“再野一点”的自己，还没找到安全的出口。",
+  "usage": {
+    "input_tokens": 7438,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 43,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7481,
+    "x_details": [
+      {
+        "input_tokens": 7438,
+        "output_tokens": 43,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7481,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.297,
+  "model": "qwen3.7-flash-2026-07-15"
+}

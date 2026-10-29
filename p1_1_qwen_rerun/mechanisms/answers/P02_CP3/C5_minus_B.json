@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P02_CP3",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "5776429928c3f112779e9547f4ad98b62b3855b56431d57f2a90be1fac84d7d5",
+  "request_sha256": "ee83ba7cde273a58a6c59c412d7e99cb1d8d71ff5dce5105d8bbf1a6cc6aad5e",
+  "memory_sha256": "f5bf1b958c24eee38228ead2735a9d9d82c22dd262f44e9aed4e0b4e6a7690d0",
+  "memory_source": "68ed38d2ab747c528e52e3f6b8bd94c5d597cdb4baf95db90ebdd9bf817935f4",
+  "raw_text": "你连“让它多待一会儿”都做不到，身体和思绪还是被排班和那句对话框死死拽着。那种越看越觉得语气冲的焦虑，是不是又把你拉回了那个必须小心翼翼、生怕说错话的位置？",
+  "usage": {
+    "input_tokens": 9662,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 50,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9712,
+    "x_details": [
+      {
+        "input_tokens": 9662,
+        "output_tokens": 50,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 9712,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.062,
+  "model": "qwen3.7-flash-2026-07-15"
+}

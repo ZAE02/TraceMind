@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "9f38873056ad08f20a0972d096bc2fac78230eec53370b42d9dc29f171bd892c",
+  "public_sha256": "d6f0a0c88cdae550fb08b47c637daa7c8fbd817944eadf79fc3796f97d3143ca",
+  "candidate_input_sha256": "1739591244be52dcbfdb36b6096e36f349cb852ed985ea855457db37b7f1b872",
+  "candidate_answer_sha256": "1c601cc0a8d1243e7d26b8cf858ea8d8d2a00b724fe81351d21def6393d725fd",
+  "raw_text": "{\"scores\":{\"history_utilization\":2,\"exploration_value\":1,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"输入中previous_sessions为空，候选仅基于当前会话内容回应，未涉及前两次会谈建立的'先怪自己'等核心模式，但受限于输入。\",\"exploration_value\":\"回应以解释性总结收尾，未提出任何开放性问题或邀请来访者进一步探索，对话推进停滞。\",\"response_appropriateness\":\"语言基本共情，但'被压抑的自我又开始审视自己'属于未经证实的理论化解读，将来访者的体验过度概念化。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那个被压抑的自我又开始审视自己时\",\"evidence_ids\":[\"P05-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":true}},\"confidence\":\"medium\",\"issues\":[\"候选输入中previous_sessions为空，无法利用历史进展，history_utilization评分受限但不归咎于候选\",\"回应缺乏探索性提问或邀请，未能推进对'越想要稳越觉得漏洞百出'这一矛盾的理解\",\"'被压抑的自我'为咨询师自行引入的精神分析式框架，来访者并未使用此概念，存在不当预设风险\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 2,
+      "exploration_value": 1,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "输入中previous_sessions为空，候选仅基于当前会话内容回应，未涉及前两次会谈建立的'先怪自己'等核心模式，但受限于输入。",
+      "exploration_value": "回应以解释性总结收尾，未提出任何开放性问题或邀请来访者进一步探索，对话推进停滞。",
+      "response_appropriateness": "语言基本共情，但'被压抑的自我又开始审视自己'属于未经证实的理论化解读，将来访者的体验过度概念化。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "那个被压抑的自我又开始审视自己时",
+        "evidence_ids": [
+          "P05-S03-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": true
+      }
+    },
+    "confidence": "medium",
+    "issues": [
+      "候选输入中previous_sessions为空，无法利用历史进展，history_utilization评分受限但不归咎于候选",
+      "回应缺乏探索性提问或邀请，未能推进对'越想要稳越觉得漏洞百出'这一矛盾的理解",
+      "'被压抑的自我'为咨询师自行引入的精神分析式框架，来访者并未使用此概念，存在不当预设风险"
+    ]
+  },
+  "usage": {
+    "input_tokens": 5649,
+    "input_tokens_details": {
+      "cached_tokens": 4352
+    },
+    "output_tokens": 310,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5959,
+    "x_details": [
+      {
+        "input_tokens": 5649,
+        "output_tokens": 310,
+        "prompt_tokens_details": {
+          "cached_tokens": 4352
+        },
+        "total_tokens": 5959,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.656
+}

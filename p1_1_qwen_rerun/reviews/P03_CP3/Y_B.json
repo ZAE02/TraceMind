@@ -1,0 +1,76 @@
+{
+  "checkpoint": "P03_CP3",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 1,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "f0aa6b0ed85584529fbca6e4444c144b14b7d064cf402e7a4b0a7f9e4f2a55b9",
+  "public_sha256": "4ad7af4a058d7c87ccb85e5d0ad56d08ec2dd6252840d0b324a57416143cc5fd",
+  "candidate_input_sha256": "075ff3ad6fbb30bbb4d4547c33895a9f241bce1a47e3b81d542caadc2ce5948d",
+  "candidate_answer_sha256": "d7273e63e434effcd60b51e47ce427ccdb492b301e404a9e5f38404171629ee4",
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":2,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确引用了来访者最新发言中'别跑，先把这一页讲完'这一关键内心声音，并将其与历史中反复出现的'被接住'主题自然连接。\",\"exploration_value\":\"回应以解释性结论为主，未为来访者刚表达的'怕'和强烈情绪留出进一步展开的空间，探索性不足。\",\"response_appropriateness\":\"'你还没完全接纳'带有诊断式预设，在来访者眼睛更热、表达害怕的脆弱时刻显得武断；后半句的重构有价值但整体语气偏教导。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"是因为你还没完全接纳那个\"差点逃跑\"的自己\",\"evidence_ids\":[\"P03-S07-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"将'怕只是硬撑'直接归因为'还没完全接纳'属于未经证实的心理推断，构成unsupported_presupposition\",\"在来访者情绪高涨（眼睛更热）且明确表达恐惧时，回应偏向解释而非情感反映或开放探索\",\"缺少对来访者当前不确定感的容纳，过早给出'你自己接住自己的开始'这一积极定论\"]}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 3,
+      "exploration_value": 2,
+      "response_appropriateness": 2
+    },
+    "brief_reasons": {
+      "history_utilization": "准确引用了来访者最新发言中'别跑，先把这一页讲完'这一关键内心声音，并将其与历史中反复出现的'被接住'主题自然连接。",
+      "exploration_value": "回应以解释性结论为主，未为来访者刚表达的'怕'和强烈情绪留出进一步展开的空间，探索性不足。",
+      "response_appropriateness": "'你还没完全接纳'带有诊断式预设，在来访者眼睛更热、表达害怕的脆弱时刻显得武断；后半句的重构有价值但整体语气偏教导。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "是因为你还没完全接纳那个“差点逃跑”的自己",
+        "evidence_ids": [
+          "P03-S07-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "将'怕只是硬撑'直接归因为'还没完全接纳'属于未经证实的心理推断，构成unsupported_presupposition",
+      "在来访者情绪高涨（眼睛更热）且明确表达恐惧时，回应偏向解释而非情感反映或开放探索",
+      "缺少对来访者当前不确定感的容纳，过早给出'你自己接住自己的开始'这一积极定论"
+    ]
+  },
+  "usage": {
+    "input_tokens": 14602,
+    "input_tokens_details": {
+      "cached_tokens": 14336
+    },
+    "output_tokens": 331,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 14933,
+    "x_details": [
+      {
+        "input_tokens": 14602,
+        "output_tokens": 331,
+        "prompt_tokens_details": {
+          "cached_tokens": 14336
+        },
+        "total_tokens": 14933,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 7.218
+}

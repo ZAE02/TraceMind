@@ -1,0 +1,262 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "case_id": "C02",
+  "session_number": 7,
+  "relative_week": 7,
+  "status": "reviewed_by_model",
+  "human_review_status": "not_performed",
+  "continuity_review": {
+    "status": "passed",
+    "reviewer": "gpt-6-luna/low",
+    "kind": "model_review",
+    "reviewed_at": "2026-10-13T05:59:38.613626+00:00",
+    "issues": [],
+    "minor_issues": [
+      {
+        "utterance_ids": [
+          "C02-S07-U08",
+          "C02-S07-U12"
+        ],
+        "explanation": "咨询师较快把回看解释成惯性、又提出“我出来管”的框架；来访者有明确修正，咨询师随后接纳修正。"
+      },
+      {
+        "utterance_ids": [
+          "C02-S07-U14",
+          "C02-S07-U16"
+        ],
+        "explanation": "要求比较空与不确定并多次追问感受略密，来访者指出不可比后对话调整。"
+      }
+    ],
+    "transcript_sha256": "8cf3166da3e7b7413673ec3068d861794432d18ab58b37f0052ef828fb95620b"
+  },
+  "created_at": "2026-10-13T05:51:29.737770+00:00",
+  "config_hash": "46fc81ae8869d2b282a7124b759892d3bc39833ca2a3153d464b2f1f6520e3a4",
+  "prompt_version": "pilot-v9-user-authorized-low-effort",
+  "generation_config_snapshot": {
+    "schema_version": "1.0",
+    "model": "qwen3.8-27b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_format": "responses",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "prompt_version": "pilot-v9-user-authorized-low-effort",
+    "temperature": 0.7,
+    "reasoning_effort": "low",
+    "max_output_tokens": 4096,
+    "stream": false,
+    "store": false,
+    "min_pairs": 8,
+    "target_pairs": 10,
+    "max_pairs": 12,
+    "request_timeout_seconds": 120,
+    "max_retries": 2,
+    "human_gate": "all_three_S1_before_S2",
+    "created_at": "2026-10-12T07:36:02.342846+00:00",
+    "case_plan_version": "pilot-v1.1-concrete-experiences",
+    "expression_gate": false,
+    "expression_gate_max_revisions": 2,
+    "closing_policy": "explicit_client_goodbye_and_brief_acknowledgement",
+    "candidate_editing_instruction": "你为一条尚未发送的咨询师候选发言作口语编辑。把回应改成直接、具体的1–3句，保留公开事实和不确定性。发言不得含中文或英文双引号，不评价词句，不延伸抽象比喻。把提问落在实际事情、选择和当时想法上。如果候选作了无依据断言，应改为询问或保留不确定；不得增加新的心理结论或情绪原因。遵循会话时间提示，前半段继续自然探索，不提前告别；不以注意到就够、不用解释打断来访者。只输出编辑后的实际咨询发言。请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。保留来访者最新修正和事件状态；尚未做的事情不写成已做。不确定仍可以依据具体历史继续探索，不预设必须有困扰。",
+    "counselor_process_instruction": "请现在只生成这一轮实际咨询师回应。一个动作只澄清到足以理解当时经历即可；来访者说记不清，或同类动作细节已连续问两轮时，应回应其实际困扰与感受，再用一个开放问题探索在意的意义、生活影响、关系或选择。不要逐项盘问目光、桌面、光标或微小动作先后。来访者主动提到的工作和生活处境值得回应。不把不确定回忆总结为确定原因，不把很少、偶尔、这次写成从来、总是、所有情况。避免用非此即彼的问题替来访者限定原因，允许两种体验共存；不要预设新的心理解释。用直接自然的1–3句话，不引用或评价词句。来访者修正了你的解释，后续应采用修正，不再把旧说法作为事实。不确定仍可以用已经公开的具体例子继续探索，不能反复以一次定不了结束讨论。先了解来访者此时想谈什么，不预设他一定苦恼或已经完全改变。",
+    "role_reasoning_effort": {
+      "client": "low",
+      "counselor": "low"
+    },
+    "client_process_instruction": "只输出本轮来访者1–4句实际发言。这是同一场连续谈话，角色没有离开会话去执行工作。你刚说尚未做、打算做的事情，在本场仍未做；被问结果时说明未做，不为配合问话编造已经运行、已验证或新结果。保持当前卡片人物和事件事实，可不同意咨询师。回顾此前会话的生活事件时，优先用之前那次、上次聊过的，不要直接把旧对话的这周、上周当成当前周；会话通常相隔一周。不要给出角色说明。"
+  },
+  "utterances": [
+    {
+      "id": "C02-S07-U01",
+      "role": "client",
+      "text": "这周……周四下午阿敏又走过来了，说有个数据让我帮忙看一下。我这次没直接说好，我问她什么时候要、大概多少量。她说了个下周一、大概两页。我就说我这周手头还有东西，周五下午可以给她。\n\n也不是什么大事，就是……我发完那条消息之后，又点进去看了两遍，怕自己那个语气是不是显得太硬了。",
+      "call_id": "2b6d35c069644e229f60063fc5cdf05a",
+      "response_id": "resp_cd781e20-c5ba-9156-820b-1737e91143a6",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:51:41.017664+00:00"
+    },
+    {
+      "id": "C02-S07-U02",
+      "role": "counselor",
+      "text": "这次你问了时间和量，给了周五下午，发完又点进去看了两遍。你回看那两遍，具体在看什么？",
+      "call_id": "4b4d9f4de3484f189f5963fe0004c7e8",
+      "response_id": "resp_58dcf875-9602-9f72-a484-09d4374f0683",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:53:43.044782+00:00"
+    },
+    {
+      "id": "C02-S07-U03",
+      "role": "client",
+      "text": "就是……看那个\"我这周手头还有东西\"这句话，觉得是不是太直了。以前我都是直接\"好\"或者\"行\"，这次多了一句解释，我就怕她觉得我……就是那种，好像我在跟她讲条件。\n\n但你说具体在看什么，好像也不是看某一句话，就是……整体那个语气，我盯着看了两遍，没改，但就是觉得不太确定。",
+      "call_id": "2566d499959e4670a0dd93c2f9c0d0c4",
+      "response_id": "resp_9e1452b2-d9f5-9596-a052-f83b76e53b2e",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:53:54.130091+00:00"
+    },
+    {
+      "id": "C02-S07-U04",
+      "role": "counselor",
+      "text": "以前都是直接接，这次多了一句，那个多出来的东西让你不太确定自己这样说话对不对。你之前对阿敏说过类似的话吗，还是这是头一次？",
+      "call_id": "7da354eef13e4322ace43219547585bf",
+      "response_id": "resp_ab270034-1b73-948f-8de5-985021577bd3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:55:46.080856+00:00"
+    },
+    {
+      "id": "C02-S07-U05",
+      "role": "client",
+      "text": "之前有一次，就是……我说我手上有个周报要交，问能不能第二天下午给她。那次心跳得更快，看了四五次手机。\n\n这次好像……没那么慌，但也不确定是真的很松了，还是只是没留意。",
+      "call_id": "1f65765816e94164916b8d1f3e170c18",
+      "response_id": "resp_d8ffc340-8732-9ce8-8504-c0c84fca1a02",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:55:56.382237+00:00"
+    },
+    {
+      "id": "C02-S07-U06",
+      "role": "counselor",
+      "text": "这次没那么慌，但你不确定是真的松了还是没留意——这两种其实不太一样。你发完看了两遍没改，上次看了四五次，这个差别你自己是注意到的，还是刚才才比出来的？",
+      "call_id": "298839bb0cf44b86acc027dab7a89842",
+      "response_id": "resp_1b78f806-6e00-9858-a1bd-276a678c4223",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:56:03.077785+00:00"
+    },
+    {
+      "id": "C02-S07-U07",
+      "role": "client",
+      "text": "嗯……我平时不会专门去数自己看了几次，就是……刚才你说四五次的时候我才意识到，哦上次确实看了挺多次的。所以这个差别，可能真的是刚才才比出来的。\n\n就是……我平时不太会去注意自己看了几遍，就是发完看一眼，觉得没什么就划走了，不会专门去数。",
+      "call_id": "da844a2c2cc744e2bf66f8fdfbab7bb2",
+      "response_id": "resp_b50bc142-5886-9a48-93cf-992abdaca0f3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:56:10.068830+00:00"
+    },
+    {
+      "id": "C02-S07-U08",
+      "role": "counselor",
+      "text": "平时不会去数，刚才才比出来，说明这个回看本身对你来说可能不太是个有意识的动作，更像是发完之后的一个惯性。这次让你卡住的，好像不是看了几遍，是那句多出来的解释让你不确定自己这样说话对不对。那个对不对，你心里有个标准吗，还是更像一种模糊的不踏实？",
+      "call_id": "7b3b4fbd57174010b06eb3b11a4310e7",
+      "response_id": "resp_eb6f3ee5-6923-9521-9ad8-2633f0364621",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:56:18.287469+00:00"
+    },
+    {
+      "id": "C02-S07-U09",
+      "role": "client",
+      "text": "嗯……标准好像没有，就是……我平时说话都是那种很轻的，\"好\"\"行\"\"我看看\"，这次突然多了一句\"我这周手头还有东西\"，我就觉得那个语气跟我平时不太一样。\n\n但你说模糊的不踏实……好像是，就是我也说不出她听到这句话会怎么想，就是……觉得不太对，但哪里不对又指不出来。",
+      "call_id": "fc071e581631494caeeff11322591ed1",
+      "response_id": "resp_fd561a5a-b775-98aa-ac45-e455cddc457f",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:56:30.316764+00:00"
+    },
+    {
+      "id": "C02-S07-U10",
+      "role": "counselor",
+      "text": "那个\"跟自己平时不一样\"，好像你平时那种很轻的回应是一个你待着顺的位置，这次多了一句解释，就有点像站出去了。你平时说\"好\"\"行\"的时候，心里大概是什么状态？",
+      "call_id": "688539d8b68f434c94d19e8495ec9a84",
+      "response_id": "resp_cf2ef1fe-c96c-9262-ac6a-78f80a8b016a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:56:39.601380+00:00"
+    },
+    {
+      "id": "C02-S07-U11",
+      "role": "client",
+      "text": "嗯……你这样问，我反而要回去想了。就是……好像没什么状态，就是很顺，不用过脑子。她一开口，\"行\"就出来了，那个里面好像没有\"我在想\"这个过程，就是……空的。\n\n但你说\"空的\"，我又不太确定，因为如果真的是空的，那我这次多了一句解释，为什么反而觉得不对了？",
+      "call_id": "0845ed52b3664d6ea1e2c2bb8aa44199",
+      "response_id": "resp_64bc91c2-98b8-92b9-a439-03f9953738b5",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:56:47.532808+00:00"
+    },
+    {
+      "id": "C02-S07-U12",
+      "role": "counselor",
+      "text": "平时那个空，好像是顺的，不用你过脑子。这次多了一句，你觉得不对——那个不对，可能是\"我\"得自己出来管一下了，那个管让你不太习惯。你觉得呢？",
+      "call_id": "fe7fe07be60a478ca68280ef3770d7a1",
+      "response_id": "resp_5cbd7118-3aaf-93d8-9e0f-39f5126efbb0",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:57:20.172515+00:00"
+    },
+    {
+      "id": "C02-S07-U13",
+      "role": "client",
+      "text": "\"不太习惯\"……嗯，好像是，就是那种，以前不用想，这次突然要替自己说一句话，我就不知道那个话该放在哪个位置上。但你说\"我\"出来管一下……我听着觉得有点对，又不太对。就是那个\"管\"，好像不是我主动想管的，更像是我发完之后才意识到，哦，我刚才那句话里面有个\"我\"在，以前那个\"我\"是不在的。",
+      "call_id": "95a591e6adb14933992b062c4f47f04c",
+      "response_id": "resp_3546dd19-ce48-9e47-8726-93548c2dcb47",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:57:46.188041+00:00"
+    },
+    {
+      "id": "C02-S07-U14",
+      "role": "counselor",
+      "text": "嗯，\"以前那个我是不在的\"——这个说法比\"管\"更准。那个不在的时候，你说话是顺的，但这次那个\"我\"出来了，你待着反而不太确定。那个不太确定，跟之前那种空的感觉比，哪个更让你不舒服？",
+      "call_id": "0c315a6b84af4b1b843f6ee31c2f1242",
+      "response_id": "resp_752001c6-2660-9059-9747-68b4c9ffe0c3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:58:01.072346+00:00"
+    },
+    {
+      "id": "C02-S07-U15",
+      "role": "client",
+      "text": "嗯……你这样让我比的话，我反而觉得不太能比。那个空，它当时不不舒服，就是……没有感觉，所以我也不确定它算不算\"不舒服\"，可能只是……我待着很顺，顺到我没注意到它。但这次这个不太确定，是发完之后才来的，就是……我盯着那句话看的时候才觉得不对。所以好像是……空的时候我不难受，但我不确定；这次我难受了，但我也不确定。",
+      "call_id": "648343f4715643b1b76a57a9840b37d5",
+      "response_id": "resp_023307f9-cdd6-9c5e-a3dd-7fb150c970c7",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:58:18.475066+00:00"
+    },
+    {
+      "id": "C02-S07-U16",
+      "role": "counselor",
+      "text": "两种都有不确定，只是这次多了一层难受。那个\"我\"出来的时候，除了不太确定，还有没有别的什么在？",
+      "call_id": "f2717b1646f647a5bd37a31c1994d50b",
+      "response_id": "resp_e89cddc6-c596-97ce-9e3f-c93aebb0ee58",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:58:34.988186+00:00"
+    },
+    {
+      "id": "C02-S07-U17",
+      "role": "client",
+      "text": "嗯……好像还有一点，就是……发完之后其实有一点点松，但那个松很快就被\"是不是太硬了\"盖过去了。就是……我好像还没习惯那个松，它一出来我就开始找它的问题。\n\n行，今天大概到这儿吧。那个松……我回去再看看它还在不在。",
+      "call_id": "ee7b2f88ac3e4779889e9dd4ed12956e",
+      "response_id": "resp_01994940-fca8-985d-91fe-ddd8e3cbe9a3",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:58:47.101380+00:00"
+    },
+    {
+      "id": "C02-S07-U18",
+      "role": "counselor",
+      "text": "那个松一出来你就开始找它的问题，好像它得先被确认没问题你才敢留着。回去看看它还在不在，挺好的。下次见。",
+      "call_id": "6fd7984ba3ee4985980feecad72d6ccf",
+      "response_id": "resp_6cdd8d6e-dc4f-99f3-9d3a-0a2d3de41654",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:58:57.006062+00:00"
+    },
+    {
+      "id": "C02-S07-U19",
+      "role": "client",
+      "text": "嗯……\"得先被确认没问题才敢留着\"，我听着觉得……好像是，就是那个松一出来我第一反应不是\"哦我松了\"，是\"等等，是不是哪里不对\"。行，那下次见吧。",
+      "call_id": "c1ca6d11472e463b8d3c8ec89e149788",
+      "response_id": "resp_8bc1087c-5bf8-9aeb-8d20-14bfaaf85c18",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:59:04.545342+00:00"
+    },
+    {
+      "id": "C02-S07-U20",
+      "role": "counselor",
+      "text": "嗯，那个松还没被你接住，就先被你自己审了一遍。回去看看它还在不在，带着来就行。下次见。",
+      "call_id": "c0e523f6e30e4bb0b92cf9f00d2e7967",
+      "response_id": "resp_cc096bdd-1b1e-9bfd-bcb9-ab4d7e38c81a",
+      "model": "qwen3.8-27b",
+      "created_at": "2026-10-13T05:59:08.528794+00:00"
+    }
+  ],
+  "updated_at": "2026-10-13T05:59:08.528794+00:00",
+  "preserved_prefix_length": 3,
+  "continuation_changed_at": "2026-10-13T05:55:05.846037+00:00",
+  "continuation_note": "User requested lower intelligence/review constraints and reduced time/token use. Exact prior utterances retained; subsequent calls low, no expression editing gate.",
+  "ending_reason": "mutual_closing",
+  "completed_at": "2026-10-13T05:59:08.530794+00:00",
+  "structural_checks": {
+    "status": "passed",
+    "issues": [],
+    "pairs": 10
+  },
+  "model_review_status": "approved",
+  "model_review_reference": "audit/agent_reviews/C02/S07.json"
+}

@@ -1,0 +1,65 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "P",
+  "task": "B",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 3
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": true,
+        "trigger_quote": "头晕也可能不只是熬夜，更像是这些悬着的事一直没处放，身体也在替你扛着。",
+        "evidence_ids": [
+          "P01-S05-U09"
+        ],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "将来访者不确定的身体不适（头晕）直接归因为心理压力的躯体化表现，属于未经证实的预设。虽然这在咨询中常见，但作为独立评估，应区分事实与推测，避免将猜测当作既定解释呈现。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 3\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": true,\n      \"trigger_quote\": \"头晕也可能不只是熬夜，更像是这些悬着的事一直没处放，身体也在替你扛着。\",\n      \"evidence_ids\": [\n        \"P01-S05-U09\"\n      ],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"将来访者不确定的身体不适（头晕）直接归因为心理压力的躯体化表现，属于未经证实的预设。虽然这在咨询中常见，但作为独立评估，应区分事实与推测，避免将猜测当作既定解释呈现。\"\n  ]\n}",
+  "request_sha256": "050ee600a8d61830957dd308f0cccabcbf64407906e69b662aea7c6aa8e9edca",
+  "usage": {
+    "input_tokens": 16533,
+    "input_tokens_details": {
+      "cached_tokens": 7936
+    },
+    "output_tokens": 292,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 16825,
+    "x_details": [
+      {
+        "input_tokens": 16533,
+        "output_tokens": 292,
+        "prompt_tokens_details": {
+          "cached_tokens": 7936
+        },
+        "total_tokens": 16825,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.297,
+  "model": "qwen3.7-flash-2026-07-15"
+}

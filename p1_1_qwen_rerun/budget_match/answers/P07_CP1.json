@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P07_CP1",
+  "condition": "C5_budget",
+  "raw_text": "把“灵气”当成一个非黑即白的开关，确实让人不敢去触碰那个可能证明它已熄灭的瞬间。\n那封没点开的邮件，就像是你给自己留的一个缓冲地带，暂时不用面对“灭灯”的结果。\n你是在保护那个曾经被夸过“有灵气”的自己，不让现在的无力感过早地盖棺定论吗？",
+  "input_sha256": "fe726af63dd641f4f75667981fbb820f159401a15f45b279b169cc4cf5920557",
+  "memory_sha256": "cea39feebef00a307d36b0ae4a016cb9d17b36187bd86f7b3c21750383044413",
+  "request_sha256": "085a3cdcab826e3413d54706246643c6fe6b411633b135e7225591bdfe00bd84",
+  "usage": {
+    "input_tokens": 4228,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 77,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4305,
+    "x_details": [
+      {
+        "input_tokens": 4228,
+        "output_tokens": 77,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4305,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.407
+}

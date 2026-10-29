@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P08_CP1",
+  "condition": "C5_budget",
+  "raw_text": "听到你决定先顾孩子，能感觉到那份紧迫感；但“承认靠了他一下”这句话堵在那儿，似乎比搬家算账更让你难受。我们能不能先停在这一刻，看看这种“矮了一截”的感觉，除了欠人情，是不是也藏着对自己此刻无能为力的失望？",
+  "input_sha256": "7f79b238501074e0aa9fc604d27e2620c1b55d75133da27aee77f8ec3373391f",
+  "memory_sha256": "824686daaa0e38dc1754a2a47584bda8c8bf3539d5dfca2241079d499161a806",
+  "request_sha256": "b926280964adf4a903790d780087a291a282885af87d1446ffaf7b737f5df64a",
+  "usage": {
+    "input_tokens": 3887,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 63,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3950,
+    "x_details": [
+      {
+        "input_tokens": 3887,
+        "output_tokens": 63,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3950,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.328
+}

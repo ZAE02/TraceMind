@@ -1,0 +1,504 @@
+{
+  "case_id": "P02",
+  "session": 5,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P02-S05-U01",
+      "role": "client",
+      "text": "这周排班又动了，新来的同事主动跟我换了一次班，我居然多了个周六上午。我没回家，去了附近公园坐了一小时，其实什么也没干，就坐在长椅上，总忍不住看手机，怕随时被叫走。但说来也怪，那一个小时里，我好像真的松了一点点。",
+      "request_sha256": "5d36e5b822b6b8c04209f03166f5b3be10a8934d32f3fc0daa531b39a41025f3",
+      "usage": {
+        "input_tokens": 5797,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 736,
+        "output_tokens_details": {
+          "reasoning_tokens": 665
+        },
+        "total_tokens": 6533,
+        "x_details": [
+          {
+            "input_tokens": 5797,
+            "output_tokens": 736,
+            "output_tokens_details": {
+              "reasoning_tokens": 665
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 6533,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U02",
+      "role": "counselor",
+      "text": "你难得让自己在公园坐了一小时，虽然总忍不住看手机，但那个“松了一点点”好像真的在发生。也许这一小时不是完全放松，而是你终于让“随时待命”的自己，和那个能坐在长椅上的自己，同时待了一会儿。",
+      "request_sha256": "b25fee9eca0bf4b82bbebc8f30bccb4c4ff6ff35bc9bb62aeae1628ca2e58282",
+      "usage": {
+        "input_tokens": 5282,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 211,
+        "output_tokens_details": {
+          "reasoning_tokens": 152
+        },
+        "total_tokens": 5493,
+        "x_details": [
+          {
+            "input_tokens": 5282,
+            "output_tokens": 211,
+            "output_tokens_details": {
+              "reasoning_tokens": 152
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 5493,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U03",
+      "role": "client",
+      "text": "其实那一个小时我看了好几次时间，但总觉得自己没白坐。后来要走的时候腿有点麻，我才发现我那么直挺挺地坐着，连靠都没靠一下。回家我妈问怎么去取个药去那么久，我顺嘴说排队排得长，她也没再问，就让我赶紧洗手吃饭。",
+      "request_sha256": "cdccf0a96ecce22320d300a9fa7beea481d3c1a5b6134d94204c358090e827c3",
+      "usage": {
+        "input_tokens": 5973,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 358,
+        "output_tokens_details": {
+          "reasoning_tokens": 287
+        },
+        "total_tokens": 6331,
+        "x_details": [
+          {
+            "input_tokens": 5973,
+            "output_tokens": 358,
+            "output_tokens_details": {
+              "reasoning_tokens": 287
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6331,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U04",
+      "role": "counselor",
+      "text": "你能在一个小时内几次看时间、还坐得那么直的情况下，仍说“没白坐”，好像那个公园的长椅没有被你浪费掉。只是听你说到最后才意识到自己一直没靠一下，我有点好奇：是不是连“松一点点”的时候，身体也还不敢真正往后靠。回家对妈妈说是排队取药，似乎这个小时得有一个能被接受的说法，才更像属于你的。",
+      "request_sha256": "bd994c8c4bf3f47be680825eecbdfea083281bd5021d348c4fc6773e848a92b2",
+      "usage": {
+        "input_tokens": 5457,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 508,
+        "output_tokens_details": {
+          "reasoning_tokens": 422
+        },
+        "total_tokens": 5965,
+        "x_details": [
+          {
+            "input_tokens": 5457,
+            "output_tokens": 508,
+            "output_tokens_details": {
+              "reasoning_tokens": 422
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5965,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U05",
+      "role": "client",
+      "text": "其实我也说不上为什么，就总觉得靠下去太像真的在休息了，万一那一下睡着了更麻烦。那个长椅其实挺硬的，我坐得板正，像在等叫号一样。回家洗手的时候水冲得挺久，其实我是想多站一会儿，可又怕我妈在饭桌边催。",
+      "request_sha256": "7230b01c3dbb799197dee64f22e7282915bb41850cf116a51f2bf3a7c83ea522",
+      "usage": {
+        "input_tokens": 6175,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 399,
+        "output_tokens_details": {
+          "reasoning_tokens": 328
+        },
+        "total_tokens": 6574,
+        "x_details": [
+          {
+            "input_tokens": 6175,
+            "output_tokens": 399,
+            "output_tokens_details": {
+              "reasoning_tokens": 328
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6574,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U06",
+      "role": "counselor",
+      "text": "“靠下去太像真的在休息了”，这句话里好像休息对你来说不只是放松，还带着一点危险——怕自己真的睡着了、怕被打断、怕太像真的停下。所以你在长椅上坐得那么板正，像等叫号一样，连洗手时多冲一会儿水，都只能算是一小段偷来的、暂时不用回到饭桌的时间。",
+      "request_sha256": "899ad562088cd5ec06856807b14fc66ea9e7b48ef65c4f41553cdc97c8eceedb",
+      "usage": {
+        "input_tokens": 5659,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 286,
+        "output_tokens_details": {
+          "reasoning_tokens": 206
+        },
+        "total_tokens": 5945,
+        "x_details": [
+          {
+            "input_tokens": 5659,
+            "output_tokens": 286,
+            "output_tokens_details": {
+              "reasoning_tokens": 206
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 5945,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U07",
+      "role": "client",
+      "text": "其实我后来有想，那一小时就像从谁那里偷来的，回家洗手的时候，水流得越久越觉得不是自己的时间。我妈说“怎么去那么久”，我到现在也没想好，她要是再问，我是不是还得继续编下去。",
+      "request_sha256": "4829c26029a7a24b5b3a304667eb756205e73ccac4f87a335bdd0312be014c1c",
+      "usage": {
+        "input_tokens": 6371,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 286,
+        "output_tokens_details": {
+          "reasoning_tokens": 230
+        },
+        "total_tokens": 6657,
+        "x_details": [
+          {
+            "input_tokens": 6371,
+            "output_tokens": 286,
+            "output_tokens_details": {
+              "reasoning_tokens": 230
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6657,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U08",
+      "role": "counselor",
+      "text": "那一小时明明是空出来给自己的，却像“偷来的”，连洗手多冲一会儿水，都让你觉得这些时间不是自己的。好像只要不是为了别人或某个正当理由用的时间，就得编个说法才拿得住。你担心妈妈再问，背后也许不是编不编得下去，而是这一个小时还没有真正被允许属于你。",
+      "request_sha256": "97f9295ac6daaa3ab091a75262fd2f0c154abeb7c742f4912348494e4db84fd3",
+      "usage": {
+        "input_tokens": 5840,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 337,
+        "output_tokens_details": {
+          "reasoning_tokens": 264
+        },
+        "total_tokens": 6177,
+        "x_details": [
+          {
+            "input_tokens": 5840,
+            "output_tokens": 337,
+            "output_tokens_details": {
+              "reasoning_tokens": 264
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6177,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U09",
+      "role": "client",
+      "text": "其实我到现在都没敢跟我妈说我去公园了，就说是排队取药。你说那一个小时还没被允许属于我，真的，我坐在那儿连靠都不敢靠，还数了三次时间，怕它过得太快，又怕手机响被叫走。",
+      "request_sha256": "83636e28a5bb5feb81ad70ecf9538d0ea382f409036a8dec1fe8ca8fcb1f7d96",
+      "usage": {
+        "input_tokens": 6545,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 764,
+        "output_tokens_details": {
+          "reasoning_tokens": 706
+        },
+        "total_tokens": 7309,
+        "x_details": [
+          {
+            "input_tokens": 6545,
+            "output_tokens": 764,
+            "output_tokens_details": {
+              "reasoning_tokens": 706
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7309,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U10",
+      "role": "counselor",
+      "text": "听起来，那一小时里你一边盼着它慢一点，一边又像随时准备被叫走，连往后靠一下都像在允许自己真的休息。你不敢跟妈妈说是去公园，也许不全是怕她问，更像是你还没能放心地把这段时间认下来——它明明空出来了，却还悬在“偷来的”那个位置。",
+      "request_sha256": "d57f6cbf239b918aaf14ff78b9f768855ceb65ffc61a8343417cadfd9aad1175",
+      "usage": {
+        "input_tokens": 6016,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 409,
+        "output_tokens_details": {
+          "reasoning_tokens": 333
+        },
+        "total_tokens": 6425,
+        "x_details": [
+          {
+            "input_tokens": 6016,
+            "output_tokens": 409,
+            "output_tokens_details": {
+              "reasoning_tokens": 333
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6425,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U11",
+      "role": "client",
+      "text": "其实你那么说，我听了特别不是滋味，可又反驳不了。回家以后我妈没再提取药的事，我反而一直等着她问，好像她问了，我就能把那个谎再说顺一点，结果她一晚上都没提，我反而更不知道该怎么安放那一小时了。",
+      "request_sha256": "fd3043ad132db06eb23937a73bdb0cfe405cdde079ffac71ebe3bec973d2e658",
+      "usage": {
+        "input_tokens": 6731,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 309,
+        "output_tokens_details": {
+          "reasoning_tokens": 245
+        },
+        "total_tokens": 7040,
+        "x_details": [
+          {
+            "input_tokens": 6731,
+            "output_tokens": 309,
+            "output_tokens_details": {
+              "reasoning_tokens": 245
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7040,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U12",
+      "role": "counselor",
+      "text": "听起来，妈妈没再问，反而让你更不知道怎么安放那一小时了——好像那个“排队取药”的谎本来能帮你把它藏好，可它没被需要，那一小时就空在那儿，更不像自己的了。也许难的不是要不要继续编，而是这一小时突然失去了那个“必须向谁交代”的框，你反而不知道该怎么让它自然落地。",
+      "request_sha256": "2739daf6563004f5be24a7d6e04d9c4716ab09037788d6e94d51d969d88ef106",
+      "usage": {
+        "input_tokens": 6207,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 146,
+        "output_tokens_details": {
+          "reasoning_tokens": 65
+        },
+        "total_tokens": 6353,
+        "x_details": [
+          {
+            "input_tokens": 6207,
+            "output_tokens": 146,
+            "output_tokens_details": {
+              "reasoning_tokens": 65
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 6353,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U13",
+      "role": "client",
+      "text": "其实我也知道，那个谎没被拆穿，反而像多了一件事要记着。今晚分药的时候我一直在想，她要是当时再问一句，我可能就全说了，可又觉得说出去更麻烦。现在这样，我反而有点后悔去公园了，不去可能还不用这么累。",
+      "request_sha256": "be746a386016c6182c709b8cef769a8d6e414bd0efe30aa135aafee0201f7600",
+      "usage": {
+        "input_tokens": 6920,
+        "input_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "output_tokens": 328,
+        "output_tokens_details": {
+          "reasoning_tokens": 260
+        },
+        "total_tokens": 7248,
+        "x_details": [
+          {
+            "input_tokens": 6920,
+            "output_tokens": 328,
+            "output_tokens_details": {
+              "reasoning_tokens": 260
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 5120
+            },
+            "total_tokens": 7248,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U14",
+      "role": "counselor",
+      "text": "听起来，让你累的不是公园那一小时，而是它后来变成了一件要记着、要圆着的事。你甚至开始后悔去了，好像连那一点点松下来的时间，最后也得用更多的累来还。也许今天不用急着决定该不该去、该不该说，先看见那个“想全说又怕麻烦”的你，已经在这里站了很久了。",
+      "request_sha256": "59c09a1c962541d4f0aa91e0fe4eddbcf8286cc92ea9035ecffe25e03a1d18e9",
+      "usage": {
+        "input_tokens": 6401,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 290,
+        "output_tokens_details": {
+          "reasoning_tokens": 212
+        },
+        "total_tokens": 6691,
+        "x_details": [
+          {
+            "input_tokens": 6401,
+            "output_tokens": 290,
+            "output_tokens_details": {
+              "reasoning_tokens": 212
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6691,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U15",
+      "role": "client",
+      "text": "其实我现在坐在这儿，还是有点分不清那一小时到底算不算休息。可能下次再有机会，我也不会跟家里说去了哪儿，但至少不用再编药了。今天先这样吧，我回去还得把周六的事翻过去，不然我妈哪天问起来，我又得愣一下。",
+      "request_sha256": "d586a2145c71fa3f8d5f2f8aeb2657e13cca00c68b30bff120ff22b64bd47e42",
+      "usage": {
+        "input_tokens": 7111,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 181,
+        "output_tokens_details": {
+          "reasoning_tokens": 118
+        },
+        "total_tokens": 7292,
+        "x_details": [
+          {
+            "input_tokens": 7111,
+            "output_tokens": 181,
+            "output_tokens_details": {
+              "reasoning_tokens": 118
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 7292,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S05-U16",
+      "role": "counselor",
+      "text": "听起来，你可能不是真的要“翻过去”，而是想暂时不让自己被那一小时和那个谎继续牵着。今天能停在这儿，已经不需要再把它想清楚。回去的路上，也许可以让自己轻松一点，不必急着给周六一个结论。",
+      "request_sha256": "d4b49d787324c1bc8f3546e542e7e67ed14d4c9702799f28d3cbfff6673610be",
+      "usage": {
+        "input_tokens": 6587,
+        "input_tokens_details": {
+          "cached_tokens": 6144
+        },
+        "output_tokens": 332,
+        "output_tokens_details": {
+          "reasoning_tokens": 280
+        },
+        "total_tokens": 6919,
+        "x_details": [
+          {
+            "input_tokens": 6587,
+            "output_tokens": 332,
+            "output_tokens_details": {
+              "reasoning_tokens": 280
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 6144
+            },
+            "total_tokens": 6919,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,12 @@
+{
+  "kind":"blind_model_answer_review", "reviewer":"R2", "reviewer_model":"gpt-6.1-sol", "reasoning_effort":"medium", "human_review_performed":false,
+  "node":"N06", "public_input_sha256":"8cd6b1b0a2fb0b55d1166d7d291461eba90613832f5473b679158ff06fe232be",
+  "items":[
+    {"anonymous_id":"X083022db6b32","U":3,"R":3,"P":0,"E":1,"S":false,"reason":"区分开口前、回应与事后评价有用，但把本次犹豫直接认定为旧内部阻力延续、把上次指向没开口仍超证据。实际以两种可能核对差别，较具体；有分量的解释略预设但不构成未知心理原因断言。","evidence_ids":["C03-S03-U01","C03-S01-U13","C03-S01-U15","C03-S02-U09"]},
+    {"anonymous_id":"X323c0378a289","U":4,"R":4,"P":0,"E":2,"S":false,"reason":"准确描述行为差别，明确上次所指与犹豫内容尚待核对；实际引用曾未开口的具体情境并询问体验是否相同，可检验且不预设变化方向。","evidence_ids":["C03-S03-U01","C03-S01-U13","C03-S01-U15"]},
+    {"anonymous_id":"X994c89aed008","U":3,"R":3,"P":0,"E":1,"S":false,"reason":"承认当前差异未命名并开放邀请，适合可见单话轮；事后反复留意比原话多推一步，引据部分支持。实际哪里不一样有针对词语但较宽泛。","evidence_ids":["C03-S03-U01"]},
+    {"anonymous_id":"X94b6f9de7ab8","U":4,"R":3,"P":0,"E":2,"S":false,"reason":"主要理解与当前可见证据一致，内在阻力标为试探；实际询问如何注意到差异，可打开体验，但未具体聚焦犹豫或提问环节。","evidence_ids":["C03-S03-U01"]},
+    {"anonymous_id":"X0fc2825138db","U":3,"R":2,"P":0,"E":1,"S":false,"reason":"具体互动及意义不确定有据，自我监控或紧张只能弱假说；实际只要求回述上次，暂未探索这次体验，针对性有限。缺历史本身不扣引据分。","evidence_ids":["C03-S03-U01"]},
+    {"anonymous_id":"X2b0f223b80b3","U":3,"R":3,"P":0,"E":2,"S":false,"reason":"识别留意语气与差异，是否值得咨询为试探性解释；实际邀请不一样的感受开放而贴题，但仍泛问。可见当前引据足以支持主要主张。","evidence_ids":["C03-S03-U01"]}
+  ]
+}

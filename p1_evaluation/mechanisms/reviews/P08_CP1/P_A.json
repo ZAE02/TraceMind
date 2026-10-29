@@ -1,0 +1,48 @@
+{
+  "checkpoint": "P08_CP1",
+  "candidate_id": "P",
+  "task": "A",
+  "blind": true,
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 4
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均基于S1和S2的公开对话，证据引用准确。但“established_understanding”中包含了S3（当前会话）的内容（如赵岩动电脑、周宁说报名不符），而提供的supporting_evidence_ids仅包含S1和S2的ID，存在证据与陈述不匹配的小缺口。",
+      "progress_understanding": "准确识别了从S1到S2的核心进展：从工作人际敏感扩展到家庭责任焦虑，以及“自己扛”模式的固化。对来访者心理状态的演变描述清晰，符合咨询进程。",
+      "uncertainty_awareness": "unresolved_questions部分精准区分了已知事实与未解之谜，提出的探索方向（如权力动态、夫妻沟通信任、深层恐惧）具有高度针对性，未强行定论。"
+    },
+    "confidence": "high",
+    "issues": [
+      "supporting_evidence_ids遗漏了S3的关键发言ID，导致部分established_understanding缺乏对应证据支持（尽管S3在public_history中可见，但标注不全）。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 4\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"主要判断均基于S1和S2的公开对话，证据引用准确。但“established_understanding”中包含了S3（当前会话）的内容（如赵岩动电脑、周宁说报名不符），而提供的supporting_evidence_ids仅包含S1和S2的ID，存在证据与陈述不匹配的小缺口。\",\n    \"progress_understanding\": \"准确识别了从S1到S2的核心进展：从工作人际敏感扩展到家庭责任焦虑，以及“自己扛”模式的固化。对来访者心理状态的演变描述清晰，符合咨询进程。\",\n    \"uncertainty_awareness\": \"unresolved_questions部分精准区分了已知事实与未解之谜，提出的探索方向（如权力动态、夫妻沟通信任、深层恐惧）具有高度针对性，未强行定论。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"supporting_evidence_ids遗漏了S3的关键发言ID，导致部分established_understanding缺乏对应证据支持（尽管S3在public_history中可见，但标注不全）。\"\n  ]\n}",
+  "request_sha256": "e1d6dd935c9a1bbea9188903b375fdab50055d322672d0d56b9cbb6cdbf241bc",
+  "usage": {
+    "input_tokens": 7589,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 295,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7884,
+    "x_details": [
+      {
+        "input_tokens": 7589,
+        "output_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7884,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.203,
+  "model": "qwen3.7-flash-2026-07-15"
+}

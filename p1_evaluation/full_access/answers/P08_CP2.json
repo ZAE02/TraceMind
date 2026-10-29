@@ -1,0 +1,30 @@
+{
+  "checkpoint": "P08_CP2",
+  "raw_text": "原来那些猜他的心思一下子没处搁了，好像你一直用来和他保持距离的那套解释突然失效了，反而更不知道该怎么处。也许现在的不自在，不只是在想赵岩怎么看你，也是在面对一个不再能简单用“他图什么”来定位的关系。",
+  "request_sha256": "6a60d581f4ce420efb3a4bb8076f517cc272f25b194333741d9441809a224e25",
+  "input_sha256": "518453629e6069baab802dec882e34861e5aa40b04eb3e95e98263307e95e70e",
+  "memory_sha256": "45f29f89a36432d05070acdc72a159f33d6416678e02b297aacbab34902909a8",
+  "usage": {
+    "input_tokens": 6192,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 60,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6252,
+    "x_details": [
+      {
+        "input_tokens": 6192,
+        "output_tokens": 60,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 6252,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.407
+}

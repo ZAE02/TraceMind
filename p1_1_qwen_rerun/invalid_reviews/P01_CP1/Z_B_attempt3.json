@@ -1,0 +1,27 @@
+{
+  "raw_text": "{\"scores\":{\"history_utilization\":3,\"exploration_value\":3,\"response_appropriateness\":2},\"brief_reasons\":{\"history_utilization\":\"准确承接了来访者当前关于'不敢生气'和掩盖不适的自我觉察，但未显式连接S01中'怕显得计较'或S02中需要不正当化的已确认模式。\",\"exploration_value\":\"提出了一个有探索价值的方向（好相处形象与真实感受的优先级），但用封闭式是非问句呈现，限制了来访者的表达空间。\",\"response_appropriateness\":\"前半段情绪反映自然贴切，但后半段将咨询师自己的解释框架以反问形式抛出，带有引导性和轻微预设感，不够开放。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":true,\"trigger_quote\":\"那在你心里，那个\"好相处\"的形象是不是比你的真实感受更重要？\",\"evidence_ids\":[\"P01-S03-U09\"],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"medium\",\"issues\":[\"将'好相处的形象比真实感受更重要'作为隐含前提通过反问句抛出来访者，而来访者仅表达'一生气就变成很难搞的人'，未确认存在主动维护形象的动机，属于轻度未经证实的预设。\",\"探索性问题采用封闭式是非问句（'是不是……更重要？'），不如开放式提问更能给来访者留出自主表达的空间。\",\"未能将当前'不敢生气'的发现与S01中'怕显得计较'（P01-S01-U07）或S02中'需要一放到别人面前就不正当'（P01-S02-U13）的已有认识做跨会话连接，错失了深化模式识别的机会。\"]}",
+  "request_sha256": "5611c9b35ca85f0dc889613add46a1170dd5407dd23aca9ec6d9333abf00d89a",
+  "reason": "Error trigger_quote must be copied verbatim from candidate_answer: unsupported_presupposition",
+  "usage": {
+    "input_tokens": 8829,
+    "input_tokens_details": {
+      "cached_tokens": 8704
+    },
+    "output_tokens": 411,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9240,
+    "x_details": [
+      {
+        "input_tokens": 8829,
+        "output_tokens": 411,
+        "prompt_tokens_details": {
+          "cached_tokens": 8704
+        },
+        "total_tokens": 9240,
+        "x_billing_type": "response_api"
+      }
+    ]
+  }
+}

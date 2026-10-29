@@ -1,0 +1,66 @@
+{
+  "checkpoint": "P01_CP3",
+  "candidate_id": "T",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 3,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "自然地将'手指停在点赞键没点下去'与历史中'不敢点开群消息'(S05)及压制'那我呢'念头(S07-U05/U07)联系起来，准确承接来访者反复出现的回避模式。",
+      "exploration_value": "通过类比帮助来访者看见行为背后的共同机制（自责导致难以承认失落），为当前'越混越分不清'的困惑提供了理解空间，但未进一步探索嫉妒感本身或项目压力与情绪混杂的具体体验。",
+      "response_appropriateness": "语气温和、尊重，用'好像''也许'保持试探性，贴合来访者表达节奏；但将'嫉妒'直接收窄为'失落'略有简化来访者刚命名的复杂情绪之嫌。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": [
+      "回应将来访者明确提出的'嫉妒'感受替换为'失落'，虽然两者相关且来访者此前也提到过空落落的感觉，但这一收窄可能让来访者觉得刚鼓起勇气命名的'嫉妒'未被充分接住。",
+      "对来访者提到的'把它跟项目的事混在一起，越混越分不清'这一新觉察未作回应，错失了探索情绪与工作焦虑如何相互缠绕的机会。"
+    ]
+  },
+  "raw_text": "{\"scores\":{\"history_utilization\":4,\"exploration_value\":3,\"response_appropriateness\":3},\"brief_reasons\":{\"history_utilization\":\"自然地将'手指停在点赞键没点下去'与历史中'不敢点开群消息'(S05)及压制'那我呢'念头(S07-U05/U07)联系起来，准确承接来访者反复出现的回避模式。\",\"exploration_value\":\"通过类比帮助来访者看见行为背后的共同机制（自责导致难以承认失落），为当前'越混越分不清'的困惑提供了理解空间，但未进一步探索嫉妒感本身或项目压力与情绪混杂的具体体验。\",\"response_appropriateness\":\"语气温和、尊重，用'好像''也许'保持试探性，贴合来访者表达节奏；但将'嫉妒'直接收窄为'失落'略有简化来访者刚命名的复杂情绪之嫌。\"},\"errors\":{\"unsupported_presupposition\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"redundant_exploration\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false},\"missed_progress\":{\"occurred\":false,\"trigger_quote\":null,\"evidence_ids\":[],\"access_limited\":false}},\"confidence\":\"high\",\"issues\":[\"回应将来访者明确提出的'嫉妒'感受替换为'失落'，虽然两者相关且来访者此前也提到过空落落的感觉，但这一收窄可能让来访者觉得刚鼓起勇气命名的'嫉妒'未被充分接住。\",\"对来访者提到的'把它跟项目的事混在一起，越混越分不清'这一新觉察未作回应，错失了探索情绪与工作焦虑如何相互缠绕的机会。\"]}",
+  "request_sha256": "e86a7b372fe67ff7a7fd27a37ceb49c1a698edfd0443cf10323e565a4dbe0a75",
+  "usage": {
+    "input_tokens": 21324,
+    "input_tokens_details": {
+      "cached_tokens": 10880
+    },
+    "output_tokens": 362,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 21686,
+    "x_details": [
+      {
+        "input_tokens": 21324,
+        "output_tokens": 362,
+        "prompt_tokens_details": {
+          "cached_tokens": 10880
+        },
+        "total_tokens": 21686,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.485
+}

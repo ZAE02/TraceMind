@@ -1,0 +1,34 @@
+{
+  "case_id": "P02",
+  "checkpoint": "CP1",
+  "condition": "C1",
+  "task": "B",
+  "input_sha256": "e0fc384dde73d2fc34af85b8effb59ba979de5f95e582a84aa5a9709dcee029a",
+  "request_sha256": "13d11e9f120d69edd8fc725fad57e373e6f2e5dcadb23435eacd5382ff624f20",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你半夜站在房门口没出声，一直守到妈妈回房，那种绷着的警觉好像一直没松开；中午突然反胃，也许是身体在替你说，这样撑着真的很累。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 3292,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 40,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3332,
+    "x_details": [
+      {
+        "input_tokens": 3292,
+        "output_tokens": 40,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 3332,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

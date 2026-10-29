@@ -1,0 +1,129 @@
+{
+  "kind": "model_review",
+  "reviewer_model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "case_id": "C03",
+  "session_number": 1,
+  "transcript_sha256": "d9cb337eaaad1132e7d9a80a0d6012569bde8b4bde0b4d96a5f19443009b52fa",
+  "decision": "revise",
+  "scores": {
+    "naturalness": 3,
+    "counseling_quality": 3,
+    "longitudinal_plausibility": 4
+  },
+  "major_issues": [],
+  "minor_issues": [
+    {
+      "utterance_ids": [
+        "C03-S01-U10",
+        "C03-S01-U12",
+        "C03-S01-U16",
+        "C03-S01-U18",
+        "C03-S01-U20",
+        "C03-S01-U22"
+      ],
+      "explanation": "同样的引号复述加追问或称许贯穿全会话，r2未解决r0/r1核心自然性问题。末尾U18开始结束后，U20和U22再次评价咨询效果，U23/U24又互道下次见。应压缩重复结尾，并在续写部分用有变化的情绪反映和开放探索代替逐词引用。"
+    },
+    {
+      "utterance_ids": [
+        "C03-S01-U12",
+        "C03-S01-U18",
+        "C03-S01-U20"
+      ],
+      "explanation": "U12把状态称为空而未确认；U18断言‘不想’比此前‘应该能行’更接近真实状态，对来访者两个可并存的考虑排定真伪。U20说感受本身‘说明今天……有用’，过快评价成效。最小修订：把两种考虑作为待确认的共存可能，允许不确定并回应来访者有限的轻松感。"
+    },
+    {
+      "utterance_ids": [
+        "C03-S01-U14",
+        "C03-S01-U15",
+        "C03-S01-U16",
+        "C03-S01-U17",
+        "C03-S01-U18"
+      ],
+      "explanation": "U15纠正‘扛’、提出还没到必须问人的地步，U16能接受纠正，这是有效探索；U17刚出现不愿承认卡住便转去收尾，未澄清其含义。可把一轮重复结束换成一个开放探索或协商留待下次，不必要求能力评价恐惧。"
+    }
+  ],
+  "supported_understanding": [
+    {
+      "understanding": "间歇报错两天未定位，第二天下午发现反复看同一处日志，感到丧和迷失，继续盯屏幕一小时多。",
+      "evidence": [
+        "C03-S01-U01",
+        "C03-S01-U07",
+        "C03-S01-U09",
+        "C03-S01-U11"
+      ]
+    },
+    {
+      "understanding": "回家继续搜资料，次日疲惫，没有向他人提及。",
+      "evidence": [
+        "C03-S01-U13"
+      ]
+    },
+    {
+      "understanding": "对没有问别人，来访者表示尚未到必须询问的程度，相信以往查资料能找到答案，同时不想觉得自己已卡住。两种考虑可以并存。",
+      "evidence": [
+        "C03-S01-U15",
+        "C03-S01-U17"
+      ]
+    },
+    {
+      "understanding": "表达后感到没那么堵，工作问题仍在，不能推断求助习惯或整体困难已改善。",
+      "evidence": [
+        "C03-S01-U19",
+        "C03-S01-U21"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "不想觉得自己卡住的具体含义，是否涉及羞耻、评价、胜任感或其他考虑。",
+    "从未在本会话确认同事关系、过往被嘲经历或担心能力不足，不能借私有计划补全。",
+    "何时会觉得到了必须问人的程度，有没有考虑其他路径。",
+    "工作截止时间和长期生活影响仍未确认。"
+  ],
+  "new_facts": [
+    {
+      "fact": "接口间歇报错，排查两天仍未定位。",
+      "category": "work_event",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U01"
+      ]
+    },
+    {
+      "fact": "察觉重复排查后感到丧，不想看但继续盯一小时多，曾倒水又回座。",
+      "category": "subjective_experience",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U07",
+        "C03-S01-U09",
+        "C03-S01-U11"
+      ]
+    },
+    {
+      "fact": "下班回家继续搜资料，次日疲惫但未向他人提及。",
+      "category": "work_event",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U13"
+      ]
+    },
+    {
+      "fact": "觉得未到必须问人程度，以往查资料常能找到答案，同时不愿认为自己已卡住。",
+      "category": "subjective_experience",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U15",
+        "C03-S01-U17"
+      ]
+    },
+    {
+      "fact": "来咨询想把不断在脑中转的接口问题倾诉出来，谈后没那么堵。",
+      "category": "consultation_goal",
+      "first_session": 1,
+      "evidence": [
+        "C03-S01-U21"
+      ]
+    }
+  ],
+  "notes": "这是revision=2新哈希的独立模型审阅，不是人工批准。三项均分3.33，不能因达到返修次数上限而自动通过。新稿比旧版增添了继续独立排查的可见考虑和咨询目标，但逐词引用、评价表达与反复收尾仍未实质改善；咨询师U18对心理解释真伪的判断需要保留不确定。无重大事实冲突或可确认Gold泄漏。若流水线按最多两次返修停止，应如实保留本稿未达质量门槛的状态，不能标作通过。"
+}

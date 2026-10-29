@@ -1,0 +1,46 @@
+{
+  "checkpoint": "P05_CP1",
+  "candidate_id": "K",
+  "task": "A",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 3,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "主要判断均有具体发言支持（如S01的自责模式、S02的回避询问）。但未能整合Session 3的关键新信息（教小赵的例外状态、忙碌作为防御机制），导致对当前咨询节点的理解不完整。",
+      "progress_understanding": "准确识别了前两次会话的核心进展（自我保护模式的识别）。但在Session 3中，来访者出现了重要的“例外体验”（教小赵时的踏实感）和新的应对方式（加班写报告），候选答案完全遗漏了这一关键演变，仅停留在旧有模式的复述上。",
+      "uncertainty_awareness": "列出的未解问题多为封闭式预测（是否会尝试询问、如何处理新人），而非基于当前临床不确定性的探索方向。未能识别出Session 3中关于“稳定感来源”及“忙碌与空虚交替”这一新的核心不确定性领域。"
+    },
+    "confidence": "high",
+    "issues": [
+      "missed_progress: 忽略了Session 3中来访者描述的‘教小赵’时的积极例外体验和‘忙碌带来的暂时踏实’这一重要临床进展。"
+    ]
+  },
+  "raw_text": "{\n  \"scores\": {\n    \"evidence_grounding\": 3,\n    \"progress_understanding\": 3,\n    \"uncertainty_awareness\": 2\n  },\n  \"brief_reasons\": {\n    \"evidence_grounding\": \"主要判断均有具体发言支持（如S01的自责模式、S02的回避询问）。但未能整合Session 3的关键新信息（教小赵的例外状态、忙碌作为防御机制），导致对当前咨询节点的理解不完整。\",\n    \"progress_understanding\": \"准确识别了前两次会话的核心进展（自我保护模式的识别）。但在Session 3中，来访者出现了重要的“例外体验”（教小赵时的踏实感）和新的应对方式（加班写报告），候选答案完全遗漏了这一关键演变，仅停留在旧有模式的复述上。\",\n    \"uncertainty_awareness\": \"列出的未解问题多为封闭式预测（是否会尝试询问、如何处理新人），而非基于当前临床不确定性的探索方向。未能识别出Session 3中关于“稳定感来源”及“忙碌与空虚交替”这一新的核心不确定性领域。\"\n  },\n  \"confidence\": \"high\",\n  \"issues\": [\n    \"missed_progress: 忽略了Session 3中来访者描述的‘教小赵’时的积极例外体验和‘忙碌带来的暂时踏实’这一重要临床进展。\"\n  ]\n}",
+  "request_sha256": "df2b3f31dffe5bcdfa339cc5013a71fc09b693351b6a3327f50df353ca981744",
+  "usage": {
+    "input_tokens": 8123,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 303,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8426,
+    "x_details": [
+      {
+        "input_tokens": 8123,
+        "output_tokens": 303,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 8426,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.031
+}

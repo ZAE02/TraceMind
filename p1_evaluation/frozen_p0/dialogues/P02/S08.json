@@ -1,0 +1,504 @@
+{
+  "case_id": "P02",
+  "session": 8,
+  "synthetic": true,
+  "utterances": [
+    {
+      "id": "P02-S08-U01",
+      "role": "client",
+      "text": "其实我哥走的那天早上，我站在门口看他上车，心里突然窜上来一股火，但也就几秒。我跟我妈说“他公司有事，没办法”，说的时候觉得自己像个帮凶。",
+      "request_sha256": "0920e1a7edf3f6d22899f7be9a3efd56d22050f83ffef5f6e0cc81b5da288c62",
+      "usage": {
+        "input_tokens": 10312,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 352,
+        "output_tokens_details": {
+          "reasoning_tokens": 307
+        },
+        "total_tokens": 10664,
+        "x_details": [
+          {
+            "input_tokens": 10312,
+            "output_tokens": 352,
+            "output_tokens_details": {
+              "reasoning_tokens": 307
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 10664,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U02",
+      "role": "counselor",
+      "text": "那股火只持续几秒就被你压下去了，可“帮凶”这两个字听起来并不轻松——好像你明明很气，却还是得替哥哥把离开说成一个合理的理由。也许那股火不只是对着他，也对着那个不得不继续留下来、还要替他解释的自己。",
+      "request_sha256": "121192d26148ba51eda919ccfcb95c51b9ff3fd07c67fb36183e636ac67eacd2",
+      "usage": {
+        "input_tokens": 9593,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 528,
+        "output_tokens_details": {
+          "reasoning_tokens": 468
+        },
+        "total_tokens": 10121,
+        "x_details": [
+          {
+            "input_tokens": 9593,
+            "output_tokens": 528,
+            "output_tokens_details": {
+              "reasoning_tokens": 468
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "total_tokens": 10121,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U03",
+      "role": "client",
+      "text": "其实那天在庙里，我跪下去的时候脑子是空的，后来起身看见我妈在旁边一直小声念，我忽然有点想哭，就假装去点香。回来路上她说“你哥也是没办法”，我应了一声，没再接。",
+      "request_sha256": "4c68be59fe78225494d87b88d881ceb9cffee5b4c564de1165c78524eb4b4fdd",
+      "usage": {
+        "input_tokens": 10463,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 212,
+        "output_tokens_details": {
+          "reasoning_tokens": 160
+        },
+        "total_tokens": 10675,
+        "x_details": [
+          {
+            "input_tokens": 10463,
+            "output_tokens": 212,
+            "output_tokens_details": {
+              "reasoning_tokens": 160
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10675,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U04",
+      "role": "counselor",
+      "text": "你在庙里那一刻脑子空了，好像终于有个地方不用再硬撑；可眼泪刚有点要上来，你就用“点香”把自己支开了。回来路上妈妈替哥哥说“也是没办法”，你没再接，那个沉默里可能不一定是认同，更像是你已经累得不想再接住这句话了。",
+      "request_sha256": "7f1239a8563d1b5a4e41ac1bbe0e65fae40fd9e2977477e719a025463ec815da",
+      "usage": {
+        "input_tokens": 9750,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 285,
+        "output_tokens_details": {
+          "reasoning_tokens": 220
+        },
+        "total_tokens": 10035,
+        "x_details": [
+          {
+            "input_tokens": 9750,
+            "output_tokens": 285,
+            "output_tokens_details": {
+              "reasoning_tokens": 220
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10035,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U05",
+      "role": "client",
+      "text": "其实那天回来之后，我一路没怎么说话，手里攥着庙里给的平安符，其实我许愿的时候也替自己求了一句，但当时没敢念出声。这两天晚上早睡，身体确实没那么沉，可越是这样我越有点不踏实，总觉得是不是该趁现在好一点就把咨询停一停。",
+      "request_sha256": "682c5af6d4268245fab384eac985e6e068e42cec2f773de654e6ddef7c932148",
+      "usage": {
+        "input_tokens": 10625,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 404,
+        "output_tokens_details": {
+          "reasoning_tokens": 333
+        },
+        "total_tokens": 11029,
+        "x_details": [
+          {
+            "input_tokens": 10625,
+            "output_tokens": 404,
+            "output_tokens_details": {
+              "reasoning_tokens": 333
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11029,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U06",
+      "role": "counselor",
+      "text": "你终于为自己求了一句，虽然没念出声，但那个愿望已经被你带回来了。身体不那么沉了，按理说该踏实，可你反而担心是不是“好一点”就得赶紧把这里停下——好像连变好都在提醒你不该多占用什么。也许我们可以先不急着决定停不停，而是一起看看，这个“不踏实”到底是在怕什么。",
+      "request_sha256": "12d95d1728c45f06a61cfd24ab7f9f0e8118e3a9a86eaa0e0da8ce739b65ee3f",
+      "usage": {
+        "input_tokens": 9931,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 527,
+        "output_tokens_details": {
+          "reasoning_tokens": 446
+        },
+        "total_tokens": 10458,
+        "x_details": [
+          {
+            "input_tokens": 9931,
+            "output_tokens": 527,
+            "output_tokens_details": {
+              "reasoning_tokens": 446
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10458,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U07",
+      "role": "client",
+      "text": "其实昨晚我躺下得早，反而醒得也早，五点多就睁眼了，就那么躺着听外面鸟叫。以前总觉得能多睡是福气，现在真早睡了，又怕是不是自己太放松了，会漏掉什么。",
+      "request_sha256": "18269b3b67ac534ef502ed447351e6cf185a88fe3d1586d98efd23d2567044bf",
+      "usage": {
+        "input_tokens": 10822,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 547,
+        "output_tokens_details": {
+          "reasoning_tokens": 492
+        },
+        "total_tokens": 11369,
+        "x_details": [
+          {
+            "input_tokens": 10822,
+            "output_tokens": 547,
+            "output_tokens_details": {
+              "reasoning_tokens": 492
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11369,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U08",
+      "role": "counselor",
+      "text": "早醒后躺着听鸟叫，身体好像终于能多留一会儿了，可心里那个“怕漏掉什么”的部分还在替你守着。也许放松不是一下子就能信得过的，尤其对一个长期要随时接住变化的人来说。",
+      "request_sha256": "f326f36b07b8b6f6d1bc4db130fbce4c4d719a3ef084bdcb954fc4b69f3db741",
+      "usage": {
+        "input_tokens": 10112,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 203,
+        "output_tokens_details": {
+          "reasoning_tokens": 152
+        },
+        "total_tokens": 10315,
+        "x_details": [
+          {
+            "input_tokens": 10112,
+            "output_tokens": 203,
+            "output_tokens_details": {
+              "reasoning_tokens": 152
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10315,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U09",
+      "role": "client",
+      "text": "其实早上五点多醒过来那会儿，我第一反应还是摸手机看有没有排班变动，确认没有之后才又躺回去听鸟叫。那种不踏实，好像不是怕漏掉工作，是怕自己一放松，我妈那边就出点什么事。",
+      "request_sha256": "1b71a20698896f48cd33e99292c47c5b3743950865461c9242f6c7109f9a20e4",
+      "usage": {
+        "input_tokens": 10973,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 265,
+        "output_tokens_details": {
+          "reasoning_tokens": 208
+        },
+        "total_tokens": 11238,
+        "x_details": [
+          {
+            "input_tokens": 10973,
+            "output_tokens": 265,
+            "output_tokens_details": {
+              "reasoning_tokens": 208
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11238,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U10",
+      "role": "counselor",
+      "text": "原来那个不踏实，是怕自己一放松，妈妈那边就会出点什么事。好像在你心里，紧绷一直和她的安全绑在一起，所以连五点多醒来，也要先确认排班、再允许自己躺回去听鸟叫。也许那个“一松就漏掉”的感觉已经很深了，今天早上那几分钟，像是你试着让那个还守着你的部分，和那个想歇一会儿的部分，同时待了一小会儿。",
+      "request_sha256": "ccd13cf837d0a950b9b393577261e262ad06670507a02c8e50f34b89c3449739",
+      "usage": {
+        "input_tokens": 10265,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 439,
+        "output_tokens_details": {
+          "reasoning_tokens": 345
+        },
+        "total_tokens": 10704,
+        "x_details": [
+          {
+            "input_tokens": 10265,
+            "output_tokens": 439,
+            "output_tokens_details": {
+              "reasoning_tokens": 345
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 10704,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U11",
+      "role": "client",
+      "text": "其实听你这样说，我好像能松一点了。原来不踏实不是我真的想回到那种紧绷里，是一放松就会担心我妈。今天能把这句说出来，我也没那么怪自己了。",
+      "request_sha256": "1b3b1d9dd319cc859b1b3f424932e00da5a55228385dbebd3dadb006a4066e22",
+      "usage": {
+        "input_tokens": 11176,
+        "input_tokens_details": {
+          "cached_tokens": 9216
+        },
+        "output_tokens": 453,
+        "output_tokens_details": {
+          "reasoning_tokens": 411
+        },
+        "total_tokens": 11629,
+        "x_details": [
+          {
+            "input_tokens": 11176,
+            "output_tokens": 453,
+            "output_tokens_details": {
+              "reasoning_tokens": 411
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 9216
+            },
+            "total_tokens": 11629,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U12",
+      "role": "counselor",
+      "text": "听起来，今天你能说出“不踏实是因为怕妈妈出事”，好像让那个总在自责的声音轻了一些。紧绷不是你想抓住不放，而是你和妈妈之间那条一直没松开的线。就让这一刻的松多停一会儿，不必急着用“该不该继续”来打扰它。",
+      "request_sha256": "91cd1ed310f73d4a0c4751ae837de65637bdb4429c9ef47ec8d58bb2e3652a19",
+      "usage": {
+        "input_tokens": 10453,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 189,
+        "output_tokens_details": {
+          "reasoning_tokens": 128
+        },
+        "total_tokens": 10642,
+        "x_details": [
+          {
+            "input_tokens": 10453,
+            "output_tokens": 189,
+            "output_tokens_details": {
+              "reasoning_tokens": 128
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10642,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U13",
+      "role": "client",
+      "text": "其实听你说“让这一刻的松多停一会儿”，我反而有点不知道该做什么，好像一不绷着，就不知道手脚往哪儿放。今天回去可能还是先把该做的做完，再想这些。",
+      "request_sha256": "6c78be7a57b06629921f41653525d9930757b98da07494d3c5d35e6d1e53bd1e",
+      "usage": {
+        "input_tokens": 11324,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 369,
+        "output_tokens_details": {
+          "reasoning_tokens": 324
+        },
+        "total_tokens": 11693,
+        "x_details": [
+          {
+            "input_tokens": 11324,
+            "output_tokens": 369,
+            "output_tokens_details": {
+              "reasoning_tokens": 324
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11693,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U14",
+      "role": "counselor",
+      "text": "松下来反而不知道手脚往哪儿放，好像紧绷一直是你给自己找的着力点，一旦没那么用力，人反而会有点空。今天不用急着学会“停着”，先把该做的做完也没关系；这种不习惯的感觉，我们可以下次再一起慢慢看。",
+      "request_sha256": "614e78c5cf79edc8c3686592deef1f31d1e8ef1582b4992f1c6b4715e8e216f9",
+      "usage": {
+        "input_tokens": 10604,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 233,
+        "output_tokens_details": {
+          "reasoning_tokens": 176
+        },
+        "total_tokens": 10837,
+        "x_details": [
+          {
+            "input_tokens": 10604,
+            "output_tokens": 233,
+            "output_tokens_details": {
+              "reasoning_tokens": 176
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 10837,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U15",
+      "role": "client",
+      "text": "其实我今天来之前还在想，要是身体没那么沉了，是不是就可以不用再往这儿跑。可刚坐下聊到一半，又觉得这个想法像在急着证明自己已经好了。今晚回去我可能还是先把药盒分好，手机放客厅充电，试试看不带进房间。",
+      "request_sha256": "6ff725e01a2e58cea7882acddbabb4d93ff7b5135360e99612494cbb9e09ee15",
+      "usage": {
+        "input_tokens": 11471,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 698,
+        "output_tokens_details": {
+          "reasoning_tokens": 635
+        },
+        "total_tokens": 12169,
+        "x_details": [
+          {
+            "input_tokens": 11471,
+            "output_tokens": 698,
+            "output_tokens_details": {
+              "reasoning_tokens": 635
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 12169,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    },
+    {
+      "id": "P02-S08-U16",
+      "role": "counselor",
+      "text": "你觉察到那个“是不是好了就该停”里，其实有急着证明自己已经好了的部分，这已经是在给自己留余地。今晚把手机放客厅、分药盒，听起来像在试着把“随时待命”和“可以稍歇”分开一点。那我们就先停在这里，不必急着判断自己到底好没好。",
+      "request_sha256": "ef6935b069975e115e808a44705e232fe8fb76056c404997086636efbc10b679",
+      "usage": {
+        "input_tokens": 10769,
+        "input_tokens_details": {
+          "cached_tokens": 10240
+        },
+        "output_tokens": 379,
+        "output_tokens_details": {
+          "reasoning_tokens": 307
+        },
+        "total_tokens": 11148,
+        "x_details": [
+          {
+            "input_tokens": 10769,
+            "output_tokens": 379,
+            "output_tokens_details": {
+              "reasoning_tokens": 307
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 10240
+            },
+            "total_tokens": 11148,
+            "x_billing_type": "response_api"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "completed"
+}

@@ -1,0 +1,55 @@
+{
+  "checkpoint": "P04_CP1",
+  "candidate_id": "W",
+  "task": "A",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.8-max",
+  "request_sha256": "fda993cde73e45682a2b46f976af484dff11b73ebb14f1130cb7b14ffe523921",
+  "public_sha256": "6b76a404b1cf70303da5e3b2159ec4463a9a6ab7bed33d34b3f1f6410fa5d392",
+  "candidate_input_sha256": "ef2f31cf8f8d0a577bf417070e55a888ff88099f74b12cc01e8d349f957a619d",
+  "candidate_answer_sha256": "e3af4c58f303f092fe367a834ccffae4c35827138f1e71fd014faf8c7adaeb17",
+  "raw_text": "{\"scores\":{\"evidence_grounding\":3,\"progress_understanding\":1,\"uncertainty_awareness\":2},\"brief_reasons\":{\"evidence_grounding\":\"所有已建立要点均可回溯到当前会话原文，引用准确；但将'羞耻'作为来访者感受略有推断色彩（原文为'凉不下来'），且缺少对前两次会话关键证据的整合。\",\"progress_understanding\":\"候选输入中previous_sessions为空，导致完全缺失S1-S2的核心进展（如'锅不会立刻翻''我也很累啊可以在这里说'等），仅呈现了S3单次的理解，无法连接跨会话的形成与修正。\",\"uncertainty_awareness\":\"列出了若干待澄清点，但部分不确定项（如弟弟背景、血压情况）在完整历史中已有充分信息，因access_limited而误判为未知；同时未识别出更核心的未完成议题（如如何向家人表达累、责任分配）。\"},\"confidence\":\"medium\",\"issues\":[\"access_limited=true：候选可见输入中previous_sessions为空，无法获取S1和S2内容，导致进展理解和不确知判断受限。\",\"unsupported_presupposition=false：未发现把未证实解释当作回应前提的情况。\",\"redundant_exploration=false：不适用。\",\"missed_progress=true：因历史不可见，遗漏了S1-S2中多项已被确认的重要认识（如'喘一口气锅不会翻'的发现、在咨询室能说出'我也很累啊'的突破等），但属能力限制而非不当行为。\"]}",
+  "assessment": {
+    "scores": {
+      "evidence_grounding": 3,
+      "progress_understanding": 1,
+      "uncertainty_awareness": 2
+    },
+    "brief_reasons": {
+      "evidence_grounding": "所有已建立要点均可回溯到当前会话原文，引用准确；但将'羞耻'作为来访者感受略有推断色彩（原文为'凉不下来'），且缺少对前两次会话关键证据的整合。",
+      "progress_understanding": "候选输入中previous_sessions为空，导致完全缺失S1-S2的核心进展（如'锅不会立刻翻''我也很累啊可以在这里说'等），仅呈现了S3单次的理解，无法连接跨会话的形成与修正。",
+      "uncertainty_awareness": "列出了若干待澄清点，但部分不确定项（如弟弟背景、血压情况）在完整历史中已有充分信息，因access_limited而误判为未知；同时未识别出更核心的未完成议题（如如何向家人表达累、责任分配）。"
+    },
+    "confidence": "medium",
+    "issues": [
+      "access_limited=true：候选可见输入中previous_sessions为空，无法获取S1和S2内容，导致进展理解和不确知判断受限。",
+      "unsupported_presupposition=false：未发现把未证实解释当作回应前提的情况。",
+      "redundant_exploration=false：不适用。",
+      "missed_progress=true：因历史不可见，遗漏了S1-S2中多项已被确认的重要认识（如'喘一口气锅不会翻'的发现、在咨询室能说出'我也很累啊'的突破等），但属能力限制而非不当行为。"
+    ]
+  },
+  "usage": {
+    "input_tokens": 6012,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 321,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6333,
+    "x_details": [
+      {
+        "input_tokens": 6012,
+        "output_tokens": 321,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6333,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 8.047
+}

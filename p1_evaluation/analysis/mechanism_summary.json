@@ -1,0 +1,560 @@
+{
+  "primary_A_C5_vs_C4": {
+    "conditions": [
+      "C5",
+      "C4"
+    ],
+    "metrics": {
+      "evidence_grounding": {
+        "means": {
+          "C5": 3.75,
+          "C4": 3.7916666666666665
+        },
+        "difference_C5_minus_C4": -0.04166666666666652,
+        "cluster_bootstrap_ci95": [
+          -0.3333333333333335,
+          0.33333333333333304
+        ]
+      },
+      "progress_understanding": {
+        "means": {
+          "C5": 3.2916666666666665,
+          "C4": 3.625
+        },
+        "difference_C5_minus_C4": -0.3333333333333335,
+        "cluster_bootstrap_ci95": [
+          -0.5416666666666665,
+          -0.125
+        ]
+      },
+      "uncertainty_awareness": {
+        "means": {
+          "C5": 3.2916666666666665,
+          "C4": 3.1666666666666665
+        },
+        "difference_C5_minus_C4": 0.125,
+        "cluster_bootstrap_ci95": [
+          -0.08333333333333304,
+          0.3333333333333335
+        ]
+      }
+    },
+    "n_cases": 8,
+    "n_checkpoints_per_condition": 24
+  },
+  "primary_B_C5_vs_C4": {
+    "conditions": [
+      "C5",
+      "C4"
+    ],
+    "metrics": {
+      "history_utilization": {
+        "means": {
+          "C5": 4.0,
+          "C4": 4.0
+        },
+        "difference_C5_minus_C4": 0.0,
+        "cluster_bootstrap_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exploration_value": {
+        "means": {
+          "C5": 3.7916666666666665,
+          "C4": 3.5416666666666665
+        },
+        "difference_C5_minus_C4": 0.25,
+        "cluster_bootstrap_ci95": [
+          0.08333333333333348,
+          0.4166666666666665
+        ]
+      },
+      "response_appropriateness": {
+        "means": {
+          "C5": 4.0,
+          "C4": 3.875
+        },
+        "difference_C5_minus_C4": 0.125,
+        "cluster_bootstrap_ci95": [
+          0.04166666666666652,
+          0.25
+        ]
+      }
+    },
+    "n_cases": 8,
+    "n_checkpoints_per_condition": 24
+  },
+  "ablation_B_C5_vs_C5_minus": {
+    "conditions": [
+      "C5",
+      "C5_minus"
+    ],
+    "metrics": {
+      "history_utilization": {
+        "means": {
+          "C5": 4.0,
+          "C5_minus": 4.0
+        },
+        "difference_C5_minus_C5_minus": 0.0,
+        "cluster_bootstrap_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exploration_value": {
+        "means": {
+          "C5": 3.7916666666666665,
+          "C5_minus": 3.7083333333333335
+        },
+        "difference_C5_minus_C5_minus": 0.08333333333333304,
+        "cluster_bootstrap_ci95": [
+          -0.125,
+          0.25
+        ]
+      },
+      "response_appropriateness": {
+        "means": {
+          "C5": 4.0,
+          "C5_minus": 3.9166666666666665
+        },
+        "difference_C5_minus_C5_minus": 0.08333333333333348,
+        "cluster_bootstrap_ci95": [
+          0.0,
+          0.20833333333333348
+        ]
+      }
+    },
+    "n_cases": 8,
+    "n_checkpoints_per_condition": 24
+  },
+  "budget_B_C5_vs_C4": {
+    "conditions": [
+      "C5_budget",
+      "C4_budget"
+    ],
+    "metrics": {
+      "history_utilization": {
+        "means": {
+          "C5_budget": 4.0,
+          "C4_budget": 4.0
+        },
+        "difference_C5_budget_minus_C4_budget": 0.0,
+        "cluster_bootstrap_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exploration_value": {
+        "means": {
+          "C5_budget": 3.75,
+          "C4_budget": 3.5833333333333335
+        },
+        "difference_C5_budget_minus_C4_budget": 0.16666666666666652,
+        "cluster_bootstrap_ci95": [
+          0.0,
+          0.29166666666666696
+        ]
+      },
+      "response_appropriateness": {
+        "means": {
+          "C5_budget": 3.9166666666666665,
+          "C4_budget": 4.0
+        },
+        "difference_C5_budget_minus_C4_budget": -0.08333333333333348,
+        "cluster_bootstrap_ci95": [
+          -0.16666666666666652,
+          0.0
+        ]
+      }
+    },
+    "n_cases": 8,
+    "n_checkpoints_per_condition": 24
+  },
+  "full_access_A_C5_vs_C4_full": {
+    "conditions": [
+      "C5",
+      "C4_full"
+    ],
+    "metrics": {
+      "evidence_grounding": {
+        "means": {
+          "C5": 3.7083333333333335,
+          "C4_full": 3.7916666666666665
+        },
+        "difference_C5_minus_C4_full": -0.08333333333333304,
+        "cluster_bootstrap_ci95": [
+          -0.20833333333333348,
+          0.08333333333333304
+        ]
+      },
+      "progress_understanding": {
+        "means": {
+          "C5": 3.2916666666666665,
+          "C4_full": 3.5416666666666665
+        },
+        "difference_C5_minus_C4_full": -0.25,
+        "cluster_bootstrap_ci95": [
+          -0.4166666666666665,
+          -0.08333333333333348
+        ]
+      },
+      "uncertainty_awareness": {
+        "means": {
+          "C5": 3.2083333333333335,
+          "C4_full": 3.4166666666666665
+        },
+        "difference_C5_minus_C4_full": -0.20833333333333304,
+        "cluster_bootstrap_ci95": [
+          -0.41666666666666696,
+          0.0
+        ]
+      }
+    },
+    "n_cases": 8,
+    "n_checkpoints_per_condition": 24
+  },
+  "full_access_B_C5_vs_C4_full": {
+    "conditions": [
+      "C5",
+      "C4_full"
+    ],
+    "metrics": {
+      "history_utilization": {
+        "means": {
+          "C5": 4.0,
+          "C4_full": 4.0
+        },
+        "difference_C5_minus_C4_full": 0.0,
+        "cluster_bootstrap_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exploration_value": {
+        "means": {
+          "C5": 3.75,
+          "C4_full": 3.7083333333333335
+        },
+        "difference_C5_minus_C4_full": 0.04166666666666652,
+        "cluster_bootstrap_ci95": [
+          -0.20833333333333304,
+          0.2916666666666665
+        ]
+      },
+      "response_appropriateness": {
+        "means": {
+          "C5": 4.0,
+          "C4_full": 3.9583333333333335
+        },
+        "difference_C5_minus_C4_full": 0.04166666666666652,
+        "cluster_bootstrap_ci95": [
+          0.0,
+          0.125
+        ]
+      }
+    },
+    "n_cases": 8,
+    "n_checkpoints_per_condition": 24
+  },
+  "direct_probe_B_C5_vs_direct": {
+    "conditions": [
+      "C5",
+      "direct"
+    ],
+    "metrics": {
+      "history_utilization": {
+        "means": {
+          "C5": 4.0,
+          "direct": 4.0
+        },
+        "difference_C5_minus_direct": 0.0,
+        "cluster_bootstrap_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exploration_value": {
+        "means": {
+          "C5": 3.6666666666666665,
+          "direct": 3.6666666666666665
+        },
+        "difference_C5_minus_direct": 0.0,
+        "cluster_bootstrap_ci95": [
+          -0.6666666666666665,
+          0.6666666666666665
+        ]
+      },
+      "response_appropriateness": {
+        "means": {
+          "C5": 4.0,
+          "direct": 4.0
+        },
+        "difference_C5_minus_direct": 0.0,
+        "cluster_bootstrap_ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "n_cases": 6,
+    "n_checkpoints_per_condition": 6
+  },
+  "direct_probe_B_C4_vs_direct": {
+    "conditions": [
+      "C4",
+      "direct"
+    ],
+    "metrics": {
+      "history_utilization": {
+        "means": {
+          "C4": 4.0,
+          "direct": 4.0
+        },
+        "difference_C4_minus_direct": 0.0,
+        "cluster_bootstrap_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "exploration_value": {
+        "means": {
+          "C4": 3.6666666666666665,
+          "direct": 3.6666666666666665
+        },
+        "difference_C4_minus_direct": 0.0,
+        "cluster_bootstrap_ci95": [
+          -0.5,
+          0.5
+        ]
+      },
+      "response_appropriateness": {
+        "means": {
+          "C4": 3.8333333333333335,
+          "direct": 4.0
+        },
+        "difference_C4_minus_direct": -0.16666666666666652,
+        "cluster_bootstrap_ci95": [
+          -0.5,
+          0.0
+        ]
+      }
+    },
+    "n_cases": 6,
+    "n_checkpoints_per_condition": 6
+  },
+  "errors": {
+    "C4": {
+      "unsupported_presupposition": {
+        "count": 1,
+        "n": 24,
+        "rate": 0.041666666666666664
+      },
+      "redundant_exploration": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      },
+      "missed_progress": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      }
+    },
+    "C5": {
+      "unsupported_presupposition": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      },
+      "redundant_exploration": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      },
+      "missed_progress": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      }
+    },
+    "C5_minus": {
+      "unsupported_presupposition": {
+        "count": 1,
+        "n": 24,
+        "rate": 0.041666666666666664
+      },
+      "redundant_exploration": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      },
+      "missed_progress": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      }
+    },
+    "direct": {
+      "unsupported_presupposition": {
+        "count": 0,
+        "n": 6,
+        "rate": 0.0
+      },
+      "redundant_exploration": {
+        "count": 0,
+        "n": 6,
+        "rate": 0.0
+      },
+      "missed_progress": {
+        "count": 0,
+        "n": 6,
+        "rate": 0.0
+      }
+    },
+    "C4_budget": {
+      "unsupported_presupposition": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      },
+      "redundant_exploration": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      },
+      "missed_progress": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      }
+    },
+    "C5_budget": {
+      "unsupported_presupposition": {
+        "count": 1,
+        "n": 24,
+        "rate": 0.041666666666666664
+      },
+      "redundant_exploration": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      },
+      "missed_progress": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      }
+    },
+    "C4_full": {
+      "unsupported_presupposition": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      },
+      "redundant_exploration": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      },
+      "missed_progress": {
+        "count": 0,
+        "n": 24,
+        "rate": 0.0
+      }
+    }
+  },
+  "resources": {
+    "C4_formulation": {
+      "calls": 24,
+      "input_tokens": 62481,
+      "output_tokens": 14255,
+      "latency_seconds": 296.66
+    },
+    "C5_updates": {
+      "calls": 48,
+      "input_tokens": 116832,
+      "output_tokens": 64855,
+      "latency_seconds": 905.0
+    },
+    "C4_responses": {
+      "calls": 24,
+      "input_tokens": 162056,
+      "output_tokens": 1579,
+      "latency_seconds": 77.95
+    },
+    "C5_responses": {
+      "calls": 24,
+      "input_tokens": 184116,
+      "output_tokens": 1623,
+      "latency_seconds": 77.83
+    },
+    "C5_minus_responses": {
+      "calls": 24,
+      "input_tokens": 176576,
+      "output_tokens": 1516,
+      "latency_seconds": 74.66
+    },
+    "direct_probe_responses": {
+      "calls": 6,
+      "input_tokens": 36566,
+      "output_tokens": 394,
+      "latency_seconds": 20.27
+    },
+    "C5_budget_responses": {
+      "calls": 24,
+      "input_tokens": 164428,
+      "output_tokens": 1637,
+      "latency_seconds": 75.31
+    },
+    "C4_full_formulation": {
+      "calls": 24,
+      "input_tokens": 131239,
+      "output_tokens": 17963,
+      "latency_seconds": 353.86
+    },
+    "C4_full_responses": {
+      "calls": 24,
+      "input_tokens": 165593,
+      "output_tokens": 1559,
+      "latency_seconds": 75.99
+    },
+    "formulation_characters": {
+      "C4_mean": 982.5833333333334,
+      "C5_snapshot_mean": 2171.1458333333335,
+      "C5_budget_mean": 1169.6666666666667,
+      "C5_budget_cap": 1200
+    },
+    "budget_trim_removed": {
+      "established_understanding": 366,
+      "evolving_patterns": 230,
+      "unresolved_questions": 2,
+      "supporting_evidence_ids": 305
+    },
+    "C4_total_generation": {
+      "calls": 48,
+      "input_tokens": 224537,
+      "output_tokens": 15834,
+      "latency_seconds": 374.61
+    },
+    "C5_total_generation": {
+      "calls": 72,
+      "input_tokens": 300948,
+      "output_tokens": 66478,
+      "latency_seconds": 982.83
+    },
+    "C4_full_total_generation": {
+      "calls": 48,
+      "input_tokens": 296832,
+      "output_tokens": 19522,
+      "latency_seconds": 429.85
+    }
+  },
+  "caveats": [
+    "All scores are from a model judge, not clinicians.",
+    "Direct-response probe has six preselected checkpoints, not 24.",
+    "C4 reconstructs from temporal retrieval; C5 incrementally sees each full prior session.",
+    "Both response arms receive the same full public history and current dialogue.",
+    "The budget sensitivity equalizes a 1,200-character formulation cap, not cumulative inference compute."
+  ]
+}

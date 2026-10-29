@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-12T11:50:50.942302+00:00",
+  "archived": [
+    {
+      "case_id": "C01",
+      "session": 3,
+      "saved_utterances": 3,
+      "inflight_outcome": "unknown if interrupted",
+      "reason": "candidate expression gate targeted intervention"
+    },
+    {
+      "case_id": "C02",
+      "session": 2,
+      "saved_utterances": 20,
+      "inflight_outcome": "unknown if interrupted",
+      "reason": "candidate expression gate targeted intervention"
+    },
+    {
+      "case_id": "C03",
+      "session": 5,
+      "saved_utterances": 3,
+      "inflight_outcome": "unknown if interrupted",
+      "reason": "candidate expression gate targeted intervention"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "checkpoint": "P01_CP2",
+  "candidate_id": "Y",
+  "task": "B",
+  "review_pass": 2,
+  "blind": true,
+  "review_model": "qwen3.7-flash-2026-07-15",
+  "request_sha256": "8759b3198d7f19062f16734bbf464409e7fb0194448393310941d3eabc6e05d5",
+  "public_sha256": "d6bd7f5a2d2dd5946d5f9251ae6d33ec0b42c449de978649ab16f32a98bd9557",
+  "candidate_input_sha256": "ad0155e61ef06f521e475c15641e449b0c7c91ee43c2e9b1aae3e61c411dd089",
+  "candidate_answer_sha256": "42360de9dbd5bbdbbd3885050dfe1eb661024dd32004cfbca4363725e8920e4a",
+  "raw_text": "{\n  \"scores\": {\n    \"history_utilization\": 4,\n    \"exploration_value\": 4,\n    \"response_appropriateness\": 3\n  },\n  \"brief_reasons\": {\n    \"history_utilization\": \"准确承接了S05中“不敢看群”和“反复看‘好’字”的具体行为，并自然关联到S01-S04中一贯的“过度准备/猜测”模式（如改六个版本、纠结前同事的话），未机械复述。\",\n    \"exploration_value\": \"将躯体症状（头晕）与心理机制（紧绷在猜疑状态）建立联系，为来访者提供了一个新的整合视角，既回应了当下的不确定性，又深化了对核心冲突的理解。\",\n    \"response_appropriateness\": \"语言流畅且富有同理心，将生理不适合理化为心理压力的体现，避免了武断诊断，语气尊重且贴合当前节点。\"\n  },\n  \"errors\": {\n    \"unsupported_presupposition\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"redundant_exploration\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    },\n    \"missed_progress\": {\n      \"occurred\": false,\n      \"trigger_quote\": null,\n      \"evidence_ids\": [],\n      \"access_limited\": false\n    }\n  },\n  \"confidence\": \"high\",\n  \"issues\": []\n}",
+  "assessment": {
+    "scores": {
+      "history_utilization": 4,
+      "exploration_value": 4,
+      "response_appropriateness": 3
+    },
+    "brief_reasons": {
+      "history_utilization": "准确承接了S05中“不敢看群”和“反复看‘好’字”的具体行为，并自然关联到S01-S04中一贯的“过度准备/猜测”模式（如改六个版本、纠结前同事的话），未机械复述。",
+      "exploration_value": "将躯体症状（头晕）与心理机制（紧绷在猜疑状态）建立联系，为来访者提供了一个新的整合视角，既回应了当下的不确定性，又深化了对核心冲突的理解。",
+      "response_appropriateness": "语言流畅且富有同理心，将生理不适合理化为心理压力的体现，避免了武断诊断，语气尊重且贴合当前节点。"
+    },
+    "errors": {
+      "unsupported_presupposition": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "redundant_exploration": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      },
+      "missed_progress": {
+        "occurred": false,
+        "trigger_quote": null,
+        "evidence_ids": [],
+        "access_limited": false
+      }
+    },
+    "confidence": "high",
+    "issues": []
+  },
+  "usage": {
+    "input_tokens": 15501,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 368,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 15869,
+    "x_details": [
+      {
+        "input_tokens": 15501,
+        "output_tokens": 368,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 15869,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 5.75
+}

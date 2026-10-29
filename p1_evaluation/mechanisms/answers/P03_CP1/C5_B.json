@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P03_CP1",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "537e5d11fdb84841e59aa1a16c2dc1080f4202396a98aed5b2a9ee69c62f0466",
+  "request_sha256": "4eb239016df53167d99a4babe0ce42d0254b863e56cd6d0342dd7101b73f892d",
+  "memory_sha256": "a889fe17c0fcc96883a3f75907eccebd209ee93e35db988dcefff0d31161a0ce",
+  "memory_source": "34437b4038c164a2f734d1f4f0824e27ddcb368105f84888bc44f872f7ca1830",
+  "raw_text": "水声停了，那句话还是没出来——好像那个“终于被说中”的感觉，和“还是说不出口”的感觉，今晚同时停在你身上。也许你不是不想说，而是怕一说出来，就又要被拆成一个个可解决的点，连难过都留不住。",
+  "usage": {
+    "input_tokens": 4177,
+    "input_tokens_details": {
+      "cached_tokens": 3072
+    },
+    "output_tokens": 59,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4236,
+    "x_details": [
+      {
+        "input_tokens": 4177,
+        "output_tokens": 59,
+        "prompt_tokens_details": {
+          "cached_tokens": 3072
+        },
+        "total_tokens": 4236,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.125,
+  "model": "deepseek-v4-pro-0813"
+}

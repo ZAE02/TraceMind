@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P01_CP3",
+  "condition": "C5_budget",
+  "raw_text": "你把手指停在点赞键上却没点下去，这个动作好像和你之前不敢点开群消息、不敢问“那我呢”有些像。也许那种“不该有这种情绪”的自责，让你连承认失落都变得很难。",
+  "input_sha256": "46440b2e2bb5d407c574aabe5dd4ec22d71e330f61de75418f558012c8e834c2",
+  "memory_sha256": "448950f5478d7efb812b48641d265d7acbf9650494ec4ff20d3074900b43a28b",
+  "request_sha256": "2ab2d5daa567a99227ce626110bd802b262eac73e11fa95bb99d861fcf00b2bb",
+  "usage": {
+    "input_tokens": 10225,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10274,
+    "x_details": [
+      {
+        "input_tokens": 10225,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 10274,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.921
+}

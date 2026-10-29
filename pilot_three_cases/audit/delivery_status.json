@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-10-13T06:10:17.029328+00:00",
+  "status": "complete_with_model_reviews",
+  "synthetic": true,
+  "completed_sessions": 24,
+  "total_pairs": 235,
+  "successful_canonical_utterances": 470,
+  "checkpoints_generated": 9,
+  "model_used": "qwen3.8-27b",
+  "review_models": [
+    "gpt-6.1-sol/high",
+    "gpt-6-luna/low"
+  ],
+  "review_policy": "single reviewer; user-authorized relaxed gate",
+  "human_review_status": "not_performed",
+  "human_forms": 24,
+  "program_validation": "passed",
+  "review_entry": "audit/review_packet.md",
+  "deepseek": "unavailable; see deepseek_connection_probe.json"
+}

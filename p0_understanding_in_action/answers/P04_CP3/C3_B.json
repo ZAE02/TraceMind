@@ -1,0 +1,34 @@
+{
+  "case_id": "P04",
+  "checkpoint": "CP3",
+  "condition": "C3",
+  "task": "B",
+  "input_sha256": "ec3e861bda92393b25dcfbbe912f8ae259c1314c38aca74fc10a56358248e489",
+  "request_sha256": "22880bc6e24af2af3ac2ceb72cbe5cf32aa35b2a2470d91aa86e10784f31ea59",
+  "model": "deepseek-v4-pro-0813",
+  "raw_text": "你昨晚让工服就那么脏着、瘫在椅子上，像是终于允许那半口没出完的气自己待一会儿；可早上看见它又觉得恶心，像那口气没被接住，反而在你身上捂出了味道。也许那件工服现在不只是在替你说“到极限了”，也在提醒你：有些东西被允许摊开后，会先变得难闻，然后才可能慢慢散掉。",
+  "parsed": null,
+  "usage": {
+    "input_tokens": 9418,
+    "input_tokens_details": {
+      "cached_tokens": 1024
+    },
+    "output_tokens": 89,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9507,
+    "x_details": [
+      {
+        "input_tokens": 9418,
+        "output_tokens": 89,
+        "prompt_tokens_details": {
+          "cached_tokens": 1024
+        },
+        "total_tokens": 9507,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "status": "completed"
+}

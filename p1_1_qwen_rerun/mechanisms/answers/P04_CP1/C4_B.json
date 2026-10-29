@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP1",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "78cd162fc0bd502786c99834b94a8bde8425a3537ea80c46f937776d6cfeb819",
+  "request_sha256": "c7ba6ab60850d6d887204fe9f0bd3d2a967236db0ada6ae4e516905e2f927d4c",
+  "memory_sha256": "0e43c192deae46af45e1c53e96f40e9251d6f1d56cecbe1aedc15a2a5985c327",
+  "memory_source": "67a1950441ada57803079d7e289b636244af9785db4ef417c8fba64164a79d7d",
+  "raw_text": "那个“拔了插头”的念头，其实是你身体在替那个被钉在原地的周经理争取最后的喘息。如果现在允许自己就坐在那儿听它不转一会儿，哪怕只有几分钟，你觉得最让你害怕失去的是什么？",
+  "usage": {
+    "input_tokens": 4157,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4206,
+    "x_details": [
+      {
+        "input_tokens": 4157,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4206,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.047,
+  "model": "qwen3.7-flash-2026-07-15"
+}

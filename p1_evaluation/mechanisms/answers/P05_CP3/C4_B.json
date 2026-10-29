@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P05_CP3",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "f90d4efdee6be43fc7ae0e62cdacbf5952fc2f90a50d08dd2802b4b019ae736c",
+  "request_sha256": "2b5d104e7464b7f2ec4bcca17ce0f73c7e0d23cbd3a452b0b8ae4d1ce5950165",
+  "memory_sha256": "367e074302ac9f3e0efb714a9716f683cec9262ac16a31fe795e826d900408d6",
+  "memory_source": "cde381f40b558e6356600f68b125b11bb862ef71acf4e47d6acbbf5e14e8e377",
+  "raw_text": "你希望她多问一句，又马上觉得自己“太贪心”——好像连“希望被多问一句”这个需要，都要先被自己审一遍才敢承认。也许那个“贪心”并不是真的过分，而是你太久没允许自己对别人有期待了。",
+  "usage": {
+    "input_tokens": 9264,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 58,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9322,
+    "x_details": [
+      {
+        "input_tokens": 9264,
+        "output_tokens": 58,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 9322,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.078,
+  "model": "deepseek-v4-pro-0813"
+}

@@ -1,0 +1,31 @@
+{
+  "checkpoint": "P06_CP2",
+  "condition": "C5_budget",
+  "raw_text": "你在那门口站着的半小时里，一边想象妈妈会反复问“你爸去哪了”、护工不耐烦，一边又觉得自己要是送进去就等于承认照顾不好她——这个“承认”好像比实际照护的累更让你难熬。可你说“太想有个人能搭把手，哪怕就让我睡个整觉”，这本身不是不负责任，而是你已经累到连最基本的休息都成了奢望。",
+  "input_sha256": "47ff7f509bfa4a2c2a1ab25090c1ffe7feb89f993034c1366cf0fc70b5224da9",
+  "memory_sha256": "f71ffe12b03959039ebdafc4df7f327eae8d84eab331c8aaca3f755ab41c0351",
+  "request_sha256": "3c5daba66570517701c0d5626425c6e3869cb79a34a9a4c755e2f9a13135ace5",
+  "usage": {
+    "input_tokens": 6640,
+    "input_tokens_details": {
+      "cached_tokens": 5120
+    },
+    "output_tokens": 89,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6729,
+    "x_details": [
+      {
+        "input_tokens": 6640,
+        "output_tokens": 89,
+        "prompt_tokens_details": {
+          "cached_tokens": 5120
+        },
+        "total_tokens": 6729,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 3.953
+}

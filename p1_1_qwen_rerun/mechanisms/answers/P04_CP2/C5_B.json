@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P04_CP2",
+  "condition": "C5",
+  "task": "B",
+  "input_sha256": "493cf4d4f35bd59485927c917089791783a4f59d8098d3f80f9ca90fdfb10659",
+  "request_sha256": "1e33ce0b2055b37a177e814b88aa330daf1474d1fceeeeef7cfcf6441885e21b",
+  "memory_sha256": "b6027d82ccf8bf27d374c73ab323c41e36483769e3aa13b7092f8a9971e318cb",
+  "memory_source": "b588d0e712372a79fb92daa6ce1dc1e0fd2b035864f3cab43cad172c326bc846",
+  "raw_text": "那根“小刺”让你既被推出了原来的位置，又找不到新的动作把自己放回去，所以只能一遍遍洗那个已经干净的碗。这种不知道该把手往哪放的失落感，可能比累更让人心里发堵。",
+  "usage": {
+    "input_tokens": 7570,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 7619,
+    "x_details": [
+      {
+        "input_tokens": 7570,
+        "output_tokens": 49,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 7619,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.25,
+  "model": "qwen3.7-flash-2026-07-15"
+}

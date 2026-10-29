@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-10-14T13:09:08.786629+00:00",
+  "counts": {
+    "frozen_files": 425,
+    "validated_annotations": 24,
+    "first_reviews": 192,
+    "second_reviews": 102,
+    "C4_formulations": 24,
+    "C5_snapshots": 48,
+    "mechanism_answers": 126,
+    "mechanism_reviews": 126,
+    "budget_memories": 24,
+    "budget_answers": 24,
+    "budget_reviews": 48,
+    "C4_full_formulations": 24,
+    "C4_full_answers": 24,
+    "full_access_reviews": 96
+  },
+  "expected_counts": {
+    "validated_annotations": 24,
+    "first_reviews": 192,
+    "second_reviews": 102,
+    "C4_formulations": 24,
+    "C5_snapshots": 48,
+    "mechanism_answers": 126,
+    "mechanism_reviews": 126,
+    "budget_memories": 24,
+    "budget_answers": 24,
+    "budget_reviews": 48,
+    "C4_full_formulations": 24,
+    "C4_full_answers": 24,
+    "full_access_reviews": 96
+  },
+  "human_review_performed": false,
+  "models": {
+    "answers": "qwen3.7-flash-2026-07-15",
+    "judge": "qwen3.8-max"
+  },
+  "issues": [],
+  "complete": true
+}

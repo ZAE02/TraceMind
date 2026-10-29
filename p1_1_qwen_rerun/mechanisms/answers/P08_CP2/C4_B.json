@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P08_CP2",
+  "condition": "C4",
+  "task": "B",
+  "input_sha256": "441e5bb8f8916e32fe54e0c21b2020b415a0896bbbd352aac870ac63950ee8a6",
+  "request_sha256": "36030c30249731cee32fb92e4579c18c8ca9f1ca89ded1c0b172a23a67329c66",
+  "memory_sha256": "d4635356fcbb9bc458d61244ace9f42383d17aa9e5b438a9185a4c0ea6e9364b",
+  "memory_source": "0ccf763b102e51780a152f40503e5d1ae9515a095b05b830fadcefa83a6cd2fc",
+  "raw_text": "那种“没处搁”的感觉，是不是让你觉得原本用来防备他的力气突然没了着落，反而更不知道该怎么自处了？",
+  "usage": {
+    "input_tokens": 6626,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 29,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6655,
+    "x_details": [
+      {
+        "input_tokens": 6626,
+        "output_tokens": 29,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 6655,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 1.703,
+  "model": "qwen3.7-flash-2026-07-15"
+}

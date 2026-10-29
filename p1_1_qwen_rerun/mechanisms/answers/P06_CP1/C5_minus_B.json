@@ -1,0 +1,34 @@
+{
+  "checkpoint": "P06_CP1",
+  "condition": "C5_minus",
+  "task": "B",
+  "input_sha256": "c1bf4ad5384cc72de6b4f3d0234bdfa62c7bea2864ef26af15a8ec8e8c32d2e1",
+  "request_sha256": "2cc87e79c5a89059287308bc4ae8d77112363bae763ced45da9ec62468e4ce66",
+  "memory_sha256": "767aba218a4714b3e79277c91f03676f03dfb0e0264c399d24879874424d4eca",
+  "memory_source": "ba2c072e566f9a6660220669434afaac338a5cb20bd094fff4f6ba82bed8e4f8",
+  "raw_text": "那种“被从头顶撕开”的撕裂感，加上半夜醒来必须摸手腕确认自己还在的恐惧，听起来你一直在用这种方式拼命抓住自己，怕一松手就彻底散了。那个牙印烫起来的时候，除了痛，身体里是不是也有一种终于还能感觉到什么的庆幸？",
+  "usage": {
+    "input_tokens": 3985,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 62,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4047,
+    "x_details": [
+      {
+        "input_tokens": 3985,
+        "output_tokens": 62,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "total_tokens": 4047,
+        "x_billing_type": "response_api"
+      }
+    ]
+  },
+  "latency_seconds": 2.032,
+  "model": "qwen3.7-flash-2026-07-15"
+}
