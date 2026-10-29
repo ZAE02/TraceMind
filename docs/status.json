@@ -1,0 +1,39 @@
+{
+  "reported_at": "2026-10-29T17:48:33.989258+00:00",
+  "version": "0.2.0",
+  "dataset": {
+    "plans": 20,
+    "approved_plans": 20,
+    "trajectories": 32,
+    "complete_sessions": 4,
+    "checkpoints": 4,
+    "issues": [],
+    "complete": false
+  },
+  "target": {
+    "groups": 20,
+    "trajectories": 80,
+    "sessions": 480,
+    "checkpoints": 240
+  },
+  "stack_verification": {
+    "verified_at": "2026-10-29T17:29:39.923694+00:00",
+    "postgresql": "17.11",
+    "pgvector": "0.8.1",
+    "embedding_model": "BAAI/bge-m3",
+    "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+    "reranker_model": "BAAI/bge-reranker-v2-m3",
+    "reranker_revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "vector_dimension": 1024,
+    "retrieved_expected_record": true,
+    "reranker_score": 4.6588134765625,
+    "seconds": 61.844
+  },
+  "human_review": {
+    "completed": 0,
+    "target_pair_packets": 200,
+    "target_independent_judgments": 400,
+    "status": "pending"
+  },
+  "experiment_result_status": "No result claim until actual candidates and reviews are complete"
+}

@@ -1,0 +1,12 @@
+{
+  "source": "development only",
+  "synthetic": true,
+  "human_review_performed": false,
+  "sessions": [
+    "G001-T1\\S01.json",
+    "G001-T2\\S01.json",
+    "G001-T3\\S01.json",
+    "G001-T4\\S01.json"
+  ],
+  "count": 4
+}

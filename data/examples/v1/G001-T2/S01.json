@@ -1,0 +1,121 @@
+{
+  "case_id": "G001-T2",
+  "session": 1,
+  "synthetic": true,
+  "review": "model_reviewed_not_human",
+  "source_sha256": "f2ad8f898ab7854ad7fd52eb6fed0148f7b6ee8f946dc2bc896dea171246fde5",
+  "utterances": [
+    {
+      "id": "G001-T2-S01-U01",
+      "role": "client",
+      "text": "开会前发现接口还没交，我第一个念头是自己怎么没提前追到。虽然记录里交付日期是另一个团队定的，我还是觉得这事没做好。",
+      "job_id": "27d73230fd983364a74b7caa3c801fc78ecc73264da88c69fecaf4af40789c68",
+      "result_sha256": "8f8507df57316ec975ffb5f7cb2a81d68118fccaa98f8f2ccd58def741f88b70"
+    },
+    {
+      "id": "G001-T2-S01-U02",
+      "role": "counselor",
+      "text": "即便知道日期是另一个团队定的，你还是很快把注意力放在自己没有提前追上。此刻说自己“没做好”时，你心里衡量的标准是什么？",
+      "job_id": "db36ae2f480352fe44636599fb214b067e0589045aebb22da603cf03b077addc",
+      "result_sha256": "f636692aca188243589f5cff8a0a658d861bdbf9b7a030781bf25a6038a35a7c"
+    },
+    {
+      "id": "G001-T2-S01-U03",
+      "role": "client",
+      "text": "大概是觉得负责运营就应该提前知道进度，不能等开会前才发现缺了东西。我也想核一下，哪些其实是我能提前做的。",
+      "job_id": "32eb4df070fbfdde389353e8601aaeaacff28f5eb0edc7acd4105fdb101ef234",
+      "result_sha256": "80e4e94908b7a93d5405a51581ec989172e41f20b749fc61e442098280ef8d3e"
+    },
+    {
+      "id": "G001-T2-S01-U04",
+      "role": "counselor",
+      "text": "你希望自己能更早掌握进度，也想把实际能做的事弄清楚。回看这次，从约定交付到开会前，你有哪些机会了解进度，又有哪些信息当时并不在你手里？",
+      "job_id": "8f786db9b625bc9b56029c9c9b7f813105422a0efab94b12bb89d9516ae67924",
+      "result_sha256": "46d4f3450131db2b13ef2ed0c861d4041a5a751073628736436ceeb48d8941c4"
+    },
+    {
+      "id": "G001-T2-S01-U05",
+      "role": "client",
+      "text": "我可以去问进度，记录里也有他们承诺的日期。但具体做到哪一步，我现在还不清楚，得再核一下，不能光看日期就知道。",
+      "job_id": "7faf474a1a5feb490accc29b0d510149d2ab44eabf6039cede07f2c80a95f5f6",
+      "result_sha256": "2afb9811613e71807e8b42483bd6f1bce3a8a3f96585913712c98aff06bcb551"
+    },
+    {
+      "id": "G001-T2-S01-U06",
+      "role": "counselor",
+      "text": "你能看到自己可以主动询问，也留意到日期本身不能说明实际进度。这样区分之后，再看刚才“这事没做好”的感受，有什么变化吗？",
+      "job_id": "cf4a9ae5481148d06186384304aa0a0482cfd486bba7dc3ee3f148de64f4be09",
+      "result_sha256": "6ea5e093d8c9d12531d05151612f1a19f4ca34f7df3ffc49d30d75fed025c0b2"
+    },
+    {
+      "id": "G001-T2-S01-U07",
+      "role": "client",
+      "text": "好像能具体一点了：我可以想想怎么更早问进度，但接口本身不是我做的。只是我还是会想，要是早点问，是不是就不会这么被动。",
+      "job_id": "0092e16d8ceef48103be8bce05b381828f59ba79d45e6b584378bb671de5f7cb",
+      "result_sha256": "ab89908e90531eb08bcebf1995709703ab0a7f1ddceca2d8cd144dc9e9d97319"
+    },
+    {
+      "id": "G001-T2-S01-U08",
+      "role": "counselor",
+      "text": "早点问也许能让你更早知道情况，但现在还不能确定结果会不会不同。这个“要是早点问”的念头出现时，你对自己是什么感觉？",
+      "job_id": "59e6c53c025d4799052e8d3a9b295752737a5bc7a2e52237fd926597b70e9f1e",
+      "result_sha256": "cf2fbccff780a31a6d5612a0743c053ca4d0ceebc4515a4bdc7e5f7f7957628a"
+    },
+    {
+      "id": "G001-T2-S01-U09",
+      "role": "client",
+      "text": "会有点懊恼，觉得自己没把该盯的事盯住。虽然现在也知道光靠我问不一定能让接口按时交，但我还没法马上不怪自己。",
+      "job_id": "f4b736214d36a05c55d046e5b66903c2df8178f4f849fb19d35203c0d345d06e",
+      "result_sha256": "8ece10d0ef9a5b33b16ae021ecdf89e58f261e353e8d44166d281ccb03d9e02b"
+    },
+    {
+      "id": "G001-T2-S01-U10",
+      "role": "counselor",
+      "text": "明白事情不全由你决定，并不会让懊恼立刻消失，我们可以先不用急着把自责赶走。此刻这份懊恼对你来说有多重？",
+      "job_id": "ef8bb49c8dbbcad04d4f68609703e9a2fa0e9d7c5cade49950dc349589e990e8",
+      "result_sha256": "53374a63946d2ae59589f9c22976ebdc03e8f13bb2495269bc8bad8befb733a1"
+    },
+    {
+      "id": "G001-T2-S01-U11",
+      "role": "client",
+      "text": "还挺明显的，想到开会前才发现的时候，心里会沉一下。不过现在能说出具体是哪件事，没刚开始那么乱了。",
+      "job_id": "7d1957199fc6e3004b85e7b131db3157e655d0dfb8c59689978ddaf4448e6648",
+      "result_sha256": "6c36e32262177ce62bfef0163e934d4bead3bdb3089c5debf98960006716d50a"
+    },
+    {
+      "id": "G001-T2-S01-U12",
+      "role": "counselor",
+      "text": "那一下心沉的感觉还在，而能把懊恼指向具体事情，也让你稍微没那么乱。我们可以先在这里停一停，陪你留意这份感觉，不急着给自己下结论。",
+      "job_id": "913c347c4e918f2f1efe19f718b1f3991a1a3e8b57b4e1dc9ab59185c68bae7a",
+      "result_sha256": "031f8f64b583638c309b048e3b572b6bbe0327da23a15dce5e21f0ca7e36b13e"
+    },
+    {
+      "id": "G001-T2-S01-U13",
+      "role": "client",
+      "text": "嗯，我先停一下。想到待办里那条延期，还是有点堵，但现在不必马上判断我是不是不称职。",
+      "job_id": "65f60ebe1f5f77d46a7a5b138ee92fe2529c3033525f0a5052ee967987dc96f8",
+      "result_sha256": "5a38ee5294ddb06e73536a39072b0cf31d9e40e715b72d2b3ebf228069266aa3"
+    },
+    {
+      "id": "G001-T2-S01-U14",
+      "role": "counselor",
+      "text": "那条延期仍让你觉得堵，但你愿意先给自己一点空间，不急着把这件事变成对自己的整体判断。此刻这样停下来，感觉怎么样？",
+      "job_id": "ede9462659358ae09a820284f3f9acdb814ddced121d341f3736205a9779fcbd",
+      "result_sha256": "acba3da019b6174d73af5dad48279684d013b76c9cadf9fad4305fc67470491f"
+    },
+    {
+      "id": "G001-T2-S01-U15",
+      "role": "client",
+      "text": "安静一点了，但事还没解决，我还是惦记着。等会儿想先把记录再看一遍，确认自己能跟进什么。",
+      "job_id": "adec3c244862d09123fda70468d811da76c3aa5e932fe3d5eb06004b8abb7da9",
+      "result_sha256": "35fa5166b58c1dfdb0452c5dd4a933b0783e68defbcdcc24995f4763622c6e66"
+    },
+    {
+      "id": "G001-T2-S01-U16",
+      "role": "counselor",
+      "text": "你稍微安静了一些，也仍然惦记着未解决的事。先看记录、确认能跟进的部分，是你想到的下一步，不必要求自己此刻就把所有问题解决。",
+      "job_id": "9a4de7f382e24e5890ab0748cdeb04f9156a04ab407f7c0a596baa7c8aee1688",
+      "result_sha256": "3e8c59a8f952ff2abeb80b32db177dfd4087de2096e9f05a5d6a4f29c9ceb480"
+    }
+  ]
+}

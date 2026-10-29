@@ -1,0 +1,5 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><title>TraceMind · 研究查看器</title>
+<style>body{font:16px/1.6 system-ui;max-width:1100px;margin:36px auto;padding:0 24px;color:#203348}a{color:#076a75}article{border:1px solid #d9e2e7;border-radius:10px;padding:16px;margin:12px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere}small{color:#52687a}</style></head><body>
+<h1>TraceMind · 证据与记忆版本</h1><p>研究者查看器。材料均为合成对话；此界面与匿名人工评审分开运行。</p>
+{% if not case_id %}<h2>已索引个案</h2>{% for case,count in cases %}<article><a href="/case/{{case}}">{{case}}</a> · {{count}} 条证据</article>{% else %}<p>尚无已索引数据。完成会话后运行 benchmark index。</p>{% endfor %}
+{% else %}<a href="/">← 个案列表</a><h2>{{case_id}}</h2><h3>原始发言</h3>{% for item in evidence %}<article id="{{item.id}}"><small>{{item.id}} · {{item.role}} · {{item.observed_at}}</small><p>{{item.text}}</p></article>{% endfor %}<h3>追加式记忆版本</h3><pre>{{versions}}</pre>{% endif %}</body></html>

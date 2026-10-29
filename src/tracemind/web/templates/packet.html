@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8"><title>TraceMind · 评审 {{packet.id}}</title>
+<style>body{font:16px/1.6 system-ui;max-width:1050px;margin:32px auto;padding:0 24px;color:#203348}section{border:1px solid #d4dfe5;border-radius:12px;padding:20px;margin:20px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere}textarea{display:block;width:95%;min-height:90px;margin:8px 0}fieldset{border:1px solid #dae2e7;margin:10px 0}label{margin-right:20px}button{padding:10px 20px;margin:10px;background:#126a75;color:white;border:0;border-radius:6px}</style></head><body>
+<a href="/">← 任务列表</a><h1>匿名回应评审 · {{packet.id}}</h1><p>依据公开对话判断，可接受多种合理回应。试探性问题不自动等于无依据断言；遗漏请说明被忽视的历史进展。</p>
+<details><summary>公开会话历史</summary><pre>{{packet.public_history}}</pre></details>
+{% set labels={'unsupported_assertion':'无依据断言','leading_question':'诱导性提问','tentative_exploration':'合理试探（这是行为标签，不是错误）','missed_progress':'遗漏已获进展'} %}
+<form method="post">{% for side in ['a','b'] %}<section><h2>回应 {{side|upper}}</h2><pre>{{packet['response_'+side]}}</pre>
+{% for field in fields %}<fieldset {% if locked %}disabled{% endif %}><legend>{{labels[field]}}</legend>{% for value,label in [('yes','是'),('no','否')] %}<label><input type="radio" name="{{side}}_{{field}}" value="{{value}}" {% if review.get(side,{}).get(field) is sameas true and value=='yes' or review.get(side,{}).get(field) is sameas false and value=='no' %}checked{% endif %}>{{label}}</label>{% endfor %}</fieldset>{% endfor %}
+<label>相关证据ID（遗漏可不引用答卷）<textarea name="{{side}}_evidence" {% if locked %}disabled{% endif %}>{{review.get(side,{}).get('evidence','')}}</textarea></label>
+<label>判断理由<textarea name="{{side}}_explanation" {% if locked %}disabled{% endif %}>{{review.get(side,{}).get('explanation','')}}</textarea></label></section>{% endfor %}
+<fieldset {% if locked %}disabled{% endif %}><legend>整体偏好</legend>{% for value,label in [('a','回应A'),('b','回应B'),('tie','相当／无明确偏好')] %}<label><input type="radio" name="preference" value="{{value}}" {% if review.get('preference')==value %}checked{% endif %}>{{label}}</label>{% endfor %}</fieldset>
+{% if not locked %}<button name="action" value="save">保存草稿</button><button name="action" value="lock">锁定提交</button>{% else %}<p>本份评审已锁定。</p>{% endif %}</form></body></html>

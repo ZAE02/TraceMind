@@ -1,0 +1,8 @@
+# Local infrastructure
+
+PostgreSQL 17.11 Windows x64 was downloaded from [EDB](https://www.enterprisedb.com/download-postgresql-binaries) and extracted to `.local/pgsql`. Run `scripts/setup_database.ps1` after creating the Python environment to initialize or start the cluster. It creates a local `tracemind` database, binds to 127.0.0.1:55432, requires SCRAM authentication, and stores the generated password under `.local/database-password.txt`. The `.local` directory is ignored by Git. The script uses the existing cluster and password on subsequent runs. PostgreSQL 17.11 was started and a connection verified.
+
+The [pgvector Windows instructions](https://github.com/pgvector/pgvector#installation-notes---windows) require Visual Studio C++ Build Tools and a Windows SDK. The installed compiler built official pgvector v0.8.1, commit `778dacf20c07caf904557a88705142631818d8cb`, against PostgreSQL 17.11. `uv run python scripts/build_pgvector.py` reproduces this source build.
+
+Run `uv run python scripts/verify_stack.py` using the ignored `.env` connection. The script embeds an actual record, inserts it, retrieves it using BM25/vector fusion and the cross-encoder, then deletes its test row. This end-to-end test passed on 2026-10-30 GMT+8; its machine-readable proof is `.local/verification/stack.json`, also included in aggregate `docs/status.json`. The installed PyTorch build uses CPU, so verification does not claim GPU inference. BGE-M3 is pinned to `5617a9f61b028005a4858fdac845db406aefb181`; the reranker is pinned to `953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e`. Models load sequentially, with CPU retry on CUDA out-of-memory errors.
+

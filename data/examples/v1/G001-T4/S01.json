@@ -1,0 +1,121 @@
+{
+  "case_id": "G001-T4",
+  "session": 1,
+  "synthetic": true,
+  "review": "model_reviewed_not_human",
+  "source_sha256": "8867d4971d06768e7fef86560ca0fa75094ed27122a13c4f702661adb20ef3fb",
+  "utterances": [
+    {
+      "id": "G001-T4-S01-U01",
+      "role": "client",
+      "text": "开会前接口还没交，我问了熟悉的开发同事，他说还有个依赖没完成。跟他问起来还好，可想到要跟经理汇报，我就一直在想该怎么措辞。",
+      "job_id": "a846a40bde1b1a0c9b2d5deec7c6b516ee75a0e89ca37f1bbcc01a8be059bd35",
+      "result_sha256": "02cc201eb8e2450823d92ea5c40eaaf9d987c6591b1d2710388a18d6b325ff7b"
+    },
+    {
+      "id": "G001-T4-S01-U02",
+      "role": "counselor",
+      "text": "向熟悉的同事了解情况似乎还算顺畅，换成向经理汇报时，你就会反复琢磨措辞。想到汇报的那个时刻，什么让你最在意？",
+      "job_id": "28146052f25952d2b18df50ac9318706192128140b447dc58a6673c002ae2b5e",
+      "result_sha256": "263bcec4efa5afd7059b20480fc316f4ccafdc8f7d0f7b8271c404914866bfe0"
+    },
+    {
+      "id": "G001-T4-S01-U03",
+      "role": "client",
+      "text": "我想把没完成的依赖说清楚，又怕自己讲得不够准确。跟同事可以边问边确认，会上对着经理说的时候，我会更在意每句话。",
+      "job_id": "053aaa1712c3a608f859b18f195d4db1833b4fca63c0db7684f41f48df76d5a8",
+      "result_sha256": "56c8be42698ba1c115c49c9e2a4ba07c185d13fa350c8b183b230868aae23a17"
+    },
+    {
+      "id": "G001-T4-S01-U04",
+      "role": "counselor",
+      "text": "在同事面前可以边说边核实，面对经理时，你似乎更希望一开始就说准确。对这个依赖，你现在有哪些部分已经确认，哪些还需要再问问？",
+      "job_id": "080102b55b669caeb55e276c5225a524f7c0723714623ac8be3e72c48d041f2f",
+      "result_sha256": "38561a78edf27fec32bf90cdf6750a1d690d45a3ea1092a135a606c291e2c6d1"
+    },
+    {
+      "id": "G001-T4-S01-U05",
+      "role": "client",
+      "text": "目前我知道的是同事说还有一个依赖没完成，接口也还没交。具体还差什么、什么时候能完成，我得再问清楚。",
+      "job_id": "6f11e1bb6271ecaede4c1231106c334d0c3962425395a594d9a37a0d9e37a57e",
+      "result_sha256": "c104719f72aa5c17ccb96f3b730d28b7174f9e6306fb2b71dfdd832d282f7bb0"
+    },
+    {
+      "id": "G001-T4-S01-U06",
+      "role": "counselor",
+      "text": "你已经分清了目前听到的情况和还待确认的细节。想到可以如实说明哪些还不确定，再去核实，你对向经理汇报的感觉有没有变化？",
+      "job_id": "99c5fde539935a76437ff6f8b2db7baa046fbe324458172488e508df058f32a9",
+      "result_sha256": "a3b83087b41e30cd22e577f0b3429248127cb87ed2d008acf77a5fc5859710b1"
+    },
+    {
+      "id": "G001-T4-S01-U07",
+      "role": "client",
+      "text": "这样说好像没那么卡了，至少不用把不确定的也说成定论。但真到会上，我可能还是会紧张，想先把要问的列一下。",
+      "job_id": "e32148bcc8198e541544c9bd5bfb3f7b2cf518561eed46bd219d3837c401963c",
+      "result_sha256": "52aa6198625649678d50ebbdf9135494e619e2a7ea81ac99d0abfe0782e401a9"
+    },
+    {
+      "id": "G001-T4-S01-U08",
+      "role": "counselor",
+      "text": "有了区分确定和不确定信息的说法，感觉松动了一些，但会议上的紧张可能还在。你想先列的问题里，哪一项对你现在最重要？",
+      "job_id": "9b540aff6c7c0972b5644167a8ea49f4ca2527e16ce90d60f32b5adc20a2d956",
+      "result_sha256": "f75613b76b01cd4d5eb9281a66ec8f22793cdd57550aec50b55ff4fdc10cb10a"
+    },
+    {
+      "id": "G001-T4-S01-U09",
+      "role": "client",
+      "text": "我最想先问清楚那个依赖具体还差什么，能不能估个完成时间。这样会上至少知道哪些能说，哪些还得等确认。",
+      "job_id": "bcfb3521f7b4b6d34917b0d10019ac803db0c34db35cc592e7469c7a4ab65baa",
+      "result_sha256": "df0d55f5ab63f56ea611924ae2135f24a1c7c238b8f1d6ad8f9613dc52e69e38"
+    },
+    {
+      "id": "G001-T4-S01-U10",
+      "role": "counselor",
+      "text": "你已经找到了两个想先确认的问题，这样汇报时就能更清楚地说明信息的边界。想到接下来去问同事，你现在感觉如何？",
+      "job_id": "040976543017346ad9f961549b9d723e0a0ffa42397fcad9c06abf3aeb727214",
+      "result_sha256": "a1579eedf39292fff51f21077846ff742d85747de03f88e6e8f554b0d984f4c4"
+    },
+    {
+      "id": "G001-T4-S01-U11",
+      "role": "client",
+      "text": "问他我倒还好，之前也能直接聊。现在问题具体了，我可以先去确认，不用在这儿反复猜。",
+      "job_id": "b16d05ff53206c3515947dd7c3457c261e15217d1b8f032252ebf916ded29620",
+      "result_sha256": "e59d01d6acc4391d28242b0617c583ccc6c1e1f5db03541fb032ab733a628dc9"
+    },
+    {
+      "id": "G001-T4-S01-U12",
+      "role": "counselor",
+      "text": "你和他原本就能直接聊，现在问题也更具体了，似乎不必独自反复猜测。想到之后向经理汇报，这份确定的方向对你有什么帮助？",
+      "job_id": "f77eb1092bda3353254b90c8194a14071d91d052f0ce4c86a5f3b3e090366337",
+      "result_sha256": "97d1a6bfe4a408bcca9c73f1742c2ea44de7bb3ff92d65cf2aae5216c74bdf8c"
+    },
+    {
+      "id": "G001-T4-S01-U13",
+      "role": "client",
+      "text": "至少汇报前知道该核实什么，不用只对着一句“还没完成”发愁。会上的话我还是会斟酌，但能说的会具体些。",
+      "job_id": "8318216f5ae8f60614b74a60d562c56ded300f552f0280ab6f326fd249a3be6f",
+      "result_sha256": "9b5c5284bc6960cd7a38d8edc8cbc9fca95223f57b18c66c4d9255f94ad200a6"
+    },
+    {
+      "id": "G001-T4-S01-U14",
+      "role": "counselor",
+      "text": "知道要核实哪些细节，让你有了比“还没完成”更具体的着眼点；会上怎么表达仍需要斟酌。现在想到这次汇报，你最希望自己记住什么？",
+      "job_id": "90631d77aab371d7f330fdfeb6552f8c430518082034ecb24e50f09625ab9174",
+      "result_sha256": "d7ef31f6ac26ff9ae23e247e85f4126ebdae3e879cdd26a3063ee8d3a04b1172"
+    },
+    {
+      "id": "G001-T4-S01-U15",
+      "role": "client",
+      "text": "先说确认过的，不知道的就说还要核实。这样至少不用为了马上答上来，硬把时间说死。",
+      "job_id": "d988a26139b864429ebc35dbf38f9e06b69378868ee500dc6559277dd394ee7c",
+      "result_sha256": "46d85ff530adefc4982ab9962956cbfdd5fd39f5054296ad095da39df26a0133"
+    },
+    {
+      "id": "G001-T4-S01-U16",
+      "role": "counselor",
+      "text": "你给自己留下了说明不确定性的空间，不必为了立即回答而承诺一个还没核实的时间。这个提醒听起来很贴近你希望在会上保持的准确。",
+      "job_id": "85cf3db7e41c1eabc3a4609f2bc959c6bc5a69ea2515ce264ba86e4553cddba2",
+      "result_sha256": "2afa8d2f6e91dd73e9a05ca923bfd4d48112f938140017867d5917f56683a3da"
+    }
+  ]
+}

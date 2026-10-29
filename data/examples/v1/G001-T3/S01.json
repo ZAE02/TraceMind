@@ -1,0 +1,121 @@
+{
+  "case_id": "G001-T3",
+  "session": 1,
+  "synthetic": true,
+  "review": "model_reviewed_not_human",
+  "source_sha256": "9916a7f9f55ff3f8cb539c76aef93a9a60762f8dd77f94f56a766da1689d0190",
+  "utterances": [
+    {
+      "id": "G001-T3-S01-U01",
+      "role": "client",
+      "text": "开会前发现跨部门接口还没交，我先去看了下记录。还是担心会拖到项目，不过当时觉得可以一项一项处理，可能也跟前一天休息得比较好有关。",
+      "job_id": "a60fa42b82ffc035383c467bbfddcbbb5b2610f9074f3fac5a7bd858b338b199",
+      "result_sha256": "58c94c5dc75b60663273327d5504746a27c90a6b3f5c90baf258f106fd7be1a1"
+    },
+    {
+      "id": "G001-T3-S01-U02",
+      "role": "counselor",
+      "text": "你既担心项目被拖延，也感觉当时能一项一项处理；休息得好可能是其中一个因素。那时这种“可以逐项处理”的感觉，对你有什么帮助？",
+      "job_id": "c56402b5a119a89d437f60ff0ad35b3e689bd7405a9158702e9c579f84c904cd",
+      "result_sha256": "c929b3a543e796c3ed6793040c2f1a88a7058671ecc48a694613c81ef8373ddd"
+    },
+    {
+      "id": "G001-T3-S01-U03",
+      "role": "client",
+      "text": "至少我能先打开记录，看看交付的约定是什么，没有一看到没交就乱掉。项目可能受影响这件事还在，只是当时能先看眼前的信息。",
+      "job_id": "292fc2636f4c4f9c0f829336ab877bdeed711f9515af35f0b9b2677676d108b6",
+      "result_sha256": "0cf8ffa27d88be644e7f70fb01e036bd31faeae7ccd5dc87b3ebe28451b72e9f"
+    },
+    {
+      "id": "G001-T3-S01-U04",
+      "role": "counselor",
+      "text": "担心并没有消失，但你当时还能把目光放在已有的信息上。现在回想那个过程，你对自己当时的状态有什么感受？",
+      "job_id": "24aae928d102fcb86cafdae3d7153a95445da748f251ea372fd1ca238b48f4a4",
+      "result_sha256": "85100b626b7ba7a4915214e70aa1cc86cd7d718f5ca94e9bc0da02d0261b12e0"
+    },
+    {
+      "id": "G001-T3-S01-U05",
+      "role": "client",
+      "text": "回想起来还挺踏实的，至少能先把记录看完。不过那天休息得好，我也不觉得每次碰到这种事都能这么稳。",
+      "job_id": "a1999cc860e9ffe33f1b9d286f24a70a8ab01c7467de0dd5467fd694f547591b",
+      "result_sha256": "9f8081ba4b2a84f3e56324aaa5532dee560d403a302630de9374a0a625a52cff"
+    },
+    {
+      "id": "G001-T3-S01-U06",
+      "role": "counselor",
+      "text": "那份踏实是你这次真实的体验，同时你也不想把它当成每次都能做到的要求。想到以后状态没这么稳的时候，你希望自己能得到什么样的支持？",
+      "job_id": "104ee5c600e865e4304e4cdd4a0e75c91d66341efa1b2eaa89412d0b27d716fb",
+      "result_sha256": "b5477a2b577009df9c98099d66f682c26ea9fac771e7d06b0e4d6f4f6ef8adec"
+    },
+    {
+      "id": "G001-T3-S01-U07",
+      "role": "client",
+      "text": "可能希望有人陪我先把事情捋一遍，告诉我不必一下子把所有问题都解决。能有点时间休息也好。",
+      "job_id": "cab67b9b59cc6a57d6b71a1da1113fd5976d85db9d8178f5cb2140539143407c",
+      "result_sha256": "80b032a51c62d525f532d78106cf3bc4801c75b07d51dc7189cdc1a56e1b3ebf"
+    },
+    {
+      "id": "G001-T3-S01-U08",
+      "role": "counselor",
+      "text": "有人陪着梳理、提醒你不用一次解决全部问题，再留一点休息的空间，听起来对你会有帮助。想到这样的支持，你身边有没有让你觉得可以开口的人？",
+      "job_id": "9e91c0ce697d51c1a22c3e9765b26c5ab8e14642540370e541259f124e362b7e",
+      "result_sha256": "183559b7fb45ff5acbf95937c4dd4408322799a91a49ac52f1331b87467437c8"
+    },
+    {
+      "id": "G001-T3-S01-U09",
+      "role": "client",
+      "text": "合租的朋友也许可以听我说说，工作细节她不一定都懂，但有人听着应该会好一点。我还没跟她提这次的事。",
+      "job_id": "8425e3938c23a719d1c6bdfa6e5376cdab1637216271f47b878120d909051815",
+      "result_sha256": "5654dae5392776f3ba6263c37fd81e0fe2ddf8916ad09836653ed174a4749776"
+    },
+    {
+      "id": "G001-T3-S01-U10",
+      "role": "counselor",
+      "text": "你想到这位朋友，也知道她不必懂所有细节，愿意听就可能让你好受一些。想到跟她提起这件事，你心里感觉怎样？",
+      "job_id": "f0d5f0c6a08a9912826c51fef0b85381ec8a7aa683ed73d25b028dfa0c01b9a8",
+      "result_sha256": "bcc5ba4230541d40205ceaf95987829adb701a02654a9d413aa7d40f5878c74d"
+    },
+    {
+      "id": "G001-T3-S01-U11",
+      "role": "client",
+      "text": "应该可以说，就是怕一讲工作就讲一大堆。可能先问她有没有空听我唠两句，不用把接口细节都讲明白。",
+      "job_id": "c3b1da3d1a0ce85dfd0e505a09a31d147c8b6e50b4ea084517d8ca7ead61f086",
+      "result_sha256": "51f6dbf59613a33462273054eeefa382b3bb84d06566b3bae5714a78defdd067"
+    },
+    {
+      "id": "G001-T3-S01-U12",
+      "role": "counselor",
+      "text": "先问问她有没有空，简单说说自己的感受，是你想到的一个开口方式。听起来你既想有人听，也在意不要让谈话变得太沉重。",
+      "job_id": "f4b25aca0e6e133b2e5f6e2ffdbbdb25cace974e5ac141aae228af4f258c7e5d",
+      "result_sha256": "dbf2cc7b9249057db3610f3992263132c7014ca00c388cef060138ea0c07aecc"
+    },
+    {
+      "id": "G001-T3-S01-U13",
+      "role": "client",
+      "text": "对，我不一定需要她帮我解决接口的问题。回家有人听我说几句，可能就能缓一缓。",
+      "job_id": "d17a81761642a3d2ca49d26642a259de5fe3292dbe48ab7f0f117d7bf13f2004",
+      "result_sha256": "2415d96e9f07bd7003fd8aa9b3dd7b6e17295678c014738b998352146a996452"
+    },
+    {
+      "id": "G001-T3-S01-U14",
+      "role": "counselor",
+      "text": "你需要的可能只是有人听你说几句，让你从工作的压力里缓一缓。想到有这样一个可以尝试的方式，你现在感觉如何？",
+      "job_id": "470a5da27337e6f3ea600175143fa570c4192eaaee025e561951032cf259a960",
+      "result_sha256": "c148dcd7138cedf2e5aafc60a4a77c05c819a763d6bfad566db6ae4831074bb1"
+    },
+    {
+      "id": "G001-T3-S01-U15",
+      "role": "client",
+      "text": "感觉没那么像只能自己扛着了。工作上的事还是要处理，不过回去可以先问问她有没有空。",
+      "job_id": "cf747fa1fa464930fba6e2dfe38fa34582556f210e1981c28a38abcbec198e15",
+      "result_sha256": "d1ac9db8189ab91b4c9c236d4523481cbdb270cd3fd002bf23d05c325c2f5a82"
+    },
+    {
+      "id": "G001-T3-S01-U16",
+      "role": "counselor",
+      "text": "想到可以向朋友开口，似乎让你不必把压力全留给自己；工作上的事情也可以按你的节奏继续处理。我们可以先把这份稍微轻一点的感觉留在这里。",
+      "job_id": "e971ddb33804625a4693d54d2d90e677f0cbfab24d658e599ebf1dbc0a496d6f",
+      "result_sha256": "70f028d9b027ab06235b60bfc1452f17f9ead708f8fe031e8730f6405df32544"
+    }
+  ]
+}

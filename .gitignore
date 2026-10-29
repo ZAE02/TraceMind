@@ -21,3 +21,11 @@ venv/
 
 # Vendored local runtime; install dependencies instead
 pilot_three_cases/p2_validation/dependencies/
+.local/
+.env*
+*.sqlite3
+*.sqlite3-*
+dist/
+build/
+*.egg-info/
+!uv.lock

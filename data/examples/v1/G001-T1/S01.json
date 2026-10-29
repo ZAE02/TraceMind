@@ -1,0 +1,121 @@
+{
+  "case_id": "G001-T1",
+  "session": 1,
+  "synthetic": true,
+  "review": "model_reviewed_not_human",
+  "source_sha256": "3f932290359c35daa5c1cf4f1472f556859aeb375ee3241b8c4ae8373d08132c",
+  "utterances": [
+    {
+      "id": "G001-T1-S01-U01",
+      "role": "client",
+      "text": "今天开会前发现跨部门的接口还没交付，我先把延期记进了自己的待办。等会儿还得跟经理汇报，我现在有点不知道怎么说。",
+      "job_id": "0b4033f7d2a26f021c5252df2b663e512cfa3a10592520a4e40f0f3e39a2cc11",
+      "result_sha256": "2f72d3408c0cb2a4121e72367cfed9307411547e4bec6f783239e7b7fcfad9c5"
+    },
+    {
+      "id": "G001-T1-S01-U02",
+      "role": "counselor",
+      "text": "接口还没交付，你已经把延期记下了，但想到要向经理汇报，还是有些拿不准。你最担心的是怎么说明目前的情况，还是经理可能会有什么反应？",
+      "job_id": "24fb1d4ffd38a1eac38be3106fbf86e669bcb2b7c2f0860f9c5bd4d4241a3100",
+      "result_sha256": "a63343fa7b5ff9c1a13226362025c918c6539f487276606f8f30d1c1cf30a2c3"
+    },
+    {
+      "id": "G001-T1-S01-U03",
+      "role": "client",
+      "text": "主要是不知道怎么说明。接口原来是开发负责人承诺交的，可我负责汇报，说到这儿又怕听起来像在推责任。",
+      "job_id": "42d4069145e10e651fa946bf12173eb49935dcee4f537f58567cf213c546c190",
+      "result_sha256": "3dc8782e44e2ecc9aa638c7c4e0985b05dacd2a5e98021f2f3655c75f49dd333"
+    },
+    {
+      "id": "G001-T1-S01-U04",
+      "role": "counselor",
+      "text": "你想把交付情况说清楚，也不希望让人觉得你在推责任，这两件事放在一起让措辞变得很难。你觉得怎样的说法会听起来像推责任？",
+      "job_id": "834f6d4e3dcde6467b64f47b35b00740409179dea8aaf2a2b4dedab183bd599a",
+      "result_sha256": "5fae4219abb6dd0222cc11f41be0897cc561b4459a22777cefd54c04921a218f"
+    },
+    {
+      "id": "G001-T1-S01-U05",
+      "role": "client",
+      "text": "比如直接说“开发没交，所以延期了”，我听着就像把事情全丢给对方。可如果只说我这边延期了，接口的情况又没交代清楚。",
+      "job_id": "33011cda4f5c5b0950b23fffd4c31585f5b874369fbb2de950c9b8a174b0a791",
+      "result_sha256": "927b6586c9ce3093338ff9e260fcf2005a350cbdf8788c428572bb758f48150b"
+    },
+    {
+      "id": "G001-T1-S01-U06",
+      "role": "counselor",
+      "text": "你不想把事情全推给开发，也不想让汇报漏掉关键情况。或许可以先把已知事实和你接下来负责跟进的部分分别说出来；这样的表达听起来贴近你的意思吗？",
+      "job_id": "e10ba7d71c4efabcd052a9d226bacac68ac4ea562da12c1f58671dc548744f9e",
+      "result_sha256": "21711ed0a4ad05fe178a3b7bc2e93bbefc2e1283a6ad916052bce3dcd718e55a"
+    },
+    {
+      "id": "G001-T1-S01-U07",
+      "role": "client",
+      "text": "嗯，这样听起来可以。我可以先说接口还没交，再说我负责汇报和跟进，只是具体怎么讲我还得琢磨一下。",
+      "job_id": "3ef8741f464444c54b29461017cb93c7ffeea66809d909d799e4375e675ea423",
+      "result_sha256": "362d8a318dda547730d0ce5ffa71e9f8a2bc7f331ee93bb5e2c632e427bb406e"
+    },
+    {
+      "id": "G001-T1-S01-U08",
+      "role": "counselor",
+      "text": "你已经找到一个大致的方向，具体措辞还需要一点时间。你想在这里试着说一遍，看看哪里仍让你不舒服吗？",
+      "job_id": "8bc53b1f607c1c36adabe9be9d723247f38710ecacf9ceff5eae4447aecfa9bf",
+      "result_sha256": "71dea06bf365db0b6b1bc9b63d2b0101263dae07bec2ba278fab70eb5a898e74"
+    },
+    {
+      "id": "G001-T1-S01-U09",
+      "role": "client",
+      "text": "我试试：“接口目前还没交付，项目进度有延期，我这边会继续跟进并汇报。”说到延期的时候还是有点紧，但比刚才那句好些。",
+      "job_id": "19fbd671ce1928150aa971014cd66ebfef1becdd8d0ec0887e4bb9cd65d5a7b0",
+      "result_sha256": "c523b87390f6c68dc34ccd803336b30c60060789622c13b8be3fa2f3bfff05ec"
+    },
+    {
+      "id": "G001-T1-S01-U10",
+      "role": "counselor",
+      "text": "这句话说出了现状和你会做的跟进，也让你觉得比刚才顺一些；说到延期仍然紧张，也可以被留意到。那一瞬间你担心经理会听到什么，或怎么回应？",
+      "job_id": "5d4259c2918d1dedf9aa74c4538bda287d1bf93625c9f6c9041e010f27347c83",
+      "result_sha256": "bc3a117c36fa74e69e739b0a5e20f24f675f3fa6092b03e7886935c9724d6be2"
+    },
+    {
+      "id": "G001-T1-S01-U11",
+      "role": "client",
+      "text": "我怕他听到延期就先问我为什么没处理好，到时候我再说接口的事，听起来就像找理由。其实他会怎么回应我也不知道。",
+      "job_id": "0823625d95c98f48362caaecce99810313ee86af6f941560a5444d0fc93fd3a7",
+      "result_sha256": "0cd9cd25305812a3574a06ed32662fedb2b64459005fbbf7a58d3ed1f5df2612"
+    },
+    {
+      "id": "G001-T1-S01-U12",
+      "role": "counselor",
+      "text": "你能觉察到这是自己担心的回应，而经理实际上会怎么说还不知道；即便如此，想到被追问还是会紧张。假如真的被问到，你希望自己怎样解释目前知道的情况？",
+      "job_id": "25e5bd30f92fe94d291097e47a90996ffe629d0cf72adaf67d7dfa5e0f657a10",
+      "result_sha256": "fefd00881cb9d57f9a44e73577c677848e83f828edea4b84345e6072e4a583f0"
+    },
+    {
+      "id": "G001-T1-S01-U13",
+      "role": "client",
+      "text": "我想说清楚原定的接口现在还没交，我已经记下延期，会继续确认进度。开发负责人之前承诺过交付，这个事实也可以说，但我不想把话说成在怪他。",
+      "job_id": "13f5b91a7b4e8cd01f26957885ea9db47fb1f2a6504a5e96260095f263dd2f90",
+      "result_sha256": "ec86c09865614dc95c6e1897de159e320a51a9c2997b3786830d54ee19f61b8f"
+    },
+    {
+      "id": "G001-T1-S01-U14",
+      "role": "counselor",
+      "text": "你已经能把交付承诺、当前状态和自己接下来的跟进分开说，也很在意不要把说明变成责怪。现在这样梳理之后，想到汇报时那份紧张有没有什么变化？",
+      "job_id": "a3325af08d580867bd91ade446c108011c4d59586316754b70b0c4223bdf2d3f",
+      "result_sha256": "4daa387d6d1bc3a140949cf32f20fa98e2748da6e24937a80e862f16ac9d40a1"
+    },
+    {
+      "id": "G001-T1-S01-U15",
+      "role": "client",
+      "text": "比刚才有底一点了，至少知道先说哪些事实。真到汇报时我可能还是会紧张，但不用把整件事都塞进自己的待办里不说。",
+      "job_id": "f77758a3898ae49843582b68513bf7439914e77ec1a41d773b1467a765878546",
+      "result_sha256": "52a0879e4d835d93bd2c3d394f00bd45c6efd98f5c92cf0958847fa150a94569"
+    },
+    {
+      "id": "G001-T1-S01-U16",
+      "role": "counselor",
+      "text": "有了可以先说的事实，让你多了一点底气；紧张也不必马上消失。你注意到自己可以把情况说出来，而不是独自放在待办里。",
+      "job_id": "02c3a8a9f7464219a821228ed0e3363bee6fc8e351f44bd6fba92da5db5e3257",
+      "result_sha256": "47cf7f62679a1c53cb1920d9ad2f8907f2288e121d869bcb0b869084e23ab38c"
+    }
+  ]
+}
