@@ -137,3 +137,38 @@ class ReviewStore:
                 p: json.loads(data)["mapping"]
                 for p, data in db.execute("SELECT id,data FROM packets")
             }
+
+    def statistics(self) -> dict:
+        with self.connect() as db:
+            reviewers = db.execute("SELECT count(*) FROM reviewers").fetchone()[0]
+            packets = db.execute("SELECT count(*) FROM packets").fetchone()[0]
+            assignments = db.execute("SELECT count(*) FROM assignments").fetchone()[0]
+            drafts, locked = db.execute(
+                "SELECT count(*),coalesce(sum(locked),0) FROM reviews"
+            ).fetchone()
+        return {
+            "reviewers": reviewers,
+            "paired_packets": packets,
+            "assigned_judgments": assignments,
+            "saved_judgments": drafts,
+            "locked_judgments": locked,
+            "complete": self.revealed(),
+        }
+
+    def completed_reviews(self) -> list[dict]:
+        if not self.revealed():
+            raise PermissionError("human outcomes require both reviewers to lock every assignment")
+        with self.connect() as db:
+            rows = db.execute(
+                "SELECT r.reviewer,r.packet,r.data,p.data FROM reviews r JOIN packets p ON p.id=r.packet ORDER BY r.packet,r.reviewer"
+            ).fetchall()
+        return [
+            {
+                "reviewer": reviewer,
+                "packet_id": packet,
+                "assessment": json.loads(assessment),
+                "group_id": json.loads(payload).get("group_id"),
+                "mapping": json.loads(payload)["mapping"],
+            }
+            for reviewer, packet, assessment, payload in rows
+        ]

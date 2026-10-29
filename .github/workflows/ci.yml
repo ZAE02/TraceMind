@@ -1,0 +1,34 @@
+name: TraceMind checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg17
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: tracemind
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d tracemind"
+          --health-interval 10s --health-timeout 5s --health-retries 5
+    env:
+      TRACEMIND_TEST_DSN: postgresql://postgres:postgres@localhost:5432/tracemind
+      TRACEMIND_TEST_POSTGRES_DSN: postgresql://postgres:postgres@localhost:5432/tracemind
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          python-version: '3.11'
+      - run: uv sync --extra dev --frozen
+      - run: uv run --no-sync ruff check src tests scripts
+      - run: uv run --no-sync pytest -q
+      - run: uv build --wheel

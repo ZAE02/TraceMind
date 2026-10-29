@@ -1,7 +1,16 @@
 {
-  "reported_at": "2026-10-29T17:48:33.989258+00:00",
+  "reported_at": "2026-10-29T18:15:03.783156+00:00",
   "version": "0.2.0",
   "dataset": {
+    "plans": 20,
+    "approved_plans": 20,
+    "trajectories": 1,
+    "complete_sessions": 3,
+    "checkpoints": 2,
+    "issues": [],
+    "complete": false
+  },
+  "engineering_smoke_not_formal_data": {
     "plans": 20,
     "approved_plans": 20,
     "trajectories": 32,
@@ -31,6 +40,7 @@
   },
   "human_review": {
     "completed": 0,
+    "actual_pair_packets": 0,
     "target_pair_packets": 200,
     "target_independent_judgments": 400,
     "status": "pending"

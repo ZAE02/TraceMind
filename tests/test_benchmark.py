@@ -6,7 +6,7 @@ class Queue:
     def __init__(self):
         self.jobs = {}
 
-    def enqueue(self, purpose, role, allowed_context, output_schema, parent_id=None):
+    def enqueue(self, purpose, role, allowed_context, output_schema, parent_id=None, scope_id=None):
         request = dict(purpose=purpose, role=role, allowed_context=allowed_context)
         key = digest(request)
         self.jobs.setdefault(key, dict(id=key, request=request, status="pending"))

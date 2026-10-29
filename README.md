@@ -4,6 +4,8 @@
 
 **v0.2 状态：**20组场景计划已逐场个别化并通过独立模型审查；对话与正式实验仍在生成。最新实际数量见[运行状态](docs/status.json)。200组双人盲评待人工完成，不包含虚构人工评分或目标效果数字。案例均为虚构成人的合成材料。
 
+正式数据使用v2：每条轨迹的两种角色分别由全新Agent承担，共享开场也使用独立任务。v1的四场公开样例只用于工程冒烟，其持续worker曾处理多条轨迹，因此不计入正式Benchmark数量。
+
 ```mermaid
 flowchart LR
   D[隔离角色的数据生成] --> Q[PostgreSQL 任务队列]
@@ -32,7 +34,7 @@ flowchart LR
 使用 Python 3.11、uv 和锁定依赖。本机 PostgreSQL 17 与 pgvector 安装见[基础设施说明](docs/infrastructure.md)。
 
 ```powershell
-uv sync --extra dev --frozen
+uv sync --extra dev --extra retrieval --frozen
 uv run python scripts/setup_database.py
 uv run tracemind db init
 uv run tracemind doctor
@@ -47,8 +49,8 @@ uv run pytest
 uv run tracemind jobs export .local/outbox
 # 指定子Agent实际生成结果并记录来源后：
 uv run tracemind jobs import .local/result.json
-uv run tracemind benchmark advance .local/datasets/v1
-uv run tracemind benchmark audit .local/datasets/v1
+uv run tracemind benchmark advance .local/datasets/v2
+uv run tracemind benchmark audit .local/datasets/v2
 ```
 
 研究查看器与人工盲评入口分开运行，使用不同访问凭据：

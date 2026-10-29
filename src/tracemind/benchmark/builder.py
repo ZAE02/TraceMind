@@ -76,8 +76,14 @@ def write(path: Path, value):
 
 
 class BenchmarkBuilder:
-    def __init__(self, root: Path, queue: JobQueue):
+    def __init__(self, root: Path, queue: JobQueue, namespace: str | None = None):
         self.root, self.queue = root, queue
+        manifest = root / "dataset.json"
+        if namespace is None and manifest.exists():
+            namespace = read(manifest).get("namespace")
+        if namespace is not None and (not namespace or not namespace.replace("_", "").isalnum()):
+            raise ValueError("namespace must contain only letters, digits and underscores")
+        self.namespace = namespace
 
     def plans(self):
         return [
@@ -107,7 +113,7 @@ class BenchmarkBuilder:
         else:
             write(target, checkpoint)
 
-    def advance(self, groups: set[str] | None = None) -> dict:
+    def advance(self, groups: set[str] | None = None, cases: set[str] | None = None) -> dict:
         """Schedule at most one next utterance per trajectory; import resolved jobs."""
         scheduled = materialized = 0
         for plan in self.plans():
@@ -129,12 +135,23 @@ class BenchmarkBuilder:
                     "current_situation": situation,
                     "instruction": "你是完全虚构的成年来访者。只写本次会谈开场的一条自然中文发言，保持具体但不揭示此前心理历程；不分析、不诊断。",
                 }
+                if self.namespace:
+                    context["dataset_namespace"] = self.namespace
+                suffix = f":{self.namespace}" if self.namespace else ""
                 job_id = self.queue.enqueue(
-                    f"anchor:{plan.group_id}:S{session}", "client", context, TEXT_SCHEMA
+                    f"anchor:{plan.group_id}:S{session}{suffix}",
+                    "client",
+                    context,
+                    TEXT_SCHEMA,
+                    scope_id=f"anchor:{self.namespace or 'legacy'}:{plan.group_id}:{session}",
                 )
                 anchors[session] = (job_id, self._resolved(job_id))
             for branch_index, branch_name in enumerate(BRANCHES, 1):
                 case_id = f"{plan.group_id}-T{branch_index}"
+                if self.namespace:
+                    case_id = f"{self.namespace}_{case_id}"
+                if cases is not None and case_id not in cases:
+                    continue
                 history = []
                 for session in range(1, 7):
                     path = self.root / "dialogues" / case_id / f"S{session:02}.json"
@@ -172,6 +189,8 @@ class BenchmarkBuilder:
                             "previous_sessions": history,
                             "current_dialogue": rows,
                         }
+                        if self.namespace:
+                            visible["dataset_namespace"] = self.namespace
                         if role == "client":
                             visible.update(
                                 profile=plan.profile,
@@ -192,6 +211,7 @@ class BenchmarkBuilder:
                             visible,
                             TEXT_SCHEMA,
                             parent,
+                            scope_id=f"trajectory:{case_id}:{role}",
                         )
                         resolved = self._resolved(job_id)
                     if resolved:
@@ -228,6 +248,7 @@ class BenchmarkBuilder:
             }
         )
         verified = self.queue.get_many(ids) if verify_jobs else {}
+        actor_scopes = {}
         for session in sessions:
             for i, row in enumerate(session["utterances"]):
                 if row["role"] != ("client" if i % 2 == 0 else "counselor"):
@@ -240,6 +261,23 @@ class BenchmarkBuilder:
                         issues.append("missing source job: " + row["id"])
                         continue
                     job = verified[job_id]
+                    if self.namespace:
+                        scope = job["request"].get("scope_id")
+                        expected = (
+                            f"anchor:{self.namespace}:{session['group_id']}:{session['session']}"
+                            if job["request"]["purpose"].startswith("anchor:")
+                            else f"trajectory:{session['case_id']}:{row['role']}"
+                        )
+                        actor = job.get("provenance", {}).get("agent_task")
+                        if (
+                            scope != expected
+                            or job["request"]["allowed_context"].get("dataset_namespace")
+                            != self.namespace
+                        ):
+                            issues.append("invalid isolation scope: " + row["id"])
+                        if actor in actor_scopes and actor_scopes[actor] != scope:
+                            issues.append("actor reused across information scopes: " + row["id"])
+                        actor_scopes[actor] = scope
                     if (
                         job["status"] != "completed"
                         or job["result_sha256"] != row["result_sha256"]

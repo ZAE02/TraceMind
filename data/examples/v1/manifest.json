@@ -2,6 +2,7 @@
   "source": "development only",
   "synthetic": true,
   "human_review_performed": false,
+  "usage": "engineering smoke; persistent multi-case role contexts",
   "sessions": [
     "G001-T1\\S01.json",
     "G001-T2\\S01.json",

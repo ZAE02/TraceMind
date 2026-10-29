@@ -8,19 +8,29 @@ from tracemind.config import LOCAL, ROOT, dsn
 from tracemind.jobs import JobQueue
 
 queue = JobQueue(dsn())
-data = BenchmarkBuilder(LOCAL / "datasets/v1", queue).audit()
+data = BenchmarkBuilder(LOCAL / "datasets/v2", queue).audit()
+engineering = BenchmarkBuilder(LOCAL / "datasets/v1", queue).audit()
 proof = LOCAL / "verification/stack.json"
+human_path = LOCAL / "reviews.sqlite3"
+if human_path.exists():
+    from tracemind.web.store import ReviewStore
+
+    human_progress = ReviewStore(human_path).statistics()
+else:
+    human_progress = {"locked_judgments": 0, "paired_packets": 0, "complete": False}
 report = {
     "reported_at": datetime.now(timezone.utc).isoformat(),
     "version": "0.2.0",
     "dataset": data,
+    "engineering_smoke_not_formal_data": engineering,
     "target": {"groups": 20, "trajectories": 80, "sessions": 480, "checkpoints": 240},
     "stack_verification": read(proof) if proof.exists() else None,
     "human_review": {
-        "completed": 0,
+        "completed": human_progress["locked_judgments"],
+        "actual_pair_packets": human_progress["paired_packets"],
         "target_pair_packets": 200,
         "target_independent_judgments": 400,
-        "status": "pending",
+        "status": "complete" if human_progress["complete"] else "pending",
     },
     "experiment_result_status": "No result claim until actual candidates and reviews are complete",
 }

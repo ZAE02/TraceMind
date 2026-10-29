@@ -39,6 +39,8 @@ class JobQueue:
               status text NOT NULL DEFAULT 'pending', result jsonb,
               provenance jsonb, result_sha256 text, created_at timestamptz DEFAULT now(),
               completed_at timestamptz, CHECK(status IN ('pending','completed','failed')) )""")
+            conn.execute("""CREATE TABLE IF NOT EXISTS agent_scope_bindings (
+                agent_task text PRIMARY KEY, scope_id text NOT NULL, role text NOT NULL)""")
 
     def enqueue(
         self,
@@ -47,6 +49,7 @@ class JobQueue:
         allowed_context: dict,
         output_schema: dict,
         parent_id: str | None = None,
+        scope_id: str | None = None,
     ) -> str:
         request = dict(
             purpose=purpose,
@@ -57,6 +60,12 @@ class JobQueue:
             reasoning=REASONING,
             parent_id=parent_id,
         )
+        if scope_id is not None:
+            if not isinstance(scope_id, str) or not scope_id.strip():
+                raise ValueError("scope_id must be a nonempty string")
+            request["scope_id"] = scope_id
+        if not isinstance(role, str) or not role.strip():
+            raise ValueError("role must be a nonempty string")
         job_id = digest(request)
         with psycopg.connect(self.dsn) as conn:
             conn.execute(
@@ -129,6 +138,19 @@ class JobQueue:
                 if row[0] != sha or row[2] != provenance:
                     raise ValueError("completed result and provenance are immutable")
                 return
+            scope_id = row[1].get("scope_id", f"job:{job_id}")
+            role = row[1]["role"]
+            actor = provenance["agent_task"]
+            conn.execute(
+                "INSERT INTO agent_scope_bindings (agent_task,scope_id,role) VALUES (%s,%s,%s) ON CONFLICT (agent_task) DO NOTHING",
+                (actor, scope_id, role),
+            )
+            binding = conn.execute(
+                "SELECT scope_id,role FROM agent_scope_bindings WHERE agent_task=%s FOR UPDATE",
+                (actor,),
+            ).fetchone()
+            if binding != (scope_id, role):
+                raise ValueError("agent task is already bound to a different scope or role")
             conn.execute(
                 "UPDATE agent_jobs SET status='completed',result=%s,provenance=%s,result_sha256=%s,completed_at=coalesce(completed_at,now()) WHERE id=%s",
                 (Jsonb(result), Jsonb(provenance), sha, job_id),

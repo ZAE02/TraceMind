@@ -53,6 +53,9 @@ def export_development(root: Path, destination: Path, limit: int = 4):
             "source": "development only",
             "synthetic": True,
             "human_review_performed": False,
+            "usage": "engineering smoke; persistent multi-case role contexts"
+            if root.name == "v1"
+            else "reviewed development example",
             "sessions": exported,
             "count": len(exported),
         },

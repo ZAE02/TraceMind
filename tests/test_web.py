@@ -4,6 +4,8 @@ from tracemind.web.store import FIELDS, ReviewStore
 
 
 def test_independent_locked_reviews_and_reveal(tmp_path):
+    from tracemind.evaluation.human import human_report
+
     store = ReviewStore(tmp_path / "reviews.db")
     packet = {
         "id": "1",
@@ -25,6 +27,8 @@ def test_independent_locked_reviews_and_reveal(tmp_path):
     }
     review = {"a": side, "b": side, "preference": "tie"}
     store.save("alice", "1", review, True)
+    assert human_report(store)["outcomes"] is None
+    assert store.statistics()["locked_judgments"] == 1
     assert store.get("bob", "1")[1] is None
     with pytest.raises(PermissionError):
         store.mappings()
@@ -32,6 +36,7 @@ def test_independent_locked_reviews_and_reveal(tmp_path):
         store.save("alice", "1", review)
     store.save("bob", "1", review, True)
     assert store.mappings()["1"]["a"] == "evolution"
+    assert human_report(store)["outcomes"]["human_judgments"] == 2
 
 
 def test_incomplete_cannot_lock(tmp_path):

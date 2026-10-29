@@ -44,6 +44,27 @@ def _tokens(text: str) -> list[str]:
     return re.findall(r"[\u3400-\u9fff]|[^\W\u3400-\u9fff_]+", text.lower(), re.UNICODE)
 
 
+def temporal_coverage(
+    ranked_ids: list[str], visible: list[EvidenceRecord], limit: int = 30
+) -> list[EvidenceRecord]:
+    """Fixed pre-evaluation anchors: earliest and latest prior client evidence."""
+    if limit < 2:
+        raise ValueError("temporal coverage requires room for two anchors")
+    by_id = {item.id: item for item in visible}
+    clients = sorted(
+        (item for item in visible if item.role in ("client", "user")),
+        key=lambda x: (x.session, x.turn, x.id),
+    )
+    selected = []
+    anchors = [clients[0].id, clients[-1].id] if clients else []
+    for key in anchors + ranked_ids:
+        if key in by_id and key not in selected:
+            selected.append(key)
+        if len(selected) >= limit:
+            break
+    return [by_id[key] for key in selected]
+
+
 class Retriever:
     def __init__(
         self,

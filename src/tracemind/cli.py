@@ -238,6 +238,16 @@ def review_serve(database: Path, host: str = "127.0.0.1", port: int = 8000):
     uvicorn.run(create_app(ReviewStore(database), secret), host=host, port=port)
 
 
+@review_app.command("report")
+def review_report(database: Path):
+    from .evaluation.human import human_report
+    from .web.store import ReviewStore
+
+    if not database.exists():
+        raise typer.BadParameter("human review store does not exist")
+    _print(human_report(ReviewStore(database)))
+
+
 @review_app.command("export-packets")
 def review_export_packets(root: Path, destination: Path):
     from .evaluation.export import export_packets
@@ -368,3 +378,18 @@ def _workflow_resolver(dsn: str):
     from .workflows.graph import authoritative_evidence_resolver
 
     return authoritative_evidence_resolver(EvidenceRepository(dsn))
+
+
+@benchmark_app.command("freeze")
+def benchmark_freeze(root: Path, refs: Path):
+    """Freeze a protocol using independently reviewed calibration job references."""
+    from .experiments.protocol import freeze_protocol
+
+    manifest = freeze_protocol(root, JobQueue(config.dsn()), _read(refs))
+    _print(
+        {
+            "status": manifest["status"],
+            "protocol_sha256": manifest["protocol_sha256"],
+            "examples": len(manifest["examples"]),
+        }
+    )

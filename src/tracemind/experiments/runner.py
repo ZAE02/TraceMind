@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import timedelta
 from pathlib import Path
 
 from tracemind.benchmark.builder import TEXT_SCHEMA, read, write
@@ -16,18 +16,7 @@ from tracemind.evaluation.protocol import (
 from tracemind.jobs import digest
 
 from .context import pack_context
-
-TASK_A_SCHEMA = {
-    "type": "object",
-    "additionalProperties": False,
-    "required": ["evidence_utilization", "understanding_update", "evidence_ids", "rationale"],
-    "properties": {
-        "evidence_utilization": {"type": "integer", "minimum": 0, "maximum": 4},
-        "understanding_update": {"type": "integer", "minimum": 0, "maximum": 4},
-        "evidence_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
-        "rationale": {"type": "string", "minLength": 1},
-    },
-}
+from .protocol import TASK_A_RUBRIC, TASK_A_SCHEMA, test_review_ready
 
 METHODS = ("current", "temporalrag", "summary", "on_demand", "evolution", "oracle")
 INSTRUCTIONS = "根据提供的公开对话回应当前来访者。区分观察与推测，不做诊断，允许对方纠正。"
@@ -282,10 +271,13 @@ class ExperimentRunner:
             return []
         case, session = checkpoint["case_id"], checkpoint["session"]
         cutoff = (session - 1, 10**9)
-        as_of = datetime.now(timezone.utc)
+        from .indexing import BASE_TIME
+
+        as_of = BASE_TIME + timedelta(days=session - 1)
         visible = self.repository.visible(case, cutoff, as_of)
-        if checkpoint["previous_sessions"] and not visible:
-            raise ValueError(f"historical evidence not indexed for {case}")
+        expected_ids = {u["id"] for s in checkpoint["previous_sessions"] for u in s["utterances"]}
+        if expected_ids != {item.id for item in visible}:
+            raise ValueError(f"historical evidence index does not match frozen history for {case}")
         if method == "oracle":
             annotation = self._annotation(checkpoint)
             if annotation is None or annotation.get("oracle_approved") is not True:
@@ -299,8 +291,22 @@ class ExperimentRunner:
             ranked = self.retriever.search(
                 checkpoint["latest_client"]["text"], case, cutoff, as_of, limit=50
             )
-            visible_ids = {e.id for e in visible}
-            records = [r.evidence for r in ranked if r.evidence.id in visible_ids]
+            from tracemind.retrieval.pipeline import temporal_coverage
+
+            records = temporal_coverage([r.evidence.id for r in ranked], visible)
+            trace = {
+                "query_sha256": digest(checkpoint["latest_client"]["text"]),
+                "case_id": case,
+                "cutoff": list(cutoff),
+                "as_of": as_of.isoformat(),
+                "ranked": [
+                    {"id": r.evidence.id, "score": r.score, "truncated": r.truncated}
+                    for r in ranked
+                ],
+                "selected_ids": [r.id for r in records],
+                "policy": "earliest/latest historical client anchors, then hybrid reranked evidence; final serialization budget4096",
+            }
+            write(self.root / "experiments/retrieval" / f"{checkpoint['id']}.json", trace)
         return [
             {
                 "id": e.id,
@@ -324,6 +330,13 @@ class ExperimentRunner:
                 "latest_client": cp["latest_client"],
             }
             candidates = {}
+            split = cp.get("split")
+            can_review = split in ("development", "calibration") or (
+                split == "test" and test_review_ready(self.root, self.queue)
+            )
+            review_label = (
+                "development_smoke" if split == "development" else "model_reviewed_not_human_gold"
+            )
             for method in METHODS:
                 memory = (
                     self._snapshot(cp, method)
@@ -378,40 +391,46 @@ class ExperimentRunner:
                             "context": understanding_packed,
                         },
                     )
-                    judge_id = self.queue.enqueue(
-                        f"understanding-quality:{digest([cp['id'], method])}",
-                        "blinded understanding reviewer",
-                        {
-                            "public_history": cp["previous_sessions"],
-                            "current": current,
-                            "candidate": understanding["result"]["understanding"],
-                            "instruction": "仅依据公开对话评价理解的证据利用与更新，分别给0至4分，引用公开发言ID并解释。",
-                        },
-                        TASK_A_SCHEMA,
-                    )
-                    judge = self._resolved(judge_id)
-                    if judge:
-                        allowed = {
-                            u["id"]
-                            for session in cp["previous_sessions"]
-                            for u in session["utterances"]
-                        }
-                        allowed.update(u["id"] for u in cp["current_dialogue"])
-                        allowed.add(cp["latest_client"]["id"])
-                        if not set(judge["result"]["evidence_ids"]).issubset(allowed):
-                            raise ValueError("understanding reviewer cites unavailable evidence")
-                        write(
-                            self.root
-                            / "experiments"
-                            / "understanding_quality"
-                            / cp["id"]
-                            / (method + ".json"),
+                    if can_review:
+                        judge_id = self.queue.enqueue(
+                            f"understanding-quality:{digest([cp['id'], method])}",
+                            "blinded understanding reviewer",
                             {
-                                "job_id": judge_id,
-                                "result_sha256": judge["result_sha256"],
-                                "result": judge["result"],
+                                "public_history": cp["previous_sessions"],
+                                "current": current,
+                                "candidate": understanding["result"]["understanding"],
+                                "instruction": TASK_A_RUBRIC,
                             },
+                            TASK_A_SCHEMA,
                         )
+                        judge = self._resolved(judge_id)
+                        if judge:
+                            allowed = {
+                                u["id"]
+                                for session in cp["previous_sessions"]
+                                for u in session["utterances"]
+                            }
+                            allowed.update(u["id"] for u in cp["current_dialogue"])
+                            allowed.add(cp["latest_client"]["id"])
+                            if not set(judge["result"]["evidence_ids"]).issubset(allowed):
+                                raise ValueError(
+                                    "understanding reviewer cites unavailable evidence"
+                                )
+                            write(
+                                self.root
+                                / "experiments"
+                                / "understanding_quality"
+                                / cp["id"]
+                                / (method + ".json"),
+                                {
+                                    "job_id": judge_id,
+                                    "result_sha256": judge["result_sha256"],
+                                    "result": judge["result"],
+                                    "review_status": review_label,
+                                },
+                            )
+                        else:
+                            waiting += 1
                     else:
                         waiting += 1
                 else:
@@ -453,6 +472,9 @@ class ExperimentRunner:
                         if int(digest([cp["id"], method])[:2], 16) % 2
                         else (method, "evolution")
                     )
+                    if not can_review:
+                        waiting += 1
+                        continue
                     quality_context = {
                         "public_history": cp["previous_sessions"],
                         "current": current,
@@ -486,12 +508,22 @@ class ExperimentRunner:
                                 "result_sha256": quality["result_sha256"],
                                 "result": quality["result"],
                                 "mapping": {"a": first, "b": second},
+                                "review_status": review_label,
                             },
                         )
                     else:
                         waiting += 1
                     if not quality:
                         continue
+                    if split == "calibration":
+                        repeat_id = self.queue.enqueue(
+                            "calibration-repeat:" + job_id,
+                            "blinded quality reviewer",
+                            quality_context,
+                            QUALITY_SCHEMA,
+                        )
+                        if not self._resolved(repeat_id):
+                            waiting += 1
                     for side, side_method in (("a", first), ("b", second)):
                         findings = quality["result"][side]["errors"]
                         access_id = self.queue.enqueue(
