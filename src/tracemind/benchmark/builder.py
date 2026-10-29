@@ -249,7 +249,10 @@ class BenchmarkBuilder:
         )
         verified = self.queue.get_many(ids) if verify_jobs else {}
         actor_scopes = {}
+        session_index = {(s["case_id"], s["session"]): s for s in sessions}
         for session in sessions:
+            if session["complete"] != (len(session["utterances"]) == 16):
+                issues.append("session completeness mismatch: " + session["case_id"])
             for i, row in enumerate(session["utterances"]):
                 if row["role"] != ("client" if i % 2 == 0 else "counselor"):
                     issues.append("role order: " + row["id"])
@@ -292,6 +295,33 @@ class BenchmarkBuilder:
                         "profile",
                     } & set(job["request"]["allowed_context"]):
                         issues.append("private card leaked to counselor: " + row["id"])
+        plan_index = {p.group_id: p for p in plans}
+        for checkpoint in checkpoints:
+            label = checkpoint["id"]
+            if checkpoint.get("public_sha256") != digest(
+                {key: value for key, value in checkpoint.items() if key != "public_sha256"}
+            ):
+                issues.append("checkpoint hash mismatch: " + label)
+            number, case = checkpoint["session"], checkpoint["case_id"]
+            plan = plan_index.get(checkpoint["group_id"])
+            if number not in (2, 4, 6) or plan is None or checkpoint["split"] != plan.split:
+                issues.append("checkpoint stage or split mismatch: " + label)
+            expected_history = []
+            for previous in range(1, number):
+                saved = session_index.get((case, previous))
+                if saved is None or not saved["complete"]:
+                    issues.append("checkpoint missing complete past session: " + label)
+                    continue
+                expected_history.append({"session": previous, "utterances": saved["utterances"]})
+            current = session_index.get((case, number))
+            if (
+                checkpoint["previous_sessions"] != expected_history
+                or checkpoint["current_dialogue"] != []
+                or current is None
+                or not current["utterances"]
+                or checkpoint["latest_client"] != current["utterances"][0]
+            ):
+                issues.append("checkpoint public history mismatch: " + label)
         for group in plans:
             for stage in (2, 4, 6):
                 copies = [
@@ -302,6 +332,15 @@ class BenchmarkBuilder:
                 if len(set(copies)) > 1:
                     issues.append("counterfactual current differs: " + group.group_id)
         complete = sum(s["complete"] and len(s["utterances"]) == 16 for s in sessions)
+        complete_cases = sum(
+            all(
+                (case, number) in session_index
+                and session_index[case, number]["complete"]
+                and len(session_index[case, number]["utterances"]) == 16
+                for number in range(1, 7)
+            )
+            for case in {s["case_id"] for s in sessions}
+        )
         approved = sum(
             (self.root / "plan_reviews" / (p.group_id + ".json")).exists()
             and read(self.root / "plan_reviews" / (p.group_id + ".json")).get("approved") is True
@@ -313,9 +352,11 @@ class BenchmarkBuilder:
             "plans": len(plans),
             "approved_plans": approved,
             "trajectories": len({s["case_id"] for s in sessions}),
+            "complete_trajectories": complete_cases,
             "complete_sessions": complete,
             "checkpoints": len(checkpoints),
             "issues": issues,
             "complete": not issues
-            and (len(plans), approved, complete, len(checkpoints)) == (20, 20, 480, 240),
+            and (len(plans), approved, complete_cases, complete, len(checkpoints))
+            == (20, 20, 80, 480, 240),
         }

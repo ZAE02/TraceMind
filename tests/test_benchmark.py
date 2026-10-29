@@ -120,3 +120,11 @@ def test_checkpoint_is_recovered_after_interrupted_write(tmp_path):
     BenchmarkBuilder(tmp_path, Queue()).advance()
     cp = read(tmp_path / "checkpoints/G001-T1-CP1.json")
     assert cp["latest_client"] == opening and len(cp["previous_sessions"]) == 1
+    report = BenchmarkBuilder(tmp_path, Queue()).audit(verify_jobs=False)
+    assert not report["issues"]
+    assert report["complete_sessions"] == 1 and report["complete_trajectories"] == 0
+    cp["previous_sessions"][0]["utterances"][0]["text"] = "injected future clue"
+    cp["public_sha256"] = digest({k: v for k, v in cp.items() if k != "public_sha256"})
+    write(tmp_path / "checkpoints/G001-T1-CP1.json", cp)
+    report = BenchmarkBuilder(tmp_path, Queue()).audit(verify_jobs=False)
+    assert "checkpoint public history mismatch: G001-T1-CP1" in report["issues"]
