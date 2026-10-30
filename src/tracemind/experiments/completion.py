@@ -97,6 +97,11 @@ def audit_delivery(root, queue):
             issues.append(f"missing annotation: {cp['id']}")
             continue
         item = read(path)
+        if cp["split"] in ("calibration", "test"):
+            from .annotations import ANNOTATION_PROTOCOL
+
+            if item.get("annotation_protocol") != ANNOTATION_PROTOCOL:
+                issues.append("formal annotation protocol differs from frozen contract")
         counts["annotations"] = counts.get("annotations", 0) + 1
         for role in ("annotation", "review"):
             source = job(item.get(role + "_job_id"), item.get(role + "_result_sha256"))

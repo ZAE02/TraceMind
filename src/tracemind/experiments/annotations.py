@@ -40,6 +40,37 @@ REVIEW_SCHEMA = {
     "additionalProperties": False,
 }
 
+ANNOTATION_PROTOCOL = "oracle-history-v2"
+EVIDENCE_SCOPE = {
+    "oracle_evidence_ids": "previous_sessions_only",
+    "other_evidence_ids": "all_frozen_public_utterances",
+    "current_provided_separately": True,
+}
+DRAFT_INSTRUCTION = (
+    "只根据公开历史标注多种合理认识、修订、待澄清问题和应避免预设。每项绑定真实公开发言ID；不把咨询师猜测当已确认心理事实。"
+    "讨论最新表达的认识、问题或探索方向须引用其实际发言ID，不能误挂到过去相似表达。"
+    "oracle_evidence_ids只列最小相关既往会话证据，只能来自previous_sessions。当前会话及最新发言另行提供，"
+    "即使当前内容很重要，也不能放入oracle_evidence_ids。其他标注字段允许并须按实际来源引用当前发言。"
+)
+REVIEW_INSTRUCTION = (
+    "独立核对证据归属、时间边界和修订范围，允许多种合理理解。认识超出证据或引用错发言应拒绝。"
+    "特别区分两种证据范围：oracle_evidence_ids只能包含public_history.previous_sessions中的历史ID；"
+    "当前会话/最新发言由作答输入单独提供，禁止放入oracle列表，不能因oracle遗漏当前ID而拒绝。"
+    "其他字段的evidence_ids可以引用全部公开片段；涉及最新表达的事实必须引用最新发言的真实ID。"
+    "若需要修订，approved=false并逐项给出具体issues；不要为了通过而批准。"
+)
+
+
+def annotation_contract():
+    return {
+        "version": ANNOTATION_PROTOCOL,
+        "draft": DRAFT_INSTRUCTION,
+        "review": REVIEW_INSTRUCTION,
+        "evidence_scope": EVIDENCE_SCOPE,
+        "draft_schema": DRAFT_SCHEMA,
+        "review_schema": REVIEW_SCHEMA,
+    }
+
 
 class AnnotationRejected(ValueError):
     pass
@@ -88,10 +119,12 @@ def advance_annotation(root: Path, queue, checkpoint: dict):
         context = {
             "public_history": public,
             "previous_issues": feedback,
-            "instruction": "只根据公开历史标注多种合理认识、修订、待澄清问题和应避免预设。每项绑定真实公开发言ID；不把咨询师猜测当已确认心理事实。oracle_evidence_ids只列最小相关既往会话证据，当前发言会另行提供，不把当前ID放入oracle列表。",
+            "annotation_protocol": ANNOTATION_PROTOCOL,
+            "evidence_scope": EVIDENCE_SCOPE,
+            "instruction": DRAFT_INSTRUCTION,
         }
         draft_id = queue.enqueue(
-            f"annotation:{name}:attempt{attempt}",
+            f"annotation:{name}:{ANNOTATION_PROTOCOL}:attempt{attempt}",
             "public evidence annotator",
             context,
             DRAFT_SCHEMA,
@@ -109,10 +142,13 @@ def advance_annotation(root: Path, queue, checkpoint: dict):
         review_context = {
             "public_history": public,
             "draft": draft,
-            "instruction": "独立核对证据归属、时间边界和修订范围，允许多种合理理解。若需要修订，approved=false并逐项给出issues；不要为了通过而批准。",
+            "annotation_protocol": ANNOTATION_PROTOCOL,
+            "latest_client_id": public["latest_client"]["id"],
+            "evidence_scope": EVIDENCE_SCOPE,
+            "instruction": REVIEW_INSTRUCTION,
         }
         review_id = queue.enqueue(
-            f"annotation-review:{name}:attempt{attempt}",
+            f"annotation-review:{name}:{ANNOTATION_PROTOCOL}:attempt{attempt}",
             "independent public evidence reviewer",
             review_context,
             REVIEW_SCHEMA,
@@ -132,9 +168,12 @@ def advance_annotation(root: Path, queue, checkpoint: dict):
             "review_job_id": review_id,
             "review_result_sha256": review["result_sha256"],
             "attempt": attempt,
+            "annotation_protocol": ANNOTATION_PROTOCOL,
             "issues": review["result"]["issues"],
         }
-        attempt_path = root / "annotations/attempts" / name / f"{attempt}.json"
+        attempt_path = (
+            root / "annotations/attempts" / name / ANNOTATION_PROTOCOL / f"{attempt}.json"
+        )
         if attempt_path.exists() and read(attempt_path) != record:
             raise ValueError("annotation attempt is immutable")
         if not attempt_path.exists():

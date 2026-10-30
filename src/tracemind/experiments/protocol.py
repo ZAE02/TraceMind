@@ -24,6 +24,8 @@ TASK_A_SCHEMA = {
 
 
 def protocol_hash():
+    from .annotations import annotation_contract
+
     return digest(
         {
             "version": VERSION,
@@ -31,6 +33,7 @@ def protocol_hash():
             "quality_schema": QUALITY_SCHEMA,
             "task_a_rubric": TASK_A_RUBRIC,
             "task_a_schema": TASK_A_SCHEMA,
+            "annotation_contract": annotation_contract(),
         }
     )
 
