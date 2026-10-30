@@ -33,9 +33,17 @@ def read_policy(path=SKILL):
     policy = json.loads(raw.split("<!-- API_POLICY_JSON", 1)[1].split("API_POLICY_JSON -->", 1)[0])
     if not (
         policy["concurrency"] == 1
-        and policy["interval_seconds"] >= 60
-        and 1 <= policy["daily_limit"] <= 100
-        and 1 <= policy["batch_size"] <= 20
+        and policy["interval_seconds"] >= 30
+        and (
+            policy["daily_limit"] is None
+            or isinstance(policy["daily_limit"], int)
+            and policy["daily_limit"] >= 1
+        )
+        and (
+            policy["batch_size"] is None
+            or isinstance(policy["batch_size"], int)
+            and policy["batch_size"] >= 1
+        )
         and 0 <= policy["max_retries"] <= 2
         and policy["retry_429_seconds"] >= 300
         and policy["backoff_seconds"] >= 60
@@ -139,14 +147,21 @@ class LimitedAPI:
         # One second margin covers local bookkeeping before the transport starts.
         deadline = max(pause_until, (last + policy["interval_seconds"] + 1) if last else 0)
         while deadline > time.time():
+            if (self.state / "STOP").exists():
+                raise APIStopped("request paused by local STOP marker")
             time.sleep(min(1, deadline - time.time()))
         # Read the skill again after any long wait, immediately before starting the request.
         policy, skill_sha = read_policy()
+        if (self.state / "STOP").exists():
+            raise APIStopped("request paused by local STOP marker")
+        if last is not None and time.time() < last + policy["interval_seconds"] + 1:
+            return self._reserve(task, body, policy, skill_sha)
         now = time.time()
         day = datetime.fromtimestamp(now, ZoneInfo("Asia/Shanghai")).date().isoformat()
         with self.connect() as conn:
             if (
-                conn.execute("SELECT count(*) FROM attempts WHERE day=?", (day,)).fetchone()[0]
+                policy["daily_limit"] is not None
+                and conn.execute("SELECT count(*) FROM attempts WHERE day=?", (day,)).fetchone()[0]
                 >= policy["daily_limit"]
             ):
                 raise APIStopped("daily API budget reached (including discovery and retries)")

@@ -68,6 +68,16 @@ def test_exactly_one_batch_and_resume_completed_batch_does_not_generate(tmp_path
     assert len(calls) == 21
     result = api_batch.run_batch("one-batch", 20)
     assert result["status"] == "completed" and len(calls) == 21
+    calls.clear()
+    monkeypatch.setattr(
+        api_batch,
+        "next_case",
+        lambda *args: ("G001", "case") if len([x for x in calls if x != "models"]) < 25 else None,
+    )
+    result = api_batch.run_batch("continuous")
+    assert result["status"] == "completed" and result["limit"] is None
+    assert len(result["completed"]) == 25 and len(calls) == 26
+    assert result["completion_reason"] == "all_approved_scene_trajectories_generated"
 
 
 def test_interrupted_import_reuses_saved_result_and_ignores_reports(tmp_path, monkeypatch):

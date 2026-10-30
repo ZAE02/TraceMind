@@ -104,10 +104,14 @@ def next_case(root, builder):
     return None
 
 
-def run_batch(batch_id=None, limit=20):
+def run_batch(batch_id=None, limit=None):
     policy, _ = read_policy()
-    if not 1 <= limit <= policy["batch_size"]:
-        raise APIStopped("batch size must be between 1 and the skill limit")
+    if limit is not None and (
+        limit < 1 or policy["batch_size"] is not None and limit > policy["batch_size"]
+    ):
+        raise APIStopped("batch size must be positive and within any configured skill limit")
+    if limit is None and policy["batch_size"] is not None:
+        limit = policy["batch_size"]
     batch_id = batch_id or str(uuid.uuid4())
     if not all(c.isalnum() or c in "-_" for c in batch_id):
         raise APIStopped("invalid batch ID")
@@ -141,6 +145,9 @@ def run_batch(batch_id=None, limit=20):
         # The initial discovery already consumed the first batch's model-list call.
         confirmation = directory / "models.json"
         try:
+            state["status"] = "running"
+            state.pop("reason", None)
+            write(state_path, state)
             if not confirmation.exists():
                 write(confirmation, api.models(batch_id))
             for saved in sorted(directory.glob("*.json")):
@@ -151,10 +158,14 @@ def run_batch(batch_id=None, limit=20):
                 if artifact["job_id"] not in state["completed"]:
                     state["completed"].append(artifact["job_id"])
             write(state_path, state)
-            while len(state["completed"]) < limit:
+            while limit is None or len(state["completed"]) < limit:
+                if (LOCAL / "api/STOP").exists():
+                    state["status"] = "stopped_by_user"
+                    break
                 selection = next_case(root, builder)
                 if selection is None:
-                    state["status"] = "stopped_no_pending_tasks"
+                    state["status"] = "completed"
+                    state["completion_reason"] = "all_approved_scene_trajectories_generated"
                     break
                 group, case = selection
                 builder.advance(groups={group}, cases={case})
@@ -225,7 +236,7 @@ def run_batch(batch_id=None, limit=20):
                     ),
                     flush=True,
                 )
-            if len(state["completed"]) == limit:
+            if limit is not None and len(state["completed"]) == limit:
                 state["status"] = "completed"
         except APIStopped as exc:
             state["status"] = "stopped"

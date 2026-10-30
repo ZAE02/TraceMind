@@ -4,7 +4,7 @@
 
 **v0.2 状态：**20组场景计划已逐场个别化并通过独立模型审查；对话与正式实验仍在生成。最新实际数量见[运行状态](docs/status.json)。200组双人盲评待人工完成，不包含虚构人工评分或目标效果数字。案例均为虚构成人的合成材料。
 
-当前数据合成已改用用户指定的 `gemini-3.8-flash`，使用独立 `gemini_v1` 数据版本。每次调用前必须读取[项目 API skill](.agents/skills/tracemind-api/SKILL.md)：并发 1、请求开始间隔至少 60 秒、每日最多 100 次（含列表查询和重试），每批最多 20 条后停止。代理日志与实际最小对话已确认用户允许的 `gemini-3.8-flash → gemini-3.8-flash-tiered` 映射，记录请求与返回名称；最初被名称完全相等校验拦截的批次保留为历史记录。最新合成进度见运行状态。
+当前数据合成已改用用户指定的 `gemini-3.8-flash`，使用独立 `gemini_v1` 数据版本。每次调用前必须读取[项目 API skill](.agents/skills/tracemind-api/SKILL.md)：并发 1、请求开始间隔至少 30 秒，用户已取消每批 20 条和每日数量上限；错误处理及最多两次重试规则保留。代理日志与实际最小对话已确认用户允许的 `gemini-3.8-flash → gemini-3.8-flash-tiered` 映射，记录请求与返回名称；最初被名称完全相等校验拦截的批次保留为历史记录。最新合成进度见运行状态。
 
 此前 Terra v2 保留来源并停止合成，不与 Gemini 数据混合。v1 的四场公开样例只用于工程冒烟，不计入正式 Benchmark 数量。
 
@@ -49,9 +49,13 @@ uv run pytest
 
 ```powershell
 # 必须先读取项目 API skill；凭据仅放环境或本地忽略配置。
-# 每批由用户明确授权，新批次需单独请求；下例不会自动续批。
-uv run python scripts/gemini_batch.py --batch-id USER_APPROVED_BATCH --limit 20
+# 已授权持续推进20组场景；不指定 --limit 时直至场景合成完成或错误停止。
+uv run python scripts/gemini_batch.py --batch-id RUN_ID
+# Windows 后台运行 / 恢复同一运行，重复启动会检查并复用现有进程：
+powershell -File scripts/start_synthesis.ps1
 ```
+
+后台状态、进程号和脱敏日志位于 `.local/api/`。程序不会因 20 条或跨日自动停止；鉴权、账户/服务提示、超额重试等错误仍停止。电脑、本地代理和 PostgreSQL 需要保持运行。创建 `.local/api/STOP` 可在下一请求发送前暂停；移除后可恢复原运行。
 
 历史的 Agent 任务导出/导入仍用于保留旧实验和评测记录，Python 不会自行启动 Codex 子 Agent。以下命令不应被用来重启 Terra 数据合成：
 

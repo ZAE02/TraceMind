@@ -4,11 +4,13 @@ import json
 import sqlite3
 from datetime import datetime, timezone
 
+from tracemind.api_client import read_policy
 from tracemind.benchmark.builder import BenchmarkBuilder, read, write
 from tracemind.config import LOCAL, ROOT, dsn
 from tracemind.jobs import JobQueue
 
 queue = JobQueue(dsn())
+policy, _ = read_policy()
 gemini_root = LOCAL / "datasets/gemini_v1"
 terra = BenchmarkBuilder(LOCAL / "datasets/v2", queue).audit()
 data = BenchmarkBuilder(gemini_root, queue).audit() if gemini_root.exists() else terra
@@ -42,13 +44,15 @@ report = {
     "active_synthesis": {
         "model": "gemini-3.8-flash",
         "namespace": "gemini_v1",
-        "batch_limit": 20,
+        "batch_limit": policy["batch_size"],
+        "daily_limit": policy["daily_limit"],
+        "request_interval_seconds": policy["interval_seconds"],
         "status": batch.get("status", "not_started"),
         "reason": batch.get("reason"),
         "reported_batch_id": batch.get("batch_id"),
         "accepted_records_in_reported_batch": len(batch.get("completed", [])),
         "api_requests_in_reported_batch": api_calls,
-        "next_batch": "requires_explicit_user_request",
+        "continuation": "authorized_until_current_20_group_target_or_error_stop",
     },
     "retained_terra_v2_not_mixed_with_gemini": terra,
     "engineering_smoke_not_formal_data": engineering,

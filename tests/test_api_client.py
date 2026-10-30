@@ -80,7 +80,7 @@ def test_429_wait_persists_and_attempts_count(api):
     client.request("GET", "/models", "two")
     with client.connect() as conn:
         final = conn.execute("SELECT max(started) FROM attempts").fetchone()[0]
-    assert final - starts[-1][0] >= 60
+    assert final - starts[-1][0] >= 30
 
 
 def test_auth_failure_stops_all_future_tasks_without_retry(api):
@@ -136,7 +136,7 @@ def test_user_approved_exact_alias_preserves_both_model_names(api):
     assert client.opener.calls == 1
 
 
-def test_three_failures_stop_and_daily_budget_counts_retries(api):
+def test_three_failures_stop_and_optional_daily_budget_counts_retries(api, monkeypatch):
     client, _ = api
     client.opener = Transport(
         [HTTPError("http://local", 503, "unavailable", {}, None) for _ in range(3)]
@@ -155,9 +155,46 @@ def test_three_failures_stop_and_daily_budget_counts_retries(api):
             "INSERT INTO attempts(id,task,started,day,skill_sha,input_sha) VALUES(?,?,?,?,?,?)",
             [(str(i), str(i), *last) for i in range(97)],
         )
+    read = module.read_policy
+
+    def bounded_policy(*args, **kwargs):
+        policy, sha = read(*args, **kwargs)
+        return {**policy, "daily_limit": 100}, sha
+
+    monkeypatch.setattr(module, "read_policy", bounded_policy)
     with pytest.raises(module.APIStopped, match="daily"):
         client.request("GET", "/models", "new")
     assert client.opener.calls == 3
+
+
+def test_unlimited_daily_policy_keeps_count_and_allows_more_than_100(api):
+    client, _ = api
+    client.opener = Transport([Response()])
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+
+    now = module.time.time()
+    day = datetime.fromtimestamp(now, ZoneInfo("Asia/Shanghai")).date().isoformat()
+    with client.connect() as conn:
+        conn.executemany(
+            "INSERT INTO attempts(id,task,started,day,skill_sha,input_sha) VALUES(?,?,?,?,?,?)",
+            [(str(i), str(i), now - 120, day, "historical", "hash") for i in range(105)],
+        )
+    client.request("GET", "/models", "new-after-105")
+    assert client.opener.calls == 1
+    with client.connect() as conn:
+        assert conn.execute("SELECT count(*) FROM attempts").fetchone()[0] == 106
+
+
+def test_stop_marker_prevents_sending_a_request(api):
+    client, _ = api
+    client.opener = Transport([Response()])
+    (client.state / "STOP").write_text("pause")
+    with pytest.raises(module.APIStopped, match="STOP"):
+        client.request("GET", "/models", "must-not-send")
+    assert client.opener.calls == 0
+    with client.connect() as conn:
+        assert conn.execute("SELECT count(*) FROM attempts").fetchone()[0] == 0
 
 
 def test_role_context_bounded_and_private_cards_absent_for_counselor():

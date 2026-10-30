@@ -105,9 +105,16 @@ def audit(batch_id):
         issues.append("request start interval below policy")
     days = {row[2] for row in attempts}
     daily = {day: sum(row[2] == day for row in all_attempts) for day in sorted(days)}
-    if any(value > policy["daily_limit"] for value in daily.values()):
+    if policy["daily_limit"] is not None and any(
+        value > policy["daily_limit"] for value in daily.values()
+    ):
         issues.append("daily request budget exceeded")
-    if len(state["completed"]) > state["limit"] or state["limit"] > policy["batch_size"]:
+    if (
+        state["limit"] is not None
+        and len(state["completed"]) > state["limit"]
+        or policy["batch_size"] is not None
+        and len(state["completed"]) > policy["batch_size"]
+    ):
         issues.append("batch size exceeded")
     dataset = BenchmarkBuilder(LOCAL / "datasets" / state["dataset_namespace"], queue).audit()
     issues.extend(dataset["issues"])

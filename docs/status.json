@@ -1,5 +1,5 @@
 {
-  "reported_at": "2026-10-30T08:17:48.060670+00:00",
+  "reported_at": "2026-10-30T08:32:18.000666+00:00",
   "version": "0.2.0",
   "dataset": {
     "plans": 20,
@@ -14,13 +14,15 @@
   "active_synthesis": {
     "model": "gemini-3.8-flash",
     "namespace": "gemini_v1",
-    "batch_limit": 20,
-    "status": "completed",
+    "batch_limit": null,
+    "daily_limit": null,
+    "request_interval_seconds": 30,
+    "status": "running",
     "reason": null,
-    "reported_batch_id": "gemini-resume-20261030-01",
-    "accepted_records_in_reported_batch": 20,
-    "api_requests_in_reported_batch": 21,
-    "next_batch": "requires_explicit_user_request"
+    "reported_batch_id": "gemini-continuous-20261030-01",
+    "accepted_records_in_reported_batch": 7,
+    "api_requests_in_reported_batch": 8,
+    "continuation": "authorized_until_current_20_group_target_or_error_stop"
   },
   "retained_terra_v2_not_mixed_with_gemini": {
     "plans": 20,
