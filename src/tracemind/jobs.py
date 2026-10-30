@@ -29,8 +29,9 @@ def validate_job_result(schema: dict, result: dict) -> None:
 
 
 class JobQueue:
-    def __init__(self, dsn: str):
+    def __init__(self, dsn: str, model: str = MODEL, reasoning: str = REASONING):
         self.dsn = dsn
+        self.model, self.reasoning = model, reasoning
 
     def setup(self):
         with psycopg.connect(self.dsn) as conn:
@@ -56,8 +57,8 @@ class JobQueue:
             role=role,
             allowed_context=allowed_context,
             output_schema=output_schema,
-            model=MODEL,
-            reasoning=REASONING,
+            model=self.model,
+            reasoning=self.reasoning,
             parent_id=parent_id,
         )
         if scope_id is not None:
@@ -117,14 +118,12 @@ class JobQueue:
         return [dict(job_id=row[0], **row[1]) for row in rows]
 
     def complete(self, job_id: str, result: dict, provenance: dict):
-        if provenance.get("model") != MODEL or provenance.get("reasoning") != REASONING:
-            raise ValueError("result must come from the designated Terra/medium subagent")
-        if (
-            not isinstance(result, dict)
-            or not isinstance(provenance.get("agent_task"), str)
-            or not provenance["agent_task"].strip()
-        ):
-            raise ValueError("a result object and actual agent task identity are required")
+        api_result = provenance.get("provider") == "openai-compatible"
+        identity = provenance.get("execution_id") if api_result else provenance.get("agent_task")
+        if not isinstance(result, dict) or not isinstance(identity, str) or not identity.strip():
+            raise ValueError(
+                "a result object and actual agent task or API execution identity are required"
+            )
         sha = digest(result)
         with psycopg.connect(self.dsn) as conn:
             row = conn.execute(
@@ -133,6 +132,13 @@ class JobQueue:
             ).fetchone()
             if row is None:
                 raise KeyError(job_id)
+            if (
+                provenance.get("model") != row[1]["model"]
+                or provenance.get("reasoning") != row[1]["reasoning"]
+            ):
+                raise ValueError("result model and reasoning must match the original job request")
+            if api_result != (row[1]["reasoning"] == "provider-default"):
+                raise ValueError("job execution provider mismatch")
             validate_job_result(row[1]["output_schema"], result)
             if row[0]:
                 if row[0] != sha or row[2] != provenance:
@@ -140,7 +146,7 @@ class JobQueue:
                 return
             scope_id = row[1].get("scope_id", f"job:{job_id}")
             role = row[1]["role"]
-            actor = provenance["agent_task"]
+            actor = "api:" + identity if api_result else identity
             conn.execute(
                 "INSERT INTO agent_scope_bindings (agent_task,scope_id,role) VALUES (%s,%s,%s) ON CONFLICT (agent_task) DO NOTHING",
                 (actor, scope_id, role),

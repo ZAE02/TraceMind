@@ -4,12 +4,14 @@
 
 **v0.2 状态：**20组场景计划已逐场个别化并通过独立模型审查；对话与正式实验仍在生成。最新实际数量见[运行状态](docs/status.json)。200组双人盲评待人工完成，不包含虚构人工评分或目标效果数字。案例均为虚构成人的合成材料。
 
-正式数据使用v2：每条轨迹的两种角色分别由全新Agent承担，共享开场也使用独立任务。v1的四场公开样例只用于工程冒烟，其持续worker曾处理多条轨迹，因此不计入正式Benchmark数量。
+当前数据合成已改用用户指定的 `gemini-3.8-flash`，使用独立 `gemini_v1` 数据版本。每次调用前必须读取[项目 API skill](.agents/skills/tracemind-api/SKILL.md)：并发 1、请求开始间隔至少 60 秒、每日最多 100 次（含列表查询和重试），每批最多 20 条后停止。首批因生成响应的模型标识不一致已停止，接纳 0 条；未更换模型或自动重试。
+
+此前 Terra v2 保留来源并停止合成，不与 Gemini 数据混合。v1 的四场公开样例只用于工程冒烟，不计入正式 Benchmark 数量。
 
 ```mermaid
 flowchart LR
   D[隔离角色的数据生成] --> Q[PostgreSQL 任务队列]
-  Q <--> A[活跃 Codex 会话中的 Terra / medium]
+  Q <--> A[受限的 Gemini API 单批执行]
   Q --> E[公开发言与证据]
   E --> R[BGE-M3 + pgvector + BM25]
   R --> X[Cross-Encoder 重排]
@@ -43,14 +45,21 @@ uv run pytest
 
 数据库连接由忽略提交的 `.env` 中 `TRACEMIND_DSN` 提供，默认只监听 `127.0.0.1:55432`。BGE-M3与重排权重固定到具体 revision，保存在 `.local/` 并顺序加载；CUDA不可用或显存不足时使用同一模型的CPU推理。
 
-模型任务需要**活跃 Codex 会话调度指定子Agent**。Python不会自行启动当前对话的内部工具，也不自动调用外部生成模型API。实际任务、输入、结果及来源哈希保存在本机，可断点恢复。
+合成通过受限 API 执行器运行，凭据从 `TRACEMIND_API_BASE_URL`、`TRACEMIND_API_KEY`、`TRACEMIND_API_MODEL` 或忽略提交的 `.local/api-config.json` 读取。仅使用指定模型，先检查模型列表；全局文件锁、SQLite 尝试账本、持久化等待及停止标记共同执行限额。实际发送的裁剪输入、响应、模型、真实可用的 usage 及来源哈希保存在本机。模型标识不一致时停止，不接受别名替换。
+
+```powershell
+# 必须先读取项目 API skill；凭据仅放环境或本地忽略配置。
+# 每批由用户明确授权，新批次需单独请求；下例不会自动续批。
+uv run python scripts/gemini_batch.py --batch-id USER_APPROVED_BATCH --limit 20
+```
+
+历史的 Agent 任务导出/导入仍用于保留旧实验和评测记录，Python 不会自行启动 Codex 子 Agent。以下命令不应被用来重启 Terra 数据合成：
 
 ```powershell
 uv run tracemind jobs export .local/outbox
 # 指定子Agent实际生成结果并记录来源后：
 uv run tracemind jobs import .local/result.json
-uv run tracemind benchmark advance .local/datasets/v2
-uv run tracemind benchmark audit .local/datasets/v2
+uv run tracemind benchmark audit .local/datasets/gemini_v1
 ```
 
 研究查看器与人工盲评入口分开运行，使用不同访问凭据：

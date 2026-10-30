@@ -53,6 +53,28 @@ def test_schema_validation_rejects_invalid_results():
         validate_job_result({"type": "not-a-type"}, {})
 
 
+def test_api_jobs_preserve_model_and_actual_provider_identity_opt_in():
+    dsn = os.environ.get("TRACEMIND_TEST_POSTGRES_DSN")
+    if not dsn:
+        pytest.skip("set TRACEMIND_TEST_POSTGRES_DSN to test PostgreSQL")
+    queue = JobQueue(dsn, model="gemini-3.8-flash", reasoning="provider-default")
+    queue.setup()
+    job = queue.enqueue("api-test", "client", {"run": str(uuid4())}, {"type": "object"})
+    provenance = {
+        "model": "gemini-3.8-flash",
+        "reasoning": "provider-default",
+        "provider": "openai-compatible",
+        "execution_id": str(uuid4()),
+    }
+    with pytest.raises(ValueError, match="original job request"):
+        queue.complete(job, {}, {**provenance, "model": "another-model"})
+    queue.complete(job, {}, provenance)
+    queue.complete(job, {}, provenance)
+    saved = queue.get(job)
+    assert saved["request"]["model"] == "gemini-3.8-flash"
+    assert "agent_task" not in saved["provenance"]
+
+
 def test_actor_scope_and_role_isolation_opt_in():
     dsn = os.environ.get("TRACEMIND_TEST_POSTGRES_DSN")
     if not dsn:

@@ -1,7 +1,27 @@
 {
-  "reported_at": "2026-10-29T18:28:53.318435+00:00",
+  "reported_at": "2026-10-30T04:59:54.177579+00:00",
   "version": "0.2.0",
   "dataset": {
+    "plans": 20,
+    "approved_plans": 20,
+    "trajectories": 0,
+    "complete_trajectories": 0,
+    "complete_sessions": 0,
+    "checkpoints": 0,
+    "issues": [],
+    "complete": false
+  },
+  "active_synthesis": {
+    "model": "gemini-3.8-flash",
+    "namespace": "gemini_v1",
+    "batch_limit": 20,
+    "status": "stopped",
+    "reason": "response model differs from specified model",
+    "accepted_records_in_first_batch": 0,
+    "api_requests_in_first_batch": 2,
+    "next_batch": "requires_explicit_user_request"
+  },
+  "retained_terra_v2_not_mixed_with_gemini": {
     "plans": 20,
     "approved_plans": 20,
     "trajectories": 2,

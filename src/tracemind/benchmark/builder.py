@@ -271,7 +271,8 @@ class BenchmarkBuilder:
                             if job["request"]["purpose"].startswith("anchor:")
                             else f"trajectory:{session['case_id']}:{row['role']}"
                         )
-                        actor = job.get("provenance", {}).get("agent_task")
+                        provenance = job.get("provenance") or {}
+                        actor = provenance.get("agent_task") or provenance.get("execution_id")
                         if (
                             scope != expected
                             or job["request"]["allowed_context"].get("dataset_namespace")
