@@ -129,11 +129,29 @@ class BenchmarkBuilder:
                 continue
             anchors = {}
             for session in (2, 4, 6):
+                # Existing openings are immutable. A reviewed repair archives all
+                # dependent sessions before requesting a new shared opening.
+                case_prefix = f"{self.namespace}_" if self.namespace else ""
+                existing = (
+                    self.root
+                    / "dialogues"
+                    / f"{case_prefix}{plan.group_id}-T1"
+                    / f"S{session:02}.json"
+                )
+                if existing.exists() and read(existing).get("utterances"):
+                    ident = read(existing)["utterances"][0]["job_id"]
+                    anchors[session] = (ident, self._resolved(ident))
+                    continue
                 situation = plan.shared_checkpoint_situations[f"S{session}"]
+                event_sets = [
+                    set(plan.branches[b].sessions[session - 1].occurred_events) for b in BRANCHES
+                ]
                 context = {
                     "profile": plan.profile,
                     "current_situation": situation,
-                    "instruction": "你是完全虚构的成年来访者。只写本次会谈开场的一条自然中文发言，保持具体但不揭示此前心理历程；不分析、不诊断。",
+                    "common_occurred_events": sorted(set.intersection(*event_sets)),
+                    "anchor_policy": "shared-current-events-v2",
+                    "instruction": "你是完全虚构的成年来访者。只写本次会谈开场的一条自然中文发言。必须与common_occurred_events已经发生的事实兼容，不退回尚未尝试任何应对的状态。以current_situation提供的中性表述为边界，不添加新的截止日期、危机或团队安排。保持具体但不揭示此前心理历程；不分析、不诊断。",
                 }
                 if self.namespace:
                     context["dataset_namespace"] = self.namespace

@@ -59,6 +59,11 @@ def test_role_context_and_future_isolation(tmp_path):
     q = Queue()
     b = BenchmarkBuilder(tmp_path, q)
     b.advance()
+    anchor = next(j for j in q.jobs.values() if j["request"]["purpose"] == "anchor:G001:S4")
+    shared = anchor["request"]["allowed_context"]
+    assert shared["common_occurred_events"] == ["event4"]
+    assert shared["anchor_policy"] == "shared-current-events-v2"
+    assert "private4" not in str(shared) and "event5" not in str(shared)
     first = next(j for j in q.jobs.values() if j["request"]["purpose"] == "dialogue:G001-T1:S1:U1")
     cards = first["request"]["allowed_context"]["experienced_events"]
     assert len(cards) == 1 and cards[0]["session"] == 1
@@ -117,7 +122,13 @@ def test_checkpoint_is_recovered_after_interrupted_write(tmp_path):
         tmp_path / "dialogues/G001-T1/S02.json",
         {**common, "session": 2, "utterances": [opening], "complete": False},
     )
-    BenchmarkBuilder(tmp_path, Queue()).advance()
+    queue = Queue()
+    queue.jobs["anchor"] = {
+        "status": "completed",
+        "result": {"text": opening["text"]},
+        "result_sha256": "fixture",
+    }
+    BenchmarkBuilder(tmp_path, queue).advance()
     cp = read(tmp_path / "checkpoints/G001-T1-CP1.json")
     assert cp["latest_client"] == opening and len(cp["previous_sessions"]) == 1
     report = BenchmarkBuilder(tmp_path, Queue()).audit(verify_jobs=False)

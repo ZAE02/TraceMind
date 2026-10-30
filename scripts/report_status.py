@@ -60,6 +60,7 @@ report = {
         "reason": batch.get("reason"),
         "reported_batch_id": batch.get("batch_id"),
         "accepted_records_in_reported_batch": len(batch.get("completed", [])),
+        "record_count_scope": "historical_successes_including_archived_revisions; active_valid_counts_are_in_dataset",
         "api_requests_in_reported_batch": api_calls,
         "project_api_requests_since_run_start_including_experiments": all_run_calls,
         "model_reviewed_sessions_in_run": batch.get("reviewed_sessions", 0),
@@ -78,6 +79,17 @@ report = {
     },
     "experiment_result_status": "No result claim until actual candidates and reviews are complete",
 }
+repair_file = gemini_root / "project/development_repair.json"
+if repair_file.exists():
+    repair = read(repair_file)
+    report["development_data_repair"] = {
+        "scope": "development_only",
+        "first_invalidated_session": repair["first_session"],
+        "invalidated_files": len(repair["invalidated"]),
+        "archived_evidence_rows": repair["database_evidence_archived"],
+        "original_sources_preserved": True,
+        "new_content_requires_fresh_model_review": True,
+    }
 phase_file = LOCAL / "project/status.json"
 if phase_file.exists():
     phase = read(phase_file)
