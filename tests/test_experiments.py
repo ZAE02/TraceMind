@@ -356,3 +356,31 @@ def test_clarification_requires_client_evidence_not_only_a_question(tmp_path):
             {"text": "Is your fear blame?", "context": {"history": {}}},
         )
     assert not (tmp_path / "experiments/interactions/cp/evolution.json").exists()
+
+
+def test_final_audit_checks_actual_answer_not_only_copied_hash(tmp_path):
+    from tracemind.benchmark.builder import write
+    from tracemind.experiments.context import serialized
+    from tracemind.jobs import digest
+
+    history = {"memory": "", "evidence": []}
+
+    class Source(Queue):
+        def get(self, ident):
+            return {
+                "status": "completed",
+                "result_sha256": digest({"text": "original"}),
+                "request": {"allowed_context": {"history": history}},
+            }
+
+    write(
+        tmp_path / "experiments/candidates/cp/current.json",
+        {
+            "job_id": "actual-source",
+            "text": "tampered",
+            "result_sha256": digest({"text": "original"}),
+            "context": {"history": history, "history_tokens": len(serialized(history))},
+        },
+    )
+    runner = ExperimentRunner(tmp_path, Source(), Repository(), Retriever(), Tokenizer())
+    assert any("answer content" in issue for issue in runner.audit()["issues"])

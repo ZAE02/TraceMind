@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import sqlite3
+from collections import Counter
 from datetime import datetime
 
 from tracemind.api_client import read_policy
@@ -127,7 +128,9 @@ def audit(batch_id):
         "shared_openings": anchors,
         "dialogue_utterances": utterances,
         "http_attempts_in_batch": len(attempts),
-        "http_statuses": [row[3] for row in attempts],
+        "http_status_counts": dict(
+            Counter(str(row[3]) if row[3] is not None else "pending" for row in attempts)
+        ),
         "minimum_project_request_start_interval_seconds": min(intervals) if intervals else None,
         "project_daily_attempts_including_other_tasks": daily,
         "model_pairs": [{"requested": a, "returned": b} for a, b in sorted(model_pairs)],

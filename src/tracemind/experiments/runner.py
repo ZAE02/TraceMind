@@ -631,6 +631,11 @@ class ExperimentRunner:
             job = self.queue.get(result["job_id"])
             if job["status"] != "completed" or job["result_sha256"] != result["result_sha256"]:
                 issues.append(str(path))
+            if digest({"text": result["text"]}) != job["result_sha256"]:
+                issues.append(f"answer content: {path}")
+            provided = job.get("request", {}).get("allowed_context", {}).get("history")
+            if provided is None or digest(provided) != digest(result["context"]["history"]):
+                issues.append(f"actual input: {path}")
             from .context import serialized
 
             actual = len(self.tokenizer.encode_tokens(serialized(result["context"]["history"])))

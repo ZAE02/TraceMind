@@ -259,6 +259,22 @@ class ProjectPipeline:
         if first and not initial.exists():
             self.drive_checkpoint(queue, api, first, "initial_pipeline_smoke")
             write(initial, {"checkpoint_id": first["id"], "status": "completed_actual_six_methods"})
+        # Exercise multiple revisions early, rather than only the single-session
+        # history of CP1. These are planned development checkpoints, not extra tests.
+        first_case_complete = all(
+            (self.root / "dialogue_reviews" / f"gemini_v1_G001-T1_S{number:02}.json").exists()
+            and read(self.root / "dialogue_reviews" / f"gemini_v1_G001-T1_S{number:02}.json").get(
+                "approved"
+            )
+            for number in range(1, 7)
+        )
+        if first_case_complete:
+            for cp in cps:
+                if (
+                    cp["case_id"].endswith("-T1")
+                    and not (self.root / "experiments/completed" / (cp["id"] + ".json")).exists()
+                ):
+                    self.drive_checkpoint(queue, api, cp, "longitudinal_pipeline_smoke")
         group_done = self.root / "project/group_smoke.json"
         if self.group_complete("G001") and not group_done.exists():
             self.counterfactual_review(queue, api, "G001")
