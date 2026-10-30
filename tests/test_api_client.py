@@ -133,6 +133,8 @@ def test_user_approved_exact_alias_preserves_both_model_names(api):
     assert provenance["requested_model"] == "gemini-3.8-flash"
     assert provenance["returned_model"] == "gemini-3.8-flash-tiered"
     assert provenance["mapping_basis"]
+    same, source = client.generate("mapped-job", [{"role": "user", "content": "input"}])
+    assert same == text and source["execution_id"] == provenance["execution_id"]
     assert client.opener.calls == 1
 
 
@@ -195,6 +197,20 @@ def test_stop_marker_prevents_sending_a_request(api):
     assert client.opener.calls == 0
     with client.connect() as conn:
         assert conn.execute("SELECT count(*) FROM attempts").fetchone()[0] == 0
+
+
+def test_unicode_escaped_credential_reflection_is_not_saved(api):
+    client, _ = api
+
+    class Reflected(Response):
+        def read(self, maximum):
+            return b'{"value":"\\u0074est-secret"}'
+
+    client.opener = Transport([Reflected()])
+    with pytest.raises(module.APIStopped, match="reflected"):
+        client.request("GET", "/models", "reflection")
+    assert not list((client.state / "responses").glob("*.json"))
+    assert b"test-secret" not in client.database.read_bytes()
 
 
 def test_role_context_bounded_and_private_cards_absent_for_counselor():

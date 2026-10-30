@@ -7,8 +7,9 @@ from tracemind.jobs import digest
 
 
 class Queue:
-    def __init__(self):
+    def __init__(self, api=False):
         self.jobs = {}
+        self.api = api
 
     def enqueue(self, purpose, role, allowed_context, output_schema):
         key = digest([purpose, allowed_context])
@@ -23,18 +24,21 @@ class Queue:
             status="completed",
             result=result,
             result_sha256=digest(result),
-            provenance={"agent_task": key},
+            provenance={"provider": "openai-compatible", "execution_id": key}
+            if self.api
+            else {"agent_task": key},
         )
 
 
-def test_rejected_annotation_repairs_with_new_independent_jobs(tmp_path):
+@pytest.mark.parametrize("api", [False, True])
+def test_rejected_annotation_repairs_with_new_independent_jobs(tmp_path, api):
     cp = {
         "id": "cp",
         "previous_sessions": [{"utterances": [{"id": "old", "text": "past"}]}],
         "current_dialogue": [],
         "latest_client": {"id": "now", "text": "current"},
     }
-    queue = Queue()
+    queue = Queue(api)
     assert advance_annotation(tmp_path, queue, cp) is None
     draft = {field: [] for field in FIELDS}
     draft["oracle_evidence_ids"] = ["old"]

@@ -67,6 +67,17 @@ def freeze_protocol(root: Path, queue, refs: list[dict]) -> dict:
     if not isinstance(refs, list) or len(refs) < 12:
         raise ValueError("at least 12 calibration examples are required")
     examples, seen_checkpoints, seen_jobs, seen_actors = [], set(), set(), set()
+    expected_model = getattr(queue, "model", MODEL)
+    expected_reasoning = getattr(queue, "reasoning", REASONING)
+
+    def actor(job):
+        provenance = job.get("provenance") or {}
+        return (
+            provenance.get("execution_id")
+            if expected_reasoning == "provider-default"
+            else provenance.get("agent_task")
+        )
+
     for ref in refs:
         cp_id, job_id, repeat_id = ref["checkpoint_id"], ref["quality_job_id"], ref["repeat_job_id"]
         if (
@@ -93,17 +104,22 @@ def freeze_protocol(root: Path, queue, refs: list[dict]) -> dict:
                 job.get("status") != "completed"
                 or not isinstance(job.get("result"), dict)
                 or job.get("result_sha256") != digest(job["result"])
-                or provenance.get("model") != MODEL
-                or provenance.get("reasoning") != REASONING
-                or not isinstance(provenance.get("agent_task"), str)
-                or not provenance["agent_task"].strip()
+                or provenance.get("model") != expected_model
+                or provenance.get("reasoning") != expected_reasoning
+                or not isinstance(actor(job), str)
+                or not actor(job).strip()
+                or expected_reasoning == "provider-default"
+                and provenance.get("provider") != "openai-compatible"
             ):
                 raise ValueError("calibration requires completed jobs with actual provenance")
-            if job["request"].get("model") != MODEL or job["request"].get("reasoning") != REASONING:
+            if (
+                job["request"].get("model") != expected_model
+                or job["request"].get("reasoning") != expected_reasoning
+            ):
                 raise ValueError("calibration job model configuration differs")
             if digest(job["request"]) != job["id"]:
                 raise ValueError("calibration job request hash mismatch")
-        actors = {first["provenance"]["agent_task"], repeat["provenance"]["agent_task"]}
+        actors = {actor(first), actor(repeat)}
         if len(actors) != 2 or actors & seen_actors:
             raise ValueError("reviews must use independent agent tasks for every job")
         seen_actors.update(actors)

@@ -104,7 +104,7 @@ def next_case(root, builder):
     return None
 
 
-def run_batch(batch_id=None, limit=None, *, review_sessions=True):
+def run_batch(batch_id=None, limit=None, *, review_sessions=True, progress_callback=None):
     policy, _ = read_policy()
     if limit is not None and (
         limit < 1 or policy["batch_size"] is not None and limit > policy["batch_size"]
@@ -178,6 +178,8 @@ def run_batch(batch_id=None, limit=None, *, review_sessions=True):
                         )
                         state["indexed_reviewed_sessions"] = state["reviewed_sessions"]
                         write(state_path, state)
+                if progress_callback is not None:
+                    progress_callback(root, queue, api)
                 selection = next_case(root, builder)
                 if selection is None:
                     state["status"] = "completed"

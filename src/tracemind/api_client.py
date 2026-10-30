@@ -117,6 +117,9 @@ class LimitedAPI:
                   blocked TEXT, pause_until REAL NOT NULL DEFAULT 0);
                 INSERT OR IGNORE INTO control(id) VALUES(1);
             """)
+            columns = {row[1] for row in conn.execute("PRAGMA table_info(attempts)")}
+            if "finished" not in columns:
+                conn.execute("ALTER TABLE attempts ADD COLUMN finished REAL")
         self.opener = build_opener(ProxyHandler({}), NoRedirect())
 
     def connect(self):
@@ -125,7 +128,8 @@ class LimitedAPI:
     def _finish(self, attempt_id, status, outcome, *, blocked=None, pause_until=0):
         with self.connect() as conn:
             conn.execute(
-                "UPDATE attempts SET status=?,outcome=? WHERE id=?", (status, outcome, attempt_id)
+                "UPDATE attempts SET status=?,outcome=?,finished=coalesce(finished,?) WHERE id=?",
+                (status, outcome, time.time(), attempt_id),
             )
             conn.execute(
                 "UPDATE control SET blocked=coalesce(?,blocked),pause_until=max(pause_until,?) WHERE id=1",
@@ -257,7 +261,7 @@ class LimitedAPI:
                         attempt_id, status, "invalid JSON", blocked="invalid JSON response"
                     )
                     raise APIStopped("invalid JSON response; stopped without retry") from None
-                if self.key in text:
+                if self.key in text or self.key in json.dumps(result, ensure_ascii=False):
                     self._finish(
                         attempt_id,
                         status,
@@ -290,7 +294,25 @@ class LimitedAPI:
             "max_tokens": max_tokens,
             "stream": False,
         }
-        response, attempt = self.request("POST", self.prefix + "/chat/completions", job_id, payload)
+        # Recover a response persisted by transport even if the caller crashed
+        # before importing its result. Matching the actual body hash is required.
+        body_sha = hashlib.sha256(json.dumps(payload, ensure_ascii=False).encode()).hexdigest()
+        response = attempt = None
+        with self.connect() as conn:
+            saved = conn.execute(
+                "SELECT id,input_sha FROM attempts WHERE task=? AND status=200 AND outcome='success' ORDER BY started DESC",
+                (job_id,),
+            ).fetchall()
+        for ident, source_sha in saved:
+            cached = self.state / "responses" / (ident + ".json")
+            if source_sha == body_sha and cached.exists():
+                response = json.loads(cached.read_text(encoding="utf-8"))
+                attempt = ident
+                break
+        if response is None:
+            response, attempt = self.request(
+                "POST", self.prefix + "/chat/completions", job_id, payload
+            )
 
         def stop(reason):
             self._finish(attempt, 200, reason, blocked=reason)

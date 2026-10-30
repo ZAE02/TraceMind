@@ -18,6 +18,7 @@ engineering = BenchmarkBuilder(LOCAL / "datasets/v1", queue).audit()
 batches = [read(path) for path in (LOCAL / "api/batches").glob("*/state.json")]
 batch = max(batches, key=lambda item: item.get("started_at", "")) if batches else {}
 api_calls = None
+all_run_calls = None
 ledger = LOCAL / "api/requests.sqlite3"
 if ledger.exists() and batch:
     tasks = set(
@@ -29,9 +30,13 @@ if ledger.exists() and batch:
     tasks.add(discovery_task)
     started = datetime.fromisoformat(batch["started_at"]).timestamp()
     with sqlite3.connect(ledger) as connection:
+        attempt_rows = list(connection.execute("SELECT task,started FROM attempts"))
         api_calls = sum(
             task in tasks and (task == discovery_task or timestamp >= started)
-            for task, timestamp in connection.execute("SELECT task,started FROM attempts")
+            for task, timestamp in attempt_rows
+        )
+        all_run_calls = sum(
+            timestamp >= started or task == discovery_task for task, timestamp in attempt_rows
         )
 proof = LOCAL / "verification/stack.json"
 human_path = LOCAL / "reviews.sqlite3"
@@ -56,6 +61,7 @@ report = {
         "reported_batch_id": batch.get("batch_id"),
         "accepted_records_in_reported_batch": len(batch.get("completed", [])),
         "api_requests_in_reported_batch": api_calls,
+        "project_api_requests_since_run_start_including_experiments": all_run_calls,
         "model_reviewed_sessions_in_run": batch.get("reviewed_sessions", 0),
         "continuation": "authorized_until_current_20_group_target_or_error_stop",
     },
@@ -72,5 +78,11 @@ report = {
     },
     "experiment_result_status": "No result claim until actual candidates and reviews are complete",
 }
+phase_file = LOCAL / "project/status.json"
+if phase_file.exists():
+    phase = read(phase_file)
+    report["project_workflow"] = {
+        key: phase.get(key) for key in ("phase", "updated_at", "human_review")
+    }
 write(ROOT / "docs/status.json", report)
 print(json.dumps(report, ensure_ascii=False, indent=2))

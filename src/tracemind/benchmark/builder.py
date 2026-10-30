@@ -249,8 +249,21 @@ class BenchmarkBuilder:
         )
         verified = self.queue.get_many(ids) if verify_jobs else {}
         actor_scopes = {}
+        plan_index = {p.group_id: p for p in plans}
         session_index = {(s["case_id"], s["session"]): s for s in sessions}
+        if len(session_index) != len(sessions):
+            issues.append("duplicate case/session records")
+        utterance_ids = [u["id"] for s in sessions for u in s["utterances"]]
+        if len(set(utterance_ids)) != len(utterance_ids):
+            issues.append("duplicate public utterance IDs")
         for session in sessions:
+            plan = plan_index.get(session.get("group_id"))
+            if (
+                plan is None
+                or session.get("split") != plan.split
+                or session.get("plan_sha256") != digest(plan.model_dump())
+            ):
+                issues.append("session plan or split mismatch: " + session["case_id"])
             if session["complete"] != (len(session["utterances"]) == 16):
                 issues.append("session completeness mismatch: " + session["case_id"])
             for i, row in enumerate(session["utterances"]):
@@ -296,7 +309,8 @@ class BenchmarkBuilder:
                         "profile",
                     } & set(job["request"]["allowed_context"]):
                         issues.append("private card leaked to counselor: " + row["id"])
-        plan_index = {p.group_id: p for p in plans}
+        if len({c["id"] for c in checkpoints}) != len(checkpoints):
+            issues.append("duplicate checkpoint IDs")
         for checkpoint in checkpoints:
             label = checkpoint["id"]
             if checkpoint.get("public_sha256") != digest(
@@ -304,6 +318,8 @@ class BenchmarkBuilder:
             ):
                 issues.append("checkpoint hash mismatch: " + label)
             number, case = checkpoint["session"], checkpoint["case_id"]
+            if checkpoint["id"] != f"{case}-CP{number // 2}":
+                issues.append("checkpoint identity mismatch: " + label)
             plan = plan_index.get(checkpoint["group_id"])
             if number not in (2, 4, 6) or plan is None or checkpoint["split"] != plan.split:
                 issues.append("checkpoint stage or split mismatch: " + label)

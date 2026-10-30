@@ -19,7 +19,16 @@ from .context import pack_context
 from .protocol import TASK_A_RUBRIC, TASK_A_SCHEMA, test_review_ready
 
 METHODS = ("current", "temporalrag", "summary", "on_demand", "evolution", "oracle")
-INSTRUCTIONS = "根据提供的公开对话回应当前来访者。区分观察与推测，不做诊断，允许对方纠正。"
+INSTRUCTIONS = "根据提供的公开对话自然回应当前来访者。区分观察与推测，不做诊断，允许对方纠正。不向来访者提内部ID、检索方法、实验条件或记忆维护流程。"
+
+
+def persist_candidate(path, result):
+    # Dataclass tuples become JSON arrays on disk/PostgreSQL. Compare canonical
+    # serialized content, while still rejecting any actual content change.
+    if path.exists() and digest(read(path)) != digest(result):
+        raise ValueError(f"candidate changed: {path}")
+    if not path.exists():
+        write(path, result)
 
 
 class ExperimentRunner:
@@ -105,12 +114,13 @@ class ExperimentRunner:
             sessions = [
                 {
                     "session": checkpoint["session"],
-                    "utterances": [row for session in histories for row in session["utterances"]],
+                    "utterances": self._evidence(checkpoint, "temporalrag"),
                 }
             ]
         else:
             sessions = histories
         allowed = set()
+        selected_revision = None
         for index, session in enumerate(sessions):
             allowed.update(row["id"] for row in session["utterances"])
             path = (
@@ -133,6 +143,7 @@ class ExperimentRunner:
                 ]
                 if len(revisions) != 1:
                     raise ValueError("snapshot points to a missing memory revision")
+                selected_revision = revisions[0]
                 continue
             if len(history) < index or len(history) > index + 1:
                 raise ValueError("memory revision chain does not match session sequence")
@@ -152,14 +163,68 @@ class ExperimentRunner:
                 packed["history"]["evidence"].pop()
             context = {
                 "history": packed["history"],
-                "instruction": "构建可追溯的结构化记忆。只返回新增证据和新增陈述，不重复或修改已有记录；使用事件、心理状态、假设和未解决问题，标记状态、支持和反驳证据，修正须追加并引用被取代的陈述。evidence 数组只含公开发言 ID 字符串，不提供文本或时间；另返回 statements 数组。",
+                "statement_id_prefix": f"{method}:{case}:S{session['session']}:",
+                "instruction": "构建可追溯的结构化记忆。只返回新增证据和新增陈述，不重复或修改已有记录；新陈述ID必须以statement_id_prefix开头。使用事件、心理状态、假设和未解决问题，标记状态、支持和反驳证据，修正须追加并引用被取代的陈述。evidence 数组只含本次新增的公开发言 ID 字符串，不提供文本或时间；另返回 statements 数组。已有记忆证据不要重复添加。supported心理判断须有来访者陈述支持；咨询师猜测不可作已获支持的心理事实。unknown时间用null，不编造日期。",
             }
+            if method == "on_demand":
+                context["preparation_policy"] = "hybrid-evidence-rebuild-v2"
+                context["query_focus"] = checkpoint["latest_client"]
+                context["instruction"] += (
+                    " query_focus仅用于选择当下相关理解方向，不是历史证据，不可将其当作历史事实来源。"
+                )
             schema = {
                 "type": "object",
                 "required": ["evidence", "statements"],
                 "properties": {
                     "evidence": {"type": "array", "items": {"type": "string"}},
-                    "statements": {"type": "array"},
+                    "statements": {
+                        "type": "array",
+                        "maxItems": 8,
+                        "items": {
+                            "type": "object",
+                            "required": [
+                                "id",
+                                "kind",
+                                "text",
+                                "status",
+                                "support_ids",
+                                "refute_ids",
+                                "supersedes",
+                            ],
+                            "properties": {
+                                "id": {"type": "string", "minLength": 1},
+                                "text": {"type": "string", "minLength": 1},
+                                "kind": {
+                                    "enum": [
+                                        "event",
+                                        "psychological_state",
+                                        "hypothesis",
+                                        "unresolved_question",
+                                    ]
+                                },
+                                "status": {
+                                    "enum": [
+                                        "proposed",
+                                        "supported",
+                                        "challenged",
+                                        "superseded",
+                                        "inapplicable",
+                                    ]
+                                },
+                                **{
+                                    name: {"type": "array", "items": {"type": "string"}}
+                                    for name in ("support_ids", "refute_ids", "supersedes")
+                                },
+                                "valid_from": {"type": ["string", "null"]},
+                                "valid_to": {"type": ["string", "null"]},
+                            },
+                            "additionalProperties": False,
+                            "anyOf": [
+                                {"properties": {"support_ids": {"minItems": 1}}},
+                                {"properties": {"refute_ids": {"minItems": 1}}},
+                            ],
+                        },
+                    },
                 },
             }
             job_id = self.queue.enqueue(
@@ -199,6 +264,7 @@ class ExperimentRunner:
             else:
                 revision = candidate
                 self.memory_store.append(revision)
+            selected_revision = revision
             write(
                 path,
                 {
@@ -207,8 +273,7 @@ class ExperimentRunner:
                     "result_sha256": job["result_sha256"],
                 },
             )
-        history = self.memory_store.history(subject)
-        return project_memory(history[-1] if history else None, self.tokenizer)
+        return project_memory(selected_revision, self.tokenizer)
 
     def _annotation(self, checkpoint):
         from .annotations import advance_annotation
@@ -237,6 +302,33 @@ class ExperimentRunner:
                 raise ValueError("oracle evidence must be historically visible")
             records = [e for e in visible if e.id in ids]
         else:
+            from tracemind.retrieval.models import EMBEDDING_REVISION, RERANKER_REVISION
+
+            cache_path = self.root / "experiments/retrieval" / f"{checkpoint['id']}.json"
+            signature = digest(
+                {
+                    "query": checkpoint["latest_client"]["text"],
+                    "case": case,
+                    "cutoff": cutoff,
+                    "as_of": as_of.isoformat(),
+                    "evidence": [
+                        {"id": e.id, "text": e.text, "session": e.session, "turn": e.turn}
+                        for e in visible
+                    ],
+                    "embedding": EMBEDDING_REVISION,
+                    "reranker": RERANKER_REVISION,
+                    "policy": "temporal-coverage-v1",
+                }
+            )
+            if cache_path.exists():
+                trace = read(cache_path)
+                if trace.get("source_sha256") != signature:
+                    raise ValueError("retrieval cache source or pinned model configuration changed")
+                by_id = {record.id: record for record in visible}
+                return [self._evidence_dict(by_id[ident]) for ident in trace["selected_ids"]]
+            from time import perf_counter
+
+            search_started = perf_counter()
             ranked = self.retriever.search(
                 checkpoint["latest_client"]["text"], case, cutoff, as_of, limit=50
             )
@@ -244,6 +336,8 @@ class ExperimentRunner:
 
             records = temporal_coverage([r.evidence.id for r in ranked], visible)
             trace = {
+                "retrieval_elapsed_seconds": perf_counter() - search_started,
+                "source_sha256": signature,
                 "query_sha256": digest(checkpoint["latest_client"]["text"]),
                 "case_id": case,
                 "cutoff": list(cutoff),
@@ -255,25 +349,28 @@ class ExperimentRunner:
                 "selected_ids": [r.id for r in records],
                 "policy": "earliest/latest historical client anchors, then hybrid reranked evidence; final serialization budget4096",
             }
-            write(self.root / "experiments/retrieval" / f"{checkpoint['id']}.json", trace)
-        return [
-            {
-                "id": e.id,
-                "session": e.session,
-                "turn": e.turn,
-                "role": e.role,
-                "text": e.text,
-                "occurred_at": e.occurred_at.isoformat(),
-                "observed_at": e.observed_at.isoformat(),
-                "metadata": e.metadata,
-            }
-            for e in records
-        ]
+            write(cache_path, trace)
+        return [self._evidence_dict(e) for e in records]
 
-    def advance(self):
+    @staticmethod
+    def _evidence_dict(e):
+        return {
+            "id": e.id,
+            "session": e.session,
+            "turn": e.turn,
+            "role": e.role,
+            "text": e.text,
+            "occurred_at": e.occurred_at.isoformat(),
+            "observed_at": e.observed_at.isoformat(),
+            "metadata": e.metadata,
+        }
+
+    def advance(self, checkpoint_ids=None):
         waiting, completed = 0, 0
         for path in sorted((self.root / "checkpoints").glob("*.json")):
             cp = read(path)
+            if checkpoint_ids is not None and cp["id"] not in checkpoint_ids:
+                continue
             current = {
                 "current_dialogue": cp["current_dialogue"],
                 "latest_client": cp["latest_client"],
@@ -400,10 +497,7 @@ class ExperimentRunner:
                     "context": packed,
                 }
                 target = self.root / "experiments" / "candidates" / cp["id"] / (method + ".json")
-                if target.exists() and read(target) != result:
-                    raise ValueError(f"candidate changed: {target}")
-                if not target.exists():
-                    write(target, result)
+                persist_candidate(target, result)
                 candidates[method] = result
                 completed += 1
                 if method in ("temporalrag", "on_demand", "evolution"):
@@ -498,6 +592,13 @@ class ExperimentRunner:
                         if not set(result_access["unavailable_evidence_ids"]).issubset(cited):
                             raise ValueError(
                                 "access reviewer cited evidence outside quality findings"
+                            )
+                        current_ids = {u["id"] for u in cp["current_dialogue"]} | {
+                            cp["latest_client"]["id"]
+                        }
+                        if current_ids & set(result_access["unavailable_evidence_ids"]):
+                            raise ValueError(
+                                "access reviewer marked universally visible current evidence as unavailable"
                             )
                         if any(
                             result_access["access_limited_by_error"][kind]

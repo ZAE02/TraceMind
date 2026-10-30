@@ -305,9 +305,16 @@ def _runner(root: Path):
     repository = EvidenceRepository(config.dsn())
     from .memory import PostgresMemoryStore
 
+    manifest = root / "experiment_manifest.json"
+    experimental_queue = JobQueue(config.dsn())
+    if manifest.exists():
+        declared = json.loads(manifest.read_text(encoding="utf-8"))
+        experimental_queue = JobQueue(
+            config.dsn(), model=declared["answer_model"], reasoning=declared["reasoning"]
+        )
     return ExperimentRunner(
         root,
-        JobQueue(config.dsn()),
+        experimental_queue,
         repository,
         Retriever(repository, models),
         models,
@@ -385,7 +392,14 @@ def benchmark_freeze(root: Path, refs: Path):
     """Freeze a protocol using independently reviewed calibration job references."""
     from .experiments.protocol import freeze_protocol
 
-    manifest = freeze_protocol(root, JobQueue(config.dsn()), _read(refs))
+    declared_path = root / "experiment_manifest.json"
+    queue = JobQueue(config.dsn())
+    if declared_path.exists():
+        declared = _read(declared_path)
+        queue = JobQueue(
+            config.dsn(), model=declared["answer_model"], reasoning=declared["reasoning"]
+        )
+    manifest = freeze_protocol(root, queue, _read(refs))
     _print(
         {
             "status": manifest["status"],

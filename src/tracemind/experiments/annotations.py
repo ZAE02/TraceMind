@@ -3,7 +3,7 @@
 from pathlib import Path
 
 from tracemind.benchmark.builder import read, write
-from tracemind.jobs import digest
+from tracemind.jobs import digest, execution_identity
 
 FIELDS = (
     "established",
@@ -78,9 +78,8 @@ def advance_annotation(root: Path, queue, checkpoint: dict):
             raise ValueError("saved annotation differs from source result")
         if not jobs["review"]["result"]["approved"] or not saved.get("oracle_approved"):
             raise ValueError("saved annotation was not approved")
-        if (
-            jobs["annotation"]["provenance"]["agent_task"]
-            == jobs["review"]["provenance"]["agent_task"]
+        if execution_identity(jobs["annotation"]["provenance"]) == execution_identity(
+            jobs["review"]["provenance"]
         ):
             raise ValueError("annotation and review require independent task contexts")
         return saved
@@ -121,7 +120,7 @@ def advance_annotation(root: Path, queue, checkpoint: dict):
         review = queue.get(review_id)
         if review["status"] != "completed":
             return None
-        if draft_job["provenance"]["agent_task"] == review["provenance"]["agent_task"]:
+        if execution_identity(draft_job["provenance"]) == execution_identity(review["provenance"]):
             raise ValueError("annotation and review require independent task contexts")
         record = {
             **draft,

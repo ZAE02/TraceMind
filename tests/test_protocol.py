@@ -16,7 +16,7 @@ class Queue:
         return self.jobs[job_id]
 
 
-def calibration_fixture(root):
+def calibration_fixture(root, model="gpt-6.1-terra", reasoning="medium"):
     (root / "checkpoints").mkdir()
     refs, jobs = [], {}
     errors = {
@@ -56,8 +56,8 @@ def calibration_fixture(root):
                 "role": "blinded quality reviewer",
                 "allowed_context": context,
                 "output_schema": QUALITY_SCHEMA,
-                "model": "gpt-6.1-terra",
-                "reasoning": "medium",
+                "model": model,
+                "reasoning": reasoning,
                 "parent_id": None,
             }
             jid = digest(request)
@@ -68,9 +68,13 @@ def calibration_fixture(root):
                 "result": result,
                 "result_sha256": digest(result),
                 "provenance": {
-                    "model": "gpt-6.1-terra",
-                    "reasoning": "medium",
-                    "agent_task": actor,
+                    "model": model,
+                    "reasoning": reasoning,
+                    **(
+                        {"provider": "openai-compatible", "execution_id": actor}
+                        if reasoning == "provider-default"
+                        else {"agent_task": actor}
+                    ),
                 },
             }
             return jid
@@ -80,7 +84,19 @@ def calibration_fixture(root):
         refs.append(
             {"checkpoint_id": cp["id"], "quality_job_id": original, "repeat_job_id": repeat}
         )
-    return Queue(jobs), refs
+    queue = Queue(jobs)
+    queue.model, queue.reasoning = model, reasoning
+    return queue, refs
+
+
+def test_api_calibration_requires_distinct_actual_execution_ids(tmp_path):
+    queue, refs = calibration_fixture(tmp_path, "gemini-3.8-flash", "provider-default")
+    freeze_protocol(tmp_path, queue, refs)
+    assert gate_ready(tmp_path, queue)
+    first, repeat = (queue.jobs[refs[0][key]] for key in ("quality_job_id", "repeat_job_id"))
+    repeat["provenance"]["execution_id"] = first["provenance"]["execution_id"]
+    with pytest.raises(ValueError, match="independent"):
+        gate_ready(tmp_path, queue)
 
 
 def test_freeze_and_recheck_checkpoint_and_jobs(tmp_path):

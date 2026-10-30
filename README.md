@@ -79,6 +79,8 @@ uv run tracemind review serve .local/reviews.sqlite3
 
 [架构与任务恢复](docs/architecture.md) · [数据卡](docs/data_card.md) · [评测与统计协议](docs/evaluation.md)
 
+[全项目执行与验收](docs/project_execution.md)说明从持续合成到首组端到端验证、校准冻结、正式测试、人工配对工具和实测报告的阶段流程。后台入口为 `scripts/start_synthesis.ps1`，阶段状态位于忽略提交的 `.local/project/status.json`。计算实验不会因为单一模块成功就被标为项目完成。
+
 [Gemini 开发集示例](data/examples/gemini_v1/)包含三场经模型内容审查并核验来源的完整会话。持续生成会在会话完成后执行独立请求审查，拒绝则保存问题并停止；通过后使用 BGE-M3 和 pgvector 增量入库。内容审查、自动核查和人工评审分别记录，不互相代替。
 
 新测试组设定、匿名映射和人工表位于忽略提交的 `.local/`。模型合成和评分存在共同偏好，不能称作人工或临床认可。

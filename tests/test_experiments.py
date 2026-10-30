@@ -255,3 +255,104 @@ def test_metric_rows_use_both_access_reviews_per_error():
     assert result["denominators"]["unsupported_assertion"] == 1
     assert result["denominators"]["leading_question"] == 2
     assert all(row["group_id"] == "group" for row in rows)
+
+
+def test_replaying_early_checkpoint_does_not_load_future_memory(tmp_path):
+    from tracemind.benchmark.builder import write
+    from tracemind.memory import InMemoryMemoryStore, new_revision
+
+    store = InMemoryMemoryStore()
+    subject = "experiment:evolution:case"
+    first = new_revision(
+        subject,
+        None,
+        evidence=[],
+        statements=[{"id": "early", "kind": "event", "text": "early fact"}],
+    )
+    store.append(first)
+    later = new_revision(
+        subject,
+        first,
+        evidence=[],
+        statements=[
+            {"id": "early", "kind": "event", "text": "early fact"},
+            {"id": "future", "kind": "event", "text": "secret future fact"},
+        ],
+    )
+    store.append(later)
+    write(tmp_path / "experiments/snapshots/evolution/case/S01.json", {"revision_id": first.id})
+    runner = ExperimentRunner(tmp_path, Queue(), Repository(), Retriever(), Tokenizer(), store)
+    projected = runner._structured_snapshot(
+        {
+            "id": "cp",
+            "case_id": "case",
+            "session": 2,
+            "previous_sessions": [{"session": 1, "utterances": []}],
+        },
+        "evolution",
+    )
+    assert "early fact" in json.dumps(projected)
+    assert "secret future fact" not in json.dumps(projected)
+
+
+def test_candidate_replay_accepts_json_array_roundtrip_but_not_content_changes(tmp_path):
+    import pytest
+
+    from tracemind.experiments.runner import persist_candidate
+
+    result = {"text": "original", "context": {"support_ids": ("e1", "e2")}}
+    path = tmp_path / "candidate.json"
+    persist_candidate(path, result)
+    persist_candidate(path, result)
+    with pytest.raises(ValueError, match="candidate changed"):
+        persist_candidate(path, {**result, "text": "changed"})
+
+
+def test_clarification_requires_client_evidence_not_only_a_question(tmp_path):
+    import pytest
+
+    from tracemind.benchmark.builder import write
+    from tracemind.experiments.interactions import advance_interaction
+    from tracemind.jobs import digest
+
+    write(
+        tmp_path / "experiments/interaction_targets/cp.json",
+        {
+            "protocol": "target-v2",
+            "target_ids": ["t"],
+            "targets": [{"id": "t", "criterion": "clarify concern"}],
+            "private_current": {"state": "concern"},
+        },
+    )
+
+    class Completed:
+        def __init__(self):
+            self.requests = {}
+
+        def enqueue(self, purpose, role, context, schema):
+            ident = str(len(self.requests))
+            self.requests[ident] = role
+            return ident
+
+        def get(self, ident):
+            role = self.requests[ident]
+            value = (
+                {"targets": [{"id": "t", "achieved": True, "evidence": "Is your fear blame?"}]}
+                if role == "interaction scorer"
+                else {
+                    "text": "I cannot clarify yet"
+                    if role == "simulated client"
+                    else "Is your fear blame?"
+                }
+            )
+            return {"status": "completed", "result": value, "result_sha256": digest(value)}
+
+    with pytest.raises(ValueError, match="client reply"):
+        advance_interaction(
+            tmp_path,
+            Completed(),
+            {"id": "cp", "latest_client": {"text": "current"}, "current_dialogue": []},
+            "evolution",
+            {"text": "Is your fear blame?", "context": {"history": {}}},
+        )
+    assert not (tmp_path / "experiments/interactions/cp/evolution.json").exists()

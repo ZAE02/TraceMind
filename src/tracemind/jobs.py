@@ -21,6 +21,14 @@ def digest(value: Any) -> str:
     return hashlib.sha256(canonical(value).encode()).hexdigest()
 
 
+def execution_identity(provenance: dict) -> str:
+    api = provenance.get("provider") == "openai-compatible"
+    value = provenance.get("execution_id" if api else "agent_task")
+    if not isinstance(value, str) or not value.strip():
+        raise ValueError("actual agent task or API execution identity is required")
+    return ("api:" if api else "agent:") + value
+
+
 def validate_job_result(schema: dict, result: dict) -> None:
     from jsonschema import Draft202012Validator
 

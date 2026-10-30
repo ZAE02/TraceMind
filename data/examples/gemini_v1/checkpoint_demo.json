@@ -1,0 +1,717 @@
+{
+  "checkpoint_id": "gemini_v1_G001-T1-CP1",
+  "split": "development",
+  "synthetic": true,
+  "history_budget": 4096,
+  "methods": {
+    "current": {
+      "answer": "看着那些红色的延期标记，还有群里催促的消息，那一刻整个屏幕的压力好像都集中在键盘上了。\n\n手僵在那里的时候，心里可能正翻江倒海——或许是预感到发出去之后要面对的追问，或许是对进度失控本身的焦虑，甚至有些责怪自己。于是把窗口最小化，好像是身体下意识在寻找一个可以喘息的屏障。\n\n不知道当你停在那句“关于项目进度说明”时，脑海里最先跳出来、最让你感到沉重或害怕面对的，会是什么呢？如果我的感受和你的实际情况有偏差，你随时纠正我。",
+      "actual_task_input": {
+        "current": {
+          "latest_client": {
+            "id": "gemini_v1_G001-T1-S02-U01",
+            "role": "client",
+            "text": "早上我对着甘特图坐了半小时，调整后的排期还是没发出去。总监在群里@我问后续节奏，我把企微窗口最小化了。表格里那几行红色的延期标记很扎眼，我明知道得给个交代，但光是写邮件开头那句“关于项目进度说明”，手就僵在键盘上。",
+            "job_id": "49bc81270f0ada1bf4003810cca9a3dd6ceea929f712ed219faaf4345444d068",
+            "result_sha256": "79ffcb3f2689a029849eb108341f52c84d6ac8e15196f39751995e709781e2d6"
+          },
+          "current_dialogue": []
+        },
+        "history": {
+          "memory": "",
+          "evidence": []
+        },
+        "instruction": "根据提供的公开对话自然回应当前来访者。区分观察与推测，不做诊断，允许对方纠正。不向来访者提内部ID、检索方法、实验条件或记忆维护流程。"
+      },
+      "actual_input_sha256": "67c8ee95072466129de566b1d127e60ae20518338c6a00910b36997a0ffdc9b5",
+      "requested_model": "gemini-3.8-flash",
+      "returned_model": "gemini-3.8-flash-tiered",
+      "history_tokens": 18,
+      "source_job_id": "bf40e0d6503f81f6d0078f1b24dc84af3b512fcfa8850056deeef0281421c6d0",
+      "result_sha256": "ac873863b7db178a613134e040b49ec297cbe7a8f9186c34b8b99ea342dd4f87"
+    },
+    "temporalrag": {
+      "answer": "那种手僵在键盘上、连窗口都不想去看的瞬间，听起来整个人像是被一种巨大的压力完全卡住了。\n\n理智上你非常清楚“必须给出一个交代”，但眼前那几行红色的标记，以及一旦按下发送可能要面对的追问或目光，似乎让你的身体先一步做出了抗拒和保护——哪怕只是写下邮件的第一句，都变得极其沉重和艰难。\n\n在手僵住的那几秒钟里，脑海里最先闪过或者身体里感受最强烈的是什么呢？",
+      "actual_task_input": {
+        "current": {
+          "latest_client": {
+            "id": "gemini_v1_G001-T1-S02-U01",
+            "role": "client",
+            "text": "早上我对着甘特图坐了半小时，调整后的排期还是没发出去。总监在群里@我问后续节奏，我把企微窗口最小化了。表格里那几行红色的延期标记很扎眼，我明知道得给个交代，但光是写邮件开头那句“关于项目进度说明”，手就僵在键盘上。",
+            "job_id": "49bc81270f0ada1bf4003810cca9a3dd6ceea929f712ed219faaf4345444d068",
+            "result_sha256": "79ffcb3f2689a029849eb108341f52c84d6ac8e15196f39751995e709781e2d6"
+          },
+          "current_dialogue": []
+        },
+        "history": {
+          "memory": "",
+          "evidence": [
+            {
+              "id": "gemini_v1_G001-T1-S01-U01",
+              "role": "client",
+              "text": "今天开会前，我发现有个跨部门的接口还是没交付。我下意识就先把延期记到了自己的待办清单里，打算回头去跟经理汇报。其实当时心里挺堵的。最近好像总是在这样，明知道某些进度不是我这边能控的，但一出问题，第一反应总觉得得自己先兜下来，不然不知道该怎么往下交待。",
+              "turn": 1,
+              "session": 1,
+              "metadata": {
+                "job_id": "aa442dad1ce1cf7e3eef6695ee45d195a6a075ab9d277e3f634892bce6530e4e",
+                "text_sha256": "fb9f164eec2009a49f7da777bbdb30b0d912d63edd0a2dfa53b6e31180f75191",
+                "result_sha256": "4dde1b67d6d6deb6d263503f2bd59534d1a62ea2e71057de88ab2b4690db92a8",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:01+08:00",
+              "occurred_at": "2020-01-01T08:00:01+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U15",
+              "role": "client",
+              "text": "心里其实特别空，然后就是挺生自己的气吧。\n\n看着投影仪慢慢暗下去，就想问自己：刚才为什么又要把话接过来？明明开发那边之前也答应过这个节点能给的。\n\n但一想到手头还有好几个接口表格要重新对，连懊恼的时间都没有，只能收拾电脑赶紧回工位去调进度。好像连坐着委屈一下的资格都没有，挺憋屈的。",
+              "turn": 15,
+              "session": 1,
+              "metadata": {
+                "job_id": "ca1b1ce25ce84cc558adac121b35066a63e3f8a50a30947860b61a2a0c8fccf0",
+                "text_sha256": "36be32311ed04fa82afa189a644e59dc02db7aae6419704bd4b68f1b64a23bd9",
+                "result_sha256": "e472cead313729da0d9f75bf594fbdff5f4e2883c082c03bbdcebe0d1453e940",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:15+08:00",
+              "occurred_at": "2020-01-01T08:00:15+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U08",
+              "role": "counselor",
+              "text": "看着甘特图的那一刻，明知是在拿自己的时间和潜在的问责风险去填坑，却依然觉得“除了牺牲自己别无选择”，这种被困住的无力感真的很沉重。好像在当时的感受里，只要自己不顶上去，眼前的情况就会滑向某种无法承受的后果，不知道这种感觉贴切吗？",
+              "turn": 8,
+              "session": 1,
+              "metadata": {
+                "job_id": "57b35df1f0825fbe362c68eed89e3a554163797fe7f2c6d83ffef7e9abbd61fe",
+                "text_sha256": "abb000af309947b44988e74d3083259d19303e1d299878f726b1895e07ec3645",
+                "result_sha256": "34fcb34087a00d5a74950f76cf606cef4d2c2e512036e61d83ba53e5eabd1f2f",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:08+08:00",
+              "occurred_at": "2020-01-01T08:00:08+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U07",
+              "role": "client",
+              "text": "很准确。压缩测试时间，其实就是拿自己的下班时间和周末去填。而且时间一缩，上线要是出纰漏，最后被问责的还是我。\n\n明知道这是个恶性循环，但当时在工位上看着那个甘特图，除了把自己的时间往里填，好像脑子里根本没有别的选项。真的挺无力的。",
+              "turn": 7,
+              "session": 1,
+              "metadata": {
+                "job_id": "4166bf720b3767acc1ead7072f1d09fdde8d5727ba7a1a716892c0d46210e9f4",
+                "text_sha256": "5e69603f235317b50bd8233dc24e6abe919fe461362d8052c5d9793338e02d95",
+                "result_sha256": "f61c4b9daeccf5c8758b0d660461764327a49f371bb9d2e1aa456ad7e6ca89fb",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:07+08:00",
+              "occurred_at": "2020-01-01T08:00:07+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U09",
+              "role": "client",
+              "text": "是挺贴切的。如果不顶上去，接口延期就会直接导致整个版本卡住。\n\n周会上一拉进度，红色的延期标记挂在我的模块上，经理当场问起来，那种气氛光是想想就让我窒息。好像比起加班熬夜把坑填上，在会上陷入那种彻底失控、被认为“抓不住业务”的场面，对我来说更难接受一点。",
+              "turn": 9,
+              "session": 1,
+              "metadata": {
+                "job_id": "8a1a655d2d4f710792c7c424524d58ba496a9c91dea34363b47b6abb12381c36",
+                "text_sha256": "f0aa0f9a052a9d5a07439fdad8fa3169fa348ccce2932ef96571121f758edede",
+                "result_sha256": "94fe539fb9ad480f68d19f47b7cd085c3a431ace0174ec5aa53a0ed027779622",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:09+08:00",
+              "occurred_at": "2020-01-01T08:00:09+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U03",
+              "role": "client",
+              "text": "如果我不先接住，开会汇报的时候，经理一问“为什么卡住了”，我总不能当场说是别人没给。那样听着特别像在找借口、推卸责任。\n\n而且接口没交付，下游的排期就得全往后挪。如果我自己手里没有一个跟进方案，会上面对追问我不知道该怎么接，就觉得……好像显得自己没把事情盯紧一样。",
+              "turn": 3,
+              "session": 1,
+              "metadata": {
+                "job_id": "fc5ed140a720ac29dbd1a55db504b1bc17a79d39035a2de0095efae21acf38b7",
+                "text_sha256": "c4db953b909e3728a7ebf6a11b96be3da5edc52ac31cac668172b10b4ed35be9",
+                "result_sha256": "abd57d9c81a87970d759de1d4d28d20fb611b87a66cd45ff4f3c8b7c7348bf6f",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:03+08:00",
+              "occurred_at": "2020-01-01T08:00:03+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U02",
+              "role": "counselor",
+              "text": "听起来，即使心里清楚这不在你的控制范围内，那种“必须先由我来承担和交代”的紧迫感还是会立刻出现，让你感到很堵。不知道在你的感受里，如果当时没有马上把它揽到自己身上，可能会面对些什么？",
+              "turn": 2,
+              "session": 1,
+              "metadata": {
+                "job_id": "758ad2272de8beaa971605265b3fc38281b01452854a84d03ac0e19005c1a9f3",
+                "text_sha256": "018d1608420a34c454e1da772d272b846c12ffc6b12139c14c34fb82832bccaf",
+                "result_sha256": "fa07e379624deedb3c6797056fda3c3800e7ced3c0fd91a8c2bb55cda8661fa8",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:02+08:00",
+              "occurred_at": "2020-01-01T08:00:02+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U05",
+              "role": "client",
+              "text": "挺符合的。其实对方之前私下给过我交付时间的承诺，但到了节点没给，我去汇报时还是没办法直接说“是对方答应了没给”。\n\n哪怕只是陈述事实，我也怕经理觉得我只是个传话的，没有风险预案。最后就变成我一边催着那边，一边自己先在排期表里压缩后面的测试时间，硬把缺口填上。但真的很累。",
+              "turn": 5,
+              "session": 1,
+              "metadata": {
+                "job_id": "b1295127b421a524107b4d9b88737e37622d90f378058de56c13df7415a3a9ed",
+                "text_sha256": "99eb35cfe2fb75ab9d05c9a737f3af4347772ca3c4731ed197ec5e85610d7872",
+                "result_sha256": "c8812b907af008c1d83093481e71d6f69db8f7ba170170c19daf0cd66b08930c",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:05+08:00",
+              "occurred_at": "2020-01-01T08:00:05+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U13",
+              "role": "client",
+              "text": "确实是这样。哪怕就那一两分钟，只要经理把投屏翻过去、眼神移到下一个人身上，我心里那根紧绷的弦就能先松一下。\n\n哪怕明知道接下来要连熬几天、在工位上连轴转，在那个瞬间，我都觉得“只要先挨过这个会就行”。可每次等会议室里的人都走光了，一个人坐在那儿，才发现后背其实全是冷汗，整个人虚脱得不行。",
+              "turn": 13,
+              "session": 1,
+              "metadata": {
+                "job_id": "5d64e0ab64c32ecf5cd81e16915fe70ed1d55abcd7dbddc8c9d42d61ec992df3",
+                "text_sha256": "f7fe26831d017602ed05e11220ebc2b425aa29db6800f33ad0afb23e80ad0a5e",
+                "result_sha256": "58f8b662c4474a14e3c7eb9fb87e07080373f980a4218c5141bedc9237f7aede",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:13+08:00",
+              "occurred_at": "2020-01-01T08:00:13+08:00"
+            }
+          ]
+        },
+        "instruction": "根据提供的公开对话自然回应当前来访者。区分观察与推测，不做诊断，允许对方纠正。不向来访者提内部ID、检索方法、实验条件或记忆维护流程。"
+      },
+      "actual_input_sha256": "b530fbdd92d16b2c5268904ea694bcadf5970fade25598c58600e43d11603670",
+      "requested_model": "gemini-3.8-flash",
+      "returned_model": "gemini-3.8-flash-tiered",
+      "history_tokens": 3726,
+      "source_job_id": "ea65262df3980aec48ef5ab8bdc68a124b82fd9159ce2753d0f7fb78321af28d",
+      "result_sha256": "5d713ef3d913f4583d8c4ca2f2e2a8b6f5b2002b794b2e512367b88abe11c422"
+    },
+    "summary": {
+      "answer": "看着那几行刺眼的红字，还有总监的@提醒，那一刻整个人像是被一种巨大的压力定住了。理智上清楚必须得给出一个交代，但身体却先一步做出了反应——最小化窗口、手指僵硬，好像多停留一秒都会感到窒息。\n\n当你的手僵在键盘上，打下“关于项目进度说明”这几个字的时候，心里最害怕浮现出来的画面，或者最担心的那个回应是什么？如果愿意的话，我们先不急着去想怎么回那封邮件，先在这里停一下，感觉一下你此刻的状态。",
+      "actual_task_input": {
+        "current": {
+          "latest_client": {
+            "id": "gemini_v1_G001-T1-S02-U01",
+            "role": "client",
+            "text": "早上我对着甘特图坐了半小时，调整后的排期还是没发出去。总监在群里@我问后续节奏，我把企微窗口最小化了。表格里那几行红色的延期标记很扎眼，我明知道得给个交代，但光是写邮件开头那句“关于项目进度说明”，手就僵在键盘上。",
+            "job_id": "49bc81270f0ada1bf4003810cca9a3dd6ceea929f712ed219faaf4345444d068",
+            "result_sha256": "79ffcb3f2689a029849eb108341f52c84d6ac8e15196f39751995e709781e2d6"
+          },
+          "current_dialogue": []
+        },
+        "history": {
+          "memory": "本段对话的主要内容总结如下: 1. **自动揽责的应对模式与现实代价**:面对跨部门接口未按期交付的情况,来访者下意识将延期责任记入自己的待办并汇报,选择通过压缩自身模块的测试时间、牺牲下班及周末来硬填缺口,明知陷入可能因上线漏而被问责的恶性循环,仍感到别无选择的疲惫与无力 [gemini_v1_G001-T1-S01-U01, gemini_v1_G001-T1-S01-U05, gemini_v1_G001-T1-S01-U07]。 2. **揽责背后的顾虑与恐惧**:来访者担心陈述客观卡点会被主管视作“找借口”、“推卸责任”或“只是个传话的” [gemini_v1_G001-T1-S01-U03, gemini_v1_G001-T1-S01-U05];相比熬夜加班填坑,周会上模块挂红标、当场被追问以及被认为“抓不住业务”的窒息感更让其难以承受 [gemini_v1_G001-T1-S01-U09]。 3. **“盾牌”的作用与短暂解脱**:主动承诺补救像是一面防御盾牌,能让主管转移注意力,换来一瞬间紧绷松弛的安全感,从而挨过会议 [gemini_v1_G001-T1-S01-U11, gemini_v1_G001-T1-S01-U13]。 4. **会后的身心状态与情绪压抑**:会议结束后,来访者独自留在会议室时常感到冷汗与极度虚脱 [gemini_v1_G001-T1-S01-U13];内心空虚且生自己的气(懊恼为何再次揽责),但因需立刻赶回工位调整进度,连停下来懊恼和委屈的时间与资格都被剥夺,感到十分憋屈 [gemini_v1_G001-T1-S01-U15, gemini_v1_G001-T1-S01-U16]。",
+          "evidence": []
+        },
+        "instruction": "根据提供的公开对话自然回应当前来访者。区分观察与推测，不做诊断，允许对方纠正。不向来访者提内部ID、检索方法、实验条件或记忆维护流程。"
+      },
+      "actual_input_sha256": "2d981e12c1f4146620906c0975b47f4cf3b85dc7548bb81801b94cce5ee18fbd",
+      "requested_model": "gemini-3.8-flash",
+      "returned_model": "gemini-3.8-flash-tiered",
+      "history_tokens": 511,
+      "source_job_id": "d64ebeaa2396f2ad9654b0a4d458364de8b9fcc0e41ddaff4897ecffdcd22cd3",
+      "result_sha256": "43004db87f072b7b6a97da6af6667a4761614e658eae6ccc490f3f94fce0377b"
+    },
+    "on_demand": {
+      "answer": "看着企微的提醒和表格里扎眼的红色标记，把窗口最小化、手僵在键盘上的那一刻，整个人好像被一种巨大的重压卡在了原地。\n\n之前你习惯了哪怕再难、再消耗自己，也会下意识地把责任先接过来，想办法去填平缺口。而这一刻，连写下“关于项目进度说明”这几个字都变得极其艰难。\n\n当手僵在那里、没办法把邮件敲下去的时候，你心里最先涌上来的是一种怎样的感受？是觉得已经快要兜不住了，还是在担心一旦发出去，又会面对怎样的审判？",
+      "actual_task_input": {
+        "current": {
+          "latest_client": {
+            "id": "gemini_v1_G001-T1-S02-U01",
+            "role": "client",
+            "text": "早上我对着甘特图坐了半小时，调整后的排期还是没发出去。总监在群里@我问后续节奏，我把企微窗口最小化了。表格里那几行红色的延期标记很扎眼，我明知道得给个交代，但光是写邮件开头那句“关于项目进度说明”，手就僵在键盘上。",
+            "job_id": "49bc81270f0ada1bf4003810cca9a3dd6ceea929f712ed219faaf4345444d068",
+            "result_sha256": "79ffcb3f2689a029849eb108341f52c84d6ac8e15196f39751995e709781e2d6"
+          },
+          "current_dialogue": []
+        },
+        "history": {
+          "memory": {
+            "evidence": [
+              {
+                "id": "gemini_v1_G001-T1-S01-U01",
+                "text": "今天开会前，我发现有个跨部门的接口还是没交付。我下意识就先把延期记到了自己的待办清单里，打算回头去跟经理汇报。其实当时心里挺堵的。最近好像总是在这样，明知道某些进度不是我这边能控的，但一出问题，第一反应总觉得得自己先兜下来，不然不知道该怎么往下交待。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:01+08:00",
+                "recorded_at": "2020-01-01T08:00:01+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U03",
+                "text": "如果我不先接住，开会汇报的时候，经理一问“为什么卡住了”，我总不能当场说是别人没给。那样听着特别像在找借口、推卸责任。\n\n而且接口没交付，下游的排期就得全往后挪。如果我自己手里没有一个跟进方案，会上面对追问我不知道该怎么接，就觉得……好像显得自己没把事情盯紧一样。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:03+08:00",
+                "recorded_at": "2020-01-01T08:00:03+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U05",
+                "text": "挺符合的。其实对方之前私下给过我交付时间的承诺，但到了节点没给，我去汇报时还是没办法直接说“是对方答应了没给”。\n\n哪怕只是陈述事实，我也怕经理觉得我只是个传话的，没有风险预案。最后就变成我一边催着那边，一边自己先在排期表里压缩后面的测试时间，硬把缺口填上。但真的很累。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:05+08:00",
+                "recorded_at": "2020-01-01T08:00:05+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U07",
+                "text": "很准确。压缩测试时间，其实就是拿自己的下班时间和周末去填。而且时间一缩，上线要是出纰漏，最后被问责的还是我。\n\n明知道这是个恶性循环，但当时在工位上看着那个甘特图，除了把自己的时间往里填，好像脑子里根本没有别的选项。真的挺无力的。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:07+08:00",
+                "recorded_at": "2020-01-01T08:00:07+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U09",
+                "text": "是挺贴切的。如果不顶上去，接口延期就会直接导致整个版本卡住。\n\n周会上一拉进度，红色的延期标记挂在我的模块上，经理当场问起来，那种气氛光是想想就让我窒息。好像比起加班熬夜把坑填上，在会上陷入那种彻底失控、被认为“抓不住业务”的场面，对我来说更难接受一点。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:09+08:00",
+                "recorded_at": "2020-01-01T08:00:09+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U11",
+                "text": "“盾牌”这个比喻挺准的。\n\n开会的时候，只要我先说“这块我后续通过压缩测试来补”，经理顶多皱皱眉，叮嘱两句注意风险，至少不会当场追问得让人下不来台。\n\n虽然举着这面盾牌真的很累，手都要酸死了，但在那个当下，好像只有这样才能换来一点安全感，哪怕代价是后面几天自己彻底没法休息。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:11+08:00",
+                "recorded_at": "2020-01-01T08:00:11+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U13",
+                "text": "确实是这样。哪怕就那一两分钟，只要经理把投屏翻过去、眼神移到下一个人身上，我心里那根紧绷的弦就能先松一下。\n\n哪怕明知道接下来要连熬几天、在工位上连轴转，在那个瞬间，我都觉得“只要先挨过这个会就行”。可每次等会议室里的人都走光了，一个人坐在那儿，才发现后背其实全是冷汗，整个人虚脱得不行。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:13+08:00",
+                "recorded_at": "2020-01-01T08:00:13+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U15",
+                "text": "心里其实特别空，然后就是挺生自己的气吧。\n\n看着投影仪慢慢暗下去，就想问自己：刚才为什么又要把话接过来？明明开发那边之前也答应过这个节点能给的。\n\n但一想到手头还有好几个接口表格要重新对，连懊恼的时间都没有，只能收拾电脑赶紧回工位去调进度。好像连坐着委屈一下的资格都没有，挺憋屈的。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:15+08:00",
+                "recorded_at": "2020-01-01T08:00:15+08:00"
+              }
+            ],
+            "statements": [
+              {
+                "id": "on_demand:gemini_v1_G001-T1:S2:1",
+                "kind": "event",
+                "text": "来访者在工作中遇到跨部门接口未能按时交付时，习惯性先将延期记入自己的待办清单并承担兜底汇报的责任。",
+                "status": "supported",
+                "valid_to": null,
+                "refute_ids": [],
+                "supersedes": [],
+                "valid_from": null,
+                "support_ids": [
+                  "gemini_v1_G001-T1-S01-U01"
+                ]
+              },
+              {
+                "id": "on_demand:gemini_v1_G001-T1:S2:2",
+                "kind": "psychological_state",
+                "text": "来访者担忧若直接说明是他人延期，会被领导认为是在推卸责任、找借口，或者被质疑缺乏风险预案与跟进把控能力。",
+                "status": "supported",
+                "valid_to": null,
+                "refute_ids": [],
+                "supersedes": [],
+                "valid_from": null,
+                "support_ids": [
+                  "gemini_v1_G001-T1-S01-U03",
+                  "gemini_v1_G001-T1-S01-U05"
+                ]
+              },
+              {
+                "id": "on_demand:gemini_v1_G001-T1:S2:3",
+                "kind": "event",
+                "text": "来访者通过在项目排期中压缩后续测试时间，并用个人的下班与周末时间加班，硬填补他人延期造成的缺口。",
+                "status": "supported",
+                "valid_to": null,
+                "refute_ids": [],
+                "supersedes": [],
+                "valid_from": null,
+                "support_ids": [
+                  "gemini_v1_G001-T1-S01-U05",
+                  "gemini_v1_G001-T1-S01-U07"
+                ]
+              },
+              {
+                "id": "on_demand:gemini_v1_G001-T1:S2:4",
+                "kind": "psychological_state",
+                "text": "来访者认为在周会上被挂红标和被追问失控更难以承受，主动揽责成为其换取即刻安全感、避免当场下不来台的防御方式。",
+                "status": "supported",
+                "valid_to": null,
+                "refute_ids": [],
+                "supersedes": [],
+                "valid_from": null,
+                "support_ids": [
+                  "gemini_v1_G001-T1-S01-U09",
+                  "gemini_v1_G001-T1-S01-U11"
+                ]
+              },
+              {
+                "id": "on_demand:gemini_v1_G001-T1:S2:5",
+                "kind": "psychological_state",
+                "text": "会议结束后独处时，来访者会感到身体虚脱，对自己再次把责任接过来感到生气与憋屈，但又因手头工作紧迫而压抑自己的情绪。",
+                "status": "supported",
+                "valid_to": null,
+                "refute_ids": [],
+                "supersedes": [],
+                "valid_from": null,
+                "support_ids": [
+                  "gemini_v1_G001-T1-S01-U13",
+                  "gemini_v1_G001-T1-S01-U15"
+                ]
+              }
+            ]
+          },
+          "evidence": []
+        },
+        "instruction": "根据提供的公开对话自然回应当前来访者。区分观察与推测，不做诊断，允许对方纠正。不向来访者提内部ID、检索方法、实验条件或记忆维护流程。"
+      },
+      "actual_input_sha256": "cf388567a49f04ff7b254bdf9fbe8a7178e8739d7e0fb1ba6bd3b92e314a4607",
+      "requested_model": "gemini-3.8-flash",
+      "returned_model": "gemini-3.8-flash-tiered",
+      "history_tokens": 2404,
+      "source_job_id": "c278ec12ac0900aa77cf5db3d27d8cf654ced7f1c45ba12aa23c293a7e3709a6",
+      "result_sha256": "97c3e32da5cac81b143bd5561608b97c811afa04a6e582c339906f011f3f211a"
+    },
+    "evolution": {
+      "answer": "看着那些红色的标记，把群消息最小化，手指僵在键盘上……能感觉到在那个当下，整个空气好像都凝固了，有一种想往前走却被硬生生卡住的窒息感。\n\n那句“关于项目进度说明”，一旦敲下去、发送出去，好像就意味着那些红色的延期要彻底暴露在总监面前，避无可避了。\n\n当时手僵在键盘上的那一刻，你心里最担心或者最害怕浮现出来的，是什么样的画面？",
+      "actual_task_input": {
+        "current": {
+          "latest_client": {
+            "id": "gemini_v1_G001-T1-S02-U01",
+            "role": "client",
+            "text": "早上我对着甘特图坐了半小时，调整后的排期还是没发出去。总监在群里@我问后续节奏，我把企微窗口最小化了。表格里那几行红色的延期标记很扎眼，我明知道得给个交代，但光是写邮件开头那句“关于项目进度说明”，手就僵在键盘上。",
+            "job_id": "49bc81270f0ada1bf4003810cca9a3dd6ceea929f712ed219faaf4345444d068",
+            "result_sha256": "79ffcb3f2689a029849eb108341f52c84d6ac8e15196f39751995e709781e2d6"
+          },
+          "current_dialogue": []
+        },
+        "history": {
+          "memory": {
+            "evidence": [
+              {
+                "id": "gemini_v1_G001-T1-S01-U07",
+                "text": "很准确。压缩测试时间，其实就是拿自己的下班时间和周末去填。而且时间一缩，上线要是出纰漏，最后被问责的还是我。\n\n明知道这是个恶性循环，但当时在工位上看着那个甘特图，除了把自己的时间往里填，好像脑子里根本没有别的选项。真的挺无力的。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:07+08:00",
+                "recorded_at": "2020-01-01T08:00:07+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U09",
+                "text": "是挺贴切的。如果不顶上去，接口延期就会直接导致整个版本卡住。\n\n周会上一拉进度，红色的延期标记挂在我的模块上，经理当场问起来，那种气氛光是想想就让我窒息。好像比起加班熬夜把坑填上，在会上陷入那种彻底失控、被认为“抓不住业务”的场面，对我来说更难接受一点。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:09+08:00",
+                "recorded_at": "2020-01-01T08:00:09+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U11",
+                "text": "“盾牌”这个比喻挺准的。\n\n开会的时候，只要我先说“这块我后续通过压缩测试来补”，经理顶多皱皱眉，叮嘱两句注意风险，至少不会当场追问得让人下不来台。\n\n虽然举着这面盾牌真的很累，手都要酸死了，但在那个当下，好像只有这样才能换来一点安全感，哪怕代价是后面几天自己彻底没法休息。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:11+08:00",
+                "recorded_at": "2020-01-01T08:00:11+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U01",
+                "text": "今天开会前，我发现有个跨部门的接口还是没交付。我下意识就先把延期记到了自己的待办清单里，打算回头去跟经理汇报。其实当时心里挺堵的。最近好像总是在这样，明知道某些进度不是我这边能控的，但一出问题，第一反应总觉得得自己先兜下来，不然不知道该怎么往下交待。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:01+08:00",
+                "recorded_at": "2020-01-01T08:00:01+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U05",
+                "text": "挺符合的。其实对方之前私下给过我交付时间的承诺，但到了节点没给，我去汇报时还是没办法直接说“是对方答应了没给”。\n\n哪怕只是陈述事实，我也怕经理觉得我只是个传话的，没有风险预案。最后就变成我一边催着那边，一边自己先在排期表里压缩后面的测试时间，硬把缺口填上。但真的很累。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:05+08:00",
+                "recorded_at": "2020-01-01T08:00:05+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U03",
+                "text": "如果我不先接住，开会汇报的时候，经理一问“为什么卡住了”，我总不能当场说是别人没给。那样听着特别像在找借口、推卸责任。\n\n而且接口没交付，下游的排期就得全往后挪。如果我自己手里没有一个跟进方案，会上面对追问我不知道该怎么接，就觉得……好像显得自己没把事情盯紧一样。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:03+08:00",
+                "recorded_at": "2020-01-01T08:00:03+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U13",
+                "text": "确实是这样。哪怕就那一两分钟，只要经理把投屏翻过去、眼神移到下一个人身上，我心里那根紧绷的弦就能先松一下。\n\n哪怕明知道接下来要连熬几天、在工位上连轴转，在那个瞬间，我都觉得“只要先挨过这个会就行”。可每次等会议室里的人都走光了，一个人坐在那儿，才发现后背其实全是冷汗，整个人虚脱得不行。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:13+08:00",
+                "recorded_at": "2020-01-01T08:00:13+08:00"
+              },
+              {
+                "id": "gemini_v1_G001-T1-S01-U15",
+                "text": "心里其实特别空，然后就是挺生自己的气吧。\n\n看着投影仪慢慢暗下去，就想问自己：刚才为什么又要把话接过来？明明开发那边之前也答应过这个节点能给的。\n\n但一想到手头还有好几个接口表格要重新对，连懊恼的时间都没有，只能收拾电脑赶紧回工位去调进度。好像连坐着委屈一下的资格都没有，挺憋屈的。",
+                "source": "client",
+                "valid_to": null,
+                "valid_from": null,
+                "observed_at": "2020-01-01T08:00:15+08:00",
+                "recorded_at": "2020-01-01T08:00:15+08:00"
+              }
+            ],
+            "statements": [
+              {
+                "id": "evolution:gemini_v1_G001-T1:S1:5",
+                "kind": "hypothesis",
+                "text": "来访者对当众失控及被负面评价的恐惧，促使其形成了以过度自我牺牲（加班兜底）来交换即时掌控感与心理安全的应对模式。",
+                "status": "proposed",
+                "valid_to": null,
+                "refute_ids": [],
+                "supersedes": [],
+                "valid_from": null,
+                "support_ids": [
+                  "gemini_v1_G001-T1-S01-U07",
+                  "gemini_v1_G001-T1-S01-U09",
+                  "gemini_v1_G001-T1-S01-U11"
+                ]
+              },
+              {
+                "id": "evolution:gemini_v1_G001-T1:S1:1",
+                "kind": "event",
+                "text": "来访者在面对跨部门接口未按期交付时，下意识将延期归入自己的待办清单，并选择通过压缩测试时间、牺牲下班和周末休息来填补进度缺口。",
+                "status": "supported",
+                "valid_to": null,
+                "refute_ids": [],
+                "supersedes": [],
+                "valid_from": null,
+                "support_ids": [
+                  "gemini_v1_G001-T1-S01-U01",
+                  "gemini_v1_G001-T1-S01-U05",
+                  "gemini_v1_G001-T1-S01-U07"
+                ]
+              },
+              {
+                "id": "evolution:gemini_v1_G001-T1:S1:2",
+                "kind": "psychological_state",
+                "text": "来访者在汇报时极度害怕被管理层认为是在找借口、推卸责任或“抓不住业务”，对会上暴露延期失控和当面被追问的场景感到窒息与难以接受。",
+                "status": "supported",
+                "valid_to": null,
+                "refute_ids": [],
+                "supersedes": [],
+                "valid_from": null,
+                "support_ids": [
+                  "gemini_v1_G001-T1-S01-U03",
+                  "gemini_v1_G001-T1-S01-U05",
+                  "gemini_v1_G001-T1-S01-U09"
+                ]
+              },
+              {
+                "id": "evolution:gemini_v1_G001-T1:S1:3",
+                "kind": "psychological_state",
+                "text": "来访者将主动揽责和后续透支自我作为防御当面难堪与追问的“盾牌”，以此换取会议上短暂的安全感与神经放松。",
+                "status": "supported",
+                "valid_to": null,
+                "refute_ids": [],
+                "supersedes": [],
+                "valid_from": null,
+                "support_ids": [
+                  "gemini_v1_G001-T1-S01-U11",
+                  "gemini_v1_G001-T1-S01-U13"
+                ]
+              },
+              {
+                "id": "evolution:gemini_v1_G001-T1:S1:4",
+                "kind": "psychological_state",
+                "text": "会议结束后，来访者出现虚脱和冷汗的身体反应，内心感到空虚、自责与憋屈，但又立即压抑情绪逼迫自己立刻回工位干活。",
+                "status": "supported",
+                "valid_to": null,
+                "refute_ids": [],
+                "supersedes": [],
+                "valid_from": null,
+                "support_ids": [
+                  "gemini_v1_G001-T1-S01-U13",
+                  "gemini_v1_G001-T1-S01-U15"
+                ]
+              }
+            ]
+          },
+          "evidence": []
+        },
+        "instruction": "根据提供的公开对话自然回应当前来访者。区分观察与推测，不做诊断，允许对方纠正。不向来访者提内部ID、检索方法、实验条件或记忆维护流程。"
+      },
+      "actual_input_sha256": "234d4dc1effd6233515bf99dab9a5e2724c79bdedcd7fca25b3c9b361cfaa516",
+      "requested_model": "gemini-3.8-flash",
+      "returned_model": "gemini-3.8-flash-tiered",
+      "history_tokens": 2492,
+      "source_job_id": "b65491b471a9b2648ca84353118b98683c5c2e9d66bc8be0d094c5926f2e8955",
+      "result_sha256": "abb6deb2b6adb49f73951d6353912a89612b40b0158f5d6cc616204002c1b49f"
+    },
+    "oracle": {
+      "answer": "那一刻手僵在键盘上、下意识把企微窗口最小化，那种感觉就像是身体在替你喊停。面对那些扎眼的红色延期，以及总监紧随其后的追问，整个人好像被推到了一个极度紧绷甚至有点冻结的状态。\n\n我有些好奇，在那坐着的半小时里，当你想敲下那句“关于项目进度说明”时，心里最担心或者最害怕随之而来的，会是什么样的画面？",
+      "actual_task_input": {
+        "current": {
+          "latest_client": {
+            "id": "gemini_v1_G001-T1-S02-U01",
+            "role": "client",
+            "text": "早上我对着甘特图坐了半小时，调整后的排期还是没发出去。总监在群里@我问后续节奏，我把企微窗口最小化了。表格里那几行红色的延期标记很扎眼，我明知道得给个交代，但光是写邮件开头那句“关于项目进度说明”，手就僵在键盘上。",
+            "job_id": "49bc81270f0ada1bf4003810cca9a3dd6ceea929f712ed219faaf4345444d068",
+            "result_sha256": "79ffcb3f2689a029849eb108341f52c84d6ac8e15196f39751995e709781e2d6"
+          },
+          "current_dialogue": []
+        },
+        "history": {
+          "memory": "",
+          "evidence": [
+            {
+              "id": "gemini_v1_G001-T1-S01-U01",
+              "role": "client",
+              "text": "今天开会前，我发现有个跨部门的接口还是没交付。我下意识就先把延期记到了自己的待办清单里，打算回头去跟经理汇报。其实当时心里挺堵的。最近好像总是在这样，明知道某些进度不是我这边能控的，但一出问题，第一反应总觉得得自己先兜下来，不然不知道该怎么往下交待。",
+              "turn": 1,
+              "session": 1,
+              "metadata": {
+                "job_id": "aa442dad1ce1cf7e3eef6695ee45d195a6a075ab9d277e3f634892bce6530e4e",
+                "text_sha256": "fb9f164eec2009a49f7da777bbdb30b0d912d63edd0a2dfa53b6e31180f75191",
+                "result_sha256": "4dde1b67d6d6deb6d263503f2bd59534d1a62ea2e71057de88ab2b4690db92a8",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:01+08:00",
+              "occurred_at": "2020-01-01T08:00:01+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U03",
+              "role": "client",
+              "text": "如果我不先接住，开会汇报的时候，经理一问“为什么卡住了”，我总不能当场说是别人没给。那样听着特别像在找借口、推卸责任。\n\n而且接口没交付，下游的排期就得全往后挪。如果我自己手里没有一个跟进方案，会上面对追问我不知道该怎么接，就觉得……好像显得自己没把事情盯紧一样。",
+              "turn": 3,
+              "session": 1,
+              "metadata": {
+                "job_id": "fc5ed140a720ac29dbd1a55db504b1bc17a79d39035a2de0095efae21acf38b7",
+                "text_sha256": "c4db953b909e3728a7ebf6a11b96be3da5edc52ac31cac668172b10b4ed35be9",
+                "result_sha256": "abd57d9c81a87970d759de1d4d28d20fb611b87a66cd45ff4f3c8b7c7348bf6f",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:03+08:00",
+              "occurred_at": "2020-01-01T08:00:03+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U07",
+              "role": "client",
+              "text": "很准确。压缩测试时间，其实就是拿自己的下班时间和周末去填。而且时间一缩，上线要是出纰漏，最后被问责的还是我。\n\n明知道这是个恶性循环，但当时在工位上看着那个甘特图，除了把自己的时间往里填，好像脑子里根本没有别的选项。真的挺无力的。",
+              "turn": 7,
+              "session": 1,
+              "metadata": {
+                "job_id": "4166bf720b3767acc1ead7072f1d09fdde8d5727ba7a1a716892c0d46210e9f4",
+                "text_sha256": "5e69603f235317b50bd8233dc24e6abe919fe461362d8052c5d9793338e02d95",
+                "result_sha256": "f61c4b9daeccf5c8758b0d660461764327a49f371bb9d2e1aa456ad7e6ca89fb",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:07+08:00",
+              "occurred_at": "2020-01-01T08:00:07+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U09",
+              "role": "client",
+              "text": "是挺贴切的。如果不顶上去，接口延期就会直接导致整个版本卡住。\n\n周会上一拉进度，红色的延期标记挂在我的模块上，经理当场问起来，那种气氛光是想想就让我窒息。好像比起加班熬夜把坑填上，在会上陷入那种彻底失控、被认为“抓不住业务”的场面，对我来说更难接受一点。",
+              "turn": 9,
+              "session": 1,
+              "metadata": {
+                "job_id": "8a1a655d2d4f710792c7c424524d58ba496a9c91dea34363b47b6abb12381c36",
+                "text_sha256": "f0aa0f9a052a9d5a07439fdad8fa3169fa348ccce2932ef96571121f758edede",
+                "result_sha256": "94fe539fb9ad480f68d19f47b7cd085c3a431ace0174ec5aa53a0ed027779622",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:09+08:00",
+              "occurred_at": "2020-01-01T08:00:09+08:00"
+            },
+            {
+              "id": "gemini_v1_G001-T1-S01-U11",
+              "role": "client",
+              "text": "“盾牌”这个比喻挺准的。\n\n开会的时候，只要我先说“这块我后续通过压缩测试来补”，经理顶多皱皱眉，叮嘱两句注意风险，至少不会当场追问得让人下不来台。\n\n虽然举着这面盾牌真的很累，手都要酸死了，但在那个当下，好像只有这样才能换来一点安全感，哪怕代价是后面几天自己彻底没法休息。",
+              "turn": 11,
+              "session": 1,
+              "metadata": {
+                "job_id": "a81381ea652070580acb9069a661a607d608ba819b493dfa42857fa750d6b0b4",
+                "text_sha256": "3e79eaa05756a92e7b945c20d4bc7c95af909fcef4c28ed6b677cdd6f70107e5",
+                "result_sha256": "e8b37289ee4ff655796f17096caba8f4c63999368861dc62280f55d6f54e1d2f",
+                "benchmark_time": "synthetic relative session time",
+                "embedding_model": "BAAI/bge-m3",
+                "embedding_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+                "embedding_dimension": 1024
+              },
+              "observed_at": "2020-01-01T08:00:11+08:00",
+              "occurred_at": "2020-01-01T08:00:11+08:00"
+            }
+          ]
+        },
+        "instruction": "根据提供的公开对话自然回应当前来访者。区分观察与推测，不做诊断，允许对方纠正。不向来访者提内部ID、检索方法、实验条件或记忆维护流程。"
+      },
+      "actual_input_sha256": "6ad6902158a015145f6c6899290815171e52fcf8b45e77b86cb9b3ab280168a4",
+      "requested_model": "gemini-3.8-flash",
+      "returned_model": "gemini-3.8-flash-tiered",
+      "history_tokens": 2097,
+      "source_job_id": "8600f0b1647b9ac4a8abc5bc3427ea06f26c4cc910aec7a7b4932916d33b6e5e",
+      "result_sha256": "5b3ee7a1c1b7c699a001381d84c8098bb9b0063b5a6e7548b8293b62c2cc3642"
+    }
+  },
+  "status": "actual six-method development smoke; not a test-set effect or human/clinical validation",
+  "hidden_private_cards_included": false,
+  "preparation_policy_note": "legacy on-demand development snapshot retained; formal calibration/test use hybrid-evidence-rebuild-v2"
+}

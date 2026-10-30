@@ -102,7 +102,9 @@ def advance_interaction(root, queue, checkpoint, method, candidate):
         {
             "targets": targets,
             "transcript": transcript,
-            "instruction": "逐项评估预先指定目标，引用互动证据。",
+            "instruction": "逐项评估预先指定目标，逐字引用互动证据。目标达成必须由来访者的回复准确澄清known_state支撑；仅咨询师提问或猜测不算达成。"
+            if spec.get("protocol") == "target-v2"
+            else "逐项评估预先指定目标，引用互动证据。",
         },
         SCORE_SCHEMA,
     )
@@ -117,6 +119,16 @@ def advance_interaction(root, queue, checkpoint, method, candidate):
         for item in scores
     ):
         raise ValueError("interaction scoring evidence must quote a transcript turn")
+    if spec.get("protocol") == "target-v2" and any(
+        item["achieved"]
+        and not any(
+            turn["role"] == "client" and item["evidence"] in turn["text"] for turn in transcript
+        )
+        for item in scores
+    ):
+        raise ValueError(
+            "achieved clarification must cite a client reply, not just a counselor question"
+        )
     result = {
         "status": "completed",
         "target_ids": ids,
