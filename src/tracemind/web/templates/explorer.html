@@ -1,5 +1,47 @@
-<!doctype html><html lang="zh"><head><meta charset="utf-8"><title>TraceMind · 研究查看器</title>
-<style>body{font:16px/1.6 system-ui;max-width:1100px;margin:36px auto;padding:0 24px;color:#203348}a{color:#076a75}article{border:1px solid #d9e2e7;border-radius:10px;padding:16px;margin:12px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere}small{color:#52687a}</style></head><body>
-<h1>TraceMind · 证据与记忆版本</h1><p>研究者查看器。材料均为合成对话；此界面与匿名人工评审分开运行。</p>
-{% if not case_id %}<h2>已索引个案</h2>{% for case,count in cases %}<article><a href="/case/{{case}}">{{case}}</a> · {{count}} 条证据</article>{% else %}<p>尚无已索引数据。完成会话后运行 benchmark index。</p>{% endfor %}
-{% else %}<a href="/">← 个案列表</a><h2>{{case_id}}</h2><h3>原始发言</h3>{% for item in evidence %}<article id="{{item.id}}"><small>{{item.id}} · {{item.role}} · {{item.observed_at}}</small><p>{{item.text}}</p></article>{% endfor %}<h3>追加式记忆版本</h3><pre>{{versions}}</pre>{% endif %}</body></html>
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TraceMind · 研究查看器</title>
+<style>
+body{font:16px/1.65 system-ui;max-width:1120px;margin:32px auto;padding:0 24px;color:#203348;background:#f8fafb}
+a{color:#076a75;overflow-wrap:anywhere}article,section.stream{border:1px solid #d9e2e7;border-radius:10px;padding:18px;margin:16px 0;background:white}
+pre,code{white-space:pre-wrap;overflow-wrap:anywhere}small,.muted{color:#52687a}.badge{display:inline-block;background:#edf4f5;border-radius:5px;padding:2px 8px;font-size:13px;margin-right:6px}
+table{border-collapse:collapse;width:100%;table-layout:fixed}th,td{text-align:left;border-bottom:1px solid #d9e2e7;padding:10px;vertical-align:top;overflow-wrap:anywhere}
+th:first-child{width:22%}details summary{cursor:pointer;font-weight:600}nav{display:flex;gap:20px;flex-wrap:wrap}.evidence{scroll-margin-top:20px}
+@media(max-width:650px){body{padding:0 12px}table,tbody,tr,td{display:block}thead{display:none}td{border:0;padding:6px 0}tr{border-bottom:1px solid #d9e2e7;padding:10px 0}}
+</style></head><body>
+<h1>TraceMind · 证据与理解演化</h1>
+<p class="muted">研究者查看器。材料均为合成对话；认识与状态来自模型维护，不代表人工或临床认可。此入口与匿名人工评审使用独立凭据。</p>
+{% if not case_id %}
+<h2>已索引个案</h2>
+{% for case,count in cases %}<article><a href="/case/{{case}}">{{case}}</a> · {{count}} 条证据</article>
+{% else %}<p>尚无已索引数据。完成会话后运行 benchmark index。</p>{% endfor %}
+{% else %}
+<a href="/">← 个案列表</a><h2>{{case_id}}</h2>
+<nav><a href="#memory">理解版本 · {{version_count}}</a><a href="#evidence">公开证据 · {{evidence|length}}</a></nav>
+<h2 id="memory">理解如何形成与修订</h2>
+{% for stream in streams %}<section class="stream">
+<h3>{{stream.label}}</h3><small>{{stream.subject_id}}</small>
+<h4>当前待澄清问题</h4>
+{% for item in stream.unresolved %}<p><span class="badge">{{status_labels.get(item.status,item.status)}}</span>{{item.text}}</p>
+{% else %}<p class="muted">此记忆流当前没有保留的待澄清问题；不表示所有问题均已解决。</p>{% endfor %}
+{% for version in stream.versions %}
+<details{% if loop.last %} open{% endif %}>
+<summary>版本 {{version.revision}} · {{version.created_at}} · {{version.statements|length}} 条认识</summary>
+<p class="muted"><small>版本标识 {{version.id}}{% if version.previous_revision_id %}<br>前一版本 {{version.previous_revision_id}}{% endif %}</small></p>
+<table><thead><tr><th>类型与状态</th><th>认识及证据关系</th></tr></thead><tbody>
+{% for item in version.statements %}<tr>
+<td><span class="badge">{{kind_labels.get(item.kind,item.kind)}}</span><br>{{status_labels.get(item.status,item.status)}}<br><small>{{item.id}}</small></td>
+<td><p>{{item.text}}</p>
+<small>支持：{% for id in item.support_ids %}<a href="#{{id}}">{{id}}</a>{% if not loop.last %}；{% endif %}{% else %}未列出{% endfor %}<br>
+反驳：{% for id in item.refute_ids %}<a href="#{{id}}">{{id}}</a>{% if not loop.last %}；{% endif %}{% else %}未列出{% endfor %}<br>
+替代旧认识：{% for id in item.supersedes %}{{id}}{% if not loop.last %}；{% endif %}{% else %}无{% endfor %}<br>
+适用时间：{{item.valid_from or '起点未设定'}} → {{item.valid_to or '终点未设定'}}</small></td>
+</tr>{% endfor %}</tbody></table></details>
+{% endfor %}</section>
+{% else %}<p>已有证据尚未形成理解版本。</p>{% endfor %}
+<details><summary>原始版本 JSON</summary><pre>{{versions_json}}</pre></details>
+<h2 id="evidence">公开发言与证据</h2>
+{% for item in evidence %}<article class="evidence" id="{{item.id}}">
+<small>{{item.id}} · {{'来访者陈述' if item.role == 'client' else '咨询师发言'}} · 会话 {{item.session}} / 发言 {{item.turn}}<br>获知时间 {{item.observed_at}} · 发生时间 {{item.occurred_at}}</small><p>{{item.text}}</p>
+</article>{% endfor %}
+{% endif %}</body></html>

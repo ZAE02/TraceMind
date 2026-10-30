@@ -68,6 +68,8 @@ uv run tracemind benchmark audit .local/datasets/gemini_v1
 
 研究查看器与人工盲评入口分开运行，使用不同访问凭据：
 
+研究查看器按记忆流呈现追加版本、当前待澄清问题、支持与反驳证据、替代关系和适用时间；证据标识可跳转到原始发言，完整 JSON 保留在折叠区。模型支持状态不代表人工或临床认可。查看器读取本地数据库，不调用生成模型；匿名评审入口不会因此获得研究者的记忆视图。
+
 ```powershell
 # 设置随机 TRACEMIND_EXPLORER_SECRET（至少32字符）后：
 uv run tracemind explorer serve

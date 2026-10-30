@@ -64,15 +64,48 @@ def create_explorer(dsn: str, secret: str) -> FastAPI:
             raise HTTPException(404, "No indexed case")
         store = PostgresMemoryStore(dsn)
         versions = []
+        streams = []
         for subject in (case_id, "experiment:evolution:" + case_id):
-            versions.extend(x.to_dict() for x in store.history(subject))
+            history = [x.to_dict() for x in store.history(subject)]
+            versions.extend(history)
+            if history:
+                superseded = {old for s in history[-1]["statements"] for old in s["supersedes"]}
+                streams.append(
+                    {
+                        "label": "互动工作流" if subject == case_id else "演化记忆实验",
+                        "subject_id": subject,
+                        "versions": history,
+                        "unresolved": [
+                            s
+                            for s in history[-1]["statements"]
+                            if s["kind"] == "unresolved_question"
+                            and s["status"] not in ("superseded", "inapplicable")
+                            and s["id"] not in superseded
+                        ],
+                    }
+                )
         return templates.TemplateResponse(
             request=request,
             name="explorer.html",
             context={
                 "case_id": case_id,
                 "evidence": [asdict(x) for x in evidence],
-                "versions": json.dumps(versions, ensure_ascii=False, indent=2),
+                "streams": streams,
+                "version_count": len(versions),
+                "versions_json": json.dumps(versions, ensure_ascii=False, indent=2),
+                "kind_labels": {
+                    "event": "事件",
+                    "psychological_state": "心理状态",
+                    "hypothesis": "解释假设",
+                    "unresolved_question": "待澄清问题",
+                },
+                "status_labels": {
+                    "proposed": "待确认",
+                    "supported": "获证据支持",
+                    "challenged": "受挑战",
+                    "superseded": "被替代",
+                    "inapplicable": "暂不适用",
+                },
             },
         )
 
