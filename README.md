@@ -11,7 +11,7 @@
 ```mermaid
 flowchart LR
   D[隔离角色的数据生成] --> Q[PostgreSQL 任务队列]
-  Q <--> A[受限的 Gemini API 单批执行]
+  Q <--> A[受限的 Gemini API 执行]
   Q --> E[公开发言与证据]
   E --> R[BGE-M3 + pgvector + BM25]
   R --> X[Cross-Encoder 重排]

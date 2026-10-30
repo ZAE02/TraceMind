@@ -29,14 +29,27 @@ class WorkflowState(TypedDict, total=False):
     proposal: dict[str, Any]
     revision: dict[str, Any]
     response: Any
+    model: str
+    reasoning: str
 
 
 def initial_state(
-    subject_id: str, input: dict[str, Any], allowed_evidence_ids: list[str]
+    subject_id: str,
+    input: dict[str, Any],
+    allowed_evidence_ids: list[str],
+    *,
+    model: str = "gpt-6.1-terra",
+    reasoning: str = "medium",
 ) -> WorkflowState:
     if not subject_id:
         raise ValueError("subject_id is required")
-    return {"subject_id": subject_id, "input": input, "allowed_evidence_ids": allowed_evidence_ids}
+    return {
+        "subject_id": subject_id,
+        "input": input,
+        "allowed_evidence_ids": allowed_evidence_ids,
+        "model": model,
+        "reasoning": reasoning,
+    }
 
 
 def _job(stage: str, state: WorkflowState, payload: dict[str, Any]) -> Any:
@@ -57,9 +70,15 @@ def _job(stage: str, state: WorkflowState, payload: dict[str, Any]) -> Any:
             if stage == "revise"
             else {"type": "object"}
         ),
-        "model": "gpt-6.1-terra",
-        "reasoning": "medium",
+        "model": state.get("model", "gpt-6.1-terra"),
+        "reasoning": state.get("reasoning", "medium"),
     }
+    if request["reasoning"] == "provider-default":
+        from .schemas import stage_contract
+
+        schema, instruction = stage_contract(stage)
+        request["output_schema"] = schema
+        request["allowed_context"]["instruction"] = instruction
     canonical = json.dumps(request, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
     request["job_id"] = hashlib.sha256(canonical.encode("utf-8")).hexdigest()
     result = interrupt(request)
@@ -96,8 +115,16 @@ def build_workflow(
     from tracemind.experiments.context import pack_context
     from tracemind.memory.context import apply_patch, project_memory
 
-    def projection(value):
-        return project_memory(MemoryRevision.from_dict(value) if value else None, tokenizer)
+    def projection(value, budget=4096):
+        return project_memory(
+            MemoryRevision.from_dict(value) if value else None, tokenizer, budget=budget
+        )
+
+    def historical_payload(state):
+        packed = pack_context(
+            tokenizer, state["retrieved"], projection(state["previous"], budget=3500)
+        )
+        return {"history": packed["history"], "history_tokens": packed["history_tokens"]}
 
     def extract(state: WorkflowState):
         return {
@@ -113,7 +140,12 @@ def build_workflow(
         evidence = retrieve_evidence(state) if retrieve_evidence is not None else []
         if any(item.get("id") not in state["allowed_evidence_ids"] for item in evidence):
             raise ValueError("retrieval returned evidence outside allowed IDs")
-        return {"previous": history[-1].to_dict() if history else None, "retrieved": evidence}
+        previous = history[-1].to_dict() if history else None
+        if state.get("reasoning") == "provider-default":
+            evidence = pack_context(tokenizer, evidence, projection(previous, budget=3500))[
+                "history"
+            ]["evidence"]
+        return {"previous": previous, "retrieved": evidence}
 
     def conflict(state: WorkflowState):
         return {
@@ -122,8 +154,14 @@ def build_workflow(
                 state,
                 {
                     "extracted": state["extracted"],
-                    "previous": projection(state["previous"]),
-                    "retrieved": state["retrieved"],
+                    **(
+                        historical_payload(state)
+                        if state.get("reasoning") == "provider-default"
+                        else {
+                            "previous": projection(state["previous"]),
+                            "retrieved": state["retrieved"],
+                        }
+                    ),
                 },
             )
         }
@@ -135,8 +173,14 @@ def build_workflow(
                 state,
                 {
                     "extracted": state["extracted"],
-                    "previous": projection(state["previous"]),
-                    "retrieved": state["retrieved"],
+                    **(
+                        historical_payload(state)
+                        if state.get("reasoning") == "provider-default"
+                        else {
+                            "previous": projection(state["previous"]),
+                            "retrieved": state["retrieved"],
+                        }
+                    ),
                     "conflicts": state["conflicts"],
                 },
             )

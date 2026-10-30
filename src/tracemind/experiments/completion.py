@@ -152,6 +152,20 @@ def audit_delivery(root, queue):
     frozen = root / "protocol/frozen.json"
     if not frozen.exists() or len(read(frozen).get("examples", [])) != 20:
         issues.append("missing twenty independently repeated calibration checkpoints")
+    graph_path = root / "project/langgraph_smoke.json"
+    if not graph_path.exists():
+        issues.append("missing actual API LangGraph persistence/recovery proof")
+    else:
+        proof = read(graph_path)
+        if (
+            proof.get("status") != "completed_api_langgraph"
+            or proof.get("memory_revisions", 0) < 1
+            or set(proof.get("jobs", {})) != {"extract", "conflict", "revise", "respond"}
+            or digest(proof.get("response")) != proof.get("response_sha256")
+        ):
+            issues.append("incomplete actual API LangGraph proof")
+        for value in proof.get("jobs", {}).values():
+            job(value.get("job_id"), value.get("result_sha256"))
     return {
         "complete": not issues,
         "dataset": data,

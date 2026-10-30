@@ -278,6 +278,34 @@ class ProjectPipeline:
             (cp for cp in cps if cp["case_id"].endswith("-T1") and cp["session"] == 2), None
         )
         initial = self.root / "project/initial_smoke.json"
+        graph_proof = self.root / "project/langgraph_smoke.json"
+        if first and not graph_proof.exists():
+            from datetime import timedelta
+
+            from tracemind.retrieval.models import BGEModels
+            from tracemind.workflows.api import run_api_workflow
+
+            from .indexing import BASE_TIME
+
+            self.status("actual_langgraph_pipeline_smoke", checkpoint_id=first["id"])
+            result = run_api_workflow(
+                queue,
+                api,
+                thread_id=f"api-graph-v2:{first['id']}",
+                subject_id=first["case_id"],
+                input={
+                    "latest_client": first["latest_client"],
+                    "retrieval": {
+                        "query": first["latest_client"]["text"],
+                        "cutoff": [first["session"] - 1, 10**9],
+                        "as_of": (BASE_TIME + timedelta(days=first["session"] - 1)).isoformat(),
+                    },
+                },
+                allowed_ids=[u["id"] for s in first["previous_sessions"] for u in s["utterances"]],
+                models=BGEModels(),
+                directory=self.root / "project/langgraph_run",
+            )
+            write(graph_proof, {"checkpoint_sha256": first["public_sha256"], **result})
         if first and not initial.exists():
             self.drive_checkpoint(queue, api, first, "initial_pipeline_smoke")
             write(initial, {"checkpoint_id": first["id"], "status": "completed_actual_six_methods"})

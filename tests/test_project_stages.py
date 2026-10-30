@@ -14,6 +14,7 @@ def test_longitudinal_smoke_reuses_completed_checkpoints_and_requires_reviews(
     pipeline = project.ProjectPipeline(tmp_path / "data")
     root = pipeline.root
     write(root / "project/initial_smoke.json", {"status": "completed"})
+    write(root / "project/langgraph_smoke.json", {"status": "completed"})
     cps = [{"id": f"cp{i}", "case_id": "gemini_v1_G001-T1", "session": i * 2} for i in (1, 2, 3)]
     write(root / "experiments/completed/cp1.json", {"completed": True})
     for number in range(1, 7):

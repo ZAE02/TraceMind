@@ -71,9 +71,13 @@ def doctor():
             checks[name] = "cached (inference not tested)"
         except Exception:
             checks[name] = "not available in local cache"
-    checks["external_agent"] = (
-        f"{config.MODEL}/{config.REASONING} required; availability not tested"
-    )
+    checks["legacy_agent_adapter"] = f"{config.MODEL}/{config.REASONING}; archived runs only"
+    from .api_client import APIStopped, LimitedAPI
+
+    try:
+        checks["active_model"] = LimitedAPI().model + "; local configuration valid, API not called"
+    except APIStopped:
+        checks["active_model"] = "designated Gemini local configuration unavailable"
     proof = config.LOCAL / "verification/stack.json"
     checks["recorded_stack_smoke"] = _read(proof) if proof.exists() else "not run"
     _print(checks)
@@ -128,10 +132,10 @@ def memory_history(subject_id: str):
 def _record_interrupt(dsn: str, thread_id: str, subject: str, output: dict):
     import psycopg
 
-    queue = JobQueue(dsn)
     pauses = output.get("__interrupt__", ())
     if pauses:
         request = pauses[0].value
+        queue = JobQueue(dsn, model=request["model"], reasoning=request["reasoning"])
         job = queue.enqueue(
             request["purpose"],
             request["role"],
@@ -171,9 +175,46 @@ def workflow_start(
         if graph.get_state(cfg).values:
             raise typer.BadParameter("thread already exists")
         output = graph.invoke(
-            initial_state(subject_id, _read(input_path), _read(allowed_ids_path)), cfg
+            initial_state(
+                subject_id,
+                _read(input_path),
+                _read(allowed_ids_path),
+                model="gemini-3.8-flash",
+                reasoning="provider-default",
+            ),
+            cfg,
         )
         _print(_record_interrupt(dsn, thread_id, subject_id, output))
+
+
+@workflow_app.command("run-api")
+def workflow_run_api(
+    subject_id: str, input_path: Path, allowed_ids_path: Path, thread_id: str = typer.Option(None)
+):
+    """Run/resume the durable graph through the designated, globally limited API."""
+    from .api_client import LimitedAPI, single_flight
+    from .benchmark.builder import write
+    from .jobs import digest
+    from .retrieval.models import BGEModels
+    from .workflows.api import run_api_workflow
+
+    thread_id = thread_id or str(uuid4())
+    directory = config.LOCAL / "workflows" / digest(thread_id)
+    api = LimitedAPI()
+    with single_flight(config.LOCAL / "api/batch.lock"):
+        if not (directory / "models.json").exists():
+            write(directory / "models.json", api.models("workflow:" + thread_id))
+        result = run_api_workflow(
+            JobQueue(config.dsn(), model=api.model, reasoning="provider-default"),
+            api,
+            thread_id=thread_id,
+            subject_id=subject_id,
+            input=_read(input_path),
+            allowed_ids=_read(allowed_ids_path),
+            models=BGEModels(),
+            directory=directory,
+        )
+    _print(result)
 
 
 @workflow_app.command("resume")
