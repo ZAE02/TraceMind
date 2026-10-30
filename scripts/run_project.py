@@ -124,6 +124,10 @@ try:
     )
     pipeline.status("computational_deliverables_complete_human_review_pending", revision=local)
 except Exception as exc:
+    if not isinstance(exc, APIStopped):
+        from tracemind.diagnostics import record_failure
+
+        record_failure(LOCAL / "project/local_failure.json", exc)
     pipeline.status(
         "stopped",
         reason=str(exc) if isinstance(exc, APIStopped) else type(exc).__name__,

@@ -259,7 +259,10 @@ def run_batch(batch_id=None, limit=None, *, review_sessions=True, progress_callb
         except APIStopped as exc:
             state["status"] = "stopped"
             state["reason"] = str(exc)
-        except Exception:
+        except Exception as exc:
+            from .diagnostics import record_failure
+
+            record_failure(directory / "local_failure.json", exc)
             state["status"] = "stopped"
             state["reason"] = (
                 "local validation or storage failure; inspect locally without API retries"

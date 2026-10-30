@@ -24,6 +24,35 @@ SCORE_SCHEMA = {
 }
 
 
+def validate_scores(scores, ids, transcript, *, require_client):
+    if {item["id"] for item in scores} != set(ids) or len(scores) != len(ids):
+        raise ValueError("interaction scorer must return each predefined target exactly once")
+    # A target that was not clarified may have no quote: absence is not a
+    # transcript span. Positive claims still require exact client evidence.
+    if any(
+        (item["achieved"] and not item["evidence"].strip())
+        or (
+            item["evidence"]
+            and (
+                not item["evidence"].strip()
+                or not any(item["evidence"] in turn["text"] for turn in transcript)
+            )
+        )
+        for item in scores
+    ):
+        raise ValueError("interaction scoring evidence must quote a transcript turn")
+    if require_client and any(
+        item["achieved"]
+        and not any(
+            turn["role"] == "client" and item["evidence"] in turn["text"] for turn in transcript
+        )
+        for item in scores
+    ):
+        raise ValueError(
+            "achieved clarification must cite a client reply, not just a counselor question"
+        )
+
+
 def advance_interaction(root, queue, checkpoint, method, candidate):
     target_path = root / "experiments" / "interaction_targets" / (checkpoint["id"] + ".json")
     if not target_path.exists():
@@ -111,24 +140,7 @@ def advance_interaction(root, queue, checkpoint, method, candidate):
     if not score:
         return {"status": "waiting", "job_id": jid}
     scores = score["result"]["targets"]
-    if {item["id"] for item in scores} != set(ids) or len(scores) != len(ids):
-        raise ValueError("interaction scorer must return each predefined target exactly once")
-    if any(
-        not item["evidence"].strip()
-        or not any(item["evidence"] in turn["text"] for turn in transcript)
-        for item in scores
-    ):
-        raise ValueError("interaction scoring evidence must quote a transcript turn")
-    if spec.get("protocol") == "target-v2" and any(
-        item["achieved"]
-        and not any(
-            turn["role"] == "client" and item["evidence"] in turn["text"] for turn in transcript
-        )
-        for item in scores
-    ):
-        raise ValueError(
-            "achieved clarification must cite a client reply, not just a counselor question"
-        )
+    validate_scores(scores, ids, transcript, require_client=spec.get("protocol") == "target-v2")
     result = {
         "status": "completed",
         "target_ids": ids,
