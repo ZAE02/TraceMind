@@ -199,6 +199,11 @@ def run_batch(batch_id=None, limit=None, *, review_sessions=True, progress_callb
                     )
                 ]
                 if not jobs:
+                    # Restored API output can materialize a case's final turn
+                    # during advance(). Re-enter review/progress before selecting
+                    # another case; an empty queue here is not a stalled task.
+                    if next_case(root, builder) != selection:
+                        continue
                     state["status"] = "stopped_no_pending_tasks"
                     break
                 job = jobs[0]

@@ -1,3 +1,5 @@
+import pytest
+
 from tracemind import api_batch
 
 
@@ -143,3 +145,59 @@ def test_interrupted_import_reuses_saved_result_and_ignores_reports(tmp_path, mo
     result = api_batch.run_batch("interrupted", 1, review_sessions=False)
     assert result["status"] == "completed" and result["completed"] == [job_id]
     assert len(imported) == 1 and imported[0][2]["execution_id"] == "original"
+
+
+@pytest.mark.parametrize("materializes_last_turn", [True, False])
+def test_final_turn_restore_reenters_progress_but_real_empty_queue_stops(
+    tmp_path, monkeypatch, materializes_last_turn
+):
+    class API:
+        model = "gemini-3.8-flash"
+
+        def models(self, *args):
+            return {"confirmed": True}
+
+        def generate(self, *args, **kwargs):
+            raise AssertionError("saved final turn must not be generated again")
+
+    class Queue:
+        def __init__(self, *args, **kwargs):
+            pass
+
+        def setup(self):
+            pass
+
+        def pending(self, *args):
+            return []
+
+    class Builder:
+        finished = False
+
+        def __init__(self, *args):
+            pass
+
+        def advance(self, **kwargs):
+            self.finished = materializes_last_turn
+
+        def audit(self):
+            return {"issues": []}
+
+    progress = []
+    monkeypatch.setattr(api_batch, "LOCAL", tmp_path)
+    monkeypatch.setattr(api_batch, "prepare", lambda root: None)
+    monkeypatch.setattr(api_batch, "dsn", lambda: "unused")
+    monkeypatch.setattr(api_batch, "LimitedAPI", API)
+    monkeypatch.setattr(api_batch, "JobQueue", Queue)
+    monkeypatch.setattr(api_batch, "BenchmarkBuilder", Builder)
+    monkeypatch.setattr(
+        api_batch, "next_case", lambda root, b: None if b.finished else ("G001", "case")
+    )
+    result = api_batch.run_batch(
+        "restored-boundary",
+        review_sessions=False,
+        progress_callback=lambda *args: progress.append(True),
+    )
+    assert result["status"] == (
+        "completed" if materializes_last_turn else "stopped_no_pending_tasks"
+    )
+    assert len(progress) == (2 if materializes_last_turn else 1)
