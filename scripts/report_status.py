@@ -13,15 +13,20 @@ gemini_root = LOCAL / "datasets/gemini_v1"
 terra = BenchmarkBuilder(LOCAL / "datasets/v2", queue).audit()
 data = BenchmarkBuilder(gemini_root, queue).audit() if gemini_root.exists() else terra
 engineering = BenchmarkBuilder(LOCAL / "datasets/v1", queue).audit()
-batch_path = LOCAL / "api/batches/initial-gemini-20261030/state.json"
-batch = read(batch_path) if batch_path.exists() else {}
+batches = [read(path) for path in (LOCAL / "api/batches").glob("*/state.json")]
+batch = max(batches, key=lambda item: item.get("started_at", "")) if batches else {}
 api_calls = None
 ledger = LOCAL / "api/requests.sqlite3"
 if ledger.exists() and batch:
     tasks = set(batch.get("completed", []) + batch.get("attempted_jobs", []))
-    tasks.add("models:" + batch["batch_id"])
+    discovery_task = "models:" + batch["batch_id"]
+    tasks.add(discovery_task)
+    started = datetime.fromisoformat(batch["started_at"]).timestamp()
     with sqlite3.connect(ledger) as connection:
-        api_calls = sum(row[0] in tasks for row in connection.execute("SELECT task FROM attempts"))
+        api_calls = sum(
+            task in tasks and (task == discovery_task or timestamp >= started)
+            for task, timestamp in connection.execute("SELECT task,started FROM attempts")
+        )
 proof = LOCAL / "verification/stack.json"
 human_path = LOCAL / "reviews.sqlite3"
 if human_path.exists():
@@ -40,8 +45,9 @@ report = {
         "batch_limit": 20,
         "status": batch.get("status", "not_started"),
         "reason": batch.get("reason"),
-        "accepted_records_in_first_batch": len(batch.get("completed", [])),
-        "api_requests_in_first_batch": api_calls,
+        "reported_batch_id": batch.get("batch_id"),
+        "accepted_records_in_reported_batch": len(batch.get("completed", [])),
+        "api_requests_in_reported_batch": api_calls,
         "next_batch": "requires_explicit_user_request",
     },
     "retained_terra_v2_not_mixed_with_gemini": terra,

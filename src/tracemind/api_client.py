@@ -281,7 +281,15 @@ class LimitedAPI:
             self._finish(attempt, 200, reason, blocked=reason)
             raise APIStopped(reason)
 
-        if response.get("model") != self.model:
+        policy, _ = read_policy()
+        aliases = policy.get("approved_model_aliases", {})
+        allowed_alias = aliases.get(self.model)
+        if allowed_alias not in (None, "gemini-3.8-flash-tiered"):
+            stop("unapproved model mapping in API skill")
+        returned_model = response.get("model")
+        if returned_model != self.model and (
+            allowed_alias is None or returned_model != allowed_alias
+        ):
             stop("response model differs from specified model; verify gateway mapping")
         choices = response.get("choices", [])
         if not choices or choices[0].get("finish_reason") != "stop":
@@ -291,6 +299,11 @@ class LimitedAPI:
             stop("completion contains no usable text")
         return content, {
             "model": self.model,
+            "requested_model": self.model,
+            "returned_model": returned_model,
+            "mapping_basis": "user-approved exact proxy mapping; local proxy request log and successful minimal dialogue"
+            if returned_model != self.model
+            else "exact model name",
             "reasoning": "provider-default",
             "provider": "openai-compatible",
             "execution_id": attempt,

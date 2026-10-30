@@ -4,7 +4,7 @@
 
 **v0.2 状态：**20组场景计划已逐场个别化并通过独立模型审查；对话与正式实验仍在生成。最新实际数量见[运行状态](docs/status.json)。200组双人盲评待人工完成，不包含虚构人工评分或目标效果数字。案例均为虚构成人的合成材料。
 
-当前数据合成已改用用户指定的 `gemini-3.8-flash`，使用独立 `gemini_v1` 数据版本。每次调用前必须读取[项目 API skill](.agents/skills/tracemind-api/SKILL.md)：并发 1、请求开始间隔至少 60 秒、每日最多 100 次（含列表查询和重试），每批最多 20 条后停止。首批因生成响应的模型标识不一致已停止，接纳 0 条；未更换模型或自动重试。
+当前数据合成已改用用户指定的 `gemini-3.8-flash`，使用独立 `gemini_v1` 数据版本。每次调用前必须读取[项目 API skill](.agents/skills/tracemind-api/SKILL.md)：并发 1、请求开始间隔至少 60 秒、每日最多 100 次（含列表查询和重试），每批最多 20 条后停止。代理日志与实际最小对话已确认用户允许的 `gemini-3.8-flash → gemini-3.8-flash-tiered` 映射，记录请求与返回名称；最初被名称完全相等校验拦截的批次保留为历史记录。最新合成进度见运行状态。
 
 此前 Terra v2 保留来源并停止合成，不与 Gemini 数据混合。v1 的四场公开样例只用于工程冒烟，不计入正式 Benchmark 数量。
 
@@ -45,7 +45,7 @@ uv run pytest
 
 数据库连接由忽略提交的 `.env` 中 `TRACEMIND_DSN` 提供，默认只监听 `127.0.0.1:55432`。BGE-M3与重排权重固定到具体 revision，保存在 `.local/` 并顺序加载；CUDA不可用或显存不足时使用同一模型的CPU推理。
 
-合成通过受限 API 执行器运行，凭据从 `TRACEMIND_API_BASE_URL`、`TRACEMIND_API_KEY`、`TRACEMIND_API_MODEL` 或忽略提交的 `.local/api-config.json` 读取。仅使用指定模型，先检查模型列表；全局文件锁、SQLite 尝试账本、持久化等待及停止标记共同执行限额。实际发送的裁剪输入、响应、模型、真实可用的 usage 及来源哈希保存在本机。模型标识不一致时停止，不接受别名替换。
+合成通过受限 API 执行器运行，凭据从 `TRACEMIND_API_BASE_URL`、`TRACEMIND_API_KEY`、`TRACEMIND_API_MODEL` 或忽略提交的 `.local/api-config.json` 读取。仅使用指定请求模型，先检查模型列表；全局文件锁、SQLite 尝试账本、持久化等待及停止标记共同执行限额。实际发送的裁剪输入、响应、请求/返回模型、真实可用的 usage 及来源哈希保存在本机。仅允许 skill 中用户明确批准的返回名称映射，其他差异仍停止。
 
 ```powershell
 # 必须先读取项目 API skill；凭据仅放环境或本地忽略配置。

@@ -1,6 +1,7 @@
 """One explicitly requested synthesis batch, with bounded stateless role inputs."""
 
 import json
+import re
 import shutil
 import uuid
 from datetime import datetime, timezone
@@ -143,7 +144,7 @@ def run_batch(batch_id=None, limit=20):
             if not confirmation.exists():
                 write(confirmation, api.models(batch_id))
             for saved in sorted(directory.glob("*.json")):
-                if saved.name in {"state.json", "models.json"}:
+                if re.fullmatch(r"[0-9a-f]{64}", saved.stem) is None:
                     continue
                 artifact = read(saved)
                 queue.complete(artifact["job_id"], artifact["result"], artifact["provenance"])

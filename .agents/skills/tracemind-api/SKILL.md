@@ -11,6 +11,7 @@ description: TraceMind 项目调用生成模型 API 时必须读取的连接、�
 
 - 地址和密钥从环境变量或忽略提交的本地配置读取；密钥不得进入代码、数据集、日志或输出文件。
 - 仅使用用户指定的 `gemini-3.8-flash`。每批开始先读取可用模型列表，确认精确模型名存在；不存在就停止。
+- 用户已明确允许代理映射：请求仍为 `gemini-3.8-flash`，响应可为 `gemini-3.8-flash-tiered`。同时记录请求名、返回名及映射依据；不得据此接受其他别名或改发返回名称。
 - 不自动切换账号、轮换代理或绕过服务端限制。不预热、压测或无意义轮询。
 
 ## 请求控制
@@ -32,5 +33,5 @@ description: TraceMind 项目调用生成模型 API 时必须读取的连接、�
 程序读取以下策略，约束只能收紧；变更后必须检查代码与测试是否一致：
 
 <!-- API_POLICY_JSON
-{"version":1,"concurrency":1,"interval_seconds":60,"daily_limit":100,"batch_size":20,"max_retries":2,"retry_429_seconds":300,"backoff_seconds":60}
+{"version":1,"concurrency":1,"interval_seconds":60,"daily_limit":100,"batch_size":20,"max_retries":2,"retry_429_seconds":300,"backoff_seconds":60,"approved_model_aliases":{"gemini-3.8-flash":"gemini-3.8-flash-tiered"}}
 API_POLICY_JSON -->

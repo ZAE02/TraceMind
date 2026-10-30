@@ -115,6 +115,27 @@ def test_response_model_mismatch_is_not_accepted_or_retried(api):
     assert len(list((client.state / "responses").glob("*.json"))) == 1
 
 
+def test_user_approved_exact_alias_preserves_both_model_names(api):
+    client, _ = api
+
+    class MappedResponse(Response):
+        def read(self, maximum):
+            return json.dumps(
+                {
+                    "model": "gemini-3.8-flash-tiered",
+                    "choices": [{"finish_reason": "stop", "message": {"content": "valid sample"}}],
+                }
+            ).encode()
+
+    client.opener = Transport([MappedResponse()])
+    text, provenance = client.generate("mapped-job", [{"role": "user", "content": "input"}])
+    assert text == "valid sample"
+    assert provenance["requested_model"] == "gemini-3.8-flash"
+    assert provenance["returned_model"] == "gemini-3.8-flash-tiered"
+    assert provenance["mapping_basis"]
+    assert client.opener.calls == 1
+
+
 def test_three_failures_stop_and_daily_budget_counts_retries(api):
     client, _ = api
     client.opener = Transport(
