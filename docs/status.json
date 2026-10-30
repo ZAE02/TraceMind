@@ -1,13 +1,13 @@
 {
-  "reported_at": "2026-10-30T10:26:48.883304+00:00",
+  "reported_at": "2026-10-30T11:52:00.768800+00:00",
   "version": "0.2.0",
   "dataset": {
     "plans": 20,
     "approved_plans": 20,
-    "trajectories": 2,
-    "complete_trajectories": 1,
-    "complete_sessions": 10,
-    "checkpoints": 5,
+    "trajectories": 3,
+    "complete_trajectories": 2,
+    "complete_sessions": 17,
+    "checkpoints": 9,
     "issues": [],
     "complete": false
   },
@@ -20,9 +20,10 @@
     "status": "running",
     "reason": null,
     "reported_batch_id": "gemini-continuous-20261030-01",
-    "accepted_records_in_reported_batch": 138,
-    "api_requests_in_reported_batch": 149,
-    "model_reviewed_sessions_in_run": 10,
+    "accepted_records_in_reported_batch": 257,
+    "api_requests_in_reported_batch": 275,
+    "project_api_requests_since_run_start_including_experiments": 340,
+    "model_reviewed_sessions_in_run": 17,
     "continuation": "authorized_until_current_20_group_target_or_error_stop"
   },
   "retained_terra_v2_not_mixed_with_gemini": {
@@ -73,8 +74,8 @@
   },
   "experiment_result_status": "No result claim until actual candidates and reviews are complete",
   "project_workflow": {
-    "phase": "synthesis",
-    "updated_at": "2026-10-30T10:25:36.953392+00:00",
+    "phase": "longitudinal_pipeline_smoke",
+    "updated_at": "2026-10-30T11:51:58.047345+00:00",
     "human_review": "pending_not_model_filled"
   }
 }
