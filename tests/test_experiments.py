@@ -1,5 +1,7 @@
 import json
 
+import pytest
+
 from tracemind.experiments import ExperimentRunner, pack_context
 
 
@@ -358,7 +360,8 @@ def test_clarification_requires_client_evidence_not_only_a_question(tmp_path):
     assert not (tmp_path / "experiments/interactions/cp/evolution.json").exists()
 
 
-def test_final_audit_checks_actual_answer_not_only_copied_hash(tmp_path):
+@pytest.mark.parametrize("kind", ["candidates", "understanding"])
+def test_final_audit_checks_actual_answer_not_only_copied_hash(tmp_path, kind):
     from tracemind.benchmark.builder import write
     from tracemind.experiments.context import serialized
     from tracemind.jobs import digest
@@ -374,10 +377,10 @@ def test_final_audit_checks_actual_answer_not_only_copied_hash(tmp_path):
             }
 
     write(
-        tmp_path / "experiments/candidates/cp/current.json",
+        tmp_path / f"experiments/{kind}/cp/current.json",
         {
             "job_id": "actual-source",
-            "text": "tampered",
+            **({"text": "tampered"} if kind == "candidates" else {"result": {"text": "tampered"}}),
             "result_sha256": digest({"text": "original"}),
             "context": {"history": history, "history_tokens": len(serialized(history))},
         },

@@ -387,6 +387,17 @@ def _workflow_resolver(dsn: str):
     return authoritative_evidence_resolver(EvidenceRepository(dsn))
 
 
+@benchmark_app.command("delivery-audit")
+def benchmark_delivery_audit(root: Path):
+    """Verify full computational coverage from saved source jobs; makes no API call."""
+    from .experiments.completion import audit_delivery
+
+    result = audit_delivery(root, JobQueue(config.dsn()))
+    _print(result)
+    if not result["complete"]:
+        raise typer.Exit(code=1)
+
+
 @benchmark_app.command("freeze")
 def benchmark_freeze(root: Path, refs: Path):
     """Freeze a protocol using independently reviewed calibration job references."""

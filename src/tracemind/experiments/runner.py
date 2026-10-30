@@ -625,13 +625,15 @@ class ExperimentRunner:
 
     def audit(self):
         candidates = list((self.root / "experiments" / "candidates").glob("*/*.json"))
+        understanding = list((self.root / "experiments" / "understanding").glob("*/*.json"))
         issues = []
-        for path in candidates:
+        for path in candidates + understanding:
             result = read(path)
             job = self.queue.get(result["job_id"])
             if job["status"] != "completed" or job["result_sha256"] != result["result_sha256"]:
                 issues.append(str(path))
-            if digest({"text": result["text"]}) != job["result_sha256"]:
+            content = {"text": result["text"]} if "text" in result else result["result"]
+            if digest(content) != job["result_sha256"]:
                 issues.append(f"answer content: {path}")
             provided = job.get("request", {}).get("allowed_context", {}).get("history")
             if provided is None or digest(provided) != digest(result["context"]["history"]):
@@ -641,4 +643,9 @@ class ExperimentRunner:
             actual = len(self.tokenizer.encode_tokens(serialized(result["context"]["history"])))
             if actual > 4096 or actual != result["context"]["history_tokens"]:
                 issues.append(f"budget: {path}")
-        return {"candidate_count": len(candidates), "issues": issues, "queue": self.queue.stats()}
+        return {
+            "candidate_count": len(candidates),
+            "understanding_count": len(understanding),
+            "issues": issues,
+            "queue": self.queue.stats(),
+        }

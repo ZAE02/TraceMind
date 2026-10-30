@@ -164,6 +164,28 @@ class ProjectPipeline:
             },
         )
 
+    def annotate_checkpoint(self, queue, api, checkpoint):
+        """Annotate every benchmark checkpoint, including unused development ones."""
+        from .annotations import advance_annotation
+
+        self.setup(queue)
+        while True:
+            if (LOCAL / "api/STOP").exists():
+                raise APIStopped("project paused by STOP marker")
+            self.status("benchmark_annotation", checkpoint_id=checkpoint["id"])
+            self.tracking.requested.clear()
+            result = advance_annotation(self.root, self.tracking, checkpoint)
+            if result is not None:
+                return result
+            pending = [
+                ident
+                for ident in self.tracking.requested
+                if queue.get(ident)["status"] == "pending"
+            ]
+            if not pending:
+                raise APIStopped("annotation waiting without an executable task")
+            execute_job(queue, api, pending[0], self.root / "experiments/api_raw")
+
     def simulator_check(self, queue, api, cp):
         schema = {
             "type": "object",
@@ -301,6 +323,8 @@ class ProjectPipeline:
         for group in sorted({cp["group_id"] for cp in self.checkpoints()}):
             self.counterfactual_review(queue, api, group)
         self.setup(queue)
+        for cp in self.checkpoints():
+            self.annotate_checkpoint(queue, api, cp)
         calibration = []
         for group in sorted({cp["group_id"] for cp in self.checkpoints("calibration")}):
             available = self.checkpoints("calibration", group)

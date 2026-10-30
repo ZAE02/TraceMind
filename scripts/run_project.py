@@ -25,6 +25,12 @@ try:
     queue = JobQueue(dsn(), model=api.model, reasoning="provider-default")
     results = pipeline.finish(queue, api)
     pipeline.status("validating_release")
+    from tracemind.experiments.completion import audit_delivery
+
+    delivery = audit_delivery(root, queue)
+    write(LOCAL / "project/completion_audit.json", delivery)
+    if not delivery["complete"]:
+        raise APIStopped("full-scope computational delivery audit failed; release not published")
     env = {**os.environ, "TRACEMIND_TEST_POSTGRES_DSN": dsn(), "TRACEMIND_TEST_DSN": dsn()}
     import sys
 
