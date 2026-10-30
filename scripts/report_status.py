@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from tracemind.api_client import read_policy
 from tracemind.benchmark.builder import BenchmarkBuilder, read, write
 from tracemind.config import LOCAL, ROOT, dsn
-from tracemind.jobs import JobQueue
+from tracemind.jobs import JobQueue, digest
 
 queue = JobQueue(dsn())
 policy, _ = read_policy()
@@ -91,6 +91,27 @@ if repair_file.exists():
         "new_content_requires_fresh_model_review": True,
     }
 phase_file = LOCAL / "project/status.json"
+graph_proof = gemini_root / "project/langgraph_smoke.json"
+if graph_proof.exists():
+    graph = read(graph_proof)
+    jobs = [queue.get(value["job_id"]) for value in graph.get("jobs", {}).values()]
+    if len(jobs) == 4 and all(
+        j["status"] == "completed"
+        and j["result_sha256"] == digest(j["result"])
+        and j["provenance"].get("provider") == "openai-compatible"
+        for j in jobs
+    ):
+        report["langgraph_api_verification"] = {
+            "status": graph["status"],
+            "actual_stage_calls": len(jobs),
+            "memory_revisions": graph["memory_revisions"],
+            "maximum_recorded_history_tokens": max(
+                j["request"]["allowed_context"].get("history_tokens", 0) for j in jobs
+            ),
+            "requested_models": sorted({j["provenance"]["requested_model"] for j in jobs}),
+            "returned_models": sorted({j["provenance"]["returned_model"] for j in jobs}),
+            "scope": "development infrastructure proof, not benchmark effect or human endorsement",
+        }
 if phase_file.exists():
     phase = read(phase_file)
     report["project_workflow"] = {

@@ -1,13 +1,13 @@
 {
-  "reported_at": "2026-10-30T17:47:57.136370+00:00",
+  "reported_at": "2026-10-30T18:15:15.141578+00:00",
   "version": "0.2.0",
   "dataset": {
     "plans": 20,
     "approved_plans": 20,
     "trajectories": 4,
     "complete_trajectories": 0,
-    "complete_sessions": 12,
-    "checkpoints": 5,
+    "complete_sessions": 14,
+    "checkpoints": 6,
     "issues": [],
     "complete": false
   },
@@ -20,11 +20,11 @@
     "status": "running",
     "reason": null,
     "reported_batch_id": "gemini-continuous-20261030-01",
-    "accepted_records_in_reported_batch": 357,
+    "accepted_records_in_reported_batch": 391,
     "record_count_scope": "historical_successes_including_archived_revisions; active_valid_counts_are_in_dataset",
-    "api_requests_in_reported_batch": 382,
-    "project_api_requests_since_run_start_including_experiments": 559,
-    "model_reviewed_sessions_in_run": 12,
+    "api_requests_in_reported_batch": 419,
+    "project_api_requests_since_run_start_including_experiments": 600,
+    "model_reviewed_sessions_in_run": 14,
     "continuation": "authorized_until_current_20_group_target_or_error_stop"
   },
   "retained_terra_v2_not_mixed_with_gemini": {
@@ -82,9 +82,22 @@
     "original_sources_preserved": true,
     "new_content_requires_fresh_model_review": true
   },
+  "langgraph_api_verification": {
+    "status": "completed_api_langgraph",
+    "actual_stage_calls": 4,
+    "memory_revisions": 1,
+    "maximum_recorded_history_tokens": 3948,
+    "requested_models": [
+      "gemini-3.8-flash"
+    ],
+    "returned_models": [
+      "gemini-3.8-flash-tiered"
+    ],
+    "scope": "development infrastructure proof, not benchmark effect or human endorsement"
+  },
   "project_workflow": {
     "phase": "synthesis",
-    "updated_at": "2026-10-30T17:47:56.908211+00:00",
+    "updated_at": "2026-10-30T18:14:53.103488+00:00",
     "human_review": "pending_not_model_filled"
   }
 }

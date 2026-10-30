@@ -162,8 +162,13 @@ def audit_delivery(root, queue):
             or proof.get("memory_revisions", 0) < 1
             or set(proof.get("jobs", {})) != {"extract", "conflict", "revise", "respond"}
             or digest(proof.get("response")) != proof.get("response_sha256")
+            or proof.get("jobs", {}).get("respond", {}).get("result_sha256")
+            != proof.get("response_sha256")
         ):
             issues.append("incomplete actual API LangGraph proof")
+        first = next((cp for cp in checkpoints if cp["id"] == "gemini_v1_G001-T1-CP1"), None)
+        if not first or proof.get("checkpoint_sha256") != first["public_sha256"]:
+            issues.append("graph proof no longer matches public development checkpoint")
         for value in proof.get("jobs", {}).values():
             job(value.get("job_id"), value.get("result_sha256"))
     return {

@@ -140,7 +140,9 @@ def build_workflow(
         evidence = retrieve_evidence(state) if retrieve_evidence is not None else []
         if any(item.get("id") not in state["allowed_evidence_ids"] for item in evidence):
             raise ValueError("retrieval returned evidence outside allowed IDs")
-        previous = history[-1].to_dict() if history else None
+        # Checkpoints contain portable JSON values, not Python Enum objects that
+        # require custom msgpack type registration when restored by LangGraph.
+        previous = json.loads(json.dumps(history[-1].to_dict())) if history else None
         if state.get("reasoning") == "provider-default":
             evidence = pack_context(tokenizer, evidence, projection(previous, budget=3500))[
                 "history"
@@ -198,7 +200,7 @@ def build_workflow(
         if previous:
             allowed.update(e.id for e in previous.evidence)
         validate_revision(revision, previous, allowed_evidence_ids=allowed)
-        return {"revision": revision.to_dict()}
+        return {"revision": json.loads(json.dumps(revision.to_dict()))}
 
     def persist(state: WorkflowState):
         store.append(MemoryRevision.from_dict(state["revision"]))

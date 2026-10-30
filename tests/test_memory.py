@@ -189,6 +189,8 @@ def test_postgres_checkpoint_survives_reopen_opt_in():
             Command(resume={"evidence": ["e1"], "statements": [statement()]}), cfg
         )
         assert output["__interrupt__"][0].value["purpose"] == "respond"
+        kind = graph.get_state(cfg).values["revision"]["statements"][0]["kind"]
+        assert type(kind) is str  # Restores under strict msgpack without Enum allowlisting.
     assert len(store.history(subject)) == 1
 
 
