@@ -20,7 +20,11 @@ batch = max(batches, key=lambda item: item.get("started_at", "")) if batches els
 api_calls = None
 ledger = LOCAL / "api/requests.sqlite3"
 if ledger.exists() and batch:
-    tasks = set(batch.get("completed", []) + batch.get("attempted_jobs", []))
+    tasks = set(
+        batch.get("completed", [])
+        + batch.get("attempted_jobs", [])
+        + batch.get("auxiliary_jobs", [])
+    )
     discovery_task = "models:" + batch["batch_id"]
     tasks.add(discovery_task)
     started = datetime.fromisoformat(batch["started_at"]).timestamp()
@@ -52,6 +56,7 @@ report = {
         "reported_batch_id": batch.get("batch_id"),
         "accepted_records_in_reported_batch": len(batch.get("completed", [])),
         "api_requests_in_reported_batch": api_calls,
+        "model_reviewed_sessions_in_run": batch.get("reviewed_sessions", 0),
         "continuation": "authorized_until_current_20_group_target_or_error_stop",
     },
     "retained_terra_v2_not_mixed_with_gemini": terra,

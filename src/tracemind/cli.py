@@ -355,7 +355,7 @@ def benchmark_index(root: Path):
 def benchmark_export_development(root: Path, destination: Path, limit: int = 4):
     from .benchmark.export import export_development
 
-    _print(export_development(root, destination, limit))
+    _print(export_development(root, destination, limit, JobQueue(config.dsn())))
 
 
 def _workflow_retrieval(dsn: str):

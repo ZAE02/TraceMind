@@ -93,7 +93,9 @@ def audit(batch_id):
             "SELECT task,started,day,status,outcome FROM attempts ORDER BY started"
         ).fetchall()
     started = datetime.fromisoformat(state["started_at"]).timestamp()
-    tasks = set(state.get("attempted_jobs", []) + state["completed"])
+    tasks = set(
+        state.get("attempted_jobs", []) + state["completed"] + state.get("auxiliary_jobs", [])
+    )
     discovery = "models:" + batch_id
     attempts = [
         row
@@ -131,7 +133,8 @@ def audit(batch_id):
         "model_pairs": [{"requested": a, "returned": b} for a, b in sorted(model_pairs)],
         "dataset": dataset,
         "issues": issues,
-        "review_status": "automated structural checks only; content review pending",
+        "review_status": "automated structural checks; session model reviews tracked separately; no human review",
+        "model_reviewed_sessions_reported_by_runner": state.get("reviewed_sessions", 0),
     }
 
 

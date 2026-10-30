@@ -104,7 +104,7 @@ def next_case(root, builder):
     return None
 
 
-def run_batch(batch_id=None, limit=None):
+def run_batch(batch_id=None, limit=None, *, review_sessions=True):
     policy, _ = read_policy()
     if limit is not None and (
         limit < 1 or policy["batch_size"] is not None and limit > policy["batch_size"]
@@ -162,6 +162,22 @@ def run_batch(batch_id=None, limit=None):
                 if (LOCAL / "api/STOP").exists():
                     state["status"] = "stopped_by_user"
                     break
+                # Same single-flight API transport; reviewer receives one bounded
+                # session in a fresh request, never a role worker's private context.
+                if review_sessions:
+                    from .benchmark.api_review import review_completed_sessions
+
+                    review_completed_sessions(root, queue, api, directory, state, state_path)
+                    if state.get("indexed_reviewed_sessions") != state["reviewed_sessions"]:
+                        from .experiments.indexing import index_dialogues
+                        from .retrieval.models import BGEModels
+                        from .storage.repository import EvidenceRepository
+
+                        state["last_index_result"] = index_dialogues(
+                            root, EvidenceRepository(dsn()), BGEModels()
+                        )
+                        state["indexed_reviewed_sessions"] = state["reviewed_sessions"]
+                        write(state_path, state)
                 selection = next_case(root, builder)
                 if selection is None:
                     state["status"] = "completed"

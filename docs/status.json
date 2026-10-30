@@ -1,13 +1,13 @@
 {
-  "reported_at": "2026-10-30T08:40:26.036200+00:00",
+  "reported_at": "2026-10-30T08:55:37.865763+00:00",
   "version": "0.2.0",
   "dataset": {
     "plans": 20,
     "approved_plans": 20,
     "trajectories": 1,
     "complete_trajectories": 0,
-    "complete_sessions": 2,
-    "checkpoints": 1,
+    "complete_sessions": 4,
+    "checkpoints": 2,
     "issues": [],
     "complete": false
   },
@@ -20,8 +20,9 @@
     "status": "running",
     "reason": null,
     "reported_batch_id": "gemini-continuous-20261030-01",
-    "accepted_records_in_reported_batch": 23,
-    "api_requests_in_reported_batch": 24,
+    "accepted_records_in_reported_batch": 47,
+    "api_requests_in_reported_batch": 52,
+    "model_reviewed_sessions_in_run": 4,
     "continuation": "authorized_until_current_20_group_target_or_error_stop"
   },
   "retained_terra_v2_not_mixed_with_gemini": {

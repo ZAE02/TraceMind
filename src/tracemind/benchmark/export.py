@@ -7,7 +7,7 @@ from tracemind.jobs import digest
 from .builder import read, write
 
 
-def export_development(root: Path, destination: Path, limit: int = 4):
+def export_development(root: Path, destination: Path, limit: int = 4, queue=None):
     if limit < 1:
         raise ValueError("limit must be positive")
     exported = []
@@ -29,6 +29,26 @@ def export_development(root: Path, destination: Path, limit: int = 4):
         expected = digest(session)
         if review.get("approved") is not True or review.get("dialogue_sha256") != expected:
             continue
+        manifest = root / "dataset.json"
+        if manifest.exists() and read(manifest).get("namespace") == "gemini_v1":
+            if queue is None:
+                raise ValueError(
+                    "Gemini example release requires verification against actual review jobs"
+                )
+            source = queue.get(review["job_id"])
+            if (
+                source["status"] != "completed"
+                or source["result_sha256"] != review["result_sha256"]
+                or digest({key: review[key] for key in ("approved", "issues")})
+                != source["result_sha256"]
+                or source["request"]["role"] != "independent session quality reviewer"
+                or source["request"]["allowed_context"]["dialogue"]
+                != [
+                    {key: row[key] for key in ("id", "role", "text")}
+                    for row in session["utterances"]
+                ]
+            ):
+                raise ValueError("session review release provenance mismatch")
         public = {
             "case_id": session["case_id"],
             "session": session["session"],
@@ -40,11 +60,13 @@ def export_development(root: Path, destination: Path, limit: int = 4):
                 for u in session["utterances"]
             ],
         }
+        if review.get("job_id"):
+            public["review_source_job_id"] = review["job_id"]
         target = destination / session["case_id"] / path.name
         if target.exists() and read(target) != public:
             raise ValueError("published example changed; create a new release version")
         write(target, public)
-        exported.append(str(target.relative_to(destination)))
+        exported.append(target.relative_to(destination).as_posix())
         if len(exported) >= limit:
             break
     write(
