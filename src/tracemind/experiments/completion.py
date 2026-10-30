@@ -57,12 +57,25 @@ def audit_delivery(root, queue):
             issues.append(f"invalid completed API job: {ident}")
             return None
 
-    def artifact(path, label):
+    def artifact(path, label, *, checkpoint=None, method=None):
         if not path.exists():
             issues.append(f"missing {label}: {path.name}")
             return None
         value = read(path)
         source = job(value.get("job_id"), value.get("result_sha256"))
+        if source is not None and checkpoint is not None:
+            from .input_audit import audit_input
+
+            oracle = root / "annotations" / (checkpoint["id"] + ".json")
+            ids = read(oracle)["oracle_evidence_ids"] if oracle.exists() else []
+            scope_issues = audit_input(
+                source["request"]["allowed_context"], checkpoint, method, oracle_ids=ids
+            )
+            issues.extend(f"{label}/{method}: {message}" for message in scope_issues)
+            if value.get("context", {}).get("history") != source["request"]["allowed_context"].get(
+                "history"
+            ):
+                issues.append(f"{label}/{method}: saved history differs from actual job")
         if source is not None and "result" in value and value["result"] != source["result"]:
             issues.append(f"changed {label}: {path.name}")
         if (
@@ -118,18 +131,42 @@ def audit_delivery(root, queue):
         if item.get("public_sha256") != public_sha or not item.get("oracle_approved"):
             issues.append("annotation not approved for its actual checkpoint")
 
-    tests = [c for c in checkpoints if c["split"] == "test"]
-    for cp in tests:
+    calibration_stages = {"1": 2, "2": 4, "3": 6, "4": 2}
+    evaluated = [
+        c
+        for c in checkpoints
+        if (
+            c["split"] == "test"
+            or c["split"] == "development"
+            and c["group_id"] == "G001"
+            or c["split"] == "calibration"
+            and c["session"] == calibration_stages.get(c["case_id"].rsplit("-T", 1)[-1])
+        )
+    ]
+    evaluation_counts = {
+        split: sum(c["split"] == split for c in evaluated)
+        for split in ("development", "calibration", "test")
+    }
+    if evaluation_counts != {"development": 12, "calibration": 20, "test": 60}:
+        issues.append("development/calibration/test experiment coverage incomplete")
+    for cp in evaluated:
         base = root / "experiments"
         target_path = base / "interaction_targets" / (cp["id"] + ".json")
-        if not target_path.exists() or read(target_path).get("protocol") != "target-v2":
+        if not target_path.exists() or (
+            cp["split"] != "development" and read(target_path).get("protocol") != "target-v2"
+        ):
             issues.append("missing frozen target-v2")
         reviewed = artifact(base / "target_reviews" / (cp["id"] + ".json"), "target_reviews")
         if reviewed and not reviewed["result"].get("approved"):
             issues.append("rejected clarification targets")
         for method in METHODS:
             for kind in ("candidates", "understanding", "understanding_quality"):
-                artifact(base / kind / cp["id"] / (method + ".json"), kind)
+                artifact(
+                    base / kind / cp["id"] / (method + ".json"),
+                    kind,
+                    checkpoint=cp if kind in ("candidates", "understanding") else None,
+                    method=method,
+                )
             if method != "evolution":
                 artifact(base / "quality" / cp["id"] / (method + ".json"), "quality")
                 for side in (method, "evolution"):
@@ -180,6 +217,7 @@ def audit_delivery(root, queue):
         "complete": not issues,
         "dataset": data,
         "artifact_counts": counts,
+        "evaluation_checkpoint_counts": evaluation_counts,
         "issues": issues,
         "scope": "computational; human judgments remain separate",
     }

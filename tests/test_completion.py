@@ -36,6 +36,27 @@ def test_test_checkpoint_requires_all_methods_and_target_review(tmp_path):
     assert "missing annotation: cp" in report["issues"]
 
 
+def test_calibration_answer_coverage_is_also_required(tmp_path, monkeypatch):
+    for stage in (4, 6):
+        write(
+            tmp_path / "checkpoints" / f"cp{stage}.json",
+            {
+                "id": f"cp{stage}",
+                "split": "calibration",
+                "group_id": "G011",
+                "case_id": "gemini_v1_G011-T2",
+                "session": stage,
+            },
+        )
+    monkeypatch.setattr(
+        "tracemind.experiments.completion.BenchmarkBuilder.audit", lambda self: {"issues": []}
+    )
+    report = audit_delivery(tmp_path, SimpleNamespace())
+    # The agreed T2 calibration stage is S4; S6 remains annotated benchmark data.
+    assert report["evaluation_checkpoint_counts"]["calibration"] == 1
+    assert sum(i.startswith("missing candidates:") for i in report["issues"]) == 6
+
+
 def test_all_checkpoint_annotation_reuses_completed_result_without_api(tmp_path, monkeypatch):
     from tracemind.experiments import annotations, project
 
