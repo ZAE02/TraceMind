@@ -1,4 +1,4 @@
-"""Single-flight API transport with a durable request budget and no credential logs."""
+"""Bounded concurrent transport with atomic durable rate limits and private credentials."""
 
 from __future__ import annotations
 
@@ -32,8 +32,8 @@ def read_policy(path=SKILL):
     raw = path.read_text(encoding="utf-8")
     policy = json.loads(raw.split("<!-- API_POLICY_JSON", 1)[1].split("API_POLICY_JSON -->", 1)[0])
     if not (
-        policy["concurrency"] == 1
-        and policy["interval_seconds"] >= 30
+        1 <= policy["concurrency"] <= 4
+        and policy["interval_seconds"] >= 10
         and (
             policy["daily_limit"] is None
             or isinstance(policy["daily_limit"], int)
@@ -137,48 +137,86 @@ class LimitedAPI:
             )
 
     def _reserve(self, task, body, policy, skill_sha):
-        with self.connect() as conn:
-            blocked, pause_until = conn.execute(
-                "SELECT blocked,pause_until FROM control WHERE id=1"
-            ).fetchone()
-            if blocked:
-                raise APIStopped("API task is blocked: " + blocked)
-            used = conn.execute("SELECT count(*) FROM attempts WHERE task=?", (task,)).fetchone()[0]
-            if used >= policy["max_retries"] + 1:
-                raise APIStopped("task attempt limit reached; no further retry")
-            last = conn.execute("SELECT max(started) FROM attempts").fetchone()[0]
-        # Lock stays held while waiting and during transport. Each process uses this same ledger.
-        # One second margin covers local bookkeeping before the transport starts.
-        deadline = max(pause_until, (last + policy["interval_seconds"] + 1) if last else 0)
-        while deadline > time.time():
+        while True:
+            policy, skill_sha = read_policy()
             if (self.state / "STOP").exists():
                 raise APIStopped("request paused by local STOP marker")
-            time.sleep(min(1, deadline - time.time()))
-        # Read the skill again after any long wait, immediately before starting the request.
-        policy, skill_sha = read_policy()
-        if (self.state / "STOP").exists():
-            raise APIStopped("request paused by local STOP marker")
-        if last is not None and time.time() < last + policy["interval_seconds"] + 1:
-            return self._reserve(task, body, policy, skill_sha)
-        now = time.time()
-        day = datetime.fromtimestamp(now, ZoneInfo("Asia/Shanghai")).date().isoformat()
-        with self.connect() as conn:
-            if (
-                policy["daily_limit"] is not None
-                and conn.execute("SELECT count(*) FROM attempts WHERE day=?", (day,)).fetchone()[0]
-                >= policy["daily_limit"]
-            ):
-                raise APIStopped("daily API budget reached (including discovery and retries)")
-            attempt_id = str(uuid.uuid4())
-            conn.execute(
-                "INSERT INTO attempts(id,task,started,day,skill_sha,input_sha) VALUES(?,?,?,?,?,?)",
-                (attempt_id, task, now, day, skill_sha, hashlib.sha256(body or b"").hexdigest()),
-            )
-        return attempt_id, used
+            with self.connect() as conn:
+                conn.execute("BEGIN IMMEDIATE")
+                blocked, pause_until = conn.execute(
+                    "SELECT blocked,pause_until FROM control WHERE id=1"
+                ).fetchone()
+                if blocked:
+                    raise APIStopped("API task is blocked: " + blocked)
+                used = conn.execute(
+                    "SELECT count(*) FROM attempts WHERE task=?", (task,)
+                ).fetchone()[0]
+                if used >= policy["max_retries"] + 1:
+                    raise APIStopped("task attempt limit reached; no further retry")
+                last = conn.execute("SELECT max(started) FROM attempts").fetchone()[0]
+                now = time.time()
+                deadline = max(pause_until, last + policy["interval_seconds"] + 1 if last else 0)
+                if now >= deadline:
+                    day = datetime.fromtimestamp(now, ZoneInfo("Asia/Shanghai")).date().isoformat()
+                    if (
+                        policy["daily_limit"] is not None
+                        and conn.execute(
+                            "SELECT count(*) FROM attempts WHERE day=?", (day,)
+                        ).fetchone()[0]
+                        >= policy["daily_limit"]
+                    ):
+                        raise APIStopped(
+                            "daily API budget reached (including discovery and retries)"
+                        )
+                    attempt_id = str(uuid.uuid4())
+                    conn.execute(
+                        "INSERT INTO attempts(id,task,started,day,skill_sha,input_sha) VALUES(?,?,?,?,?,?)",
+                        (
+                            attempt_id,
+                            task,
+                            now,
+                            day,
+                            skill_sha,
+                            hashlib.sha256(body or b"").hexdigest(),
+                        ),
+                    )
+                    return attempt_id, used
+            # Do not hold a SQLite write transaction while another request runs/waits.
+            time.sleep(min(1, max(0.001, deadline - time.time())))
+
+    @contextmanager
+    def _request_slot(self, task):
+        # Task lock prevents parallel retries of the same task. OS releases slots on exit/crash.
+        task_key = hashlib.sha256(task.encode()).hexdigest()
+        with single_flight(self.state / "task_locks" / (task_key + ".lock")):
+            while True:
+                policy, _ = read_policy()
+                if (self.state / "STOP").exists():
+                    raise APIStopped("request paused by local STOP marker")
+                with self.connect() as conn:
+                    blocked = conn.execute("SELECT blocked FROM control WHERE id=1").fetchone()[0]
+                if blocked:
+                    raise APIStopped("API task is blocked: " + blocked)
+                acquired = None
+                for index in range(policy["concurrency"]):
+                    candidate = single_flight(self.state / "slots" / f"{index}.lock")
+                    try:
+                        candidate.__enter__()
+                    except APIStopped:
+                        continue
+                    acquired = candidate
+                    break
+                if acquired is not None:
+                    try:
+                        yield
+                    finally:
+                        acquired.__exit__(None, None, None)
+                    return
+                time.sleep(0.1)
 
     def request(self, method, route, task, payload=None):
         body = json.dumps(payload, ensure_ascii=False).encode() if payload is not None else None
-        with single_flight(self.state / "global.lock"):
+        with self._request_slot(task):
             while True:
                 policy, skill_sha = read_policy()
                 attempt_id, used = self._reserve(task, body, policy, skill_sha)

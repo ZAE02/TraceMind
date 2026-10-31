@@ -80,7 +80,7 @@ def test_429_wait_persists_and_attempts_count(api):
     client.request("GET", "/models", "two")
     with client.connect() as conn:
         final = conn.execute("SELECT max(started) FROM attempts").fetchone()[0]
-    assert final - starts[-1][0] >= 30
+    assert final - starts[-1][0] >= module.read_policy()[0]["interval_seconds"]
 
 
 def test_auth_failure_stops_all_future_tasks_without_retry(api):

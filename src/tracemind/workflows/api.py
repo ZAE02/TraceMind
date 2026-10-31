@@ -1,4 +1,4 @@
-"""Execute persisted graph interrupts through the shared single-flight API client."""
+"""Execute persisted graph interrupts through the shared bounded-concurrency API client."""
 
 from langgraph.types import Command
 

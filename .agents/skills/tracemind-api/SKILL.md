@@ -16,7 +16,7 @@ description: TraceMind 项目调用生成模型 API 时必须读取的连接、�
 
 ## 请求控制
 
-- 全局并发最多 1；两次请求开始时间至少相隔 30 秒。
+- 全局并发最多 4；任意两次请求开始时间至少相隔 10 秒（全局共享，非每个工作线程各计）。同一轨迹仍逐条依赖生成，不并发生成互相依赖的发言。
 - 用户已取消每日请求数量上限；继续按 Asia/Shanghai 日期记录全部尝试、失败及重试，保留可审计计数。
 - 用户已取消每批 20 条限制，可持续推进已授权的 20 组场景目标，直至完成、用户停止或触发错误停止条件。不得自行扩展到额外场景。一次发言为一条合成记录；共享开场单独计一条，不重复计入四条轨迹。
 - 每条发言独立生成、角色交替；仅发送当前样本必要的上下文。不得反复发送整个数据集或不断增长的完整历史。受控压缩时记录所选证据 ID 及上下文策略，不能声称与完整历史条件等价。
@@ -33,5 +33,5 @@ description: TraceMind 项目调用生成模型 API 时必须读取的连接、�
 程序读取以下策略；仅在用户明确修改限制后更新。当前取消数量上限不取消并发、时间间隔、身份、错误处理和有限重试要求：
 
 <!-- API_POLICY_JSON
-{"version":2,"concurrency":1,"interval_seconds":30,"daily_limit":null,"batch_size":null,"max_retries":2,"retry_429_seconds":300,"backoff_seconds":60,"approved_model_aliases":{"gemini-3.8-flash":"gemini-3.8-flash-tiered"}}
+{"version":3,"concurrency":4,"interval_seconds":10,"daily_limit":null,"batch_size":null,"max_retries":2,"retry_429_seconds":300,"backoff_seconds":60,"approved_model_aliases":{"gemini-3.8-flash":"gemini-3.8-flash-tiered"}}
 API_POLICY_JSON -->

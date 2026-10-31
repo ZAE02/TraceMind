@@ -3,6 +3,77 @@ import pytest
 from tracemind import api_batch
 
 
+def test_batch_dispatches_four_independent_trajectories_but_imports_on_main_thread(
+    tmp_path, monkeypatch
+):
+    import threading
+
+    barrier = threading.Barrier(4)
+    main_thread = threading.get_ident()
+    imported = []
+
+    class API:
+        model = "gemini-3.8-flash"
+
+        def models(self, batch_id):
+            return {"confirmed": True}
+
+        def generate(self, job_id, messages, max_tokens):
+            barrier.wait(timeout=5)
+            return "fictional", {"model": self.model, "execution_id": job_id}
+
+    class Queue:
+        def __init__(self, *args, **kwargs):
+            pass
+
+        def setup(self):
+            pass
+
+        def complete(self, job_id, *args):
+            assert threading.get_ident() == main_thread
+            imported.append(job_id)
+
+        def pending(self, limit):
+            return [
+                {
+                    "job_id": f"job-{n}",
+                    "model": API.model,
+                    "role": "counselor",
+                    "purpose": f"dialogue:case{n}:S1:U2",
+                    "allowed_context": {
+                        "case_id": f"case{n}",
+                        "session": 1,
+                        "dataset_namespace": api_batch.NAMESPACE,
+                        "instruction": "respond",
+                        "previous_sessions": [],
+                        "current_dialogue": [],
+                    },
+                }
+                for n in range(4)
+            ]
+
+    class Builder:
+        def __init__(self, *args):
+            pass
+
+        def advance(self, **kwargs):
+            assert kwargs["cases"] == {f"case{n}" for n in range(4)}
+
+        def audit(self):
+            return {"issues": []}
+
+    monkeypatch.setattr(api_batch, "LOCAL", tmp_path)
+    monkeypatch.setattr(api_batch, "prepare", lambda root: None)
+    monkeypatch.setattr(api_batch, "dsn", lambda: "unused")
+    monkeypatch.setattr(api_batch, "LimitedAPI", API)
+    monkeypatch.setattr(api_batch, "JobQueue", Queue)
+    monkeypatch.setattr(api_batch, "BenchmarkBuilder", Builder)
+    monkeypatch.setattr(api_batch, "next_case", lambda *args: ("G001", "case0"))
+    monkeypatch.setattr(api_batch, "active_cases", lambda *args: {f"case{n}" for n in range(4)})
+    result = api_batch.run_batch("parallel", limit=4, review_sessions=False)
+    assert result["status"] == "completed" and len(set(imported)) == 4
+
+
 def test_exactly_one_batch_and_resume_completed_batch_does_not_generate(tmp_path, monkeypatch):
     calls = []
 
@@ -57,6 +128,7 @@ def test_exactly_one_batch_and_resume_completed_batch_does_not_generate(tmp_path
         def audit(self):
             return {"issues": []}
 
+    monkeypatch.setattr(api_batch, "active_cases", lambda *args: {"case"})
     monkeypatch.setattr(api_batch, "LOCAL", tmp_path)
     monkeypatch.setattr(api_batch, "prepare", lambda root: None)
     monkeypatch.setattr(api_batch, "dsn", lambda: "not-used")
@@ -136,6 +208,7 @@ def test_interrupted_import_reuses_saved_result_and_ignores_reports(tmp_path, mo
         def audit(self):
             return {"issues": []}
 
+    monkeypatch.setattr(api_batch, "active_cases", lambda *args: {"case"})
     monkeypatch.setattr(api_batch, "LOCAL", tmp_path)
     monkeypatch.setattr(api_batch, "prepare", lambda root: None)
     monkeypatch.setattr(api_batch, "dsn", lambda: "not-used")
@@ -183,6 +256,7 @@ def test_final_turn_restore_reenters_progress_but_real_empty_queue_stops(
             return {"issues": []}
 
     progress = []
+    monkeypatch.setattr(api_batch, "active_cases", lambda *args: {"case"})
     monkeypatch.setattr(api_batch, "LOCAL", tmp_path)
     monkeypatch.setattr(api_batch, "prepare", lambda root: None)
     monkeypatch.setattr(api_batch, "dsn", lambda: "unused")
