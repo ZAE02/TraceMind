@@ -209,6 +209,17 @@ class BenchmarkBuilder:
                         }
                         if self.namespace:
                             visible["dataset_namespace"] = self.namespace
+                        if saved.get("generation_revision"):
+                            if plan.split not in {"development", "calibration"} or (
+                                self.root / "protocol/frozen.json"
+                            ).exists():
+                                raise ValueError("session revisions require unfrozen non-test data")
+                            visible["generation_revision"] = saved["generation_revision"]
+                            visible["consultation_frame"] = (
+                                "本次交流发生在咨询会谈内。工作场所的事件只能作为已发生的回顾或"
+                                "会谈结束后的计划；双方不会在会谈中走到单位现场、实时执行计划或直播动作。"
+                                "继续探索感受、顾虑及待澄清的问题，不把讨论计划当作已经完成的行动。"
+                            )
                         if role == "client":
                             visible.update(
                                 profile=plan.profile,
@@ -222,6 +233,8 @@ class BenchmarkBuilder:
                             visible["instruction"] = (
                                 "你是虚构长期咨询的咨询师。仅根据公开对话回应当前来访者，一至三句。区分事实与推测，允许来访者否定解释；不做诊断，不预设隐藏原因。"
                             )
+                        if visible.get("consultation_frame"):
+                            visible["instruction"] += " " + visible["consultation_frame"]
                         parent = rows[-1]["job_id"] if rows else None
                         job_id = self.queue.enqueue(
                             f"dialogue:{case_id}:S{session}:U{turn}",
