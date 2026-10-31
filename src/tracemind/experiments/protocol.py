@@ -25,6 +25,7 @@ TASK_A_SCHEMA = {
 
 def protocol_hash():
     from .annotations import annotation_contract
+    from .api_executor import QUALITY_OUTPUT_NORMALIZATION
 
     return digest(
         {
@@ -34,6 +35,7 @@ def protocol_hash():
             "task_a_rubric": TASK_A_RUBRIC,
             "task_a_schema": TASK_A_SCHEMA,
             "annotation_contract": annotation_contract(),
+            "quality_metadata_normalization": QUALITY_OUTPUT_NORMALIZATION,
         }
     )
 

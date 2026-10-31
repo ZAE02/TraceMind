@@ -6,6 +6,34 @@ from tracemind.api_client import APIStopped
 from tracemind.benchmark.builder import read, write
 from tracemind.jobs import digest, validate_job_result
 
+QUALITY_OUTPUT_NORMALIZATION = "unscored-top-level-quality-rationale-v1"
+
+
+def normalize_quality_metadata(request, result):
+    """Retain an extra global explanation as metadata, never modify judgments.
+
+    This is a narrow schema adapter, not a response retry or general repair.
+    All required score/error/preference fields must still validate unchanged.
+    """
+    from tracemind.evaluation.protocol import QUALITY_SCHEMA
+
+    if (
+        request["role"] != "blinded quality reviewer"
+        or request["output_schema"] != QUALITY_SCHEMA
+        or not isinstance(result, dict)
+        or set(result) - set(QUALITY_SCHEMA["properties"]) != {"rationale"}
+        or not isinstance(result["rationale"], str)
+    ):
+        raise ValueError("response is outside the metadata-only normalization policy")
+    canonical = {key: value for key, value in result.items() if key != "rationale"}
+    validate_job_result(QUALITY_SCHEMA, canonical)
+    return canonical, {
+        "policy": QUALITY_OUTPUT_NORMALIZATION,
+        "original_json_sha256": digest(result),
+        "canonical_result_sha256": digest(canonical),
+        "unscored_metadata": {"rationale": result["rationale"]},
+    }
+
 
 class TrackingQueue:
     def __init__(self, queue):
@@ -91,8 +119,12 @@ def execute_job(queue, api, job_id, directory):
     try:
         validate_job_result(schema, result)
     except Exception:
-        raise APIStopped(
-            "experimental task schema validation failed; preserved raw output, no content retry"
-        ) from None
+        try:
+            result, normalization = normalize_quality_metadata(request, result)
+            provenance = {**provenance, "output_normalization": normalization}
+        except Exception:
+            raise APIStopped(
+                "experimental task schema validation failed; preserved raw output, no content retry"
+            ) from None
     queue.complete(job_id, result, provenance)
     return queue.get(job_id)
