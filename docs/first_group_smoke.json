@@ -1,0 +1,49 @@
+{
+  "verified_at": "2026-10-31T02:45:10.037307+00:00",
+  "scope": "first development group engineering verification; no held-out effect claim",
+  "group": "G001",
+  "complete_sessions": 24,
+  "trajectories": 4,
+  "checkpoints": 12,
+  "artifact_counts": {
+    "candidates": 72,
+    "understanding": 72,
+    "understanding_quality": 72,
+    "quality": 60,
+    "access": 120,
+    "interactions": 36,
+    "simulator_checks": 36
+  },
+  "verified_unique_model_jobs": 576,
+  "requested_models": [
+    "gemini-3.8-flash"
+  ],
+  "returned_models": [
+    "gemini-3.8-flash-tiered"
+  ],
+  "quality_metadata_only_adaptations": 1,
+  "input_scope_issues": [],
+  "source_and_BGE_history_budget_audit": {
+    "candidate_count": 72,
+    "understanding_count": 72,
+    "issues": []
+  },
+  "history_token_limit": 4096,
+  "human_review": "pending; no human judgments synthesized",
+  "formal_calibration_and_test": "not run yet",
+  "project_target": {
+    "base_groups": 20,
+    "trajectories": 80,
+    "sessions": 480,
+    "checkpoints": 240
+  },
+  "full_project_complete": false,
+  "source_code_commit": "c4743a05353d64fca91c54dc9d5332b4347bc305",
+  "BGE_M3_tokenizer_revision": "5617a9f61b028005a4858fdac845db406aefb181",
+  "cross_encoder_revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "limitations": [
+    "Development engineering verification only; the first development checkpoint retains its documented legacy preparation/target snapshot.",
+    "Synthesis, answers and model review use the same designated model; human judgments remain pending.",
+    "Formal calibration and held-out test effects have not been measured."
+  ]
+}

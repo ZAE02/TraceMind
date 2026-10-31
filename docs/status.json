@@ -1,13 +1,13 @@
 {
-  "reported_at": "2026-10-30T19:37:53.830918+00:00",
+  "reported_at": "2026-10-31T02:46:59.237310+00:00",
   "version": "0.2.0",
   "dataset": {
     "plans": 20,
     "approved_plans": 20,
-    "trajectories": 4,
-    "complete_trajectories": 1,
-    "complete_sessions": 15,
-    "checkpoints": 7,
+    "trajectories": 5,
+    "complete_trajectories": 4,
+    "complete_sessions": 26,
+    "checkpoints": 13,
     "issues": [],
     "complete": false
   },
@@ -20,11 +20,11 @@
     "status": "running",
     "reason": null,
     "reported_batch_id": "gemini-continuous-20261030-01",
-    "accepted_records_in_reported_batch": 405,
+    "accepted_records_in_reported_batch": 586,
     "record_count_scope": "historical_successes_including_archived_revisions; active_valid_counts_are_in_dataset",
-    "api_requests_in_reported_batch": 433,
-    "project_api_requests_since_run_start_including_experiments": 730,
-    "model_reviewed_sessions_in_run": 15,
+    "api_requests_in_reported_batch": 626,
+    "project_api_requests_since_run_start_including_experiments": 1435,
+    "model_reviewed_sessions_in_run": 26,
     "continuation": "authorized_until_current_20_group_target_or_error_stop"
   },
   "retained_terra_v2_not_mixed_with_gemini": {
@@ -97,7 +97,7 @@
   },
   "project_workflow": {
     "phase": "synthesis",
-    "updated_at": "2026-10-30T19:37:38.054373+00:00",
+    "updated_at": "2026-10-31T02:46:29.922645+00:00",
     "human_review": "pending_not_model_filled"
   }
 }
