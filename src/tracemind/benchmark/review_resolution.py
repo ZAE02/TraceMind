@@ -141,6 +141,12 @@ def adjudicate(root, session, original, queue, api, directory):
 
 def quarantined_cases(root):
     cases = set()
+    # A source lost by a local transport/import failure is not silently regenerated
+    # or relabeled as a quality rejection; retain a separate recovery record.
+    for path in (root / "source_quarantines").glob("*.json"):
+        value = read(path)
+        if value.get("status") == "unresolved":
+            cases.add(value["case_id"])
     for p in (root / "dialogues").glob("*/S*.json"):
         session = read(p)
         review = root / "dialogue_reviews" / (label(session) + ".json")

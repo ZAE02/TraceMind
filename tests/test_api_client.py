@@ -94,6 +94,34 @@ def test_auth_failure_stops_all_future_tasks_without_retry(api):
     assert b"test-secret" not in client.database.read_bytes()
 
 
+def test_account_prose_false_positive_and_real_notice_preserved(api):
+    client, _ = api
+
+    class Ordinary(Response):
+        def read(self, maximum):
+            return b'{"thinking":"without an exhaustive account of the verification process", "ok":true}'
+
+    client.opener = Transport([Ordinary()])
+    client.request("GET", "/fixture", "ordinary-prose")
+    assert module.account_service_notice("Your account requires verification")
+    assert module.account_service_notice("Account verification is required")
+    assert module.account_service_notice("Service has been disabled")
+
+    class Notice(Response):
+        def read(self, maximum):
+            return b'{"error":{"message":"Account verification required"}}'
+
+    client.opener = Transport([Notice()])
+    with pytest.raises(module.APIStopped, match="account/service stop"):
+        client.request("GET", "/fixture", "genuine-notice")
+    with client.connect() as conn:
+        ident = conn.execute("SELECT id FROM attempts WHERE task='genuine-notice'").fetchone()[0]
+    preserved = json.loads((client.state / "responses" / (ident + ".json")).read_text())
+    assert preserved["error"]["message"] == "Account verification required"
+    with pytest.raises(module.APIStopped, match="blocked"):
+        client.request("GET", "/fixture", "after-notice")
+
+
 def test_response_model_mismatch_is_not_accepted_or_retried(api):
     client, _ = api
 

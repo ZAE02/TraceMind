@@ -78,9 +78,7 @@ def test_any_rejection_or_fabricated_evidence_keeps_case_quarantined(tmp_path, m
     reject = {
         "approved": False,
         "rationale": "defect",
-        "findings": [
-            {"utterance_id": "U09", "quote": quote, "reason": "contamination"}
-        ],
+        "findings": [{"utterance_id": "U09", "quote": quote, "reason": "contamination"}],
     }
     approve = {"approved": True, "findings": [], "rationale": "no defect"}
     root, session, original, q, calls = setup(tmp_path, monkeypatch, [reject, approve])
@@ -138,3 +136,15 @@ def test_quarantine_skips_only_affected_trajectory(tmp_path, monkeypatch):
         {"approved": True, "plan_sha256": digest(plan.model_dump())},
     )
     assert next_case(root, SimpleNamespace(plans=lambda: [plan])) == ("G004", "gemini_v1_G004-T4")
+
+
+def test_missing_transport_source_is_not_regenerated_or_approved(tmp_path):
+    write(
+        tmp_path / "source_quarantines/task.json",
+        {
+            "case_id": "gemini_v1_G012-T1",
+            "status": "unresolved",
+            "reason": "original wire envelope unavailable; proxy content retained",
+        },
+    )
+    assert module.quarantined_cases(tmp_path) == {"gemini_v1_G012-T1"}

@@ -24,6 +24,18 @@ from .config import LOCAL, ROOT
 SKILL = ROOT / ".agents/skills/tracemind-api/SKILL.md"
 
 
+def account_service_notice(text):
+    # "account of the verification process" is ordinary prose, not an account notice.
+    return re.search(
+        r"account.{0,25}(?:verification\s+(?:is\s+)?(?:required|needed)|"
+        r"(?:requires?|needs?)\s+(?:identity\s+)?verif)|verify\s+your\s+account|"
+        r"verification.{0,20}required|service.{0,20}disabled|terms of service|"
+        r"违反.{0,8}条款|账户.{0,8}验证|账号.{0,8}验证|服务.{0,8}禁用",
+        text,
+        re.I,
+    )
+
+
 class APIStopped(RuntimeError):
     """An actionable, already sanitized stop reason."""
 
@@ -247,11 +259,26 @@ class LimitedAPI:
                     )
                     raise APIStopped("transport stopped; inspect endpoint configuration") from None
                 text = raw.decode("utf-8", errors="replace")
-                fatal_notice = re.search(
-                    r"account.{0,25}verif|verification.{0,20}required|service.{0,20}disabled|terms of service|违反.{0,8}条款|账户.{0,8}验证|账号.{0,8}验证|服务.{0,8}禁用",
-                    text,
-                    re.I,
-                )
+                # Preserve original HTTP200 JSON before a notice stop, but never credentials.
+                # It remains a blocked attempt, not a successful reusable completion.
+                if status == 200:
+                    try:
+                        inspectable = json.loads(text)
+                    except ValueError:
+                        inspectable = None
+                    if self.key in text or self.key in json.dumps(inspectable, ensure_ascii=False):
+                        self._finish(
+                            attempt_id,
+                            status,
+                            "credential reflected",
+                            blocked="credential reflected by provider",
+                        )
+                        raise APIStopped("provider reflected a credential; response was not saved")
+                    if inspectable is not None:
+                        from .benchmark.builder import write
+
+                        write(self.state / "responses" / (attempt_id + ".json"), inspectable)
+                fatal_notice = account_service_notice(text)
                 if status in (401, 403) or fatal_notice:
                     reason = f"HTTP {status}: credential/account/service stop; no retries"
                     self._finish(attempt_id, status, reason, blocked=reason)
