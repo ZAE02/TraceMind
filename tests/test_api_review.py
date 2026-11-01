@@ -86,5 +86,7 @@ def test_rejected_or_invalid_review_is_not_repeated_on_resume(tmp_path, response
     queue, api = Queue(), API(response)
     for _ in range(2):
         with pytest.raises(APIStopped):
-            review_completed_sessions(root, queue, api, directory, state, state_path)
+            review_completed_sessions(
+                root, queue, api, directory, state, state_path, isolate_rejections=False
+            )
     assert len(api.calls) == 1

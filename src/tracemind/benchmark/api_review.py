@@ -18,7 +18,11 @@ REVIEW_SCHEMA = {
 }
 
 
-def review_completed_sessions(root, queue, api, directory, state, state_path):
+def review_completed_sessions(
+    root, queue, api, directory, state, state_path, *, isolate_rejections=True
+):
+    from .review_resolution import adjudicate, quarantined_cases
+
     reviewed = 0
     for path in sorted((root / "dialogues").glob("*/S*.json")):
         session = read(path)
@@ -38,6 +42,9 @@ def review_completed_sessions(root, queue, api, directory, state, state_path):
             ):
                 raise APIStopped("session review source mismatch")
             if not existing.get("approved"):
+                if isolate_rejections:
+                    reviewed += int(adjudicate(root, session, existing, queue, api, directory))
+                    continue
                 raise APIStopped(
                     "session quality review rejected; inspect saved issues before continuing"
                 )
@@ -128,10 +135,14 @@ def review_completed_sessions(root, queue, api, directory, state, state_path):
             },
         )
         if not artifact["result"]["approved"]:
+            if isolate_rejections:
+                reviewed += int(adjudicate(root, session, read(target), queue, api, directory))
+                continue
             raise APIStopped(
                 "session quality review rejected; inspect saved issues before continuing"
             )
         reviewed += 1
     state["reviewed_sessions"] = reviewed
+    state["quarantined_cases"] = sorted(quarantined_cases(root))
     write(state_path, state)
     return reviewed

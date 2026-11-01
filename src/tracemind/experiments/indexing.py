@@ -20,6 +20,19 @@ def collect_records(root: Path) -> list[EvidenceRecord]:
         session = read(path)
         if not session.get("complete"):
             continue
+        # Gemini production indexing accepts only reviewed sources and no descendants
+        # of an unresolved rejection. Legacy test fixtures/archives retain their old contract.
+        manifest = root / "dataset.json"
+        if manifest.exists() and read(manifest).get("namespace") == "gemini_v1":
+            from tracemind.benchmark.review_resolution import effective_approval
+
+            if not effective_approval(root, session):
+                continue
+            previous = [
+                read(p) for p in path.parent.glob("S*.json") if int(p.stem[1:]) < session["session"]
+            ]
+            if any(not effective_approval(root, older) for older in previous):
+                continue
         rows = session["utterances"]
         if len(rows) != 16 or not isinstance(session["session"], int) or session["session"] < 1:
             raise ValueError(f"invalid completed session: {path}")

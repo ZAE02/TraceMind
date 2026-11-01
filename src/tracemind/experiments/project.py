@@ -97,6 +97,8 @@ class ProjectPipeline:
         ]
 
     def group_complete(self, group):
+        from tracemind.benchmark.review_resolution import effective_approval
+
         for branch in range(1, 5):
             for session in range(1, 7):
                 case = f"gemini_v1_{group}-T{branch}"
@@ -106,7 +108,7 @@ class ProjectPipeline:
                     not p.exists()
                     or not r.exists()
                     or not read(p).get("complete")
-                    or not read(r).get("approved")
+                    or not effective_approval(self.root, read(p))
                 ):
                     return False
         return True

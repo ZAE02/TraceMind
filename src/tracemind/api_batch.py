@@ -79,6 +79,9 @@ def prepare(root):
 
 
 def next_case(root, builder):
+    from .benchmark.review_resolution import quarantined_cases
+
+    excluded = quarantined_cases(root)
     for plan in builder.plans():
         review_path = root / "plan_reviews" / (plan.group_id + ".json")
         if not review_path.exists():
@@ -90,6 +93,8 @@ def next_case(root, builder):
             continue
         for branch in range(1, 5):
             case = f"{NAMESPACE}_{plan.group_id}-T{branch}"
+            if case in excluded:
+                continue
             complete = True
             for number in range(1, 7):
                 path = root / "dialogues" / case / f"S{number:02}.json"
@@ -108,8 +113,13 @@ def next_case(root, builder):
 def active_cases(root, builder, group, capacity):
     """Independent trajectories in the earliest incomplete group; preserve group gates."""
     result = []
+    from .benchmark.review_resolution import quarantined_cases
+
+    excluded = quarantined_cases(root)
     for branch in range(1, 5):
         case = f"{NAMESPACE}_{group}-T{branch}"
+        if case in excluded:
+            continue
         paths = [root / "dialogues" / case / f"S{n:02}.json" for n in range(1, 7)]
         if any(not p.exists() or not read(p).get("complete") for p in paths):
             result.append(case)
@@ -230,6 +240,12 @@ def run_batch(batch_id=None, limit=None, *, review_sessions=True, progress_callb
                     progress_callback(root, queue, api)
                 selection = next_case(root, builder)
                 if selection is None:
+                    if state.get("quarantined_cases"):
+                        state["status"] = "awaiting_quality_resolution"
+                        state["reason"] = (
+                            "all unblocked trajectories completed; quarantined cases remain"
+                        )
+                        break
                     state["status"] = "completed"
                     state["completion_reason"] = "all_approved_scene_trajectories_generated"
                     break

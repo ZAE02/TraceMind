@@ -88,15 +88,25 @@ def audit_delivery(root, queue):
         return value
 
     for path in (root / "dialogues").glob("*/S*.json"):
+        from tracemind.benchmark.review_resolution import effective_approval
+
         session = read(path)
         review = artifact(
             root / "dialogue_reviews" / f"{session['case_id']}_S{session['session']:02}.json",
             "session_reviews",
         )
         if review and (
-            not review.get("approved") or review.get("dialogue_sha256") != digest(session)
+            not effective_approval(root, session, queue)
+            or review.get("dialogue_sha256") != digest(session)
         ):
             issues.append("session review no longer approves its actual source")
+        resolution = (
+            root / "review_resolutions" / f"{session['case_id']}_S{session['session']:02}.json"
+        )
+        if resolution.exists():
+            for decision in read(resolution).get("decisions", []):
+                job(decision.get("job_id"), decision.get("result_sha256"))
+                counts["session_adjudications"] = counts.get("session_adjudications", 0) + 1
     for group in {c["group_id"] for c in checkpoints}:
         for stage in (2, 4, 6):
             reviewed = artifact(
