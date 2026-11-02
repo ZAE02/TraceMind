@@ -5,18 +5,36 @@ import os
 import subprocess
 
 from tracemind.api_batch import run_batch
-from tracemind.api_client import APIStopped, LimitedAPI
-from tracemind.benchmark.builder import write
+from tracemind.api_client import APIStopped, LimitedAPI, single_flight
+from tracemind.benchmark.builder import read, write
 from tracemind.config import LOCAL, ROOT, dsn
 from tracemind.experiments.project import ProjectPipeline
 from tracemind.jobs import JobQueue
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--batch-id", required=True)
+parser.add_argument("--ready-calibration", action="store_true")
 args = parser.parse_args()
 root = LOCAL / "datasets/gemini_v1"
 pipeline = ProjectPipeline(root)
 try:
+    if args.ready_calibration:
+        with single_flight(LOCAL / "api/batch.lock"):
+            directory = LOCAL / "api/batches" / args.batch_id
+            if read(directory / "state.json")["status"] != "awaiting_quality_resolution":
+                raise APIStopped("ready calibration requires an exhausted synthesis queue")
+            api = LimitedAPI()
+            confirmation = read(directory / "models.json")
+            if not confirmation.get("confirmed") or confirmation["specified_model"] != api.model:
+                raise APIStopped("existing batch lacks the designated model confirmation")
+            queue = JobQueue(dsn(), model=api.model, reasoning="provider-default")
+            inventory = pipeline.advance_ready_calibration(queue, api)
+            pipeline.status(
+                "awaiting_quality_resolution",
+                calibration_completed=len(inventory["completed_refs"]),
+                calibration_target=20,
+            )
+        raise SystemExit(0)
     synthesis = run_batch(args.batch_id, progress_callback=pipeline.progress)
     if synthesis["status"] != "completed":
         phase = (

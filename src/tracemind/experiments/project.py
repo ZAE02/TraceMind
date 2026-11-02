@@ -231,7 +231,7 @@ class ProjectPipeline:
                 {"job_id": jid, "result_sha256": job["result_sha256"], "result": output},
             )
 
-    def counterfactual_review(self, queue, api, group):
+    def counterfactual_review(self, queue, api, group, stages=(2, 4, 6), *, isolate=False):
         schema = {
             "type": "object",
             "required": ["approved", "issues"],
@@ -241,7 +241,7 @@ class ProjectPipeline:
             },
             "additionalProperties": False,
         }
-        for stage in (2, 4, 6):
+        for stage in stages:
             cps = [cp for cp in self.checkpoints(group=group) if cp["session"] == stage]
             if len(cps) != 4 or len({cp["latest_client"]["text"] for cp in cps}) != 1:
                 raise APIStopped("counterfactual review requires four identical current openings")
@@ -271,7 +271,10 @@ class ProjectPipeline:
                 {"job_id": jid, "result_sha256": job["result_sha256"], **job["result"]},
             )
             if not job["result"]["approved"]:
+                if isolate:
+                    return False
                 raise APIStopped("counterfactual review rejected; inspect preserved issues")
+        return True
 
     def progress(self, root, queue, api):
         # A real first-checkpoint test catches integration failures early.
@@ -339,6 +342,112 @@ class ProjectPipeline:
             )
         self.status("synthesis", model=api.model)
 
+    def calibration_ready(self, cp, queue):
+        from tracemind.benchmark.review_resolution import effective_approval, label
+
+        for path in (self.root / "source_quarantines").glob("*.json"):
+            record = read(path)
+            if (
+                record["status"] == "unresolved"
+                and record["case_id"] == cp["case_id"]
+                and record["session"] <= cp["session"]
+            ):
+                return False
+        history = []
+        for number in range(1, cp["session"] + 1):
+            path = self.root / "dialogues" / cp["case_id"] / f"S{number:02}.json"
+            if not path.exists():
+                return False
+            session = read(path)
+            if not session["complete"] or not effective_approval(self.root, session, queue):
+                return False
+            review = read(self.root / "dialogue_reviews" / (label(session) + ".json"))
+            job = queue.get(review["job_id"])
+            if (
+                job["status"] != "completed"
+                or job["result_sha256"] != review["result_sha256"]
+                or digest({k: review[k] for k in ("approved", "issues")}) != job["result_sha256"]
+            ):
+                raise APIStopped("calibration review source mismatch")
+            if number < cp["session"]:
+                history.append({"session": number, "utterances": session["utterances"]})
+        if (
+            cp["public_sha256"] != digest({k: v for k, v in cp.items() if k != "public_sha256"})
+            or cp["split"] != "calibration"
+            or session["split"] != cp["split"]
+            or session["group_id"] != cp["group_id"]
+            or cp["id"] != f"{cp['case_id']}-CP{cp['session'] // 2}"
+            or cp["previous_sessions"] != history
+            or cp["current_dialogue"] != []
+            or cp["latest_client"] != session["utterances"][0]
+        ):
+            raise APIStopped("calibration checkpoint differs from reviewed source")
+        return True
+
+    def advance_ready_calibration(self, queue, api):
+        """Reuse the prespecified calibration tasks while unrelated sources await resolution."""
+        from collections import defaultdict
+
+        stages = defaultdict(list)
+        for cp in self.checkpoints("calibration"):
+            stages[(cp["group_id"], cp["session"])].append(cp)
+        schedule = {1: 2, 2: 4, 3: 6, 4: 2}
+        ready = []
+        for (group, stage), quartet in sorted(stages.items()):
+            if {cp["case_id"] for cp in quartet} != {
+                f"gemini_v1_{group}-T{branch}" for branch in schedule
+            } or not all(self.calibration_ready(cp, queue) for cp in quartet):
+                continue
+            ready.append(
+                (
+                    group,
+                    stage,
+                    [
+                        cp
+                        for cp in quartet
+                        if stage == schedule[int(cp["case_id"].rsplit("-T", 1)[1])]
+                    ],
+                )
+            )
+        path = self.root / "project/ready_calibration.json"
+        inventory = {
+            "planned": 20,
+            "eligible": [cp["id"] for _, _, row in ready for cp in row],
+            "completed_refs": [],
+            "rejected_stages": [],
+        }
+        write(path, inventory)
+        for group, stage, selection in ready:
+            self.status("eligible_calibration", group=group, stage=stage)
+            if self.counterfactual_review(queue, api, group, (stage,), isolate=True):
+                for cp in selection:
+                    inventory["completed_refs"].extend(self.calibrate(queue, api, [cp]))
+                    write(path, inventory)
+            else:
+                inventory["rejected_stages"].append([group, stage])
+                write(path, inventory)
+        return inventory
+
+    def calibrate(self, queue, api, calibration):
+        refs = []
+        from tracemind.evaluation.protocol import QUALITY_SCHEMA
+
+        for cp in calibration:
+            self.drive_checkpoint(queue, api, cp, "calibration")
+            quality = read(self.root / "experiments/quality" / cp["id"] / "temporalrag.json")
+            first = queue.get(quality["job_id"])
+            repeat = queue.enqueue(
+                "calibration-repeat:" + first["id"],
+                "blinded quality reviewer",
+                first["request"]["allowed_context"],
+                QUALITY_SCHEMA,
+            )
+            execute_job(queue, api, repeat, self.root / "experiments/api_raw")
+            refs.append(
+                {"checkpoint_id": cp["id"], "quality_job_id": first["id"], "repeat_job_id": repeat}
+            )
+        return refs
+
     def finish(self, queue, api):
         from tracemind.benchmark.builder import BenchmarkBuilder
         from tracemind.evaluation.export import export_packets
@@ -366,23 +475,7 @@ class ProjectPipeline:
                         if cp["case_id"].endswith(f"-T{branch}") and cp["session"] == stage
                     )
                 )
-        refs = []
-        from tracemind.evaluation.protocol import QUALITY_SCHEMA
-
-        for cp in calibration:
-            self.drive_checkpoint(queue, api, cp, "calibration")
-            quality = read(self.root / "experiments/quality" / cp["id"] / "temporalrag.json")
-            first = queue.get(quality["job_id"])
-            repeat = queue.enqueue(
-                "calibration-repeat:" + first["id"],
-                "blinded quality reviewer",
-                first["request"]["allowed_context"],
-                QUALITY_SCHEMA,
-            )
-            execute_job(queue, api, repeat, self.root / "experiments/api_raw")
-            refs.append(
-                {"checkpoint_id": cp["id"], "quality_job_id": first["id"], "repeat_job_id": repeat}
-            )
+        refs = self.calibrate(queue, api, calibration)
         freeze_protocol(self.root, queue, refs)
         for cp in self.checkpoints("test"):
             self.drive_checkpoint(queue, api, cp, "test_evaluation")

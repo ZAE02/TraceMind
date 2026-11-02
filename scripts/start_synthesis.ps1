@@ -1,4 +1,4 @@
-param([string]$RunId = '')
+param([string]$RunId = '', [switch]$ReadyCalibration)
 $ErrorActionPreference = 'Stop'
 $projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $processFile = Join-Path $projectRoot '.local/api/continuous-process.json'
@@ -20,6 +20,10 @@ $runnerScript = Join-Path $projectRoot 'scripts/run_project.py'
 $stamp = [DateTime]::UtcNow.ToString('yyyyMMdd-HHmmss')
 $outFile = Join-Path $projectRoot ('.local/api/' + $RunId + '-' + $stamp + '.stdout.log')
 $errFile = Join-Path $projectRoot ('.local/api/' + $RunId + '-' + $stamp + '.stderr.log')
-$worker = Start-Process -FilePath $runnerExe -ArgumentList @('-X','utf8','-u',('"' + $runnerScript + '"'),'--batch-id',$RunId) -WorkingDirectory $projectRoot -WindowStyle Hidden -RedirectStandardOutput $outFile -RedirectStandardError $errFile -PassThru
-@{pid=$worker.Id;batch_id=$RunId;started_at=[DateTime]::UtcNow.ToString('o');limit=$null;interval_seconds=10;concurrency=4;stdout=$outFile;stderr=$errFile;scope='full_project_20basegroups_models_reports'} | ConvertTo-Json | Set-Content -LiteralPath $processFile -Encoding utf8
+$runnerArgs = @('-X','utf8','-u',('"' + $runnerScript + '"'),'--batch-id',$RunId)
+$runScope = 'full_project_20basegroups_models_reports'
+if ($ReadyCalibration) { $runnerArgs += '--ready-calibration' }
+if ($ReadyCalibration) { $runScope = 'prespecified_eligible_calibration' }
+$worker = Start-Process -FilePath $runnerExe -ArgumentList $runnerArgs -WorkingDirectory $projectRoot -WindowStyle Hidden -RedirectStandardOutput $outFile -RedirectStandardError $errFile -PassThru
+@{pid=$worker.Id;batch_id=$RunId;started_at=[DateTime]::UtcNow.ToString('o');limit=$null;interval_seconds=10;concurrency=4;stdout=$outFile;stderr=$errFile;scope=$runScope} | ConvertTo-Json | Set-Content -LiteralPath $processFile -Encoding utf8
 Write-Output ('Started synthesis process PID ' + $worker.Id)
