@@ -9,6 +9,10 @@ from tracemind.jobs import digest, validate_job_result
 QUALITY_OUTPUT_NORMALIZATION = "unscored-top-level-quality-rationale-v1"
 
 
+class InvalidTaskOutput(APIStopped):
+    """A saved response failed JSON/schema validation, not a transport failure."""
+
+
 def normalize_quality_metadata(request, result):
     """Retain an extra global explanation as metadata, never modify judgments.
 
@@ -113,7 +117,7 @@ def execute_job(queue, api, job_id, directory):
         try:
             result = json.loads(text)
         except ValueError:
-            raise APIStopped(
+            raise InvalidTaskOutput(
                 "experimental task returned invalid JSON; preserved raw output, no content retry"
             ) from None
     try:
@@ -123,7 +127,7 @@ def execute_job(queue, api, job_id, directory):
             result, normalization = normalize_quality_metadata(request, result)
             provenance = {**provenance, "output_normalization": normalization}
         except Exception:
-            raise APIStopped(
+            raise InvalidTaskOutput(
                 "experimental task schema validation failed; preserved raw output, no content retry"
             ) from None
     queue.complete(job_id, result, provenance)

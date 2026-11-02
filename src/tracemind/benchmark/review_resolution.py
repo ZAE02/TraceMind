@@ -95,7 +95,7 @@ def adjudicate(root, session, original, queue, api, directory):
     destination = root / "review_resolutions" / (label(session) + ".json")
     if destination.exists():
         return effective_approval(root, session, queue)
-    from tracemind.experiments.api_executor import execute_job
+    from tracemind.experiments.api_executor import InvalidTaskOutput, execute_job
 
     original_context = queue.get(original["job_id"])["request"]["allowed_context"]
     context = {k: v for k, v in original_context.items() if k != "instruction"}
@@ -114,7 +114,25 @@ def adjudicate(root, session, original, queue, api, directory):
             context,
             SCHEMA,
         )
-        execute_job(queue, api, job_id, directory / "adjudication_raw")
+        try:
+            execute_job(queue, api, job_id, directory / "adjudication_raw")
+        except InvalidTaskOutput:
+            # This panel used its one allowed response. Never repair, retry or
+            # turn it into an approval; preserve its exact raw source instead.
+            raw_path = directory / "adjudication_raw" / (job_id + ".json")
+            raw = read(raw_path)
+            decisions.append(
+                {
+                    "job_id": job_id,
+                    "result": None,
+                    "result_sha256": None,
+                    "evidence_valid": False,
+                    "output_error": "invalid_json_or_schema",
+                    "raw_path": str(raw_path),
+                    "raw_sha256": digest(raw),
+                }
+            )
+            continue
         job = queue.get(job_id)
         decisions.append(
             {

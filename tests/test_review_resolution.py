@@ -148,3 +148,50 @@ def test_missing_transport_source_is_not_regenerated_or_approved(tmp_path):
         },
     )
     assert module.quarantined_cases(tmp_path) == {"gemini_v1_G012-T1"}
+
+
+def test_malformed_panel_is_consumed_and_quarantined_without_retry(tmp_path, monkeypatch):
+    import tracemind.experiments.api_executor as executor
+
+    approval = {"approved": True, "findings": [], "rationale": "no defects"}
+    root, session, original, q, _ = setup(tmp_path, monkeypatch, [])
+    calls = []
+    raw_bytes = []
+
+    def execute(queue, api, job_id, directory):
+        calls.append(job_id)
+        if len(calls) == 2:
+            raw_path = directory / (job_id + ".json")
+            write(raw_path, {"job_id": job_id, "content": '{"approved":true}\'}'})
+            raw_bytes.append((raw_path, raw_path.read_bytes()))
+            raise executor.InvalidTaskOutput("invalid JSON")
+        queue.jobs[job_id].update(
+            status="completed", result=approval, result_sha256=digest(approval)
+        )
+
+    monkeypatch.setattr(executor, "execute_job", execute)
+    assert not module.adjudicate(root, session, original, q, None, tmp_path / "run")
+    resolution = read(root / "review_resolutions" / (module.label(session) + ".json"))
+    assert len(resolution["decisions"]) == 2
+    assert resolution["decisions"][1]["result"] is None
+    assert resolution["decisions"][1]["evidence_valid"] is False
+    assert module.quarantined_cases(root) == {session["case_id"]}
+    assert not module.adjudicate(root, session, original, q, None, tmp_path / "run")
+    assert len(calls) == 2
+    assert raw_bytes[0][0].read_bytes() == raw_bytes[0][1]
+    assert read(root / "dialogue_reviews" / (module.label(session) + ".json")) == original
+
+
+def test_adjudication_does_not_swallow_global_api_stop(tmp_path, monkeypatch):
+    import tracemind.experiments.api_executor as executor
+    from tracemind.api_client import APIStopped
+
+    root, session, original, q, _ = setup(tmp_path, monkeypatch, [])
+
+    def execute(*args):
+        raise APIStopped("HTTP 403")
+
+    monkeypatch.setattr(executor, "execute_job", execute)
+    with pytest.raises(APIStopped, match="HTTP 403"):
+        module.adjudicate(root, session, original, q, None, tmp_path / "run")
+    assert not (root / "review_resolutions" / (module.label(session) + ".json")).exists()
