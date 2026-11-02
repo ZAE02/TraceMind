@@ -19,7 +19,12 @@ pipeline = ProjectPipeline(root)
 try:
     synthesis = run_batch(args.batch_id, progress_callback=pipeline.progress)
     if synthesis["status"] != "completed":
-        pipeline.status("stopped", reason=synthesis.get("reason", synthesis["status"]))
+        phase = (
+            "awaiting_quality_resolution"
+            if synthesis["status"] == "awaiting_quality_resolution"
+            else "stopped"
+        )
+        pipeline.status(phase, reason=synthesis.get("reason", synthesis["status"]))
         raise SystemExit(1)
     api = LimitedAPI()
     queue = JobQueue(dsn(), model=api.model, reasoning="provider-default")

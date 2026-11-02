@@ -1,0 +1,27 @@
+{
+  "verified_at": "2026-11-02T14:14:39.547043+00:00",
+  "status": "awaiting_quality_resolution",
+  "target": {
+    "groups": 20,
+    "trajectories": 80,
+    "sessions": 480,
+    "checkpoints": 240
+  },
+  "complete_generated_sessions": 421,
+  "approved_indexed_sessions": 400,
+  "session_shortfall": 80,
+  "fully_approved_trajectories": 58,
+  "fully_approved_groups": 8,
+  "public_checkpoint_files": 206,
+  "quarantined_trajectories": 22,
+  "formal_protocol_frozen": false,
+  "formal_test_evaluation_completed": false,
+  "human_pair_packets_completed": false,
+  "human_judgments": 0,
+  "full_project_complete": false,
+  "limitations": [
+    "Stored checkpoints are not all approved for evaluation.",
+    "No held-out effect estimate or human/clinical endorsement.",
+    "Unresolved sources and descendants remain excluded."
+  ]
+}
