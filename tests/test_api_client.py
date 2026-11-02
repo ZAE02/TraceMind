@@ -122,6 +122,22 @@ def test_account_prose_false_positive_and_real_notice_preserved(api):
         client.request("GET", "/fixture", "after-notice")
 
 
+def test_success_response_is_persisted_only_once(api, monkeypatch):
+    from tracemind.benchmark import builder
+
+    client, _ = api
+    original, writes = builder.write, []
+
+    def record(path, value):
+        writes.append(path)
+        return original(path, value)
+
+    monkeypatch.setattr(builder, "write", record)
+    client.opener = Transport([Response()])
+    client.request("GET", "/fixture", "one-save")
+    assert client.opener.calls == 1 and len(writes) == 1
+
+
 def test_response_model_mismatch_is_not_accepted_or_retried(api):
     client, _ = api
 

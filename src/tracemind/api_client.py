@@ -334,9 +334,8 @@ class LimitedAPI:
                         blocked="credential reflected by provider",
                     )
                     raise APIStopped("provider reflected a credential; response was not saved")
-                from .benchmark.builder import write
-
-                write(self.state / "responses" / (attempt_id + ".json"), result)
+                # HTTP200 JSON was already persisted before notice classification.
+                # Replacing it again adds no evidence and can hit Windows reader/AV locks.
                 self._finish(attempt_id, status, "success")
                 return result, attempt_id
 
