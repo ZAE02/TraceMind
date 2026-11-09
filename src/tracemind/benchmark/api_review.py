@@ -24,19 +24,26 @@ def review_completed_sessions(
     from .review_resolution import adjudicate, quarantined_cases
 
     reviewed = 0
+    # Revalidate every existing review on every pass, using one database read
+    # instead of a fresh connection for each of up to 480 immutable results.
+    existing_reviews = {
+        path.stem: read(path) for path in (root / "dialogue_reviews").glob("*.json")
+    }
+    review_sources = queue.get_many([value["job_id"] for value in existing_reviews.values()])
     for path in sorted((root / "dialogues").glob("*/S*.json")):
         session = read(path)
         if not session.get("complete"):
             continue
         session_sha = digest(session)
         target = root / "dialogue_reviews" / f"{session['case_id']}_S{session['session']:02}.json"
-        if target.exists():
-            existing = read(target)
+        if target.stem in existing_reviews:
+            existing = existing_reviews[target.stem]
             if existing.get("dialogue_sha256") != session_sha:
                 raise APIStopped("reviewed session changed; preserve originals and inspect")
-            job = queue.get(existing["job_id"])
+            job = review_sources.get(existing["job_id"])
             if (
-                job["status"] != "completed"
+                job is None
+                or job["status"] != "completed"
                 or job["result_sha256"] != existing["result_sha256"]
                 or digest({k: existing[k] for k in ("approved", "issues")}) != job["result_sha256"]
             ):

@@ -23,6 +23,9 @@ class Queue:
     def get(self, key):
         return self.jobs[key]
 
+    def get_many(self, keys):
+        return {key: self.jobs[key] for key in keys if key in self.jobs}
+
 
 class API:
     def __init__(self, response):
@@ -68,6 +71,18 @@ def test_review_is_bound_to_session_and_only_current_private_card(tmp_path):
     assert review_completed_sessions(root, queue, api, directory, state, state_path) == 1
     assert len(api.calls) == 1 and "private_future" not in str(api.calls)
     assert review_completed_sessions(root, queue, api, directory, state, state_path) == 1
+    assert len(api.calls) == 1
+
+
+def test_cached_review_sources_are_rechecked_without_individual_reads(tmp_path):
+    root, directory, state, state_path = setup(tmp_path)
+    queue, api = Queue(), API(json.dumps({"approved": True, "issues": []}))
+    review_completed_sessions(root, queue, api, directory, state, state_path)
+    queue.get = lambda key: pytest.fail("existing reviews must use bulk source validation")
+    assert review_completed_sessions(root, queue, api, directory, state, state_path) == 1
+    next(iter(queue.jobs.values()))["result_sha256"] = "changed"
+    with pytest.raises(APIStopped, match="source mismatch"):
+        review_completed_sessions(root, queue, api, directory, state, state_path)
     assert len(api.calls) == 1
     write(
         root / "dialogues/case-T1/S01.json",
