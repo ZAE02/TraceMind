@@ -162,6 +162,53 @@ def generate_utterance(api, directory, job):
     return artifact
 
 
+def restore_saved_results(directory, queue, state, state_path):
+    """Verify immutable outbox records in batches without reconnecting per success."""
+    from .jobs import digest, validate_job_result
+
+    paths = sorted(p for p in directory.glob("*.json") if re.fullmatch(r"[0-9a-f]{64}", p.stem))
+    completed = set(state["completed"])
+    progress_path = directory / "recovery_progress.json"
+    for offset in range(0, len(paths), 128):
+        if (LOCAL / "api/STOP").exists():
+            raise APIStopped("recovery paused by local STOP marker")
+        chunk = paths[offset:offset + 128]
+        existing = queue.get_many([p.stem for p in chunk])
+        for path in chunk:
+            artifact = read(path)
+            ident = artifact["job_id"]
+            if ident != path.stem:
+                raise ValueError("saved artifact filename/job mismatch")
+            job = existing.get(ident)
+            if job is not None and job["status"] == "completed":
+                if (
+                    job["result_sha256"] != digest(artifact["result"])
+                    or job["result_sha256"] != digest(job["result"])
+                    or job["provenance"] != artifact["provenance"]
+                    or digest(job["request"]) != ident
+                    or artifact["provenance"].get("model") != job["request"]["model"]
+                    or artifact["provenance"].get("reasoning") != job["request"]["reasoning"]
+                ):
+                    raise ValueError("completed result and provenance are immutable")
+                validate_job_result(job["request"]["output_schema"], artifact["result"])
+            else:
+                queue.complete(ident, artifact["result"], artifact["provenance"])
+            if ident not in completed:
+                state["completed"].append(ident)
+                completed.add(ident)
+        write(state_path, state)
+        write(progress_path, {
+            "phase": "recovering_saved_results",
+            "verified": min(offset + len(chunk), len(paths)),
+            "total": len(paths),
+            "updated_at": datetime.now(timezone.utc).isoformat(),
+        })
+    write(progress_path, {
+        "phase": "recovery_complete", "verified": len(paths), "total": len(paths),
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+    })
+
+
 def run_batch(batch_id=None, limit=None, *, review_sessions=True, progress_callback=None):
     policy, _ = read_policy()
     if limit is not None and (
@@ -208,13 +255,7 @@ def run_batch(batch_id=None, limit=None, *, review_sessions=True, progress_callb
             write(state_path, state)
             if not confirmation.exists():
                 write(confirmation, api.models(batch_id))
-            for saved in sorted(directory.glob("*.json")):
-                if re.fullmatch(r"[0-9a-f]{64}", saved.stem) is None:
-                    continue
-                artifact = read(saved)
-                queue.complete(artifact["job_id"], artifact["result"], artifact["provenance"])
-                if artifact["job_id"] not in state["completed"]:
-                    state["completed"].append(artifact["job_id"])
+            restore_saved_results(directory, queue, state, state_path)
             write(state_path, state)
             while limit is None or len(state["completed"]) < limit:
                 if (LOCAL / "api/STOP").exists():

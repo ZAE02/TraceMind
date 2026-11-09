@@ -201,6 +201,9 @@ def test_interrupted_import_reuses_saved_result_and_ignores_reports(tmp_path, mo
         def complete(self, ident, result, provenance):
             imported.append((ident, result, provenance))
 
+        def get_many(self, identifiers):
+            return {}
+
     class Builder:
         def __init__(self, *args):
             pass

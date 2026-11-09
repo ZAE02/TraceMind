@@ -543,7 +543,7 @@ class ProjectPipeline:
         write(self.root / "project/final_results.json", results)
         write(ROOT / "docs/experiment_results.json", results)
         self.status(
-            "computational_deliverables_complete_human_review_pending",
+            "analysis_ready_pending_release_validation",
             results_path=str(self.root / "project/final_results.json"),
         )
         return results

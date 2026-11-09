@@ -35,6 +35,7 @@ try:
                 calibration_target=20,
             )
         raise SystemExit(0)
+    pipeline.status("recovering_saved_results", batch_id=args.batch_id)
     synthesis = run_batch(args.batch_id, progress_callback=pipeline.progress)
     if synthesis["status"] != "completed":
         phase = (
@@ -73,14 +74,16 @@ try:
         stdout=subprocess.DEVNULL,
         check=True,
     )
-    text = (
-        "# TraceMind 计算实验交付\n\n"
-        "20 组基础场景、80 条轨迹、480 场会话、240 个检查点已通过数量与来源核查。\n\n"
-        "测试集包含五个独立基础场景、60 个检查点；五个正式方法与一个诊断 Oracle 使用相同底座及历史预算。"
-        "结果汇总见 experiment_results.json。模型评审含同模型偏好，统计按基础场景聚类，仅作合成小样本探索。\n\n"
-        "200 组匿名配对及400个独立人工判断的工具已创建，人工判断未代填。人工完成前不宣称临床或人工认可。\n"
+    from tracemind.experiments.final_report import render_final_report
+    from tracemind.web.store import ReviewStore
+
+    report = render_final_report(
+        results,
+        delivery,
+        protocol_sha256=read(root / "protocol/frozen.json")["protocol_sha256"],
+        human_statistics=ReviewStore(LOCAL / "reviews.sqlite3").statistics(),
     )
-    (ROOT / "docs/final_report.md").write_text(text, encoding="utf-8")
+    (ROOT / "docs/final_report.md").write_text(report, encoding="utf-8")
     readme = ROOT / "README.md"
     import re
 
