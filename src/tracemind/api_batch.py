@@ -254,6 +254,28 @@ def run_batch(batch_id=None, limit=None, *, review_sessions=True, progress_callb
                 cases = active_cases(root, builder, group, policy["concurrency"])
                 builder.advance(groups={group}, cases=cases)
                 builder.advance(groups={group}, cases=cases)
+                revised = (root / "project/cohort_completion.json").exists()
+
+                def current_dialogue_job(job):
+                    purpose = job["purpose"].split(":")
+                    if len(purpose) != 4 or purpose[0] != "dialogue" or purpose[1] not in cases:
+                        return False
+                    if not revised:
+                        return True
+                    number = int(purpose[2][1:])
+                    path = root / "dialogues" / purpose[1] / f"S{number:02}.json"
+                    if not path.exists():
+                        return purpose[3] == "U1" and not job["allowed_context"].get(
+                            "generation_revision"
+                        )
+                    session = read(path)
+                    return (
+                        int(purpose[3][1:]) == len(session["utterances"]) + 1
+                        and not session["complete"]
+                        and session.get("generation_revision")
+                        == job["allowed_context"].get("generation_revision")
+                    )
+
                 jobs = [
                     job
                     for job in queue.pending(5000)
@@ -261,9 +283,7 @@ def run_batch(batch_id=None, limit=None, *, review_sessions=True, progress_callb
                     and job["allowed_context"].get("dataset_namespace") == NAMESPACE
                     and (
                         job["purpose"].startswith(f"anchor:{group}:")
-                        or any(
-                            job["purpose"].startswith("dialogue:" + item + ":") for item in cases
-                        )
+                        or current_dialogue_job(job)
                     )
                 ]
                 if not jobs:

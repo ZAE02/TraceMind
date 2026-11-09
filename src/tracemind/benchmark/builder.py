@@ -219,10 +219,16 @@ class BenchmarkBuilder:
                         if self.namespace:
                             visible["dataset_namespace"] = self.namespace
                         if saved.get("generation_revision"):
-                            if plan.split not in {"development", "calibration"} or (
+                            replacement = saved["generation_revision"] == "cohort-completion-v1"
+                            if (plan.split == "test" and not replacement) or (
                                 self.root / "protocol/frozen.json"
                             ).exists():
-                                raise ValueError("session revisions require unfrozen non-test data")
+                                raise ValueError("session revisions require a pre-freeze cohort")
+                            if replacement:
+                                visible["instruction_revision"] = (
+                                    "保持角色和已知事件一致，避免突然转成现场行动、重复告别、"
+                                    "凭空增加事实或替来访者作决定。在第八组往返再自然结束。"
+                                )
                             visible["generation_revision"] = saved["generation_revision"]
                             visible["consultation_frame"] = (
                                 "本次交流发生在咨询会谈内。工作场所的事件只能作为已发生的回顾或"
@@ -244,6 +250,8 @@ class BenchmarkBuilder:
                             )
                         if visible.get("consultation_frame"):
                             visible["instruction"] += " " + visible["consultation_frame"]
+                        if visible.get("instruction_revision"):
+                            visible["instruction"] += " " + visible["instruction_revision"]
                         parent = rows[-1]["job_id"] if rows else None
                         job_id = self.queue.enqueue(
                             f"dialogue:{case_id}:S{session}:U{turn}",

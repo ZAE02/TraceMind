@@ -488,6 +488,16 @@ class ProjectPipeline:
             "conclusion_scope": "five independent test base scenes; exploratory synthetic benchmark",
             "diagnostic_method": "oracle; not a deployable baseline",
         }
+        replacement_path = self.root / "project/cohort_completion.json"
+        if replacement_path.exists():
+            replacement = read(replacement_path)
+            first_sessions = replacement["first_replaced_session"]
+            results["cohort_revision"] = {
+                "version": replacement["version"],
+                "replaced_trajectories": len(first_sessions),
+                "replacement_session_scope": sum(7 - start for start in first_sessions.values()),
+                "originals_retained": True,
+            }
         from .reports import (
             clarification_report,
             method_cost_report,

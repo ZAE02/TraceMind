@@ -7,6 +7,7 @@ from tracemind.benchmark.builder import read, write
 from tracemind.jobs import digest, validate_job_result
 
 QUALITY_OUTPUT_NORMALIZATION = "unscored-top-level-quality-rationale-v1"
+DERIVED_ERROR_NORMALIZATION = "unscored-derived-has-error-v1"
 
 
 class InvalidTaskOutput(APIStopped):
@@ -19,23 +20,37 @@ def normalize_quality_metadata(request, result):
     This is a narrow schema adapter, not a response retry or general repair.
     All required score/error/preference fields must still validate unchanged.
     """
-    from tracemind.evaluation.protocol import QUALITY_SCHEMA
+    from tracemind.evaluation.protocol import ERRORS, QUALITY_SCHEMA
 
     if (
         request["role"] != "blinded quality reviewer"
         or request["output_schema"] != QUALITY_SCHEMA
         or not isinstance(result, dict)
-        or set(result) - set(QUALITY_SCHEMA["properties"]) != {"rationale"}
-        or not isinstance(result["rationale"], str)
     ):
         raise ValueError("response is outside the metadata-only normalization policy")
-    canonical = {key: value for key, value in result.items() if key != "rationale"}
+    canonical = dict(result)
+    metadata = {}
+    if "rationale" in canonical and isinstance(canonical["rationale"], str):
+        metadata["rationale"] = canonical.pop("rationale")
+    for side in ("a", "b"):
+        value = canonical.get(side)
+        if isinstance(value, dict) and type(value.get("has_error")) is bool:
+            errors = value.get("errors")
+            if isinstance(errors, dict) and all(
+                isinstance(errors.get(key), dict)
+                and type(errors[key].get("occurred")) is bool for key in ERRORS
+            ) and value["has_error"] == any(errors[key]["occurred"] for key in ERRORS):
+                metadata[side] = {"has_error": value["has_error"]}
+                canonical[side] = {k: v for k, v in value.items() if k != "has_error"}
+    if not metadata:
+        raise ValueError("no recognized unscored metadata")
     validate_job_result(QUALITY_SCHEMA, canonical)
     return canonical, {
-        "policy": QUALITY_OUTPUT_NORMALIZATION,
+        "policy": DERIVED_ERROR_NORMALIZATION if {"a", "b"} & metadata.keys()
+        else QUALITY_OUTPUT_NORMALIZATION,
         "original_json_sha256": digest(result),
         "canonical_result_sha256": digest(canonical),
-        "unscored_metadata": {"rationale": result["rationale"]},
+        "unscored_metadata": metadata,
     }
 
 
