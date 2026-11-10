@@ -3,6 +3,7 @@
 from tracemind.benchmark.builder import BenchmarkBuilder, read
 from tracemind.jobs import digest
 
+from .protocol import test_review_ready
 from .runner import METHODS
 
 
@@ -202,8 +203,18 @@ def audit_delivery(root, queue):
                     base / "simulator_checks" / cp["id"] / (method + ".json"), "simulator_checks"
                 )
     frozen = root / "protocol/frozen.json"
-    if not frozen.exists() or len(read(frozen).get("examples", [])) != 20:
-        issues.append("missing twenty independently repeated calibration checkpoints")
+    try:
+        examples = read(frozen).get("examples", []) if frozen.exists() else []
+        if len(examples) != 20:
+            issues.append("missing twenty independently repeated calibration checkpoints")
+        elif {entry["checkpoint_id"] for entry in examples} != {
+            cp["id"] for cp in evaluated if cp["split"] == "calibration"
+        }:
+            issues.append("frozen calibration checkpoints differ from the prespecified schedule")
+        elif not test_review_ready(root, queue):
+            issues.append("missing frozen calibration protocol")
+    except (OSError, ValueError, KeyError, TypeError, AttributeError):
+        issues.append("frozen calibration protocol or source evidence failed validation")
     graph_path = root / "project/langgraph_smoke.json"
     if not graph_path.exists():
         issues.append("missing actual API LangGraph persistence/recovery proof")

@@ -12,6 +12,15 @@ def test_missing_dataset_and_calibration_cannot_pass_delivery(tmp_path):
     assert "missing twenty independently repeated calibration checkpoints" in report["issues"]
 
 
+def test_twenty_unscheduled_entries_cannot_pass_frozen_calibration_audit(tmp_path):
+    write(
+        tmp_path / "protocol/frozen.json",
+        {"examples": [{"checkpoint_id": f"unverified-{i}"} for i in range(20)]},
+    )
+    report = audit_delivery(tmp_path, SimpleNamespace(get_many=lambda ids: {}))
+    assert "frozen calibration checkpoints differ from the prespecified schedule" in report["issues"]
+
+
 def test_test_checkpoint_requires_all_methods_and_target_review(tmp_path):
     # Use the real artifact auditor, isolating dataset validation already covered
     # by benchmark tests. A complete-looking manifest cannot replace artifacts.

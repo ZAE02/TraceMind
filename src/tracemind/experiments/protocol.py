@@ -65,11 +65,12 @@ def test_review_ready(root: Path, queue) -> bool:
         }
         for item in manifest["examples"]
     ]
-    freeze_protocol(root, queue, refs)
+    if freeze_protocol(root, queue, refs, persist=False) != manifest:
+        raise ValueError("protocol already frozen; use a new run directory")
     return True
 
 
-def freeze_protocol(root: Path, queue, refs: list[dict]) -> dict:
+def freeze_protocol(root: Path, queue, refs: list[dict], *, persist: bool = True) -> dict:
     if not isinstance(refs, list) or len(refs) < 12:
         raise ValueError("at least 12 calibration examples are required")
     examples, seen_checkpoints, seen_jobs, seen_actors = [], set(), set(), set()
@@ -184,6 +185,8 @@ def freeze_protocol(root: Path, queue, refs: list[dict]) -> dict:
         "protocol_sha256": protocol_hash(),
         "examples": sorted(examples, key=lambda x: x["checkpoint_id"]),
     }
+    if not persist:
+        return manifest
     path = root / "protocol" / "frozen.json"
     path.parent.mkdir(parents=True, exist_ok=True)
     try:

@@ -218,3 +218,18 @@ def test_rubric_change_requires_new_run(tmp_path, monkeypatch):
     monkeypatch.setattr(protocol, "RUBRIC", "changed rubric")
     with pytest.raises(ValueError, match="new run directory"):
         gate_ready(tmp_path, queue)
+
+
+def test_validation_rebuilds_frozen_manifest_without_opening_for_write(tmp_path, monkeypatch):
+    from pathlib import Path
+
+    queue, refs = calibration_fixture(tmp_path)
+    freeze_protocol(tmp_path, queue, refs)
+    original = Path.open
+
+    def readonly(path, mode="r", *args, **kwargs):
+        assert mode == "r"
+        return original(path, mode, *args, **kwargs)
+
+    monkeypatch.setattr(Path, "open", readonly)
+    assert gate_ready(tmp_path, queue)

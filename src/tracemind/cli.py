@@ -433,7 +433,9 @@ def benchmark_delivery_audit(root: Path):
     """Verify full computational coverage from saved source jobs; makes no API call."""
     from .experiments.completion import audit_delivery
 
-    result = audit_delivery(root, JobQueue(config.dsn()))
+    result = audit_delivery(
+        root, JobQueue(config.dsn(), model="gemini-3.8-flash", reasoning="provider-default")
+    )
     _print(result)
     if not result["complete"]:
         raise typer.Exit(code=1)
