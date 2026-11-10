@@ -22,6 +22,8 @@ from zoneinfo import ZoneInfo
 from .config import LOCAL, ROOT
 
 SKILL = ROOT / ".agents/skills/tracemind-api/SKILL.md"
+RETRY_503_BLOCK = "HTTP 503: retry limit reached"
+CONCURRENT_STOP_MARKER = "concurrent job stopped; inspect saved cause"
 
 
 def account_service_notice(text):
@@ -99,7 +101,7 @@ class NoRedirect(HTTPRedirectHandler):
 
 
 class LimitedAPI:
-    def __init__(self, state=LOCAL / "api", config_path=LOCAL / "api-config.json"):
+    def __init__(self, state=LOCAL / "api", config_path=LOCAL / "api-config.json", *, recovery_503=False):
         config = (
             json.loads(config_path.read_text(encoding="utf-8-sig")) if config_path.exists() else {}
         )
@@ -117,6 +119,7 @@ class LimitedAPI:
         ):
             raise APIStopped("missing/invalid local API configuration or unauthorized model")
         self.state = Path(state)
+        self.recovery_503 = recovery_503
         self.state.mkdir(parents=True, exist_ok=True)
         self.database = self.state / "requests.sqlite3"
         with self.connect() as conn:
@@ -149,22 +152,38 @@ class LimitedAPI:
             )
 
     def _reserve(self, task, body, policy, skill_sha):
+        input_sha = hashlib.sha256(body or b"").hexdigest()
+        stop = self.state / "STOP"
         while True:
             policy, skill_sha = read_policy()
-            if (self.state / "STOP").exists():
+            if stop.exists() and not self.recovery_503:
                 raise APIStopped("request paused by local STOP marker")
             with self.connect() as conn:
                 conn.execute("BEGIN IMMEDIATE")
                 blocked, pause_until = conn.execute(
                     "SELECT blocked,pause_until FROM control WHERE id=1"
                 ).fetchone()
-                if blocked:
-                    raise APIStopped("API task is blocked: " + blocked)
-                used = conn.execute(
-                    "SELECT count(*) FROM attempts WHERE task=?", (task,)
-                ).fetchone()[0]
-                if used >= policy["max_retries"] + 1:
-                    raise APIStopped("task attempt limit reached; no further retry")
+                if self.recovery_503:
+                    prior = conn.execute(
+                        "SELECT status,input_sha,outcome FROM attempts WHERE task=?", (task,)
+                    ).fetchall()
+                    if (
+                        policy.get("recovery_503_once") != {"task": task, "input_sha": input_sha}
+                        or blocked != RETRY_503_BLOCK
+                        or prior != [(503, input_sha, "retryable failure")] * 3
+                        or not stop.exists()
+                        or stop.read_text(encoding="utf-8").strip() != CONCURRENT_STOP_MARKER
+                    ):
+                        raise APIStopped("one-time 503 recovery conditions are not satisfied")
+                    used = len(prior)
+                else:
+                    if blocked:
+                        raise APIStopped("API task is blocked: " + blocked)
+                    used = conn.execute(
+                        "SELECT count(*) FROM attempts WHERE task=?", (task,)
+                    ).fetchone()[0]
+                    if used >= policy["max_retries"] + 1:
+                        raise APIStopped("task attempt limit reached; no further retry")
                 last = conn.execute("SELECT max(started) FROM attempts").fetchone()[0]
                 now = time.time()
                 deadline = max(pause_until, last + policy["interval_seconds"] + 1 if last else 0)
@@ -189,7 +208,7 @@ class LimitedAPI:
                             now,
                             day,
                             skill_sha,
-                            hashlib.sha256(body or b"").hexdigest(),
+                            input_sha,
                         ),
                     )
                     return attempt_id, used
@@ -203,11 +222,11 @@ class LimitedAPI:
         with single_flight(self.state / "task_locks" / (task_key + ".lock")):
             while True:
                 policy, _ = read_policy()
-                if (self.state / "STOP").exists():
+                if (self.state / "STOP").exists() and not self.recovery_503:
                     raise APIStopped("request paused by local STOP marker")
                 with self.connect() as conn:
                     blocked = conn.execute("SELECT blocked FROM control WHERE id=1").fetchone()[0]
-                if blocked:
+                if blocked and not self.recovery_503:
                     raise APIStopped("API task is blocked: " + blocked)
                 acquired = None
                 for index in range(policy["concurrency"]):
@@ -227,6 +246,8 @@ class LimitedAPI:
                 time.sleep(0.1)
 
     def request(self, method, route, task, payload=None):
+        if self.recovery_503 and (method, route) != ("POST", self.prefix + "/chat/completions"):
+            raise APIStopped("503 recovery only permits the original chat completion route")
         body = json.dumps(payload, ensure_ascii=False).encode() if payload is not None else None
         with self._request_slot(task):
             while True:

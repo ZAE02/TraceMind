@@ -94,6 +94,40 @@ def test_auth_failure_stops_all_future_tasks_without_retry(api):
     assert b"test-secret" not in client.database.read_bytes()
 
 
+def test_503_recovery_requires_exact_task_and_body_and_is_consumed_on_failure(api, monkeypatch):
+    import hashlib
+
+    client, _ = api
+    failure = HTTPError("http://local", 503, "unavailable", {}, None)
+    client.opener = Transport([failure, failure, failure])
+    payload = {"input": "original"}
+    with pytest.raises(module.APIStopped, match="retry limit"):
+        client.request("POST", "/v1/chat/completions", "original", payload)
+
+    policy, sha = module.read_policy()
+    policy["recovery_503_once"] = {
+        "task": "original",
+        "input_sha": hashlib.sha256(json.dumps(payload).encode()).hexdigest(),
+    }
+    monkeypatch.setattr(module, "read_policy", lambda: (policy, sha))
+    (client.state / "STOP").write_text(module.CONCURRENT_STOP_MARKER, encoding="utf-8")
+    client.opener = Transport([failure])
+    with pytest.raises(module.APIStopped, match="STOP"):
+        client.request("POST", "/v1/chat/completions", "original", payload)
+    client.recovery_503 = True
+    with pytest.raises(module.APIStopped, match="conditions"):
+        client.request("POST", "/v1/chat/completions", "another", payload)
+    with pytest.raises(module.APIStopped, match="conditions"):
+        client.request("POST", "/v1/chat/completions", "original", {"input": "changed"})
+    with pytest.raises(module.APIStopped, match="retry limit"):
+        client.request("POST", "/v1/chat/completions", "original", payload)
+    with pytest.raises(module.APIStopped, match="conditions"):
+        client.request("POST", "/v1/chat/completions", "original", payload)
+    assert client.opener.calls == 1
+    with client.connect() as conn:
+        assert conn.execute("SELECT status FROM attempts").fetchall() == [(503,)] * 4
+
+
 def test_account_prose_false_positive_and_real_notice_preserved(api):
     client, _ = api
 

@@ -29,9 +29,10 @@ description: TraceMind 项目调用生成模型 API 时必须读取的连接、�
 - 超时或 5xx：指数退避，最多重试 2 次，连续失败停止；重试仍须满足开始时间间隔。
 - 其他请求/响应格式错误停止报告，不用无上限重试修补。
 - 严禁无限重试、并发重试、失败后立即重复发送。中断后通过任务哈希及本地尝试账本恢复，不重置同任务重试计数。
+- 用户于 2026-11-10 明确授权原 503 停止记录中的唯一任务在三次相同请求均返回 503 后追加一次恢复请求。保留原始尝试，必须使用相同请求体和原模型，仍由共享限流器执行。仅专用恢复入口可使用该授权，失败立即停止，其他任务维持两次重试上限。该次授权已消耗，历史策略保留于本地验收记录。
 
 程序读取以下策略；仅在用户明确修改限制后更新。当前取消数量上限不取消并发、时间间隔、身份、错误处理和有限重试要求：
 
 <!-- API_POLICY_JSON
-{"version":3,"concurrency":4,"interval_seconds":10,"daily_limit":null,"batch_size":null,"max_retries":2,"retry_429_seconds":300,"backoff_seconds":60,"approved_model_aliases":{"gemini-3.8-flash":"gemini-3.8-flash-tiered"}}
+{"version":4,"concurrency":4,"interval_seconds":10,"daily_limit":null,"batch_size":null,"max_retries":2,"retry_429_seconds":300,"backoff_seconds":60,"approved_model_aliases":{"gemini-3.8-flash":"gemini-3.8-flash-tiered"}}
 API_POLICY_JSON -->
