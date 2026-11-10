@@ -75,6 +75,18 @@ def collect_records(root: Path) -> list[EvidenceRecord]:
     return result
 
 
+def audit_index(root: Path, repository) -> dict:
+    expected = {record.id: record for record in collect_records(root)}
+    actual = repository.namespace_records("gemini_v1")
+    return {
+        "expected": len(expected),
+        "indexed": len(actual),
+        "missing": len(expected.keys() - actual.keys()),
+        "unexpected": len(actual.keys() - expected.keys()),
+        "mismatched": sum(expected[key] != actual[key] for key in expected.keys() & actual.keys()),
+    }
+
+
 def index_dialogues(root: Path, repository, models) -> dict:
     records = collect_records(root)
     existing = repository.existing([record.id for record in records])

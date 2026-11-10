@@ -95,6 +95,18 @@ class EvidenceRepository:
             ).fetchall()
         return {row[0]: EvidenceRecord(*row) for row in rows}
 
+    def namespace_records(self, namespace: str) -> dict[str, EvidenceRecord]:
+        """Read every indexed record in a benchmark namespace, including stale rows."""
+        import psycopg
+
+        with psycopg.connect(self.dsn) as conn:
+            rows = conn.execute(
+                """SELECT id,case_id,session,turn,role,text,occurred_at,observed_at,metadata
+                   FROM evidence WHERE starts_with(case_id, %s)""",
+                (namespace + "_",),
+            ).fetchall()
+        return {row[0]: EvidenceRecord(*row) for row in rows}
+
     def insert_if_absent(self, record: EvidenceRecord, embedding: Sequence[float]) -> bool:
         import math
 

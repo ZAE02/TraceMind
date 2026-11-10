@@ -432,9 +432,13 @@ def _workflow_resolver(dsn: str):
 def benchmark_delivery_audit(root: Path):
     """Verify full computational coverage from saved source jobs; makes no API call."""
     from .experiments.completion import audit_delivery
+    from .storage.repository import EvidenceRepository
 
+    dsn = config.dsn()
     result = audit_delivery(
-        root, JobQueue(config.dsn(), model="gemini-3.8-flash", reasoning="provider-default")
+        root,
+        JobQueue(dsn, model="gemini-3.8-flash", reasoning="provider-default"),
+        evidence_repository=EvidenceRepository(dsn),
     )
     _print(result)
     if not result["complete"]:

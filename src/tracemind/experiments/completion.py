@@ -7,7 +7,7 @@ from .protocol import test_review_ready
 from .runner import METHODS
 
 
-def audit_delivery(root, queue):
+def audit_delivery(root, queue, *, evidence_repository=None):
     issues = []
     counts = {}
     data = BenchmarkBuilder(root, queue).audit()
@@ -234,6 +234,16 @@ def audit_delivery(root, queue):
             issues.append("graph proof no longer matches public development checkpoint")
         for value in proof.get("jobs", {}).values():
             job(value.get("job_id"), value.get("result_sha256"))
+    if evidence_repository is not None:
+        from .indexing import audit_index
+
+        index = audit_index(root, evidence_repository)
+        counts["indexed_evidence"] = index["indexed"]
+        for key in ("missing", "unexpected", "mismatched"):
+            if index[key]:
+                issues.append(f"pgvector evidence {key}: {index[key]}")
+        if index["expected"] != 480 * 16:
+            issues.append(f"approved evidence rows: {index['expected']}/{480 * 16}")
     return {
         "complete": not issues,
         "dataset": data,

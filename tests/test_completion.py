@@ -21,6 +21,26 @@ def test_twenty_unscheduled_entries_cannot_pass_frozen_calibration_audit(tmp_pat
     assert "frozen calibration checkpoints differ from the prespecified schedule" in report["issues"]
 
 
+def test_delivery_flags_stale_index_even_when_row_count_matches(tmp_path, monkeypatch):
+    monkeypatch.setattr(
+        "tracemind.experiments.indexing.collect_records",
+        lambda root: [SimpleNamespace(id="approved"), SimpleNamespace(id="changed", text="source")],
+    )
+    repository = SimpleNamespace(
+        namespace_records=lambda namespace: {
+            "stale": SimpleNamespace(id="stale"),
+            "changed": SimpleNamespace(id="changed", text="old"),
+        }
+    )
+    report = audit_delivery(
+        tmp_path, SimpleNamespace(get_many=lambda ids: {}), evidence_repository=repository
+    )
+    assert report["artifact_counts"]["indexed_evidence"] == 2
+    assert "pgvector evidence missing: 1" in report["issues"]
+    assert "pgvector evidence unexpected: 1" in report["issues"]
+    assert "pgvector evidence mismatched: 1" in report["issues"]
+
+
 def test_test_checkpoint_requires_all_methods_and_target_review(tmp_path):
     # Use the real artifact auditor, isolating dataset validation already covered
     # by benchmark tests. A complete-looking manifest cannot replace artifacts.

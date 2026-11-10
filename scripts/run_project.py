@@ -50,8 +50,9 @@ try:
     results = pipeline.finish(queue, api)
     pipeline.status("validating_release")
     from tracemind.experiments.completion import audit_delivery
+    from tracemind.storage.repository import EvidenceRepository
 
-    delivery = audit_delivery(root, queue)
+    delivery = audit_delivery(root, queue, evidence_repository=EvidenceRepository(dsn()))
     write(LOCAL / "project/completion_audit.json", delivery)
     if not delivery["complete"]:
         raise APIStopped("full-scope computational delivery audit failed; release not published")
