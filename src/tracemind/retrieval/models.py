@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import gc
+from pathlib import Path
 from typing import Sequence
 
 EMBEDDING_REVISION = "5617a9f61b028005a4858fdac845db406aefb181"
@@ -22,21 +23,36 @@ class BGEModels:
             device,
         )
         self._tokenizer = None
-        self._paths: dict[str, str] = {}
+        self._paths: dict[tuple[str, str], str] = {}
 
     def _path(self, model: str, revision: str) -> str:
         from huggingface_hub import snapshot_download
+        from huggingface_hub.errors import LocalEntryNotFoundError
 
         from tracemind.config import LOCAL
 
-        if model not in self._paths:
-            self._paths[model] = snapshot_download(
+        key = (model, revision)
+        if key not in self._paths:
+            options = dict(
                 repo_id=model,
                 revision=revision,
                 cache_dir=str(LOCAL / "huggingface/hub"),
                 ignore_patterns=["onnx/*", "imgs/*", "assets/*", "*.md", ".gitattributes"],
             )
-        return self._paths[model]
+            try:
+                cached = Path(snapshot_download(**options, local_files_only=True))
+            except LocalEntryNotFoundError:
+                cached = None
+            if cached is not None and (
+                (cached / "config.json").is_file()
+                and (cached / "tokenizer_config.json").is_file()
+                and any((cached / name).is_file() for name in ("tokenizer.json", "sentencepiece.bpe.model"))
+                and any((cached / name).is_file() for name in ("model.safetensors", "pytorch_model.bin"))
+            ):
+                self._paths[key] = str(cached)
+            else:
+                self._paths[key] = snapshot_download(**options)
+        return self._paths[key]
 
     def _device(self) -> str:
         import torch
