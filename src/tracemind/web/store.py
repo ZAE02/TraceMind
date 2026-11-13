@@ -155,6 +155,23 @@ class ReviewStore:
             "complete": self.revealed(),
         }
 
+    def matches_release(self, packets: list[dict[str, Any]]) -> bool:
+        expected = {str(packet["id"]): packet for packet in packets}
+        with self.connect() as db:
+            db.execute("BEGIN")
+            reviewers = [identity for (identity,) in db.execute("SELECT id FROM reviewers")]
+            actual = {
+                identity: json.loads(data)
+                for identity, data in db.execute("SELECT id,data FROM packets")
+            }
+            assignments = set(db.execute("SELECT reviewer,packet FROM assignments"))
+        return (
+            len(packets) == len(expected) == 200
+            and len(reviewers) == 2
+            and actual == expected
+            and assignments == {(reviewer, packet) for reviewer in reviewers for packet in expected}
+        )
+
     def completed_reviews(self) -> list[dict]:
         if not self.revealed():
             raise PermissionError("human outcomes require both reviewers to lock every assignment")

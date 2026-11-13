@@ -3,6 +3,18 @@ import pytest
 from tracemind.web.store import FIELDS, ReviewStore
 
 
+def test_release_requires_two_assignments_per_packet(tmp_path):
+    store = ReviewStore(tmp_path / "reviews.db")
+    packets = [{"id": str(index), "response_a": "one"} for index in range(200)]
+    store.initialize({"alice": "password1", "bob": "password2"}, packets)
+    assert store.matches_release(packets)
+    with store.connect() as db:
+        db.execute("INSERT INTO reviewers VALUES ('extra', 'salt', 'hash')")
+        db.execute("UPDATE assignments SET reviewer='extra' WHERE reviewer='bob' AND packet='0'")
+    assert store.statistics()["assigned_judgments"] == 400
+    assert not store.matches_release(packets)
+
+
 def test_independent_locked_reviews_and_reveal(tmp_path):
     from tracemind.evaluation.human import human_report
 

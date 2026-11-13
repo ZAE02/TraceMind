@@ -1,6 +1,5 @@
 """Resumable project phases: smoke, calibration, test, review packets, report."""
 
-import json
 import secrets
 from pathlib import Path
 
@@ -515,6 +514,7 @@ class ProjectPipeline:
         )
         private = LOCAL / "project/packets.json"
         results["packets"] = export_packets(self.root, private, queue)
+        packets = read(private)
         database = LOCAL / "reviews.sqlite3"
         store = ReviewStore(database)
         with store.connect() as conn:
@@ -524,15 +524,9 @@ class ProjectPipeline:
                 "reviewer1": secrets.token_urlsafe(24),
                 "reviewer2": secrets.token_urlsafe(24),
             }
-            store.initialize(credentials, read(private))
+            store.initialize(credentials, packets)
             write(LOCAL / "review_credentials.json", credentials)
-        with store.connect() as conn:
-            actual = {
-                ident: digest(json.loads(payload))
-                for ident, payload in conn.execute("SELECT id,data FROM packets")
-            }
-        expected = {str(packet["id"]): digest(packet) for packet in read(private)}
-        if actual != expected or store.statistics()["assigned_judgments"] != 400:
+        if not store.matches_release(packets):
             raise APIStopped(
                 "existing human-review store differs from the actual 200-pair release; preserve it for inspection"
             )
